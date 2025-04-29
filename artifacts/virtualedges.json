@@ -1,0 +1,257 @@
+{
+    "Ljava/lang/Thread": {
+        "run()V": [
+            "start()V"
+        ],
+        "<init>(Ljava/lang/Runnable;)V": [
+            "start()V"
+        ],
+        "<init>(Ljava/lang/Runnable;Ljava/lang/String;)V": [
+            "start()V"
+        ],
+        "<init>(Ljava/lang/ThreadGroup;Ljava/lang/Runnable;)V": [
+            "start()V"
+        ],
+        "<init>(Ljava/lang/ThreadGroup;Ljava/lang/Runnable;Ljava/lang/String;)V": [
+            "start()V"
+        ],
+        "<init>(Ljava/lang/ThreadGroup;Ljava/lang/Runnable;Ljava/lang/String;J)V": [
+            "start()V"
+        ]
+    },
+    "Ljava/util/concurrent/Executor": {
+        "run()V": [
+            "execute(Ljava/lang/Runnable;)V",
+            "post(Ljava/lang/Runnable;)Z",
+            "postAtFrontOfQueue(Ljava/lang/Runnable;)Z",
+            "postAtTime(Ljava/lang/Runnable;J)Z",
+            "postAtTime(Ljava/lang/Runnable;Ljava/lang/Object;J)Z",
+            "postDelayed(Ljava/lang/Runnable;J)Z"
+        ]
+    },
+    "Landroid/app/Activity": {
+        "run()V": [
+            "runOnUiThread(Ljava/lang/Runnable;)V"
+        ]
+    },
+    "Landroid/os/Handler": {
+        "handleMessage(Landroid/os/Message;)V": [
+            "sendEmptyMessage(I)Z",
+            "sendEmptyMessageAtTime(IJ)Z",
+            "sendEmptyMessageDelayed(IJ)Z",
+            "postAtTime(Ljava/lang/Runnable;J)Z",
+            "sendMessageAtFrontOfQueue(Landroid/os/Message;)Z",
+            "sendMessageAtTime(Landroid/os/Message;J)Z",
+            "sendMessageDelayed(Landroid/os/Message;J)Z"
+        ]
+    },
+    "Lorg/eclipse/jetty/client/api/Request": {
+        "onComplete(Lorg/eclipse/jetty/client/api/Result;)V": [
+            "send(Lorg/eclipse/jetty/client/api/Response$CompleteListener;)V"
+        ]
+    },
+    "Lorg/apache/http/nio/client/HttpAsyncClient": {
+        "completed(Lorg/apache/http/HttpResponse;)V": [
+            "execute(Lorg/apache/http/client/methods/HttpUriRequest;Lorg/apache/http/concurrent/FutureCallback;)Ljava/util/concurrent/Future;"
+        ]
+    },
+    "Landroid/os/AsyncTask": {
+        "doInBackground([Ljava/lang/Object[];)Ljava/lang/Object;": [
+            "execute([Ljava/lang/Object[];)Landroid/os/AsyncTask;"
+        ],
+        "onPreExecute()V": [
+            "execute([Ljava/lang/Object[];)Landroid/os/AsyncTask;"
+        ],
+        "onProgressUpdate([Ljava/lang/Object[];)V": [
+            "execute([Ljava/lang/Object[];)Landroid/os/AsyncTask;"
+        ],
+        "onPostExecute(Ljava/lang/Object;)V": [
+            "execute([Ljava/lang/Object[];)Landroid/os/AsyncTask;"
+        ]
+    },
+    "Lcom/android/volley/RequestQueue": {
+        "<init>(ILjava/lang/String;Lcom/android/volley/Response$ErrorListener;)V": [
+            "add(Lcom/android/volley/Request;)Lcom/android/volley/Request;"
+        ],
+        "onErrorResponse(Lcom/android/volley/VolleyError;)V": [
+            "add(Lcom/android/volley/Request;)Lcom/android/volley/Request;"
+        ],
+        "<init>(Ljava/lang/String;Lcom/android/volley/Response$ErrorListener;)V": [
+            "add(Lcom/android/volley/Request;)Lcom/android/volley/Request;"
+        ],
+        "<init>(ILjava/lang/String;Lcom/android/volley/Response$Listener;Lcom/android/volley/Response$ErrorListener;)V": [
+            "add(Lcom/android/volley/Request;)Lcom/android/volley/Request;"
+        ],
+        "onResponse(Ljava/lang/Object;)V": [
+            "add(Lcom/android/volley/Request;)Lcom/android/volley/Request;"
+        ],
+        "<init>(Ljava/lang/String;Lcom/android/volley/Response$Listener;Lcom/android/volley/Response$ErrorListener;)V": [
+            "add(Lcom/android/volley/Request;)Lcom/android/volley/Request;"
+        ]
+    },
+    "Ljava/io/File": {
+        "accept(Ljava/io/File;Ljava/lang/String;)Z": [
+            "list(Ljava/io/FilenameFilter;)[Ljava/lang/String[];",
+            "listFiles(Ljava/io/FilenameFilter;)[Ljava/io/File[];"
+        ],
+        "accept(Ljava/io/File;)Z": [
+            "listFiles(Ljava/io/FileFilter;)[Ljava/io/File[];"
+        ]
+    },
+    "Ljava/lang/reflect/Proxy": {
+        "invoke(Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object[];)Ljava/lang/Object;": [
+            "newProxyInstance(Ljava/lang/ClassLoader;[Ljava/lang/Class[];Ljava/lang/reflect/InvocationHandler;)Ljava/lang/Object;"
+        ]
+    },
+    "Ljava/net/URL": {
+        "createURLStreamHandler(Ljava/lang/String;)Ljava/net/URLStreamHandler;": [
+            "setURLStreamHandlerFactory(Ljava/net/URLStreamHandlerFactory;)V"
+        ]
+    },
+    "Lcom/google/android/gms/tasks/Task": {
+        "onComplete(Lcom/google/android/gms/tasks/Task;)V": [
+            "addOnCompleteListener(Lcom/google/android/gms/tasks/OnCompleteListener;)Lcom/google/android/gms/tasks/Task;",
+            "addOnCompleteListener(Landroid/app/Activity;Lcom/google/android/gms/tasks/OnCompleteListener;)Lcom/google/android/gms/tasks/Task;",
+            "addOnCompleteListener(Ljava/util/concurrent/Executor;Lcom/google/android/gms/tasks/OnCompleteListener;)Lcom/google/android/gms/tasks/Task;"
+        ],
+        "onFailure(Ljava/lang/Exception;)V": [
+            "addOnFailureListener(Lcom/google/android/gms/tasks/OnFailureListener;)Lcom/google/android/gms/tasks/Task;"
+        ],
+        "then(Lcom/google/android/gms/tasks/Task;)Ljava/lang/Object;": [
+            "continueWithTask(Ljava/util/concurrent/Executor;Lcom/google/android/gms/tasks/Continuation;)Lcom/google/android/gms/tasks/Task;"
+        ],
+        "call()Ljava/lang/Object;": [
+            "call(Ljava/util/concurrent/Executor;Ljava/util/concurrent/Callable;)Lcom/google/android/gms/tasks/Task;"
+        ]
+    },
+    "Lcom/google/android/gms/common/api/PendingResult": {
+        "onResult(Lcom/google/android/gms/common/api/Result;)V": [
+            "setResultCallback(Lcom/google/android/gms/common/api/ResultCallback;JLjava/util/concurrent/TimeUnit;)V"
+        ]
+    },
+    "Lcom/android/installreferrer/api/InstallReferrerClient": {
+        "onInstallReferrerSetupFinished(I)V": [
+            "startConnection(Lcom/android/installreferrer/api/InstallReferrerStateListener;)V"
+        ]
+    },
+    "Lkotlin/Lazy": {
+        "invoke()Ljava/lang/Object;": [
+            "lazy(Lkotlin/jvm/functions/Function0;)Lkotlin/Lazy;"
+        ]
+    },
+    "Lcom/google/ads/consent/ConsentInformation": {
+        "onFailedToUpdateConsentInfo(Ljava/lang/String;)V": [
+            "requestConsentInfoUpdate([Ljava/lang/String[];Lcom/google/ads/consent/ConsentInfoUpdateListener;)V"
+        ],
+        "onConsentInfoUpdated(Lcom/google/ads/consent/ConsentStatus;)V": [
+            "requestConsentInfoUpdate([Ljava/lang/String[];Lcom/google/ads/consent/ConsentInfoUpdateListener;)V"
+        ]
+    },
+    "Lcom/google/tagmanager/ContainerOpener": {
+        "containerAvailable(Lcom/google/tagmanager/Container;)V": [
+            "openContainer(Lcom/google/tagmanager/TagManager;Ljava/lang/String;Lcom/google/tagmanager/ContainerOpener$OpenType;Ljava/lang/Long;Lcom/google/tagmanager/ContainerOpener$Notifier;)V"
+        ]
+    },
+    "Lcom/android/billingclient/api/BillingClient": {
+        "onBillingSetupFinished(I)V": [
+            "startConnection(Lcom/android/billingclient/api/BillingClientStateListener;)V"
+        ]
+    },
+    "Lorg/apache/http/impl/client/CloseableHttpClient": {
+        "handleResponse(Lorg/apache/http/HttpResponse;)Ljava/lang/Object;": [
+            "execute(Lorg/apache/http/HttpHost;Lorg/apache/http/HttpRequest;Lorg/apache/http/client/ResponseHandler;)Ljava/lang/Object;",
+            "execute(Lorg/apache/http/client/methods/HttpUriRequest;Lorg/apache/http/client/ResponseHandler;)Ljava/lang/Object;"
+        ]
+    },
+    "Lorg/apache/http/protocol/BasicHttpProcessor": {
+        "process(Lorg/apache/http/HttpRequest;Lorg/apache/http/protocol/HttpContext;)V": [
+            "addRequestInterceptor(Lorg/apache/http/HttpRequestInterceptor;)V"
+        ],
+        "process(Lorg/apache/http/HttpResponse;Lorg/apache/http/protocol/HttpContext;)V": [
+            "addResponseInterceptor(Lorg/apache/http/HttpResponseInterceptor;)V"
+        ]
+    },
+    "Lorg/apache/http/client/methods/HttpEntityEnclosingRequestBase": {
+        "getContentType()Lorg/apache/http/Header;": [
+            "setEntity(Lorg/apache/http/HttpEntity;)V"
+        ]
+    },
+    "Lio/reactivex/rxjava3/core/Observable": {
+        "test(Ljava/lang/Object;)Z": [
+            "filter(Lio/reactivex/functions/Predicate;)Lio/reactivex/Observable;"
+        ]
+    },
+    "Lio/reactivex/rxjava3/core/Single": {
+        "accept(Ljava/lang/Object;)V": [
+            "subscribe(Lio/reactivex/functions/Consumer;)Lio/reactivex/disposables/Disposable;"
+        ],
+        "call()Ljava/lang/Object;": [
+            "fromCallable(Ljava/util/concurrent/Callable;)Lio/reactivex/Single;"
+        ],
+        "subscribe(Lio/reactivex/SingleEmitter;)V": [
+            "create(Lio/reactivex/SingleOnSubscribe;)Lio/reactivex/Single;"
+        ]
+    },
+    "Lio/reactivex/rxjava3/core/Maybe": {
+        "test(Ljava/lang/Object;)Z": [
+            "filter(Lio/reactivex/functions/Predicate;)Lio/reactivex/Maybe;"
+        ]
+    },
+    "Lokhttp3/OkHttpClient/Builder": {
+        "intercept(Lokhttp3/Interceptor$Chain;)Lokhttp3/Response;": [
+            "addInterceptor(Lokhttp3/Interceptor;)Lokhttp3/OkHttpClient$Builder;"
+        ]
+    },
+    "Lokhttp3/Call": {
+        "onFailure(Lokhttp3/Call;Ljava/io/IOException;)V": [
+            "enqueue(Lokhttp3/Callback;)V"
+        ],
+        "onResponse(Lokhttp3/Call;Lokhttp3/Response;)V": [
+            "enqueue(Lokhttp3/Callback;)V"
+        ]
+    },
+    "Landroidx/appcompat/widget/SearchView": {
+        "onQueryTextChange(Ljava/lang/String;)Z": [
+            "setOnQueryTextListener(Lcom/actionbarsherlock/widget/SearchView$OnQueryTextListener;)V"
+        ]
+    },
+    "Lcom/google/gson/GsonBuilder": {
+        "create(Lcom/google/gson/Gson;Lcom/google/gson/reflect/TypeToken;)Lcom/google/gson/TypeAdapter;": [
+            "registerTypeAdapterFactory(Lcom/google/gson/TypeAdapterFactory;)Lcom/google/gson/GsonBuilder;"
+        ],
+        "translateName(Ljava/lang/reflect/Field;)Ljava/lang/String;": [
+            "setFieldNamingStrategy(Lcom/google/gson/FieldNamingStrategy;)Lcom/google/gson/GsonBuilder;"
+        ]
+    },
+    "Lcom/facebook/react/uimanager/UIManagerModule": {
+        "execute(Lcom/facebook/react/uimanager/NativeViewHierarchyManager;)V": [
+            "addUIBlock(Lcom/facebook/react/uimanager/UIBlock;)V"
+        ]
+    },
+    "Lcom/bumptech/glide/BitmapRequestBuilder": {
+        "onResourceReady(Ljava/lang/Object;Ljava/lang/Object;Lcom/bumptech/glide/request/target/Target;ZZ)Z": [
+            "listener(Lcom/bumptech/glide/request/RequestListener;)Lcom/bumptech/glide/BitmapRequestBuilder;"
+        ]
+    },
+    "Ljava/util/Map": {
+        "apply(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;": [
+            "compute(Ljava/lang/Object;Ljava/util/function/BiFunction;)Ljava/lang/Object;",
+            "computeIfPresent(Ljava/lang/Object;Ljava/util/function/BiFunction;)Ljava/lang/Object;",
+            "merge(Ljava/lang/Object;Ljava/lang/Object;Ljava/util/function/BiFunction;)Ljava/lang/Object;",
+            "replaceAll(Ljava/util/function/BiFunction;)V"
+        ],
+        "apply(Ljava/lang/Object;)Ljava/lang/Object;": [
+            "computeIfAbsent(Ljava/lang/Object;Ljava/util/function/Function;)Ljava/lang/Object;"
+        ]
+    },
+    "Ljava/util/List": {
+        "apply(Ljava/lang/Object;)Ljava/lang/Object;": [
+            "replaceAll(Ljava/util/function/UnaryOperator;)V"
+        ]
+    },
+    "Ljava/util/Spliterator": {
+        "accept(Ljava/lang/Object;)V": [
+            "forEachRemaining(Ljava/util/function/Consumer;)V"
+        ]
+    }
+}

@@ -190,13 +190,6 @@ def static(
 )
 @click.option("-o", "--output", help="Path to the output directory")
 @click.option(
-    "-d",
-    "--device",
-    type=str,
-    help="Device ID to use for dynamic analysis",
-    required=True,
-)
-@click.option(
     "-frida",
     "--frida",
     is_flag=True,
@@ -232,6 +225,138 @@ def run(apk, instructions, output, frida, manual_setup, target):
 
     gaps_run = GAPSRUN(apk, output, manual_setup, frida)
     gaps_run.run(instructions, target)
+
+
+@cli.command("hybrid")
+@click.option(
+    "-i",
+    "--input",
+    type=click.Path(exists=True),
+    help="APK/DEX path file to disassemble",
+    required=True,
+)
+@click.option(
+    "-m", "--method", type=str, help="Target method to generate paths from"
+)
+@click.option(
+    "-cls",
+    "--class_name",
+    type=str,
+    help="Target class to generate paths from",
+)
+@click.option(
+    "-p_cls",
+    "--parent_class",
+    type=str,
+    help="Find target method invocation in a specific parent class",
+)
+@click.option(
+    "-sig",
+    "--signature",
+    type=str,
+    help="Target method signature in Smali format to build paths for it",
+)
+@click.option(
+    "-seed",
+    "--seed_file",
+    type=click.Path(exists=True),
+    help="Path to the file containing seed signatures",
+)
+@click.option(
+    "-custom_seed",
+    "--custom_seed_file",
+    type=click.Path(exists=True),
+    help="Path to the file containing custom seed signatures",
+)
+@click.option(
+    "-o",
+    "--output",
+    type=str,
+    help="Path to output directory",
+)
+@click.option(
+    "-cond",
+    "--conditional",
+    is_flag=True,
+    help="Generate paths that satisfy conditional statements",
+)
+@click.option(
+    "-l",
+    "--path_limit",
+    type=int,
+    default=1000,
+    help="Set an upper bound to the total number of paths reconstructed for each query (default: 1000)",
+)
+@click.option(
+    "-up",
+    "--unconstrained-paths",
+    is_flag=True,
+    help="Generate paths without constraints",
+)
+@click.option("-v", "--verbose", is_flag=True, help="Enable verbose output")
+@click.option("-d", "--debug", is_flag=True, help="Enable debug output")
+@click.option(
+    "-frida",
+    "--frida",
+    is_flag=True,
+    help="Use Frida for dynamic analysis",
+    default=True,
+)
+@click.option(
+    "-ms",
+    "--manual-setup",
+    is_flag=True,
+    help="Introduce a manual setup",
+    default=True,
+)
+@click.option(
+    "-t",
+    "--target",
+    is_flag=True,
+    help="Target a specific method",
+)
+def hybrid(
+    input,
+    method,
+    class_name,
+    parent_class,
+    signature,
+    seed_file,
+    custom_seed_file,
+    output,
+    conditional,
+    path_limit,
+    unconstrained_paths,
+    verbose,
+    debug,
+    frida,
+    manual_setup,
+    target,
+):
+    """
+    Initializes and starts the path finding process.
+    """
+
+    static(
+        input,
+        method,
+        class_name,
+        parent_class,
+        signature,
+        seed_file,
+        custom_seed_file,
+        output,
+        conditional,
+        path_limit,
+        unconstrained_paths,
+        verbose,
+        debug,
+    )
+
+    file_name = os.path.splitext(os.path.basename(input))[0]
+    instructions = os.path.join(output, f"{file_name}-instr.json")
+
+    run(input, instructions, output, frida, manual_setup, target)
 
 
 if __name__ == "__main__":

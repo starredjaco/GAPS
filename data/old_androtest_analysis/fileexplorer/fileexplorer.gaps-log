@@ -1,5 +1,0 @@
-COMPONENT CONCAT > Lnet/micode/fileexplorer/Util;->showNotification(Landroid/content/Context;Landroid/content/Intent;Ljava/lang/String;Ljava/lang/String;I)V < extends Ljava/lang/Object, implements []
-MISSING ID > Lnet/micode/fileexplorer/ServerControlActivity;->onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View; <
-COMPONENT CONCAT > Lnet/micode/fileexplorer/FileListCursorAdapter;->bindView(Landroid/view/View;Landroid/content/Context;Landroid/database/Cursor;)V < extends Landroid/widget/CursorAdapter, implements []
-COMPONENT CONCAT > Lnet/micode/fileexplorer/FavoriteListAdapter;->getView(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View; < extends Landroid/widget/ArrayAdapter, implements []
-COMPONENT CONCAT > Lnet/micode/fileexplorer/MimeUtils;-><clinit>()V < extends Ljava/lang/Object, implements []

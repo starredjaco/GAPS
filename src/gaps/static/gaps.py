@@ -34,6 +34,8 @@ ARTIFACTS_DIR = Path(__file__).parent.parent.parent.parent / "artifacts"
 
 IMPLICIT_EDGES = ARTIFACTS_DIR / "implicit_edges.json"
 
+VIRTUAL_EDGES = ARTIFACTS_DIR / "virtualedges.json"
+
 ###############################################################################
 # CODE
 ###############################################################################
@@ -245,8 +247,15 @@ class GAPS:
         except FileNotFoundError:
             LOG.error("[!] NO IMPLICIT EDGES FOUND")
 
+        try:
+            with VIRTUAL_EDGES.open() as f:
+                virtual_edges = json.load(f)
+                self.implicit_edges.update(virtual_edges)
+        except FileNotFoundError:
+            LOG.error("[!] NO VIRTUAL EDGES FOUND")
+
         if len(self.implicit_edges.keys()) == 0:
-            LOG.error("[!] NO IMPLICIT EDGES FOUND")
+            LOG.error("[!] NO CALLBACK EDGES FOUND")
 
     def _disassemble_app(self, ext):
         """

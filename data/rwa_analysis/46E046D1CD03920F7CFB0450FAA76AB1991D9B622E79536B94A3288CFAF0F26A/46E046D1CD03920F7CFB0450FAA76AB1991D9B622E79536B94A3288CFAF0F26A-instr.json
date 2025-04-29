@@ -1,0 +1,622 @@
+{
+    "Lcom/applovin/impl/sm;->c()Ljava/util/concurrent/Executor;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/applovin/impl/b4;->a(Lcom/applovin/impl/sdk/network/a;Lcom/applovin/impl/b4$b;Lcom/applovin/impl/b4$e;)V <",
+                "> Lcom/applovin/impl/en;->run()V <",
+                "> Lcom/applovin/impl/fm$b;-><init>(Lcom/applovin/impl/fm;Lcom/applovin/impl/sdk/network/a;Lcom/applovin/impl/sdk/k;)V <",
+                "> Lcom/applovin/impl/fm;->e()V <",
+                "> Lcom/applovin/impl/fm;->run()V <",
+                "> Lcom/applovin/impl/sdk/network/PostbackServiceImpl;->dispatchPostbackRequest(Lcom/applovin/impl/sdk/network/e;Lcom/applovin/impl/sm$b;Lcom/applovin/sdk/AppLovinPostbackListener;)V <",
+                "> Lcom/applovin/impl/sdk/network/PostbackServiceImpl;->dispatchPostbackRequest(Lcom/applovin/impl/sdk/network/e;Lcom/applovin/sdk/AppLovinPostbackListener;)V <",
+                "> Lcom/applovin/impl/sdk/network/b;->a(Lcom/applovin/impl/sdk/network/d;Lcom/applovin/sdk/AppLovinPostbackListener;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.applovin.application_paused",
+                    "start -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/applovin/impl/b4;->a(Lcom/applovin/impl/sdk/network/a;Lcom/applovin/impl/b4$b;Lcom/applovin/impl/b4$e;)V <",
+                "> Lcom/applovin/impl/en;->run()V <",
+                "> Lcom/applovin/impl/fm$b;-><init>(Lcom/applovin/impl/fm;Lcom/applovin/impl/sdk/network/a;Lcom/applovin/impl/sdk/k;)V <",
+                "> Lcom/applovin/impl/fm;->e()V <",
+                "> Lcom/applovin/impl/fm;->run()V <",
+                "> Lcom/applovin/impl/sdk/network/PostbackServiceImpl;->dispatchPostbackRequest(Lcom/applovin/impl/sdk/network/e;Lcom/applovin/impl/sm$b;Lcom/applovin/sdk/AppLovinPostbackListener;)V <",
+                "> Lcom/applovin/impl/sdk/network/PostbackServiceImpl;->dispatchPostbackRequest(Lcom/applovin/impl/sdk/network/e;Lcom/applovin/sdk/AppLovinPostbackListener;)V <",
+                "> Lcom/applovin/impl/sdk/network/b;->a(Lcom/applovin/impl/sdk/network/d;Lcom/applovin/sdk/AppLovinPostbackListener;)V <",
+                "> Lcom/applovin/impl/sdk/network/b;->b(Lcom/applovin/impl/sdk/network/d;Lcom/applovin/sdk/AppLovinPostbackListener;)V <",
+                "> Lcom/applovin/impl/sdk/network/b;->e(Lcom/applovin/impl/sdk/network/b;Lcom/applovin/impl/sdk/network/d;Lcom/applovin/sdk/AppLovinPostbackListener;)V <",
+                "> Lcom/applovin/impl/sdk/network/g;->run()V <",
+                "> Lcom/applovin/impl/sdk/network/b;->a(Lcom/applovin/impl/sdk/network/d;ZLcom/applovin/sdk/AppLovinPostbackListener;)V <",
+                "> Lcom/applovin/impl/sdk/network/b;->a(Lcom/applovin/impl/sdk/network/d;Z)V <",
+                "> Lcom/applovin/impl/sdk/network/b;->e(Lcom/applovin/impl/sdk/network/d;)V <",
+                "> Lcom/applovin/impl/sdk/EventServiceImpl;->a(Lcom/applovin/impl/t7;Ljava/util/Map;Z)V <",
+                "> Lcom/applovin/impl/sdk/EventServiceImpl;->a(Lcom/applovin/impl/sdk/EventServiceImpl;Lcom/applovin/impl/t7;Ljava/util/Map;Z)V <",
+                "> Lcom/applovin/impl/sdk/c0;->run()V <",
+                "> Lcom/applovin/impl/sdk/EventServiceImpl;->trackEvent(Ljava/lang/String;Ljava/util/Map;Ljava/util/Map;)V <",
+                "> Lcom/applovin/impl/sdk/EventServiceImpl;->trackEvent(Ljava/lang/String;Ljava/util/Map;)V <",
+                "> Lcom/applovin/impl/sdk/EventServiceImpl;->trackEvent(Ljava/lang/String;)V <",
+                "> Lcom/applovin/impl/sdk/SessionTracker;->c()V <",
+                "> Lcom/applovin/impl/sdk/SessionTracker;->a()V <",
+                "> Lcom/applovin/impl/sdk/SessionTracker;->c(Lcom/applovin/impl/sdk/SessionTracker;)V <",
+                "> Lcom/applovin/impl/sdk/SessionTracker$b;->onTrimMemory(I)V <",
+                "> Lcom/applovin/impl/sdk/SessionTracker;-><init>(Lcom/applovin/impl/sdk/k;)V <",
+                "> Lcom/applovin/impl/sdk/k;->f0()Lcom/applovin/impl/sdk/SessionTracker; <",
+                "> Lcom/applovin/impl/sdk/d;->f()V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/applovin/impl/sdk/d;->j()V <",
+                "----- CONDITIONAL -----"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.applovin.fullscreen_ad_hidden",
+                    "start -a"
+                ],
+                "----- CONDITIONAL -----",
+                "----- CONDITIONAL -----",
+                [
+                    "intent",
+                    "com.applovin.application_resumed",
+                    "start -a"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/applovin/impl/b4;->a(Lcom/applovin/impl/sdk/network/a;Lcom/applovin/impl/b4$b;Lcom/applovin/impl/b4$e;)V <",
+                "> Lcom/applovin/impl/en;->run()V <",
+                "> Lcom/applovin/impl/fm$b;-><init>(Lcom/applovin/impl/fm;Lcom/applovin/impl/sdk/network/a;Lcom/applovin/impl/sdk/k;)V <",
+                "> Lcom/applovin/impl/fm;->e()V <",
+                "> Lcom/applovin/impl/fm;->run()V <",
+                "> Lcom/applovin/impl/sdk/network/PostbackServiceImpl;->dispatchPostbackRequest(Lcom/applovin/impl/sdk/network/e;Lcom/applovin/impl/sm$b;Lcom/applovin/sdk/AppLovinPostbackListener;)V <",
+                "> Lcom/applovin/impl/sdk/network/PostbackServiceImpl;->dispatchPostbackRequest(Lcom/applovin/impl/sdk/network/e;Lcom/applovin/sdk/AppLovinPostbackListener;)V <",
+                "> Lcom/applovin/impl/sdk/network/b;->a(Lcom/applovin/impl/sdk/network/d;Lcom/applovin/sdk/AppLovinPostbackListener;)V <",
+                "> Lcom/applovin/impl/sdk/network/b;->b(Lcom/applovin/impl/sdk/network/d;Lcom/applovin/sdk/AppLovinPostbackListener;)V <",
+                "> Lcom/applovin/impl/sdk/network/b;->e(Lcom/applovin/impl/sdk/network/b;Lcom/applovin/impl/sdk/network/d;Lcom/applovin/sdk/AppLovinPostbackListener;)V <",
+                "> Lcom/applovin/impl/sdk/network/g;->run()V <",
+                "> Lcom/applovin/impl/sdk/network/b;->a(Lcom/applovin/impl/sdk/network/d;ZLcom/applovin/sdk/AppLovinPostbackListener;)V <",
+                "> Lcom/applovin/impl/sdk/network/b;->a(Lcom/applovin/impl/sdk/network/d;Z)V <",
+                "> Lcom/applovin/impl/sdk/network/b;->e(Lcom/applovin/impl/sdk/network/d;)V <",
+                "> Lcom/applovin/impl/sdk/EventServiceImpl;->a(Lcom/applovin/impl/t7;Ljava/util/Map;Z)V <",
+                "> Lcom/applovin/impl/sdk/EventServiceImpl;->a(Lcom/applovin/impl/sdk/EventServiceImpl;Lcom/applovin/impl/t7;Ljava/util/Map;Z)V <",
+                "> Lcom/applovin/impl/sdk/c0;->run()V <",
+                "> Lcom/applovin/impl/sdk/EventServiceImpl;->trackEvent(Ljava/lang/String;Ljava/util/Map;Ljava/util/Map;)V <",
+                "> Lcom/applovin/impl/sdk/EventServiceImpl;->trackEvent(Ljava/lang/String;Ljava/util/Map;)V <",
+                "> Lcom/applovin/impl/sdk/EventServiceImpl;->trackEvent(Ljava/lang/String;)V <",
+                "> Lcom/applovin/impl/sdk/SessionTracker;->c()V <",
+                "> Lcom/applovin/impl/sdk/SessionTracker;->a()V <",
+                "> Lcom/applovin/impl/sdk/SessionTracker;->c(Lcom/applovin/impl/sdk/SessionTracker;)V <",
+                "> Lcom/applovin/impl/sdk/SessionTracker$b;->onTrimMemory(I)V <",
+                "> Lcom/applovin/impl/sdk/SessionTracker;-><init>(Lcom/applovin/impl/sdk/k;)V <",
+                "> Lcom/applovin/impl/sdk/k;->f0()Lcom/applovin/impl/sdk/SessionTracker; <",
+                "> Lcom/applovin/impl/sdk/d;->a(J)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.applovin.application_resumed",
+                    "start -a"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/applovin/impl/b4;->a(Lcom/applovin/impl/sdk/network/a;Lcom/applovin/impl/b4$b;Lcom/applovin/impl/b4$e;)V <",
+                "> Lcom/applovin/impl/en;->run()V <",
+                "> Lcom/applovin/impl/fm$b;-><init>(Lcom/applovin/impl/fm;Lcom/applovin/impl/sdk/network/a;Lcom/applovin/impl/sdk/k;)V <",
+                "> Lcom/applovin/impl/fm;->e()V <",
+                "> Lcom/applovin/impl/fm;->run()V <",
+                "> Lcom/applovin/impl/sdk/network/PostbackServiceImpl;->dispatchPostbackRequest(Lcom/applovin/impl/sdk/network/e;Lcom/applovin/impl/sm$b;Lcom/applovin/sdk/AppLovinPostbackListener;)V <",
+                "> Lcom/applovin/impl/sdk/network/PostbackServiceImpl;->dispatchPostbackRequest(Lcom/applovin/impl/sdk/network/e;Lcom/applovin/sdk/AppLovinPostbackListener;)V <",
+                "> Lcom/applovin/impl/sdk/network/b;->a(Lcom/applovin/impl/sdk/network/d;Lcom/applovin/sdk/AppLovinPostbackListener;)V <",
+                "> Lcom/applovin/impl/sdk/network/b;->b(Lcom/applovin/impl/sdk/network/d;Lcom/applovin/sdk/AppLovinPostbackListener;)V <",
+                "> Lcom/applovin/impl/sdk/network/b;->e(Lcom/applovin/impl/sdk/network/b;Lcom/applovin/impl/sdk/network/d;Lcom/applovin/sdk/AppLovinPostbackListener;)V <",
+                "> Lcom/applovin/impl/sdk/network/g;->run()V <",
+                "> Lcom/applovin/impl/sdk/network/b;->a(Lcom/applovin/impl/sdk/network/d;ZLcom/applovin/sdk/AppLovinPostbackListener;)V <",
+                "> Lcom/applovin/impl/sdk/network/b;->a(Lcom/applovin/impl/sdk/network/d;Z)V <",
+                "> Lcom/applovin/impl/sdk/network/b;->e(Lcom/applovin/impl/sdk/network/d;)V <",
+                "> Lcom/applovin/impl/sdk/EventServiceImpl;->a(Lcom/applovin/impl/t7;Ljava/util/Map;Z)V <",
+                "> Lcom/applovin/impl/sdk/EventServiceImpl;->a(Lcom/applovin/impl/sdk/EventServiceImpl;Lcom/applovin/impl/t7;Ljava/util/Map;Z)V <",
+                "> Lcom/applovin/impl/sdk/c0;->run()V <",
+                "> Lcom/applovin/impl/sdk/EventServiceImpl;->trackEvent(Ljava/lang/String;Ljava/util/Map;Ljava/util/Map;)V <",
+                "> Lcom/applovin/impl/sdk/EventServiceImpl;->trackEvent(Ljava/lang/String;Ljava/util/Map;)V <",
+                "> Lcom/applovin/impl/sdk/EventServiceImpl;->trackEvent(Ljava/lang/String;)V <",
+                "> Lcom/applovin/impl/sdk/SessionTracker;->c()V <",
+                "> Lcom/applovin/impl/sdk/SessionTracker;->a()V <",
+                "> Lcom/applovin/impl/sdk/SessionTracker;->c(Lcom/applovin/impl/sdk/SessionTracker;)V <",
+                "> Lcom/applovin/impl/sdk/SessionTracker$c;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.SCREEN_OFF",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lcom/applovin/impl/b4;->a(Lcom/applovin/impl/sdk/network/a;Lcom/applovin/impl/b4$b;Lcom/applovin/impl/b4$e;)V <",
+                "> Lcom/applovin/impl/en;->run()V <",
+                "> Lcom/applovin/impl/jn$a;-><init>(Lcom/applovin/impl/jn;Lcom/applovin/impl/sdk/network/a;Lcom/applovin/impl/sdk/k;Lcom/applovin/impl/b4$e;)V <",
+                "> Lcom/applovin/impl/jn;->a(Lorg/json/JSONObject;Lcom/applovin/impl/b4$e;)V <",
+                "> Lcom/applovin/impl/nn;->run()V <",
+                "> Lcom/applovin/impl/mn;-><init>(Lcom/applovin/impl/de;Lcom/applovin/impl/sdk/k;)V <",
+                "> Lcom/applovin/impl/mediation/MediationServiceImpl;->a(Lcom/applovin/impl/de;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.applovin.render_process_gone",
+                    "start -a"
+                ]
+            ]
+        },
+        "path_5": {
+            "call_sequence": [
+                "> Lcom/applovin/impl/b4;->a(Lcom/applovin/impl/sdk/network/a;Lcom/applovin/impl/b4$b;Lcom/applovin/impl/b4$e;)V <",
+                "> Lcom/applovin/impl/en;->run()V <",
+                "> Lcom/applovin/impl/fm$b;-><init>(Lcom/applovin/impl/fm;Lcom/applovin/impl/sdk/network/a;Lcom/applovin/impl/sdk/k;)V <",
+                "> Lcom/applovin/impl/fm;->e()V <",
+                "> Lcom/applovin/impl/fm;->run()V <",
+                "> Lcom/applovin/impl/sdk/network/PostbackServiceImpl;->dispatchPostbackRequest(Lcom/applovin/impl/sdk/network/e;Lcom/applovin/impl/sm$b;Lcom/applovin/sdk/AppLovinPostbackListener;)V <",
+                "> Lcom/applovin/impl/sdk/network/PostbackServiceImpl;->dispatchPostbackRequest(Lcom/applovin/impl/sdk/network/e;Lcom/applovin/sdk/AppLovinPostbackListener;)V <",
+                "> Lcom/applovin/impl/sdk/network/b;->a(Lcom/applovin/impl/sdk/network/d;Lcom/applovin/sdk/AppLovinPostbackListener;)V <",
+                "> Lcom/applovin/impl/sdk/network/b;->b(Lcom/applovin/impl/sdk/network/d;Lcom/applovin/sdk/AppLovinPostbackListener;)V <",
+                "> Lcom/applovin/impl/sdk/network/b;->e(Lcom/applovin/impl/sdk/network/b;Lcom/applovin/impl/sdk/network/d;Lcom/applovin/sdk/AppLovinPostbackListener;)V <",
+                "> Lcom/applovin/impl/sdk/network/g;->run()V <",
+                "> Lcom/applovin/impl/sdk/network/b;->a(Lcom/applovin/impl/sdk/network/d;ZLcom/applovin/sdk/AppLovinPostbackListener;)V <",
+                "> Lcom/applovin/impl/sdk/network/b;->a(Lcom/applovin/impl/sdk/network/d;Z)V <",
+                "> Lcom/applovin/impl/sdk/network/b;->e(Lcom/applovin/impl/sdk/network/d;)V <",
+                "> Lcom/applovin/impl/sdk/EventServiceImpl;->a(Lcom/applovin/impl/t7;Ljava/util/Map;Z)V <",
+                "> Lcom/applovin/impl/sdk/EventServiceImpl;->a(Lcom/applovin/impl/sdk/EventServiceImpl;Lcom/applovin/impl/t7;Ljava/util/Map;Z)V <",
+                "> Lcom/applovin/impl/sdk/c0;->run()V <",
+                "> Lcom/applovin/impl/sdk/EventServiceImpl;->trackEvent(Ljava/lang/String;Ljava/util/Map;Ljava/util/Map;)V <",
+                "> Lcom/applovin/impl/sdk/EventServiceImpl;->trackEvent(Ljava/lang/String;Ljava/util/Map;)V <",
+                "> Lcom/applovin/impl/sdk/EventServiceImpl;->trackEvent(Ljava/lang/String;)V <",
+                "> Lcom/applovin/impl/sdk/SessionTracker;->c()V <",
+                "> Lcom/applovin/impl/sdk/SessionTracker;->a()V <",
+                "> Lcom/applovin/impl/sdk/SessionTracker;->c(Lcom/applovin/impl/sdk/SessionTracker;)V <",
+                "> Lcom/applovin/impl/sdk/SessionTracker$b;->onTrimMemory(I)V <",
+                "> Lcom/applovin/impl/sdk/SessionTracker;-><init>(Lcom/applovin/impl/sdk/k;)V <",
+                "> Lcom/applovin/impl/sdk/k;->f0()Lcom/applovin/impl/sdk/SessionTracker; <",
+                "> Lcom/applovin/impl/sdk/l;->a(Ljava/util/Map;Z)Ljava/util/Map; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.BATTERY_CHANGED",
+                    "start -a"
+                ]
+            ]
+        },
+        "path_6": {
+            "call_sequence": [
+                "> Lcom/applovin/impl/b4;->a(Lcom/applovin/impl/sdk/network/a;Lcom/applovin/impl/b4$b;Lcom/applovin/impl/b4$e;)V <",
+                "> Lcom/applovin/impl/en;->run()V <",
+                "> Lcom/applovin/impl/jn$a;-><init>(Lcom/applovin/impl/jn;Lcom/applovin/impl/sdk/network/a;Lcom/applovin/impl/sdk/k;Lcom/applovin/impl/b4$e;)V <",
+                "> Lcom/applovin/impl/jn;->a(Lorg/json/JSONObject;Lcom/applovin/impl/b4$e;)V <",
+                "> Lcom/applovin/impl/hn;->run()V <",
+                "> Lcom/applovin/impl/fn;-><init>(Lcom/applovin/impl/sdk/ad/b;Lcom/applovin/impl/sdk/k;)V <",
+                "> Lcom/applovin/impl/n9;->n()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.applovin.al_onPoststitialShow_evaluation_error",
+                    "start -a"
+                ]
+            ]
+        }
+    },
+    "Lbh/b;->i(Lwg/a;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lwg/p;->a(Lbh/b;)V <",
+                "> Lvg/d;-><init>(Lcom/airbnb/lottie/o;Lbh/b;Ljava/lang/String;ZLjava/util/List;Lzg/l;)V <",
+                "> Lvg/d;-><init>(Lcom/airbnb/lottie/o;Lbh/b;Lah/q;Ltg/i;)V <",
+                "> Lbh/g;-><init>(Lcom/airbnb/lottie/o;Lbh/e;Lbh/c;Ltg/i;)V <",
+                "> Lbh/b;->u(Lbh/c;Lbh/e;Lcom/airbnb/lottie/o;Ltg/i;)Lbh/b; <",
+                "> Lbh/c;-><init>(Lcom/airbnb/lottie/o;Lbh/e;Ljava/util/List;Ltg/i;)V <",
+                "> Lcom/airbnb/lottie/o;->t()V <",
+                "> Lcom/airbnb/lottie/o;->A(Z)V <",
+                "> Lcom/airbnb/lottie/LottieAnimationView;->n(Z)V <",
+                "> Lcom/airbnb/lottie/LottieAnimationView;->q(Landroid/util/AttributeSet;I)V <",
+                "> Lcom/airbnb/lottie/LottieAnimationView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V <",
+                "> Lr40/a;->b()V <",
+                "> La70/e;->i(Lm70/k0;)V <",
+                "> Lm70/k0;->b()V <",
+                "> Lx60/f;->onViewRecycled(Landroidx/recyclerview/widget/RecyclerView$e0;)V <",
+                "> Lmobi/ifunny/comments/NewCommentsFragment;->V1(Lmobi/ifunny/comments/NewCommentsFragment;)Lx60/f; <",
+                "> Lmobi/ifunny/comments/NewCommentsFragment$f;->c(Landroidx/recyclerview/widget/RecyclerView;I)V <",
+                "> Lka0/w$a;->g(Landroidx/fragment/app/FragmentManager;Landroidx/fragment/app/Fragment;Landroid/content/Context;)V <",
+                "> Lka0/w;-><init>(Lka0/t;)V <",
+                "> Lka0/a;-><init>(Landroid/app/Application;Lka0/t;)V <",
+                "> Lka0/x;->h(Lmobi/ifunny/app/IFunnyApplication;Lka0/t;)V <",
+                "> Lmobi/ifunny/app/IFunnyApplication;->r()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lwg/p;->a(Lbh/b;)V <",
+                "> Lvg/d;-><init>(Lcom/airbnb/lottie/o;Lbh/b;Ljava/lang/String;ZLjava/util/List;Lzg/l;)V <",
+                "> Lvg/d;-><init>(Lcom/airbnb/lottie/o;Lbh/b;Lah/q;Ltg/i;)V <",
+                "> Lbh/g;-><init>(Lcom/airbnb/lottie/o;Lbh/e;Lbh/c;Ltg/i;)V <",
+                "> Lbh/b;->u(Lbh/c;Lbh/e;Lcom/airbnb/lottie/o;Ltg/i;)Lbh/b; <",
+                "> Lbh/c;-><init>(Lcom/airbnb/lottie/o;Lbh/e;Ljava/util/List;Ltg/i;)V <",
+                "> Lcom/airbnb/lottie/o;->t()V <",
+                "> Lcom/airbnb/lottie/o;->A(Z)V <",
+                "> Lcom/airbnb/lottie/LottieAnimationView;->n(Z)V <",
+                "> Lcom/airbnb/lottie/LottieAnimationView;->q(Landroid/util/AttributeSet;I)V <",
+                "> Lcom/airbnb/lottie/LottieAnimationView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V <",
+                "> Lr40/a;->b()V <",
+                "> La70/e;->i(Lm70/k0;)V <",
+                "> Lm70/k0;->b()V <",
+                "> Lx60/f;->onViewRecycled(Landroidx/recyclerview/widget/RecyclerView$e0;)V <",
+                "> Lmobi/ifunny/comments/NewCommentsFragment;->V1(Lmobi/ifunny/comments/NewCommentsFragment;)Lx60/f; <",
+                "> Lmobi/ifunny/comments/NewCommentsFragment$f;->d(Landroidx/recyclerview/widget/RecyclerView;II)V <",
+                "> Lka0/w$a;->g(Landroidx/fragment/app/FragmentManager;Landroidx/fragment/app/Fragment;Landroid/content/Context;)V <",
+                "> Lka0/w;-><init>(Lka0/t;)V <",
+                "> Lka0/a;-><init>(Landroid/app/Application;Lka0/t;)V <",
+                "> Lka0/x;->h(Lmobi/ifunny/app/IFunnyApplication;Lka0/t;)V <",
+                "> Lmobi/ifunny/app/IFunnyApplication;->r()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lbh/c;-><init>(Lcom/airbnb/lottie/o;Lbh/e;Ljava/util/List;Ltg/i;)V <",
+                "> Lcom/airbnb/lottie/o;->t()V <",
+                "> Lcom/airbnb/lottie/o;->A(Z)V <",
+                "> Lcom/airbnb/lottie/LottieAnimationView;->n(Z)V <",
+                "> Lcom/airbnb/lottie/LottieAnimationView;->q(Landroid/util/AttributeSet;I)V <",
+                "> Lcom/airbnb/lottie/LottieAnimationView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V <",
+                "> Lr40/a;->b()V <",
+                "> La70/e;->i(Lm70/k0;)V <",
+                "> Lm70/k0;->b()V <",
+                "> Lx60/f;->onViewRecycled(Landroidx/recyclerview/widget/RecyclerView$e0;)V <",
+                "> Lmobi/ifunny/comments/NewCommentsFragment;->V1(Lmobi/ifunny/comments/NewCommentsFragment;)Lx60/f; <",
+                "> Lmobi/ifunny/comments/NewCommentsFragment$f;->c(Landroidx/recyclerview/widget/RecyclerView;I)V <",
+                "> Lka0/w$a;->g(Landroidx/fragment/app/FragmentManager;Landroidx/fragment/app/Fragment;Landroid/content/Context;)V <",
+                "> Lka0/w;-><init>(Lka0/t;)V <",
+                "> Lka0/a;-><init>(Landroid/app/Application;Lka0/t;)V <",
+                "> Lka0/x;->h(Lmobi/ifunny/app/IFunnyApplication;Lka0/t;)V <",
+                "> Lmobi/ifunny/app/IFunnyApplication;->r()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lbh/c;-><init>(Lcom/airbnb/lottie/o;Lbh/e;Ljava/util/List;Ltg/i;)V <",
+                "> Lcom/airbnb/lottie/o;->t()V <",
+                "> Lcom/airbnb/lottie/o;->A(Z)V <",
+                "> Lcom/airbnb/lottie/LottieAnimationView;->n(Z)V <",
+                "> Lcom/airbnb/lottie/LottieAnimationView;->q(Landroid/util/AttributeSet;I)V <",
+                "> Lcom/airbnb/lottie/LottieAnimationView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V <",
+                "> Lr40/a;->b()V <",
+                "> La70/e;->i(Lm70/k0;)V <",
+                "> Lm70/k0;->b()V <",
+                "> Lx60/f;->onViewRecycled(Landroidx/recyclerview/widget/RecyclerView$e0;)V <",
+                "> Lmobi/ifunny/comments/NewCommentsFragment;->V1(Lmobi/ifunny/comments/NewCommentsFragment;)Lx60/f; <",
+                "> Lmobi/ifunny/comments/NewCommentsFragment$f;->d(Landroidx/recyclerview/widget/RecyclerView;II)V <",
+                "> Lka0/w$a;->g(Landroidx/fragment/app/FragmentManager;Landroidx/fragment/app/Fragment;Landroid/content/Context;)V <",
+                "> Lka0/w;-><init>(Lka0/t;)V <",
+                "> Lka0/a;-><init>(Landroid/app/Application;Lka0/t;)V <",
+                "> Lka0/x;->h(Lmobi/ifunny/app/IFunnyApplication;Lka0/t;)V <",
+                "> Lmobi/ifunny/app/IFunnyApplication;->r()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lbh/c;->g(Ljava/lang/Object;Lgh/c;)V <",
+                "> Lcom/airbnb/lottie/o;->r(Lyg/e;Ljava/lang/Object;Lgh/c;)V <",
+                "> Lcom/airbnb/lottie/LottieAnimationView;->j(Lyg/e;Ljava/lang/Object;Lgh/c;)V <",
+                "> Lcom/airbnb/lottie/LottieAnimationView;->q(Landroid/util/AttributeSet;I)V <",
+                "> Lcom/airbnb/lottie/LottieAnimationView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V <",
+                "> Lr40/a;->b()V <",
+                "> La70/e;->i(Lm70/k0;)V <",
+                "> Lm70/k0;->b()V <",
+                "> Lx60/f;->onViewRecycled(Landroidx/recyclerview/widget/RecyclerView$e0;)V <",
+                "> Lmobi/ifunny/comments/NewCommentsFragment;->V1(Lmobi/ifunny/comments/NewCommentsFragment;)Lx60/f; <",
+                "> Lmobi/ifunny/comments/NewCommentsFragment$f;->c(Landroidx/recyclerview/widget/RecyclerView;I)V <",
+                "> Lka0/w$a;->g(Landroidx/fragment/app/FragmentManager;Landroidx/fragment/app/Fragment;Landroid/content/Context;)V <",
+                "> Lka0/w;-><init>(Lka0/t;)V <",
+                "> Lka0/a;-><init>(Landroid/app/Application;Lka0/t;)V <",
+                "> Lka0/x;->h(Lmobi/ifunny/app/IFunnyApplication;Lka0/t;)V <",
+                "> Lmobi/ifunny/app/IFunnyApplication;->r()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_5": {
+            "call_sequence": [
+                "> Lbh/c;->g(Ljava/lang/Object;Lgh/c;)V <",
+                "> Lcom/airbnb/lottie/o;->r(Lyg/e;Ljava/lang/Object;Lgh/c;)V <",
+                "> Lcom/airbnb/lottie/LottieAnimationView;->j(Lyg/e;Ljava/lang/Object;Lgh/c;)V <",
+                "> Lcom/airbnb/lottie/LottieAnimationView;->q(Landroid/util/AttributeSet;I)V <",
+                "> Lcom/airbnb/lottie/LottieAnimationView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V <",
+                "> Lr40/a;->b()V <",
+                "> La70/e;->i(Lm70/k0;)V <",
+                "> Lm70/k0;->b()V <",
+                "> Lx60/f;->onViewRecycled(Landroidx/recyclerview/widget/RecyclerView$e0;)V <",
+                "> Lmobi/ifunny/comments/NewCommentsFragment;->V1(Lmobi/ifunny/comments/NewCommentsFragment;)Lx60/f; <",
+                "> Lmobi/ifunny/comments/NewCommentsFragment$f;->d(Landroidx/recyclerview/widget/RecyclerView;II)V <",
+                "> Lka0/w$a;->g(Landroidx/fragment/app/FragmentManager;Landroidx/fragment/app/Fragment;Landroid/content/Context;)V <",
+                "> Lka0/w;-><init>(Lka0/t;)V <",
+                "> Lka0/a;-><init>(Landroid/app/Application;Lka0/t;)V <",
+                "> Lka0/x;->h(Lmobi/ifunny/app/IFunnyApplication;Lka0/t;)V <",
+                "> Lmobi/ifunny/app/IFunnyApplication;->r()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_6": {
+            "call_sequence": [
+                "> Lbh/i;-><init>(Lcom/airbnb/lottie/o;Lbh/e;)V <",
+                "> Lbh/b;->u(Lbh/c;Lbh/e;Lcom/airbnb/lottie/o;Ltg/i;)Lbh/b; <",
+                "> Lbh/c;-><init>(Lcom/airbnb/lottie/o;Lbh/e;Ljava/util/List;Ltg/i;)V <",
+                "> Lcom/airbnb/lottie/o;->t()V <",
+                "> Lcom/airbnb/lottie/o;->A(Z)V <",
+                "> Lcom/airbnb/lottie/LottieAnimationView;->n(Z)V <",
+                "> Lcom/airbnb/lottie/LottieAnimationView;->q(Landroid/util/AttributeSet;I)V <",
+                "> Lcom/airbnb/lottie/LottieAnimationView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V <",
+                "> Lr40/a;->b()V <",
+                "> La70/e;->i(Lm70/k0;)V <",
+                "> Lm70/k0;->b()V <",
+                "> Lx60/f;->onViewRecycled(Landroidx/recyclerview/widget/RecyclerView$e0;)V <",
+                "> Lmobi/ifunny/comments/NewCommentsFragment;->V1(Lmobi/ifunny/comments/NewCommentsFragment;)Lx60/f; <",
+                "> Lmobi/ifunny/comments/NewCommentsFragment$f;->c(Landroidx/recyclerview/widget/RecyclerView;I)V <",
+                "> Lka0/w$a;->g(Landroidx/fragment/app/FragmentManager;Landroidx/fragment/app/Fragment;Landroid/content/Context;)V <",
+                "> Lka0/w;-><init>(Lka0/t;)V <",
+                "> Lka0/a;-><init>(Landroid/app/Application;Lka0/t;)V <",
+                "> Lka0/x;->h(Lmobi/ifunny/app/IFunnyApplication;Lka0/t;)V <",
+                "> Lmobi/ifunny/app/IFunnyApplication;->r()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_7": {
+            "call_sequence": [
+                "> Lbh/i;-><init>(Lcom/airbnb/lottie/o;Lbh/e;)V <",
+                "> Lbh/b;->u(Lbh/c;Lbh/e;Lcom/airbnb/lottie/o;Ltg/i;)Lbh/b; <",
+                "> Lbh/c;-><init>(Lcom/airbnb/lottie/o;Lbh/e;Ljava/util/List;Ltg/i;)V <",
+                "> Lcom/airbnb/lottie/o;->t()V <",
+                "> Lcom/airbnb/lottie/o;->A(Z)V <",
+                "> Lcom/airbnb/lottie/LottieAnimationView;->n(Z)V <",
+                "> Lcom/airbnb/lottie/LottieAnimationView;->q(Landroid/util/AttributeSet;I)V <",
+                "> Lcom/airbnb/lottie/LottieAnimationView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V <",
+                "> Lr40/a;->b()V <",
+                "> La70/e;->i(Lm70/k0;)V <",
+                "> Lm70/k0;->b()V <",
+                "> Lx60/f;->onViewRecycled(Landroidx/recyclerview/widget/RecyclerView$e0;)V <",
+                "> Lmobi/ifunny/comments/NewCommentsFragment;->V1(Lmobi/ifunny/comments/NewCommentsFragment;)Lx60/f; <",
+                "> Lmobi/ifunny/comments/NewCommentsFragment$f;->d(Landroidx/recyclerview/widget/RecyclerView;II)V <",
+                "> Lka0/w$a;->g(Landroidx/fragment/app/FragmentManager;Landroidx/fragment/app/Fragment;Landroid/content/Context;)V <",
+                "> Lka0/w;-><init>(Lka0/t;)V <",
+                "> Lka0/a;-><init>(Landroid/app/Application;Lka0/t;)V <",
+                "> Lka0/x;->h(Lmobi/ifunny/app/IFunnyApplication;Lka0/t;)V <",
+                "> Lmobi/ifunny/app/IFunnyApplication;->r()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_8": {
+            "call_sequence": [
+                "> Lbh/b;-><init>(Lcom/airbnb/lottie/o;Lbh/e;)V <",
+                "> Lbh/c;-><init>(Lcom/airbnb/lottie/o;Lbh/e;Ljava/util/List;Ltg/i;)V <",
+                "> Lcom/airbnb/lottie/o;->t()V <",
+                "> Lcom/airbnb/lottie/o;->A(Z)V <",
+                "> Lcom/airbnb/lottie/LottieAnimationView;->n(Z)V <",
+                "> Lcom/airbnb/lottie/LottieAnimationView;->q(Landroid/util/AttributeSet;I)V <",
+                "> Lcom/airbnb/lottie/LottieAnimationView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V <",
+                "> Lr40/a;->b()V <",
+                "> La70/e;->i(Lm70/k0;)V <",
+                "> Lm70/k0;->b()V <",
+                "> Lx60/f;->onViewRecycled(Landroidx/recyclerview/widget/RecyclerView$e0;)V <",
+                "> Lmobi/ifunny/comments/NewCommentsFragment;->V1(Lmobi/ifunny/comments/NewCommentsFragment;)Lx60/f; <",
+                "> Lmobi/ifunny/comments/NewCommentsFragment$f;->c(Landroidx/recyclerview/widget/RecyclerView;I)V <",
+                "> Lka0/w$a;->g(Landroidx/fragment/app/FragmentManager;Landroidx/fragment/app/Fragment;Landroid/content/Context;)V <",
+                "> Lka0/w;-><init>(Lka0/t;)V <",
+                "> Lka0/a;-><init>(Landroid/app/Application;Lka0/t;)V <",
+                "> Lka0/x;->h(Lmobi/ifunny/app/IFunnyApplication;Lka0/t;)V <",
+                "> Lmobi/ifunny/app/IFunnyApplication;->r()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_9": {
+            "call_sequence": [
+                "> Lbh/b;-><init>(Lcom/airbnb/lottie/o;Lbh/e;)V <",
+                "> Lbh/c;-><init>(Lcom/airbnb/lottie/o;Lbh/e;Ljava/util/List;Ltg/i;)V <",
+                "> Lcom/airbnb/lottie/o;->t()V <",
+                "> Lcom/airbnb/lottie/o;->A(Z)V <",
+                "> Lcom/airbnb/lottie/LottieAnimationView;->n(Z)V <",
+                "> Lcom/airbnb/lottie/LottieAnimationView;->q(Landroid/util/AttributeSet;I)V <",
+                "> Lcom/airbnb/lottie/LottieAnimationView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V <",
+                "> Lr40/a;->b()V <",
+                "> La70/e;->i(Lm70/k0;)V <",
+                "> Lm70/k0;->b()V <",
+                "> Lx60/f;->onViewRecycled(Landroidx/recyclerview/widget/RecyclerView$e0;)V <",
+                "> Lmobi/ifunny/comments/NewCommentsFragment;->V1(Lmobi/ifunny/comments/NewCommentsFragment;)Lx60/f; <",
+                "> Lmobi/ifunny/comments/NewCommentsFragment$f;->d(Landroidx/recyclerview/widget/RecyclerView;II)V <",
+                "> Lka0/w$a;->g(Landroidx/fragment/app/FragmentManager;Landroidx/fragment/app/Fragment;Landroid/content/Context;)V <",
+                "> Lka0/w;-><init>(Lka0/t;)V <",
+                "> Lka0/a;-><init>(Landroid/app/Application;Lka0/t;)V <",
+                "> Lka0/x;->h(Lmobi/ifunny/app/IFunnyApplication;Lka0/t;)V <",
+                "> Lmobi/ifunny/app/IFunnyApplication;->r()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_10": {
+            "call_sequence": [
+                "> Lbh/b;->O()V <",
+                "> Lbh/b;-><init>(Lcom/airbnb/lottie/o;Lbh/e;)V <",
+                "> Lbh/c;-><init>(Lcom/airbnb/lottie/o;Lbh/e;Ljava/util/List;Ltg/i;)V <",
+                "> Lcom/airbnb/lottie/o;->t()V <",
+                "> Lcom/airbnb/lottie/o;->A(Z)V <",
+                "> Lcom/airbnb/lottie/LottieAnimationView;->n(Z)V <",
+                "> Lcom/airbnb/lottie/LottieAnimationView;->q(Landroid/util/AttributeSet;I)V <",
+                "> Lcom/airbnb/lottie/LottieAnimationView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V <",
+                "> Lr40/a;->b()V <",
+                "> La70/e;->i(Lm70/k0;)V <",
+                "> Lm70/k0;->b()V <",
+                "> Lx60/f;->onViewRecycled(Landroidx/recyclerview/widget/RecyclerView$e0;)V <",
+                "> Lmobi/ifunny/comments/NewCommentsFragment;->V1(Lmobi/ifunny/comments/NewCommentsFragment;)Lx60/f; <",
+                "> Lmobi/ifunny/comments/NewCommentsFragment$f;->c(Landroidx/recyclerview/widget/RecyclerView;I)V <",
+                "> Lka0/w$a;->g(Landroidx/fragment/app/FragmentManager;Landroidx/fragment/app/Fragment;Landroid/content/Context;)V <",
+                "> Lka0/w;-><init>(Lka0/t;)V <",
+                "> Lka0/a;-><init>(Landroid/app/Application;Lka0/t;)V <",
+                "> Lka0/x;->h(Lmobi/ifunny/app/IFunnyApplication;Lka0/t;)V <",
+                "> Lmobi/ifunny/app/IFunnyApplication;->r()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_11": {
+            "call_sequence": [
+                "> Lbh/b;->O()V <",
+                "> Lbh/b;-><init>(Lcom/airbnb/lottie/o;Lbh/e;)V <",
+                "> Lbh/c;-><init>(Lcom/airbnb/lottie/o;Lbh/e;Ljava/util/List;Ltg/i;)V <",
+                "> Lcom/airbnb/lottie/o;->t()V <",
+                "> Lcom/airbnb/lottie/o;->A(Z)V <",
+                "> Lcom/airbnb/lottie/LottieAnimationView;->n(Z)V <",
+                "> Lcom/airbnb/lottie/LottieAnimationView;->q(Landroid/util/AttributeSet;I)V <",
+                "> Lcom/airbnb/lottie/LottieAnimationView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V <",
+                "> Lr40/a;->b()V <",
+                "> La70/e;->i(Lm70/k0;)V <",
+                "> Lm70/k0;->b()V <",
+                "> Lx60/f;->onViewRecycled(Landroidx/recyclerview/widget/RecyclerView$e0;)V <",
+                "> Lmobi/ifunny/comments/NewCommentsFragment;->V1(Lmobi/ifunny/comments/NewCommentsFragment;)Lx60/f; <",
+                "> Lmobi/ifunny/comments/NewCommentsFragment$f;->d(Landroidx/recyclerview/widget/RecyclerView;II)V <",
+                "> Lka0/w$a;->g(Landroidx/fragment/app/FragmentManager;Landroidx/fragment/app/Fragment;Landroid/content/Context;)V <",
+                "> Lka0/w;-><init>(Lka0/t;)V <",
+                "> Lka0/a;-><init>(Landroid/app/Application;Lka0/t;)V <",
+                "> Lka0/x;->h(Lmobi/ifunny/app/IFunnyApplication;Lka0/t;)V <",
+                "> Lmobi/ifunny/app/IFunnyApplication;->r()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/mbridge/msdk/foundation/same/report/b/d;->b(Landroid/content/Context;)Ljava/lang/String;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/mbridge/msdk/foundation/same/report/b/d;->b(Ljava/lang/String;)Lorg/json/JSONObject; <",
+                "> Lcom/mbridge/msdk/foundation/same/report/b/c;->c(Ljava/lang/String;)Lorg/json/JSONObject; <",
+                "> Lcom/mbridge/msdk/foundation/same/report/b/c;->a(Ljava/lang/String;[Ljava/lang/StackTraceElement;)V <",
+                "> Lcom/mbridge/msdk/foundation/same/report/b/c$a$1;->run()V <",
+                "> Lcom/mbridge/msdk/foundation/same/report/b/c$a;->a(Ljava/lang/String;[Ljava/lang/StackTraceElement;)V <",
+                "> Lcom/mbridge/msdk/foundation/same/report/b/c;->a()V <",
+                "> Lcom/mbridge/msdk/foundation/controller/d$6;->handleMessage(Landroid/os/Message;)V <",
+                "> Lcom/mbridge/msdk/foundation/controller/d;-><init>()V <",
+                "> Lcom/mbridge/msdk/foundation/controller/d;->a()Lcom/mbridge/msdk/foundation/controller/d; <",
+                "> Lcom/mbridge/msdk/foundation/same/report/j;->a(Ljava/lang/String;)V <",
+                "> Lcom/mbridge/msdk/click/a/a;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.net.conn.CONNECTIVITY_CHANGE",
+                    "start -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/adcolony/sdk/x;->E(Lcom/adcolony/sdk/x;Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/adcolony/sdk/x$a;->push_messages(Ljava/lang/String;Ljava/lang/String;)V <",
+                "> Lcom/adcolony/sdk/x$b;-><init>(Lcom/adcolony/sdk/x;)V <",
+                "> Lcom/adcolony/sdk/x;->T()Lcom/adcolony/sdk/x$a; <",
+                "> Lcom/adcolony/sdk/x;->u()V <",
+                "> Lcom/adcolony/sdk/o0;->u()V <",
+                "> Lcom/adcolony/sdk/s0$f;->a(Landroid/content/Context;Lcom/adcolony/sdk/k0;)Lcom/adcolony/sdk/s0; <",
+                "> Lcom/adcolony/sdk/s0;->X(Landroid/content/Context;Lcom/adcolony/sdk/k0;)Lcom/adcolony/sdk/s0; <",
+                "> Lcom/adcolony/sdk/m0$a;->run()V <",
+                "> Lcom/adcolony/sdk/m0;->d()V <",
+                "> Lcom/adcolony/sdk/q0;->P0()Lcom/adcolony/sdk/m0; <",
+                "> Lcom/adcolony/sdk/s;->g(Ljava/lang/String;Lcom/adcolony/sdk/p0;)V <",
+                "> Lcom/adcolony/sdk/g1;->m()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.BATTERY_CHANGED",
+                    "start -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/adcolony/sdk/x$a;->dispatch_messages(Ljava/lang/String;Ljava/lang/String;)V <",
+                "> Lcom/adcolony/sdk/x$b;-><init>(Lcom/adcolony/sdk/x;)V <",
+                "> Lcom/adcolony/sdk/x;->T()Lcom/adcolony/sdk/x$a; <",
+                "> Lcom/adcolony/sdk/x;->u()V <",
+                "> Lcom/adcolony/sdk/o0;->u()V <",
+                "> Lcom/adcolony/sdk/s0$f;->a(Landroid/content/Context;Lcom/adcolony/sdk/k0;)Lcom/adcolony/sdk/s0; <",
+                "> Lcom/adcolony/sdk/s0;->X(Landroid/content/Context;Lcom/adcolony/sdk/k0;)Lcom/adcolony/sdk/s0; <",
+                "> Lcom/adcolony/sdk/m0$a;->run()V <",
+                "> Lcom/adcolony/sdk/m0;->d()V <",
+                "> Lcom/adcolony/sdk/q0;->P0()Lcom/adcolony/sdk/m0; <",
+                "> Lcom/adcolony/sdk/s;->g(Ljava/lang/String;Lcom/adcolony/sdk/p0;)V <",
+                "> Lcom/adcolony/sdk/g1;->m()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.BATTERY_CHANGED",
+                    "start -a"
+                ]
+            ]
+        }
+    }
+}

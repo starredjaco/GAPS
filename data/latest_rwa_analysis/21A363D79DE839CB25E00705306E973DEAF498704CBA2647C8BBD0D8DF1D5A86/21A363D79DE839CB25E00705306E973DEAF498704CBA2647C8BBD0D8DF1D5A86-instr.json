@@ -1,0 +1,19 @@
+{
+    "Lcom/airbnb/lottie/parser/moshi/LinkedHashTreeMap;->rebalance(Lcom/airbnb/lottie/parser/moshi/LinkedHashTreeMap$Node;Z)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/airbnb/lottie/parser/moshi/LinkedHashTreeMap;->removeInternal(Lcom/airbnb/lottie/parser/moshi/LinkedHashTreeMap$Node;Z)V <",
+                "> Lcom/airbnb/lottie/parser/moshi/LinkedHashTreeMap$LinkedTreeMapIterator;->remove()V <",
+                "> Lcom/google/android/play/core/splitcompat/SplitCompat;->b(Landroid/content/Context;Z)V <",
+                "> Lcom/google/android/play/core/splitcompat/SplitCompat;->a(Landroid/content/Context;Z)Z <",
+                "> Lcom/google/android/play/core/splitcompat/SplitCompat;->install(Landroid/content/Context;)Z <",
+                "> Lcom/google/android/play/core/splitcompat/SplitCompatApplication;->attachBaseContext(Landroid/content/Context;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    }
+}

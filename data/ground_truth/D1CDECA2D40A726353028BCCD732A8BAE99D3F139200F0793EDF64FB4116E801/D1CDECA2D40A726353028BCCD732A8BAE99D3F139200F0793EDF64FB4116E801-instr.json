@@ -1,0 +1,94 @@
+{
+    "Lru/ipartner/lingo/common/usecase/PremiumEndConnectionUseCase;->endConnection()Lrx/Observable;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lru/ipartner/lingo/splash/SplashPresenter;->endConnection()V <",
+                "> Lru/ipartner/lingo/splash/SplashScreenActivity;->onDestroy()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lru/ipartner/lingo/premium_subscriptions/PremiumSubscriptionsPresenter;->endConnection()V <",
+                "> Lru/ipartner/lingo/premium_subscriptions/PremiumSubscriptionsActivity;->onDestroy()V <",
+                "> Lru/ipartner/lingo/game_profile/GameProfileActivity;->startGame(Z <",
+                "> Lru/ipartner/lingo/splash/SplashScreenActivity;->showGameProfileActivity()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lru/ipartner/lingo/premium_subscriptions/PremiumSubscriptionsPresenter;->endConnection()V <",
+                "> Lru/ipartner/lingo/premium_subscriptions/PremiumSubscriptionsActivity;->onDestroy()V <",
+                "> Lru/ipartner/lingo/game_profile/GameProfileActivity;->showSubscriptions()V <",
+                "> Lru/ipartner/lingo/splash/SplashScreenActivity;->showGameProfileActivity()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lru/ipartner/lingo/app/dao/DaoSession;->getWordsDao()Lru/ipartner/lingo/app/dao/WordsDao;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lru/ipartner/lingo/app/api/DBIO$Slide$6;->call(Lrx/Subscriber;)V <",
+                "> Lru/ipartner/lingo/app/api/DBIO$Slide$6;->call(Ljava/lang/Object;)V <",
+                "> Lrx/internal/operators/SingleFromObservable;->call(Lrx/SingleSubscriber;)V <",
+                "> Lrx/internal/operators/SingleFromObservable;->call(Ljava/lang/Object;)V <",
+                "> Lrx/Single;->subscribe(Lrx/SingleSubscriber;)Lrx/Subscription; <",
+                "> Lrx/Single;->subscribe(Lrx/Observer;)Lrx/Subscription; <",
+                "> Lru/ipartner/lingo/settings/SettingsPresenter;->deleteAccount()V <",
+                "> Lru/ipartner/lingo/settings/SettingsActivity;->lambda$onCreate$10(Landroid/view/View;)V <",
+                "> Lru/ipartner/lingo/settings/SettingsActivity;->$r8$lambda$wvJfwZ9ZkQpSFv0qnSBkx7dUy8Y(Lru/ipartner/lingo/settings/SettingsActivity; <",
+                "> Lru/ipartner/lingo/game_profile/GameProfileActivity;->lambda$onCreate$1(Landroid/view/View;)V <",
+                "> Lru/ipartner/lingo/game_profile/GameProfileActivity;->$r8$lambda$ugWY9wgG2ZHpuCE1gU06Ij-ZRHM(Lru/ipartner/lingo/game_profile/GameProfileActivity; <",
+                "> Lru/ipartner/lingo/splash/SplashScreenActivity;->showGameProfileActivity()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lru/ipartner/lingo/common/presenter/ErrorBehavior;->getView()Lru/ipartner/lingo/common/view/base/MvpView;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lru/ipartner/lingo/common/presenter/ErrorBehaviorDecorator;-><init>(Lru/ipartner/lingo/common/presenter/ErrorBehavior;)V <",
+                "> Lru/ipartner/lingo/common/presenter/RetrofitErrorBehavior;-><init>(Lru/ipartner/lingo/common/presenter/ErrorBehavior;)V <",
+                "> Lru/ipartner/lingo/splash/SplashPresenter;->runSplashChain()V <",
+                "> Lru/ipartner/lingo/splash/SplashScreenActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lru/ipartner/lingo/app/activity/BaseActivity;->sendAnalytics()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lru/ipartner/lingo/app/activity/BaseActivity;->onResume()V <",
+                "> Lru/ipartner/lingo/app/activity/ToolbarActivity;->onResume()V <",
+                "> Lru/ipartner/lingo/game_profile/GameProfileActivity;->onResume()V <",
+                "> Lru/ipartner/lingo/splash/SplashScreenActivity;->showGameProfileActivity()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    }
+}

@@ -1,0 +1,174 @@
+{
+    "Lcom/whitelabel/MainApplication;->getReactNativeHost()Lcom/facebook/react/ReactNativeHost;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/whitelabel/MainApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/google/firebase/messaging/FirebaseMessaging;->enqueueTaskWithDelaySeconds(Ljava/lang/Runnable;J)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/google/firebase/messaging/SyncTask$ConnectivityChangeReceiver;->onReceive(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.net.conn.CONNECTIVITY_CHANGE",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Lexpo/modules/updates/UpdatesController;->initializeDatabaseHandler()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lexpo/modules/updates/UpdatesController;->start(Landroid/content/Context;)V <",
+                "> Lexpo/modules/updates/UpdatesController$Companion;->initialize(Landroid/content/Context;)V <",
+                "> Lexpo/modules/updates/UpdatesController;->initialize(Landroid/content/Context;)V <",
+                "> Lcom/whitelabel/MainApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/google/firebase/heartbeatinfo/DefaultHeartBeatController;->registerHeartBeat()Lcom/google/android/gms/tasks/Task;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/google/firebase/FirebaseApp;->initializeAllApis()V <",
+                "> Lcom/google/firebase/FirebaseApp;->access$400(Lcom/google/firebase/FirebaseApp;)V <",
+                "> Lcom/google/firebase/FirebaseApp$UserUnlockReceiver;->onReceive(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.USER_UNLOCKED",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/google/android/gms/common/internal/Preconditions;->checkState(ZLjava/lang/Object;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/google/firebase/FirebaseApp;->checkNotDeleted()V <",
+                "> Lcom/google/firebase/FirebaseApp;->getApplicationContext()Landroid/content/Context; <",
+                "> Lcom/google/firebase/messaging/MessagingAnalytics;->deliveryMetricsExportToBigQueryEnabled()Z <",
+                "> Lcom/google/firebase/messaging/MessagingAnalytics;->shouldUploadFirelogAnalytics(Landroid/content/Intent;)Z <",
+                "> Lcom/google/firebase/messaging/MessagingAnalytics;->logNotificationReceived(Landroid/content/Intent;)V <",
+                "> Lcom/google/firebase/messaging/FirebaseMessagingService;->passMessageIntentToSdk(Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.google.firebase.MESSAGING_EVENT",
+                    "start-service -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/google/firebase/FirebaseApp;->checkNotDeleted()V <",
+                "> Lcom/google/firebase/FirebaseApp;->getName()Ljava/lang/String; <",
+                "> Lcom/google/firebase/FirebaseApp;->initializeAllApis()V <",
+                "> Lcom/google/firebase/FirebaseApp;->access$400(Lcom/google/firebase/FirebaseApp;)V <",
+                "> Lcom/google/firebase/FirebaseApp$UserUnlockReceiver;->onReceive(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.USER_UNLOCKED",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Lokhttp3/OkHttpClient;->fastFallback()Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lokhttp3/OkHttpClient$Builder;-><init>(Lokhttp3/OkHttpClient;)V <",
+                "> Lokhttp3/OkHttpClient;->newBuilder()Lokhttp3/OkHttpClient$Builder; <",
+                "> Lcom/RNFetchBlob/RNFetchBlobReq;->run()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.DOWNLOAD_COMPLETE",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/google/android/gms/common/internal/Preconditions;->checkNotNull(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/google/android/gms/tasks/Tasks;->await(Lcom/google/android/gms/tasks/Task;)Ljava/lang/Object; <",
+                "> Lcom/google/firebase/iid/FirebaseInstanceIdReceiver;->onMessageReceive(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.google.android.c2dm.intent.RECEIVE",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/google/android/gms/common/util/concurrent/NamedThreadFactory;-><init>(Ljava/lang/String;)V <",
+                "> Lcom/google/firebase/messaging/FcmExecutors;->newIntentHandleExecutor()Ljava/util/concurrent/ExecutorService; <",
+                "> Lcom/google/firebase/messaging/EnhancedIntentService;-><init>()V <",
+                "> Lcom/google/firebase/messaging/FirebaseMessagingService;-><init>()V <",
+                "> Lcom/dieam/reactnativepushnotification/modules/RNPushNotificationListenerService;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.plb8fiakkmib.pdvl7rmdapp/com.dieam.reactnativepushnotification.modules.RNPushNotificationListenerService",
+                    "start -n"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/google/android/gms/tasks/zzw;->zza(Ljava/lang/Exception;)V <",
+                "> Lcom/google/android/gms/tasks/TaskCompletionSource;->setException(Ljava/lang/Exception;)V <",
+                "> Lcom/google/firebase/messaging/ImageDownload;->lambda$start$0$com-google-firebase-messaging-ImageDownload(Lcom/google/android/gms/tasks/TaskCompletionSource;)V <",
+                "> Lcom/google/firebase/messaging/ImageDownload$$ExternalSyntheticLambda0;->run()V <",
+                "> Lcom/google/firebase/messaging/ImageDownload;->start(Ljava/util/concurrent/ExecutorService;)V <",
+                "> Lcom/google/firebase/messaging/DisplayNotification;->startImageDownloadInBackground()Lcom/google/firebase/messaging/ImageDownload; <",
+                "> Lcom/google/firebase/messaging/DisplayNotification;->handleNotification()Z <",
+                "> Lcom/google/firebase/messaging/FirebaseMessagingService;->dispatchMessage(Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.google.firebase.MESSAGING_EVENT",
+                    "start-service -a"
+                ]
+            ]
+        }
+    },
+    "Lexpo/modules/updates/UpdatesController;->start(Landroid/content/Context;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lexpo/modules/updates/UpdatesController$Companion;->initialize(Landroid/content/Context;)V <",
+                "> Lexpo/modules/updates/UpdatesController;->initialize(Landroid/content/Context;)V <",
+                "> Lcom/whitelabel/MainApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    }
+}

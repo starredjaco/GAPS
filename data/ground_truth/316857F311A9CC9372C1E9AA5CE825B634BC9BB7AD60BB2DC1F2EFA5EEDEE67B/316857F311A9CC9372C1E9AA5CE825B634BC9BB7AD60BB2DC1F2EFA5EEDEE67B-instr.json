@@ -1,0 +1,248 @@
+{
+    "Lcom/facemassage/ThisApplication$a;->a()Lcom/facemassage/ThisApplication;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/facemassage/notification/NotificationExtenderBareBones;->remoteNotificationReceived(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.onesignal.NotificationExtender",
+                    "start -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/facemassage/ThisApplication;->a()Lcom/facemassage/ThisApplication;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/facemassage/ThisApplication$a;->a()Lcom/facemassage/ThisApplication; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/facemassage/ThisApplication$a;->a()Lcom/facemassage/ThisApplication; <",
+                "> Lcom/facemassage/notification/NotificationExtenderBareBones;->remoteNotificationReceived(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.onesignal.NotificationExtender",
+                    "start -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/onesignal/e3;->I1(Landroid/content/Context;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/onesignal/e3;->M0(Landroid/content/Context;)V <",
+                "> Lcom/facemassage/ThisApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/onesignal/e3;->M0(Landroid/content/Context;)V <",
+                "> Lcom/onesignal/FCMBroadcastReceiver;->onReceive(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.google.android.c2dm.intent.RECEIVE",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/onesignal/e3;->U0()Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/onesignal/e3;->q1()Z <",
+                "> Lcom/onesignal/e3;->L0(Landroid/content/Context;)V <",
+                "> Lcom/onesignal/e3;->C1(Ljava/lang/String;)V <",
+                "> Lcom/facemassage/ThisApplication;->onCreate()V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/onesignal/e3;->L0(Landroid/content/Context;)V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/onesignal/e3;->M0(Landroid/content/Context;)V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/onesignal/FCMBroadcastReceiver;->onReceive(Landroid/content/Context; <",
+                "----- CONDITIONAL -----",
+                "----- CONDITIONAL -----",
+                "> Lcom/onesignal/e3;->L0(Landroid/content/Context;)V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/onesignal/e3;->C1(Ljava/lang/String;)V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/facemassage/ThisApplication;->onCreate()V <",
+                "----- CONDITIONAL -----"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "intent",
+                    "com.google.android.c2dm.intent.RECEIVE",
+                    "broadcast -a"
+                ],
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/onesignal/e3;->q1()Z <",
+                "> Lcom/onesignal/e3;->L0(Landroid/content/Context;)V <",
+                "> Lcom/onesignal/e3;->M0(Landroid/content/Context;)V <",
+                "> Lcom/onesignal/FCMBroadcastReceiver;->onReceive(Landroid/content/Context; <",
+                "----- CONDITIONAL -----",
+                "> Lcom/onesignal/e3;->L0(Landroid/content/Context;)V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/onesignal/e3;->M0(Landroid/content/Context;)V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/onesignal/FCMBroadcastReceiver;->onReceive(Landroid/content/Context; <",
+                "----- CONDITIONAL -----",
+                "----- CONDITIONAL -----",
+                "> Lcom/onesignal/e3;->L0(Landroid/content/Context;)V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/onesignal/e3;->C1(Ljava/lang/String;)V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/facemassage/ThisApplication;->onCreate()V <",
+                "----- CONDITIONAL -----"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "intent",
+                    "com.google.android.c2dm.intent.RECEIVE",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Li9/d;->c(Li9/e0;)Ljava/lang/Object;": {
+        "path_0": {
+            "call_sequence": [
+                "> Li9/d;->get(Ljava/lang/Class;)Ljava/lang/Object; <",
+                "> Lx8/f;->k(Ljava/lang/Class;)Ljava/lang/Object; <",
+                "> Lja/g;->q(Lx8/f;)Lja/g; <",
+                "> Lja/g;->p()Lja/g; <",
+                "> Lcom/facemassage/ThisApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Li9/d;->get(Ljava/lang/Class;)Ljava/lang/Object; <",
+                "> Lx8/f;->k(Ljava/lang/Class;)Ljava/lang/Object; <",
+                "> Lcom/google/firebase/messaging/FirebaseMessaging;->getInstance(Lx8/f;)Lcom/google/firebase/messaging/FirebaseMessaging; <",
+                "> Lcom/onesignal/OSUtils;->r()Z <",
+                "> Lcom/onesignal/e3;->j0()Lcom/onesignal/u3; <",
+                "> Lcom/onesignal/e3;->L0(Landroid/content/Context;)V <",
+                "> Lcom/onesignal/e3;->M0(Landroid/content/Context;)V <",
+                "> Lcom/onesignal/FCMBroadcastReceiver;->onReceive(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.google.android.c2dm.intent.RECEIVE",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Lga/f;->c(Lga/f;)Ljava/lang/Void;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lga/d;->call()Ljava/lang/Object; <",
+                "> Lga/f;->l()Lcom/google/android/gms/tasks/Task; <",
+                "> Lx8/f;->t()V <",
+                "> Lx8/f;->d(Lx8/f;)V <",
+                "> Lx8/f$c;->onReceive(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.USER_UNLOCKED",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lga/d;->call()Ljava/lang/Object; <",
+                "> Lga/f;->l()Lcom/google/android/gms/tasks/Task; <",
+                "> Lx8/f;->o()Lx8/f; <",
+                "> Lja/g;->p()Lja/g; <",
+                "> Lcom/facemassage/ThisApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lga/d;->call()Ljava/lang/Object; <",
+                "> Lga/f;->l()Lcom/google/android/gms/tasks/Task; <",
+                "> Lx8/f;->o()Lx8/f; <",
+                "> Lqa/d0;->a()Z <",
+                "> Lqa/d0;->z(Landroid/content/Intent;)Z <",
+                "> Lqa/d0;->v(Landroid/content/Intent;)V <",
+                "> Lcom/google/firebase/messaging/FirebaseMessagingService;->u(Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.google.firebase.MESSAGING_EVENT",
+                    "start-service -a"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lga/d;->call()Ljava/lang/Object; <",
+                "> Lga/f;->l()Lcom/google/android/gms/tasks/Task; <",
+                "> Lx8/f;->o()Lx8/f; <",
+                "> Lja/g;->p()Lja/g; <",
+                "> Lcom/google/firebase/analytics/FirebaseAnalytics;->getFirebaseInstanceId()Ljava/lang/String; <",
+                "> Lcom/onesignal/f4;->a()Z <",
+                "> Lcom/onesignal/e3;->L0(Landroid/content/Context;)V <",
+                "> Lcom/onesignal/e3;->M0(Landroid/content/Context;)V <",
+                "> Lcom/onesignal/FCMBroadcastReceiver;->onReceive(Landroid/content/Context; <",
+                "----- CONDITIONAL -----",
+                "> Lcom/onesignal/e3;->L0(Landroid/content/Context;)V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/onesignal/e3;->M0(Landroid/content/Context;)V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/onesignal/FCMBroadcastReceiver;->onReceive(Landroid/content/Context; <",
+                "----- CONDITIONAL -----"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.google.android.c2dm.intent.RECEIVE",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    }
+}

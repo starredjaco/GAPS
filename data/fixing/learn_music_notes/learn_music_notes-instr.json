@@ -1,0 +1,2471 @@
+{
+    "Lnet/fercanet/LNM/MainMenu;->getMenuInflater()Landroid/view/MenuInflater;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/MainMenu;->onCreateOptionsMenu(Landroid/view/Menu;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "net.fercanet.LNM.MainMenu",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lnet/fercanet/LNM/Game;->showTrainingEndDialog()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Game;->access$000(Lnet/fercanet/LNM/Game;)V <",
+                "> Lnet/fercanet/LNM/Game$5;->onClick(Landroid/view/View;)V <",
+                "> Lnet/fercanet/LNM/Game;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.MAIN",
+                    "start-activity -a"
+                ],
+                [
+                    "net.fercanet.LNM.Game",
+                    "endgame"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Game;->access$000(Lnet/fercanet/LNM/Game;)V <",
+                "> Lnet/fercanet/LNM/Game$5;->onClick(Landroid/view/View;)V <",
+                "> Lnet/fercanet/LNM/Game;-><init>()V <",
+                "> Lnet/fercanet/LNM/MainMenu;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "net.fercanet.LNM.MainMenu",
+                    "<unknown>"
+                ],
+                [
+                    "net.fercanet.LNM.Game",
+                    "endgame"
+                ]
+            ]
+        }
+    },
+    "Lnet/fercanet/LNM/Settings;->reloadScoresCall()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Settings;->access$000(Lnet/fercanet/LNM/Settings;)V <",
+                "> Lnet/fercanet/LNM/Settings$1;->onClick(Landroid/view/View;)V <",
+                "> Lnet/fercanet/LNM/Settings;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.MAIN",
+                    "start-activity -a"
+                ],
+                [
+                    "net.fercanet.LNM.Settings",
+                    "endgame"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Settings;->access$000(Lnet/fercanet/LNM/Settings;)V <",
+                "> Lnet/fercanet/LNM/Settings$1;->onClick(Landroid/view/View;)V <",
+                "> Lnet/fercanet/LNM/Settings;-><init>()V <",
+                "> Lnet/fercanet/LNM/MainMenu;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "net.fercanet.LNM.MainMenu",
+                    "<unknown>"
+                ],
+                [
+                    "net.fercanet.LNM.Settings",
+                    "endgame"
+                ]
+            ]
+        }
+    },
+    "Lnet/fercanet/LNM/Settings$1;-><init>(Lnet/fercanet/LNM/Settings;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Settings;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.MAIN",
+                    "start-activity -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Settings;-><init>()V <",
+                "> Lnet/fercanet/LNM/MainMenu;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "net.fercanet.LNM.MainMenu",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lnet/fercanet/LNM/Utils;->getStringFromFile(Ljava/lang/String;Landroid/content/Context;)Ljava/lang/String;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Utils;->isInTheTopScores(Ljava/lang/Integer;Landroid/content/Context;)Ljava/lang/Boolean; <",
+                "> Lnet/fercanet/LNM/Game;->showOMTEndDialog()V <",
+                "> Lnet/fercanet/LNM/Game;->access$200(Lnet/fercanet/LNM/Game;)V <",
+                "> Lnet/fercanet/LNM/Game$6;->onChronometerTick(Landroid/widget/Chronometer;)V <",
+                "> Lnet/fercanet/LNM/Game;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.MAIN",
+                    "start-activity -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Utils;->isInTheTopScores(Ljava/lang/Integer;Landroid/content/Context;)Ljava/lang/Boolean; <",
+                "> Lnet/fercanet/LNM/Game;->showOMTEndDialog()V <",
+                "> Lnet/fercanet/LNM/Game;->access$200(Lnet/fercanet/LNM/Game;)V <",
+                "> Lnet/fercanet/LNM/Game$6;->onChronometerTick(Landroid/widget/Chronometer;)V <",
+                "> Lnet/fercanet/LNM/Game;-><init>()V <",
+                "> Lnet/fercanet/LNM/MainMenu;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "net.fercanet.LNM.MainMenu",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Utils;->reloadScores(Landroid/content/Context;)V <",
+                "> Lnet/fercanet/LNM/Settings;->reloadScoresCall()V <",
+                "> Lnet/fercanet/LNM/Settings;->access$000(Lnet/fercanet/LNM/Settings;)V <",
+                "> Lnet/fercanet/LNM/Settings$1;->onClick(Landroid/view/View;)V <",
+                "> Lnet/fercanet/LNM/Settings;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.MAIN",
+                    "start-activity -a"
+                ],
+                [
+                    "net.fercanet.LNM.Settings",
+                    "endgame"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Utils;->reloadScores(Landroid/content/Context;)V <",
+                "> Lnet/fercanet/LNM/Settings;->reloadScoresCall()V <",
+                "> Lnet/fercanet/LNM/Settings;->access$000(Lnet/fercanet/LNM/Settings;)V <",
+                "> Lnet/fercanet/LNM/Settings$1;->onClick(Landroid/view/View;)V <",
+                "> Lnet/fercanet/LNM/Settings;-><init>()V <",
+                "> Lnet/fercanet/LNM/MainMenu;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "net.fercanet.LNM.MainMenu",
+                    "<unknown>"
+                ],
+                [
+                    "net.fercanet.LNM.Settings",
+                    "endgame"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Utils;->saveUserScore(Lnet/fercanet/LNM/Score;Landroid/content/Context;)V <",
+                "> Lnet/fercanet/LNM/Game;->saveUserScoreCall(Lnet/fercanet/LNM/Score;)V <",
+                "> Lnet/fercanet/LNM/Game$1;->onClick(Landroid/content/DialogInterface;I)V <",
+                "> Lnet/fercanet/LNM/Game;->showOMTEndDialog()V <",
+                "> Lnet/fercanet/LNM/Game;->access$200(Lnet/fercanet/LNM/Game;)V <",
+                "> Lnet/fercanet/LNM/Game$6;->onChronometerTick(Landroid/widget/Chronometer;)V <",
+                "> Lnet/fercanet/LNM/Game;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.MAIN",
+                    "start-activity -a"
+                ]
+            ]
+        },
+        "path_5": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Utils;->saveUserScore(Lnet/fercanet/LNM/Score;Landroid/content/Context;)V <",
+                "> Lnet/fercanet/LNM/Game;->saveUserScoreCall(Lnet/fercanet/LNM/Score;)V <",
+                "> Lnet/fercanet/LNM/Game$1;->onClick(Landroid/content/DialogInterface;I)V <",
+                "> Lnet/fercanet/LNM/Game;->showOMTEndDialog()V <",
+                "> Lnet/fercanet/LNM/Game;->access$200(Lnet/fercanet/LNM/Game;)V <",
+                "> Lnet/fercanet/LNM/Game$6;->onChronometerTick(Landroid/widget/Chronometer;)V <",
+                "> Lnet/fercanet/LNM/Game;-><init>()V <",
+                "> Lnet/fercanet/LNM/MainMenu;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "net.fercanet.LNM.MainMenu",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lnet/fercanet/LNM/Game;->showOMTEndDialog()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Game;->access$200(Lnet/fercanet/LNM/Game;)V <",
+                "> Lnet/fercanet/LNM/Game$6;->onChronometerTick(Landroid/widget/Chronometer;)V <",
+                "> Lnet/fercanet/LNM/Game;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.MAIN",
+                    "start-activity -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Game;->access$200(Lnet/fercanet/LNM/Game;)V <",
+                "> Lnet/fercanet/LNM/Game$6;->onChronometerTick(Landroid/widget/Chronometer;)V <",
+                "> Lnet/fercanet/LNM/Game;-><init>()V <",
+                "> Lnet/fercanet/LNM/MainMenu;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "net.fercanet.LNM.MainMenu",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lnet/fercanet/LNM/MainMenu;->moveTaskToBack(Z)Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/MainMenu;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "net.fercanet.LNM.MainMenu",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/MainMenu$1;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "net.fercanet.LNM.MainMenu",
+                    "mintest",
+                    "One Minute Test"
+                ]
+            ]
+        }
+    },
+    "Lnet/fercanet/LNM/Game$1;-><init>(Lnet/fercanet/LNM/Game;Landroid/widget/EditText;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Game;->showOMTEndDialog()V <",
+                "> Lnet/fercanet/LNM/Game;->access$200(Lnet/fercanet/LNM/Game;)V <",
+                "> Lnet/fercanet/LNM/Game$6;->onChronometerTick(Landroid/widget/Chronometer;)V <",
+                "> Lnet/fercanet/LNM/Game;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.MAIN",
+                    "start-activity -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Game;->showOMTEndDialog()V <",
+                "> Lnet/fercanet/LNM/Game;->access$200(Lnet/fercanet/LNM/Game;)V <",
+                "> Lnet/fercanet/LNM/Game$6;->onChronometerTick(Landroid/widget/Chronometer;)V <",
+                "> Lnet/fercanet/LNM/Game;-><init>()V <",
+                "> Lnet/fercanet/LNM/MainMenu;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "net.fercanet.LNM.MainMenu",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lnet/fercanet/LNM/Game$4;-><init>(Lnet/fercanet/LNM/Game;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Game;->showTrainingEndDialog()V <",
+                "> Lnet/fercanet/LNM/Game;->access$000(Lnet/fercanet/LNM/Game;)V <",
+                "> Lnet/fercanet/LNM/Game$5;->onClick(Landroid/view/View;)V <",
+                "> Lnet/fercanet/LNM/Game;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.MAIN",
+                    "start-activity -a"
+                ],
+                [
+                    "net.fercanet.LNM.Game",
+                    "endgame"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Game;->showTrainingEndDialog()V <",
+                "> Lnet/fercanet/LNM/Game;->access$000(Lnet/fercanet/LNM/Game;)V <",
+                "> Lnet/fercanet/LNM/Game$5;->onClick(Landroid/view/View;)V <",
+                "> Lnet/fercanet/LNM/Game;-><init>()V <",
+                "> Lnet/fercanet/LNM/MainMenu;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "net.fercanet.LNM.MainMenu",
+                    "<unknown>"
+                ],
+                [
+                    "net.fercanet.LNM.Game",
+                    "endgame"
+                ]
+            ]
+        }
+    },
+    "Lnet/fercanet/LNM/Hof$1;-><init>(Lnet/fercanet/LNM/Hof;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Hof;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.MAIN",
+                    "start-activity -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Hof;-><init>()V <",
+                "> Lnet/fercanet/LNM/MainMenu;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "net.fercanet.LNM.MainMenu",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lnet/fercanet/LNM/Hof;->startActivity(Landroid/content/Intent;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Hof$1;->onClick(Landroid/view/View;)V <",
+                "> Lnet/fercanet/LNM/Hof;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.MAIN",
+                    "start-activity -a"
+                ],
+                [
+                    "net.fercanet.LNM.Hof",
+                    "exithof"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Hof$1;->onClick(Landroid/view/View;)V <",
+                "> Lnet/fercanet/LNM/Hof;-><init>()V <",
+                "> Lnet/fercanet/LNM/MainMenu;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "net.fercanet.LNM.MainMenu",
+                    "<unknown>"
+                ],
+                [
+                    "net.fercanet.LNM.Hof",
+                    "exithof"
+                ]
+            ]
+        }
+    },
+    "Lnet/fercanet/LNM/Game;->getResources()Landroid/content/res/Resources;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Game;->showNextNote()V <",
+                "> Lnet/fercanet/LNM/Game;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.MAIN",
+                    "start-activity -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Game;->showNextNote()V <",
+                "> Lnet/fercanet/LNM/Game;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lnet/fercanet/LNM/MainMenu;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "net.fercanet.LNM.MainMenu",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lnet/fercanet/LNM/MainMenu;->findViewById(I)Landroid/view/View;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/MainMenu;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lnet/fercanet/LNM/Utils;->reloadScores(Landroid/content/Context;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Settings;->reloadScoresCall()V <",
+                "> Lnet/fercanet/LNM/Settings;->access$000(Lnet/fercanet/LNM/Settings;)V <",
+                "> Lnet/fercanet/LNM/Settings$1;->onClick(Landroid/view/View;)V <",
+                "> Lnet/fercanet/LNM/Settings;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.MAIN",
+                    "start-activity -a"
+                ],
+                [
+                    "net.fercanet.LNM.Settings",
+                    "endgame"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Settings;->reloadScoresCall()V <",
+                "> Lnet/fercanet/LNM/Settings;->access$000(Lnet/fercanet/LNM/Settings;)V <",
+                "> Lnet/fercanet/LNM/Settings$1;->onClick(Landroid/view/View;)V <",
+                "> Lnet/fercanet/LNM/Settings;-><init>()V <",
+                "> Lnet/fercanet/LNM/MainMenu;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "net.fercanet.LNM.MainMenu",
+                    "<unknown>"
+                ],
+                [
+                    "net.fercanet.LNM.Settings",
+                    "endgame"
+                ]
+            ]
+        }
+    },
+    "Lnet/fercanet/LNM/Game;->setContentView(I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Game;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.MAIN",
+                    "start-activity -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Game;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lnet/fercanet/LNM/MainMenu;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "net.fercanet.LNM.MainMenu",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lnet/fercanet/LNM/Player;->play(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Game$5;->onClick(Landroid/view/View;)V <",
+                "> Lnet/fercanet/LNM/Game;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.MAIN",
+                    "start-activity -a"
+                ],
+                [
+                    "net.fercanet.LNM.Game",
+                    "endgame"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Game$5;->onClick(Landroid/view/View;)V <",
+                "> Lnet/fercanet/LNM/Game;-><init>()V <",
+                "> Lnet/fercanet/LNM/MainMenu;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "net.fercanet.LNM.MainMenu",
+                    "<unknown>"
+                ],
+                [
+                    "net.fercanet.LNM.Game",
+                    "endgame"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Game;->showNextNote()V <",
+                "> Lnet/fercanet/LNM/Game;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.MAIN",
+                    "start-activity -a"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Game;->showNextNote()V <",
+                "> Lnet/fercanet/LNM/Game;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lnet/fercanet/LNM/MainMenu;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "net.fercanet.LNM.MainMenu",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lnet/fercanet/LNM/Hof;->getStringFromFile(Ljava/lang/String;)Ljava/lang/String;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Hof;->loadHofTable()V <",
+                "> Lnet/fercanet/LNM/Hof;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.MAIN",
+                    "start-activity -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Hof;->loadHofTable()V <",
+                "> Lnet/fercanet/LNM/Hof;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lnet/fercanet/LNM/MainMenu;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "net.fercanet.LNM.MainMenu",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lnet/fercanet/LNM/Settings;->setContentView(I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Settings;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.MAIN",
+                    "start-activity -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Settings;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lnet/fercanet/LNM/MainMenu;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "net.fercanet.LNM.MainMenu",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lnet/fercanet/LNM/Settings;->startActivity(Landroid/content/Intent;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Settings$1;->onClick(Landroid/view/View;)V <",
+                "> Lnet/fercanet/LNM/Settings;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.MAIN",
+                    "start-activity -a"
+                ],
+                [
+                    "net.fercanet.LNM.Settings",
+                    "endgame"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Settings$1;->onClick(Landroid/view/View;)V <",
+                "> Lnet/fercanet/LNM/Settings;-><init>()V <",
+                "> Lnet/fercanet/LNM/MainMenu;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "net.fercanet.LNM.MainMenu",
+                    "<unknown>"
+                ],
+                [
+                    "net.fercanet.LNM.Settings",
+                    "endgame"
+                ]
+            ]
+        }
+    },
+    "Lnet/fercanet/LNM/Hof;->findViewById(I)Landroid/view/View;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Hof;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.MAIN",
+                    "start-activity -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Hof;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lnet/fercanet/LNM/MainMenu;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "net.fercanet.LNM.MainMenu",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Hof;->loadHofTable()V <",
+                "> Lnet/fercanet/LNM/Hof;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.MAIN",
+                    "start-activity -a"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Hof;->loadHofTable()V <",
+                "> Lnet/fercanet/LNM/Hof;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lnet/fercanet/LNM/MainMenu;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "net.fercanet.LNM.MainMenu",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lnet/fercanet/LNM/Game$5;-><init>(Lnet/fercanet/LNM/Game;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Game;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.MAIN",
+                    "start-activity -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Game;-><init>()V <",
+                "> Lnet/fercanet/LNM/MainMenu;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "net.fercanet.LNM.MainMenu",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lnet/fercanet/LNM/Settings$2;-><init>(Lnet/fercanet/LNM/Settings;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Settings;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.MAIN",
+                    "start-activity -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Settings;-><init>()V <",
+                "> Lnet/fercanet/LNM/MainMenu;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "net.fercanet.LNM.MainMenu",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lnet/fercanet/LNM/Game$2;-><init>(Lnet/fercanet/LNM/Game;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Game;->showOMTEndDialog()V <",
+                "> Lnet/fercanet/LNM/Game;->access$200(Lnet/fercanet/LNM/Game;)V <",
+                "> Lnet/fercanet/LNM/Game$6;->onChronometerTick(Landroid/widget/Chronometer;)V <",
+                "> Lnet/fercanet/LNM/Game;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.MAIN",
+                    "start-activity -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Game;->showOMTEndDialog()V <",
+                "> Lnet/fercanet/LNM/Game;->access$200(Lnet/fercanet/LNM/Game;)V <",
+                "> Lnet/fercanet/LNM/Game$6;->onChronometerTick(Landroid/widget/Chronometer;)V <",
+                "> Lnet/fercanet/LNM/Game;-><init>()V <",
+                "> Lnet/fercanet/LNM/MainMenu;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "net.fercanet.LNM.MainMenu",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lnet/fercanet/LNM/Game$3;-><init>(Lnet/fercanet/LNM/Game;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Game;->showOMTEndDialog()V <",
+                "> Lnet/fercanet/LNM/Game;->access$200(Lnet/fercanet/LNM/Game;)V <",
+                "> Lnet/fercanet/LNM/Game$6;->onChronometerTick(Landroid/widget/Chronometer;)V <",
+                "> Lnet/fercanet/LNM/Game;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.MAIN",
+                    "start-activity -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Game;->showOMTEndDialog()V <",
+                "> Lnet/fercanet/LNM/Game;->access$200(Lnet/fercanet/LNM/Game;)V <",
+                "> Lnet/fercanet/LNM/Game$6;->onChronometerTick(Landroid/widget/Chronometer;)V <",
+                "> Lnet/fercanet/LNM/Game;-><init>()V <",
+                "> Lnet/fercanet/LNM/MainMenu;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "net.fercanet.LNM.MainMenu",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lnet/fercanet/LNM/Player;->fileIndex(Ljava/lang/String;Ljava/lang/String;)I": {
+        "path_0": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Player;->play(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V <",
+                "> Lnet/fercanet/LNM/Game$5;->onClick(Landroid/view/View;)V <",
+                "> Lnet/fercanet/LNM/Game;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.MAIN",
+                    "start-activity -a"
+                ],
+                [
+                    "net.fercanet.LNM.Game",
+                    "endgame"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Player;->play(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V <",
+                "> Lnet/fercanet/LNM/Game$5;->onClick(Landroid/view/View;)V <",
+                "> Lnet/fercanet/LNM/Game;-><init>()V <",
+                "> Lnet/fercanet/LNM/MainMenu;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "net.fercanet.LNM.MainMenu",
+                    "<unknown>"
+                ],
+                [
+                    "net.fercanet.LNM.Game",
+                    "endgame"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Player;->play(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V <",
+                "> Lnet/fercanet/LNM/Game$5;->onClick(Landroid/view/View;)V <",
+                "> Lnet/fercanet/LNM/Game;-><init>()V <",
+                "> Lnet/fercanet/LNM/MainMenu$1;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "net.fercanet.LNM.MainMenu",
+                    "mintest",
+                    "One Minute Test"
+                ],
+                [
+                    "net.fercanet.LNM.Game",
+                    "endgame"
+                ]
+            ]
+        }
+    },
+    "Lnet/fercanet/LNM/Game;->buttonsInitialization()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Game;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.MAIN",
+                    "start-activity -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Game;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lnet/fercanet/LNM/MainMenu;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "net.fercanet.LNM.MainMenu",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lnet/fercanet/LNM/MainMenu;->startActivity(Landroid/content/Intent;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/MainMenu;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "net.fercanet.LNM.MainMenu",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/MainMenu$1;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "net.fercanet.LNM.MainMenu",
+                    "mintest",
+                    "One Minute Test"
+                ]
+            ]
+        }
+    },
+    "Lnet/fercanet/LNM/Game;->findViewById(I)Landroid/view/View;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Game;->setRedBackgroundToAllBtExceptThis(Ljava/lang/String;)V <",
+                "> Lnet/fercanet/LNM/Game;->showNextNote()V <",
+                "> Lnet/fercanet/LNM/Game;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.MAIN",
+                    "start-activity -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Game;->setRedBackgroundToAllBtExceptThis(Ljava/lang/String;)V <",
+                "> Lnet/fercanet/LNM/Game;->showNextNote()V <",
+                "> Lnet/fercanet/LNM/Game;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lnet/fercanet/LNM/MainMenu;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "net.fercanet.LNM.MainMenu",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Game$5;->onClick(Landroid/view/View;)V <",
+                "> Lnet/fercanet/LNM/Game;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.MAIN",
+                    "start-activity -a"
+                ],
+                [
+                    "net.fercanet.LNM.Game",
+                    "endgame"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Game$5;->onClick(Landroid/view/View;)V <",
+                "> Lnet/fercanet/LNM/Game;-><init>()V <",
+                "> Lnet/fercanet/LNM/MainMenu;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "net.fercanet.LNM.MainMenu",
+                    "<unknown>"
+                ],
+                [
+                    "net.fercanet.LNM.Game",
+                    "endgame"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Game;->showNextNote()V <",
+                "> Lnet/fercanet/LNM/Game;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.MAIN",
+                    "start-activity -a"
+                ]
+            ]
+        },
+        "path_5": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Game;->showNextNote()V <",
+                "> Lnet/fercanet/LNM/Game;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lnet/fercanet/LNM/MainMenu;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "net.fercanet.LNM.MainMenu",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_6": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Game;->buttonsInitialization()V <",
+                "> Lnet/fercanet/LNM/Game;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.MAIN",
+                    "start-activity -a"
+                ]
+            ]
+        },
+        "path_7": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Game;->buttonsInitialization()V <",
+                "> Lnet/fercanet/LNM/Game;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lnet/fercanet/LNM/MainMenu;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "net.fercanet.LNM.MainMenu",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_8": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Game;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.MAIN",
+                    "start-activity -a"
+                ]
+            ]
+        },
+        "path_9": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Game;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lnet/fercanet/LNM/MainMenu;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "net.fercanet.LNM.MainMenu",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lnet/fercanet/LNM/Preferences;->SavePreferences()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Settings$3;->onItemSelected(Landroid/widget/AdapterView;Landroid/view/View;IJ)V <",
+                "> Lnet/fercanet/LNM/Settings;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.MAIN",
+                    "start-activity -a"
+                ],
+                [
+                    "net.fercanet.LNM.Settings",
+                    "sphofentries"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Settings$3;->onItemSelected(Landroid/widget/AdapterView;Landroid/view/View;IJ)V <",
+                "> Lnet/fercanet/LNM/Settings;-><init>()V <",
+                "> Lnet/fercanet/LNM/MainMenu;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "net.fercanet.LNM.MainMenu",
+                    "<unknown>"
+                ],
+                [
+                    "net.fercanet.LNM.Settings",
+                    "sphofentries"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Settings$4;->onClick(Landroid/view/View;)V <",
+                "> Lnet/fercanet/LNM/Settings;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.MAIN",
+                    "start-activity -a"
+                ],
+                [
+                    "net.fercanet.LNM.Settings",
+                    "rbseeuropean"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Settings$4;->onClick(Landroid/view/View;)V <",
+                "> Lnet/fercanet/LNM/Settings;-><init>()V <",
+                "> Lnet/fercanet/LNM/MainMenu;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "net.fercanet.LNM.MainMenu",
+                    "<unknown>"
+                ],
+                [
+                    "net.fercanet.LNM.Settings",
+                    "rbseeuropean"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Settings$2;->onClick(Landroid/view/View;)V <",
+                "> Lnet/fercanet/LNM/Settings;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.MAIN",
+                    "start-activity -a"
+                ],
+                [
+                    "net.fercanet.LNM.Settings",
+                    "rbseeuropean"
+                ]
+            ]
+        },
+        "path_5": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Settings$2;->onClick(Landroid/view/View;)V <",
+                "> Lnet/fercanet/LNM/Settings;-><init>()V <",
+                "> Lnet/fercanet/LNM/MainMenu;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "net.fercanet.LNM.MainMenu",
+                    "<unknown>"
+                ],
+                [
+                    "net.fercanet.LNM.Settings",
+                    "rbseeuropean"
+                ]
+            ]
+        }
+    },
+    "Lnet/fercanet/LNM/Game;->access$100(Lnet/fercanet/LNM/Game;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Game$5;->onClick(Landroid/view/View;)V <",
+                "> Lnet/fercanet/LNM/Game;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.MAIN",
+                    "start-activity -a"
+                ],
+                [
+                    "net.fercanet.LNM.Game",
+                    "endgame"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Game$5;->onClick(Landroid/view/View;)V <",
+                "> Lnet/fercanet/LNM/Game;-><init>()V <",
+                "> Lnet/fercanet/LNM/MainMenu;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "net.fercanet.LNM.MainMenu",
+                    "<unknown>"
+                ],
+                [
+                    "net.fercanet.LNM.Game",
+                    "endgame"
+                ]
+            ]
+        }
+    },
+    "Lnet/fercanet/LNM/Game$6;-><init>(Lnet/fercanet/LNM/Game;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Game;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.MAIN",
+                    "start-activity -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Game;-><init>()V <",
+                "> Lnet/fercanet/LNM/MainMenu;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "net.fercanet.LNM.MainMenu",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lnet/fercanet/LNM/Hof;->setContentView(I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Hof;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.MAIN",
+                    "start-activity -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Hof;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lnet/fercanet/LNM/MainMenu;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "net.fercanet.LNM.MainMenu",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lnet/fercanet/LNM/Game;->access$200(Lnet/fercanet/LNM/Game;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Game$6;->onChronometerTick(Landroid/widget/Chronometer;)V <",
+                "> Lnet/fercanet/LNM/Game;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.MAIN",
+                    "start-activity -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Game$6;->onChronometerTick(Landroid/widget/Chronometer;)V <",
+                "> Lnet/fercanet/LNM/Game;-><init>()V <",
+                "> Lnet/fercanet/LNM/MainMenu;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "net.fercanet.LNM.MainMenu",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lnet/fercanet/LNM/MainMenu;->setContentView(I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/MainMenu;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lnet/fercanet/LNM/Settings;->access$000(Lnet/fercanet/LNM/Settings;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Settings$1;->onClick(Landroid/view/View;)V <",
+                "> Lnet/fercanet/LNM/Settings;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.MAIN",
+                    "start-activity -a"
+                ],
+                [
+                    "net.fercanet.LNM.Settings",
+                    "endgame"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Settings$1;->onClick(Landroid/view/View;)V <",
+                "> Lnet/fercanet/LNM/Settings;-><init>()V <",
+                "> Lnet/fercanet/LNM/MainMenu;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "net.fercanet.LNM.MainMenu",
+                    "<unknown>"
+                ],
+                [
+                    "net.fercanet.LNM.Settings",
+                    "endgame"
+                ]
+            ]
+        }
+    },
+    "Lnet/fercanet/LNM/Utils;->isInTheTopScores(Ljava/lang/Integer;Landroid/content/Context;)Ljava/lang/Boolean;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Game;->showOMTEndDialog()V <",
+                "> Lnet/fercanet/LNM/Game;->access$200(Lnet/fercanet/LNM/Game;)V <",
+                "> Lnet/fercanet/LNM/Game$6;->onChronometerTick(Landroid/widget/Chronometer;)V <",
+                "> Lnet/fercanet/LNM/Game;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.MAIN",
+                    "start-activity -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Game;->showOMTEndDialog()V <",
+                "> Lnet/fercanet/LNM/Game;->access$200(Lnet/fercanet/LNM/Game;)V <",
+                "> Lnet/fercanet/LNM/Game$6;->onChronometerTick(Landroid/widget/Chronometer;)V <",
+                "> Lnet/fercanet/LNM/Game;-><init>()V <",
+                "> Lnet/fercanet/LNM/MainMenu;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "net.fercanet.LNM.MainMenu",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lnet/fercanet/LNM/Player;->indexOf(Ljava/lang/String;)I": {
+        "path_0": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Player;->fileIndex(Ljava/lang/String;Ljava/lang/String;)I <",
+                "> Lnet/fercanet/LNM/Player;->play(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V <",
+                "> Lnet/fercanet/LNM/Game$5;->onClick(Landroid/view/View;)V <",
+                "> Lnet/fercanet/LNM/Game;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.MAIN",
+                    "start-activity -a"
+                ],
+                [
+                    "net.fercanet.LNM.Game",
+                    "endgame"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Player;->fileIndex(Ljava/lang/String;Ljava/lang/String;)I <",
+                "> Lnet/fercanet/LNM/Player;->play(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V <",
+                "> Lnet/fercanet/LNM/Game$5;->onClick(Landroid/view/View;)V <",
+                "> Lnet/fercanet/LNM/Game;-><init>()V <",
+                "> Lnet/fercanet/LNM/MainMenu;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "net.fercanet.LNM.MainMenu",
+                    "<unknown>"
+                ],
+                [
+                    "net.fercanet.LNM.Game",
+                    "endgame"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Player;->fileIndex(Ljava/lang/String;Ljava/lang/String;)I <",
+                "> Lnet/fercanet/LNM/Player;->play(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V <",
+                "> Lnet/fercanet/LNM/Game$5;->onClick(Landroid/view/View;)V <",
+                "> Lnet/fercanet/LNM/Game;-><init>()V <",
+                "> Lnet/fercanet/LNM/MainMenu$1;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "net.fercanet.LNM.MainMenu",
+                    "mintest",
+                    "One Minute Test"
+                ],
+                [
+                    "net.fercanet.LNM.Game",
+                    "endgame"
+                ]
+            ]
+        }
+    },
+    "Lnet/fercanet/LNM/Game;->getBaseContext()Landroid/content/Context;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Game$5;->onClick(Landroid/view/View;)V <",
+                "> Lnet/fercanet/LNM/Game;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.MAIN",
+                    "start-activity -a"
+                ],
+                [
+                    "net.fercanet.LNM.Game",
+                    "endgame"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Game$5;->onClick(Landroid/view/View;)V <",
+                "> Lnet/fercanet/LNM/Game;-><init>()V <",
+                "> Lnet/fercanet/LNM/MainMenu;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "net.fercanet.LNM.MainMenu",
+                    "<unknown>"
+                ],
+                [
+                    "net.fercanet.LNM.Game",
+                    "endgame"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Game;->showNextNote()V <",
+                "> Lnet/fercanet/LNM/Game;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.MAIN",
+                    "start-activity -a"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Game;->showNextNote()V <",
+                "> Lnet/fercanet/LNM/Game;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lnet/fercanet/LNM/MainMenu;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "net.fercanet.LNM.MainMenu",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lnet/fercanet/LNM/Game;->setRedBackgroundToAllBtExceptThis(Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Game;->showNextNote()V <",
+                "> Lnet/fercanet/LNM/Game;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.MAIN",
+                    "start-activity -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Game;->showNextNote()V <",
+                "> Lnet/fercanet/LNM/Game;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lnet/fercanet/LNM/MainMenu;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "net.fercanet.LNM.MainMenu",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lnet/fercanet/LNM/Settings$4;-><init>(Lnet/fercanet/LNM/Settings;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Settings;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.MAIN",
+                    "start-activity -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Settings;-><init>()V <",
+                "> Lnet/fercanet/LNM/MainMenu;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "net.fercanet.LNM.MainMenu",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lnet/fercanet/LNM/Game;->startActivity(Landroid/content/Intent;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Game$5;->onClick(Landroid/view/View;)V <",
+                "> Lnet/fercanet/LNM/Game;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.MAIN",
+                    "start-activity -a"
+                ],
+                [
+                    "net.fercanet.LNM.Game",
+                    "endgame"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Game$5;->onClick(Landroid/view/View;)V <",
+                "> Lnet/fercanet/LNM/Game;-><init>()V <",
+                "> Lnet/fercanet/LNM/MainMenu;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "net.fercanet.LNM.MainMenu",
+                    "<unknown>"
+                ],
+                [
+                    "net.fercanet.LNM.Game",
+                    "endgame"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Game$1;->onClick(Landroid/content/DialogInterface;I)V <",
+                "> Lnet/fercanet/LNM/Game;->showOMTEndDialog()V <",
+                "> Lnet/fercanet/LNM/Game;->access$200(Lnet/fercanet/LNM/Game;)V <",
+                "> Lnet/fercanet/LNM/Game$6;->onChronometerTick(Landroid/widget/Chronometer;)V <",
+                "> Lnet/fercanet/LNM/Game;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.MAIN",
+                    "start-activity -a"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Game$1;->onClick(Landroid/content/DialogInterface;I)V <",
+                "> Lnet/fercanet/LNM/Game;->showOMTEndDialog()V <",
+                "> Lnet/fercanet/LNM/Game;->access$200(Lnet/fercanet/LNM/Game;)V <",
+                "> Lnet/fercanet/LNM/Game$6;->onChronometerTick(Landroid/widget/Chronometer;)V <",
+                "> Lnet/fercanet/LNM/Game;-><init>()V <",
+                "> Lnet/fercanet/LNM/MainMenu;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "net.fercanet.LNM.MainMenu",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Game$4;->onClick(Landroid/content/DialogInterface;I)V <",
+                "> Lnet/fercanet/LNM/Game;->showTrainingEndDialog()V <",
+                "> Lnet/fercanet/LNM/Game;->access$000(Lnet/fercanet/LNM/Game;)V <",
+                "> Lnet/fercanet/LNM/Game$5;->onClick(Landroid/view/View;)V <",
+                "> Lnet/fercanet/LNM/Game;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.MAIN",
+                    "start-activity -a"
+                ],
+                [
+                    "net.fercanet.LNM.Game",
+                    "endgame"
+                ]
+            ]
+        },
+        "path_5": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Game$4;->onClick(Landroid/content/DialogInterface;I)V <",
+                "> Lnet/fercanet/LNM/Game;->showTrainingEndDialog()V <",
+                "> Lnet/fercanet/LNM/Game;->access$000(Lnet/fercanet/LNM/Game;)V <",
+                "> Lnet/fercanet/LNM/Game$5;->onClick(Landroid/view/View;)V <",
+                "> Lnet/fercanet/LNM/Game;-><init>()V <",
+                "> Lnet/fercanet/LNM/MainMenu;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "net.fercanet.LNM.MainMenu",
+                    "<unknown>"
+                ],
+                [
+                    "net.fercanet.LNM.Game",
+                    "endgame"
+                ]
+            ]
+        },
+        "path_6": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Game$3;->onClick(Landroid/content/DialogInterface;I)V <",
+                "> Lnet/fercanet/LNM/Game;->showOMTEndDialog()V <",
+                "> Lnet/fercanet/LNM/Game;->access$200(Lnet/fercanet/LNM/Game;)V <",
+                "> Lnet/fercanet/LNM/Game$6;->onChronometerTick(Landroid/widget/Chronometer;)V <",
+                "> Lnet/fercanet/LNM/Game;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.MAIN",
+                    "start-activity -a"
+                ]
+            ]
+        },
+        "path_7": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Game$3;->onClick(Landroid/content/DialogInterface;I)V <",
+                "> Lnet/fercanet/LNM/Game;->showOMTEndDialog()V <",
+                "> Lnet/fercanet/LNM/Game;->access$200(Lnet/fercanet/LNM/Game;)V <",
+                "> Lnet/fercanet/LNM/Game$6;->onChronometerTick(Landroid/widget/Chronometer;)V <",
+                "> Lnet/fercanet/LNM/Game;-><init>()V <",
+                "> Lnet/fercanet/LNM/MainMenu;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "net.fercanet.LNM.MainMenu",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_8": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Game$2;->onClick(Landroid/content/DialogInterface;I)V <",
+                "> Lnet/fercanet/LNM/Game;->showOMTEndDialog()V <",
+                "> Lnet/fercanet/LNM/Game;->access$200(Lnet/fercanet/LNM/Game;)V <",
+                "> Lnet/fercanet/LNM/Game$6;->onChronometerTick(Landroid/widget/Chronometer;)V <",
+                "> Lnet/fercanet/LNM/Game;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.MAIN",
+                    "start-activity -a"
+                ]
+            ]
+        },
+        "path_9": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Game$2;->onClick(Landroid/content/DialogInterface;I)V <",
+                "> Lnet/fercanet/LNM/Game;->showOMTEndDialog()V <",
+                "> Lnet/fercanet/LNM/Game;->access$200(Lnet/fercanet/LNM/Game;)V <",
+                "> Lnet/fercanet/LNM/Game$6;->onChronometerTick(Landroid/widget/Chronometer;)V <",
+                "> Lnet/fercanet/LNM/Game;-><init>()V <",
+                "> Lnet/fercanet/LNM/MainMenu;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "net.fercanet.LNM.MainMenu",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lnet/fercanet/LNM/Game;->getPackageName()Ljava/lang/String;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Game;->showNextNote()V <",
+                "> Lnet/fercanet/LNM/Game;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.MAIN",
+                    "start-activity -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Game;->showNextNote()V <",
+                "> Lnet/fercanet/LNM/Game;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lnet/fercanet/LNM/MainMenu;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "net.fercanet.LNM.MainMenu",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lnet/fercanet/LNM/Preferences;-><init>(Landroid/content/Context;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Settings;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.MAIN",
+                    "start-activity -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Settings;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lnet/fercanet/LNM/MainMenu;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "net.fercanet.LNM.MainMenu",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Game$5;->onClick(Landroid/view/View;)V <",
+                "> Lnet/fercanet/LNM/Game;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.MAIN",
+                    "start-activity -a"
+                ],
+                [
+                    "net.fercanet.LNM.Game",
+                    "endgame"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Game$5;->onClick(Landroid/view/View;)V <",
+                "> Lnet/fercanet/LNM/Game;-><init>()V <",
+                "> Lnet/fercanet/LNM/MainMenu;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "net.fercanet.LNM.MainMenu",
+                    "<unknown>"
+                ],
+                [
+                    "net.fercanet.LNM.Game",
+                    "endgame"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Utils;->isInTheTopScores(Ljava/lang/Integer;Landroid/content/Context;)Ljava/lang/Boolean; <",
+                "> Lnet/fercanet/LNM/Game;->showOMTEndDialog()V <",
+                "> Lnet/fercanet/LNM/Game;->access$200(Lnet/fercanet/LNM/Game;)V <",
+                "> Lnet/fercanet/LNM/Game$6;->onChronometerTick(Landroid/widget/Chronometer;)V <",
+                "> Lnet/fercanet/LNM/Game;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.MAIN",
+                    "start-activity -a"
+                ]
+            ]
+        },
+        "path_5": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Utils;->isInTheTopScores(Ljava/lang/Integer;Landroid/content/Context;)Ljava/lang/Boolean; <",
+                "> Lnet/fercanet/LNM/Game;->showOMTEndDialog()V <",
+                "> Lnet/fercanet/LNM/Game;->access$200(Lnet/fercanet/LNM/Game;)V <",
+                "> Lnet/fercanet/LNM/Game$6;->onChronometerTick(Landroid/widget/Chronometer;)V <",
+                "> Lnet/fercanet/LNM/Game;-><init>()V <",
+                "> Lnet/fercanet/LNM/MainMenu;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "net.fercanet.LNM.MainMenu",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_6": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Game;->showOMTEndDialog()V <",
+                "> Lnet/fercanet/LNM/Game;->access$200(Lnet/fercanet/LNM/Game;)V <",
+                "> Lnet/fercanet/LNM/Game$6;->onChronometerTick(Landroid/widget/Chronometer;)V <",
+                "> Lnet/fercanet/LNM/Game;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.MAIN",
+                    "start-activity -a"
+                ]
+            ]
+        },
+        "path_7": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Game;->showOMTEndDialog()V <",
+                "> Lnet/fercanet/LNM/Game;->access$200(Lnet/fercanet/LNM/Game;)V <",
+                "> Lnet/fercanet/LNM/Game$6;->onChronometerTick(Landroid/widget/Chronometer;)V <",
+                "> Lnet/fercanet/LNM/Game;-><init>()V <",
+                "> Lnet/fercanet/LNM/MainMenu;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "net.fercanet.LNM.MainMenu",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_8": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Utils;->saveListInFile(Ljava/util/List;Landroid/content/Context;)V <",
+                "> Lnet/fercanet/LNM/Utils;->reloadScores(Landroid/content/Context;)V <",
+                "> Lnet/fercanet/LNM/Settings;->reloadScoresCall()V <",
+                "> Lnet/fercanet/LNM/Settings;->access$000(Lnet/fercanet/LNM/Settings;)V <",
+                "> Lnet/fercanet/LNM/Settings$1;->onClick(Landroid/view/View;)V <",
+                "> Lnet/fercanet/LNM/Settings;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.MAIN",
+                    "start-activity -a"
+                ],
+                [
+                    "net.fercanet.LNM.Settings",
+                    "endgame"
+                ]
+            ]
+        },
+        "path_9": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Utils;->saveListInFile(Ljava/util/List;Landroid/content/Context;)V <",
+                "> Lnet/fercanet/LNM/Utils;->reloadScores(Landroid/content/Context;)V <",
+                "> Lnet/fercanet/LNM/Settings;->reloadScoresCall()V <",
+                "> Lnet/fercanet/LNM/Settings;->access$000(Lnet/fercanet/LNM/Settings;)V <",
+                "> Lnet/fercanet/LNM/Settings$1;->onClick(Landroid/view/View;)V <",
+                "> Lnet/fercanet/LNM/Settings;-><init>()V <",
+                "> Lnet/fercanet/LNM/MainMenu;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "net.fercanet.LNM.MainMenu",
+                    "<unknown>"
+                ],
+                [
+                    "net.fercanet.LNM.Settings",
+                    "endgame"
+                ]
+            ]
+        },
+        "path_10": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Game;->buttonsInitialization()V <",
+                "> Lnet/fercanet/LNM/Game;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.MAIN",
+                    "start-activity -a"
+                ]
+            ]
+        },
+        "path_11": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Game;->buttonsInitialization()V <",
+                "> Lnet/fercanet/LNM/Game;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lnet/fercanet/LNM/MainMenu;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "net.fercanet.LNM.MainMenu",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lnet/fercanet/LNM/Preferences;->LoadPreferences()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Preferences;-><init>(Landroid/content/Context;)V <",
+                "> Lnet/fercanet/LNM/Settings;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.MAIN",
+                    "start-activity -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Preferences;-><init>(Landroid/content/Context;)V <",
+                "> Lnet/fercanet/LNM/Settings;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lnet/fercanet/LNM/MainMenu;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "net.fercanet.LNM.MainMenu",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lnet/fercanet/LNM/Utils;->saveUserScore(Lnet/fercanet/LNM/Score;Landroid/content/Context;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Game;->saveUserScoreCall(Lnet/fercanet/LNM/Score;)V <",
+                "> Lnet/fercanet/LNM/Game$1;->onClick(Landroid/content/DialogInterface;I)V <",
+                "> Lnet/fercanet/LNM/Game;->showOMTEndDialog()V <",
+                "> Lnet/fercanet/LNM/Game;->access$200(Lnet/fercanet/LNM/Game;)V <",
+                "> Lnet/fercanet/LNM/Game$6;->onChronometerTick(Landroid/widget/Chronometer;)V <",
+                "> Lnet/fercanet/LNM/Game;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.MAIN",
+                    "start-activity -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Game;->saveUserScoreCall(Lnet/fercanet/LNM/Score;)V <",
+                "> Lnet/fercanet/LNM/Game$1;->onClick(Landroid/content/DialogInterface;I)V <",
+                "> Lnet/fercanet/LNM/Game;->showOMTEndDialog()V <",
+                "> Lnet/fercanet/LNM/Game;->access$200(Lnet/fercanet/LNM/Game;)V <",
+                "> Lnet/fercanet/LNM/Game$6;->onChronometerTick(Landroid/widget/Chronometer;)V <",
+                "> Lnet/fercanet/LNM/Game;-><init>()V <",
+                "> Lnet/fercanet/LNM/MainMenu;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "net.fercanet.LNM.MainMenu",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lnet/fercanet/LNM/Game;->getIntent()Landroid/content/Intent;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Game;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.MAIN",
+                    "start-activity -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Game;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lnet/fercanet/LNM/MainMenu;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "net.fercanet.LNM.MainMenu",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lnet/fercanet/LNM/Settings$3;-><init>(Lnet/fercanet/LNM/Settings;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Settings;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.MAIN",
+                    "start-activity -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/Settings;-><init>()V <",
+                "> Lnet/fercanet/LNM/MainMenu;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "net.fercanet.LNM.MainMenu",
+                    "<unknown>"
+                ]
+            ]
+        }
+    }
+}

@@ -1,0 +1,6 @@
+COMPONENT CONCAT > Lorg/waxworlds/edam/importcontacts/FileChooser;->onPrepareDialog(Landroid/content/Context; < extends Ljava/lang/Object, implements []
+COMPONENT CONCAT > Lorg/waxworlds/edam/importcontacts/VCFImporter$VCard$ParseException;-><init>(Lorg/waxworlds/edam/importcontacts/VCFImporter$VCard; < extends Ljava/lang/Exception, implements []
+COMPONENT CONCAT > Lorg/waxworlds/edam/importcontacts/FileChooser$1RowItemSorter;->compare(Lorg/waxworlds/edam/importcontacts/FileChooser$RowItem; < extends Ljava/lang/Object, implements ['Ljava/util/Comparator']
+COMPONENT CONCAT > Lorg/waxworlds/edam/importcontacts/FileChooser$RowItem;->compareTo(Ljava/lang/Object;)I < extends Ljava/lang/Object, implements ['Ljava/lang/Comparable']
+COMPONENT CONCAT > Lorg/waxworlds/edam/importcontacts/VCFImporter$VCard;->parseEMAIL([Ljava/lang/String; < extends Ljava/lang/Object, implements []
+COMPONENT CONCAT > Lorg/waxworlds/edam/importcontacts/Importer$ContactData;->addPhone(Ljava/lang/String; < extends Ljava/lang/Object, implements []

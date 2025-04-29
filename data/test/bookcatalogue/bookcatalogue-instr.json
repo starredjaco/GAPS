@@ -1,0 +1,2328 @@
+{
+    "Lcom/eleybourn/bookcatalogue/StartupActivity;->access$4(Lcom/eleybourn/bookcatalogue/StartupActivity;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity$6;->onDismiss(Landroid/content/DialogInterface;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/eleybourn/bookcatalogue/debug/Tracker;->enterOnDestroy(Ljava/lang/Object;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/BookEdit;->onDestroy()V <",
+                "> Lcom/eleybourn/bookcatalogue/MainMenu$11;->run()V <",
+                "> Lcom/eleybourn/bookcatalogue/MainMenu;-><init>()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->doMainMenu()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->stage4Startup()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->access$4(Lcom/eleybourn/bookcatalogue/StartupActivity;)V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity$6;->onDismiss(Landroid/content/DialogInterface;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/BookEdit;->onDestroy()V <",
+                "> Lcom/eleybourn/bookcatalogue/BookISBNSearch;->createBook(Landroid/os/Bundle;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookCatalogueClassic;->onActivityResult(I <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.SEARCH",
+                    "start-activity -a"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/BookISBNSearch;->onDestroy()V <",
+                "> Lcom/eleybourn/bookcatalogue/BookCatalogueClassic;->onActivityResult(I <",
+                "> Lcom/eleybourn/bookcatalogue/MainMenu;->doMyBooks()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->doMainMenu()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->stage4Startup()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->access$4(Lcom/eleybourn/bookcatalogue/StartupActivity;)V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity$6;->onDismiss(Landroid/content/DialogInterface;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/BookISBNSearch;->onDestroy()V <",
+                "> Lcom/eleybourn/bookcatalogue/BookCatalogueClassic;->onActivityResult(I <",
+                "> Lcom/eleybourn/bookcatalogue/MainMenu;->doMyBooks()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->doMainMenu()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->stage4Startup()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->stage3Startup()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity$7;->onClick(Landroid/content/DialogInterface; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/BookISBNSearch;->onDestroy()V <",
+                "> Lcom/eleybourn/bookcatalogue/BookCatalogueClassic;->onActivityResult(I <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.SEARCH",
+                    "start-activity -a"
+                ]
+            ]
+        },
+        "path_5": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/BooksOnBookshelf;->onDestroy()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->doMyBooks()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->stage4Startup()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->access$4(Lcom/eleybourn/bookcatalogue/StartupActivity;)V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity$6;->onDismiss(Landroid/content/DialogInterface;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_6": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/BooksOnBookshelf;->onDestroy()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.SEARCH",
+                    "start -a"
+                ]
+            ]
+        },
+        "path_7": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/BookDetailsAbstract;->onDestroy()V <",
+                "> Lcom/eleybourn/bookcatalogue/BookEditFields;-><init>()V <",
+                "> Lcom/eleybourn/bookcatalogue/BookEdit;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/eleybourn/bookcatalogue/MainMenu$11;->run()V <",
+                "> Lcom/eleybourn/bookcatalogue/MainMenu;-><init>()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->doMainMenu()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->stage4Startup()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->access$4(Lcom/eleybourn/bookcatalogue/StartupActivity;)V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity$6;->onDismiss(Landroid/content/DialogInterface;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_8": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/BookDetailsAbstract;->onDestroy()V <",
+                "> Lcom/eleybourn/bookcatalogue/BookEditFields;-><init>()V <",
+                "> Lcom/eleybourn/bookcatalogue/BookEdit;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookISBNSearch;->createBook(Landroid/os/Bundle;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookCatalogueClassic;->onActivityResult(I <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.SEARCH",
+                    "start-activity -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/eleybourn/bookcatalogue/BookDetailsAbstract;->getTempImageDir()Ljava/io/File;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/BookDetailsAbstract;->getCroppedImageFileName()Ljava/io/File; <",
+                "> Lcom/eleybourn/bookcatalogue/BookDetailsAbstract;->onActivityResult(I <",
+                "> Lcom/eleybourn/bookcatalogue/BookEditFields;-><init>()V <",
+                "> Lcom/eleybourn/bookcatalogue/BookEdit;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/eleybourn/bookcatalogue/MainMenu$11;->run()V <",
+                "> Lcom/eleybourn/bookcatalogue/MainMenu;-><init>()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->doMainMenu()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->stage4Startup()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->access$4(Lcom/eleybourn/bookcatalogue/StartupActivity;)V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity$6;->onDismiss(Landroid/content/DialogInterface;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/BookDetailsAbstract;->getCroppedImageFileName()Ljava/io/File; <",
+                "> Lcom/eleybourn/bookcatalogue/BookDetailsAbstract;->onActivityResult(I <",
+                "> Lcom/eleybourn/bookcatalogue/BookEditFields;-><init>()V <",
+                "> Lcom/eleybourn/bookcatalogue/BookEdit;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookISBNSearch;->createBook(Landroid/os/Bundle;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookCatalogueClassic;->onActivityResult(I <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.SEARCH",
+                    "start-activity -a"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/BookDetailsAbstract;->cleanupTempImages()V <",
+                "> Lcom/eleybourn/bookcatalogue/BookDetailsAbstract;->onContextItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/eleybourn/bookcatalogue/BookEditFields;-><init>()V <",
+                "> Lcom/eleybourn/bookcatalogue/BookEdit;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/eleybourn/bookcatalogue/MainMenu$11;->run()V <",
+                "> Lcom/eleybourn/bookcatalogue/MainMenu;-><init>()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->doMainMenu()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->stage4Startup()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->access$4(Lcom/eleybourn/bookcatalogue/StartupActivity;)V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity$6;->onDismiss(Landroid/content/DialogInterface;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.eleybourn.bookcatalogue.StartupActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/BookDetailsAbstract;->cleanupTempImages()V <",
+                "> Lcom/eleybourn/bookcatalogue/BookDetailsAbstract;->onContextItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/eleybourn/bookcatalogue/BookEditFields;-><init>()V <",
+                "> Lcom/eleybourn/bookcatalogue/BookEdit;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookISBNSearch;->createBook(Landroid/os/Bundle;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookCatalogueClassic;->onActivityResult(I <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.SEARCH",
+                    "start-activity -a"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.eleybourn.bookcatalogue.BookCatalogueClassic",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/BookDetailsAbstract;->getCameraImageFile()Ljava/io/File; <",
+                "> Lcom/eleybourn/bookcatalogue/BookDetailsAbstract;->onActivityResult(I <",
+                "> Lcom/eleybourn/bookcatalogue/BookEditFields;-><init>()V <",
+                "> Lcom/eleybourn/bookcatalogue/BookEdit;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/eleybourn/bookcatalogue/MainMenu$11;->run()V <",
+                "> Lcom/eleybourn/bookcatalogue/MainMenu;-><init>()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->doMainMenu()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->stage4Startup()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->access$4(Lcom/eleybourn/bookcatalogue/StartupActivity;)V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity$6;->onDismiss(Landroid/content/DialogInterface;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_5": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/BookDetailsAbstract;->getCameraImageFile()Ljava/io/File; <",
+                "> Lcom/eleybourn/bookcatalogue/BookDetailsAbstract;->onActivityResult(I <",
+                "> Lcom/eleybourn/bookcatalogue/BookEditFields;-><init>()V <",
+                "> Lcom/eleybourn/bookcatalogue/BookEdit;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookISBNSearch;->createBook(Landroid/os/Bundle;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookCatalogueClassic;->onActivityResult(I <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.SEARCH",
+                    "start-activity -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/eleybourn/bookcatalogue/dialogs/PartialDatePicker$11;-><init>(Lcom/eleybourn/bookcatalogue/dialogs/PartialDatePicker;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/dialogs/PartialDatePicker;-><init>(Landroid/content/Context; <",
+                "> Lcom/eleybourn/bookcatalogue/dialogs/PartialDatePickerFragment;->onCreateDialog(Landroid/os/Bundle;)Landroid/app/Dialog; <",
+                "> Lcom/eleybourn/bookcatalogue/dialogs/PartialDatePickerFragment;->newInstance()Lcom/eleybourn/bookcatalogue/dialogs/PartialDatePickerFragment; <",
+                "> Lcom/eleybourn/bookcatalogue/BookEditNotes;->showReadStartDialog()V <",
+                "> Lcom/eleybourn/bookcatalogue/BookEdit;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/eleybourn/bookcatalogue/MainMenu$11;->run()V <",
+                "> Lcom/eleybourn/bookcatalogue/MainMenu;-><init>()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->doMainMenu()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->stage4Startup()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->access$4(Lcom/eleybourn/bookcatalogue/StartupActivity;)V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity$6;->onDismiss(Landroid/content/DialogInterface;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/dialogs/PartialDatePicker;-><init>(Landroid/content/Context; <",
+                "> Lcom/eleybourn/bookcatalogue/dialogs/PartialDatePickerFragment;->onCreateDialog(Landroid/os/Bundle;)Landroid/app/Dialog; <",
+                "> Lcom/eleybourn/bookcatalogue/dialogs/PartialDatePickerFragment;->newInstance()Lcom/eleybourn/bookcatalogue/dialogs/PartialDatePickerFragment; <",
+                "> Lcom/eleybourn/bookcatalogue/BookEditNotes;->showReadStartDialog()V <",
+                "> Lcom/eleybourn/bookcatalogue/BookEdit;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/eleybourn/bookcatalogue/MainMenu$11;->run()V <",
+                "> Lcom/eleybourn/bookcatalogue/MainMenu;-><init>()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->doMainMenu()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->stage4Startup()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->stage3Startup()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity$7;->onClick(Landroid/content/DialogInterface; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/dialogs/PartialDatePicker;-><init>(Landroid/content/Context; <",
+                "> Lcom/eleybourn/bookcatalogue/dialogs/PartialDatePickerFragment;->onCreateDialog(Landroid/os/Bundle;)Landroid/app/Dialog; <",
+                "> Lcom/eleybourn/bookcatalogue/dialogs/PartialDatePickerFragment;->newInstance()Lcom/eleybourn/bookcatalogue/dialogs/PartialDatePickerFragment; <",
+                "> Lcom/eleybourn/bookcatalogue/BookEditNotes;->showReadStartDialog()V <",
+                "> Lcom/eleybourn/bookcatalogue/BookEdit;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookISBNSearch;->createBook(Landroid/os/Bundle;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookCatalogueClassic;->onActivityResult(I <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.SEARCH",
+                    "start-activity -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/eleybourn/bookcatalogue/compat/BookCatalogueActivity;->dispatchTouchEvent(Landroid/view/MotionEvent;)Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/BookEdit;->dispatchTouchEvent(Landroid/view/MotionEvent;)Z <",
+                "> Lcom/eleybourn/bookcatalogue/MainMenu$11;->run()V <",
+                "> Lcom/eleybourn/bookcatalogue/MainMenu;-><init>()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->doMainMenu()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->stage4Startup()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->access$4(Lcom/eleybourn/bookcatalogue/StartupActivity;)V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity$6;->onDismiss(Landroid/content/DialogInterface;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/BookEdit;->dispatchTouchEvent(Landroid/view/MotionEvent;)Z <",
+                "> Lcom/eleybourn/bookcatalogue/BookISBNSearch;->createBook(Landroid/os/Bundle;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookCatalogueClassic;->onActivityResult(I <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.SEARCH",
+                    "start-activity -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/eleybourn/bookcatalogue/goodreads/GoodreadsManager;->getBookByIsbn(Ljava/lang/String;)Landroid/os/Bundle;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/SearchGoodreadsThread;->onRun()V <",
+                "> Lcom/eleybourn/bookcatalogue/SearchManager;->startGoodreads()Z <",
+                "> Lcom/eleybourn/bookcatalogue/SearchManager;->startOneSearch(I)Z <",
+                "> Lcom/eleybourn/bookcatalogue/SearchManager;->doSearch()V <",
+                "> Lcom/eleybourn/bookcatalogue/SearchManager;->search(Ljava/lang/String; <",
+                "> Lcom/eleybourn/bookcatalogue/BookISBNSearch;->doSearchBook()V <",
+                "> Lcom/eleybourn/bookcatalogue/BookCatalogueClassic;->onActivityResult(I <",
+                "> Lcom/eleybourn/bookcatalogue/MainMenu;->doMyBooks()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->doMainMenu()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->stage4Startup()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->access$4(Lcom/eleybourn/bookcatalogue/StartupActivity;)V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity$6;->onDismiss(Landroid/content/DialogInterface;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/SearchGoodreadsThread;->onRun()V <",
+                "> Lcom/eleybourn/bookcatalogue/SearchManager;->startGoodreads()Z <",
+                "> Lcom/eleybourn/bookcatalogue/SearchManager;->startOneSearch(I)Z <",
+                "> Lcom/eleybourn/bookcatalogue/SearchManager;->doSearch()V <",
+                "> Lcom/eleybourn/bookcatalogue/SearchManager;->search(Ljava/lang/String; <",
+                "> Lcom/eleybourn/bookcatalogue/BookISBNSearch;->doSearchBook()V <",
+                "> Lcom/eleybourn/bookcatalogue/BookCatalogueClassic;->onActivityResult(I <",
+                "> Lcom/eleybourn/bookcatalogue/MainMenu;->doMyBooks()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->doMainMenu()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->stage4Startup()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->stage3Startup()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity$7;->onClick(Landroid/content/DialogInterface; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/SearchGoodreadsThread;->onRun()V <",
+                "> Lcom/eleybourn/bookcatalogue/SearchManager;->startGoodreads()Z <",
+                "> Lcom/eleybourn/bookcatalogue/SearchManager;->startOneSearch(I)Z <",
+                "> Lcom/eleybourn/bookcatalogue/SearchManager;->doSearch()V <",
+                "> Lcom/eleybourn/bookcatalogue/SearchManager;->search(Ljava/lang/String; <",
+                "> Lcom/eleybourn/bookcatalogue/BookISBNSearch;->doSearchBook()V <",
+                "> Lcom/eleybourn/bookcatalogue/BookCatalogueClassic;->onActivityResult(I <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.SEARCH",
+                    "start-activity -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/eleybourn/bookcatalogue/dialogs/PartialDatePicker;->access$8(Lcom/eleybourn/bookcatalogue/dialogs/PartialDatePicker;)Ljava/lang/Integer;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/dialogs/PartialDatePicker$10;->onClick(Landroid/view/View;)V <",
+                "> Lcom/eleybourn/bookcatalogue/dialogs/PartialDatePicker;-><init>(Landroid/content/Context; <",
+                "> Lcom/eleybourn/bookcatalogue/dialogs/PartialDatePickerFragment;->onCreateDialog(Landroid/os/Bundle;)Landroid/app/Dialog; <",
+                "> Lcom/eleybourn/bookcatalogue/dialogs/PartialDatePickerFragment;->newInstance()Lcom/eleybourn/bookcatalogue/dialogs/PartialDatePickerFragment; <",
+                "> Lcom/eleybourn/bookcatalogue/BookEditNotes;->showReadStartDialog()V <",
+                "> Lcom/eleybourn/bookcatalogue/BookEdit;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/eleybourn/bookcatalogue/MainMenu$11;->run()V <",
+                "> Lcom/eleybourn/bookcatalogue/MainMenu;-><init>()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->doMainMenu()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->stage4Startup()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->access$4(Lcom/eleybourn/bookcatalogue/StartupActivity;)V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity$6;->onDismiss(Landroid/content/DialogInterface;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.eleybourn.bookcatalogue.StartupActivity",
+                    "ok"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/dialogs/PartialDatePicker$10;->onClick(Landroid/view/View;)V <",
+                "> Lcom/eleybourn/bookcatalogue/dialogs/PartialDatePicker;-><init>(Landroid/content/Context; <",
+                "> Lcom/eleybourn/bookcatalogue/dialogs/PartialDatePickerFragment;->onCreateDialog(Landroid/os/Bundle;)Landroid/app/Dialog; <",
+                "> Lcom/eleybourn/bookcatalogue/dialogs/PartialDatePickerFragment;->newInstance()Lcom/eleybourn/bookcatalogue/dialogs/PartialDatePickerFragment; <",
+                "> Lcom/eleybourn/bookcatalogue/BookEditNotes;->showReadStartDialog()V <",
+                "> Lcom/eleybourn/bookcatalogue/BookEdit;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/eleybourn/bookcatalogue/MainMenu$11;->run()V <",
+                "> Lcom/eleybourn/bookcatalogue/MainMenu;-><init>()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->doMainMenu()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->stage4Startup()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->stage3Startup()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity$7;->onClick(Landroid/content/DialogInterface; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.eleybourn.bookcatalogue.StartupActivity",
+                    "ok"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/dialogs/PartialDatePicker$10;->onClick(Landroid/view/View;)V <",
+                "> Lcom/eleybourn/bookcatalogue/dialogs/PartialDatePicker;-><init>(Landroid/content/Context; <",
+                "> Lcom/eleybourn/bookcatalogue/dialogs/PartialDatePickerFragment;->onCreateDialog(Landroid/os/Bundle;)Landroid/app/Dialog; <",
+                "> Lcom/eleybourn/bookcatalogue/dialogs/PartialDatePickerFragment;->newInstance()Lcom/eleybourn/bookcatalogue/dialogs/PartialDatePickerFragment; <",
+                "> Lcom/eleybourn/bookcatalogue/BookEditNotes;->showReadStartDialog()V <",
+                "> Lcom/eleybourn/bookcatalogue/BookEdit;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookISBNSearch;->createBook(Landroid/os/Bundle;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookCatalogueClassic;->onActivityResult(I <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.SEARCH",
+                    "start-activity -a"
+                ],
+                [
+                    "com.eleybourn.bookcatalogue.BookCatalogueClassic",
+                    "ok"
+                ]
+            ]
+        }
+    },
+    "Lcom/eleybourn/bookcatalogue/BookEdit;->access$8(Lcom/eleybourn/bookcatalogue/BookEdit;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/BookEdit$4;->run()V <",
+                "> Lcom/eleybourn/bookcatalogue/BookEdit;->doFinish()V <",
+                "> Lcom/eleybourn/bookcatalogue/MainMenu$11;->run()V <",
+                "> Lcom/eleybourn/bookcatalogue/MainMenu;-><init>()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->doMainMenu()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->stage4Startup()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->access$4(Lcom/eleybourn/bookcatalogue/StartupActivity;)V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity$6;->onDismiss(Landroid/content/DialogInterface;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/BookEdit$4;->run()V <",
+                "> Lcom/eleybourn/bookcatalogue/BookEdit;->doFinish()V <",
+                "> Lcom/eleybourn/bookcatalogue/BookISBNSearch;->createBook(Landroid/os/Bundle;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookCatalogueClassic;->onActivityResult(I <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.SEARCH",
+                    "start-activity -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/eleybourn/bookcatalogue/cropper/CropImageView;->panBy(FF)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/cropper/CropImageView;->ensureVisible(Lcom/eleybourn/bookcatalogue/cropper/CropHighlightView;)V <",
+                "> Lcom/eleybourn/bookcatalogue/cropper/CropImageView;->onTouchEvent(Landroid/view/MotionEvent;)Z <",
+                "> Lcom/eleybourn/bookcatalogue/cropper/CropCropImage;->startFaceDetection()V <",
+                "> Lcom/eleybourn/bookcatalogue/BookDetailsAbstract;->cropCoverImageInternal(Ljava/io/File;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookDetailsAbstract;->cropCoverImage(Ljava/io/File;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookDetailsAbstract;->onContextItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/eleybourn/bookcatalogue/BookEditFields;-><init>()V <",
+                "> Lcom/eleybourn/bookcatalogue/BookEdit;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/eleybourn/bookcatalogue/MainMenu$11;->run()V <",
+                "> Lcom/eleybourn/bookcatalogue/MainMenu;-><init>()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->doMainMenu()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->stage4Startup()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->access$4(Lcom/eleybourn/bookcatalogue/StartupActivity;)V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity$6;->onDismiss(Landroid/content/DialogInterface;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.eleybourn.bookcatalogue.StartupActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/cropper/CropImageView;->ensureVisible(Lcom/eleybourn/bookcatalogue/cropper/CropHighlightView;)V <",
+                "> Lcom/eleybourn/bookcatalogue/cropper/CropImageView;->onTouchEvent(Landroid/view/MotionEvent;)Z <",
+                "> Lcom/eleybourn/bookcatalogue/cropper/CropCropImage;->access$0(Lcom/eleybourn/bookcatalogue/cropper/CropCropImage;)Lcom/eleybourn/bookcatalogue/cropper/CropImageView; <",
+                "> Lcom/eleybourn/bookcatalogue/BookDetailsAbstract;->cropCoverImageInternal(Ljava/io/File;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookDetailsAbstract;->cropCoverImage(Ljava/io/File;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookDetailsAbstract;->onContextItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/eleybourn/bookcatalogue/BookEditFields;-><init>()V <",
+                "> Lcom/eleybourn/bookcatalogue/BookEdit;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/eleybourn/bookcatalogue/MainMenu$11;->run()V <",
+                "> Lcom/eleybourn/bookcatalogue/MainMenu;-><init>()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->doMainMenu()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->stage4Startup()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->access$4(Lcom/eleybourn/bookcatalogue/StartupActivity;)V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity$6;->onDismiss(Landroid/content/DialogInterface;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.eleybourn.bookcatalogue.StartupActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/cropper/CropImageView;->ensureVisible(Lcom/eleybourn/bookcatalogue/cropper/CropHighlightView;)V <",
+                "> Lcom/eleybourn/bookcatalogue/cropper/CropImageView;->onTouchEvent(Landroid/view/MotionEvent;)Z <",
+                "> Lcom/eleybourn/bookcatalogue/cropper/CropCropImage;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookDetailsAbstract;->cropCoverImageInternal(Ljava/io/File;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookDetailsAbstract;->cropCoverImage(Ljava/io/File;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookDetailsAbstract;->onActivityResult(I <",
+                "> Lcom/eleybourn/bookcatalogue/BookEditFields;-><init>()V <",
+                "> Lcom/eleybourn/bookcatalogue/BookEdit;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/eleybourn/bookcatalogue/MainMenu$11;->run()V <",
+                "> Lcom/eleybourn/bookcatalogue/MainMenu;-><init>()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->doMainMenu()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->stage4Startup()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->access$4(Lcom/eleybourn/bookcatalogue/StartupActivity;)V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity$6;->onDismiss(Landroid/content/DialogInterface;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/cropper/CropImageView;->ensureVisible(Lcom/eleybourn/bookcatalogue/cropper/CropHighlightView;)V <",
+                "> Lcom/eleybourn/bookcatalogue/cropper/CropImageView;->onTouchEvent(Landroid/view/MotionEvent;)Z <",
+                "> Lcom/eleybourn/bookcatalogue/cropper/CropCropImage;->startFaceDetection()V <",
+                "> Lcom/eleybourn/bookcatalogue/BookDetailsAbstract;->cropCoverImageInternal(Ljava/io/File;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookDetailsAbstract;->cropCoverImage(Ljava/io/File;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookDetailsAbstract;->onContextItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/eleybourn/bookcatalogue/BookEditFields;-><init>()V <",
+                "> Lcom/eleybourn/bookcatalogue/BookEdit;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/eleybourn/bookcatalogue/MainMenu$11;->run()V <",
+                "> Lcom/eleybourn/bookcatalogue/MainMenu;-><init>()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->doMainMenu()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->stage4Startup()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->stage3Startup()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity$7;->onClick(Landroid/content/DialogInterface; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.eleybourn.bookcatalogue.StartupActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/cropper/CropImageView;->ensureVisible(Lcom/eleybourn/bookcatalogue/cropper/CropHighlightView;)V <",
+                "> Lcom/eleybourn/bookcatalogue/cropper/CropImageView;->onTouchEvent(Landroid/view/MotionEvent;)Z <",
+                "> Lcom/eleybourn/bookcatalogue/cropper/CropCropImage;->access$0(Lcom/eleybourn/bookcatalogue/cropper/CropCropImage;)Lcom/eleybourn/bookcatalogue/cropper/CropImageView; <",
+                "> Lcom/eleybourn/bookcatalogue/BookDetailsAbstract;->cropCoverImageInternal(Ljava/io/File;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookDetailsAbstract;->cropCoverImage(Ljava/io/File;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookDetailsAbstract;->onContextItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/eleybourn/bookcatalogue/BookEditFields;-><init>()V <",
+                "> Lcom/eleybourn/bookcatalogue/BookEdit;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/eleybourn/bookcatalogue/MainMenu$11;->run()V <",
+                "> Lcom/eleybourn/bookcatalogue/MainMenu;-><init>()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->doMainMenu()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->stage4Startup()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->stage3Startup()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity$7;->onClick(Landroid/content/DialogInterface; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.eleybourn.bookcatalogue.StartupActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_5": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/cropper/CropImageView;->ensureVisible(Lcom/eleybourn/bookcatalogue/cropper/CropHighlightView;)V <",
+                "> Lcom/eleybourn/bookcatalogue/cropper/CropImageView;->onTouchEvent(Landroid/view/MotionEvent;)Z <",
+                "> Lcom/eleybourn/bookcatalogue/cropper/CropCropImage;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookDetailsAbstract;->cropCoverImageInternal(Ljava/io/File;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookDetailsAbstract;->cropCoverImage(Ljava/io/File;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookDetailsAbstract;->onActivityResult(I <",
+                "> Lcom/eleybourn/bookcatalogue/BookEditFields;-><init>()V <",
+                "> Lcom/eleybourn/bookcatalogue/BookEdit;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/eleybourn/bookcatalogue/MainMenu$11;->run()V <",
+                "> Lcom/eleybourn/bookcatalogue/MainMenu;-><init>()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->doMainMenu()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->stage4Startup()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->stage3Startup()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity$7;->onClick(Landroid/content/DialogInterface; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_6": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/cropper/CropImageView;->ensureVisible(Lcom/eleybourn/bookcatalogue/cropper/CropHighlightView;)V <",
+                "> Lcom/eleybourn/bookcatalogue/cropper/CropImageView;->onTouchEvent(Landroid/view/MotionEvent;)Z <",
+                "> Lcom/eleybourn/bookcatalogue/cropper/CropCropImage;->startFaceDetection()V <",
+                "> Lcom/eleybourn/bookcatalogue/BookDetailsAbstract;->cropCoverImageInternal(Ljava/io/File;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookDetailsAbstract;->cropCoverImage(Ljava/io/File;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookDetailsAbstract;->onContextItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/eleybourn/bookcatalogue/BookEditFields;-><init>()V <",
+                "> Lcom/eleybourn/bookcatalogue/BookEdit;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookISBNSearch;->createBook(Landroid/os/Bundle;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookCatalogueClassic;->onActivityResult(I <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.SEARCH",
+                    "start-activity -a"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.eleybourn.bookcatalogue.BookCatalogueClassic",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_7": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/cropper/CropImageView;->ensureVisible(Lcom/eleybourn/bookcatalogue/cropper/CropHighlightView;)V <",
+                "> Lcom/eleybourn/bookcatalogue/cropper/CropImageView;->onTouchEvent(Landroid/view/MotionEvent;)Z <",
+                "> Lcom/eleybourn/bookcatalogue/cropper/CropCropImage;->access$0(Lcom/eleybourn/bookcatalogue/cropper/CropCropImage;)Lcom/eleybourn/bookcatalogue/cropper/CropImageView; <",
+                "> Lcom/eleybourn/bookcatalogue/BookDetailsAbstract;->cropCoverImageInternal(Ljava/io/File;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookDetailsAbstract;->cropCoverImage(Ljava/io/File;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookDetailsAbstract;->onContextItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/eleybourn/bookcatalogue/BookEditFields;-><init>()V <",
+                "> Lcom/eleybourn/bookcatalogue/BookEdit;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookISBNSearch;->createBook(Landroid/os/Bundle;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookCatalogueClassic;->onActivityResult(I <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.SEARCH",
+                    "start-activity -a"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.eleybourn.bookcatalogue.BookCatalogueClassic",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_8": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/cropper/CropImageView;->ensureVisible(Lcom/eleybourn/bookcatalogue/cropper/CropHighlightView;)V <",
+                "> Lcom/eleybourn/bookcatalogue/cropper/CropImageView;->onTouchEvent(Landroid/view/MotionEvent;)Z <",
+                "> Lcom/eleybourn/bookcatalogue/cropper/CropCropImage;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookDetailsAbstract;->cropCoverImageInternal(Ljava/io/File;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookDetailsAbstract;->cropCoverImage(Ljava/io/File;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookDetailsAbstract;->onActivityResult(I <",
+                "> Lcom/eleybourn/bookcatalogue/BookEditFields;-><init>()V <",
+                "> Lcom/eleybourn/bookcatalogue/BookEdit;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookISBNSearch;->createBook(Landroid/os/Bundle;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookCatalogueClassic;->onActivityResult(I <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.SEARCH",
+                    "start-activity -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/eleybourn/bookcatalogue/EditObjectList;->access$3(Lcom/eleybourn/bookcatalogue/EditObjectList;)Landroid/view/View$OnClickListener;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/EditObjectList$ListAdapter;->getView(I <",
+                "> Lcom/eleybourn/bookcatalogue/EditObjectList;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/eleybourn/bookcatalogue/booklist/BooklistStyleGroupsActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/eleybourn/bookcatalogue/booklist/BooklistStylePropertiesActivity;->startGroupsActivity()V <",
+                "> Lcom/eleybourn/bookcatalogue/BooksOnBookshelf;->doEditStyle()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->doMyBooks()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->stage4Startup()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->access$4(Lcom/eleybourn/bookcatalogue/StartupActivity;)V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity$6;->onDismiss(Landroid/content/DialogInterface;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/EditObjectList$ListAdapter;->getView(I <",
+                "> Lcom/eleybourn/bookcatalogue/EditObjectList;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/eleybourn/bookcatalogue/booklist/BooklistStyleGroupsActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/eleybourn/bookcatalogue/booklist/BooklistStylePropertiesActivity;->startGroupsActivity()V <",
+                "> Lcom/eleybourn/bookcatalogue/BooksOnBookshelf;->doEditStyle()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.SEARCH",
+                    "start -a"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/EditObjectList$ListAdapter;->getView(I <",
+                "> Lcom/eleybourn/bookcatalogue/EditObjectList;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/eleybourn/bookcatalogue/EditAuthorList;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookEditFields$1;->onClick(Landroid/view/View;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookEditFields;->onActivityCreated(Landroid/os/Bundle;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookEdit;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookISBNSearch;->createBook(Landroid/os/Bundle;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookCatalogueClassic;->onActivityResult(I <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.SEARCH",
+                    "start-activity -a"
+                ],
+                [
+                    "com.eleybourn.bookcatalogue.BookCatalogueClassic",
+                    "author"
+                ]
+            ]
+        }
+    },
+    "Lcom/eleybourn/bookcatalogue/BookEditFragmentAbstract;->onOptionsItemSelected(Lcom/actionbarsherlock/view/MenuItem;)Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/BookEditAnthology;->onOptionsItemSelected(Lcom/actionbarsherlock/view/MenuItem;)Z <",
+                "> Lcom/eleybourn/bookcatalogue/BookEdit;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/eleybourn/bookcatalogue/MainMenu$11;->run()V <",
+                "> Lcom/eleybourn/bookcatalogue/MainMenu;-><init>()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->doMainMenu()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->stage4Startup()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->access$4(Lcom/eleybourn/bookcatalogue/StartupActivity;)V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity$6;->onDismiss(Landroid/content/DialogInterface;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/BookEditAnthology;->onOptionsItemSelected(Lcom/actionbarsherlock/view/MenuItem;)Z <",
+                "> Lcom/eleybourn/bookcatalogue/BookEdit;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/eleybourn/bookcatalogue/MainMenu$11;->run()V <",
+                "> Lcom/eleybourn/bookcatalogue/MainMenu;-><init>()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->doMainMenu()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->stage4Startup()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->stage3Startup()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity$7;->onClick(Landroid/content/DialogInterface; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/BookEditAnthology;->onOptionsItemSelected(Lcom/actionbarsherlock/view/MenuItem;)Z <",
+                "> Lcom/eleybourn/bookcatalogue/BookEdit;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookISBNSearch;->createBook(Landroid/os/Bundle;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookCatalogueClassic;->onActivityResult(I <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.SEARCH",
+                    "start-activity -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/eleybourn/bookcatalogue/booklist/BooklistBuilder;->toggleExpandNode(J)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/BooksOnBookshelf;->handleItemClick(Landroid/widget/AdapterView; <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->doMyBooks()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->stage4Startup()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->access$4(Lcom/eleybourn/bookcatalogue/StartupActivity;)V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity$6;->onDismiss(Landroid/content/DialogInterface;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/BooksOnBookshelf;->handleItemClick(Landroid/widget/AdapterView; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.SEARCH",
+                    "start -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/eleybourn/bookcatalogue/SearchLibraryThingThread;->showException(ILjava/lang/Exception;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/SearchLibraryThingThread;->onRun()V <",
+                "> Lcom/eleybourn/bookcatalogue/SearchManager;->startLibraryThing()Z <",
+                "> Lcom/eleybourn/bookcatalogue/SearchManager;->startOneSearch(I)Z <",
+                "> Lcom/eleybourn/bookcatalogue/SearchManager;->doSearch()V <",
+                "> Lcom/eleybourn/bookcatalogue/SearchManager;->search(Ljava/lang/String; <",
+                "> Lcom/eleybourn/bookcatalogue/BookISBNSearch;->doSearchBook()V <",
+                "> Lcom/eleybourn/bookcatalogue/BookCatalogueClassic;->onActivityResult(I <",
+                "> Lcom/eleybourn/bookcatalogue/MainMenu;->doMyBooks()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->doMainMenu()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->stage4Startup()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->access$4(Lcom/eleybourn/bookcatalogue/StartupActivity;)V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity$6;->onDismiss(Landroid/content/DialogInterface;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/SearchLibraryThingThread;->onRun()V <",
+                "> Lcom/eleybourn/bookcatalogue/SearchManager;->startLibraryThing()Z <",
+                "> Lcom/eleybourn/bookcatalogue/SearchManager;->startOneSearch(I)Z <",
+                "> Lcom/eleybourn/bookcatalogue/SearchManager;->doSearch()V <",
+                "> Lcom/eleybourn/bookcatalogue/SearchManager;->search(Ljava/lang/String; <",
+                "> Lcom/eleybourn/bookcatalogue/BookISBNSearch;->doSearchBook()V <",
+                "> Lcom/eleybourn/bookcatalogue/BookCatalogueClassic;->onActivityResult(I <",
+                "> Lcom/eleybourn/bookcatalogue/MainMenu;->doMyBooks()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->doMainMenu()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->stage4Startup()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->stage3Startup()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity$7;->onClick(Landroid/content/DialogInterface; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/SearchLibraryThingThread;->onRun()V <",
+                "> Lcom/eleybourn/bookcatalogue/SearchManager;->startLibraryThing()Z <",
+                "> Lcom/eleybourn/bookcatalogue/SearchManager;->startOneSearch(I)Z <",
+                "> Lcom/eleybourn/bookcatalogue/SearchManager;->doSearch()V <",
+                "> Lcom/eleybourn/bookcatalogue/SearchManager;->search(Ljava/lang/String; <",
+                "> Lcom/eleybourn/bookcatalogue/BookISBNSearch;->doSearchBook()V <",
+                "> Lcom/eleybourn/bookcatalogue/BookCatalogueClassic;->onActivityResult(I <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.SEARCH",
+                    "start-activity -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/eleybourn/bookcatalogue/BookCataloguePreferences;->edit()Landroid/content/SharedPreferences$Editor;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/BooksOnBookshelf;->savePosition()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->doMyBooks()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->stage4Startup()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->access$4(Lcom/eleybourn/bookcatalogue/StartupActivity;)V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity$6;->onDismiss(Landroid/content/DialogInterface;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/BooksOnBookshelf;->savePosition()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.SEARCH",
+                    "start -a"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/utils/HintManager$Hint;->setVisibility(Z)V <",
+                "> Lcom/eleybourn/bookcatalogue/utils/HintManager;->resetHints()V <",
+                "> Lcom/eleybourn/bookcatalogue/AdministrationFunctions$16;->onClick(Landroid/view/View;)V <",
+                "> Lcom/eleybourn/bookcatalogue/AdministrationFunctions;->setupAdmin()V <",
+                "> Lcom/eleybourn/bookcatalogue/MainMenu$4;->onClick(Landroid/view/View;)V <",
+                "> Lcom/eleybourn/bookcatalogue/MainMenu;-><init>()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->doMainMenu()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->stage4Startup()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->access$4(Lcom/eleybourn/bookcatalogue/StartupActivity;)V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity$6;->onDismiss(Landroid/content/DialogInterface;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.eleybourn.bookcatalogue.StartupActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.eleybourn.bookcatalogue.StartupActivity",
+                    "reset_hints_label"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/goodreads/GoodreadsManager;->requestAuthorization(Landroid/content/Context;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookCatalogueClassic;->onContextItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/eleybourn/bookcatalogue/MainMenu;->doMyBooks()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->doMainMenu()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->stage4Startup()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->access$4(Lcom/eleybourn/bookcatalogue/StartupActivity;)V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity$6;->onDismiss(Landroid/content/DialogInterface;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.eleybourn.bookcatalogue.BookCatalogueClassic",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/goodreads/GoodreadsManager;->requestAuthorization(Landroid/content/Context;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookCatalogueClassic;->onContextItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.SEARCH",
+                    "start-activity -a"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.eleybourn.bookcatalogue.BookCatalogueClassic",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_5": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->stage3Startup()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity$7;->onClick(Landroid/content/DialogInterface; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_6": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/BooksOnBookshelf$6;->onItemSelected(Landroid/widget/AdapterView; <",
+                "> Lcom/eleybourn/bookcatalogue/BooksOnBookshelf;->initBookshelfSpinner()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->doMyBooks()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->stage4Startup()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->access$4(Lcom/eleybourn/bookcatalogue/StartupActivity;)V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity$6;->onDismiss(Landroid/content/DialogInterface;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_7": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/BooksOnBookshelf$6;->onItemSelected(Landroid/widget/AdapterView; <",
+                "> Lcom/eleybourn/bookcatalogue/BooksOnBookshelf;->initBookshelfSpinner()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.SEARCH",
+                    "start -a"
+                ]
+            ]
+        },
+        "path_8": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/booklist/BooklistStyles;->SaveMenuOrder(Ljava/util/ArrayList;)Z <",
+                "> Lcom/eleybourn/bookcatalogue/booklist/BooklistStylesActivity;->handleStyleResult(Landroid/content/Intent;)V <",
+                "> Lcom/eleybourn/bookcatalogue/booklist/BooklistStylesActivity;->onActivityResult(I <",
+                "> Lcom/eleybourn/bookcatalogue/booklist/BooklistStyles;->startEditActivity(Landroid/app/Activity;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BooksOnBookshelf$11;->onClick(Landroid/view/View;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BooksOnBookshelf;->doSortMenu(Z)V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->doMyBooks()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->stage4Startup()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->access$4(Lcom/eleybourn/bookcatalogue/StartupActivity;)V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity$6;->onDismiss(Landroid/content/DialogInterface;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.eleybourn.bookcatalogue.StartupActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_9": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/booklist/BooklistStyles;->SaveMenuOrder(Ljava/util/ArrayList;)Z <",
+                "> Lcom/eleybourn/bookcatalogue/booklist/BooklistStylesActivity;->handleStyleResult(Landroid/content/Intent;)V <",
+                "> Lcom/eleybourn/bookcatalogue/booklist/BooklistStylesActivity;->onActivityResult(I <",
+                "> Lcom/eleybourn/bookcatalogue/booklist/BooklistStyles;->startEditActivity(Landroid/app/Activity;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BooksOnBookshelf$11;->onClick(Landroid/view/View;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BooksOnBookshelf;->doSortMenu(Z)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.SEARCH",
+                    "start -a"
+                ],
+                [
+                    "com.eleybourn.bookcatalogue.BooksOnBookshelf",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/eleybourn/bookcatalogue/BookData;->putAll(Landroid/database/Cursor;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/BookData;->loadFromDb()V <",
+                "> Lcom/eleybourn/bookcatalogue/BookData;->reload()Lcom/eleybourn/bookcatalogue/BookData; <",
+                "> Lcom/eleybourn/bookcatalogue/BookDetailsReadOnly;->onResume()V <",
+                "> Lcom/eleybourn/bookcatalogue/BookEdit;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/eleybourn/bookcatalogue/MainMenu$11;->run()V <",
+                "> Lcom/eleybourn/bookcatalogue/MainMenu;-><init>()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->doMainMenu()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->stage4Startup()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->access$4(Lcom/eleybourn/bookcatalogue/StartupActivity;)V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity$6;->onDismiss(Landroid/content/DialogInterface;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/BookData;->loadFromDb()V <",
+                "> Lcom/eleybourn/bookcatalogue/BookData;->reload()Lcom/eleybourn/bookcatalogue/BookData; <",
+                "> Lcom/eleybourn/bookcatalogue/BookDetailsReadOnly;->onResume()V <",
+                "> Lcom/eleybourn/bookcatalogue/BookEdit;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookISBNSearch;->createBook(Landroid/os/Bundle;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookCatalogueClassic;->onActivityResult(I <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.SEARCH",
+                    "start-activity -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/eleybourn/bookcatalogue/OtherPreferences;->access$0(Lcom/eleybourn/bookcatalogue/OtherPreferences;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/OtherPreferences$1;->onLocaleChanged()V <",
+                "> Lcom/eleybourn/bookcatalogue/OtherPreferences;-><init>()V <",
+                "> Lcom/eleybourn/bookcatalogue/AdministrationFunctions$10;->onClick(Landroid/view/View;)V <",
+                "> Lcom/eleybourn/bookcatalogue/AdministrationFunctions;->setupAdmin()V <",
+                "> Lcom/eleybourn/bookcatalogue/MainMenu$4;->onClick(Landroid/view/View;)V <",
+                "> Lcom/eleybourn/bookcatalogue/MainMenu;-><init>()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->doMainMenu()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->stage4Startup()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->access$4(Lcom/eleybourn/bookcatalogue/StartupActivity;)V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity$6;->onDismiss(Landroid/content/DialogInterface;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.eleybourn.bookcatalogue.StartupActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.eleybourn.bookcatalogue.StartupActivity",
+                    "other_prefs_label"
+                ]
+            ]
+        }
+    },
+    "Lcom/eleybourn/bookcatalogue/UpdateThumbnailsThread;->start()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/UpdateFromInternet;->startUpdate()V <",
+                "> Lcom/eleybourn/bookcatalogue/AdministrationFunctions;->updateThumbnails()V <",
+                "> Lcom/eleybourn/bookcatalogue/MainMenu$4;->onClick(Landroid/view/View;)V <",
+                "> Lcom/eleybourn/bookcatalogue/MainMenu;-><init>()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->doMainMenu()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->stage4Startup()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->access$4(Lcom/eleybourn/bookcatalogue/StartupActivity;)V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity$6;->onDismiss(Landroid/content/DialogInterface;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.eleybourn.bookcatalogue.StartupActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/eleybourn/bookcatalogue/BookshelfEdit;->setContentView(I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/BookshelfEdit;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/eleybourn/bookcatalogue/Bookshelf;->onListItemClick(Landroid/widget/ListView; <",
+                "> Lcom/eleybourn/bookcatalogue/AdministrationFunctions;->manageBookselves()V <",
+                "> Lcom/eleybourn/bookcatalogue/MainMenu$4;->onClick(Landroid/view/View;)V <",
+                "> Lcom/eleybourn/bookcatalogue/MainMenu;-><init>()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->doMainMenu()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->stage4Startup()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->access$4(Lcom/eleybourn/bookcatalogue/StartupActivity;)V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity$6;->onDismiss(Landroid/content/DialogInterface;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.eleybourn.bookcatalogue.StartupActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/eleybourn/bookcatalogue/UpdateFromInternet$3;->access$0(Lcom/eleybourn/bookcatalogue/UpdateFromInternet$3;)Lcom/eleybourn/bookcatalogue/UpdateFromInternet;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/UpdateFromInternet$3$1;->onClick(Landroid/content/DialogInterface; <",
+                "> Lcom/eleybourn/bookcatalogue/UpdateFromInternet$3;->onClick(Landroid/view/View;)V <",
+                "> Lcom/eleybourn/bookcatalogue/UpdateFromInternet;->setupFields()V <",
+                "> Lcom/eleybourn/bookcatalogue/AdministrationFunctions;->updateThumbnails()V <",
+                "> Lcom/eleybourn/bookcatalogue/MainMenu$4;->onClick(Landroid/view/View;)V <",
+                "> Lcom/eleybourn/bookcatalogue/MainMenu;-><init>()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->doMainMenu()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->stage4Startup()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->access$4(Lcom/eleybourn/bookcatalogue/StartupActivity;)V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity$6;->onDismiss(Landroid/content/DialogInterface;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.eleybourn.bookcatalogue.StartupActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.eleybourn.bookcatalogue.StartupActivity",
+                    "confirm"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/UpdateFromInternet$3$3;->onClick(Landroid/content/DialogInterface; <",
+                "> Lcom/eleybourn/bookcatalogue/UpdateFromInternet$3;->onClick(Landroid/view/View;)V <",
+                "> Lcom/eleybourn/bookcatalogue/UpdateFromInternet;->setupFields()V <",
+                "> Lcom/eleybourn/bookcatalogue/AdministrationFunctions;->updateThumbnails()V <",
+                "> Lcom/eleybourn/bookcatalogue/MainMenu$4;->onClick(Landroid/view/View;)V <",
+                "> Lcom/eleybourn/bookcatalogue/MainMenu;-><init>()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->doMainMenu()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->stage4Startup()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->access$4(Lcom/eleybourn/bookcatalogue/StartupActivity;)V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity$6;->onDismiss(Landroid/content/DialogInterface;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.eleybourn.bookcatalogue.StartupActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.eleybourn.bookcatalogue.StartupActivity",
+                    "confirm"
+                ]
+            ]
+        }
+    },
+    "Lcom/eleybourn/bookcatalogue/booklist/BooklistStyles;->getPreferredStyleNames(Ljava/util/HashSet;Ljava/util/ArrayList;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/booklist/BooklistStyles;-><init>()V <",
+                "> Lcom/eleybourn/bookcatalogue/booklist/BooklistStyles;->getAllStyles(Lcom/eleybourn/bookcatalogue/CatalogueDBAdapter;)Lcom/eleybourn/bookcatalogue/booklist/BooklistStyles; <",
+                "> Lcom/eleybourn/bookcatalogue/BooksOnBookshelf;->refreshStyle()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->doMyBooks()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->stage4Startup()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->access$4(Lcom/eleybourn/bookcatalogue/StartupActivity;)V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity$6;->onDismiss(Landroid/content/DialogInterface;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/booklist/BooklistStyles;-><init>()V <",
+                "> Lcom/eleybourn/bookcatalogue/booklist/BooklistStyles;->getAllStyles(Lcom/eleybourn/bookcatalogue/CatalogueDBAdapter;)Lcom/eleybourn/bookcatalogue/booklist/BooklistStyles; <",
+                "> Lcom/eleybourn/bookcatalogue/BooksOnBookshelf;->handleSelectedStyle(Ljava/lang/String;)V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->doMyBooks()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->stage4Startup()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->access$4(Lcom/eleybourn/bookcatalogue/StartupActivity;)V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity$6;->onDismiss(Landroid/content/DialogInterface;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/booklist/BooklistStyles;-><init>()V <",
+                "> Lcom/eleybourn/bookcatalogue/booklist/BooklistStyles;->getAllStyles(Lcom/eleybourn/bookcatalogue/CatalogueDBAdapter;)Lcom/eleybourn/bookcatalogue/booklist/BooklistStyles; <",
+                "> Lcom/eleybourn/bookcatalogue/BooksOnBookshelf;->refreshStyle()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->doMyBooks()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->stage4Startup()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->stage3Startup()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity$7;->onClick(Landroid/content/DialogInterface; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/booklist/BooklistStyles;-><init>()V <",
+                "> Lcom/eleybourn/bookcatalogue/booklist/BooklistStyles;->getAllStyles(Lcom/eleybourn/bookcatalogue/CatalogueDBAdapter;)Lcom/eleybourn/bookcatalogue/booklist/BooklistStyles; <",
+                "> Lcom/eleybourn/bookcatalogue/BooksOnBookshelf;->handleSelectedStyle(Ljava/lang/String;)V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->doMyBooks()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->stage4Startup()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->stage3Startup()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity$7;->onClick(Landroid/content/DialogInterface; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/booklist/BooklistStyles;-><init>()V <",
+                "> Lcom/eleybourn/bookcatalogue/booklist/BooklistStyles;->getAllStyles(Lcom/eleybourn/bookcatalogue/CatalogueDBAdapter;)Lcom/eleybourn/bookcatalogue/booklist/BooklistStyles; <",
+                "> Lcom/eleybourn/bookcatalogue/BooksOnBookshelf;->refreshStyle()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.SEARCH",
+                    "start -a"
+                ]
+            ]
+        },
+        "path_5": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/booklist/BooklistStyles;-><init>()V <",
+                "> Lcom/eleybourn/bookcatalogue/booklist/BooklistStyles;->getAllStyles(Lcom/eleybourn/bookcatalogue/CatalogueDBAdapter;)Lcom/eleybourn/bookcatalogue/booklist/BooklistStyles; <",
+                "> Lcom/eleybourn/bookcatalogue/BooksOnBookshelf;->handleSelectedStyle(Ljava/lang/String;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.SEARCH",
+                    "start -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/eleybourn/bookcatalogue/BookISBNSearch;->access$6(Lcom/eleybourn/bookcatalogue/BookISBNSearch;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/BookISBNSearch$22;->onClick(Landroid/content/DialogInterface; <",
+                "> Lcom/eleybourn/bookcatalogue/BookISBNSearch;->go(Ljava/lang/String; <",
+                "> Lcom/eleybourn/bookcatalogue/BookCatalogueClassic;->onActivityResult(I <",
+                "> Lcom/eleybourn/bookcatalogue/MainMenu;->doMyBooks()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->doMainMenu()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->stage4Startup()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->access$4(Lcom/eleybourn/bookcatalogue/StartupActivity;)V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity$6;->onDismiss(Landroid/content/DialogInterface;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/BookISBNSearch$22;->onClick(Landroid/content/DialogInterface; <",
+                "> Lcom/eleybourn/bookcatalogue/BookISBNSearch;->go(Ljava/lang/String; <",
+                "> Lcom/eleybourn/bookcatalogue/BookCatalogueClassic;->onActivityResult(I <",
+                "> Lcom/eleybourn/bookcatalogue/MainMenu;->doMyBooks()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->doMainMenu()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->stage4Startup()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->stage3Startup()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity$7;->onClick(Landroid/content/DialogInterface; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/BookISBNSearch$22;->onClick(Landroid/content/DialogInterface; <",
+                "> Lcom/eleybourn/bookcatalogue/BookISBNSearch;->go(Ljava/lang/String; <",
+                "> Lcom/eleybourn/bookcatalogue/BookCatalogueClassic;->onActivityResult(I <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.SEARCH",
+                    "start-activity -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/eleybourn/bookcatalogue/SearchThread;->doToast(Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/SearchThread;->showException(I <",
+                "> Lcom/eleybourn/bookcatalogue/SearchManager;->startOne(Lcom/eleybourn/bookcatalogue/SearchThread;)V <",
+                "> Lcom/eleybourn/bookcatalogue/SearchManager;->startGoogle()Z <",
+                "> Lcom/eleybourn/bookcatalogue/SearchManager;->startOneSearch(I)Z <",
+                "> Lcom/eleybourn/bookcatalogue/SearchManager;->doSearch()V <",
+                "> Lcom/eleybourn/bookcatalogue/SearchManager;->search(Ljava/lang/String; <",
+                "> Lcom/eleybourn/bookcatalogue/BookISBNSearch;->doSearchBook()V <",
+                "> Lcom/eleybourn/bookcatalogue/BookCatalogueClassic;->onActivityResult(I <",
+                "> Lcom/eleybourn/bookcatalogue/MainMenu;->doMyBooks()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->doMainMenu()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->stage4Startup()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->access$4(Lcom/eleybourn/bookcatalogue/StartupActivity;)V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity$6;->onDismiss(Landroid/content/DialogInterface;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/SearchThread;->showException(I <",
+                "> Lcom/eleybourn/bookcatalogue/SearchManager;->startOne(Lcom/eleybourn/bookcatalogue/SearchThread;)V <",
+                "> Lcom/eleybourn/bookcatalogue/SearchManager;->startGoogle()Z <",
+                "> Lcom/eleybourn/bookcatalogue/SearchManager;->startOneSearch(I)Z <",
+                "> Lcom/eleybourn/bookcatalogue/SearchManager;->doSearch()V <",
+                "> Lcom/eleybourn/bookcatalogue/SearchManager;->search(Ljava/lang/String; <",
+                "> Lcom/eleybourn/bookcatalogue/BookISBNSearch;->doSearchBook()V <",
+                "> Lcom/eleybourn/bookcatalogue/BookCatalogueClassic;->onActivityResult(I <",
+                "> Lcom/eleybourn/bookcatalogue/MainMenu;->doMyBooks()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->doMainMenu()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->stage4Startup()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->stage3Startup()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity$7;->onClick(Landroid/content/DialogInterface; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/SearchThread;->showException(I <",
+                "> Lcom/eleybourn/bookcatalogue/SearchManager;->startOne(Lcom/eleybourn/bookcatalogue/SearchThread;)V <",
+                "> Lcom/eleybourn/bookcatalogue/SearchManager;->startGoogle()Z <",
+                "> Lcom/eleybourn/bookcatalogue/SearchManager;->startOneSearch(I)Z <",
+                "> Lcom/eleybourn/bookcatalogue/SearchManager;->doSearch()V <",
+                "> Lcom/eleybourn/bookcatalogue/SearchManager;->search(Ljava/lang/String; <",
+                "> Lcom/eleybourn/bookcatalogue/BookISBNSearch;->doSearchBook()V <",
+                "> Lcom/eleybourn/bookcatalogue/BookCatalogueClassic;->onActivityResult(I <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.SEARCH",
+                    "start-activity -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/eleybourn/bookcatalogue/widgets/TouchListView;->getHeight()I": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/widgets/TouchListView;->onInterceptTouchEvent(Landroid/view/MotionEvent;)Z <",
+                "> Lcom/eleybourn/bookcatalogue/EditObjectList;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/eleybourn/bookcatalogue/booklist/BooklistStyleGroupsActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/eleybourn/bookcatalogue/booklist/BooklistStylePropertiesActivity;->startGroupsActivity()V <",
+                "> Lcom/eleybourn/bookcatalogue/BooksOnBookshelf;->doEditStyle()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->doMyBooks()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->stage4Startup()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->access$4(Lcom/eleybourn/bookcatalogue/StartupActivity;)V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity$6;->onDismiss(Landroid/content/DialogInterface;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/widgets/TouchListView;->onInterceptTouchEvent(Landroid/view/MotionEvent;)Z <",
+                "> Lcom/eleybourn/bookcatalogue/EditObjectList;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/eleybourn/bookcatalogue/booklist/BooklistStyleGroupsActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/eleybourn/bookcatalogue/booklist/BooklistStylePropertiesActivity;->startGroupsActivity()V <",
+                "> Lcom/eleybourn/bookcatalogue/BooksOnBookshelf;->doEditStyle()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.SEARCH",
+                    "start -a"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/widgets/TouchListView;->onInterceptTouchEvent(Landroid/view/MotionEvent;)Z <",
+                "> Lcom/eleybourn/bookcatalogue/EditObjectList;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/eleybourn/bookcatalogue/EditAuthorList;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookEditFields$1;->onClick(Landroid/view/View;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookEditFields;->onActivityCreated(Landroid/os/Bundle;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookEdit;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookISBNSearch;->createBook(Landroid/os/Bundle;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookCatalogueClassic;->onActivityResult(I <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.SEARCH",
+                    "start-activity -a"
+                ],
+                [
+                    "com.eleybourn.bookcatalogue.BookCatalogueClassic",
+                    "author"
+                ]
+            ]
+        }
+    },
+    "Lcom/eleybourn/bookcatalogue/BookISBNSearch$24;-><init>(Lcom/eleybourn/bookcatalogue/BookISBNSearch;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/BookISBNSearch;->go(Ljava/lang/String; <",
+                "> Lcom/eleybourn/bookcatalogue/BookCatalogueClassic;->onActivityResult(I <",
+                "> Lcom/eleybourn/bookcatalogue/MainMenu;->doMyBooks()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->doMainMenu()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->stage4Startup()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->access$4(Lcom/eleybourn/bookcatalogue/StartupActivity;)V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity$6;->onDismiss(Landroid/content/DialogInterface;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/BookISBNSearch;->go(Ljava/lang/String; <",
+                "> Lcom/eleybourn/bookcatalogue/BookCatalogueClassic;->onActivityResult(I <",
+                "> Lcom/eleybourn/bookcatalogue/MainMenu;->doMyBooks()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->doMainMenu()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->stage4Startup()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->stage3Startup()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity$7;->onClick(Landroid/content/DialogInterface; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/BookISBNSearch;->go(Ljava/lang/String; <",
+                "> Lcom/eleybourn/bookcatalogue/BookCatalogueClassic;->onActivityResult(I <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.SEARCH",
+                    "start-activity -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/eleybourn/bookcatalogue/CatalogueDBAdapter;->dumpInstances()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/MainMenu;->onResume()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->doMainMenu()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->stage4Startup()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->access$4(Lcom/eleybourn/bookcatalogue/StartupActivity;)V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity$6;->onDismiss(Landroid/content/DialogInterface;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/eleybourn/bookcatalogue/EditSeriesList;->getResources()Landroid/content/res/Resources;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/EditSeriesList;->onAdd(Landroid/view/View;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookEditFields$2;->onClick(Landroid/view/View;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookEditFields;->onActivityCreated(Landroid/os/Bundle;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookEdit;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/eleybourn/bookcatalogue/MainMenu$11;->run()V <",
+                "> Lcom/eleybourn/bookcatalogue/MainMenu;-><init>()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->doMainMenu()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->stage4Startup()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->access$4(Lcom/eleybourn/bookcatalogue/StartupActivity;)V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity$6;->onDismiss(Landroid/content/DialogInterface;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.eleybourn.bookcatalogue.StartupActivity",
+                    "series"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/EditSeriesList;->onAdd(Landroid/view/View;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookEditFields$2;->onClick(Landroid/view/View;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookEditFields;->onActivityCreated(Landroid/os/Bundle;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookEdit;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookISBNSearch;->createBook(Landroid/os/Bundle;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookCatalogueClassic;->onActivityResult(I <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.SEARCH",
+                    "start-activity -a"
+                ],
+                [
+                    "com.eleybourn.bookcatalogue.BookCatalogueClassic",
+                    "series"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/EditSeriesList;->confirmEditSeries(Lcom/eleybourn/bookcatalogue/Series; <",
+                "> Lcom/eleybourn/bookcatalogue/BookEditFields$2;->onClick(Landroid/view/View;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookEditFields;->onActivityCreated(Landroid/os/Bundle;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookEdit;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/eleybourn/bookcatalogue/MainMenu$11;->run()V <",
+                "> Lcom/eleybourn/bookcatalogue/MainMenu;-><init>()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->doMainMenu()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->stage4Startup()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->access$4(Lcom/eleybourn/bookcatalogue/StartupActivity;)V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity$6;->onDismiss(Landroid/content/DialogInterface;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.eleybourn.bookcatalogue.StartupActivity",
+                    "series"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/EditSeriesList;->confirmEditSeries(Lcom/eleybourn/bookcatalogue/Series; <",
+                "> Lcom/eleybourn/bookcatalogue/BookEditFields$2;->onClick(Landroid/view/View;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookEditFields;->onActivityCreated(Landroid/os/Bundle;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookEdit;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookISBNSearch;->createBook(Landroid/os/Bundle;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookCatalogueClassic;->onActivityResult(I <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.SEARCH",
+                    "start-activity -a"
+                ],
+                [
+                    "com.eleybourn.bookcatalogue.BookCatalogueClassic",
+                    "series"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/EditSeriesList;->onSave(Landroid/content/Intent;)Z <",
+                "> Lcom/eleybourn/bookcatalogue/BookEditFields$2;->onClick(Landroid/view/View;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookEditFields;->onActivityCreated(Landroid/os/Bundle;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookEdit;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/eleybourn/bookcatalogue/MainMenu$11;->run()V <",
+                "> Lcom/eleybourn/bookcatalogue/MainMenu;-><init>()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->doMainMenu()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->stage4Startup()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->access$4(Lcom/eleybourn/bookcatalogue/StartupActivity;)V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity$6;->onDismiss(Landroid/content/DialogInterface;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.eleybourn.bookcatalogue.StartupActivity",
+                    "series"
+                ]
+            ]
+        },
+        "path_5": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/EditSeriesList;->onSave(Landroid/content/Intent;)Z <",
+                "> Lcom/eleybourn/bookcatalogue/BookEditFields$2;->onClick(Landroid/view/View;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookEditFields;->onActivityCreated(Landroid/os/Bundle;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookEdit;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookISBNSearch;->createBook(Landroid/os/Bundle;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookCatalogueClassic;->onActivityResult(I <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.SEARCH",
+                    "start-activity -a"
+                ],
+                [
+                    "com.eleybourn.bookcatalogue.BookCatalogueClassic",
+                    "series"
+                ]
+            ]
+        }
+    },
+    "Lcom/eleybourn/bookcatalogue/Fields;->getAll(Lcom/eleybourn/bookcatalogue/datamanager/DataManager;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/BookEditFragmentAbstract;->onSaveBookDetails(Lcom/eleybourn/bookcatalogue/BookData;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookEditAnthology;->onSaveBookDetails(Lcom/eleybourn/bookcatalogue/BookData;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookEdit;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/eleybourn/bookcatalogue/MainMenu$11;->run()V <",
+                "> Lcom/eleybourn/bookcatalogue/MainMenu;-><init>()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->doMainMenu()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->stage4Startup()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->access$4(Lcom/eleybourn/bookcatalogue/StartupActivity;)V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity$6;->onDismiss(Landroid/content/DialogInterface;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/BookEditFragmentAbstract;->onSaveBookDetails(Lcom/eleybourn/bookcatalogue/BookData;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookEditAnthology;->onSaveBookDetails(Lcom/eleybourn/bookcatalogue/BookData;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookEdit;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/eleybourn/bookcatalogue/MainMenu$11;->run()V <",
+                "> Lcom/eleybourn/bookcatalogue/MainMenu;-><init>()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->doMainMenu()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->stage4Startup()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->stage3Startup()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity$7;->onClick(Landroid/content/DialogInterface; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/BookEditFragmentAbstract;->onSaveBookDetails(Lcom/eleybourn/bookcatalogue/BookData;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookEditAnthology;->onSaveBookDetails(Lcom/eleybourn/bookcatalogue/BookData;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookEdit;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookISBNSearch;->createBook(Landroid/os/Bundle;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookCatalogueClassic;->onActivityResult(I <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.SEARCH",
+                    "start-activity -a"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/BookEditNotes;->onPause()V <",
+                "> Lcom/eleybourn/bookcatalogue/BookEdit;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/eleybourn/bookcatalogue/MainMenu$11;->run()V <",
+                "> Lcom/eleybourn/bookcatalogue/MainMenu;-><init>()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->doMainMenu()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->stage4Startup()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->access$4(Lcom/eleybourn/bookcatalogue/StartupActivity;)V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity$6;->onDismiss(Landroid/content/DialogInterface;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/BookEditNotes;->onPause()V <",
+                "> Lcom/eleybourn/bookcatalogue/BookEdit;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookISBNSearch;->createBook(Landroid/os/Bundle;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookCatalogueClassic;->onActivityResult(I <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.SEARCH",
+                    "start-activity -a"
+                ]
+            ]
+        },
+        "path_5": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/BookEditFragmentAbstract;->saveAllEdits(Lcom/eleybourn/bookcatalogue/datamanager/DataManager;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookEditNotes;-><init>()V <",
+                "> Lcom/eleybourn/bookcatalogue/BookEdit;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/eleybourn/bookcatalogue/MainMenu$11;->run()V <",
+                "> Lcom/eleybourn/bookcatalogue/MainMenu;-><init>()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->doMainMenu()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->stage4Startup()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->access$4(Lcom/eleybourn/bookcatalogue/StartupActivity;)V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity$6;->onDismiss(Landroid/content/DialogInterface;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_6": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/BookEditFragmentAbstract;->saveAllEdits(Lcom/eleybourn/bookcatalogue/datamanager/DataManager;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookEditNotes;-><init>()V <",
+                "> Lcom/eleybourn/bookcatalogue/BookEdit;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/eleybourn/bookcatalogue/MainMenu$11;->run()V <",
+                "> Lcom/eleybourn/bookcatalogue/MainMenu;-><init>()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->doMainMenu()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->stage4Startup()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->stage3Startup()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity$7;->onClick(Landroid/content/DialogInterface; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_7": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/BookEditFragmentAbstract;->saveAllEdits(Lcom/eleybourn/bookcatalogue/datamanager/DataManager;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookEditNotes;-><init>()V <",
+                "> Lcom/eleybourn/bookcatalogue/BookEdit;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookISBNSearch;->createBook(Landroid/os/Bundle;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookCatalogueClassic;->onActivityResult(I <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.SEARCH",
+                    "start-activity -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/eleybourn/bookcatalogue/BookCatalogueClassic;->startActivity(Landroid/content/Intent;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/BookCatalogueClassic;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/eleybourn/bookcatalogue/MainMenu;->doMyBooks()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->doMainMenu()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->stage4Startup()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->access$4(Lcom/eleybourn/bookcatalogue/StartupActivity;)V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity$6;->onDismiss(Landroid/content/DialogInterface;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/BookCatalogueClassic;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.SEARCH",
+                    "start-activity -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/eleybourn/bookcatalogue/booklist/FlattenedBooklist;-><init>(Lcom/eleybourn/bookcatalogue/database/DbSync$SynchronizedDb;Lcom/eleybourn/bookcatalogue/database/DbUtils$TableDefinition;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/booklist/BooklistBuilder;->createFlattenedBooklist()Lcom/eleybourn/bookcatalogue/booklist/FlattenedBooklist; <",
+                "> Lcom/eleybourn/bookcatalogue/BookEdit;->openBook(Landroid/app/Activity; <",
+                "> Lcom/eleybourn/bookcatalogue/MainMenu$11;->run()V <",
+                "> Lcom/eleybourn/bookcatalogue/MainMenu;-><init>()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->doMainMenu()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->stage4Startup()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->access$4(Lcom/eleybourn/bookcatalogue/StartupActivity;)V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity$6;->onDismiss(Landroid/content/DialogInterface;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/booklist/BooklistBuilder;->createFlattenedBooklist()Lcom/eleybourn/bookcatalogue/booklist/FlattenedBooklist; <",
+                "> Lcom/eleybourn/bookcatalogue/BookEdit;->openBook(Landroid/app/Activity; <",
+                "> Lcom/eleybourn/bookcatalogue/BookISBNSearch;->createBook(Landroid/os/Bundle;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookCatalogueClassic;->onActivityResult(I <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.SEARCH",
+                    "start-activity -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/eleybourn/bookcatalogue/ActivityWithTasks;->access$0(Lcom/eleybourn/bookcatalogue/ActivityWithTasks;I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/ActivityWithTasks$1;->onProgress(I <",
+                "> Lcom/eleybourn/bookcatalogue/ActivityWithTasks;-><init>()V <",
+                "> Lcom/eleybourn/bookcatalogue/BookISBNSearch;-><init>()V <",
+                "> Lcom/eleybourn/bookcatalogue/BookCatalogueClassic;->onActivityResult(I <",
+                "> Lcom/eleybourn/bookcatalogue/MainMenu;->doMyBooks()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->doMainMenu()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->stage4Startup()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->access$4(Lcom/eleybourn/bookcatalogue/StartupActivity;)V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity$6;->onDismiss(Landroid/content/DialogInterface;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/ActivityWithTasks$1;->onProgress(I <",
+                "> Lcom/eleybourn/bookcatalogue/ActivityWithTasks;-><init>()V <",
+                "> Lcom/eleybourn/bookcatalogue/BookISBNSearch;-><init>()V <",
+                "> Lcom/eleybourn/bookcatalogue/BookCatalogueClassic;->onActivityResult(I <",
+                "> Lcom/eleybourn/bookcatalogue/MainMenu;->doMyBooks()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->doMainMenu()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->stage4Startup()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->stage3Startup()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity$7;->onClick(Landroid/content/DialogInterface; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/ActivityWithTasks$1;->onProgress(I <",
+                "> Lcom/eleybourn/bookcatalogue/ActivityWithTasks;-><init>()V <",
+                "> Lcom/eleybourn/bookcatalogue/BookISBNSearch;-><init>()V <",
+                "> Lcom/eleybourn/bookcatalogue/BookCatalogueClassic;->onActivityResult(I <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.SEARCH",
+                    "start-activity -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/eleybourn/bookcatalogue/messaging/MessageSwitch$MessageSenderImpl;-><init>(Lcom/eleybourn/bookcatalogue/messaging/MessageSwitch;Ljava/lang/Object;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/messaging/MessageSwitch;->createSender(Ljava/lang/Object;)Ljava/lang/Long; <",
+                "> Lcom/eleybourn/bookcatalogue/TaskManager;-><init>()V <",
+                "> Lcom/eleybourn/bookcatalogue/ActivityWithTasks;->getTaskManager()Lcom/eleybourn/bookcatalogue/TaskManager; <",
+                "> Lcom/eleybourn/bookcatalogue/ActivityWithTasks;->onPause()V <",
+                "> Lcom/eleybourn/bookcatalogue/BookISBNSearch;->onPause()V <",
+                "> Lcom/eleybourn/bookcatalogue/BookCatalogueClassic;->onActivityResult(I <",
+                "> Lcom/eleybourn/bookcatalogue/MainMenu;->doMyBooks()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->doMainMenu()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->stage4Startup()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->access$4(Lcom/eleybourn/bookcatalogue/StartupActivity;)V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity$6;->onDismiss(Landroid/content/DialogInterface;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/messaging/MessageSwitch;->createSender(Ljava/lang/Object;)Ljava/lang/Long; <",
+                "> Lcom/eleybourn/bookcatalogue/TaskManager;-><init>()V <",
+                "> Lcom/eleybourn/bookcatalogue/ActivityWithTasks;->getTaskManager()Lcom/eleybourn/bookcatalogue/TaskManager; <",
+                "> Lcom/eleybourn/bookcatalogue/ActivityWithTasks;->onPause()V <",
+                "> Lcom/eleybourn/bookcatalogue/BookISBNSearch;->onPause()V <",
+                "> Lcom/eleybourn/bookcatalogue/MainMenu$14;->run()V <",
+                "> Lcom/eleybourn/bookcatalogue/MainMenu;-><init>()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->doMainMenu()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->stage4Startup()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->access$4(Lcom/eleybourn/bookcatalogue/StartupActivity;)V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity$6;->onDismiss(Landroid/content/DialogInterface;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/messaging/MessageSwitch;->createSender(Ljava/lang/Object;)Ljava/lang/Long; <",
+                "> Lcom/eleybourn/bookcatalogue/TaskManager;-><init>()V <",
+                "> Lcom/eleybourn/bookcatalogue/ActivityWithTasks;->getTaskManager()Lcom/eleybourn/bookcatalogue/TaskManager; <",
+                "> Lcom/eleybourn/bookcatalogue/ActivityWithTasks;->onPause()V <",
+                "> Lcom/eleybourn/bookcatalogue/BookISBNSearch;->onPause()V <",
+                "> Lcom/eleybourn/bookcatalogue/BookCatalogueClassic;->onActivityResult(I <",
+                "> Lcom/eleybourn/bookcatalogue/MainMenu;->doMyBooks()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->doMainMenu()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->stage4Startup()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->stage3Startup()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity$7;->onClick(Landroid/content/DialogInterface; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/messaging/MessageSwitch;->createSender(Ljava/lang/Object;)Ljava/lang/Long; <",
+                "> Lcom/eleybourn/bookcatalogue/TaskManager;-><init>()V <",
+                "> Lcom/eleybourn/bookcatalogue/ActivityWithTasks;->getTaskManager()Lcom/eleybourn/bookcatalogue/TaskManager; <",
+                "> Lcom/eleybourn/bookcatalogue/ActivityWithTasks;->onPause()V <",
+                "> Lcom/eleybourn/bookcatalogue/BookISBNSearch;->onPause()V <",
+                "> Lcom/eleybourn/bookcatalogue/MainMenu$14;->run()V <",
+                "> Lcom/eleybourn/bookcatalogue/MainMenu;-><init>()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->doMainMenu()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->stage4Startup()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->stage3Startup()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity$7;->onClick(Landroid/content/DialogInterface; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/messaging/MessageSwitch;->createSender(Ljava/lang/Object;)Ljava/lang/Long; <",
+                "> Lcom/eleybourn/bookcatalogue/TaskManager;-><init>()V <",
+                "> Lcom/eleybourn/bookcatalogue/ActivityWithTasks;->getTaskManager()Lcom/eleybourn/bookcatalogue/TaskManager; <",
+                "> Lcom/eleybourn/bookcatalogue/ActivityWithTasks;->onPause()V <",
+                "> Lcom/eleybourn/bookcatalogue/BookISBNSearch;->onPause()V <",
+                "> Lcom/eleybourn/bookcatalogue/BookCatalogueClassic;->onActivityResult(I <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.SEARCH",
+                    "start-activity -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/eleybourn/bookcatalogue/MenuHandler;->onMenuItemSelected(Landroid/app/Activity;ILcom/actionbarsherlock/view/MenuItem;)Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/BooksOnBookshelf;->onMenuItemSelected(I <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->doMyBooks()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->stage4Startup()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->access$4(Lcom/eleybourn/bookcatalogue/StartupActivity;)V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity$6;->onDismiss(Landroid/content/DialogInterface;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/BooksOnBookshelf;->onMenuItemSelected(I <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.SEARCH",
+                    "start -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/eleybourn/bookcatalogue/TaskListActivity;->doShowTaskEvents(J)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/TaskListActivity;->access$0(Lcom/eleybourn/bookcatalogue/TaskListActivity; <",
+                "> Lcom/eleybourn/bookcatalogue/AdministrationFunctions;->showBackgroundTasks()V <",
+                "> Lcom/eleybourn/bookcatalogue/MainMenu$4;->onClick(Landroid/view/View;)V <",
+                "> Lcom/eleybourn/bookcatalogue/MainMenu;-><init>()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->doMainMenu()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->stage4Startup()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->access$4(Lcom/eleybourn/bookcatalogue/StartupActivity;)V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity$6;->onDismiss(Landroid/content/DialogInterface;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.eleybourn.bookcatalogue.StartupActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/eleybourn/bookcatalogue/SearchCatalogue;->access$1(Lcom/eleybourn/bookcatalogue/SearchCatalogue;)Lcom/eleybourn/bookcatalogue/CatalogueDBAdapter;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/SearchCatalogue$2;->onClick(Landroid/view/View;)V <",
+                "> Lcom/eleybourn/bookcatalogue/SearchCatalogue;-><init>()V <",
+                "> Lcom/eleybourn/bookcatalogue/MainMenu$3;->onClick(Landroid/view/View;)V <",
+                "> Lcom/eleybourn/bookcatalogue/MainMenu;-><init>()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->doMainMenu()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->stage4Startup()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->access$4(Lcom/eleybourn/bookcatalogue/StartupActivity;)V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity$6;->onDismiss(Landroid/content/DialogInterface;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.eleybourn.bookcatalogue.StartupActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.eleybourn.bookcatalogue.StartupActivity",
+                    "rebuild"
+                ]
+            ]
+        }
+    },
+    "Lcom/eleybourn/bookcatalogue/cropper/CropCropImage;->onSaveClicked()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/cropper/CropCropImage;->access$8(Lcom/eleybourn/bookcatalogue/cropper/CropCropImage;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookDetailsAbstract;->cropCoverImageInternal(Ljava/io/File;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookDetailsAbstract;->cropCoverImage(Ljava/io/File;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookDetailsAbstract;->onContextItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/eleybourn/bookcatalogue/BookEditFields;-><init>()V <",
+                "> Lcom/eleybourn/bookcatalogue/BookEdit;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/eleybourn/bookcatalogue/MainMenu$11;->run()V <",
+                "> Lcom/eleybourn/bookcatalogue/MainMenu;-><init>()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->doMainMenu()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->stage4Startup()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->access$4(Lcom/eleybourn/bookcatalogue/StartupActivity;)V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity$6;->onDismiss(Landroid/content/DialogInterface;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.eleybourn.bookcatalogue.StartupActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/cropper/CropCropImage;->access$8(Lcom/eleybourn/bookcatalogue/cropper/CropCropImage;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookDetailsAbstract;->cropCoverImageInternal(Ljava/io/File;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookDetailsAbstract;->cropCoverImage(Ljava/io/File;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookDetailsAbstract;->onContextItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/eleybourn/bookcatalogue/BookEditFields;-><init>()V <",
+                "> Lcom/eleybourn/bookcatalogue/BookEdit;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/eleybourn/bookcatalogue/MainMenu$11;->run()V <",
+                "> Lcom/eleybourn/bookcatalogue/MainMenu;-><init>()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->doMainMenu()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->stage4Startup()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity;->stage3Startup()V <",
+                "> Lcom/eleybourn/bookcatalogue/StartupActivity$7;->onClick(Landroid/content/DialogInterface; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.eleybourn.bookcatalogue.StartupActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/cropper/CropCropImage;->access$8(Lcom/eleybourn/bookcatalogue/cropper/CropCropImage;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookDetailsAbstract;->cropCoverImageInternal(Ljava/io/File;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookDetailsAbstract;->cropCoverImage(Ljava/io/File;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookDetailsAbstract;->onContextItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/eleybourn/bookcatalogue/BookEditFields;-><init>()V <",
+                "> Lcom/eleybourn/bookcatalogue/BookEdit;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookISBNSearch;->createBook(Landroid/os/Bundle;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookCatalogueClassic;->onActivityResult(I <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.SEARCH",
+                    "start-activity -a"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.eleybourn.bookcatalogue.BookCatalogueClassic",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/eleybourn/bookcatalogue/PreferencesBase;->getLayoutInflater()Landroid/view/LayoutInflater;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/eleybourn/bookcatalogue/PreferencesBase;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/eleybourn/bookcatalogue/booklist/BooklistPreferencesActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/eleybourn/bookcatalogue/BookCatalogueApp;->startPreferencesActivity(Landroid/app/Activity;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    }
+}

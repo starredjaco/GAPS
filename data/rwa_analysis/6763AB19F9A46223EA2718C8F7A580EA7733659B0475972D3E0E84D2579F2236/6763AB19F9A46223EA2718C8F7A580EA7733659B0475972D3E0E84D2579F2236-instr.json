@@ -1,0 +1,92 @@
+{
+    "La8/e;->c(La8/x;)La8/x;": {
+        "path_0": {
+            "call_sequence": [
+                "> La8/e;->c(La8/x;)La8/x; <",
+                "> La8/e;-><init>(Lc8/d;La8/d;Ljava/util/Map;ZZZZZZZLa8/u;Ljava/lang/String;IILjava/util/List;Ljava/util/List;Ljava/util/List;La8/w;La8/w;)V <",
+                "> La8/f;->b()La8/e; <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->buildGson()La8/e; <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->repeatNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;Ljava/lang/Boolean;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->rescheduleNotifications(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ScheduledNotificationBootReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.QUICKBOOT_POWERON",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> La8/e;->c(La8/x;)La8/x; <",
+                "> La8/e;-><init>(Lc8/d;La8/d;Ljava/util/Map;ZZZZZZZLa8/u;Ljava/lang/String;IILjava/util/List;Ljava/util/List;Ljava/util/List;La8/w;La8/w;)V <",
+                "> La8/f;->b()La8/e; <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->buildGson()La8/e; <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->scheduleNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;Ljava/lang/Boolean;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->rescheduleNotifications(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ScheduledNotificationBootReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.QUICKBOOT_POWERON",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "La8/e;->f(Z)La8/x;": {
+        "path_0": {
+            "call_sequence": [
+                "> La8/e;-><init>(Lc8/d;La8/d;Ljava/util/Map;ZZZZZZZLa8/u;Ljava/lang/String;IILjava/util/List;Ljava/util/List;Ljava/util/List;La8/w;La8/w;)V <",
+                "> La8/f;->b()La8/e; <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->buildGson()La8/e; <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->repeatNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;Ljava/lang/Boolean;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->rescheduleNotifications(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ScheduledNotificationBootReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.QUICKBOOT_POWERON",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> La8/e;-><init>(Lc8/d;La8/d;Ljava/util/Map;ZZZZZZZLa8/u;Ljava/lang/String;IILjava/util/List;Ljava/util/List;Ljava/util/List;La8/w;La8/w;)V <",
+                "> La8/f;->b()La8/e; <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->buildGson()La8/e; <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->scheduleNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;Ljava/lang/Boolean;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->rescheduleNotifications(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ScheduledNotificationBootReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.QUICKBOOT_POWERON",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "La9/c;->a()La9/c;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/heapanalytics/android/internal/r;->A(Landroid/content/Context;Ljava/lang/String;Z)V <",
+                "> Lcom/heapanalytics/android/internal/r;->q(Landroid/content/Context;Ljava/lang/String;Z)V <",
+                "> Lcom/heapanalytics/android/internal/r;->p(Landroid/content/Context;Ljava/lang/String;)V <",
+                "> Lz8/a;->c(Landroid/content/Context;Ljava/lang/String;)V <",
+                "> Lcom/kalshi/kalshi_mobile_app/MainActivity;->Y()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    }
+}

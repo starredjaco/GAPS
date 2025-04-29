@@ -1,0 +1,47 @@
+{
+    "Lhu/vsza/adsdroid/c;->a(Ljava/util/ArrayList;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lhu/vsza/adsdroid/c;->onPostExecute(Ljava/lang/Object;)V <",
+                "> Lhu/vsza/adsdroid/SearchPanel;->searchByPartName(Landroid/view/View;)V <",
+                "> Lhu/vsza/adsdroid/SearchPanel;->onEditorAction(Landroid/widget/TextView; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lhu/vsza/adsdroid/b;->execute([Ljava/lang/Object;)Landroid/os/AsyncTask;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lhu/vsza/adsdroid/PartList;->onListItemClick(Landroid/widget/ListView; <",
+                "> Lhu/vsza/adsdroid/c;->a(Ljava/util/ArrayList;)V <",
+                "> Lhu/vsza/adsdroid/c;->onPostExecute(Ljava/lang/Object;)V <",
+                "> Lhu/vsza/adsdroid/SearchPanel;->searchByPartName(Landroid/view/View;)V <",
+                "> Lhu/vsza/adsdroid/SearchPanel;->onEditorAction(Landroid/widget/TextView; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lhu/vsza/adsdroid/SearchPanel;->getBaseContext()Landroid/content/Context;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lhu/vsza/adsdroid/c;->a(Ljava/util/ArrayList;)V <",
+                "> Lhu/vsza/adsdroid/c;->onPostExecute(Ljava/lang/Object;)V <",
+                "> Lhu/vsza/adsdroid/SearchPanel;->searchByPartName(Landroid/view/View;)V <",
+                "> Lhu/vsza/adsdroid/SearchPanel;->onEditorAction(Landroid/widget/TextView; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    }
+}

@@ -1,0 +1,1454 @@
+{
+    "Lcom/instacart/client/product/ICProductScreen;-><init>(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;Lcom/instacart/client/product/ICProductScreenAdapterDelegates;Lcom/instacart/client/containers/ui/ICContainerGridViewFactory;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/instacart/client/product/ICProductScreen$render$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/product/ICProductScreen;-><init>(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;Lcom/instacart/client/product/ICProductScreenAdapterDelegates;Lcom/instacart/client/containers/ui/ICContainerGridViewFactory;)V <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider$32;->create(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;)Lcom/instacart/client/product/ICProductScreen; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get1$2()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl;->inject(Lcom/instacart/client/ICMainActivity;)V <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Lcom/instacart/client/main/di/ICMainComponent; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Lcom/instacart/formula/android/ActivityStoreContext;)Lcom/instacart/formula/android/ActivityStore; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Lcom/instacart/formula/android/ActivityConfigurator;)V <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/instacart/client/product/ICProductScreen$render$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/product/ICProductScreen;-><init>(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;Lcom/instacart/client/product/ICProductScreenAdapterDelegates;Lcom/instacart/client/containers/ui/ICContainerGridViewFactory;)V <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider$32;->create(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;)Lcom/instacart/client/product/ICProductScreen; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get1$2()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl;->navigationDrawerFormula()Lcom/instacart/client/drawer/ICNavigationDrawerFormula; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Lcom/instacart/client/main/di/ICMainComponent; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Lcom/instacart/formula/android/ActivityStoreContext;)Lcom/instacart/formula/android/ActivityStore; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Lcom/instacart/formula/android/ActivityConfigurator;)V <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/instacart/client/product/ICProductScreen$render$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/product/ICProductScreen;-><init>(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;Lcom/instacart/client/product/ICProductScreenAdapterDelegates;Lcom/instacart/client/containers/ui/ICContainerGridViewFactory;)V <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider$32;->create(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;)Lcom/instacart/client/product/ICProductScreen; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get1$2()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl;->orderChangesInputFactory()Lcom/instacart/client/orderchanges/ICOrderChangesInputFactoryImpl; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Lcom/instacart/client/main/di/ICMainComponent; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Lcom/instacart/formula/android/ActivityStoreContext;)Lcom/instacart/formula/android/ActivityStore; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Lcom/instacart/formula/android/ActivityConfigurator;)V <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/instacart/client/product/ICProductScreen$render$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/product/ICProductScreen;-><init>(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;Lcom/instacart/client/product/ICProductScreenAdapterDelegates;Lcom/instacart/client/containers/ui/ICContainerGridViewFactory;)V <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider$32;->create(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;)Lcom/instacart/client/product/ICProductScreen; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get1$2()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl;->orderSatisfactionTipsFormula()Lcom/instacart/client/ordersatisfaction/tips/ICOrderSatisfactionTipsFormula; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Lcom/instacart/client/main/di/ICMainComponent; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Lcom/instacart/formula/android/ActivityStoreContext;)Lcom/instacart/formula/android/ActivityStore; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Lcom/instacart/formula/android/ActivityConfigurator;)V <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lcom/instacart/client/product/ICProductScreen$render$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/product/ICProductScreen;-><init>(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;Lcom/instacart/client/product/ICProductScreenAdapterDelegates;Lcom/instacart/client/containers/ui/ICContainerGridViewFactory;)V <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider$32;->create(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;)Lcom/instacart/client/product/ICProductScreen; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get1$2()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl;->orderStatusV4Formula()Lcom/instacart/client/orderstatusV4/ICOrderStatusV4Formula; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Lcom/instacart/client/main/di/ICMainComponent; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Lcom/instacart/formula/android/ActivityStoreContext;)Lcom/instacart/formula/android/ActivityStore; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Lcom/instacart/formula/android/ActivityConfigurator;)V <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_5": {
+            "call_sequence": [
+                "> Lcom/instacart/client/product/ICProductScreen$render$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/product/ICProductScreen;-><init>(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;Lcom/instacart/client/product/ICProductScreenAdapterDelegates;Lcom/instacart/client/containers/ui/ICContainerGridViewFactory;)V <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider$32;->create(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;)Lcom/instacart/client/product/ICProductScreen; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get1$2()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl;->orderSuccessInputFactory()Lcom/instacart/client/ordersuccess/ICOrderSuccessInputFactoryImpl; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Lcom/instacart/client/main/di/ICMainComponent; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Lcom/instacart/formula/android/ActivityStoreContext;)Lcom/instacart/formula/android/ActivityStore; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Lcom/instacart/formula/android/ActivityConfigurator;)V <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_6": {
+            "call_sequence": [
+                "> Lcom/instacart/client/product/ICProductScreen$render$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/product/ICProductScreen;-><init>(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;Lcom/instacart/client/product/ICProductScreenAdapterDelegates;Lcom/instacart/client/containers/ui/ICContainerGridViewFactory;)V <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider$32;->create(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;)Lcom/instacart/client/product/ICProductScreen; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get1$2()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl;->pickupOnMyWayConfirmationFormula()Lcom/instacart/client/orderstatusV4/pickup/onmywayconfirmation/ICPickupOnMyWayConfirmationFormula; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Lcom/instacart/client/main/di/ICMainComponent; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Lcom/instacart/formula/android/ActivityStoreContext;)Lcom/instacart/formula/android/ActivityStore; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Lcom/instacart/formula/android/ActivityConfigurator;)V <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_7": {
+            "call_sequence": [
+                "> Lcom/instacart/client/product/ICProductScreen$render$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/product/ICProductScreen;-><init>(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;Lcom/instacart/client/product/ICProductScreenAdapterDelegates;Lcom/instacart/client/containers/ui/ICContainerGridViewFactory;)V <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider$32;->create(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;)Lcom/instacart/client/product/ICProductScreen; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get1$2()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl;->pickupParkingSpotNumericFormula()Lcom/instacart/client/orderstatusV4/pickup/parkingspot/numeric/ICPickupParkingSpotNumericFormula; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Lcom/instacart/client/main/di/ICMainComponent; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Lcom/instacart/formula/android/ActivityStoreContext;)Lcom/instacart/formula/android/ActivityStore; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Lcom/instacart/formula/android/ActivityConfigurator;)V <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_8": {
+            "call_sequence": [
+                "> Lcom/instacart/client/product/ICProductScreen$render$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/product/ICProductScreen;-><init>(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;Lcom/instacart/client/product/ICProductScreenAdapterDelegates;Lcom/instacart/client/containers/ui/ICContainerGridViewFactory;)V <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider$32;->create(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;)Lcom/instacart/client/product/ICProductScreen; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get1$2()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl;->replacementSatisfactionInputFactory()Lcom/instacart/client/ordersatisfaction/replacements/ICReplacementsSatisfactionInputFactoryImpl; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Lcom/instacart/client/main/di/ICMainComponent; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Lcom/instacart/formula/android/ActivityStoreContext;)Lcom/instacart/formula/android/ActivityStore; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Lcom/instacart/formula/android/ActivityConfigurator;)V <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_9": {
+            "call_sequence": [
+                "> Lcom/instacart/client/product/ICProductScreen$render$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/product/ICProductScreen;-><init>(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;Lcom/instacart/client/product/ICProductScreenAdapterDelegates;Lcom/instacart/client/containers/ui/ICContainerGridViewFactory;)V <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider$32;->create(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;)Lcom/instacart/client/product/ICProductScreen; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get1$2()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl;->thumbsInputFactory()Lcom/instacart/client/ordersatisfaction/ratings/ICOrderSatisfactionRatingsInputFactoryImpl; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Lcom/instacart/client/main/di/ICMainComponent; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Lcom/instacart/formula/android/ActivityStoreContext;)Lcom/instacart/formula/android/ActivityStore; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Lcom/instacart/formula/android/ActivityConfigurator;)V <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_10": {
+            "call_sequence": [
+                "> Lcom/instacart/client/product/ICProductScreen$render$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/product/ICProductScreen;-><init>(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;Lcom/instacart/client/product/ICProductScreenAdapterDelegates;Lcom/instacart/client/containers/ui/ICContainerGridViewFactory;)V <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider$32;->create(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;)Lcom/instacart/client/product/ICProductScreen; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get1$2()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl;->universalReplacementsSelectionFormula()Lcom/instacart/client/universalreplacements/selection/ICUniversalReplacementSelectionFormula; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Lcom/instacart/client/main/di/ICMainComponent; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Lcom/instacart/formula/android/ActivityStoreContext;)Lcom/instacart/formula/android/ActivityStore; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Lcom/instacart/formula/android/ActivityConfigurator;)V <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_11": {
+            "call_sequence": [
+                "> Lcom/instacart/client/product/ICProductScreen$render$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/product/ICProductScreen;-><init>(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;Lcom/instacart/client/product/ICProductScreenAdapterDelegates;Lcom/instacart/client/containers/ui/ICContainerGridViewFactory;)V <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider$32;->create(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;)Lcom/instacart/client/product/ICProductScreen; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get1$2()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl;->buyflowRouter()Lcom/instacart/client/payments/buyflow/core/ICBuyflowRouter; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Lcom/instacart/client/main/di/ICMainComponent; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Lcom/instacart/formula/android/ActivityStoreContext;)Lcom/instacart/formula/android/ActivityStore; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Lcom/instacart/formula/android/ActivityConfigurator;)V <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_12": {
+            "call_sequence": [
+                "> Lcom/instacart/client/product/ICProductScreen$render$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/product/ICProductScreen;-><init>(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;Lcom/instacart/client/product/ICProductScreenAdapterDelegates;Lcom/instacart/client/containers/ui/ICContainerGridViewFactory;)V <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider$32;->create(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;)Lcom/instacart/client/product/ICProductScreen; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get1$2()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl;->chatInputFactory()Lcom/instacart/client/orderchanges/chat/ICChatInputFactoryImpl; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Lcom/instacart/client/main/di/ICMainComponent; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Lcom/instacart/formula/android/ActivityStoreContext;)Lcom/instacart/formula/android/ActivityStore; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Lcom/instacart/formula/android/ActivityConfigurator;)V <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_13": {
+            "call_sequence": [
+                "> Lcom/instacart/client/product/ICProductScreen$render$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/product/ICProductScreen;-><init>(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;Lcom/instacart/client/product/ICProductScreenAdapterDelegates;Lcom/instacart/client/containers/ui/ICContainerGridViewFactory;)V <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider$32;->create(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;)Lcom/instacart/client/product/ICProductScreen; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get1$2()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl;->collectionsComponentDelegate()Lcom/instacart/client/collections/ICCollectionsFeatureFactory$ComponentDelegate; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Lcom/instacart/client/main/di/ICMainComponent; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Lcom/instacart/formula/android/ActivityStoreContext;)Lcom/instacart/formula/android/ActivityStore; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Lcom/instacart/formula/android/ActivityConfigurator;)V <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_14": {
+            "call_sequence": [
+                "> Lcom/instacart/client/product/ICProductScreen$render$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/product/ICProductScreen;-><init>(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;Lcom/instacart/client/product/ICProductScreenAdapterDelegates;Lcom/instacart/client/containers/ui/ICContainerGridViewFactory;)V <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider$32;->create(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;)Lcom/instacart/client/product/ICProductScreen; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get1$2()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl;->com_instacart_client_account_ebt_icaccountsnapebtfeaturefactory()Lcom/instacart/client/account/ebt/ICAccountSnapEbtFeatureFactory; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Lcom/instacart/client/main/di/ICMainComponent; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Lcom/instacart/formula/android/ActivityStoreContext;)Lcom/instacart/formula/android/ActivityStore; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Lcom/instacart/formula/android/ActivityConfigurator;)V <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_15": {
+            "call_sequence": [
+                "> Lcom/instacart/client/product/ICProductScreen$render$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/product/ICProductScreen;-><init>(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;Lcom/instacart/client/product/ICProductScreenAdapterDelegates;Lcom/instacart/client/containers/ui/ICContainerGridViewFactory;)V <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider$32;->create(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;)Lcom/instacart/client/product/ICProductScreen; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get1$2()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl;->com_instacart_client_account_password_icaccountchangepasswordfeaturefactory()Lcom/instacart/client/account/password/ICAccountChangePasswordFeatureFactory; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Lcom/instacart/client/main/di/ICMainComponent; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Lcom/instacart/formula/android/ActivityStoreContext;)Lcom/instacart/formula/android/ActivityStore; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Lcom/instacart/formula/android/ActivityConfigurator;)V <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_16": {
+            "call_sequence": [
+                "> Lcom/instacart/client/product/ICProductScreen$render$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/product/ICProductScreen;-><init>(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;Lcom/instacart/client/product/ICProductScreenAdapterDelegates;Lcom/instacart/client/containers/ui/ICContainerGridViewFactory;)V <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider$32;->create(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;)Lcom/instacart/client/product/ICProductScreen; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get1$2()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl;->com_instacart_client_account_tab_icaccountscreenfeaturefactory()Lcom/instacart/client/account/tab/ICAccountScreenFeatureFactory; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Lcom/instacart/client/main/di/ICMainComponent; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Lcom/instacart/formula/android/ActivityStoreContext;)Lcom/instacart/formula/android/ActivityStore; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Lcom/instacart/formula/android/ActivityConfigurator;)V <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_17": {
+            "call_sequence": [
+                "> Lcom/instacart/client/product/ICProductScreen$render$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/product/ICProductScreen;-><init>(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;Lcom/instacart/client/product/ICProductScreenAdapterDelegates;Lcom/instacart/client/containers/ui/ICContainerGridViewFactory;)V <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider$32;->create(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;)Lcom/instacart/client/product/ICProductScreen; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get1$2()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl;->com_instacart_client_account_unified_editphone_iceditphonefeaturefactory()Lcom/instacart/client/account/unified/editphone/ICEditPhoneFeatureFactory; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Lcom/instacart/client/main/di/ICMainComponent; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Lcom/instacart/formula/android/ActivityStoreContext;)Lcom/instacart/formula/android/ActivityStore; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Lcom/instacart/formula/android/ActivityConfigurator;)V <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_18": {
+            "call_sequence": [
+                "> Lcom/instacart/client/product/ICProductScreen$render$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/product/ICProductScreen;-><init>(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;Lcom/instacart/client/product/ICProductScreenAdapterDelegates;Lcom/instacart/client/containers/ui/ICContainerGridViewFactory;)V <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider$32;->create(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;)Lcom/instacart/client/product/ICProductScreen; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get1$2()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl;->com_instacart_client_browse_containers_icbrowsecontainerfeaturefactory()Lcom/instacart/client/browse/containers/ICBrowseContainerFeatureFactory; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Lcom/instacart/client/main/di/ICMainComponent; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Lcom/instacart/formula/android/ActivityStoreContext;)Lcom/instacart/formula/android/ActivityStore; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Lcom/instacart/formula/android/ActivityConfigurator;)V <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_19": {
+            "call_sequence": [
+                "> Lcom/instacart/client/product/ICProductScreen$render$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/product/ICProductScreen;-><init>(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;Lcom/instacart/client/product/ICProductScreenAdapterDelegates;Lcom/instacart/client/containers/ui/ICContainerGridViewFactory;)V <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider$32;->create(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;)Lcom/instacart/client/product/ICProductScreen; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get1$2()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl;->com_instacart_client_business_export_icexportorderhistoryfeaturefactory()Lcom/instacart/client/business/export/ICExportOrderHistoryFeatureFactory; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Lcom/instacart/client/main/di/ICMainComponent; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Lcom/instacart/formula/android/ActivityStoreContext;)Lcom/instacart/formula/android/ActivityStore; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Lcom/instacart/formula/android/ActivityConfigurator;)V <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_20": {
+            "call_sequence": [
+                "> Lcom/instacart/client/product/ICProductScreen$render$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/product/ICProductScreen;-><init>(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;Lcom/instacart/client/product/ICProductScreenAdapterDelegates;Lcom/instacart/client/containers/ui/ICContainerGridViewFactory;)V <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider$32;->create(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;)Lcom/instacart/client/product/ICProductScreen; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get1$2()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl;->com_instacart_client_business_organization_join_icjoinbusinessfeaturefactory()Lcom/instacart/client/business/organization/join/ICJoinBusinessFeatureFactory; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Lcom/instacart/client/main/di/ICMainComponent; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Lcom/instacart/formula/android/ActivityStoreContext;)Lcom/instacart/formula/android/ActivityStore; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Lcom/instacart/formula/android/ActivityConfigurator;)V <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_21": {
+            "call_sequence": [
+                "> Lcom/instacart/client/product/ICProductScreen$render$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/product/ICProductScreen;-><init>(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;Lcom/instacart/client/product/ICProductScreenAdapterDelegates;Lcom/instacart/client/containers/ui/ICContainerGridViewFactory;)V <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider$32;->create(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;)Lcom/instacart/client/product/ICProductScreen; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get1$2()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl;->com_instacart_client_business_organization_tax_ictaxexemptionsfeaturefactory()Lcom/instacart/client/business/organization/tax/ICTaxExemptionsFeatureFactory; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Lcom/instacart/client/main/di/ICMainComponent; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Lcom/instacart/formula/android/ActivityStoreContext;)Lcom/instacart/formula/android/ActivityStore; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Lcom/instacart/formula/android/ActivityConfigurator;)V <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_22": {
+            "call_sequence": [
+                "> Lcom/instacart/client/product/ICProductScreen$render$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/product/ICProductScreen;-><init>(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;Lcom/instacart/client/product/ICProductScreenAdapterDelegates;Lcom/instacart/client/containers/ui/ICContainerGridViewFactory;)V <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider$32;->create(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;)Lcom/instacart/client/product/ICProductScreen; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get1$2()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl;->com_instacart_client_cart_chooser_iccartchooserfullscreenfeaturefactory()Lcom/instacart/client/cart/chooser/ICCartChooserFullScreenFeatureFactory; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Lcom/instacart/client/main/di/ICMainComponent; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Lcom/instacart/formula/android/ActivityStoreContext;)Lcom/instacart/formula/android/ActivityStore; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Lcom/instacart/formula/android/ActivityConfigurator;)V <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_23": {
+            "call_sequence": [
+                "> Lcom/instacart/client/product/ICProductScreen$render$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/product/ICProductScreen;-><init>(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;Lcom/instacart/client/product/ICProductScreenAdapterDelegates;Lcom/instacart/client/containers/ui/ICContainerGridViewFactory;)V <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider$32;->create(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;)Lcom/instacart/client/product/ICProductScreen; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get1$2()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl;->com_instacart_client_chatbot_icchatbotfeaturefactory()Lcom/instacart/client/chatbot/ICChatbotFeatureFactory; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Lcom/instacart/client/main/di/ICMainComponent; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Lcom/instacart/formula/android/ActivityStoreContext;)Lcom/instacart/formula/android/ActivityStore; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Lcom/instacart/formula/android/ActivityConfigurator;)V <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_24": {
+            "call_sequence": [
+                "> Lcom/instacart/client/product/ICProductScreen$render$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/product/ICProductScreen;-><init>(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;Lcom/instacart/client/product/ICProductScreenAdapterDelegates;Lcom/instacart/client/containers/ui/ICContainerGridViewFactory;)V <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider$32;->create(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;)Lcom/instacart/client/product/ICProductScreen; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get1$2()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl;->com_instacart_client_checkoutv4screen_iccheckoutv4screenfeaturefactory()Lcom/instacart/client/checkoutv4screen/ICCheckoutV4ScreenFeatureFactory; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Lcom/instacart/client/main/di/ICMainComponent; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Lcom/instacart/formula/android/ActivityStoreContext;)Lcom/instacart/formula/android/ActivityStore; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Lcom/instacart/formula/android/ActivityConfigurator;)V <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_25": {
+            "call_sequence": [
+                "> Lcom/instacart/client/product/ICProductScreen$render$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/product/ICProductScreen;-><init>(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;Lcom/instacart/client/product/ICProductScreenAdapterDelegates;Lcom/instacart/client/containers/ui/ICContainerGridViewFactory;)V <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider$32;->create(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;)Lcom/instacart/client/product/ICProductScreen; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get1$2()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl;->com_instacart_client_contentmanagement_itemlist_viewmore_icviewmoreplacementitemsfeaturefactory()Lcom/instacart/client/contentmanagement/itemlist/viewmore/ICViewMorePlacementItemsFeatureFactory; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Lcom/instacart/client/main/di/ICMainComponent; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Lcom/instacart/formula/android/ActivityStoreContext;)Lcom/instacart/formula/android/ActivityStore; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Lcom/instacart/formula/android/ActivityConfigurator;)V <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_26": {
+            "call_sequence": [
+                "> Lcom/instacart/client/product/ICProductScreen$render$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/product/ICProductScreen;-><init>(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;Lcom/instacart/client/product/ICProductScreenAdapterDelegates;Lcom/instacart/client/containers/ui/ICContainerGridViewFactory;)V <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider$32;->create(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;)Lcom/instacart/client/product/ICProductScreen; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get1$2()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl;->com_instacart_client_crossretailersearch_iccrossretailersearchfeaturefactory()Lcom/instacart/client/crossretailersearch/ICCrossRetailerSearchFeatureFactory; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Lcom/instacart/client/main/di/ICMainComponent; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Lcom/instacart/formula/android/ActivityStoreContext;)Lcom/instacart/formula/android/ActivityStore; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Lcom/instacart/formula/android/ActivityConfigurator;)V <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_27": {
+            "call_sequence": [
+                "> Lcom/instacart/client/product/ICProductScreen$render$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/product/ICProductScreen;-><init>(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;Lcom/instacart/client/product/ICProductScreenAdapterDelegates;Lcom/instacart/client/containers/ui/ICContainerGridViewFactory;)V <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider$32;->create(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;)Lcom/instacart/client/product/ICProductScreen; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get1$2()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl;->com_instacart_client_express_account_churn_cancellationform_icexpresschurncancellationformfeaturefactory()Lcom/instacart/client/express/account/churn/cancellationform/ICExpressChurnCancellationFormFeatureFactory; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Lcom/instacart/client/main/di/ICMainComponent; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Lcom/instacart/formula/android/ActivityStoreContext;)Lcom/instacart/formula/android/ActivityStore; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Lcom/instacart/formula/android/ActivityConfigurator;)V <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_28": {
+            "call_sequence": [
+                "> Lcom/instacart/client/product/ICProductScreen$render$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/product/ICProductScreen;-><init>(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;Lcom/instacart/client/product/ICProductScreenAdapterDelegates;Lcom/instacart/client/containers/ui/ICContainerGridViewFactory;)V <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider$32;->create(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;)Lcom/instacart/client/product/ICProductScreen; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get1$2()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl;->com_instacart_client_express_account_churn_planswitch_icexpressplanswitchfeaturefactory()Lcom/instacart/client/express/account/churn/planswitch/ICExpressPlanSwitchFeatureFactory; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Lcom/instacart/client/main/di/ICMainComponent; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Lcom/instacart/formula/android/ActivityStoreContext;)Lcom/instacart/formula/android/ActivityStore; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Lcom/instacart/formula/android/ActivityConfigurator;)V <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_29": {
+            "call_sequence": [
+                "> Lcom/instacart/client/product/ICProductScreen$render$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/product/ICProductScreen;-><init>(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;Lcom/instacart/client/product/ICProductScreenAdapterDelegates;Lcom/instacart/client/containers/ui/ICContainerGridViewFactory;)V <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider$32;->create(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;)Lcom/instacart/client/product/ICProductScreen; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get1$2()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl;->com_instacart_client_express_account_page_icexpressv4featurefactory()Lcom/instacart/client/express/account/page/ICExpressV4FeatureFactory; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Lcom/instacart/client/main/di/ICMainComponent; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Lcom/instacart/formula/android/ActivityStoreContext;)Lcom/instacart/formula/android/ActivityStore; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Lcom/instacart/formula/android/ActivityConfigurator;)V <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_30": {
+            "call_sequence": [
+                "> Lcom/instacart/client/product/ICProductScreen$render$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/product/ICProductScreen;-><init>(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;Lcom/instacart/client/product/ICProductScreenAdapterDelegates;Lcom/instacart/client/containers/ui/ICContainerGridViewFactory;)V <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider$32;->create(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;)Lcom/instacart/client/product/ICProductScreen; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get1$2()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl;->com_instacart_client_expressplacements_nux_icexpressnuxfeaturefactory()Lcom/instacart/client/expressplacements/nux/ICExpressNUXFeatureFactory; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Lcom/instacart/client/main/di/ICMainComponent; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Lcom/instacart/formula/android/ActivityStoreContext;)Lcom/instacart/formula/android/ActivityStore; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Lcom/instacart/formula/android/ActivityConfigurator;)V <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_31": {
+            "call_sequence": [
+                "> Lcom/instacart/client/product/ICProductScreen$render$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/product/ICProductScreen;-><init>(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;Lcom/instacart/client/product/ICProductScreenAdapterDelegates;Lcom/instacart/client/containers/ui/ICContainerGridViewFactory;)V <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider$32;->create(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;)Lcom/instacart/client/product/ICProductScreen; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get1$2()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl;->com_instacart_client_expressplacements_trialmodal_icexpresstrialmodalfeaturefactory()Lcom/instacart/client/expressplacements/trialmodal/ICExpressTrialModalFeatureFactory; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Lcom/instacart/client/main/di/ICMainComponent; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Lcom/instacart/formula/android/ActivityStoreContext;)Lcom/instacart/formula/android/ActivityStore; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Lcom/instacart/formula/android/ActivityConfigurator;)V <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_32": {
+            "call_sequence": [
+                "> Lcom/instacart/client/product/ICProductScreen$render$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/product/ICProductScreen;-><init>(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;Lcom/instacart/client/product/ICProductScreenAdapterDelegates;Lcom/instacart/client/containers/ui/ICContainerGridViewFactory;)V <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider$32;->create(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;)Lcom/instacart/client/product/ICProductScreen; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get1$2()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl;->com_instacart_client_finishmycartv4_icfinishmycartv4featurefactory()Lcom/instacart/client/finishmycartv4/ICFinishMyCartV4FeatureFactory; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Lcom/instacart/client/main/di/ICMainComponent; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Lcom/instacart/formula/android/ActivityStoreContext;)Lcom/instacart/formula/android/ActivityStore; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Lcom/instacart/formula/android/ActivityConfigurator;)V <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_33": {
+            "call_sequence": [
+                "> Lcom/instacart/client/product/ICProductScreen$render$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/product/ICProductScreen;-><init>(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;Lcom/instacart/client/product/ICProductScreenAdapterDelegates;Lcom/instacart/client/containers/ui/ICContainerGridViewFactory;)V <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider$32;->create(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;)Lcom/instacart/client/product/ICProductScreen; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get1$2()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl;->com_instacart_client_flyers_legacy_iclegacyflyersfeaturefactory()Lcom/instacart/client/flyers/legacy/ICLegacyFlyersFeatureFactory; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Lcom/instacart/client/main/di/ICMainComponent; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Lcom/instacart/formula/android/ActivityStoreContext;)Lcom/instacart/formula/android/ActivityStore; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Lcom/instacart/formula/android/ActivityConfigurator;)V <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_34": {
+            "call_sequence": [
+                "> Lcom/instacart/client/product/ICProductScreen$render$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/product/ICProductScreen;-><init>(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;Lcom/instacart/client/product/ICProductScreenAdapterDelegates;Lcom/instacart/client/containers/ui/ICContainerGridViewFactory;)V <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider$32;->create(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;)Lcom/instacart/client/product/ICProductScreen; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get1$2()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl;->com_instacart_client_household_expeditedonboarding_ichouseholdexpeditedonboardingfeaturefactory()Lcom/instacart/client/household/expeditedonboarding/ICHouseholdExpeditedOnboardingFeatureFactory; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Lcom/instacart/client/main/di/ICMainComponent; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Lcom/instacart/formula/android/ActivityStoreContext;)Lcom/instacart/formula/android/ActivityStore; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Lcom/instacart/formula/android/ActivityConfigurator;)V <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_35": {
+            "call_sequence": [
+                "> Lcom/instacart/client/product/ICProductScreen$render$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/product/ICProductScreen;-><init>(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;Lcom/instacart/client/product/ICProductScreenAdapterDelegates;Lcom/instacart/client/containers/ui/ICContainerGridViewFactory;)V <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider$32;->create(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;)Lcom/instacart/client/product/ICProductScreen; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get1$2()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl;->com_instacart_client_householdaccount_management_ichouseholdaccountfeaturefactory()Lcom/instacart/client/householdaccount/management/ICHouseholdAccountFeatureFactory; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Lcom/instacart/client/main/di/ICMainComponent; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Lcom/instacart/formula/android/ActivityStoreContext;)Lcom/instacart/formula/android/ActivityStore; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Lcom/instacart/formula/android/ActivityConfigurator;)V <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_36": {
+            "call_sequence": [
+                "> Lcom/instacart/client/product/ICProductScreen$render$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/product/ICProductScreen;-><init>(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;Lcom/instacart/client/product/ICProductScreenAdapterDelegates;Lcom/instacart/client/containers/ui/ICContainerGridViewFactory;)V <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider$32;->create(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;)Lcom/instacart/client/product/ICProductScreen; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get1$2()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl;->com_instacart_client_items_batchadd_icbatchaddfeaturefactory()Lcom/instacart/client/items/batchadd/ICBatchAddFeatureFactory; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Lcom/instacart/client/main/di/ICMainComponent; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Lcom/instacart/formula/android/ActivityStoreContext;)Lcom/instacart/formula/android/ActivityStore; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Lcom/instacart/formula/android/ActivityConfigurator;)V <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_37": {
+            "call_sequence": [
+                "> Lcom/instacart/client/product/ICProductScreen$render$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/product/ICProductScreen;-><init>(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;Lcom/instacart/client/product/ICProductScreenAdapterDelegates;Lcom/instacart/client/containers/ui/ICContainerGridViewFactory;)V <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider$32;->create(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;)Lcom/instacart/client/product/ICProductScreen; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get1$2()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl;->com_instacart_client_list_edititems_iclistedititemsfeaturefactory()Lcom/instacart/client/list/edititems/ICListEditItemsFeatureFactory; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Lcom/instacart/client/main/di/ICMainComponent; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Lcom/instacart/formula/android/ActivityStoreContext;)Lcom/instacart/formula/android/ActivityStore; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Lcom/instacart/formula/android/ActivityConfigurator;)V <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_38": {
+            "call_sequence": [
+                "> Lcom/instacart/client/product/ICProductScreen$render$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/product/ICProductScreen;-><init>(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;Lcom/instacart/client/product/ICProductScreenAdapterDelegates;Lcom/instacart/client/containers/ui/ICContainerGridViewFactory;)V <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider$32;->create(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;)Lcom/instacart/client/product/ICProductScreen; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get1$2()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl;->com_instacart_client_list_yourlists_icretailerspecificfeaturefactory()Lcom/instacart/client/list/yourlists/ICRetailerSpecificFeatureFactory; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Lcom/instacart/client/main/di/ICMainComponent; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Lcom/instacart/formula/android/ActivityStoreContext;)Lcom/instacart/formula/android/ActivityStore; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Lcom/instacart/formula/android/ActivityConfigurator;)V <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_39": {
+            "call_sequence": [
+                "> Lcom/instacart/client/product/ICProductScreen$render$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/product/ICProductScreen;-><init>(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;Lcom/instacart/client/product/ICProductScreenAdapterDelegates;Lcom/instacart/client/containers/ui/ICContainerGridViewFactory;)V <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider$32;->create(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;)Lcom/instacart/client/product/ICProductScreen; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get1$2()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl;->com_instacart_client_loyaltyprogram_icloyaltyprogramfeaturefactory()Lcom/instacart/client/loyaltyprogram/ICLoyaltyProgramFeatureFactory; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Lcom/instacart/client/main/di/ICMainComponent; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Lcom/instacart/formula/android/ActivityStoreContext;)Lcom/instacart/formula/android/ActivityStore; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Lcom/instacart/formula/android/ActivityConfigurator;)V <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_40": {
+            "call_sequence": [
+                "> Lcom/instacart/client/product/ICProductScreen$render$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/product/ICProductScreen;-><init>(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;Lcom/instacart/client/product/ICProductScreenAdapterDelegates;Lcom/instacart/client/containers/ui/ICContainerGridViewFactory;)V <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider$32;->create(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;)Lcom/instacart/client/product/ICProductScreen; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get1$2()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl;->com_instacart_client_onboarding_pickup_iconboardingpickupintegration()Lcom/instacart/client/onboarding/pickup/ICOnboardingPickupIntegration; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Lcom/instacart/client/main/di/ICMainComponent; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Lcom/instacart/formula/android/ActivityStoreContext;)Lcom/instacart/formula/android/ActivityStore; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Lcom/instacart/formula/android/ActivityConfigurator;)V <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_41": {
+            "call_sequence": [
+                "> Lcom/instacart/client/product/ICProductScreen$render$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/product/ICProductScreen;-><init>(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;Lcom/instacart/client/product/ICProductScreenAdapterDelegates;Lcom/instacart/client/containers/ui/ICContainerGridViewFactory;)V <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider$32;->create(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;)Lcom/instacart/client/product/ICProductScreen; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get1$2()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl;->com_instacart_client_orderahead_combov4_icconfigurableitemcombov4featurefactory()Lcom/instacart/client/orderahead/combov4/ICConfigurableItemComboV4FeatureFactory; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Lcom/instacart/client/main/di/ICMainComponent; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Lcom/instacart/formula/android/ActivityStoreContext;)Lcom/instacart/formula/android/ActivityStore; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Lcom/instacart/formula/android/ActivityConfigurator;)V <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_42": {
+            "call_sequence": [
+                "> Lcom/instacart/client/product/ICProductScreen$render$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/product/ICProductScreen;-><init>(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;Lcom/instacart/client/product/ICProductScreenAdapterDelegates;Lcom/instacart/client/containers/ui/ICContainerGridViewFactory;)V <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider$32;->create(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;)Lcom/instacart/client/product/ICProductScreen; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get1$2()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl;->com_instacart_client_orderahead_icconfigurableitemcombocontainerintegration()Lcom/instacart/client/orderahead/ICConfigurableItemComboContainerIntegration; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Lcom/instacart/client/main/di/ICMainComponent; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Lcom/instacart/formula/android/ActivityStoreContext;)Lcom/instacart/formula/android/ActivityStore; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Lcom/instacart/formula/android/ActivityConfigurator;)V <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_43": {
+            "call_sequence": [
+                "> Lcom/instacart/client/product/ICProductScreen$render$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/product/ICProductScreen;-><init>(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;Lcom/instacart/client/product/ICProductScreenAdapterDelegates;Lcom/instacart/client/containers/ui/ICContainerGridViewFactory;)V <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider$32;->create(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;)Lcom/instacart/client/product/ICProductScreen; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get1$2()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl;->com_instacart_client_orderstatus_icorderstatusfeaturefactory()Lcom/instacart/client/orderstatus/ICOrderStatusFeatureFactory; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Lcom/instacart/client/main/di/ICMainComponent; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Lcom/instacart/formula/android/ActivityStoreContext;)Lcom/instacart/formula/android/ActivityStore; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Lcom/instacart/formula/android/ActivityConfigurator;)V <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_44": {
+            "call_sequence": [
+                "> Lcom/instacart/client/product/ICProductScreen$render$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/product/ICProductScreen;-><init>(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;Lcom/instacart/client/product/ICProductScreenAdapterDelegates;Lcom/instacart/client/containers/ui/ICContainerGridViewFactory;)V <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider$32;->create(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;)Lcom/instacart/client/product/ICProductScreen; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get1$2()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl;->com_instacart_client_payments_buyflow_impl_payments_splitAmount_icbuyflowsplitamountfeaturefactory()Lcom/instacart/client/payments/buyflow/impl/payments/splitAmount/ICBuyflowSplitAmountFeatureFactory; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Lcom/instacart/client/main/di/ICMainComponent; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Lcom/instacart/formula/android/ActivityStoreContext;)Lcom/instacart/formula/android/ActivityStore; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Lcom/instacart/formula/android/ActivityConfigurator;)V <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_45": {
+            "call_sequence": [
+                "> Lcom/instacart/client/product/ICProductScreen$render$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/product/ICProductScreen;-><init>(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;Lcom/instacart/client/product/ICProductScreenAdapterDelegates;Lcom/instacart/client/containers/ui/ICContainerGridViewFactory;)V <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider$32;->create(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;)Lcom/instacart/client/product/ICProductScreen; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get1$2()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl;->com_instacart_client_postcheckout_deliverydetails_icdeliverydetailsfeaturefactory()Lcom/instacart/client/postcheckout/deliverydetails/ICDeliveryDetailsFeatureFactory; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Lcom/instacart/client/main/di/ICMainComponent; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Lcom/instacart/formula/android/ActivityStoreContext;)Lcom/instacart/formula/android/ActivityStore; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Lcom/instacart/formula/android/ActivityConfigurator;)V <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_46": {
+            "call_sequence": [
+                "> Lcom/instacart/client/product/ICProductScreen$render$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/product/ICProductScreen;-><init>(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;Lcom/instacart/client/product/ICProductScreenAdapterDelegates;Lcom/instacart/client/containers/ui/ICContainerGridViewFactory;)V <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider$32;->create(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;)Lcom/instacart/client/product/ICProductScreen; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get1$2()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl;->com_instacart_client_promocode_di_icpromocodefeaturefactory()Lcom/instacart/client/promocode/di/ICPromoCodeFeatureFactory; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Lcom/instacart/client/main/di/ICMainComponent; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Lcom/instacart/formula/android/ActivityStoreContext;)Lcom/instacart/formula/android/ActivityStore; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Lcom/instacart/formula/android/ActivityConfigurator;)V <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_47": {
+            "call_sequence": [
+                "> Lcom/instacart/client/product/ICProductScreen$render$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/product/ICProductScreen;-><init>(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;Lcom/instacart/client/product/ICProductScreenAdapterDelegates;Lcom/instacart/client/containers/ui/ICContainerGridViewFactory;)V <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider$32;->create(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;)Lcom/instacart/client/product/ICProductScreen; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get1$2()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl;->com_instacart_client_recipes_buildyourown_icbuildyourownrecipefeaturefactory()Lcom/instacart/client/recipes/buildyourown/ICBuildYourOwnRecipeFeatureFactory; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Lcom/instacart/client/main/di/ICMainComponent; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Lcom/instacart/formula/android/ActivityStoreContext;)Lcom/instacart/formula/android/ActivityStore; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Lcom/instacart/formula/android/ActivityConfigurator;)V <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_48": {
+            "call_sequence": [
+                "> Lcom/instacart/client/product/ICProductScreen$render$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/product/ICProductScreen;-><init>(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;Lcom/instacart/client/product/ICProductScreenAdapterDelegates;Lcom/instacart/client/containers/ui/ICContainerGridViewFactory;)V <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider$32;->create(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;)Lcom/instacart/client/product/ICProductScreen; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get1$2()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl;->com_instacart_client_restaurants_icrestaurantsfeaturefactory()Lcom/instacart/client/restaurants/ICRestaurantsFeatureFactory; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Lcom/instacart/client/main/di/ICMainComponent; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Lcom/instacart/formula/android/ActivityStoreContext;)Lcom/instacart/formula/android/ActivityStore; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Lcom/instacart/formula/android/ActivityConfigurator;)V <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_49": {
+            "call_sequence": [
+                "> Lcom/instacart/client/product/ICProductScreen$render$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/product/ICProductScreen;-><init>(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;Lcom/instacart/client/product/ICProductScreenAdapterDelegates;Lcom/instacart/client/containers/ui/ICContainerGridViewFactory;)V <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider$32;->create(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;)Lcom/instacart/client/product/ICProductScreen; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get1$2()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl;->com_instacart_client_search_icsearchfeaturefactory()Lcom/instacart/client/search/ICSearchFeatureFactory; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Lcom/instacart/client/main/di/ICMainComponent; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Lcom/instacart/formula/android/ActivityStoreContext;)Lcom/instacart/formula/android/ActivityStore; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Lcom/instacart/formula/android/ActivityConfigurator;)V <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_50": {
+            "call_sequence": [
+                "> Lcom/instacart/client/product/ICProductScreen$render$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/product/ICProductScreen;-><init>(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;Lcom/instacart/client/product/ICProductScreenAdapterDelegates;Lcom/instacart/client/containers/ui/ICContainerGridViewFactory;)V <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider$32;->create(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;)Lcom/instacart/client/product/ICProductScreen; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get1$2()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl;->com_instacart_client_shoppernotes_edit_iceditshopperfeaturefactory()Lcom/instacart/client/shoppernotes/edit/ICEditShopperFeatureFactory; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Lcom/instacart/client/main/di/ICMainComponent; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Lcom/instacart/formula/android/ActivityStoreContext;)Lcom/instacart/formula/android/ActivityStore; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Lcom/instacart/formula/android/ActivityConfigurator;)V <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_51": {
+            "call_sequence": [
+                "> Lcom/instacart/client/product/ICProductScreen$render$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/product/ICProductScreen;-><init>(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;Lcom/instacart/client/product/ICProductScreenAdapterDelegates;Lcom/instacart/client/containers/ui/ICContainerGridViewFactory;)V <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider$32;->create(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;)Lcom/instacart/client/product/ICProductScreen; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get1$2()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl;->com_instacart_client_tasteprofile_survey_ictasteprofilesurveyfeaturefactory()Lcom/instacart/client/tasteprofile/survey/ICTasteProfileSurveyFeatureFactory; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Lcom/instacart/client/main/di/ICMainComponent; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Lcom/instacart/formula/android/ActivityStoreContext;)Lcom/instacart/formula/android/ActivityStore; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Lcom/instacart/formula/android/ActivityConfigurator;)V <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_52": {
+            "call_sequence": [
+                "> Lcom/instacart/client/product/ICProductScreen$render$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/product/ICProductScreen;-><init>(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;Lcom/instacart/client/product/ICProductScreenAdapterDelegates;Lcom/instacart/client/containers/ui/ICContainerGridViewFactory;)V <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider$32;->create(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;)Lcom/instacart/client/product/ICProductScreen; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get1$2()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl;->departmentsAndAislesFormula()Lcom/instacart/client/collections/ICCollectionsDepartmentsAndAislesFormula; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Lcom/instacart/client/main/di/ICMainComponent; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Lcom/instacart/formula/android/ActivityStoreContext;)Lcom/instacart/formula/android/ActivityStore; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Lcom/instacart/formula/android/ActivityConfigurator;)V <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_53": {
+            "call_sequence": [
+                "> Lcom/instacart/client/product/ICProductScreen$render$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/product/ICProductScreen;-><init>(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;Lcom/instacart/client/product/ICProductScreenAdapterDelegates;Lcom/instacart/client/containers/ui/ICContainerGridViewFactory;)V <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider$32;->create(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;)Lcom/instacart/client/product/ICProductScreen; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get1$2()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl;->dynamicCollectionFormula()Lcom/instacart/client/collections/ICDynamicCollectionFormulaImpl; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Lcom/instacart/client/main/di/ICMainComponent; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Lcom/instacart/formula/android/ActivityStoreContext;)Lcom/instacart/formula/android/ActivityStore; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Lcom/instacart/formula/android/ActivityConfigurator;)V <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_54": {
+            "call_sequence": [
+                "> Lcom/instacart/client/product/ICProductScreen$render$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/product/ICProductScreen;-><init>(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;Lcom/instacart/client/product/ICProductScreenAdapterDelegates;Lcom/instacart/client/containers/ui/ICContainerGridViewFactory;)V <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider$32;->create(Landroid/view/View;Lcom/instacart/client/core/accessibility/ICAccessibilitySink;)Lcom/instacart/client/product/ICProductScreen; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get1$2()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl$SwitchingProvider;->get()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl;->highlightsInputFactory()Lcom/instacart/client/ordersatisfaction/highlights/ICOrderSatisfactionHighlightsInputFactoryImpl; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Lcom/instacart/client/main/di/ICMainComponent; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Lcom/instacart/formula/android/ActivityStoreContext;)Lcom/instacart/formula/android/ActivityStore; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Lcom/instacart/formula/android/ActivityConfigurator;)V <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/instacart/client/fullstory/ICFullStoryTrackerFormulaImpl;-><init>(Lcom/instacart/client/loggedin/ICLoggedInConfigurationFormulaImpl;Lcom/instacart/client/roulette/ICRoulette;Lcom/instacart/client/pageview/ICPageDataStore;Lcom/instacart/client/fullstory/ICFullStoryEventRandomImpl;Lcom/instacart/client/fullstory/ICFullStoryEventRelayHolder;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICLoggedInComponentImpl$SwitchingProvider;->get()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl;->accountAddEbtCardFormula()Lcom/instacart/client/payments/legacy/account/payments/ebt/ICAccountAddEbtCardFormula; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Lcom/instacart/client/main/di/ICMainComponent; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Lcom/instacart/formula/android/ActivityStoreContext;)Lcom/instacart/formula/android/ActivityStore; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Lcom/instacart/formula/android/ActivityConfigurator;)V <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICLoggedInComponentImpl$SwitchingProvider;->get()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl;->com_instacart_client_checkoutv4screen_iccheckoutv4screenfeaturefactory()Lcom/instacart/client/checkoutv4screen/ICCheckoutV4ScreenFeatureFactory; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Lcom/instacart/client/main/di/ICMainComponent; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Lcom/instacart/formula/android/ActivityStoreContext;)Lcom/instacart/formula/android/ActivityStore; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Lcom/instacart/formula/android/ActivityConfigurator;)V <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICLoggedInComponentImpl$SwitchingProvider;->get()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl;->com_instacart_client_orderahead_icconfigurableitemcombocontainerintegration()Lcom/instacart/client/orderahead/ICConfigurableItemComboContainerIntegration; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Lcom/instacart/client/main/di/ICMainComponent; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Lcom/instacart/formula/android/ActivityStoreContext;)Lcom/instacart/formula/android/ActivityStore; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Lcom/instacart/formula/android/ActivityConfigurator;)V <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICLoggedInComponentImpl$SwitchingProvider;->get()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl;->pickupPermissionsFormula()Lcom/instacart/client/pickup/locationpermissions/ICPickupPermissionsFormula; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Lcom/instacart/client/main/di/ICMainComponent; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Lcom/instacart/formula/android/ActivityStoreContext;)Lcom/instacart/formula/android/ActivityStore; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Lcom/instacart/formula/android/ActivityConfigurator;)V <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICLoggedInComponentImpl$SwitchingProvider;->get()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl;->com_instacart_client_quicksearch_icquicksearchintegration()Lcom/instacart/client/quicksearch/ICQuickSearchIntegration; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Lcom/instacart/client/main/di/ICMainComponent; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Lcom/instacart/formula/android/ActivityStoreContext;)Lcom/instacart/formula/android/ActivityStore; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Lcom/instacart/formula/android/ActivityConfigurator;)V <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_5": {
+            "call_sequence": [
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICLoggedInComponentImpl$SwitchingProvider;->get()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl;->com_instacart_client_expressplacements_redemptionmodal_icexpressredemptionmodalfeaturefactory()Lcom/instacart/client/expressplacements/redemptionmodal/ICExpressRedemptionModalFeatureFactory; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Lcom/instacart/client/main/di/ICMainComponent; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Lcom/instacart/formula/android/ActivityStoreContext;)Lcom/instacart/formula/android/ActivityStore; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Lcom/instacart/formula/android/ActivityConfigurator;)V <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_6": {
+            "call_sequence": [
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICLoggedInComponentImpl$SwitchingProvider;->get()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl;->navigationDrawerFormula()Lcom/instacart/client/drawer/ICNavigationDrawerFormula; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Lcom/instacart/client/main/di/ICMainComponent; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Lcom/instacart/formula/android/ActivityStoreContext;)Lcom/instacart/formula/android/ActivityStore; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Lcom/instacart/formula/android/ActivityConfigurator;)V <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/instacart/client/itemcard/compose/slot/ICAisleLabelSlot;-><init>(Lcom/instacart/design/compose/atoms/IconSlot;Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/instacart/client/ui/itemcards/ICItemCardSpecFactory;->createSpec-3ABfNKs(Lcom/instacart/client/ui/itemcards/compose/ICItemCard;F)Lcom/instacart/client/itemcard/compose/ICItemCardSpec; <",
+                "> Lcom/instacart/client/ui/itemcards/ICItemCardComposable;->Card-Bekoei8(Lcom/instacart/client/ui/itemcards/compose/ICItemCard;FLandroidx/compose/ui/Modifier;FFLandroidx/compose/runtime/Composer;II)V <",
+                "> Lcom/instacart/client/ui/itemcards/ICMinHeightItemCardComposableDelegateFactoryImpl$composable$1;->Content(Lcom/instacart/client/compose/ICLazyItemScope;Ljava/lang/Object;Landroidx/compose/runtime/Composer;I)V <",
+                "> Lcom/instacart/client/ui/itemcards/container/ICItemCardStaggeredCarouselDelegateFactoryImpl$composable$1;->Content(Lcom/instacart/client/compose/ICLazyItemScope;Ljava/lang/Object;Landroidx/compose/runtime/Composer;I)V <",
+                "> Lcom/instacart/client/ui/itemcards/ICItemCardDelegatesImpl;->registerComposables(Lcom/instacart/client/ui/itemcards/ICItemCardDelegates$Config;Lcom/instacart/client/compose/ICLazyItemDelegate$Builder;)V <",
+                "> Lcom/instacart/client/producthub/ICProductHubViewFactory;-><init>(Lcom/instacart/client/compose/ICScaffoldComposable;Lcom/instacart/client/compose/ICLceComposableImpl;Lcom/instacart/client/producthub/ICProductHubItemMapper;Lcom/instacart/client/compose/items/ICLoadingItemComposableImpl;Lcom/instacart/client/analytics/engagement/ICTrackableItemDecorationFactoryImpl;Lcom/instacart/client/ui/itemcards/ICItemCardDelegatesImpl;Lcom/instacart/client/compose/delegates/ICComposeDesignSystemDelegatesFactory;Lcom/instacart/client/bannercarousel/ICBannerComposableFactoryImpl;)V <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl;->com_instacart_client_producthub_icproducthubfeaturefactory()Lcom/instacart/client/producthub/ICProductHubFeatureFactory; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Lcom/instacart/client/main/di/ICMainComponent; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Lcom/instacart/formula/android/ActivityStoreContext;)Lcom/instacart/formula/android/ActivityStore; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Lcom/instacart/formula/android/ActivityConfigurator;)V <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/instacart/client/ui/itemcards/ICItemCardSpecFactory;->createSpec-3ABfNKs(Lcom/instacart/client/ui/itemcards/compose/ICItemCard;F)Lcom/instacart/client/itemcard/compose/ICItemCardSpec; <",
+                "> Lcom/instacart/client/ui/itemcards/ICItemCardComposable;->Card-Bekoei8(Lcom/instacart/client/ui/itemcards/compose/ICItemCard;FLandroidx/compose/ui/Modifier;FFLandroidx/compose/runtime/Composer;II)V <",
+                "> Lcom/instacart/client/ui/itemcards/ICMinHeightItemCardComposableDelegateFactoryImpl$composable$1;->Content(Lcom/instacart/client/compose/ICLazyItemScope;Ljava/lang/Object;Landroidx/compose/runtime/Composer;I)V <",
+                "> Lcom/instacart/client/ui/itemcards/container/ICItemCardStaggeredCarouselDelegateFactoryImpl$composable$1;->Content(Lcom/instacart/client/compose/ICLazyItemScope;Ljava/lang/Object;Landroidx/compose/runtime/Composer;I)V <",
+                "> Lcom/instacart/client/ui/itemcards/ICItemCardDelegatesImpl;->registerComposables(Lcom/instacart/client/ui/itemcards/ICItemCardDelegates$Config;Lcom/instacart/client/compose/ICLazyItemDelegate$Builder;)V <",
+                "> Lcom/instacart/client/crossretailersearch/ICCrossRetailerSearchViewFactory;-><init>(Lcom/instacart/client/compose/ICScaffoldComposable;Lcom/instacart/client/compose/ICScaffold;Lcom/instacart/client/analytics/engagement/ICTrackableItemDecorationFactoryImpl;Lcom/instacart/client/recipes/ui/adapters/ICRecipeCardDelegateFactoryImpl;Lcom/instacart/client/ui/itemcards/ICItemCardDelegatesImpl;Lcom/instacart/client/ui/component/factory/ICStoreCardCarouselFactoryImpl;Lcom/instacart/client/persistence/ICPantryExpyRepoImpl;Lcom/instacart/client/crossretailersearch/ICCrossRetailerSearchRowFactory;Lcom/instacart/client/cart/floatingcart/ICFloatingCartComponentFactoryImpl;Lcom/instacart/client/display/ad/placement/ICDisplayAdPlacementComposableFactoryImpl;Lcom/instacart/client/restaurants/carousel/ICRestaurantsCarouselItemComposableFactoryImpl;Lcom/instacart/client/lce/ui/ICLceRenderModelFactory;)V <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl;->com_instacart_client_crossretailersearch_iccrossretailersearchfeaturefactory()Lcom/instacart/client/crossretailersearch/ICCrossRetailerSearchFeatureFactory; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Lcom/instacart/client/main/di/ICMainComponent; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Lcom/instacart/formula/android/ActivityStoreContext;)Lcom/instacart/formula/android/ActivityStore; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Lcom/instacart/formula/android/ActivityConfigurator;)V <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/instacart/client/ui/itemcards/ICItemCardSpecFactory;->createSpec-3ABfNKs(Lcom/instacart/client/ui/itemcards/compose/ICItemCard;F)Lcom/instacart/client/itemcard/compose/ICItemCardSpec; <",
+                "> Lcom/instacart/client/ui/itemcards/ICItemCardComposable;->Card-Bekoei8(Lcom/instacart/client/ui/itemcards/compose/ICItemCard;FLandroidx/compose/ui/Modifier;FFLandroidx/compose/runtime/Composer;II)V <",
+                "> Lcom/instacart/client/ui/itemcards/ICItemCardComposeDelegateFactoryImpl$composable$1;->Content(Lcom/instacart/client/compose/ICLazyItemScope;Ljava/lang/Object;Landroidx/compose/runtime/Composer;I)V <",
+                "> Lcom/instacart/client/ui/itemcards/compose/ICItemCardComposeDelegateFactory$DefaultImpls;->composable$default(Lcom/instacart/client/ui/itemcards/compose/ICItemCardComposeDelegateFactory;Lcom/instacart/client/ui/itemcards/data/ICItemCardViewConfig;)Lcom/instacart/client/ui/itemcards/ICItemCardComposeDelegateFactoryImpl$composable$1; <",
+                "> Lcom/instacart/client/search/ICSearchViewFactory$contentDelegate$1;-><init>(Lcom/instacart/client/search/ICSearchViewFactory;)V <",
+                "> Lcom/instacart/client/search/ICSearchViewFactory;-><init>(Lcom/instacart/client/compose/ICScaffoldComposable;Lcom/instacart/client/compose/ICScaffold;Lcom/instacart/client/ui/itemcards/ICItemCardDelegatesImpl;Lcom/instacart/client/ui/itemcards/ICItemCardComposeDelegateFactoryImpl;Lcom/instacart/client/analytics/engagement/ICTrackableItemDecorationFactoryImpl;Lcom/instacart/client/recipes/ui/adapters/ICImageRecipeCarouselDelegateFactoryImpl;Lcom/instacart/client/compose/delegates/ICComposeDesignSystemDelegatesFactory;Lcom/instacart/client/list/ui/delegates/ICInspirationCardItemComposableFactoryImpl;Lcom/instacart/client/sis/delegate/ICSISShoppableDisplayCardItemComposableFactoryImpl;Lcom/instacart/client/display/ad/placement/ICDisplayAdPlacementComposableFactoryImpl;Lcom/instacart/client/shoppabledisplay/ICShoppableDisplayComposableFactoryImpl;Lcom/instacart/client/bannercarousel/ICBannerCarouselComposableFactoryImpl;Lcom/instacart/client/sis/delegate/ICSISItemListHeaderItemComposableFactoryImpl;Lcom/instacart/client/ui/itemcards/ICItemCardCarouselDelegateFactoryImpl;Lcom/instacart/client/persistence/ICPantryExpyRepoImpl;Lcom/instacart/client/cart/floatingcart/ICFloatingCartComponentFactoryImpl;Lcom/instacart/client/contentmanagement/planogram/ICInLineFeedbackItemComposableFactoryImpl;Lcom/instacart/client/compose/internal/ICToastIntegrationImpl;)V <",
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl;->com_instacart_client_search_icsearchfeaturefactory()Lcom/instacart/client/search/ICSearchFeatureFactory; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Lcom/instacart/client/main/di/ICMainComponent; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Lcom/instacart/formula/android/ActivityStoreContext;)Lcom/instacart/formula/android/ActivityStore; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Lcom/instacart/formula/android/ActivityConfigurator;)V <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/instacart/client/recipes/recipedetails/info/ICRecipeInfoSectionFactoryImpl;-><init>(Lcom/instacart/client/compose/images/ICNetworkImageFactoryImpl;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/instacart/client/di/DaggerICAppComponent$ICMainComponentImpl;->com_instacart_client_recipes_recipedetails_icrecipedetailsfeaturefactory()Lcom/instacart/client/recipes/recipedetails/ICRecipeDetailsFeatureFactory; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Lcom/instacart/client/main/di/ICMainComponent; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2$component$1;->invoke()Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Lcom/instacart/formula/android/ActivityStoreContext;)Lcom/instacart/formula/android/ActivityStore; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1$2;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Lcom/instacart/formula/android/ActivityConfigurator;)V <",
+                "> Lcom/instacart/client/ICApplication$configureFormulaAndroid$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/ICApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/instacart/client/item/details/databinding/IcItemDetailRowExpressDiscountBinding;-><init>(Landroidx/constraintlayout/widget/ConstraintLayout;Lcom/instacart/client/core/views/text/ICNonActionTextView;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/instacart/client/itemdetail/ICItemExpressDiscountPriceRenderModel$Companion$createDelegate$$inlined$fromBinding$default$1;->invoke(Lcom/instacart/client/adapterdelegates/ICViewArguments;)Lcom/instacart/client/adapterdelegates/ICViewInstance; <",
+                "> Lcom/instacart/client/itemdetail/ICItemExpressDiscountPriceRenderModel$Companion$createDelegate$$inlined$fromBinding$default$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/itemdetail/ICIdsItemDetailContainerScreen;-><init>(Landroid/view/View;Lcom/instacart/client/itemdetail/container/ICItemDetailContainerDI$Component;Landroid/os/Parcelable;Z)V <",
+                "> Lcom/instacart/client/itemdetail/container/ICItemDetailFlow;->onHistoryChanged$instacart_item_details_impl_release(Lcom/instacart/client/core/flow/Direction;)V <",
+                "> Lcom/instacart/client/itemdetail/container/ICItemDetailFlowFragment;->onBackPressed()Z <",
+                "> Lcom/instacart/client/routes/ICBrowseItemDetailRouter;->showItemContainer(Ljava/lang/String;)V <",
+                "> Lcom/instacart/client/routes/ICAppRouter;->navigateToAppRoute(Lcom/instacart/client/main/ICAppRoute;Z)V <",
+                "> Lcom/instacart/client/main/ICLoggedInViewComponent$navigateToRoute$1;->invoke(Lcom/instacart/client/main/ICAppRoute;)V <",
+                "> Lcom/instacart/client/main/ICLoggedInViewComponent$navigateToRoute$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/instacart/client/main/ICLoggedInViewComponent;-><init>(Landroid/view/ViewGroup;Lcom/instacart/client/ICMainActivity;Lcom/instacart/client/di/DaggerICAppComponent$ICAppRouterComponentFactory;Lcom/instacart/client/main/navigation/ICNavigationActionHandler$Factory;Ldagger/internal/Provider;Ldagger/internal/Provider;Lcom/instacart/client/core/rx/ICAppSchedulers;)V <",
+                "> Lcom/instacart/client/ICMainActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    }
+}

@@ -1,0 +1,20 @@
+MISSING ID > Lorg/nutritionfacts/dailydozen/widget/FoodServings$$ExternalSyntheticLambda2;->onClick(Landroid/view/View;)V <
+MISSING ID > Lorg/nutritionfacts/dailydozen/activity/MainActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <
+MISSING ID > Lorg/nutritionfacts/dailydozen/widget/TweakBoxes$$ExternalSyntheticLambda0;->onClick(Landroid/view/View;)V <
+COMPONENT CONCAT > Lorg/nutritionfacts/dailydozen/util/NotificationUtil;->setAlarmForUpdateReminderNotification(Landroid/content/Context; < extends Ljava/lang/Object, implements []
+COMPONENT CONCAT > Lorg/nutritionfacts/dailydozen/util/NotificationUtil;->cancelAlarmForUpdateReminderNotification(Landroid/content/Context; < extends Ljava/lang/Object, implements []
+COMPONENT CONCAT > Lorg/nutritionfacts/dailydozen/Common;->openFoodInfo(Landroid/content/Context; < extends Ljava/lang/Object, implements []
+COMPONENT CONCAT > Lorg/nutritionfacts/dailydozen/Common;->openFoodHistory(Landroid/content/Context; < extends Ljava/lang/Object, implements []
+COMPONENT CONCAT > Lorg/nutritionfacts/dailydozen/Common;->openTweakHistory(Landroid/content/Context; < extends Ljava/lang/Object, implements []
+COMPONENT CONCAT > Lorg/nutritionfacts/dailydozen/Common;->openTweakInfo(Landroid/content/Context; < extends Ljava/lang/Object, implements []
+MISSING ID > Lorg/nutritionfacts/dailydozen/widget/DateWeights$$ExternalSyntheticLambda1;->onClick(Landroid/view/View;)V <
+MISSING ID > Lorg/nutritionfacts/dailydozen/activity/MainActivity;->onPrepareOptionsMenu(Landroid/view/Menu;)Z <
+COMPONENT CONCAT > Lorg/nutritionfacts/dailydozen/Common;->showToast(Landroid/content/Context; < extends Ljava/lang/Object, implements []
+MISSING ID > Lorg/nutritionfacts/dailydozen/widget/DateHeader$$ExternalSyntheticLambda0;->onClick(Landroid/view/View;)V <
+MISSING ID > Lorg/nutritionfacts/dailydozen/widget/DateWeights$$ExternalSyntheticLambda0;->onClick(Landroid/view/View;)V <
+COMPONENT CONCAT > Lorg/nutritionfacts/dailydozen/util/NotificationUtil;->showUpdateReminderNotification(Landroid/content/Context; < extends Ljava/lang/Object, implements []
+COMPONENT CONCAT > Lorg/nutritionfacts/dailydozen/controller/Bus;->tweakServingsChangedEvent(Lorg/nutritionfacts/dailydozen/model/Day; < extends Ljava/lang/Object, implements []
+COMPONENT CONCAT > Lorg/nutritionfacts/dailydozen/controller/Bus;->foodServingsChangedEvent(Lorg/nutritionfacts/dailydozen/model/Day; < extends Ljava/lang/Object, implements []
+MISSING ID > Lorg/nutritionfacts/dailydozen/activity/DailyReminderSettingsActivity$$ExternalSyntheticLambda1;->onClick(Landroid/view/View;)V <
+COMPONENT CONCAT > Lorg/nutritionfacts/dailydozen/util/DateUtil;->formatTime(Landroid/content/Context; < extends Ljava/lang/Object, implements []
+COMPONENT CONCAT > Lorg/nutritionfacts/dailydozen/model/pref/UpdateReminderPref$TimeStringComparator;->compare(Ljava/lang/String; < extends Ljava/lang/Object, implements ['Ljava/util/Comparator']

@@ -1,0 +1,942 @@
+{
+    "Lorg/dnaq/dialer2/DialerActivity;->findViewById(I)Landroid/view/View;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/dnaq/dialer2/DialerActivity$ViewHolder;-><init>(Lorg/dnaq/dialer2/DialerActivity;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/dnaq/dialer2/DialerActivity$QueryHandler;->startQuery(ILjava/lang/Object;Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/dnaq/dialer2/DialerActivity$QueryHandler;->callContactAndFinish(Ljava/lang/String;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/dnaq/dialer2/DialerActivity$QueryHandler;->getCallLog()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lorg/dnaq/dialer2/DialerActivity$QueryHandler;->showContactForLookupKey(Ljava/lang/String;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lorg/dnaq/dialer2/DialerActivity$QueryHandler;->showContactForNumber(Ljava/lang/String;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/dnaq/dialer2/DialerActivity;->askToClearCallLog()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/dnaq/dialer2/DialerActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.dnaq.dialer2.DialerActivity",
+                    "menu_item_clear_call_log",
+                    "Clear call log"
+                ]
+            ]
+        }
+    },
+    "Lorg/dnaq/dialer2/DialerActivity;->enableDialer()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/dnaq/dialer2/DialerActivity;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.dnaq.dialer2.DialerActivity",
+                    "DialerExpandButton"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/dnaq/dialer2/DialerActivity;->dialNumber(Ljava/lang/String;)V <",
+                "> Lorg/dnaq/dialer2/DialerActivity;->onContactViewDialogResult(ILandroid/content/Intent;)V <",
+                "> Lorg/dnaq/dialer2/DialerActivity;->onActivityResult(IILandroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lorg/dnaq/dialer2/DialerActivity;->toggleDialer()V <",
+                "> Lorg/dnaq/dialer2/DialerActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.dnaq.dialer2.DialerActivity",
+                    "menu_item_show_hide",
+                    "Hide dialer"
+                ]
+            ]
+        }
+    },
+    "Lorg/dnaq/dialer2/CallLogAdapter;-><init>(Landroid/content/Context;Landroid/database/Cursor;Lorg/dnaq/dialer2/AsyncContactImageLoader;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/dnaq/dialer2/DialerActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/dnaq/dialer2/DialerActivity;->getIntent()Landroid/content/Intent;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/dnaq/dialer2/DialerActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/dnaq/dialer2/DialerActivity$4;->onTouch(Landroid/view/View;Landroid/view/MotionEvent;)Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/dnaq/dialer2/DialerActivity$4;->onTouch(Landroid/view/View;Landroid/view/MotionEvent;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.dnaq.dialer2.DialerActivity",
+                    "ContactListView"
+                ]
+            ]
+        }
+    },
+    "Lorg/dnaq/dialer2/DialerActivity;->onCreate(Landroid/os/Bundle;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/dnaq/dialer2/DialerActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/dnaq/dialer2/DialerActivity;->dialNumber(Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/dnaq/dialer2/DialerActivity;->onContactViewDialogResult(ILandroid/content/Intent;)V <",
+                "> Lorg/dnaq/dialer2/DialerActivity;->onActivityResult(IILandroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/dnaq/dialer2/DialerActivity;->parseIntent(Landroid/content/Intent;)V <",
+                "> Lorg/dnaq/dialer2/DialerActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/dnaq/dialer2/ContactViewDialog;->requestWindowFeature(I)Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/dnaq/dialer2/ContactViewDialog;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.dnaq.dialer2/org.dnaq.dialer2.ContactViewDialog",
+                    "start -n"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/dnaq/dialer2/ContactViewDialog;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/dnaq/dialer2/DialerActivity$QueryHandler;->onQueryComplete(ILjava/lang/Object;Landroid/database/Cursor;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/dnaq/dialer2/DialerActivity$8;->onClick(Landroid/content/DialogInterface;I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/dnaq/dialer2/DialerActivity$8;->onClick(Landroid/content/DialogInterface;I)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/dnaq/dialer2/DialerActivity;->onSelectSpeedDialSlotDialogResult(ILandroid/content/Intent;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/dnaq/dialer2/DialerActivity;->onActivityResult(IILandroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/dnaq/dialer2/DialerActivity;->applySettings(Landroid/content/SharedPreferences;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/dnaq/dialer2/DialerActivity;->onSharedPreferenceChanged(Landroid/content/SharedPreferences;Ljava/lang/String;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/dnaq/dialer2/DialerActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/dnaq/dialer2/DialerActivity$QueryHandler;->onQueryComplete(ILjava/lang/Object;Landroid/database/Cursor;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/dnaq/dialer2/DialerActivity$QueryHandler;->onQueryComplete(ILjava/lang/Object;Landroid/database/Cursor;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/dnaq/dialer2/DialerActivity;->clearCallLog()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/dnaq/dialer2/DialerActivity;->access$700(Lorg/dnaq/dialer2/DialerActivity;)V <",
+                "> Lorg/dnaq/dialer2/DialerActivity$8;->onClick(Landroid/content/DialogInterface;I)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/dnaq/dialer2/ContactsAdapter;->setFilterQueryProvider(Landroid/widget/FilterQueryProvider;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/dnaq/dialer2/DialerActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/dnaq/dialer2/SelectSpeedDialSlotDialog;->setResult(ILandroid/content/Intent;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/dnaq/dialer2/SelectSpeedDialSlotDialog;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.dnaq.dialer2/org.dnaq.dialer2.SelectSpeedDialSlotDialog",
+                    "start -n"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/dnaq/dialer2/SelectSpeedDialSlotDialog;->onClick(Landroid/view/View;)V <",
+                "> Lorg/dnaq/dialer2/DialerActivity;->selectSpeedDialSlot(Ljava/lang/String;)V <",
+                "> Lorg/dnaq/dialer2/DialerActivity;->onSelectNumberDialogResult(ILandroid/content/Intent;)V <",
+                "> Lorg/dnaq/dialer2/DialerActivity;->onActivityResult(IILandroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/dnaq/dialer2/DialerActivity;->finish()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/dnaq/dialer2/DialerActivity;->callNumberAndFinish(Ljava/lang/CharSequence;)V <",
+                "> Lorg/dnaq/dialer2/DialerActivity;->onKeyDown(ILandroid/view/KeyEvent;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/dnaq/dialer2/DialerActivity;->callNumberAndFinish(Ljava/lang/CharSequence;)V <",
+                "> Lorg/dnaq/dialer2/DialerActivity;->onItemClick(Landroid/widget/AdapterView;Landroid/view/View;IJ)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lorg/dnaq/dialer2/DialerActivity$QueryHandler;->onQueryComplete(ILjava/lang/Object;Landroid/database/Cursor;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lorg/dnaq/dialer2/DialerActivity;->trySpeedDial(I)Z <",
+                "> Lorg/dnaq/dialer2/DialerActivity;->onLongClick(Landroid/view/View;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.dnaq.dialer2.DialerActivity",
+                    "Button1"
+                ]
+            ]
+        }
+    },
+    "Lorg/dnaq/dialer2/SelectNumberDialog;->setResult(ILandroid/content/Intent;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/dnaq/dialer2/SelectNumberDialog;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.dnaq.dialer2/org.dnaq.dialer2.SelectNumberDialog",
+                    "start -n"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/dnaq/dialer2/SelectNumberDialog;->onClick(Landroid/view/View;)V <",
+                "> Lorg/dnaq/dialer2/DialerActivity;->selectSpeedDialNumber(Ljava/util/ArrayList;Ljava/util/ArrayList;)V <",
+                "> Lorg/dnaq/dialer2/DialerActivity;->onContactViewDialogResult(ILandroid/content/Intent;)V <",
+                "> Lorg/dnaq/dialer2/DialerActivity;->onActivityResult(IILandroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/dnaq/dialer2/ContactsAdapter;-><init>(Landroid/content/Context;Landroid/database/Cursor;Lorg/dnaq/dialer2/AsyncContactImageLoader;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/dnaq/dialer2/DialerActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/dnaq/dialer2/DialerActivity;->prepareListeners()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/dnaq/dialer2/DialerActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/dnaq/dialer2/DialerActivity;->setSpeedDial(Ljava/lang/String;I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/dnaq/dialer2/DialerActivity;->onSelectSpeedDialSlotDialogResult(ILandroid/content/Intent;)V <",
+                "> Lorg/dnaq/dialer2/DialerActivity;->onActivityResult(IILandroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/dnaq/dialer2/SelectNumberDialog;->setContentView(I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/dnaq/dialer2/SelectNumberDialog;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.dnaq.dialer2/org.dnaq.dialer2.SelectNumberDialog",
+                    "start -n"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/dnaq/dialer2/SelectNumberDialog;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/dnaq/dialer2/DialerActivity;->selectSpeedDialNumber(Ljava/util/ArrayList;Ljava/util/ArrayList;)V <",
+                "> Lorg/dnaq/dialer2/DialerActivity;->onContactViewDialogResult(ILandroid/content/Intent;)V <",
+                "> Lorg/dnaq/dialer2/DialerActivity;->onActivityResult(IILandroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/dnaq/dialer2/DialerActivity$2;->run()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/dnaq/dialer2/DialerActivity$2;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/dnaq/dialer2/ContactsAdapter;->newView(Landroid/content/Context;Landroid/database/Cursor;Landroid/view/ViewGroup;)Landroid/view/View;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/dnaq/dialer2/ContactsAdapter;->newView(Landroid/content/Context;Landroid/database/Cursor;Landroid/view/ViewGroup;)Landroid/view/View; <",
+                "> Lorg/dnaq/dialer2/DialerActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/dnaq/dialer2/ContactsAdapter;->newView(Landroid/content/Context;Landroid/database/Cursor;Landroid/view/ViewGroup;)Landroid/view/View; <",
+                "> Lorg/dnaq/dialer2/DialerActivity;->onItemLongClick(Landroid/widget/AdapterView;Landroid/view/View;IJ)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lorg/dnaq/dialer2/ContactsAdapter;->newView(Landroid/content/Context;Landroid/database/Cursor;Landroid/view/ViewGroup;)Landroid/view/View; <",
+                "> Lorg/dnaq/dialer2/DialerActivity;->onTextChanged(Ljava/lang/CharSequence;III)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/dnaq/dialer2/SelectSpeedDialSlotDialog;->getLayoutInflater()Landroid/view/LayoutInflater;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/dnaq/dialer2/SelectSpeedDialSlotDialog;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.dnaq.dialer2/org.dnaq.dialer2.SelectSpeedDialSlotDialog",
+                    "start -n"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/dnaq/dialer2/SelectSpeedDialSlotDialog;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/dnaq/dialer2/DialerActivity;->selectSpeedDialSlot(Ljava/lang/String;)V <",
+                "> Lorg/dnaq/dialer2/DialerActivity;->onSelectNumberDialogResult(ILandroid/content/Intent;)V <",
+                "> Lorg/dnaq/dialer2/DialerActivity;->onActivityResult(IILandroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/dnaq/dialer2/DialerActivity;->selectSpeedDialNumber(Ljava/util/ArrayList;Ljava/util/ArrayList;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/dnaq/dialer2/DialerActivity;->onContactViewDialogResult(ILandroid/content/Intent;)V <",
+                "> Lorg/dnaq/dialer2/DialerActivity;->onActivityResult(IILandroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/dnaq/dialer2/ContactsAdapter;->bindView(Landroid/view/View;Landroid/content/Context;Landroid/database/Cursor;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/dnaq/dialer2/ContactsAdapter;->bindView(Landroid/view/View;Landroid/content/Context;Landroid/database/Cursor;)V <",
+                "> Lorg/dnaq/dialer2/DialerActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/dnaq/dialer2/ContactsAdapter;->bindView(Landroid/view/View;Landroid/content/Context;Landroid/database/Cursor;)V <",
+                "> Lorg/dnaq/dialer2/DialerActivity;->onItemLongClick(Landroid/widget/AdapterView;Landroid/view/View;IJ)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lorg/dnaq/dialer2/ContactsAdapter;->bindView(Landroid/view/View;Landroid/content/Context;Landroid/database/Cursor;)V <",
+                "> Lorg/dnaq/dialer2/DialerActivity;->onTextChanged(Ljava/lang/CharSequence;III)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/dnaq/dialer2/CallLogAdapter;->bindView(Landroid/view/View;Landroid/content/Context;Landroid/database/Cursor;)V": {
+        "path_3": {
+            "call_sequence": [
+                "> Lorg/dnaq/dialer2/AsyncContactImageLoader$2;->run()V <",
+                "> Lorg/dnaq/dialer2/AsyncContactImageLoader;->loadDrawableForNumber(Ljava/lang/String;Lorg/dnaq/dialer2/AsyncContactImageLoader$ImageCallback;)Landroid/graphics/drawable/Drawable; <",
+                "> Lorg/dnaq/dialer2/CallLogAdapter;->bindView(Landroid/view/View;Landroid/content/Context;Landroid/database/Cursor;)V <",
+                "> Lorg/dnaq/dialer2/DialerActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lorg/dnaq/dialer2/AsyncContactImageLoader$2;->run()V <",
+                "> Lorg/dnaq/dialer2/AsyncContactImageLoader;->loadDrawableForNumber(Ljava/lang/String;Lorg/dnaq/dialer2/AsyncContactImageLoader$ImageCallback;)Landroid/graphics/drawable/Drawable; <",
+                "> Lorg/dnaq/dialer2/CallLogAdapter;->bindView(Landroid/view/View;Landroid/content/Context;Landroid/database/Cursor;)V <",
+                "> Lorg/dnaq/dialer2/DialerActivity;->onItemLongClick(Landroid/widget/AdapterView;Landroid/view/View;IJ)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/dnaq/dialer2/AsyncContactImageLoader;->loadDrawableForNumber(Ljava/lang/String;Lorg/dnaq/dialer2/AsyncContactImageLoader$ImageCallback;)Landroid/graphics/drawable/Drawable; <",
+                "> Lorg/dnaq/dialer2/CallLogAdapter;->bindView(Landroid/view/View;Landroid/content/Context;Landroid/database/Cursor;)V <",
+                "> Lorg/dnaq/dialer2/DialerActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/dnaq/dialer2/AsyncContactImageLoader;->loadDrawableForNumber(Ljava/lang/String;Lorg/dnaq/dialer2/AsyncContactImageLoader$ImageCallback;)Landroid/graphics/drawable/Drawable; <",
+                "> Lorg/dnaq/dialer2/CallLogAdapter;->bindView(Landroid/view/View;Landroid/content/Context;Landroid/database/Cursor;)V <",
+                "> Lorg/dnaq/dialer2/DialerActivity;->onItemLongClick(Landroid/widget/AdapterView;Landroid/view/View;IJ)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/dnaq/dialer2/DialerActivity;->startManagingCursor(Landroid/database/Cursor;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/dnaq/dialer2/DialerActivity$QueryHandler;->onQueryComplete(ILjava/lang/Object;Landroid/database/Cursor;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/dnaq/dialer2/ContactsAdapter;->getFilter()Landroid/widget/Filter;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/dnaq/dialer2/DialerActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.dnaq.dialer2.DialerActivity",
+                    "menu_item_contact_list",
+                    "Contact list"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/dnaq/dialer2/DialerActivity;->applySettings(Landroid/content/SharedPreferences;)V <",
+                "> Lorg/dnaq/dialer2/DialerActivity;->onSharedPreferenceChanged(Landroid/content/SharedPreferences;Ljava/lang/String;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lorg/dnaq/dialer2/DialerActivity;->onTextChanged(Ljava/lang/CharSequence;III)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/dnaq/dialer2/CallLogAdapter;->changeCursor(Landroid/database/Cursor;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/dnaq/dialer2/DialerActivity$QueryHandler;->onQueryComplete(ILjava/lang/Object;Landroid/database/Cursor;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/dnaq/dialer2/DialerActivity;->callContactAndFinish(Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/dnaq/dialer2/DialerActivity;->onItemClick(Landroid/widget/AdapterView;Landroid/view/View;IJ)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/dnaq/dialer2/DialerActivity;->selectSpeedDialSlot(Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/dnaq/dialer2/DialerActivity;->onSelectNumberDialogResult(ILandroid/content/Intent;)V <",
+                "> Lorg/dnaq/dialer2/DialerActivity;->onActivityResult(IILandroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/dnaq/dialer2/DialerActivity;->selectSpeedDialNumber(Ljava/util/ArrayList;Ljava/util/ArrayList;)V <",
+                "> Lorg/dnaq/dialer2/DialerActivity;->onContactViewDialogResult(ILandroid/content/Intent;)V <",
+                "> Lorg/dnaq/dialer2/DialerActivity;->onActivityResult(IILandroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/dnaq/dialer2/DialerActivity$1;->onFling(Landroid/view/MotionEvent;Landroid/view/MotionEvent;FF)Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/dnaq/dialer2/DialerActivity$1;->onFling(Landroid/view/MotionEvent;Landroid/view/MotionEvent;FF)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/dnaq/dialer2/DialerActivity;->onClick(Landroid/view/View;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/dnaq/dialer2/DialerActivity;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.dnaq.dialer2.DialerActivity",
+                    "DialerExpandButton"
+                ]
+            ]
+        }
+    },
+    "Lorg/dnaq/dialer2/ContactViewDialog;->getIntent()Landroid/content/Intent;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/dnaq/dialer2/ContactViewDialog;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.dnaq.dialer2/org.dnaq.dialer2.ContactViewDialog",
+                    "start -n"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/dnaq/dialer2/ContactViewDialog;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/dnaq/dialer2/DialerActivity$QueryHandler;->onQueryComplete(ILjava/lang/Object;Landroid/database/Cursor;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/dnaq/dialer2/DialerActivity;->onDeletePressed()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/dnaq/dialer2/DialerActivity;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.dnaq.dialer2.DialerActivity",
+                    "DialerExpandButton"
+                ]
+            ]
+        }
+    },
+    "Lorg/dnaq/dialer2/DialerActivity;->parseIntent(Landroid/content/Intent;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/dnaq/dialer2/DialerActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/dnaq/dialer2/DialerActivity$5;->run()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/dnaq/dialer2/DialerActivity$5;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/dnaq/dialer2/DialerActivity;->onItemLongClick(Landroid/widget/AdapterView;Landroid/view/View;IJ)Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/dnaq/dialer2/DialerActivity;->onItemLongClick(Landroid/widget/AdapterView;Landroid/view/View;IJ)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/dnaq/dialer2/DialerActivity$QueryHandler;->showContactForLookupKey(Ljava/lang/String;)V": {
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/dnaq/dialer2/DialerActivity$QueryHandler;->onQueryComplete(ILjava/lang/Object;Landroid/database/Cursor;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/dnaq/dialer2/ContactViewDialog;->addContactNumber(Ljava/lang/String;I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/dnaq/dialer2/ContactViewDialog;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.dnaq.dialer2/org.dnaq.dialer2.ContactViewDialog",
+                    "start -n"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/dnaq/dialer2/ContactViewDialog;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/dnaq/dialer2/DialerActivity$QueryHandler;->onQueryComplete(ILjava/lang/Object;Landroid/database/Cursor;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/dnaq/dialer2/AsyncContactImageLoader;->loadImageForNumber(Ljava/lang/String;)Landroid/graphics/drawable/Drawable;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/dnaq/dialer2/AsyncContactImageLoader$2;->run()V <",
+                "> Lorg/dnaq/dialer2/AsyncContactImageLoader;->loadDrawableForNumber(Ljava/lang/String;Lorg/dnaq/dialer2/AsyncContactImageLoader$ImageCallback;)Landroid/graphics/drawable/Drawable; <",
+                "> Lorg/dnaq/dialer2/CallLogAdapter;->bindView(Landroid/view/View;Landroid/content/Context;Landroid/database/Cursor;)V <",
+                "> Lorg/dnaq/dialer2/DialerActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/dnaq/dialer2/AsyncContactImageLoader$2;->run()V <",
+                "> Lorg/dnaq/dialer2/AsyncContactImageLoader;->loadDrawableForNumber(Ljava/lang/String;Lorg/dnaq/dialer2/AsyncContactImageLoader$ImageCallback;)Landroid/graphics/drawable/Drawable; <",
+                "> Lorg/dnaq/dialer2/CallLogAdapter;->bindView(Landroid/view/View;Landroid/content/Context;Landroid/database/Cursor;)V <",
+                "> Lorg/dnaq/dialer2/DialerActivity;->onItemLongClick(Landroid/widget/AdapterView;Landroid/view/View;IJ)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/dnaq/dialer2/CallLogAdapter;->getItem(I)Ljava/lang/Object;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/dnaq/dialer2/DialerActivity;->onItemLongClick(Landroid/widget/AdapterView;Landroid/view/View;IJ)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/dnaq/dialer2/DialerActivity;->onItemClick(Landroid/widget/AdapterView;Landroid/view/View;IJ)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    }
+}

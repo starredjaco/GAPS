@@ -1,0 +1,2221 @@
+{
+    "Lcom/bwx/bequick/handlers/WiFiSettingHandler;-><init>(Lcom/bwx/bequick/fwk/Setting;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/fwk/SettingsFactory;->createSettingHandler(Lcom/bwx/bequick/fwk/Setting;)Lcom/bwx/bequick/fwk/SettingHandler; <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->createInitializeActivateHandlers()V <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onResume()V <",
+                "> Lcom/bwx/bequick/receivers/StatusBarIntegrationReceiver;->sendNotification(Landroid/content/Context;IIZ)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.bwx.bequick.START_QS",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/fwk/SettingsFactory;->createSettingHandler(Lcom/bwx/bequick/fwk/Setting;)Lcom/bwx/bequick/fwk/SettingHandler; <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->createInitializeActivateHandlers()V <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onResume()V <",
+                "> Lcom/bwx/bequick/ShowSettingsActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/bwx/bequick/flashlight/ScreenLightActivity;->setContentView(I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/flashlight/ScreenLightActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onClick(Landroid/view/View;)V <",
+                "> Lcom/bwx/bequick/receivers/StatusBarIntegrationReceiver;->sendNotification(Landroid/content/Context;IIZ)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.bwx.bequick.START_QS",
+                    "broadcast -a"
+                ],
+                [
+                    "com.bwx.bequick.MainSettingsActivity",
+                    "button1"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/flashlight/ScreenLightActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onClick(Landroid/view/View;)V <",
+                "> Lcom/bwx/bequick/ShowSettingsActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.bwx.bequick.MainSettingsActivity",
+                    "button1"
+                ]
+            ]
+        }
+    },
+    "Lcom/bwx/bequick/preferences/BrightnessPrefs;->hasLightSensor(Landroid/content/Context;)Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/SettingsApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/preferences/BrightnessPrefs;->onPreferenceClick(Landroid/preference/Preference;)Z <",
+                "> Lcom/bwx/bequick/fwk/SettingsFactory;->createSetting(IILjava/lang/String;Landroid/content/Context;)Lcom/bwx/bequick/fwk/Setting; <",
+                "> Lcom/bwx/bequick/SettingsApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/bwx/bequick/MainSettingsActivity;->updateFlashlightView()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/MainSettingsActivity;->access$000(Lcom/bwx/bequick/MainSettingsActivity;)V <",
+                "> Lcom/bwx/bequick/MainSettingsActivity$CommonIntentReceiver$1;->run()V <",
+                "> Lcom/bwx/bequick/MainSettingsActivity$CommonIntentReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.bwx.bequick.FLASHLIGHT_STATE",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onSharedPreferenceChanged(Landroid/content/SharedPreferences;Ljava/lang/String;)V <",
+                "> Lcom/bwx/bequick/receivers/StatusBarIntegrationReceiver;->sendNotification(Landroid/content/Context;IIZ)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.bwx.bequick.START_QS",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onSharedPreferenceChanged(Landroid/content/SharedPreferences;Ljava/lang/String;)V <",
+                "> Lcom/bwx/bequick/ShowSettingsActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onResume()V <",
+                "> Lcom/bwx/bequick/receivers/StatusBarIntegrationReceiver;->sendNotification(Landroid/content/Context;IIZ)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.bwx.bequick.START_QS",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onResume()V <",
+                "> Lcom/bwx/bequick/ShowSettingsActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/bwx/bequick/fwk/SettingHandler;->onSwitched(Z)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/fwk/Setting;->notifySwitchClicked(Z)V <",
+                "> Lcom/bwx/bequick/renderers/ToggleSettingRenderer;->onClick(Landroid/view/View;)V <",
+                "> Lcom/bwx/bequick/fwk/Setting;->getAssignedRenderer()Lcom/bwx/bequick/fwk/SettingRenderer; <",
+                "> Lcom/bwx/bequick/ListSettingsLayout;->updateLayout(Landroid/app/Activity;)V <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onResume()V <",
+                "> Lcom/bwx/bequick/receivers/StatusBarIntegrationReceiver;->sendNotification(Landroid/content/Context;IIZ)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.bwx.bequick.START_QS",
+                    "broadcast -a"
+                ],
+                [
+                    "com.bwx.bequick.MainSettingsActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/fwk/Setting;->notifySwitchClicked(Z)V <",
+                "> Lcom/bwx/bequick/renderers/ToggleSettingRenderer;->onClick(Landroid/view/View;)V <",
+                "> Lcom/bwx/bequick/fwk/Setting;->getAssignedRenderer()Lcom/bwx/bequick/fwk/SettingRenderer; <",
+                "> Lcom/bwx/bequick/ListSettingsLayout;->updateLayout(Landroid/app/Activity;)V <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onResume()V <",
+                "> Lcom/bwx/bequick/ShowSettingsActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.bwx.bequick.MainSettingsActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/bwx/bequick/LayoutSettingsActivity;->setContentView(I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/LayoutSettingsActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/bwx/bequick/receivers/StatusBarIntegrationReceiver;->sendNotification(Landroid/content/Context;IIZ)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.bwx.bequick.START_QS",
+                    "broadcast -a"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.bwx.bequick.MainSettingsActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/LayoutSettingsActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/bwx/bequick/ShowSettingsActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.bwx.bequick.MainSettingsActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/bwx/bequick/renderers/MinMaxSliderSettingRenderer;->getView(Landroid/view/LayoutInflater;Lcom/bwx/bequick/fwk/Setting;Landroid/view/View;Landroid/content/Context;)Landroid/view/View;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/renderers/SwitchableSliderRenderer;->updateView(Lcom/bwx/bequick/fwk/RangeSetting;Landroid/widget/ToggleButton;)V <",
+                "> Lcom/bwx/bequick/renderers/SwitchableSliderRenderer;->getView(Landroid/view/LayoutInflater;Lcom/bwx/bequick/fwk/Setting;Landroid/view/View;Landroid/content/Context;)Landroid/view/View; <",
+                "> Lcom/bwx/bequick/fwk/Setting;->getAssignedRenderer()Lcom/bwx/bequick/fwk/SettingRenderer; <",
+                "> Lcom/bwx/bequick/ListSettingsLayout;->updateLayout(Landroid/app/Activity;)V <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onResume()V <",
+                "> Lcom/bwx/bequick/receivers/StatusBarIntegrationReceiver;->sendNotification(Landroid/content/Context;IIZ)V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/bwx/bequick/renderers/SwitchableSliderRenderer;->getView(Landroid/view/LayoutInflater;Lcom/bwx/bequick/fwk/Setting;Landroid/view/View;Landroid/content/Context;)Landroid/view/View; <",
+                "----- CONDITIONAL -----",
+                "> Lcom/bwx/bequick/fwk/Setting;->getAssignedRenderer()Lcom/bwx/bequick/fwk/SettingRenderer; <",
+                "----- CONDITIONAL -----",
+                "> Lcom/bwx/bequick/ListSettingsLayout;->updateLayout(Landroid/app/Activity;)V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onResume()V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/bwx/bequick/receivers/StatusBarIntegrationReceiver;->sendNotification(Landroid/content/Context;IIZ)V <",
+                "----- CONDITIONAL -----"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.bwx.bequick.START_QS",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/renderers/SwitchableSliderRenderer;->updateView(Lcom/bwx/bequick/fwk/RangeSetting;Landroid/widget/ToggleButton;)V <",
+                "> Lcom/bwx/bequick/renderers/SwitchableSliderRenderer;->getView(Landroid/view/LayoutInflater;Lcom/bwx/bequick/fwk/Setting;Landroid/view/View;Landroid/content/Context;)Landroid/view/View; <",
+                "> Lcom/bwx/bequick/fwk/Setting;->getAssignedRenderer()Lcom/bwx/bequick/fwk/SettingRenderer; <",
+                "> Lcom/bwx/bequick/ListSettingsLayout;->updateLayout(Landroid/app/Activity;)V <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onResume()V <",
+                "> Lcom/bwx/bequick/ShowSettingsActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/bwx/bequick/renderers/SwitchableSliderRenderer;->getView(Landroid/view/LayoutInflater;Lcom/bwx/bequick/fwk/Setting;Landroid/view/View;Landroid/content/Context;)Landroid/view/View; <",
+                "----- CONDITIONAL -----",
+                "> Lcom/bwx/bequick/fwk/Setting;->getAssignedRenderer()Lcom/bwx/bequick/fwk/SettingRenderer; <",
+                "----- CONDITIONAL -----",
+                "> Lcom/bwx/bequick/ListSettingsLayout;->updateLayout(Landroid/app/Activity;)V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onResume()V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/bwx/bequick/receivers/StatusBarIntegrationReceiver;->sendNotification(Landroid/content/Context;IIZ)V <",
+                "----- CONDITIONAL -----"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.bwx.bequick.START_QS",
+                    "broadcast -a"
+                ],
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/bwx/bequick/handlers/WiFiSettingHandler;->access$900(Lcom/bwx/bequick/handlers/WiFiSettingHandler;)Lcom/bwx/bequick/fwk/Setting;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/handlers/WiFiSettingHandler$WiFiStateReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.net.wifi.STATE_CHANGE",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/bwx/bequick/MainSettingsActivity;->getString(I)Ljava/lang/String;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/handlers/RingerSettingHandler;->createDialog()Landroid/app/Dialog; <",
+                "> Lcom/bwx/bequick/handlers/RingerSettingHandler;->onSelected(I)V <",
+                "> Lcom/bwx/bequick/fwk/SettingsFactory;->createSettingHandler(Lcom/bwx/bequick/fwk/Setting;)Lcom/bwx/bequick/fwk/SettingHandler; <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->createInitializeActivateHandlers()V <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onResume()V <",
+                "> Lcom/bwx/bequick/receivers/StatusBarIntegrationReceiver;->sendNotification(Landroid/content/Context;IIZ)V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/bwx/bequick/handlers/RingerSettingHandler;->onItemClick(Landroid/widget/AdapterView;Landroid/view/View;IJ)V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/bwx/bequick/fwk/SettingsFactory;->createSettingHandler(Lcom/bwx/bequick/fwk/Setting;)Lcom/bwx/bequick/fwk/SettingHandler; <",
+                "----- CONDITIONAL -----",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->createInitializeActivateHandlers()V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onResume()V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/bwx/bequick/receivers/StatusBarIntegrationReceiver;->sendNotification(Landroid/content/Context;IIZ)V <",
+                "----- CONDITIONAL -----"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.bwx.bequick.START_QS",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/MainSettingsActivity;->updateMemoryStatus()V <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onResume()V <",
+                "> Lcom/bwx/bequick/receivers/StatusBarIntegrationReceiver;->sendNotification(Landroid/content/Context;IIZ)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.bwx.bequick.START_QS",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/MainSettingsActivity;->updateMemoryStatus()V <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onResume()V <",
+                "> Lcom/bwx/bequick/ShowSettingsActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/handlers/WiFiSettingHandler$WiFiStateReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.net.wifi.STATE_CHANGE",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/MainSettingsActivity;->getMemoryStatus(Ljava/io/File;I)Ljava/lang/String; <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->updateMemoryStatus()V <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onResume()V <",
+                "> Lcom/bwx/bequick/receivers/StatusBarIntegrationReceiver;->sendNotification(Landroid/content/Context;IIZ)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.bwx.bequick.START_QS",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_5": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/MainSettingsActivity;->getMemoryStatus(Ljava/io/File;I)Ljava/lang/String; <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->updateMemoryStatus()V <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onResume()V <",
+                "> Lcom/bwx/bequick/ShowSettingsActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_6": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/handlers/RingerSettingHandler;->updateState()V <",
+                "> Lcom/bwx/bequick/handlers/RingerSettingHandler;->activate(Lcom/bwx/bequick/MainSettingsActivity;)V <",
+                "> Lcom/bwx/bequick/fwk/SettingsFactory;->createSettingHandler(Lcom/bwx/bequick/fwk/Setting;)Lcom/bwx/bequick/fwk/SettingHandler; <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->createInitializeActivateHandlers()V <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onResume()V <",
+                "> Lcom/bwx/bequick/receivers/StatusBarIntegrationReceiver;->sendNotification(Landroid/content/Context;IIZ)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.bwx.bequick.START_QS",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_7": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/handlers/RingerSettingHandler;->updateState()V <",
+                "> Lcom/bwx/bequick/handlers/RingerSettingHandler;->activate(Lcom/bwx/bequick/MainSettingsActivity;)V <",
+                "> Lcom/bwx/bequick/fwk/SettingsFactory;->createSettingHandler(Lcom/bwx/bequick/fwk/Setting;)Lcom/bwx/bequick/fwk/SettingHandler; <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->createInitializeActivateHandlers()V <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onResume()V <",
+                "> Lcom/bwx/bequick/ShowSettingsActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_8": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/MainSettingsActivity;->createInitializeActivateHandlers()V <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onResume()V <",
+                "> Lcom/bwx/bequick/receivers/StatusBarIntegrationReceiver;->sendNotification(Landroid/content/Context;IIZ)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.bwx.bequick.START_QS",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_9": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/MainSettingsActivity;->createInitializeActivateHandlers()V <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onResume()V <",
+                "> Lcom/bwx/bequick/ShowSettingsActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_10": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/handlers/WiFiSettingHandler;->updateWiFiState(I)V <",
+                "> Lcom/bwx/bequick/handlers/WiFiSettingHandler;->access$000(Lcom/bwx/bequick/handlers/WiFiSettingHandler;I)V <",
+                "> Lcom/bwx/bequick/handlers/WiFiSettingHandler$WiFiStateReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.net.wifi.STATE_CHANGE",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_11": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/handlers/SystemPropertySettingHandler;->updateSetting(ZZI)V <",
+                "> Lcom/bwx/bequick/handlers/SystemPropertySettingHandler;->activate(Lcom/bwx/bequick/MainSettingsActivity;)V <",
+                "> Lcom/bwx/bequick/handlers/UnlockPatternSettingHandler;->activate(Lcom/bwx/bequick/MainSettingsActivity;)V <",
+                "> Lcom/bwx/bequick/fwk/SettingsFactory;->createSettingHandler(Lcom/bwx/bequick/fwk/Setting;)Lcom/bwx/bequick/fwk/SettingHandler; <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->createInitializeActivateHandlers()V <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onResume()V <",
+                "> Lcom/bwx/bequick/receivers/StatusBarIntegrationReceiver;->sendNotification(Landroid/content/Context;IIZ)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.bwx.bequick.START_QS",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_12": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/handlers/SystemPropertySettingHandler;->updateSetting(ZZI)V <",
+                "> Lcom/bwx/bequick/handlers/SystemPropertySettingHandler;->onSwitched(Z)V <",
+                "> Lcom/bwx/bequick/handlers/UnlockPatternSettingHandler;->onClick(Landroid/content/DialogInterface;I)V <",
+                "> Lcom/bwx/bequick/fwk/SettingsFactory;->createSettingHandler(Lcom/bwx/bequick/fwk/Setting;)Lcom/bwx/bequick/fwk/SettingHandler; <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->createInitializeActivateHandlers()V <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onResume()V <",
+                "> Lcom/bwx/bequick/receivers/StatusBarIntegrationReceiver;->sendNotification(Landroid/content/Context;IIZ)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.bwx.bequick.START_QS",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_13": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/handlers/BrightnessSettingHandler;->activate(Lcom/bwx/bequick/MainSettingsActivity;)V <",
+                "> Lcom/bwx/bequick/fwk/SettingsFactory;->createSettingHandler(Lcom/bwx/bequick/fwk/Setting;)Lcom/bwx/bequick/fwk/SettingHandler; <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->createInitializeActivateHandlers()V <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onResume()V <",
+                "> Lcom/bwx/bequick/receivers/StatusBarIntegrationReceiver;->sendNotification(Landroid/content/Context;IIZ)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.bwx.bequick.START_QS",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_14": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/handlers/BrightnessSettingHandler;->activate(Lcom/bwx/bequick/MainSettingsActivity;)V <",
+                "> Lcom/bwx/bequick/fwk/SettingsFactory;->createSettingHandler(Lcom/bwx/bequick/fwk/Setting;)Lcom/bwx/bequick/fwk/SettingHandler; <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->createInitializeActivateHandlers()V <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onResume()V <",
+                "> Lcom/bwx/bequick/ShowSettingsActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_15": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/handlers/AirplaneModeSettingHandler;->updateState()V <",
+                "> Lcom/bwx/bequick/handlers/AirplaneModeSettingHandler;->access$000(Lcom/bwx/bequick/handlers/AirplaneModeSettingHandler;)V <",
+                "> Lcom/bwx/bequick/handlers/AirplaneModeSettingHandler$AirplaneModeReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.AIRPLANE_MODE",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_16": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/handlers/ScreenTimeoutSettingHandler;->updateUIByValue(I)V <",
+                "> Lcom/bwx/bequick/handlers/ScreenTimeoutSettingHandler;->onSwitched(Z)V <",
+                "> Lcom/bwx/bequick/fwk/SettingsFactory;->createSettingHandler(Lcom/bwx/bequick/fwk/Setting;)Lcom/bwx/bequick/fwk/SettingHandler; <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->createInitializeActivateHandlers()V <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onResume()V <",
+                "> Lcom/bwx/bequick/receivers/StatusBarIntegrationReceiver;->sendNotification(Landroid/content/Context;IIZ)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.bwx.bequick.START_QS",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_17": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/handlers/ScreenTimeoutSettingHandler;->updateUIByValue(I)V <",
+                "> Lcom/bwx/bequick/handlers/ScreenTimeoutSettingHandler;->onSwitched(Z)V <",
+                "> Lcom/bwx/bequick/fwk/SettingsFactory;->createSettingHandler(Lcom/bwx/bequick/fwk/Setting;)Lcom/bwx/bequick/fwk/SettingHandler; <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->createInitializeActivateHandlers()V <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onResume()V <",
+                "> Lcom/bwx/bequick/ShowSettingsActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/bwx/bequick/MainSettingsActivity$CommonIntentReceiver;->access$302(Lcom/bwx/bequick/MainSettingsActivity$CommonIntentReceiver;F)F": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/MainSettingsActivity$CommonIntentReceiver$1;->run()V <",
+                "> Lcom/bwx/bequick/MainSettingsActivity$CommonIntentReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.bwx.bequick.FLASHLIGHT_STATE",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/bwx/bequick/LayoutSettingsAdapter;-><init>(Landroid/content/Context;Ljava/util/ArrayList;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/LayoutSettingsActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/bwx/bequick/receivers/StatusBarIntegrationReceiver;->sendNotification(Landroid/content/Context;IIZ)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.bwx.bequick.START_QS",
+                    "broadcast -a"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.bwx.bequick.MainSettingsActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/LayoutSettingsActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/bwx/bequick/ShowSettingsActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.bwx.bequick.MainSettingsActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/bwx/bequick/preferences/MobileDataPrefs;->detectMobileDataMode(Landroid/content/SharedPreferences;)Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/preferences/MobileDataPrefs;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bwx/bequick/fwk/Setting;->startPrefsActivity(Landroid/content/Context;)V <",
+                "> Lcom/bwx/bequick/LayoutSettingsAdapter;->onClick(Landroid/view/View;)V <",
+                "> Lcom/bwx/bequick/LayoutSettingsActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/bwx/bequick/receivers/StatusBarIntegrationReceiver;->sendNotification(Landroid/content/Context;IIZ)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.bwx.bequick.START_QS",
+                    "broadcast -a"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.bwx.bequick.MainSettingsActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.bwx.bequick.LayoutSettingsActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/preferences/MobileDataPrefs;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bwx/bequick/fwk/Setting;->startPrefsActivity(Landroid/content/Context;)V <",
+                "> Lcom/bwx/bequick/LayoutSettingsAdapter;->onClick(Landroid/view/View;)V <",
+                "> Lcom/bwx/bequick/LayoutSettingsActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/bwx/bequick/ShowSettingsActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.bwx.bequick.MainSettingsActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.bwx.bequick.LayoutSettingsActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/bwx/bequick/flashlight/Flashlight;->isSupported(Landroid/content/Context;)Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/flashlight/LedFlashlightReceiver;->detectLedFlashlightType(Landroid/content/Context;)I <",
+                "> Lcom/bwx/bequick/preferences/CommonPrefs;->onSharedPreferenceChanged(Landroid/content/SharedPreferences;Ljava/lang/String;)V <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/bwx/bequick/receivers/StatusBarIntegrationReceiver;->sendNotification(Landroid/content/Context;IIZ)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.bwx.bequick.START_QS",
+                    "broadcast -a"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.bwx.bequick.MainSettingsActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/flashlight/LedFlashlightReceiver;->detectLedFlashlightType(Landroid/content/Context;)I <",
+                "> Lcom/bwx/bequick/preferences/CommonPrefs;->onSharedPreferenceChanged(Landroid/content/SharedPreferences;Ljava/lang/String;)V <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/bwx/bequick/ShowSettingsActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.bwx.bequick.MainSettingsActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/flashlight/LedFlashlightReceiver;->detectLedFlashlightType(Landroid/content/Context;)I <",
+                "> Lcom/bwx/bequick/flashlight/LedFlashlightReceiver;->getFlashlight(Landroid/content/Context;)Lcom/bwx/bequick/flashlight/Flashlight; <",
+                "> Lcom/bwx/bequick/flashlight/LedFlashlightReceiver;->isFlashlightEnabled(Landroid/content/Context;)Z <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->updateFlashlightView()V <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->access$000(Lcom/bwx/bequick/MainSettingsActivity;)V <",
+                "> Lcom/bwx/bequick/MainSettingsActivity$CommonIntentReceiver$1;->run()V <",
+                "> Lcom/bwx/bequick/MainSettingsActivity$CommonIntentReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.bwx.bequick.FLASHLIGHT_STATE",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/flashlight/LedFlashlightReceiver;->detectLedFlashlightType(Landroid/content/Context;)I <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.bwx.bequick.FLASHLIGHT",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/bwx/bequick/MainSettingsActivity$1;-><init>(Lcom/bwx/bequick/MainSettingsActivity;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onCreateDialog(I)Landroid/app/Dialog; <",
+                "> Lcom/bwx/bequick/receivers/StatusBarIntegrationReceiver;->sendNotification(Landroid/content/Context;IIZ)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.bwx.bequick.START_QS",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onCreateDialog(I)Landroid/app/Dialog; <",
+                "> Lcom/bwx/bequick/ShowSettingsActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/bwx/bequick/renderers/LinkSettingRenderer;->getView(Landroid/view/LayoutInflater;Lcom/bwx/bequick/fwk/Setting;Landroid/view/View;Landroid/content/Context;)Landroid/view/View;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/renderers/SwitchableSliderRenderer;->updateView(Lcom/bwx/bequick/fwk/RangeSetting;Landroid/widget/ToggleButton;)V <",
+                "> Lcom/bwx/bequick/renderers/SwitchableSliderRenderer;->getView(Landroid/view/LayoutInflater;Lcom/bwx/bequick/fwk/Setting;Landroid/view/View;Landroid/content/Context;)Landroid/view/View; <",
+                "> Lcom/bwx/bequick/fwk/Setting;->getAssignedRenderer()Lcom/bwx/bequick/fwk/SettingRenderer; <",
+                "> Lcom/bwx/bequick/ListSettingsLayout;->updateLayout(Landroid/app/Activity;)V <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onResume()V <",
+                "> Lcom/bwx/bequick/receivers/StatusBarIntegrationReceiver;->sendNotification(Landroid/content/Context;IIZ)V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/bwx/bequick/renderers/SwitchableSliderRenderer;->getView(Landroid/view/LayoutInflater;Lcom/bwx/bequick/fwk/Setting;Landroid/view/View;Landroid/content/Context;)Landroid/view/View; <",
+                "----- CONDITIONAL -----",
+                "> Lcom/bwx/bequick/fwk/Setting;->getAssignedRenderer()Lcom/bwx/bequick/fwk/SettingRenderer; <",
+                "----- CONDITIONAL -----",
+                "> Lcom/bwx/bequick/ListSettingsLayout;->updateLayout(Landroid/app/Activity;)V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onResume()V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/bwx/bequick/receivers/StatusBarIntegrationReceiver;->sendNotification(Landroid/content/Context;IIZ)V <",
+                "----- CONDITIONAL -----"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.bwx.bequick.START_QS",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/renderers/SwitchableSliderRenderer;->updateView(Lcom/bwx/bequick/fwk/RangeSetting;Landroid/widget/ToggleButton;)V <",
+                "> Lcom/bwx/bequick/renderers/SwitchableSliderRenderer;->getView(Landroid/view/LayoutInflater;Lcom/bwx/bequick/fwk/Setting;Landroid/view/View;Landroid/content/Context;)Landroid/view/View; <",
+                "> Lcom/bwx/bequick/fwk/Setting;->getAssignedRenderer()Lcom/bwx/bequick/fwk/SettingRenderer; <",
+                "> Lcom/bwx/bequick/ListSettingsLayout;->updateLayout(Landroid/app/Activity;)V <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onResume()V <",
+                "> Lcom/bwx/bequick/ShowSettingsActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/bwx/bequick/renderers/SwitchableSliderRenderer;->getView(Landroid/view/LayoutInflater;Lcom/bwx/bequick/fwk/Setting;Landroid/view/View;Landroid/content/Context;)Landroid/view/View; <",
+                "----- CONDITIONAL -----",
+                "> Lcom/bwx/bequick/fwk/Setting;->getAssignedRenderer()Lcom/bwx/bequick/fwk/SettingRenderer; <",
+                "----- CONDITIONAL -----",
+                "> Lcom/bwx/bequick/ListSettingsLayout;->updateLayout(Landroid/app/Activity;)V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onResume()V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/bwx/bequick/receivers/StatusBarIntegrationReceiver;->sendNotification(Landroid/content/Context;IIZ)V <",
+                "----- CONDITIONAL -----"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.bwx.bequick.START_QS",
+                    "broadcast -a"
+                ],
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/bwx/bequick/SettingsApplication;->persistSettings()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/LayoutSettingsActivity;->onStop()V <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/bwx/bequick/receivers/StatusBarIntegrationReceiver;->sendNotification(Landroid/content/Context;IIZ)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.bwx.bequick.START_QS",
+                    "broadcast -a"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.bwx.bequick.MainSettingsActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/LayoutSettingsActivity;->onStop()V <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/bwx/bequick/ShowSettingsActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.bwx.bequick.MainSettingsActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/bwx/bequick/flashlight/ScreenLightActivity;->getApplication()Landroid/app/Application;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/flashlight/ScreenLightActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onClick(Landroid/view/View;)V <",
+                "> Lcom/bwx/bequick/receivers/StatusBarIntegrationReceiver;->sendNotification(Landroid/content/Context;IIZ)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.bwx.bequick.START_QS",
+                    "broadcast -a"
+                ],
+                [
+                    "com.bwx.bequick.MainSettingsActivity",
+                    "button1"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/flashlight/ScreenLightActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onClick(Landroid/view/View;)V <",
+                "> Lcom/bwx/bequick/ShowSettingsActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.bwx.bequick.MainSettingsActivity",
+                    "button1"
+                ]
+            ]
+        }
+    },
+    "Lcom/bwx/bequick/renderers/LinkSettingRenderer;->updateView()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/renderers/LinkSettingRenderer;->notifySettingUpdated()V <",
+                "> Lcom/bwx/bequick/fwk/Setting;->getAssignedRenderer()Lcom/bwx/bequick/fwk/SettingRenderer; <",
+                "> Lcom/bwx/bequick/ListSettingsLayout;->updateLayout(Landroid/app/Activity;)V <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onResume()V <",
+                "> Lcom/bwx/bequick/receivers/StatusBarIntegrationReceiver;->sendNotification(Landroid/content/Context;IIZ)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.bwx.bequick.START_QS",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/renderers/LinkSettingRenderer;->notifySettingUpdated()V <",
+                "> Lcom/bwx/bequick/fwk/Setting;->getAssignedRenderer()Lcom/bwx/bequick/fwk/SettingRenderer; <",
+                "> Lcom/bwx/bequick/ListSettingsLayout;->updateLayout(Landroid/app/Activity;)V <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onResume()V <",
+                "> Lcom/bwx/bequick/ShowSettingsActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/renderers/LinkSettingRenderer;->getView(Landroid/view/LayoutInflater;Lcom/bwx/bequick/fwk/Setting;Landroid/view/View;Landroid/content/Context;)Landroid/view/View; <",
+                "> Lcom/bwx/bequick/renderers/SwitchableSliderRenderer;->updateView(Lcom/bwx/bequick/fwk/RangeSetting;Landroid/widget/ToggleButton;)V <",
+                "> Lcom/bwx/bequick/renderers/SwitchableSliderRenderer;->getView(Landroid/view/LayoutInflater;Lcom/bwx/bequick/fwk/Setting;Landroid/view/View;Landroid/content/Context;)Landroid/view/View; <",
+                "> Lcom/bwx/bequick/fwk/Setting;->getAssignedRenderer()Lcom/bwx/bequick/fwk/SettingRenderer; <",
+                "> Lcom/bwx/bequick/ListSettingsLayout;->updateLayout(Landroid/app/Activity;)V <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onResume()V <",
+                "> Lcom/bwx/bequick/receivers/StatusBarIntegrationReceiver;->sendNotification(Landroid/content/Context;IIZ)V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/bwx/bequick/renderers/SwitchableSliderRenderer;->getView(Landroid/view/LayoutInflater;Lcom/bwx/bequick/fwk/Setting;Landroid/view/View;Landroid/content/Context;)Landroid/view/View; <",
+                "----- CONDITIONAL -----",
+                "> Lcom/bwx/bequick/fwk/Setting;->getAssignedRenderer()Lcom/bwx/bequick/fwk/SettingRenderer; <",
+                "----- CONDITIONAL -----",
+                "> Lcom/bwx/bequick/ListSettingsLayout;->updateLayout(Landroid/app/Activity;)V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onResume()V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/bwx/bequick/receivers/StatusBarIntegrationReceiver;->sendNotification(Landroid/content/Context;IIZ)V <",
+                "----- CONDITIONAL -----"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.bwx.bequick.START_QS",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/renderers/LinkSettingRenderer;->getView(Landroid/view/LayoutInflater;Lcom/bwx/bequick/fwk/Setting;Landroid/view/View;Landroid/content/Context;)Landroid/view/View; <",
+                "> Lcom/bwx/bequick/renderers/SwitchableSliderRenderer;->updateView(Lcom/bwx/bequick/fwk/RangeSetting;Landroid/widget/ToggleButton;)V <",
+                "> Lcom/bwx/bequick/renderers/SwitchableSliderRenderer;->getView(Landroid/view/LayoutInflater;Lcom/bwx/bequick/fwk/Setting;Landroid/view/View;Landroid/content/Context;)Landroid/view/View; <",
+                "> Lcom/bwx/bequick/fwk/Setting;->getAssignedRenderer()Lcom/bwx/bequick/fwk/SettingRenderer; <",
+                "> Lcom/bwx/bequick/ListSettingsLayout;->updateLayout(Landroid/app/Activity;)V <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onResume()V <",
+                "> Lcom/bwx/bequick/ShowSettingsActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/bwx/bequick/renderers/SwitchableSliderRenderer;->getView(Landroid/view/LayoutInflater;Lcom/bwx/bequick/fwk/Setting;Landroid/view/View;Landroid/content/Context;)Landroid/view/View; <",
+                "----- CONDITIONAL -----",
+                "> Lcom/bwx/bequick/fwk/Setting;->getAssignedRenderer()Lcom/bwx/bequick/fwk/SettingRenderer; <",
+                "----- CONDITIONAL -----",
+                "> Lcom/bwx/bequick/ListSettingsLayout;->updateLayout(Landroid/app/Activity;)V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onResume()V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/bwx/bequick/receivers/StatusBarIntegrationReceiver;->sendNotification(Landroid/content/Context;IIZ)V <",
+                "----- CONDITIONAL -----"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.bwx.bequick.START_QS",
+                    "broadcast -a"
+                ],
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/renderers/SwitchableSliderRenderer;->updateView(Lcom/bwx/bequick/fwk/RangeSetting;Landroid/widget/ToggleButton;)V <",
+                "> Lcom/bwx/bequick/renderers/SwitchableSliderRenderer;->getView(Landroid/view/LayoutInflater;Lcom/bwx/bequick/fwk/Setting;Landroid/view/View;Landroid/content/Context;)Landroid/view/View; <",
+                "> Lcom/bwx/bequick/fwk/Setting;->getAssignedRenderer()Lcom/bwx/bequick/fwk/SettingRenderer; <",
+                "> Lcom/bwx/bequick/ListSettingsLayout;->updateLayout(Landroid/app/Activity;)V <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onResume()V <",
+                "> Lcom/bwx/bequick/receivers/StatusBarIntegrationReceiver;->sendNotification(Landroid/content/Context;IIZ)V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/bwx/bequick/renderers/SwitchableSliderRenderer;->updateView(Lcom/bwx/bequick/fwk/RangeSetting;Landroid/widget/ToggleButton;)V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/bwx/bequick/renderers/SwitchableSliderRenderer;->getView(Landroid/view/LayoutInflater;Lcom/bwx/bequick/fwk/Setting;Landroid/view/View;Landroid/content/Context;)Landroid/view/View; <",
+                "----- CONDITIONAL -----",
+                "> Lcom/bwx/bequick/fwk/Setting;->getAssignedRenderer()Lcom/bwx/bequick/fwk/SettingRenderer; <",
+                "----- CONDITIONAL -----",
+                "> Lcom/bwx/bequick/ListSettingsLayout;->updateLayout(Landroid/app/Activity;)V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onResume()V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/bwx/bequick/receivers/StatusBarIntegrationReceiver;->sendNotification(Landroid/content/Context;IIZ)V <",
+                "----- CONDITIONAL -----",
+                "----- CONDITIONAL -----",
+                "> Lcom/bwx/bequick/renderers/SwitchableSliderRenderer;-><init>()V <",
+                "----- CONDITIONAL -----",
+                "----- CONDITIONAL -----",
+                "> Lcom/bwx/bequick/renderers/SwitchableSliderRenderer;->getView(Landroid/view/LayoutInflater;Lcom/bwx/bequick/fwk/Setting;Landroid/view/View;Landroid/content/Context;)Landroid/view/View; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.bwx.bequick.START_QS",
+                    "broadcast -a"
+                ],
+                [
+                    "intent",
+                    "com.bwx.bequick.INIT_STATUSBAR_INTEGRATION",
+                    "broadcast -a"
+                ],
+                [
+                    "intent",
+                    "com.bwx.bequick.START_QS",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_5": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/renderers/SwitchableSliderRenderer;->updateView(Lcom/bwx/bequick/fwk/RangeSetting;Landroid/widget/ToggleButton;)V <",
+                "> Lcom/bwx/bequick/renderers/SwitchableSliderRenderer;->getView(Landroid/view/LayoutInflater;Lcom/bwx/bequick/fwk/Setting;Landroid/view/View;Landroid/content/Context;)Landroid/view/View; <",
+                "> Lcom/bwx/bequick/fwk/Setting;->getAssignedRenderer()Lcom/bwx/bequick/fwk/SettingRenderer; <",
+                "> Lcom/bwx/bequick/ListSettingsLayout;->updateLayout(Landroid/app/Activity;)V <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onResume()V <",
+                "> Lcom/bwx/bequick/ShowSettingsActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/bwx/bequick/renderers/SwitchableSliderRenderer;->updateView(Lcom/bwx/bequick/fwk/RangeSetting;Landroid/widget/ToggleButton;)V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/bwx/bequick/renderers/SwitchableSliderRenderer;->getView(Landroid/view/LayoutInflater;Lcom/bwx/bequick/fwk/Setting;Landroid/view/View;Landroid/content/Context;)Landroid/view/View; <",
+                "----- CONDITIONAL -----",
+                "> Lcom/bwx/bequick/fwk/Setting;->getAssignedRenderer()Lcom/bwx/bequick/fwk/SettingRenderer; <",
+                "----- CONDITIONAL -----",
+                "> Lcom/bwx/bequick/ListSettingsLayout;->updateLayout(Landroid/app/Activity;)V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onResume()V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/bwx/bequick/receivers/StatusBarIntegrationReceiver;->sendNotification(Landroid/content/Context;IIZ)V <",
+                "----- CONDITIONAL -----",
+                "----- CONDITIONAL -----",
+                "> Lcom/bwx/bequick/renderers/SwitchableSliderRenderer;-><init>()V <",
+                "----- CONDITIONAL -----",
+                "----- CONDITIONAL -----",
+                "> Lcom/bwx/bequick/renderers/SwitchableSliderRenderer;->getView(Landroid/view/LayoutInflater;Lcom/bwx/bequick/fwk/Setting;Landroid/view/View;Landroid/content/Context;)Landroid/view/View; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.bwx.bequick.START_QS",
+                    "broadcast -a"
+                ],
+                [
+                    "intent",
+                    "com.bwx.bequick.INIT_STATUSBAR_INTEGRATION",
+                    "broadcast -a"
+                ],
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/bwx/bequick/fwk/Setting;-><init>(IIILjava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/fwk/SettingsFactory;->createSetting(IILjava/lang/String;Landroid/content/Context;)Lcom/bwx/bequick/fwk/Setting; <",
+                "> Lcom/bwx/bequick/SettingsApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/fwk/RangeSetting;-><init>(IIIII)V <",
+                "> Lcom/bwx/bequick/fwk/SettingsFactory;->createSetting(IILjava/lang/String;Landroid/content/Context;)Lcom/bwx/bequick/fwk/Setting; <",
+                "> Lcom/bwx/bequick/SettingsApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/bwx/bequick/preferences/CommonPrefs;->activateScreenFlashlight()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/preferences/CommonPrefs;->onClick(Landroid/content/DialogInterface;I)V <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/bwx/bequick/receivers/StatusBarIntegrationReceiver;->sendNotification(Landroid/content/Context;IIZ)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.bwx.bequick.START_QS",
+                    "broadcast -a"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.bwx.bequick.MainSettingsActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/preferences/CommonPrefs;->onClick(Landroid/content/DialogInterface;I)V <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/bwx/bequick/ShowSettingsActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.bwx.bequick.MainSettingsActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/preferences/CommonPrefs;->onSharedPreferenceChanged(Landroid/content/SharedPreferences;Ljava/lang/String;)V <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/bwx/bequick/receivers/StatusBarIntegrationReceiver;->sendNotification(Landroid/content/Context;IIZ)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.bwx.bequick.START_QS",
+                    "broadcast -a"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.bwx.bequick.MainSettingsActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/preferences/CommonPrefs;->onSharedPreferenceChanged(Landroid/content/SharedPreferences;Ljava/lang/String;)V <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/bwx/bequick/ShowSettingsActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.bwx.bequick.MainSettingsActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/bwx/bequick/handlers/ScreenTimeoutSettingHandler;->createDialog()Landroid/app/Dialog;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/handlers/ScreenTimeoutSettingHandler;->onSelected(I)V <",
+                "> Lcom/bwx/bequick/fwk/SettingsFactory;->createSettingHandler(Lcom/bwx/bequick/fwk/Setting;)Lcom/bwx/bequick/fwk/SettingHandler; <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->createInitializeActivateHandlers()V <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onResume()V <",
+                "> Lcom/bwx/bequick/receivers/StatusBarIntegrationReceiver;->sendNotification(Landroid/content/Context;IIZ)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.bwx.bequick.START_QS",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/handlers/ScreenTimeoutSettingHandler;->onSelected(I)V <",
+                "> Lcom/bwx/bequick/fwk/SettingsFactory;->createSettingHandler(Lcom/bwx/bequick/fwk/Setting;)Lcom/bwx/bequick/fwk/SettingHandler; <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->createInitializeActivateHandlers()V <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onResume()V <",
+                "> Lcom/bwx/bequick/ShowSettingsActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/bwx/bequick/handlers/UnlockPatternSettingHandler;-><init>(Lcom/bwx/bequick/fwk/Setting;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/fwk/SettingsFactory;->createSettingHandler(Lcom/bwx/bequick/fwk/Setting;)Lcom/bwx/bequick/fwk/SettingHandler; <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->createInitializeActivateHandlers()V <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onResume()V <",
+                "> Lcom/bwx/bequick/receivers/StatusBarIntegrationReceiver;->sendNotification(Landroid/content/Context;IIZ)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.bwx.bequick.START_QS",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/fwk/SettingsFactory;->createSettingHandler(Lcom/bwx/bequick/fwk/Setting;)Lcom/bwx/bequick/fwk/SettingHandler; <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->createInitializeActivateHandlers()V <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onResume()V <",
+                "> Lcom/bwx/bequick/ShowSettingsActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/bwx/bequick/handlers/BrightnessSettingHandler;->getRange()I": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/handlers/BrightnessSettingHandler;->getPropertyValue(I)I <",
+                "> Lcom/bwx/bequick/handlers/BrightnessSettingHandler;->run()V <",
+                "> Lcom/bwx/bequick/fwk/SettingsFactory;->createSettingHandler(Lcom/bwx/bequick/fwk/Setting;)Lcom/bwx/bequick/fwk/SettingHandler; <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->createInitializeActivateHandlers()V <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onResume()V <",
+                "> Lcom/bwx/bequick/receivers/StatusBarIntegrationReceiver;->sendNotification(Landroid/content/Context;IIZ)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.bwx.bequick.START_QS",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/handlers/BrightnessSettingHandler;->getPropertyValue(I)I <",
+                "> Lcom/bwx/bequick/handlers/BrightnessSettingHandler;->run()V <",
+                "> Lcom/bwx/bequick/fwk/SettingsFactory;->createSettingHandler(Lcom/bwx/bequick/fwk/Setting;)Lcom/bwx/bequick/fwk/SettingHandler; <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->createInitializeActivateHandlers()V <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onResume()V <",
+                "> Lcom/bwx/bequick/ShowSettingsActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/handlers/BrightnessSettingHandler;->getPercentValue(I)I <",
+                "> Lcom/bwx/bequick/handlers/BrightnessSettingHandler;->onClick(Landroid/content/DialogInterface;I)V <",
+                "> Lcom/bwx/bequick/fwk/SettingsFactory;->createSettingHandler(Lcom/bwx/bequick/fwk/Setting;)Lcom/bwx/bequick/fwk/SettingHandler; <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->createInitializeActivateHandlers()V <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onResume()V <",
+                "> Lcom/bwx/bequick/receivers/StatusBarIntegrationReceiver;->sendNotification(Landroid/content/Context;IIZ)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.bwx.bequick.START_QS",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/handlers/BrightnessSettingHandler;->getPercentValue(I)I <",
+                "> Lcom/bwx/bequick/handlers/BrightnessSettingHandler;->onSwitched(Z)V <",
+                "> Lcom/bwx/bequick/fwk/SettingsFactory;->createSettingHandler(Lcom/bwx/bequick/fwk/Setting;)Lcom/bwx/bequick/fwk/SettingHandler; <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->createInitializeActivateHandlers()V <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onResume()V <",
+                "> Lcom/bwx/bequick/receivers/StatusBarIntegrationReceiver;->sendNotification(Landroid/content/Context;IIZ)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.bwx.bequick.START_QS",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/handlers/BrightnessSettingHandler;->getPercentValue(I)I <",
+                "> Lcom/bwx/bequick/handlers/BrightnessSettingHandler;->onClick(Landroid/content/DialogInterface;I)V <",
+                "> Lcom/bwx/bequick/fwk/SettingsFactory;->createSettingHandler(Lcom/bwx/bequick/fwk/Setting;)Lcom/bwx/bequick/fwk/SettingHandler; <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->createInitializeActivateHandlers()V <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onResume()V <",
+                "> Lcom/bwx/bequick/ShowSettingsActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_5": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/handlers/BrightnessSettingHandler;->getPercentValue(I)I <",
+                "> Lcom/bwx/bequick/handlers/BrightnessSettingHandler;->onSwitched(Z)V <",
+                "> Lcom/bwx/bequick/fwk/SettingsFactory;->createSettingHandler(Lcom/bwx/bequick/fwk/Setting;)Lcom/bwx/bequick/fwk/SettingHandler; <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->createInitializeActivateHandlers()V <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onResume()V <",
+                "> Lcom/bwx/bequick/ShowSettingsActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/bwx/bequick/MainSettingsActivity;->startActivity(Landroid/content/Intent;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/handlers/RingerSettingHandler;->onSelected(I)V <",
+                "> Lcom/bwx/bequick/fwk/SettingsFactory;->createSettingHandler(Lcom/bwx/bequick/fwk/Setting;)Lcom/bwx/bequick/fwk/SettingHandler; <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->createInitializeActivateHandlers()V <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onResume()V <",
+                "> Lcom/bwx/bequick/receivers/StatusBarIntegrationReceiver;->sendNotification(Landroid/content/Context;IIZ)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.bwx.bequick.START_QS",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/handlers/RingerSettingHandler;->onSelected(I)V <",
+                "> Lcom/bwx/bequick/fwk/SettingsFactory;->createSettingHandler(Lcom/bwx/bequick/fwk/Setting;)Lcom/bwx/bequick/fwk/SettingHandler; <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->createInitializeActivateHandlers()V <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onResume()V <",
+                "> Lcom/bwx/bequick/ShowSettingsActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/handlers/SystemPropertySettingHandler;->onSelected(I)V <",
+                "> Lcom/bwx/bequick/handlers/UnlockPatternSettingHandler;->onSelected(I)V <",
+                "> Lcom/bwx/bequick/fwk/SettingsFactory;->createSettingHandler(Lcom/bwx/bequick/fwk/Setting;)Lcom/bwx/bequick/fwk/SettingHandler; <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->createInitializeActivateHandlers()V <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onResume()V <",
+                "> Lcom/bwx/bequick/receivers/StatusBarIntegrationReceiver;->sendNotification(Landroid/content/Context;IIZ)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.bwx.bequick.START_QS",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/handlers/SystemPropertySettingHandler;->onSelected(I)V <",
+                "> Lcom/bwx/bequick/handlers/UnlockPatternSettingHandler;->onSelected(I)V <",
+                "> Lcom/bwx/bequick/fwk/SettingsFactory;->createSettingHandler(Lcom/bwx/bequick/fwk/Setting;)Lcom/bwx/bequick/fwk/SettingHandler; <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->createInitializeActivateHandlers()V <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onResume()V <",
+                "> Lcom/bwx/bequick/ShowSettingsActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/handlers/UnlockPatternSettingHandler;->chooseLockPattern()V <",
+                "> Lcom/bwx/bequick/handlers/UnlockPatternSettingHandler;->onClick(Landroid/content/DialogInterface;I)V <",
+                "> Lcom/bwx/bequick/fwk/SettingsFactory;->createSettingHandler(Lcom/bwx/bequick/fwk/Setting;)Lcom/bwx/bequick/fwk/SettingHandler; <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->createInitializeActivateHandlers()V <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onResume()V <",
+                "> Lcom/bwx/bequick/receivers/StatusBarIntegrationReceiver;->sendNotification(Landroid/content/Context;IIZ)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.bwx.bequick.START_QS",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_5": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/handlers/UnlockPatternSettingHandler;->chooseLockPattern()V <",
+                "> Lcom/bwx/bequick/handlers/UnlockPatternSettingHandler;->onClick(Landroid/content/DialogInterface;I)V <",
+                "> Lcom/bwx/bequick/fwk/SettingsFactory;->createSettingHandler(Lcom/bwx/bequick/fwk/Setting;)Lcom/bwx/bequick/fwk/SettingHandler; <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->createInitializeActivateHandlers()V <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onResume()V <",
+                "> Lcom/bwx/bequick/ShowSettingsActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_6": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/bwx/bequick/receivers/StatusBarIntegrationReceiver;->sendNotification(Landroid/content/Context;IIZ)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.bwx.bequick.START_QS",
+                    "broadcast -a"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.bwx.bequick.MainSettingsActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_7": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/bwx/bequick/ShowSettingsActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.bwx.bequick.MainSettingsActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_8": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/MainSettingsActivity;->startActivitiesSafely([Landroid/content/Intent;)Z <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onClick(Landroid/view/View;)V <",
+                "> Lcom/bwx/bequick/receivers/StatusBarIntegrationReceiver;->sendNotification(Landroid/content/Context;IIZ)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.bwx.bequick.START_QS",
+                    "broadcast -a"
+                ],
+                [
+                    "com.bwx.bequick.MainSettingsActivity",
+                    "button1"
+                ]
+            ]
+        },
+        "path_9": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/MainSettingsActivity;->startActivitiesSafely([Landroid/content/Intent;)Z <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onClick(Landroid/view/View;)V <",
+                "> Lcom/bwx/bequick/ShowSettingsActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.bwx.bequick.MainSettingsActivity",
+                    "button1"
+                ]
+            ]
+        },
+        "path_10": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onClick(Landroid/view/View;)V <",
+                "> Lcom/bwx/bequick/receivers/StatusBarIntegrationReceiver;->sendNotification(Landroid/content/Context;IIZ)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.bwx.bequick.START_QS",
+                    "broadcast -a"
+                ],
+                [
+                    "com.bwx.bequick.MainSettingsActivity",
+                    "button1"
+                ]
+            ]
+        },
+        "path_11": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onClick(Landroid/view/View;)V <",
+                "> Lcom/bwx/bequick/ShowSettingsActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.bwx.bequick.MainSettingsActivity",
+                    "button1"
+                ]
+            ]
+        }
+    },
+    "Lcom/bwx/bequick/handlers/ScreenTimeoutSettingHandler;->onTimeoutSelected(I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/handlers/ScreenTimeoutSettingHandler;->onItemClick(Landroid/widget/AdapterView;Landroid/view/View;IJ)V <",
+                "> Lcom/bwx/bequick/fwk/SettingsFactory;->createSettingHandler(Lcom/bwx/bequick/fwk/Setting;)Lcom/bwx/bequick/fwk/SettingHandler; <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->createInitializeActivateHandlers()V <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onResume()V <",
+                "> Lcom/bwx/bequick/receivers/StatusBarIntegrationReceiver;->sendNotification(Landroid/content/Context;IIZ)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.bwx.bequick.START_QS",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/handlers/ScreenTimeoutSettingHandler;->onItemClick(Landroid/widget/AdapterView;Landroid/view/View;IJ)V <",
+                "> Lcom/bwx/bequick/fwk/SettingsFactory;->createSettingHandler(Lcom/bwx/bequick/fwk/Setting;)Lcom/bwx/bequick/fwk/SettingHandler; <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->createInitializeActivateHandlers()V <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onResume()V <",
+                "> Lcom/bwx/bequick/ShowSettingsActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/bwx/bequick/preferences/CommonPrefs;->getString(I[Ljava/lang/Object;)Ljava/lang/String;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/preferences/CommonPrefs;->onCreateDialog(I)Landroid/app/Dialog; <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/bwx/bequick/receivers/StatusBarIntegrationReceiver;->sendNotification(Landroid/content/Context;IIZ)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.bwx.bequick.START_QS",
+                    "broadcast -a"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.bwx.bequick.MainSettingsActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/preferences/CommonPrefs;->onCreateDialog(I)Landroid/app/Dialog; <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/bwx/bequick/ShowSettingsActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.bwx.bequick.MainSettingsActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/bwx/bequick/flashlight/SwitchDetector;->inactivate(Landroid/content/Context;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/flashlight/ScreenLightActivity;->onPause()V <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onClick(Landroid/view/View;)V <",
+                "> Lcom/bwx/bequick/receivers/StatusBarIntegrationReceiver;->sendNotification(Landroid/content/Context;IIZ)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.bwx.bequick.START_QS",
+                    "broadcast -a"
+                ],
+                [
+                    "com.bwx.bequick.MainSettingsActivity",
+                    "button1"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/flashlight/ScreenLightActivity;->onPause()V <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onClick(Landroid/view/View;)V <",
+                "> Lcom/bwx/bequick/ShowSettingsActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.bwx.bequick.MainSettingsActivity",
+                    "button1"
+                ]
+            ]
+        }
+    },
+    "Lcom/bwx/bequick/handlers/ScreenTimeoutSettingHandler;->getCurrentTimeout()I": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/handlers/ScreenTimeoutSettingHandler;->onSwitched(Z)V <",
+                "> Lcom/bwx/bequick/fwk/SettingsFactory;->createSettingHandler(Lcom/bwx/bequick/fwk/Setting;)Lcom/bwx/bequick/fwk/SettingHandler; <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->createInitializeActivateHandlers()V <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onResume()V <",
+                "> Lcom/bwx/bequick/receivers/StatusBarIntegrationReceiver;->sendNotification(Landroid/content/Context;IIZ)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.bwx.bequick.START_QS",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/handlers/ScreenTimeoutSettingHandler;->onSwitched(Z)V <",
+                "> Lcom/bwx/bequick/fwk/SettingsFactory;->createSettingHandler(Lcom/bwx/bequick/fwk/Setting;)Lcom/bwx/bequick/fwk/SettingHandler; <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->createInitializeActivateHandlers()V <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onResume()V <",
+                "> Lcom/bwx/bequick/ShowSettingsActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/handlers/ScreenTimeoutSettingHandler;->activate(Lcom/bwx/bequick/MainSettingsActivity;)V <",
+                "> Lcom/bwx/bequick/fwk/SettingsFactory;->createSettingHandler(Lcom/bwx/bequick/fwk/Setting;)Lcom/bwx/bequick/fwk/SettingHandler; <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->createInitializeActivateHandlers()V <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onResume()V <",
+                "> Lcom/bwx/bequick/receivers/StatusBarIntegrationReceiver;->sendNotification(Landroid/content/Context;IIZ)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.bwx.bequick.START_QS",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/handlers/ScreenTimeoutSettingHandler;->activate(Lcom/bwx/bequick/MainSettingsActivity;)V <",
+                "> Lcom/bwx/bequick/fwk/SettingsFactory;->createSettingHandler(Lcom/bwx/bequick/fwk/Setting;)Lcom/bwx/bequick/fwk/SettingHandler; <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->createInitializeActivateHandlers()V <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onResume()V <",
+                "> Lcom/bwx/bequick/ShowSettingsActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/bwx/bequick/fwk/SettingHandler;->onValueChanged(I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/fwk/Setting;->notifySettingValueChanged(I)V <",
+                "> Lcom/bwx/bequick/renderers/MinMaxSliderSettingRenderer;->onClick(Landroid/view/View;)V <",
+                "> Lcom/bwx/bequick/fwk/Setting;->getAssignedRenderer()Lcom/bwx/bequick/fwk/SettingRenderer; <",
+                "> Lcom/bwx/bequick/ListSettingsLayout;->updateLayout(Landroid/app/Activity;)V <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onResume()V <",
+                "> Lcom/bwx/bequick/receivers/StatusBarIntegrationReceiver;->sendNotification(Landroid/content/Context;IIZ)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.bwx.bequick.START_QS",
+                    "broadcast -a"
+                ],
+                [
+                    "com.bwx.bequick.MainSettingsActivity",
+                    "max_button"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/fwk/Setting;->notifySettingValueChanged(I)V <",
+                "> Lcom/bwx/bequick/renderers/MinMaxSliderSettingRenderer;->onClick(Landroid/view/View;)V <",
+                "> Lcom/bwx/bequick/fwk/Setting;->getAssignedRenderer()Lcom/bwx/bequick/fwk/SettingRenderer; <",
+                "> Lcom/bwx/bequick/ListSettingsLayout;->updateLayout(Landroid/app/Activity;)V <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onResume()V <",
+                "> Lcom/bwx/bequick/ShowSettingsActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.bwx.bequick.MainSettingsActivity",
+                    "max_button"
+                ]
+            ]
+        }
+    },
+    "Lcom/bwx/bequick/handlers/RingerSettingHandler;->createDialog()Landroid/app/Dialog;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/handlers/RingerSettingHandler;->onSelected(I)V <",
+                "> Lcom/bwx/bequick/fwk/SettingsFactory;->createSettingHandler(Lcom/bwx/bequick/fwk/Setting;)Lcom/bwx/bequick/fwk/SettingHandler; <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->createInitializeActivateHandlers()V <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onResume()V <",
+                "> Lcom/bwx/bequick/receivers/StatusBarIntegrationReceiver;->sendNotification(Landroid/content/Context;IIZ)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.bwx.bequick.START_QS",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/handlers/RingerSettingHandler;->onSelected(I)V <",
+                "> Lcom/bwx/bequick/fwk/SettingsFactory;->createSettingHandler(Lcom/bwx/bequick/fwk/Setting;)Lcom/bwx/bequick/fwk/SettingHandler; <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->createInitializeActivateHandlers()V <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onResume()V <",
+                "> Lcom/bwx/bequick/ShowSettingsActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/bwx/bequick/LayoutSettingsActivity;->setVisible(Z)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/LayoutSettingsActivity;->onResume()V <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/bwx/bequick/receivers/StatusBarIntegrationReceiver;->sendNotification(Landroid/content/Context;IIZ)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.bwx.bequick.START_QS",
+                    "broadcast -a"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.bwx.bequick.MainSettingsActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/LayoutSettingsActivity;->onResume()V <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/bwx/bequick/ShowSettingsActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.bwx.bequick.MainSettingsActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/LayoutSettingsActivity;->onPause()V <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/bwx/bequick/receivers/StatusBarIntegrationReceiver;->sendNotification(Landroid/content/Context;IIZ)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.bwx.bequick.START_QS",
+                    "broadcast -a"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.bwx.bequick.MainSettingsActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/LayoutSettingsActivity;->onPause()V <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/bwx/bequick/ShowSettingsActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.bwx.bequick.MainSettingsActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/bwx/bequick/flashlight/ScreenLightActivity;->findViewById(I)Landroid/view/View;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/flashlight/ScreenLightActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onClick(Landroid/view/View;)V <",
+                "> Lcom/bwx/bequick/receivers/StatusBarIntegrationReceiver;->sendNotification(Landroid/content/Context;IIZ)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.bwx.bequick.START_QS",
+                    "broadcast -a"
+                ],
+                [
+                    "com.bwx.bequick.MainSettingsActivity",
+                    "button1"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/flashlight/ScreenLightActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onClick(Landroid/view/View;)V <",
+                "> Lcom/bwx/bequick/ShowSettingsActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.bwx.bequick.MainSettingsActivity",
+                    "button1"
+                ]
+            ]
+        }
+    },
+    "Lcom/bwx/bequick/MainSettingsActivity$CommonIntentReceiver;-><init>(Lcom/bwx/bequick/MainSettingsActivity;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onResume()V <",
+                "> Lcom/bwx/bequick/receivers/StatusBarIntegrationReceiver;->sendNotification(Landroid/content/Context;IIZ)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.bwx.bequick.START_QS",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onResume()V <",
+                "> Lcom/bwx/bequick/ShowSettingsActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/bwx/bequick/ShowSettingsActivity;->finish()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/ShowSettingsActivity$1;->onClick(Landroid/content/DialogInterface;I)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/ShowSettingsActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/bwx/bequick/flashlight/Flashlight;->isOn(Landroid/content/Context;)Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/flashlight/LedFlashlightReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.bwx.bequick.WARN_FLASHLIGHT",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/flashlight/LedFlashlightReceiver;->isFlashlightEnabled(Landroid/content/Context;)Z <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onClick(Landroid/view/View;)V <",
+                "> Lcom/bwx/bequick/receivers/StatusBarIntegrationReceiver;->sendNotification(Landroid/content/Context;IIZ)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.bwx.bequick.START_QS",
+                    "broadcast -a"
+                ],
+                [
+                    "com.bwx.bequick.MainSettingsActivity",
+                    "button1"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/flashlight/LedFlashlightReceiver;->isFlashlightEnabled(Landroid/content/Context;)Z <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onClick(Landroid/view/View;)V <",
+                "> Lcom/bwx/bequick/ShowSettingsActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.bwx.bequick.MainSettingsActivity",
+                    "button1"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/flashlight/LedFlashlightReceiver;->isFlashlightEnabled(Landroid/content/Context;)Z <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->updateFlashlightView()V <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->access$000(Lcom/bwx/bequick/MainSettingsActivity;)V <",
+                "> Lcom/bwx/bequick/MainSettingsActivity$CommonIntentReceiver$1;->run()V <",
+                "> Lcom/bwx/bequick/MainSettingsActivity$CommonIntentReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.bwx.bequick.FLASHLIGHT_STATE",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/flashlight/LedFlashlightReceiver;->isFlashlightEnabled(Landroid/content/Context;)Z <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.bwx.bequick.FLASHLIGHT",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/bwx/bequick/handlers/SystemPropertySettingHandler;-><init>(Lcom/bwx/bequick/fwk/Setting;Ljava/lang/String;Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/handlers/UnlockPatternSettingHandler;-><init>(Lcom/bwx/bequick/fwk/Setting;)V <",
+                "> Lcom/bwx/bequick/fwk/SettingsFactory;->createSettingHandler(Lcom/bwx/bequick/fwk/Setting;)Lcom/bwx/bequick/fwk/SettingHandler; <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->createInitializeActivateHandlers()V <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onResume()V <",
+                "> Lcom/bwx/bequick/receivers/StatusBarIntegrationReceiver;->sendNotification(Landroid/content/Context;IIZ)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.bwx.bequick.START_QS",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/handlers/UnlockPatternSettingHandler;-><init>(Lcom/bwx/bequick/fwk/Setting;)V <",
+                "> Lcom/bwx/bequick/fwk/SettingsFactory;->createSettingHandler(Lcom/bwx/bequick/fwk/Setting;)Lcom/bwx/bequick/fwk/SettingHandler; <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->createInitializeActivateHandlers()V <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onResume()V <",
+                "> Lcom/bwx/bequick/ShowSettingsActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/fwk/SettingsFactory;->createSettingHandler(Lcom/bwx/bequick/fwk/Setting;)Lcom/bwx/bequick/fwk/SettingHandler; <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->createInitializeActivateHandlers()V <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onResume()V <",
+                "> Lcom/bwx/bequick/receivers/StatusBarIntegrationReceiver;->sendNotification(Landroid/content/Context;IIZ)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.bwx.bequick.START_QS",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/fwk/SettingsFactory;->createSettingHandler(Lcom/bwx/bequick/fwk/Setting;)Lcom/bwx/bequick/fwk/SettingHandler; <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->createInitializeActivateHandlers()V <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onResume()V <",
+                "> Lcom/bwx/bequick/ShowSettingsActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/bwx/bequick/fwk/RangeSetting;->notifyButtonClicked(I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/renderers/MinMaxSliderSettingRenderer;->onClick(Landroid/view/View;)V <",
+                "> Lcom/bwx/bequick/fwk/Setting;->getAssignedRenderer()Lcom/bwx/bequick/fwk/SettingRenderer; <",
+                "> Lcom/bwx/bequick/ListSettingsLayout;->updateLayout(Landroid/app/Activity;)V <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onResume()V <",
+                "> Lcom/bwx/bequick/receivers/StatusBarIntegrationReceiver;->sendNotification(Landroid/content/Context;IIZ)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.bwx.bequick.START_QS",
+                    "broadcast -a"
+                ],
+                [
+                    "com.bwx.bequick.MainSettingsActivity",
+                    "max_button"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/renderers/MinMaxSliderSettingRenderer;->onClick(Landroid/view/View;)V <",
+                "> Lcom/bwx/bequick/fwk/Setting;->getAssignedRenderer()Lcom/bwx/bequick/fwk/SettingRenderer; <",
+                "> Lcom/bwx/bequick/ListSettingsLayout;->updateLayout(Landroid/app/Activity;)V <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onResume()V <",
+                "> Lcom/bwx/bequick/ShowSettingsActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.bwx.bequick.MainSettingsActivity",
+                    "max_button"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/renderers/MinMaxSliderSettingRenderer;->onStopTrackingTouch(Landroid/widget/SeekBar;)V <",
+                "> Lcom/bwx/bequick/fwk/Setting;->getAssignedRenderer()Lcom/bwx/bequick/fwk/SettingRenderer; <",
+                "> Lcom/bwx/bequick/ListSettingsLayout;->updateLayout(Landroid/app/Activity;)V <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onResume()V <",
+                "> Lcom/bwx/bequick/receivers/StatusBarIntegrationReceiver;->sendNotification(Landroid/content/Context;IIZ)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.bwx.bequick.START_QS",
+                    "broadcast -a"
+                ],
+                [
+                    "com.bwx.bequick.MainSettingsActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/bwx/bequick/renderers/MinMaxSliderSettingRenderer;->onStopTrackingTouch(Landroid/widget/SeekBar;)V <",
+                "> Lcom/bwx/bequick/fwk/Setting;->getAssignedRenderer()Lcom/bwx/bequick/fwk/SettingRenderer; <",
+                "> Lcom/bwx/bequick/ListSettingsLayout;->updateLayout(Landroid/app/Activity;)V <",
+                "> Lcom/bwx/bequick/MainSettingsActivity;->onResume()V <",
+                "> Lcom/bwx/bequick/ShowSettingsActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.bwx.bequick.MainSettingsActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    }
+}

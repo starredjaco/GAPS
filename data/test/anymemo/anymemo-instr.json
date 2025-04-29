@@ -1,0 +1,3154 @@
+{
+    "Lorg/liberty/android/fantastischmemo/ui/CardEditor;->setInitRadioButton()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/CardEditor;->access$1800(Lorg/liberty/android/fantastischmemo/ui/CardEditor;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/CardEditor$InitTask;->onPostExecute(Ljava/lang/Void;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/CardEditor$InitTask;->onPostExecute(Ljava/lang/Object;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/CardEditor;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/StudyActivity;->showEditDialog()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/StudyActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lorg/liberty/android/fantastischmemo/widget/AnyMemoWidgetProvider;->onUpdate(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.appwidget.action.APPWIDGET_UPDATE",
+                    "start -a"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.StudyActivity",
+                    "menu_share",
+                    "Share"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/CardEditor;->access$1800(Lorg/liberty/android/fantastischmemo/ui/CardEditor;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/CardEditor$InitTask;->onPostExecute(Ljava/lang/Void;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/CardEditor$InitTask;->onPostExecute(Ljava/lang/Object;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/CardEditor;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/PreviewEditActivity$10;->onClick(Landroid/view/View;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/PreviewEditActivity;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/ShareScreen;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.SEND",
+                    "start-activity -a"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.ShareScreen",
+                    "<unknown>"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.PreviewEditActivity",
+                    "edit_button",
+                    "Preview/edit"
+                ]
+            ]
+        }
+    },
+    "Lorg/liberty/android/fantastischmemo/ui/CardPlayerActivity;->updateCardFrontSide()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/CardPlayerActivity;->onPostInit()V <",
+                "> Lorg/liberty/android/fantastischmemo/service/CardPlayerService;->showNotification()V <",
+                "> Lorg/liberty/android/fantastischmemo/service/CardPlayerService;->startPlaying(Lorg/liberty/android/fantastischmemo/entity/Card;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/CardPlayerFragment;->startPlaying()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/CardPlayerFragment$2;-><clinit>()V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/liberty/android/fantastischmemo/ui/CardPlayerActivity;->onPostInit()V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/liberty/android/fantastischmemo/service/CardPlayerService;->showNotification()V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/liberty/android/fantastischmemo/service/CardPlayerService;->startPlaying(Lorg/liberty/android/fantastischmemo/entity/Card;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/liberty/android/fantastischmemo/ui/CardPlayerFragment;->startPlaying()V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/liberty/android/fantastischmemo/ui/CardPlayerFragment$2;-><clinit>()V <",
+                "----- CONDITIONAL -----",
+                "----- CONDITIONAL -----",
+                "> Lorg/liberty/android/fantastischmemo/ui/CardPlayerActivity;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.liberty.android.fantastischmemo.CardPlayerService.PLAYING_STOPPED",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/CardPlayerActivity;->onPostInit()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/PreviewEditActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lorg/liberty/android/fantastischmemo/ui/ShareScreen;->onClick(Landroid/view/View;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/liberty/android/fantastischmemo/ui/CardPlayerActivity;->onPostInit()V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/liberty/android/fantastischmemo/service/CardPlayerService;->showNotification()V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/liberty/android/fantastischmemo/service/CardPlayerService;->startPlaying(Lorg/liberty/android/fantastischmemo/entity/Card;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/liberty/android/fantastischmemo/ui/CardPlayerFragment;->startPlaying()V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/liberty/android/fantastischmemo/ui/CardPlayerFragment$2;-><clinit>()V <",
+                "----- CONDITIONAL -----",
+                "----- CONDITIONAL -----",
+                "> Lorg/liberty/android/fantastischmemo/ui/CardPlayerActivity;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.liberty.android.fantastischmemo.CardPlayerService.PLAYING_STOPPED",
+                    "broadcast -a"
+                ],
+                [
+                    "intent",
+                    "android.intent.action.SEND",
+                    "start-activity -a"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.ShareScreen",
+                    "<unknown>"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.PreviewEditActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/CardPlayerActivity;->gotoCard(Lorg/liberty/android/fantastischmemo/entity/Card;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/CardPlayerActivity;->gotoCardId(I)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/CardPlayerFragment$2;->onReceive(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.liberty.android.fantastischmemo.CardPlayerService.PLAYING_STOPPED",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Lorg/liberty/android/fantastischmemo/ui/CardPlayerFragment;->access$200(Lorg/liberty/android/fantastischmemo/ui/CardPlayerFragment;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/CardPlayerFragment$1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/CardPlayerFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/CardPlayerFragment$2;-><clinit>()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.liberty.android.fantastischmemo.CardPlayerService.PLAYING_STOPPED",
+                    "broadcast -a"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.CardPlayerFragment",
+                    "card_player_play_button"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/CardPlayerFragment$1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/CardPlayerFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/CardPlayerActivity;->setupControlButtons()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/CardPlayerActivity;->onPostInit()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/PreviewEditActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lorg/liberty/android/fantastischmemo/ui/ShareScreen;->onClick(Landroid/view/View;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/liberty/android/fantastischmemo/ui/CardPlayerActivity;->onPostInit()V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/liberty/android/fantastischmemo/ui/PreviewEditActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "----- CONDITIONAL -----",
+                "> Lorg/liberty/android/fantastischmemo/ui/ShareScreen;->onClick(Landroid/view/View;)V <",
+                "----- CONDITIONAL -----",
+                "----- CONDITIONAL -----",
+                "> Lorg/liberty/android/fantastischmemo/ui/CardPlayerActivity;-><init>()V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/liberty/android/fantastischmemo/service/CardPlayerService;->showNotification()V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/liberty/android/fantastischmemo/service/CardPlayerService;->startPlaying(Lorg/liberty/android/fantastischmemo/entity/Card;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/liberty/android/fantastischmemo/ui/CardPlayerFragment;->startPlaying()V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/liberty/android/fantastischmemo/ui/CardPlayerFragment$2;-><clinit>()V <",
+                "----- CONDITIONAL -----"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.liberty.android.fantastischmemo.CardPlayerService.PLAYING_STOPPED",
+                    "broadcast -a"
+                ],
+                [
+                    "intent",
+                    "android.intent.action.SEND",
+                    "start-activity -a"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.ShareScreen",
+                    "<unknown>"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.PreviewEditActivity",
+                    "<unknown>"
+                ],
+                [
+                    "intent",
+                    "android.intent.action.SEND",
+                    "start-activity -a"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.ShareScreen",
+                    "<unknown>"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.PreviewEditActivity",
+                    "<unknown>"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.CardPlayerActivity",
+                    "card_player_play_button"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/CardPlayerFragment$2;->onReceive(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.liberty.android.fantastischmemo.CardPlayerService.PLAYING_STOPPED",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Lorg/liberty/android/fantastischmemo/ui/SettingsScreen;->access$302(Lorg/liberty/android/fantastischmemo/ui/SettingsScreen;Lorg/liberty/android/fantastischmemo/dao/SettingDao;)Lorg/liberty/android/fantastischmemo/dao/SettingDao;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/SettingsScreen$6;->run()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/SettingsScreen;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/StudyActivity;->gotoSettings()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/StudyActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lorg/liberty/android/fantastischmemo/widget/AnyMemoWidgetProvider;->onUpdate(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.appwidget.action.APPWIDGET_UPDATE",
+                    "start -a"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.StudyActivity",
+                    "menu_share",
+                    "Share"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/SettingsScreen$6;->run()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/SettingsScreen;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/MiscTabFragment;->onClick(Landroid/view/View;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/AnyMemo$2;->onNavigationItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.AnyMemo",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/SettingsScreen$6;->run()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/SettingsScreen;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/PreviewEditActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lorg/liberty/android/fantastischmemo/ui/ShareScreen;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.SEND",
+                    "start-activity -a"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.ShareScreen",
+                    "<unknown>"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.PreviewEditActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lorg/liberty/android/fantastischmemo/ui/DetailScreen;->access$300(Lorg/liberty/android/fantastischmemo/ui/DetailScreen;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/DetailScreen$SaveCardTask;->doInBackground([Ljava/lang/Void;)Ljava/lang/Void; <",
+                "> Lorg/liberty/android/fantastischmemo/ui/DetailScreen$SaveCardTask;->doInBackground([Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lorg/liberty/android/fantastischmemo/ui/DetailScreen$1;->onClick(Landroid/content/DialogInterface; <",
+                "> Lorg/liberty/android/fantastischmemo/ui/DetailScreen;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lorg/liberty/android/fantastischmemo/ui/StudyActivity;->gotoDetail()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/StudyActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lorg/liberty/android/fantastischmemo/widget/AnyMemoWidgetProvider;->onUpdate(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.appwidget.action.APPWIDGET_UPDATE",
+                    "start -a"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.StudyActivity",
+                    "menu_share",
+                    "Share"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.DetailScreen",
+                    "save",
+                    "Save"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/DetailScreen$SaveCardTask;->doInBackground([Ljava/lang/Void;)Ljava/lang/Void; <",
+                "> Lorg/liberty/android/fantastischmemo/ui/DetailScreen$SaveCardTask;->doInBackground([Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lorg/liberty/android/fantastischmemo/ui/DetailScreen$1;->onClick(Landroid/content/DialogInterface; <",
+                "> Lorg/liberty/android/fantastischmemo/ui/DetailScreen;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lorg/liberty/android/fantastischmemo/ui/PreviewEditActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lorg/liberty/android/fantastischmemo/ui/ShareScreen;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.SEND",
+                    "start-activity -a"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.ShareScreen",
+                    "<unknown>"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.PreviewEditActivity",
+                    "<unknown>"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.DetailScreen",
+                    "save",
+                    "Save"
+                ]
+            ]
+        }
+    },
+    "Lorg/liberty/android/fantastischmemo/ui/CardFragment;-><init>()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/CardFragment$Builder;->build()Lorg/liberty/android/fantastischmemo/ui/CardFragment; <",
+                "> Lorg/liberty/android/fantastischmemo/ui/FlipableCardFragment$1;->getItem(I)Landroidx/fragment/app/Fragment; <",
+                "> Lorg/liberty/android/fantastischmemo/ui/FlipableCardFragment;->onCreateView(Landroid/view/LayoutInflater; <",
+                "> Lorg/liberty/android/fantastischmemo/ui/QACardActivity;->displayCard(Z)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/CardPlayerActivity;->updateCardFrontSide()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/CardPlayerActivity;->gotoCard(Lorg/liberty/android/fantastischmemo/entity/Card;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/CardPlayerActivity;->gotoCardId(I)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/CardPlayerFragment$2;->onReceive(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.liberty.android.fantastischmemo.CardPlayerService.PLAYING_STOPPED",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/CardFragment$Builder;->build()Lorg/liberty/android/fantastischmemo/ui/CardFragment; <",
+                "> Lorg/liberty/android/fantastischmemo/ui/FlipableCardFragment$1;->getItem(I)Landroidx/fragment/app/Fragment; <",
+                "> Lorg/liberty/android/fantastischmemo/ui/FlipableCardFragment;->onCreateView(Landroid/view/LayoutInflater; <",
+                "> Lorg/liberty/android/fantastischmemo/ui/QACardActivity;->displayCard(Z)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/QuizActivity;->onVolumeDownKeyPressed()Z <",
+                "> Lorg/liberty/android/fantastischmemo/ui/QuizLauncherDialogFragment$2;->onClick(Landroid/view/View;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/QuizLauncherDialogFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenActionsFragment$1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenActionsFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenTabFragment$1;->onFileBrowserFileClick(Ljava/io/File;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenTabFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/AnyMemo$2;->onNavigationItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.AnyMemo",
+                    "study",
+                    "Study"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.AnyMemo",
+                    "start_quiz_button"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/CardFragment$Builder;->build()Lorg/liberty/android/fantastischmemo/ui/CardFragment; <",
+                "> Lorg/liberty/android/fantastischmemo/ui/FlipableCardFragment$1;->getItem(I)Landroidx/fragment/app/Fragment; <",
+                "> Lorg/liberty/android/fantastischmemo/ui/FlipableCardFragment;->onCreateView(Landroid/view/LayoutInflater; <",
+                "> Lorg/liberty/android/fantastischmemo/ui/QACardActivity;->displayCard(Z)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/QuizActivity;->onVolumeUpKeyPressed()Z <",
+                "> Lorg/liberty/android/fantastischmemo/ui/QuizLauncherDialogFragment$2;->onClick(Landroid/view/View;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/QuizLauncherDialogFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenActionsFragment$1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenActionsFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenTabFragment$1;->onFileBrowserFileClick(Ljava/io/File;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenTabFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/AnyMemo$2;->onNavigationItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.AnyMemo",
+                    "study",
+                    "Study"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.AnyMemo",
+                    "start_quiz_button"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/CardFragment$Builder;->build()Lorg/liberty/android/fantastischmemo/ui/CardFragment; <",
+                "> Lorg/liberty/android/fantastischmemo/ui/FlipableCardFragment$1;->getItem(I)Landroidx/fragment/app/Fragment; <",
+                "> Lorg/liberty/android/fantastischmemo/ui/FlipableCardFragment;->onCreateView(Landroid/view/LayoutInflater; <",
+                "> Lorg/liberty/android/fantastischmemo/ui/QACardActivity;->displayCard(Z)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/StudyActivity;->onVolumeDownKeyPressed()Z <",
+                "> Lorg/liberty/android/fantastischmemo/widget/AnyMemoWidgetProvider;->onUpdate(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.appwidget.action.APPWIDGET_UPDATE",
+                    "start -a"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/CardFragment$Builder;->build()Lorg/liberty/android/fantastischmemo/ui/CardFragment; <",
+                "> Lorg/liberty/android/fantastischmemo/ui/FlipableCardFragment$1;->getItem(I)Landroidx/fragment/app/Fragment; <",
+                "> Lorg/liberty/android/fantastischmemo/ui/FlipableCardFragment;->onCreateView(Landroid/view/LayoutInflater; <",
+                "> Lorg/liberty/android/fantastischmemo/ui/QACardActivity;->displayCard(Z)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/StudyActivity;->onVolumeUpKeyPressed()Z <",
+                "> Lorg/liberty/android/fantastischmemo/widget/AnyMemoWidgetProvider;->onUpdate(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.appwidget.action.APPWIDGET_UPDATE",
+                    "start -a"
+                ]
+            ]
+        },
+        "path_5": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/CardFragment$Builder;->build()Lorg/liberty/android/fantastischmemo/ui/CardFragment; <",
+                "> Lorg/liberty/android/fantastischmemo/ui/FlipableCardFragment$1;->getItem(I)Landroidx/fragment/app/Fragment; <",
+                "> Lorg/liberty/android/fantastischmemo/ui/FlipableCardFragment;->onCreateView(Landroid/view/LayoutInflater; <",
+                "> Lorg/liberty/android/fantastischmemo/ui/QACardActivity;->displayCard(Z)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/PreviewEditActivity;->updateCardFrontSide()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/PreviewEditActivity;->onPostInit()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/ShareScreen;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.SEND",
+                    "start-activity -a"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.ShareScreen",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lorg/liberty/android/fantastischmemo/ui/QuizLauncherDialogFragment;->showCategoriesDialog()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/QuizLauncherDialogFragment;->access$1400(Lorg/liberty/android/fantastischmemo/ui/QuizLauncherDialogFragment;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/QuizLauncherDialogFragment$3;->onClick(Landroid/view/View;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/QuizLauncherDialogFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenActionsFragment$1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenActionsFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenTabFragment$1;->onFileBrowserFileClick(Ljava/io/File;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenTabFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/AnyMemo$2;->onNavigationItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.AnyMemo",
+                    "study",
+                    "Study"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.AnyMemo",
+                    "category_button"
+                ]
+            ]
+        }
+    },
+    "Lorg/liberty/android/fantastischmemo/ui/GradeButtonsFragment;->setGradeButtonTitle()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/GradeButtonsFragment;->access$400(Lorg/liberty/android/fantastischmemo/ui/GradeButtonsFragment;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/GradeButtonsFragment$6;->run()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/GradeButtonsFragment;->setVisibility(I)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/QuizActivity;->onPostDisplayCard()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/QuizLauncherDialogFragment$2;->onClick(Landroid/view/View;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/QuizLauncherDialogFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenActionsFragment$1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenActionsFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenTabFragment$1;->onFileBrowserFileClick(Ljava/io/File;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenTabFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/AnyMemo$2;->onNavigationItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.AnyMemo",
+                    "study",
+                    "Study"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.AnyMemo",
+                    "start_quiz_button"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/GradeButtonsFragment;->access$400(Lorg/liberty/android/fantastischmemo/ui/GradeButtonsFragment;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/GradeButtonsFragment$6;->run()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/GradeButtonsFragment;->setVisibility(I)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/StudyActivity;->onPostDisplayCard()V <",
+                "> Lorg/liberty/android/fantastischmemo/widget/AnyMemoWidgetProvider;->onUpdate(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.appwidget.action.APPWIDGET_UPDATE",
+                    "start -a"
+                ]
+            ]
+        }
+    },
+    "Lorg/liberty/android/fantastischmemo/ui/CategoryEditorFragment$NewCategoryTask;-><init>(Lorg/liberty/android/fantastischmemo/ui/CategoryEditorFragment;Lorg/liberty/android/fantastischmemo/ui/CategoryEditorFragment$1;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/CategoryEditorFragment$1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/CategoryEditorFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/QuizLauncherDialogFragment;->showCategoriesDialog()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/QuizLauncherDialogFragment$10;-><clinit>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/QuizLauncherDialogFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenActionsFragment$1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenActionsFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenTabFragment$1;->onFileBrowserFileClick(Ljava/io/File;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenTabFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/AnyMemo$2;->onNavigationItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.AnyMemo",
+                    "study",
+                    "Study"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.AnyMemo",
+                    "button_ok"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/CategoryEditorFragment$1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/CategoryEditorFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/StudyActivity;->showCategoriesDialog()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/StudyActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lorg/liberty/android/fantastischmemo/widget/AnyMemoWidgetProvider;->onUpdate(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.appwidget.action.APPWIDGET_UPDATE",
+                    "start -a"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.StudyActivity",
+                    "menu_share",
+                    "Share"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.StudyActivity",
+                    "button_ok"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/CategoryEditorFragment$1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/CategoryEditorFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/PreviewEditActivity;->showCategoriesDialog()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/PreviewEditActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lorg/liberty/android/fantastischmemo/ui/ShareScreen;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.SEND",
+                    "start-activity -a"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.ShareScreen",
+                    "<unknown>"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.PreviewEditActivity",
+                    "<unknown>"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.PreviewEditActivity",
+                    "button_ok"
+                ]
+            ]
+        }
+    },
+    "Lorg/liberty/android/fantastischmemo/ui/SettingsScreen;->access$2000(Lorg/liberty/android/fantastischmemo/ui/SettingsScreen;)Ljava/util/List;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/SettingsScreen$6;->run()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/SettingsScreen;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/StudyActivity;->gotoSettings()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/StudyActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lorg/liberty/android/fantastischmemo/widget/AnyMemoWidgetProvider;->onUpdate(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.appwidget.action.APPWIDGET_UPDATE",
+                    "start -a"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.StudyActivity",
+                    "menu_share",
+                    "Share"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/SettingsScreen$6;->run()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/SettingsScreen;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/MiscTabFragment;->onClick(Landroid/view/View;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/AnyMemo$2;->onNavigationItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.AnyMemo",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/SettingsScreen$6;->run()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/SettingsScreen;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/PreviewEditActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lorg/liberty/android/fantastischmemo/ui/ShareScreen;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.SEND",
+                    "start-activity -a"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.ShareScreen",
+                    "<unknown>"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.PreviewEditActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/SettingsScreen$9;->onClick(Landroid/content/DialogInterface; <",
+                "> Lorg/liberty/android/fantastischmemo/ui/SettingsScreen;->showColorPickerDialog()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/SettingsScreen;->access$3700(Lorg/liberty/android/fantastischmemo/ui/SettingsScreen;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/SettingsScreen$10;->onClick(Landroid/view/View;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/SettingsScreen;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/StudyActivity;->gotoSettings()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/StudyActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lorg/liberty/android/fantastischmemo/widget/AnyMemoWidgetProvider;->onUpdate(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.appwidget.action.APPWIDGET_UPDATE",
+                    "start -a"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.StudyActivity",
+                    "menu_share",
+                    "Share"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.SettingsScreen",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/SettingsScreen$9;->onClick(Landroid/content/DialogInterface; <",
+                "> Lorg/liberty/android/fantastischmemo/ui/SettingsScreen;->showColorPickerDialog()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/SettingsScreen;->access$3700(Lorg/liberty/android/fantastischmemo/ui/SettingsScreen;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/SettingsScreen$10;->onClick(Landroid/view/View;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/SettingsScreen;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/MiscTabFragment;->onClick(Landroid/view/View;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/AnyMemo$2;->onNavigationItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.AnyMemo",
+                    "<unknown>"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.SettingsScreen",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_5": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/SettingsScreen$9;->onClick(Landroid/content/DialogInterface; <",
+                "> Lorg/liberty/android/fantastischmemo/ui/SettingsScreen;->showColorPickerDialog()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/SettingsScreen;->access$3700(Lorg/liberty/android/fantastischmemo/ui/SettingsScreen;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/SettingsScreen$10;->onClick(Landroid/view/View;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/SettingsScreen;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/PreviewEditActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lorg/liberty/android/fantastischmemo/ui/ShareScreen;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.SEND",
+                    "start-activity -a"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.ShareScreen",
+                    "<unknown>"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.PreviewEditActivity",
+                    "<unknown>"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.SettingsScreen",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_6": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/SettingsScreen$SaveButtonTask;->onPreExecute()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/SettingsScreen;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lorg/liberty/android/fantastischmemo/ui/StudyActivity;->gotoSettings()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/StudyActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lorg/liberty/android/fantastischmemo/widget/AnyMemoWidgetProvider;->onUpdate(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.appwidget.action.APPWIDGET_UPDATE",
+                    "start -a"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.StudyActivity",
+                    "menu_share",
+                    "Share"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.SettingsScreen",
+                    "save",
+                    "Save"
+                ]
+            ]
+        },
+        "path_7": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/SettingsScreen$SaveButtonTask;->onPreExecute()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/SettingsScreen;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lorg/liberty/android/fantastischmemo/ui/MiscTabFragment;->onClick(Landroid/view/View;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/AnyMemo$2;->onNavigationItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.AnyMemo",
+                    "<unknown>"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.SettingsScreen",
+                    "save",
+                    "Save"
+                ]
+            ]
+        },
+        "path_8": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/SettingsScreen$SaveButtonTask;->onPreExecute()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/SettingsScreen;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lorg/liberty/android/fantastischmemo/ui/PreviewEditActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lorg/liberty/android/fantastischmemo/ui/ShareScreen;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.SEND",
+                    "start-activity -a"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.ShareScreen",
+                    "<unknown>"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.PreviewEditActivity",
+                    "<unknown>"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.SettingsScreen",
+                    "save",
+                    "Save"
+                ]
+            ]
+        },
+        "path_9": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/SettingsScreen$8;->onItemSelected(Landroid/widget/AdapterView; <",
+                "> Lorg/liberty/android/fantastischmemo/ui/SettingsScreen;->setSpinnerListeners()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/SettingsScreen;->access$3300(Lorg/liberty/android/fantastischmemo/ui/SettingsScreen;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/SettingsScreen$6;->run()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/SettingsScreen;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/StudyActivity;->gotoSettings()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/StudyActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lorg/liberty/android/fantastischmemo/widget/AnyMemoWidgetProvider;->onUpdate(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.appwidget.action.APPWIDGET_UPDATE",
+                    "start -a"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.StudyActivity",
+                    "menu_share",
+                    "Share"
+                ]
+            ]
+        },
+        "path_10": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/SettingsScreen$8;->onItemSelected(Landroid/widget/AdapterView; <",
+                "> Lorg/liberty/android/fantastischmemo/ui/SettingsScreen;->setSpinnerListeners()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/SettingsScreen;->access$3300(Lorg/liberty/android/fantastischmemo/ui/SettingsScreen;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/SettingsScreen$6;->run()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/SettingsScreen;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/MiscTabFragment;->onClick(Landroid/view/View;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/AnyMemo$2;->onNavigationItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.AnyMemo",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_11": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/SettingsScreen$8;->onItemSelected(Landroid/widget/AdapterView; <",
+                "> Lorg/liberty/android/fantastischmemo/ui/SettingsScreen;->setSpinnerListeners()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/SettingsScreen;->access$3300(Lorg/liberty/android/fantastischmemo/ui/SettingsScreen;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/SettingsScreen$6;->run()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/SettingsScreen;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/PreviewEditActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lorg/liberty/android/fantastischmemo/ui/ShareScreen;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.SEND",
+                    "start-activity -a"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.ShareScreen",
+                    "<unknown>"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.PreviewEditActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lorg/liberty/android/fantastischmemo/ui/DetailScreen;->access$1200(Lorg/liberty/android/fantastischmemo/ui/DetailScreen;)Landroid/widget/EditText;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/DetailScreen$InitTask;->onPostExecute(Ljava/lang/Void;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/DetailScreen$InitTask;->onPostExecute(Ljava/lang/Object;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/DetailScreen;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/StudyActivity;->gotoDetail()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/StudyActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lorg/liberty/android/fantastischmemo/widget/AnyMemoWidgetProvider;->onUpdate(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.appwidget.action.APPWIDGET_UPDATE",
+                    "start -a"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.StudyActivity",
+                    "menu_share",
+                    "Share"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/DetailScreen$InitTask;->onPostExecute(Ljava/lang/Void;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/DetailScreen$InitTask;->onPostExecute(Ljava/lang/Object;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/DetailScreen;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/PreviewEditActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lorg/liberty/android/fantastischmemo/ui/ShareScreen;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.SEND",
+                    "start-activity -a"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.ShareScreen",
+                    "<unknown>"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.PreviewEditActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lorg/liberty/android/fantastischmemo/ui/AudioRecorderFragment;->access$100(Lorg/liberty/android/fantastischmemo/ui/AudioRecorderFragment;)Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/AudioRecorderFragment$1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/AudioRecorderFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/CardEditor;->startAudioRecorder()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/CardEditor;->onRequestPermissionsResult(I <",
+                "> Lorg/liberty/android/fantastischmemo/ui/StudyActivity;->showEditDialog()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/StudyActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lorg/liberty/android/fantastischmemo/widget/AnyMemoWidgetProvider;->onUpdate(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.appwidget.action.APPWIDGET_UPDATE",
+                    "start -a"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.StudyActivity",
+                    "menu_share",
+                    "Share"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.CardEditor",
+                    "save_button"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/AudioRecorderFragment$1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/AudioRecorderFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/CardEditor;->startAudioRecorder()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/CardEditor;->onRequestPermissionsResult(I <",
+                "> Lorg/liberty/android/fantastischmemo/ui/PreviewEditActivity$10;->onClick(Landroid/view/View;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/PreviewEditActivity;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/ShareScreen;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.SEND",
+                    "start-activity -a"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.ShareScreen",
+                    "<unknown>"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.PreviewEditActivity",
+                    "edit_button",
+                    "Preview/edit"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.CardEditor",
+                    "save_button"
+                ]
+            ]
+        }
+    },
+    "Lorg/liberty/android/fantastischmemo/ui/GradeButtonsFragment;->access$000(Lorg/liberty/android/fantastischmemo/ui/GradeButtonsFragment;)Lorg/liberty/android/fantastischmemo/ui/QACardActivity;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/GradeButtonsFragment$GradeTask;->doInBackground([Ljava/lang/Integer;)Ljava/lang/Void; <",
+                "> Lorg/liberty/android/fantastischmemo/ui/GradeButtonsFragment$GradeTask;->doInBackground([Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lorg/liberty/android/fantastischmemo/ui/GradeButtonsFragment$5;->onGradeButtonClick(I)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/GradeButtonsFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/QuizActivity;->setupGradeButtons()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/QuizActivity;->onPostInit()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/QuizLauncherDialogFragment$2;->onClick(Landroid/view/View;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/QuizLauncherDialogFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenActionsFragment$1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenActionsFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenTabFragment$1;->onFileBrowserFileClick(Ljava/io/File;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenTabFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/AnyMemo$2;->onNavigationItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.AnyMemo",
+                    "study",
+                    "Study"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.AnyMemo",
+                    "start_quiz_button"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/GradeButtonsFragment$GradeTask;->doInBackground([Ljava/lang/Integer;)Ljava/lang/Void; <",
+                "> Lorg/liberty/android/fantastischmemo/ui/GradeButtonsFragment$GradeTask;->doInBackground([Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lorg/liberty/android/fantastischmemo/ui/GradeButtonsFragment$5;->onGradeButtonClick(I)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/GradeButtonsFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/StudyActivity;->setupGradeButtons()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/StudyActivity;->onPostInit()V <",
+                "> Lorg/liberty/android/fantastischmemo/widget/AnyMemoWidgetProvider;->onUpdate(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.appwidget.action.APPWIDGET_UPDATE",
+                    "start -a"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/GradeButtonsFragment$1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/GradeButtonsFragment;->onCreateView(Landroid/view/LayoutInflater; <",
+                "> Lorg/liberty/android/fantastischmemo/ui/GradeButtonsFragment$GradeTask;-><clinit>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/GradeButtonsFragment$5;->onGradeButtonClick(I)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/GradeButtonsFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/QuizActivity;->setupGradeButtons()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/QuizActivity;->onPostInit()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/QuizLauncherDialogFragment$2;->onClick(Landroid/view/View;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/QuizLauncherDialogFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenActionsFragment$1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenActionsFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenTabFragment$1;->onFileBrowserFileClick(Ljava/io/File;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenTabFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/AnyMemo$2;->onNavigationItemSelected(Landroid/view/MenuItem;)Z <",
+                "----- CONDITIONAL -----",
+                "> Lorg/liberty/android/fantastischmemo/ui/GradeButtonsFragment;->onCreateView(Landroid/view/LayoutInflater; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/liberty/android/fantastischmemo/ui/GradeButtonsFragment$GradeTask;-><clinit>()V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/liberty/android/fantastischmemo/ui/GradeButtonsFragment$5;->onGradeButtonClick(I)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/liberty/android/fantastischmemo/ui/GradeButtonsFragment;-><init>()V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/liberty/android/fantastischmemo/ui/QuizActivity;->setupGradeButtons()V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/liberty/android/fantastischmemo/ui/QuizActivity;->onPostInit()V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/liberty/android/fantastischmemo/ui/QuizLauncherDialogFragment$2;->onClick(Landroid/view/View;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/liberty/android/fantastischmemo/ui/QuizLauncherDialogFragment;-><init>()V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenActionsFragment$1;->onClick(Landroid/view/View;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenActionsFragment;-><init>()V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenTabFragment$1;->onFileBrowserFileClick(Ljava/io/File;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenTabFragment;-><init>()V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/liberty/android/fantastischmemo/ui/AnyMemo$2;->onNavigationItemSelected(Landroid/view/MenuItem;)Z <",
+                "----- CONDITIONAL -----"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.AnyMemo",
+                    "study",
+                    "Study"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.AnyMemo",
+                    "start_quiz_button"
+                ],
+                [
+                    "main activity"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.AnyMemo",
+                    "study",
+                    "Study"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.AnyMemo",
+                    "start_quiz_button"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.QuizActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/GradeButtonsFragment$1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/GradeButtonsFragment;->onCreateView(Landroid/view/LayoutInflater; <",
+                "> Lorg/liberty/android/fantastischmemo/ui/GradeButtonsFragment$GradeTask;-><clinit>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/GradeButtonsFragment$5;->onGradeButtonClick(I)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/GradeButtonsFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/StudyActivity;->setupGradeButtons()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/StudyActivity;->onPostInit()V <",
+                "> Lorg/liberty/android/fantastischmemo/widget/AnyMemoWidgetProvider;->onUpdate(Landroid/content/Context; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/liberty/android/fantastischmemo/ui/GradeButtonsFragment;->onCreateView(Landroid/view/LayoutInflater; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/liberty/android/fantastischmemo/ui/GradeButtonsFragment$GradeTask;-><clinit>()V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/liberty/android/fantastischmemo/ui/GradeButtonsFragment$5;->onGradeButtonClick(I)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/liberty/android/fantastischmemo/ui/GradeButtonsFragment;-><init>()V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/liberty/android/fantastischmemo/ui/QuizActivity;->setupGradeButtons()V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/liberty/android/fantastischmemo/ui/QuizActivity;->onPostInit()V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/liberty/android/fantastischmemo/ui/QuizLauncherDialogFragment$2;->onClick(Landroid/view/View;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/liberty/android/fantastischmemo/ui/QuizLauncherDialogFragment;-><init>()V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenActionsFragment$1;->onClick(Landroid/view/View;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenActionsFragment;-><init>()V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenTabFragment$1;->onFileBrowserFileClick(Ljava/io/File;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenTabFragment;-><init>()V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/liberty/android/fantastischmemo/ui/AnyMemo$2;->onNavigationItemSelected(Landroid/view/MenuItem;)Z <",
+                "----- CONDITIONAL -----"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.AnyMemo",
+                    "study",
+                    "Study"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.AnyMemo",
+                    "start_quiz_button"
+                ],
+                [
+                    "intent",
+                    "android.appwidget.action.APPWIDGET_UPDATE",
+                    "start -a"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.StudyActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/GradeButtonsFragment$GradeTask;->onPostExecute(Ljava/lang/Void;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/GradeButtonsFragment$GradeTask;->onPostExecute(Ljava/lang/Object;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/GradeButtonsFragment$5;->onGradeButtonClick(I)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/GradeButtonsFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/QuizActivity;->setupGradeButtons()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/QuizActivity;->onPostInit()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/QuizLauncherDialogFragment$2;->onClick(Landroid/view/View;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/QuizLauncherDialogFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenActionsFragment$1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenActionsFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenTabFragment$1;->onFileBrowserFileClick(Ljava/io/File;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenTabFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/AnyMemo$2;->onNavigationItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.AnyMemo",
+                    "study",
+                    "Study"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.AnyMemo",
+                    "start_quiz_button"
+                ]
+            ]
+        },
+        "path_5": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/GradeButtonsFragment$GradeTask;->onPostExecute(Ljava/lang/Void;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/GradeButtonsFragment$GradeTask;->onPostExecute(Ljava/lang/Object;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/GradeButtonsFragment$5;->onGradeButtonClick(I)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/GradeButtonsFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/StudyActivity;->setupGradeButtons()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/StudyActivity;->onPostInit()V <",
+                "> Lorg/liberty/android/fantastischmemo/widget/AnyMemoWidgetProvider;->onUpdate(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.appwidget.action.APPWIDGET_UPDATE",
+                    "start -a"
+                ]
+            ]
+        },
+        "path_6": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/GradeButtonsFragment$GradeTask;->onPreExecute()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/GradeButtonsFragment$5;->onGradeButtonClick(I)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/GradeButtonsFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/QuizActivity;->setupGradeButtons()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/QuizActivity;->onPostInit()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/QuizLauncherDialogFragment$2;->onClick(Landroid/view/View;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/QuizLauncherDialogFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenActionsFragment$1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenActionsFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenTabFragment$1;->onFileBrowserFileClick(Ljava/io/File;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenTabFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/AnyMemo$2;->onNavigationItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.AnyMemo",
+                    "study",
+                    "Study"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.AnyMemo",
+                    "start_quiz_button"
+                ]
+            ]
+        },
+        "path_7": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/GradeButtonsFragment$GradeTask;->onPreExecute()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/GradeButtonsFragment$5;->onGradeButtonClick(I)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/GradeButtonsFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/StudyActivity;->setupGradeButtons()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/StudyActivity;->onPostInit()V <",
+                "> Lorg/liberty/android/fantastischmemo/widget/AnyMemoWidgetProvider;->onUpdate(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.appwidget.action.APPWIDGET_UPDATE",
+                    "start -a"
+                ]
+            ]
+        },
+        "path_8": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/GradeButtonsFragment$2;->onTouch(Landroid/view/View; <",
+                "> Lorg/liberty/android/fantastischmemo/ui/GradeButtonsFragment;->onCreateView(Landroid/view/LayoutInflater; <",
+                "> Lorg/liberty/android/fantastischmemo/ui/GradeButtonsFragment$GradeTask;-><clinit>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/GradeButtonsFragment$5;->onGradeButtonClick(I)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/GradeButtonsFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/QuizActivity;->setupGradeButtons()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/QuizActivity;->onPostInit()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/QuizLauncherDialogFragment$2;->onClick(Landroid/view/View;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/QuizLauncherDialogFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenActionsFragment$1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenActionsFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenTabFragment$1;->onFileBrowserFileClick(Ljava/io/File;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenTabFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/AnyMemo$2;->onNavigationItemSelected(Landroid/view/MenuItem;)Z <",
+                "----- CONDITIONAL -----",
+                "> Lorg/liberty/android/fantastischmemo/ui/GradeButtonsFragment;->onCreateView(Landroid/view/LayoutInflater; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/liberty/android/fantastischmemo/ui/GradeButtonsFragment$GradeTask;-><clinit>()V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/liberty/android/fantastischmemo/ui/GradeButtonsFragment$5;->onGradeButtonClick(I)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/liberty/android/fantastischmemo/ui/GradeButtonsFragment;-><init>()V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/liberty/android/fantastischmemo/ui/QuizActivity;->setupGradeButtons()V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/liberty/android/fantastischmemo/ui/QuizActivity;->onPostInit()V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/liberty/android/fantastischmemo/ui/QuizLauncherDialogFragment$2;->onClick(Landroid/view/View;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/liberty/android/fantastischmemo/ui/QuizLauncherDialogFragment;-><init>()V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenActionsFragment$1;->onClick(Landroid/view/View;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenActionsFragment;-><init>()V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenTabFragment$1;->onFileBrowserFileClick(Ljava/io/File;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenTabFragment;-><init>()V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/liberty/android/fantastischmemo/ui/AnyMemo$2;->onNavigationItemSelected(Landroid/view/MenuItem;)Z <",
+                "----- CONDITIONAL -----"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.AnyMemo",
+                    "study",
+                    "Study"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.AnyMemo",
+                    "start_quiz_button"
+                ],
+                [
+                    "main activity"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.AnyMemo",
+                    "study",
+                    "Study"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.AnyMemo",
+                    "start_quiz_button"
+                ]
+            ]
+        },
+        "path_9": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/GradeButtonsFragment$2;->onTouch(Landroid/view/View; <",
+                "> Lorg/liberty/android/fantastischmemo/ui/GradeButtonsFragment;->onCreateView(Landroid/view/LayoutInflater; <",
+                "> Lorg/liberty/android/fantastischmemo/ui/GradeButtonsFragment$GradeTask;-><clinit>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/GradeButtonsFragment$5;->onGradeButtonClick(I)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/GradeButtonsFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/StudyActivity;->setupGradeButtons()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/StudyActivity;->onPostInit()V <",
+                "> Lorg/liberty/android/fantastischmemo/widget/AnyMemoWidgetProvider;->onUpdate(Landroid/content/Context; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/liberty/android/fantastischmemo/ui/GradeButtonsFragment;->onCreateView(Landroid/view/LayoutInflater; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/liberty/android/fantastischmemo/ui/GradeButtonsFragment$GradeTask;-><clinit>()V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/liberty/android/fantastischmemo/ui/GradeButtonsFragment$5;->onGradeButtonClick(I)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/liberty/android/fantastischmemo/ui/GradeButtonsFragment;-><init>()V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/liberty/android/fantastischmemo/ui/QuizActivity;->setupGradeButtons()V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/liberty/android/fantastischmemo/ui/QuizActivity;->onPostInit()V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/liberty/android/fantastischmemo/ui/QuizLauncherDialogFragment$2;->onClick(Landroid/view/View;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/liberty/android/fantastischmemo/ui/QuizLauncherDialogFragment;-><init>()V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenActionsFragment$1;->onClick(Landroid/view/View;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenActionsFragment;-><init>()V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenTabFragment$1;->onFileBrowserFileClick(Ljava/io/File;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenTabFragment;-><init>()V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/liberty/android/fantastischmemo/ui/AnyMemo$2;->onNavigationItemSelected(Landroid/view/MenuItem;)Z <",
+                "----- CONDITIONAL -----"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.AnyMemo",
+                    "study",
+                    "Study"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.AnyMemo",
+                    "start_quiz_button"
+                ],
+                [
+                    "intent",
+                    "android.appwidget.action.APPWIDGET_UPDATE",
+                    "start -a"
+                ]
+            ]
+        }
+    },
+    "Lorg/liberty/android/fantastischmemo/ui/QACardActivity;->onPostInit()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/StudyActivity;->onPostInit()V <",
+                "> Lorg/liberty/android/fantastischmemo/widget/AnyMemoWidgetProvider;->onUpdate(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.appwidget.action.APPWIDGET_UPDATE",
+                    "start -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/QuizActivity;->onPostInit()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/QuizLauncherDialogFragment$2;->onClick(Landroid/view/View;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/QuizLauncherDialogFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenActionsFragment$1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenActionsFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenTabFragment$1;->onFileBrowserFileClick(Ljava/io/File;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenTabFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/AnyMemo$2;->onNavigationItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.AnyMemo",
+                    "study",
+                    "Study"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.AnyMemo",
+                    "start_quiz_button"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/PreviewEditActivity;->onPostInit()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/ShareScreen;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.SEND",
+                    "start-activity -a"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.ShareScreen",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/CardPlayerActivity;->onPostInit()V <",
+                "> Lorg/liberty/android/fantastischmemo/service/CardPlayerService;->showNotification()V <",
+                "> Lorg/liberty/android/fantastischmemo/service/CardPlayerService;->startPlaying(Lorg/liberty/android/fantastischmemo/entity/Card;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/CardPlayerFragment;->startPlaying()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/CardPlayerFragment$2;-><clinit>()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.liberty.android.fantastischmemo.CardPlayerService.PLAYING_STOPPED",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/CardPlayerActivity;->onPostInit()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/PreviewEditActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lorg/liberty/android/fantastischmemo/ui/ShareScreen;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.SEND",
+                    "start-activity -a"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.ShareScreen",
+                    "<unknown>"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.PreviewEditActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_5": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/QACardActivity$2;->run()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/QACardActivity;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/CardPlayerActivity;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/service/CardPlayerService;->showNotification()V <",
+                "> Lorg/liberty/android/fantastischmemo/service/CardPlayerService;->startPlaying(Lorg/liberty/android/fantastischmemo/entity/Card;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/CardPlayerFragment;->startPlaying()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/CardPlayerFragment$2;-><clinit>()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.liberty.android.fantastischmemo.CardPlayerService.PLAYING_STOPPED",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_6": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/QACardActivity$2;->run()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/QACardActivity;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/QuizActivity;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/QuizLauncherDialogFragment$2;->onClick(Landroid/view/View;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/QuizLauncherDialogFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenActionsFragment$1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenActionsFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenTabFragment$1;->onFileBrowserFileClick(Ljava/io/File;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenTabFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/AnyMemo$2;->onNavigationItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.AnyMemo",
+                    "study",
+                    "Study"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.AnyMemo",
+                    "start_quiz_button"
+                ]
+            ]
+        },
+        "path_7": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/QACardActivity$2;->run()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/QACardActivity;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/StudyActivity;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/widget/AnyMemoWidgetProvider;->onUpdate(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.appwidget.action.APPWIDGET_UPDATE",
+                    "start -a"
+                ]
+            ]
+        },
+        "path_8": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/QACardActivity$2;->run()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/QACardActivity;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/PreviewEditActivity;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/ShareScreen;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.SEND",
+                    "start-activity -a"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.ShareScreen",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lorg/liberty/android/fantastischmemo/ui/AnyMemo;->handleOpenIntent()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/AnyMemo;->loadUiComponents()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/AnyMemo;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/liberty/android/fantastischmemo/ui/CardPlayerActivity$2;-><init>(Lorg/liberty/android/fantastischmemo/ui/CardPlayerActivity;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/CardPlayerActivity;->showNoItemDialog()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/CardPlayerActivity;->onPostInit()V <",
+                "> Lorg/liberty/android/fantastischmemo/service/CardPlayerService;->showNotification()V <",
+                "> Lorg/liberty/android/fantastischmemo/service/CardPlayerService;->startPlaying(Lorg/liberty/android/fantastischmemo/entity/Card;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/CardPlayerFragment;->startPlaying()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/CardPlayerFragment$2;-><clinit>()V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/liberty/android/fantastischmemo/ui/CardPlayerActivity;->onPostInit()V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/liberty/android/fantastischmemo/ui/PreviewEditActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "----- CONDITIONAL -----",
+                "> Lorg/liberty/android/fantastischmemo/ui/ShareScreen;->onClick(Landroid/view/View;)V <",
+                "----- CONDITIONAL -----",
+                "----- CONDITIONAL -----",
+                "> Lorg/liberty/android/fantastischmemo/ui/CardPlayerActivity;-><init>()V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/liberty/android/fantastischmemo/service/CardPlayerService;->showNotification()V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/liberty/android/fantastischmemo/service/CardPlayerService;->startPlaying(Lorg/liberty/android/fantastischmemo/entity/Card;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/liberty/android/fantastischmemo/ui/CardPlayerFragment;->startPlaying()V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/liberty/android/fantastischmemo/ui/CardPlayerFragment$2;-><clinit>()V <",
+                "----- CONDITIONAL -----"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.liberty.android.fantastischmemo.CardPlayerService.PLAYING_STOPPED",
+                    "broadcast -a"
+                ],
+                [
+                    "intent",
+                    "android.intent.action.SEND",
+                    "start-activity -a"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.ShareScreen",
+                    "<unknown>"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.PreviewEditActivity",
+                    "<unknown>"
+                ],
+                [
+                    "intent",
+                    "org.liberty.android.fantastischmemo.CardPlayerService.PLAYING_STOPPED",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/CardPlayerActivity;->showNoItemDialog()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/CardPlayerActivity;->onPostInit()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/PreviewEditActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lorg/liberty/android/fantastischmemo/ui/ShareScreen;->onClick(Landroid/view/View;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/liberty/android/fantastischmemo/ui/CardPlayerActivity;->onPostInit()V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/liberty/android/fantastischmemo/ui/PreviewEditActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "----- CONDITIONAL -----",
+                "> Lorg/liberty/android/fantastischmemo/ui/ShareScreen;->onClick(Landroid/view/View;)V <",
+                "----- CONDITIONAL -----",
+                "----- CONDITIONAL -----",
+                "> Lorg/liberty/android/fantastischmemo/ui/CardPlayerActivity;-><init>()V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/liberty/android/fantastischmemo/service/CardPlayerService;->showNotification()V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/liberty/android/fantastischmemo/service/CardPlayerService;->startPlaying(Lorg/liberty/android/fantastischmemo/entity/Card;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/liberty/android/fantastischmemo/ui/CardPlayerFragment;->startPlaying()V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/liberty/android/fantastischmemo/ui/CardPlayerFragment$2;-><clinit>()V <",
+                "----- CONDITIONAL -----"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.liberty.android.fantastischmemo.CardPlayerService.PLAYING_STOPPED",
+                    "broadcast -a"
+                ],
+                [
+                    "intent",
+                    "android.intent.action.SEND",
+                    "start-activity -a"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.ShareScreen",
+                    "<unknown>"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.PreviewEditActivity",
+                    "<unknown>"
+                ],
+                [
+                    "intent",
+                    "android.intent.action.SEND",
+                    "start-activity -a"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.ShareScreen",
+                    "<unknown>"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.PreviewEditActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lorg/liberty/android/fantastischmemo/ui/StatisticsScreen;->access$1100()Lcom/github/mikephil/charting/formatter/ValueFormatter;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/StatisticsScreen$GradeStatisticsTask;->doInBackground([Ljava/lang/Void;)Lcom/github/mikephil/charting/data/PieData; <",
+                "> Lorg/liberty/android/fantastischmemo/ui/StatisticsScreen$GradeStatisticsTask;->doInBackground([Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lorg/liberty/android/fantastischmemo/ui/StatisticsScreen$1;->onNavigationItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lorg/liberty/android/fantastischmemo/ui/StatisticsScreen;->initDrawer()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/StatisticsScreen;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenActionsFragment$1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenActionsFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenTabFragment$1;->onFileBrowserFileClick(Ljava/io/File;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenTabFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/AnyMemo$2;->onNavigationItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.AnyMemo",
+                    "study",
+                    "Study"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/StatisticsScreen$CardToReviewTask;->doInBackground([Ljava/lang/Void;)Lcom/github/mikephil/charting/data/BarData; <",
+                "> Lorg/liberty/android/fantastischmemo/ui/StatisticsScreen$CardToReviewTask;->doInBackground([Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lorg/liberty/android/fantastischmemo/ui/StatisticsScreen;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenActionsFragment$1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenActionsFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenTabFragment$1;->onFileBrowserFileClick(Ljava/io/File;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenTabFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/AnyMemo$2;->onNavigationItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.AnyMemo",
+                    "study",
+                    "Study"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/StatisticsScreen$NewCardTask;->doInBackground([Ljava/lang/Void;)Lcom/github/mikephil/charting/data/BarData; <",
+                "> Lorg/liberty/android/fantastischmemo/ui/StatisticsScreen$NewCardTask;->doInBackground([Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lorg/liberty/android/fantastischmemo/ui/StatisticsScreen$1;->onNavigationItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lorg/liberty/android/fantastischmemo/ui/StatisticsScreen;->initDrawer()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/StatisticsScreen;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenActionsFragment$1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenActionsFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenTabFragment$1;->onFileBrowserFileClick(Ljava/io/File;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenTabFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/AnyMemo$2;->onNavigationItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.AnyMemo",
+                    "study",
+                    "Study"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/StatisticsScreen$AccumulativeCardsToReviewTask;->doInBackground([Ljava/lang/Void;)Lcom/github/mikephil/charting/data/BarData; <",
+                "> Lorg/liberty/android/fantastischmemo/ui/StatisticsScreen$AccumulativeCardsToReviewTask;->doInBackground([Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lorg/liberty/android/fantastischmemo/ui/StatisticsScreen$1;->onNavigationItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lorg/liberty/android/fantastischmemo/ui/StatisticsScreen;->initDrawer()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/StatisticsScreen;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenActionsFragment$1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenActionsFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenTabFragment$1;->onFileBrowserFileClick(Ljava/io/File;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenTabFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/AnyMemo$2;->onNavigationItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.AnyMemo",
+                    "study",
+                    "Study"
+                ]
+            ]
+        }
+    },
+    "Lorg/liberty/android/fantastischmemo/ui/CategoryEditorFragment$CategoryEditorResultListener;->onReceiveCategory(Lorg/liberty/android/fantastischmemo/entity/Category;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/CategoryEditorFragment$1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/CategoryEditorFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/QuizLauncherDialogFragment;->showCategoriesDialog()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/QuizLauncherDialogFragment$10;-><clinit>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/QuizLauncherDialogFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenActionsFragment$1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenActionsFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenTabFragment$1;->onFileBrowserFileClick(Ljava/io/File;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenTabFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/AnyMemo$2;->onNavigationItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.AnyMemo",
+                    "study",
+                    "Study"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.AnyMemo",
+                    "button_ok"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/CategoryEditorFragment$1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/CategoryEditorFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/StudyActivity;->showCategoriesDialog()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/StudyActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lorg/liberty/android/fantastischmemo/widget/AnyMemoWidgetProvider;->onUpdate(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.appwidget.action.APPWIDGET_UPDATE",
+                    "start -a"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.StudyActivity",
+                    "menu_share",
+                    "Share"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.StudyActivity",
+                    "button_ok"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/CategoryEditorFragment$1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/CategoryEditorFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/PreviewEditActivity;->showCategoriesDialog()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/PreviewEditActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lorg/liberty/android/fantastischmemo/ui/ShareScreen;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.SEND",
+                    "start-activity -a"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.ShareScreen",
+                    "<unknown>"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.PreviewEditActivity",
+                    "<unknown>"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.PreviewEditActivity",
+                    "button_ok"
+                ]
+            ]
+        }
+    },
+    "Lorg/liberty/android/fantastischmemo/ui/QuizLauncherDialogFragment;->access$200(Lorg/liberty/android/fantastischmemo/ui/QuizLauncherDialogFragment;)Landroid/widget/RadioButton;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/QuizLauncherDialogFragment$2;->onClick(Landroid/view/View;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/QuizLauncherDialogFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenActionsFragment$1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenActionsFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenTabFragment$1;->onFileBrowserFileClick(Ljava/io/File;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenTabFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/AnyMemo$2;->onNavigationItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.AnyMemo",
+                    "study",
+                    "Study"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.AnyMemo",
+                    "start_quiz_button"
+                ]
+            ]
+        }
+    },
+    "Lorg/liberty/android/fantastischmemo/ui/DetailScreen;->access$400(Lorg/liberty/android/fantastischmemo/ui/DetailScreen;)Ljava/lang/String;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/DetailScreen$InitTask;->doInBackground([Ljava/lang/Void;)Ljava/lang/Void; <",
+                "> Lorg/liberty/android/fantastischmemo/ui/DetailScreen$InitTask;->doInBackground([Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lorg/liberty/android/fantastischmemo/ui/DetailScreen;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/StudyActivity;->gotoDetail()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/StudyActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lorg/liberty/android/fantastischmemo/widget/AnyMemoWidgetProvider;->onUpdate(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.appwidget.action.APPWIDGET_UPDATE",
+                    "start -a"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.StudyActivity",
+                    "menu_share",
+                    "Share"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/DetailScreen$InitTask;->doInBackground([Ljava/lang/Void;)Ljava/lang/Void; <",
+                "> Lorg/liberty/android/fantastischmemo/ui/DetailScreen$InitTask;->doInBackground([Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lorg/liberty/android/fantastischmemo/ui/DetailScreen;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/PreviewEditActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lorg/liberty/android/fantastischmemo/ui/ShareScreen;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.SEND",
+                    "start-activity -a"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.ShareScreen",
+                    "<unknown>"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.PreviewEditActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lorg/liberty/android/fantastischmemo/ui/QACardActivity;->access$600()Ljava/lang/String;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/QACardActivity$3;->onLongClick(Landroid/view/View;)Z <",
+                "> Lorg/liberty/android/fantastischmemo/ui/QACardActivity;->generateImageOnLongClickListener(Ljava/lang/String; <",
+                "> Lorg/liberty/android/fantastischmemo/ui/CardPlayerActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/liberty/android/fantastischmemo/service/CardPlayerService;->showNotification()V <",
+                "> Lorg/liberty/android/fantastischmemo/service/CardPlayerService;->startPlaying(Lorg/liberty/android/fantastischmemo/entity/Card;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/CardPlayerFragment;->startPlaying()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/CardPlayerFragment$2;-><clinit>()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.liberty.android.fantastischmemo.CardPlayerService.PLAYING_STOPPED",
+                    "broadcast -a"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.QACardActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/QACardActivity$3;->onLongClick(Landroid/view/View;)Z <",
+                "> Lorg/liberty/android/fantastischmemo/ui/QACardActivity;->generateImageOnLongClickListener(Ljava/lang/String; <",
+                "> Lorg/liberty/android/fantastischmemo/ui/QuizActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/QuizLauncherDialogFragment$2;->onClick(Landroid/view/View;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/QuizLauncherDialogFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenActionsFragment$1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenActionsFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenTabFragment$1;->onFileBrowserFileClick(Ljava/io/File;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenTabFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/AnyMemo$2;->onNavigationItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.AnyMemo",
+                    "study",
+                    "Study"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.AnyMemo",
+                    "start_quiz_button"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.QACardActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/QACardActivity$3;->onLongClick(Landroid/view/View;)Z <",
+                "> Lorg/liberty/android/fantastischmemo/ui/QACardActivity;->generateImageOnLongClickListener(Ljava/lang/String; <",
+                "> Lorg/liberty/android/fantastischmemo/ui/StudyActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/liberty/android/fantastischmemo/widget/AnyMemoWidgetProvider;->onUpdate(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.appwidget.action.APPWIDGET_UPDATE",
+                    "start -a"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.QACardActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/QACardActivity$3;->onLongClick(Landroid/view/View;)Z <",
+                "> Lorg/liberty/android/fantastischmemo/ui/QACardActivity;->generateImageOnLongClickListener(Ljava/lang/String; <",
+                "> Lorg/liberty/android/fantastischmemo/ui/PreviewEditActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/ShareScreen;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.SEND",
+                    "start-activity -a"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.ShareScreen",
+                    "<unknown>"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.QACardActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lorg/liberty/android/fantastischmemo/ui/CardEditor;->startAudioRecorder()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/CardEditor;->onRequestPermissionsResult(I <",
+                "> Lorg/liberty/android/fantastischmemo/ui/StudyActivity;->showEditDialog()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/StudyActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lorg/liberty/android/fantastischmemo/widget/AnyMemoWidgetProvider;->onUpdate(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.appwidget.action.APPWIDGET_UPDATE",
+                    "start -a"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.StudyActivity",
+                    "menu_share",
+                    "Share"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/CardEditor;->onRequestPermissionsResult(I <",
+                "> Lorg/liberty/android/fantastischmemo/ui/PreviewEditActivity$10;->onClick(Landroid/view/View;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/PreviewEditActivity;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/ShareScreen;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.SEND",
+                    "start-activity -a"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.ShareScreen",
+                    "<unknown>"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.PreviewEditActivity",
+                    "edit_button",
+                    "Preview/edit"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/CardEditor;->startAudioRecorderWithPermissionCheck()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/CardEditor;->addNewAudio()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/CardEditor;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lorg/liberty/android/fantastischmemo/ui/StudyActivity;->showEditDialog()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/StudyActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lorg/liberty/android/fantastischmemo/widget/AnyMemoWidgetProvider;->onUpdate(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.appwidget.action.APPWIDGET_UPDATE",
+                    "start -a"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.StudyActivity",
+                    "menu_share",
+                    "Share"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.CardEditor",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/CardEditor;->startAudioRecorderWithPermissionCheck()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/CardEditor;->addNewAudio()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/CardEditor;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lorg/liberty/android/fantastischmemo/ui/PreviewEditActivity$10;->onClick(Landroid/view/View;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/PreviewEditActivity;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/ShareScreen;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.SEND",
+                    "start-activity -a"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.ShareScreen",
+                    "<unknown>"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.PreviewEditActivity",
+                    "edit_button",
+                    "Preview/edit"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.CardEditor",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lorg/liberty/android/fantastischmemo/ui/QACardActivity;->onVolumeDownKeyPressed()Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/QACardActivity;->onKeyUp(I <",
+                "> Lorg/liberty/android/fantastischmemo/ui/CardPlayerActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/liberty/android/fantastischmemo/service/CardPlayerService;->showNotification()V <",
+                "> Lorg/liberty/android/fantastischmemo/service/CardPlayerService;->startPlaying(Lorg/liberty/android/fantastischmemo/entity/Card;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/CardPlayerFragment;->startPlaying()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/CardPlayerFragment$2;-><clinit>()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.liberty.android.fantastischmemo.CardPlayerService.PLAYING_STOPPED",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/QACardActivity;->onKeyUp(I <",
+                "> Lorg/liberty/android/fantastischmemo/ui/QuizActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/QuizLauncherDialogFragment$2;->onClick(Landroid/view/View;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/QuizLauncherDialogFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenActionsFragment$1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenActionsFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenTabFragment$1;->onFileBrowserFileClick(Ljava/io/File;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenTabFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/AnyMemo$2;->onNavigationItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.AnyMemo",
+                    "study",
+                    "Study"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.AnyMemo",
+                    "start_quiz_button"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/QACardActivity;->onKeyUp(I <",
+                "> Lorg/liberty/android/fantastischmemo/ui/StudyActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/liberty/android/fantastischmemo/widget/AnyMemoWidgetProvider;->onUpdate(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.appwidget.action.APPWIDGET_UPDATE",
+                    "start -a"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/QACardActivity;->onKeyUp(I <",
+                "> Lorg/liberty/android/fantastischmemo/ui/PreviewEditActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/ShareScreen;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.SEND",
+                    "start-activity -a"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.ShareScreen",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lorg/liberty/android/fantastischmemo/ui/CardFragment;->access$102(Lorg/liberty/android/fantastischmemo/ui/CardFragment;Ljava/lang/String;)Ljava/lang/String;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/CardFragment$Builder;->build()Lorg/liberty/android/fantastischmemo/ui/CardFragment; <",
+                "> Lorg/liberty/android/fantastischmemo/ui/FlipableCardFragment$1;->getItem(I)Landroidx/fragment/app/Fragment; <",
+                "> Lorg/liberty/android/fantastischmemo/ui/FlipableCardFragment;->onCreateView(Landroid/view/LayoutInflater; <",
+                "> Lorg/liberty/android/fantastischmemo/ui/QACardActivity;->displayCard(Z)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/CardPlayerActivity;->updateCardFrontSide()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/CardPlayerActivity;->gotoCard(Lorg/liberty/android/fantastischmemo/entity/Card;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/CardPlayerActivity;->gotoCardId(I)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/CardPlayerFragment$2;->onReceive(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.liberty.android.fantastischmemo.CardPlayerService.PLAYING_STOPPED",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/CardFragment$Builder;->build()Lorg/liberty/android/fantastischmemo/ui/CardFragment; <",
+                "> Lorg/liberty/android/fantastischmemo/ui/FlipableCardFragment$1;->getItem(I)Landroidx/fragment/app/Fragment; <",
+                "> Lorg/liberty/android/fantastischmemo/ui/FlipableCardFragment;->onCreateView(Landroid/view/LayoutInflater; <",
+                "> Lorg/liberty/android/fantastischmemo/ui/QACardActivity;->displayCard(Z)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/QuizActivity;->onVolumeDownKeyPressed()Z <",
+                "> Lorg/liberty/android/fantastischmemo/ui/QuizLauncherDialogFragment$2;->onClick(Landroid/view/View;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/QuizLauncherDialogFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenActionsFragment$1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenActionsFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenTabFragment$1;->onFileBrowserFileClick(Ljava/io/File;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenTabFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/AnyMemo$2;->onNavigationItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.AnyMemo",
+                    "study",
+                    "Study"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.AnyMemo",
+                    "start_quiz_button"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/CardFragment$Builder;->build()Lorg/liberty/android/fantastischmemo/ui/CardFragment; <",
+                "> Lorg/liberty/android/fantastischmemo/ui/FlipableCardFragment$1;->getItem(I)Landroidx/fragment/app/Fragment; <",
+                "> Lorg/liberty/android/fantastischmemo/ui/FlipableCardFragment;->onCreateView(Landroid/view/LayoutInflater; <",
+                "> Lorg/liberty/android/fantastischmemo/ui/QACardActivity;->displayCard(Z)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/QuizActivity;->onVolumeUpKeyPressed()Z <",
+                "> Lorg/liberty/android/fantastischmemo/ui/QuizLauncherDialogFragment$2;->onClick(Landroid/view/View;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/QuizLauncherDialogFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenActionsFragment$1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenActionsFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenTabFragment$1;->onFileBrowserFileClick(Ljava/io/File;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenTabFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/AnyMemo$2;->onNavigationItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.AnyMemo",
+                    "study",
+                    "Study"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.AnyMemo",
+                    "start_quiz_button"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/CardFragment$Builder;->build()Lorg/liberty/android/fantastischmemo/ui/CardFragment; <",
+                "> Lorg/liberty/android/fantastischmemo/ui/FlipableCardFragment$1;->getItem(I)Landroidx/fragment/app/Fragment; <",
+                "> Lorg/liberty/android/fantastischmemo/ui/FlipableCardFragment;->onCreateView(Landroid/view/LayoutInflater; <",
+                "> Lorg/liberty/android/fantastischmemo/ui/QACardActivity;->displayCard(Z)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/StudyActivity;->onVolumeDownKeyPressed()Z <",
+                "> Lorg/liberty/android/fantastischmemo/widget/AnyMemoWidgetProvider;->onUpdate(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.appwidget.action.APPWIDGET_UPDATE",
+                    "start -a"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/CardFragment$Builder;->build()Lorg/liberty/android/fantastischmemo/ui/CardFragment; <",
+                "> Lorg/liberty/android/fantastischmemo/ui/FlipableCardFragment$1;->getItem(I)Landroidx/fragment/app/Fragment; <",
+                "> Lorg/liberty/android/fantastischmemo/ui/FlipableCardFragment;->onCreateView(Landroid/view/LayoutInflater; <",
+                "> Lorg/liberty/android/fantastischmemo/ui/QACardActivity;->displayCard(Z)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/StudyActivity;->onVolumeUpKeyPressed()Z <",
+                "> Lorg/liberty/android/fantastischmemo/widget/AnyMemoWidgetProvider;->onUpdate(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.appwidget.action.APPWIDGET_UPDATE",
+                    "start -a"
+                ]
+            ]
+        },
+        "path_5": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/CardFragment$Builder;->build()Lorg/liberty/android/fantastischmemo/ui/CardFragment; <",
+                "> Lorg/liberty/android/fantastischmemo/ui/FlipableCardFragment$1;->getItem(I)Landroidx/fragment/app/Fragment; <",
+                "> Lorg/liberty/android/fantastischmemo/ui/FlipableCardFragment;->onCreateView(Landroid/view/LayoutInflater; <",
+                "> Lorg/liberty/android/fantastischmemo/ui/QACardActivity;->displayCard(Z)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/PreviewEditActivity;->updateCardFrontSide()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/PreviewEditActivity;->onPostInit()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/ShareScreen;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.SEND",
+                    "start-activity -a"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.ShareScreen",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lorg/liberty/android/fantastischmemo/ui/QuizLauncherDialogFragment$7;-><init>(Lorg/liberty/android/fantastischmemo/ui/QuizLauncherDialogFragment;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/QuizLauncherDialogFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenActionsFragment$1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenActionsFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenTabFragment$1;->onFileBrowserFileClick(Ljava/io/File;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenTabFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/AnyMemo$2;->onNavigationItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.AnyMemo",
+                    "study",
+                    "Study"
+                ]
+            ]
+        }
+    },
+    "Lorg/liberty/android/fantastischmemo/ui/CategoryEditorFragment;->access$1202(Lorg/liberty/android/fantastischmemo/ui/CategoryEditorFragment;Lorg/liberty/android/fantastischmemo/dao/CategoryDao;)Lorg/liberty/android/fantastischmemo/dao/CategoryDao;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/CategoryEditorFragment$InitTask;->doInBackground([Ljava/lang/Void;)Lorg/liberty/android/fantastischmemo/entity/Category; <",
+                "> Lorg/liberty/android/fantastischmemo/ui/CategoryEditorFragment$InitTask;->doInBackground([Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lorg/liberty/android/fantastischmemo/ui/CategoryEditorFragment;->onCreateView(Landroid/view/LayoutInflater; <",
+                "> Lorg/liberty/android/fantastischmemo/ui/CategoryEditorFragment$2;-><clinit>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/CategoryEditorFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/QuizLauncherDialogFragment;->showCategoriesDialog()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/QuizLauncherDialogFragment$10;-><clinit>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/QuizLauncherDialogFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenActionsFragment$1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenActionsFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenTabFragment$1;->onFileBrowserFileClick(Ljava/io/File;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenTabFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/AnyMemo$2;->onNavigationItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.AnyMemo",
+                    "study",
+                    "Study"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/CategoryEditorFragment$InitTask;->doInBackground([Ljava/lang/Void;)Lorg/liberty/android/fantastischmemo/entity/Category; <",
+                "> Lorg/liberty/android/fantastischmemo/ui/CategoryEditorFragment$InitTask;->doInBackground([Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lorg/liberty/android/fantastischmemo/ui/CategoryEditorFragment;->onCreateView(Landroid/view/LayoutInflater; <",
+                "> Lorg/liberty/android/fantastischmemo/ui/CategoryEditorFragment$2;-><clinit>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/CategoryEditorFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/StudyActivity;->showCategoriesDialog()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/StudyActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lorg/liberty/android/fantastischmemo/widget/AnyMemoWidgetProvider;->onUpdate(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.appwidget.action.APPWIDGET_UPDATE",
+                    "start -a"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.StudyActivity",
+                    "menu_share",
+                    "Share"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/CategoryEditorFragment$InitTask;->doInBackground([Ljava/lang/Void;)Lorg/liberty/android/fantastischmemo/entity/Category; <",
+                "> Lorg/liberty/android/fantastischmemo/ui/CategoryEditorFragment$InitTask;->doInBackground([Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lorg/liberty/android/fantastischmemo/ui/CategoryEditorFragment;->onCreateView(Landroid/view/LayoutInflater; <",
+                "> Lorg/liberty/android/fantastischmemo/ui/CategoryEditorFragment$2;-><clinit>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/CategoryEditorFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/PreviewEditActivity;->showCategoriesDialog()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/PreviewEditActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lorg/liberty/android/fantastischmemo/ui/ShareScreen;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.SEND",
+                    "start-activity -a"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.ShareScreen",
+                    "<unknown>"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.PreviewEditActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lorg/liberty/android/fantastischmemo/ui/CardEditor;->access$1100(Lorg/liberty/android/fantastischmemo/ui/CardEditor;)Lorg/liberty/android/fantastischmemo/common/AnyMemoDBOpenHelper;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/CardEditor$InitTask;->doInBackground([Ljava/lang/Void;)Ljava/lang/Void; <",
+                "> Lorg/liberty/android/fantastischmemo/ui/CardEditor$InitTask;->doInBackground([Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lorg/liberty/android/fantastischmemo/ui/CardEditor;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/StudyActivity;->showEditDialog()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/StudyActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lorg/liberty/android/fantastischmemo/widget/AnyMemoWidgetProvider;->onUpdate(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.appwidget.action.APPWIDGET_UPDATE",
+                    "start -a"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.StudyActivity",
+                    "menu_share",
+                    "Share"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/CardEditor$InitTask;->doInBackground([Ljava/lang/Void;)Ljava/lang/Void; <",
+                "> Lorg/liberty/android/fantastischmemo/ui/CardEditor$InitTask;->doInBackground([Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lorg/liberty/android/fantastischmemo/ui/CardEditor;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/PreviewEditActivity$10;->onClick(Landroid/view/View;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/PreviewEditActivity;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/ShareScreen;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.SEND",
+                    "start-activity -a"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.ShareScreen",
+                    "<unknown>"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.PreviewEditActivity",
+                    "edit_button",
+                    "Preview/edit"
+                ]
+            ]
+        }
+    },
+    "Lorg/liberty/android/fantastischmemo/ui/SettingsScreen;->access$1802(Lorg/liberty/android/fantastischmemo/ui/SettingsScreen;Lorg/liberty/android/fantastischmemo/ui/widgets/AMSpinner;)Lorg/liberty/android/fantastischmemo/ui/widgets/AMSpinner;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/SettingsScreen$6;->run()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/SettingsScreen;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/StudyActivity;->gotoSettings()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/StudyActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lorg/liberty/android/fantastischmemo/widget/AnyMemoWidgetProvider;->onUpdate(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.appwidget.action.APPWIDGET_UPDATE",
+                    "start -a"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.StudyActivity",
+                    "menu_share",
+                    "Share"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/SettingsScreen$6;->run()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/SettingsScreen;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/MiscTabFragment;->onClick(Landroid/view/View;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/AnyMemo$2;->onNavigationItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.AnyMemo",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/SettingsScreen$6;->run()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/SettingsScreen;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/PreviewEditActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lorg/liberty/android/fantastischmemo/ui/ShareScreen;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.SEND",
+                    "start-activity -a"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.ShareScreen",
+                    "<unknown>"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.PreviewEditActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lorg/liberty/android/fantastischmemo/ui/StudyActivity;->access$302(Lorg/liberty/android/fantastischmemo/ui/StudyActivity;Lorg/liberty/android/fantastischmemo/queue/QueueManager;)Lorg/liberty/android/fantastischmemo/queue/QueueManager;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/StudyActivity$LearnQueueManagerLoaderCallbacks;->onLoadFinished(Landroidx/loader/content/Loader; <",
+                "> Lorg/liberty/android/fantastischmemo/ui/StudyActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/liberty/android/fantastischmemo/widget/AnyMemoWidgetProvider;->onUpdate(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.appwidget.action.APPWIDGET_UPDATE",
+                    "start -a"
+                ]
+            ]
+        }
+    },
+    "Lorg/liberty/android/fantastischmemo/ui/QuizActivity$QuizQueueManagerLoader;->dbLoadInBackground()Lorg/liberty/android/fantastischmemo/queue/QueueManager;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/QuizActivity$QuizQueueManagerLoader;->dbLoadInBackground()Ljava/lang/Object; <",
+                "> Lorg/liberty/android/fantastischmemo/ui/QuizActivity$QuizQueueManagerLoaderCallbacks;->onCreateLoader(I <",
+                "> Lorg/liberty/android/fantastischmemo/ui/QuizActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/QuizLauncherDialogFragment$2;->onClick(Landroid/view/View;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/QuizLauncherDialogFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenActionsFragment$1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenActionsFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenTabFragment$1;->onFileBrowserFileClick(Ljava/io/File;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenTabFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/AnyMemo$2;->onNavigationItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.AnyMemo",
+                    "study",
+                    "Study"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.AnyMemo",
+                    "start_quiz_button"
+                ]
+            ]
+        }
+    },
+    "Lorg/liberty/android/fantastischmemo/ui/StatisticsScreen$GradeStatisticsTask;->doInBackground([Ljava/lang/Void;)Lcom/github/mikephil/charting/data/PieData;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/StatisticsScreen$GradeStatisticsTask;->doInBackground([Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lorg/liberty/android/fantastischmemo/ui/StatisticsScreen$1;->onNavigationItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lorg/liberty/android/fantastischmemo/ui/StatisticsScreen;->initDrawer()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/StatisticsScreen;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenActionsFragment$1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenActionsFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenTabFragment$1;->onFileBrowserFileClick(Ljava/io/File;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenTabFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/AnyMemo$2;->onNavigationItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.AnyMemo",
+                    "study",
+                    "Study"
+                ]
+            ]
+        }
+    },
+    "Lorg/liberty/android/fantastischmemo/ui/QuizLauncherDialogFragment;->access$2200(Lorg/liberty/android/fantastischmemo/ui/QuizLauncherDialogFragment;)Landroid/widget/TextView;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/QuizLauncherDialogFragment$6;->afterTextChanged(Landroid/text/Editable;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/QuizLauncherDialogFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenActionsFragment$1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenActionsFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenTabFragment$1;->onFileBrowserFileClick(Ljava/io/File;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenTabFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/AnyMemo$2;->onNavigationItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.AnyMemo",
+                    "study",
+                    "Study"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/QuizLauncherDialogFragment$InitTask;->onPostExecute(Ljava/lang/Void;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/QuizLauncherDialogFragment$InitTask;->onPostExecute(Ljava/lang/Object;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/QuizLauncherDialogFragment;->onStart()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/QuizLauncherDialogFragment$10;-><clinit>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/QuizLauncherDialogFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenActionsFragment$1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenActionsFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenTabFragment$1;->onFileBrowserFileClick(Ljava/io/File;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenTabFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/AnyMemo$2;->onNavigationItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.AnyMemo",
+                    "study",
+                    "Study"
+                ]
+            ]
+        }
+    },
+    "Lorg/liberty/android/fantastischmemo/ui/GradeButtonsFragment$GradeTask;-><init>(Lorg/liberty/android/fantastischmemo/ui/GradeButtonsFragment;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/GradeButtonsFragment$GradeTask;-><init>(Lorg/liberty/android/fantastischmemo/ui/GradeButtonsFragment; <",
+                "> Lorg/liberty/android/fantastischmemo/ui/GradeButtonsFragment$5;->onGradeButtonClick(I)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/GradeButtonsFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/QuizActivity;->setupGradeButtons()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/QuizActivity;->onPostInit()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/QuizLauncherDialogFragment$2;->onClick(Landroid/view/View;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/QuizLauncherDialogFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenActionsFragment$1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenActionsFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenTabFragment$1;->onFileBrowserFileClick(Ljava/io/File;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenTabFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/AnyMemo$2;->onNavigationItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.AnyMemo",
+                    "study",
+                    "Study"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.AnyMemo",
+                    "start_quiz_button"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/GradeButtonsFragment$GradeTask;-><init>(Lorg/liberty/android/fantastischmemo/ui/GradeButtonsFragment; <",
+                "> Lorg/liberty/android/fantastischmemo/ui/GradeButtonsFragment$5;->onGradeButtonClick(I)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/GradeButtonsFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/StudyActivity;->setupGradeButtons()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/StudyActivity;->onPostInit()V <",
+                "> Lorg/liberty/android/fantastischmemo/widget/AnyMemoWidgetProvider;->onUpdate(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.appwidget.action.APPWIDGET_UPDATE",
+                    "start -a"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/GradeButtonsFragment$5;->onGradeButtonClick(I)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/GradeButtonsFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/QuizActivity;->setupGradeButtons()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/QuizActivity;->onPostInit()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/QuizLauncherDialogFragment$2;->onClick(Landroid/view/View;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/QuizLauncherDialogFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenActionsFragment$1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenActionsFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenTabFragment$1;->onFileBrowserFileClick(Ljava/io/File;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenTabFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/AnyMemo$2;->onNavigationItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.AnyMemo",
+                    "study",
+                    "Study"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.AnyMemo",
+                    "start_quiz_button"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/GradeButtonsFragment$5;->onGradeButtonClick(I)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/GradeButtonsFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/StudyActivity;->setupGradeButtons()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/StudyActivity;->onPostInit()V <",
+                "> Lorg/liberty/android/fantastischmemo/widget/AnyMemoWidgetProvider;->onUpdate(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.appwidget.action.APPWIDGET_UPDATE",
+                    "start -a"
+                ]
+            ]
+        }
+    },
+    "Lorg/liberty/android/fantastischmemo/ui/CardPlayerSettingDialogFragment;->access$100(Lorg/liberty/android/fantastischmemo/ui/CardPlayerSettingDialogFragment;)Landroid/widget/TextView;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/CardPlayerSettingDialogFragment$2;->onProgressChanged(Landroid/widget/SeekBar; <",
+                "> Lorg/liberty/android/fantastischmemo/ui/CardPlayerSettingDialogFragment;->onCreateView(Landroid/view/LayoutInflater; <",
+                "> Lorg/liberty/android/fantastischmemo/ui/CardPlayerFragment;->displaySettingsDialog()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/CardPlayerFragment$2;-><clinit>()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.liberty.android.fantastischmemo.CardPlayerService.PLAYING_STOPPED",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Lorg/liberty/android/fantastischmemo/ui/StatisticsScreen$CardToReviewTask;-><init>(Lorg/liberty/android/fantastischmemo/ui/StatisticsScreen;Lorg/liberty/android/fantastischmemo/ui/StatisticsScreen$1;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/StatisticsScreen$CardToReviewTask;-><init>(Lorg/liberty/android/fantastischmemo/ui/StatisticsScreen; <",
+                "> Lorg/liberty/android/fantastischmemo/ui/StatisticsScreen;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenActionsFragment$1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenActionsFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenTabFragment$1;->onFileBrowserFileClick(Ljava/io/File;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenTabFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/AnyMemo$2;->onNavigationItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.AnyMemo",
+                    "study",
+                    "Study"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/StatisticsScreen$1;->onNavigationItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lorg/liberty/android/fantastischmemo/ui/StatisticsScreen;->initDrawer()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/StatisticsScreen;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenActionsFragment$1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenActionsFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenTabFragment$1;->onFileBrowserFileClick(Ljava/io/File;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenTabFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/AnyMemo$2;->onNavigationItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.AnyMemo",
+                    "study",
+                    "Study"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/StatisticsScreen;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenActionsFragment$1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenActionsFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenTabFragment$1;->onFileBrowserFileClick(Ljava/io/File;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenTabFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/AnyMemo$2;->onNavigationItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.AnyMemo",
+                    "study",
+                    "Study"
+                ]
+            ]
+        }
+    },
+    "Lorg/liberty/android/fantastischmemo/ui/QACardActivity;->loadGestures()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/QACardActivity;->startInit()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/CardPlayerActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/liberty/android/fantastischmemo/service/CardPlayerService;->showNotification()V <",
+                "> Lorg/liberty/android/fantastischmemo/service/CardPlayerService;->startPlaying(Lorg/liberty/android/fantastischmemo/entity/Card;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/CardPlayerFragment;->startPlaying()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/CardPlayerFragment$2;-><clinit>()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.liberty.android.fantastischmemo.CardPlayerService.PLAYING_STOPPED",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/QACardActivity;->startInit()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/QuizActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/QuizLauncherDialogFragment$2;->onClick(Landroid/view/View;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/QuizLauncherDialogFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenActionsFragment$1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenActionsFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenTabFragment$1;->onFileBrowserFileClick(Ljava/io/File;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/OpenTabFragment;-><init>()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/AnyMemo$2;->onNavigationItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.AnyMemo",
+                    "study",
+                    "Study"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.AnyMemo",
+                    "start_quiz_button"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/QACardActivity;->startInit()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/StudyActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/liberty/android/fantastischmemo/widget/AnyMemoWidgetProvider;->onUpdate(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.appwidget.action.APPWIDGET_UPDATE",
+                    "start -a"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lorg/liberty/android/fantastischmemo/ui/QACardActivity;->startInit()V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/PreviewEditActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/liberty/android/fantastischmemo/ui/ShareScreen;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.SEND",
+                    "start-activity -a"
+                ],
+                [
+                    "org.liberty.android.fantastischmemo.ui.ShareScreen",
+                    "<unknown>"
+                ]
+            ]
+        }
+    }
+}

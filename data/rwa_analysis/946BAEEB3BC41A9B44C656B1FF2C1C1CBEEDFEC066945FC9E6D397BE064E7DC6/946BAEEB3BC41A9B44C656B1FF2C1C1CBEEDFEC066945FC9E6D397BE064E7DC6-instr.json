@@ -1,0 +1,171 @@
+{
+    "Lcom/affirm/central/CentralApplication;->x()Lw5/g;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/affirm/central/CentralApplication;->R(Landroid/content/Context;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/affirm/central/CentralApplication;->A()LE5/i;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/affirm/central/CentralApplication;->L(JJJJ)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/affirm/central/CentralApplication;->w(Lcom/affirm/central/CentralApplication;)Ljn/b;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/affirm/central/CentralApplication;->n(Lcom/affirm/central/CentralApplication;)Ljn/b; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/affirm/central/CentralApplication;->Q()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/affirm/central/CentralApplication;->L(JJJJ)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/affirm/central/CentralApplication;->K(Lcom/affirm/central/CentralApplication;)LOd/f;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/affirm/central/CentralApplication;->m(Lcom/affirm/central/CentralApplication;)LOd/f; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/affirm/central/CentralApplication;->O()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/affirm/central/CentralApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/affirm/central/CentralApplication;->p(Lcom/affirm/central/CentralApplication;)Lw5/g;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/affirm/central/CentralApplication;->g(Lcom/affirm/central/CentralApplication;)Lw5/g; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/affirm/central/CentralApplication;->S(Lcom/affirm/central/CentralApplication;)LKd/u;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/affirm/central/CentralApplication;->e(Lcom/affirm/central/CentralApplication;)LKd/u; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/affirm/central/a;->logout()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/affirm/central/CentralApplication;->I(Lxd/c;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/affirm/central/a;->i0()Lcom/affirm/central/b;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/affirm/central/a;->logout()V <",
+                "> Lcom/affirm/central/CentralApplication;->I(Lxd/c;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/affirm/central/CentralApplication;->P()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/affirm/central/CentralApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/affirm/central/CentralApplication;->M(Lcom/affirm/central/CentralApplication;)LF5/I;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/affirm/central/CentralApplication;->j(Lcom/affirm/central/CentralApplication;)LF5/I; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/affirm/central/CentralApplication;->t(Lcom/affirm/central/CentralApplication;)Ls3/f;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/affirm/central/CentralApplication;->k(Lcom/affirm/central/CentralApplication;)Ls3/f; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/affirm/central/CentralApplication;->u()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/affirm/central/CentralApplication;->P()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    }
+}

@@ -1,0 +1,548 @@
+{
+    "Lcom/willianveiga/countdowntimer/MainActivity;->timeFinished()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/willianveiga/countdowntimer/MainActivity;->onFinish()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/willianveiga/countdowntimer/Utils/TimeUtils;->millisecondsToHours(J)J": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/willianveiga/countdowntimer/MainActivity;->updateTimeFields(J)V <",
+                "> Lcom/willianveiga/countdowntimer/MainActivity;->onTick(J)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/willianveiga/countdowntimer/Time/CountdownTimer;->setOnTickListener(Lcom/willianveiga/countdowntimer/Time/OnTickListener;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/willianveiga/countdowntimer/MainActivity;->setUpCountdownTimer()V <",
+                "> Lcom/willianveiga/countdowntimer/MainActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/willianveiga/countdowntimer/Time/CountdownTimer;->start(J)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/willianveiga/countdowntimer/Time/CountdownTimer$1;->onTick(J)V <",
+                "> Lcom/willianveiga/countdowntimer/Time/CountdownTimer;->start(J)V <",
+                "> Lcom/willianveiga/countdowntimer/MainActivity;->startResumeCountdownTimer()V <",
+                "> Lcom/willianveiga/countdowntimer/MainActivity;->startPauseOrResumeCountdownTimer(Landroid/widget/Button;)V <",
+                "> Lcom/willianveiga/countdowntimer/MainActivity;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/willianveiga/countdowntimer/Utils/TimeUtils;->toMilliseconds(III)J": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/willianveiga/countdowntimer/MainActivity;->startResumeCountdownTimer()V <",
+                "> Lcom/willianveiga/countdowntimer/MainActivity;->startPauseOrResumeCountdownTimer(Landroid/widget/Button;)V <",
+                "> Lcom/willianveiga/countdowntimer/MainActivity;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/willianveiga/countdowntimer/MainActivity;->showFieldsEmptyAlertDialog()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/willianveiga/countdowntimer/MainActivity;->startResumeCountdownTimer()V <",
+                "> Lcom/willianveiga/countdowntimer/MainActivity;->startPauseOrResumeCountdownTimer(Landroid/widget/Button;)V <",
+                "> Lcom/willianveiga/countdowntimer/MainActivity;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/willianveiga/countdowntimer/MainActivity;->showMinimumTimeAlertDialog()V": {
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/willianveiga/countdowntimer/MainActivity;->showMinimumTimeAlertDialog()V <",
+                "> Lcom/willianveiga/countdowntimer/MainActivity;->startResumeCountdownTimer()V <",
+                "> Lcom/willianveiga/countdowntimer/MainActivity;->startPauseOrResumeCountdownTimer(Landroid/widget/Button;)V <",
+                "> Lcom/willianveiga/countdowntimer/MainActivity;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/willianveiga/countdowntimer/MainActivity;->showMinimumTimeAlertDialog()V <",
+                "> Lcom/willianveiga/countdowntimer/MainActivity;->startResumeCountdownTimer()V <",
+                "> Lcom/willianveiga/countdowntimer/MainActivity;->startPauseOrResumeCountdownTimer(Landroid/widget/Button;)V <",
+                "> Lcom/willianveiga/countdowntimer/MainActivity;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/willianveiga/countdowntimer/MainActivity;->showTimeFinishedAlertDialog()V": {
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/willianveiga/countdowntimer/MainActivity;->showTimeFinishedAlertDialog()V <",
+                "> Lcom/willianveiga/countdowntimer/MainActivity;->timeFinished()V <",
+                "> Lcom/willianveiga/countdowntimer/MainActivity;->onFinish()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/willianveiga/countdowntimer/MainActivity;->showTimeFinishedAlertDialog()V <",
+                "> Lcom/willianveiga/countdowntimer/MainActivity;->timeFinished()V <",
+                "> Lcom/willianveiga/countdowntimer/MainActivity;->onFinish()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/willianveiga/countdowntimer/MainActivity;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/willianveiga/countdowntimer/MainActivity;->showNotification()V <",
+                "> Lcom/willianveiga/countdowntimer/MainActivity;->timeFinished()V <",
+                "> Lcom/willianveiga/countdowntimer/MainActivity;->onFinish()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/willianveiga/countdowntimer/MainActivity;->showNotification()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/willianveiga/countdowntimer/MainActivity;->timeFinished()V <",
+                "> Lcom/willianveiga/countdowntimer/MainActivity;->onFinish()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/willianveiga/countdowntimer/MainActivity;->getInitialTimeUnit()Ljava/lang/String;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/willianveiga/countdowntimer/MainActivity;->onFocusChange(Landroid/view/View;Z)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/willianveiga/countdowntimer/MainActivity;->resetUserInterface()V <",
+                "> Lcom/willianveiga/countdowntimer/MainActivity;->stopCountdownTimer()V <",
+                "> Lcom/willianveiga/countdowntimer/MainActivity;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/willianveiga/countdowntimer/Time/CountdownTimer;->setOnFinishListener(Lcom/willianveiga/countdowntimer/Time/OnFinishListener;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/willianveiga/countdowntimer/MainActivity;->setUpCountdownTimer()V <",
+                "> Lcom/willianveiga/countdowntimer/MainActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/willianveiga/countdowntimer/MainActivity;->getIntent()Landroid/content/Intent;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/willianveiga/countdowntimer/MainActivity;->buildNotification()Landroid/app/Notification; <",
+                "> Lcom/willianveiga/countdowntimer/MainActivity;->showNotification()V <",
+                "> Lcom/willianveiga/countdowntimer/MainActivity;->timeFinished()V <",
+                "> Lcom/willianveiga/countdowntimer/MainActivity;->onFinish()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/willianveiga/countdowntimer/MainActivity;->stopCountdownTimer()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/willianveiga/countdowntimer/MainActivity;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/willianveiga/countdowntimer/Time/OnTickListener;->onTick(J)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/willianveiga/countdowntimer/Time/CountdownTimer$1;->onTick(J)V <",
+                "> Lcom/willianveiga/countdowntimer/Time/CountdownTimer;->start(J)V <",
+                "> Lcom/willianveiga/countdowntimer/MainActivity;->startResumeCountdownTimer()V <",
+                "> Lcom/willianveiga/countdowntimer/MainActivity;->startPauseOrResumeCountdownTimer(Landroid/widget/Button;)V <",
+                "> Lcom/willianveiga/countdowntimer/MainActivity;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/willianveiga/countdowntimer/MainActivity;->setContentView(I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/willianveiga/countdowntimer/MainActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/willianveiga/countdowntimer/MainActivity;->buildNotification()Landroid/app/Notification;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/willianveiga/countdowntimer/MainActivity;->showNotification()V <",
+                "> Lcom/willianveiga/countdowntimer/MainActivity;->timeFinished()V <",
+                "> Lcom/willianveiga/countdowntimer/MainActivity;->onFinish()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/willianveiga/countdowntimer/Time/CountdownTimer;->stop()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/willianveiga/countdowntimer/MainActivity;->pauseCountdownTimer()V <",
+                "> Lcom/willianveiga/countdowntimer/MainActivity;->startPauseOrResumeCountdownTimer(Landroid/widget/Button;)V <",
+                "> Lcom/willianveiga/countdowntimer/MainActivity;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/willianveiga/countdowntimer/MainActivity;->stopCountdownTimer()V <",
+                "> Lcom/willianveiga/countdowntimer/MainActivity;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/willianveiga/countdowntimer/Time/CountdownTimer;-><init>()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/willianveiga/countdowntimer/MainActivity;->setUpCountdownTimer()V <",
+                "> Lcom/willianveiga/countdowntimer/MainActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/willianveiga/countdowntimer/MainActivity;->addEventListeners()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/willianveiga/countdowntimer/MainActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/willianveiga/countdowntimer/Utils/StringUtils;->padTimeUnit(J)Ljava/lang/String;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/willianveiga/countdowntimer/MainActivity;->updateTimeFields(J)V <",
+                "> Lcom/willianveiga/countdowntimer/MainActivity;->onTick(J)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/willianveiga/countdowntimer/MainActivity;->setUpCountdownTimer()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/willianveiga/countdowntimer/MainActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/willianveiga/countdowntimer/MainActivity;->updateTimeFields(J)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/willianveiga/countdowntimer/MainActivity;->onTick(J)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/willianveiga/countdowntimer/MainActivity$3;->onClick(Landroid/content/DialogInterface;I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/willianveiga/countdowntimer/MainActivity$3;->onClick(Landroid/content/DialogInterface;I)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/willianveiga/countdowntimer/MainActivity;->setViewFields()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/willianveiga/countdowntimer/MainActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/willianveiga/countdowntimer/MainActivity;->startPauseOrResumeCountdownTimer(Landroid/widget/Button;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/willianveiga/countdowntimer/MainActivity;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/willianveiga/countdowntimer/MainActivity;->resetUserInterface()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/willianveiga/countdowntimer/MainActivity;->stopCountdownTimer()V <",
+                "> Lcom/willianveiga/countdowntimer/MainActivity;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/willianveiga/countdowntimer/MainActivity;->access$000(Lcom/willianveiga/countdowntimer/MainActivity;)V <",
+                "> Lcom/willianveiga/countdowntimer/MainActivity$3;->onClick(Landroid/content/DialogInterface;I)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/willianveiga/countdowntimer/Time/OnFinishListener;->onFinish()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/willianveiga/countdowntimer/Time/CountdownTimer$1;->onFinish()V <",
+                "> Lcom/willianveiga/countdowntimer/Time/CountdownTimer;->start(J)V <",
+                "> Lcom/willianveiga/countdowntimer/MainActivity;->startResumeCountdownTimer()V <",
+                "> Lcom/willianveiga/countdowntimer/MainActivity;->startPauseOrResumeCountdownTimer(Landroid/widget/Button;)V <",
+                "> Lcom/willianveiga/countdowntimer/MainActivity;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/willianveiga/countdowntimer/Utils/TimeUtils;->millisecondsToMinutes(J)J": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/willianveiga/countdowntimer/MainActivity;->updateTimeFields(J)V <",
+                "> Lcom/willianveiga/countdowntimer/MainActivity;->onTick(J)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/willianveiga/countdowntimer/MainActivity;->getResources()Landroid/content/res/Resources;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/willianveiga/countdowntimer/MainActivity;->startPauseOrResumeCountdownTimer(Landroid/widget/Button;)V <",
+                "> Lcom/willianveiga/countdowntimer/MainActivity;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/willianveiga/countdowntimer/MainActivity;->buildNotification()Landroid/app/Notification; <",
+                "> Lcom/willianveiga/countdowntimer/MainActivity;->showNotification()V <",
+                "> Lcom/willianveiga/countdowntimer/MainActivity;->timeFinished()V <",
+                "> Lcom/willianveiga/countdowntimer/MainActivity;->onFinish()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/willianveiga/countdowntimer/MainActivity;->getInitialTimeUnit()Ljava/lang/String; <",
+                "> Lcom/willianveiga/countdowntimer/MainActivity;->onFocusChange(Landroid/view/View;Z)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/willianveiga/countdowntimer/MainActivity;->findViewById(I)Landroid/view/View;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/willianveiga/countdowntimer/MainActivity;->startResumeCountdownTimer()V <",
+                "> Lcom/willianveiga/countdowntimer/MainActivity;->startPauseOrResumeCountdownTimer(Landroid/widget/Button;)V <",
+                "> Lcom/willianveiga/countdowntimer/MainActivity;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/willianveiga/countdowntimer/MainActivity;->setViewFields()V <",
+                "> Lcom/willianveiga/countdowntimer/MainActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/willianveiga/countdowntimer/MainActivity;->pauseCountdownTimer()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/willianveiga/countdowntimer/MainActivity;->startPauseOrResumeCountdownTimer(Landroid/widget/Button;)V <",
+                "> Lcom/willianveiga/countdowntimer/MainActivity;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/willianveiga/countdowntimer/MainActivity;->startResumeCountdownTimer()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/willianveiga/countdowntimer/MainActivity;->startPauseOrResumeCountdownTimer(Landroid/widget/Button;)V <",
+                "> Lcom/willianveiga/countdowntimer/MainActivity;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/willianveiga/countdowntimer/Utils/TimeUtils;->millisecondsToSeconds(J)J": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/willianveiga/countdowntimer/MainActivity;->updateTimeFields(J)V <",
+                "> Lcom/willianveiga/countdowntimer/MainActivity;->onTick(J)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    }
+}

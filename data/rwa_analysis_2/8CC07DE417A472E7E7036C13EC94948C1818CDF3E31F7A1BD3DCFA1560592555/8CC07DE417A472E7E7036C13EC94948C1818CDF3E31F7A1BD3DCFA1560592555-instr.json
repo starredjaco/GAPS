@@ -1,0 +1,2693 @@
+{
+    "Lcom/lutech/doorlock/screen/zipper/PreviewZipperStyleActivity;->handleEvents()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/screen/zipper/PreviewZipperStyleActivity$$ExternalSyntheticLambda0;->onClick(Landroid/view/View;)V <",
+                "> Lcom/lutech/doorlock/screen/zipper/PreviewZipperStyleActivity;->handleEvents()V <",
+                "> Lcom/lutech/doorlock/screen/zipper/PreviewZipperStyleActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/screen/zipper/ZipperStyleActivity;->onItemClick(I)V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity$handleEvents$8;->invoke()V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity$handleEvents$8;->invoke()Ljava/lang/Object; <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->handleEvents()V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/screen/splash/SplashActivity;->gotoNextScreen()V <",
+                "> Lcom/lutech/doorlock/screen/splash/SplashActivity;->onAdDismissed()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/screen/zipper/PreviewZipperStyleActivity$$ExternalSyntheticLambda0;->onClick(Landroid/view/View;)V <",
+                "> Lcom/lutech/doorlock/screen/zipper/PreviewZipperStyleActivity;->handleEvents()V <",
+                "> Lcom/lutech/doorlock/screen/zipper/PreviewZipperStyleActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/screen/zipper/ZipperStyleActivity;->onItemClick(I)V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity$handleEvents$8;->invoke()V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity$handleEvents$8;->invoke()Ljava/lang/Object; <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->handleEvents()V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->handlePurchase$lambda$6(Lcom/lutech/doorlock/screen/premium/PremiumActivity;Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->$r8$lambda$hEUmhg9aVFubI89-sRBIVzxLGoM(Lcom/lutech/doorlock/screen/premium/PremiumActivity;Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity$$ExternalSyntheticLambda5;->onAcknowledgePurchaseResponse(Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->handlePurchase(Ljava/util/List;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->onPurchasesUpdated(Lcom/android/billingclient/api/BillingResult;Ljava/util/List;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->gotoPremiumScreen()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.net.conn.CONNECTIVITY_CHANGE",
+                    "start-activity -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/lutech/doorlock/utils/SharePref;->getZipperPath()Ljava/lang/String;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/screen/customize/CustomizeActivity;->setZipperPath()V <",
+                "> Lcom/lutech/doorlock/screen/customize/CustomizeActivity;->initView()V <",
+                "> Lcom/lutech/doorlock/screen/customize/CustomizeActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/screen/customize/CustomizeZipperLockActivity;->onResultPath(Ljava/lang/String;)V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity$handleEvents$7;->invoke()V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity$handleEvents$7;->invoke()Ljava/lang/Object; <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->handleEvents()V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/screen/splash/SplashActivity;->gotoNextScreen()V <",
+                "> Lcom/lutech/doorlock/screen/splash/SplashActivity;->onAdDismissed()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/screen/customize/CustomizeActivity;->setZipperPath()V <",
+                "> Lcom/lutech/doorlock/screen/customize/CustomizeActivity;->initView()V <",
+                "> Lcom/lutech/doorlock/screen/customize/CustomizeActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/screen/customize/CustomizeZipperLockActivity;->onResultPath(Ljava/lang/String;)V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity$handleEvents$7;->invoke()V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity$handleEvents$7;->invoke()Ljava/lang/Object; <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->handleEvents()V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->handlePurchase$lambda$6(Lcom/lutech/doorlock/screen/premium/PremiumActivity;Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->$r8$lambda$hEUmhg9aVFubI89-sRBIVzxLGoM(Lcom/lutech/doorlock/screen/premium/PremiumActivity;Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity$$ExternalSyntheticLambda5;->onAcknowledgePurchaseResponse(Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->handlePurchase(Ljava/util/List;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->onPurchasesUpdated(Lcom/android/billingclient/api/BillingResult;Ljava/util/List;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->gotoPremiumScreen()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.net.conn.CONNECTIVITY_CHANGE",
+                    "start-activity -a"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/screen/customize/CustomizeActivity;->initView()V <",
+                "> Lcom/lutech/doorlock/screen/customize/CustomizeActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/screen/customize/CustomizeZipperLockActivity;->onResultPath(Ljava/lang/String;)V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity$handleEvents$7;->invoke()V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity$handleEvents$7;->invoke()Ljava/lang/Object; <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->handleEvents()V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/screen/splash/SplashActivity;->gotoNextScreen()V <",
+                "> Lcom/lutech/doorlock/screen/splash/SplashActivity;->onAdDismissed()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/screen/customize/CustomizeActivity;->initView()V <",
+                "> Lcom/lutech/doorlock/screen/customize/CustomizeActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/screen/customize/CustomizeZipperLockActivity;->onResultPath(Ljava/lang/String;)V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity$handleEvents$7;->invoke()V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity$handleEvents$7;->invoke()Ljava/lang/Object; <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->handleEvents()V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->handlePurchase$lambda$6(Lcom/lutech/doorlock/screen/premium/PremiumActivity;Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->$r8$lambda$hEUmhg9aVFubI89-sRBIVzxLGoM(Lcom/lutech/doorlock/screen/premium/PremiumActivity;Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity$$ExternalSyntheticLambda5;->onAcknowledgePurchaseResponse(Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->handlePurchase(Ljava/util/List;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->onPurchasesUpdated(Lcom/android/billingclient/api/BillingResult;Ljava/util/List;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->gotoPremiumScreen()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.net.conn.CONNECTIVITY_CHANGE",
+                    "start-activity -a"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/service/LockScreenService;->setZipperPath()V <",
+                "> Lcom/lutech/doorlock/service/LockScreenService;->initView()V <",
+                "> Lcom/lutech/doorlock/service/LockScreenService;->showLockScreen()V <",
+                "> Lcom/lutech/doorlock/service/LockScreenService;->access$showLockScreen(Lcom/lutech/doorlock/service/LockScreenService;)V <",
+                "> Lcom/lutech/doorlock/service/LockScreenService$mStatusScreenReceiver$1;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.SCREEN_ON",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_5": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/service/LockScreenService;->setZipperPath()V <",
+                "> Lcom/lutech/doorlock/ads/MyApplication$Companion;->startService(Ljava/lang/Class;Landroid/content/Context;)V <",
+                "> Lcom/lutech/doorlock/ads/MyApplication$Companion;->startMyService(Landroid/content/Context;Ljava/lang/Class;)V <",
+                "> Lcom/lutech/doorlock/ads/MyApplication$Companion;->startMyService$default(Lcom/lutech/doorlock/ads/MyApplication$Companion;Landroid/content/Context;Ljava/lang/Class;ILjava/lang/Object;)V <",
+                "> Lcom/lutech/doorlock/ads/MyApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_6": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/service/LockScreenService;->setZipperPath()V <",
+                "> Lcom/lutech/doorlock/ads/MyApplication$Companion;->startService(Ljava/lang/Class;Landroid/content/Context;)V <",
+                "> Lcom/lutech/doorlock/ads/MyApplication$Companion;->startMyService(Landroid/content/Context;Ljava/lang/Class;)V <",
+                "> Lcom/lutech/doorlock/ads/MyApplication$Companion;->startMyService$default(Lcom/lutech/doorlock/ads/MyApplication$Companion;Landroid/content/Context;Ljava/lang/Class;ILjava/lang/Object;)V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->onResume()V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->handlePurchase$lambda$6(Lcom/lutech/doorlock/screen/premium/PremiumActivity;Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->$r8$lambda$hEUmhg9aVFubI89-sRBIVzxLGoM(Lcom/lutech/doorlock/screen/premium/PremiumActivity;Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity$$ExternalSyntheticLambda5;->onAcknowledgePurchaseResponse(Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->handlePurchase(Ljava/util/List;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->onPurchasesUpdated(Lcom/android/billingclient/api/BillingResult;Ljava/util/List;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->gotoPremiumScreen()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.net.conn.CONNECTIVITY_CHANGE",
+                    "start-activity -a"
+                ]
+            ]
+        },
+        "path_7": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/widget/dialog/DialogPreview;->setZipperPath()V <",
+                "> Lcom/lutech/doorlock/widget/dialog/DialogPreview;->initData()V <",
+                "> Lcom/lutech/doorlock/widget/dialog/DialogPreview;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->showPreviewDialog(Lkotlin/jvm/functions/Function0;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->showPreviewDialog$default(Lcom/lutech/doorlock/screen/BaseActivity;Lkotlin/jvm/functions/Function0;ILjava/lang/Object;)V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->initView()V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/screen/splash/SplashActivity;->gotoNextScreen()V <",
+                "> Lcom/lutech/doorlock/screen/splash/SplashActivity;->onAdDismissed()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_8": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/widget/dialog/DialogPreview;->setZipperPath()V <",
+                "> Lcom/lutech/doorlock/widget/dialog/DialogPreview;->initData()V <",
+                "> Lcom/lutech/doorlock/widget/dialog/DialogPreview;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->showPreviewDialog(Lkotlin/jvm/functions/Function0;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->showPreviewDialog$default(Lcom/lutech/doorlock/screen/BaseActivity;Lkotlin/jvm/functions/Function0;ILjava/lang/Object;)V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->initView()V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->handlePurchase$lambda$6(Lcom/lutech/doorlock/screen/premium/PremiumActivity;Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->$r8$lambda$hEUmhg9aVFubI89-sRBIVzxLGoM(Lcom/lutech/doorlock/screen/premium/PremiumActivity;Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity$$ExternalSyntheticLambda5;->onAcknowledgePurchaseResponse(Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->handlePurchase(Ljava/util/List;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->onPurchasesUpdated(Lcom/android/billingclient/api/BillingResult;Ljava/util/List;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->gotoPremiumScreen()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.net.conn.CONNECTIVITY_CHANGE",
+                    "start-activity -a"
+                ]
+            ]
+        },
+        "path_9": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/screen/wallpaper/PreviewWallpaperActivity;->initView()V <",
+                "> Lcom/lutech/doorlock/screen/wallpaper/PreviewWallpaperActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/screen/wallpaper/WallpaperActivity;->onItemClick(I)V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->onNavigationItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/lutech/doorlock/screen/splash/SplashActivity;->gotoNextScreen()V <",
+                "> Lcom/lutech/doorlock/screen/splash/SplashActivity;->onAdDismissed()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.lutech.doorlock.screen.home.MainActivity",
+                    "nav_door_themes",
+                    "Wallpaper"
+                ]
+            ]
+        },
+        "path_10": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/screen/wallpaper/PreviewWallpaperActivity;->initView()V <",
+                "> Lcom/lutech/doorlock/screen/wallpaper/PreviewWallpaperActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/screen/wallpaper/WallpaperActivity;->onItemClick(I)V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->onNavigationItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->handlePurchase$lambda$6(Lcom/lutech/doorlock/screen/premium/PremiumActivity;Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->$r8$lambda$hEUmhg9aVFubI89-sRBIVzxLGoM(Lcom/lutech/doorlock/screen/premium/PremiumActivity;Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity$$ExternalSyntheticLambda5;->onAcknowledgePurchaseResponse(Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->handlePurchase(Ljava/util/List;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->onPurchasesUpdated(Lcom/android/billingclient/api/BillingResult;Ljava/util/List;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->gotoPremiumScreen()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.net.conn.CONNECTIVITY_CHANGE",
+                    "start-activity -a"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.lutech.doorlock.screen.home.MainActivity",
+                    "nav_door_themes",
+                    "Wallpaper"
+                ]
+            ]
+        },
+        "path_11": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/screen/customize/CustomizeSuccessActivity;->setZipperPath()V <",
+                "> Lcom/lutech/doorlock/screen/customize/CustomizeSuccessActivity;->initView()V <",
+                "> Lcom/lutech/doorlock/screen/customize/CustomizeSuccessActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/screen/customize/CustomizeActivity;->gotoNextScreen()V <",
+                "> Lcom/lutech/doorlock/screen/customize/CustomizeActivity;->imageDownloaded(Ljava/lang/String;)V <",
+                "> Lcom/lutech/doorlock/screen/customize/CustomizeZipperLockActivity;->onResultPath(Ljava/lang/String;)V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity$handleEvents$7;->invoke()V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity$handleEvents$7;->invoke()Ljava/lang/Object; <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->handleEvents()V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/screen/splash/SplashActivity;->gotoNextScreen()V <",
+                "> Lcom/lutech/doorlock/screen/splash/SplashActivity;->onAdDismissed()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_12": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/screen/customize/CustomizeSuccessActivity;->setZipperPath()V <",
+                "> Lcom/lutech/doorlock/screen/customize/CustomizeSuccessActivity;->initView()V <",
+                "> Lcom/lutech/doorlock/screen/customize/CustomizeSuccessActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/screen/customize/CustomizeActivity;->gotoNextScreen()V <",
+                "> Lcom/lutech/doorlock/screen/customize/CustomizeActivity;->imageDownloaded(Ljava/lang/String;)V <",
+                "> Lcom/lutech/doorlock/screen/customize/CustomizeZipperLockActivity;->onResultPath(Ljava/lang/String;)V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity$handleEvents$7;->invoke()V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity$handleEvents$7;->invoke()Ljava/lang/Object; <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->handleEvents()V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->handlePurchase$lambda$6(Lcom/lutech/doorlock/screen/premium/PremiumActivity;Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->$r8$lambda$hEUmhg9aVFubI89-sRBIVzxLGoM(Lcom/lutech/doorlock/screen/premium/PremiumActivity;Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity$$ExternalSyntheticLambda5;->onAcknowledgePurchaseResponse(Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->handlePurchase(Ljava/util/List;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->onPurchasesUpdated(Lcom/android/billingclient/api/BillingResult;Ljava/util/List;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->gotoPremiumScreen()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.net.conn.CONNECTIVITY_CHANGE",
+                    "start-activity -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/lutech/doorlock/ads/AdsManager;->setCurrentAdClickEventCount(I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/ads/AdsManager$showAdsIfConditionOk$2$1;->onAdClicked()V <",
+                "> Lcom/lutech/doorlock/ads/AdsManager;->showAdsIfConditionOk$lambda$1(Landroid/app/Activity;)V <",
+                "> Lcom/lutech/doorlock/ads/AdsManager;->$r8$lambda$ufnRMroFNZxJK5zybhZGNFBGoJU(Landroid/app/Activity;)V <",
+                "> Lcom/lutech/doorlock/ads/AdsManager$$ExternalSyntheticLambda1;->run()V <",
+                "> Lcom/lutech/doorlock/ads/AdsManager;->showAdsIfConditionOk(Landroid/app/Activity;Lcom/lutech/doorlock/ads/AdsListener;)V <",
+                "> Lcom/lutech/doorlock/ads/AdsManager;->showAds(Landroid/app/Activity;Lcom/lutech/doorlock/ads/AdsListener;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->showAds(Landroid/content/Intent;Z)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->showAds$default(Lcom/lutech/doorlock/screen/BaseActivity;Landroid/content/Intent;ZILjava/lang/Object;)V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->onNavigationItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/lutech/doorlock/screen/splash/SplashActivity;->gotoNextScreen()V <",
+                "> Lcom/lutech/doorlock/screen/splash/SplashActivity;->onAdDismissed()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/ads/AdsManager$showAdsIfConditionOk$2$1;->onAdClicked()V <",
+                "> Lcom/lutech/doorlock/ads/AdsManager;->showAdsIfConditionOk$lambda$1(Landroid/app/Activity;)V <",
+                "> Lcom/lutech/doorlock/ads/AdsManager;->$r8$lambda$ufnRMroFNZxJK5zybhZGNFBGoJU(Landroid/app/Activity;)V <",
+                "> Lcom/lutech/doorlock/ads/AdsManager$$ExternalSyntheticLambda1;->run()V <",
+                "> Lcom/lutech/doorlock/ads/AdsManager;->showAdsIfConditionOk(Landroid/app/Activity;Lcom/lutech/doorlock/ads/AdsListener;)V <",
+                "> Lcom/lutech/doorlock/ads/AdsManager;->showAds(Landroid/app/Activity;Lcom/lutech/doorlock/ads/AdsListener;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->showAds(Landroid/content/Intent;Z)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->showAds$default(Lcom/lutech/doorlock/screen/BaseActivity;Landroid/content/Intent;ZILjava/lang/Object;)V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->onNavigationItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->handlePurchase$lambda$6(Lcom/lutech/doorlock/screen/premium/PremiumActivity;Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->$r8$lambda$hEUmhg9aVFubI89-sRBIVzxLGoM(Lcom/lutech/doorlock/screen/premium/PremiumActivity;Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity$$ExternalSyntheticLambda5;->onAcknowledgePurchaseResponse(Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->handlePurchase(Ljava/util/List;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->onPurchasesUpdated(Lcom/android/billingclient/api/BillingResult;Ljava/util/List;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->gotoPremiumScreen()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.net.conn.CONNECTIVITY_CHANGE",
+                    "start-activity -a"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/utils/Utils$loadNativeAds$adLoader$2;->onAdClicked()V <",
+                "> Lcom/lutech/doorlock/utils/Utils;->loadNativeAds(Landroid/content/Context;Lcom/lutech/doorlock/ads/TemplateView;IZ)V <",
+                "> Lcom/lutech/doorlock/screen/language/LanguageActivity;->loadAds()V <",
+                "> Lcom/lutech/doorlock/screen/language/LanguageActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/screen/splash/SplashActivity;->gotoNextScreen()V <",
+                "> Lcom/lutech/doorlock/screen/splash/SplashActivity;->onAdDismissed()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/utils/Utils$loadNativeAds$adLoader$2;->onAdClicked()V <",
+                "> Lcom/lutech/doorlock/utils/Utils;->loadNativeAds(Landroid/content/Context;Lcom/lutech/doorlock/ads/TemplateView;IZ)V <",
+                "> Lcom/lutech/doorlock/screen/wallpaper/WallpaperActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->onNavigationItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/lutech/doorlock/screen/splash/SplashActivity;->gotoNextScreen()V <",
+                "> Lcom/lutech/doorlock/screen/splash/SplashActivity;->onAdDismissed()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.lutech.doorlock.screen.home.MainActivity",
+                    "nav_door_themes",
+                    "Wallpaper"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/utils/Utils$loadNativeAds$adLoader$2;->onAdClicked()V <",
+                "> Lcom/lutech/doorlock/utils/Utils;->loadNativeAds(Landroid/content/Context;Lcom/lutech/doorlock/ads/TemplateView;IZ)V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->loadNativeAds()V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->handlePurchase$lambda$6(Lcom/lutech/doorlock/screen/premium/PremiumActivity;Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->$r8$lambda$hEUmhg9aVFubI89-sRBIVzxLGoM(Lcom/lutech/doorlock/screen/premium/PremiumActivity;Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity$$ExternalSyntheticLambda5;->onAcknowledgePurchaseResponse(Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->handlePurchase(Ljava/util/List;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->onPurchasesUpdated(Lcom/android/billingclient/api/BillingResult;Ljava/util/List;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->gotoPremiumScreen()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.net.conn.CONNECTIVITY_CHANGE",
+                    "start-activity -a"
+                ]
+            ]
+        },
+        "path_5": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/ads/RewardAdsManager$loadAds$1$onAdLoaded$2;->onAdClicked()V <",
+                "> Lcom/lutech/doorlock/ads/RewardAdsManager$loadAds$1;->onAdLoaded(Lcom/google/android/gms/ads/rewarded/RewardedAd;)V <",
+                "> Lcom/lutech/doorlock/ads/RewardAdsManager$loadAds$1;->onAdLoaded(Ljava/lang/Object;)V <",
+                "> Lcom/lutech/doorlock/ads/RewardAdsManager;->loadAds(Landroid/content/Context;)V <",
+                "> Lcom/lutech/doorlock/screen/splash/SplashActivity;->initData$lambda$3(Lcom/lutech/doorlock/screen/splash/SplashActivity;Lcom/google/android/gms/ads/initialization/InitializationStatus;)V <",
+                "> Lcom/lutech/doorlock/screen/splash/SplashActivity;->$r8$lambda$BiAk6wmwqoHY32y6LYdaWl9vEWA(Lcom/lutech/doorlock/screen/splash/SplashActivity;Lcom/google/android/gms/ads/initialization/InitializationStatus;)V <",
+                "> Lcom/lutech/doorlock/screen/splash/SplashActivity$$ExternalSyntheticLambda1;->onInitializationComplete(Lcom/google/android/gms/ads/initialization/InitializationStatus;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_6": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/ads/RewardAdsManager$loadAds$1$onAdLoaded$2;->onAdClicked()V <",
+                "> Lcom/lutech/doorlock/ads/RewardAdsManager$loadAds$1;->onAdLoaded(Lcom/google/android/gms/ads/rewarded/RewardedAd;)V <",
+                "> Lcom/lutech/doorlock/ads/RewardAdsManager$loadAds$1;->onAdLoaded(Ljava/lang/Object;)V <",
+                "> Lcom/lutech/doorlock/ads/RewardAdsManager;->loadAds(Landroid/content/Context;)V <",
+                "> Lcom/lutech/doorlock/ads/RewardAdsManager;->showAds(Landroid/app/Activity;Lcom/lutech/doorlock/ads/RewardAdsListener;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseDownloadActivity;->showWatchAdsDialog$lambda$0(Landroid/app/Dialog;Lcom/lutech/doorlock/screen/BaseDownloadActivity;Landroid/view/View;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseDownloadActivity;->$r8$lambda$ubZy5dtKZgN5Tbcbpz___iF50TA(Landroid/app/Dialog;Lcom/lutech/doorlock/screen/BaseDownloadActivity;Landroid/view/View;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseDownloadActivity$$ExternalSyntheticLambda0;->onClick(Landroid/view/View;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseDownloadActivity;->showWatchAdsDialog()V <",
+                "> Lcom/lutech/doorlock/screen/wallpaper/PreviewWallpaperActivity;->handleEvents$lambda$3(Lcom/lutech/doorlock/screen/wallpaper/PreviewWallpaperActivity;Landroid/view/View;)V <",
+                "> Lcom/lutech/doorlock/screen/wallpaper/PreviewWallpaperActivity;->$r8$lambda$JvyeITwiKz7FGMF2TIcgbXi3ccQ(Lcom/lutech/doorlock/screen/wallpaper/PreviewWallpaperActivity;Landroid/view/View;)V <",
+                "> Lcom/lutech/doorlock/screen/wallpaper/PreviewWallpaperActivity$$ExternalSyntheticLambda3;->onClick(Landroid/view/View;)V <",
+                "> Lcom/lutech/doorlock/screen/wallpaper/PreviewWallpaperActivity;->handleEvents()V <",
+                "> Lcom/lutech/doorlock/screen/wallpaper/PreviewWallpaperActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/screen/wallpaper/WallpaperActivity;->onItemClick(I)V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->onNavigationItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->handlePurchase$lambda$6(Lcom/lutech/doorlock/screen/premium/PremiumActivity;Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->$r8$lambda$hEUmhg9aVFubI89-sRBIVzxLGoM(Lcom/lutech/doorlock/screen/premium/PremiumActivity;Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity$$ExternalSyntheticLambda5;->onAcknowledgePurchaseResponse(Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->handlePurchase(Ljava/util/List;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->onPurchasesUpdated(Lcom/android/billingclient/api/BillingResult;Ljava/util/List;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->gotoPremiumScreen()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.net.conn.CONNECTIVITY_CHANGE",
+                    "start-activity -a"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.lutech.doorlock.screen.home.MainActivity",
+                    "nav_door_themes",
+                    "Wallpaper"
+                ],
+                [
+                    "com.lutech.doorlock.screen.BaseDownloadActivity",
+                    "btnGetItNow"
+                ]
+            ]
+        },
+        "path_7": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/ads/AppOpenManager$2;->onAdClicked()V <",
+                "> Lcom/lutech/doorlock/ads/AppOpenManager;->showAdIfAvailable()V <",
+                "> Lcom/lutech/doorlock/ads/WelcomeBackActivity;->onCreate$lambda$0()V <",
+                "> Lcom/lutech/doorlock/ads/WelcomeBackActivity;->$r8$lambda$1nEbALUap6AUNrNAjaGPFrDAfY4()V <",
+                "> Lcom/lutech/doorlock/ads/WelcomeBackActivity$$ExternalSyntheticLambda0;->run()V <",
+                "> Lcom/lutech/doorlock/ads/WelcomeBackActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/utils/Utils;->showWelcomeBackScreen(Landroid/app/Activity;)V <",
+                "> Lcom/lutech/doorlock/ads/AppOpenManager;->onActivityResumed(Landroid/app/Activity;)V <",
+                "> Lcom/lutech/doorlock/ads/MyApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_8": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/ads/RewardAdsManager$showAds$2$2;->onAdClicked()V <",
+                "> Lcom/lutech/doorlock/ads/RewardAdsManager;->showAds$lambda$1(Landroid/app/Activity;Lcom/lutech/doorlock/ads/RewardAdsListener;)V <",
+                "> Lcom/lutech/doorlock/ads/RewardAdsManager;->$r8$lambda$RGTnGP8xd3v4yKftyDpXN3P6C9o(Landroid/app/Activity;Lcom/lutech/doorlock/ads/RewardAdsListener;)V <",
+                "> Lcom/lutech/doorlock/ads/RewardAdsManager$$ExternalSyntheticLambda1;->run()V <",
+                "> Lcom/lutech/doorlock/ads/RewardAdsManager;->showAds(Landroid/app/Activity;Lcom/lutech/doorlock/ads/RewardAdsListener;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseDownloadActivity;->showWatchAdsDialog$lambda$0(Landroid/app/Dialog;Lcom/lutech/doorlock/screen/BaseDownloadActivity;Landroid/view/View;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseDownloadActivity;->$r8$lambda$ubZy5dtKZgN5Tbcbpz___iF50TA(Landroid/app/Dialog;Lcom/lutech/doorlock/screen/BaseDownloadActivity;Landroid/view/View;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseDownloadActivity$$ExternalSyntheticLambda0;->onClick(Landroid/view/View;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseDownloadActivity;->showWatchAdsDialog()V <",
+                "> Lcom/lutech/doorlock/screen/wallpaper/PreviewWallpaperActivity;->handleEvents$lambda$3(Lcom/lutech/doorlock/screen/wallpaper/PreviewWallpaperActivity;Landroid/view/View;)V <",
+                "> Lcom/lutech/doorlock/screen/wallpaper/PreviewWallpaperActivity;->$r8$lambda$JvyeITwiKz7FGMF2TIcgbXi3ccQ(Lcom/lutech/doorlock/screen/wallpaper/PreviewWallpaperActivity;Landroid/view/View;)V <",
+                "> Lcom/lutech/doorlock/screen/wallpaper/PreviewWallpaperActivity$$ExternalSyntheticLambda3;->onClick(Landroid/view/View;)V <",
+                "> Lcom/lutech/doorlock/screen/wallpaper/PreviewWallpaperActivity;->handleEvents()V <",
+                "> Lcom/lutech/doorlock/screen/wallpaper/PreviewWallpaperActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/screen/wallpaper/WallpaperActivity;->onItemClick(I)V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->onNavigationItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/lutech/doorlock/screen/splash/SplashActivity;->gotoNextScreen()V <",
+                "> Lcom/lutech/doorlock/screen/splash/SplashActivity;->onAdDismissed()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.lutech.doorlock.screen.home.MainActivity",
+                    "nav_door_themes",
+                    "Wallpaper"
+                ],
+                [
+                    "com.lutech.doorlock.screen.BaseDownloadActivity",
+                    "btnGetItNow"
+                ]
+            ]
+        },
+        "path_9": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/ads/RewardAdsManager$showAds$2$2;->onAdClicked()V <",
+                "> Lcom/lutech/doorlock/ads/RewardAdsManager;->showAds$lambda$1(Landroid/app/Activity;Lcom/lutech/doorlock/ads/RewardAdsListener;)V <",
+                "> Lcom/lutech/doorlock/ads/RewardAdsManager;->$r8$lambda$RGTnGP8xd3v4yKftyDpXN3P6C9o(Landroid/app/Activity;Lcom/lutech/doorlock/ads/RewardAdsListener;)V <",
+                "> Lcom/lutech/doorlock/ads/RewardAdsManager$$ExternalSyntheticLambda1;->run()V <",
+                "> Lcom/lutech/doorlock/ads/RewardAdsManager;->showAds(Landroid/app/Activity;Lcom/lutech/doorlock/ads/RewardAdsListener;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseDownloadActivity;->showWatchAdsDialog$lambda$0(Landroid/app/Dialog;Lcom/lutech/doorlock/screen/BaseDownloadActivity;Landroid/view/View;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseDownloadActivity;->$r8$lambda$ubZy5dtKZgN5Tbcbpz___iF50TA(Landroid/app/Dialog;Lcom/lutech/doorlock/screen/BaseDownloadActivity;Landroid/view/View;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseDownloadActivity$$ExternalSyntheticLambda0;->onClick(Landroid/view/View;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseDownloadActivity;->showWatchAdsDialog()V <",
+                "> Lcom/lutech/doorlock/screen/wallpaper/PreviewWallpaperActivity;->handleEvents$lambda$3(Lcom/lutech/doorlock/screen/wallpaper/PreviewWallpaperActivity;Landroid/view/View;)V <",
+                "> Lcom/lutech/doorlock/screen/wallpaper/PreviewWallpaperActivity;->$r8$lambda$JvyeITwiKz7FGMF2TIcgbXi3ccQ(Lcom/lutech/doorlock/screen/wallpaper/PreviewWallpaperActivity;Landroid/view/View;)V <",
+                "> Lcom/lutech/doorlock/screen/wallpaper/PreviewWallpaperActivity$$ExternalSyntheticLambda3;->onClick(Landroid/view/View;)V <",
+                "> Lcom/lutech/doorlock/screen/wallpaper/PreviewWallpaperActivity;->handleEvents()V <",
+                "> Lcom/lutech/doorlock/screen/wallpaper/PreviewWallpaperActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/screen/wallpaper/WallpaperActivity;->onItemClick(I)V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->onNavigationItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->handlePurchase$lambda$6(Lcom/lutech/doorlock/screen/premium/PremiumActivity;Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->$r8$lambda$hEUmhg9aVFubI89-sRBIVzxLGoM(Lcom/lutech/doorlock/screen/premium/PremiumActivity;Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity$$ExternalSyntheticLambda5;->onAcknowledgePurchaseResponse(Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->handlePurchase(Ljava/util/List;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->onPurchasesUpdated(Lcom/android/billingclient/api/BillingResult;Ljava/util/List;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->gotoPremiumScreen()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.net.conn.CONNECTIVITY_CHANGE",
+                    "start-activity -a"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.lutech.doorlock.screen.home.MainActivity",
+                    "nav_door_themes",
+                    "Wallpaper"
+                ],
+                [
+                    "com.lutech.doorlock.screen.BaseDownloadActivity",
+                    "btnGetItNow"
+                ]
+            ]
+        },
+        "path_10": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/utils/Utils$loadBannerAds$4;->onAdClicked()V <",
+                "> Lcom/lutech/doorlock/utils/Utils;->loadBannerAds(Landroid/app/Activity;Landroid/widget/FrameLayout;Ljava/lang/String;)V <",
+                "> Lcom/lutech/doorlock/utils/Utils;->loadCollapseBannerAds(Landroid/app/Activity;Landroid/widget/FrameLayout;Ljava/lang/String;)V <",
+                "> Lcom/lutech/doorlock/screen/wallpapers/UnlimitedWallpaperActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity$handleEvents$4;->invoke()V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity$handleEvents$4;->invoke()Ljava/lang/Object; <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->handleEvents()V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/screen/splash/SplashActivity;->gotoNextScreen()V <",
+                "> Lcom/lutech/doorlock/screen/splash/SplashActivity;->onAdDismissed()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_11": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/utils/Utils$loadBannerAds$4;->onAdClicked()V <",
+                "> Lcom/lutech/doorlock/utils/Utils;->loadBannerAds(Landroid/app/Activity;Landroid/widget/FrameLayout;Ljava/lang/String;)V <",
+                "> Lcom/lutech/doorlock/utils/Utils;->loadCollapseBannerAds(Landroid/app/Activity;Landroid/widget/FrameLayout;Ljava/lang/String;)V <",
+                "> Lcom/lutech/doorlock/screen/wallpapers/UnlimitedWallpaperActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity$handleEvents$4;->invoke()V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity$handleEvents$4;->invoke()Ljava/lang/Object; <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->handleEvents()V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->handlePurchase$lambda$6(Lcom/lutech/doorlock/screen/premium/PremiumActivity;Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->$r8$lambda$hEUmhg9aVFubI89-sRBIVzxLGoM(Lcom/lutech/doorlock/screen/premium/PremiumActivity;Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity$$ExternalSyntheticLambda5;->onAcknowledgePurchaseResponse(Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->handlePurchase(Ljava/util/List;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->onPurchasesUpdated(Lcom/android/billingclient/api/BillingResult;Ljava/util/List;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->gotoPremiumScreen()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.net.conn.CONNECTIVITY_CHANGE",
+                    "start-activity -a"
+                ]
+            ]
+        },
+        "path_12": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/utils/Utils$loadCollapseBannerAds$2;->onAdClicked()V <",
+                "> Lcom/lutech/doorlock/utils/Utils;->loadCollapseBannerAds(Landroid/app/Activity;Landroid/widget/FrameLayout;Ljava/lang/String;)V <",
+                "> Lcom/lutech/doorlock/screen/wallpapers/UnlimitedWallpaperActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity$handleEvents$4;->invoke()V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity$handleEvents$4;->invoke()Ljava/lang/Object; <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->handleEvents()V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/screen/splash/SplashActivity;->gotoNextScreen()V <",
+                "> Lcom/lutech/doorlock/screen/splash/SplashActivity;->onAdDismissed()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_13": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/utils/Utils$loadCollapseBannerAds$2;->onAdClicked()V <",
+                "> Lcom/lutech/doorlock/utils/Utils;->loadCollapseBannerAds(Landroid/app/Activity;Landroid/widget/FrameLayout;Ljava/lang/String;)V <",
+                "> Lcom/lutech/doorlock/screen/wallpapers/UnlimitedWallpaperActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity$handleEvents$4;->invoke()V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity$handleEvents$4;->invoke()Ljava/lang/Object; <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->handleEvents()V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->handlePurchase$lambda$6(Lcom/lutech/doorlock/screen/premium/PremiumActivity;Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->$r8$lambda$hEUmhg9aVFubI89-sRBIVzxLGoM(Lcom/lutech/doorlock/screen/premium/PremiumActivity;Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity$$ExternalSyntheticLambda5;->onAcknowledgePurchaseResponse(Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->handlePurchase(Ljava/util/List;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->onPurchasesUpdated(Lcom/android/billingclient/api/BillingResult;Ljava/util/List;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->gotoPremiumScreen()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.net.conn.CONNECTIVITY_CHANGE",
+                    "start-activity -a"
+                ]
+            ]
+        },
+        "path_14": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/ads/AdsManager$loadAds$1$onAdLoaded$2;->onAdClicked()V <",
+                "> Lcom/lutech/doorlock/ads/AdsManager$loadAds$1;->onAdLoaded(Lcom/google/android/gms/ads/interstitial/InterstitialAd;)V <",
+                "> Lcom/lutech/doorlock/ads/AdsManager$loadAds$1;->onAdLoaded(Ljava/lang/Object;)V <",
+                "> Lcom/lutech/doorlock/ads/AdsManager;->loadAds(Landroid/content/Context;)V <",
+                "> Lcom/lutech/doorlock/screen/splash/SplashActivity;->initData$lambda$3(Lcom/lutech/doorlock/screen/splash/SplashActivity;Lcom/google/android/gms/ads/initialization/InitializationStatus;)V <",
+                "> Lcom/lutech/doorlock/screen/splash/SplashActivity;->$r8$lambda$BiAk6wmwqoHY32y6LYdaWl9vEWA(Lcom/lutech/doorlock/screen/splash/SplashActivity;Lcom/google/android/gms/ads/initialization/InitializationStatus;)V <",
+                "> Lcom/lutech/doorlock/screen/splash/SplashActivity$$ExternalSyntheticLambda1;->onInitializationComplete(Lcom/google/android/gms/ads/initialization/InitializationStatus;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_15": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/ads/AdsManager$loadAds$1$onAdLoaded$2;->onAdClicked()V <",
+                "> Lcom/lutech/doorlock/ads/AdsManager$loadAds$1;->onAdLoaded(Lcom/google/android/gms/ads/interstitial/InterstitialAd;)V <",
+                "> Lcom/lutech/doorlock/ads/AdsManager$loadAds$1;->onAdLoaded(Ljava/lang/Object;)V <",
+                "> Lcom/lutech/doorlock/ads/AdsManager;->loadAds(Landroid/content/Context;)V <",
+                "> Lcom/lutech/doorlock/ads/AdsManager$showAdsIfConditionOk$2$1;->onAdDismissedFullScreenContent()V <",
+                "> Lcom/lutech/doorlock/ads/AdsManager;->showAdsIfConditionOk$lambda$1(Landroid/app/Activity;)V <",
+                "> Lcom/lutech/doorlock/ads/AdsManager;->$r8$lambda$ufnRMroFNZxJK5zybhZGNFBGoJU(Landroid/app/Activity;)V <",
+                "> Lcom/lutech/doorlock/ads/AdsManager$$ExternalSyntheticLambda1;->run()V <",
+                "> Lcom/lutech/doorlock/ads/AdsManager;->showAdsIfConditionOk(Landroid/app/Activity;Lcom/lutech/doorlock/ads/AdsListener;)V <",
+                "> Lcom/lutech/doorlock/ads/AdsManager;->showAds(Landroid/app/Activity;Lcom/lutech/doorlock/ads/AdsListener;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->showAds(Landroid/content/Intent;Z)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->showAds$default(Lcom/lutech/doorlock/screen/BaseActivity;Landroid/content/Intent;ZILjava/lang/Object;)V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->onNavigationItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->handlePurchase$lambda$6(Lcom/lutech/doorlock/screen/premium/PremiumActivity;Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->$r8$lambda$hEUmhg9aVFubI89-sRBIVzxLGoM(Lcom/lutech/doorlock/screen/premium/PremiumActivity;Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity$$ExternalSyntheticLambda5;->onAcknowledgePurchaseResponse(Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->handlePurchase(Ljava/util/List;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->onPurchasesUpdated(Lcom/android/billingclient/api/BillingResult;Ljava/util/List;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->gotoPremiumScreen()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.net.conn.CONNECTIVITY_CHANGE",
+                    "start-activity -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/lutech/doorlock/screen/zipper/ZipperStyleActivity;->findViewById(I)Landroid/view/View;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/screen/zipper/ZipperStyleActivity;->_$_findCachedViewById(I)Landroid/view/View; <",
+                "> Lcom/lutech/doorlock/screen/zipper/ZipperStyleActivity;->handleEvent()V <",
+                "> Lcom/lutech/doorlock/screen/zipper/ZipperStyleActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity$handleEvents$8;->invoke()V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity$handleEvents$8;->invoke()Ljava/lang/Object; <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->handleEvents()V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/screen/splash/SplashActivity;->gotoNextScreen()V <",
+                "> Lcom/lutech/doorlock/screen/splash/SplashActivity;->onAdDismissed()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/screen/zipper/ZipperStyleActivity;->_$_findCachedViewById(I)Landroid/view/View; <",
+                "> Lcom/lutech/doorlock/screen/zipper/ZipperStyleActivity;->initData()V <",
+                "> Lcom/lutech/doorlock/screen/zipper/ZipperStyleActivity;->onResume()V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity$handleEvents$8;->invoke()V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity$handleEvents$8;->invoke()Ljava/lang/Object; <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->handleEvents()V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/screen/splash/SplashActivity;->gotoNextScreen()V <",
+                "> Lcom/lutech/doorlock/screen/splash/SplashActivity;->onAdDismissed()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/screen/zipper/ZipperStyleActivity;->_$_findCachedViewById(I)Landroid/view/View; <",
+                "> Lcom/lutech/doorlock/screen/zipper/ZipperStyleActivity;->handleEvent()V <",
+                "> Lcom/lutech/doorlock/screen/zipper/ZipperStyleActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity$handleEvents$8;->invoke()V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity$handleEvents$8;->invoke()Ljava/lang/Object; <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->handleEvents()V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->handlePurchase$lambda$6(Lcom/lutech/doorlock/screen/premium/PremiumActivity;Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->$r8$lambda$hEUmhg9aVFubI89-sRBIVzxLGoM(Lcom/lutech/doorlock/screen/premium/PremiumActivity;Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity$$ExternalSyntheticLambda5;->onAcknowledgePurchaseResponse(Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->handlePurchase(Ljava/util/List;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->onPurchasesUpdated(Lcom/android/billingclient/api/BillingResult;Ljava/util/List;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->gotoPremiumScreen()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.net.conn.CONNECTIVITY_CHANGE",
+                    "start-activity -a"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/screen/zipper/ZipperStyleActivity;->_$_findCachedViewById(I)Landroid/view/View; <",
+                "> Lcom/lutech/doorlock/screen/zipper/ZipperStyleActivity;->initData()V <",
+                "> Lcom/lutech/doorlock/screen/zipper/ZipperStyleActivity;->onResume()V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity$handleEvents$8;->invoke()V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity$handleEvents$8;->invoke()Ljava/lang/Object; <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->handleEvents()V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->handlePurchase$lambda$6(Lcom/lutech/doorlock/screen/premium/PremiumActivity;Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->$r8$lambda$hEUmhg9aVFubI89-sRBIVzxLGoM(Lcom/lutech/doorlock/screen/premium/PremiumActivity;Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity$$ExternalSyntheticLambda5;->onAcknowledgePurchaseResponse(Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->handlePurchase(Ljava/util/List;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->onPurchasesUpdated(Lcom/android/billingclient/api/BillingResult;Ljava/util/List;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->gotoPremiumScreen()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.net.conn.CONNECTIVITY_CHANGE",
+                    "start-activity -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/lutech/doorlock/screen/wallpaper/PreviewWallpaperActivity;->download(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/screen/wallpaper/PreviewWallpaperActivity;->applyWallpaper()V <",
+                "> Lcom/lutech/doorlock/screen/wallpaper/PreviewWallpaperActivity;->onRewardAdDismissed()V <",
+                "> Lcom/lutech/doorlock/screen/wallpaper/WallpaperActivity;->onItemClick(I)V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->onNavigationItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/lutech/doorlock/screen/splash/SplashActivity;->gotoNextScreen()V <",
+                "> Lcom/lutech/doorlock/screen/splash/SplashActivity;->onAdDismissed()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.lutech.doorlock.screen.home.MainActivity",
+                    "nav_door_themes",
+                    "Wallpaper"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/screen/wallpaper/PreviewWallpaperActivity;->applyWallpaper()V <",
+                "> Lcom/lutech/doorlock/screen/wallpaper/PreviewWallpaperActivity;->onRewardAdDismissed()V <",
+                "> Lcom/lutech/doorlock/screen/wallpaper/WallpaperActivity;->onItemClick(I)V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->onNavigationItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->handlePurchase$lambda$6(Lcom/lutech/doorlock/screen/premium/PremiumActivity;Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->$r8$lambda$hEUmhg9aVFubI89-sRBIVzxLGoM(Lcom/lutech/doorlock/screen/premium/PremiumActivity;Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity$$ExternalSyntheticLambda5;->onAcknowledgePurchaseResponse(Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->handlePurchase(Ljava/util/List;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->onPurchasesUpdated(Lcom/android/billingclient/api/BillingResult;Ljava/util/List;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->gotoPremiumScreen()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.net.conn.CONNECTIVITY_CHANGE",
+                    "start-activity -a"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.lutech.doorlock.screen.home.MainActivity",
+                    "nav_door_themes",
+                    "Wallpaper"
+                ]
+            ]
+        }
+    },
+    "Lcom/lutech/doorlock/screen/BaseActivity;->setWallPaper(I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/screen/BaseActivity$setWallPaper$1;->invoke()V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity$setWallPaper$1;->invoke()Ljava/lang/Object; <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->setWallPaper(I)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->showOptionDialog$lambda$4$lambda$1(Lcom/lutech/doorlock/screen/BaseActivity;Landroid/view/View;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->$r8$lambda$QOiySeIu8AWvE-CkVyr6F7M22Io(Lcom/lutech/doorlock/screen/BaseActivity;Landroid/view/View;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity$$ExternalSyntheticLambda0;->onClick(Landroid/view/View;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->showOptionDialog()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.net.conn.CONNECTIVITY_CHANGE",
+                    "start-activity -a"
+                ],
+                [
+                    "com.lutech.doorlock.screen.BaseActivity",
+                    "btnSetHomeScreen"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/screen/BaseActivity$setWallPaper$1;->invoke()V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity$setWallPaper$1;->invoke()Ljava/lang/Object; <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->setWallPaper(I)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->showOptionDialog$lambda$4$lambda$3(Lcom/lutech/doorlock/screen/BaseActivity;Landroid/view/View;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->$r8$lambda$McdnRMSp2utv-6aPf9ZHndM2EXw(Lcom/lutech/doorlock/screen/BaseActivity;Landroid/view/View;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity$$ExternalSyntheticLambda2;->onClick(Landroid/view/View;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->showOptionDialog()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.net.conn.CONNECTIVITY_CHANGE",
+                    "start-activity -a"
+                ],
+                [
+                    "com.lutech.doorlock.screen.BaseActivity",
+                    "btnSetBothScreen"
+                ]
+            ]
+        }
+    },
+    "Lcom/lutech/doorlock/screen/setwallpaper/SetSuccessfullyWallpaperActivity;->handleEvents()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/screen/setwallpaper/SetSuccessfullyWallpaperActivity$$ExternalSyntheticLambda0;->onClick(Landroid/view/View;)V <",
+                "> Lcom/lutech/doorlock/screen/setwallpaper/SetSuccessfullyWallpaperActivity;->handleEvents()V <",
+                "> Lcom/lutech/doorlock/screen/setwallpaper/SetSuccessfullyWallpaperActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->goToSuccessScreen(I)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->access$goToSuccessScreen(Lcom/lutech/doorlock/screen/BaseActivity;I)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity$setWallPaper$1;->invoke()V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity$setWallPaper$1;->invoke()Ljava/lang/Object; <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->setWallPaper(I)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->showOptionDialog$lambda$4$lambda$1(Lcom/lutech/doorlock/screen/BaseActivity;Landroid/view/View;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->$r8$lambda$QOiySeIu8AWvE-CkVyr6F7M22Io(Lcom/lutech/doorlock/screen/BaseActivity;Landroid/view/View;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity$$ExternalSyntheticLambda0;->onClick(Landroid/view/View;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->showOptionDialog()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.net.conn.CONNECTIVITY_CHANGE",
+                    "start-activity -a"
+                ],
+                [
+                    "com.lutech.doorlock.screen.BaseActivity",
+                    "btnSetHomeScreen"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/screen/setwallpaper/SetSuccessfullyWallpaperActivity$$ExternalSyntheticLambda0;->onClick(Landroid/view/View;)V <",
+                "> Lcom/lutech/doorlock/screen/setwallpaper/SetSuccessfullyWallpaperActivity;->handleEvents()V <",
+                "> Lcom/lutech/doorlock/screen/setwallpaper/SetSuccessfullyWallpaperActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->goToSuccessScreen(I)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->access$goToSuccessScreen(Lcom/lutech/doorlock/screen/BaseActivity;I)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity$setWallPaper$1;->invoke()V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity$setWallPaper$1;->invoke()Ljava/lang/Object; <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->setWallPaper(I)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->showOptionDialog$lambda$4$lambda$3(Lcom/lutech/doorlock/screen/BaseActivity;Landroid/view/View;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->$r8$lambda$McdnRMSp2utv-6aPf9ZHndM2EXw(Lcom/lutech/doorlock/screen/BaseActivity;Landroid/view/View;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity$$ExternalSyntheticLambda2;->onClick(Landroid/view/View;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->showOptionDialog()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.net.conn.CONNECTIVITY_CHANGE",
+                    "start-activity -a"
+                ],
+                [
+                    "com.lutech.doorlock.screen.BaseActivity",
+                    "btnSetBothScreen"
+                ]
+            ]
+        },
+        "path_6": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/screen/setwallpaper/SetSuccessfullyWallpaperActivity;->handleEvents()V <",
+                "> Lcom/lutech/doorlock/screen/setwallpaper/SetSuccessfullyWallpaperActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->goToSuccessScreen(I)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->access$goToSuccessScreen(Lcom/lutech/doorlock/screen/BaseActivity;I)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity$setWallPaper$1;->invoke()V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity$setWallPaper$1;->invoke()Ljava/lang/Object; <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->setWallPaper(I)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->showOptionDialog$lambda$4$lambda$1(Lcom/lutech/doorlock/screen/BaseActivity;Landroid/view/View;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->$r8$lambda$QOiySeIu8AWvE-CkVyr6F7M22Io(Lcom/lutech/doorlock/screen/BaseActivity;Landroid/view/View;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity$$ExternalSyntheticLambda0;->onClick(Landroid/view/View;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->showOptionDialog()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.net.conn.CONNECTIVITY_CHANGE",
+                    "start-activity -a"
+                ],
+                [
+                    "com.lutech.doorlock.screen.BaseActivity",
+                    "btnSetHomeScreen"
+                ]
+            ]
+        },
+        "path_7": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/screen/setwallpaper/SetSuccessfullyWallpaperActivity;->handleEvents()V <",
+                "> Lcom/lutech/doorlock/screen/setwallpaper/SetSuccessfullyWallpaperActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->goToSuccessScreen(I)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->access$goToSuccessScreen(Lcom/lutech/doorlock/screen/BaseActivity;I)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity$setWallPaper$1;->invoke()V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity$setWallPaper$1;->invoke()Ljava/lang/Object; <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->setWallPaper(I)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->showOptionDialog$lambda$4$lambda$3(Lcom/lutech/doorlock/screen/BaseActivity;Landroid/view/View;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->$r8$lambda$McdnRMSp2utv-6aPf9ZHndM2EXw(Lcom/lutech/doorlock/screen/BaseActivity;Landroid/view/View;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity$$ExternalSyntheticLambda2;->onClick(Landroid/view/View;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->showOptionDialog()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.net.conn.CONNECTIVITY_CHANGE",
+                    "start-activity -a"
+                ],
+                [
+                    "com.lutech.doorlock.screen.BaseActivity",
+                    "btnSetBothScreen"
+                ]
+            ]
+        }
+    },
+    "Lcom/lutech/doorlock/widget/dialog/LoadingAdsDialog;->show()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->onWaitAds()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.net.conn.CONNECTIVITY_CHANGE",
+                    "start-activity -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/lutech/doorlock/screen/premium/PremiumActivity;->setPrice(Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->setPrice(Ljava/lang/String;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->getPriceProduct$lambda$3$lambda$2(Ljava/util/List;Lcom/lutech/doorlock/screen/premium/PremiumActivity;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->$r8$lambda$ycuofWsPv6oMYD2xMfMkHFmvTIQ(Ljava/util/List;Lcom/lutech/doorlock/screen/premium/PremiumActivity;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity$$ExternalSyntheticLambda1;->run()V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->getPriceProduct$lambda$3(Lcom/lutech/doorlock/screen/premium/PremiumActivity;Lcom/android/billingclient/api/BillingResult;Ljava/util/List;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->$r8$lambda$XjQohkwbcLIYIjkbWM58BUFQAq8(Lcom/lutech/doorlock/screen/premium/PremiumActivity;Lcom/android/billingclient/api/BillingResult;Ljava/util/List;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity$$ExternalSyntheticLambda6;->onProductDetailsResponse(Lcom/android/billingclient/api/BillingResult;Ljava/util/List;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->getPriceProduct()V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->access$getPriceProduct(Lcom/lutech/doorlock/screen/premium/PremiumActivity;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity$setupBillingClient$1;->onBillingSetupFinished$lambda$0(Lcom/lutech/doorlock/screen/premium/PremiumActivity;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity$setupBillingClient$1;->$r8$lambda$jERsGHza27JF_0scAXYxo-aWwz0(Lcom/lutech/doorlock/screen/premium/PremiumActivity;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity$setupBillingClient$1$$ExternalSyntheticLambda0;->run()V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity$setupBillingClient$1;->onBillingSetupFinished(Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->setupBillingClient()V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->initData()V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->gotoPremiumScreen()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.net.conn.CONNECTIVITY_CHANGE",
+                    "start-activity -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/lutech/doorlock/screen/premium/PremiumActivity;->initData()V": {
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->initData()V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->gotoPremiumScreen()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.net.conn.CONNECTIVITY_CHANGE",
+                    "start-activity -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/lutech/doorlock/screen/premium/PremiumActivity;->handleEvents()V": {
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->handleEvents()V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->gotoPremiumScreen()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.net.conn.CONNECTIVITY_CHANGE",
+                    "start-activity -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/lutech/doorlock/extension/ContextKt;->downloadImage(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/lutech/doorlock/callback/DownloadListener;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/extension/ContextKt;->downloadImage(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/lutech/doorlock/callback/DownloadListener;)V <",
+                "> Lcom/lutech/doorlock/screen/splash/SplashActivity;->downloadImageFirstData()V <",
+                "> Lcom/lutech/doorlock/screen/splash/SplashActivity;->loadDataRemoteConfig()V <",
+                "> Lcom/lutech/doorlock/screen/splash/SplashActivity;->access$loadDataRemoteConfig(Lcom/lutech/doorlock/screen/splash/SplashActivity;)V <",
+                "> Lcom/lutech/doorlock/screen/splash/SplashActivity$onCreate$1;->invoke$lambda$0(Lcom/lutech/doorlock/screen/splash/SplashActivity;Lcom/google/android/gms/tasks/Task;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/extension/ContextKt;->downloadImage(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/lutech/doorlock/callback/DownloadListener;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseDownloadActivity;->downloadImage(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V <",
+                "> Lcom/lutech/doorlock/screen/wallpaper/PreviewWallpaperActivity;->applyWallpaper()V <",
+                "> Lcom/lutech/doorlock/screen/wallpaper/PreviewWallpaperActivity;->onRewardAdDismissed()V <",
+                "> Lcom/lutech/doorlock/screen/wallpaper/WallpaperActivity;->onItemClick(I)V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->onNavigationItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->handlePurchase$lambda$6(Lcom/lutech/doorlock/screen/premium/PremiumActivity;Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->$r8$lambda$hEUmhg9aVFubI89-sRBIVzxLGoM(Lcom/lutech/doorlock/screen/premium/PremiumActivity;Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity$$ExternalSyntheticLambda5;->onAcknowledgePurchaseResponse(Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->handlePurchase(Ljava/util/List;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->onPurchasesUpdated(Lcom/android/billingclient/api/BillingResult;Ljava/util/List;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->gotoPremiumScreen()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.net.conn.CONNECTIVITY_CHANGE",
+                    "start-activity -a"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.lutech.doorlock.screen.home.MainActivity",
+                    "nav_door_themes",
+                    "Wallpaper"
+                ]
+            ]
+        }
+    },
+    "Lcom/lutech/doorlock/screen/customize/CustomizeActivity;->initView()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/screen/customize/CustomizeActivity;->initView()V <",
+                "> Lcom/lutech/doorlock/screen/customize/CustomizeActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/screen/customize/CustomizeZipperLockActivity;->onResultPath(Ljava/lang/String;)V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity$handleEvents$7;->invoke()V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity$handleEvents$7;->invoke()Ljava/lang/Object; <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->handleEvents()V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/screen/splash/SplashActivity;->gotoNextScreen()V <",
+                "> Lcom/lutech/doorlock/screen/splash/SplashActivity;->onAdDismissed()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/screen/customize/CustomizeActivity;->initView()V <",
+                "> Lcom/lutech/doorlock/screen/customize/CustomizeActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/screen/customize/CustomizeZipperLockActivity;->onResultPath(Ljava/lang/String;)V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity$handleEvents$7;->invoke()V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity$handleEvents$7;->invoke()Ljava/lang/Object; <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->handleEvents()V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->handlePurchase$lambda$6(Lcom/lutech/doorlock/screen/premium/PremiumActivity;Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->$r8$lambda$hEUmhg9aVFubI89-sRBIVzxLGoM(Lcom/lutech/doorlock/screen/premium/PremiumActivity;Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity$$ExternalSyntheticLambda5;->onAcknowledgePurchaseResponse(Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->handlePurchase(Ljava/util/List;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->onPurchasesUpdated(Lcom/android/billingclient/api/BillingResult;Ljava/util/List;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->gotoPremiumScreen()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.net.conn.CONNECTIVITY_CHANGE",
+                    "start-activity -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/lutech/doorlock/widget/dialog/DialogPreview;->initData()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/widget/dialog/DialogPreview;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->showPreviewDialog(Lkotlin/jvm/functions/Function0;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->showPreviewDialog$default(Lcom/lutech/doorlock/screen/BaseActivity;Lkotlin/jvm/functions/Function0;ILjava/lang/Object;)V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->initView()V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/screen/splash/SplashActivity;->gotoNextScreen()V <",
+                "> Lcom/lutech/doorlock/screen/splash/SplashActivity;->onAdDismissed()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/widget/dialog/DialogPreview;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->showPreviewDialog(Lkotlin/jvm/functions/Function0;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->showPreviewDialog$default(Lcom/lutech/doorlock/screen/BaseActivity;Lkotlin/jvm/functions/Function0;ILjava/lang/Object;)V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->initView()V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->handlePurchase$lambda$6(Lcom/lutech/doorlock/screen/premium/PremiumActivity;Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->$r8$lambda$hEUmhg9aVFubI89-sRBIVzxLGoM(Lcom/lutech/doorlock/screen/premium/PremiumActivity;Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity$$ExternalSyntheticLambda5;->onAcknowledgePurchaseResponse(Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->handlePurchase(Ljava/util/List;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->onPurchasesUpdated(Lcom/android/billingclient/api/BillingResult;Ljava/util/List;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->gotoPremiumScreen()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.net.conn.CONNECTIVITY_CHANGE",
+                    "start-activity -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/lutech/doorlock/screen/feedback/FeedbackActivity;->handleEvents()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/screen/feedback/FeedbackActivity;->$r8$lambda$VxwQYyj_qKxi9DSywMTWoSv360g(Lcom/lutech/doorlock/screen/feedback/FeedbackActivity;Landroid/view/View;)V <",
+                "> Lcom/lutech/doorlock/screen/feedback/FeedbackActivity$$ExternalSyntheticLambda1;->onClick(Landroid/view/View;)V <",
+                "> Lcom/lutech/doorlock/screen/feedback/FeedbackActivity;->handleEvents()V <",
+                "> Lcom/lutech/doorlock/screen/feedback/FeedbackActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/extension/DialogKt;->showRatingDialog$lambda$4(Landroid/app/Dialog;Landroidx/appcompat/app/AppCompatActivity;Landroid/view/View;)V <",
+                "> Lcom/lutech/doorlock/extension/DialogKt;->$r8$lambda$7o0lAO9rquEsCQ5bfJHbH6qaATs(Landroid/app/Dialog;Landroidx/appcompat/app/AppCompatActivity;Landroid/view/View;)V <",
+                "> Lcom/lutech/doorlock/extension/DialogKt$$ExternalSyntheticLambda4;->onClick(Landroid/view/View;)V <",
+                "> Lcom/lutech/doorlock/extension/DialogKt;->showRatingDialog(Landroidx/appcompat/app/AppCompatActivity;)V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->initView()V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/screen/splash/SplashActivity;->gotoNextScreen()V <",
+                "> Lcom/lutech/doorlock/screen/splash/SplashActivity;->onAdDismissed()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.lutech.doorlock.screen.home.MainActivity",
+                    "btnMaybeLater"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/screen/feedback/FeedbackActivity;->$r8$lambda$VxwQYyj_qKxi9DSywMTWoSv360g(Lcom/lutech/doorlock/screen/feedback/FeedbackActivity;Landroid/view/View;)V <",
+                "> Lcom/lutech/doorlock/screen/feedback/FeedbackActivity$$ExternalSyntheticLambda1;->onClick(Landroid/view/View;)V <",
+                "> Lcom/lutech/doorlock/screen/feedback/FeedbackActivity;->handleEvents()V <",
+                "> Lcom/lutech/doorlock/screen/feedback/FeedbackActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/extension/DialogKt;->showRatingDialog$lambda$4(Landroid/app/Dialog;Landroidx/appcompat/app/AppCompatActivity;Landroid/view/View;)V <",
+                "> Lcom/lutech/doorlock/extension/DialogKt;->$r8$lambda$7o0lAO9rquEsCQ5bfJHbH6qaATs(Landroid/app/Dialog;Landroidx/appcompat/app/AppCompatActivity;Landroid/view/View;)V <",
+                "> Lcom/lutech/doorlock/extension/DialogKt$$ExternalSyntheticLambda4;->onClick(Landroid/view/View;)V <",
+                "> Lcom/lutech/doorlock/extension/DialogKt;->showRatingDialog(Landroidx/appcompat/app/AppCompatActivity;)V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->initView()V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->handlePurchase$lambda$6(Lcom/lutech/doorlock/screen/premium/PremiumActivity;Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->$r8$lambda$hEUmhg9aVFubI89-sRBIVzxLGoM(Lcom/lutech/doorlock/screen/premium/PremiumActivity;Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity$$ExternalSyntheticLambda5;->onAcknowledgePurchaseResponse(Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->handlePurchase(Ljava/util/List;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->onPurchasesUpdated(Lcom/android/billingclient/api/BillingResult;Ljava/util/List;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->gotoPremiumScreen()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.net.conn.CONNECTIVITY_CHANGE",
+                    "start-activity -a"
+                ],
+                [
+                    "com.lutech.doorlock.screen.home.MainActivity",
+                    "btnMaybeLater"
+                ]
+            ]
+        }
+    },
+    "Lcom/lutech/doorlock/ads/AdsManager;->setIsShowSplashAds(Z)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/screen/splash/SplashActivity;->loadDataRemoteConfig()V <",
+                "> Lcom/lutech/doorlock/screen/splash/SplashActivity;->access$loadDataRemoteConfig(Lcom/lutech/doorlock/screen/splash/SplashActivity;)V <",
+                "> Lcom/lutech/doorlock/screen/splash/SplashActivity$onCreate$1;->invoke$lambda$0(Lcom/lutech/doorlock/screen/splash/SplashActivity;Lcom/google/android/gms/tasks/Task;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/lutech/doorlock/screen/wallpaper/WallpaperSuccessActivity;->handleEvents()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/screen/wallpaper/WallpaperSuccessActivity$$ExternalSyntheticLambda1;->onClick(Landroid/view/View;)V <",
+                "> Lcom/lutech/doorlock/screen/wallpaper/WallpaperSuccessActivity;->handleEvents()V <",
+                "> Lcom/lutech/doorlock/screen/wallpaper/WallpaperSuccessActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/screen/wallpaper/PreviewWallpaperActivity;->gotoNextScreen()V <",
+                "> Lcom/lutech/doorlock/screen/wallpaper/PreviewWallpaperActivity;->imageDownloaded(Ljava/lang/String;)V <",
+                "> Lcom/lutech/doorlock/screen/wallpaper/WallpaperActivity;->onItemClick(I)V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->onNavigationItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/lutech/doorlock/screen/splash/SplashActivity;->gotoNextScreen()V <",
+                "> Lcom/lutech/doorlock/screen/splash/SplashActivity;->onAdDismissed()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.lutech.doorlock.screen.home.MainActivity",
+                    "nav_door_themes",
+                    "Wallpaper"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/screen/wallpaper/WallpaperSuccessActivity$$ExternalSyntheticLambda1;->onClick(Landroid/view/View;)V <",
+                "> Lcom/lutech/doorlock/screen/wallpaper/WallpaperSuccessActivity;->handleEvents()V <",
+                "> Lcom/lutech/doorlock/screen/wallpaper/WallpaperSuccessActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/screen/wallpaper/PreviewWallpaperActivity;->gotoNextScreen()V <",
+                "> Lcom/lutech/doorlock/screen/wallpaper/PreviewWallpaperActivity;->imageDownloaded(Ljava/lang/String;)V <",
+                "> Lcom/lutech/doorlock/screen/wallpaper/WallpaperActivity;->onItemClick(I)V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->onNavigationItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->handlePurchase$lambda$6(Lcom/lutech/doorlock/screen/premium/PremiumActivity;Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->$r8$lambda$hEUmhg9aVFubI89-sRBIVzxLGoM(Lcom/lutech/doorlock/screen/premium/PremiumActivity;Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity$$ExternalSyntheticLambda5;->onAcknowledgePurchaseResponse(Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->handlePurchase(Ljava/util/List;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->onPurchasesUpdated(Lcom/android/billingclient/api/BillingResult;Ljava/util/List;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->gotoPremiumScreen()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.net.conn.CONNECTIVITY_CHANGE",
+                    "start-activity -a"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.lutech.doorlock.screen.home.MainActivity",
+                    "nav_door_themes",
+                    "Wallpaper"
+                ]
+            ]
+        }
+    },
+    "Lcom/lutech/doorlock/screen/customize/CustomizeZipperLockActivity;->handleEvents()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/screen/customize/CustomizeZipperLockActivity;->handleEvents()V <",
+                "> Lcom/lutech/doorlock/screen/customize/CustomizeZipperLockActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity$handleEvents$7;->invoke()V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity$handleEvents$7;->invoke()Ljava/lang/Object; <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->handleEvents()V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/screen/splash/SplashActivity;->gotoNextScreen()V <",
+                "> Lcom/lutech/doorlock/screen/splash/SplashActivity;->onAdDismissed()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/screen/customize/CustomizeZipperLockActivity;->handleEvents()V <",
+                "> Lcom/lutech/doorlock/screen/customize/CustomizeZipperLockActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity$handleEvents$7;->invoke()V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity$handleEvents$7;->invoke()Ljava/lang/Object; <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->handleEvents()V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->handlePurchase$lambda$6(Lcom/lutech/doorlock/screen/premium/PremiumActivity;Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->$r8$lambda$hEUmhg9aVFubI89-sRBIVzxLGoM(Lcom/lutech/doorlock/screen/premium/PremiumActivity;Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity$$ExternalSyntheticLambda5;->onAcknowledgePurchaseResponse(Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->handlePurchase(Ljava/util/List;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->onPurchasesUpdated(Lcom/android/billingclient/api/BillingResult;Ljava/util/List;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->gotoPremiumScreen()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.net.conn.CONNECTIVITY_CHANGE",
+                    "start-activity -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/lutech/doorlock/service/LockScreenService;->scrollItem(FZ)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/service/LockScreenService;->scrollItem$default(Lcom/lutech/doorlock/service/LockScreenService;FZILjava/lang/Object;)V <",
+                "> Lcom/lutech/doorlock/service/LockScreenService$autoScroll$1;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/lutech/doorlock/service/LockScreenService$autoScroll$1;->invoke(Lkotlinx/coroutines/CoroutineScope;Lkotlin/coroutines/Continuation;)Ljava/lang/Object; <",
+                "> Lcom/lutech/doorlock/service/LockScreenService$autoScroll$1;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/lutech/doorlock/service/LockScreenService;->autoScroll()V <",
+                "> Lcom/lutech/doorlock/service/LockScreenService;->handleEvents$lambda$1(Lcom/lutech/doorlock/service/LockScreenService;ILandroid/view/View;Landroid/view/MotionEvent;)Z <",
+                "> Lcom/lutech/doorlock/service/LockScreenService;->$r8$lambda$TMeUD8e0o2GYcecG-Tfx3ouvnqI(Lcom/lutech/doorlock/service/LockScreenService;ILandroid/view/View;Landroid/view/MotionEvent;)Z <",
+                "> Lcom/lutech/doorlock/service/LockScreenService$$ExternalSyntheticLambda0;->onTouch(Landroid/view/View;Landroid/view/MotionEvent;)Z <",
+                "> Lcom/lutech/doorlock/service/LockScreenService;->handleEvents()V <",
+                "> Lcom/lutech/doorlock/service/LockScreenService;->showLockScreen()V <",
+                "> Lcom/lutech/doorlock/service/LockScreenService;->access$showLockScreen(Lcom/lutech/doorlock/service/LockScreenService;)V <",
+                "> Lcom/lutech/doorlock/service/LockScreenService$mStatusScreenReceiver$1;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.SCREEN_ON",
+                    "broadcast -a"
+                ],
+                [
+                    "com.lutech.doorlock.service.LockScreenService",
+                    "viewControl"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/service/LockScreenService;->scrollItem$default(Lcom/lutech/doorlock/service/LockScreenService;FZILjava/lang/Object;)V <",
+                "> Lcom/lutech/doorlock/ads/MyApplication$Companion;->startService(Ljava/lang/Class;Landroid/content/Context;)V <",
+                "> Lcom/lutech/doorlock/ads/MyApplication$Companion;->startMyService(Landroid/content/Context;Ljava/lang/Class;)V <",
+                "> Lcom/lutech/doorlock/ads/MyApplication$Companion;->startMyService$default(Lcom/lutech/doorlock/ads/MyApplication$Companion;Landroid/content/Context;Ljava/lang/Class;ILjava/lang/Object;)V <",
+                "> Lcom/lutech/doorlock/ads/MyApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/service/LockScreenService;->scrollItem$default(Lcom/lutech/doorlock/service/LockScreenService;FZILjava/lang/Object;)V <",
+                "> Lcom/lutech/doorlock/ads/MyApplication$Companion;->startService(Ljava/lang/Class;Landroid/content/Context;)V <",
+                "> Lcom/lutech/doorlock/ads/MyApplication$Companion;->startMyService(Landroid/content/Context;Ljava/lang/Class;)V <",
+                "> Lcom/lutech/doorlock/ads/MyApplication$Companion;->startMyService$default(Lcom/lutech/doorlock/ads/MyApplication$Companion;Landroid/content/Context;Ljava/lang/Class;ILjava/lang/Object;)V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->onResume()V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->handlePurchase$lambda$6(Lcom/lutech/doorlock/screen/premium/PremiumActivity;Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->$r8$lambda$hEUmhg9aVFubI89-sRBIVzxLGoM(Lcom/lutech/doorlock/screen/premium/PremiumActivity;Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity$$ExternalSyntheticLambda5;->onAcknowledgePurchaseResponse(Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->handlePurchase(Ljava/util/List;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->onPurchasesUpdated(Lcom/android/billingclient/api/BillingResult;Ljava/util/List;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->gotoPremiumScreen()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.net.conn.CONNECTIVITY_CHANGE",
+                    "start-activity -a"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/service/LockScreenService;->handleEvents$lambda$1(Lcom/lutech/doorlock/service/LockScreenService;ILandroid/view/View;Landroid/view/MotionEvent;)Z <",
+                "> Lcom/lutech/doorlock/service/LockScreenService;->$r8$lambda$TMeUD8e0o2GYcecG-Tfx3ouvnqI(Lcom/lutech/doorlock/service/LockScreenService;ILandroid/view/View;Landroid/view/MotionEvent;)Z <",
+                "> Lcom/lutech/doorlock/service/LockScreenService$$ExternalSyntheticLambda0;->onTouch(Landroid/view/View;Landroid/view/MotionEvent;)Z <",
+                "> Lcom/lutech/doorlock/service/LockScreenService;->handleEvents()V <",
+                "> Lcom/lutech/doorlock/service/LockScreenService;->showLockScreen()V <",
+                "> Lcom/lutech/doorlock/service/LockScreenService;->access$showLockScreen(Lcom/lutech/doorlock/service/LockScreenService;)V <",
+                "> Lcom/lutech/doorlock/service/LockScreenService$mStatusScreenReceiver$1;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.SCREEN_ON",
+                    "broadcast -a"
+                ],
+                [
+                    "com.lutech.doorlock.service.LockScreenService",
+                    "viewControl"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/service/LockScreenService;->handleEvents$lambda$1(Lcom/lutech/doorlock/service/LockScreenService;ILandroid/view/View;Landroid/view/MotionEvent;)Z <",
+                "> Lcom/lutech/doorlock/ads/MyApplication$Companion;->startService(Ljava/lang/Class;Landroid/content/Context;)V <",
+                "> Lcom/lutech/doorlock/ads/MyApplication$Companion;->startMyService(Landroid/content/Context;Ljava/lang/Class;)V <",
+                "> Lcom/lutech/doorlock/ads/MyApplication$Companion;->startMyService$default(Lcom/lutech/doorlock/ads/MyApplication$Companion;Landroid/content/Context;Ljava/lang/Class;ILjava/lang/Object;)V <",
+                "> Lcom/lutech/doorlock/ads/MyApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_5": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/service/LockScreenService;->handleEvents$lambda$1(Lcom/lutech/doorlock/service/LockScreenService;ILandroid/view/View;Landroid/view/MotionEvent;)Z <",
+                "> Lcom/lutech/doorlock/ads/MyApplication$Companion;->startService(Ljava/lang/Class;Landroid/content/Context;)V <",
+                "> Lcom/lutech/doorlock/ads/MyApplication$Companion;->startMyService(Landroid/content/Context;Ljava/lang/Class;)V <",
+                "> Lcom/lutech/doorlock/ads/MyApplication$Companion;->startMyService$default(Lcom/lutech/doorlock/ads/MyApplication$Companion;Landroid/content/Context;Ljava/lang/Class;ILjava/lang/Object;)V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->onResume()V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->handlePurchase$lambda$6(Lcom/lutech/doorlock/screen/premium/PremiumActivity;Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->$r8$lambda$hEUmhg9aVFubI89-sRBIVzxLGoM(Lcom/lutech/doorlock/screen/premium/PremiumActivity;Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity$$ExternalSyntheticLambda5;->onAcknowledgePurchaseResponse(Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->handlePurchase(Ljava/util/List;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->onPurchasesUpdated(Lcom/android/billingclient/api/BillingResult;Ljava/util/List;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->gotoPremiumScreen()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.net.conn.CONNECTIVITY_CHANGE",
+                    "start-activity -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/lutech/doorlock/utils/Utils;->loadNativeAds(Landroid/content/Context;Lcom/lutech/doorlock/ads/TemplateView;IZ)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/ads/NativeTemplateStyle$Builder;->withPrimaryTextBackgroundColor(Landroid/graphics/drawable/ColorDrawable;)Lcom/lutech/doorlock/ads/NativeTemplateStyle$Builder; <",
+                "> Lcom/lutech/doorlock/utils/Utils;->loadNativeAds$lambda$1(Lcom/lutech/doorlock/ads/TemplateView;Landroid/content/Context;Lcom/google/android/gms/ads/nativead/NativeAd;)V <",
+                "> Lcom/lutech/doorlock/utils/Utils;->$r8$lambda$K958hjsCy-PJRmEm4_OLmsh7dQs(Lcom/lutech/doorlock/ads/TemplateView;Landroid/content/Context;Lcom/google/android/gms/ads/nativead/NativeAd;)V <",
+                "> Lcom/lutech/doorlock/utils/Utils$$ExternalSyntheticLambda0;->onNativeAdLoaded(Lcom/google/android/gms/ads/nativead/NativeAd;)V <",
+                "> Lcom/lutech/doorlock/utils/Utils;->loadNativeAds(Landroid/content/Context;Lcom/lutech/doorlock/ads/TemplateView;IZ)V <",
+                "> Lcom/lutech/doorlock/screen/language/LanguageActivity;->loadAds()V <",
+                "> Lcom/lutech/doorlock/screen/language/LanguageActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/screen/splash/SplashActivity;->gotoNextScreen()V <",
+                "> Lcom/lutech/doorlock/screen/splash/SplashActivity;->onAdDismissed()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/ads/NativeTemplateStyle$Builder;->withPrimaryTextBackgroundColor(Landroid/graphics/drawable/ColorDrawable;)Lcom/lutech/doorlock/ads/NativeTemplateStyle$Builder; <",
+                "> Lcom/lutech/doorlock/utils/Utils;->loadNativeAds$lambda$1(Lcom/lutech/doorlock/ads/TemplateView;Landroid/content/Context;Lcom/google/android/gms/ads/nativead/NativeAd;)V <",
+                "> Lcom/lutech/doorlock/utils/Utils;->$r8$lambda$K958hjsCy-PJRmEm4_OLmsh7dQs(Lcom/lutech/doorlock/ads/TemplateView;Landroid/content/Context;Lcom/google/android/gms/ads/nativead/NativeAd;)V <",
+                "> Lcom/lutech/doorlock/utils/Utils$$ExternalSyntheticLambda0;->onNativeAdLoaded(Lcom/google/android/gms/ads/nativead/NativeAd;)V <",
+                "> Lcom/lutech/doorlock/utils/Utils;->loadNativeAds(Landroid/content/Context;Lcom/lutech/doorlock/ads/TemplateView;IZ)V <",
+                "> Lcom/lutech/doorlock/screen/wallpaper/WallpaperActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->onNavigationItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/lutech/doorlock/screen/splash/SplashActivity;->gotoNextScreen()V <",
+                "> Lcom/lutech/doorlock/screen/splash/SplashActivity;->onAdDismissed()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.lutech.doorlock.screen.home.MainActivity",
+                    "nav_door_themes",
+                    "Wallpaper"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/ads/NativeTemplateStyle$Builder;->withPrimaryTextBackgroundColor(Landroid/graphics/drawable/ColorDrawable;)Lcom/lutech/doorlock/ads/NativeTemplateStyle$Builder; <",
+                "> Lcom/lutech/doorlock/utils/Utils;->loadNativeAds$lambda$1(Lcom/lutech/doorlock/ads/TemplateView;Landroid/content/Context;Lcom/google/android/gms/ads/nativead/NativeAd;)V <",
+                "> Lcom/lutech/doorlock/utils/Utils;->$r8$lambda$K958hjsCy-PJRmEm4_OLmsh7dQs(Lcom/lutech/doorlock/ads/TemplateView;Landroid/content/Context;Lcom/google/android/gms/ads/nativead/NativeAd;)V <",
+                "> Lcom/lutech/doorlock/utils/Utils$$ExternalSyntheticLambda0;->onNativeAdLoaded(Lcom/google/android/gms/ads/nativead/NativeAd;)V <",
+                "> Lcom/lutech/doorlock/utils/Utils;->loadNativeAds(Landroid/content/Context;Lcom/lutech/doorlock/ads/TemplateView;IZ)V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->loadNativeAds()V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->handlePurchase$lambda$6(Lcom/lutech/doorlock/screen/premium/PremiumActivity;Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->$r8$lambda$hEUmhg9aVFubI89-sRBIVzxLGoM(Lcom/lutech/doorlock/screen/premium/PremiumActivity;Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity$$ExternalSyntheticLambda5;->onAcknowledgePurchaseResponse(Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->handlePurchase(Ljava/util/List;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->onPurchasesUpdated(Lcom/android/billingclient/api/BillingResult;Ljava/util/List;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->gotoPremiumScreen()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.net.conn.CONNECTIVITY_CHANGE",
+                    "start-activity -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/lutech/doorlock/screen/customize/CustomizeActivity;->loadImage(Landroid/widget/ImageView;Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/screen/customize/CustomizeActivity;->loadImage(Landroid/widget/ImageView;Ljava/lang/String;)V <",
+                "> Lcom/lutech/doorlock/screen/customize/CustomizeActivity;->onResultPath(Ljava/lang/String;)V <",
+                "> Lcom/lutech/doorlock/screen/customize/CustomizeZipperLockActivity;->onResultPath(Ljava/lang/String;)V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity$handleEvents$7;->invoke()V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity$handleEvents$7;->invoke()Ljava/lang/Object; <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->handleEvents()V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/screen/splash/SplashActivity;->gotoNextScreen()V <",
+                "> Lcom/lutech/doorlock/screen/splash/SplashActivity;->onAdDismissed()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/screen/customize/CustomizeActivity;->loadImage(Landroid/widget/ImageView;Ljava/lang/String;)V <",
+                "> Lcom/lutech/doorlock/screen/customize/CustomizeActivity;->onResultPath(Ljava/lang/String;)V <",
+                "> Lcom/lutech/doorlock/screen/customize/CustomizeZipperLockActivity;->onResultPath(Ljava/lang/String;)V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity$handleEvents$7;->invoke()V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity$handleEvents$7;->invoke()Ljava/lang/Object; <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->handleEvents()V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->handlePurchase$lambda$6(Lcom/lutech/doorlock/screen/premium/PremiumActivity;Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->$r8$lambda$hEUmhg9aVFubI89-sRBIVzxLGoM(Lcom/lutech/doorlock/screen/premium/PremiumActivity;Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity$$ExternalSyntheticLambda5;->onAcknowledgePurchaseResponse(Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->handlePurchase(Ljava/util/List;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->onPurchasesUpdated(Lcom/android/billingclient/api/BillingResult;Ljava/util/List;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->gotoPremiumScreen()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.net.conn.CONNECTIVITY_CHANGE",
+                    "start-activity -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/lutech/doorlock/screen/home/MainActivity;->handleEvents()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/screen/home/MainActivity$$ExternalSyntheticLambda5;->onCheckedChanged(Landroid/widget/CompoundButton;Z)V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->handleEvents()V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/screen/splash/SplashActivity;->gotoNextScreen()V <",
+                "> Lcom/lutech/doorlock/screen/splash/SplashActivity;->onAdDismissed()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/screen/home/MainActivity$$ExternalSyntheticLambda5;->onCheckedChanged(Landroid/widget/CompoundButton;Z)V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->handleEvents()V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->handlePurchase$lambda$6(Lcom/lutech/doorlock/screen/premium/PremiumActivity;Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->$r8$lambda$hEUmhg9aVFubI89-sRBIVzxLGoM(Lcom/lutech/doorlock/screen/premium/PremiumActivity;Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity$$ExternalSyntheticLambda5;->onAcknowledgePurchaseResponse(Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->handlePurchase(Ljava/util/List;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->onPurchasesUpdated(Lcom/android/billingclient/api/BillingResult;Ljava/util/List;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->gotoPremiumScreen()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.net.conn.CONNECTIVITY_CHANGE",
+                    "start-activity -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/lutech/doorlock/service/LockScreenService;->loadAnimation(Ljava/io/File;Lcom/airbnb/lottie/LottieAnimationView;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/service/LockScreenService$$ExternalSyntheticLambda1;->onResult(Ljava/lang/Object;)V <",
+                "> Lcom/lutech/doorlock/service/LockScreenService;->loadAnimation(Ljava/io/File;Lcom/airbnb/lottie/LottieAnimationView;)V <",
+                "> Lcom/lutech/doorlock/service/LockScreenService;->setRowPath()V <",
+                "> Lcom/lutech/doorlock/service/LockScreenService;->initView()V <",
+                "> Lcom/lutech/doorlock/service/LockScreenService;->showLockScreen()V <",
+                "> Lcom/lutech/doorlock/service/LockScreenService;->access$showLockScreen(Lcom/lutech/doorlock/service/LockScreenService;)V <",
+                "> Lcom/lutech/doorlock/service/LockScreenService$mStatusScreenReceiver$1;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.SCREEN_ON",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/service/LockScreenService$$ExternalSyntheticLambda1;->onResult(Ljava/lang/Object;)V <",
+                "> Lcom/lutech/doorlock/service/LockScreenService;->loadAnimation(Ljava/io/File;Lcom/airbnb/lottie/LottieAnimationView;)V <",
+                "> Lcom/lutech/doorlock/service/LockScreenService;->setZipperPath()V <",
+                "> Lcom/lutech/doorlock/service/LockScreenService;->initView()V <",
+                "> Lcom/lutech/doorlock/service/LockScreenService;->showLockScreen()V <",
+                "> Lcom/lutech/doorlock/service/LockScreenService;->access$showLockScreen(Lcom/lutech/doorlock/service/LockScreenService;)V <",
+                "> Lcom/lutech/doorlock/service/LockScreenService$mStatusScreenReceiver$1;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.SCREEN_ON",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/service/LockScreenService$$ExternalSyntheticLambda1;->onResult(Ljava/lang/Object;)V <",
+                "> Lcom/lutech/doorlock/service/LockScreenService;->loadAnimation(Ljava/io/File;Lcom/airbnb/lottie/LottieAnimationView;)V <",
+                "> Lcom/lutech/doorlock/ads/MyApplication$Companion;->startService(Ljava/lang/Class;Landroid/content/Context;)V <",
+                "> Lcom/lutech/doorlock/ads/MyApplication$Companion;->startMyService(Landroid/content/Context;Ljava/lang/Class;)V <",
+                "> Lcom/lutech/doorlock/ads/MyApplication$Companion;->startMyService$default(Lcom/lutech/doorlock/ads/MyApplication$Companion;Landroid/content/Context;Ljava/lang/Class;ILjava/lang/Object;)V <",
+                "> Lcom/lutech/doorlock/ads/MyApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/service/LockScreenService$$ExternalSyntheticLambda1;->onResult(Ljava/lang/Object;)V <",
+                "> Lcom/lutech/doorlock/service/LockScreenService;->loadAnimation(Ljava/io/File;Lcom/airbnb/lottie/LottieAnimationView;)V <",
+                "> Lcom/lutech/doorlock/ads/MyApplication$Companion;->startService(Ljava/lang/Class;Landroid/content/Context;)V <",
+                "> Lcom/lutech/doorlock/ads/MyApplication$Companion;->startMyService(Landroid/content/Context;Ljava/lang/Class;)V <",
+                "> Lcom/lutech/doorlock/ads/MyApplication$Companion;->startMyService$default(Lcom/lutech/doorlock/ads/MyApplication$Companion;Landroid/content/Context;Ljava/lang/Class;ILjava/lang/Object;)V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->onResume()V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->handlePurchase$lambda$6(Lcom/lutech/doorlock/screen/premium/PremiumActivity;Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->$r8$lambda$hEUmhg9aVFubI89-sRBIVzxLGoM(Lcom/lutech/doorlock/screen/premium/PremiumActivity;Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity$$ExternalSyntheticLambda5;->onAcknowledgePurchaseResponse(Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->handlePurchase(Ljava/util/List;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->onPurchasesUpdated(Lcom/android/billingclient/api/BillingResult;Ljava/util/List;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->gotoPremiumScreen()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.net.conn.CONNECTIVITY_CHANGE",
+                    "start-activity -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/lutech/doorlock/widget/dialog/DialogPreview;->setZipperPath()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/widget/dialog/DialogPreview;->initData()V <",
+                "> Lcom/lutech/doorlock/widget/dialog/DialogPreview;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->showPreviewDialog(Lkotlin/jvm/functions/Function0;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->showPreviewDialog$default(Lcom/lutech/doorlock/screen/BaseActivity;Lkotlin/jvm/functions/Function0;ILjava/lang/Object;)V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->initView()V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/screen/splash/SplashActivity;->gotoNextScreen()V <",
+                "> Lcom/lutech/doorlock/screen/splash/SplashActivity;->onAdDismissed()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/widget/dialog/DialogPreview;->initData()V <",
+                "> Lcom/lutech/doorlock/widget/dialog/DialogPreview;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->showPreviewDialog(Lkotlin/jvm/functions/Function0;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->showPreviewDialog$default(Lcom/lutech/doorlock/screen/BaseActivity;Lkotlin/jvm/functions/Function0;ILjava/lang/Object;)V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->initView()V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->handlePurchase$lambda$6(Lcom/lutech/doorlock/screen/premium/PremiumActivity;Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->$r8$lambda$hEUmhg9aVFubI89-sRBIVzxLGoM(Lcom/lutech/doorlock/screen/premium/PremiumActivity;Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity$$ExternalSyntheticLambda5;->onAcknowledgePurchaseResponse(Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->handlePurchase(Ljava/util/List;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->onPurchasesUpdated(Lcom/android/billingclient/api/BillingResult;Ljava/util/List;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->gotoPremiumScreen()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.net.conn.CONNECTIVITY_CHANGE",
+                    "start-activity -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/lutech/doorlock/ads/AppOpenManager;->isAdAvailable()Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/ads/AppOpenManager;->showAdIfAvailable()V <",
+                "> Lcom/lutech/doorlock/ads/WelcomeBackActivity;->onCreate$lambda$0()V <",
+                "> Lcom/lutech/doorlock/ads/WelcomeBackActivity;->$r8$lambda$1nEbALUap6AUNrNAjaGPFrDAfY4()V <",
+                "> Lcom/lutech/doorlock/ads/WelcomeBackActivity$$ExternalSyntheticLambda0;->run()V <",
+                "> Lcom/lutech/doorlock/ads/WelcomeBackActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/utils/Utils;->showWelcomeBackScreen(Landroid/app/Activity;)V <",
+                "> Lcom/lutech/doorlock/ads/AppOpenManager;->onActivityResumed(Landroid/app/Activity;)V <",
+                "> Lcom/lutech/doorlock/ads/MyApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/ads/AppOpenManager;->fetchAd()V <",
+                "> Lcom/lutech/doorlock/screen/splash/SplashActivity;->initData$lambda$3(Lcom/lutech/doorlock/screen/splash/SplashActivity;Lcom/google/android/gms/ads/initialization/InitializationStatus;)V <",
+                "> Lcom/lutech/doorlock/screen/splash/SplashActivity;->$r8$lambda$BiAk6wmwqoHY32y6LYdaWl9vEWA(Lcom/lutech/doorlock/screen/splash/SplashActivity;Lcom/google/android/gms/ads/initialization/InitializationStatus;)V <",
+                "> Lcom/lutech/doorlock/screen/splash/SplashActivity$$ExternalSyntheticLambda1;->onInitializationComplete(Lcom/google/android/gms/ads/initialization/InitializationStatus;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/utils/Utils;->showWelcomeBackScreen(Landroid/app/Activity;)V <",
+                "> Lcom/lutech/doorlock/ads/AppOpenManager;->onActivityResumed(Landroid/app/Activity;)V <",
+                "> Lcom/lutech/doorlock/ads/MyApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/lutech/doorlock/screen/wallpapers/UnlimitedWallpaperActivity;->handleEvent()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/screen/wallpapers/UnlimitedWallpaperActivity;->$r8$lambda$TBQwvQoWCIIMwd0OZuOvK_A1ssU(Lcom/lutech/doorlock/screen/wallpapers/UnlimitedWallpaperActivity;Landroid/view/View;)V <",
+                "> Lcom/lutech/doorlock/screen/wallpapers/UnlimitedWallpaperActivity$$ExternalSyntheticLambda2;->onClick(Landroid/view/View;)V <",
+                "> Lcom/lutech/doorlock/screen/wallpapers/UnlimitedWallpaperActivity;->handleEvent()V <",
+                "> Lcom/lutech/doorlock/screen/wallpapers/UnlimitedWallpaperActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity$handleEvents$4;->invoke()V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity$handleEvents$4;->invoke()Ljava/lang/Object; <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->handleEvents()V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/screen/splash/SplashActivity;->gotoNextScreen()V <",
+                "> Lcom/lutech/doorlock/screen/splash/SplashActivity;->onAdDismissed()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/screen/wallpapers/UnlimitedWallpaperActivity;->$r8$lambda$TBQwvQoWCIIMwd0OZuOvK_A1ssU(Lcom/lutech/doorlock/screen/wallpapers/UnlimitedWallpaperActivity;Landroid/view/View;)V <",
+                "> Lcom/lutech/doorlock/screen/wallpapers/UnlimitedWallpaperActivity$$ExternalSyntheticLambda2;->onClick(Landroid/view/View;)V <",
+                "> Lcom/lutech/doorlock/screen/wallpapers/UnlimitedWallpaperActivity;->handleEvent()V <",
+                "> Lcom/lutech/doorlock/screen/wallpapers/UnlimitedWallpaperActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity$handleEvents$4;->invoke()V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity$handleEvents$4;->invoke()Ljava/lang/Object; <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->handleEvents()V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->handlePurchase$lambda$6(Lcom/lutech/doorlock/screen/premium/PremiumActivity;Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->$r8$lambda$hEUmhg9aVFubI89-sRBIVzxLGoM(Lcom/lutech/doorlock/screen/premium/PremiumActivity;Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity$$ExternalSyntheticLambda5;->onAcknowledgePurchaseResponse(Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->handlePurchase(Ljava/util/List;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->onPurchasesUpdated(Lcom/android/billingclient/api/BillingResult;Ljava/util/List;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->gotoPremiumScreen()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.net.conn.CONNECTIVITY_CHANGE",
+                    "start-activity -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/lutech/doorlock/screen/setwallpaper/SetSuccessfullyWallpaperActivity;->initView()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/screen/setwallpaper/SetSuccessfullyWallpaperActivity;->initView()V <",
+                "> Lcom/lutech/doorlock/screen/setwallpaper/SetSuccessfullyWallpaperActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->goToSuccessScreen(I)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->access$goToSuccessScreen(Lcom/lutech/doorlock/screen/BaseActivity;I)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity$setWallPaper$1;->invoke()V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity$setWallPaper$1;->invoke()Ljava/lang/Object; <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->setWallPaper(I)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->showOptionDialog$lambda$4$lambda$1(Lcom/lutech/doorlock/screen/BaseActivity;Landroid/view/View;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->$r8$lambda$QOiySeIu8AWvE-CkVyr6F7M22Io(Lcom/lutech/doorlock/screen/BaseActivity;Landroid/view/View;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity$$ExternalSyntheticLambda0;->onClick(Landroid/view/View;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->showOptionDialog()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.net.conn.CONNECTIVITY_CHANGE",
+                    "start-activity -a"
+                ],
+                [
+                    "com.lutech.doorlock.screen.BaseActivity",
+                    "btnSetHomeScreen"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/screen/setwallpaper/SetSuccessfullyWallpaperActivity;->initView()V <",
+                "> Lcom/lutech/doorlock/screen/setwallpaper/SetSuccessfullyWallpaperActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->goToSuccessScreen(I)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->access$goToSuccessScreen(Lcom/lutech/doorlock/screen/BaseActivity;I)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity$setWallPaper$1;->invoke()V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity$setWallPaper$1;->invoke()Ljava/lang/Object; <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->setWallPaper(I)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->showOptionDialog$lambda$4$lambda$3(Lcom/lutech/doorlock/screen/BaseActivity;Landroid/view/View;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->$r8$lambda$McdnRMSp2utv-6aPf9ZHndM2EXw(Lcom/lutech/doorlock/screen/BaseActivity;Landroid/view/View;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity$$ExternalSyntheticLambda2;->onClick(Landroid/view/View;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->showOptionDialog()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.net.conn.CONNECTIVITY_CHANGE",
+                    "start-activity -a"
+                ],
+                [
+                    "com.lutech.doorlock.screen.BaseActivity",
+                    "btnSetBothScreen"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/screen/setwallpaper/SetSuccessfullyWallpaperActivity$initView$1;->onResourceReady(Landroid/graphics/drawable/Drawable;Lcom/bumptech/glide/request/transition/Transition;)V <",
+                "> Lcom/lutech/doorlock/screen/setwallpaper/SetSuccessfullyWallpaperActivity$initView$1;->onResourceReady(Ljava/lang/Object;Lcom/bumptech/glide/request/transition/Transition;)V <",
+                "> Lcom/lutech/doorlock/screen/setwallpaper/SetSuccessfullyWallpaperActivity;->initView()V <",
+                "> Lcom/lutech/doorlock/screen/setwallpaper/SetSuccessfullyWallpaperActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->goToSuccessScreen(I)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->access$goToSuccessScreen(Lcom/lutech/doorlock/screen/BaseActivity;I)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity$setWallPaper$1;->invoke()V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity$setWallPaper$1;->invoke()Ljava/lang/Object; <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->setWallPaper(I)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->showOptionDialog$lambda$4$lambda$1(Lcom/lutech/doorlock/screen/BaseActivity;Landroid/view/View;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->$r8$lambda$QOiySeIu8AWvE-CkVyr6F7M22Io(Lcom/lutech/doorlock/screen/BaseActivity;Landroid/view/View;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity$$ExternalSyntheticLambda0;->onClick(Landroid/view/View;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->showOptionDialog()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.net.conn.CONNECTIVITY_CHANGE",
+                    "start-activity -a"
+                ],
+                [
+                    "com.lutech.doorlock.screen.BaseActivity",
+                    "btnSetHomeScreen"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/screen/setwallpaper/SetSuccessfullyWallpaperActivity$initView$1;->onResourceReady(Landroid/graphics/drawable/Drawable;Lcom/bumptech/glide/request/transition/Transition;)V <",
+                "> Lcom/lutech/doorlock/screen/setwallpaper/SetSuccessfullyWallpaperActivity$initView$1;->onResourceReady(Ljava/lang/Object;Lcom/bumptech/glide/request/transition/Transition;)V <",
+                "> Lcom/lutech/doorlock/screen/setwallpaper/SetSuccessfullyWallpaperActivity;->initView()V <",
+                "> Lcom/lutech/doorlock/screen/setwallpaper/SetSuccessfullyWallpaperActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->goToSuccessScreen(I)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->access$goToSuccessScreen(Lcom/lutech/doorlock/screen/BaseActivity;I)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity$setWallPaper$1;->invoke()V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity$setWallPaper$1;->invoke()Ljava/lang/Object; <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->setWallPaper(I)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->showOptionDialog$lambda$4$lambda$3(Lcom/lutech/doorlock/screen/BaseActivity;Landroid/view/View;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->$r8$lambda$McdnRMSp2utv-6aPf9ZHndM2EXw(Lcom/lutech/doorlock/screen/BaseActivity;Landroid/view/View;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity$$ExternalSyntheticLambda2;->onClick(Landroid/view/View;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->showOptionDialog()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.net.conn.CONNECTIVITY_CHANGE",
+                    "start-activity -a"
+                ],
+                [
+                    "com.lutech.doorlock.screen.BaseActivity",
+                    "btnSetBothScreen"
+                ]
+            ]
+        }
+    },
+    "Lcom/lutech/doorlock/screen/setwallpaper/SetSuccessfullyWallpaperActivity;->loadAds()V": {
+        "path_4": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/screen/setwallpaper/SetSuccessfullyWallpaperActivity;->loadAds()V <",
+                "> Lcom/lutech/doorlock/screen/setwallpaper/SetSuccessfullyWallpaperActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->goToSuccessScreen(I)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->access$goToSuccessScreen(Lcom/lutech/doorlock/screen/BaseActivity;I)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity$setWallPaper$1;->invoke()V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity$setWallPaper$1;->invoke()Ljava/lang/Object; <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->setWallPaper(I)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->showOptionDialog$lambda$4$lambda$1(Lcom/lutech/doorlock/screen/BaseActivity;Landroid/view/View;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->$r8$lambda$QOiySeIu8AWvE-CkVyr6F7M22Io(Lcom/lutech/doorlock/screen/BaseActivity;Landroid/view/View;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity$$ExternalSyntheticLambda0;->onClick(Landroid/view/View;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->showOptionDialog()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.net.conn.CONNECTIVITY_CHANGE",
+                    "start-activity -a"
+                ],
+                [
+                    "com.lutech.doorlock.screen.BaseActivity",
+                    "btnSetHomeScreen"
+                ]
+            ]
+        },
+        "path_5": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/screen/setwallpaper/SetSuccessfullyWallpaperActivity;->loadAds()V <",
+                "> Lcom/lutech/doorlock/screen/setwallpaper/SetSuccessfullyWallpaperActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->goToSuccessScreen(I)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->access$goToSuccessScreen(Lcom/lutech/doorlock/screen/BaseActivity;I)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity$setWallPaper$1;->invoke()V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity$setWallPaper$1;->invoke()Ljava/lang/Object; <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->setWallPaper(I)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->showOptionDialog$lambda$4$lambda$3(Lcom/lutech/doorlock/screen/BaseActivity;Landroid/view/View;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->$r8$lambda$McdnRMSp2utv-6aPf9ZHndM2EXw(Lcom/lutech/doorlock/screen/BaseActivity;Landroid/view/View;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity$$ExternalSyntheticLambda2;->onClick(Landroid/view/View;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->showOptionDialog()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.net.conn.CONNECTIVITY_CHANGE",
+                    "start-activity -a"
+                ],
+                [
+                    "com.lutech.doorlock.screen.BaseActivity",
+                    "btnSetBothScreen"
+                ]
+            ]
+        }
+    },
+    "Lcom/lutech/doorlock/screen/language/LanguageActivity;->onItemLanguageClick(I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/screen/language/adapter/LanguageAdapter;->onCreateViewHolder(Landroid/view/ViewGroup;I)Landroidx/recyclerview/widget/RecyclerView$ViewHolder; <",
+                "> Lcom/lutech/doorlock/screen/language/LanguageActivity;->onItemLanguageClick(I)V <",
+                "> Lcom/lutech/doorlock/screen/splash/SplashActivity;->gotoNextScreen()V <",
+                "> Lcom/lutech/doorlock/screen/splash/SplashActivity;->onAdDismissed()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/lutech/doorlock/widget/dialog/SetUpPinDialog;->handleEvents()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/widget/dialog/SetUpPinDialog$handleEvents$4;->onPinCompleted(Ljava/lang/String;)V <",
+                "> Lcom/lutech/doorlock/widget/dialog/SetUpPinDialog;->handleEvents()V <",
+                "> Lcom/lutech/doorlock/widget/dialog/SetUpPinDialog;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->showSetUpPinDialog()V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->handleEvents$lambda$3(Lcom/lutech/doorlock/screen/home/MainActivity;Landroid/widget/CompoundButton;Z)V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->$r8$lambda$8cOZDg4j85oAW2ZDlphF4E1bky4(Lcom/lutech/doorlock/screen/home/MainActivity;Landroid/widget/CompoundButton;Z)V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity$$ExternalSyntheticLambda5;->onCheckedChanged(Landroid/widget/CompoundButton;Z)V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->handleEvents()V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/screen/splash/SplashActivity;->gotoNextScreen()V <",
+                "> Lcom/lutech/doorlock/screen/splash/SplashActivity;->onAdDismissed()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/widget/dialog/SetUpPinDialog$handleEvents$4;->onPinCompleted(Ljava/lang/String;)V <",
+                "> Lcom/lutech/doorlock/widget/dialog/SetUpPinDialog;->handleEvents()V <",
+                "> Lcom/lutech/doorlock/widget/dialog/SetUpPinDialog;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->showSetUpPinDialog()V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->handleEvents$lambda$3(Lcom/lutech/doorlock/screen/home/MainActivity;Landroid/widget/CompoundButton;Z)V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->$r8$lambda$8cOZDg4j85oAW2ZDlphF4E1bky4(Lcom/lutech/doorlock/screen/home/MainActivity;Landroid/widget/CompoundButton;Z)V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity$$ExternalSyntheticLambda5;->onCheckedChanged(Landroid/widget/CompoundButton;Z)V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->handleEvents()V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->handlePurchase$lambda$6(Lcom/lutech/doorlock/screen/premium/PremiumActivity;Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->$r8$lambda$hEUmhg9aVFubI89-sRBIVzxLGoM(Lcom/lutech/doorlock/screen/premium/PremiumActivity;Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity$$ExternalSyntheticLambda5;->onAcknowledgePurchaseResponse(Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->handlePurchase(Ljava/util/List;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->onPurchasesUpdated(Lcom/android/billingclient/api/BillingResult;Ljava/util/List;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->gotoPremiumScreen()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.net.conn.CONNECTIVITY_CHANGE",
+                    "start-activity -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/lutech/doorlock/screen/wallpaper/PreviewWallpaperActivity;->onLoadDone()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/screen/wallpaper/PreviewWallpaperActivity;->access$onLoadDone(Lcom/lutech/doorlock/screen/wallpaper/PreviewWallpaperActivity;)V <",
+                "> Lcom/lutech/doorlock/screen/wallpaper/PreviewWallpaperActivity$initView$2;->invoke()V <",
+                "> Lcom/lutech/doorlock/screen/wallpaper/PreviewWallpaperActivity$initView$2;->invoke()Ljava/lang/Object; <",
+                "> Lcom/lutech/doorlock/screen/wallpaper/PreviewWallpaperActivity;->initView()V <",
+                "> Lcom/lutech/doorlock/screen/wallpaper/PreviewWallpaperActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/screen/wallpaper/WallpaperActivity;->onItemClick(I)V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->onNavigationItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/lutech/doorlock/screen/splash/SplashActivity;->gotoNextScreen()V <",
+                "> Lcom/lutech/doorlock/screen/splash/SplashActivity;->onAdDismissed()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.lutech.doorlock.screen.home.MainActivity",
+                    "nav_door_themes",
+                    "Wallpaper"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/screen/wallpaper/PreviewWallpaperActivity;->access$onLoadDone(Lcom/lutech/doorlock/screen/wallpaper/PreviewWallpaperActivity;)V <",
+                "> Lcom/lutech/doorlock/screen/wallpaper/PreviewWallpaperActivity$initView$1;->invoke()V <",
+                "> Lcom/lutech/doorlock/screen/wallpaper/PreviewWallpaperActivity$initView$1;->invoke()Ljava/lang/Object; <",
+                "> Lcom/lutech/doorlock/screen/wallpaper/PreviewWallpaperActivity;->initView()V <",
+                "> Lcom/lutech/doorlock/screen/wallpaper/PreviewWallpaperActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/screen/wallpaper/WallpaperActivity;->onItemClick(I)V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->onNavigationItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/lutech/doorlock/screen/splash/SplashActivity;->gotoNextScreen()V <",
+                "> Lcom/lutech/doorlock/screen/splash/SplashActivity;->onAdDismissed()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.lutech.doorlock.screen.home.MainActivity",
+                    "nav_door_themes",
+                    "Wallpaper"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/screen/wallpaper/PreviewWallpaperActivity;->access$onLoadDone(Lcom/lutech/doorlock/screen/wallpaper/PreviewWallpaperActivity;)V <",
+                "> Lcom/lutech/doorlock/screen/wallpaper/PreviewWallpaperActivity$initView$2;->invoke()V <",
+                "> Lcom/lutech/doorlock/screen/wallpaper/PreviewWallpaperActivity$initView$2;->invoke()Ljava/lang/Object; <",
+                "> Lcom/lutech/doorlock/screen/wallpaper/PreviewWallpaperActivity;->initView()V <",
+                "> Lcom/lutech/doorlock/screen/wallpaper/PreviewWallpaperActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/screen/wallpaper/WallpaperActivity;->onItemClick(I)V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->onNavigationItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->handlePurchase$lambda$6(Lcom/lutech/doorlock/screen/premium/PremiumActivity;Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->$r8$lambda$hEUmhg9aVFubI89-sRBIVzxLGoM(Lcom/lutech/doorlock/screen/premium/PremiumActivity;Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity$$ExternalSyntheticLambda5;->onAcknowledgePurchaseResponse(Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->handlePurchase(Ljava/util/List;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->onPurchasesUpdated(Lcom/android/billingclient/api/BillingResult;Ljava/util/List;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->gotoPremiumScreen()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.net.conn.CONNECTIVITY_CHANGE",
+                    "start-activity -a"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.lutech.doorlock.screen.home.MainActivity",
+                    "nav_door_themes",
+                    "Wallpaper"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/screen/wallpaper/PreviewWallpaperActivity;->access$onLoadDone(Lcom/lutech/doorlock/screen/wallpaper/PreviewWallpaperActivity;)V <",
+                "> Lcom/lutech/doorlock/screen/wallpaper/PreviewWallpaperActivity$initView$1;->invoke()V <",
+                "> Lcom/lutech/doorlock/screen/wallpaper/PreviewWallpaperActivity$initView$1;->invoke()Ljava/lang/Object; <",
+                "> Lcom/lutech/doorlock/screen/wallpaper/PreviewWallpaperActivity;->initView()V <",
+                "> Lcom/lutech/doorlock/screen/wallpaper/PreviewWallpaperActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/screen/wallpaper/WallpaperActivity;->onItemClick(I)V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->onNavigationItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->handlePurchase$lambda$6(Lcom/lutech/doorlock/screen/premium/PremiumActivity;Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->$r8$lambda$hEUmhg9aVFubI89-sRBIVzxLGoM(Lcom/lutech/doorlock/screen/premium/PremiumActivity;Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity$$ExternalSyntheticLambda5;->onAcknowledgePurchaseResponse(Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->handlePurchase(Ljava/util/List;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->onPurchasesUpdated(Lcom/android/billingclient/api/BillingResult;Ljava/util/List;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->gotoPremiumScreen()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.net.conn.CONNECTIVITY_CHANGE",
+                    "start-activity -a"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.lutech.doorlock.screen.home.MainActivity",
+                    "nav_door_themes",
+                    "Wallpaper"
+                ]
+            ]
+        }
+    },
+    "Lcom/lutech/doorlock/service/LockScreenService;->handleEvents()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/service/LockScreenService;->showLockScreen()V <",
+                "> Lcom/lutech/doorlock/service/LockScreenService;->access$showLockScreen(Lcom/lutech/doorlock/service/LockScreenService;)V <",
+                "> Lcom/lutech/doorlock/service/LockScreenService$mStatusScreenReceiver$1;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.SCREEN_ON",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/service/LockScreenService;->showLockScreen()V <",
+                "> Lcom/lutech/doorlock/ads/MyApplication$Companion;->startService(Ljava/lang/Class;Landroid/content/Context;)V <",
+                "> Lcom/lutech/doorlock/ads/MyApplication$Companion;->startMyService(Landroid/content/Context;Ljava/lang/Class;)V <",
+                "> Lcom/lutech/doorlock/ads/MyApplication$Companion;->startMyService$default(Lcom/lutech/doorlock/ads/MyApplication$Companion;Landroid/content/Context;Ljava/lang/Class;ILjava/lang/Object;)V <",
+                "> Lcom/lutech/doorlock/ads/MyApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/service/LockScreenService;->showLockScreen()V <",
+                "> Lcom/lutech/doorlock/ads/MyApplication$Companion;->startService(Ljava/lang/Class;Landroid/content/Context;)V <",
+                "> Lcom/lutech/doorlock/ads/MyApplication$Companion;->startMyService(Landroid/content/Context;Ljava/lang/Class;)V <",
+                "> Lcom/lutech/doorlock/ads/MyApplication$Companion;->startMyService$default(Lcom/lutech/doorlock/ads/MyApplication$Companion;Landroid/content/Context;Ljava/lang/Class;ILjava/lang/Object;)V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->onResume()V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->handlePurchase$lambda$6(Lcom/lutech/doorlock/screen/premium/PremiumActivity;Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->$r8$lambda$hEUmhg9aVFubI89-sRBIVzxLGoM(Lcom/lutech/doorlock/screen/premium/PremiumActivity;Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity$$ExternalSyntheticLambda5;->onAcknowledgePurchaseResponse(Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->handlePurchase(Ljava/util/List;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->onPurchasesUpdated(Lcom/android/billingclient/api/BillingResult;Ljava/util/List;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->gotoPremiumScreen()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.net.conn.CONNECTIVITY_CHANGE",
+                    "start-activity -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/lutech/doorlock/screen/premium/PremiumActivity;->setupBillingClient()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity$setupBillingClient$1;->onBillingSetupFinished(Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->setupBillingClient()V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->initData()V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->gotoPremiumScreen()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.net.conn.CONNECTIVITY_CHANGE",
+                    "start-activity -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/lutech/doorlock/ads/RewardAdsManager;->loadAds(Landroid/content/Context;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/ads/RewardAdsManager$loadAds$1;->onAdLoaded(Lcom/google/android/gms/ads/rewarded/RewardedAd;)V <",
+                "> Lcom/lutech/doorlock/ads/RewardAdsManager$loadAds$1;->onAdLoaded(Ljava/lang/Object;)V <",
+                "> Lcom/lutech/doorlock/ads/RewardAdsManager;->loadAds(Landroid/content/Context;)V <",
+                "> Lcom/lutech/doorlock/screen/splash/SplashActivity;->initData$lambda$3(Lcom/lutech/doorlock/screen/splash/SplashActivity;Lcom/google/android/gms/ads/initialization/InitializationStatus;)V <",
+                "> Lcom/lutech/doorlock/screen/splash/SplashActivity;->$r8$lambda$BiAk6wmwqoHY32y6LYdaWl9vEWA(Lcom/lutech/doorlock/screen/splash/SplashActivity;Lcom/google/android/gms/ads/initialization/InitializationStatus;)V <",
+                "> Lcom/lutech/doorlock/screen/splash/SplashActivity$$ExternalSyntheticLambda1;->onInitializationComplete(Lcom/google/android/gms/ads/initialization/InitializationStatus;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/ads/RewardAdsManager$loadAds$1;->onAdLoaded(Lcom/google/android/gms/ads/rewarded/RewardedAd;)V <",
+                "> Lcom/lutech/doorlock/ads/RewardAdsManager$loadAds$1;->onAdLoaded(Ljava/lang/Object;)V <",
+                "> Lcom/lutech/doorlock/ads/RewardAdsManager;->loadAds(Landroid/content/Context;)V <",
+                "> Lcom/lutech/doorlock/ads/RewardAdsManager;->showAds(Landroid/app/Activity;Lcom/lutech/doorlock/ads/RewardAdsListener;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseDownloadActivity;->showWatchAdsDialog$lambda$0(Landroid/app/Dialog;Lcom/lutech/doorlock/screen/BaseDownloadActivity;Landroid/view/View;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseDownloadActivity;->$r8$lambda$ubZy5dtKZgN5Tbcbpz___iF50TA(Landroid/app/Dialog;Lcom/lutech/doorlock/screen/BaseDownloadActivity;Landroid/view/View;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseDownloadActivity$$ExternalSyntheticLambda0;->onClick(Landroid/view/View;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseDownloadActivity;->showWatchAdsDialog()V <",
+                "> Lcom/lutech/doorlock/screen/wallpaper/PreviewWallpaperActivity;->handleEvents$lambda$3(Lcom/lutech/doorlock/screen/wallpaper/PreviewWallpaperActivity;Landroid/view/View;)V <",
+                "> Lcom/lutech/doorlock/screen/wallpaper/PreviewWallpaperActivity;->$r8$lambda$JvyeITwiKz7FGMF2TIcgbXi3ccQ(Lcom/lutech/doorlock/screen/wallpaper/PreviewWallpaperActivity;Landroid/view/View;)V <",
+                "> Lcom/lutech/doorlock/screen/wallpaper/PreviewWallpaperActivity$$ExternalSyntheticLambda3;->onClick(Landroid/view/View;)V <",
+                "> Lcom/lutech/doorlock/screen/wallpaper/PreviewWallpaperActivity;->handleEvents()V <",
+                "> Lcom/lutech/doorlock/screen/wallpaper/PreviewWallpaperActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/screen/wallpaper/WallpaperActivity;->onItemClick(I)V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->onNavigationItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->handlePurchase$lambda$6(Lcom/lutech/doorlock/screen/premium/PremiumActivity;Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->$r8$lambda$hEUmhg9aVFubI89-sRBIVzxLGoM(Lcom/lutech/doorlock/screen/premium/PremiumActivity;Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity$$ExternalSyntheticLambda5;->onAcknowledgePurchaseResponse(Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->handlePurchase(Ljava/util/List;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->onPurchasesUpdated(Lcom/android/billingclient/api/BillingResult;Ljava/util/List;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->gotoPremiumScreen()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.net.conn.CONNECTIVITY_CHANGE",
+                    "start-activity -a"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.lutech.doorlock.screen.home.MainActivity",
+                    "nav_door_themes",
+                    "Wallpaper"
+                ],
+                [
+                    "com.lutech.doorlock.screen.BaseDownloadActivity",
+                    "btnGetItNow"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/ads/RewardAdsManager$loadAds$1$onAdLoaded$2;->onAdDismissedFullScreenContent()V <",
+                "> Lcom/lutech/doorlock/ads/RewardAdsManager$loadAds$1;->onAdLoaded(Lcom/google/android/gms/ads/rewarded/RewardedAd;)V <",
+                "> Lcom/lutech/doorlock/ads/RewardAdsManager$loadAds$1;->onAdLoaded(Ljava/lang/Object;)V <",
+                "> Lcom/lutech/doorlock/ads/RewardAdsManager;->loadAds(Landroid/content/Context;)V <",
+                "> Lcom/lutech/doorlock/screen/splash/SplashActivity;->initData$lambda$3(Lcom/lutech/doorlock/screen/splash/SplashActivity;Lcom/google/android/gms/ads/initialization/InitializationStatus;)V <",
+                "> Lcom/lutech/doorlock/screen/splash/SplashActivity;->$r8$lambda$BiAk6wmwqoHY32y6LYdaWl9vEWA(Lcom/lutech/doorlock/screen/splash/SplashActivity;Lcom/google/android/gms/ads/initialization/InitializationStatus;)V <",
+                "> Lcom/lutech/doorlock/screen/splash/SplashActivity$$ExternalSyntheticLambda1;->onInitializationComplete(Lcom/google/android/gms/ads/initialization/InitializationStatus;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/ads/RewardAdsManager$loadAds$1$onAdLoaded$2;->onAdDismissedFullScreenContent()V <",
+                "> Lcom/lutech/doorlock/ads/RewardAdsManager$loadAds$1;->onAdLoaded(Lcom/google/android/gms/ads/rewarded/RewardedAd;)V <",
+                "> Lcom/lutech/doorlock/ads/RewardAdsManager$loadAds$1;->onAdLoaded(Ljava/lang/Object;)V <",
+                "> Lcom/lutech/doorlock/ads/RewardAdsManager;->loadAds(Landroid/content/Context;)V <",
+                "> Lcom/lutech/doorlock/ads/RewardAdsManager;->showAds(Landroid/app/Activity;Lcom/lutech/doorlock/ads/RewardAdsListener;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseDownloadActivity;->showWatchAdsDialog$lambda$0(Landroid/app/Dialog;Lcom/lutech/doorlock/screen/BaseDownloadActivity;Landroid/view/View;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseDownloadActivity;->$r8$lambda$ubZy5dtKZgN5Tbcbpz___iF50TA(Landroid/app/Dialog;Lcom/lutech/doorlock/screen/BaseDownloadActivity;Landroid/view/View;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseDownloadActivity$$ExternalSyntheticLambda0;->onClick(Landroid/view/View;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseDownloadActivity;->showWatchAdsDialog()V <",
+                "> Lcom/lutech/doorlock/screen/wallpaper/PreviewWallpaperActivity;->handleEvents$lambda$3(Lcom/lutech/doorlock/screen/wallpaper/PreviewWallpaperActivity;Landroid/view/View;)V <",
+                "> Lcom/lutech/doorlock/screen/wallpaper/PreviewWallpaperActivity;->$r8$lambda$JvyeITwiKz7FGMF2TIcgbXi3ccQ(Lcom/lutech/doorlock/screen/wallpaper/PreviewWallpaperActivity;Landroid/view/View;)V <",
+                "> Lcom/lutech/doorlock/screen/wallpaper/PreviewWallpaperActivity$$ExternalSyntheticLambda3;->onClick(Landroid/view/View;)V <",
+                "> Lcom/lutech/doorlock/screen/wallpaper/PreviewWallpaperActivity;->handleEvents()V <",
+                "> Lcom/lutech/doorlock/screen/wallpaper/PreviewWallpaperActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/screen/wallpaper/WallpaperActivity;->onItemClick(I)V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->onNavigationItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->handlePurchase$lambda$6(Lcom/lutech/doorlock/screen/premium/PremiumActivity;Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->$r8$lambda$hEUmhg9aVFubI89-sRBIVzxLGoM(Lcom/lutech/doorlock/screen/premium/PremiumActivity;Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity$$ExternalSyntheticLambda5;->onAcknowledgePurchaseResponse(Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->handlePurchase(Ljava/util/List;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->onPurchasesUpdated(Lcom/android/billingclient/api/BillingResult;Ljava/util/List;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->gotoPremiumScreen()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.net.conn.CONNECTIVITY_CHANGE",
+                    "start-activity -a"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.lutech.doorlock.screen.home.MainActivity",
+                    "nav_door_themes",
+                    "Wallpaper"
+                ],
+                [
+                    "com.lutech.doorlock.screen.BaseDownloadActivity",
+                    "btnGetItNow"
+                ]
+            ]
+        }
+    },
+    "Lcom/lutech/doorlock/receiver/NetworkChangeReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/receiver/NetworkChangeReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.net.wifi.WIFI_STATE_CHANGED",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/lutech/doorlock/widget/dialog/GuidePermissionDialog;->show()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->onResume()V <",
+                "> Lcom/lutech/doorlock/screen/splash/SplashActivity;->gotoNextScreen()V <",
+                "> Lcom/lutech/doorlock/screen/splash/SplashActivity;->onAdDismissed()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->onResume()V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->handlePurchase$lambda$6(Lcom/lutech/doorlock/screen/premium/PremiumActivity;Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->$r8$lambda$hEUmhg9aVFubI89-sRBIVzxLGoM(Lcom/lutech/doorlock/screen/premium/PremiumActivity;Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity$$ExternalSyntheticLambda5;->onAcknowledgePurchaseResponse(Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->handlePurchase(Ljava/util/List;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->onPurchasesUpdated(Lcom/android/billingclient/api/BillingResult;Ljava/util/List;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->gotoPremiumScreen()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.net.conn.CONNECTIVITY_CHANGE",
+                    "start-activity -a"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/screen/home/MainActivity$handleEvents$10$1;->invoke()V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity$handleEvents$10$1;->invoke()Ljava/lang/Object; <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity$handleEvents$10;->invoke()V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity$handleEvents$10;->invoke()Ljava/lang/Object; <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->handleEvents()V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/screen/splash/SplashActivity;->gotoNextScreen()V <",
+                "> Lcom/lutech/doorlock/screen/splash/SplashActivity;->onAdDismissed()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/screen/home/MainActivity$handleEvents$10$1;->invoke()V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity$handleEvents$10$1;->invoke()Ljava/lang/Object; <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity$handleEvents$10;->invoke()V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity$handleEvents$10;->invoke()Ljava/lang/Object; <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->handleEvents()V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->handlePurchase$lambda$6(Lcom/lutech/doorlock/screen/premium/PremiumActivity;Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->$r8$lambda$hEUmhg9aVFubI89-sRBIVzxLGoM(Lcom/lutech/doorlock/screen/premium/PremiumActivity;Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity$$ExternalSyntheticLambda5;->onAcknowledgePurchaseResponse(Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->handlePurchase(Ljava/util/List;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->onPurchasesUpdated(Lcom/android/billingclient/api/BillingResult;Ljava/util/List;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->gotoPremiumScreen()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.net.conn.CONNECTIVITY_CHANGE",
+                    "start-activity -a"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->showPermissionDialogIfNeeded()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.net.conn.CONNECTIVITY_CHANGE",
+                    "start-activity -a"
+                ]
+            ]
+        },
+        "path_5": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->onRequestPermissionsResult(I[Ljava/lang/String;[I)V <",
+                "> Lcom/lutech/doorlock/screen/splash/SplashActivity;->gotoNextScreen()V <",
+                "> Lcom/lutech/doorlock/screen/splash/SplashActivity;->onAdDismissed()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_6": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->onRequestPermissionsResult(I[Ljava/lang/String;[I)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->handlePurchase$lambda$6(Lcom/lutech/doorlock/screen/premium/PremiumActivity;Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->$r8$lambda$hEUmhg9aVFubI89-sRBIVzxLGoM(Lcom/lutech/doorlock/screen/premium/PremiumActivity;Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity$$ExternalSyntheticLambda5;->onAcknowledgePurchaseResponse(Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->handlePurchase(Ljava/util/List;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->onPurchasesUpdated(Lcom/android/billingclient/api/BillingResult;Ljava/util/List;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->gotoPremiumScreen()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.net.conn.CONNECTIVITY_CHANGE",
+                    "start-activity -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/lutech/doorlock/adapter/WallpapersAdapter;-><init>(Landroid/content/Context;Ljava/util/ArrayList;Lcom/lutech/doorlock/callback/OnItemClickListener;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/screen/wallpapers/UnlimitedWallpaperActivity;->reloadData()V <",
+                "> Lcom/lutech/doorlock/screen/wallpapers/UnlimitedWallpaperActivity;->onInternetAvailable()V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity$handleEvents$4;->invoke()V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity$handleEvents$4;->invoke()Ljava/lang/Object; <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->handleEvents()V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/screen/splash/SplashActivity;->gotoNextScreen()V <",
+                "> Lcom/lutech/doorlock/screen/splash/SplashActivity;->onAdDismissed()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/screen/wallpapers/UnlimitedWallpaperActivity;->reloadData()V <",
+                "> Lcom/lutech/doorlock/screen/wallpapers/UnlimitedWallpaperActivity;->onInternetAvailable()V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity$handleEvents$4;->invoke()V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity$handleEvents$4;->invoke()Ljava/lang/Object; <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->handleEvents()V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->handlePurchase$lambda$6(Lcom/lutech/doorlock/screen/premium/PremiumActivity;Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->$r8$lambda$hEUmhg9aVFubI89-sRBIVzxLGoM(Lcom/lutech/doorlock/screen/premium/PremiumActivity;Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity$$ExternalSyntheticLambda5;->onAcknowledgePurchaseResponse(Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->handlePurchase(Ljava/util/List;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->onPurchasesUpdated(Lcom/android/billingclient/api/BillingResult;Ljava/util/List;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->gotoPremiumScreen()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.net.conn.CONNECTIVITY_CHANGE",
+                    "start-activity -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/lutech/doorlock/screen/zipper/PreviewZipperStyleActivity;->showAds(Landroid/content/Intent;Z)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/screen/zipper/PreviewZipperStyleActivity;->gotoNextScreen()V <",
+                "> Lcom/lutech/doorlock/screen/zipper/PreviewZipperStyleActivity;->jsonDownloaded(Ljava/lang/String;)V <",
+                "> Lcom/lutech/doorlock/screen/zipper/ZipperStyleActivity;->onItemClick(I)V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity$handleEvents$8;->invoke()V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity$handleEvents$8;->invoke()Ljava/lang/Object; <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->handleEvents()V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/screen/splash/SplashActivity;->gotoNextScreen()V <",
+                "> Lcom/lutech/doorlock/screen/splash/SplashActivity;->onAdDismissed()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/screen/zipper/PreviewZipperStyleActivity;->gotoNextScreen()V <",
+                "> Lcom/lutech/doorlock/screen/zipper/PreviewZipperStyleActivity;->jsonDownloaded(Ljava/lang/String;)V <",
+                "> Lcom/lutech/doorlock/screen/zipper/ZipperStyleActivity;->onItemClick(I)V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity$handleEvents$8;->invoke()V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity$handleEvents$8;->invoke()Ljava/lang/Object; <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->handleEvents()V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->handlePurchase$lambda$6(Lcom/lutech/doorlock/screen/premium/PremiumActivity;Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->$r8$lambda$hEUmhg9aVFubI89-sRBIVzxLGoM(Lcom/lutech/doorlock/screen/premium/PremiumActivity;Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity$$ExternalSyntheticLambda5;->onAcknowledgePurchaseResponse(Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->handlePurchase(Ljava/util/List;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->onPurchasesUpdated(Lcom/android/billingclient/api/BillingResult;Ljava/util/List;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->gotoPremiumScreen()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.net.conn.CONNECTIVITY_CHANGE",
+                    "start-activity -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/lutech/doorlock/screen/feedback/FeedbackActivity;->startActivityForResult(Landroid/content/Intent;I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/screen/feedback/FeedbackActivity;->openGallery()V <",
+                "> Lcom/lutech/doorlock/screen/feedback/FeedbackActivity;->onRequestPermissionsResult(I[Ljava/lang/String;[I)V <",
+                "> Lcom/lutech/doorlock/extension/DialogKt;->showRatingDialog$lambda$4(Landroid/app/Dialog;Landroidx/appcompat/app/AppCompatActivity;Landroid/view/View;)V <",
+                "> Lcom/lutech/doorlock/extension/DialogKt;->$r8$lambda$7o0lAO9rquEsCQ5bfJHbH6qaATs(Landroid/app/Dialog;Landroidx/appcompat/app/AppCompatActivity;Landroid/view/View;)V <",
+                "> Lcom/lutech/doorlock/extension/DialogKt$$ExternalSyntheticLambda4;->onClick(Landroid/view/View;)V <",
+                "> Lcom/lutech/doorlock/extension/DialogKt;->showRatingDialog(Landroidx/appcompat/app/AppCompatActivity;)V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->initView()V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/screen/splash/SplashActivity;->gotoNextScreen()V <",
+                "> Lcom/lutech/doorlock/screen/splash/SplashActivity;->onAdDismissed()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.lutech.doorlock.screen.home.MainActivity",
+                    "btnMaybeLater"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/lutech/doorlock/screen/feedback/FeedbackActivity;->openGallery()V <",
+                "> Lcom/lutech/doorlock/screen/feedback/FeedbackActivity;->onRequestPermissionsResult(I[Ljava/lang/String;[I)V <",
+                "> Lcom/lutech/doorlock/extension/DialogKt;->showRatingDialog$lambda$4(Landroid/app/Dialog;Landroidx/appcompat/app/AppCompatActivity;Landroid/view/View;)V <",
+                "> Lcom/lutech/doorlock/extension/DialogKt;->$r8$lambda$7o0lAO9rquEsCQ5bfJHbH6qaATs(Landroid/app/Dialog;Landroidx/appcompat/app/AppCompatActivity;Landroid/view/View;)V <",
+                "> Lcom/lutech/doorlock/extension/DialogKt$$ExternalSyntheticLambda4;->onClick(Landroid/view/View;)V <",
+                "> Lcom/lutech/doorlock/extension/DialogKt;->showRatingDialog(Landroidx/appcompat/app/AppCompatActivity;)V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->initView()V <",
+                "> Lcom/lutech/doorlock/screen/home/MainActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->handlePurchase$lambda$6(Lcom/lutech/doorlock/screen/premium/PremiumActivity;Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->$r8$lambda$hEUmhg9aVFubI89-sRBIVzxLGoM(Lcom/lutech/doorlock/screen/premium/PremiumActivity;Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity$$ExternalSyntheticLambda5;->onAcknowledgePurchaseResponse(Lcom/android/billingclient/api/BillingResult;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->handlePurchase(Ljava/util/List;)V <",
+                "> Lcom/lutech/doorlock/screen/premium/PremiumActivity;->onPurchasesUpdated(Lcom/android/billingclient/api/BillingResult;Ljava/util/List;)V <",
+                "> Lcom/lutech/doorlock/screen/BaseActivity;->gotoPremiumScreen()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.net.conn.CONNECTIVITY_CHANGE",
+                    "start-activity -a"
+                ],
+                [
+                    "com.lutech.doorlock.screen.home.MainActivity",
+                    "btnMaybeLater"
+                ]
+            ]
+        }
+    }
+}

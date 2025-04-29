@@ -1,0 +1,760 @@
+{
+    "Lcom/doodlemobile/helper/DoodleAds;->logError(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/doodlemobile/helper/InterstitialManager;->show()Z <",
+                "> Lcom/doodlemobile/helper/DoodleAds$MyHandler;->handleMessage(Landroid/os/Message;)V <",
+                "> Lcom/doodlemobile/helper/DoodleAds;->_showInterstitial()V <",
+                "> Lcom/doodlemobile/helper/DoodleAds;->showInterstitial()V <",
+                "> Lcom/doodle/answer/AndroidLauncher;->showFullScreenAd()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/doodlemobile/helper/VideoAdsManager;->showVideoAds(Ljava/lang/String;)V <",
+                "> Lcom/doodlemobile/helper/DoodleAds;->lambda$_showVideoAds$0$com-doodlemobile-helper-DoodleAds(Ljava/lang/String;)V <",
+                "> Lcom/doodlemobile/helper/DoodleAds$$ExternalSyntheticLambda2;->run()V <",
+                "> Lcom/doodlemobile/helper/DoodleAds;->_showVideoAds(Ljava/lang/String;)V <",
+                "> Lcom/doodlemobile/helper/DoodleAds;->showVideoAds(Ljava/lang/String;)V <",
+                "> Lcom/doodlemobile/helper/DoodleAds;->showVideoAds()V <",
+                "> Lcom/doodle/answer/AndroidLauncher;->showVideoAds()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/doodlemobile/helper/DoodleAds;->onResume()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/doodle/answer/AndroidLauncher;->onResume()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/doodle/answer/Screen/StartScreen;->coin()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/doodle/answer/dialog/FreeCoinDialog_B2;->addCoin()V <",
+                "> Lcom/doodle/answer/Screen/StartScreen;->adsAddCoinB2()V <",
+                "> Lcom/doodle/answer/Screen/StartScreen;->adsVideo()V <",
+                "> Lcom/doodle/answer/AndroidLauncher$6;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/doodle/answer/Screen/StartScreen;->init()V <",
+                "> Lcom/doodle/answer/Screen/GameScreen;->returnStartScreen()V <",
+                "> Lcom/doodle/answer/Screen/StartScreen;->startGame()V <",
+                "> Lcom/doodle/answer/dialog/FreeCoinDialog_B2$6;->run()V <",
+                "> Lcom/doodle/answer/dialog/FreeCoinDialog_B2;->addCoin()V <",
+                "> Lcom/doodle/answer/Screen/StartScreen;->adsAddCoinB2()V <",
+                "> Lcom/doodle/answer/Screen/StartScreen;->adsVideo()V <",
+                "> Lcom/doodle/answer/AndroidLauncher$6;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/doodle/answer/dialog/DailyRewardTwo$8;->run()V <",
+                "> Lcom/doodle/answer/dialog/DailyRewardTwo;->select()V <",
+                "> Lcom/doodle/answer/dialog/DailyRewardTwo;->access$2100(Lcom/doodle/answer/dialog/DailyRewardTwo;)V <",
+                "> Lcom/doodle/answer/dialog/DailyRewardTwo$5;->clicked(Lcom/badlogic/gdx/scenes/scene2d/InputEvent; <",
+                "> Lcom/doodle/answer/dialog/DailyRewardTwo;->init()V <",
+                "> Lcom/doodle/answer/dialog/DailyRewardTwo;-><init>(Lcom/doodle/answer/MainGame;)V <",
+                "> Lcom/doodle/answer/Screen/StartScreen;->lambda$flushInitDialog$0$com-doodle-answer-Screen-StartScreen()V <",
+                "> Lcom/doodle/answer/Screen/GameScreen;->returnStartScreen()V <",
+                "> Lcom/doodle/answer/Screen/StartScreen;->startGame()V <",
+                "> Lcom/doodle/answer/dialog/FreeCoinDialog_B2$6;->run()V <",
+                "> Lcom/doodle/answer/dialog/FreeCoinDialog_B2;->addCoin()V <",
+                "> Lcom/doodle/answer/Screen/StartScreen;->adsAddCoinB2()V <",
+                "> Lcom/doodle/answer/Screen/StartScreen;->adsVideo()V <",
+                "> Lcom/doodle/answer/AndroidLauncher$6;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/doodle/answer/dialog/DailyRewardTwo$15;->run()V <",
+                "> Lcom/doodle/answer/dialog/DailyRewardTwo;->another()V <",
+                "> Lcom/doodle/answer/Screen/StartScreen;->adsVideo()V <",
+                "> Lcom/doodle/answer/AndroidLauncher$6;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lcom/doodle/answer/Screen/StartScreen$5;->clicked(Lcom/badlogic/gdx/scenes/scene2d/InputEvent; <",
+                "> Lcom/doodle/answer/Screen/StartScreen;->show()V <",
+                "> Lcom/doodle/answer/Screen/GameScreen;->returnStartScreen()V <",
+                "> Lcom/doodle/answer/Screen/StartScreen;->startGame()V <",
+                "> Lcom/doodle/answer/dialog/FreeCoinDialog_B2$6;->run()V <",
+                "> Lcom/doodle/answer/dialog/FreeCoinDialog_B2;->addCoin()V <",
+                "> Lcom/doodle/answer/Screen/StartScreen;->adsAddCoinB2()V <",
+                "> Lcom/doodle/answer/Screen/StartScreen;->adsVideo()V <",
+                "> Lcom/doodle/answer/AndroidLauncher$6;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_5": {
+            "call_sequence": [
+                "> Lcom/doodle/answer/Screen/StartScreen;->startGame()V <",
+                "> Lcom/doodle/answer/dialog/FreeCoinDialog_B2$6;->run()V <",
+                "> Lcom/doodle/answer/dialog/FreeCoinDialog_B2;->addCoin()V <",
+                "> Lcom/doodle/answer/Screen/StartScreen;->adsAddCoinB2()V <",
+                "> Lcom/doodle/answer/Screen/StartScreen;->adsVideo()V <",
+                "> Lcom/doodle/answer/AndroidLauncher$6;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_6": {
+            "call_sequence": [
+                "> Lcom/doodle/answer/dialog/FreeGemDialog;->addGem()V <",
+                "> Lcom/doodle/answer/Screen/DailyScreen;->adsAddGem()V <",
+                "> Lcom/doodle/answer/Screen/StartScreen;->adsVideo()V <",
+                "> Lcom/doodle/answer/AndroidLauncher$6;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_7": {
+            "call_sequence": [
+                "> Lcom/doodle/answer/dialog/PigDialog;->collect()V <",
+                "> Lcom/doodle/answer/Screen/GameScreen;->pigCollect()V <",
+                "> Lcom/doodle/answer/Screen/StartScreen;->adsVideo()V <",
+                "> Lcom/doodle/answer/AndroidLauncher$6;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_8": {
+            "call_sequence": [
+                "> Lcom/doodle/answer/dialog/FreeGemUpDialog;->addGem()V <",
+                "> Lcom/doodle/answer/Screen/GameScreen;->adsAddGemUp()V <",
+                "> Lcom/doodle/answer/Screen/StartScreen;->adsVideo()V <",
+                "> Lcom/doodle/answer/AndroidLauncher$6;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/doodlemobile/helper/DoodleAds;->showBanner(Z)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/doodle/answer/AndroidLauncher;->showBanner(Z)V <",
+                "> Lcom/doodle/answer/AndroidLauncher;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/doodle/answer/util/Model;->isFirst()Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/doodle/answer/MainGame;->create()V <",
+                "> Lcom/doodle/answer/AndroidLauncher;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/doodle/answer/AndroidLauncher;->enterImmersiveMode()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/doodle/answer/AndroidLauncher;->initImmersiveMode()V <",
+                "> Lcom/doodle/answer/AndroidLauncher;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/doodle/answer/AndroidLauncher;->access$300(Lcom/doodle/answer/AndroidLauncher;)V <",
+                "> Lcom/doodle/answer/AndroidLauncher$9;->onSystemUiVisibilityChange(I)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/doodle/answer/AndroidLauncher;->onWindowFocusChanged(Z)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/doodle/answer/Screen/StartScreen;->startGame()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/doodle/answer/dialog/XinDialog$2$1;->run()V <",
+                "> Lcom/doodle/answer/dialog/XinDialog$2;->clicked(Lcom/badlogic/gdx/scenes/scene2d/InputEvent; <",
+                "> Lcom/doodle/answer/dialog/XinDialog;->initCenter()V <",
+                "> Lcom/doodle/answer/dialog/XinDialog;->access$400(Lcom/doodle/answer/dialog/XinDialog;)V <",
+                "> Lcom/doodle/answer/dialog/XinDialog$6;->run()V <",
+                "> Lcom/doodle/answer/dialog/XinDialog;->recover()V <",
+                "> Lcom/doodle/answer/Screen/StartScreen;->adsVideo()V <",
+                "> Lcom/doodle/answer/AndroidLauncher$6;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/doodle/answer/Screen/StartScreen$10;->clicked(Lcom/badlogic/gdx/scenes/scene2d/InputEvent; <",
+                "> Lcom/doodle/answer/Screen/StartScreen;->init()V <",
+                "> Lcom/doodle/answer/Screen/GameScreen;->returnStartScreen()V <",
+                "> Lcom/doodle/answer/Screen/StartScreen;->startGame()V <",
+                "> Lcom/doodle/answer/dialog/FreeCoinDialog_B2$6;->run()V <",
+                "> Lcom/doodle/answer/dialog/FreeCoinDialog_B2;->addCoin()V <",
+                "> Lcom/doodle/answer/Screen/StartScreen;->adsAddCoinB2()V <",
+                "> Lcom/doodle/answer/Screen/StartScreen;->adsVideo()V <",
+                "> Lcom/doodle/answer/AndroidLauncher$6;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/doodle/answer/dialog/FreeCoinDialog_B2$6;->run()V <",
+                "> Lcom/doodle/answer/dialog/FreeCoinDialog_B2;->addCoin()V <",
+                "> Lcom/doodle/answer/Screen/StartScreen;->adsAddCoinB2()V <",
+                "> Lcom/doodle/answer/Screen/StartScreen;->adsVideo()V <",
+                "> Lcom/doodle/answer/AndroidLauncher$6;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/doodlemobile/helper/DoodleAds;->lambda$_showBanner$3$com-doodlemobile-helper-DoodleAds(Z)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/doodlemobile/helper/DoodleAds$$ExternalSyntheticLambda3;->run()V <",
+                "> Lcom/doodlemobile/helper/DoodleAds;->_showBanner(Z)V <",
+                "> Lcom/doodlemobile/helper/DoodleAds;->showBanner(Z)V <",
+                "> Lcom/doodle/answer/AndroidLauncher;->showBanner(Z)V <",
+                "> Lcom/doodle/answer/AndroidLauncher;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/doodle/answer/util/DayUtil;->isSameDay(JJ)Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/doodle/answer/Screen/StartScreen;->initDailyReward()V <",
+                "> Lcom/doodle/answer/Screen/GameScreen;->returnStartScreen()V <",
+                "> Lcom/doodle/answer/Screen/StartScreen;->startGame()V <",
+                "> Lcom/doodle/answer/dialog/FreeCoinDialog_B2$6;->run()V <",
+                "> Lcom/doodle/answer/dialog/FreeCoinDialog_B2;->addCoin()V <",
+                "> Lcom/doodle/answer/Screen/StartScreen;->adsAddCoinB2()V <",
+                "> Lcom/doodle/answer/Screen/StartScreen;->adsVideo()V <",
+                "> Lcom/doodle/answer/AndroidLauncher$6;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/doodle/answer/Screen/BaseScreen;->layerOut()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/doodle/answer/Screen/BaseScreen;->show()V <",
+                "> Lcom/doodle/answer/Screen/GameScreen;->show()V <",
+                "> Lcom/doodle/answer/Screen/StartScreen;->startGame()V <",
+                "> Lcom/doodle/answer/dialog/FreeCoinDialog_B2$6;->run()V <",
+                "> Lcom/doodle/answer/dialog/FreeCoinDialog_B2;->addCoin()V <",
+                "> Lcom/doodle/answer/Screen/StartScreen;->adsAddCoinB2()V <",
+                "> Lcom/doodle/answer/Screen/StartScreen;->adsVideo()V <",
+                "> Lcom/doodle/answer/AndroidLauncher$6;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/doodle/answer/util/AssetsUtil;->loadAnimationAndReturn(Ljava/lang/String;)Lcom/esotericsoftware/spine/SkeletonData;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/doodle/answer/Screen/DailyScreen$8;->run()V <",
+                "> Lcom/doodle/answer/Screen/DailyScreen;->creat()V <",
+                "> Lcom/doodle/answer/Screen/BaseScreen;->out()V <",
+                "> Lcom/doodle/answer/Screen/BaseScreen;->render(F)V <",
+                "> Lcom/doodle/answer/Screen/GameScreen;->render(F)V <",
+                "> Lcom/doodle/answer/Screen/StartScreen;->startGame()V <",
+                "> Lcom/doodle/answer/dialog/FreeCoinDialog_B2$6;->run()V <",
+                "> Lcom/doodle/answer/dialog/FreeCoinDialog_B2;->addCoin()V <",
+                "> Lcom/doodle/answer/Screen/StartScreen;->adsAddCoinB2()V <",
+                "> Lcom/doodle/answer/Screen/StartScreen;->adsVideo()V <",
+                "> Lcom/doodle/answer/AndroidLauncher$6;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/doodle/answer/dialog/TenDialog;->init()V <",
+                "> Lcom/doodle/answer/dialog/TenDialog;-><init>(Lcom/doodle/answer/MainGame;)V <",
+                "> Lcom/doodle/answer/Screen/GameScreen;->tenReward()V <",
+                "> Lcom/doodle/answer/Screen/StartScreen;->startGame()V <",
+                "> Lcom/doodle/answer/dialog/FreeCoinDialog_B2$6;->run()V <",
+                "> Lcom/doodle/answer/dialog/FreeCoinDialog_B2;->addCoin()V <",
+                "> Lcom/doodle/answer/Screen/StartScreen;->adsAddCoinB2()V <",
+                "> Lcom/doodle/answer/Screen/StartScreen;->adsVideo()V <",
+                "> Lcom/doodle/answer/AndroidLauncher$6;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/doodle/answer/dialog/LastWinDialog;->init()V <",
+                "> Lcom/doodle/answer/dialog/LastWinDialog;-><init>(Lcom/doodle/answer/MainGame;)V <",
+                "> Lcom/doodle/answer/Screen/DailyScreen;->overgame(Z)V <",
+                "> Lcom/doodle/answer/Screen/BaseScreen;->out()V <",
+                "> Lcom/doodle/answer/Screen/BaseScreen;->render(F)V <",
+                "> Lcom/doodle/answer/Screen/GameScreen;->render(F)V <",
+                "> Lcom/doodle/answer/Screen/StartScreen;->startGame()V <",
+                "> Lcom/doodle/answer/dialog/FreeCoinDialog_B2$6;->run()V <",
+                "> Lcom/doodle/answer/dialog/FreeCoinDialog_B2;->addCoin()V <",
+                "> Lcom/doodle/answer/Screen/StartScreen;->adsAddCoinB2()V <",
+                "> Lcom/doodle/answer/Screen/StartScreen;->adsVideo()V <",
+                "> Lcom/doodle/answer/AndroidLauncher$6;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/doodle/answer/Screen/StartScreen;->init()V <",
+                "> Lcom/doodle/answer/Screen/GameScreen;->returnStartScreen()V <",
+                "> Lcom/doodle/answer/Screen/StartScreen;->startGame()V <",
+                "> Lcom/doodle/answer/dialog/FreeCoinDialog_B2$6;->run()V <",
+                "> Lcom/doodle/answer/dialog/FreeCoinDialog_B2;->addCoin()V <",
+                "> Lcom/doodle/answer/Screen/StartScreen;->adsAddCoinB2()V <",
+                "> Lcom/doodle/answer/Screen/StartScreen;->adsVideo()V <",
+                "> Lcom/doodle/answer/AndroidLauncher$6;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lcom/doodle/answer/dialog/XinDialog;->initCenter()V <",
+                "> Lcom/doodle/answer/dialog/XinDialog;->access$400(Lcom/doodle/answer/dialog/XinDialog;)V <",
+                "> Lcom/doodle/answer/dialog/XinDialog$6;->run()V <",
+                "> Lcom/doodle/answer/dialog/XinDialog;->recover()V <",
+                "> Lcom/doodle/answer/Screen/StartScreen;->adsVideo()V <",
+                "> Lcom/doodle/answer/AndroidLauncher$6;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_5": {
+            "call_sequence": [
+                "> Lcom/doodle/answer/group/WinGroupB$6;->run()V <",
+                "> Lcom/doodle/answer/group/WinGroupB;->init()V <",
+                "> Lcom/doodle/answer/group/WinGroupB;-><init>(Lcom/doodle/answer/MainGame;)V <",
+                "> Lcom/doodle/answer/Screen/GameScreen;->winGame()V <",
+                "> Lcom/doodle/answer/Screen/StartScreen;->startGame()V <",
+                "> Lcom/doodle/answer/dialog/FreeCoinDialog_B2$6;->run()V <",
+                "> Lcom/doodle/answer/dialog/FreeCoinDialog_B2;->addCoin()V <",
+                "> Lcom/doodle/answer/Screen/StartScreen;->adsAddCoinB2()V <",
+                "> Lcom/doodle/answer/Screen/StartScreen;->adsVideo()V <",
+                "> Lcom/doodle/answer/AndroidLauncher$6;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_6": {
+            "call_sequence": [
+                "> Lcom/doodle/answer/group/LadderGroup;->completeAni()V <",
+                "> Lcom/doodle/answer/group/LadderGroup;->change()V <",
+                "> Lcom/doodle/answer/Screen/GameScreen$12;->run()V <",
+                "> Lcom/doodle/answer/Screen/GameScreen;->loadladder(Z)V <",
+                "> Lcom/doodle/answer/Screen/StartScreen;->startGame()V <",
+                "> Lcom/doodle/answer/dialog/FreeCoinDialog_B2$6;->run()V <",
+                "> Lcom/doodle/answer/dialog/FreeCoinDialog_B2;->addCoin()V <",
+                "> Lcom/doodle/answer/Screen/StartScreen;->adsAddCoinB2()V <",
+                "> Lcom/doodle/answer/Screen/StartScreen;->adsVideo()V <",
+                "> Lcom/doodle/answer/AndroidLauncher$6;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_7": {
+            "call_sequence": [
+                "> Lcom/doodle/answer/Screen/GameScreen;->initCatePro()V <",
+                "> Lcom/doodle/answer/Screen/StartScreen;->startGame()V <",
+                "> Lcom/doodle/answer/dialog/FreeCoinDialog_B2$6;->run()V <",
+                "> Lcom/doodle/answer/dialog/FreeCoinDialog_B2;->addCoin()V <",
+                "> Lcom/doodle/answer/Screen/StartScreen;->adsAddCoinB2()V <",
+                "> Lcom/doodle/answer/Screen/StartScreen;->adsVideo()V <",
+                "> Lcom/doodle/answer/AndroidLauncher$6;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_8": {
+            "call_sequence": [
+                "> Lcom/doodle/answer/group/WinGroupB;->init()V <",
+                "> Lcom/doodle/answer/group/WinGroupB;-><init>(Lcom/doodle/answer/MainGame;)V <",
+                "> Lcom/doodle/answer/Screen/GameScreen;->winGame()V <",
+                "> Lcom/doodle/answer/Screen/StartScreen;->startGame()V <",
+                "> Lcom/doodle/answer/dialog/FreeCoinDialog_B2$6;->run()V <",
+                "> Lcom/doodle/answer/dialog/FreeCoinDialog_B2;->addCoin()V <",
+                "> Lcom/doodle/answer/Screen/StartScreen;->adsAddCoinB2()V <",
+                "> Lcom/doodle/answer/Screen/StartScreen;->adsVideo()V <",
+                "> Lcom/doodle/answer/AndroidLauncher$6;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_9": {
+            "call_sequence": [
+                "> Lcom/doodle/answer/dialog/StarErrorDialog;->init()V <",
+                "> Lcom/doodle/answer/dialog/StarErrorDialog;-><init>(Lcom/doodle/answer/MainGame;)V <",
+                "> Lcom/doodle/answer/Screen/GameScreen;->showStarErrorDialog()V <",
+                "> Lcom/doodle/answer/Screen/StartScreen;->startGame()V <",
+                "> Lcom/doodle/answer/dialog/FreeCoinDialog_B2$6;->run()V <",
+                "> Lcom/doodle/answer/dialog/FreeCoinDialog_B2;->addCoin()V <",
+                "> Lcom/doodle/answer/Screen/StartScreen;->adsAddCoinB2()V <",
+                "> Lcom/doodle/answer/Screen/StartScreen;->adsVideo()V <",
+                "> Lcom/doodle/answer/AndroidLauncher$6;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_10": {
+            "call_sequence": [
+                "> Lcom/doodle/answer/dialog/LifeGetDialog;->init()V <",
+                "> Lcom/doodle/answer/dialog/LifeGetDialog;-><init>(Lcom/doodle/answer/MainGame;)V <",
+                "> Lcom/doodle/answer/Screen/GameScreen;->showLifeGetDialog()V <",
+                "> Lcom/doodle/answer/Screen/StartScreen;->startGame()V <",
+                "> Lcom/doodle/answer/dialog/FreeCoinDialog_B2$6;->run()V <",
+                "> Lcom/doodle/answer/dialog/FreeCoinDialog_B2;->addCoin()V <",
+                "> Lcom/doodle/answer/Screen/StartScreen;->adsAddCoinB2()V <",
+                "> Lcom/doodle/answer/Screen/StartScreen;->adsVideo()V <",
+                "> Lcom/doodle/answer/AndroidLauncher$6;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_11": {
+            "call_sequence": [
+                "> Lcom/doodle/answer/dialog/LifeDialog;->init()V <",
+                "> Lcom/doodle/answer/dialog/LifeDialog;-><init>(Lcom/doodle/answer/MainGame;)V <",
+                "> Lcom/doodle/answer/Screen/GameScreen;->lifeSpend()V <",
+                "> Lcom/doodle/answer/Screen/StartScreen;->startGame()V <",
+                "> Lcom/doodle/answer/dialog/FreeCoinDialog_B2$6;->run()V <",
+                "> Lcom/doodle/answer/dialog/FreeCoinDialog_B2;->addCoin()V <",
+                "> Lcom/doodle/answer/Screen/StartScreen;->adsAddCoinB2()V <",
+                "> Lcom/doodle/answer/Screen/StartScreen;->adsVideo()V <",
+                "> Lcom/doodle/answer/AndroidLauncher$6;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_12": {
+            "call_sequence": [
+                "> Lcom/doodle/answer/Screen/GameScreen;->flopBG(I)V <",
+                "> Lcom/doodle/answer/Screen/StartScreen;->startGame()V <",
+                "> Lcom/doodle/answer/dialog/FreeCoinDialog_B2$6;->run()V <",
+                "> Lcom/doodle/answer/dialog/FreeCoinDialog_B2;->addCoin()V <",
+                "> Lcom/doodle/answer/Screen/StartScreen;->adsAddCoinB2()V <",
+                "> Lcom/doodle/answer/Screen/StartScreen;->adsVideo()V <",
+                "> Lcom/doodle/answer/AndroidLauncher$6;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_13": {
+            "call_sequence": [
+                "> Lcom/doodle/answer/Screen/StartScreen;->initPig()V <",
+                "> Lcom/doodle/answer/Screen/GameScreen;->returnStartScreen()V <",
+                "> Lcom/doodle/answer/Screen/StartScreen;->startGame()V <",
+                "> Lcom/doodle/answer/dialog/FreeCoinDialog_B2$6;->run()V <",
+                "> Lcom/doodle/answer/dialog/FreeCoinDialog_B2;->addCoin()V <",
+                "> Lcom/doodle/answer/Screen/StartScreen;->adsAddCoinB2()V <",
+                "> Lcom/doodle/answer/Screen/StartScreen;->adsVideo()V <",
+                "> Lcom/doodle/answer/AndroidLauncher$6;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_14": {
+            "call_sequence": [
+                "> Lcom/doodle/answer/dialog/RateDialog3;->init()V <",
+                "> Lcom/doodle/answer/dialog/RateDialog3;-><init>(Lcom/doodle/answer/MainGame;)V <",
+                "> Lcom/doodle/answer/Screen/GameScreen;->showRate3()V <",
+                "> Lcom/doodle/answer/Screen/StartScreen;->startGame()V <",
+                "> Lcom/doodle/answer/dialog/FreeCoinDialog_B2$6;->run()V <",
+                "> Lcom/doodle/answer/dialog/FreeCoinDialog_B2;->addCoin()V <",
+                "> Lcom/doodle/answer/Screen/StartScreen;->adsAddCoinB2()V <",
+                "> Lcom/doodle/answer/Screen/StartScreen;->adsVideo()V <",
+                "> Lcom/doodle/answer/AndroidLauncher$6;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_15": {
+            "call_sequence": [
+                "> Lcom/doodle/answer/dialog/FirstWinDialog;->init()V <",
+                "> Lcom/doodle/answer/dialog/FirstWinDialog;-><init>(Lcom/doodle/answer/MainGame;)V <",
+                "> Lcom/doodle/answer/Screen/DailyScreen;->overgame(Z)V <",
+                "> Lcom/doodle/answer/Screen/BaseScreen;->out()V <",
+                "> Lcom/doodle/answer/Screen/BaseScreen;->render(F)V <",
+                "> Lcom/doodle/answer/Screen/GameScreen;->render(F)V <",
+                "> Lcom/doodle/answer/Screen/StartScreen;->startGame()V <",
+                "> Lcom/doodle/answer/dialog/FreeCoinDialog_B2$6;->run()V <",
+                "> Lcom/doodle/answer/dialog/FreeCoinDialog_B2;->addCoin()V <",
+                "> Lcom/doodle/answer/Screen/StartScreen;->adsAddCoinB2()V <",
+                "> Lcom/doodle/answer/Screen/StartScreen;->adsVideo()V <",
+                "> Lcom/doodle/answer/AndroidLauncher$6;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/doodle/answer/AndroidLauncher;->checkNewUser()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/doodle/answer/AndroidLauncher;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/doodle/answer/Screen/StartScreen;->initDailyReward()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/doodle/answer/Screen/StartScreen;->show()V <",
+                "> Lcom/doodle/answer/Screen/GameScreen;->returnStartScreen()V <",
+                "> Lcom/doodle/answer/Screen/StartScreen;->startGame()V <",
+                "> Lcom/doodle/answer/dialog/FreeCoinDialog_B2$6;->run()V <",
+                "> Lcom/doodle/answer/dialog/FreeCoinDialog_B2;->addCoin()V <",
+                "> Lcom/doodle/answer/Screen/StartScreen;->adsAddCoinB2()V <",
+                "> Lcom/doodle/answer/Screen/StartScreen;->adsVideo()V <",
+                "> Lcom/doodle/answer/AndroidLauncher$6;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/doodlemobile/helper/DoodleAds;->reflectStaticCall(Ljava/lang/String;Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/doodlemobile/helper/DoodleAds;->onPause()V <",
+                "> Lcom/doodle/answer/AndroidLauncher;->onPause()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/doodlemobile/helper/DoodleAds;->onDestroy()V <",
+                "> Lcom/doodle/answer/AndroidLauncher;->onDestroy()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/doodlemobile/helper/DoodleAds;->onResume()V <",
+                "> Lcom/doodle/answer/AndroidLauncher;->onResume()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/doodle/answer/Screen/GameScreen;->showLoadInsterAD()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/doodle/answer/Screen/GameScreen;->init()V <",
+                "> Lcom/doodle/answer/Screen/StartScreen;->startGame()V <",
+                "> Lcom/doodle/answer/dialog/FreeCoinDialog_B2$6;->run()V <",
+                "> Lcom/doodle/answer/dialog/FreeCoinDialog_B2;->addCoin()V <",
+                "> Lcom/doodle/answer/Screen/StartScreen;->adsAddCoinB2()V <",
+                "> Lcom/doodle/answer/Screen/StartScreen;->adsVideo()V <",
+                "> Lcom/doodle/answer/AndroidLauncher$6;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/doodlemobile/doodle_bi/SessionLogger;->setAppVersion(Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/doodlemobile/doodle_bi/DoodleBI;->setAppVersion(Ljava/lang/String;)V <",
+                "> Lcom/doodle/answer/AndroidLauncher;->setBIVersion()V <",
+                "> Lcom/doodle/answer/AndroidLauncher;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/doodle/answer/util/SoundPlayer;->playLoadInsert()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/doodle/answer/dialog/LoadInsertADDialog;->init()V <",
+                "> Lcom/doodle/answer/dialog/LoadInsertADDialog;-><init>(Lcom/doodle/answer/MainGame;)V <",
+                "> Lcom/doodle/answer/Screen/GameScreen;->showLoadInsterAD()V <",
+                "> Lcom/doodle/answer/Screen/StartScreen;->startGame()V <",
+                "> Lcom/doodle/answer/dialog/FreeCoinDialog_B2$6;->run()V <",
+                "> Lcom/doodle/answer/dialog/FreeCoinDialog_B2;->addCoin()V <",
+                "> Lcom/doodle/answer/Screen/StartScreen;->adsAddCoinB2()V <",
+                "> Lcom/doodle/answer/Screen/StartScreen;->adsVideo()V <",
+                "> Lcom/doodle/answer/AndroidLauncher$6;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    }
+}

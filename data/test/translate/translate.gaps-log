@@ -1,0 +1,16 @@
+COMPONENT CONCAT > Lcom/beust/android/translate/Entities;->escape(Ljava/lang/String;)Ljava/lang/String; < extends Ljava/lang/Object, implements []
+COMPONENT CONCAT > Lcom/beust/android/translate/AboutDialog;-><init>(Landroid/content/Context;)V < extends Landroid/app/AlertDialog, implements []
+MISSING ID > Lcom/beust/android/translate/TranslateActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <
+MISSING ID > Lcom/beust/android/translate/HistoryActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <
+COMPONENT CONCAT > Lcom/beust/android/translate/HistoryRecord;->toString()Ljava/lang/String; < extends Ljava/lang/Object, implements []
+COMPONENT CONCAT > Lcom/beust/android/translate/History;->addHistoryRecord(Landroid/content/Context; < extends Ljava/lang/Object, implements []
+COMPONENT CONCAT > Lcom/beust/android/translate/Translate;->retrieveTranslation(Ljava/lang/String; < extends Ljava/lang/Object, implements []
+COMPONENT CONCAT > Lcom/beust/android/translate/Entities;-><clinit>()V < extends Ljava/lang/Object, implements []
+COMPONENT CONCAT > Lcom/beust/android/translate/Entities;->addEntity(Ljava/lang/String; < extends Ljava/lang/Object, implements []
+COMPONENT CONCAT > Lcom/beust/android/translate/HistoryRecord;->equals(Ljava/lang/Object;)Z < extends Ljava/lang/Object, implements []
+MISSING ID > Lcom/beust/android/translate/LanguageDialog;->onClick(Landroid/view/View;)V <
+COMPONENT CONCAT > Lcom/beust/android/translate/Entities$ArrayEntityMap;->add(Ljava/lang/String; < extends Ljava/lang/Object, implements ['Lcom/beust/android/translate/Entities$EntityMap']
+COMPONENT CONCAT > Lcom/beust/android/translate/Entities$HashEntityMap;-><init>()V < extends Ljava/lang/Object, implements ['Lcom/beust/android/translate/Entities$EntityMap']
+COMPONENT CONCAT > Lcom/beust/android/translate/Entities$TreeEntityMap;-><init>()V < extends Ljava/lang/Object, implements ['Lcom/beust/android/translate/Entities$EntityMap']
+COMPONENT CONCAT > Lcom/beust/android/translate/HistoryRecord;->hashCode()I < extends Ljava/lang/Object, implements []
+COMPONENT CONCAT > Lcom/beust/android/translate/Entities$BinaryEntityMap;->add(Ljava/lang/String; < extends Ljava/lang/Object, implements ['Lcom/beust/android/translate/Entities$EntityMap']

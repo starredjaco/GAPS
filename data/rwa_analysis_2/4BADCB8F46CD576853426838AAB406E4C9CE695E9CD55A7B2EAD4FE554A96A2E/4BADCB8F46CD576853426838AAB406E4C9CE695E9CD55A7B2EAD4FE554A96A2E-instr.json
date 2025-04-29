@@ -1,0 +1,1940 @@
+{
+    "Lcom/cleanplanner/databinding/LayoutPopupMenuBinding;->bind(Landroid/view/View;)Lcom/cleanplanner/databinding/LayoutPopupMenuBinding;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/databinding/LayoutPopupMenuBinding;->inflate(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Z)Lcom/cleanplanner/databinding/LayoutPopupMenuBinding; <",
+                "> Lcom/cleanplanner/databinding/LayoutPopupMenuBinding;->inflate(Landroid/view/LayoutInflater;)Lcom/cleanplanner/databinding/LayoutPopupMenuBinding; <",
+                "> LTv/e0nA;-><init>(Landroid/content/Context;)V <",
+                "> LN/oz;->onClick(Landroid/view/View;)V <",
+                "> Lcom/cleanplanner/ui/home/StartHomePage;->qZ()V <",
+                "> Lcom/cleanplanner/ui/splash/StartSplashPage;->tq(Lcom/cleanplanner/ui/splash/StartSplashPage;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/cleanplanner/utils/scanfiles/FileScanTask;->e0nA(Landroid/content/Context;Lcom/cleanplanner/utils/scanfiles/FileType;Ljava/lang/String;LaPI/xtKLh;LaPI/xtKLh;LtA/IiKaXw;)Ljava/lang/Object;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/ui/home/main/newjunk/task/NewJunkFileSearchTask;->QZu(Landroid/content/Context;LdwNS/e0nA;LtA/IiKaXw;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/ui/home/main/newjunk/task/NewJunkFileSearchTask$scan$2$scanCacheJob$1;->xtKLh(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/ui/home/main/newjunk/task/NewJunkFileSearchTask$scan$2$scanCacheJob$1;->QZu(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/ui/home/main/newjunk/task/NewJunkFileSearchTask$scan$2;->xtKLh(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/ui/home/main/newjunk/task/NewJunkFileSearchTask$scan$2;->QZu(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/ui/home/main/newjunk/task/NewJunkFileSearchTask;->rdQ(Landroid/content/Context;LtA/IiKaXw;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/ui/home/main/newjunk/StartNewJunkCleanerPage$scan$1;->xtKLh(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/ui/home/main/newjunk/StartNewJunkCleanerPage$scan$1;->QZu(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/ui/home/main/newjunk/StartNewJunkCleanerPage;->sBHKl()V <",
+                "> Lcom/cleanplanner/ui/home/StartHomePage;->tq(Ljava/lang/Class;)V <",
+                "> Lcw1/e0nA;->onClick(Landroid/view/View;)V <",
+                "> Lcom/cleanplanner/ui/splash/StartSplashPage$prepare$1;->R()Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/ui/home/main/junk/task/JunkTask;->rdQ(Landroid/content/Context;LA/e0nA;LtA/IiKaXw;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/ui/home/main/junk/task/JunkTask$scan$2$scanCacheJob$1;->xtKLh(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/ui/home/main/junk/task/JunkTask$scan$2$scanCacheJob$1;->QZu(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/ui/home/main/junk/task/JunkTask$scan$2;->xtKLh(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/ui/home/main/junk/task/JunkTask$scan$2;->QZu(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/ui/home/main/junk/task/JunkTask;->NE(Landroid/content/Context;ZLtA/IiKaXw;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/ui/home/main/junk/StartJunkPage$startScan$1;->xtKLh(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/ui/home/main/junk/StartJunkPage$startScan$1;->QZu(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/ui/home/main/junk/StartJunkPage;->Sy(ZZ)V <",
+                "> Lcom/cleanplanner/ui/home/StartHomePage;->tq(Ljava/lang/Class;)V <",
+                "> Lcw1/e0nA;->onClick(Landroid/view/View;)V <",
+                "> Lcom/cleanplanner/ui/splash/StartSplashPage$prepare$1;->R()Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/utils/scanfiles/FileScanTask$scan$1;->xtKLh(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/utils/scanfiles/FileScanTask;->e0nA(Landroid/content/Context;Lcom/cleanplanner/utils/scanfiles/FileType;Ljava/lang/String;LaPI/xtKLh;LaPI/xtKLh;LtA/IiKaXw;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/utils/scanfiles/FileScanTask;->xQ(Lcom/cleanplanner/utils/scanfiles/FileScanTask;Landroid/content/Context;Lcom/cleanplanner/utils/scanfiles/FileType;LaPI/xtKLh;LaPI/xtKLh;LtA/IiKaXw;I)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/ui/home/more/compress/StartCompressImgPage;->EX(Lcom/cleanplanner/ui/home/more/compress/StartCompressImgPage;LtA/IiKaXw;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/ui/home/more/compress/permission/StartGetPermissionPage;->tq(Lcom/cleanplanner/data/enums/ActionType;)V <",
+                "> LkP/e0nA;->onClick(Landroid/view/View;)V <",
+                "> Lcom/cleanplanner/ui/home/StartHomePage;->qZ()V <",
+                "> Lcom/cleanplanner/ui/splash/StartSplashPage;->tq(Lcom/cleanplanner/ui/splash/StartSplashPage;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/utils/scanfiles/FileScanTask;->xQ(Lcom/cleanplanner/utils/scanfiles/FileScanTask;Landroid/content/Context;Lcom/cleanplanner/utils/scanfiles/FileType;LaPI/xtKLh;LaPI/xtKLh;LtA/IiKaXw;I)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/ui/home/more/compress/StartCompressImgPage;->EX(Lcom/cleanplanner/ui/home/more/compress/StartCompressImgPage;LtA/IiKaXw;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/ui/home/more/compress/permission/StartGetPermissionPage;->tq(Lcom/cleanplanner/data/enums/ActionType;)V <",
+                "> LkP/e0nA;->onClick(Landroid/view/View;)V <",
+                "> Lcom/cleanplanner/ui/home/StartHomePage;->qZ()V <",
+                "> Lcom/cleanplanner/ui/splash/StartSplashPage;->tq(Lcom/cleanplanner/ui/splash/StartSplashPage;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/cleanplanner/ui/website/StartWebPage;-><clinit>()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/ui/website/StartWebPage;-><clinit>()V <",
+                "> Lcom/cleanplanner/ui/website/StartWebPage$e0nA;->e0nA(Landroid/app/Activity;Ljava/lang/String;)V <",
+                "> Lcom/cleanplanner/ui/splash/StartSplashPage$setPrivacy$specialString$1;->R()Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/cleanplanner/ui/splash/StartSplashPage;-><init>()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/ui/splash/StartSplashPage;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/cleanplanner/ui/home/main/wifi/task/SpeedTest;-><init>()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/ui/home/main/wifi/StartTestSpeedPage$startScan$1;-><init>(Lcom/cleanplanner/ui/home/main/wifi/StartTestSpeedPage;)V <",
+                "> Lcom/cleanplanner/ui/home/main/wifi/StartTestSpeedPage;->qZ()V <",
+                "> Lcom/cleanplanner/ui/home/StartHomePage;->tq(Ljava/lang/Class;)V <",
+                "> LaeI/e0nA;->onClick(Landroid/view/View;)V <",
+                "> Lcom/cleanplanner/ui/home/StartHomePage;->qZ()V <",
+                "> Lcom/cleanplanner/ui/splash/StartSplashPage;->tq(Lcom/cleanplanner/ui/splash/StartSplashPage;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/cleanplanner/ui/home/more/largefile/StartScanLargeFilesPage;->qZ()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/ui/home/more/largefile/StartScanLargeFilesPage$searchFiles$1;->YQutwv(Ljava/lang/Object;LtA/IiKaXw;)LtA/IiKaXw; <",
+                "> Lcom/cleanplanner/ui/home/more/largefile/StartScanLargeFilesPage;->qZ()V <",
+                "> LN/IiKaXw;->onClick(Landroid/view/View;)V <",
+                "> Lcom/cleanplanner/ui/home/StartHomePage;->qZ()V <",
+                "> Lcom/cleanplanner/ui/splash/StartSplashPage;->tq(Lcom/cleanplanner/ui/splash/StartSplashPage;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/ui/home/more/largefile/StartScanLargeFilesPage$searchFiles$1;->QZu(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/ui/home/more/largefile/StartScanLargeFilesPage;->qZ()V <",
+                "> LN/IiKaXw;->onClick(Landroid/view/View;)V <",
+                "> Lcom/cleanplanner/ui/home/StartHomePage;->qZ()V <",
+                "> Lcom/cleanplanner/ui/splash/StartSplashPage;->tq(Lcom/cleanplanner/ui/splash/StartSplashPage;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/ui/home/more/largefile/StartScanLargeFilesPage$checkPermission$1$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/ui/home/more/largefile/StartScanLargeFilesPage;->qZ()V <",
+                "> LN/IiKaXw;->onClick(Landroid/view/View;)V <",
+                "> Lcom/cleanplanner/ui/home/StartHomePage;->qZ()V <",
+                "> Lcom/cleanplanner/ui/splash/StartSplashPage;->tq(Lcom/cleanplanner/ui/splash/StartSplashPage;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/ui/home/more/largefile/StartScanLargeFilesPage;->qZ()V <",
+                "> LN/IiKaXw;->onClick(Landroid/view/View;)V <",
+                "> Lcom/cleanplanner/ui/home/StartHomePage;->qZ()V <",
+                "> Lcom/cleanplanner/ui/splash/StartSplashPage;->tq(Lcom/cleanplanner/ui/splash/StartSplashPage;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/cleanplanner/core/ad/impl/callback/AdInnerCallback;->xtKLh(Lcom/cleanplanner/core/ad/impl/limit/platform/data/LimitType;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/core/ad/impl/callback/AdInnerCallback;->siE(Ljava/lang/Throwable;)V <",
+                "> Lcom/cleanplanner/core/ad/impl/callback/AdInnerCallback;->e0nA(Ljava/lang/Throwable;)V <",
+                "> Lcom/cleanplanner/core/ad/impl/e0nA;->xQ(Landroid/app/Activity;Lcom/cleanplanner/data/enums/AdScene;ILcom/cleanplanner/core/ad/impl/e0nA$e0nA;)V <",
+                "> Lcom/cleanplanner/ui/splash/StartSplashPage$checkUMP$1$1;->xtKLh(Ljava/lang/Object;)Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/cleanplanner/databinding/ItemViewNotifyBlockBinding;->getRoot()Landroidx/constraintlayout/widget/ConstraintLayout;": {
+        "path_0": {
+            "call_sequence": [
+                "> LIGT8/xQ;-><init>(Lcom/cleanplanner/databinding/ItemViewNotifyBlockBinding;)V <",
+                "> LX/xQ;->IiKaXw(Landroid/view/ViewGroup;I)Landroidx/recyclerview/widget/RecyclerView$luJu; <",
+                "> Lcom/cleanplanner/ui/home/more/notify/block/StartNotifyPage;->qZ()V <",
+                "> LFRZJa6/xQ;->xQ(Ljava/lang/Object;)V <",
+                "> Lcom/cleanplanner/ui/home/more/notify/StartGetNotifyPermissionPage;-><init>()V <",
+                "> Lap3e/e0nA;->onClick(Landroid/view/View;)V <",
+                "> Lcom/cleanplanner/ui/home/StartHomePage;->qZ()V <",
+                "> Lcom/cleanplanner/ui/splash/StartSplashPage;->tq(Lcom/cleanplanner/ui/splash/StartSplashPage;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> LIGT8/xQ;-><init>(Lcom/cleanplanner/databinding/ItemViewNotifyBlockBinding;)V <",
+                "> LX/xQ;->IiKaXw(Landroid/view/ViewGroup;I)Landroidx/recyclerview/widget/RecyclerView$luJu; <",
+                "> Lcom/cleanplanner/ui/home/more/notify/block/StartNotifyPage;->qZ()V <",
+                "> Lt05u/oz;->onClick(Landroid/view/View;)V <",
+                "> Lcom/cleanplanner/ui/home/more/largefile/StartScanLargeFilesPage;->qZ()V <",
+                "> LN/IiKaXw;->onClick(Landroid/view/View;)V <",
+                "> Lcom/cleanplanner/ui/home/StartHomePage;->qZ()V <",
+                "> Lcom/cleanplanner/ui/splash/StartSplashPage;->tq(Lcom/cleanplanner/ui/splash/StartSplashPage;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> LIGT8/xQ;-><init>(Lcom/cleanplanner/databinding/ItemViewNotifyBlockBinding;)V <",
+                "> LX/xQ;->IiKaXw(Landroid/view/ViewGroup;I)Landroidx/recyclerview/widget/RecyclerView$luJu; <",
+                "> Lcom/cleanplanner/ui/home/more/notify/block/StartNotifyPage;->qZ()V <",
+                "> LFRZJa6/xQ;->xQ(Ljava/lang/Object;)V <",
+                "> Lcom/cleanplanner/ui/home/ex/result/StartAllResultPage;-><init>()V <",
+                "> Lcom/cleanplanner/ui/home/main/newjunk/StartNewJunkCleanerPage;->O4t0Y(J)V <",
+                "> Lcom/cleanplanner/ui/home/StartHomePage;->tq(Ljava/lang/Class;)V <",
+                "> Lcw1/e0nA;->onClick(Landroid/view/View;)V <",
+                "> Lcom/cleanplanner/ui/splash/StartSplashPage$prepare$1;->R()Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/cleanplanner/ui/home/main/junk/StartJunkPage;->Sy(ZZ)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/ui/home/main/junk/StartJunkPage$initialized$2;->R()Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/ui/home/main/junk/StartJunkPage;->qZ()V <",
+                "> Lcom/cleanplanner/ui/home/StartHomePage;->tq(Ljava/lang/Class;)V <",
+                "> Lcw1/e0nA;->onClick(Landroid/view/View;)V <",
+                "> Lcom/cleanplanner/ui/splash/StartSplashPage$prepare$1;->R()Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/ui/home/main/junk/StartJunkPage$initialized$3;->R()Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/ui/home/main/junk/StartJunkPage;->qZ()V <",
+                "> Lcom/cleanplanner/ui/home/StartHomePage;->tq(Ljava/lang/Class;)V <",
+                "> Lcw1/e0nA;->onClick(Landroid/view/View;)V <",
+                "> Lcom/cleanplanner/ui/splash/StartSplashPage$prepare$1;->R()Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/cleanplanner/ui/home/main/newjunk/task/NewJunkFileSearchTask;->R(Lcom/cleanplanner/ui/home/main/newjunk/task/NewJunkFileSearchTask;Landroid/content/Context;LtA/IiKaXw;)Ljava/lang/Object;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/ui/home/main/newjunk/task/NewJunkFileSearchTask$scan$2$scanTempJob$1;->xtKLh(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/ui/home/main/newjunk/task/NewJunkFileSearchTask$scan$2$scanTempJob$1;->QZu(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/ui/home/main/newjunk/task/NewJunkFileSearchTask$scan$2;->xtKLh(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/ui/home/main/newjunk/task/NewJunkFileSearchTask$scan$2;->QZu(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/ui/home/main/newjunk/task/NewJunkFileSearchTask;->rdQ(Landroid/content/Context;LtA/IiKaXw;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/ui/home/main/newjunk/StartNewJunkCleanerPage$scan$1;->xtKLh(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/ui/home/main/newjunk/StartNewJunkCleanerPage$scan$1;->QZu(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/ui/home/main/newjunk/StartNewJunkCleanerPage;->sBHKl()V <",
+                "> Lcom/cleanplanner/ui/home/StartHomePage;->tq(Ljava/lang/Class;)V <",
+                "> Lcw1/e0nA;->onClick(Landroid/view/View;)V <",
+                "> Lcom/cleanplanner/ui/splash/StartSplashPage$prepare$1;->R()Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/ui/home/main/newjunk/task/NewJunkFileSearchTask$scanTemp$1;->xtKLh(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/ui/home/main/newjunk/task/NewJunkFileSearchTask;->R(Lcom/cleanplanner/ui/home/main/newjunk/task/NewJunkFileSearchTask;Landroid/content/Context;LtA/IiKaXw;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/ui/home/main/newjunk/task/NewJunkFileSearchTask$scan$2$scanTempJob$1;->xtKLh(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/ui/home/main/newjunk/task/NewJunkFileSearchTask$scan$2$scanTempJob$1;->QZu(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/ui/home/main/newjunk/task/NewJunkFileSearchTask$scan$2;->xtKLh(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/ui/home/main/newjunk/task/NewJunkFileSearchTask$scan$2;->QZu(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/ui/home/main/newjunk/task/NewJunkFileSearchTask;->rdQ(Landroid/content/Context;LtA/IiKaXw;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/ui/home/main/newjunk/StartNewJunkCleanerPage$scan$1;->xtKLh(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/ui/home/main/newjunk/StartNewJunkCleanerPage$scan$1;->QZu(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/ui/home/main/newjunk/StartNewJunkCleanerPage;->sBHKl()V <",
+                "> Lcom/cleanplanner/ui/home/StartHomePage;->tq(Ljava/lang/Class;)V <",
+                "> Lcw1/e0nA;->onClick(Landroid/view/View;)V <",
+                "> Lcom/cleanplanner/ui/splash/StartSplashPage$prepare$1;->R()Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/cleanplanner/event/attr/AttrImpl;->IiKaXw(I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/event/attr/AttrImpl$upload$3;->QZu(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/event/attr/AttrImpl;->IiKaXw(I)V <",
+                "> Lcom/cleanplanner/event/xQ;->e0nA(Landroid/app/Application;Ljava/lang/String;)V <",
+                "> Lcom/cleanplanner/CleanPlannerManagerPro;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/event/attr/AttrImpl$upload$3;->YQutwv(Ljava/lang/Object;LtA/IiKaXw;)LtA/IiKaXw; <",
+                "> Lcom/cleanplanner/event/attr/AttrImpl;->IiKaXw(I)V <",
+                "> Lcom/cleanplanner/event/xQ;->e0nA(Landroid/app/Application;Ljava/lang/String;)V <",
+                "> Lcom/cleanplanner/CleanPlannerManagerPro;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/event/attr/AttrImpl;->IiKaXw(I)V <",
+                "> Lcom/cleanplanner/event/xQ;->e0nA(Landroid/app/Application;Ljava/lang/String;)V <",
+                "> Lcom/cleanplanner/CleanPlannerManagerPro;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/cleanplanner/ui/splash/ex/StartScanResultPage;->qZ()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/ui/splash/ex/StartScanResultPage;->qZ()V <",
+                "> Lcom/cleanplanner/ui/splash/ex/StartScanPage$openScanResultPage$1;->xtKLh(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/ui/splash/ex/StartScanPage$openScanResultPage$1;->QZu(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/ui/splash/ex/StartScanPage;->tq()V <",
+                "> Lcom/cleanplanner/ui/splash/StartSplashPage;->tq(Lcom/cleanplanner/ui/splash/StartSplashPage;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/cleanplanner/event/db/AnalyticsManager;->xQ(LbhfMPs/e0nA;LtA/IiKaXw;)Ljava/lang/Object;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/event/db/AnalyticsManager$insert$1;->xtKLh(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/event/db/AnalyticsManager;->xQ(LbhfMPs/e0nA;LtA/IiKaXw;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/event/EventImpl;->e0nA(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/cleanplanner/event/IiKaXw;LtA/IiKaXw;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/event/PhoneManagerProAnalytics;->EG0Bxd(Ljava/lang/String;Lcom/cleanplanner/event/EventType;Lcom/cleanplanner/event/IiKaXw;LtA/IiKaXw;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/event/PhoneManagerProAnalytics;->e0nA(Ljava/lang/String;Ljava/lang/String;Lcom/cleanplanner/event/EventType;Ljava/util/Map;Ljava/util/Map;LtA/IiKaXw;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/event/PhoneManagerProAnalytics;->R(Lcom/cleanplanner/event/PhoneManagerProAnalytics;Ljava/lang/String;Lcom/cleanplanner/event/EventType;Ljava/util/Map;Ljava/util/Map;LtA/IiKaXw;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/event/PhoneManagerProAnalytics$reportInEvent$1;->xtKLh(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/event/PhoneManagerProAnalytics$reportInEvent$1;->QZu(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/event/PhoneManagerProAnalytics;->NE(Lcom/cleanplanner/event/PhoneManagerProAnalytics;Ljava/lang/String;Ljava/util/Map;)V <",
+                "> Lcom/cleanplanner/ui/splash/StartSplashPage$checkUMP$1$1;->xtKLh(Ljava/lang/Object;)Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/event/db/AnalyticsManager$insert$1;->xtKLh(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/event/db/AnalyticsManager;->xQ(LbhfMPs/e0nA;LtA/IiKaXw;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/event/EventImpl;->e0nA(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/cleanplanner/event/IiKaXw;LtA/IiKaXw;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/event/PhoneManagerProAnalytics;->EG0Bxd(Ljava/lang/String;Lcom/cleanplanner/event/EventType;Lcom/cleanplanner/event/IiKaXw;LtA/IiKaXw;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/event/PhoneManagerProAnalytics;->e0nA(Ljava/lang/String;Ljava/lang/String;Lcom/cleanplanner/event/EventType;Ljava/util/Map;Ljava/util/Map;LtA/IiKaXw;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/event/PhoneManagerProAnalytics;->R(Lcom/cleanplanner/event/PhoneManagerProAnalytics;Ljava/lang/String;Lcom/cleanplanner/event/EventType;Ljava/util/Map;Ljava/util/Map;LtA/IiKaXw;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/event/PhoneManagerProAnalytics$reportInEvent$1;->xtKLh(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/event/PhoneManagerProAnalytics$reportInEvent$1;->QZu(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/event/PhoneManagerProAnalytics;->NE(Lcom/cleanplanner/event/PhoneManagerProAnalytics;Ljava/lang/String;Ljava/util/Map;)V <",
+                "> Lcom/cleanplanner/ui/splash/StartSplashPage;->luJu(Lcom/cleanplanner/ui/splash/StartSplashPage;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/event/db/AnalyticsManager$insert$1;->xtKLh(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/event/db/AnalyticsManager;->xQ(LbhfMPs/e0nA;LtA/IiKaXw;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/event/EventImpl;->e0nA(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/cleanplanner/event/IiKaXw;LtA/IiKaXw;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/event/PhoneManagerProAnalytics;->EG0Bxd(Ljava/lang/String;Lcom/cleanplanner/event/EventType;Lcom/cleanplanner/event/IiKaXw;LtA/IiKaXw;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/event/PhoneManagerProAnalytics;->e0nA(Ljava/lang/String;Ljava/lang/String;Lcom/cleanplanner/event/EventType;Ljava/util/Map;Ljava/util/Map;LtA/IiKaXw;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/event/PhoneManagerProAnalytics;->R(Lcom/cleanplanner/event/PhoneManagerProAnalytics;Ljava/lang/String;Lcom/cleanplanner/event/EventType;Ljava/util/Map;Ljava/util/Map;LtA/IiKaXw;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/event/PhoneManagerProAnalytics$reportOutEvent$1;->xtKLh(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/event/PhoneManagerProAnalytics$reportOutEvent$1;->QZu(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/event/PhoneManagerProAnalytics;->rdQ(Lcom/cleanplanner/event/PhoneManagerProAnalytics;Ljava/lang/String;Ljava/util/Map;)V <",
+                "> Lcom/cleanplanner/ui/splash/StartSplashPage;->qZ()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/event/db/AnalyticsManager$insert$1;->xtKLh(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/event/db/AnalyticsManager;->xQ(LbhfMPs/e0nA;LtA/IiKaXw;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/event/EventImpl;->e0nA(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/cleanplanner/event/IiKaXw;LtA/IiKaXw;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/event/PhoneManagerProAnalytics;->EG0Bxd(Ljava/lang/String;Lcom/cleanplanner/event/EventType;Lcom/cleanplanner/event/IiKaXw;LtA/IiKaXw;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/event/PhoneManagerProAnalytics$reportAdPainEvent$1;->xtKLh(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/event/PhoneManagerProAnalytics$reportAdPainEvent$1;->QZu(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/event/PhoneManagerProAnalytics;->oz(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;DLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;)V <",
+                "> Lcom/cleanplanner/core/ad/impl/callback/AdInnerCallback;->r6S(DLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V <",
+                "> LEBvT/IiKaXw;->NE(Lcom/anythink/core/api/ATAdInfo;Lcom/cleanplanner/core/ad/impl/callback/AdInnerCallback;Ljava/lang/String;)V <",
+                "> LEBvT/IiKaXw;->IiKaXw(Lcom/facebook/appevents/ondeviceprocessing/RemoteServiceWrapper$EventType;Ljava/lang/String;Ljava/util/List;)Landroid/os/Bundle; <",
+                "> Lcom/facebook/appevents/ondeviceprocessing/RemoteServiceWrapper;->xQ(Lcom/facebook/appevents/ondeviceprocessing/RemoteServiceWrapper$EventType;Ljava/lang/String;Ljava/util/List;)Lcom/facebook/appevents/ondeviceprocessing/RemoteServiceWrapper$ServiceResult; <",
+                "> LkyqV/IiKaXw;->run()V <",
+                "> LkyqV/F$R;->r6S(LkyqV/dwlT2;Ljava/util/List;)V <",
+                "> LkyqV/F$R;->R(LkyqV/dwlT2;)Ljava/util/List; <",
+                "> LkyqV/F;->R()LkyqV/uFI; <",
+                "> Lcom/facebook/internal/QZu;->e0nA()Lorg/json/JSONObject; <",
+                "> Lcom/facebook/internal/QZu;->R(Lcom/facebook/internal/QZu$e0nA;)V <",
+                "> Lcom/facebook/internal/FeatureManager;->e0nA(Lcom/facebook/internal/FeatureManager$Feature;Lcom/facebook/internal/FeatureManager$e0nA;)V <",
+                "> Lcom/facebook/FacebookException;-><init>(Ljava/lang/String;)V <",
+                "> Lcom/facebook/FacebookSdkNotInitializedException;-><init>(Ljava/lang/String;)V <",
+                "> Lcom/facebook/internal/EX;->oz()V <",
+                "> LkyqV/siE;->e0nA()Landroid/content/Context; <",
+                "> LkyqV/ANYI$e0nA;->e0nA()LkyqV/ANYI; <",
+                "> Lcom/facebook/CurrentAccessTokenExpirationBroadcastReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/event/db/AnalyticsManager$insert$1;->xtKLh(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/event/db/AnalyticsManager;->xQ(LbhfMPs/e0nA;LtA/IiKaXw;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/event/EventImpl;->e0nA(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/cleanplanner/event/IiKaXw;LtA/IiKaXw;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/event/PhoneManagerProAnalytics;->EG0Bxd(Ljava/lang/String;Lcom/cleanplanner/event/EventType;Lcom/cleanplanner/event/IiKaXw;LtA/IiKaXw;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/event/PhoneManagerProAnalytics;->e0nA(Ljava/lang/String;Ljava/lang/String;Lcom/cleanplanner/event/EventType;Ljava/util/Map;Ljava/util/Map;LtA/IiKaXw;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/event/PhoneManagerProAnalytics;->R(Lcom/cleanplanner/event/PhoneManagerProAnalytics;Ljava/lang/String;Lcom/cleanplanner/event/EventType;Ljava/util/Map;Ljava/util/Map;LtA/IiKaXw;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/event/PhoneManagerProAnalytics$reportOutEvent$1;->xtKLh(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/event/PhoneManagerProAnalytics$reportOutEvent$1;->QZu(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/event/PhoneManagerProAnalytics;->rdQ(Lcom/cleanplanner/event/PhoneManagerProAnalytics;Ljava/lang/String;Ljava/util/Map;)V <",
+                "> Lcom/cleanplanner/core/firebase/FCMService;->IiKaXw(Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.google.firebase.MESSAGING_EVENT",
+                    "start-service -a"
+                ]
+            ]
+        },
+        "path_5": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/event/db/AnalyticsManager$insert$1;->xtKLh(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/event/db/AnalyticsManager;->xQ(LbhfMPs/e0nA;LtA/IiKaXw;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/event/EventImpl;->e0nA(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/cleanplanner/event/IiKaXw;LtA/IiKaXw;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/event/PhoneManagerProAnalytics;->EG0Bxd(Ljava/lang/String;Lcom/cleanplanner/event/EventType;Lcom/cleanplanner/event/IiKaXw;LtA/IiKaXw;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/event/PhoneManagerProAnalytics;->e0nA(Ljava/lang/String;Ljava/lang/String;Lcom/cleanplanner/event/EventType;Ljava/util/Map;Ljava/util/Map;LtA/IiKaXw;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/event/PhoneManagerProAnalytics;->R(Lcom/cleanplanner/event/PhoneManagerProAnalytics;Ljava/lang/String;Lcom/cleanplanner/event/EventType;Ljava/util/Map;Ljava/util/Map;LtA/IiKaXw;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/event/PhoneManagerProAnalytics$reportBackgroundEvent$1;->xtKLh(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/event/PhoneManagerProAnalytics$reportBackgroundEvent$1;->QZu(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/event/PhoneManagerProAnalytics;->XRJkd(Lcom/cleanplanner/event/PhoneManagerProAnalytics;Ljava/lang/String;Ljava/util/Map;)V <",
+                "> LK/xQ;->R(Landroid/widget/RemoteViews;Landroid/widget/RemoteViews;Lyoy/e0nA;ZZ)V <",
+                "> LK/xQ;->IiKaXw(LK/xQ;Landroid/widget/RemoteViews;Landroid/widget/RemoteViews;Lyoy/e0nA;I)V <",
+                "> LiRP8tM/e0nA;->xQ()V <",
+                "> Lcom/cleanplanner/remote/notify/receiver/FlashLightReception;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.cleanplanner.WIZ_RESIDENT_LIGHT",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_6": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/event/EventImpl;->e0nA(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/cleanplanner/event/IiKaXw;LtA/IiKaXw;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/event/PhoneManagerProAnalytics;->EG0Bxd(Ljava/lang/String;Lcom/cleanplanner/event/EventType;Lcom/cleanplanner/event/IiKaXw;LtA/IiKaXw;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/event/PhoneManagerProAnalytics;->e0nA(Ljava/lang/String;Ljava/lang/String;Lcom/cleanplanner/event/EventType;Ljava/util/Map;Ljava/util/Map;LtA/IiKaXw;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/event/PhoneManagerProAnalytics;->R(Lcom/cleanplanner/event/PhoneManagerProAnalytics;Ljava/lang/String;Lcom/cleanplanner/event/EventType;Ljava/util/Map;Ljava/util/Map;LtA/IiKaXw;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/event/PhoneManagerProAnalytics$reportInEvent$1;->xtKLh(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/event/PhoneManagerProAnalytics$reportInEvent$1;->QZu(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/event/PhoneManagerProAnalytics;->NE(Lcom/cleanplanner/event/PhoneManagerProAnalytics;Ljava/lang/String;Ljava/util/Map;)V <",
+                "> Lcom/cleanplanner/ui/splash/StartSplashPage$checkUMP$1$1;->xtKLh(Ljava/lang/Object;)Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_7": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/event/EventImpl;->e0nA(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/cleanplanner/event/IiKaXw;LtA/IiKaXw;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/event/PhoneManagerProAnalytics;->EG0Bxd(Ljava/lang/String;Lcom/cleanplanner/event/EventType;Lcom/cleanplanner/event/IiKaXw;LtA/IiKaXw;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/event/PhoneManagerProAnalytics;->e0nA(Ljava/lang/String;Ljava/lang/String;Lcom/cleanplanner/event/EventType;Ljava/util/Map;Ljava/util/Map;LtA/IiKaXw;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/event/PhoneManagerProAnalytics;->R(Lcom/cleanplanner/event/PhoneManagerProAnalytics;Ljava/lang/String;Lcom/cleanplanner/event/EventType;Ljava/util/Map;Ljava/util/Map;LtA/IiKaXw;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/event/PhoneManagerProAnalytics$reportInEvent$1;->xtKLh(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/event/PhoneManagerProAnalytics$reportInEvent$1;->QZu(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/event/PhoneManagerProAnalytics;->NE(Lcom/cleanplanner/event/PhoneManagerProAnalytics;Ljava/lang/String;Ljava/util/Map;)V <",
+                "> Lcom/cleanplanner/ui/splash/StartSplashPage;->luJu(Lcom/cleanplanner/ui/splash/StartSplashPage;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_8": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/event/EventImpl;->e0nA(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/cleanplanner/event/IiKaXw;LtA/IiKaXw;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/event/PhoneManagerProAnalytics;->EG0Bxd(Ljava/lang/String;Lcom/cleanplanner/event/EventType;Lcom/cleanplanner/event/IiKaXw;LtA/IiKaXw;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/event/PhoneManagerProAnalytics;->e0nA(Ljava/lang/String;Ljava/lang/String;Lcom/cleanplanner/event/EventType;Ljava/util/Map;Ljava/util/Map;LtA/IiKaXw;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/event/PhoneManagerProAnalytics;->R(Lcom/cleanplanner/event/PhoneManagerProAnalytics;Ljava/lang/String;Lcom/cleanplanner/event/EventType;Ljava/util/Map;Ljava/util/Map;LtA/IiKaXw;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/event/PhoneManagerProAnalytics$reportOutEvent$1;->xtKLh(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/event/PhoneManagerProAnalytics$reportOutEvent$1;->QZu(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/event/PhoneManagerProAnalytics;->rdQ(Lcom/cleanplanner/event/PhoneManagerProAnalytics;Ljava/lang/String;Ljava/util/Map;)V <",
+                "> Lcom/cleanplanner/ui/splash/StartSplashPage;->qZ()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_9": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/event/EventImpl;->e0nA(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/cleanplanner/event/IiKaXw;LtA/IiKaXw;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/event/PhoneManagerProAnalytics;->EG0Bxd(Ljava/lang/String;Lcom/cleanplanner/event/EventType;Lcom/cleanplanner/event/IiKaXw;LtA/IiKaXw;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/event/PhoneManagerProAnalytics$reportAdPainEvent$1;->xtKLh(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/event/PhoneManagerProAnalytics$reportAdPainEvent$1;->QZu(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/event/PhoneManagerProAnalytics;->oz(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;DLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;)V <",
+                "> Lcom/cleanplanner/core/ad/impl/callback/AdInnerCallback;->r6S(DLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V <",
+                "> LEBvT/IiKaXw;->NE(Lcom/anythink/core/api/ATAdInfo;Lcom/cleanplanner/core/ad/impl/callback/AdInnerCallback;Ljava/lang/String;)V <",
+                "> LEBvT/IiKaXw;->IiKaXw(Lcom/facebook/appevents/ondeviceprocessing/RemoteServiceWrapper$EventType;Ljava/lang/String;Ljava/util/List;)Landroid/os/Bundle; <",
+                "> Lcom/facebook/appevents/ondeviceprocessing/RemoteServiceWrapper;->xQ(Lcom/facebook/appevents/ondeviceprocessing/RemoteServiceWrapper$EventType;Ljava/lang/String;Ljava/util/List;)Lcom/facebook/appevents/ondeviceprocessing/RemoteServiceWrapper$ServiceResult; <",
+                "> LkyqV/IiKaXw;->run()V <",
+                "> LkyqV/F$R;->r6S(LkyqV/dwlT2;Ljava/util/List;)V <",
+                "> LkyqV/F$R;->R(LkyqV/dwlT2;)Ljava/util/List; <",
+                "> LkyqV/F;->R()LkyqV/uFI; <",
+                "> Lcom/facebook/internal/QZu;->e0nA()Lorg/json/JSONObject; <",
+                "> Lcom/facebook/internal/QZu;->R(Lcom/facebook/internal/QZu$e0nA;)V <",
+                "> Lcom/facebook/internal/FeatureManager;->e0nA(Lcom/facebook/internal/FeatureManager$Feature;Lcom/facebook/internal/FeatureManager$e0nA;)V <",
+                "> Lcom/facebook/FacebookException;-><init>(Ljava/lang/String;)V <",
+                "> Lcom/facebook/FacebookSdkNotInitializedException;-><init>(Ljava/lang/String;)V <",
+                "> Lcom/facebook/internal/EX;->oz()V <",
+                "> LkyqV/siE;->e0nA()Landroid/content/Context; <",
+                "> LkyqV/ANYI$e0nA;->e0nA()LkyqV/ANYI; <",
+                "> Lcom/facebook/CurrentAccessTokenExpirationBroadcastReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_10": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/event/EventImpl;->e0nA(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/cleanplanner/event/IiKaXw;LtA/IiKaXw;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/event/PhoneManagerProAnalytics;->EG0Bxd(Ljava/lang/String;Lcom/cleanplanner/event/EventType;Lcom/cleanplanner/event/IiKaXw;LtA/IiKaXw;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/event/PhoneManagerProAnalytics;->e0nA(Ljava/lang/String;Ljava/lang/String;Lcom/cleanplanner/event/EventType;Ljava/util/Map;Ljava/util/Map;LtA/IiKaXw;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/event/PhoneManagerProAnalytics;->R(Lcom/cleanplanner/event/PhoneManagerProAnalytics;Ljava/lang/String;Lcom/cleanplanner/event/EventType;Ljava/util/Map;Ljava/util/Map;LtA/IiKaXw;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/event/PhoneManagerProAnalytics$reportOutEvent$1;->xtKLh(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/event/PhoneManagerProAnalytics$reportOutEvent$1;->QZu(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/event/PhoneManagerProAnalytics;->rdQ(Lcom/cleanplanner/event/PhoneManagerProAnalytics;Ljava/lang/String;Ljava/util/Map;)V <",
+                "> Lcom/cleanplanner/core/firebase/FCMService;->IiKaXw(Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.google.firebase.MESSAGING_EVENT",
+                    "start-service -a"
+                ]
+            ]
+        },
+        "path_11": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/event/EventImpl;->e0nA(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/cleanplanner/event/IiKaXw;LtA/IiKaXw;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/event/PhoneManagerProAnalytics;->EG0Bxd(Ljava/lang/String;Lcom/cleanplanner/event/EventType;Lcom/cleanplanner/event/IiKaXw;LtA/IiKaXw;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/event/PhoneManagerProAnalytics;->e0nA(Ljava/lang/String;Ljava/lang/String;Lcom/cleanplanner/event/EventType;Ljava/util/Map;Ljava/util/Map;LtA/IiKaXw;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/event/PhoneManagerProAnalytics;->R(Lcom/cleanplanner/event/PhoneManagerProAnalytics;Ljava/lang/String;Lcom/cleanplanner/event/EventType;Ljava/util/Map;Ljava/util/Map;LtA/IiKaXw;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/event/PhoneManagerProAnalytics$reportBackgroundEvent$1;->xtKLh(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/event/PhoneManagerProAnalytics$reportBackgroundEvent$1;->QZu(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/event/PhoneManagerProAnalytics;->XRJkd(Lcom/cleanplanner/event/PhoneManagerProAnalytics;Ljava/lang/String;Ljava/util/Map;)V <",
+                "> LK/xQ;->R(Landroid/widget/RemoteViews;Landroid/widget/RemoteViews;Lyoy/e0nA;ZZ)V <",
+                "> LK/xQ;->IiKaXw(LK/xQ;Landroid/widget/RemoteViews;Landroid/widget/RemoteViews;Lyoy/e0nA;I)V <",
+                "> LiRP8tM/e0nA;->xQ()V <",
+                "> Lcom/cleanplanner/remote/notify/receiver/FlashLightReception;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.cleanplanner.WIZ_RESIDENT_LIGHT",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/cleanplanner/remote/monitor/func/FunTrigger;->e0nA(Lcom/cleanplanner/remote/monitor/func/FunTrigger;LaPI/xtKLh;LtA/IiKaXw;)Ljava/lang/Object;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/remote/monitor/func/FunTrigger;->e0nA(Lcom/cleanplanner/remote/monitor/func/FunTrigger;LaPI/xtKLh;LtA/IiKaXw;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/remote/monitor/func/FunTrigger$Companion;->e0nA(Landroid/content/Context;LtA/IiKaXw;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/remote/monitor/GlobalMonitorTimer$initialized$1;->xtKLh(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/remote/monitor/GlobalMonitorTimer$initialized$1;->QZu(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/remote/monitor/GlobalMonitorTimer;->e0nA()V <",
+                "> Lcom/cleanplanner/CleanPlannerManagerPro;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/cleanplanner/ui/splash/StartSplashPage;->qZ()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/ui/splash/StartSplashPage;->qZ()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/cleanplanner/remote/monitor/func/ui/StartFuncPopupPage;->qZ()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/remote/monitor/func/ui/StartFuncPopupPage;->qZ()V <",
+                "> Lcom/cleanplanner/remote/monitor/func/FunTrigger$push$2$1;->xtKLh(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/remote/monitor/func/FunTrigger$push$2$1;->QZu(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/remote/monitor/func/FunTrigger;->xQ(Lcom/cleanplanner/remote/monitor/func/FunTrigger;ZLtA/IiKaXw;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/remote/monitor/func/FunTrigger$Companion$check$2;->xtKLh(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/remote/monitor/func/FunTrigger$Companion$check$2;->QZu(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/remote/monitor/func/FunTrigger;->e0nA(Lcom/cleanplanner/remote/monitor/func/FunTrigger;LaPI/xtKLh;LtA/IiKaXw;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/remote/monitor/func/FunTrigger$Companion;->e0nA(Landroid/content/Context;LtA/IiKaXw;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/remote/monitor/GlobalMonitorTimer$initialized$1;->xtKLh(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/remote/monitor/GlobalMonitorTimer$initialized$1;->QZu(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/remote/monitor/GlobalMonitorTimer;->e0nA()V <",
+                "> Lcom/cleanplanner/CleanPlannerManagerPro;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/cleanplanner/ui/home/main/newjunk/StartNewJunkCleanerPage;->luJu(Lcom/cleanplanner/ui/home/main/newjunk/StartNewJunkCleanerPage;)Lcom/cleanplanner/databinding/ActivityJunkCleanerBinding;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/ui/home/main/newjunk/StartNewJunkCleanerPage$scan$1$1$onScanStep$2;->xtKLh(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/ui/home/main/newjunk/StartNewJunkCleanerPage$scan$1$1$onScanStep$2;->QZu(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/ui/home/main/newjunk/StartNewJunkCleanerPage$scan$1$1;->NE(Ljava/lang/String;LtA/IiKaXw;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/ui/home/main/newjunk/StartNewJunkCleanerPage$scan$1;->xtKLh(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/ui/home/main/newjunk/StartNewJunkCleanerPage$scan$1;->QZu(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/ui/home/main/newjunk/StartNewJunkCleanerPage;->sBHKl()V <",
+                "> Lcom/cleanplanner/ui/home/StartHomePage;->tq(Ljava/lang/Class;)V <",
+                "> Lcw1/e0nA;->onClick(Landroid/view/View;)V <",
+                "> Lcom/cleanplanner/ui/splash/StartSplashPage$prepare$1;->R()Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/ui/home/main/newjunk/StartNewJunkCleanerPage$initAdapter$1;->R(JZ)V <",
+                "> Lcom/cleanplanner/ui/home/main/newjunk/StartNewJunkCleanerPage;->sBHKl()V <",
+                "> Lcom/cleanplanner/ui/home/StartHomePage;->tq(Ljava/lang/Class;)V <",
+                "> Lcw1/e0nA;->onClick(Landroid/view/View;)V <",
+                "> Lcom/cleanplanner/ui/splash/StartSplashPage$prepare$1;->R()Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/ui/home/main/newjunk/StartNewJunkCleanerPage$initAdapter$1;->xQ(J)V <",
+                "> Lcom/cleanplanner/ui/home/main/newjunk/StartNewJunkCleanerPage;->sBHKl()V <",
+                "> Lcom/cleanplanner/ui/home/StartHomePage;->tq(Ljava/lang/Class;)V <",
+                "> Lcw1/e0nA;->onClick(Landroid/view/View;)V <",
+                "> Lcom/cleanplanner/ui/splash/StartSplashPage$prepare$1;->R()Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> LFNob/IiKaXw;->onAnimationEnd(Landroid/animation/Animator;)V <",
+                "> Lcom/cleanplanner/ui/home/main/newjunk/StartNewJunkCleanerPage;->qkg(J)V <",
+                "> Lcom/cleanplanner/ui/home/StartHomePage;->tq(Ljava/lang/Class;)V <",
+                "> Lcw1/e0nA;->onClick(Landroid/view/View;)V <",
+                "> Lcom/cleanplanner/ui/splash/StartSplashPage$prepare$1;->R()Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/ui/home/main/newjunk/StartNewJunkCleanerPage$scan$1$1;->ANYI()V <",
+                "> Lcom/cleanplanner/ui/home/main/newjunk/StartNewJunkCleanerPage$scan$1;->xtKLh(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/ui/home/main/newjunk/StartNewJunkCleanerPage$scan$1;->QZu(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/ui/home/main/newjunk/StartNewJunkCleanerPage;->sBHKl()V <",
+                "> Lcom/cleanplanner/ui/home/StartHomePage;->tq(Ljava/lang/Class;)V <",
+                "> Lcw1/e0nA;->onClick(Landroid/view/View;)V <",
+                "> Lcom/cleanplanner/ui/splash/StartSplashPage$prepare$1;->R()Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_5": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/ui/home/main/newjunk/StartNewJunkCleanerPage$scan$1$1;->b(Ljava/util/List;)V <",
+                "> Lcom/cleanplanner/ui/home/main/newjunk/StartNewJunkCleanerPage$scan$1;->xtKLh(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/ui/home/main/newjunk/StartNewJunkCleanerPage$scan$1;->QZu(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/ui/home/main/newjunk/StartNewJunkCleanerPage;->sBHKl()V <",
+                "> Lcom/cleanplanner/ui/home/StartHomePage;->tq(Ljava/lang/Class;)V <",
+                "> Lcw1/e0nA;->onClick(Landroid/view/View;)V <",
+                "> Lcom/cleanplanner/ui/splash/StartSplashPage$prepare$1;->R()Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/cleanplanner/ui/home/main/wifi/StartTestSpeedPage;->qZ()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/ui/home/main/wifi/StartTestSpeedPage$playFinishAnim$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/ui/home/main/wifi/StartTestSpeedPage$playScanAnim$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/ui/home/main/wifi/StartTestSpeedPage;->qZ()V <",
+                "> Lcom/cleanplanner/ui/home/StartHomePage;->tq(Ljava/lang/Class;)V <",
+                "> LaeI/e0nA;->onClick(Landroid/view/View;)V <",
+                "> Lcom/cleanplanner/ui/home/StartHomePage;->qZ()V <",
+                "> Lcom/cleanplanner/ui/splash/StartSplashPage;->tq(Lcom/cleanplanner/ui/splash/StartSplashPage;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/cleanplanner/data/ConfigGetter;->xQ(LaPI/QZu;)Lr5oPV/e0nA;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/event/newinstall/NewInstallEvent;->e0nA(LtA/IiKaXw;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/event/EventImpl$initTimer$1;->xtKLh(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/event/EventImpl$initTimer$1;->QZu(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/event/xQ;->e0nA(Landroid/app/Application;Ljava/lang/String;)V <",
+                "> Lcom/cleanplanner/CleanPlannerManagerPro;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/ui/home/more/compress/StartCompressImgPage;->luJu(Lcom/cleanplanner/ui/home/more/compress/StartCompressImgPage;LOqLx/e0nA;)V <",
+                "> Lcom/cleanplanner/ui/home/more/compress/permission/StartGetPermissionPage;->tq(Lcom/cleanplanner/data/enums/ActionType;)V <",
+                "> LkP/e0nA;->onClick(Landroid/view/View;)V <",
+                "> Lcom/cleanplanner/ui/home/StartHomePage;->qZ()V <",
+                "> Lcom/cleanplanner/ui/splash/StartSplashPage;->tq(Lcom/cleanplanner/ui/splash/StartSplashPage;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/core/firebase/xQ;->onComplete(Lcom/google/android/gms/tasks/Task;)V <",
+                "> Lcom/cleanplanner/core/firebase/PhoneManagerProConfig;->e0nA()V <",
+                "> Lcom/cleanplanner/ui/splash/StartSplashPage;->qZ()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/ui/home/ex/result/StartAllResultPage;->niN4(JLaPI/QZu;)V <",
+                "> Lcom/cleanplanner/ui/home/main/junk/StartJunkPage;->T(J)V <",
+                "> Lcom/cleanplanner/ui/home/StartHomePage;->tq(Ljava/lang/Class;)V <",
+                "> Lcw1/e0nA;->onClick(Landroid/view/View;)V <",
+                "> Lcom/cleanplanner/ui/splash/StartSplashPage$prepare$1;->R()Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/ui/home/main/junk/StartJunkPage$showPermissionDialog$1$1;->e0nA()V <",
+                "> Lcom/cleanplanner/ui/home/main/junk/StartJunkPage;->Sy(ZZ)V <",
+                "> Lcom/cleanplanner/ui/home/StartHomePage;->tq(Ljava/lang/Class;)V <",
+                "> Lcw1/e0nA;->onClick(Landroid/view/View;)V <",
+                "> Lcom/cleanplanner/ui/splash/StartSplashPage$prepare$1;->R()Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_5": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/ui/home/more/compress/StartCompressImgPreviewPage$startCompress$1$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/ui/home/more/compress/StartCompressImgPreviewPage$startCompress$1;->xtKLh(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/ui/home/more/compress/StartCompressImgPreviewPage$startCompress$1;->QZu(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/ui/home/more/compress/StartCompressImgPreviewPage;->luJu(Lcom/cleanplanner/ui/home/more/compress/StartCompressImgPreviewPage;)V <",
+                "> LaeI/e0nA;->onClick(Landroid/view/View;)V <",
+                "> Lcom/cleanplanner/ui/home/StartHomePage;->qZ()V <",
+                "> Lcom/cleanplanner/ui/splash/StartSplashPage;->tq(Lcom/cleanplanner/ui/splash/StartSplashPage;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_6": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/ui/home/main/appprocess/StartAppProcessListPage;->n()V <",
+                "> Lap/rdQ;->run()V <",
+                "> LB5f/sBHKl;->R(Landroid/content/Intent;)Lcom/google/android/gms/tasks/Task; <",
+                "> LB5f/ZM7k;->e0nA(Landroid/content/Context;Landroid/content/Intent;)Lcom/google/android/gms/tasks/Task; <",
+                "> Lcom/applovin/exoplayer2/a/O4t0Y;->then(Lcom/google/android/gms/tasks/Task;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/ui/app/permission/e0nA;->xQ(Lb/F;LaPI/QZu;)V <",
+                "> Lcom/cleanplanner/ui/home/main/newjunk/StartNewJunkCleanerPage;->qZ()V <",
+                "> Lcom/cleanplanner/ui/home/StartHomePage;->tq(Ljava/lang/Class;)V <",
+                "> Lcw1/e0nA;->onClick(Landroid/view/View;)V <",
+                "> Lcom/cleanplanner/ui/splash/StartSplashPage$prepare$1;->R()Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_7": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/ui/home/main/appprocess/StartAppProcessListPage;->n()V <",
+                "> Lcom/cleanplanner/ui/home/main/appprocess/StartAppProcessListPage$xQ;->xQ(Z)V <",
+                "> Lcom/cleanplanner/ui/home/main/appprocess/StartAppProcessListPage;->O4t0Y(LaPI/e0nA;)V <",
+                "> Lcom/cleanplanner/ui/home/main/appprocess/StartAppProcessListPage;->onBackPressed()V <",
+                "> Lt05u/e0nA;->onClick(Landroid/view/View;)V <",
+                "> Lcom/cleanplanner/ui/home/about/StartAboutFunPage;->qZ()V <",
+                "> Lcom/cleanplanner/ui/home/StartHomePage;->tq(Ljava/lang/Class;)V <",
+                "> LML/e0nA;->onClick(Landroid/view/View;)V <",
+                "> Lcom/cleanplanner/ui/home/StartHomePage;->qZ()V <",
+                "> Lcom/cleanplanner/ui/splash/StartSplashPage;->tq(Lcom/cleanplanner/ui/splash/StartSplashPage;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_8": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/ui/home/main/appprocess/StartAppProcessListPage;->n()V <",
+                "> Lcom/cleanplanner/ui/home/main/appprocess/StartAppProcessListPage$xQ;->xQ(Z)V <",
+                "> Lcom/cleanplanner/ui/home/main/appprocess/StartAppProcessListPage;->O4t0Y(LaPI/e0nA;)V <",
+                "> Lcom/cleanplanner/ui/home/main/appprocess/StartAppProcessListPage;->onBackPressed()V <",
+                "> Lt05u/oz;->onClick(Landroid/view/View;)V <",
+                "> Lcom/cleanplanner/ui/home/more/notify/StartCleanNotifyPage;->qZ()V <",
+                "> Lcom/cleanplanner/ui/home/StartHomePage;->tq(Ljava/lang/Class;)V <",
+                "> Lap3e/e0nA;->onClick(Landroid/view/View;)V <",
+                "> Lcom/cleanplanner/ui/home/StartHomePage;->qZ()V <",
+                "> Lcom/cleanplanner/ui/splash/StartSplashPage;->tq(Lcom/cleanplanner/ui/splash/StartSplashPage;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_9": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/ui/home/main/appprocess/StartAppProcessListPage;->n()V <",
+                "> Lap/rdQ;->run()V <",
+                "> LB5f/sBHKl;->R(Landroid/content/Intent;)Lcom/google/android/gms/tasks/Task; <",
+                "> LB5f/ZM7k;->e0nA(Landroid/content/Context;Landroid/content/Intent;)Lcom/google/android/gms/tasks/Task; <",
+                "> LB5f/ZM7k;->R(Landroid/content/Intent;)Lcom/google/android/gms/tasks/Task; <",
+                "> Lcom/google/firebase/iid/FirebaseInstanceIdReceiver;->e0nA(Landroid/content/Context;LH/e0nA;)I <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.google.android.c2dm.intent.RECEIVE",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_10": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/ui/home/main/newjunk/StartNewJunkCleanerPage$showPermissionDialog$1$1;->e0nA()V <",
+                "> Lcom/cleanplanner/ui/home/main/newjunk/StartNewJunkCleanerPage;->qZ()V <",
+                "> Lcom/cleanplanner/ui/home/StartHomePage;->tq(Ljava/lang/Class;)V <",
+                "> Lcw1/e0nA;->onClick(Landroid/view/View;)V <",
+                "> Lcom/cleanplanner/ui/splash/StartSplashPage$prepare$1;->R()Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_11": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/ui/home/main/junk/StartJunkPage$scanIfNeed$1$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/ui/home/main/junk/StartJunkPage;->Sy(ZZ)V <",
+                "> Lcom/cleanplanner/ui/home/StartHomePage;->tq(Ljava/lang/Class;)V <",
+                "> Lcw1/e0nA;->onClick(Landroid/view/View;)V <",
+                "> Lcom/cleanplanner/ui/splash/StartSplashPage$prepare$1;->R()Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_12": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/ui/home/main/wifi/StartTestSpeedPage$startScan$1;->e0nA(Ljava/util/List;)V <",
+                "> Lcom/cleanplanner/ui/home/main/wifi/StartTestSpeedPage;->qZ()V <",
+                "> Lcom/cleanplanner/ui/home/StartHomePage;->tq(Ljava/lang/Class;)V <",
+                "> LaeI/e0nA;->onClick(Landroid/view/View;)V <",
+                "> Lcom/cleanplanner/ui/home/StartHomePage;->qZ()V <",
+                "> Lcom/cleanplanner/ui/splash/StartSplashPage;->tq(Lcom/cleanplanner/ui/splash/StartSplashPage;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_13": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/ui/home/main/batteryinfo/StartBatteryResultPage;->n()V <",
+                "> Lcom/cleanplanner/ui/home/main/batteryinfo/StartBatteryResultPage$R;->xQ(Z)V <",
+                "> Lcom/cleanplanner/ui/home/main/batteryinfo/StartBatteryResultPage;->O4t0Y(LaPI/e0nA;)V <",
+                "> Lcom/cleanplanner/ui/home/main/batteryinfo/StartBatteryResultPage;->onBackPressed()V <",
+                "> LN/IiKaXw;->onClick(Landroid/view/View;)V <",
+                "> Lcom/cleanplanner/ui/home/StartHomePage;->qZ()V <",
+                "> Lcom/cleanplanner/ui/splash/StartSplashPage;->tq(Lcom/cleanplanner/ui/splash/StartSplashPage;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_14": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/ui/home/main/batteryinfo/StartBatteryResultPage;->n()V <",
+                "> LOQ2e/oz;->run()V <",
+                "> LlPpS1/b;->e0nA()V <",
+                "> LlPpS1/b$e0nA;->e0nA(Landroid/app/Activity;)V <",
+                "> LlPpS1/oz;->R(Landroid/app/Activity;)V <",
+                "> LNG4szM/oz$e0nA;->onActivityResumed(Landroid/app/Activity;)V <",
+                "> LNG4szM/oz;->IiKaXw(Landroid/app/Application;Ljava/lang/String;)V <",
+                "> LkyqV/siE;->YQutwv(Landroid/content/Context;)V <",
+                "> LkyqV/siE;->ZM7k()Z <",
+                "> LkyqV/F$R;->oz(Ljava/net/HttpURLConnection;LkyqV/dwlT2;)Ljava/util/List; <",
+                "> LkyqV/F$R;->R(LkyqV/dwlT2;)Ljava/util/List; <",
+                "> LkyqV/F;->R()LkyqV/uFI; <",
+                "> Lcom/facebook/internal/QZu;->e0nA()Lorg/json/JSONObject; <",
+                "> Lcom/facebook/internal/QZu;->R(Lcom/facebook/internal/QZu$e0nA;)V <",
+                "> Lcom/facebook/internal/FeatureManager;->e0nA(Lcom/facebook/internal/FeatureManager$Feature;Lcom/facebook/internal/FeatureManager$e0nA;)V <",
+                "> Lcom/facebook/FacebookException;-><init>(Ljava/lang/String;)V <",
+                "> Lcom/facebook/FacebookSdkNotInitializedException;-><init>(Ljava/lang/String;)V <",
+                "> Lcom/facebook/internal/EX;->oz()V <",
+                "> LkyqV/siE;->e0nA()Landroid/content/Context; <",
+                "> LkyqV/ANYI$e0nA;->e0nA()LkyqV/ANYI; <",
+                "> Lcom/facebook/CurrentAccessTokenExpirationBroadcastReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_15": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/ui/home/main/batteryinfo/StartBatteryResultPage;->n()V <",
+                "> LOQ2e/oz;->run()V <",
+                "> LlPpS1/b;->e0nA()V <",
+                "> LlPpS1/b$e0nA;->e0nA(Landroid/app/Activity;)V <",
+                "> LlPpS1/oz;->R(Landroid/app/Activity;)V <",
+                "> LNG4szM/oz$e0nA;->onActivityResumed(Landroid/app/Activity;)V <",
+                "> LNG4szM/oz;->IiKaXw(Landroid/app/Application;Ljava/lang/String;)V <",
+                "> LkyqV/siE;->YQutwv(Landroid/content/Context;)V <",
+                "> LkyqV/siE;->ZM7k()Z <",
+                "> LkyqV/F$R;->oz(Ljava/net/HttpURLConnection;LkyqV/dwlT2;)Ljava/util/List; <",
+                "> LkyqV/F$R;->R(LkyqV/dwlT2;)Ljava/util/List; <",
+                "> LkyqV/F;->R()LkyqV/uFI; <",
+                "> Lcom/facebook/internal/QZu;->e0nA()Lorg/json/JSONObject; <",
+                "> Lcom/facebook/internal/QZu;->R(Lcom/facebook/internal/QZu$e0nA;)V <",
+                "> Lcom/facebook/internal/FeatureManager;->e0nA(Lcom/facebook/internal/FeatureManager$Feature;Lcom/facebook/internal/FeatureManager$e0nA;)V <",
+                "> Lcom/facebook/FacebookException;-><init>(Ljava/lang/String;)V <",
+                "> Lcom/facebook/FacebookSdkNotInitializedException;-><init>(Ljava/lang/String;)V <",
+                "> Lcom/facebook/internal/EX;->oz()V <",
+                "> LkyqV/siE;->e0nA()Landroid/content/Context; <",
+                "> LkyqV/ANYI;->xQ(LkyqV/e0nA;LkyqV/e0nA;)V <",
+                "> Lcom/facebook/CurrentAccessTokenExpirationBroadcastReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_16": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/ui/splash/StartSplashPage;->luJu(Lcom/cleanplanner/ui/splash/StartSplashPage;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_17": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/core/ad/impl/e0nA;->xQ(Landroid/app/Activity;Lcom/cleanplanner/data/enums/AdScene;ILcom/cleanplanner/core/ad/impl/e0nA$e0nA;)V <",
+                "> Lcom/cleanplanner/ui/splash/StartSplashPage$checkUMP$1$1;->xtKLh(Ljava/lang/Object;)Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_18": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/event/active/NewUserActiveEvent;->e0nA()V <",
+                "> Lcom/cleanplanner/CleanPlannerManagerPro$xQ;->onActivityStarted(Landroid/app/Activity;)V <",
+                "> Lcom/cleanplanner/CleanPlannerManagerPro;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_19": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/remote/monitor/func/FunTrigger;->ANYI()Ljava/util/List; <",
+                "> Lcom/cleanplanner/remote/monitor/func/FunTrigger;-><init>(Landroid/content/Context;)V <",
+                "> Lcom/cleanplanner/remote/monitor/func/FunTrigger$Companion;->e0nA(Landroid/content/Context;LtA/IiKaXw;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/remote/monitor/GlobalMonitorTimer$initialized$1;->xtKLh(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/remote/monitor/GlobalMonitorTimer$initialized$1;->QZu(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/remote/monitor/GlobalMonitorTimer;->e0nA()V <",
+                "> Lcom/cleanplanner/CleanPlannerManagerPro;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_20": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/remote/monitor/func/FunTrigger;->R(Z)V <",
+                "> Lcom/cleanplanner/remote/monitor/func/FunTrigger;->e0nA(Lcom/cleanplanner/remote/monitor/func/FunTrigger;LaPI/xtKLh;LtA/IiKaXw;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/remote/monitor/func/FunTrigger$Companion;->e0nA(Landroid/content/Context;LtA/IiKaXw;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/remote/monitor/GlobalMonitorTimer$initialized$1;->xtKLh(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/remote/monitor/GlobalMonitorTimer$initialized$1;->QZu(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/remote/monitor/GlobalMonitorTimer;->e0nA()V <",
+                "> Lcom/cleanplanner/CleanPlannerManagerPro;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_21": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/ui/home/ex/result/StartAllResultPage$initialized$1;->R()Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/ui/home/ex/result/StartAllResultPage;->qZ()V <",
+                "> Lcom/cleanplanner/ui/home/main/junk/StartJunkPage;->T(J)V <",
+                "> Lcom/cleanplanner/ui/home/StartHomePage;->tq(Ljava/lang/Class;)V <",
+                "> Lcw1/e0nA;->onClick(Landroid/view/View;)V <",
+                "> Lcom/cleanplanner/ui/splash/StartSplashPage$prepare$1;->R()Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_22": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/core/ad/abs/e0nA;->R(Landroid/app/Activity;Lkj/xQ;Lcom/cleanplanner/core/ad/impl/callback/AdInnerCallback;)V <",
+                "> LUNQDSu/e0nA;->xQ(Landroid/app/Activity;Lkj/xQ;Lcom/cleanplanner/core/ad/impl/callback/AdInnerCallback;)V <",
+                "> Lcom/cleanplanner/core/ad/impl/e0nA;->xQ(Landroid/app/Activity;Lcom/cleanplanner/data/enums/AdScene;ILcom/cleanplanner/core/ad/impl/e0nA$e0nA;)V <",
+                "> Lcom/cleanplanner/ui/splash/StartSplashPage$checkUMP$1$1;->xtKLh(Ljava/lang/Object;)Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_23": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/ui/home/more/speaker/StartCleanerSpeakerPage$playResultAnim$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/ui/home/more/speaker/StartCleanerSpeakerPage$audioPlayer$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/ui/home/more/speaker/StartCleanerSpeakerPage;-><init>()V <",
+                "> Lcom/cleanplanner/ui/home/StartHomePage;->tq(Ljava/lang/Class;)V <",
+                "> LN/xQ;->onClick(Landroid/view/View;)V <",
+                "> Lcom/cleanplanner/ui/home/StartHomePage;->qZ()V <",
+                "> Lcom/cleanplanner/ui/splash/StartSplashPage;->tq(Lcom/cleanplanner/ui/splash/StartSplashPage;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_24": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/ui/home/main/newjunk/StartNewJunkCleanerPage$initLauncher$1$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/ui/home/main/newjunk/StartNewJunkCleanerPage;->qZ()V <",
+                "> Lcom/cleanplanner/ui/home/StartHomePage;->tq(Ljava/lang/Class;)V <",
+                "> Lcw1/e0nA;->onClick(Landroid/view/View;)V <",
+                "> Lcom/cleanplanner/ui/splash/StartSplashPage$prepare$1;->R()Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_25": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/event/attr/AttrImpl;->e0nA(Lcom/cleanplanner/event/attr/AttrImpl;Lcom/adjust/sdk/AdjustAttribution;)V <",
+                "> Lcom/applovin/exoplayer2/a/qkg;->onAttributionChanged(Lcom/adjust/sdk/AdjustAttribution;)V <",
+                "> Lcom/cleanplanner/core/firebase/PhoneManagerProConfig;->e0nA()V <",
+                "> Lcom/cleanplanner/ui/splash/StartSplashPage;->qZ()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_26": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/event/attr/AttrImpl;->e0nA(Lcom/cleanplanner/event/attr/AttrImpl;Lcom/adjust/sdk/AdjustAttribution;)V <",
+                "> Lcom/applovin/exoplayer2/a/qkg;->onAttributionChanged(Lcom/adjust/sdk/AdjustAttribution;)V <",
+                "> Lcom/cleanplanner/event/xQ;->e0nA(Landroid/app/Application;Ljava/lang/String;)V <",
+                "> Lcom/cleanplanner/CleanPlannerManagerPro;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_27": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/event/attr/AttrImpl;->e0nA(Lcom/cleanplanner/event/attr/AttrImpl;Lcom/adjust/sdk/AdjustAttribution;)V <",
+                "> Lcom/applovin/exoplayer2/a/qkg;->onAttributionChanged(Lcom/adjust/sdk/AdjustAttribution;)V <",
+                "> Lcom/cleanplanner/utils/UmpClientImpl;->e0nA(Landroid/app/Activity;LaPI/e0nA;)V <",
+                "> Lcom/cleanplanner/ui/splash/StartSplashPage;->luJu(Lcom/cleanplanner/ui/splash/StartSplashPage;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_28": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/event/attr/AttrImpl;->xQ(Lcom/cleanplanner/event/attr/AttrImpl;ILcom/cleanplanner/event/attr/AttrImpl$R;LtA/IiKaXw;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/event/attr/AttrImpl$upload$3;->xtKLh(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/event/attr/AttrImpl$upload$3;->QZu(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/event/attr/AttrImpl;->IiKaXw(I)V <",
+                "> Lcom/cleanplanner/event/xQ;->e0nA(Landroid/app/Application;Ljava/lang/String;)V <",
+                "> Lcom/cleanplanner/CleanPlannerManagerPro;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_29": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/remote/monitor/func/FunMonitor;->EG0Bxd()V <",
+                "> LHlTQ/e0nA;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/cleanplanner/ui/splash/StartSplashPage;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_30": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/remote/monitor/func/FunMonitor;->QZu(Lcom/cleanplanner/data/enums/ActionType;Z)V <",
+                "> LHlTQ/e0nA;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/cleanplanner/ui/splash/StartSplashPage;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_31": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/remote/monitor/func/FunMonitor;->XRJkd(Lcom/cleanplanner/data/enums/ActionType;Z)V <",
+                "> Lcom/cleanplanner/remote/monitor/func/ui/StartFuncPopupPage$initialized$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/remote/monitor/func/ui/StartFuncPopupPage;->qZ()V <",
+                "> Lcom/cleanplanner/remote/monitor/func/FunTrigger$push$2$1;->xtKLh(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/remote/monitor/func/FunTrigger$push$2$1;->QZu(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/remote/monitor/func/FunTrigger;->xQ(Lcom/cleanplanner/remote/monitor/func/FunTrigger;ZLtA/IiKaXw;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/remote/monitor/func/FunTrigger$Companion$check$2;->xtKLh(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/remote/monitor/func/FunTrigger$Companion$check$2;->QZu(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/remote/monitor/func/FunTrigger;->e0nA(Lcom/cleanplanner/remote/monitor/func/FunTrigger;LaPI/xtKLh;LtA/IiKaXw;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/remote/monitor/func/FunTrigger$Companion;->e0nA(Landroid/content/Context;LtA/IiKaXw;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/remote/monitor/GlobalMonitorTimer$initialized$1;->xtKLh(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/remote/monitor/GlobalMonitorTimer$initialized$1;->QZu(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/remote/monitor/GlobalMonitorTimer;->e0nA()V <",
+                "> Lcom/cleanplanner/CleanPlannerManagerPro;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_32": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/event/b;->xQ(Lcom/cleanplanner/event/b;Ljava/util/Map;LtA/IiKaXw;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/event/SingularHelper$init$1$1;->xtKLh(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/event/SingularHelper$init$1$1;->QZu(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/event/b;->e0nA(Ljava/util/Map;)V <",
+                "> Lcom/singular/sdk/internal/fgbCS$e0nA;->run()V <",
+                "> Lcom/singular/sdk/internal/fgbCS;->R(Lorg/json/JSONObject;)V <",
+                "> Lcom/singular/sdk/internal/fgbCS;->e0nA(Landroid/content/Context;LjSc/IiKaXw;)Lcom/singular/sdk/internal/fgbCS; <",
+                "> Lcom/cleanplanner/CleanPlannerManagerPro;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_33": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/event/attr/AttrImpl$upload$3;->xtKLh(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/event/attr/AttrImpl$upload$3;->QZu(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/event/attr/AttrImpl;->IiKaXw(I)V <",
+                "> Lcom/cleanplanner/event/xQ;->e0nA(Landroid/app/Application;Ljava/lang/String;)V <",
+                "> Lcom/cleanplanner/CleanPlannerManagerPro;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_34": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/ui/home/more/notify/block/StartNotifyPage$getAdapter$1$1;->e0nA(Ljava/lang/String;Z)V <",
+                "> Lcom/cleanplanner/ui/home/more/notify/block/StartNotifyPage;->qZ()V <",
+                "> LFRZJa6/xQ;->xQ(Ljava/lang/Object;)V <",
+                "> Lcom/cleanplanner/ui/home/more/notify/StartGetNotifyPermissionPage;-><init>()V <",
+                "> Lap3e/e0nA;->onClick(Landroid/view/View;)V <",
+                "> Lcom/cleanplanner/ui/home/StartHomePage;->qZ()V <",
+                "> Lcom/cleanplanner/ui/splash/StartSplashPage;->tq(Lcom/cleanplanner/ui/splash/StartSplashPage;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_35": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/ui/home/more/notify/block/StartNotifyPage$getAdapter$1$1;->e0nA(Ljava/lang/String;Z)V <",
+                "> Lcom/cleanplanner/ui/home/more/notify/block/StartNotifyPage;->qZ()V <",
+                "> Lt05u/oz;->onClick(Landroid/view/View;)V <",
+                "> Lcom/cleanplanner/ui/home/more/largefile/StartScanLargeFilesPage;->qZ()V <",
+                "> LN/IiKaXw;->onClick(Landroid/view/View;)V <",
+                "> Lcom/cleanplanner/ui/home/StartHomePage;->qZ()V <",
+                "> Lcom/cleanplanner/ui/splash/StartSplashPage;->tq(Lcom/cleanplanner/ui/splash/StartSplashPage;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_36": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/ui/home/more/notify/block/StartNotifyPage$getAdapter$1$1;->e0nA(Ljava/lang/String;Z)V <",
+                "> Lcom/cleanplanner/ui/home/more/notify/block/StartNotifyPage;->qZ()V <",
+                "> LFRZJa6/xQ;->xQ(Ljava/lang/Object;)V <",
+                "> Lcom/cleanplanner/ui/home/ex/result/StartAllResultPage;-><init>()V <",
+                "> Lcom/cleanplanner/ui/home/main/newjunk/StartNewJunkCleanerPage;->O4t0Y(J)V <",
+                "> Lcom/cleanplanner/ui/home/StartHomePage;->tq(Ljava/lang/Class;)V <",
+                "> Lcw1/e0nA;->onClick(Landroid/view/View;)V <",
+                "> Lcom/cleanplanner/ui/splash/StartSplashPage$prepare$1;->R()Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_37": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/core/ad/impl/manager/e0nA;->e0nA(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;DLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V <",
+                "> Lcom/cleanplanner/core/ad/impl/callback/AdInnerCallback;->r6S(DLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V <",
+                "> LEBvT/IiKaXw;->NE(Lcom/anythink/core/api/ATAdInfo;Lcom/cleanplanner/core/ad/impl/callback/AdInnerCallback;Ljava/lang/String;)V <",
+                "> LEBvT/IiKaXw;->IiKaXw(Lcom/facebook/appevents/ondeviceprocessing/RemoteServiceWrapper$EventType;Ljava/lang/String;Ljava/util/List;)Landroid/os/Bundle; <",
+                "> Lcom/facebook/appevents/ondeviceprocessing/RemoteServiceWrapper;->xQ(Lcom/facebook/appevents/ondeviceprocessing/RemoteServiceWrapper$EventType;Ljava/lang/String;Ljava/util/List;)Lcom/facebook/appevents/ondeviceprocessing/RemoteServiceWrapper$ServiceResult; <",
+                "> LEBvT/xQ;->e0nA()Z <",
+                "> Lcom/facebook/appevents/QZu$e0nA;->e0nA(Lcom/facebook/appevents/QZu$e0nA;Lcom/facebook/appevents/AppEvent;Lcom/facebook/appevents/AccessTokenAppIdPair;)V <",
+                "> Lcom/facebook/appevents/QZu;->oz(Ljava/lang/String;Ljava/lang/Double;Landroid/os/Bundle;ZLjava/util/UUID;)V <",
+                "> Lcom/facebook/appevents/QZu;->b(Ljava/lang/String;Landroid/os/Bundle;)V <",
+                "> Lcom/facebook/appevents/xtKLh;->e0nA(Ljava/lang/String;Landroid/os/Bundle;)V <",
+                "> Lcom/facebook/login/LoginClient;->siE(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;)V <",
+                "> Lcom/facebook/login/LoginClient;->XRJkd(Lcom/facebook/login/LoginClient$Result;)V <",
+                "> Lcom/facebook/login/LoginClient;->ANYI(Lcom/facebook/login/LoginClient$Result;)V <",
+                "> Lcom/facebook/login/ANYI;->EG0Bxd()V <",
+                "> Lcom/anythink/basead/ui/e0nA;->onClick(Landroid/view/View;)V <",
+                "> Lcom/cleanplanner/ui/home/StartHomePage;->qZ()V <",
+                "> Lcom/cleanplanner/ui/splash/StartSplashPage;->tq(Lcom/cleanplanner/ui/splash/StartSplashPage;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_38": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/core/ad/impl/manager/e0nA;->e0nA(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;DLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V <",
+                "> Lcom/cleanplanner/core/ad/impl/callback/AdInnerCallback;->r6S(DLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V <",
+                "> LEBvT/IiKaXw;->NE(Lcom/anythink/core/api/ATAdInfo;Lcom/cleanplanner/core/ad/impl/callback/AdInnerCallback;Ljava/lang/String;)V <",
+                "> LEBvT/IiKaXw;->IiKaXw(Lcom/facebook/appevents/ondeviceprocessing/RemoteServiceWrapper$EventType;Ljava/lang/String;Ljava/util/List;)Landroid/os/Bundle; <",
+                "> Lcom/facebook/appevents/ondeviceprocessing/RemoteServiceWrapper;->xQ(Lcom/facebook/appevents/ondeviceprocessing/RemoteServiceWrapper$EventType;Ljava/lang/String;Ljava/util/List;)Lcom/facebook/appevents/ondeviceprocessing/RemoteServiceWrapper$ServiceResult; <",
+                "> LkyqV/IiKaXw;->run()V <",
+                "> LkyqV/F$R;->r6S(LkyqV/dwlT2;Ljava/util/List;)V <",
+                "> LkyqV/F$R;->R(LkyqV/dwlT2;)Ljava/util/List; <",
+                "> LkyqV/F;->R()LkyqV/uFI; <",
+                "> Lcom/facebook/internal/QZu;->e0nA()Lorg/json/JSONObject; <",
+                "> Lcom/facebook/internal/QZu;->R(Lcom/facebook/internal/QZu$e0nA;)V <",
+                "> Lcom/facebook/internal/FeatureManager;->e0nA(Lcom/facebook/internal/FeatureManager$Feature;Lcom/facebook/internal/FeatureManager$e0nA;)V <",
+                "> Lcom/facebook/FacebookException;-><init>(Ljava/lang/String;)V <",
+                "> Lcom/facebook/FacebookSdkNotInitializedException;-><init>(Ljava/lang/String;)V <",
+                "> Lcom/facebook/internal/EX;->oz()V <",
+                "> LkyqV/siE;->e0nA()Landroid/content/Context; <",
+                "> LkyqV/ANYI$e0nA;->e0nA()LkyqV/ANYI; <",
+                "> Lcom/facebook/CurrentAccessTokenExpirationBroadcastReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_39": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/event/http/HeaderDataManager$initGaid$1;->xtKLh(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/event/http/HeaderDataManager$initGaid$1;->QZu(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/event/http/HeaderDataManager;->R()V <",
+                "> Lcom/cleanplanner/event/http/HeaderDataManager;->xQ()V <",
+                "> Lcom/cleanplanner/event/xQ;->e0nA(Landroid/app/Application;Ljava/lang/String;)V <",
+                "> Lcom/cleanplanner/CleanPlannerManagerPro;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_40": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/ui/home/main/virus/StartScanVirusPage;->n()I <",
+                "> Lcom/cleanplanner/remote/monitor/func/ui/StartFuncPopupPage$btnClick$4;->R()Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/remote/monitor/func/ui/StartFuncPopupPage;->luJu(Lcom/cleanplanner/remote/monitor/func/ui/StartFuncPopupPage;)V <",
+                "> Lcom/cleanplanner/remote/monitor/func/FunTrigger$push$2$1;->xtKLh(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/remote/monitor/func/FunTrigger$push$2$1;->QZu(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/remote/monitor/func/FunTrigger;->xQ(Lcom/cleanplanner/remote/monitor/func/FunTrigger;ZLtA/IiKaXw;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/remote/monitor/func/FunTrigger$Companion$check$2;->xtKLh(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/remote/monitor/func/FunTrigger$Companion$check$2;->QZu(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/remote/monitor/func/FunTrigger;->e0nA(Lcom/cleanplanner/remote/monitor/func/FunTrigger;LaPI/xtKLh;LtA/IiKaXw;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/remote/monitor/func/FunTrigger$Companion;->e0nA(Landroid/content/Context;LtA/IiKaXw;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/remote/monitor/GlobalMonitorTimer$initialized$1;->xtKLh(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/remote/monitor/GlobalMonitorTimer$initialized$1;->QZu(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/remote/monitor/GlobalMonitorTimer;->e0nA()V <",
+                "> Lcom/cleanplanner/CleanPlannerManagerPro;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_41": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/ui/popup/rateus/RateUsPop;->R(Lcom/cleanplanner/ui/popup/rateus/RateUsPop;)V <",
+                "> LaeI/e0nA;->onClick(Landroid/view/View;)V <",
+                "> Lcom/cleanplanner/ui/home/StartHomePage;->qZ()V <",
+                "> Lcom/cleanplanner/ui/splash/StartSplashPage;->tq(Lcom/cleanplanner/ui/splash/StartSplashPage;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_42": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/ui/popup/rateus/RateUsPop;->show()V <",
+                "> Lcom/cleanplanner/ui/home/StartHomePage$showRateIfCan$1;->R()Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/ui/home/StartHomePage;->Faw5v(Landroidx/lifecycle/Lifecycle$Event;)V <",
+                "> Lcom/cleanplanner/ui/splash/StartSplashPage;->tq(Lcom/cleanplanner/ui/splash/StartSplashPage;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_43": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/ui/home/main/virus/StartScanVirusPage$playScanAnim$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/ui/home/main/virus/StartScanVirusPage;->qZ()V <",
+                "> Lcom/cleanplanner/remote/monitor/func/ui/StartFuncPopupPage$btnClick$4;->R()Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/remote/monitor/func/ui/StartFuncPopupPage;->luJu(Lcom/cleanplanner/remote/monitor/func/ui/StartFuncPopupPage;)V <",
+                "> Lcom/cleanplanner/remote/monitor/func/FunTrigger$push$2$1;->xtKLh(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/remote/monitor/func/FunTrigger$push$2$1;->QZu(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/remote/monitor/func/FunTrigger;->xQ(Lcom/cleanplanner/remote/monitor/func/FunTrigger;ZLtA/IiKaXw;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/remote/monitor/func/FunTrigger$Companion$check$2;->xtKLh(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/remote/monitor/func/FunTrigger$Companion$check$2;->QZu(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/remote/monitor/func/FunTrigger;->e0nA(Lcom/cleanplanner/remote/monitor/func/FunTrigger;LaPI/xtKLh;LtA/IiKaXw;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/remote/monitor/func/FunTrigger$Companion;->e0nA(Landroid/content/Context;LtA/IiKaXw;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/remote/monitor/GlobalMonitorTimer$initialized$1;->xtKLh(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/remote/monitor/GlobalMonitorTimer$initialized$1;->QZu(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/remote/monitor/GlobalMonitorTimer;->e0nA()V <",
+                "> Lcom/cleanplanner/CleanPlannerManagerPro;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_44": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/event/http/HeaderDataManager;->xQ()V <",
+                "> Lcom/cleanplanner/event/xQ;->e0nA(Landroid/app/Application;Ljava/lang/String;)V <",
+                "> Lcom/cleanplanner/CleanPlannerManagerPro;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_45": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/core/ad/impl/callback/AdInnerCallback;->xtKLh(Lcom/cleanplanner/core/ad/impl/limit/platform/data/LimitType;)V <",
+                "> Lcom/cleanplanner/core/ad/impl/callback/AdInnerCallback;->siE(Ljava/lang/Throwable;)V <",
+                "> Lcom/cleanplanner/core/ad/impl/callback/AdInnerCallback;->e0nA(Ljava/lang/Throwable;)V <",
+                "> Lcom/cleanplanner/core/ad/impl/e0nA;->xQ(Landroid/app/Activity;Lcom/cleanplanner/data/enums/AdScene;ILcom/cleanplanner/core/ad/impl/e0nA$e0nA;)V <",
+                "> Lcom/cleanplanner/ui/splash/StartSplashPage$checkUMP$1$1;->xtKLh(Ljava/lang/Object;)Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_46": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/ui/app/setting/adapter/holder/e0nA;->onClick(Landroid/view/View;)V <",
+                "> LNgoGs/e0nA;->R(Landroidx/recyclerview/widget/RecyclerView$luJu;ILjava/util/List;)V <",
+                "> Lcom/cleanplanner/ui/app/setting/StartSettingsPage;->luJu()V <",
+                "> Lcom/cleanplanner/ui/app/setting/StartSettingsPage;->onBackPressed()V <",
+                "> LkP/e0nA;->onClick(Landroid/view/View;)V <",
+                "> Lcom/cleanplanner/ui/home/StartHomePage;->qZ()V <",
+                "> Lcom/cleanplanner/ui/splash/StartSplashPage;->tq(Lcom/cleanplanner/ui/splash/StartSplashPage;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/cleanplanner/ui/home/ex/result/StartAllResultPage;->qZ()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/ui/home/ex/result/StartAllResultPage;->qZ()V <",
+                "> Lcom/cleanplanner/ui/home/main/junk/StartJunkPage;->T(J)V <",
+                "> Lcom/cleanplanner/ui/home/StartHomePage;->tq(Ljava/lang/Class;)V <",
+                "> Lcw1/e0nA;->onClick(Landroid/view/View;)V <",
+                "> Lcom/cleanplanner/ui/splash/StartSplashPage$prepare$1;->R()Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/cleanplanner/ui/abs/AbsMonitor;->e0nA(LaPI/e0nA;LaPI/e0nA;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/remote/monitor/func/ui/StartFuncPopupPage;->qZ()V <",
+                "> Lcom/cleanplanner/remote/monitor/func/FunTrigger$push$2$1;->xtKLh(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/remote/monitor/func/FunTrigger$push$2$1;->QZu(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/remote/monitor/func/FunTrigger;->xQ(Lcom/cleanplanner/remote/monitor/func/FunTrigger;ZLtA/IiKaXw;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/remote/monitor/func/FunTrigger$Companion$check$2;->xtKLh(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/remote/monitor/func/FunTrigger$Companion$check$2;->QZu(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/remote/monitor/func/FunTrigger;->e0nA(Lcom/cleanplanner/remote/monitor/func/FunTrigger;LaPI/xtKLh;LtA/IiKaXw;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/remote/monitor/func/FunTrigger$Companion;->e0nA(Landroid/content/Context;LtA/IiKaXw;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/remote/monitor/GlobalMonitorTimer$initialized$1;->xtKLh(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/remote/monitor/GlobalMonitorTimer$initialized$1;->QZu(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/remote/monitor/GlobalMonitorTimer;->e0nA()V <",
+                "> Lcom/cleanplanner/CleanPlannerManagerPro;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/cleanplanner/databinding/ItemViewHomeAboutBinding;->getRoot()Landroidx/constraintlayout/widget/ConstraintLayout;": {
+        "path_0": {
+            "call_sequence": [
+                "> LL/e0nA;-><init>(Lcom/cleanplanner/databinding/ItemViewHomeAboutBinding;)V <",
+                "> LwGOfbl/xQ;->IiKaXw(Landroid/view/ViewGroup;I)Landroidx/recyclerview/widget/RecyclerView$luJu; <",
+                "> Lcom/cleanplanner/ui/home/about/StartAboutFunPage;->qZ()V <",
+                "> Lcom/cleanplanner/ui/home/StartHomePage;->tq(Ljava/lang/Class;)V <",
+                "> LML/e0nA;->onClick(Landroid/view/View;)V <",
+                "> Lcom/cleanplanner/ui/home/StartHomePage;->qZ()V <",
+                "> Lcom/cleanplanner/ui/splash/StartSplashPage;->tq(Lcom/cleanplanner/ui/splash/StartSplashPage;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/cleanplanner/ui/home/main/newjunk/task/NewJunkFileSearchTask;->rdQ(Landroid/content/Context;LtA/IiKaXw;)Ljava/lang/Object;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/ui/home/main/newjunk/task/NewJunkFileSearchTask$scan$2$3;->QZu(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/ui/home/main/newjunk/task/NewJunkFileSearchTask$scan$2;->xtKLh(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/ui/home/main/newjunk/task/NewJunkFileSearchTask$scan$2;->QZu(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/ui/home/main/newjunk/task/NewJunkFileSearchTask;->rdQ(Landroid/content/Context;LtA/IiKaXw;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/ui/home/main/newjunk/StartNewJunkCleanerPage$scan$1;->xtKLh(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/ui/home/main/newjunk/StartNewJunkCleanerPage$scan$1;->QZu(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/ui/home/main/newjunk/StartNewJunkCleanerPage;->sBHKl()V <",
+                "> Lcom/cleanplanner/ui/home/StartHomePage;->tq(Ljava/lang/Class;)V <",
+                "> Lcw1/e0nA;->onClick(Landroid/view/View;)V <",
+                "> Lcom/cleanplanner/ui/splash/StartSplashPage$prepare$1;->R()Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/ui/home/main/newjunk/task/NewJunkFileSearchTask$scan$2$3;->YQutwv(Ljava/lang/Object;LtA/IiKaXw;)LtA/IiKaXw; <",
+                "> Lcom/cleanplanner/ui/home/main/newjunk/task/NewJunkFileSearchTask$scan$2;->xtKLh(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/ui/home/main/newjunk/task/NewJunkFileSearchTask$scan$2;->QZu(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/ui/home/main/newjunk/task/NewJunkFileSearchTask;->rdQ(Landroid/content/Context;LtA/IiKaXw;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/ui/home/main/newjunk/StartNewJunkCleanerPage$scan$1;->xtKLh(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/ui/home/main/newjunk/StartNewJunkCleanerPage$scan$1;->QZu(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/ui/home/main/newjunk/StartNewJunkCleanerPage;->sBHKl()V <",
+                "> Lcom/cleanplanner/ui/home/StartHomePage;->tq(Ljava/lang/Class;)V <",
+                "> Lcw1/e0nA;->onClick(Landroid/view/View;)V <",
+                "> Lcom/cleanplanner/ui/splash/StartSplashPage$prepare$1;->R()Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/ui/home/main/newjunk/task/NewJunkFileSearchTask$scan$2;->xtKLh(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/ui/home/main/newjunk/task/NewJunkFileSearchTask$scan$2;->QZu(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/ui/home/main/newjunk/task/NewJunkFileSearchTask;->rdQ(Landroid/content/Context;LtA/IiKaXw;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/ui/home/main/newjunk/StartNewJunkCleanerPage$scan$1;->xtKLh(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/ui/home/main/newjunk/StartNewJunkCleanerPage$scan$1;->QZu(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/ui/home/main/newjunk/StartNewJunkCleanerPage;->sBHKl()V <",
+                "> Lcom/cleanplanner/ui/home/StartHomePage;->tq(Ljava/lang/Class;)V <",
+                "> Lcw1/e0nA;->onClick(Landroid/view/View;)V <",
+                "> Lcom/cleanplanner/ui/splash/StartSplashPage$prepare$1;->R()Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/cleanplanner/ui/home/more/compress/StartCompressImgPage;->qZ()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/ui/home/more/compress/StartCompressImgPage$startScan$1$tasks$2;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/ui/home/more/compress/StartCompressImgPage$startScan$1;->xtKLh(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/ui/home/more/compress/StartCompressImgPage$startScan$1;->QZu(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/ui/home/more/compress/StartCompressImgPage;->qZ()V <",
+                "> Lcom/cleanplanner/ui/home/more/compress/permission/StartGetPermissionPage;->tq(Lcom/cleanplanner/data/enums/ActionType;)V <",
+                "> LkP/e0nA;->onClick(Landroid/view/View;)V <",
+                "> Lcom/cleanplanner/ui/home/StartHomePage;->qZ()V <",
+                "> Lcom/cleanplanner/ui/splash/StartSplashPage;->tq(Lcom/cleanplanner/ui/splash/StartSplashPage;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/ui/home/more/compress/StartCompressImgPage$startScan$1;->xtKLh(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/ui/home/more/compress/StartCompressImgPage$startScan$1;->QZu(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/ui/home/more/compress/StartCompressImgPage;->qZ()V <",
+                "> Lcom/cleanplanner/ui/home/more/compress/permission/StartGetPermissionPage;->tq(Lcom/cleanplanner/data/enums/ActionType;)V <",
+                "> LkP/e0nA;->onClick(Landroid/view/View;)V <",
+                "> Lcom/cleanplanner/ui/home/StartHomePage;->qZ()V <",
+                "> Lcom/cleanplanner/ui/splash/StartSplashPage;->tq(Lcom/cleanplanner/ui/splash/StartSplashPage;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/cleanplanner/databinding/ItemViewPhotoBinding;->bind(Landroid/view/View;)Lcom/cleanplanner/databinding/ItemViewPhotoBinding;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/databinding/ItemViewPhotoBinding;->inflate(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Z)Lcom/cleanplanner/databinding/ItemViewPhotoBinding; <",
+                "> LpasW/e0nA;->onCreateViewHolder(Landroid/view/ViewGroup;I)Landroidx/recyclerview/widget/RecyclerView$luJu; <",
+                "> Lcom/cleanplanner/ui/home/more/compress/StartCompressImgPage;->luJu(Lcom/cleanplanner/ui/home/more/compress/StartCompressImgPage;LOqLx/e0nA;)V <",
+                "> Lcom/cleanplanner/ui/home/more/compress/permission/StartGetPermissionPage;->tq(Lcom/cleanplanner/data/enums/ActionType;)V <",
+                "> LkP/e0nA;->onClick(Landroid/view/View;)V <",
+                "> Lcom/cleanplanner/ui/home/StartHomePage;->qZ()V <",
+                "> Lcom/cleanplanner/ui/splash/StartSplashPage;->tq(Lcom/cleanplanner/ui/splash/StartSplashPage;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/databinding/ItemViewPhotoBinding;->inflate(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Z)Lcom/cleanplanner/databinding/ItemViewPhotoBinding; <",
+                "> LpasW/e0nA;->onCreateViewHolder(Landroid/view/ViewGroup;I)Landroidx/recyclerview/widget/RecyclerView$luJu; <",
+                "> LyOjm/e0nA;->XRJkd(Lcom/cleanplanner/ui/home/more/compress/database/CompressImage;)V <",
+                "> Lcom/applovin/exoplayer2/a/sBHKl;->xQ(Ljava/lang/Object;)V <",
+                "> LB5f/sBHKl;->R(Landroid/content/Intent;)Lcom/google/android/gms/tasks/Task; <",
+                "> LB5f/ZM7k;->e0nA(Landroid/content/Context;Landroid/content/Intent;)Lcom/google/android/gms/tasks/Task; <",
+                "> LB5f/ZM7k;->R(Landroid/content/Intent;)Lcom/google/android/gms/tasks/Task; <",
+                "> Lcom/google/firebase/iid/FirebaseInstanceIdReceiver;->e0nA(Landroid/content/Context;LH/e0nA;)I <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.google.android.c2dm.intent.RECEIVE",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/cleanplanner/ui/home/more/largefile/task/FileSearch;->e0nA(Landroid/content/Context;LtA/IiKaXw;)Ljava/lang/Object;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/ui/home/more/largefile/task/FileSearch$start$2;->QZu(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/ui/home/more/largefile/task/FileSearch;->e0nA(Landroid/content/Context;LtA/IiKaXw;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/ui/home/more/largefile/StartScanLargeFilesPage$searchFiles$1;->xtKLh(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/ui/home/more/largefile/StartScanLargeFilesPage$searchFiles$1;->QZu(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/ui/home/more/largefile/StartScanLargeFilesPage;->qZ()V <",
+                "> LN/IiKaXw;->onClick(Landroid/view/View;)V <",
+                "> Lcom/cleanplanner/ui/home/StartHomePage;->qZ()V <",
+                "> Lcom/cleanplanner/ui/splash/StartSplashPage;->tq(Lcom/cleanplanner/ui/splash/StartSplashPage;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/cleanplanner/ui/home/main/batteryinfo/StartBatteryResultPage;->O4t0Y(LaPI/e0nA;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/ui/home/main/batteryinfo/StartBatteryResultPage;->O4t0Y(LaPI/e0nA;)V <",
+                "> Lcom/cleanplanner/ui/home/main/batteryinfo/StartBatteryResultPage;->onBackPressed()V <",
+                "> LN/IiKaXw;->onClick(Landroid/view/View;)V <",
+                "> Lcom/cleanplanner/ui/home/StartHomePage;->qZ()V <",
+                "> Lcom/cleanplanner/ui/splash/StartSplashPage;->tq(Lcom/cleanplanner/ui/splash/StartSplashPage;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/cleanplanner/remote/monitor/func/FunMonitor;->ZM7k(JJ)J": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/remote/monitor/func/FunMonitor;->QZu(Lcom/cleanplanner/data/enums/ActionType;Z)V <",
+                "> LHlTQ/e0nA;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/cleanplanner/ui/splash/StartSplashPage;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/remote/monitor/func/FunMonitor;->XRJkd(Lcom/cleanplanner/data/enums/ActionType;Z)V <",
+                "> Lcom/cleanplanner/remote/monitor/func/ui/StartFuncPopupPage$initialized$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/remote/monitor/func/ui/StartFuncPopupPage;->qZ()V <",
+                "> Lcom/cleanplanner/remote/monitor/func/FunTrigger$push$2$1;->xtKLh(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/remote/monitor/func/FunTrigger$push$2$1;->QZu(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/remote/monitor/func/FunTrigger;->xQ(Lcom/cleanplanner/remote/monitor/func/FunTrigger;ZLtA/IiKaXw;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/remote/monitor/func/FunTrigger$Companion$check$2;->xtKLh(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/remote/monitor/func/FunTrigger$Companion$check$2;->QZu(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/remote/monitor/func/FunTrigger;->e0nA(Lcom/cleanplanner/remote/monitor/func/FunTrigger;LaPI/xtKLh;LtA/IiKaXw;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/remote/monitor/func/FunTrigger$Companion;->e0nA(Landroid/content/Context;LtA/IiKaXw;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/remote/monitor/GlobalMonitorTimer$initialized$1;->xtKLh(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/remote/monitor/GlobalMonitorTimer$initialized$1;->QZu(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/remote/monitor/GlobalMonitorTimer;->e0nA()V <",
+                "> Lcom/cleanplanner/CleanPlannerManagerPro;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/cleanplanner/ui/home/main/wifi/task/SpeedTest;->e0nA(Ljava/util/List;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/ui/home/main/wifi/task/SpeedTest$start$1$1;->QZu(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/ui/home/main/wifi/task/SpeedTest$start$1;->xtKLh(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/ui/home/main/wifi/task/SpeedTest$start$1;->QZu(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/ui/home/main/wifi/task/SpeedTest;->xQ(Landroid/content/Context;)V <",
+                "> Lcom/cleanplanner/ui/home/main/wifi/StartTestSpeedPage;->qZ()V <",
+                "> Lcom/cleanplanner/ui/home/StartHomePage;->tq(Ljava/lang/Class;)V <",
+                "> LaeI/e0nA;->onClick(Landroid/view/View;)V <",
+                "> Lcom/cleanplanner/ui/home/StartHomePage;->qZ()V <",
+                "> Lcom/cleanplanner/ui/splash/StartSplashPage;->tq(Lcom/cleanplanner/ui/splash/StartSplashPage;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/ui/home/main/wifi/task/SpeedTest$start$1$1;->xtKLh(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/ui/home/main/wifi/task/SpeedTest$start$1;->xtKLh(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/ui/home/main/wifi/task/SpeedTest$start$1;->QZu(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/ui/home/main/wifi/task/SpeedTest;->xQ(Landroid/content/Context;)V <",
+                "> Lcom/cleanplanner/ui/home/main/wifi/StartTestSpeedPage;->qZ()V <",
+                "> Lcom/cleanplanner/ui/home/StartHomePage;->tq(Ljava/lang/Class;)V <",
+                "> LaeI/e0nA;->onClick(Landroid/view/View;)V <",
+                "> Lcom/cleanplanner/ui/home/StartHomePage;->qZ()V <",
+                "> Lcom/cleanplanner/ui/splash/StartSplashPage;->tq(Lcom/cleanplanner/ui/splash/StartSplashPage;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/cleanplanner/ui/app/setting/StartSettingsPage;->luJu()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/ui/app/setting/StartSettingsPage;->luJu()V <",
+                "> Lcom/cleanplanner/ui/app/setting/StartSettingsPage;->onBackPressed()V <",
+                "> LkP/e0nA;->onClick(Landroid/view/View;)V <",
+                "> Lcom/cleanplanner/ui/home/StartHomePage;->qZ()V <",
+                "> Lcom/cleanplanner/ui/splash/StartSplashPage;->tq(Lcom/cleanplanner/ui/splash/StartSplashPage;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/cleanplanner/ui/home/more/compress/StartCompressImgPreviewPage;->luJu(Lcom/cleanplanner/ui/home/more/compress/StartCompressImgPreviewPage;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/ui/home/more/compress/StartCompressImgPreviewPage$startCompress$1;->xtKLh(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/ui/home/more/compress/StartCompressImgPreviewPage$startCompress$1;->QZu(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/ui/home/more/compress/StartCompressImgPreviewPage;->luJu(Lcom/cleanplanner/ui/home/more/compress/StartCompressImgPreviewPage;)V <",
+                "> LaeI/e0nA;->onClick(Landroid/view/View;)V <",
+                "> Lcom/cleanplanner/ui/home/StartHomePage;->qZ()V <",
+                "> Lcom/cleanplanner/ui/splash/StartSplashPage;->tq(Lcom/cleanplanner/ui/splash/StartSplashPage;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/cleanplanner/ui/home/more/compress/StartCompressImgPreviewPage$startCompress$1$tasks$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/ui/home/more/compress/StartCompressImgPreviewPage$startCompress$1;->xtKLh(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/ui/home/more/compress/StartCompressImgPreviewPage$startCompress$1;->QZu(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/cleanplanner/ui/home/more/compress/StartCompressImgPreviewPage;->luJu(Lcom/cleanplanner/ui/home/more/compress/StartCompressImgPreviewPage;)V <",
+                "> LaeI/e0nA;->onClick(Landroid/view/View;)V <",
+                "> Lcom/cleanplanner/ui/home/StartHomePage;->qZ()V <",
+                "> Lcom/cleanplanner/ui/splash/StartSplashPage;->tq(Lcom/cleanplanner/ui/splash/StartSplashPage;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    }
+}

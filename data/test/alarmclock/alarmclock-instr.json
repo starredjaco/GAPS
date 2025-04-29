@@ -1,0 +1,731 @@
+{
+    "Lcom/angrydoughnuts/android/alarmclock/AlarmClockActivity;->getFragmentManager()Landroid/app/FragmentManager;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/angrydoughnuts/android/alarmclock/AlarmClockActivity$4;->onItemLongClick(Landroid/widget/AdapterView; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/angrydoughnuts/android/alarmclock/AlarmClockActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.angrydoughnuts.android.alarmclock.AlarmClockActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/angrydoughnuts/android/alarmclock/AlarmClockActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/angrydoughnuts/android/alarmclock/AlarmClockActivity$8;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.angrydoughnuts.android.alarmclock.AlarmClockActivity",
+                    "new_alarm"
+                ]
+            ]
+        }
+    },
+    "Lcom/angrydoughnuts/android/alarmclock/Slider;->setListener(Lcom/angrydoughnuts/android/alarmclock/Slider$Listener;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/angrydoughnuts/android/alarmclock/AlarmNotificationActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/angrydoughnuts/android/alarmclock/AlarmClockActivity;->onStart()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/angrydoughnuts/android/alarmclock/TimePicker;->access$100(Lcom/angrydoughnuts/android/alarmclock/TimePicker;)I": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/angrydoughnuts/android/alarmclock/TimePicker$1;->onClick(Landroid/content/DialogInterface; <",
+                "> Lcom/angrydoughnuts/android/alarmclock/TimePicker;->onCreateDialog(Landroid/os/Bundle;)Landroid/app/Dialog; <",
+                "> Lcom/angrydoughnuts/android/alarmclock/AlarmClockActivity$8;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.angrydoughnuts.android.alarmclock.AlarmClockActivity",
+                    "new_alarm"
+                ]
+            ]
+        }
+    },
+    "Lcom/angrydoughnuts/android/alarmclock/AlarmClockActivity;->access$000(Lcom/angrydoughnuts/android/alarmclock/AlarmClockActivity;)Ljava/lang/Runnable;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/angrydoughnuts/android/alarmclock/AlarmClockActivity$6;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/angrydoughnuts/android/alarmclock/AlarmClockActivity$4;-><init>(Lcom/angrydoughnuts/android/alarmclock/AlarmClockActivity;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/angrydoughnuts/android/alarmclock/AlarmClockActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/angrydoughnuts/android/alarmclock/DbUtil$Alarm;->get(Landroid/content/Context;J)Lcom/angrydoughnuts/android/alarmclock/DbUtil$Alarm;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/angrydoughnuts/android/alarmclock/AlarmClockActivity$3;->onItemClick(Landroid/widget/AdapterView; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/angrydoughnuts/android/alarmclock/AlarmOptions$2;->onClick(Landroid/content/DialogInterface; <",
+                "> Lcom/angrydoughnuts/android/alarmclock/AlarmOptions;->onCreateDialog(Landroid/os/Bundle;)Landroid/app/Dialog; <",
+                "> Lcom/angrydoughnuts/android/alarmclock/AlarmClockActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.angrydoughnuts.android.alarmclock.AlarmClockActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/angrydoughnuts/android/alarmclock/AlarmNotificationService;->dismissAllAlarms(Landroid/content/Context;)V <",
+                "> Lcom/angrydoughnuts/android/alarmclock/AlarmNotificationActivity$4;->onComplete()V <",
+                "> Lcom/angrydoughnuts/android/alarmclock/AlarmNotificationActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/angrydoughnuts/android/alarmclock/AlarmClockActivity;->onStart()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/angrydoughnuts/android/alarmclock/AlarmNotificationActivity;->onResume()V <",
+                "> Lcom/angrydoughnuts/android/alarmclock/AlarmClockActivity;->onStart()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/angrydoughnuts/android/alarmclock/SystemMessageReceiver;->scheduleAll(Landroid/content/Context;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/angrydoughnuts/android/alarmclock/SystemMessageReceiver;->onReceive(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.TIMEZONE_CHANGED",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/angrydoughnuts/android/alarmclock/AlarmOptions$OptionsView;-><init>(Landroid/content/Context;Landroid/app/Activity;Landroid/app/FragmentManager;Landroid/media/MediaPlayer;J)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/angrydoughnuts/android/alarmclock/AlarmOptions;->onCreateDialog(Landroid/os/Bundle;)Landroid/app/Dialog; <",
+                "> Lcom/angrydoughnuts/android/alarmclock/AlarmClockActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.angrydoughnuts.android.alarmclock.AlarmClockActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/angrydoughnuts/android/alarmclock/TimePicker;->access$600(Lcom/angrydoughnuts/android/alarmclock/TimePicker;Landroid/widget/EditText;Landroid/widget/TextView;Landroid/widget/Button;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/angrydoughnuts/android/alarmclock/TimePicker$13$1;->run()V <",
+                "> Lcom/angrydoughnuts/android/alarmclock/TimePicker$13;->onLongClick(Landroid/view/View;)Z <",
+                "> Lcom/angrydoughnuts/android/alarmclock/TimePicker;->onCreateDialog(Landroid/os/Bundle;)Landroid/app/Dialog; <",
+                "> Lcom/angrydoughnuts/android/alarmclock/AlarmClockActivity$8;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.angrydoughnuts.android.alarmclock.AlarmClockActivity",
+                    "new_alarm"
+                ],
+                [
+                    "com.angrydoughnuts.android.alarmclock.AlarmClockActivity",
+                    "minute_dec"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/angrydoughnuts/android/alarmclock/TimePicker$3;->afterTextChanged(Landroid/text/Editable;)V <",
+                "> Lcom/angrydoughnuts/android/alarmclock/TimePicker;->onCreateDialog(Landroid/os/Bundle;)Landroid/app/Dialog; <",
+                "> Lcom/angrydoughnuts/android/alarmclock/AlarmClockActivity$8;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.angrydoughnuts.android.alarmclock.AlarmClockActivity",
+                    "new_alarm"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/angrydoughnuts/android/alarmclock/TimePicker$6;->onClick(Landroid/view/View;)V <",
+                "> Lcom/angrydoughnuts/android/alarmclock/TimePicker;->onCreateDialog(Landroid/os/Bundle;)Landroid/app/Dialog; <",
+                "> Lcom/angrydoughnuts/android/alarmclock/AlarmClockActivity$8;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.angrydoughnuts.android.alarmclock.AlarmClockActivity",
+                    "new_alarm"
+                ],
+                [
+                    "com.angrydoughnuts.android.alarmclock.AlarmClockActivity",
+                    "hour_inc"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/angrydoughnuts/android/alarmclock/TimePicker$7$1;->run()V <",
+                "> Lcom/angrydoughnuts/android/alarmclock/TimePicker$7;->onLongClick(Landroid/view/View;)Z <",
+                "> Lcom/angrydoughnuts/android/alarmclock/TimePicker;->onCreateDialog(Landroid/os/Bundle;)Landroid/app/Dialog; <",
+                "> Lcom/angrydoughnuts/android/alarmclock/AlarmClockActivity$8;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.angrydoughnuts.android.alarmclock.AlarmClockActivity",
+                    "new_alarm"
+                ],
+                [
+                    "com.angrydoughnuts.android.alarmclock.AlarmClockActivity",
+                    "hour_inc"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lcom/angrydoughnuts/android/alarmclock/TimePicker$12;->onClick(Landroid/view/View;)V <",
+                "> Lcom/angrydoughnuts/android/alarmclock/TimePicker;->onCreateDialog(Landroid/os/Bundle;)Landroid/app/Dialog; <",
+                "> Lcom/angrydoughnuts/android/alarmclock/AlarmClockActivity$8;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.angrydoughnuts.android.alarmclock.AlarmClockActivity",
+                    "new_alarm"
+                ],
+                [
+                    "com.angrydoughnuts.android.alarmclock.AlarmClockActivity",
+                    "minute_dec"
+                ]
+            ]
+        },
+        "path_5": {
+            "call_sequence": [
+                "> Lcom/angrydoughnuts/android/alarmclock/TimePicker$10;->onClick(Landroid/view/View;)V <",
+                "> Lcom/angrydoughnuts/android/alarmclock/TimePicker;->onCreateDialog(Landroid/os/Bundle;)Landroid/app/Dialog; <",
+                "> Lcom/angrydoughnuts/android/alarmclock/AlarmClockActivity$8;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.angrydoughnuts.android.alarmclock.AlarmClockActivity",
+                    "new_alarm"
+                ],
+                [
+                    "com.angrydoughnuts.android.alarmclock.AlarmClockActivity",
+                    "minute_inc"
+                ]
+            ]
+        },
+        "path_6": {
+            "call_sequence": [
+                "> Lcom/angrydoughnuts/android/alarmclock/TimePicker$11$1;->run()V <",
+                "> Lcom/angrydoughnuts/android/alarmclock/TimePicker$11;->onLongClick(Landroid/view/View;)Z <",
+                "> Lcom/angrydoughnuts/android/alarmclock/TimePicker;->onCreateDialog(Landroid/os/Bundle;)Landroid/app/Dialog; <",
+                "> Lcom/angrydoughnuts/android/alarmclock/AlarmClockActivity$8;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.angrydoughnuts.android.alarmclock.AlarmClockActivity",
+                    "new_alarm"
+                ],
+                [
+                    "com.angrydoughnuts.android.alarmclock.AlarmClockActivity",
+                    "minute_inc"
+                ]
+            ]
+        },
+        "path_7": {
+            "call_sequence": [
+                "> Lcom/angrydoughnuts/android/alarmclock/TimePicker$8;->onClick(Landroid/view/View;)V <",
+                "> Lcom/angrydoughnuts/android/alarmclock/TimePicker;->onCreateDialog(Landroid/os/Bundle;)Landroid/app/Dialog; <",
+                "> Lcom/angrydoughnuts/android/alarmclock/AlarmClockActivity$8;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.angrydoughnuts.android.alarmclock.AlarmClockActivity",
+                    "new_alarm"
+                ],
+                [
+                    "com.angrydoughnuts.android.alarmclock.AlarmClockActivity",
+                    "hour_dec"
+                ]
+            ]
+        },
+        "path_8": {
+            "call_sequence": [
+                "> Lcom/angrydoughnuts/android/alarmclock/TimePicker$9$1;->run()V <",
+                "> Lcom/angrydoughnuts/android/alarmclock/TimePicker$9;->onLongClick(Landroid/view/View;)Z <",
+                "> Lcom/angrydoughnuts/android/alarmclock/TimePicker;->onCreateDialog(Landroid/os/Bundle;)Landroid/app/Dialog; <",
+                "> Lcom/angrydoughnuts/android/alarmclock/AlarmClockActivity$8;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.angrydoughnuts.android.alarmclock.AlarmClockActivity",
+                    "new_alarm"
+                ],
+                [
+                    "com.angrydoughnuts.android.alarmclock.AlarmClockActivity",
+                    "hour_dec"
+                ]
+            ]
+        }
+    },
+    "Lcom/angrydoughnuts/android/alarmclock/AlarmOptions;-><init>()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/angrydoughnuts/android/alarmclock/AlarmClockActivity$4;->onItemLongClick(Landroid/widget/AdapterView; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/angrydoughnuts/android/alarmclock/AlarmClockActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.angrydoughnuts.android.alarmclock.AlarmClockActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/angrydoughnuts/android/alarmclock/TimePicker;->setListener(Lcom/angrydoughnuts/android/alarmclock/TimePicker$OnTimePickListener;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/angrydoughnuts/android/alarmclock/AlarmOptions;->onCreateDialog(Landroid/os/Bundle;)Landroid/app/Dialog; <",
+                "> Lcom/angrydoughnuts/android/alarmclock/AlarmClockActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.angrydoughnuts.android.alarmclock.AlarmClockActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/angrydoughnuts/android/alarmclock/AlarmClockActivity$8;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.angrydoughnuts.android.alarmclock.AlarmClockActivity",
+                    "new_alarm"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/angrydoughnuts/android/alarmclock/AlarmClockActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/angrydoughnuts/android/alarmclock/TimeUtil;->format(Landroid/content/Context;Ljava/util/Calendar;)Ljava/lang/String;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/angrydoughnuts/android/alarmclock/TimePicker;->time()Ljava/lang/String; <",
+                "> Lcom/angrydoughnuts/android/alarmclock/TimePicker;->onCreateDialog(Landroid/os/Bundle;)Landroid/app/Dialog; <",
+                "> Lcom/angrydoughnuts/android/alarmclock/AlarmClockActivity$8;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.angrydoughnuts.android.alarmclock.AlarmClockActivity",
+                    "new_alarm"
+                ]
+            ]
+        }
+    },
+    "Lcom/angrydoughnuts/android/alarmclock/TimePicker;->access$202(Lcom/angrydoughnuts/android/alarmclock/TimePicker;I)I": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/angrydoughnuts/android/alarmclock/TimePicker$8;->onClick(Landroid/view/View;)V <",
+                "> Lcom/angrydoughnuts/android/alarmclock/TimePicker;->onCreateDialog(Landroid/os/Bundle;)Landroid/app/Dialog; <",
+                "> Lcom/angrydoughnuts/android/alarmclock/AlarmClockActivity$8;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.angrydoughnuts.android.alarmclock.AlarmClockActivity",
+                    "new_alarm"
+                ],
+                [
+                    "com.angrydoughnuts.android.alarmclock.AlarmClockActivity",
+                    "hour_dec"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/angrydoughnuts/android/alarmclock/TimePicker$9$1;->run()V <",
+                "> Lcom/angrydoughnuts/android/alarmclock/TimePicker$9;->onLongClick(Landroid/view/View;)Z <",
+                "> Lcom/angrydoughnuts/android/alarmclock/TimePicker;->onCreateDialog(Landroid/os/Bundle;)Landroid/app/Dialog; <",
+                "> Lcom/angrydoughnuts/android/alarmclock/AlarmClockActivity$8;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.angrydoughnuts.android.alarmclock.AlarmClockActivity",
+                    "new_alarm"
+                ],
+                [
+                    "com.angrydoughnuts.android.alarmclock.AlarmClockActivity",
+                    "hour_dec"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/angrydoughnuts/android/alarmclock/TimePicker$3;->afterTextChanged(Landroid/text/Editable;)V <",
+                "> Lcom/angrydoughnuts/android/alarmclock/TimePicker;->onCreateDialog(Landroid/os/Bundle;)Landroid/app/Dialog; <",
+                "> Lcom/angrydoughnuts/android/alarmclock/AlarmClockActivity$8;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.angrydoughnuts.android.alarmclock.AlarmClockActivity",
+                    "new_alarm"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/angrydoughnuts/android/alarmclock/TimePicker$7$1;->run()V <",
+                "> Lcom/angrydoughnuts/android/alarmclock/TimePicker$7;->onLongClick(Landroid/view/View;)Z <",
+                "> Lcom/angrydoughnuts/android/alarmclock/TimePicker;->onCreateDialog(Landroid/os/Bundle;)Landroid/app/Dialog; <",
+                "> Lcom/angrydoughnuts/android/alarmclock/AlarmClockActivity$8;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.angrydoughnuts.android.alarmclock.AlarmClockActivity",
+                    "new_alarm"
+                ],
+                [
+                    "com.angrydoughnuts.android.alarmclock.AlarmClockActivity",
+                    "hour_inc"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lcom/angrydoughnuts/android/alarmclock/TimePicker$6;->onClick(Landroid/view/View;)V <",
+                "> Lcom/angrydoughnuts/android/alarmclock/TimePicker;->onCreateDialog(Landroid/os/Bundle;)Landroid/app/Dialog; <",
+                "> Lcom/angrydoughnuts/android/alarmclock/AlarmClockActivity$8;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.angrydoughnuts.android.alarmclock.AlarmClockActivity",
+                    "new_alarm"
+                ],
+                [
+                    "com.angrydoughnuts.android.alarmclock.AlarmClockActivity",
+                    "hour_inc"
+                ]
+            ]
+        }
+    },
+    "Lcom/angrydoughnuts/android/alarmclock/TimeUtil;->nextMinute()Ljava/util/Calendar;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/angrydoughnuts/android/alarmclock/CountdownRefresh;->scheduleRefresh(Landroid/content/Context;)V <",
+                "> Lcom/angrydoughnuts/android/alarmclock/CountdownRefresh;->start(Landroid/content/Context;)V <",
+                "> Lcom/angrydoughnuts/android/alarmclock/AlarmClockActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.angrydoughnuts.android.alarmclock.AlarmClockActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/angrydoughnuts/android/alarmclock/AlarmClockActivity$DeleteAllConfirmation;-><init>()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/angrydoughnuts/android/alarmclock/AlarmClockActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.angrydoughnuts.android.alarmclock.AlarmClockActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/angrydoughnuts/android/alarmclock/AlarmOptions$DeleteConfirmation;-><init>()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/angrydoughnuts/android/alarmclock/AlarmOptions$1;->onClick(Landroid/content/DialogInterface; <",
+                "> Lcom/angrydoughnuts/android/alarmclock/AlarmOptions;->onCreateDialog(Landroid/os/Bundle;)Landroid/app/Dialog; <",
+                "> Lcom/angrydoughnuts/android/alarmclock/AlarmClockActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.angrydoughnuts.android.alarmclock.AlarmClockActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/angrydoughnuts/android/alarmclock/TimePicker;->show(Landroid/app/FragmentManager;Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/angrydoughnuts/android/alarmclock/AlarmClockActivity$8;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.angrydoughnuts.android.alarmclock.AlarmClockActivity",
+                    "new_alarm"
+                ]
+            ]
+        }
+    },
+    "Lcom/angrydoughnuts/android/alarmclock/Slider$Listener;->onComplete()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/angrydoughnuts/android/alarmclock/Slider;->onTouchEvent(Landroid/view/MotionEvent;)Z <",
+                "> Lcom/angrydoughnuts/android/alarmclock/AlarmNotificationActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/angrydoughnuts/android/alarmclock/AlarmClockActivity;->onStart()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/angrydoughnuts/android/alarmclock/AlarmNotificationActivity$2;-><init>(Lcom/angrydoughnuts/android/alarmclock/AlarmNotificationActivity;Landroid/widget/TextView;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/angrydoughnuts/android/alarmclock/AlarmNotificationActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/angrydoughnuts/android/alarmclock/AlarmClockActivity;->onStart()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/angrydoughnuts/android/alarmclock/TimePicker;->access$206(Lcom/angrydoughnuts/android/alarmclock/TimePicker;)I": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/angrydoughnuts/android/alarmclock/TimePicker$8;->onClick(Landroid/view/View;)V <",
+                "> Lcom/angrydoughnuts/android/alarmclock/TimePicker;->onCreateDialog(Landroid/os/Bundle;)Landroid/app/Dialog; <",
+                "> Lcom/angrydoughnuts/android/alarmclock/AlarmClockActivity$8;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.angrydoughnuts.android.alarmclock.AlarmClockActivity",
+                    "new_alarm"
+                ],
+                [
+                    "com.angrydoughnuts.android.alarmclock.AlarmClockActivity",
+                    "hour_dec"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/angrydoughnuts/android/alarmclock/TimePicker$9$1;->run()V <",
+                "> Lcom/angrydoughnuts/android/alarmclock/TimePicker$9;->onLongClick(Landroid/view/View;)Z <",
+                "> Lcom/angrydoughnuts/android/alarmclock/TimePicker;->onCreateDialog(Landroid/os/Bundle;)Landroid/app/Dialog; <",
+                "> Lcom/angrydoughnuts/android/alarmclock/AlarmClockActivity$8;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.angrydoughnuts.android.alarmclock.AlarmClockActivity",
+                    "new_alarm"
+                ],
+                [
+                    "com.angrydoughnuts.android.alarmclock.AlarmClockActivity",
+                    "hour_dec"
+                ]
+            ]
+        }
+    },
+    "Lcom/angrydoughnuts/android/alarmclock/AlarmClockActivity$1;-><init>(Lcom/angrydoughnuts/android/alarmclock/AlarmClockActivity;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/angrydoughnuts/android/alarmclock/AlarmClockActivity;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    }
+}

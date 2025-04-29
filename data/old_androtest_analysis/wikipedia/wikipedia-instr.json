@@ -1,0 +1,2319 @@
+{
+    "Lorg/wikipedia/analytics/eventplatform/BreadCrumbViewUtil;->getMainFragmentTabName(Landroidx/fragment/app/Fragment;)Ljava/lang/String;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/wikipedia/main/MainFragment$PageChangeCallback;->onPageSelected(I)V <",
+                "> Lorg/wikipedia/analytics/eventplatform/BreadCrumbViewUtil;->getMainFragmentTabName(Landroidx/fragment/app/Fragment;)Ljava/lang/String; <",
+                "> Lorg/wikipedia/analytics/eventplatform/BreadCrumbViewUtil;->getCurrentFragmentName(Landroid/content/Context;)Ljava/lang/String; <",
+                "> Lorg/wikipedia/analytics/eventplatform/BreadCrumbViewUtil;->getReadableScreenName(Landroid/content/Context;Landroidx/fragment/app/Fragment;)Ljava/lang/String; <",
+                "> Lorg/wikipedia/analytics/eventplatform/BreadCrumbLogEvent$Companion;->logScreenShown(Landroid/content/Context;Landroidx/fragment/app/Fragment;)V <",
+                "> Lorg/wikipedia/analytics/eventplatform/BreadCrumbLogEvent$Companion;->logScreenShown$default(Lorg/wikipedia/analytics/eventplatform/BreadCrumbLogEvent$Companion;Landroid/content/Context;Landroidx/fragment/app/Fragment;ILjava/lang/Object;)V <",
+                "> Lorg/wikipedia/activity/BaseActivity;->onResume()V <",
+                "> Lorg/wikipedia/page/PageActivity;->onResume()V <",
+                "> Lorg/wikipedia/widgets/WidgetProviderFeaturedPage$onUpdate$1;->onFeaturedArticleReceived(Lorg/wikipedia/page/PageTitle;Ljava/lang/CharSequence;)V <",
+                "> Lorg/wikipedia/widgets/WidgetProviderFeaturedPage;->onUpdate(Landroid/content/Context;Landroid/appwidget/AppWidgetManager;[I)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.appwidget.action.APPWIDGET_UPDATE",
+                    "start -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/wikipedia/main/MainFragment$PageChangeCallback;->onPageSelected(I)V <",
+                "> Lorg/wikipedia/analytics/eventplatform/BreadCrumbViewUtil;->getMainFragmentTabName(Landroidx/fragment/app/Fragment;)Ljava/lang/String; <",
+                "> Lorg/wikipedia/analytics/eventplatform/BreadCrumbViewUtil;->getCurrentFragmentName(Landroid/content/Context;)Ljava/lang/String; <",
+                "> Lorg/wikipedia/analytics/eventplatform/BreadCrumbViewUtil;->getReadableScreenName(Landroid/content/Context;Landroidx/fragment/app/Fragment;)Ljava/lang/String; <",
+                "> Lorg/wikipedia/analytics/eventplatform/BreadCrumbViewUtil;->getReadableScreenName$default(Lorg/wikipedia/analytics/eventplatform/BreadCrumbViewUtil;Landroid/content/Context;Landroidx/fragment/app/Fragment;ILjava/lang/Object;)Ljava/lang/String; <",
+                "> Lorg/wikipedia/analytics/eventplatform/ReadingListsAnalyticsHelper;->logSurveyShown(Landroid/content/Context;)V <",
+                "> Lorg/wikipedia/readinglist/ReadingListsShareSurveyHelper;->showSurveyDialog(Landroid/app/Activity;)V <",
+                "> Lorg/wikipedia/readinglist/ReadingListsShareSurveyHelper;->maybeShowSurvey(Landroid/app/Activity;)V <",
+                "> Lorg/wikipedia/activity/BaseActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/wikipedia/login/LoginActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/wikipedia/login/LoginActivity$Companion;->newIntent(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent; <",
+                "> Lorg/wikipedia/login/LoginActivity$Companion;->newIntent$default(Lorg/wikipedia/login/LoginActivity$Companion;Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;ILjava/lang/Object;)Landroid/content/Intent; <",
+                "> Lorg/wikipedia/auth/WikimediaAuthenticator;->addAccount(Landroid/accounts/AccountAuthenticatorResponse;)Landroid/os/Bundle; <",
+                "> Lorg/wikipedia/auth/WikimediaAuthenticator;->addAccount(Landroid/accounts/AccountAuthenticatorResponse;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Landroid/os/Bundle;)Landroid/os/Bundle; <",
+                "> Lorg/wikipedia/auth/AuthenticatorService;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.accounts.AccountAuthenticator",
+                    "start-service -a"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lorg/wikipedia/main/MainFragment$PageChangeCallback;->onPageSelected(I)V <",
+                "> Lorg/wikipedia/analytics/eventplatform/BreadCrumbViewUtil;->getMainFragmentTabName(Landroidx/fragment/app/Fragment;)Ljava/lang/String; <",
+                "> Lorg/wikipedia/analytics/eventplatform/BreadCrumbViewUtil;->getCurrentFragmentName(Landroid/content/Context;)Ljava/lang/String; <",
+                "> Lorg/wikipedia/analytics/eventplatform/BreadCrumbViewUtil;->getReadableScreenName(Landroid/content/Context;Landroidx/fragment/app/Fragment;)Ljava/lang/String; <",
+                "> Lorg/wikipedia/analytics/eventplatform/BreadCrumbLogEvent$Companion;->logScreenShown(Landroid/content/Context;Landroidx/fragment/app/Fragment;)V <",
+                "> Lorg/wikipedia/analytics/eventplatform/BreadCrumbLogEvent$Companion;->logScreenShown$default(Lorg/wikipedia/analytics/eventplatform/BreadCrumbLogEvent$Companion;Landroid/content/Context;Landroidx/fragment/app/Fragment;ILjava/lang/Object;)V <",
+                "> Lorg/wikipedia/activity/BaseActivity;->onResume()V <",
+                "> Lorg/wikipedia/talk/TalkTopicsActivity;->onResume()V <",
+                "> Lorg/wikipedia/talk/TalkTopicsActivity$Companion;->newIntent(Landroid/content/Context;Lorg/wikipedia/page/PageTitle;Lorg/wikipedia/Constants$InvokeSource;)Landroid/content/Intent; <",
+                "> Lorg/wikipedia/notifications/NotificationPresenter;->showNotification(Landroid/content/Context;Lorg/wikipedia/notifications/db/Notification;Ljava/lang/String;Ljava/lang/String;)V <",
+                "> Lorg/wikipedia/notifications/NotificationPollBroadcastReceiver$Companion;->onNotificationsComplete(Landroid/content/Context;Ljava/util/List;Ljava/util/Map;Ljava/util/Map;)V <",
+                "> Lorg/wikipedia/notifications/PollNotificationWorker;->retrieveNotifications(Lkotlin/coroutines/Continuation;)Ljava/lang/Object; <",
+                "> Lorg/wikipedia/notifications/PollNotificationWorker$Companion;->schedulePollNotificationJob(Landroid/content/Context;)V <",
+                "> Lorg/wikipedia/notifications/NotificationPollBroadcastReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/notifications/PollNotificationWorker;->retrieveNotifications(Lkotlin/coroutines/Continuation;)Ljava/lang/Object; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/notifications/PollNotificationWorker$Companion;->schedulePollNotificationJob(Landroid/content/Context;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/notifications/NotificationPollBroadcastReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "----- CONDITIONAL -----",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/notifications/PollNotificationWorker;->retrieveNotifications(Lkotlin/coroutines/Continuation;)Ljava/lang/Object; <",
+                "----- CONDITIONAL -----",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/notifications/PollNotificationWorker;->retrieveNotifications(Lkotlin/coroutines/Continuation;)Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    ".notifications.NotificationPollBroadcastReceiver.ACTION_POLL",
+                    "broadcast -a"
+                ],
+                [
+                    "intent",
+                    "android.intent.action.BOOT_COMPLETED",
+                    "broadcast -a"
+                ],
+                [
+                    "intent",
+                    ".notifications.NotificationPollBroadcastReceiver.ACTION_POLL",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lorg/wikipedia/main/MainFragment$PageChangeCallback;->onPageSelected(I)V <",
+                "> Lorg/wikipedia/analytics/eventplatform/BreadCrumbViewUtil;->getMainFragmentTabName(Landroidx/fragment/app/Fragment;)Ljava/lang/String; <",
+                "> Lorg/wikipedia/analytics/eventplatform/BreadCrumbViewUtil;->getCurrentFragmentName(Landroid/content/Context;)Ljava/lang/String; <",
+                "> Lorg/wikipedia/analytics/eventplatform/BreadCrumbViewUtil;->getReadableScreenName(Landroid/content/Context;Landroidx/fragment/app/Fragment;)Ljava/lang/String; <",
+                "> Lorg/wikipedia/analytics/eventplatform/BreadCrumbLogEvent$Companion;->logScreenShown(Landroid/content/Context;Landroidx/fragment/app/Fragment;)V <",
+                "> Lorg/wikipedia/analytics/eventplatform/BreadCrumbLogEvent$Companion;->logScreenShown$default(Lorg/wikipedia/analytics/eventplatform/BreadCrumbLogEvent$Companion;Landroid/content/Context;Landroidx/fragment/app/Fragment;ILjava/lang/Object;)V <",
+                "> Lorg/wikipedia/activity/BaseActivity;->onResume()V <",
+                "> Lorg/wikipedia/notifications/NotificationActivity;->onResume()V <",
+                "> Lorg/wikipedia/notifications/NotificationActivity$Companion;->newIntent(Landroid/content/Context;)Landroid/content/Intent; <",
+                "> Lorg/wikipedia/notifications/NotificationPresenter;->showMultipleUnread(Landroid/content/Context;I)V <",
+                "> Lorg/wikipedia/notifications/NotificationPollBroadcastReceiver$Companion;->onNotificationsComplete(Landroid/content/Context;Ljava/util/List;Ljava/util/Map;Ljava/util/Map;)V <",
+                "> Lorg/wikipedia/notifications/PollNotificationWorker;->retrieveNotifications(Lkotlin/coroutines/Continuation;)Ljava/lang/Object; <",
+                "> Lorg/wikipedia/notifications/PollNotificationWorker$Companion;->schedulePollNotificationJob(Landroid/content/Context;)V <",
+                "> Lorg/wikipedia/notifications/NotificationPollBroadcastReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    ".notifications.NotificationPollBroadcastReceiver.ACTION_POLL",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Lorg/wikipedia/main/MainActivity;->isCurrentFragmentSelected(Landroidx/fragment/app/Fragment;)Z": {
+        "path_4": {
+            "call_sequence": [
+                "> Lorg/wikipedia/main/MainFragment$PageChangeCallback;->onPageSelected(I)V <",
+                "> Lorg/wikipedia/main/MainActivity;->isCurrentFragmentSelected(Landroidx/fragment/app/Fragment;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/wikipedia/main/MainActivity;->onGoOffline()V": {
+        "path_5": {
+            "call_sequence": [
+                "> Lorg/wikipedia/main/MainFragment$PageChangeCallback;->onPageSelected(I)V <",
+                "> Lorg/wikipedia/main/MainActivity;->onGoOffline()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/wikipedia/main/MainActivity;->onNewIntent(Landroid/content/Intent;)V": {
+        "path_6": {
+            "call_sequence": [
+                "> Lorg/wikipedia/main/MainFragment$PageChangeCallback;->onPageSelected(I)V <",
+                "> Lorg/wikipedia/main/MainActivity;->onNewIntent(Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/wikipedia/main/MainActivity;->onSupportActionModeStarted(Landroidx/appcompat/view/ActionMode;)V": {
+        "path_7": {
+            "call_sequence": [
+                "> Lorg/wikipedia/main/MainFragment$PageChangeCallback;->onPageSelected(I)V <",
+                "> Lorg/wikipedia/main/MainActivity;->onSupportActionModeStarted(Landroidx/appcompat/view/ActionMode;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/wikipedia/main/MainActivity;->onUnreadNotification()V": {
+        "path_8": {
+            "call_sequence": [
+                "> Lorg/wikipedia/main/MainFragment$PageChangeCallback;->onPageSelected(I)V <",
+                "> Lorg/wikipedia/main/MainActivity;->onUnreadNotification()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/wikipedia/main/MainFragment;->getBinding()Lorg/wikipedia/databinding/FragmentMainBinding;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/wikipedia/main/MainFragment;->maybeShowEditsTooltip$lambda$10(Lorg/wikipedia/main/MainFragment;)V <",
+                "> Lorg/wikipedia/main/MainFragment;->$r8$lambda$HZe6Ik2Gfl35S9Rz18GPoDm0ulM(Lorg/wikipedia/main/MainFragment;)V <",
+                "> Lorg/wikipedia/main/MainFragment$$ExternalSyntheticLambda2;->run()V <",
+                "> Lorg/wikipedia/main/MainFragment;->maybeShowEditsTooltip()V <",
+                "> Lorg/wikipedia/main/MainFragment;->onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View; <",
+                "> Lorg/wikipedia/main/MainFragment$Companion;->newInstance()Lorg/wikipedia/main/MainFragment; <",
+                "> Lorg/wikipedia/main/MainActivity;->createFragment()Lorg/wikipedia/main/MainFragment; <",
+                "> Lorg/wikipedia/main/MainActivity;->createFragment()Landroidx/fragment/app/Fragment; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/wikipedia/main/MainFragment;->maybeShowWatchlistTooltip$lambda$11(Lorg/wikipedia/main/MainFragment;)V <",
+                "> Lorg/wikipedia/main/MainFragment;->$r8$lambda$rmiUnOXvZze4VYT3nr4-hxDjnZ0(Lorg/wikipedia/main/MainFragment;)V <",
+                "> Lorg/wikipedia/main/MainFragment$$ExternalSyntheticLambda3;->run()V <",
+                "> Lorg/wikipedia/main/MainFragment;->maybeShowWatchlistTooltip()V <",
+                "> Lorg/wikipedia/main/MainFragment;->onResume()V <",
+                "> Lorg/wikipedia/main/MainFragment$Companion;->newInstance()Lorg/wikipedia/main/MainFragment; <",
+                "> Lorg/wikipedia/main/MainActivity;->createFragment()Lorg/wikipedia/main/MainFragment; <",
+                "> Lorg/wikipedia/main/MainActivity;->createFragment()Landroidx/fragment/app/Fragment; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lorg/wikipedia/main/MainFragment;->onCreateView$lambda$3(Lorg/wikipedia/main/MainFragment;Landroid/view/MenuItem;)Z <",
+                "> Lorg/wikipedia/main/MainFragment;->$r8$lambda$ncF2ZMhQpmQVqd05hoSEQ0IEcE8(Lorg/wikipedia/main/MainFragment;Landroid/view/MenuItem;)Z <",
+                "> Lorg/wikipedia/main/MainFragment$$ExternalSyntheticLambda8;->onNavigationItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lorg/wikipedia/main/MainFragment;->onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View; <",
+                "> Lorg/wikipedia/main/MainFragment$Companion;->newInstance()Lorg/wikipedia/main/MainFragment; <",
+                "> Lorg/wikipedia/main/MainActivity;->createFragment()Lorg/wikipedia/main/MainFragment; <",
+                "> Lorg/wikipedia/main/MainActivity;->createFragment()Landroidx/fragment/app/Fragment; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lorg/wikipedia/main/MainFragment;->getCurrentFragment()Landroidx/fragment/app/Fragment; <",
+                "> Lorg/wikipedia/main/MainActivity;->isCurrentFragmentSelected(Landroidx/fragment/app/Fragment;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lorg/wikipedia/main/MainFragment;->handleIntent(Landroid/content/Intent;)V <",
+                "> Lorg/wikipedia/main/MainActivity;->onNewIntent(Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_5": {
+            "call_sequence": [
+                "> Lorg/wikipedia/main/MainFragment;->setBottomNavVisible(Z)V <",
+                "> Lorg/wikipedia/main/MainActivity;->onSupportActionModeFinished(Landroidx/appcompat/view/ActionMode;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_6": {
+            "call_sequence": [
+                "> Lorg/wikipedia/main/MainFragment;->onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View; <",
+                "> Lorg/wikipedia/main/MainFragment$Companion;->newInstance()Lorg/wikipedia/main/MainFragment; <",
+                "> Lorg/wikipedia/main/MainActivity;->createFragment()Lorg/wikipedia/main/MainFragment; <",
+                "> Lorg/wikipedia/main/MainActivity;->createFragment()Landroidx/fragment/app/Fragment; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_7": {
+            "call_sequence": [
+                "> Lorg/wikipedia/main/MainFragment;->onDestroyView()V <",
+                "> Lorg/wikipedia/main/MainFragment$Companion;->newInstance()Lorg/wikipedia/main/MainFragment; <",
+                "> Lorg/wikipedia/main/MainActivity;->createFragment()Lorg/wikipedia/main/MainFragment; <",
+                "> Lorg/wikipedia/main/MainActivity;->createFragment()Landroidx/fragment/app/Fragment; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_8": {
+            "call_sequence": [
+                "> Lorg/wikipedia/main/MainFragment;->enqueueTooltip(Ljava/lang/Runnable;)V <",
+                "> Lorg/wikipedia/main/MainFragment;->maybeShowWatchlistTooltip()V <",
+                "> Lorg/wikipedia/main/MainFragment;->onResume()V <",
+                "> Lorg/wikipedia/main/MainFragment$Companion;->newInstance()Lorg/wikipedia/main/MainFragment; <",
+                "> Lorg/wikipedia/main/MainActivity;->createFragment()Lorg/wikipedia/main/MainFragment; <",
+                "> Lorg/wikipedia/main/MainActivity;->createFragment()Landroidx/fragment/app/Fragment; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_9": {
+            "call_sequence": [
+                "> Lorg/wikipedia/main/MainFragment;->goToTab(Lorg/wikipedia/navtab/NavTab;)V <",
+                "> Lorg/wikipedia/main/MainFragment;->handleIntent(Landroid/content/Intent;)V <",
+                "> Lorg/wikipedia/main/MainActivity;->onNewIntent(Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_10": {
+            "call_sequence": [
+                "> Lorg/wikipedia/main/MainActivity;->onTabChanged(Lorg/wikipedia/navtab/NavTab;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/wikipedia/main/MainFragment;->handleIntent(Landroid/content/Intent;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/wikipedia/main/MainActivity;->onNewIntent(Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/wikipedia/main/MainFragment;->handleIntent(Landroid/content/Intent;)V <",
+                "> Lorg/wikipedia/main/MainActivity;->onNewIntent(Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/wikipedia/main/MainFragment;->enqueueTooltip(Ljava/lang/Runnable;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/wikipedia/main/MainFragment;->enqueueTooltip(Ljava/lang/Runnable;)V <",
+                "> Lorg/wikipedia/main/MainFragment;->maybeShowWatchlistTooltip()V <",
+                "> Lorg/wikipedia/main/MainFragment;->onResume()V <",
+                "> Lorg/wikipedia/main/MainFragment$Companion;->newInstance()Lorg/wikipedia/main/MainFragment; <",
+                "> Lorg/wikipedia/main/MainActivity;->createFragment()Lorg/wikipedia/main/MainFragment; <",
+                "> Lorg/wikipedia/main/MainActivity;->createFragment()Landroidx/fragment/app/Fragment; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/wikipedia/main/MainFragment;->onFeedMovePageToList(JLorg/wikipedia/history/HistoryEntry;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/wikipedia/main/MainFragment;->onFeedAddPageToList$lambda$6(Lorg/wikipedia/main/MainFragment;Lorg/wikipedia/history/HistoryEntry;J)V <",
+                "> Lorg/wikipedia/main/MainFragment;->$r8$lambda$XPxjJI_-eQGEfFRKUWIFHu2FsTU(Lorg/wikipedia/main/MainFragment;Lorg/wikipedia/history/HistoryEntry;J)V <",
+                "> Lorg/wikipedia/main/MainFragment$$ExternalSyntheticLambda4;->onMoveClicked(J)V <",
+                "> Lorg/wikipedia/main/MainFragment;->onFeedAddPageToList(Lorg/wikipedia/history/HistoryEntry;Z)V <",
+                "> Lorg/wikipedia/main/MainFragment$Companion;->newInstance()Lorg/wikipedia/main/MainFragment; <",
+                "> Lorg/wikipedia/main/MainActivity;->createFragment()Lorg/wikipedia/main/MainFragment; <",
+                "> Lorg/wikipedia/main/MainActivity;->createFragment()Landroidx/fragment/app/Fragment; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/wikipedia/main/MainActivity;->createFragment()Lorg/wikipedia/main/MainFragment;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/wikipedia/main/MainActivity;->createFragment()Landroidx/fragment/app/Fragment; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/wikipedia/main/MainFragment;->requestUpdateToolbarElevation()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/wikipedia/main/MainFragment;->onPrepareMenu(Landroid/view/Menu;)V <",
+                "> Lorg/wikipedia/main/MainFragment$Companion;->newInstance()Lorg/wikipedia/main/MainFragment; <",
+                "> Lorg/wikipedia/main/MainActivity;->createFragment()Lorg/wikipedia/main/MainFragment; <",
+                "> Lorg/wikipedia/main/MainActivity;->createFragment()Landroidx/fragment/app/Fragment; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/wikipedia/main/MainActivity;->onTabChanged(Lorg/wikipedia/navtab/NavTab;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/wikipedia/main/MainFragment;->onGoOnline()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/wikipedia/main/MainActivity;->onGoOnline()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/wikipedia/main/MainFragment;->onBackPressed()Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/wikipedia/main/MainActivity;->onBackPressed()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/wikipedia/main/MainFragment;->lastPageViewedWithin(I)Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/wikipedia/main/MainFragment;->handleIntent(Landroid/content/Intent;)V <",
+                "> Lorg/wikipedia/main/MainActivity;->onNewIntent(Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/wikipedia/main/MainFragment;-><init>()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/wikipedia/main/MainFragment;-><init>()V <",
+                "> Lorg/wikipedia/main/MainFragment$Companion;->newInstance()Lorg/wikipedia/main/MainFragment; <",
+                "> Lorg/wikipedia/main/MainActivity;->createFragment()Lorg/wikipedia/main/MainFragment; <",
+                "> Lorg/wikipedia/main/MainActivity;->createFragment()Landroidx/fragment/app/Fragment; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/wikipedia/main/MainFragment;->onLoginRequested()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/wikipedia/main/MainFragment;->loginClick()V <",
+                "> Lorg/wikipedia/main/MainFragment$Companion;->newInstance()Lorg/wikipedia/main/MainFragment; <",
+                "> Lorg/wikipedia/main/MainActivity;->createFragment()Lorg/wikipedia/main/MainFragment; <",
+                "> Lorg/wikipedia/main/MainActivity;->createFragment()Landroidx/fragment/app/Fragment; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/wikipedia/main/MainFragment;->onPrepareMenu(Landroid/view/Menu;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/wikipedia/main/MainFragment$$ExternalSyntheticLambda0;->onClick(Landroid/view/View;)V <",
+                "> Lorg/wikipedia/main/MainFragment;->onPrepareMenu(Landroid/view/Menu;)V <",
+                "> Lorg/wikipedia/main/MainFragment$Companion;->newInstance()Lorg/wikipedia/main/MainFragment; <",
+                "> Lorg/wikipedia/main/MainActivity;->createFragment()Lorg/wikipedia/main/MainFragment; <",
+                "> Lorg/wikipedia/main/MainActivity;->createFragment()Landroidx/fragment/app/Fragment; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/wikipedia/main/MainFragment;->goToTab(Lorg/wikipedia/navtab/NavTab;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/wikipedia/main/MainFragment;->onFeedSeCardFooterClicked()V <",
+                "> Lorg/wikipedia/main/MainFragment$Companion;->newInstance()Lorg/wikipedia/main/MainFragment; <",
+                "> Lorg/wikipedia/main/MainActivity;->createFragment()Lorg/wikipedia/main/MainFragment; <",
+                "> Lorg/wikipedia/main/MainActivity;->createFragment()Landroidx/fragment/app/Fragment; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/wikipedia/main/MainFragment;->handleIntent(Landroid/content/Intent;)V <",
+                "> Lorg/wikipedia/main/MainActivity;->onNewIntent(Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/wikipedia/main/MainActivity;->$r8$lambda$ijrfitzVYrGXpCE-66AoietyDHM(Landroidx/activity/result/ActivityResult;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/wikipedia/main/MainActivity$$ExternalSyntheticLambda0;->onActivityResult(Ljava/lang/Object;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/wikipedia/main/MainFragment;->updateToolbarElevation(Z)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/wikipedia/main/MainFragment;->updateToolbarElevation(Z)V <",
+                "> Lorg/wikipedia/main/MainFragment;->requestUpdateToolbarElevation()V <",
+                "> Lorg/wikipedia/main/MainActivity;->onTabChanged(Lorg/wikipedia/navtab/NavTab;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/wikipedia/main/MainFragment;->getCurrentFragment()Landroidx/fragment/app/Fragment;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/wikipedia/main/MainFragment;->onGoOffline()V <",
+                "> Lorg/wikipedia/main/MainActivity;->onGoOffline()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/wikipedia/main/MainFragment;->onGoOnline()V <",
+                "> Lorg/wikipedia/main/MainActivity;->onGoOnline()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lorg/wikipedia/main/MainFragment;->onCreateView$lambda$3(Lorg/wikipedia/main/MainFragment;Landroid/view/MenuItem;)Z <",
+                "> Lorg/wikipedia/main/MainFragment;->$r8$lambda$ncF2ZMhQpmQVqd05hoSEQ0IEcE8(Lorg/wikipedia/main/MainFragment;Landroid/view/MenuItem;)Z <",
+                "> Lorg/wikipedia/main/MainFragment$$ExternalSyntheticLambda8;->onNavigationItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lorg/wikipedia/main/MainFragment;->onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View; <",
+                "> Lorg/wikipedia/main/MainFragment$Companion;->newInstance()Lorg/wikipedia/main/MainFragment; <",
+                "> Lorg/wikipedia/main/MainActivity;->createFragment()Lorg/wikipedia/main/MainFragment; <",
+                "> Lorg/wikipedia/main/MainActivity;->createFragment()Landroidx/fragment/app/Fragment; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lorg/wikipedia/main/MainFragment;->refreshContents()V <",
+                "> Lorg/wikipedia/main/MainFragment;->onActivityResult(IILandroid/content/Intent;)V <",
+                "> Lorg/wikipedia/main/MainFragment$Companion;->newInstance()Lorg/wikipedia/main/MainFragment; <",
+                "> Lorg/wikipedia/main/MainActivity;->createFragment()Lorg/wikipedia/main/MainFragment; <",
+                "> Lorg/wikipedia/main/MainActivity;->createFragment()Landroidx/fragment/app/Fragment; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lorg/wikipedia/main/MainFragment;->onMenuItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lorg/wikipedia/main/MainFragment$Companion;->newInstance()Lorg/wikipedia/main/MainFragment; <",
+                "> Lorg/wikipedia/main/MainActivity;->createFragment()Lorg/wikipedia/main/MainFragment; <",
+                "> Lorg/wikipedia/main/MainActivity;->createFragment()Landroidx/fragment/app/Fragment; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_5": {
+            "call_sequence": [
+                "> Lorg/wikipedia/main/MainFragment;->updateFeedHiddenCards()V <",
+                "> Lorg/wikipedia/main/MainFragment;->onActivityResult(IILandroid/content/Intent;)V <",
+                "> Lorg/wikipedia/main/MainFragment$Companion;->newInstance()Lorg/wikipedia/main/MainFragment; <",
+                "> Lorg/wikipedia/main/MainActivity;->createFragment()Lorg/wikipedia/main/MainFragment; <",
+                "> Lorg/wikipedia/main/MainActivity;->createFragment()Landroidx/fragment/app/Fragment; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_6": {
+            "call_sequence": [
+                "> Lorg/wikipedia/main/MainFragment;->onPrepareMenu(Landroid/view/Menu;)V <",
+                "> Lorg/wikipedia/main/MainFragment$Companion;->newInstance()Lorg/wikipedia/main/MainFragment; <",
+                "> Lorg/wikipedia/main/MainActivity;->createFragment()Lorg/wikipedia/main/MainFragment; <",
+                "> Lorg/wikipedia/main/MainActivity;->createFragment()Landroidx/fragment/app/Fragment; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_7": {
+            "call_sequence": [
+                "> Lorg/wikipedia/main/MainFragment;->requestUpdateToolbarElevation()V <",
+                "> Lorg/wikipedia/main/MainActivity;->onTabChanged(Lorg/wikipedia/navtab/NavTab;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_8": {
+            "call_sequence": [
+                "> Lorg/wikipedia/main/MainFragment;->onBackPressed()Z <",
+                "> Lorg/wikipedia/main/MainActivity;->onBackPressed()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_9": {
+            "call_sequence": [
+                "> Lorg/wikipedia/main/MainActivity;->isCurrentFragmentSelected(Landroidx/fragment/app/Fragment;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_10": {
+            "call_sequence": [
+                "> Lorg/wikipedia/main/MainFragment;->maybeShowEditsTooltip()V <",
+                "> Lorg/wikipedia/main/MainFragment;->onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View; <",
+                "> Lorg/wikipedia/main/MainFragment$Companion;->newInstance()Lorg/wikipedia/main/MainFragment; <",
+                "> Lorg/wikipedia/main/MainActivity;->createFragment()Lorg/wikipedia/main/MainFragment; <",
+                "> Lorg/wikipedia/main/MainActivity;->createFragment()Landroidx/fragment/app/Fragment; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/wikipedia/main/MainActivity;-><clinit>()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/wikipedia/main/MainActivity;-><clinit>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/wikipedia/main/MainFragment;->refreshContents()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/wikipedia/main/MainFragment;->onActivityResult(IILandroid/content/Intent;)V <",
+                "> Lorg/wikipedia/main/MainFragment$Companion;->newInstance()Lorg/wikipedia/main/MainFragment; <",
+                "> Lorg/wikipedia/main/MainActivity;->createFragment()Lorg/wikipedia/main/MainFragment; <",
+                "> Lorg/wikipedia/main/MainActivity;->createFragment()Landroidx/fragment/app/Fragment; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/wikipedia/main/MainFragment;->access$refreshContents(Lorg/wikipedia/main/MainFragment;)V <",
+                "> Lorg/wikipedia/main/MainFragment$EventBusConsumer;->accept(Ljava/lang/Object;)V <",
+                "> Lorg/wikipedia/main/MainFragment;->onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View; <",
+                "> Lorg/wikipedia/main/MainFragment$Companion;->newInstance()Lorg/wikipedia/main/MainFragment; <",
+                "> Lorg/wikipedia/main/MainActivity;->createFragment()Lorg/wikipedia/main/MainFragment; <",
+                "> Lorg/wikipedia/main/MainActivity;->createFragment()Landroidx/fragment/app/Fragment; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/wikipedia/main/MainFragment;->onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/wikipedia/main/MainFragment$EventBusConsumer;->accept(Ljava/lang/Object;)V <",
+                "> Lorg/wikipedia/main/MainFragment;->onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View; <",
+                "> Lorg/wikipedia/main/MainFragment$Companion;->newInstance()Lorg/wikipedia/main/MainFragment; <",
+                "> Lorg/wikipedia/main/MainActivity;->createFragment()Lorg/wikipedia/main/MainFragment; <",
+                "> Lorg/wikipedia/main/MainActivity;->createFragment()Landroidx/fragment/app/Fragment; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/wikipedia/main/MainFragment;->onActivityResult(IILandroid/content/Intent;)V": {
+        "path_2": {
+            "call_sequence": [
+                "> Lorg/wikipedia/main/MainFragment;->onActivityResult(IILandroid/content/Intent;)V <",
+                "> Lorg/wikipedia/main/MainFragment$Companion;->newInstance()Lorg/wikipedia/main/MainFragment; <",
+                "> Lorg/wikipedia/main/MainActivity;->createFragment()Lorg/wikipedia/main/MainFragment; <",
+                "> Lorg/wikipedia/main/MainActivity;->createFragment()Landroidx/fragment/app/Fragment; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/wikipedia/main/MainFragment;->onGoOffline()V": {
+        "path_3": {
+            "call_sequence": [
+                "> Lorg/wikipedia/history/HistoryFragment$SearchCardViewHolder;->_init_$lambda$2(Lorg/wikipedia/history/HistoryFragment;Landroid/view/View;)V <",
+                "> Lorg/wikipedia/history/HistoryFragment$SearchCardViewHolder;->$r8$lambda$7VinDC4aG0Y2cxPhij0avIdwAO8(Lorg/wikipedia/history/HistoryFragment;Landroid/view/View;)V <",
+                "> Lorg/wikipedia/history/HistoryFragment$SearchCardViewHolder$$ExternalSyntheticLambda2;->onClick(Landroid/view/View;)V <",
+                "> Lorg/wikipedia/history/HistoryFragment$SearchCardViewHolder;-><init>(Lorg/wikipedia/history/HistoryFragment;Landroid/view/View;)V <",
+                "> Lorg/wikipedia/history/HistoryFragment$HistoryEntryItemAdapter;->onCreateViewHolder(Landroid/view/ViewGroup;I)Lorg/wikipedia/views/DefaultViewHolder; <",
+                "> Lorg/wikipedia/history/HistoryFragment$HistoryEntryItemAdapter;->onCreateViewHolder(Landroid/view/ViewGroup;I)Landroidx/recyclerview/widget/RecyclerView$ViewHolder; <",
+                "> Lorg/wikipedia/main/MainFragment;->onGoOffline()V <",
+                "> Lorg/wikipedia/main/MainActivity;->onGoOffline()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.wikipedia.main.MainActivity",
+                    "search_card"
+                ]
+            ]
+        }
+    },
+    "Lorg/wikipedia/main/MainFragment;->onFeedSearchRequested(Landroid/view/View;)V": {
+        "path_4": {
+            "call_sequence": [
+                "> Lorg/wikipedia/main/MainFragment;->onFeedSearchRequested(Landroid/view/View;)V <",
+                "> Lorg/wikipedia/main/MainFragment$Companion;->newInstance()Lorg/wikipedia/main/MainFragment; <",
+                "> Lorg/wikipedia/main/MainActivity;->createFragment()Lorg/wikipedia/main/MainFragment; <",
+                "> Lorg/wikipedia/main/MainActivity;->createFragment()Landroidx/fragment/app/Fragment; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/wikipedia/main/MainFragment;->copyLink(Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/wikipedia/main/MainFragment;->onLinkPreviewCopyLink(Lorg/wikipedia/page/PageTitle;)V <",
+                "> Lorg/wikipedia/main/MainFragment$Companion;->newInstance()Lorg/wikipedia/main/MainFragment; <",
+                "> Lorg/wikipedia/main/MainActivity;->createFragment()Lorg/wikipedia/main/MainFragment; <",
+                "> Lorg/wikipedia/main/MainActivity;->createFragment()Landroidx/fragment/app/Fragment; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/wikipedia/main/MainFragment;->onFeedAddPageToList(Lorg/wikipedia/history/HistoryEntry;Z)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/wikipedia/main/MainFragment;->$r8$lambda$XPxjJI_-eQGEfFRKUWIFHu2FsTU(Lorg/wikipedia/main/MainFragment;Lorg/wikipedia/history/HistoryEntry;J)V <",
+                "> Lorg/wikipedia/main/MainFragment$$ExternalSyntheticLambda4;->onMoveClicked(J)V <",
+                "> Lorg/wikipedia/main/MainFragment;->onFeedAddPageToList(Lorg/wikipedia/history/HistoryEntry;Z)V <",
+                "> Lorg/wikipedia/main/MainFragment$Companion;->newInstance()Lorg/wikipedia/main/MainFragment; <",
+                "> Lorg/wikipedia/main/MainActivity;->createFragment()Lorg/wikipedia/main/MainFragment; <",
+                "> Lorg/wikipedia/main/MainActivity;->createFragment()Landroidx/fragment/app/Fragment; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/wikipedia/main/MainFragment;->onFeedVoiceSearchRequested()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/wikipedia/history/HistoryFragment$SearchCardViewHolder;->_init_$lambda$3(Lorg/wikipedia/history/HistoryFragment;Landroid/view/View;)V <",
+                "> Lorg/wikipedia/history/HistoryFragment$SearchCardViewHolder;->$r8$lambda$ayufN6d0CNlM-uxyXVzGmG-lzwQ(Lorg/wikipedia/history/HistoryFragment;Landroid/view/View;)V <",
+                "> Lorg/wikipedia/history/HistoryFragment$SearchCardViewHolder$$ExternalSyntheticLambda3;->onClick(Landroid/view/View;)V <",
+                "> Lorg/wikipedia/history/HistoryFragment$SearchCardViewHolder;-><init>(Lorg/wikipedia/history/HistoryFragment;Landroid/view/View;)V <",
+                "> Lorg/wikipedia/history/HistoryFragment$HistoryEntryItemAdapter;->onCreateViewHolder(Landroid/view/ViewGroup;I)Lorg/wikipedia/views/DefaultViewHolder; <",
+                "> Lorg/wikipedia/history/HistoryFragment$HistoryEntryItemAdapter;->onCreateViewHolder(Landroid/view/ViewGroup;I)Landroidx/recyclerview/widget/RecyclerView$ViewHolder; <",
+                "> Lorg/wikipedia/main/MainFragment;->onGoOffline()V <",
+                "> Lorg/wikipedia/main/MainActivity;->onGoOffline()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.wikipedia.main.MainActivity",
+                    "voice_search_button"
+                ]
+            ]
+        }
+    },
+    "Lorg/wikipedia/main/MainFragment;->maybeShowEditsTooltip()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/wikipedia/main/MainFragment;->$r8$lambda$HZe6Ik2Gfl35S9Rz18GPoDm0ulM(Lorg/wikipedia/main/MainFragment;)V <",
+                "> Lorg/wikipedia/main/MainFragment$$ExternalSyntheticLambda2;->run()V <",
+                "> Lorg/wikipedia/main/MainFragment;->maybeShowEditsTooltip()V <",
+                "> Lorg/wikipedia/main/MainFragment;->onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View; <",
+                "> Lorg/wikipedia/main/MainFragment$Companion;->newInstance()Lorg/wikipedia/main/MainFragment; <",
+                "> Lorg/wikipedia/main/MainActivity;->createFragment()Lorg/wikipedia/main/MainFragment; <",
+                "> Lorg/wikipedia/main/MainActivity;->createFragment()Landroidx/fragment/app/Fragment; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/wikipedia/main/MainFragment;-><clinit>()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/wikipedia/main/MainFragment;-><clinit>()V <",
+                "> Lorg/wikipedia/main/MainFragment$Companion;->newInstance()Lorg/wikipedia/main/MainFragment; <",
+                "> Lorg/wikipedia/main/MainActivity;->createFragment()Lorg/wikipedia/main/MainFragment; <",
+                "> Lorg/wikipedia/main/MainActivity;->createFragment()Landroidx/fragment/app/Fragment; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/wikipedia/main/MainActivity;->handleIntent(Landroid/content/Intent;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/wikipedia/main/MainActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/wikipedia/main/MainActivity;->getToolbar()Landroidx/appcompat/widget/Toolbar;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/wikipedia/readinglist/ReadingListsFragment;->showReadingListsOverflowMenu()V <",
+                "> Lorg/wikipedia/main/MainFragment;->onMenuItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lorg/wikipedia/main/MainFragment$Companion;->newInstance()Lorg/wikipedia/main/MainFragment; <",
+                "> Lorg/wikipedia/main/MainActivity;->createFragment()Lorg/wikipedia/main/MainFragment; <",
+                "> Lorg/wikipedia/main/MainActivity;->createFragment()Landroidx/fragment/app/Fragment; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/wikipedia/readinglist/ReadingListFragment;->previewSaveDialog()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/wikipedia/readinglist/ReadingListFragment;->previewSaveDialog$lambda$24$lambda$23(Lorg/wikipedia/readinglist/database/ReadingList;Ljava/util/List;Lkotlin/jvm/internal/Ref$ObjectRef;Lorg/wikipedia/readinglist/ReadingListFragment;Landroid/content/DialogInterface;I)V <",
+                "> Lorg/wikipedia/readinglist/ReadingListFragment;->$r8$lambda$pz9jmprBYtmzEWQaFshRJUznlwY(Lorg/wikipedia/readinglist/database/ReadingList;Ljava/util/List;Lkotlin/jvm/internal/Ref$ObjectRef;Lorg/wikipedia/readinglist/ReadingListFragment;Landroid/content/DialogInterface;I)V <",
+                "> Lorg/wikipedia/readinglist/ReadingListFragment$$ExternalSyntheticLambda10;->onClick(Landroid/content/DialogInterface;I)V <",
+                "> Lorg/wikipedia/readinglist/ReadingListFragment;->previewSaveDialog()V <",
+                "> Lorg/wikipedia/readinglist/ReadingListFragment;->setHeaderView$lambda$9(Lorg/wikipedia/readinglist/ReadingListFragment;Landroid/view/View;)V <",
+                "> Lorg/wikipedia/readinglist/ReadingListFragment;->$r8$lambda$1wi1zcVm0DN47V0yGIaS2w47Peo(Lorg/wikipedia/readinglist/ReadingListFragment;Landroid/view/View;)V <",
+                "> Lorg/wikipedia/readinglist/ReadingListFragment$$ExternalSyntheticLambda5;->onClick(Landroid/view/View;)V <",
+                "> Lorg/wikipedia/readinglist/ReadingListFragment;->setHeaderView()V <",
+                "> Lorg/wikipedia/readinglist/ReadingListFragment;->onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View; <",
+                "> Lorg/wikipedia/readinglist/ReadingListFragment$Companion;->newInstance(J)Lorg/wikipedia/readinglist/ReadingListFragment; <",
+                "> Lorg/wikipedia/readinglist/ReadingListActivity;->createFragment()Lorg/wikipedia/readinglist/ReadingListFragment; <",
+                "> Lorg/wikipedia/readinglist/ReadingListActivity;->createFragment()Landroidx/fragment/app/Fragment; <",
+                "> Lorg/wikipedia/readinglist/ReadingListActivity$Companion;->newIntent(Landroid/content/Context;Lorg/wikipedia/readinglist/database/ReadingList;)Landroid/content/Intent; <",
+                "> Lorg/wikipedia/readinglist/ReadingListsFragment;->maybeShowPreviewSavedReadingListsSnackbar$lambda$27(Lorg/wikipedia/readinglist/ReadingListsFragment;Landroid/view/View;)V <",
+                "> Lorg/wikipedia/readinglist/ReadingListsFragment;->$r8$lambda$jg5vyEQtzbqWuLxoaQz44CcZlZg(Lorg/wikipedia/readinglist/ReadingListsFragment;Landroid/view/View;)V <",
+                "> Lorg/wikipedia/readinglist/ReadingListsFragment$$ExternalSyntheticLambda11;->onClick(Landroid/view/View;)V <",
+                "> Lorg/wikipedia/readinglist/ReadingListsFragment;->maybeShowPreviewSavedReadingListsSnackbar()V <",
+                "> Lorg/wikipedia/readinglist/ReadingListsFragment;->updateLists$lambda$9(Lorg/wikipedia/readinglist/ReadingListsFragment;ZLjava/lang/String;Ljava/util/List;)V <",
+                "> Lorg/wikipedia/readinglist/ReadingListsFragment;->$r8$lambda$bup3lWAGGIXYeXjikz4CmXuC9oU(Lorg/wikipedia/readinglist/ReadingListsFragment;ZLjava/lang/String;Ljava/util/List;)V <",
+                "> Lorg/wikipedia/readinglist/ReadingListsFragment$$ExternalSyntheticLambda0;->onCompleted(Ljava/util/List;)V <",
+                "> Lorg/wikipedia/readinglist/ReadingListsFragment;->updateLists(Ljava/lang/String;Z)V <",
+                "> Lorg/wikipedia/readinglist/ReadingListsFragment;->updateLists()V <",
+                "> Lorg/wikipedia/main/MainFragment;->refreshContents()V <",
+                "> Lorg/wikipedia/main/MainFragment;->onActivityResult(IILandroid/content/Intent;)V <",
+                "> Lorg/wikipedia/main/MainFragment$Companion;->newInstance()Lorg/wikipedia/main/MainFragment; <",
+                "> Lorg/wikipedia/main/MainActivity;->createFragment()Lorg/wikipedia/main/MainFragment; <",
+                "> Lorg/wikipedia/main/MainActivity;->createFragment()Landroidx/fragment/app/Fragment; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/ReadingListsReceiveHelper;->receiveReadingLists(Landroid/content/Context;Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/ReadingListFragment$updateReadingListData$2$1;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/ReadingListFragment$updateReadingListData$2$1;->invoke(Lkotlinx/coroutines/CoroutineScope;Lkotlin/coroutines/Continuation;)Ljava/lang/Object; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/ReadingListFragment$updateReadingListData$2$1;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/ReadingListFragment$updateReadingListData$2;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/ReadingListFragment$updateReadingListData$2;->invoke(Lkotlinx/coroutines/CoroutineScope;Lkotlin/coroutines/Continuation;)Ljava/lang/Object; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/ReadingListFragment$updateReadingListData$2;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/ReadingListFragment;->updateReadingListData()V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/ReadingListFragment;->onResume()V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/ReadingListFragment$Companion;->newInstance(J)Lorg/wikipedia/readinglist/ReadingListFragment; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/ReadingListActivity;->createFragment()Lorg/wikipedia/readinglist/ReadingListFragment; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/ReadingListActivity;->createFragment()Landroidx/fragment/app/Fragment; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/ReadingListActivity$Companion;->newIntent(Landroid/content/Context;Lorg/wikipedia/readinglist/database/ReadingList;)Landroid/content/Intent; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/ReadingListsFragment;->maybeShowPreviewSavedReadingListsSnackbar$lambda$27(Lorg/wikipedia/readinglist/ReadingListsFragment;Landroid/view/View;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/ReadingListsFragment;->$r8$lambda$jg5vyEQtzbqWuLxoaQz44CcZlZg(Lorg/wikipedia/readinglist/ReadingListsFragment;Landroid/view/View;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/ReadingListsFragment$$ExternalSyntheticLambda11;->onClick(Landroid/view/View;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/ReadingListsFragment;->maybeShowPreviewSavedReadingListsSnackbar()V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/ReadingListsFragment;->updateLists$lambda$9(Lorg/wikipedia/readinglist/ReadingListsFragment;ZLjava/lang/String;Ljava/util/List;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/ReadingListsFragment;->$r8$lambda$bup3lWAGGIXYeXjikz4CmXuC9oU(Lorg/wikipedia/readinglist/ReadingListsFragment;ZLjava/lang/String;Ljava/util/List;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/ReadingListsFragment$$ExternalSyntheticLambda0;->onCompleted(Ljava/util/List;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/ReadingListsFragment;->updateLists(Ljava/lang/String;Z)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/ReadingListsFragment;->updateLists()V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/main/MainFragment;->refreshContents()V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/main/MainFragment;->onActivityResult(IILandroid/content/Intent;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/main/MainFragment$Companion;->newInstance()Lorg/wikipedia/main/MainFragment; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/main/MainActivity;->createFragment()Lorg/wikipedia/main/MainFragment; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/main/MainActivity;->createFragment()Landroidx/fragment/app/Fragment; <",
+                "----- CONDITIONAL -----",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/ReadingListsReceiveHelper;->receiveReadingLists(Landroid/content/Context;Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/ReadingListFragment;->setHeaderView()V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/ReadingListFragment;->onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog;->showViewListSnackBar$lambda$3(Lorg/wikipedia/readinglist/database/ReadingList;Landroid/view/View;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog;->$r8$lambda$icmgehn1yu18JNpA7h7J4WnOHTQ(Lorg/wikipedia/readinglist/database/ReadingList;Landroid/view/View;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog$$ExternalSyntheticLambda0;->onClick(Landroid/view/View;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog;->showViewListSnackBar(Lorg/wikipedia/readinglist/database/ReadingList;Ljava/lang/String;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog$commitChanges$2;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog$commitChanges$2;->invoke(Lkotlinx/coroutines/CoroutineScope;Lkotlin/coroutines/Continuation;)Ljava/lang/Object; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog$commitChanges$2;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog;->commitChanges(Lorg/wikipedia/readinglist/database/ReadingList;Ljava/util/List;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog;->addAndDismiss(Lorg/wikipedia/readinglist/database/ReadingList;Ljava/util/List;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog;->access$addAndDismiss(Lorg/wikipedia/readinglist/AddToReadingListDialog;Lorg/wikipedia/readinglist/database/ReadingList;Ljava/util/List;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog$ReadingListItemCallback;->onClick(Lorg/wikipedia/readinglist/database/ReadingList;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog;-><init>()V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog$Companion;->newInstance(Ljava/util/List;Lorg/wikipedia/Constants$InvokeSource;Landroid/content/DialogInterface$OnDismissListener;)Lorg/wikipedia/readinglist/AddToReadingListDialog; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog$Companion;->newInstance(Lorg/wikipedia/page/PageTitle;Lorg/wikipedia/Constants$InvokeSource;Landroid/content/DialogInterface$OnDismissListener;)Lorg/wikipedia/readinglist/AddToReadingListDialog; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/page/ExclusiveBottomSheetPresenter;->showAddToListDialog(Landroidx/fragment/app/FragmentManager;Lorg/wikipedia/page/PageTitle;Lorg/wikipedia/Constants$InvokeSource;Landroid/content/DialogInterface$OnDismissListener;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/page/PageActivity;->showAddToListDialog(Lorg/wikipedia/page/PageTitle;Lorg/wikipedia/Constants$InvokeSource;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/page/PageActivity;->onPageAddToReadingList(Lorg/wikipedia/page/PageTitle;Lorg/wikipedia/Constants$InvokeSource;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/widgets/WidgetProviderFeaturedPage$onUpdate$1;->onFeaturedArticleReceived(Lorg/wikipedia/page/PageTitle;Ljava/lang/CharSequence;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/widgets/WidgetProviderFeaturedPage;->onUpdate(Landroid/content/Context;Landroid/appwidget/AppWidgetManager;[I)V <",
+                "----- CONDITIONAL -----",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/ReadingListFragment;->setHeaderView()V <",
+                "> Lorg/wikipedia/readinglist/ReadingListFragment;->onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.appwidget.action.APPWIDGET_UPDATE",
+                    "start -a"
+                ],
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/wikipedia/readinglist/ReadingListFragment;->previewSaveDialog$lambda$24$lambda$23(Lorg/wikipedia/readinglist/database/ReadingList;Ljava/util/List;Lkotlin/jvm/internal/Ref$ObjectRef;Lorg/wikipedia/readinglist/ReadingListFragment;Landroid/content/DialogInterface;I)V <",
+                "> Lorg/wikipedia/readinglist/ReadingListFragment;->$r8$lambda$pz9jmprBYtmzEWQaFshRJUznlwY(Lorg/wikipedia/readinglist/database/ReadingList;Ljava/util/List;Lkotlin/jvm/internal/Ref$ObjectRef;Lorg/wikipedia/readinglist/ReadingListFragment;Landroid/content/DialogInterface;I)V <",
+                "> Lorg/wikipedia/readinglist/ReadingListFragment$$ExternalSyntheticLambda10;->onClick(Landroid/content/DialogInterface;I)V <",
+                "> Lorg/wikipedia/readinglist/ReadingListFragment;->previewSaveDialog()V <",
+                "> Lorg/wikipedia/readinglist/ReadingListFragment;->setHeaderView$lambda$9(Lorg/wikipedia/readinglist/ReadingListFragment;Landroid/view/View;)V <",
+                "> Lorg/wikipedia/readinglist/ReadingListFragment;->$r8$lambda$1wi1zcVm0DN47V0yGIaS2w47Peo(Lorg/wikipedia/readinglist/ReadingListFragment;Landroid/view/View;)V <",
+                "> Lorg/wikipedia/readinglist/ReadingListFragment$$ExternalSyntheticLambda5;->onClick(Landroid/view/View;)V <",
+                "> Lorg/wikipedia/readinglist/ReadingListFragment;->setHeaderView()V <",
+                "> Lorg/wikipedia/readinglist/ReadingListFragment;->onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View; <",
+                "> Lorg/wikipedia/readinglist/ReadingListFragment$Companion;->newInstance(J)Lorg/wikipedia/readinglist/ReadingListFragment; <",
+                "> Lorg/wikipedia/readinglist/ReadingListActivity;->createFragment()Lorg/wikipedia/readinglist/ReadingListFragment; <",
+                "> Lorg/wikipedia/readinglist/ReadingListActivity;->createFragment()Landroidx/fragment/app/Fragment; <",
+                "> Lorg/wikipedia/readinglist/ReadingListActivity$Companion;->newIntent(Landroid/content/Context;Lorg/wikipedia/readinglist/database/ReadingList;)Landroid/content/Intent; <",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog;->showViewListSnackBar$lambda$3(Lorg/wikipedia/readinglist/database/ReadingList;Landroid/view/View;)V <",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog;->$r8$lambda$icmgehn1yu18JNpA7h7J4WnOHTQ(Lorg/wikipedia/readinglist/database/ReadingList;Landroid/view/View;)V <",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog$$ExternalSyntheticLambda0;->onClick(Landroid/view/View;)V <",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog;->showViewListSnackBar(Lorg/wikipedia/readinglist/database/ReadingList;Ljava/lang/String;)V <",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog$commitChanges$2;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog$commitChanges$2;->invoke(Lkotlinx/coroutines/CoroutineScope;Lkotlin/coroutines/Continuation;)Ljava/lang/Object; <",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog$commitChanges$2;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog;->commitChanges(Lorg/wikipedia/readinglist/database/ReadingList;Ljava/util/List;)V <",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog;->addAndDismiss(Lorg/wikipedia/readinglist/database/ReadingList;Ljava/util/List;)V <",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog;->access$addAndDismiss(Lorg/wikipedia/readinglist/AddToReadingListDialog;Lorg/wikipedia/readinglist/database/ReadingList;Ljava/util/List;)V <",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog$ReadingListItemCallback;->onClick(Lorg/wikipedia/readinglist/database/ReadingList;)V <",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog;-><init>()V <",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog$Companion;->newInstance(Ljava/util/List;Lorg/wikipedia/Constants$InvokeSource;Landroid/content/DialogInterface$OnDismissListener;)Lorg/wikipedia/readinglist/AddToReadingListDialog; <",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog$Companion;->newInstance(Lorg/wikipedia/page/PageTitle;Lorg/wikipedia/Constants$InvokeSource;Landroid/content/DialogInterface$OnDismissListener;)Lorg/wikipedia/readinglist/AddToReadingListDialog; <",
+                "> Lorg/wikipedia/page/ExclusiveBottomSheetPresenter;->showAddToListDialog(Landroidx/fragment/app/FragmentManager;Lorg/wikipedia/page/PageTitle;Lorg/wikipedia/Constants$InvokeSource;Landroid/content/DialogInterface$OnDismissListener;)V <",
+                "> Lorg/wikipedia/page/PageActivity;->showAddToListDialog(Lorg/wikipedia/page/PageTitle;Lorg/wikipedia/Constants$InvokeSource;)V <",
+                "> Lorg/wikipedia/page/PageActivity;->onPageAddToReadingList(Lorg/wikipedia/page/PageTitle;Lorg/wikipedia/Constants$InvokeSource;)V <",
+                "> Lorg/wikipedia/page/PageActivity$Companion;->newIntentForNewTab(Landroid/content/Context;Lorg/wikipedia/history/HistoryEntry;Lorg/wikipedia/page/PageTitle;)Landroid/content/Intent; <",
+                "> Lorg/wikipedia/talk/TalkTopicsActivity;->goToPage()V <",
+                "> Lorg/wikipedia/talk/TalkTopicsActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lorg/wikipedia/talk/TalkTopicsActivity$Companion;->newIntent(Landroid/content/Context;Lorg/wikipedia/page/PageTitle;Lorg/wikipedia/Constants$InvokeSource;)Landroid/content/Intent; <",
+                "> Lorg/wikipedia/notifications/NotificationPresenter;->showNotification(Landroid/content/Context;Lorg/wikipedia/notifications/db/Notification;Ljava/lang/String;Ljava/lang/String;)V <",
+                "> Lorg/wikipedia/notifications/NotificationPollBroadcastReceiver$Companion;->onNotificationsComplete(Landroid/content/Context;Ljava/util/List;Ljava/util/Map;Ljava/util/Map;)V <",
+                "> Lorg/wikipedia/notifications/PollNotificationWorker;->retrieveNotifications(Lkotlin/coroutines/Continuation;)Ljava/lang/Object; <",
+                "> Lorg/wikipedia/notifications/PollNotificationWorker$Companion;->schedulePollNotificationJob(Landroid/content/Context;)V <",
+                "> Lorg/wikipedia/login/LoginActivity;->onLoginSuccess()V <",
+                "> Lorg/wikipedia/login/LoginActivity;->access$onLoginSuccess(Lorg/wikipedia/login/LoginActivity;)V <",
+                "> Lorg/wikipedia/login/LoginActivity$LoginCallback;->success(Lorg/wikipedia/login/LoginResult;)V <",
+                "> Lorg/wikipedia/login/LoginActivity;-><init>()V <",
+                "> Lorg/wikipedia/login/LoginActivity$Companion;->newIntent(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent; <",
+                "> Lorg/wikipedia/login/LoginActivity$Companion;->newIntent$default(Lorg/wikipedia/login/LoginActivity$Companion;Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;ILjava/lang/Object;)Landroid/content/Intent; <",
+                "> Lorg/wikipedia/auth/WikimediaAuthenticator;->addAccount(Landroid/accounts/AccountAuthenticatorResponse;)Landroid/os/Bundle; <",
+                "> Lorg/wikipedia/auth/WikimediaAuthenticator;->addAccount(Landroid/accounts/AccountAuthenticatorResponse;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Landroid/os/Bundle;)Landroid/os/Bundle; <",
+                "> Lorg/wikipedia/auth/AuthenticatorService;->onCreate()V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/ReadingListsReceiveHelper;->receiveReadingLists(Landroid/content/Context;Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/ReadingListFragment$updateReadingListData$2$1;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/ReadingListFragment$updateReadingListData$2$1;->invoke(Lkotlinx/coroutines/CoroutineScope;Lkotlin/coroutines/Continuation;)Ljava/lang/Object; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/ReadingListFragment$updateReadingListData$2$1;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/ReadingListFragment$updateReadingListData$2;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/ReadingListFragment$updateReadingListData$2;->invoke(Lkotlinx/coroutines/CoroutineScope;Lkotlin/coroutines/Continuation;)Ljava/lang/Object; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/ReadingListFragment$updateReadingListData$2;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/ReadingListFragment;->updateReadingListData()V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/ReadingListFragment;->onResume()V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/ReadingListFragment$Companion;->newInstance(J)Lorg/wikipedia/readinglist/ReadingListFragment; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/ReadingListActivity;->createFragment()Lorg/wikipedia/readinglist/ReadingListFragment; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/ReadingListActivity;->createFragment()Landroidx/fragment/app/Fragment; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/ReadingListActivity$Companion;->newIntent(Landroid/content/Context;Lorg/wikipedia/readinglist/database/ReadingList;)Landroid/content/Intent; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/ReadingListsFragment;->maybeShowPreviewSavedReadingListsSnackbar$lambda$27(Lorg/wikipedia/readinglist/ReadingListsFragment;Landroid/view/View;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/ReadingListsFragment;->$r8$lambda$jg5vyEQtzbqWuLxoaQz44CcZlZg(Lorg/wikipedia/readinglist/ReadingListsFragment;Landroid/view/View;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/ReadingListsFragment$$ExternalSyntheticLambda11;->onClick(Landroid/view/View;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/ReadingListsFragment;->maybeShowPreviewSavedReadingListsSnackbar()V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/ReadingListsFragment;->updateLists$lambda$9(Lorg/wikipedia/readinglist/ReadingListsFragment;ZLjava/lang/String;Ljava/util/List;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/ReadingListsFragment;->$r8$lambda$bup3lWAGGIXYeXjikz4CmXuC9oU(Lorg/wikipedia/readinglist/ReadingListsFragment;ZLjava/lang/String;Ljava/util/List;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/ReadingListsFragment$$ExternalSyntheticLambda0;->onCompleted(Ljava/util/List;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/ReadingListsFragment;->updateLists(Ljava/lang/String;Z)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/ReadingListsFragment;->updateLists()V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/main/MainFragment;->refreshContents()V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/main/MainFragment;->onActivityResult(IILandroid/content/Intent;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/main/MainFragment$Companion;->newInstance()Lorg/wikipedia/main/MainFragment; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/main/MainActivity;->createFragment()Lorg/wikipedia/main/MainFragment; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/main/MainActivity;->createFragment()Landroidx/fragment/app/Fragment; <",
+                "----- CONDITIONAL -----",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/ReadingListsReceiveHelper;->receiveReadingLists(Landroid/content/Context;Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/ReadingListFragment;->setHeaderView()V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/ReadingListFragment;->onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog;->showViewListSnackBar$lambda$3(Lorg/wikipedia/readinglist/database/ReadingList;Landroid/view/View;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog;->$r8$lambda$icmgehn1yu18JNpA7h7J4WnOHTQ(Lorg/wikipedia/readinglist/database/ReadingList;Landroid/view/View;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog$$ExternalSyntheticLambda0;->onClick(Landroid/view/View;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog;->showViewListSnackBar(Lorg/wikipedia/readinglist/database/ReadingList;Ljava/lang/String;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog$commitChanges$2;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog$commitChanges$2;->invoke(Lkotlinx/coroutines/CoroutineScope;Lkotlin/coroutines/Continuation;)Ljava/lang/Object; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog$commitChanges$2;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog;->commitChanges(Lorg/wikipedia/readinglist/database/ReadingList;Ljava/util/List;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog;->addAndDismiss(Lorg/wikipedia/readinglist/database/ReadingList;Ljava/util/List;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog;->access$addAndDismiss(Lorg/wikipedia/readinglist/AddToReadingListDialog;Lorg/wikipedia/readinglist/database/ReadingList;Ljava/util/List;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog$ReadingListItemCallback;->onClick(Lorg/wikipedia/readinglist/database/ReadingList;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog;-><init>()V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog$Companion;->newInstance(Ljava/util/List;Lorg/wikipedia/Constants$InvokeSource;Landroid/content/DialogInterface$OnDismissListener;)Lorg/wikipedia/readinglist/AddToReadingListDialog; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog$Companion;->newInstance(Lorg/wikipedia/page/PageTitle;Lorg/wikipedia/Constants$InvokeSource;Landroid/content/DialogInterface$OnDismissListener;)Lorg/wikipedia/readinglist/AddToReadingListDialog; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/page/ExclusiveBottomSheetPresenter;->showAddToListDialog(Landroidx/fragment/app/FragmentManager;Lorg/wikipedia/page/PageTitle;Lorg/wikipedia/Constants$InvokeSource;Landroid/content/DialogInterface$OnDismissListener;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/page/PageActivity;->showAddToListDialog(Lorg/wikipedia/page/PageTitle;Lorg/wikipedia/Constants$InvokeSource;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/page/PageActivity;->onPageAddToReadingList(Lorg/wikipedia/page/PageTitle;Lorg/wikipedia/Constants$InvokeSource;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/widgets/WidgetProviderFeaturedPage$onUpdate$1;->onFeaturedArticleReceived(Lorg/wikipedia/page/PageTitle;Ljava/lang/CharSequence;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/widgets/WidgetProviderFeaturedPage;->onUpdate(Landroid/content/Context;Landroid/appwidget/AppWidgetManager;[I)V <",
+                "----- CONDITIONAL -----",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/ReadingListFragment;->setHeaderView()V <",
+                "> Lorg/wikipedia/readinglist/ReadingListFragment;->onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog$commitChanges$2;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog$Companion;->newInstance$default(Lorg/wikipedia/readinglist/AddToReadingListDialog$Companion;Lorg/wikipedia/page/PageTitle;Lorg/wikipedia/Constants$InvokeSource;Landroid/content/DialogInterface$OnDismissListener;ILjava/lang/Object;)Lorg/wikipedia/readinglist/AddToReadingListDialog; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/main/MainFragment;->onLinkPreviewAddToList(Lorg/wikipedia/page/PageTitle;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/notifications/PollNotificationWorker;->retrieveNotifications(Lkotlin/coroutines/Continuation;)Ljava/lang/Object; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/notifications/PollNotificationWorker$Companion;->schedulePollNotificationJob(Landroid/content/Context;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/notifications/NotificationPollBroadcastReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "----- CONDITIONAL -----",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/notifications/PollNotificationWorker;->retrieveNotifications(Lkotlin/coroutines/Continuation;)Ljava/lang/Object; <",
+                "----- CONDITIONAL -----",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/notifications/PollNotificationWorker;->retrieveNotifications(Lkotlin/coroutines/Continuation;)Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    ".notifications.NotificationPollBroadcastReceiver.ACTION_POLL",
+                    "broadcast -a"
+                ],
+                [
+                    "intent",
+                    "android.intent.action.BOOT_COMPLETED",
+                    "broadcast -a"
+                ],
+                [
+                    "intent",
+                    "android.appwidget.action.APPWIDGET_UPDATE",
+                    "start -a"
+                ],
+                [
+                    "main activity"
+                ],
+                [
+                    "intent",
+                    "android.accounts.AccountAuthenticator",
+                    "start-service -a"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lorg/wikipedia/readinglist/ReadingListFragment;->previewSaveDialog$lambda$24$lambda$23(Lorg/wikipedia/readinglist/database/ReadingList;Ljava/util/List;Lkotlin/jvm/internal/Ref$ObjectRef;Lorg/wikipedia/readinglist/ReadingListFragment;Landroid/content/DialogInterface;I)V <",
+                "> Lorg/wikipedia/readinglist/ReadingListFragment;->$r8$lambda$pz9jmprBYtmzEWQaFshRJUznlwY(Lorg/wikipedia/readinglist/database/ReadingList;Ljava/util/List;Lkotlin/jvm/internal/Ref$ObjectRef;Lorg/wikipedia/readinglist/ReadingListFragment;Landroid/content/DialogInterface;I)V <",
+                "> Lorg/wikipedia/readinglist/ReadingListFragment$$ExternalSyntheticLambda10;->onClick(Landroid/content/DialogInterface;I)V <",
+                "> Lorg/wikipedia/readinglist/ReadingListFragment;->previewSaveDialog()V <",
+                "> Lorg/wikipedia/readinglist/ReadingListFragment;->setHeaderView$lambda$9(Lorg/wikipedia/readinglist/ReadingListFragment;Landroid/view/View;)V <",
+                "> Lorg/wikipedia/readinglist/ReadingListFragment;->$r8$lambda$1wi1zcVm0DN47V0yGIaS2w47Peo(Lorg/wikipedia/readinglist/ReadingListFragment;Landroid/view/View;)V <",
+                "> Lorg/wikipedia/readinglist/ReadingListFragment$$ExternalSyntheticLambda5;->onClick(Landroid/view/View;)V <",
+                "> Lorg/wikipedia/readinglist/ReadingListFragment;->setHeaderView()V <",
+                "> Lorg/wikipedia/readinglist/ReadingListFragment;->onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View; <",
+                "> Lorg/wikipedia/readinglist/ReadingListFragment$Companion;->newInstance(J)Lorg/wikipedia/readinglist/ReadingListFragment; <",
+                "> Lorg/wikipedia/readinglist/ReadingListActivity;->createFragment()Lorg/wikipedia/readinglist/ReadingListFragment; <",
+                "> Lorg/wikipedia/readinglist/ReadingListActivity;->createFragment()Landroidx/fragment/app/Fragment; <",
+                "> Lorg/wikipedia/readinglist/ReadingListActivity$Companion;->newIntent(Landroid/content/Context;Lorg/wikipedia/readinglist/database/ReadingList;)Landroid/content/Intent; <",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog;->showViewListSnackBar$lambda$3(Lorg/wikipedia/readinglist/database/ReadingList;Landroid/view/View;)V <",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog;->$r8$lambda$icmgehn1yu18JNpA7h7J4WnOHTQ(Lorg/wikipedia/readinglist/database/ReadingList;Landroid/view/View;)V <",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog$$ExternalSyntheticLambda0;->onClick(Landroid/view/View;)V <",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog;->showViewListSnackBar(Lorg/wikipedia/readinglist/database/ReadingList;Ljava/lang/String;)V <",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog$commitChanges$2;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog$commitChanges$2;->invoke(Lkotlinx/coroutines/CoroutineScope;Lkotlin/coroutines/Continuation;)Ljava/lang/Object; <",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog$commitChanges$2;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog;->commitChanges(Lorg/wikipedia/readinglist/database/ReadingList;Ljava/util/List;)V <",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog;->addAndDismiss(Lorg/wikipedia/readinglist/database/ReadingList;Ljava/util/List;)V <",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog;->access$addAndDismiss(Lorg/wikipedia/readinglist/AddToReadingListDialog;Lorg/wikipedia/readinglist/database/ReadingList;Ljava/util/List;)V <",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog$ReadingListItemCallback;->onClick(Lorg/wikipedia/readinglist/database/ReadingList;)V <",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog;-><init>()V <",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog$Companion;->newInstance(Ljava/util/List;Lorg/wikipedia/Constants$InvokeSource;Landroid/content/DialogInterface$OnDismissListener;)Lorg/wikipedia/readinglist/AddToReadingListDialog; <",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog$Companion;->newInstance(Lorg/wikipedia/page/PageTitle;Lorg/wikipedia/Constants$InvokeSource;Landroid/content/DialogInterface$OnDismissListener;)Lorg/wikipedia/readinglist/AddToReadingListDialog; <",
+                "> Lorg/wikipedia/page/ExclusiveBottomSheetPresenter;->showAddToListDialog(Landroidx/fragment/app/FragmentManager;Lorg/wikipedia/page/PageTitle;Lorg/wikipedia/Constants$InvokeSource;Landroid/content/DialogInterface$OnDismissListener;)V <",
+                "> Lorg/wikipedia/page/PageActivity;->showAddToListDialog(Lorg/wikipedia/page/PageTitle;Lorg/wikipedia/Constants$InvokeSource;)V <",
+                "> Lorg/wikipedia/page/PageActivity;->onLinkPreviewAddToList(Lorg/wikipedia/page/PageTitle;)V <",
+                "> Lorg/wikipedia/page/PageActivity$Companion;->newIntentForNewTab(Landroid/content/Context;Lorg/wikipedia/history/HistoryEntry;Lorg/wikipedia/page/PageTitle;)Landroid/content/Intent; <",
+                "> Lorg/wikipedia/talk/TalkTopicsActivity;->goToPage()V <",
+                "> Lorg/wikipedia/talk/TalkTopicsActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lorg/wikipedia/talk/TalkTopicsActivity$Companion;->newIntent(Landroid/content/Context;Lorg/wikipedia/page/PageTitle;Lorg/wikipedia/Constants$InvokeSource;)Landroid/content/Intent; <",
+                "> Lorg/wikipedia/notifications/NotificationPresenter;->showNotification(Landroid/content/Context;Lorg/wikipedia/notifications/db/Notification;Ljava/lang/String;Ljava/lang/String;)V <",
+                "> Lorg/wikipedia/notifications/NotificationPollBroadcastReceiver$Companion;->onNotificationsComplete(Landroid/content/Context;Ljava/util/List;Ljava/util/Map;Ljava/util/Map;)V <",
+                "> Lorg/wikipedia/notifications/PollNotificationWorker;->retrieveNotifications(Lkotlin/coroutines/Continuation;)Ljava/lang/Object; <",
+                "> Lorg/wikipedia/notifications/PollNotificationWorker$Companion;->schedulePollNotificationJob(Landroid/content/Context;)V <",
+                "> Lorg/wikipedia/login/LoginActivity;->onLoginSuccess()V <",
+                "> Lorg/wikipedia/login/LoginActivity;->access$onLoginSuccess(Lorg/wikipedia/login/LoginActivity;)V <",
+                "> Lorg/wikipedia/login/LoginActivity$LoginCallback;->success(Lorg/wikipedia/login/LoginResult;)V <",
+                "> Lorg/wikipedia/login/LoginActivity;-><init>()V <",
+                "> Lorg/wikipedia/login/LoginActivity$Companion;->newIntent(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent; <",
+                "> Lorg/wikipedia/login/LoginActivity$Companion;->newIntent$default(Lorg/wikipedia/login/LoginActivity$Companion;Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;ILjava/lang/Object;)Landroid/content/Intent; <",
+                "> Lorg/wikipedia/auth/WikimediaAuthenticator;->addAccount(Landroid/accounts/AccountAuthenticatorResponse;)Landroid/os/Bundle; <",
+                "> Lorg/wikipedia/auth/WikimediaAuthenticator;->addAccount(Landroid/accounts/AccountAuthenticatorResponse;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Landroid/os/Bundle;)Landroid/os/Bundle; <",
+                "> Lorg/wikipedia/auth/AuthenticatorService;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.accounts.AccountAuthenticator",
+                    "start-service -a"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lorg/wikipedia/readinglist/ReadingListFragment;->previewSaveDialog$lambda$24$lambda$23(Lorg/wikipedia/readinglist/database/ReadingList;Ljava/util/List;Lkotlin/jvm/internal/Ref$ObjectRef;Lorg/wikipedia/readinglist/ReadingListFragment;Landroid/content/DialogInterface;I)V <",
+                "> Lorg/wikipedia/readinglist/ReadingListFragment;->$r8$lambda$pz9jmprBYtmzEWQaFshRJUznlwY(Lorg/wikipedia/readinglist/database/ReadingList;Ljava/util/List;Lkotlin/jvm/internal/Ref$ObjectRef;Lorg/wikipedia/readinglist/ReadingListFragment;Landroid/content/DialogInterface;I)V <",
+                "> Lorg/wikipedia/readinglist/ReadingListFragment$$ExternalSyntheticLambda10;->onClick(Landroid/content/DialogInterface;I)V <",
+                "> Lorg/wikipedia/readinglist/ReadingListFragment;->previewSaveDialog()V <",
+                "> Lorg/wikipedia/readinglist/ReadingListFragment;->setHeaderView$lambda$9(Lorg/wikipedia/readinglist/ReadingListFragment;Landroid/view/View;)V <",
+                "> Lorg/wikipedia/readinglist/ReadingListFragment;->$r8$lambda$1wi1zcVm0DN47V0yGIaS2w47Peo(Lorg/wikipedia/readinglist/ReadingListFragment;Landroid/view/View;)V <",
+                "> Lorg/wikipedia/readinglist/ReadingListFragment$$ExternalSyntheticLambda5;->onClick(Landroid/view/View;)V <",
+                "> Lorg/wikipedia/readinglist/ReadingListFragment;->setHeaderView()V <",
+                "> Lorg/wikipedia/readinglist/ReadingListFragment;->onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View; <",
+                "> Lorg/wikipedia/readinglist/ReadingListFragment$Companion;->newInstance(J)Lorg/wikipedia/readinglist/ReadingListFragment; <",
+                "> Lorg/wikipedia/readinglist/ReadingListActivity;->createFragment()Lorg/wikipedia/readinglist/ReadingListFragment; <",
+                "> Lorg/wikipedia/readinglist/ReadingListActivity;->createFragment()Landroidx/fragment/app/Fragment; <",
+                "> Lorg/wikipedia/readinglist/ReadingListActivity$Companion;->newIntent(Landroid/content/Context;Lorg/wikipedia/readinglist/database/ReadingList;)Landroid/content/Intent; <",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog;->showViewListSnackBar$lambda$3(Lorg/wikipedia/readinglist/database/ReadingList;Landroid/view/View;)V <",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog;->$r8$lambda$icmgehn1yu18JNpA7h7J4WnOHTQ(Lorg/wikipedia/readinglist/database/ReadingList;Landroid/view/View;)V <",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog$$ExternalSyntheticLambda0;->onClick(Landroid/view/View;)V <",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog;->showViewListSnackBar(Lorg/wikipedia/readinglist/database/ReadingList;Ljava/lang/String;)V <",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog$commitChanges$2;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog$commitChanges$2;->invoke(Lkotlinx/coroutines/CoroutineScope;Lkotlin/coroutines/Continuation;)Ljava/lang/Object; <",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog$commitChanges$2;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog;->commitChanges(Lorg/wikipedia/readinglist/database/ReadingList;Ljava/util/List;)V <",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog;->addAndDismiss(Lorg/wikipedia/readinglist/database/ReadingList;Ljava/util/List;)V <",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog;->access$addAndDismiss(Lorg/wikipedia/readinglist/AddToReadingListDialog;Lorg/wikipedia/readinglist/database/ReadingList;Ljava/util/List;)V <",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog$ReadingListItemCallback;->onClick(Lorg/wikipedia/readinglist/database/ReadingList;)V <",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog;-><init>()V <",
+                "> Lorg/wikipedia/readinglist/MoveToReadingListDialog;-><init>()V <",
+                "> Lorg/wikipedia/readinglist/MoveToReadingListDialog$Companion;->newInstance(JLjava/util/List;Lorg/wikipedia/Constants$InvokeSource;ZLandroid/content/DialogInterface$OnDismissListener;)Lorg/wikipedia/readinglist/MoveToReadingListDialog; <",
+                "> Lorg/wikipedia/page/ExclusiveBottomSheetPresenter;->showMoveToListDialog(Landroidx/fragment/app/FragmentManager;JLorg/wikipedia/page/PageTitle;Lorg/wikipedia/Constants$InvokeSource;ZLandroid/content/DialogInterface$OnDismissListener;)V <",
+                "> Lorg/wikipedia/page/PageActivity;->showMoveToListDialog(JLorg/wikipedia/page/PageTitle;Lorg/wikipedia/Constants$InvokeSource;Z)V <",
+                "> Lorg/wikipedia/page/PageActivity;->onPageMoveToReadingList(JLorg/wikipedia/page/PageTitle;Lorg/wikipedia/Constants$InvokeSource;Z)V <",
+                "> Lorg/wikipedia/page/PageActivity$Companion;->newIntentForNewTab(Landroid/content/Context;Lorg/wikipedia/history/HistoryEntry;Lorg/wikipedia/page/PageTitle;)Landroid/content/Intent; <",
+                "> Lorg/wikipedia/talk/TalkTopicsActivity;->goToPage()V <",
+                "> Lorg/wikipedia/talk/TalkTopicsActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lorg/wikipedia/talk/TalkTopicsActivity$Companion;->newIntent(Landroid/content/Context;Lorg/wikipedia/page/PageTitle;Lorg/wikipedia/Constants$InvokeSource;)Landroid/content/Intent; <",
+                "> Lorg/wikipedia/notifications/NotificationPresenter;->showNotification(Landroid/content/Context;Lorg/wikipedia/notifications/db/Notification;Ljava/lang/String;Ljava/lang/String;)V <",
+                "> Lorg/wikipedia/notifications/NotificationPollBroadcastReceiver$Companion;->onNotificationsComplete(Landroid/content/Context;Ljava/util/List;Ljava/util/Map;Ljava/util/Map;)V <",
+                "> Lorg/wikipedia/notifications/PollNotificationWorker;->retrieveNotifications(Lkotlin/coroutines/Continuation;)Ljava/lang/Object; <",
+                "> Lorg/wikipedia/notifications/PollNotificationWorker$Companion;->schedulePollNotificationJob(Landroid/content/Context;)V <",
+                "> Lorg/wikipedia/login/LoginActivity;->onLoginSuccess()V <",
+                "> Lorg/wikipedia/login/LoginActivity;->access$onLoginSuccess(Lorg/wikipedia/login/LoginActivity;)V <",
+                "> Lorg/wikipedia/login/LoginActivity$LoginCallback;->success(Lorg/wikipedia/login/LoginResult;)V <",
+                "> Lorg/wikipedia/login/LoginActivity;-><init>()V <",
+                "> Lorg/wikipedia/login/LoginActivity$Companion;->newIntent(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent; <",
+                "> Lorg/wikipedia/login/LoginActivity$Companion;->newIntent$default(Lorg/wikipedia/login/LoginActivity$Companion;Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;ILjava/lang/Object;)Landroid/content/Intent; <",
+                "> Lorg/wikipedia/auth/WikimediaAuthenticator;->addAccount(Landroid/accounts/AccountAuthenticatorResponse;)Landroid/os/Bundle; <",
+                "> Lorg/wikipedia/auth/WikimediaAuthenticator;->addAccount(Landroid/accounts/AccountAuthenticatorResponse;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Landroid/os/Bundle;)Landroid/os/Bundle; <",
+                "> Lorg/wikipedia/auth/AuthenticatorService;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.accounts.AccountAuthenticator",
+                    "start-service -a"
+                ]
+            ]
+        }
+    },
+    "Lorg/wikipedia/notifications/NotificationPollBroadcastReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V": {
+        "path_4": {
+            "call_sequence": [
+                "> Lorg/wikipedia/notifications/NotificationPollBroadcastReceiver$Companion;->showSuggestedEditsLocalNotification(Landroid/content/Context;I)V <",
+                "> Lorg/wikipedia/notifications/NotificationPollBroadcastReceiver$Companion;->maybeShowLocalNotificationForEditorReactivation(Landroid/content/Context;)V <",
+                "> Lorg/wikipedia/notifications/NotificationPollBroadcastReceiver$Companion;->access$maybeShowLocalNotificationForEditorReactivation(Lorg/wikipedia/notifications/NotificationPollBroadcastReceiver$Companion;Landroid/content/Context;)V <",
+                "> Lorg/wikipedia/notifications/NotificationPollBroadcastReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "> Lorg/wikipedia/notifications/NotificationPollBroadcastReceiver$Companion;->getAlarmPendingIntent(Landroid/content/Context;)Landroid/app/PendingIntent; <",
+                "> Lorg/wikipedia/notifications/NotificationPollBroadcastReceiver$Companion;->startPollTask(Landroid/content/Context;)V <",
+                "> Lorg/wikipedia/WikipediaApp;->onCreate()V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/notifications/NotificationPollBroadcastReceiver$Companion;->maybeShowLocalNotificationForEditorReactivation(Landroid/content/Context;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/notifications/NotificationPollBroadcastReceiver$Companion;->access$maybeShowLocalNotificationForEditorReactivation(Lorg/wikipedia/notifications/NotificationPollBroadcastReceiver$Companion;Landroid/content/Context;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/notifications/NotificationPollBroadcastReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "----- CONDITIONAL -----",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/descriptions/DescriptionEditFragment;->successRunnable$lambda$3(Lorg/wikipedia/descriptions/DescriptionEditFragment;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/descriptions/DescriptionEditFragment;->$r8$lambda$0B48-JaMotq-E23dqFTolQnwM9I(Lorg/wikipedia/descriptions/DescriptionEditFragment;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/descriptions/DescriptionEditFragment$$ExternalSyntheticLambda5;->run()V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/descriptions/DescriptionEditFragment;-><init>()V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/descriptions/DescriptionEditFragment$Companion;->newInstance(Lorg/wikipedia/page/PageTitle;Ljava/lang/String;Lorg/wikipedia/suggestededits/PageSummaryForEdit;Lorg/wikipedia/suggestededits/PageSummaryForEdit;Lorg/wikipedia/descriptions/DescriptionEditActivity$Action;Lorg/wikipedia/Constants$InvokeSource;)Lorg/wikipedia/descriptions/DescriptionEditFragment; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/descriptions/DescriptionEditActivity;->createFragment()Lorg/wikipedia/descriptions/DescriptionEditFragment; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/descriptions/DescriptionEditActivity;->createFragment()Landroidx/fragment/app/Fragment; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/descriptions/DescriptionEditActivity$Companion;->newIntent(Landroid/content/Context;Lorg/wikipedia/page/PageTitle;Ljava/lang/String;Lorg/wikipedia/suggestededits/PageSummaryForEdit;Lorg/wikipedia/suggestededits/PageSummaryForEdit;Lorg/wikipedia/descriptions/DescriptionEditActivity$Action;Lorg/wikipedia/Constants$InvokeSource;)Landroid/content/Intent; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/page/PageActivity;->onPageRequestEditDescription(Ljava/lang/String;Lorg/wikipedia/page/PageTitle;Lorg/wikipedia/suggestededits/PageSummaryForEdit;Lorg/wikipedia/suggestededits/PageSummaryForEdit;Lorg/wikipedia/descriptions/DescriptionEditActivity$Action;Lorg/wikipedia/Constants$InvokeSource;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/main/MainActivity;->handleIntent(Landroid/content/Intent;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/main/MainActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "----- CONDITIONAL -----"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "intent",
+                    "android.intent.action.BOOT_COMPLETED",
+                    "broadcast -a"
+                ],
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_5": {
+            "call_sequence": [
+                "> Lorg/wikipedia/notifications/NotificationPollBroadcastReceiver$Companion;->showSuggestedEditsLocalNotification(Landroid/content/Context;I)V <",
+                "> Lorg/wikipedia/notifications/NotificationPollBroadcastReceiver$Companion;->maybeShowLocalNotificationForEditorReactivation(Landroid/content/Context;)V <",
+                "> Lorg/wikipedia/notifications/NotificationPollBroadcastReceiver$Companion;->access$maybeShowLocalNotificationForEditorReactivation(Lorg/wikipedia/notifications/NotificationPollBroadcastReceiver$Companion;Landroid/content/Context;)V <",
+                "> Lorg/wikipedia/notifications/NotificationPollBroadcastReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "> Lorg/wikipedia/notifications/NotificationPollBroadcastReceiver$Companion;->getCancelNotificationPendingIntent(Landroid/content/Context;JLjava/lang/String;)Landroid/app/PendingIntent; <",
+                "> Lorg/wikipedia/notifications/NotificationPresenter;->getDefaultBuilder(Landroid/content/Context;JLjava/lang/String;Lorg/wikipedia/notifications/NotificationCategory;)Landroidx/core/app/NotificationCompat$Builder; <",
+                "> Lorg/wikipedia/notifications/NotificationPresenter;->showNotification(Landroid/content/Context;Lorg/wikipedia/notifications/db/Notification;Ljava/lang/String;Ljava/lang/String;)V <",
+                "> Lorg/wikipedia/notifications/NotificationPollBroadcastReceiver$Companion;->onNotificationsComplete(Landroid/content/Context;Ljava/util/List;Ljava/util/Map;Ljava/util/Map;)V <",
+                "> Lorg/wikipedia/notifications/PollNotificationWorker;->retrieveNotifications(Lkotlin/coroutines/Continuation;)Ljava/lang/Object; <",
+                "> Lorg/wikipedia/notifications/PollNotificationWorker$Companion;->schedulePollNotificationJob(Landroid/content/Context;)V <",
+                "> Lorg/wikipedia/login/LoginActivity;->onLoginSuccess()V <",
+                "> Lorg/wikipedia/login/LoginActivity;->access$onLoginSuccess(Lorg/wikipedia/login/LoginActivity;)V <",
+                "> Lorg/wikipedia/login/LoginActivity$LoginCallback;->success(Lorg/wikipedia/login/LoginResult;)V <",
+                "> Lorg/wikipedia/login/LoginActivity;-><init>()V <",
+                "> Lorg/wikipedia/login/LoginActivity$Companion;->newIntent(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent; <",
+                "> Lorg/wikipedia/login/LoginActivity$Companion;->newIntent$default(Lorg/wikipedia/login/LoginActivity$Companion;Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;ILjava/lang/Object;)Landroid/content/Intent; <",
+                "> Lorg/wikipedia/auth/WikimediaAuthenticator;->addAccount(Landroid/accounts/AccountAuthenticatorResponse;)Landroid/os/Bundle; <",
+                "> Lorg/wikipedia/auth/WikimediaAuthenticator;->addAccount(Landroid/accounts/AccountAuthenticatorResponse;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Landroid/os/Bundle;)Landroid/os/Bundle; <",
+                "> Lorg/wikipedia/auth/AuthenticatorService;->onCreate()V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/notifications/NotificationPollBroadcastReceiver$Companion;->maybeShowLocalNotificationForEditorReactivation(Landroid/content/Context;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/notifications/NotificationPollBroadcastReceiver$Companion;->access$maybeShowLocalNotificationForEditorReactivation(Lorg/wikipedia/notifications/NotificationPollBroadcastReceiver$Companion;Landroid/content/Context;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/notifications/NotificationPollBroadcastReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "----- CONDITIONAL -----",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/descriptions/DescriptionEditFragment;->successRunnable$lambda$3(Lorg/wikipedia/descriptions/DescriptionEditFragment;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/descriptions/DescriptionEditFragment;->$r8$lambda$0B48-JaMotq-E23dqFTolQnwM9I(Lorg/wikipedia/descriptions/DescriptionEditFragment;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/descriptions/DescriptionEditFragment$$ExternalSyntheticLambda5;->run()V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/descriptions/DescriptionEditFragment;-><init>()V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/descriptions/DescriptionEditFragment$Companion;->newInstance(Lorg/wikipedia/page/PageTitle;Ljava/lang/String;Lorg/wikipedia/suggestededits/PageSummaryForEdit;Lorg/wikipedia/suggestededits/PageSummaryForEdit;Lorg/wikipedia/descriptions/DescriptionEditActivity$Action;Lorg/wikipedia/Constants$InvokeSource;)Lorg/wikipedia/descriptions/DescriptionEditFragment; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/descriptions/DescriptionEditActivity;->createFragment()Lorg/wikipedia/descriptions/DescriptionEditFragment; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/descriptions/DescriptionEditActivity;->createFragment()Landroidx/fragment/app/Fragment; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/descriptions/DescriptionEditActivity$Companion;->newIntent(Landroid/content/Context;Lorg/wikipedia/page/PageTitle;Ljava/lang/String;Lorg/wikipedia/suggestededits/PageSummaryForEdit;Lorg/wikipedia/suggestededits/PageSummaryForEdit;Lorg/wikipedia/descriptions/DescriptionEditActivity$Action;Lorg/wikipedia/Constants$InvokeSource;)Landroid/content/Intent; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/page/PageActivity;->onPageRequestEditDescription(Ljava/lang/String;Lorg/wikipedia/page/PageTitle;Lorg/wikipedia/suggestededits/PageSummaryForEdit;Lorg/wikipedia/suggestededits/PageSummaryForEdit;Lorg/wikipedia/descriptions/DescriptionEditActivity$Action;Lorg/wikipedia/Constants$InvokeSource;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/main/MainActivity;->handleIntent(Landroid/content/Intent;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/main/MainActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "----- CONDITIONAL -----",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/notifications/PollNotificationWorker;->retrieveNotifications(Lkotlin/coroutines/Continuation;)Ljava/lang/Object; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/notifications/PollNotificationWorker$Companion;->schedulePollNotificationJob(Landroid/content/Context;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/notifications/NotificationPollBroadcastReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/notifications/PollNotificationWorker;->retrieveNotifications(Lkotlin/coroutines/Continuation;)Ljava/lang/Object; <",
+                "----- CONDITIONAL -----",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/notifications/PollNotificationWorker;->retrieveNotifications(Lkotlin/coroutines/Continuation;)Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    ".notifications.NotificationPollBroadcastReceiver.ACTION_POLL",
+                    "broadcast -a"
+                ],
+                [
+                    "main activity"
+                ],
+                [
+                    "intent",
+                    "android.intent.action.BOOT_COMPLETED",
+                    "broadcast -a"
+                ],
+                [
+                    "intent",
+                    "android.accounts.AccountAuthenticator",
+                    "start-service -a"
+                ]
+            ]
+        },
+        "path_6": {
+            "call_sequence": [
+                "> Lorg/wikipedia/notifications/NotificationPollBroadcastReceiver$Companion;->showSuggestedEditsLocalNotification(Landroid/content/Context;I)V <",
+                "> Lorg/wikipedia/notifications/NotificationPollBroadcastReceiver$Companion;->maybeShowLocalNotificationForEditorReactivation(Landroid/content/Context;)V <",
+                "> Lorg/wikipedia/notifications/NotificationPollBroadcastReceiver$Companion;->access$maybeShowLocalNotificationForEditorReactivation(Lorg/wikipedia/notifications/NotificationPollBroadcastReceiver$Companion;Landroid/content/Context;)V <",
+                "> Lorg/wikipedia/notifications/NotificationPollBroadcastReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/notifications/NotificationPollBroadcastReceiver$Companion;->maybeShowLocalNotificationForEditorReactivation(Landroid/content/Context;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/notifications/NotificationPollBroadcastReceiver$Companion;->access$maybeShowLocalNotificationForEditorReactivation(Lorg/wikipedia/notifications/NotificationPollBroadcastReceiver$Companion;Landroid/content/Context;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/notifications/NotificationPollBroadcastReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "----- CONDITIONAL -----",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/descriptions/DescriptionEditFragment;->successRunnable$lambda$3(Lorg/wikipedia/descriptions/DescriptionEditFragment;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/descriptions/DescriptionEditFragment;->$r8$lambda$0B48-JaMotq-E23dqFTolQnwM9I(Lorg/wikipedia/descriptions/DescriptionEditFragment;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/descriptions/DescriptionEditFragment$$ExternalSyntheticLambda5;->run()V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/descriptions/DescriptionEditFragment;-><init>()V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/descriptions/DescriptionEditFragment$Companion;->newInstance(Lorg/wikipedia/page/PageTitle;Ljava/lang/String;Lorg/wikipedia/suggestededits/PageSummaryForEdit;Lorg/wikipedia/suggestededits/PageSummaryForEdit;Lorg/wikipedia/descriptions/DescriptionEditActivity$Action;Lorg/wikipedia/Constants$InvokeSource;)Lorg/wikipedia/descriptions/DescriptionEditFragment; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/descriptions/DescriptionEditActivity;->createFragment()Lorg/wikipedia/descriptions/DescriptionEditFragment; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/descriptions/DescriptionEditActivity;->createFragment()Landroidx/fragment/app/Fragment; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/descriptions/DescriptionEditActivity$Companion;->newIntent(Landroid/content/Context;Lorg/wikipedia/page/PageTitle;Ljava/lang/String;Lorg/wikipedia/suggestededits/PageSummaryForEdit;Lorg/wikipedia/suggestededits/PageSummaryForEdit;Lorg/wikipedia/descriptions/DescriptionEditActivity$Action;Lorg/wikipedia/Constants$InvokeSource;)Landroid/content/Intent; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/page/PageActivity;->onPageRequestEditDescription(Ljava/lang/String;Lorg/wikipedia/page/PageTitle;Lorg/wikipedia/suggestededits/PageSummaryForEdit;Lorg/wikipedia/suggestededits/PageSummaryForEdit;Lorg/wikipedia/descriptions/DescriptionEditActivity$Action;Lorg/wikipedia/Constants$InvokeSource;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/main/MainActivity;->handleIntent(Landroid/content/Intent;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/main/MainActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "----- CONDITIONAL -----"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "intent",
+                    "android.intent.action.BOOT_COMPLETED",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_7": {
+            "call_sequence": [
+                "> Lorg/wikipedia/notifications/NotificationPollBroadcastReceiver$Companion;->showSuggestedEditsLocalNotification(Landroid/content/Context;I)V <",
+                "> Lorg/wikipedia/notifications/NotificationPollBroadcastReceiver$Companion;->maybeShowLocalNotificationForEditorReactivation(Landroid/content/Context;)V <",
+                "> Lorg/wikipedia/notifications/NotificationPollBroadcastReceiver$Companion;->access$maybeShowLocalNotificationForEditorReactivation(Lorg/wikipedia/notifications/NotificationPollBroadcastReceiver$Companion;Landroid/content/Context;)V <",
+                "> Lorg/wikipedia/notifications/NotificationPollBroadcastReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "> Lorg/wikipedia/notifications/NotificationPollBroadcastReceiver$Companion;->getCancelNotificationPendingIntent(Landroid/content/Context;JLjava/lang/String;)Landroid/app/PendingIntent; <",
+                "> Lorg/wikipedia/notifications/NotificationPresenter;->getDefaultBuilder(Landroid/content/Context;JLjava/lang/String;Lorg/wikipedia/notifications/NotificationCategory;)Landroidx/core/app/NotificationCompat$Builder; <",
+                "> Lorg/wikipedia/notifications/NotificationPresenter;->showNotification(Landroid/content/Context;Lorg/wikipedia/notifications/db/Notification;Ljava/lang/String;Ljava/lang/String;)V <",
+                "> Lorg/wikipedia/notifications/NotificationPollBroadcastReceiver$Companion;->onNotificationsComplete(Landroid/content/Context;Ljava/util/List;Ljava/util/Map;Ljava/util/Map;)V <",
+                "> Lorg/wikipedia/notifications/PollNotificationWorker;->retrieveNotifications(Lkotlin/coroutines/Continuation;)Ljava/lang/Object; <",
+                "> Lorg/wikipedia/notifications/PollNotificationWorker$Companion;->schedulePollNotificationJob(Landroid/content/Context;)V <",
+                "> Lorg/wikipedia/page/PageFragment;->loadPage(Lorg/wikipedia/page/PageTitle;Lorg/wikipedia/history/HistoryEntry;ZIZ)V <",
+                "> Lorg/wikipedia/page/PageFragment;->loadPage(Lorg/wikipedia/page/PageTitle;Lorg/wikipedia/history/HistoryEntry;ZZZ)V <",
+                "> Lorg/wikipedia/page/PageActivity;->requestEditSectionLauncher$lambda$3(Lorg/wikipedia/page/PageActivity;Landroidx/activity/result/ActivityResult;)V <",
+                "> Lorg/wikipedia/page/PageActivity;->$r8$lambda$rg9FNQz-t8MXlibQkHNhM1Xw2g4(Lorg/wikipedia/page/PageActivity;Landroidx/activity/result/ActivityResult;)V <",
+                "> Lorg/wikipedia/page/PageActivity$$ExternalSyntheticLambda13;->onActivityResult(Ljava/lang/Object;)V <",
+                "> Lorg/wikipedia/page/PageActivity;-><init>()V <",
+                "> Lorg/wikipedia/widgets/WidgetProviderFeaturedPage$onUpdate$1;->onFeaturedArticleReceived(Lorg/wikipedia/page/PageTitle;Ljava/lang/CharSequence;)V <",
+                "> Lorg/wikipedia/widgets/WidgetProviderFeaturedPage;->onUpdate(Landroid/content/Context;Landroid/appwidget/AppWidgetManager;[I)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/notifications/NotificationPollBroadcastReceiver$Companion;->maybeShowLocalNotificationForEditorReactivation(Landroid/content/Context;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/notifications/NotificationPollBroadcastReceiver$Companion;->access$maybeShowLocalNotificationForEditorReactivation(Lorg/wikipedia/notifications/NotificationPollBroadcastReceiver$Companion;Landroid/content/Context;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/notifications/NotificationPollBroadcastReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "----- CONDITIONAL -----",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/descriptions/DescriptionEditFragment;->successRunnable$lambda$3(Lorg/wikipedia/descriptions/DescriptionEditFragment;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/descriptions/DescriptionEditFragment;->$r8$lambda$0B48-JaMotq-E23dqFTolQnwM9I(Lorg/wikipedia/descriptions/DescriptionEditFragment;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/descriptions/DescriptionEditFragment$$ExternalSyntheticLambda5;->run()V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/descriptions/DescriptionEditFragment;-><init>()V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/descriptions/DescriptionEditFragment$Companion;->newInstance(Lorg/wikipedia/page/PageTitle;Ljava/lang/String;Lorg/wikipedia/suggestededits/PageSummaryForEdit;Lorg/wikipedia/suggestededits/PageSummaryForEdit;Lorg/wikipedia/descriptions/DescriptionEditActivity$Action;Lorg/wikipedia/Constants$InvokeSource;)Lorg/wikipedia/descriptions/DescriptionEditFragment; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/descriptions/DescriptionEditActivity;->createFragment()Lorg/wikipedia/descriptions/DescriptionEditFragment; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/descriptions/DescriptionEditActivity;->createFragment()Landroidx/fragment/app/Fragment; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/descriptions/DescriptionEditActivity$Companion;->newIntent(Landroid/content/Context;Lorg/wikipedia/page/PageTitle;Ljava/lang/String;Lorg/wikipedia/suggestededits/PageSummaryForEdit;Lorg/wikipedia/suggestededits/PageSummaryForEdit;Lorg/wikipedia/descriptions/DescriptionEditActivity$Action;Lorg/wikipedia/Constants$InvokeSource;)Landroid/content/Intent; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/page/PageActivity;->onPageRequestEditDescription(Ljava/lang/String;Lorg/wikipedia/page/PageTitle;Lorg/wikipedia/suggestededits/PageSummaryForEdit;Lorg/wikipedia/suggestededits/PageSummaryForEdit;Lorg/wikipedia/descriptions/DescriptionEditActivity$Action;Lorg/wikipedia/Constants$InvokeSource;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/main/MainActivity;->handleIntent(Landroid/content/Intent;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/main/MainActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "----- CONDITIONAL -----",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/notifications/PollNotificationWorker;->retrieveNotifications(Lkotlin/coroutines/Continuation;)Ljava/lang/Object; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/notifications/PollNotificationWorker$Companion;->schedulePollNotificationJob(Landroid/content/Context;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/notifications/NotificationPollBroadcastReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/notifications/PollNotificationWorker;->retrieveNotifications(Lkotlin/coroutines/Continuation;)Ljava/lang/Object; <",
+                "----- CONDITIONAL -----",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/notifications/PollNotificationWorker;->retrieveNotifications(Lkotlin/coroutines/Continuation;)Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    ".notifications.NotificationPollBroadcastReceiver.ACTION_POLL",
+                    "broadcast -a"
+                ],
+                [
+                    "main activity"
+                ],
+                [
+                    "intent",
+                    "android.intent.action.BOOT_COMPLETED",
+                    "broadcast -a"
+                ],
+                [
+                    "intent",
+                    "android.appwidget.action.APPWIDGET_UPDATE",
+                    "start -a"
+                ]
+            ]
+        }
+    },
+    "Lorg/wikipedia/page/PageFragment;->goToMainTab()V": {
+        "path_8": {
+            "call_sequence": [
+                "> Lorg/wikipedia/page/PageFragment;->goToMainTab()V <",
+                "> Lorg/wikipedia/page/PageActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lorg/wikipedia/main/MainActivity;->handleIntent(Landroid/content/Intent;)V <",
+                "> Lorg/wikipedia/main/MainActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_9": {
+            "call_sequence": [
+                "> Lorg/wikipedia/page/PageFragment;->goToMainTab()V <",
+                "> Lorg/wikipedia/page/PageActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lorg/wikipedia/page/PageActivity$Companion;->newIntentForNewTab(Landroid/content/Context;Lorg/wikipedia/history/HistoryEntry;Lorg/wikipedia/page/PageTitle;)Landroid/content/Intent; <",
+                "> Lorg/wikipedia/talk/TalkTopicsActivity;->goToPage()V <",
+                "> Lorg/wikipedia/talk/TalkTopicsActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lorg/wikipedia/talk/TalkTopicsActivity$Companion;->newIntent(Landroid/content/Context;Lorg/wikipedia/page/PageTitle;Lorg/wikipedia/Constants$InvokeSource;)Landroid/content/Intent; <",
+                "> Lorg/wikipedia/notifications/NotificationPresenter;->showNotification(Landroid/content/Context;Lorg/wikipedia/notifications/db/Notification;Ljava/lang/String;Ljava/lang/String;)V <",
+                "> Lorg/wikipedia/notifications/NotificationPollBroadcastReceiver$Companion;->onNotificationsComplete(Landroid/content/Context;Ljava/util/List;Ljava/util/Map;Ljava/util/Map;)V <",
+                "> Lorg/wikipedia/notifications/PollNotificationWorker;->retrieveNotifications(Lkotlin/coroutines/Continuation;)Ljava/lang/Object; <",
+                "> Lorg/wikipedia/notifications/PollNotificationWorker$Companion;->schedulePollNotificationJob(Landroid/content/Context;)V <",
+                "> Lorg/wikipedia/login/LoginActivity;->onLoginSuccess()V <",
+                "> Lorg/wikipedia/login/LoginActivity;->access$onLoginSuccess(Lorg/wikipedia/login/LoginActivity;)V <",
+                "> Lorg/wikipedia/login/LoginActivity$LoginCallback;->success(Lorg/wikipedia/login/LoginResult;)V <",
+                "> Lorg/wikipedia/login/LoginActivity;-><init>()V <",
+                "> Lorg/wikipedia/login/LoginActivity$Companion;->newIntent(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent; <",
+                "> Lorg/wikipedia/login/LoginActivity$Companion;->newIntent$default(Lorg/wikipedia/login/LoginActivity$Companion;Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;ILjava/lang/Object;)Landroid/content/Intent; <",
+                "> Lorg/wikipedia/auth/WikimediaAuthenticator;->addAccount(Landroid/accounts/AccountAuthenticatorResponse;)Landroid/os/Bundle; <",
+                "> Lorg/wikipedia/auth/WikimediaAuthenticator;->addAccount(Landroid/accounts/AccountAuthenticatorResponse;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Landroid/os/Bundle;)Landroid/os/Bundle; <",
+                "> Lorg/wikipedia/auth/AuthenticatorService;->onCreate()V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/notifications/PollNotificationWorker;->retrieveNotifications(Lkotlin/coroutines/Continuation;)Ljava/lang/Object; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/notifications/PollNotificationWorker$Companion;->schedulePollNotificationJob(Landroid/content/Context;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/notifications/NotificationPollBroadcastReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "----- CONDITIONAL -----",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/notifications/PollNotificationWorker;->retrieveNotifications(Lkotlin/coroutines/Continuation;)Ljava/lang/Object; <",
+                "----- CONDITIONAL -----",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/notifications/PollNotificationWorker;->retrieveNotifications(Lkotlin/coroutines/Continuation;)Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    ".notifications.NotificationPollBroadcastReceiver.ACTION_POLL",
+                    "broadcast -a"
+                ],
+                [
+                    "intent",
+                    "android.intent.action.BOOT_COMPLETED",
+                    "broadcast -a"
+                ],
+                [
+                    "intent",
+                    "android.accounts.AccountAuthenticator",
+                    "start-service -a"
+                ]
+            ]
+        },
+        "path_10": {
+            "call_sequence": [
+                "> Lorg/wikipedia/page/PageFragment;->goToMainTab()V <",
+                "> Lorg/wikipedia/page/PageActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lorg/wikipedia/page/PageActivity$Companion;->newIntentForNewTab(Landroid/content/Context;Lorg/wikipedia/history/HistoryEntry;Lorg/wikipedia/page/PageTitle;)Landroid/content/Intent; <",
+                "> Lorg/wikipedia/talk/TalkTopicsActivity;->goToPage()V <",
+                "> Lorg/wikipedia/talk/TalkTopicsActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lorg/wikipedia/talk/TalkTopicsActivity$Companion;->newIntent(Landroid/content/Context;Lorg/wikipedia/page/PageTitle;Lorg/wikipedia/Constants$InvokeSource;)Landroid/content/Intent; <",
+                "> Lorg/wikipedia/notifications/NotificationPresenter;->showNotification(Landroid/content/Context;Lorg/wikipedia/notifications/db/Notification;Ljava/lang/String;Ljava/lang/String;)V <",
+                "> Lorg/wikipedia/notifications/NotificationPollBroadcastReceiver$Companion;->onNotificationsComplete(Landroid/content/Context;Ljava/util/List;Ljava/util/Map;Ljava/util/Map;)V <",
+                "> Lorg/wikipedia/notifications/PollNotificationWorker;->retrieveNotifications(Lkotlin/coroutines/Continuation;)Ljava/lang/Object; <",
+                "> Lorg/wikipedia/notifications/PollNotificationWorker$Companion;->schedulePollNotificationJob(Landroid/content/Context;)V <",
+                "> Lorg/wikipedia/notifications/NotificationPollBroadcastReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/notifications/PollNotificationWorker;->retrieveNotifications(Lkotlin/coroutines/Continuation;)Ljava/lang/Object; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/notifications/PollNotificationWorker$Companion;->schedulePollNotificationJob(Landroid/content/Context;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/notifications/NotificationPollBroadcastReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "----- CONDITIONAL -----",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/notifications/PollNotificationWorker;->retrieveNotifications(Lkotlin/coroutines/Continuation;)Ljava/lang/Object; <",
+                "----- CONDITIONAL -----",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/notifications/PollNotificationWorker;->retrieveNotifications(Lkotlin/coroutines/Continuation;)Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    ".notifications.NotificationPollBroadcastReceiver.ACTION_POLL",
+                    "broadcast -a"
+                ],
+                [
+                    "intent",
+                    "android.intent.action.BOOT_COMPLETED",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_11": {
+            "call_sequence": [
+                "> Lorg/wikipedia/page/PageFragment;->goToMainTab()V <",
+                "> Lorg/wikipedia/page/PageActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lorg/wikipedia/widgets/WidgetProviderFeaturedPage$onUpdate$1;->onFeaturedArticleReceived(Lorg/wikipedia/page/PageTitle;Ljava/lang/CharSequence;)V <",
+                "> Lorg/wikipedia/widgets/WidgetProviderFeaturedPage;->onUpdate(Landroid/content/Context;Landroid/appwidget/AppWidgetManager;[I)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.appwidget.action.APPWIDGET_UPDATE",
+                    "start -a"
+                ]
+            ]
+        }
+    },
+    "Lorg/wikipedia/page/tabs/TabActivity;->goToMainTab()V": {
+        "path_12": {
+            "call_sequence": [
+                "> Lorg/wikipedia/page/tabs/TabActivity;->goToMainTab()V <",
+                "> Lorg/wikipedia/page/tabs/TabActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lorg/wikipedia/page/tabs/TabActivity$Companion;->newIntentFromPageActivity(Landroid/content/Context;)Landroid/content/Intent; <",
+                "> Lorg/wikipedia/page/PageActivity;->onCreate$lambda$16(Lorg/wikipedia/page/PageActivity;Landroid/view/View;)V <",
+                "> Lorg/wikipedia/page/PageActivity;->$r8$lambda$1nOId2iELUoAJGGxHYoCd03dOZ4(Lorg/wikipedia/page/PageActivity;Landroid/view/View;)V <",
+                "> Lorg/wikipedia/page/PageActivity$$ExternalSyntheticLambda4;->onClick(Landroid/view/View;)V <",
+                "> Lorg/wikipedia/page/PageActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/wikipedia/main/MainActivity;->handleIntent(Landroid/content/Intent;)V <",
+                "> Lorg/wikipedia/main/MainActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_13": {
+            "call_sequence": [
+                "> Lorg/wikipedia/page/tabs/TabActivity;->goToMainTab()V <",
+                "> Lorg/wikipedia/page/tabs/TabActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lorg/wikipedia/page/tabs/TabActivity$Companion;->newIntentFromPageActivity(Landroid/content/Context;)Landroid/content/Intent; <",
+                "> Lorg/wikipedia/page/PageActivity;->onCreate$lambda$16(Lorg/wikipedia/page/PageActivity;Landroid/view/View;)V <",
+                "> Lorg/wikipedia/page/PageActivity;->$r8$lambda$1nOId2iELUoAJGGxHYoCd03dOZ4(Lorg/wikipedia/page/PageActivity;Landroid/view/View;)V <",
+                "> Lorg/wikipedia/page/PageActivity$$ExternalSyntheticLambda4;->onClick(Landroid/view/View;)V <",
+                "> Lorg/wikipedia/page/PageActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/wikipedia/page/PageActivity$Companion;->newIntentForNewTab(Landroid/content/Context;Lorg/wikipedia/history/HistoryEntry;Lorg/wikipedia/page/PageTitle;)Landroid/content/Intent; <",
+                "> Lorg/wikipedia/talk/TalkTopicsActivity;->goToPage()V <",
+                "> Lorg/wikipedia/talk/TalkTopicsActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lorg/wikipedia/talk/TalkTopicsActivity$Companion;->newIntent(Landroid/content/Context;Lorg/wikipedia/page/PageTitle;Lorg/wikipedia/Constants$InvokeSource;)Landroid/content/Intent; <",
+                "> Lorg/wikipedia/notifications/NotificationPresenter;->showNotification(Landroid/content/Context;Lorg/wikipedia/notifications/db/Notification;Ljava/lang/String;Ljava/lang/String;)V <",
+                "> Lorg/wikipedia/notifications/NotificationPollBroadcastReceiver$Companion;->onNotificationsComplete(Landroid/content/Context;Ljava/util/List;Ljava/util/Map;Ljava/util/Map;)V <",
+                "> Lorg/wikipedia/notifications/PollNotificationWorker;->retrieveNotifications(Lkotlin/coroutines/Continuation;)Ljava/lang/Object; <",
+                "> Lorg/wikipedia/notifications/PollNotificationWorker$Companion;->schedulePollNotificationJob(Landroid/content/Context;)V <",
+                "> Lorg/wikipedia/login/LoginActivity;->onLoginSuccess()V <",
+                "> Lorg/wikipedia/login/LoginActivity;->access$onLoginSuccess(Lorg/wikipedia/login/LoginActivity;)V <",
+                "> Lorg/wikipedia/login/LoginActivity$LoginCallback;->success(Lorg/wikipedia/login/LoginResult;)V <",
+                "> Lorg/wikipedia/login/LoginActivity;-><init>()V <",
+                "> Lorg/wikipedia/login/LoginActivity$Companion;->newIntent(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent; <",
+                "> Lorg/wikipedia/login/LoginActivity$Companion;->newIntent$default(Lorg/wikipedia/login/LoginActivity$Companion;Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;ILjava/lang/Object;)Landroid/content/Intent; <",
+                "> Lorg/wikipedia/auth/WikimediaAuthenticator;->addAccount(Landroid/accounts/AccountAuthenticatorResponse;)Landroid/os/Bundle; <",
+                "> Lorg/wikipedia/auth/WikimediaAuthenticator;->addAccount(Landroid/accounts/AccountAuthenticatorResponse;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Landroid/os/Bundle;)Landroid/os/Bundle; <",
+                "> Lorg/wikipedia/auth/AuthenticatorService;->onCreate()V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/notifications/PollNotificationWorker;->retrieveNotifications(Lkotlin/coroutines/Continuation;)Ljava/lang/Object; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/notifications/PollNotificationWorker$Companion;->schedulePollNotificationJob(Landroid/content/Context;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/notifications/NotificationPollBroadcastReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "----- CONDITIONAL -----",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/notifications/PollNotificationWorker;->retrieveNotifications(Lkotlin/coroutines/Continuation;)Ljava/lang/Object; <",
+                "----- CONDITIONAL -----",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/notifications/PollNotificationWorker;->retrieveNotifications(Lkotlin/coroutines/Continuation;)Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    ".notifications.NotificationPollBroadcastReceiver.ACTION_POLL",
+                    "broadcast -a"
+                ],
+                [
+                    "intent",
+                    "android.intent.action.BOOT_COMPLETED",
+                    "broadcast -a"
+                ],
+                [
+                    "intent",
+                    "android.accounts.AccountAuthenticator",
+                    "start-service -a"
+                ]
+            ]
+        },
+        "path_14": {
+            "call_sequence": [
+                "> Lorg/wikipedia/page/tabs/TabActivity;->goToMainTab()V <",
+                "> Lorg/wikipedia/page/tabs/TabActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lorg/wikipedia/page/tabs/TabActivity$Companion;->newIntentFromPageActivity(Landroid/content/Context;)Landroid/content/Intent; <",
+                "> Lorg/wikipedia/page/PageActivity;->onCreate$lambda$16(Lorg/wikipedia/page/PageActivity;Landroid/view/View;)V <",
+                "> Lorg/wikipedia/page/PageActivity;->$r8$lambda$1nOId2iELUoAJGGxHYoCd03dOZ4(Lorg/wikipedia/page/PageActivity;Landroid/view/View;)V <",
+                "> Lorg/wikipedia/page/PageActivity$$ExternalSyntheticLambda4;->onClick(Landroid/view/View;)V <",
+                "> Lorg/wikipedia/page/PageActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/wikipedia/page/PageActivity$Companion;->newIntentForNewTab(Landroid/content/Context;Lorg/wikipedia/history/HistoryEntry;Lorg/wikipedia/page/PageTitle;)Landroid/content/Intent; <",
+                "> Lorg/wikipedia/talk/TalkTopicsActivity;->goToPage()V <",
+                "> Lorg/wikipedia/talk/TalkTopicsActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lorg/wikipedia/talk/TalkTopicsActivity$Companion;->newIntent(Landroid/content/Context;Lorg/wikipedia/page/PageTitle;Lorg/wikipedia/Constants$InvokeSource;)Landroid/content/Intent; <",
+                "> Lorg/wikipedia/notifications/NotificationPresenter;->showNotification(Landroid/content/Context;Lorg/wikipedia/notifications/db/Notification;Ljava/lang/String;Ljava/lang/String;)V <",
+                "> Lorg/wikipedia/notifications/NotificationPollBroadcastReceiver$Companion;->onNotificationsComplete(Landroid/content/Context;Ljava/util/List;Ljava/util/Map;Ljava/util/Map;)V <",
+                "> Lorg/wikipedia/notifications/PollNotificationWorker;->retrieveNotifications(Lkotlin/coroutines/Continuation;)Ljava/lang/Object; <",
+                "> Lorg/wikipedia/notifications/PollNotificationWorker$Companion;->schedulePollNotificationJob(Landroid/content/Context;)V <",
+                "> Lorg/wikipedia/notifications/NotificationPollBroadcastReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/notifications/PollNotificationWorker;->retrieveNotifications(Lkotlin/coroutines/Continuation;)Ljava/lang/Object; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/notifications/PollNotificationWorker$Companion;->schedulePollNotificationJob(Landroid/content/Context;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/notifications/NotificationPollBroadcastReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "----- CONDITIONAL -----",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/notifications/PollNotificationWorker;->retrieveNotifications(Lkotlin/coroutines/Continuation;)Ljava/lang/Object; <",
+                "----- CONDITIONAL -----",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/notifications/PollNotificationWorker;->retrieveNotifications(Lkotlin/coroutines/Continuation;)Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    ".notifications.NotificationPollBroadcastReceiver.ACTION_POLL",
+                    "broadcast -a"
+                ],
+                [
+                    "intent",
+                    "android.intent.action.BOOT_COMPLETED",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_15": {
+            "call_sequence": [
+                "> Lorg/wikipedia/page/tabs/TabActivity;->goToMainTab()V <",
+                "> Lorg/wikipedia/page/tabs/TabActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lorg/wikipedia/page/tabs/TabActivity$Companion;->newIntentFromPageActivity(Landroid/content/Context;)Landroid/content/Intent; <",
+                "> Lorg/wikipedia/page/PageActivity;->onCreate$lambda$16(Lorg/wikipedia/page/PageActivity;Landroid/view/View;)V <",
+                "> Lorg/wikipedia/page/PageActivity;->$r8$lambda$1nOId2iELUoAJGGxHYoCd03dOZ4(Lorg/wikipedia/page/PageActivity;Landroid/view/View;)V <",
+                "> Lorg/wikipedia/page/PageActivity$$ExternalSyntheticLambda4;->onClick(Landroid/view/View;)V <",
+                "> Lorg/wikipedia/page/PageActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/wikipedia/widgets/WidgetProviderFeaturedPage$onUpdate$1;->onFeaturedArticleReceived(Lorg/wikipedia/page/PageTitle;Ljava/lang/CharSequence;)V <",
+                "> Lorg/wikipedia/widgets/WidgetProviderFeaturedPage;->onUpdate(Landroid/content/Context;Landroid/appwidget/AppWidgetManager;[I)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.appwidget.action.APPWIDGET_UPDATE",
+                    "start -a"
+                ]
+            ]
+        }
+    },
+    "Lorg/wikipedia/readinglist/ReadingListFragment;->delete()V": {
+        "path_16": {
+            "call_sequence": [
+                "> Lorg/wikipedia/readinglist/ReadingListFragment;->delete$lambda$33$lambda$32(Lorg/wikipedia/readinglist/ReadingListFragment;Lorg/wikipedia/readinglist/database/ReadingList;)V <",
+                "> Lorg/wikipedia/readinglist/ReadingListFragment;->$r8$lambda$XSMed3hxVdTs1HMIWoZvtM1LS50(Lorg/wikipedia/readinglist/ReadingListFragment;Lorg/wikipedia/readinglist/database/ReadingList;)V <",
+                "> Lorg/wikipedia/readinglist/ReadingListFragment$$ExternalSyntheticLambda4;->onCompleted()V <",
+                "> Lorg/wikipedia/readinglist/ReadingListFragment;->delete()V <",
+                "> Lorg/wikipedia/readinglist/ReadingListFragment;->onMenuItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lorg/wikipedia/readinglist/ReadingListFragment$Companion;->newInstance(J)Lorg/wikipedia/readinglist/ReadingListFragment; <",
+                "> Lorg/wikipedia/readinglist/ReadingListActivity;->createFragment()Lorg/wikipedia/readinglist/ReadingListFragment; <",
+                "> Lorg/wikipedia/readinglist/ReadingListActivity;->createFragment()Landroidx/fragment/app/Fragment; <",
+                "> Lorg/wikipedia/readinglist/ReadingListActivity$Companion;->newIntent(Landroid/content/Context;Lorg/wikipedia/readinglist/database/ReadingList;)Landroid/content/Intent; <",
+                "> Lorg/wikipedia/readinglist/ReadingListsFragment;->maybeShowPreviewSavedReadingListsSnackbar$lambda$27(Lorg/wikipedia/readinglist/ReadingListsFragment;Landroid/view/View;)V <",
+                "> Lorg/wikipedia/readinglist/ReadingListsFragment;->$r8$lambda$jg5vyEQtzbqWuLxoaQz44CcZlZg(Lorg/wikipedia/readinglist/ReadingListsFragment;Landroid/view/View;)V <",
+                "> Lorg/wikipedia/readinglist/ReadingListsFragment$$ExternalSyntheticLambda11;->onClick(Landroid/view/View;)V <",
+                "> Lorg/wikipedia/readinglist/ReadingListsFragment;->maybeShowPreviewSavedReadingListsSnackbar()V <",
+                "> Lorg/wikipedia/readinglist/ReadingListsFragment;->updateLists$lambda$9(Lorg/wikipedia/readinglist/ReadingListsFragment;ZLjava/lang/String;Ljava/util/List;)V <",
+                "> Lorg/wikipedia/readinglist/ReadingListsFragment;->$r8$lambda$bup3lWAGGIXYeXjikz4CmXuC9oU(Lorg/wikipedia/readinglist/ReadingListsFragment;ZLjava/lang/String;Ljava/util/List;)V <",
+                "> Lorg/wikipedia/readinglist/ReadingListsFragment$$ExternalSyntheticLambda0;->onCompleted(Ljava/util/List;)V <",
+                "> Lorg/wikipedia/readinglist/ReadingListsFragment;->updateLists(Ljava/lang/String;Z)V <",
+                "> Lorg/wikipedia/readinglist/ReadingListsFragment;->updateLists()V <",
+                "> Lorg/wikipedia/main/MainFragment;->refreshContents()V <",
+                "> Lorg/wikipedia/main/MainFragment;->onActivityResult(IILandroid/content/Intent;)V <",
+                "> Lorg/wikipedia/main/MainFragment$Companion;->newInstance()Lorg/wikipedia/main/MainFragment; <",
+                "> Lorg/wikipedia/main/MainActivity;->createFragment()Lorg/wikipedia/main/MainFragment; <",
+                "> Lorg/wikipedia/main/MainActivity;->createFragment()Landroidx/fragment/app/Fragment; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/ReadingListsReceiveHelper;->receiveReadingLists(Landroid/content/Context;Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/ReadingListFragment$updateReadingListData$2$1;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/ReadingListFragment$updateReadingListData$2$1;->invoke(Lkotlinx/coroutines/CoroutineScope;Lkotlin/coroutines/Continuation;)Ljava/lang/Object; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/ReadingListFragment$updateReadingListData$2$1;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/ReadingListFragment$updateReadingListData$2;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/ReadingListFragment$updateReadingListData$2;->invoke(Lkotlinx/coroutines/CoroutineScope;Lkotlin/coroutines/Continuation;)Ljava/lang/Object; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/ReadingListFragment$updateReadingListData$2;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/ReadingListFragment;->updateReadingListData()V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/ReadingListFragment;->onResume()V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/ReadingListFragment$Companion;->newInstance(J)Lorg/wikipedia/readinglist/ReadingListFragment; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/ReadingListActivity;->createFragment()Lorg/wikipedia/readinglist/ReadingListFragment; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/ReadingListActivity;->createFragment()Landroidx/fragment/app/Fragment; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/ReadingListActivity$Companion;->newIntent(Landroid/content/Context;Lorg/wikipedia/readinglist/database/ReadingList;)Landroid/content/Intent; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/ReadingListsFragment;->maybeShowPreviewSavedReadingListsSnackbar$lambda$27(Lorg/wikipedia/readinglist/ReadingListsFragment;Landroid/view/View;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/ReadingListsFragment;->$r8$lambda$jg5vyEQtzbqWuLxoaQz44CcZlZg(Lorg/wikipedia/readinglist/ReadingListsFragment;Landroid/view/View;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/ReadingListsFragment$$ExternalSyntheticLambda11;->onClick(Landroid/view/View;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/ReadingListsFragment;->maybeShowPreviewSavedReadingListsSnackbar()V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/ReadingListsFragment;->updateLists$lambda$9(Lorg/wikipedia/readinglist/ReadingListsFragment;ZLjava/lang/String;Ljava/util/List;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/ReadingListsFragment;->$r8$lambda$bup3lWAGGIXYeXjikz4CmXuC9oU(Lorg/wikipedia/readinglist/ReadingListsFragment;ZLjava/lang/String;Ljava/util/List;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/ReadingListsFragment$$ExternalSyntheticLambda0;->onCompleted(Ljava/util/List;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/ReadingListsFragment;->updateLists(Ljava/lang/String;Z)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/ReadingListsFragment;->updateLists()V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/main/MainFragment;->refreshContents()V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/main/MainFragment;->onActivityResult(IILandroid/content/Intent;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/main/MainFragment$Companion;->newInstance()Lorg/wikipedia/main/MainFragment; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/main/MainActivity;->createFragment()Lorg/wikipedia/main/MainFragment; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/main/MainActivity;->createFragment()Landroidx/fragment/app/Fragment; <",
+                "----- CONDITIONAL -----",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/ReadingListsReceiveHelper;->receiveReadingLists(Landroid/content/Context;Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_17": {
+            "call_sequence": [
+                "> Lorg/wikipedia/readinglist/ReadingListFragment;->delete$lambda$33$lambda$32(Lorg/wikipedia/readinglist/ReadingListFragment;Lorg/wikipedia/readinglist/database/ReadingList;)V <",
+                "> Lorg/wikipedia/readinglist/ReadingListFragment;->$r8$lambda$XSMed3hxVdTs1HMIWoZvtM1LS50(Lorg/wikipedia/readinglist/ReadingListFragment;Lorg/wikipedia/readinglist/database/ReadingList;)V <",
+                "> Lorg/wikipedia/readinglist/ReadingListFragment$$ExternalSyntheticLambda4;->onCompleted()V <",
+                "> Lorg/wikipedia/readinglist/ReadingListFragment;->delete()V <",
+                "> Lorg/wikipedia/readinglist/ReadingListFragment;->onMenuItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lorg/wikipedia/readinglist/ReadingListFragment$Companion;->newInstance(J)Lorg/wikipedia/readinglist/ReadingListFragment; <",
+                "> Lorg/wikipedia/readinglist/ReadingListActivity;->createFragment()Lorg/wikipedia/readinglist/ReadingListFragment; <",
+                "> Lorg/wikipedia/readinglist/ReadingListActivity;->createFragment()Landroidx/fragment/app/Fragment; <",
+                "> Lorg/wikipedia/readinglist/ReadingListActivity$Companion;->newIntent(Landroid/content/Context;Lorg/wikipedia/readinglist/database/ReadingList;)Landroid/content/Intent; <",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog;->showViewListSnackBar$lambda$3(Lorg/wikipedia/readinglist/database/ReadingList;Landroid/view/View;)V <",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog;->$r8$lambda$icmgehn1yu18JNpA7h7J4WnOHTQ(Lorg/wikipedia/readinglist/database/ReadingList;Landroid/view/View;)V <",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog$$ExternalSyntheticLambda0;->onClick(Landroid/view/View;)V <",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog;->showViewListSnackBar(Lorg/wikipedia/readinglist/database/ReadingList;Ljava/lang/String;)V <",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog$commitChanges$2;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog$commitChanges$2;->invoke(Lkotlinx/coroutines/CoroutineScope;Lkotlin/coroutines/Continuation;)Ljava/lang/Object; <",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog$commitChanges$2;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog;->commitChanges(Lorg/wikipedia/readinglist/database/ReadingList;Ljava/util/List;)V <",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog;->addAndDismiss(Lorg/wikipedia/readinglist/database/ReadingList;Ljava/util/List;)V <",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog;->access$addAndDismiss(Lorg/wikipedia/readinglist/AddToReadingListDialog;Lorg/wikipedia/readinglist/database/ReadingList;Ljava/util/List;)V <",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog$ReadingListItemCallback;->onClick(Lorg/wikipedia/readinglist/database/ReadingList;)V <",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog;-><init>()V <",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog$Companion;->newInstance(Ljava/util/List;Lorg/wikipedia/Constants$InvokeSource;Landroid/content/DialogInterface$OnDismissListener;)Lorg/wikipedia/readinglist/AddToReadingListDialog; <",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog$Companion;->newInstance(Lorg/wikipedia/page/PageTitle;Lorg/wikipedia/Constants$InvokeSource;Landroid/content/DialogInterface$OnDismissListener;)Lorg/wikipedia/readinglist/AddToReadingListDialog; <",
+                "> Lorg/wikipedia/page/ExclusiveBottomSheetPresenter;->showAddToListDialog(Landroidx/fragment/app/FragmentManager;Lorg/wikipedia/page/PageTitle;Lorg/wikipedia/Constants$InvokeSource;Landroid/content/DialogInterface$OnDismissListener;)V <",
+                "> Lorg/wikipedia/page/PageActivity;->showAddToListDialog(Lorg/wikipedia/page/PageTitle;Lorg/wikipedia/Constants$InvokeSource;)V <",
+                "> Lorg/wikipedia/page/PageActivity;->onPageAddToReadingList(Lorg/wikipedia/page/PageTitle;Lorg/wikipedia/Constants$InvokeSource;)V <",
+                "> Lorg/wikipedia/page/PageActivity$Companion;->newIntentForNewTab(Landroid/content/Context;Lorg/wikipedia/history/HistoryEntry;Lorg/wikipedia/page/PageTitle;)Landroid/content/Intent; <",
+                "> Lorg/wikipedia/talk/TalkTopicsActivity;->goToPage()V <",
+                "> Lorg/wikipedia/talk/TalkTopicsActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lorg/wikipedia/talk/TalkTopicsActivity$Companion;->newIntent(Landroid/content/Context;Lorg/wikipedia/page/PageTitle;Lorg/wikipedia/Constants$InvokeSource;)Landroid/content/Intent; <",
+                "> Lorg/wikipedia/notifications/NotificationPresenter;->showNotification(Landroid/content/Context;Lorg/wikipedia/notifications/db/Notification;Ljava/lang/String;Ljava/lang/String;)V <",
+                "> Lorg/wikipedia/notifications/NotificationPollBroadcastReceiver$Companion;->onNotificationsComplete(Landroid/content/Context;Ljava/util/List;Ljava/util/Map;Ljava/util/Map;)V <",
+                "> Lorg/wikipedia/notifications/PollNotificationWorker;->retrieveNotifications(Lkotlin/coroutines/Continuation;)Ljava/lang/Object; <",
+                "> Lorg/wikipedia/notifications/PollNotificationWorker$Companion;->schedulePollNotificationJob(Landroid/content/Context;)V <",
+                "> Lorg/wikipedia/login/LoginActivity;->onLoginSuccess()V <",
+                "> Lorg/wikipedia/login/LoginActivity;->access$onLoginSuccess(Lorg/wikipedia/login/LoginActivity;)V <",
+                "> Lorg/wikipedia/login/LoginActivity$LoginCallback;->success(Lorg/wikipedia/login/LoginResult;)V <",
+                "> Lorg/wikipedia/login/LoginActivity;-><init>()V <",
+                "> Lorg/wikipedia/login/LoginActivity$Companion;->newIntent(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent; <",
+                "> Lorg/wikipedia/login/LoginActivity$Companion;->newIntent$default(Lorg/wikipedia/login/LoginActivity$Companion;Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;ILjava/lang/Object;)Landroid/content/Intent; <",
+                "> Lorg/wikipedia/auth/WikimediaAuthenticator;->addAccount(Landroid/accounts/AccountAuthenticatorResponse;)Landroid/os/Bundle; <",
+                "> Lorg/wikipedia/auth/WikimediaAuthenticator;->addAccount(Landroid/accounts/AccountAuthenticatorResponse;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Landroid/os/Bundle;)Landroid/os/Bundle; <",
+                "> Lorg/wikipedia/auth/AuthenticatorService;->onCreate()V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/ReadingListsReceiveHelper;->receiveReadingLists(Landroid/content/Context;Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/ReadingListFragment$updateReadingListData$2$1;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/ReadingListFragment$updateReadingListData$2$1;->invoke(Lkotlinx/coroutines/CoroutineScope;Lkotlin/coroutines/Continuation;)Ljava/lang/Object; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/ReadingListFragment$updateReadingListData$2$1;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/ReadingListFragment$updateReadingListData$2;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/ReadingListFragment$updateReadingListData$2;->invoke(Lkotlinx/coroutines/CoroutineScope;Lkotlin/coroutines/Continuation;)Ljava/lang/Object; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/ReadingListFragment$updateReadingListData$2;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/ReadingListFragment;->updateReadingListData()V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/ReadingListFragment;->onResume()V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/ReadingListFragment$Companion;->newInstance(J)Lorg/wikipedia/readinglist/ReadingListFragment; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/ReadingListActivity;->createFragment()Lorg/wikipedia/readinglist/ReadingListFragment; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/ReadingListActivity;->createFragment()Landroidx/fragment/app/Fragment; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/ReadingListActivity$Companion;->newIntent(Landroid/content/Context;Lorg/wikipedia/readinglist/database/ReadingList;)Landroid/content/Intent; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/ReadingListsFragment;->maybeShowPreviewSavedReadingListsSnackbar$lambda$27(Lorg/wikipedia/readinglist/ReadingListsFragment;Landroid/view/View;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/ReadingListsFragment;->$r8$lambda$jg5vyEQtzbqWuLxoaQz44CcZlZg(Lorg/wikipedia/readinglist/ReadingListsFragment;Landroid/view/View;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/ReadingListsFragment$$ExternalSyntheticLambda11;->onClick(Landroid/view/View;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/ReadingListsFragment;->maybeShowPreviewSavedReadingListsSnackbar()V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/ReadingListsFragment;->updateLists$lambda$9(Lorg/wikipedia/readinglist/ReadingListsFragment;ZLjava/lang/String;Ljava/util/List;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/ReadingListsFragment;->$r8$lambda$bup3lWAGGIXYeXjikz4CmXuC9oU(Lorg/wikipedia/readinglist/ReadingListsFragment;ZLjava/lang/String;Ljava/util/List;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/ReadingListsFragment$$ExternalSyntheticLambda0;->onCompleted(Ljava/util/List;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/ReadingListsFragment;->updateLists(Ljava/lang/String;Z)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/ReadingListsFragment;->updateLists()V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/main/MainFragment;->refreshContents()V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/main/MainFragment;->onActivityResult(IILandroid/content/Intent;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/main/MainFragment$Companion;->newInstance()Lorg/wikipedia/main/MainFragment; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/main/MainActivity;->createFragment()Lorg/wikipedia/main/MainFragment; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/main/MainActivity;->createFragment()Landroidx/fragment/app/Fragment; <",
+                "----- CONDITIONAL -----",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/ReadingListsReceiveHelper;->receiveReadingLists(Landroid/content/Context;Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog$commitChanges$2;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog$commitChanges$2;->invoke(Lkotlinx/coroutines/CoroutineScope;Lkotlin/coroutines/Continuation;)Ljava/lang/Object; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog$commitChanges$2;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog;->commitChanges(Lorg/wikipedia/readinglist/database/ReadingList;Ljava/util/List;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog;->addAndDismiss(Lorg/wikipedia/readinglist/database/ReadingList;Ljava/util/List;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog;->access$addAndDismiss(Lorg/wikipedia/readinglist/AddToReadingListDialog;Lorg/wikipedia/readinglist/database/ReadingList;Ljava/util/List;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog$ReadingListItemCallback;->onClick(Lorg/wikipedia/readinglist/database/ReadingList;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog;-><init>()V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog$Companion;->newInstance(Ljava/util/List;Lorg/wikipedia/Constants$InvokeSource;Landroid/content/DialogInterface$OnDismissListener;)Lorg/wikipedia/readinglist/AddToReadingListDialog; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog$Companion;->newInstance(Lorg/wikipedia/page/PageTitle;Lorg/wikipedia/Constants$InvokeSource;Landroid/content/DialogInterface$OnDismissListener;)Lorg/wikipedia/readinglist/AddToReadingListDialog; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/page/ExclusiveBottomSheetPresenter;->showAddToListDialog(Landroidx/fragment/app/FragmentManager;Lorg/wikipedia/page/PageTitle;Lorg/wikipedia/Constants$InvokeSource;Landroid/content/DialogInterface$OnDismissListener;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/page/PageActivity;->showAddToListDialog(Lorg/wikipedia/page/PageTitle;Lorg/wikipedia/Constants$InvokeSource;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/page/PageActivity;->onPageAddToReadingList(Lorg/wikipedia/page/PageTitle;Lorg/wikipedia/Constants$InvokeSource;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/widgets/WidgetProviderFeaturedPage$onUpdate$1;->onFeaturedArticleReceived(Lorg/wikipedia/page/PageTitle;Ljava/lang/CharSequence;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/widgets/WidgetProviderFeaturedPage;->onUpdate(Landroid/content/Context;Landroid/appwidget/AppWidgetManager;[I)V <",
+                "----- CONDITIONAL -----",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog$commitChanges$2;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog$Companion;->newInstance$default(Lorg/wikipedia/readinglist/AddToReadingListDialog$Companion;Lorg/wikipedia/page/PageTitle;Lorg/wikipedia/Constants$InvokeSource;Landroid/content/DialogInterface$OnDismissListener;ILjava/lang/Object;)Lorg/wikipedia/readinglist/AddToReadingListDialog; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/main/MainFragment;->onLinkPreviewAddToList(Lorg/wikipedia/page/PageTitle;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/notifications/PollNotificationWorker;->retrieveNotifications(Lkotlin/coroutines/Continuation;)Ljava/lang/Object; <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/notifications/PollNotificationWorker$Companion;->schedulePollNotificationJob(Landroid/content/Context;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/notifications/NotificationPollBroadcastReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "----- CONDITIONAL -----",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/notifications/PollNotificationWorker;->retrieveNotifications(Lkotlin/coroutines/Continuation;)Ljava/lang/Object; <",
+                "----- CONDITIONAL -----",
+                "----- CONDITIONAL -----",
+                "> Lorg/wikipedia/notifications/PollNotificationWorker;->retrieveNotifications(Lkotlin/coroutines/Continuation;)Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    ".notifications.NotificationPollBroadcastReceiver.ACTION_POLL",
+                    "broadcast -a"
+                ],
+                [
+                    "intent",
+                    "android.intent.action.BOOT_COMPLETED",
+                    "broadcast -a"
+                ],
+                [
+                    "intent",
+                    "android.appwidget.action.APPWIDGET_UPDATE",
+                    "start -a"
+                ],
+                [
+                    "main activity"
+                ],
+                [
+                    "intent",
+                    "android.accounts.AccountAuthenticator",
+                    "start-service -a"
+                ]
+            ]
+        },
+        "path_18": {
+            "call_sequence": [
+                "> Lorg/wikipedia/readinglist/ReadingListFragment;->delete$lambda$33$lambda$32(Lorg/wikipedia/readinglist/ReadingListFragment;Lorg/wikipedia/readinglist/database/ReadingList;)V <",
+                "> Lorg/wikipedia/readinglist/ReadingListFragment;->$r8$lambda$XSMed3hxVdTs1HMIWoZvtM1LS50(Lorg/wikipedia/readinglist/ReadingListFragment;Lorg/wikipedia/readinglist/database/ReadingList;)V <",
+                "> Lorg/wikipedia/readinglist/ReadingListFragment$$ExternalSyntheticLambda4;->onCompleted()V <",
+                "> Lorg/wikipedia/readinglist/ReadingListFragment;->delete()V <",
+                "> Lorg/wikipedia/readinglist/ReadingListFragment;->onMenuItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lorg/wikipedia/readinglist/ReadingListFragment$Companion;->newInstance(J)Lorg/wikipedia/readinglist/ReadingListFragment; <",
+                "> Lorg/wikipedia/readinglist/ReadingListActivity;->createFragment()Lorg/wikipedia/readinglist/ReadingListFragment; <",
+                "> Lorg/wikipedia/readinglist/ReadingListActivity;->createFragment()Landroidx/fragment/app/Fragment; <",
+                "> Lorg/wikipedia/readinglist/ReadingListActivity$Companion;->newIntent(Landroid/content/Context;Lorg/wikipedia/readinglist/database/ReadingList;)Landroid/content/Intent; <",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog;->showViewListSnackBar$lambda$3(Lorg/wikipedia/readinglist/database/ReadingList;Landroid/view/View;)V <",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog;->$r8$lambda$icmgehn1yu18JNpA7h7J4WnOHTQ(Lorg/wikipedia/readinglist/database/ReadingList;Landroid/view/View;)V <",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog$$ExternalSyntheticLambda0;->onClick(Landroid/view/View;)V <",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog;->showViewListSnackBar(Lorg/wikipedia/readinglist/database/ReadingList;Ljava/lang/String;)V <",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog$commitChanges$2;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog$commitChanges$2;->invoke(Lkotlinx/coroutines/CoroutineScope;Lkotlin/coroutines/Continuation;)Ljava/lang/Object; <",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog$commitChanges$2;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog;->commitChanges(Lorg/wikipedia/readinglist/database/ReadingList;Ljava/util/List;)V <",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog;->addAndDismiss(Lorg/wikipedia/readinglist/database/ReadingList;Ljava/util/List;)V <",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog;->access$addAndDismiss(Lorg/wikipedia/readinglist/AddToReadingListDialog;Lorg/wikipedia/readinglist/database/ReadingList;Ljava/util/List;)V <",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog$ReadingListItemCallback;->onClick(Lorg/wikipedia/readinglist/database/ReadingList;)V <",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog;-><init>()V <",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog$Companion;->newInstance(Ljava/util/List;Lorg/wikipedia/Constants$InvokeSource;Landroid/content/DialogInterface$OnDismissListener;)Lorg/wikipedia/readinglist/AddToReadingListDialog; <",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog$Companion;->newInstance(Lorg/wikipedia/page/PageTitle;Lorg/wikipedia/Constants$InvokeSource;Landroid/content/DialogInterface$OnDismissListener;)Lorg/wikipedia/readinglist/AddToReadingListDialog; <",
+                "> Lorg/wikipedia/page/ExclusiveBottomSheetPresenter;->showAddToListDialog(Landroidx/fragment/app/FragmentManager;Lorg/wikipedia/page/PageTitle;Lorg/wikipedia/Constants$InvokeSource;Landroid/content/DialogInterface$OnDismissListener;)V <",
+                "> Lorg/wikipedia/page/PageActivity;->showAddToListDialog(Lorg/wikipedia/page/PageTitle;Lorg/wikipedia/Constants$InvokeSource;)V <",
+                "> Lorg/wikipedia/page/PageActivity;->onLinkPreviewAddToList(Lorg/wikipedia/page/PageTitle;)V <",
+                "> Lorg/wikipedia/page/PageActivity$Companion;->newIntentForNewTab(Landroid/content/Context;Lorg/wikipedia/history/HistoryEntry;Lorg/wikipedia/page/PageTitle;)Landroid/content/Intent; <",
+                "> Lorg/wikipedia/talk/TalkTopicsActivity;->goToPage()V <",
+                "> Lorg/wikipedia/talk/TalkTopicsActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lorg/wikipedia/talk/TalkTopicsActivity$Companion;->newIntent(Landroid/content/Context;Lorg/wikipedia/page/PageTitle;Lorg/wikipedia/Constants$InvokeSource;)Landroid/content/Intent; <",
+                "> Lorg/wikipedia/notifications/NotificationPresenter;->showNotification(Landroid/content/Context;Lorg/wikipedia/notifications/db/Notification;Ljava/lang/String;Ljava/lang/String;)V <",
+                "> Lorg/wikipedia/notifications/NotificationPollBroadcastReceiver$Companion;->onNotificationsComplete(Landroid/content/Context;Ljava/util/List;Ljava/util/Map;Ljava/util/Map;)V <",
+                "> Lorg/wikipedia/notifications/PollNotificationWorker;->retrieveNotifications(Lkotlin/coroutines/Continuation;)Ljava/lang/Object; <",
+                "> Lorg/wikipedia/notifications/PollNotificationWorker$Companion;->schedulePollNotificationJob(Landroid/content/Context;)V <",
+                "> Lorg/wikipedia/login/LoginActivity;->onLoginSuccess()V <",
+                "> Lorg/wikipedia/login/LoginActivity;->access$onLoginSuccess(Lorg/wikipedia/login/LoginActivity;)V <",
+                "> Lorg/wikipedia/login/LoginActivity$LoginCallback;->success(Lorg/wikipedia/login/LoginResult;)V <",
+                "> Lorg/wikipedia/login/LoginActivity;-><init>()V <",
+                "> Lorg/wikipedia/login/LoginActivity$Companion;->newIntent(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent; <",
+                "> Lorg/wikipedia/login/LoginActivity$Companion;->newIntent$default(Lorg/wikipedia/login/LoginActivity$Companion;Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;ILjava/lang/Object;)Landroid/content/Intent; <",
+                "> Lorg/wikipedia/auth/WikimediaAuthenticator;->addAccount(Landroid/accounts/AccountAuthenticatorResponse;)Landroid/os/Bundle; <",
+                "> Lorg/wikipedia/auth/WikimediaAuthenticator;->addAccount(Landroid/accounts/AccountAuthenticatorResponse;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Landroid/os/Bundle;)Landroid/os/Bundle; <",
+                "> Lorg/wikipedia/auth/AuthenticatorService;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.accounts.AccountAuthenticator",
+                    "start-service -a"
+                ]
+            ]
+        },
+        "path_19": {
+            "call_sequence": [
+                "> Lorg/wikipedia/readinglist/ReadingListFragment;->delete$lambda$33$lambda$32(Lorg/wikipedia/readinglist/ReadingListFragment;Lorg/wikipedia/readinglist/database/ReadingList;)V <",
+                "> Lorg/wikipedia/readinglist/ReadingListFragment;->$r8$lambda$XSMed3hxVdTs1HMIWoZvtM1LS50(Lorg/wikipedia/readinglist/ReadingListFragment;Lorg/wikipedia/readinglist/database/ReadingList;)V <",
+                "> Lorg/wikipedia/readinglist/ReadingListFragment$$ExternalSyntheticLambda4;->onCompleted()V <",
+                "> Lorg/wikipedia/readinglist/ReadingListFragment;->delete()V <",
+                "> Lorg/wikipedia/readinglist/ReadingListFragment;->onMenuItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lorg/wikipedia/readinglist/ReadingListFragment$Companion;->newInstance(J)Lorg/wikipedia/readinglist/ReadingListFragment; <",
+                "> Lorg/wikipedia/readinglist/ReadingListActivity;->createFragment()Lorg/wikipedia/readinglist/ReadingListFragment; <",
+                "> Lorg/wikipedia/readinglist/ReadingListActivity;->createFragment()Landroidx/fragment/app/Fragment; <",
+                "> Lorg/wikipedia/readinglist/ReadingListActivity$Companion;->newIntent(Landroid/content/Context;Lorg/wikipedia/readinglist/database/ReadingList;)Landroid/content/Intent; <",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog;->showViewListSnackBar$lambda$3(Lorg/wikipedia/readinglist/database/ReadingList;Landroid/view/View;)V <",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog;->$r8$lambda$icmgehn1yu18JNpA7h7J4WnOHTQ(Lorg/wikipedia/readinglist/database/ReadingList;Landroid/view/View;)V <",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog$$ExternalSyntheticLambda0;->onClick(Landroid/view/View;)V <",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog;->showViewListSnackBar(Lorg/wikipedia/readinglist/database/ReadingList;Ljava/lang/String;)V <",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog$commitChanges$2;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog$commitChanges$2;->invoke(Lkotlinx/coroutines/CoroutineScope;Lkotlin/coroutines/Continuation;)Ljava/lang/Object; <",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog$commitChanges$2;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog;->commitChanges(Lorg/wikipedia/readinglist/database/ReadingList;Ljava/util/List;)V <",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog;->addAndDismiss(Lorg/wikipedia/readinglist/database/ReadingList;Ljava/util/List;)V <",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog;->access$addAndDismiss(Lorg/wikipedia/readinglist/AddToReadingListDialog;Lorg/wikipedia/readinglist/database/ReadingList;Ljava/util/List;)V <",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog$ReadingListItemCallback;->onClick(Lorg/wikipedia/readinglist/database/ReadingList;)V <",
+                "> Lorg/wikipedia/readinglist/AddToReadingListDialog;-><init>()V <",
+                "> Lorg/wikipedia/readinglist/MoveToReadingListDialog;-><init>()V <",
+                "> Lorg/wikipedia/readinglist/MoveToReadingListDialog$Companion;->newInstance(JLjava/util/List;Lorg/wikipedia/Constants$InvokeSource;ZLandroid/content/DialogInterface$OnDismissListener;)Lorg/wikipedia/readinglist/MoveToReadingListDialog; <",
+                "> Lorg/wikipedia/page/ExclusiveBottomSheetPresenter;->showMoveToListDialog(Landroidx/fragment/app/FragmentManager;JLorg/wikipedia/page/PageTitle;Lorg/wikipedia/Constants$InvokeSource;ZLandroid/content/DialogInterface$OnDismissListener;)V <",
+                "> Lorg/wikipedia/page/PageActivity;->showMoveToListDialog(JLorg/wikipedia/page/PageTitle;Lorg/wikipedia/Constants$InvokeSource;Z)V <",
+                "> Lorg/wikipedia/page/PageActivity;->onPageMoveToReadingList(JLorg/wikipedia/page/PageTitle;Lorg/wikipedia/Constants$InvokeSource;Z)V <",
+                "> Lorg/wikipedia/page/PageActivity$Companion;->newIntentForNewTab(Landroid/content/Context;Lorg/wikipedia/history/HistoryEntry;Lorg/wikipedia/page/PageTitle;)Landroid/content/Intent; <",
+                "> Lorg/wikipedia/talk/TalkTopicsActivity;->goToPage()V <",
+                "> Lorg/wikipedia/talk/TalkTopicsActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lorg/wikipedia/talk/TalkTopicsActivity$Companion;->newIntent(Landroid/content/Context;Lorg/wikipedia/page/PageTitle;Lorg/wikipedia/Constants$InvokeSource;)Landroid/content/Intent; <",
+                "> Lorg/wikipedia/notifications/NotificationPresenter;->showNotification(Landroid/content/Context;Lorg/wikipedia/notifications/db/Notification;Ljava/lang/String;Ljava/lang/String;)V <",
+                "> Lorg/wikipedia/notifications/NotificationPollBroadcastReceiver$Companion;->onNotificationsComplete(Landroid/content/Context;Ljava/util/List;Ljava/util/Map;Ljava/util/Map;)V <",
+                "> Lorg/wikipedia/notifications/PollNotificationWorker;->retrieveNotifications(Lkotlin/coroutines/Continuation;)Ljava/lang/Object; <",
+                "> Lorg/wikipedia/notifications/PollNotificationWorker$Companion;->schedulePollNotificationJob(Landroid/content/Context;)V <",
+                "> Lorg/wikipedia/login/LoginActivity;->onLoginSuccess()V <",
+                "> Lorg/wikipedia/login/LoginActivity;->access$onLoginSuccess(Lorg/wikipedia/login/LoginActivity;)V <",
+                "> Lorg/wikipedia/login/LoginActivity$LoginCallback;->success(Lorg/wikipedia/login/LoginResult;)V <",
+                "> Lorg/wikipedia/login/LoginActivity;-><init>()V <",
+                "> Lorg/wikipedia/login/LoginActivity$Companion;->newIntent(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent; <",
+                "> Lorg/wikipedia/login/LoginActivity$Companion;->newIntent$default(Lorg/wikipedia/login/LoginActivity$Companion;Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;ILjava/lang/Object;)Landroid/content/Intent; <",
+                "> Lorg/wikipedia/auth/WikimediaAuthenticator;->addAccount(Landroid/accounts/AccountAuthenticatorResponse;)Landroid/os/Bundle; <",
+                "> Lorg/wikipedia/auth/WikimediaAuthenticator;->addAccount(Landroid/accounts/AccountAuthenticatorResponse;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Landroid/os/Bundle;)Landroid/os/Bundle; <",
+                "> Lorg/wikipedia/auth/AuthenticatorService;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.accounts.AccountAuthenticator",
+                    "start-service -a"
+                ]
+            ]
+        }
+    },
+    "Lorg/wikipedia/main/MainFragment;->maybeShowWatchlistTooltip()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/wikipedia/main/MainFragment$$ExternalSyntheticLambda3;->run()V <",
+                "> Lorg/wikipedia/main/MainFragment;->maybeShowWatchlistTooltip()V <",
+                "> Lorg/wikipedia/main/MainFragment;->onResume()V <",
+                "> Lorg/wikipedia/main/MainFragment$Companion;->newInstance()Lorg/wikipedia/main/MainFragment; <",
+                "> Lorg/wikipedia/main/MainActivity;->createFragment()Lorg/wikipedia/main/MainFragment; <",
+                "> Lorg/wikipedia/main/MainActivity;->createFragment()Landroidx/fragment/app/Fragment; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    }
+}

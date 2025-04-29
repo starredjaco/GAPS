@@ -1,0 +1,48 @@
+MISSING ID > Lcom/evancharlton/mileage/ImportExportActivity$1;->onClick(Landroid/view/View;)V <
+COMPONENT CONCAT > Lcom/evancharlton/mileage/provider/FillUpsProvider;-><clinit>()V < extends Landroid/content/ContentProvider, implements []
+COMPONENT CONCAT > Lcom/evancharlton/mileage/provider/FillUpsProvider;->query(Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor; < extends Landroid/content/ContentProvider, implements []
+COMPONENT CONCAT > Lcom/evancharlton/mileage/provider/FillUpsProvider;->insert(Landroid/net/Uri;Landroid/content/ContentValues;)Landroid/net/Uri; < extends Landroid/content/ContentProvider, implements []
+COMPONENT CONCAT > Lcom/evancharlton/mileage/provider/FillUpsProvider;->delete(Landroid/net/Uri;Ljava/lang/String;[Ljava/lang/String;)I < extends Landroid/content/ContentProvider, implements []
+COMPONENT CONCAT > Lcom/evancharlton/mileage/provider/FillUpsProvider;->update(Landroid/net/Uri;Landroid/content/ContentValues;Ljava/lang/String;[Ljava/lang/String;)I < extends Landroid/content/ContentProvider, implements []
+COMPONENT CONCAT > Lcom/evancharlton/mileage/charts/CostChart;->createChartGenerator()Lcom/evancharlton/mileage/ChartActivity$ChartGenerator; < extends Landroid/app/Activity, implements ['Landroid/content/DialogInterface$OnCancelListener']
+MISSING ID > Lcom/evancharlton/mileage/VehicleStatisticsActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <
+MISSING ID > Lcom/evancharlton/mileage/io/importers/CsvWizardActivity;->onClick(Landroid/view/View;)V <
+COMPONENT CONCAT > Lcom/evancharlton/mileage/provider/Statistics;-><clinit>()V < extends Ljava/lang/Object, implements []
+MISSING ID > Lcom/evancharlton/mileage/FillupInfoActivity;->onClick(Landroid/view/View;)V <
+COMPONENT CONCAT > Lcom/evancharlton/mileage/provider/tables/ServiceIntervalsTable;->getDaoType()Ljava/lang/Class; < extends Ljava/lang/Object, implements []
+MISSING ID > Lcom/evancharlton/mileage/ServiceIntervalsListActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <
+MISSING ID > Lcom/evancharlton/mileage/ServiceIntervalTemplateListActivity;->onClick(Landroid/view/View;)V <
+MISSING ID > Lcom/evancharlton/mileage/ServiceIntervalsListActivity;->onClick(Landroid/view/View;)V <
+MISSING ID > Lcom/evancharlton/mileage/ServiceIntervalTemplateListActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <
+MISSING ID > Lcom/evancharlton/mileage/VehicleListActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <
+COMPONENT CONCAT > Lcom/evancharlton/mileage/provider/Statistic;->toString()Ljava/lang/String; < extends Ljava/lang/Object, implements []
+COMPONENT CONCAT > Lcom/evancharlton/mileage/dao/FillupSeries;->load(Landroid/database/Cursor;)Ljava/util/ArrayList; < extends Ljava/util/ArrayList, implements []
+COMPONENT CONCAT > Lcom/evancharlton/mileage/dao/FillupSeries;->add(Ljava/lang/Object;)Z < extends Ljava/util/ArrayList, implements []
+COMPONENT CONCAT > Lcom/evancharlton/mileage/math/Calculator;->averageEconomy(Lcom/evancharlton/mileage/dao/Vehicle;Lcom/evancharlton/mileage/dao/Fillup;)D < extends Ljava/lang/Object, implements []
+COMPONENT CONCAT > Lcom/evancharlton/mileage/provider/tables/ServiceIntervalsTable;->query(ILandroid/net/Uri;Landroid/database/sqlite/SQLiteQueryBuilder;Landroid/content/Context;[Ljava/lang/String;)Z < extends Ljava/lang/Object, implements []
+COMPONENT CONCAT > Lcom/evancharlton/mileage/provider/tables/FillupsTable;->getDaoType()Ljava/lang/Class; < extends Ljava/lang/Object, implements []
+COMPONENT CONCAT > Lcom/evancharlton/mileage/charts/VolumeChart;->createChartGenerator()Lcom/evancharlton/mileage/ChartActivity$ChartGenerator; < extends Landroid/app/Activity, implements ['Landroid/content/DialogInterface$OnCancelListener']
+COMPONENT CONCAT > Lcom/evancharlton/mileage/charts/DistanceChart;->createChartGenerator()Lcom/evancharlton/mileage/ChartActivity$ChartGenerator; < extends Landroid/app/Activity, implements ['Landroid/content/DialogInterface$OnCancelListener']
+COMPONENT CONCAT > Lcom/evancharlton/mileage/charts/PriceChart;->createChartGenerator()Lcom/evancharlton/mileage/ChartActivity$ChartGenerator; < extends Landroid/app/Activity, implements ['Landroid/content/DialogInterface$OnCancelListener']
+COMPONENT CONCAT > Lcom/evancharlton/mileage/charts/LatitudeChart;->createChartGenerator()Lcom/evancharlton/mileage/ChartActivity$ChartGenerator; < extends Landroid/app/Activity, implements ['Landroid/content/DialogInterface$OnCancelListener']
+COMPONENT CONCAT > Lcom/evancharlton/mileage/charts/FuelEconomyChart;->createChartGenerator()Lcom/evancharlton/mileage/ChartActivity$ChartGenerator; < extends Landroid/app/Activity, implements ['Landroid/content/DialogInterface$OnCancelListener']
+COMPONENT CONCAT > Lcom/evancharlton/mileage/charts/LongitudeChart;->createChartGenerator()Lcom/evancharlton/mileage/ChartActivity$ChartGenerator; < extends Landroid/app/Activity, implements ['Landroid/content/DialogInterface$OnCancelListener']
+COMPONENT CONCAT > Lcom/evancharlton/mileage/provider/tables/VehiclesTable;->getDaoType()Ljava/lang/Class; < extends Ljava/lang/Object, implements []
+COMPONENT CONCAT > Lcom/evancharlton/mileage/provider/tables/ServiceIntervalTemplatesTable;->getDaoType()Ljava/lang/Class; < extends Ljava/lang/Object, implements []
+COMPONENT CONCAT > Lcom/evancharlton/mileage/provider/tables/VehicleTypesTable;->getDaoType()Ljava/lang/Class; < extends Ljava/lang/Object, implements []
+COMPONENT CONCAT > Lcom/evancharlton/mileage/provider/tables/FieldsTable;->getDaoType()Ljava/lang/Class; < extends Ljava/lang/Object, implements []
+COMPONENT CONCAT > Lcom/evancharlton/mileage/provider/tables/CacheTable;->getDaoType()Ljava/lang/Class; < extends Ljava/lang/Object, implements []
+COMPONENT CONCAT > Lcom/evancharlton/mileage/provider/tables/FillupsFieldsTable;->getDaoType()Ljava/lang/Class; < extends Ljava/lang/Object, implements []
+COMPONENT CONCAT > Lcom/evancharlton/mileage/provider/tables/VehiclesTable;->init(Z)[Ljava/lang/String; < extends Ljava/lang/Object, implements []
+COMPONENT CONCAT > Lcom/evancharlton/mileage/provider/tables/FieldsTable;->init(Z)[Ljava/lang/String; < extends Ljava/lang/Object, implements []
+COMPONENT CONCAT > Lcom/evancharlton/mileage/provider/tables/VehicleTypesTable;->init(Z)[Ljava/lang/String; < extends Ljava/lang/Object, implements []
+COMPONENT CONCAT > Lcom/evancharlton/mileage/provider/tables/ServiceIntervalTemplatesTable;->init(Z)[Ljava/lang/String; < extends Ljava/lang/Object, implements []
+MISSING ID > Lcom/evancharlton/mileage/FillupActivity;->onCreateOptionsMenu(Landroid/view/Menu;)Z <
+MISSING ID > Lcom/evancharlton/mileage/BaseFormActivity;->onCreateOptionsMenu(Landroid/view/Menu;)Z <
+MISSING ID > Lcom/evancharlton/mileage/BaseListActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <
+COMPONENT CONCAT > Lcom/evancharlton/mileage/provider/tables/ContentTable$TableBuilder;->toString()Ljava/lang/String; < extends Ljava/lang/Object, implements []
+COMPONENT CONCAT > Lcom/evancharlton/mileage/provider/tables/FillupsFieldsTable;->insert(ILandroid/database/sqlite/SQLiteDatabase;Landroid/content/ContentValues;)J < extends Ljava/lang/Object, implements []
+COMPONENT CONCAT > Lcom/evancharlton/mileage/provider/tables/FillupsFieldsTable;->update(ILandroid/database/sqlite/SQLiteDatabase;Landroid/net/Uri;Landroid/content/ContentValues;Ljava/lang/String;[Ljava/lang/String;)I < extends Ljava/lang/Object, implements []
+COMPONENT CONCAT > Lcom/evancharlton/mileage/provider/tables/FillupsFieldsTable;->query(ILandroid/net/Uri;Landroid/database/sqlite/SQLiteQueryBuilder;Landroid/content/Context;[Ljava/lang/String;)Z < extends Ljava/lang/Object, implements []
+COMPONENT CONCAT > Lcom/evancharlton/mileage/provider/Statistic;->getValue()D < extends Ljava/lang/Object, implements []
+COMPONENT CONCAT > Lcom/evancharlton/mileage/charts/IntervalCostChart;->processCursor(Lcom/evancharlton/mileage/charts/LineChart$LineChartGenerator;Landroid/database/Cursor;Lcom/evancharlton/mileage/dao/Vehicle;)V < extends Landroid/app/Activity, implements ['Landroid/content/DialogInterface$OnCancelListener']

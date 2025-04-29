@@ -1,0 +1,207 @@
+{
+    "Lcom/idrive/photos/android/IDrivePhotosApp;->d()Lxi/a;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/idrive/photos/android/IDrivePhotosApp$e;->s(Ljava/lang/Object;)Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/idrive/photos/android/IDrivePhotosApp$c;->s(Ljava/lang/Object;)Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/idrive/photos/android/IDrivePhotosApp$d;->s(Ljava/lang/Object;)Ljava/lang/Object;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/idrive/photos/android/IDrivePhotosApp$d;->p(Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/idrive/photos/android/IDrivePhotosApp$b;->s(Ljava/lang/Object;)Ljava/lang/Object;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/idrive/photos/android/IDrivePhotosApp$b;->p(Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/idrive/photos/android/IDrivePhotosApp$c$a;->s(Ljava/lang/Object;)Ljava/lang/Object;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/idrive/photos/android/IDrivePhotosApp$c$a;->p(Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/idrive/photos/android/IDrivePhotosApp;->c()Lyg/c;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/idrive/photos/android/IDrivePhotosApp$d;->s(Ljava/lang/Object;)Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/idrive/photos/android/media/worker/NewMediaFetcher$a;->a()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lnh/g;->a()V <",
+                "> Lcom/idrive/photos/android/IDrivePhotosApp;->i(Lq4/o;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lc/i;->run()V <",
+                "> Lc/k;-><init>()V <",
+                "> Ll4/v;-><init>()V <",
+                "> Lh/e;-><init>()V <",
+                "> Luh/b;-><init>()V <",
+                "> Lcom/idrive/photos/android/mediaplayer/MediaPlayerActivity;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.idrive.photos.android/com.idrive.photos.android.mediaplayer.MediaPlayerActivity",
+                    "start -n"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lc/i;->run()V <",
+                "> Lcom/idrive/photos/android/media/worker/NewMediaFetcher;-><init>()V <",
+                "> Lcom/idrive/photos/android/media/worker/NewMediaFetcher$a;->a()V <",
+                "> Lnh/g;->a()V <",
+                "> Lcom/idrive/photos/android/IDrivePhotosApp;->i(Lq4/o;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/idrive/photos/android/internal/helper/network/NetworkMonitor;->isNetworkConnected()Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/idrive/photos/android/user/viewmodels/AuthViewModel;->E()V <",
+                "> Lcom/idrive/photos/android/user/ui/MainActivity;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/idrive/photos/android/user/ui/MainActivity;->e0()Lcom/idrive/photos/android/user/viewmodels/AuthViewModel;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/idrive/photos/android/user/ui/MainActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/idrive/photos/android/user/ui/MainActivity$d;->b()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/idrive/photos/android/user/ui/MainActivity$c;->a(Lz6/l; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/idrive/photos/android/user/ui/MainActivity;->onResume()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/idrive/photos/android/user/data/model/ToolBarUIResources;->getTitleEnabled()Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/idrive/photos/android/user/ui/MainActivity$b;->d(Ljava/lang/Object;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/idrive/photos/android/internal/helper/network/NetworkMonitor;->startNetworkCallback()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/idrive/photos/android/IDrivePhotosApp;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/idrive/photos/android/user/data/model/ToolBarUIResources;->getBackButtonEnabled()Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/idrive/photos/android/user/ui/MainActivity$b;->d(Ljava/lang/Object;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    }
+}

@@ -1,0 +1,890 @@
+{
+    "Lcom/tenta/android/TentaApplication$appInitAsync$1;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/tenta/android/TentaApplication$appInitAsync$1;->invoke(Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/tenta/android/TentaApplication$appInitSync$1$3;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/tenta/android/TentaApplication$appInitSync$1$3;->invoke(Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/tenta/android/metafs/MetaFsModule;->setContext(Landroid/content/Context;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/tenta/android/TentaApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/tenta/android/utils/livedata/SingleFireLiveData;->onFirst(Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function0;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/tenta/android/repo/logic/AppManager;->onAppAndReposReady(Lkotlin/jvm/functions/Function0;)V <",
+                "> Lcom/tenta/android/logic/system/BootCompletedReceiver;->onReceive(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.BOOT_COMPLETED",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/tenta/android/repo/logic/AppManager;->onAppAndReposReady(Lkotlin/jvm/functions/Function0;)V <",
+                "> Lcom/tenta/android/repo/logic/AppManager;->init(Landroid/app/Application;)V <",
+                "> Lcom/tenta/android/TentaApplication$appInitSync$1$7;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/tenta/android/repo/logic/AppManager;->onReposReady(Lkotlin/jvm/functions/Function0;)V <",
+                "> Lcom/tenta/android/TentaApplication;->a()V <",
+                "> Ly/f;->run()V <",
+                "> Lorg/chromium/ui/widget/LoadingView;->setDisableAnimationForTest(Z)V <",
+                "> Lorg/chromium/components/browser_ui/widget/selectable_list/SelectableListLayout;->onFinishInflate()V <",
+                "> Lz4/k;->onLayoutChange(Landroid/view/View; <",
+                "> Lcom/tenta/android/components/widgets/qrscanner/ScannerOverlay;-><init>(Landroid/content/Context; <",
+                "> Ly/E;->onFailure(Ljava/lang/Exception;)V <",
+                "> Ly/D;->apply(Ljava/lang/Object;)Lcom/google/common/util/concurrent/ListenableFuture; <",
+                "> Ly/h;->apply(Ljava/lang/Object;)Lcom/google/common/util/concurrent/ListenableFuture; <",
+                "> LM/a;->run()V <",
+                "> La9/y;->run()V <",
+                "> La9/B;->remove()V <",
+                "> Ls5/Z;->next()Ljava/lang/Object; <",
+                "> Lkotlin/collections/AbstractMap;->a(Ljava/lang/Object;)Ljava/util/Map$Entry; <",
+                "> Lkotlin/collections/AbstractMap;->get(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/tenta/android/widgets/WidgetProvider;->onReceive(Landroid/content/Context; <",
+                "> Lcom/tenta/android/widgets/favsites/FavoriteSitesWidgetProvider;-><init>(Lcom/tenta/android/analytics/TrackedScreen;)V <",
+                "> Lcom/tenta/android/fragments/main/appwidgets/FavoriteSites;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.tenta.android.Widget.HOME",
+                    "start -a"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/tenta/android/repo/logic/AppManager;->onReposReady(Lkotlin/jvm/functions/Function0;)V <",
+                "> Lcom/tenta/android/TentaApplication;->a()V <",
+                "> Ly/f;->run()V <",
+                "> Lorg/chromium/ui/widget/LoadingView;->setDisableAnimationForTest(Z)V <",
+                "> Lorg/chromium/components/browser_ui/widget/selectable_list/SelectableListLayout;->onFinishInflate()V <",
+                "> Lz4/k;->onLayoutChange(Landroid/view/View; <",
+                "> Lcom/tenta/android/components/widgets/qrscanner/ScannerOverlay;-><init>(Landroid/content/Context; <",
+                "> Ly/E;->onFailure(Ljava/lang/Exception;)V <",
+                "> Ly/D;->apply(Ljava/lang/Object;)Lcom/google/common/util/concurrent/ListenableFuture; <",
+                "> Ly/h;->apply(Ljava/lang/Object;)Lcom/google/common/util/concurrent/ListenableFuture; <",
+                "> LM/a;->run()V <",
+                "> La9/y;->run()V <",
+                "> La9/B;->remove()V <",
+                "> Ls5/Z;->next()Ljava/lang/Object; <",
+                "> Lkotlin/collections/AbstractMap;->a(Ljava/lang/Object;)Ljava/util/Map$Entry; <",
+                "> Lkotlin/collections/AbstractMap;->get(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/tenta/android/widgets/WidgetProvider;->onReceive(Landroid/content/Context; <",
+                "> Lcom/tenta/android/widgets/favsites/FavoriteSitesWidgetProvider;-><init>(Lcom/tenta/android/analytics/TrackedScreen;)V <",
+                "> Lcom/tenta/android/fragments/main/appwidgets/FavoriteSitesNeutral;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.tenta.android.Widget.HOME",
+                    "start -a"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lcom/tenta/android/repo/logic/AppManager;->onReposReady(Lkotlin/jvm/functions/Function0;)V <",
+                "> Lcom/tenta/android/TentaApplication;->a()V <",
+                "> Ly/f;->run()V <",
+                "> Lorg/chromium/ui/widget/LoadingView;->setDisableAnimationForTest(Z)V <",
+                "> Lorg/chromium/components/browser_ui/widget/selectable_list/SelectableListLayout;->onFinishInflate()V <",
+                "> Lz4/k;->onLayoutChange(Landroid/view/View; <",
+                "> Lcom/tenta/android/components/widgets/qrscanner/ScannerOverlay;-><init>(Landroid/content/Context; <",
+                "> Ly/E;->onFailure(Ljava/lang/Exception;)V <",
+                "> Ly/D;->apply(Ljava/lang/Object;)Lcom/google/common/util/concurrent/ListenableFuture; <",
+                "> Ly/h;->apply(Ljava/lang/Object;)Lcom/google/common/util/concurrent/ListenableFuture; <",
+                "> LM/a;->run()V <",
+                "> La9/y;->run()V <",
+                "> La9/B;->remove()V <",
+                "> Ls5/Z;->next()Ljava/lang/Object; <",
+                "> Lkotlin/collections/AbstractMap;->a(Ljava/lang/Object;)Ljava/util/Map$Entry; <",
+                "> Lkotlin/collections/AbstractMap;->get(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/tenta/android/widgets/WidgetProvider;->onReceive(Landroid/content/Context; <",
+                "> Lcom/tenta/android/widgets/qsearch/QuickSearchWidgetProvider;-><init>(Lcom/tenta/android/analytics/TrackedScreen;)V <",
+                "> Lcom/tenta/android/fragments/main/appwidgets/QuickSearchBox;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.tenta.android.Widget.HOME",
+                    "start -a"
+                ]
+            ]
+        },
+        "path_5": {
+            "call_sequence": [
+                "> Lcom/tenta/android/repo/logic/AppManager;->onReposReady(Lkotlin/jvm/functions/Function0;)V <",
+                "> Lcom/tenta/android/TentaApplication;->a()V <",
+                "> Ly/f;->run()V <",
+                "> Lorg/chromium/ui/widget/LoadingView;->setDisableAnimationForTest(Z)V <",
+                "> Lorg/chromium/components/browser_ui/widget/selectable_list/SelectableListLayout;->onFinishInflate()V <",
+                "> Lz4/k;->onLayoutChange(Landroid/view/View; <",
+                "> Lcom/tenta/android/components/widgets/qrscanner/ScannerOverlay;-><init>(Landroid/content/Context; <",
+                "> Ly/E;->onFailure(Ljava/lang/Exception;)V <",
+                "> Ly/D;->apply(Ljava/lang/Object;)Lcom/google/common/util/concurrent/ListenableFuture; <",
+                "> Ly/h;->apply(Ljava/lang/Object;)Lcom/google/common/util/concurrent/ListenableFuture; <",
+                "> LM/a;->run()V <",
+                "> La9/y;->run()V <",
+                "> La9/B;->remove()V <",
+                "> Ls5/Z;->next()Ljava/lang/Object; <",
+                "> Lkotlin/collections/AbstractMap;->a(Ljava/lang/Object;)Ljava/util/Map$Entry; <",
+                "> Lkotlin/collections/AbstractMap;->get(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/tenta/android/widgets/WidgetProvider;->onReceive(Landroid/content/Context; <",
+                "> Lcom/tenta/android/widgets/qsearch/QuickSearchWidgetProvider;-><init>(Lcom/tenta/android/analytics/TrackedScreen;)V <",
+                "> Lcom/tenta/android/fragments/main/appwidgets/QuickSearchBar;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.tenta.android.Widget.HOME",
+                    "start -a"
+                ]
+            ]
+        },
+        "path_6": {
+            "call_sequence": [
+                "> Lcom/tenta/android/repo/logic/AppManager;->onReposReady(Lkotlin/jvm/functions/Function0;)V <",
+                "> Lcom/tenta/android/TentaApplication;->a()V <",
+                "> Ly/f;->run()V <",
+                "> Lorg/chromium/ui/widget/LoadingView;->setDisableAnimationForTest(Z)V <",
+                "> Lorg/chromium/components/browser_ui/widget/selectable_list/SelectableListLayout;->onFinishInflate()V <",
+                "> Lz4/k;->onLayoutChange(Landroid/view/View; <",
+                "> Lcom/tenta/android/components/widgets/qrscanner/ScannerOverlay;-><init>(Landroid/content/Context; <",
+                "> Ly/E;->onFailure(Ljava/lang/Exception;)V <",
+                "> Ly/D;->apply(Ljava/lang/Object;)Lcom/google/common/util/concurrent/ListenableFuture; <",
+                "> Ly/h;->apply(Ljava/lang/Object;)Lcom/google/common/util/concurrent/ListenableFuture; <",
+                "> LM/a;->run()V <",
+                "> La9/y;->run()V <",
+                "> La9/B;->remove()V <",
+                "> Ls5/Z;->next()Ljava/lang/Object; <",
+                "> Lkotlin/collections/AbstractMap;->a(Ljava/lang/Object;)Ljava/util/Map$Entry; <",
+                "> Lkotlin/collections/AbstractMap;->get(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/tenta/android/widgets/WidgetProvider;->onReceive(Landroid/content/Context; <",
+                "> Lcom/tenta/android/widgets/qsearch/QuickSearchWidgetProvider;-><init>(Lcom/tenta/android/analytics/TrackedScreen;)V <",
+                "> Lcom/tenta/android/fragments/main/appwidgets/QuickSearchNeutralBox;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.tenta.android.Widget.HOME",
+                    "start -a"
+                ]
+            ]
+        },
+        "path_7": {
+            "call_sequence": [
+                "> Lcom/tenta/android/repo/logic/AppManager;->onReposReady(Lkotlin/jvm/functions/Function0;)V <",
+                "> Lcom/tenta/android/TentaApplication;->a()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_8": {
+            "call_sequence": [
+                "> Lcom/tenta/android/repo/logic/AppManager;->onReposReady(Lkotlin/jvm/functions/Function0;)V <",
+                "> Lcom/tenta/android/TentaApplication;->a()V <",
+                "> Ly/f;->run()V <",
+                "> Lorg/chromium/ui/widget/LoadingView;->setDisableAnimationForTest(Z)V <",
+                "> Lorg/chromium/components/browser_ui/widget/selectable_list/SelectableListLayout;->onFinishInflate()V <",
+                "> Lz4/k;->onLayoutChange(Landroid/view/View; <",
+                "> Lcom/tenta/android/components/widgets/qrscanner/ScannerOverlay;-><init>(Landroid/content/Context; <",
+                "> Ly/E;->onFailure(Ljava/lang/Exception;)V <",
+                "> Ly/D;->apply(Ljava/lang/Object;)Lcom/google/common/util/concurrent/ListenableFuture; <",
+                "> Ly/h;->apply(Ljava/lang/Object;)Lcom/google/common/util/concurrent/ListenableFuture; <",
+                "> LM/a;->run()V <",
+                "> La9/y;->run()V <",
+                "> La9/B;->remove()V <",
+                "> Ls5/Z;->next()Ljava/lang/Object; <",
+                "> Lcom/google/firebase/FirebaseApp$UserUnlockReceiver;->onReceive(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.USER_UNLOCKED",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_9": {
+            "call_sequence": [
+                "> Lcom/tenta/android/repo/logic/AppManager;->onReposReady(Lkotlin/jvm/functions/Function0;)V <",
+                "> Lcom/tenta/android/TentaApplication;->a()V <",
+                "> Ly/f;->run()V <",
+                "> Lorg/chromium/ui/widget/LoadingView;->setDisableAnimationForTest(Z)V <",
+                "> Lorg/chromium/components/browser_ui/widget/selectable_list/SelectableListLayout;->onFinishInflate()V <",
+                "> Lz4/k;->onLayoutChange(Landroid/view/View; <",
+                "> Lcom/tenta/android/components/widgets/qrscanner/ScannerOverlay;-><init>(Landroid/content/Context; <",
+                "> Ly/E;->onFailure(Ljava/lang/Exception;)V <",
+                "> Ly/D;->apply(Ljava/lang/Object;)Lcom/google/common/util/concurrent/ListenableFuture; <",
+                "> Ly/h;->apply(Ljava/lang/Object;)Lcom/google/common/util/concurrent/ListenableFuture; <",
+                "> LM/a;->run()V <",
+                "> La9/y;->run()V <",
+                "> La9/B;->remove()V <",
+                "> Ls5/Z;->next()Ljava/lang/Object; <",
+                "> Lcom/google/android/gms/internal/play_billing/zzaf;->equals(Ljava/lang/Object;)Z <",
+                "> Lcom/google/android/exoplayer2/offline/DownloadRequest;->equals(Ljava/lang/Object;)Z <",
+                "> Lj4/a;->createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object; <",
+                "> Lcom/google/android/exoplayer2/scheduler/Requirements;-><clinit>()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.BATTERY_CHANGED",
+                    "start -a"
+                ]
+            ]
+        },
+        "path_10": {
+            "call_sequence": [
+                "> Lcom/tenta/android/repo/logic/AppManager;->onReposReady(Lkotlin/jvm/functions/Function0;)V <",
+                "> Lcom/tenta/android/TentaApplication;->a()V <",
+                "> Ly/f;->run()V <",
+                "> Lorg/chromium/ui/widget/LoadingView;->setDisableAnimationForTest(Z)V <",
+                "> Lorg/chromium/components/browser_ui/widget/selectable_list/SelectableListLayout;->onFinishInflate()V <",
+                "> Lz4/k;->onLayoutChange(Landroid/view/View; <",
+                "> Lcom/tenta/android/components/widgets/qrscanner/ScannerOverlay;-><init>(Landroid/content/Context; <",
+                "> Ly/E;->onFailure(Ljava/lang/Exception;)V <",
+                "> Ly/D;->apply(Ljava/lang/Object;)Lcom/google/common/util/concurrent/ListenableFuture; <",
+                "> Ly/h;->apply(Ljava/lang/Object;)Lcom/google/common/util/concurrent/ListenableFuture; <",
+                "> LM/a;->run()V <",
+                "> La9/y;->run()V <",
+                "> La9/B;->remove()V <",
+                "> Ls5/Z;->next()Ljava/lang/Object; <",
+                "> Lcom/google/android/gms/internal/mlkit_common/zzar;->equals(Ljava/lang/Object;)Z <",
+                "> Lcom/google/android/exoplayer2/offline/DownloadRequest;->equals(Ljava/lang/Object;)Z <",
+                "> Lj4/a;->createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object; <",
+                "> Lcom/google/android/exoplayer2/scheduler/Requirements;-><clinit>()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.BATTERY_CHANGED",
+                    "start -a"
+                ]
+            ]
+        },
+        "path_11": {
+            "call_sequence": [
+                "> Lcom/tenta/android/repo/logic/AppManager;->onReposReady(Lkotlin/jvm/functions/Function0;)V <",
+                "> Lcom/tenta/android/TentaApplication;->a()V <",
+                "> Ly/f;->run()V <",
+                "> Lorg/chromium/ui/widget/LoadingView;->setDisableAnimationForTest(Z)V <",
+                "> Lorg/chromium/components/browser_ui/widget/selectable_list/SelectableListLayout;->onFinishInflate()V <",
+                "> Lz4/k;->onLayoutChange(Landroid/view/View; <",
+                "> Lcom/tenta/android/components/widgets/qrscanner/ScannerOverlay;-><init>(Landroid/content/Context; <",
+                "> Ly/E;->onFailure(Ljava/lang/Exception;)V <",
+                "> Ly/D;->apply(Ljava/lang/Object;)Lcom/google/common/util/concurrent/ListenableFuture; <",
+                "> Ly/h;->apply(Ljava/lang/Object;)Lcom/google/common/util/concurrent/ListenableFuture; <",
+                "> LM/a;->run()V <",
+                "> La9/y;->run()V <",
+                "> La9/B;->remove()V <",
+                "> Ls5/Z;->next()Ljava/lang/Object; <",
+                "> Lcom/google/android/gms/internal/mlkit_vision_object_detection_bundled/zzat;->equals(Ljava/lang/Object;)Z <",
+                "> Lcom/google/android/exoplayer2/offline/DownloadRequest;->equals(Ljava/lang/Object;)Z <",
+                "> Lj4/a;->createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object; <",
+                "> Lcom/google/android/exoplayer2/scheduler/Requirements;-><clinit>()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.BATTERY_CHANGED",
+                    "start -a"
+                ]
+            ]
+        },
+        "path_12": {
+            "call_sequence": [
+                "> Lcom/tenta/android/repo/logic/AppManager;->onReposReady(Lkotlin/jvm/functions/Function0;)V <",
+                "> Lcom/tenta/android/TentaApplication;->a()V <",
+                "> Ly/f;->run()V <",
+                "> Lorg/chromium/ui/widget/LoadingView;->setDisableAnimationForTest(Z)V <",
+                "> Lorg/chromium/components/browser_ui/widget/selectable_list/SelectableListLayout;->onFinishInflate()V <",
+                "> Lz4/k;->onLayoutChange(Landroid/view/View; <",
+                "> Lcom/tenta/android/components/widgets/qrscanner/ScannerOverlay;-><init>(Landroid/content/Context; <",
+                "> Ly/E;->onFailure(Ljava/lang/Exception;)V <",
+                "> Ly/D;->apply(Ljava/lang/Object;)Lcom/google/common/util/concurrent/ListenableFuture; <",
+                "> Ly/h;->apply(Ljava/lang/Object;)Lcom/google/common/util/concurrent/ListenableFuture; <",
+                "> LM/a;->run()V <",
+                "> La9/y;->run()V <",
+                "> La9/B;->remove()V <",
+                "> Ls5/Z;->next()Ljava/lang/Object; <",
+                "> Lcom/google/android/gms/internal/mlkit_vision_common/zzp;->equals(Ljava/lang/Object;)Z <",
+                "> Lcom/google/android/exoplayer2/offline/DownloadRequest;->equals(Ljava/lang/Object;)Z <",
+                "> Lj4/a;->createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object; <",
+                "> Lcom/google/android/exoplayer2/scheduler/Requirements;-><clinit>()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.BATTERY_CHANGED",
+                    "start -a"
+                ]
+            ]
+        },
+        "path_13": {
+            "call_sequence": [
+                "> Lcom/tenta/android/repo/logic/AppManager;->onReposReady(Lkotlin/jvm/functions/Function0;)V <",
+                "> Lcom/tenta/android/TentaApplication;->a()V <",
+                "> Ly/f;->run()V <",
+                "> Lorg/chromium/ui/widget/LoadingView;->setDisableAnimationForTest(Z)V <",
+                "> Lorg/chromium/components/browser_ui/widget/selectable_list/SelectableListLayout;->onFinishInflate()V <",
+                "> Lz4/k;->onLayoutChange(Landroid/view/View; <",
+                "> Lcom/tenta/android/components/widgets/qrscanner/ScannerOverlay;-><init>(Landroid/content/Context; <",
+                "> Ly/E;->onFailure(Ljava/lang/Exception;)V <",
+                "> Ly/D;->apply(Ljava/lang/Object;)Lcom/google/common/util/concurrent/ListenableFuture; <",
+                "> Ly/h;->apply(Ljava/lang/Object;)Lcom/google/common/util/concurrent/ListenableFuture; <",
+                "> LM/a;->run()V <",
+                "> La9/y;->run()V <",
+                "> La9/B;->remove()V <",
+                "> Ls5/Z;->next()Ljava/lang/Object; <",
+                "> Lcom/google/android/gms/internal/mlkit_vision_barcode/zzcv;->equals(Ljava/lang/Object;)Z <",
+                "> Lcom/google/android/exoplayer2/offline/DownloadRequest;->equals(Ljava/lang/Object;)Z <",
+                "> Lj4/a;->createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object; <",
+                "> Lcom/google/android/exoplayer2/scheduler/Requirements;-><clinit>()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.BATTERY_CHANGED",
+                    "start -a"
+                ]
+            ]
+        },
+        "path_14": {
+            "call_sequence": [
+                "> Lcom/tenta/android/repo/logic/AppManager;->onReposReady(Lkotlin/jvm/functions/Function0;)V <",
+                "> Lcom/tenta/android/TentaApplication;->a()V <",
+                "> Ly/f;->run()V <",
+                "> Lorg/chromium/ui/widget/LoadingView;->setDisableAnimationForTest(Z)V <",
+                "> Lorg/chromium/components/browser_ui/widget/selectable_list/SelectableListLayout;->onFinishInflate()V <",
+                "> Lz4/k;->onLayoutChange(Landroid/view/View; <",
+                "> Lcom/tenta/android/components/widgets/qrscanner/ScannerOverlay;-><init>(Landroid/content/Context; <",
+                "> Ly/E;->onFailure(Ljava/lang/Exception;)V <",
+                "> Ly/D;->apply(Ljava/lang/Object;)Lcom/google/common/util/concurrent/ListenableFuture; <",
+                "> Ly/h;->apply(Ljava/lang/Object;)Lcom/google/common/util/concurrent/ListenableFuture; <",
+                "> LM/a;->run()V <",
+                "> La9/y;->run()V <",
+                "> La9/B;->remove()V <",
+                "> Ls5/Z;->next()Ljava/lang/Object; <",
+                "> Lcom/google/android/gms/internal/mlkit_vision_internal_vkp/zzlc;->equals(Ljava/lang/Object;)Z <",
+                "> Lcom/google/android/exoplayer2/offline/DownloadRequest;->equals(Ljava/lang/Object;)Z <",
+                "> Lj4/a;->createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object; <",
+                "> Lcom/google/android/exoplayer2/scheduler/Requirements;-><clinit>()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.BATTERY_CHANGED",
+                    "start -a"
+                ]
+            ]
+        },
+        "path_15": {
+            "call_sequence": [
+                "> Lcom/tenta/android/repo/logic/AppManager;->onReposReady(Lkotlin/jvm/functions/Function0;)V <",
+                "> Lcom/tenta/android/TentaApplication;->a()V <",
+                "> Ly/f;->run()V <",
+                "> Lorg/chromium/ui/widget/LoadingView;->setDisableAnimationForTest(Z)V <",
+                "> Lorg/chromium/components/browser_ui/widget/selectable_list/SelectableListLayout;->onFinishInflate()V <",
+                "> Lz4/k;->onLayoutChange(Landroid/view/View; <",
+                "> Lcom/tenta/android/components/widgets/qrscanner/ScannerOverlay;-><init>(Landroid/content/Context; <",
+                "> Ly/E;->onFailure(Ljava/lang/Exception;)V <",
+                "> Ly/D;->apply(Ljava/lang/Object;)Lcom/google/common/util/concurrent/ListenableFuture; <",
+                "> Ly/h;->apply(Ljava/lang/Object;)Lcom/google/common/util/concurrent/ListenableFuture; <",
+                "> LM/a;->run()V <",
+                "> La9/y;->run()V <",
+                "> La9/B;->remove()V <",
+                "> Ls5/Z;->next()Ljava/lang/Object; <",
+                "> Lcom/google/android/gms/internal/location/zzbs;->equals(Ljava/lang/Object;)Z <",
+                "> Lcom/google/android/exoplayer2/offline/DownloadRequest;->equals(Ljava/lang/Object;)Z <",
+                "> Lj4/a;->createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object; <",
+                "> Lcom/google/android/exoplayer2/scheduler/Requirements;-><clinit>()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.BATTERY_CHANGED",
+                    "start -a"
+                ]
+            ]
+        },
+        "path_16": {
+            "call_sequence": [
+                "> Lcom/tenta/android/repo/logic/AppManager;->onReposAndMetaFsReady(Lkotlin/jvm/functions/Function0;)V <",
+                "> Lcom/tenta/android/repo/logic/AppManager;->init(Landroid/app/Application;)V <",
+                "> Lcom/tenta/android/TentaApplication$appInitSync$1$7;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_17": {
+            "call_sequence": [
+                "> Lcom/tenta/android/repo/logic/AppManager;->onMetaFsReady(Lkotlin/jvm/functions/Function0;)V <",
+                "> Lcom/tenta/android/repo/logic/AppManager;->init(Landroid/app/Application;)V <",
+                "> Lcom/tenta/android/TentaApplication$appInitSync$1$7;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/tenta/android/process/ProcessUtils;->getProcessName()Ljava/lang/String;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/tenta/android/TentaApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/tenta/android/TentaApplication$appInitSync$1$2;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/tenta/android/TentaApplication$appInitSync$1$2;->invoke(Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/tenta/android/Hilt_TentaApplication;->componentManager()Ldagger/hilt/android/internal/managers/ApplicationComponentManager;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/tenta/android/Hilt_TentaApplication;->generatedComponent()Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/tenta/android/Hilt_TentaApplication;->componentManager()Ldagger/hilt/internal/GeneratedComponentManager; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/tenta/android/vault/videodownloader/VideoChecker;->init()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/tenta/android/TentaApplication$appInitAsync$1$5;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/tenta/android/process/ProcessUtils;->isBrowserProcess()Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/tenta/android/TentaApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/tenta/android/TentaApplication$appInitAsync$1$3;->create(Ljava/lang/Object;Lkotlin/coroutines/Continuation;)Lkotlin/coroutines/Continuation;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/tenta/android/TentaApplication$appInitAsync$1$3;->invoke(Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/tenta/android/utils/livedata/ConditionMergerLiveData;->addSource(Landroidx/lifecycle/LiveData;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/tenta/android/utils/livedata/ConditionMergerLiveData;-><init>(Ljava/util/List;)V <",
+                "> Lcom/tenta/android/repo/logic/AppManager;-><clinit>()V <",
+                "> Lcom/tenta/android/repo/logic/AppManager;->init(Landroid/app/Application;)V <",
+                "> Lcom/tenta/android/TentaApplication$appInitSync$1$7;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/tenta/android/TentaApplication$appInitSync$1$4;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/tenta/android/TentaApplication$appInitSync$1$4;->invoke(Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/tenta/android/TentaApplication$appInitAsync$1$1;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/tenta/android/TentaApplication$appInitAsync$1$1;->invoke(Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/tenta/android/TentaApplication$appInitSync$1;->create(Ljava/lang/Object;Lkotlin/coroutines/Continuation;)Lkotlin/coroutines/Continuation;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/tenta/android/TentaApplication$appInitSync$1;->invoke(Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/tenta/android/TentaApplication$appInitSync$1$1;->create(Ljava/lang/Object;Lkotlin/coroutines/Continuation;)Lkotlin/coroutines/Continuation;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/tenta/android/TentaApplication$appInitSync$1$1;->invoke(Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/tenta/android/utils/TentaUtils;->isMainThread()Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/tenta/android/utils/livedata/SingleFireLiveData;->onFirst(Lkotlin/jvm/functions/Function1; <",
+                "> Lcom/tenta/android/repo/logic/AppManager;-><clinit>()V <",
+                "> Lcom/tenta/android/repo/logic/AppManager;->init(Landroid/app/Application;)V <",
+                "> Lcom/tenta/android/TentaApplication$appInitSync$1$7;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/tenta/android/utils/Logger;->setup()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/tenta/android/TentaApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/tenta/android/TentaApplication$appInitSync$1$6;->create(Ljava/lang/Object;Lkotlin/coroutines/Continuation;)Lkotlin/coroutines/Continuation;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/tenta/android/TentaApplication$appInitSync$1$6;->invoke(Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/tenta/android/TentaApplication$appInitSync$1$2;->create(Ljava/lang/Object;Lkotlin/coroutines/Continuation;)Lkotlin/coroutines/Continuation;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/tenta/android/TentaApplication$appInitSync$1$2;->invoke(Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/tenta/android/TentaApplication$appInitAsync$1$5;->create(Ljava/lang/Object;Lkotlin/coroutines/Continuation;)Lkotlin/coroutines/Continuation;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/tenta/android/TentaApplication$appInitAsync$1$5;->invoke(Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/tenta/android/TentaApplication$appInitSync$1$5;->create(Ljava/lang/Object;Lkotlin/coroutines/Continuation;)Lkotlin/coroutines/Continuation;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/tenta/android/TentaApplication$appInitSync$1$5;->invoke(Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/tenta/android/utils/JavaGoRegexpEngine$Companion;->setup()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/tenta/android/TentaApplication$appInitAsync$1$1;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/tenta/android/Hilt_TentaApplication;->onCreate()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/tenta/android/TentaApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/tenta/android/logic/XWalkWarmup;->listen(Ljava/lang/String;Landroid/content/Context;Lcom/tenta/android/logic/XWalkWarmup$WarmupCallback;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/tenta/android/logic/XWalkManager;->init(Landroid/app/Application;)V <",
+                "> Lcom/tenta/android/TentaApplication$appInitSync$1$7;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/tenta/android/TentaApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/tenta/android/repo/DatabaseAccessor$Companion;->setup(Landroid/content/Context;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/tenta/android/TentaApplication$appInitSync$1$1;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/tenta/android/TentaApplication$appInitAsync$1;->create(Ljava/lang/Object;Lkotlin/coroutines/Continuation;)Lkotlin/coroutines/Continuation;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/tenta/android/TentaApplication$appInitAsync$1;->invoke(Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/tenta/android/Hilt_TentaApplication;->generatedComponent()Ljava/lang/Object;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/tenta/android/Hilt_TentaApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/tenta/android/TentaApplication$appInitAsync$1$2;->create(Ljava/lang/Object;Lkotlin/coroutines/Continuation;)Lkotlin/coroutines/Continuation;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/tenta/android/TentaApplication$appInitAsync$1$2;->invoke(Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/tenta/android/TentaApplication$appInitAsync$1$4;->create(Ljava/lang/Object;Lkotlin/coroutines/Continuation;)Lkotlin/coroutines/Continuation;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/tenta/android/TentaApplication$appInitAsync$1$4;->invoke(Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/tenta/android/TentaApplication$appInitSync$1$4;->create(Ljava/lang/Object;Lkotlin/coroutines/Continuation;)Lkotlin/coroutines/Continuation;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/tenta/android/TentaApplication$appInitSync$1$4;->invoke(Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/tenta/android/TentaApplication$appInitSync$1$5;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/tenta/android/TentaApplication$appInitSync$1$5;->invoke(Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/tenta/android/TentaApplication$appInitAsync$1$5;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/tenta/android/TentaApplication$appInitAsync$1$5;->invoke(Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/tenta/android/TentaApplication$appInitSync$1$3;->create(Ljava/lang/Object;Lkotlin/coroutines/Continuation;)Lkotlin/coroutines/Continuation;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/tenta/android/TentaApplication$appInitSync$1$3;->invoke(Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/tenta/android/TentaApplication$appInitSync$1$6;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/tenta/android/TentaApplication$appInitSync$1$6;->invoke(Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/tenta/android/TentaApplication$appInitAsync$1$1;->create(Ljava/lang/Object;Lkotlin/coroutines/Continuation;)Lkotlin/coroutines/Continuation;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/tenta/android/TentaApplication$appInitAsync$1$1;->invoke(Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/tenta/android/TentaApplication$appInitSync$1$1;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/tenta/android/TentaApplication$appInitSync$1$1;->invoke(Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    }
+}

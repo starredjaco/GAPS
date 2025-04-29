@@ -1,0 +1,8 @@
+COMPONENT CONCAT > Lcom/ringdroid/soundfile/SoundFile;->create(Ljava/lang/String; < extends Ljava/lang/Object, implements []
+COMPONENT CONCAT > Lcom/ringdroid/soundfile/MP4Header;-><init>(I < extends Ljava/lang/Object, implements []
+MISSING ID > Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <
+COMPONENT CONCAT > Lcom/ringdroid/soundfile/SoundFile;->WriteFile(Ljava/io/File; < extends Ljava/lang/Object, implements []
+MISSING ID > Lcom/ringdroid/RingdroidSelectActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <
+COMPONENT CONCAT > Lcom/ringdroid/SamplePlayer;-><init>(Ljava/nio/ShortBuffer; < extends Ljava/lang/Object, implements []
+COMPONENT CONCAT > Lcom/ringdroid/SongMetadataReader;-><init>(Landroid/app/Activity; < extends Ljava/lang/Object, implements []
+COMPONENT CONCAT > Lcom/ringdroid/soundfile/Atom;->toString()Ljava/lang/String; < extends Ljava/lang/Object, implements []

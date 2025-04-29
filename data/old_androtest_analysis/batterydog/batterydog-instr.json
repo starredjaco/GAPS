@@ -1,0 +1,792 @@
+{
+    "Lnet/sf/andbatdog/batterydog/BatteryGraph;->onCreate(Landroid/os/Bundle;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lnet/sf/andbatdog/batterydog/BatteryGraph$GraphView;->onDraw(Landroid/graphics/Canvas;)V <",
+                "> Lnet/sf/andbatdog/batterydog/BatteryGraph;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lnet/sf/andbatdog/batterydog/BatteryDog$5;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "net.sf.andbatdog.batterydog.BatteryDog",
+                    "btGraph"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lnet/sf/andbatdog/batterydog/BatteryGraph$GraphView;->onDraw(Landroid/graphics/Canvas;)V <",
+                "> Lnet/sf/andbatdog/batterydog/BatteryGraph;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "net.sf.andbatdog.batterydog/net.sf.andbatdog.batterydog.BatteryGraph",
+                    "start -n"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lnet/sf/andbatdog/batterydog/BatteryGraph$GraphView;->onTouchEvent(Landroid/view/MotionEvent;)Z <",
+                "> Lnet/sf/andbatdog/batterydog/BatteryGraph;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lnet/sf/andbatdog/batterydog/BatteryDog$5;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "net.sf.andbatdog.batterydog.BatteryDog",
+                    "btGraph"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lnet/sf/andbatdog/batterydog/BatteryGraph$GraphView;->onTouchEvent(Landroid/view/MotionEvent;)Z <",
+                "> Lnet/sf/andbatdog/batterydog/BatteryGraph;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "net.sf.andbatdog.batterydog/net.sf.andbatdog.batterydog.BatteryGraph",
+                    "start -n"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lnet/sf/andbatdog/batterydog/BatteryGraph$GraphView;->drawRecordLine(Landroid/graphics/Canvas;Lnet/sf/andbatdog/batterydog/BatteryGraph$BatteryRecord;Lnet/sf/andbatdog/batterydog/BatteryGraph$BatteryRecord;JJLandroid/graphics/Paint;Landroid/graphics/Paint;Landroid/graphics/Paint;)V <",
+                "> Lnet/sf/andbatdog/batterydog/BatteryGraph$GraphView;->onDraw(Landroid/graphics/Canvas;)V <",
+                "> Lnet/sf/andbatdog/batterydog/BatteryGraph;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lnet/sf/andbatdog/batterydog/BatteryDog$5;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "net.sf.andbatdog.batterydog.BatteryDog",
+                    "btGraph"
+                ]
+            ]
+        },
+        "path_5": {
+            "call_sequence": [
+                "> Lnet/sf/andbatdog/batterydog/BatteryGraph$GraphView;->drawRecordLine(Landroid/graphics/Canvas;Lnet/sf/andbatdog/batterydog/BatteryGraph$BatteryRecord;Lnet/sf/andbatdog/batterydog/BatteryGraph$BatteryRecord;JJLandroid/graphics/Paint;Landroid/graphics/Paint;Landroid/graphics/Paint;)V <",
+                "> Lnet/sf/andbatdog/batterydog/BatteryGraph$GraphView;->onDraw(Landroid/graphics/Canvas;)V <",
+                "> Lnet/sf/andbatdog/batterydog/BatteryGraph;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "net.sf.andbatdog.batterydog/net.sf.andbatdog.batterydog.BatteryGraph",
+                    "start -n"
+                ]
+            ]
+        }
+    },
+    "Lnet/sf/andbatdog/batterydog/BatteryDog;->startActivity(Landroid/content/Intent;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lnet/sf/andbatdog/batterydog/BatteryDog$5;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "net.sf.andbatdog.batterydog.BatteryDog",
+                    "btGraph"
+                ]
+            ]
+        }
+    },
+    "Lnet/sf/andbatdog/batterydog/Log;->e(Ljava/lang/String;Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lnet/sf/andbatdog/batterydog/BatteryGraph;->readLog()[Lnet/sf/andbatdog/batterydog/BatteryGraph$BatteryRecord; <",
+                "> Lnet/sf/andbatdog/batterydog/BatteryGraph;->access$000(Lnet/sf/andbatdog/batterydog/BatteryGraph;)[Lnet/sf/andbatdog/batterydog/BatteryGraph$BatteryRecord; <",
+                "> Lnet/sf/andbatdog/batterydog/BatteryGraph$GraphView;->readRecords()V <",
+                "> Lnet/sf/andbatdog/batterydog/BatteryGraph;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lnet/sf/andbatdog/batterydog/BatteryDog$5;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "net.sf.andbatdog.batterydog.BatteryDog",
+                    "btGraph"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lnet/sf/andbatdog/batterydog/BatteryGraph;->readLog()[Lnet/sf/andbatdog/batterydog/BatteryGraph$BatteryRecord; <",
+                "> Lnet/sf/andbatdog/batterydog/BatteryGraph;->access$000(Lnet/sf/andbatdog/batterydog/BatteryGraph;)[Lnet/sf/andbatdog/batterydog/BatteryGraph$BatteryRecord; <",
+                "> Lnet/sf/andbatdog/batterydog/BatteryGraph$GraphView;->readRecords()V <",
+                "> Lnet/sf/andbatdog/batterydog/BatteryGraph;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "net.sf.andbatdog.batterydog/net.sf.andbatdog.batterydog.BatteryGraph",
+                    "start -n"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lnet/sf/andbatdog/batterydog/BatteryGraph;->parseLine(Ljava/lang/String;)Lnet/sf/andbatdog/batterydog/BatteryGraph$BatteryRecord; <",
+                "> Lnet/sf/andbatdog/batterydog/BatteryGraph;->readLog()[Lnet/sf/andbatdog/batterydog/BatteryGraph$BatteryRecord; <",
+                "> Lnet/sf/andbatdog/batterydog/BatteryGraph;->access$000(Lnet/sf/andbatdog/batterydog/BatteryGraph;)[Lnet/sf/andbatdog/batterydog/BatteryGraph$BatteryRecord; <",
+                "> Lnet/sf/andbatdog/batterydog/BatteryGraph$GraphView;->readRecords()V <",
+                "> Lnet/sf/andbatdog/batterydog/BatteryGraph;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lnet/sf/andbatdog/batterydog/BatteryDog$5;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "net.sf.andbatdog.batterydog.BatteryDog",
+                    "btGraph"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lnet/sf/andbatdog/batterydog/BatteryGraph;->parseLine(Ljava/lang/String;)Lnet/sf/andbatdog/batterydog/BatteryGraph$BatteryRecord; <",
+                "> Lnet/sf/andbatdog/batterydog/BatteryGraph;->readLog()[Lnet/sf/andbatdog/batterydog/BatteryGraph$BatteryRecord; <",
+                "> Lnet/sf/andbatdog/batterydog/BatteryGraph;->access$000(Lnet/sf/andbatdog/batterydog/BatteryGraph;)[Lnet/sf/andbatdog/batterydog/BatteryGraph$BatteryRecord; <",
+                "> Lnet/sf/andbatdog/batterydog/BatteryGraph$GraphView;->readRecords()V <",
+                "> Lnet/sf/andbatdog/batterydog/BatteryGraph;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "net.sf.andbatdog.batterydog/net.sf.andbatdog.batterydog.BatteryGraph",
+                    "start -n"
+                ]
+            ]
+        }
+    },
+    "Lnet/sf/andbatdog/batterydog/BatteryDog_Service;->createHeadLine()Ljava/lang/String;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lnet/sf/andbatdog/batterydog/BatteryDog_Service;->logBattery(Landroid/content/Intent;)V <",
+                "> Lnet/sf/andbatdog/batterydog/BatteryDog$1;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "net.sf.andbatdog.batterydog.BatteryDog",
+                    "btStart"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lnet/sf/andbatdog/batterydog/BatteryDog_Service;->logBattery(Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "net.sf.andbatdog.batterydog/net.sf.andbatdog.batterydog.BatteryDog_Service",
+                    "start -n"
+                ]
+            ]
+        }
+    },
+    "Lnet/sf/andbatdog/batterydog/BatteryDog_Service;->unregisterReceiver(Landroid/content/BroadcastReceiver;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lnet/sf/andbatdog/batterydog/BatteryDog_Service;->onDestroy()V <",
+                "> Lnet/sf/andbatdog/batterydog/BatteryDog$1;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "net.sf.andbatdog.batterydog.BatteryDog",
+                    "btStart"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lnet/sf/andbatdog/batterydog/BatteryDog_Service;->onDestroy()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "net.sf.andbatdog.batterydog/net.sf.andbatdog.batterydog.BatteryDog_Service",
+                    "start -n"
+                ]
+            ]
+        }
+    },
+    "Lnet/sf/andbatdog/batterydog/BatteryDog_Service;->notifyService()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lnet/sf/andbatdog/batterydog/BatteryDog_Service$1;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.BATTERY_CHANGED",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lnet/sf/andbatdog/batterydog/BatteryDog_Service;->onDestroy()V <",
+                "> Lnet/sf/andbatdog/batterydog/BatteryDog$1;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "net.sf.andbatdog.batterydog.BatteryDog",
+                    "btStart"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lnet/sf/andbatdog/batterydog/BatteryDog_Service;->onDestroy()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "net.sf.andbatdog.batterydog/net.sf.andbatdog.batterydog.BatteryDog_Service",
+                    "start -n"
+                ]
+            ]
+        }
+    },
+    "Lnet/sf/andbatdog/batterydog/BatteryGraph;->onOptionsItemSelected(Landroid/view/MenuItem;)Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lnet/sf/andbatdog/batterydog/BatteryGraph;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lnet/sf/andbatdog/batterydog/BatteryDog$5;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "net.sf.andbatdog.batterydog.BatteryDog",
+                    "btGraph"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lnet/sf/andbatdog/batterydog/BatteryGraph;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "net.sf.andbatdog.batterydog/net.sf.andbatdog.batterydog.BatteryGraph",
+                    "start -n"
+                ]
+            ]
+        }
+    },
+    "Lnet/sf/andbatdog/batterydog/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lnet/sf/andbatdog/batterydog/BatteryDog$1;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "net.sf.andbatdog.batterydog.BatteryDog",
+                    "btStart"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lnet/sf/andbatdog/batterydog/BatteryDog$2;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "net.sf.andbatdog.batterydog.BatteryDog",
+                    "btStop"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lnet/sf/andbatdog/batterydog/BatteryDog;->parseLine(Ljava/lang/String;)Ljava/lang/String; <",
+                "> Lnet/sf/andbatdog/batterydog/BatteryDog;->updateLog(Z)V <",
+                "> Lnet/sf/andbatdog/batterydog/BatteryDog;->access$000(Lnet/sf/andbatdog/batterydog/BatteryDog;Z)V <",
+                "> Lnet/sf/andbatdog/batterydog/BatteryDog$3;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "net.sf.andbatdog.batterydog.BatteryDog",
+                    "btRawFormat"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lnet/sf/andbatdog/batterydog/BatteryDog;->updateLog(Z)V <",
+                "> Lnet/sf/andbatdog/batterydog/BatteryDog;->access$000(Lnet/sf/andbatdog/batterydog/BatteryDog;Z)V <",
+                "> Lnet/sf/andbatdog/batterydog/BatteryDog$3;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "net.sf.andbatdog.batterydog.BatteryDog",
+                    "btRawFormat"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lnet/sf/andbatdog/batterydog/BatteryGraph$GraphView;->readRecords()V <",
+                "> Lnet/sf/andbatdog/batterydog/BatteryGraph;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lnet/sf/andbatdog/batterydog/BatteryDog$5;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "net.sf.andbatdog.batterydog.BatteryDog",
+                    "btGraph"
+                ]
+            ]
+        },
+        "path_5": {
+            "call_sequence": [
+                "> Lnet/sf/andbatdog/batterydog/BatteryGraph$GraphView;->readRecords()V <",
+                "> Lnet/sf/andbatdog/batterydog/BatteryGraph;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "net.sf.andbatdog.batterydog/net.sf.andbatdog.batterydog.BatteryGraph",
+                    "start -n"
+                ]
+            ]
+        },
+        "path_6": {
+            "call_sequence": [
+                "> Lnet/sf/andbatdog/batterydog/BatteryDog_Service$1;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.BATTERY_CHANGED",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_7": {
+            "call_sequence": [
+                "> Lnet/sf/andbatdog/batterydog/BatteryDog_Service;->logBattery(Landroid/content/Intent;)V <",
+                "> Lnet/sf/andbatdog/batterydog/BatteryDog$1;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "net.sf.andbatdog.batterydog.BatteryDog",
+                    "btStart"
+                ]
+            ]
+        },
+        "path_8": {
+            "call_sequence": [
+                "> Lnet/sf/andbatdog/batterydog/BatteryDog_Service;->logBattery(Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "net.sf.andbatdog.batterydog/net.sf.andbatdog.batterydog.BatteryDog_Service",
+                    "start -n"
+                ]
+            ]
+        }
+    },
+    "Lnet/sf/andbatdog/batterydog/BatteryDog;->setContentView(I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lnet/sf/andbatdog/batterydog/BatteryDog;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lnet/sf/andbatdog/batterydog/BatteryDog$3;->onClick(Landroid/view/View;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lnet/sf/andbatdog/batterydog/BatteryDog$3;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "net.sf.andbatdog.batterydog.BatteryDog",
+                    "btRawFormat"
+                ]
+            ]
+        }
+    },
+    "Lnet/sf/andbatdog/batterydog/BatteryDog$4;->onClick(Landroid/view/View;)V": {
+        "path_1": {
+            "call_sequence": [
+                "> Lnet/sf/andbatdog/batterydog/BatteryDog$4;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "net.sf.andbatdog.batterydog.BatteryDog",
+                    "btShowFormated"
+                ]
+            ]
+        }
+    },
+    "Lnet/sf/andbatdog/batterydog/BatteryDog;-><init>()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lnet/sf/andbatdog/batterydog/BatteryDog;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lnet/sf/andbatdog/batterydog/BatteryDog_Service;-><init>()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lnet/sf/andbatdog/batterydog/BatteryDog_Service$2;->run()V <",
+                "> Lnet/sf/andbatdog/batterydog/BatteryDog_Service;-><init>()V <",
+                "> Lnet/sf/andbatdog/batterydog/BatteryDog$1;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "net.sf.andbatdog.batterydog.BatteryDog",
+                    "btStart"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lnet/sf/andbatdog/batterydog/BatteryDog_Service$2;->run()V <",
+                "> Lnet/sf/andbatdog/batterydog/BatteryDog_Service;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "net.sf.andbatdog.batterydog/net.sf.andbatdog.batterydog.BatteryDog_Service",
+                    "start -n"
+                ]
+            ]
+        }
+    },
+    "Lnet/sf/andbatdog/batterydog/BatteryDog_Service$1;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lnet/sf/andbatdog/batterydog/BatteryDog_Service$1;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.BATTERY_CHANGED",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Lnet/sf/andbatdog/batterydog/BatteryDog;->startService(Landroid/content/Intent;)Landroid/content/ComponentName;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lnet/sf/andbatdog/batterydog/BatteryDog$1;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "net.sf.andbatdog.batterydog.BatteryDog",
+                    "btStart"
+                ]
+            ]
+        }
+    },
+    "Lnet/sf/andbatdog/batterydog/BatteryDog_Service;->registerReceiver(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;)Landroid/content/Intent;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lnet/sf/andbatdog/batterydog/BatteryDog_Service;->onCreate()V <",
+                "> Lnet/sf/andbatdog/batterydog/BatteryDog$1;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "net.sf.andbatdog.batterydog.BatteryDog",
+                    "btStart"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lnet/sf/andbatdog/batterydog/BatteryDog_Service;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "net.sf.andbatdog.batterydog/net.sf.andbatdog.batterydog.BatteryDog_Service",
+                    "start -n"
+                ]
+            ]
+        }
+    },
+    "Lnet/sf/andbatdog/batterydog/BatteryDog;->updateLog(Z)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lnet/sf/andbatdog/batterydog/BatteryDog;->access$000(Lnet/sf/andbatdog/batterydog/BatteryDog;Z)V <",
+                "> Lnet/sf/andbatdog/batterydog/BatteryDog$3;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "net.sf.andbatdog.batterydog.BatteryDog",
+                    "btRawFormat"
+                ]
+            ]
+        }
+    },
+    "Lnet/sf/andbatdog/batterydog/BatteryDog_Service;->createBatteryInfoLine(Landroid/content/Intent;)Ljava/lang/String;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lnet/sf/andbatdog/batterydog/BatteryDog_Service;->logBattery(Landroid/content/Intent;)V <",
+                "> Lnet/sf/andbatdog/batterydog/BatteryDog$1;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "net.sf.andbatdog.batterydog.BatteryDog",
+                    "btStart"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lnet/sf/andbatdog/batterydog/BatteryDog_Service;->logBattery(Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "net.sf.andbatdog.batterydog/net.sf.andbatdog.batterydog.BatteryDog_Service",
+                    "start -n"
+                ]
+            ]
+        }
+    },
+    "Lnet/sf/andbatdog/batterydog/BatteryDog;->stopService(Landroid/content/Intent;)Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lnet/sf/andbatdog/batterydog/BatteryDog$2;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "net.sf.andbatdog.batterydog.BatteryDog",
+                    "btStop"
+                ]
+            ]
+        }
+    },
+    "Lnet/sf/andbatdog/batterydog/BatteryGraph;->setContentView(Landroid/view/View;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lnet/sf/andbatdog/batterydog/BatteryGraph;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lnet/sf/andbatdog/batterydog/BatteryDog$5;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "net.sf.andbatdog.batterydog.BatteryDog",
+                    "btGraph"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lnet/sf/andbatdog/batterydog/BatteryGraph;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "net.sf.andbatdog.batterydog/net.sf.andbatdog.batterydog.BatteryGraph",
+                    "start -n"
+                ]
+            ]
+        }
+    },
+    "Lnet/sf/andbatdog/batterydog/Log;->i(Ljava/lang/String;Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lnet/sf/andbatdog/batterydog/BatteryDog_Service;->onDestroy()V <",
+                "> Lnet/sf/andbatdog/batterydog/BatteryDog$1;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "net.sf.andbatdog.batterydog.BatteryDog",
+                    "btStart"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lnet/sf/andbatdog/batterydog/BatteryDog_Service;->onDestroy()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "net.sf.andbatdog.batterydog/net.sf.andbatdog.batterydog.BatteryDog_Service",
+                    "start -n"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lnet/sf/andbatdog/batterydog/BatteryDog_Service$2;->run()V <",
+                "> Lnet/sf/andbatdog/batterydog/BatteryDog_Service;-><init>()V <",
+                "> Lnet/sf/andbatdog/batterydog/BatteryDog$1;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "net.sf.andbatdog.batterydog.BatteryDog",
+                    "btStart"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lnet/sf/andbatdog/batterydog/BatteryDog_Service$2;->run()V <",
+                "> Lnet/sf/andbatdog/batterydog/BatteryDog_Service;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "net.sf.andbatdog.batterydog/net.sf.andbatdog.batterydog.BatteryDog_Service",
+                    "start -n"
+                ]
+            ]
+        }
+    },
+    "Lnet/sf/andbatdog/batterydog/BatteryDog;->parseLine(Ljava/lang/String;)Ljava/lang/String;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lnet/sf/andbatdog/batterydog/BatteryDog;->updateLog(Z)V <",
+                "> Lnet/sf/andbatdog/batterydog/BatteryDog;->access$000(Lnet/sf/andbatdog/batterydog/BatteryDog;Z)V <",
+                "> Lnet/sf/andbatdog/batterydog/BatteryDog$3;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "net.sf.andbatdog.batterydog.BatteryDog",
+                    "btRawFormat"
+                ]
+            ]
+        }
+    },
+    "Lnet/sf/andbatdog/batterydog/BatteryDog;->findViewById(I)Landroid/view/View;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lnet/sf/andbatdog/batterydog/BatteryDog;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lnet/sf/andbatdog/batterydog/BatteryGraph;->onTrackballEvent(Landroid/view/MotionEvent;)Z": {
+        "path_4": {
+            "call_sequence": [
+                "> Lnet/sf/andbatdog/batterydog/BatteryGraph;->onTrackballEvent(Landroid/view/MotionEvent;)Z <",
+                "> Lnet/sf/andbatdog/batterydog/BatteryDog$5;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "net.sf.andbatdog.batterydog.BatteryDog",
+                    "btGraph"
+                ]
+            ]
+        },
+        "path_5": {
+            "call_sequence": [
+                "> Lnet/sf/andbatdog/batterydog/BatteryGraph;->onTrackballEvent(Landroid/view/MotionEvent;)Z <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "net.sf.andbatdog.batterydog/net.sf.andbatdog.batterydog.BatteryGraph",
+                    "start -n"
+                ]
+            ]
+        }
+    }
+}

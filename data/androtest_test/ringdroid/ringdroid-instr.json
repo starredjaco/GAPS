@@ -1,0 +1,4178 @@
+{
+    "Lcom/ringdroid/soundfile/SoundFile$InvalidInputException;-><init>(Lcom/ringdroid/soundfile/SoundFile;Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/ringdroid/soundfile/SoundFile;->ReadFile(Ljava/io/File;)V <",
+                "> Lcom/ringdroid/soundfile/SoundFile;->create(Ljava/lang/String;Lcom/ringdroid/soundfile/SoundFile$ProgressListener;)Lcom/ringdroid/soundfile/SoundFile; <",
+                "> Lcom/ringdroid/RingdroidEditActivity$5;->run()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->loadFromFile()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ]
+            ]
+        }
+    },
+    "Lcom/ringdroid/RingdroidSelectActivity;->showFinalAlert(Ljava/lang/CharSequence;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onDelete()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->access$300(Lcom/ringdroid/RingdroidSelectActivity;)V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity$5;->onClick(Landroid/content/DialogInterface;I)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/ringdroid/soundfile/Atom;->getChild(Ljava/lang/String;)Lcom/ringdroid/soundfile/Atom;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/ringdroid/soundfile/MP4Header;->setHeader()V <",
+                "> Lcom/ringdroid/soundfile/MP4Header;-><init>(II[II)V <",
+                "> Lcom/ringdroid/soundfile/MP4Header;->getMP4Header(II[II)[B <",
+                "> Lcom/ringdroid/soundfile/SoundFile;->WriteFile(Ljava/io/File;FF)V <",
+                "> Lcom/ringdroid/soundfile/SoundFile;->WriteFile(Ljava/io/File;II)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity$15;->run()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->saveRingtone(Ljava/lang/CharSequence;)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->access$3900(Lcom/ringdroid/RingdroidEditActivity;Ljava/lang/CharSequence;)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity$19;->handleMessage(Landroid/os/Message;)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->onSave()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidEditActivity",
+                    "action_save",
+                    "Save"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/ringdroid/soundfile/Atom;->getChild(Ljava/lang/String;)Lcom/ringdroid/soundfile/Atom; <",
+                "> Lcom/ringdroid/soundfile/MP4Header;->setHeader()V <",
+                "> Lcom/ringdroid/soundfile/MP4Header;-><init>(II[II)V <",
+                "> Lcom/ringdroid/soundfile/MP4Header;->getMP4Header(II[II)[B <",
+                "> Lcom/ringdroid/soundfile/SoundFile;->WriteFile(Ljava/io/File;FF)V <",
+                "> Lcom/ringdroid/soundfile/SoundFile;->WriteFile(Ljava/io/File;II)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity$15;->run()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->saveRingtone(Ljava/lang/CharSequence;)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->access$3900(Lcom/ringdroid/RingdroidEditActivity;Ljava/lang/CharSequence;)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity$19;->handleMessage(Landroid/os/Message;)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->onSave()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidEditActivity",
+                    "action_save",
+                    "Save"
+                ]
+            ]
+        }
+    },
+    "Lcom/ringdroid/RingdroidEditActivity$12;-><init>(Lcom/ringdroid/RingdroidEditActivity;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity;-><init>()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ]
+            ]
+        }
+    },
+    "Lcom/ringdroid/soundfile/MP4Header;->getMP4Header(II[II)[B": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/ringdroid/soundfile/SoundFile;->WriteFile(Ljava/io/File;FF)V <",
+                "> Lcom/ringdroid/soundfile/SoundFile;->WriteFile(Ljava/io/File;II)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity$15;->run()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->saveRingtone(Ljava/lang/CharSequence;)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->access$3900(Lcom/ringdroid/RingdroidEditActivity;Ljava/lang/CharSequence;)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity$19;->handleMessage(Landroid/os/Message;)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->onSave()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidEditActivity",
+                    "action_save",
+                    "Save"
+                ]
+            ]
+        }
+    },
+    "Lcom/ringdroid/RingdroidEditActivity;->getIntent()Landroid/content/Intent;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ]
+            ]
+        }
+    },
+    "Lcom/ringdroid/soundfile/MP4Header;->getSTSZAtom()Lcom/ringdroid/soundfile/Atom;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/ringdroid/soundfile/MP4Header;->getSTBLAtom()Lcom/ringdroid/soundfile/Atom; <",
+                "> Lcom/ringdroid/soundfile/MP4Header;->getMINFAtom()Lcom/ringdroid/soundfile/Atom; <",
+                "> Lcom/ringdroid/soundfile/MP4Header;->getMDIAAtom()Lcom/ringdroid/soundfile/Atom; <",
+                "> Lcom/ringdroid/soundfile/MP4Header;->getTRAKAtom()Lcom/ringdroid/soundfile/Atom; <",
+                "> Lcom/ringdroid/soundfile/MP4Header;->getMOOVAtom()Lcom/ringdroid/soundfile/Atom; <",
+                "> Lcom/ringdroid/soundfile/MP4Header;->setHeader()V <",
+                "> Lcom/ringdroid/soundfile/MP4Header;-><init>(II[II)V <",
+                "> Lcom/ringdroid/soundfile/MP4Header;->getMP4Header(II[II)[B <",
+                "> Lcom/ringdroid/soundfile/SoundFile;->WriteFile(Ljava/io/File;FF)V <",
+                "> Lcom/ringdroid/soundfile/SoundFile;->WriteFile(Ljava/io/File;II)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity$15;->run()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->saveRingtone(Ljava/lang/CharSequence;)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->access$3900(Lcom/ringdroid/RingdroidEditActivity;Ljava/lang/CharSequence;)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity$19;->handleMessage(Landroid/os/Message;)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->onSave()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidEditActivity",
+                    "action_save",
+                    "Save"
+                ]
+            ]
+        }
+    },
+    "Lcom/ringdroid/ChooseContactActivity;->findViewById(I)Landroid/view/View;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/ringdroid/ChooseContactActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->chooseContactForRingtone(Landroid/view/MenuItem;)Z <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "<unknown>"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.ringdroid.ChooseContactActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/ringdroid/ChooseContactActivity;->setTitle(I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/ringdroid/ChooseContactActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->chooseContactForRingtone(Landroid/view/MenuItem;)Z <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "<unknown>"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/ringdroid/RingdroidEditActivity;->access$1400(Lcom/ringdroid/RingdroidEditActivity;)Ljava/lang/String;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity$15$3;->run()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity$15;->run()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->saveRingtone(Ljava/lang/CharSequence;)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->access$3900(Lcom/ringdroid/RingdroidEditActivity;Ljava/lang/CharSequence;)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity$19;->handleMessage(Landroid/os/Message;)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->onSave()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidEditActivity",
+                    "action_save",
+                    "Save"
+                ],
+                [
+                    "com.ringdroid.RingdroidEditActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity$9$2;->run()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity$9;->run()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->recordAudio()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ],
+                [
+                    "com.ringdroid.RingdroidEditActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity$5$2;->run()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity$5;->run()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->loadFromFile()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ],
+                [
+                    "com.ringdroid.RingdroidEditActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity$15$6;->run()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity$15;->run()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->saveRingtone(Ljava/lang/CharSequence;)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->access$3900(Lcom/ringdroid/RingdroidEditActivity;Ljava/lang/CharSequence;)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity$19;->handleMessage(Landroid/os/Message;)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->onSave()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidEditActivity",
+                    "action_save",
+                    "Save"
+                ],
+                [
+                    "com.ringdroid.RingdroidEditActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/ringdroid/SamplePlayer$1;-><init>(Lcom/ringdroid/SamplePlayer;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/ringdroid/SamplePlayer;-><init>(Ljava/nio/ShortBuffer;III)V <",
+                "> Lcom/ringdroid/SamplePlayer;-><init>(Lcom/ringdroid/soundfile/SoundFile;)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity$5;->run()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->loadFromFile()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ]
+            ]
+        }
+    },
+    "Lcom/ringdroid/WaveformView;->millisecsToPixels(I)I": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity$24;->onClick(Landroid/view/View;)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;-><init>()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ],
+                [
+                    "com.ringdroid.RingdroidEditActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.ringdroid.RingdroidEditActivity",
+                    "mark_end"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity;->updateDisplay()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidEditActivity",
+                    "action_reset",
+                    "Reset"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity;->updateDisplay()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->waveformFling(F)V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity;->updateDisplay()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->waveformZoomIn()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity;->updateDisplay()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->markerKeyUp()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ]
+            ]
+        },
+        "path_5": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity;->updateDisplay()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->markerRight(Lcom/ringdroid/MarkerView;I)V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ]
+            ]
+        },
+        "path_6": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity;->updateDisplay()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->startRingdroidEditor()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "<unknown>"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidEditActivity",
+                    "action_reset",
+                    "Reset"
+                ]
+            ]
+        },
+        "path_7": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity;->updateDisplay()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->waveformFling(F)V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->startRingdroidEditor()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_8": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity;->updateDisplay()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->waveformZoomIn()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->startRingdroidEditor()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_9": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity;->updateDisplay()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->markerKeyUp()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->startRingdroidEditor()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_10": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity;->updateDisplay()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->markerRight(Lcom/ringdroid/MarkerView;I)V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->startRingdroidEditor()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_11": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity$23;->onClick(Landroid/view/View;)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;-><init>()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ],
+                [
+                    "com.ringdroid.RingdroidEditActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.ringdroid.RingdroidEditActivity",
+                    "mark_start"
+                ]
+            ]
+        }
+    },
+    "Lcom/ringdroid/WaveformView;->pixelsToSeconds(I)D": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity;->saveRingtone(Ljava/lang/CharSequence;)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->access$3900(Lcom/ringdroid/RingdroidEditActivity;Ljava/lang/CharSequence;)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity$19;->handleMessage(Landroid/os/Message;)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->onSave()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidEditActivity",
+                    "action_save",
+                    "Save"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/ringdroid/WaveformView;->onDraw(Landroid/graphics/Canvas;)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->onConfigurationChanged(Landroid/content/res/Configuration;)V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ],
+                [
+                    "com.ringdroid.RingdroidEditActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/ringdroid/WaveformView;->onDraw(Landroid/graphics/Canvas;)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->waveformTouchEnd()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ],
+                [
+                    "com.ringdroid.RingdroidEditActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/ringdroid/WaveformView;->onDraw(Landroid/graphics/Canvas;)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->waveformZoomOut()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ],
+                [
+                    "com.ringdroid.RingdroidEditActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lcom/ringdroid/WaveformView;->onDraw(Landroid/graphics/Canvas;)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->waveformDraw()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->startRingdroidEditor()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.ringdroid.RingdroidEditActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_5": {
+            "call_sequence": [
+                "> Lcom/ringdroid/WaveformView;->onDraw(Landroid/graphics/Canvas;)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->waveformZoomIn()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->startRingdroidEditor()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.ringdroid.RingdroidEditActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_6": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity;->formatTime(I)Ljava/lang/String; <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->updateDisplay()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidEditActivity",
+                    "action_reset",
+                    "Reset"
+                ]
+            ]
+        },
+        "path_7": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity;->formatTime(I)Ljava/lang/String; <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->updateDisplay()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->waveformFling(F)V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ]
+            ]
+        },
+        "path_8": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity;->formatTime(I)Ljava/lang/String; <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->updateDisplay()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->waveformZoomIn()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ]
+            ]
+        },
+        "path_9": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity;->formatTime(I)Ljava/lang/String; <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->updateDisplay()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->markerKeyUp()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ]
+            ]
+        },
+        "path_10": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity;->formatTime(I)Ljava/lang/String; <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->updateDisplay()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->markerRight(Lcom/ringdroid/MarkerView;I)V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ]
+            ]
+        },
+        "path_11": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity;->formatTime(I)Ljava/lang/String; <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->updateDisplay()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->startRingdroidEditor()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "<unknown>"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidEditActivity",
+                    "action_reset",
+                    "Reset"
+                ]
+            ]
+        },
+        "path_12": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity;->formatTime(I)Ljava/lang/String; <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->updateDisplay()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->waveformFling(F)V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->startRingdroidEditor()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_13": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity;->formatTime(I)Ljava/lang/String; <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->updateDisplay()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->waveformZoomIn()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->startRingdroidEditor()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_14": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity;->formatTime(I)Ljava/lang/String; <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->updateDisplay()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->markerKeyUp()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->startRingdroidEditor()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_15": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity;->formatTime(I)Ljava/lang/String; <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->updateDisplay()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->markerRight(Lcom/ringdroid/MarkerView;I)V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->startRingdroidEditor()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/ringdroid/SamplePlayer;->isPaused()Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/ringdroid/SamplePlayer;->stop()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->onDestroy()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity;->onDestroy()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ]
+            ]
+        }
+    },
+    "Lcom/ringdroid/soundfile/MP4Header;->getSTBLAtom()Lcom/ringdroid/soundfile/Atom;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/ringdroid/soundfile/MP4Header;->getMINFAtom()Lcom/ringdroid/soundfile/Atom; <",
+                "> Lcom/ringdroid/soundfile/MP4Header;->getMDIAAtom()Lcom/ringdroid/soundfile/Atom; <",
+                "> Lcom/ringdroid/soundfile/MP4Header;->getTRAKAtom()Lcom/ringdroid/soundfile/Atom; <",
+                "> Lcom/ringdroid/soundfile/MP4Header;->getMOOVAtom()Lcom/ringdroid/soundfile/Atom; <",
+                "> Lcom/ringdroid/soundfile/MP4Header;->setHeader()V <",
+                "> Lcom/ringdroid/soundfile/MP4Header;-><init>(II[II)V <",
+                "> Lcom/ringdroid/soundfile/MP4Header;->getMP4Header(II[II)[B <",
+                "> Lcom/ringdroid/soundfile/SoundFile;->WriteFile(Ljava/io/File;FF)V <",
+                "> Lcom/ringdroid/soundfile/SoundFile;->WriteFile(Ljava/io/File;II)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity$15;->run()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->saveRingtone(Ljava/lang/CharSequence;)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->access$3900(Lcom/ringdroid/RingdroidEditActivity;Ljava/lang/CharSequence;)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity$19;->handleMessage(Landroid/os/Message;)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->onSave()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidEditActivity",
+                    "action_save",
+                    "Save"
+                ]
+            ]
+        }
+    },
+    "Lcom/ringdroid/RingdroidEditActivity;->access$3300(Lcom/ringdroid/RingdroidEditActivity;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity$13;->onCompletion()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->onPlay(I)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->waveformTouchEnd()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity$13;->onCompletion()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->onPlay(I)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->waveformTouchEnd()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->startRingdroidEditor()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity$24;->onClick(Landroid/view/View;)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;-><init>()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ],
+                [
+                    "com.ringdroid.RingdroidEditActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.ringdroid.RingdroidEditActivity",
+                    "mark_end"
+                ]
+            ]
+        }
+    },
+    "Lcom/ringdroid/ChooseContactActivity;->getIntent()Landroid/content/Intent;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/ringdroid/ChooseContactActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->chooseContactForRingtone(Landroid/view/MenuItem;)Z <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "<unknown>"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/ringdroid/WaveformView;->setListener(Lcom/ringdroid/WaveformView$WaveformListener;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity;->loadGui()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->onConfigurationChanged(Landroid/content/res/Configuration;)V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ],
+                [
+                    "com.ringdroid.RingdroidEditActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity;->loadGui()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->onConfigurationChanged(Landroid/content/res/Configuration;)V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->startRingdroidEditor()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.ringdroid.RingdroidEditActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/ringdroid/SongMetadataReader;->getIntegerFromColumn(Landroid/database/Cursor;Ljava/lang/String;)I": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/ringdroid/SongMetadataReader;->ReadMetadata()V <",
+                "> Lcom/ringdroid/SongMetadataReader;-><init>(Landroid/app/Activity;Ljava/lang/String;)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->loadFromFile()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ]
+            ]
+        }
+    },
+    "Lcom/ringdroid/RingdroidEditActivity;->access$600(Lcom/ringdroid/RingdroidEditActivity;)J": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity$4;->reportProgress(D)Z <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->loadFromFile()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity$8;->reportProgress(D)Z <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->recordAudio()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ],
+                [
+                    "com.ringdroid.RingdroidEditActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/ringdroid/RingdroidEditActivity;->access$1800(Lcom/ringdroid/RingdroidEditActivity;)J": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity$8;->reportProgress(D)Z <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->recordAudio()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ],
+                [
+                    "com.ringdroid.RingdroidEditActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/ringdroid/RingdroidEditActivity$9$2;-><init>(Lcom/ringdroid/RingdroidEditActivity$9;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity$9;->run()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->recordAudio()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ],
+                [
+                    "com.ringdroid.RingdroidEditActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/ringdroid/RingdroidEditActivity;->access$100(Lcom/ringdroid/RingdroidEditActivity;)Lcom/ringdroid/WaveformView;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity$24;->onClick(Landroid/view/View;)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;-><init>()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ],
+                [
+                    "com.ringdroid.RingdroidEditActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.ringdroid.RingdroidEditActivity",
+                    "mark_end"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity$25;->afterTextChanged(Landroid/text/Editable;)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;-><init>()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ],
+                [
+                    "com.ringdroid.RingdroidEditActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity$23;->onClick(Landroid/view/View;)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;-><init>()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ],
+                [
+                    "com.ringdroid.RingdroidEditActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.ringdroid.RingdroidEditActivity",
+                    "mark_start"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity$1;->run()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->onConfigurationChanged(Landroid/content/res/Configuration;)V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ]
+            ]
+        }
+    },
+    "Lcom/ringdroid/soundfile/MP4Header;->getESDSAtom()Lcom/ringdroid/soundfile/Atom;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/ringdroid/soundfile/MP4Header;->getMP4AAtom()Lcom/ringdroid/soundfile/Atom; <",
+                "> Lcom/ringdroid/soundfile/MP4Header;->getSTSDAtom()Lcom/ringdroid/soundfile/Atom; <",
+                "> Lcom/ringdroid/soundfile/MP4Header;->getSTBLAtom()Lcom/ringdroid/soundfile/Atom; <",
+                "> Lcom/ringdroid/soundfile/MP4Header;->getMINFAtom()Lcom/ringdroid/soundfile/Atom; <",
+                "> Lcom/ringdroid/soundfile/MP4Header;->getMDIAAtom()Lcom/ringdroid/soundfile/Atom; <",
+                "> Lcom/ringdroid/soundfile/MP4Header;->getTRAKAtom()Lcom/ringdroid/soundfile/Atom; <",
+                "> Lcom/ringdroid/soundfile/MP4Header;->getMOOVAtom()Lcom/ringdroid/soundfile/Atom; <",
+                "> Lcom/ringdroid/soundfile/MP4Header;->setHeader()V <",
+                "> Lcom/ringdroid/soundfile/MP4Header;-><init>(II[II)V <",
+                "> Lcom/ringdroid/soundfile/MP4Header;->getMP4Header(II[II)[B <",
+                "> Lcom/ringdroid/soundfile/SoundFile;->WriteFile(Ljava/io/File;FF)V <",
+                "> Lcom/ringdroid/soundfile/SoundFile;->WriteFile(Ljava/io/File;II)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity$15;->run()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->saveRingtone(Ljava/lang/CharSequence;)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->access$3900(Lcom/ringdroid/RingdroidEditActivity;Ljava/lang/CharSequence;)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity$19;->handleMessage(Landroid/os/Message;)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->onSave()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidEditActivity",
+                    "action_save",
+                    "Save"
+                ]
+            ]
+        }
+    },
+    "Lcom/ringdroid/RingdroidSelectActivity;->registerForContextMenu(Landroid/view/View;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/ringdroid/SongMetadataReader;->makeGenreUri(Ljava/lang/String;)Landroid/net/Uri;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/ringdroid/SongMetadataReader;->ReadMetadata()V <",
+                "> Lcom/ringdroid/SongMetadataReader;-><init>(Landroid/app/Activity;Ljava/lang/String;)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->loadFromFile()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ]
+            ]
+        }
+    },
+    "Lcom/ringdroid/RingdroidEditActivity$8$1;-><init>(Lcom/ringdroid/RingdroidEditActivity$8;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity$8;->reportProgress(D)Z <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->recordAudio()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ],
+                [
+                    "com.ringdroid.RingdroidEditActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/ringdroid/MarkerView;->setListener(Lcom/ringdroid/MarkerView$MarkerListener;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity;->loadGui()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->onConfigurationChanged(Landroid/content/res/Configuration;)V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ],
+                [
+                    "com.ringdroid.RingdroidEditActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity;->loadGui()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->onConfigurationChanged(Landroid/content/res/Configuration;)V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->startRingdroidEditor()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.ringdroid.RingdroidEditActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/ringdroid/RingdroidEditActivity;->access$1200(Lcom/ringdroid/RingdroidEditActivity;)Landroid/os/Handler;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity$15;->run()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->saveRingtone(Ljava/lang/CharSequence;)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->access$3900(Lcom/ringdroid/RingdroidEditActivity;Ljava/lang/CharSequence;)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity$19;->handleMessage(Landroid/os/Message;)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->onSave()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidEditActivity",
+                    "action_save",
+                    "Save"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity$12;->run()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;-><init>()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ],
+                [
+                    "com.ringdroid.RingdroidEditActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity$5;->run()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->loadFromFile()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity$9;->run()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->recordAudio()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ],
+                [
+                    "com.ringdroid.RingdroidEditActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/ringdroid/soundfile/MP4Header;->getSTTSAtom()Lcom/ringdroid/soundfile/Atom;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/ringdroid/soundfile/MP4Header;->getSTBLAtom()Lcom/ringdroid/soundfile/Atom; <",
+                "> Lcom/ringdroid/soundfile/MP4Header;->getMINFAtom()Lcom/ringdroid/soundfile/Atom; <",
+                "> Lcom/ringdroid/soundfile/MP4Header;->getMDIAAtom()Lcom/ringdroid/soundfile/Atom; <",
+                "> Lcom/ringdroid/soundfile/MP4Header;->getTRAKAtom()Lcom/ringdroid/soundfile/Atom; <",
+                "> Lcom/ringdroid/soundfile/MP4Header;->getMOOVAtom()Lcom/ringdroid/soundfile/Atom; <",
+                "> Lcom/ringdroid/soundfile/MP4Header;->setHeader()V <",
+                "> Lcom/ringdroid/soundfile/MP4Header;-><init>(II[II)V <",
+                "> Lcom/ringdroid/soundfile/MP4Header;->getMP4Header(II[II)[B <",
+                "> Lcom/ringdroid/soundfile/SoundFile;->WriteFile(Ljava/io/File;FF)V <",
+                "> Lcom/ringdroid/soundfile/SoundFile;->WriteFile(Ljava/io/File;II)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity$15;->run()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->saveRingtone(Ljava/lang/CharSequence;)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->access$3900(Lcom/ringdroid/RingdroidEditActivity;Ljava/lang/CharSequence;)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity$19;->handleMessage(Landroid/os/Message;)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->onSave()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidEditActivity",
+                    "action_save",
+                    "Save"
+                ]
+            ]
+        }
+    },
+    "Lcom/ringdroid/soundfile/Atom;->getBytes()[B": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/ringdroid/soundfile/MP4Header;->setHeader()V <",
+                "> Lcom/ringdroid/soundfile/MP4Header;-><init>(II[II)V <",
+                "> Lcom/ringdroid/soundfile/MP4Header;->getMP4Header(II[II)[B <",
+                "> Lcom/ringdroid/soundfile/SoundFile;->WriteFile(Ljava/io/File;FF)V <",
+                "> Lcom/ringdroid/soundfile/SoundFile;->WriteFile(Ljava/io/File;II)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity$15;->run()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->saveRingtone(Ljava/lang/CharSequence;)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->access$3900(Lcom/ringdroid/RingdroidEditActivity;Ljava/lang/CharSequence;)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity$19;->handleMessage(Landroid/os/Message;)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->onSave()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidEditActivity",
+                    "action_save",
+                    "Save"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/ringdroid/soundfile/Atom;->getBytes()[B <",
+                "> Lcom/ringdroid/soundfile/MP4Header;->setHeader()V <",
+                "> Lcom/ringdroid/soundfile/MP4Header;-><init>(II[II)V <",
+                "> Lcom/ringdroid/soundfile/MP4Header;->getMP4Header(II[II)[B <",
+                "> Lcom/ringdroid/soundfile/SoundFile;->WriteFile(Ljava/io/File;FF)V <",
+                "> Lcom/ringdroid/soundfile/SoundFile;->WriteFile(Ljava/io/File;II)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity$15;->run()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->saveRingtone(Ljava/lang/CharSequence;)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->access$3900(Lcom/ringdroid/RingdroidEditActivity;Ljava/lang/CharSequence;)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity$19;->handleMessage(Landroid/os/Message;)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->onSave()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidEditActivity",
+                    "action_save",
+                    "Save"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/ringdroid/soundfile/MP4Header;->getDREFAtom()Lcom/ringdroid/soundfile/Atom; <",
+                "> Lcom/ringdroid/soundfile/MP4Header;->getDINFAtom()Lcom/ringdroid/soundfile/Atom; <",
+                "> Lcom/ringdroid/soundfile/MP4Header;->getMINFAtom()Lcom/ringdroid/soundfile/Atom; <",
+                "> Lcom/ringdroid/soundfile/MP4Header;->getMDIAAtom()Lcom/ringdroid/soundfile/Atom; <",
+                "> Lcom/ringdroid/soundfile/MP4Header;->getTRAKAtom()Lcom/ringdroid/soundfile/Atom; <",
+                "> Lcom/ringdroid/soundfile/MP4Header;->getMOOVAtom()Lcom/ringdroid/soundfile/Atom; <",
+                "> Lcom/ringdroid/soundfile/MP4Header;->setHeader()V <",
+                "> Lcom/ringdroid/soundfile/MP4Header;-><init>(II[II)V <",
+                "> Lcom/ringdroid/soundfile/MP4Header;->getMP4Header(II[II)[B <",
+                "> Lcom/ringdroid/soundfile/SoundFile;->WriteFile(Ljava/io/File;FF)V <",
+                "> Lcom/ringdroid/soundfile/SoundFile;->WriteFile(Ljava/io/File;II)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity$15;->run()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->saveRingtone(Ljava/lang/CharSequence;)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->access$3900(Lcom/ringdroid/RingdroidEditActivity;Ljava/lang/CharSequence;)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity$19;->handleMessage(Landroid/os/Message;)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->onSave()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidEditActivity",
+                    "action_save",
+                    "Save"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/ringdroid/soundfile/MP4Header;->getMP4AAtom()Lcom/ringdroid/soundfile/Atom; <",
+                "> Lcom/ringdroid/soundfile/MP4Header;->getSTSDAtom()Lcom/ringdroid/soundfile/Atom; <",
+                "> Lcom/ringdroid/soundfile/MP4Header;->getSTBLAtom()Lcom/ringdroid/soundfile/Atom; <",
+                "> Lcom/ringdroid/soundfile/MP4Header;->getMINFAtom()Lcom/ringdroid/soundfile/Atom; <",
+                "> Lcom/ringdroid/soundfile/MP4Header;->getMDIAAtom()Lcom/ringdroid/soundfile/Atom; <",
+                "> Lcom/ringdroid/soundfile/MP4Header;->getTRAKAtom()Lcom/ringdroid/soundfile/Atom; <",
+                "> Lcom/ringdroid/soundfile/MP4Header;->getMOOVAtom()Lcom/ringdroid/soundfile/Atom; <",
+                "> Lcom/ringdroid/soundfile/MP4Header;->setHeader()V <",
+                "> Lcom/ringdroid/soundfile/MP4Header;-><init>(II[II)V <",
+                "> Lcom/ringdroid/soundfile/MP4Header;->getMP4Header(II[II)[B <",
+                "> Lcom/ringdroid/soundfile/SoundFile;->WriteFile(Ljava/io/File;FF)V <",
+                "> Lcom/ringdroid/soundfile/SoundFile;->WriteFile(Ljava/io/File;II)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity$15;->run()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->saveRingtone(Ljava/lang/CharSequence;)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->access$3900(Lcom/ringdroid/RingdroidEditActivity;Ljava/lang/CharSequence;)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity$19;->handleMessage(Landroid/os/Message;)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->onSave()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidEditActivity",
+                    "action_save",
+                    "Save"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lcom/ringdroid/soundfile/MP4Header;->getSTSDAtom()Lcom/ringdroid/soundfile/Atom; <",
+                "> Lcom/ringdroid/soundfile/MP4Header;->getSTBLAtom()Lcom/ringdroid/soundfile/Atom; <",
+                "> Lcom/ringdroid/soundfile/MP4Header;->getMINFAtom()Lcom/ringdroid/soundfile/Atom; <",
+                "> Lcom/ringdroid/soundfile/MP4Header;->getMDIAAtom()Lcom/ringdroid/soundfile/Atom; <",
+                "> Lcom/ringdroid/soundfile/MP4Header;->getTRAKAtom()Lcom/ringdroid/soundfile/Atom; <",
+                "> Lcom/ringdroid/soundfile/MP4Header;->getMOOVAtom()Lcom/ringdroid/soundfile/Atom; <",
+                "> Lcom/ringdroid/soundfile/MP4Header;->setHeader()V <",
+                "> Lcom/ringdroid/soundfile/MP4Header;-><init>(II[II)V <",
+                "> Lcom/ringdroid/soundfile/MP4Header;->getMP4Header(II[II)[B <",
+                "> Lcom/ringdroid/soundfile/SoundFile;->WriteFile(Ljava/io/File;FF)V <",
+                "> Lcom/ringdroid/soundfile/SoundFile;->WriteFile(Ljava/io/File;II)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity$15;->run()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->saveRingtone(Ljava/lang/CharSequence;)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->access$3900(Lcom/ringdroid/RingdroidEditActivity;Ljava/lang/CharSequence;)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity$19;->handleMessage(Landroid/os/Message;)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->onSave()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidEditActivity",
+                    "action_save",
+                    "Save"
+                ]
+            ]
+        }
+    },
+    "Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ]
+            ]
+        }
+    },
+    "Lcom/ringdroid/WaveformView;->setParameters(III)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity;->updateDisplay()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidEditActivity",
+                    "action_reset",
+                    "Reset"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity;->updateDisplay()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->waveformFling(F)V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity;->updateDisplay()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->waveformZoomIn()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity;->updateDisplay()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->markerKeyUp()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity;->updateDisplay()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->markerRight(Lcom/ringdroid/MarkerView;I)V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ]
+            ]
+        },
+        "path_5": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity;->updateDisplay()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->startRingdroidEditor()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "<unknown>"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidEditActivity",
+                    "action_reset",
+                    "Reset"
+                ]
+            ]
+        },
+        "path_6": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity;->updateDisplay()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->waveformFling(F)V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->startRingdroidEditor()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_7": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity;->updateDisplay()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->waveformZoomIn()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->startRingdroidEditor()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_8": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity;->updateDisplay()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->markerKeyUp()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->startRingdroidEditor()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_9": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity;->updateDisplay()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->markerRight(Lcom/ringdroid/MarkerView;I)V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->startRingdroidEditor()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/ringdroid/RingdroidEditActivity;->access$1300(Lcom/ringdroid/RingdroidEditActivity;)Lcom/ringdroid/SamplePlayer;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity$24;->onClick(Landroid/view/View;)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;-><init>()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ],
+                [
+                    "com.ringdroid.RingdroidEditActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.ringdroid.RingdroidEditActivity",
+                    "mark_end"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity$21;->onClick(Landroid/view/View;)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;-><init>()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ],
+                [
+                    "com.ringdroid.RingdroidEditActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.ringdroid.RingdroidEditActivity",
+                    "rew"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity$22;->onClick(Landroid/view/View;)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;-><init>()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ],
+                [
+                    "com.ringdroid.RingdroidEditActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.ringdroid.RingdroidEditActivity",
+                    "ffwd"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity$23;->onClick(Landroid/view/View;)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;-><init>()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ],
+                [
+                    "com.ringdroid.RingdroidEditActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.ringdroid.RingdroidEditActivity",
+                    "mark_start"
+                ]
+            ]
+        }
+    },
+    "Lcom/ringdroid/MarkerView$MarkerListener;->markerLeft(Lcom/ringdroid/MarkerView;I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/ringdroid/MarkerView;->onKeyDown(ILandroid/view/KeyEvent;)Z <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->markerLeft(Lcom/ringdroid/MarkerView;I)V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ],
+                [
+                    "com.ringdroid.RingdroidEditActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/ringdroid/MarkerView;->onKeyDown(ILandroid/view/KeyEvent;)Z <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->markerTouchEnd(Lcom/ringdroid/MarkerView;)V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ],
+                [
+                    "com.ringdroid.RingdroidEditActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/ringdroid/MarkerView;->onKeyDown(ILandroid/view/KeyEvent;)Z <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->markerLeft(Lcom/ringdroid/MarkerView;I)V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->startRingdroidEditor()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.ringdroid.RingdroidEditActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/ringdroid/MarkerView;->onKeyDown(ILandroid/view/KeyEvent;)Z <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->markerTouchEnd(Lcom/ringdroid/MarkerView;)V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->startRingdroidEditor()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.ringdroid.RingdroidEditActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/ringdroid/RingdroidEditActivity;->access$1402(Lcom/ringdroid/RingdroidEditActivity;Ljava/lang/String;)Ljava/lang/String;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity$15;->run()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->saveRingtone(Ljava/lang/CharSequence;)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->access$3900(Lcom/ringdroid/RingdroidEditActivity;Ljava/lang/CharSequence;)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity$19;->handleMessage(Landroid/os/Message;)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->onSave()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidEditActivity",
+                    "action_save",
+                    "Save"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity$5;->run()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->loadFromFile()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity$9;->run()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->recordAudio()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ],
+                [
+                    "com.ringdroid.RingdroidEditActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/ringdroid/RingdroidEditActivity;->access$3600(Lcom/ringdroid/RingdroidEditActivity;Ljava/lang/CharSequence;Ljava/lang/String;I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity$15$8;->run()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity$15;->run()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->saveRingtone(Ljava/lang/CharSequence;)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->access$3900(Lcom/ringdroid/RingdroidEditActivity;Ljava/lang/CharSequence;)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity$19;->handleMessage(Landroid/os/Message;)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->onSave()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidEditActivity",
+                    "action_save",
+                    "Save"
+                ]
+            ]
+        }
+    },
+    "Lcom/ringdroid/RingdroidSelectActivity;->getLoaderManager()Landroid/app/LoaderManager;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidSelectActivity;->refreshListView()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_show_all_audio",
+                    "Show All Audio"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/ringdroid/RingdroidEditActivity;->getCurrentTime()J": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity;->loadFromFile()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity;->recordAudio()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity;->waveformTouchEnd()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity;->waveformTouchStart(F)V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity;->access$600(Lcom/ringdroid/RingdroidEditActivity;)J <",
+                "> Lcom/ringdroid/RingdroidEditActivity$4;->reportProgress(D)Z <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->loadFromFile()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ]
+            ]
+        }
+    },
+    "Lcom/ringdroid/ChooseContactActivity;->finish()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/ringdroid/ChooseContactActivity;->assignRingtoneToContact()V <",
+                "> Lcom/ringdroid/ChooseContactActivity;->access$000(Lcom/ringdroid/ChooseContactActivity;)V <",
+                "> Lcom/ringdroid/ChooseContactActivity$2;->onItemClick(Landroid/widget/AdapterView;Landroid/view/View;IJ)V <",
+                "> Lcom/ringdroid/ChooseContactActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->chooseContactForRingtone(Landroid/view/MenuItem;)Z <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "<unknown>"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.ringdroid.ChooseContactActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/ringdroid/MarkerView;->getHeight()I": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity;->updateDisplay()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidEditActivity",
+                    "action_reset",
+                    "Reset"
+                ],
+                [
+                    "com.ringdroid.RingdroidEditActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity;->updateDisplay()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->waveformFling(F)V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ],
+                [
+                    "com.ringdroid.RingdroidEditActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity;->updateDisplay()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->waveformZoomIn()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ],
+                [
+                    "com.ringdroid.RingdroidEditActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity;->updateDisplay()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->markerKeyUp()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ],
+                [
+                    "com.ringdroid.RingdroidEditActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity;->updateDisplay()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->markerRight(Lcom/ringdroid/MarkerView;I)V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ],
+                [
+                    "com.ringdroid.RingdroidEditActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_5": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity;->updateDisplay()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->startRingdroidEditor()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "<unknown>"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidEditActivity",
+                    "action_reset",
+                    "Reset"
+                ],
+                [
+                    "com.ringdroid.RingdroidEditActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_6": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity;->updateDisplay()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->waveformFling(F)V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->startRingdroidEditor()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.ringdroid.RingdroidEditActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_7": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity;->updateDisplay()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->waveformZoomIn()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->startRingdroidEditor()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.ringdroid.RingdroidEditActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_8": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity;->updateDisplay()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->markerKeyUp()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->startRingdroidEditor()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.ringdroid.RingdroidEditActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_9": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity;->updateDisplay()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->markerRight(Lcom/ringdroid/MarkerView;I)V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->startRingdroidEditor()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.ringdroid.RingdroidEditActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/ringdroid/SamplePlayer;->access$200(Lcom/ringdroid/SamplePlayer;)I": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/ringdroid/SamplePlayer$2;->run()V <",
+                "> Lcom/ringdroid/SamplePlayer;->start()V <",
+                "> Lcom/ringdroid/SamplePlayer;->seekTo(I)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->waveformTouchEnd()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/ringdroid/SamplePlayer$2;->run()V <",
+                "> Lcom/ringdroid/SamplePlayer;->start()V <",
+                "> Lcom/ringdroid/SamplePlayer;->seekTo(I)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->waveformTouchEnd()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->startRingdroidEditor()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/ringdroid/RingdroidEditActivity;->access$000(Lcom/ringdroid/RingdroidEditActivity;)Lcom/ringdroid/MarkerView;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity$10;->run()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->updateDisplay()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidEditActivity",
+                    "action_reset",
+                    "Reset"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity$10;->run()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->updateDisplay()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->waveformFling(F)V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity$10;->run()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->updateDisplay()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->waveformZoomIn()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity$10;->run()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->updateDisplay()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->markerKeyUp()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity$10;->run()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->updateDisplay()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->markerRight(Lcom/ringdroid/MarkerView;I)V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ]
+            ]
+        },
+        "path_5": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity$10;->run()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->updateDisplay()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->startRingdroidEditor()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "<unknown>"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidEditActivity",
+                    "action_reset",
+                    "Reset"
+                ]
+            ]
+        },
+        "path_6": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity$10;->run()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->updateDisplay()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->waveformFling(F)V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->startRingdroidEditor()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_7": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity$10;->run()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->updateDisplay()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->waveformZoomIn()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->startRingdroidEditor()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_8": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity$10;->run()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->updateDisplay()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->markerKeyUp()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->startRingdroidEditor()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_9": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity$10;->run()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->updateDisplay()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->markerRight(Lcom/ringdroid/MarkerView;I)V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->startRingdroidEditor()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_10": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity$21;->onClick(Landroid/view/View;)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;-><init>()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ],
+                [
+                    "com.ringdroid.RingdroidEditActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.ringdroid.RingdroidEditActivity",
+                    "rew"
+                ]
+            ]
+        },
+        "path_11": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity$1;->run()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->onConfigurationChanged(Landroid/content/res/Configuration;)V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ]
+            ]
+        }
+    },
+    "Lcom/ringdroid/RingdroidEditActivity;->finish()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity$17;->onClick(Landroid/content/DialogInterface;I)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->afterSavingRingtone(Ljava/lang/CharSequence;Ljava/lang/String;I)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->access$3600(Lcom/ringdroid/RingdroidEditActivity;Ljava/lang/CharSequence;Ljava/lang/String;I)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity$15$8;->run()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity$15;->run()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->saveRingtone(Ljava/lang/CharSequence;)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->access$3900(Lcom/ringdroid/RingdroidEditActivity;Ljava/lang/CharSequence;)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity$19;->handleMessage(Landroid/os/Message;)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->onSave()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidEditActivity",
+                    "action_save",
+                    "Save"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity$18;->handleMessage(Landroid/os/Message;)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->afterSavingRingtone(Ljava/lang/CharSequence;Ljava/lang/String;I)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->access$3600(Lcom/ringdroid/RingdroidEditActivity;Ljava/lang/CharSequence;Ljava/lang/String;I)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity$15$8;->run()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity$15;->run()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->saveRingtone(Ljava/lang/CharSequence;)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->access$3900(Lcom/ringdroid/RingdroidEditActivity;Ljava/lang/CharSequence;)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity$19;->handleMessage(Landroid/os/Message;)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->onSave()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidEditActivity",
+                    "action_save",
+                    "Save"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity;->onActivityResult(IILandroid/content/Intent;)V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity$5;->run()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->loadFromFile()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity$14;->onClick(Landroid/content/DialogInterface;I)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->showFinalAlert(Ljava/lang/Exception;Ljava/lang/CharSequence;)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->showFinalAlert(Ljava/lang/Exception;I)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->onPlay(I)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->waveformTouchEnd()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ]
+            ]
+        },
+        "path_5": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity$14;->onClick(Landroid/content/DialogInterface;I)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->showFinalAlert(Ljava/lang/Exception;Ljava/lang/CharSequence;)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->showFinalAlert(Ljava/lang/Exception;I)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->onPlay(I)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->waveformTouchEnd()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->startRingdroidEditor()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_6": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity$9;->run()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->recordAudio()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ],
+                [
+                    "com.ringdroid.RingdroidEditActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_7": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity;->afterSavingRingtone(Ljava/lang/CharSequence;Ljava/lang/String;I)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->access$3600(Lcom/ringdroid/RingdroidEditActivity;Ljava/lang/CharSequence;Ljava/lang/String;I)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity$15$8;->run()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity$15;->run()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->saveRingtone(Ljava/lang/CharSequence;)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->access$3900(Lcom/ringdroid/RingdroidEditActivity;Ljava/lang/CharSequence;)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity$19;->handleMessage(Landroid/os/Message;)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->onSave()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidEditActivity",
+                    "action_save",
+                    "Save"
+                ]
+            ]
+        },
+        "path_8": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity$16;->onClick(Landroid/content/DialogInterface;I)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->afterSavingRingtone(Ljava/lang/CharSequence;Ljava/lang/String;I)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->access$3600(Lcom/ringdroid/RingdroidEditActivity;Ljava/lang/CharSequence;Ljava/lang/String;I)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity$15$8;->run()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity$15;->run()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->saveRingtone(Ljava/lang/CharSequence;)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->access$3900(Lcom/ringdroid/RingdroidEditActivity;Ljava/lang/CharSequence;)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity$19;->handleMessage(Landroid/os/Message;)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->onSave()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidEditActivity",
+                    "action_save",
+                    "Save"
+                ]
+            ]
+        }
+    },
+    "Lcom/ringdroid/RingdroidSelectActivity$5;-><init>(Lcom/ringdroid/RingdroidSelectActivity;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidSelectActivity;->confirmDelete()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/ringdroid/soundfile/SoundFile;->getNumSamples()I": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/ringdroid/SamplePlayer;-><init>(Lcom/ringdroid/soundfile/SoundFile;)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity$5;->run()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->loadFromFile()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ]
+            ]
+        }
+    },
+    "Lcom/ringdroid/WaveformView;->getEnd()I": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity;->waveformZoomIn()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity;->waveformZoomOut()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ]
+            ]
+        }
+    },
+    "Lcom/ringdroid/RingdroidEditActivity;->access$2000(Lcom/ringdroid/RingdroidEditActivity;)Landroid/widget/TextView;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/ringdroid/RingdroidEditActivity$8$1;->run()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity$8;->reportProgress(D)Z <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->recordAudio()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ],
+                [
+                    "com.ringdroid.RingdroidEditActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/ringdroid/soundfile/SoundFile;->RecordAudio()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/ringdroid/soundfile/SoundFile;->record(Lcom/ringdroid/soundfile/SoundFile$ProgressListener;)Lcom/ringdroid/soundfile/SoundFile; <",
+                "> Lcom/ringdroid/RingdroidEditActivity$9;->run()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->recordAudio()V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ],
+                [
+                    "com.ringdroid.RingdroidEditActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/ringdroid/WaveformView;->access$000(Lcom/ringdroid/WaveformView;)Lcom/ringdroid/WaveformView$WaveformListener;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/ringdroid/WaveformView$1;->onFling(Landroid/view/MotionEvent;Landroid/view/MotionEvent;FF)Z <",
+                "> Lcom/ringdroid/WaveformView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->onConfigurationChanged(Landroid/content/res/Configuration;)V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ],
+                [
+                    "com.ringdroid.RingdroidEditActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/ringdroid/WaveformView$1;->onFling(Landroid/view/MotionEvent;Landroid/view/MotionEvent;FF)Z <",
+                "> Lcom/ringdroid/WaveformView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->waveformTouchEnd()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ],
+                [
+                    "com.ringdroid.RingdroidEditActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/ringdroid/WaveformView$1;->onFling(Landroid/view/MotionEvent;Landroid/view/MotionEvent;FF)Z <",
+                "> Lcom/ringdroid/WaveformView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->waveformZoomOut()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ],
+                [
+                    "com.ringdroid.RingdroidEditActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/ringdroid/WaveformView$1;->onFling(Landroid/view/MotionEvent;Landroid/view/MotionEvent;FF)Z <",
+                "> Lcom/ringdroid/WaveformView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->waveformDraw()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->startRingdroidEditor()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.ringdroid.RingdroidEditActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lcom/ringdroid/WaveformView$1;->onFling(Landroid/view/MotionEvent;Landroid/view/MotionEvent;FF)Z <",
+                "> Lcom/ringdroid/WaveformView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->waveformZoomIn()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->startRingdroidEditor()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.ringdroid.RingdroidEditActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_5": {
+            "call_sequence": [
+                "> Lcom/ringdroid/WaveformView$2;->onScale(Landroid/view/ScaleGestureDetector;)Z <",
+                "> Lcom/ringdroid/WaveformView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->onConfigurationChanged(Landroid/content/res/Configuration;)V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ],
+                [
+                    "com.ringdroid.RingdroidEditActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_6": {
+            "call_sequence": [
+                "> Lcom/ringdroid/WaveformView$2;->onScale(Landroid/view/ScaleGestureDetector;)Z <",
+                "> Lcom/ringdroid/WaveformView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->waveformTouchEnd()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ],
+                [
+                    "com.ringdroid.RingdroidEditActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_7": {
+            "call_sequence": [
+                "> Lcom/ringdroid/WaveformView$2;->onScale(Landroid/view/ScaleGestureDetector;)Z <",
+                "> Lcom/ringdroid/WaveformView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->waveformZoomOut()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onRecord()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "action_record",
+                    "Record New"
+                ],
+                [
+                    "com.ringdroid.RingdroidEditActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_8": {
+            "call_sequence": [
+                "> Lcom/ringdroid/WaveformView$2;->onScale(Landroid/view/ScaleGestureDetector;)Z <",
+                "> Lcom/ringdroid/WaveformView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->waveformDraw()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->startRingdroidEditor()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.ringdroid.RingdroidEditActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_9": {
+            "call_sequence": [
+                "> Lcom/ringdroid/WaveformView$2;->onScale(Landroid/view/ScaleGestureDetector;)Z <",
+                "> Lcom/ringdroid/WaveformView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V <",
+                "> Lcom/ringdroid/RingdroidEditActivity;->waveformZoomIn()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->startRingdroidEditor()V <",
+                "> Lcom/ringdroid/RingdroidSelectActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.ringdroid.RingdroidSelectActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.ringdroid.RingdroidEditActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    }
+}

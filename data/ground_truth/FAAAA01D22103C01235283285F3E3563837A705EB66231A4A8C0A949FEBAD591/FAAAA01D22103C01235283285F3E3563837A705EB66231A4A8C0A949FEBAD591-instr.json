@@ -1,0 +1,252 @@
+{
+    "Lch/mobilemed/echo112/MainActivity;->onNewIntent(Landroid/content/Intent;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lch/mobilemed/echo112/MainActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lch/mobilemed/echo112/net/push/PushService;->D(Ljava/lang/String;)Ljava/lang/Void;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lch/mobilemed/echo112/net/push/PushService;->v(Ljava/lang/String;)Ljava/lang/Void; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.google.firebase.MESSAGING_EVENT",
+                    "start-service -a"
+                ]
+            ]
+        }
+    },
+    "Lch/mobilemed/echo112/net/push/PushService;->A(Landroid/content/Context;)Landroid/content/SharedPreferences;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lch/mobilemed/echo112/net/push/PushService;->s(Ljava/lang/String;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.google.firebase.MESSAGING_EVENT",
+                    "start-service -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lch/mobilemed/echo112/net/push/PushService;->z(Landroid/content/Context;)Ljava/lang/String; <",
+                "> Lch/mobilemed/echo112/net/push/PushService;->E(Landroid/content/Context;)V <",
+                "> Lch/mobilemed/echo112/MainActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lch/mobilemed/echo112/net/push/PushService;->z(Landroid/content/Context;)Ljava/lang/String; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.google.firebase.MESSAGING_EVENT",
+                    "start-service -a"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lch/mobilemed/echo112/net/push/PushService;->E(Landroid/content/Context;)V <",
+                "> Lch/mobilemed/echo112/MainActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lch/mobilemed/echo112/net/push/PushService;->E(Landroid/content/Context;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.google.firebase.MESSAGING_EVENT",
+                    "start-service -a"
+                ]
+            ]
+        }
+    },
+    "Lch/mobilemed/echo112/Echo112Application;->c()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lch/mobilemed/echo112/Echo112Application;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lch/mobilemed/echo112/Echo112Application;->a()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lch/mobilemed/echo112/Echo112Application;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lch/mobilemed/echo112/Echo112Application;->b()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lch/mobilemed/echo112/Echo112Application;->a()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lch/mobilemed/echo112/net/push/PushService;->E(Landroid/content/Context;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lch/mobilemed/echo112/MainActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lch/mobilemed/echo112/net/push/PushService;->C(Landroid/content/SharedPreferences;Ljava/lang/Exception;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lch/mobilemed/echo112/net/push/PushService;->w(Landroid/content/SharedPreferences; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.google.firebase.MESSAGING_EVENT",
+                    "start-service -a"
+                ]
+            ]
+        }
+    },
+    "Lch/mobilemed/echo112/MainActivity;->p0()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lch/mobilemed/echo112/MainActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lch/mobilemed/echo112/net/push/PushService;->z(Landroid/content/Context;)Ljava/lang/String;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lch/mobilemed/echo112/net/push/PushService;->s(Ljava/lang/String;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.google.firebase.MESSAGING_EVENT",
+                    "start-service -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lch/mobilemed/echo112/net/push/PushService;->E(Landroid/content/Context;)V <",
+                "> Lch/mobilemed/echo112/MainActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lch/mobilemed/echo112/net/push/PushService;->E(Landroid/content/Context;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.google.firebase.MESSAGING_EVENT",
+                    "start-service -a"
+                ]
+            ]
+        }
+    },
+    "Landroidx/profileinstaller/i;->k(Landroid/content/Context;Ljava/util/concurrent/Executor;Landroidx/profileinstaller/i$c;Z)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Landroidx/profileinstaller/ProfileInstallReceiver;->onReceive(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "androidx.profileinstaller.action.INSTALL_PROFILE",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Landroidx/fragment/app/m;->e()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Landroidx/fragment/app/j;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lch/mobilemed/echo112/MainActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/google/android/gms/internal/measurement/p7;->a(I)I": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/google/android/gms/internal/measurement/c8;->contains(Ljava/lang/Object;)Z <",
+                "> Le0/c;->h(Landroidx/fragment/app/Fragment;)V <",
+                "> Landroidx/fragment/app/Fragment;->i0(Z)Landroidx/fragment/app/Fragment; <",
+                "> Landroidx/fragment/app/Fragment;->h0()Landroidx/fragment/app/Fragment; <",
+                "> Ls0/e;->F2(Ls0/e; <",
+                "> Ls0/e$a;->a(Lh3/b;)Lh3/b; <",
+                "> Ls0/e;->D2(Lh3/b;)Lh3/b; <",
+                "> Lv0/b3;->I2(Landroid/view/View;)V <",
+                "> Lv0/b3;->u2(Lv0/b3; <",
+                "> Lv0/b3;->L2()Lh3/b; <",
+                "> Lv0/e3;->t2(Landroid/view/View;)V <",
+                "> Lv0/e3;->s2(Lv0/e3; <",
+                "> Lv0/e3;->v2()Lh3/b; <",
+                "> Lch/mobilemed/echo112/MainActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    }
+}

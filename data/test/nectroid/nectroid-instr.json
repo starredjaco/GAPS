@@ -1,0 +1,749 @@
+{
+    "Lcom/kvance/Nectroid/Prefs;->getPlaylistUpdateTime(Landroid/content/Context;)Ljava/util/Date;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/kvance/Nectroid/PlaylistManager;->onCachedCopyRetrieved(Landroid/content/Context;)V <",
+                "> Lcom/kvance/Nectroid/NectroidActivity;->onTaskFailed(Ljava/lang/Object;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/kvance/Nectroid/OneLinerAdapter;-><init>(Ljava/util/List;Landroid/content/Context;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/kvance/Nectroid/NectroidActivity;->createWidgets()V <",
+                "> Lcom/kvance/Nectroid/NectroidActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/kvance/Nectroid/AutoRefreshDocManager;->unrequestAutoRefresh(Ljava/lang/Object;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/kvance/Nectroid/PlaylistManager;->unrequestAutoRefresh(Ljava/lang/Object;)V <",
+                "> Lcom/kvance/Nectroid/NectroidActivity;->onPause()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/kvance/Nectroid/PlaylistManager;->unrequestAutoRefresh(Ljava/lang/Object;)V <",
+                "> Lcom/kvance/Nectroid/NectroidActivity;->onTaskFinished(Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/kvance/Nectroid/OneLinerManager;->unrequestAutoRefresh(Ljava/lang/Object;)V <",
+                "> Lcom/kvance/Nectroid/NectroidActivity;->onPause()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/kvance/Nectroid/OneLinerManager;->unrequestAutoRefresh(Ljava/lang/Object;)V <",
+                "> Lcom/kvance/Nectroid/NectroidActivity;->onTaskFailed(Ljava/lang/Object;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/kvance/Nectroid/PlaylistActivity;->finish()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/kvance/Nectroid/PlaylistActivity;->onBackPressed()V <",
+                "> Lcom/kvance/Nectroid/NectroidActivity$5;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.kvance.Nectroid.NectroidActivity",
+                    "history_button"
+                ]
+            ]
+        }
+    },
+    "Lcom/kvance/Nectroid/PlaylistAdapter;->getItem(I)Ljava/lang/Object;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/kvance/Nectroid/PlaylistAdapter;->getItemId(I)J <",
+                "> Lcom/kvance/Nectroid/PlaylistActivity;->onListItemClick(Landroid/widget/ListView; <",
+                "> Lcom/kvance/Nectroid/NectroidActivity$5;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.kvance.Nectroid.NectroidActivity",
+                    "history_button"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/kvance/Nectroid/PlaylistAdapter;->getItemId(I)J <",
+                "> Lcom/kvance/Nectroid/PlaylistActivity;->onStart()V <",
+                "> Lcom/kvance/Nectroid/NectroidActivity$5;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.kvance.Nectroid.NectroidActivity",
+                    "history_button"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/kvance/Nectroid/PlaylistAdapter;->getItemId(I)J <",
+                "> Lcom/kvance/Nectroid/PlaylistActivity;->onTaskFinished(Ljava/lang/Object; <",
+                "> Lcom/kvance/Nectroid/NectroidActivity$6;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.kvance.Nectroid.NectroidActivity",
+                    "queue_button"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/kvance/Nectroid/PlaylistAdapter;->getView(I <",
+                "> Lcom/kvance/Nectroid/PlaylistActivity;->onListItemClick(Landroid/widget/ListView; <",
+                "> Lcom/kvance/Nectroid/NectroidActivity$5;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.kvance.Nectroid.NectroidActivity",
+                    "history_button"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lcom/kvance/Nectroid/PlaylistAdapter;->getView(I <",
+                "> Lcom/kvance/Nectroid/PlaylistActivity;->onStart()V <",
+                "> Lcom/kvance/Nectroid/NectroidActivity$5;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.kvance.Nectroid.NectroidActivity",
+                    "history_button"
+                ]
+            ]
+        },
+        "path_5": {
+            "call_sequence": [
+                "> Lcom/kvance/Nectroid/PlaylistAdapter;->getView(I <",
+                "> Lcom/kvance/Nectroid/PlaylistActivity;->onTaskFinished(Ljava/lang/Object; <",
+                "> Lcom/kvance/Nectroid/NectroidActivity$6;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.kvance.Nectroid.NectroidActivity",
+                    "queue_button"
+                ]
+            ]
+        },
+        "path_6": {
+            "call_sequence": [
+                "> Lcom/kvance/Nectroid/PlaylistActivity;->onListItemClick(Landroid/widget/ListView; <",
+                "> Lcom/kvance/Nectroid/NectroidActivity$5;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.kvance.Nectroid.NectroidActivity",
+                    "history_button"
+                ]
+            ]
+        }
+    },
+    "Lcom/kvance/Nectroid/Stream;->getTypeName(Landroid/content/Context;)Ljava/lang/String;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/kvance/Nectroid/StreamsAdapter;->getView(I <",
+                "> Lcom/kvance/Nectroid/StreamsActivity;->onStart()V <",
+                "> Lcom/kvance/Nectroid/NectroidActivity$4;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.kvance.Nectroid.NectroidActivity",
+                    "play_button"
+                ]
+            ]
+        }
+    },
+    "Lcom/kvance/Nectroid/NectroidActivity$4;-><init>(Lcom/kvance/Nectroid/NectroidActivity;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/kvance/Nectroid/NectroidActivity;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/kvance/Nectroid/NectroidActivity;->access$300(Lcom/kvance/Nectroid/NectroidActivity;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/kvance/Nectroid/NectroidActivity$4;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.kvance.Nectroid.NectroidActivity",
+                    "play_button"
+                ]
+            ]
+        }
+    },
+    "Lcom/kvance/Nectroid/StreamsManager;->reset()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/kvance/Nectroid/NectroidApplication;->onSiteChanged(Lcom/kvance/Nectroid/Site;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/kvance/Nectroid/SiteActivity;->getSiteForUri(Landroid/net/Uri;)Lcom/kvance/Nectroid/Site;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/kvance/Nectroid/SiteActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/kvance/Nectroid/SettingsActivity$6;->onClick(Landroid/content/DialogInterface; <",
+                "> Lcom/kvance/Nectroid/SettingsActivity;-><init>()V <",
+                "> Lcom/kvance/Nectroid/NectroidActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.kvance.Nectroid.NectroidActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/kvance/Nectroid/SettingsActivity;->access$000(Lcom/kvance/Nectroid/SettingsActivity;Landroid/view/MenuItem;)I": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/kvance/Nectroid/SettingsActivity$1;->onMenuItemClick(Landroid/view/MenuItem;)Z <",
+                "> Lcom/kvance/Nectroid/SettingsActivity;-><init>()V <",
+                "> Lcom/kvance/Nectroid/NectroidActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.kvance.Nectroid.NectroidActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/kvance/Nectroid/SettingsActivity$2;->onMenuItemClick(Landroid/view/MenuItem;)Z <",
+                "> Lcom/kvance/Nectroid/SettingsActivity;-><init>()V <",
+                "> Lcom/kvance/Nectroid/NectroidActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.kvance.Nectroid.NectroidActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/kvance/Nectroid/BackgroundColorizer;->shiftBackgroundColorTo(I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/kvance/Nectroid/NectroidApplication;->applySiteColor(Lcom/kvance/Nectroid/Site;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/kvance/Nectroid/SiteActivity;->updateBackgroundColor(Ljava/lang/Integer;)V <",
+                "> Lcom/kvance/Nectroid/SiteActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/kvance/Nectroid/SettingsActivity$6;->onClick(Landroid/content/DialogInterface; <",
+                "> Lcom/kvance/Nectroid/SettingsActivity;-><init>()V <",
+                "> Lcom/kvance/Nectroid/NectroidActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.kvance.Nectroid.NectroidActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/kvance/Nectroid/NectroidActivity;->updateTimeLeft()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/kvance/Nectroid/NectroidActivity;->access$700(Lcom/kvance/Nectroid/NectroidActivity;)V <",
+                "> Lcom/kvance/Nectroid/NectroidActivity$7;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/kvance/Nectroid/NectroidActivity;->updatePlaylistUI(Lcom/kvance/Nectroid/Playlist$EntryAndTimeLeft;)V <",
+                "> Lcom/kvance/Nectroid/NectroidActivity;->onSongChanged(Lcom/kvance/Nectroid/Playlist$EntryAndTimeLeft;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/kvance/Nectroid/PlaylistManager;-><init>(Landroid/content/Context;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/kvance/Nectroid/NectroidApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/kvance/Nectroid/OneLiner$Parser;->access$300(Lcom/kvance/Nectroid/OneLiner$Parser;)Lcom/kvance/Nectroid/OneLiner$List;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/kvance/Nectroid/OneLiner$Parser$EntryListener;->end()V <",
+                "> Lcom/kvance/Nectroid/OneLiner$Parser;->parse(Ljava/lang/String;)Lcom/kvance/Nectroid/OneLiner$List; <",
+                "> Lcom/kvance/Nectroid/OneLiner;->listFromXml(Ljava/lang/String;)Lcom/kvance/Nectroid/OneLiner$List; <",
+                "> Lcom/kvance/Nectroid/OneLinerManager;->parseDocument(Ljava/lang/String; <",
+                "> Lcom/kvance/Nectroid/NectroidActivity;->onTaskFinished(Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/kvance/Nectroid/NectroidActivity;->startTimer()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/kvance/Nectroid/NectroidActivity;->onResume()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/kvance/Nectroid/PlayerService;->updateSongInfo(Lcom/kvance/Nectroid/Playlist$Entry;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/kvance/Nectroid/PlayerService;->onSongChanged(Lcom/kvance/Nectroid/Playlist$EntryAndTimeLeft;)V <",
+                "> Lcom/kvance/Nectroid/NectroidActivity;->playStream(Ljava/net/URL; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/kvance/Nectroid/PlayerService;->onCreate()V <",
+                "> Lcom/kvance/Nectroid/NectroidActivity;->playStream(Ljava/net/URL; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/kvance/Nectroid/NectroidActivity;->setContentView(I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/kvance/Nectroid/NectroidActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/kvance/Nectroid/SettingsActivity;->access$200(Lcom/kvance/Nectroid/SettingsActivity;)Landroid/database/sqlite/SQLiteDatabase;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/kvance/Nectroid/SettingsActivity$2;->onMenuItemClick(Landroid/view/MenuItem;)Z <",
+                "> Lcom/kvance/Nectroid/SettingsActivity;-><init>()V <",
+                "> Lcom/kvance/Nectroid/NectroidActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.kvance.Nectroid.NectroidActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/kvance/Nectroid/PlaylistHistoryAdapter;-><init>(Lcom/kvance/Nectroid/Playlist;Landroid/content/Context;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/kvance/Nectroid/PlaylistActivity;->onStart()V <",
+                "> Lcom/kvance/Nectroid/NectroidActivity$5;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.kvance.Nectroid.NectroidActivity",
+                    "history_button"
+                ]
+            ]
+        }
+    },
+    "Lcom/kvance/Nectroid/DbDataHelper;->updateSite(Lcom/kvance/Nectroid/Site;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/kvance/Nectroid/SiteActivity;->saveAndFinish()V <",
+                "> Lcom/kvance/Nectroid/SiteActivity;->access$000(Lcom/kvance/Nectroid/SiteActivity;)V <",
+                "> Lcom/kvance/Nectroid/SiteActivity$1;->onClick(Landroid/view/View;)V <",
+                "> Lcom/kvance/Nectroid/SiteActivity;-><init>()V <",
+                "> Lcom/kvance/Nectroid/SettingsActivity$6;->onClick(Landroid/content/DialogInterface; <",
+                "> Lcom/kvance/Nectroid/SettingsActivity;-><init>()V <",
+                "> Lcom/kvance/Nectroid/NectroidActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.kvance.Nectroid.NectroidActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.kvance.Nectroid.SiteActivity",
+                    "site_ok"
+                ]
+            ]
+        }
+    },
+    "Lcom/kvance/Nectroid/Playlist$Entry;->getArtistString()Ljava/lang/String;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/kvance/Nectroid/PlayerService;->updateSongInfo(Lcom/kvance/Nectroid/Playlist$Entry;)V <",
+                "> Lcom/kvance/Nectroid/NectroidActivity;->playStream(Ljava/net/URL; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/kvance/Nectroid/Scrobbler;->notifySong(Lcom/kvance/Nectroid/Playlist$EntryAndTimeLeft;)V <",
+                "> Lcom/kvance/Nectroid/Scrobbler;->start()V <",
+                "> Lcom/kvance/Nectroid/NectroidApplication;->onSharedPreferenceChanged(Landroid/content/SharedPreferences; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/kvance/Nectroid/SitePreference;->setOnNewSiteClickListener(Landroid/content/DialogInterface$OnClickListener;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/kvance/Nectroid/SettingsActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/kvance/Nectroid/NectroidActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.kvance.Nectroid.NectroidActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/kvance/Nectroid/NectroidActivity;->access$700(Lcom/kvance/Nectroid/NectroidActivity;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/kvance/Nectroid/NectroidActivity$7;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/kvance/Nectroid/OneLinerManager;->requestAutoRefresh(Ljava/lang/Object;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/kvance/Nectroid/NectroidActivity;->onResume()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/kvance/Nectroid/SiteActivity;->findViewById(I)Landroid/view/View;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/kvance/Nectroid/SiteActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/kvance/Nectroid/SettingsActivity$6;->onClick(Landroid/content/DialogInterface; <",
+                "> Lcom/kvance/Nectroid/SettingsActivity;-><init>()V <",
+                "> Lcom/kvance/Nectroid/NectroidActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.kvance.Nectroid.NectroidActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/kvance/Nectroid/NectroidActivity;->access$200(Lcom/kvance/Nectroid/NectroidActivity;)Lcom/kvance/Nectroid/PlayerManager;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/kvance/Nectroid/NectroidActivity$4;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.kvance.Nectroid.NectroidActivity",
+                    "play_button"
+                ]
+            ]
+        }
+    },
+    "Lcom/kvance/Nectroid/DbDataHelper;->getPickedStreamForSite(I)Ljava/lang/Integer;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/kvance/Nectroid/NectroidApplication;->getSelectedStreamForSite(Lcom/kvance/Nectroid/Site;)Lcom/kvance/Nectroid/Stream; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/kvance/Nectroid/SettingsActivity;->access$400(Lcom/kvance/Nectroid/SettingsActivity;)I": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/kvance/Nectroid/SettingsActivity$3;->onClick(Landroid/content/DialogInterface; <",
+                "> Lcom/kvance/Nectroid/SettingsActivity;-><init>()V <",
+                "> Lcom/kvance/Nectroid/NectroidActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.kvance.Nectroid.NectroidActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/kvance/Nectroid/SettingsActivity$2;->onMenuItemClick(Landroid/view/MenuItem;)Z <",
+                "> Lcom/kvance/Nectroid/SettingsActivity;-><init>()V <",
+                "> Lcom/kvance/Nectroid/NectroidActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.kvance.Nectroid.NectroidActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/kvance/Nectroid/Stream$Type;->values()[Lcom/kvance/Nectroid/Stream$Type;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/kvance/Nectroid/Stream;->fromCursor(Landroid/database/Cursor;)Lcom/kvance/Nectroid/Stream; <",
+                "> Lcom/kvance/Nectroid/NectroidApplication;->getSelectedStreamForSite(Lcom/kvance/Nectroid/Site;)Lcom/kvance/Nectroid/Stream; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/kvance/Nectroid/PlayerManager$StateListener;->onStateChanged(Lcom/kvance/Nectroid/PlayerService$State;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/kvance/Nectroid/PlayerManager;->notifyStateChanged()V <",
+                "> Lcom/kvance/Nectroid/PlayerManager;->setPlayer(Lcom/kvance/Nectroid/PlayerService;)V <",
+                "> Lcom/kvance/Nectroid/PlayerService;->onDestroy()V <",
+                "> Lcom/kvance/Nectroid/NectroidActivity;->playStream(Ljava/net/URL; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/kvance/Nectroid/PlayerManager;->notifyStateChanged()V <",
+                "> Lcom/kvance/Nectroid/PlayerManager;->setPlayerState(Lcom/kvance/Nectroid/PlayerService$State;)V <",
+                "> Lcom/kvance/Nectroid/PlayerService;->onMP3Buffering(Z)V <",
+                "> Lcom/kvance/Nectroid/NectroidActivity;->playStream(Ljava/net/URL; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/kvance/Nectroid/PlayerManager;->notifyStateChanged()V <",
+                "> Lcom/kvance/Nectroid/PlayerManager;->setPlayerState(Lcom/kvance/Nectroid/PlayerService$State;)V <",
+                "> Lcom/kvance/Nectroid/PlayerService;->onPrepared(Landroid/media/MediaPlayer;)V <",
+                "> Lcom/kvance/Nectroid/NectroidActivity;->playStream(Ljava/net/URL; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/kvance/Nectroid/NectroidActivity;->access$100(Lcom/kvance/Nectroid/NectroidActivity;)Lcom/kvance/Nectroid/OneLinerAdapter;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/kvance/Nectroid/NectroidActivity$OnOneLinerUpdateTaskFinished;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    }
+}

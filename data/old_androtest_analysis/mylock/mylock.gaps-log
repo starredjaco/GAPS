@@ -1,0 +1,5 @@
+COMPONENT CONCAT > Li4nc4mp/myLock/Toggler;->onStartCommand(Landroid/content/Intent;II)I < extends Landroid/app/Service, implements []
+COMPONENT CONCAT > Li4nc4mp/myLock/DummyPrompt;->onStop()V < extends Landroid/app/Activity, implements []
+MISSING ID > Li4nc4mp/myLock/TouchGuard;->onKeyLongPress(ILandroid/view/KeyEvent;)Z <
+MISSING ID > Li4nc4mp/myLock/CallPrompt;->dispatchKeyEvent(Landroid/view/KeyEvent;)Z <
+MISSING ID > Li4nc4mp/myLock/TouchGuard;->dispatchKeyEvent(Landroid/view/KeyEvent;)Z <

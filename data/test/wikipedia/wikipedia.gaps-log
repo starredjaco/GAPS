@@ -1,0 +1,16 @@
+COMPONENT CONCAT > Lorg/wikipedia/main/MainFragment$maybeShowEditsTooltip$1$1;->invoke()Ljava/lang/Object; < extends Ljava/lang/Object, implements ['Lkotlin/jvm/functions/Function0', 'Lkotlin/jvm/internal/FunctionBase', 'Ljava/io/Serializable']
+COMPONENT CONCAT > Lorg/wikipedia/analytics/eventplatform/BreadCrumbViewUtil;->getReadableScreenName(Landroid/content/Context; < extends Ljava/lang/Object, implements []
+COMPONENT CONCAT > Lorg/wikipedia/navtab/NavTab$READING_LISTS;->newInstance()Landroidx/fragment/app/Fragment; < extends Ljava/lang/Enum, implements ['Lorg/wikipedia/model/EnumCode']
+COMPONENT CONCAT > Lorg/wikipedia/main/MainFragment$EventBusConsumer;->accept(Ljava/lang/Object;)V < extends Ljava/lang/Object, implements ['Lio/reactivex/rxjava3/functions/Consumer']
+COMPONENT CONCAT > Lorg/wikipedia/navtab/NavTab$SEARCH;->newInstance()Landroidx/fragment/app/Fragment; < extends Ljava/lang/Enum, implements ['Lorg/wikipedia/model/EnumCode']
+COMPONENT CONCAT > Lorg/wikipedia/history/HistoryFragment$onClearHistoryClick$1;->invoke(Lkotlinx/coroutines/CoroutineScope; < extends Ljava/lang/Object, implements ['Lkotlin/jvm/functions/Function2', 'Lkotlin/jvm/internal/FunctionBase', 'Lkotlin/coroutines/Continuation', 'Lkotlin/coroutines/jvm/internal/CoroutineStackFrame', 'Ljava/io/Serializable']
+COMPONENT CONCAT > Lorg/wikipedia/history/HistoryFragment$showDeleteItemsUndoSnackbar$1$1;->invoke(Lkotlinx/coroutines/CoroutineScope; < extends Ljava/lang/Object, implements ['Lkotlin/jvm/functions/Function2', 'Lkotlin/jvm/internal/FunctionBase', 'Lkotlin/coroutines/Continuation', 'Lkotlin/coroutines/jvm/internal/CoroutineStackFrame', 'Ljava/io/Serializable']
+COMPONENT CONCAT > Lorg/wikipedia/navtab/NavTab$EDITS;->newInstance()Landroidx/fragment/app/Fragment; < extends Ljava/lang/Enum, implements ['Lorg/wikipedia/model/EnumCode']
+COMPONENT CONCAT > Lorg/wikipedia/notifications/NotificationPollBroadcastReceiver$Companion;->showSuggestedEditsLocalNotification(Landroid/content/Context; < extends Ljava/lang/Object, implements []
+COMPONENT CONCAT > Lorg/wikipedia/widgets/WidgetProviderFeaturedPage$onUpdate$1;->onFeaturedArticleReceived(Lorg/wikipedia/page/PageTitle; < extends Ljava/lang/Object, implements ['Lorg/wikipedia/widgets/WidgetProviderFeaturedPage$Callback']
+MISSING ID > Lorg/wikipedia/page/tabs/TabActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <
+COMPONENT CONCAT > Lorg/wikipedia/readinglist/ReadingListActivity$Companion;->newIntent(Landroid/content/Context; < extends Ljava/lang/Object, implements []
+COMPONENT CONCAT > Lorg/wikipedia/page/PageFragment$PageActionItemCallback;->onExploreSelected()V < extends Ljava/lang/Object, implements ['Lorg/wikipedia/page/action/PageActionItem$Callback']
+MISSING ID > Lorg/wikipedia/page/PageActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <
+COMPONENT CONCAT > Lorg/wikipedia/main/MainFragment$maybeShowEditsTooltip$1$1;-><clinit>()V < extends Ljava/lang/Object, implements ['Lkotlin/jvm/functions/Function0', 'Lkotlin/jvm/internal/FunctionBase', 'Ljava/io/Serializable']
+MISSING ID > Lorg/wikipedia/main/MainFragment$$ExternalSyntheticLambda0;->onClick(Landroid/view/View;)V <

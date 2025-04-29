@@ -1,0 +1,1498 @@
+{
+    "Lcom/smorgasbork/hotdeath/a;->b()I": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/smorgasbork/hotdeath/i;->a(ZLcom/smorgasbork/hotdeath/a;)I <",
+                "> Lcom/smorgasbork/hotdeath/i;->a(Z)I <",
+                "> Lcom/smorgasbork/hotdeath/f;->d(Lcom/smorgasbork/hotdeath/l;)V <",
+                "> Lcom/smorgasbork/hotdeath/f;->a(Lcom/smorgasbork/hotdeath/l;)V <",
+                "> Lcom/smorgasbork/hotdeath/f;->R()V <",
+                "> Lcom/smorgasbork/hotdeath/f;->N()V <",
+                "> Lcom/smorgasbork/hotdeath/f;->run()V <",
+                "> Lcom/smorgasbork/hotdeath/GameActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/smorgasbork/hotdeath/Main;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.smorgasbork.hotdeath.Main",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/smorgasbork/hotdeath/f;->a(Lcom/smorgasbork/hotdeath/f;)Lcom/smorgasbork/hotdeath/h;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/smorgasbork/hotdeath/f$g;->run()V <",
+                "> Lcom/smorgasbork/hotdeath/f;->a(Ljava/lang/String;Z)V <",
+                "> Lcom/smorgasbork/hotdeath/f;->a()Z <",
+                "> Lcom/smorgasbork/hotdeath/f;->T()V <",
+                "> Lcom/smorgasbork/hotdeath/f;->run()V <",
+                "> Lcom/smorgasbork/hotdeath/GameActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/smorgasbork/hotdeath/Main;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.smorgasbork.hotdeath.Main",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/smorgasbork/hotdeath/f$c;->run()V <",
+                "> Lcom/smorgasbork/hotdeath/f;->c(Z)V <",
+                "> Lcom/smorgasbork/hotdeath/f;->a()Z <",
+                "> Lcom/smorgasbork/hotdeath/f;->T()V <",
+                "> Lcom/smorgasbork/hotdeath/f;->run()V <",
+                "> Lcom/smorgasbork/hotdeath/GameActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/smorgasbork/hotdeath/Main;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.smorgasbork.hotdeath.Main",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/smorgasbork/hotdeath/f$a;->run()V <",
+                "> Lcom/smorgasbork/hotdeath/f;->S()V <",
+                "> Lcom/smorgasbork/hotdeath/f;->a()Z <",
+                "> Lcom/smorgasbork/hotdeath/f;->T()V <",
+                "> Lcom/smorgasbork/hotdeath/f;->run()V <",
+                "> Lcom/smorgasbork/hotdeath/GameActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/smorgasbork/hotdeath/Main;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.smorgasbork.hotdeath.Main",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/smorgasbork/hotdeath/f;->a(Z)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/smorgasbork/hotdeath/f$g;->run()V <",
+                "> Lcom/smorgasbork/hotdeath/f;->a(Ljava/lang/String;Z)V <",
+                "> Lcom/smorgasbork/hotdeath/f;->a()Z <",
+                "> Lcom/smorgasbork/hotdeath/f;->T()V <",
+                "> Lcom/smorgasbork/hotdeath/f;->run()V <",
+                "> Lcom/smorgasbork/hotdeath/GameActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/smorgasbork/hotdeath/Main;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.smorgasbork.hotdeath.Main",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/smorgasbork/hotdeath/f$c;->run()V <",
+                "> Lcom/smorgasbork/hotdeath/f;->c(Z)V <",
+                "> Lcom/smorgasbork/hotdeath/f;->a()Z <",
+                "> Lcom/smorgasbork/hotdeath/f;->T()V <",
+                "> Lcom/smorgasbork/hotdeath/f;->run()V <",
+                "> Lcom/smorgasbork/hotdeath/GameActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/smorgasbork/hotdeath/Main;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.smorgasbork.hotdeath.Main",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/smorgasbork/hotdeath/f$a;->run()V <",
+                "> Lcom/smorgasbork/hotdeath/f;->S()V <",
+                "> Lcom/smorgasbork/hotdeath/f;->a()Z <",
+                "> Lcom/smorgasbork/hotdeath/f;->T()V <",
+                "> Lcom/smorgasbork/hotdeath/f;->run()V <",
+                "> Lcom/smorgasbork/hotdeath/GameActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/smorgasbork/hotdeath/Main;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.smorgasbork.hotdeath.Main",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/smorgasbork/hotdeath/f;->m()Lcom/smorgasbork/hotdeath/b;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/smorgasbork/hotdeath/c;-><init>(Landroid/content/Context;)V <",
+                "> Lcom/smorgasbork/hotdeath/GameActivity;->e()V <",
+                "> Lcom/smorgasbork/hotdeath/GameActivity$d;->onClick(Landroid/view/View;)V <",
+                "> Lcom/smorgasbork/hotdeath/GameActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/smorgasbork/hotdeath/Main;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.smorgasbork.hotdeath.Main",
+                    "<unknown>"
+                ],
+                [
+                    "com.smorgasbork.hotdeath.GameActivity",
+                    "btn_menu_help"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/smorgasbork/hotdeath/h;->onDraw(Landroid/graphics/Canvas;)V <",
+                "> Lcom/smorgasbork/hotdeath/GameActivity;->onDestroy()V <",
+                "> Lcom/smorgasbork/hotdeath/Main;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.smorgasbork.hotdeath.Main",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/smorgasbork/hotdeath/l;-><init>(Lorg/json/JSONObject;Lcom/smorgasbork/hotdeath/f;Lcom/smorgasbork/hotdeath/g;)V <",
+                "> Lcom/smorgasbork/hotdeath/j;-><init>(Lorg/json/JSONObject;Lcom/smorgasbork/hotdeath/f;Lcom/smorgasbork/hotdeath/g;)V <",
+                "> Lcom/smorgasbork/hotdeath/f;-><init>(Lorg/json/JSONObject;Lcom/smorgasbork/hotdeath/GameActivity;Lcom/smorgasbork/hotdeath/g;)V <",
+                "> Lcom/smorgasbork/hotdeath/GameActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/smorgasbork/hotdeath/Main;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.smorgasbork.hotdeath.Main",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/smorgasbork/hotdeath/h;->l()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/smorgasbork/hotdeath/h;-><init>(Landroid/content/Context;Lcom/smorgasbork/hotdeath/f;Lcom/smorgasbork/hotdeath/g;)V <",
+                "> Lcom/smorgasbork/hotdeath/GameActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/smorgasbork/hotdeath/Main;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.smorgasbork.hotdeath.Main",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/smorgasbork/hotdeath/l;->s()Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/smorgasbork/hotdeath/f;->a()Z <",
+                "> Lcom/smorgasbork/hotdeath/f;->T()V <",
+                "> Lcom/smorgasbork/hotdeath/f;->run()V <",
+                "> Lcom/smorgasbork/hotdeath/GameActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/smorgasbork/hotdeath/Main;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.smorgasbork.hotdeath.Main",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/smorgasbork/hotdeath/d;-><init>(Lorg/json/JSONObject;Lcom/smorgasbork/hotdeath/b;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/smorgasbork/hotdeath/f;-><init>(Lorg/json/JSONObject;Lcom/smorgasbork/hotdeath/GameActivity;Lcom/smorgasbork/hotdeath/g;)V <",
+                "> Lcom/smorgasbork/hotdeath/GameActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/smorgasbork/hotdeath/Main;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.smorgasbork.hotdeath.Main",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/smorgasbork/hotdeath/f;->C()Lcom/smorgasbork/hotdeath/l;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/smorgasbork/hotdeath/f;->A()V <",
+                "> Lcom/smorgasbork/hotdeath/f;->a()Z <",
+                "> Lcom/smorgasbork/hotdeath/f;->T()V <",
+                "> Lcom/smorgasbork/hotdeath/f;->run()V <",
+                "> Lcom/smorgasbork/hotdeath/GameActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/smorgasbork/hotdeath/Main;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.smorgasbork.hotdeath.Main",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/smorgasbork/hotdeath/f;->a()Z <",
+                "> Lcom/smorgasbork/hotdeath/f;->T()V <",
+                "> Lcom/smorgasbork/hotdeath/f;->run()V <",
+                "> Lcom/smorgasbork/hotdeath/GameActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/smorgasbork/hotdeath/Main;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.smorgasbork.hotdeath.Main",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/smorgasbork/hotdeath/f;->b()V <",
+                "> Lcom/smorgasbork/hotdeath/f;->a()Z <",
+                "> Lcom/smorgasbork/hotdeath/f;->T()V <",
+                "> Lcom/smorgasbork/hotdeath/f;->run()V <",
+                "> Lcom/smorgasbork/hotdeath/GameActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/smorgasbork/hotdeath/Main;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.smorgasbork.hotdeath.Main",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/smorgasbork/hotdeath/h;->c(Lcom/smorgasbork/hotdeath/h;)Landroid/graphics/Point;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/smorgasbork/hotdeath/h$a;->run()V <",
+                "> Lcom/smorgasbork/hotdeath/h;-><init>(Landroid/content/Context;Lcom/smorgasbork/hotdeath/f;Lcom/smorgasbork/hotdeath/g;)V <",
+                "> Lcom/smorgasbork/hotdeath/GameActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/smorgasbork/hotdeath/Main;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.smorgasbork.hotdeath.Main",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/smorgasbork/hotdeath/f;->b(I)Ljava/lang/String;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/smorgasbork/hotdeath/f;->A()V <",
+                "> Lcom/smorgasbork/hotdeath/f;->a()Z <",
+                "> Lcom/smorgasbork/hotdeath/f;->T()V <",
+                "> Lcom/smorgasbork/hotdeath/f;->run()V <",
+                "> Lcom/smorgasbork/hotdeath/GameActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/smorgasbork/hotdeath/Main;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.smorgasbork.hotdeath.Main",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/smorgasbork/hotdeath/j;->b(Lcom/smorgasbork/hotdeath/a;)V <",
+                "> Lcom/smorgasbork/hotdeath/h;->b(ILandroid/graphics/Point;)V <",
+                "> Lcom/smorgasbork/hotdeath/h;->onTouchEvent(Landroid/view/MotionEvent;)Z <",
+                "> Lcom/smorgasbork/hotdeath/GameActivity;->onDestroy()V <",
+                "> Lcom/smorgasbork/hotdeath/Main;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.smorgasbork.hotdeath.Main",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/smorgasbork/hotdeath/h;->a(Landroid/graphics/Canvas;)V <",
+                "> Lcom/smorgasbork/hotdeath/h;->onDraw(Landroid/graphics/Canvas;)V <",
+                "> Lcom/smorgasbork/hotdeath/GameActivity;->onDestroy()V <",
+                "> Lcom/smorgasbork/hotdeath/Main;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.smorgasbork.hotdeath.Main",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/smorgasbork/hotdeath/f;->J()I <",
+                "> Lcom/smorgasbork/hotdeath/f;->e()Lcom/smorgasbork/hotdeath/a; <",
+                "> Lcom/smorgasbork/hotdeath/l;->c()V <",
+                "> Lcom/smorgasbork/hotdeath/f;->a()Z <",
+                "> Lcom/smorgasbork/hotdeath/f;->T()V <",
+                "> Lcom/smorgasbork/hotdeath/f;->run()V <",
+                "> Lcom/smorgasbork/hotdeath/GameActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/smorgasbork/hotdeath/Main;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.smorgasbork.hotdeath.Main",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lcom/smorgasbork/hotdeath/f;->a()Z <",
+                "> Lcom/smorgasbork/hotdeath/f;->T()V <",
+                "> Lcom/smorgasbork/hotdeath/f;->run()V <",
+                "> Lcom/smorgasbork/hotdeath/GameActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/smorgasbork/hotdeath/Main;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.smorgasbork.hotdeath.Main",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_5": {
+            "call_sequence": [
+                "> Lcom/smorgasbork/hotdeath/f;->c()V <",
+                "> Lcom/smorgasbork/hotdeath/f;->N()V <",
+                "> Lcom/smorgasbork/hotdeath/f;->run()V <",
+                "> Lcom/smorgasbork/hotdeath/GameActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/smorgasbork/hotdeath/Main;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.smorgasbork.hotdeath.Main",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_6": {
+            "call_sequence": [
+                "> Lcom/smorgasbork/hotdeath/f;->a(Lcom/smorgasbork/hotdeath/l;I)V <",
+                "> Lcom/smorgasbork/hotdeath/f;->A()V <",
+                "> Lcom/smorgasbork/hotdeath/f;->a()Z <",
+                "> Lcom/smorgasbork/hotdeath/f;->T()V <",
+                "> Lcom/smorgasbork/hotdeath/f;->run()V <",
+                "> Lcom/smorgasbork/hotdeath/GameActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/smorgasbork/hotdeath/Main;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.smorgasbork.hotdeath.Main",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_7": {
+            "call_sequence": [
+                "> Lcom/smorgasbork/hotdeath/f;->b()V <",
+                "> Lcom/smorgasbork/hotdeath/f;->a()Z <",
+                "> Lcom/smorgasbork/hotdeath/f;->T()V <",
+                "> Lcom/smorgasbork/hotdeath/f;->run()V <",
+                "> Lcom/smorgasbork/hotdeath/GameActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/smorgasbork/hotdeath/Main;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.smorgasbork.hotdeath.Main",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_8": {
+            "call_sequence": [
+                "> Lcom/smorgasbork/hotdeath/f;->d(I)Ljava/lang/String; <",
+                "> Lcom/smorgasbork/hotdeath/f;->A()V <",
+                "> Lcom/smorgasbork/hotdeath/f;->a()Z <",
+                "> Lcom/smorgasbork/hotdeath/f;->T()V <",
+                "> Lcom/smorgasbork/hotdeath/f;->run()V <",
+                "> Lcom/smorgasbork/hotdeath/GameActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/smorgasbork/hotdeath/Main;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.smorgasbork.hotdeath.Main",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_9": {
+            "call_sequence": [
+                "> Lcom/smorgasbork/hotdeath/f;->U()V <",
+                "> Lcom/smorgasbork/hotdeath/f;->run()V <",
+                "> Lcom/smorgasbork/hotdeath/GameActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/smorgasbork/hotdeath/Main;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.smorgasbork.hotdeath.Main",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_10": {
+            "call_sequence": [
+                "> Lcom/smorgasbork/hotdeath/f;->c(Lcom/smorgasbork/hotdeath/l;)V <",
+                "> Lcom/smorgasbork/hotdeath/f;->a()Z <",
+                "> Lcom/smorgasbork/hotdeath/f;->T()V <",
+                "> Lcom/smorgasbork/hotdeath/f;->run()V <",
+                "> Lcom/smorgasbork/hotdeath/GameActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/smorgasbork/hotdeath/Main;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.smorgasbork.hotdeath.Main",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_11": {
+            "call_sequence": [
+                "> Lcom/smorgasbork/hotdeath/f;->e(I)Ljava/lang/String; <",
+                "> Lcom/smorgasbork/hotdeath/f;->c()V <",
+                "> Lcom/smorgasbork/hotdeath/f;->N()V <",
+                "> Lcom/smorgasbork/hotdeath/f;->run()V <",
+                "> Lcom/smorgasbork/hotdeath/GameActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/smorgasbork/hotdeath/Main;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.smorgasbork.hotdeath.Main",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_12": {
+            "call_sequence": [
+                "> Lcom/smorgasbork/hotdeath/f;->a(Lcom/smorgasbork/hotdeath/l;)V <",
+                "> Lcom/smorgasbork/hotdeath/f;->R()V <",
+                "> Lcom/smorgasbork/hotdeath/f;->N()V <",
+                "> Lcom/smorgasbork/hotdeath/f;->run()V <",
+                "> Lcom/smorgasbork/hotdeath/GameActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/smorgasbork/hotdeath/Main;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.smorgasbork.hotdeath.Main",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_13": {
+            "call_sequence": [
+                "> Lcom/smorgasbork/hotdeath/f;->c(I)Ljava/lang/String; <",
+                "> Lcom/smorgasbork/hotdeath/f;->a()Z <",
+                "> Lcom/smorgasbork/hotdeath/f;->T()V <",
+                "> Lcom/smorgasbork/hotdeath/f;->run()V <",
+                "> Lcom/smorgasbork/hotdeath/GameActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/smorgasbork/hotdeath/Main;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.smorgasbork.hotdeath.Main",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/smorgasbork/hotdeath/l;->w()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/smorgasbork/hotdeath/f;->L()V <",
+                "> Lcom/smorgasbork/hotdeath/GameActivity;->onDestroy()V <",
+                "> Lcom/smorgasbork/hotdeath/Main;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.smorgasbork.hotdeath.Main",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/smorgasbork/hotdeath/m;-><init>(Landroid/content/Context;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/smorgasbork/hotdeath/GameActivity;->f()V <",
+                "> Lcom/smorgasbork/hotdeath/GameActivity$e;->onItemClick(Landroid/widget/AdapterView;Landroid/view/View;IJ)V <",
+                "> Lcom/smorgasbork/hotdeath/GameActivity;->e()V <",
+                "> Lcom/smorgasbork/hotdeath/GameActivity$d;->onClick(Landroid/view/View;)V <",
+                "> Lcom/smorgasbork/hotdeath/GameActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/smorgasbork/hotdeath/Main;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.smorgasbork.hotdeath.Main",
+                    "<unknown>"
+                ],
+                [
+                    "com.smorgasbork.hotdeath.GameActivity",
+                    "btn_menu_help"
+                ]
+            ]
+        }
+    },
+    "Lcom/smorgasbork/hotdeath/f;->a()Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/smorgasbork/hotdeath/f$g;->run()V <",
+                "> Lcom/smorgasbork/hotdeath/f;->a(Ljava/lang/String;Z)V <",
+                "> Lcom/smorgasbork/hotdeath/f;->a()Z <",
+                "> Lcom/smorgasbork/hotdeath/f;->T()V <",
+                "> Lcom/smorgasbork/hotdeath/f;->run()V <",
+                "> Lcom/smorgasbork/hotdeath/GameActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/smorgasbork/hotdeath/Main;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.smorgasbork.hotdeath.Main",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/smorgasbork/hotdeath/f$c;->run()V <",
+                "> Lcom/smorgasbork/hotdeath/f;->c(Z)V <",
+                "> Lcom/smorgasbork/hotdeath/f;->a()Z <",
+                "> Lcom/smorgasbork/hotdeath/f;->T()V <",
+                "> Lcom/smorgasbork/hotdeath/f;->run()V <",
+                "> Lcom/smorgasbork/hotdeath/GameActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/smorgasbork/hotdeath/Main;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.smorgasbork.hotdeath.Main",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/smorgasbork/hotdeath/f$a;->run()V <",
+                "> Lcom/smorgasbork/hotdeath/f;->S()V <",
+                "> Lcom/smorgasbork/hotdeath/f;->a()Z <",
+                "> Lcom/smorgasbork/hotdeath/f;->T()V <",
+                "> Lcom/smorgasbork/hotdeath/f;->run()V <",
+                "> Lcom/smorgasbork/hotdeath/GameActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/smorgasbork/hotdeath/Main;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.smorgasbork.hotdeath.Main",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/smorgasbork/hotdeath/g;->l()I": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/smorgasbork/hotdeath/f;->n()I <",
+                "> Lcom/smorgasbork/hotdeath/f;->Q()V <",
+                "> Lcom/smorgasbork/hotdeath/f;->a(Ljava/lang/String;Z)V <",
+                "> Lcom/smorgasbork/hotdeath/f;->a()Z <",
+                "> Lcom/smorgasbork/hotdeath/f;->T()V <",
+                "> Lcom/smorgasbork/hotdeath/f;->run()V <",
+                "> Lcom/smorgasbork/hotdeath/GameActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/smorgasbork/hotdeath/Main;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.smorgasbork.hotdeath.Main",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/smorgasbork/hotdeath/l;->t()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/smorgasbork/hotdeath/f;->H()V <",
+                "> Lcom/smorgasbork/hotdeath/f;->M()V <",
+                "> Lcom/smorgasbork/hotdeath/f;->run()V <",
+                "> Lcom/smorgasbork/hotdeath/GameActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/smorgasbork/hotdeath/Main;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.smorgasbork.hotdeath.Main",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/smorgasbork/hotdeath/f$a;-><init>(Lcom/smorgasbork/hotdeath/f;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/smorgasbork/hotdeath/f;->S()V <",
+                "> Lcom/smorgasbork/hotdeath/f;->a()Z <",
+                "> Lcom/smorgasbork/hotdeath/f;->T()V <",
+                "> Lcom/smorgasbork/hotdeath/f;->run()V <",
+                "> Lcom/smorgasbork/hotdeath/GameActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/smorgasbork/hotdeath/Main;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.smorgasbork.hotdeath.Main",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/smorgasbork/hotdeath/k;-><init>(Lorg/json/JSONObject;Lcom/smorgasbork/hotdeath/f;Lcom/smorgasbork/hotdeath/b;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/smorgasbork/hotdeath/f;-><init>(Lorg/json/JSONObject;Lcom/smorgasbork/hotdeath/GameActivity;Lcom/smorgasbork/hotdeath/g;)V <",
+                "> Lcom/smorgasbork/hotdeath/GameActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/smorgasbork/hotdeath/Main;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.smorgasbork.hotdeath.Main",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/smorgasbork/hotdeath/a;->a(Landroid/content/Context;Z)Ljava/lang/String;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/smorgasbork/hotdeath/f;->a(Lcom/smorgasbork/hotdeath/a;)Ljava/lang/String; <",
+                "> Lcom/smorgasbork/hotdeath/f;->a()Z <",
+                "> Lcom/smorgasbork/hotdeath/f;->T()V <",
+                "> Lcom/smorgasbork/hotdeath/f;->run()V <",
+                "> Lcom/smorgasbork/hotdeath/GameActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/smorgasbork/hotdeath/Main;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.smorgasbork.hotdeath.Main",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/smorgasbork/hotdeath/l;-><init>(Lorg/json/JSONObject;Lcom/smorgasbork/hotdeath/f;Lcom/smorgasbork/hotdeath/g;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/smorgasbork/hotdeath/j;-><init>(Lorg/json/JSONObject;Lcom/smorgasbork/hotdeath/f;Lcom/smorgasbork/hotdeath/g;)V <",
+                "> Lcom/smorgasbork/hotdeath/f;-><init>(Lorg/json/JSONObject;Lcom/smorgasbork/hotdeath/GameActivity;Lcom/smorgasbork/hotdeath/g;)V <",
+                "> Lcom/smorgasbork/hotdeath/GameActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/smorgasbork/hotdeath/Main;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.smorgasbork.hotdeath.Main",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/smorgasbork/hotdeath/e;-><init>(Lorg/json/JSONObject;Lcom/smorgasbork/hotdeath/f;Lcom/smorgasbork/hotdeath/g;)V <",
+                "> Lcom/smorgasbork/hotdeath/f;-><init>(Lorg/json/JSONObject;Lcom/smorgasbork/hotdeath/GameActivity;Lcom/smorgasbork/hotdeath/g;)V <",
+                "> Lcom/smorgasbork/hotdeath/GameActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/smorgasbork/hotdeath/Main;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.smorgasbork.hotdeath.Main",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/smorgasbork/hotdeath/a;->a(I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/smorgasbork/hotdeath/f;->a(Lcom/smorgasbork/hotdeath/a;)Ljava/lang/String; <",
+                "> Lcom/smorgasbork/hotdeath/f;->a()Z <",
+                "> Lcom/smorgasbork/hotdeath/f;->T()V <",
+                "> Lcom/smorgasbork/hotdeath/f;->run()V <",
+                "> Lcom/smorgasbork/hotdeath/GameActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/smorgasbork/hotdeath/Main;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.smorgasbork.hotdeath.Main",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/smorgasbork/hotdeath/f;->B()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/smorgasbork/hotdeath/GameActivity$c;->onClick(Landroid/view/View;)V <",
+                "> Lcom/smorgasbork/hotdeath/GameActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/smorgasbork/hotdeath/Main;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.smorgasbork.hotdeath.Main",
+                    "<unknown>"
+                ],
+                [
+                    "com.smorgasbork.hotdeath.GameActivity",
+                    "btn_menu_pass"
+                ]
+            ]
+        }
+    },
+    "Lcom/smorgasbork/hotdeath/h;->a(Lcom/smorgasbork/hotdeath/h;)Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/smorgasbork/hotdeath/h$a;->run()V <",
+                "> Lcom/smorgasbork/hotdeath/h;-><init>(Landroid/content/Context;Lcom/smorgasbork/hotdeath/f;Lcom/smorgasbork/hotdeath/g;)V <",
+                "> Lcom/smorgasbork/hotdeath/GameActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/smorgasbork/hotdeath/Main;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.smorgasbork.hotdeath.Main",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/smorgasbork/hotdeath/l;->d(I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/smorgasbork/hotdeath/f;->d(Lcom/smorgasbork/hotdeath/l;)V <",
+                "> Lcom/smorgasbork/hotdeath/f;->a(Lcom/smorgasbork/hotdeath/l;)V <",
+                "> Lcom/smorgasbork/hotdeath/f;->R()V <",
+                "> Lcom/smorgasbork/hotdeath/f;->N()V <",
+                "> Lcom/smorgasbork/hotdeath/f;->run()V <",
+                "> Lcom/smorgasbork/hotdeath/GameActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/smorgasbork/hotdeath/Main;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.smorgasbork.hotdeath.Main",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/smorgasbork/hotdeath/c;-><init>(Landroid/content/Context;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/smorgasbork/hotdeath/GameActivity;->e()V <",
+                "> Lcom/smorgasbork/hotdeath/GameActivity$d;->onClick(Landroid/view/View;)V <",
+                "> Lcom/smorgasbork/hotdeath/GameActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/smorgasbork/hotdeath/Main;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.smorgasbork.hotdeath.Main",
+                    "<unknown>"
+                ],
+                [
+                    "com.smorgasbork.hotdeath.GameActivity",
+                    "btn_menu_help"
+                ]
+            ]
+        }
+    },
+    "Lcom/smorgasbork/hotdeath/h;->a()I": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/smorgasbork/hotdeath/h$a;->run()V <",
+                "> Lcom/smorgasbork/hotdeath/h;-><init>(Landroid/content/Context;Lcom/smorgasbork/hotdeath/f;Lcom/smorgasbork/hotdeath/g;)V <",
+                "> Lcom/smorgasbork/hotdeath/GameActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/smorgasbork/hotdeath/Main;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.smorgasbork.hotdeath.Main",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/smorgasbork/hotdeath/j;->b(Lcom/smorgasbork/hotdeath/a;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/smorgasbork/hotdeath/h;->b(ILandroid/graphics/Point;)V <",
+                "> Lcom/smorgasbork/hotdeath/h;->onTouchEvent(Landroid/view/MotionEvent;)Z <",
+                "> Lcom/smorgasbork/hotdeath/GameActivity;->onDestroy()V <",
+                "> Lcom/smorgasbork/hotdeath/Main;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.smorgasbork.hotdeath.Main",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/smorgasbork/hotdeath/f;->c(Z)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/smorgasbork/hotdeath/f;->a()Z <",
+                "> Lcom/smorgasbork/hotdeath/f;->T()V <",
+                "> Lcom/smorgasbork/hotdeath/f;->run()V <",
+                "> Lcom/smorgasbork/hotdeath/GameActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/smorgasbork/hotdeath/Main;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.smorgasbork.hotdeath.Main",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/smorgasbork/hotdeath/h$a;-><init>(Lcom/smorgasbork/hotdeath/h;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/smorgasbork/hotdeath/h;-><init>(Landroid/content/Context;Lcom/smorgasbork/hotdeath/f;Lcom/smorgasbork/hotdeath/g;)V <",
+                "> Lcom/smorgasbork/hotdeath/GameActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/smorgasbork/hotdeath/Main;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.smorgasbork.hotdeath.Main",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/smorgasbork/hotdeath/f;->d(Lcom/smorgasbork/hotdeath/i;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/smorgasbork/hotdeath/f;->a(Lcom/smorgasbork/hotdeath/l;)V <",
+                "> Lcom/smorgasbork/hotdeath/f;->R()V <",
+                "> Lcom/smorgasbork/hotdeath/f;->N()V <",
+                "> Lcom/smorgasbork/hotdeath/f;->run()V <",
+                "> Lcom/smorgasbork/hotdeath/GameActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/smorgasbork/hotdeath/Main;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.smorgasbork.hotdeath.Main",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/smorgasbork/hotdeath/f;->a(Lcom/smorgasbork/hotdeath/l;I)V <",
+                "> Lcom/smorgasbork/hotdeath/f;->A()V <",
+                "> Lcom/smorgasbork/hotdeath/f;->a()Z <",
+                "> Lcom/smorgasbork/hotdeath/f;->T()V <",
+                "> Lcom/smorgasbork/hotdeath/f;->run()V <",
+                "> Lcom/smorgasbork/hotdeath/GameActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/smorgasbork/hotdeath/Main;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.smorgasbork.hotdeath.Main",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/smorgasbork/hotdeath/f;->a()Z <",
+                "> Lcom/smorgasbork/hotdeath/f;->T()V <",
+                "> Lcom/smorgasbork/hotdeath/f;->run()V <",
+                "> Lcom/smorgasbork/hotdeath/GameActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/smorgasbork/hotdeath/Main;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.smorgasbork.hotdeath.Main",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/smorgasbork/hotdeath/l;->c()V <",
+                "> Lcom/smorgasbork/hotdeath/f;->a()Z <",
+                "> Lcom/smorgasbork/hotdeath/f;->T()V <",
+                "> Lcom/smorgasbork/hotdeath/f;->run()V <",
+                "> Lcom/smorgasbork/hotdeath/GameActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/smorgasbork/hotdeath/Main;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.smorgasbork.hotdeath.Main",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lcom/smorgasbork/hotdeath/f;->c()V <",
+                "> Lcom/smorgasbork/hotdeath/f;->N()V <",
+                "> Lcom/smorgasbork/hotdeath/f;->run()V <",
+                "> Lcom/smorgasbork/hotdeath/GameActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/smorgasbork/hotdeath/Main;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.smorgasbork.hotdeath.Main",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/smorgasbork/hotdeath/Prefs;->l(Landroid/content/Context;)Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/smorgasbork/hotdeath/g;->e()Z <",
+                "> Lcom/smorgasbork/hotdeath/f;->N()V <",
+                "> Lcom/smorgasbork/hotdeath/f;->run()V <",
+                "> Lcom/smorgasbork/hotdeath/GameActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/smorgasbork/hotdeath/Main;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.smorgasbork.hotdeath.Main",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/smorgasbork/hotdeath/GameActivity;->a(I)Ljava/lang/Integer;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/smorgasbork/hotdeath/c;-><init>(Landroid/content/Context;)V <",
+                "> Lcom/smorgasbork/hotdeath/GameActivity;->e()V <",
+                "> Lcom/smorgasbork/hotdeath/GameActivity$d;->onClick(Landroid/view/View;)V <",
+                "> Lcom/smorgasbork/hotdeath/GameActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/smorgasbork/hotdeath/Main;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.smorgasbork.hotdeath.Main",
+                    "<unknown>"
+                ],
+                [
+                    "com.smorgasbork.hotdeath.GameActivity",
+                    "btn_menu_help"
+                ]
+            ]
+        }
+    },
+    "Lcom/smorgasbork/hotdeath/j;-><init>(Lcom/smorgasbork/hotdeath/f;Lcom/smorgasbork/hotdeath/g;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/smorgasbork/hotdeath/f;-><init>(Lcom/smorgasbork/hotdeath/GameActivity;Lcom/smorgasbork/hotdeath/g;)V <",
+                "> Lcom/smorgasbork/hotdeath/GameActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/smorgasbork/hotdeath/Main;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.smorgasbork.hotdeath.Main",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/smorgasbork/hotdeath/f;->h()I": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/smorgasbork/hotdeath/h;->onDraw(Landroid/graphics/Canvas;)V <",
+                "> Lcom/smorgasbork/hotdeath/GameActivity;->onDestroy()V <",
+                "> Lcom/smorgasbork/hotdeath/Main;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.smorgasbork.hotdeath.Main",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/smorgasbork/hotdeath/f;->f()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/smorgasbork/hotdeath/GameActivity$b;->onClick(Landroid/view/View;)V <",
+                "> Lcom/smorgasbork/hotdeath/GameActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/smorgasbork/hotdeath/Main;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.smorgasbork.hotdeath.Main",
+                    "<unknown>"
+                ],
+                [
+                    "com.smorgasbork.hotdeath.GameActivity",
+                    "btn_menu_draw"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/smorgasbork/hotdeath/h;->h()V <",
+                "> Lcom/smorgasbork/hotdeath/h;->onTouchEvent(Landroid/view/MotionEvent;)Z <",
+                "> Lcom/smorgasbork/hotdeath/GameActivity;->onDestroy()V <",
+                "> Lcom/smorgasbork/hotdeath/Main;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.smorgasbork.hotdeath.Main",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/smorgasbork/hotdeath/GameActivity$e;-><init>(Lcom/smorgasbork/hotdeath/GameActivity;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/smorgasbork/hotdeath/GameActivity;->e()V <",
+                "> Lcom/smorgasbork/hotdeath/GameActivity$d;->onClick(Landroid/view/View;)V <",
+                "> Lcom/smorgasbork/hotdeath/GameActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/smorgasbork/hotdeath/Main;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.smorgasbork.hotdeath.Main",
+                    "<unknown>"
+                ],
+                [
+                    "com.smorgasbork.hotdeath.GameActivity",
+                    "btn_menu_help"
+                ]
+            ]
+        }
+    },
+    "Lcom/smorgasbork/hotdeath/b;->a()[Lcom/smorgasbork/hotdeath/a;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/smorgasbork/hotdeath/f;->d(Lcom/smorgasbork/hotdeath/i;)V <",
+                "> Lcom/smorgasbork/hotdeath/f;->a()Z <",
+                "> Lcom/smorgasbork/hotdeath/f;->T()V <",
+                "> Lcom/smorgasbork/hotdeath/f;->run()V <",
+                "> Lcom/smorgasbork/hotdeath/GameActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/smorgasbork/hotdeath/Main;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.smorgasbork.hotdeath.Main",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/smorgasbork/hotdeath/c;-><init>(Landroid/content/Context;)V <",
+                "> Lcom/smorgasbork/hotdeath/GameActivity;->e()V <",
+                "> Lcom/smorgasbork/hotdeath/GameActivity$d;->onClick(Landroid/view/View;)V <",
+                "> Lcom/smorgasbork/hotdeath/GameActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/smorgasbork/hotdeath/Main;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.smorgasbork.hotdeath.Main",
+                    "<unknown>"
+                ],
+                [
+                    "com.smorgasbork.hotdeath.GameActivity",
+                    "btn_menu_help"
+                ]
+            ]
+        }
+    },
+    "Lcom/smorgasbork/hotdeath/i;->a(Z)I": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/smorgasbork/hotdeath/f;->d(Lcom/smorgasbork/hotdeath/l;)V <",
+                "> Lcom/smorgasbork/hotdeath/f;->a(Lcom/smorgasbork/hotdeath/l;)V <",
+                "> Lcom/smorgasbork/hotdeath/f;->R()V <",
+                "> Lcom/smorgasbork/hotdeath/f;->N()V <",
+                "> Lcom/smorgasbork/hotdeath/f;->run()V <",
+                "> Lcom/smorgasbork/hotdeath/GameActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/smorgasbork/hotdeath/Main;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.smorgasbork.hotdeath.Main",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/smorgasbork/hotdeath/h;->a(Landroid/graphics/Canvas;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/smorgasbork/hotdeath/h$a;->run()V <",
+                "> Lcom/smorgasbork/hotdeath/h;-><init>(Landroid/content/Context;Lcom/smorgasbork/hotdeath/f;Lcom/smorgasbork/hotdeath/g;)V <",
+                "> Lcom/smorgasbork/hotdeath/GameActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/smorgasbork/hotdeath/Main;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.smorgasbork.hotdeath.Main",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/smorgasbork/hotdeath/l;->b(Lcom/smorgasbork/hotdeath/l;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/smorgasbork/hotdeath/f;-><init>(Lorg/json/JSONObject;Lcom/smorgasbork/hotdeath/GameActivity;Lcom/smorgasbork/hotdeath/g;)V <",
+                "> Lcom/smorgasbork/hotdeath/GameActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/smorgasbork/hotdeath/Main;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.smorgasbork.hotdeath.Main",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/smorgasbork/hotdeath/f;-><init>(Lcom/smorgasbork/hotdeath/GameActivity;Lcom/smorgasbork/hotdeath/g;)V <",
+                "> Lcom/smorgasbork/hotdeath/GameActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/smorgasbork/hotdeath/Main;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.smorgasbork.hotdeath.Main",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/smorgasbork/hotdeath/a;->e()Lcom/smorgasbork/hotdeath/i;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/smorgasbork/hotdeath/f;->d(Lcom/smorgasbork/hotdeath/i;)V <",
+                "> Lcom/smorgasbork/hotdeath/f;->a()Z <",
+                "> Lcom/smorgasbork/hotdeath/f;->T()V <",
+                "> Lcom/smorgasbork/hotdeath/f;->run()V <",
+                "> Lcom/smorgasbork/hotdeath/GameActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/smorgasbork/hotdeath/Main;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.smorgasbork.hotdeath.Main",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/smorgasbork/hotdeath/h;-><init>(Landroid/content/Context;Lcom/smorgasbork/hotdeath/f;Lcom/smorgasbork/hotdeath/g;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/smorgasbork/hotdeath/GameActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/smorgasbork/hotdeath/Main;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.smorgasbork.hotdeath.Main",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/smorgasbork/hotdeath/GameActivity;->b()[Ljava/lang/Integer;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/smorgasbork/hotdeath/c;-><init>(Landroid/content/Context;)V <",
+                "> Lcom/smorgasbork/hotdeath/GameActivity;->e()V <",
+                "> Lcom/smorgasbork/hotdeath/GameActivity$d;->onClick(Landroid/view/View;)V <",
+                "> Lcom/smorgasbork/hotdeath/GameActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/smorgasbork/hotdeath/Main;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.smorgasbork.hotdeath.Main",
+                    "<unknown>"
+                ],
+                [
+                    "com.smorgasbork.hotdeath.GameActivity",
+                    "btn_menu_help"
+                ]
+            ]
+        }
+    },
+    "Lcom/smorgasbork/hotdeath/GameActivity;->b(Lcom/smorgasbork/hotdeath/GameActivity;)Lcom/smorgasbork/hotdeath/f;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/smorgasbork/hotdeath/c;-><init>(Landroid/content/Context;)V <",
+                "> Lcom/smorgasbork/hotdeath/GameActivity;->e()V <",
+                "> Lcom/smorgasbork/hotdeath/GameActivity$d;->onClick(Landroid/view/View;)V <",
+                "> Lcom/smorgasbork/hotdeath/GameActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/smorgasbork/hotdeath/Main;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.smorgasbork.hotdeath.Main",
+                    "<unknown>"
+                ],
+                [
+                    "com.smorgasbork.hotdeath.GameActivity",
+                    "btn_menu_help"
+                ]
+            ]
+        }
+    },
+    "Lcom/smorgasbork/hotdeath/f;->j()Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/smorgasbork/hotdeath/GameActivity;->g()V <",
+                "> Lcom/smorgasbork/hotdeath/GameActivity$c;->onClick(Landroid/view/View;)V <",
+                "> Lcom/smorgasbork/hotdeath/GameActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/smorgasbork/hotdeath/Main;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.smorgasbork.hotdeath.Main",
+                    "<unknown>"
+                ],
+                [
+                    "com.smorgasbork.hotdeath.GameActivity",
+                    "btn_menu_pass"
+                ]
+            ]
+        }
+    }
+}

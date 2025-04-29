@@ -1,0 +1,268 @@
+{
+    "Lcom/ahoh/besttrick/ui/Hilt_MainActivity;->_initHiltInternal()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/ahoh/besttrick/ui/Hilt_MainActivity;-><init>(I)V <",
+                "> Lcom/ahoh/besttrick/ui/MainActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/ahoh/besttrick/ui/Hilt_MainActivity;-><init>()V <",
+                "> Lcom/ahoh/besttrick/ui/MainActivity;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/ahoh/besttrick/Hilt_MainApplication;->generatedComponent()Ljava/lang/Object;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/ahoh/besttrick/Hilt_MainApplication;->hiltInternalInject()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/ahoh/besttrick/ui/MainActivity$onCreate$3$1$1$1;->invoke(Landroidx/compose/runtime/Composer;I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/ahoh/besttrick/ui/MainActivity$onCreate$3$1$1$1;->invoke(Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/ahoh/besttrick/ui/MainActivity$onCreate$1$1;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/ahoh/besttrick/ui/MainActivity$onCreate$1$1;->invoke(Lkotlinx/coroutines/CoroutineScope; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/ahoh/besttrick/ui/MainActivity;->access$getToken$p(Lcom/ahoh/besttrick/ui/MainActivity;)Landroidx/compose/runtime/MutableState;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/ahoh/besttrick/ui/MainActivity$onCreate$1$1;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/ahoh/besttrick/ui/MainActivity$onCreate$3$1;->invoke(Landroidx/compose/runtime/Composer;I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/ahoh/besttrick/ui/MainActivity$onCreate$3$1;->invoke(Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/ahoh/besttrick/Hilt_MainApplication;->componentManager()Ldagger/hilt/android/internal/managers/ApplicationComponentManager;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/ahoh/besttrick/Hilt_MainApplication;->generatedComponent()Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/ahoh/besttrick/Hilt_MainApplication;->componentManager()Ldagger/hilt/internal/GeneratedComponentManager; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/ahoh/besttrick/Hilt_MainApplication;->hiltInternalInject()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/ahoh/besttrick/Hilt_MainApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/ahoh/besttrick/ui/MainActivity$onCreate$1$1;->create(Ljava/lang/Object;Lkotlin/coroutines/Continuation;)Lkotlin/coroutines/Continuation;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/ahoh/besttrick/ui/MainActivity$onCreate$1$1;->invoke(Lkotlinx/coroutines/CoroutineScope; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/ahoh/besttrick/ui/MainActivity;->access$getActiveScope$p(Lcom/ahoh/besttrick/ui/MainActivity;)Landroidx/compose/runtime/MutableState;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/ahoh/besttrick/ui/MainActivity$onCreate$2;->invoke(Ljava/lang/Boolean;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/ahoh/besttrick/ui/MainActivity$onCreate$3$1$1$1$1;->invoke(Landroidx/compose/runtime/Composer; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/ahoh/besttrick/ui/MainActivity$onCreate$3;->invoke(Lcom/ahoh/besttrick/data/athletes/AthleteResponse;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/ahoh/besttrick/di/ApiSession;->getMissingAthlete()Landroidx/lifecycle/MutableLiveData;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/ahoh/besttrick/ui/MainActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/ahoh/besttrick/ui/Hilt_MainActivity;->createComponentManager()Ldagger/hilt/android/internal/managers/ActivityComponentManager;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/ahoh/besttrick/ui/Hilt_MainActivity;->componentManager()Ldagger/hilt/android/internal/managers/ActivityComponentManager; <",
+                "> Lcom/ahoh/besttrick/ui/Hilt_MainActivity;->componentManager()Ldagger/hilt/internal/GeneratedComponentManager; <",
+                "> Lcom/ahoh/besttrick/ui/MainActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/ahoh/besttrick/ui/MainActivity;->access$getReady$p(Lcom/ahoh/besttrick/ui/MainActivity;)Landroidx/compose/runtime/MutableState;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/ahoh/besttrick/ui/MainActivity$onCreate$1;->invoke(Ljava/lang/Boolean;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/ahoh/besttrick/ui/MainActivity$onCreate$3$1$1$1$1;->invoke(Landroidx/compose/runtime/Composer; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/ahoh/besttrick/ui/Hilt_MainActivity;->generatedComponent()Ljava/lang/Object;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/ahoh/besttrick/ui/Hilt_MainActivity;->inject()V <",
+                "> Lcom/ahoh/besttrick/ui/Hilt_MainActivity$1;->onContextAvailable(Landroid/content/Context;)V <",
+                "> Lcom/ahoh/besttrick/ui/Hilt_MainActivity;->_initHiltInternal()V <",
+                "> Lcom/ahoh/besttrick/ui/Hilt_MainActivity;-><init>(I)V <",
+                "> Lcom/ahoh/besttrick/ui/MainActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/ahoh/besttrick/ui/Hilt_MainActivity;->componentManager()Ldagger/hilt/android/internal/managers/ActivityComponentManager;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/ahoh/besttrick/ui/Hilt_MainActivity;->componentManager()Ldagger/hilt/internal/GeneratedComponentManager; <",
+                "> Lcom/ahoh/besttrick/ui/MainActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/ahoh/besttrick/ui/Hilt_MainActivity;->generatedComponent()Ljava/lang/Object; <",
+                "> Lcom/ahoh/besttrick/ui/Hilt_MainActivity;->inject()V <",
+                "> Lcom/ahoh/besttrick/ui/Hilt_MainActivity$1;->onContextAvailable(Landroid/content/Context;)V <",
+                "> Lcom/ahoh/besttrick/ui/Hilt_MainActivity;->_initHiltInternal()V <",
+                "> Lcom/ahoh/besttrick/ui/Hilt_MainActivity;-><init>(I)V <",
+                "> Lcom/ahoh/besttrick/ui/MainActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/ahoh/besttrick/ui/MainActivity$onCreate$3$1;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/ahoh/besttrick/ui/MainActivity$onCreate$3$1;->invoke(Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    }
+}

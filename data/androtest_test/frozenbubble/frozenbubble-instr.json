@@ -1,0 +1,3283 @@
+{
+    "Lcom/efortin/frozenbubble/HomeScreen$26;-><init>(Lcom/efortin/frozenbubble/HomeScreen;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/efortin/frozenbubble/HomeScreen;->addPlayerSelectButtons()V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->displayPage(I)V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->startHomeScreen()V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.efortin.frozenbubble.HomeScreen",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/efortin/frozenbubble/HomeScreen;->addPlayerSelectButtons()V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->displayPage(I)V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->access$600(Lcom/efortin/frozenbubble/HomeScreen;I)V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen$15;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.efortin.frozenbubble.HomeScreen",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/efortin/frozenbubble/HomeScreen;->addPlayerSelectButtons()V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->displayPage(I)V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->access$600(Lcom/efortin/frozenbubble/HomeScreen;I)V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen$13;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.efortin.frozenbubble.HomeScreen",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/efortin/frozenbubble/NetworkManager$GameFieldData;->copyFromBuffer([BI)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/efortin/frozenbubble/NetworkManager;->processEventData([BI)V <",
+                "> Lcom/efortin/frozenbubble/NetworkManager;->onBluetoothEvent([BI)V <",
+                "> Lcom/efortin/frozenbubble/NetworkManager;->newGame()V <",
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->newGame(Z)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->newGame()V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble$7;->onClick(Landroid/content/DialogInterface;I)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->newGameDialog()V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.jfedor.frozenbubble.GAME",
+                    "start-activity -a"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.jfedor.frozenbubble.FrozenBubble",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/efortin/frozenbubble/NetworkManager;->processEventData([BI)V <",
+                "> Lcom/efortin/frozenbubble/NetworkManager;->onBluetoothEvent([BI)V <",
+                "> Lcom/efortin/frozenbubble/NetworkManager;->newGame()V <",
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->newGame(Z)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->newGame()V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble$7;->onClick(Landroid/content/DialogInterface;I)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->newGameDialog()V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->startFrozenBubble()V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.efortin.frozenbubble.HomeScreen",
+                    "<unknown>"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.jfedor.frozenbubble.FrozenBubble",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/efortin/frozenbubble/HomeScreen;->access$702(I)I": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/efortin/frozenbubble/HomeScreen$21;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.efortin.frozenbubble.HomeScreen",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/efortin/frozenbubble/HomeScreen$15;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.efortin.frozenbubble.HomeScreen",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/efortin/frozenbubble/HomeScreen$17;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.efortin.frozenbubble.HomeScreen",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/efortin/frozenbubble/HomeScreen$19;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.efortin.frozenbubble.HomeScreen",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/efortin/frozenbubble/ScrollingCredits;->startActivity(Landroid/content/Intent;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/efortin/frozenbubble/ScrollingCredits;->end()V <",
+                "> Lcom/efortin/frozenbubble/ScrollingCredits;->onKeyDown(ILandroid/view/KeyEvent;)Z <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onGameEvent(Lorg/jfedor/frozenbubble/GameScreen$eventEnum;)V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->startFrozenBubble()V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.efortin.frozenbubble.HomeScreen",
+                    "<unknown>"
+                ],
+                [
+                    "com.efortin.frozenbubble.ScrollingCredits",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/efortin/frozenbubble/ScrollingCredits;->end()V <",
+                "> Lcom/efortin/frozenbubble/ScrollingCredits;->onKeyDown(ILandroid/view/KeyEvent;)Z <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onGameEvent(Lorg/jfedor/frozenbubble/GameScreen$eventEnum;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.jfedor.frozenbubble.GAME",
+                    "start-activity -a"
+                ],
+                [
+                    "com.efortin.frozenbubble.ScrollingCredits",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/efortin/frozenbubble/NetworkManager;->updateNetworkStatus(Lorg/jfedor/frozenbubble/GameView$NetGameInterface$NetworkStatus;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->drawNetworkScreen(Landroid/graphics/Canvas;)V <",
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->run()V <",
+                "> Lorg/jfedor/frozenbubble/GameView;->init(Landroid/content/Context;IIIIZ[BI)V <",
+                "> Lorg/jfedor/frozenbubble/GameView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->startCustomGame(Landroid/content/Intent;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onNewIntent(Landroid/content/Intent;)V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->startFrozenBubble()V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.efortin.frozenbubble.HomeScreen",
+                    "<unknown>"
+                ],
+                [
+                    "org.jfedor.frozenbubble.FrozenBubble",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->drawNetworkScreen(Landroid/graphics/Canvas;)V <",
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->run()V <",
+                "> Lorg/jfedor/frozenbubble/GameView;->init(Landroid/content/Context;IIIIZ[BI)V <",
+                "> Lorg/jfedor/frozenbubble/GameView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->startCustomGame(Landroid/content/Intent;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->startFrozenBubble()V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.efortin.frozenbubble.HomeScreen",
+                    "<unknown>"
+                ],
+                [
+                    "org.jfedor.frozenbubble.FrozenBubble",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->drawNetworkScreen(Landroid/graphics/Canvas;)V <",
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->run()V <",
+                "> Lorg/jfedor/frozenbubble/GameView;->init(Landroid/content/Context;IIIIZ[BI)V <",
+                "> Lorg/jfedor/frozenbubble/GameView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->startCustomGame(Landroid/content/Intent;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onNewIntent(Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.jfedor.frozenbubble.GAME",
+                    "start-activity -a"
+                ],
+                [
+                    "org.jfedor.frozenbubble.FrozenBubble",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->drawNetworkScreen(Landroid/graphics/Canvas;)V <",
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->run()V <",
+                "> Lorg/jfedor/frozenbubble/GameView;->init(Landroid/content/Context;IIIIZ[BI)V <",
+                "> Lorg/jfedor/frozenbubble/GameView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->startCustomGame(Landroid/content/Intent;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.jfedor.frozenbubble.GAME",
+                    "start-activity -a"
+                ],
+                [
+                    "org.jfedor.frozenbubble.FrozenBubble",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/efortin/frozenbubble/ScrollingCredits;->checkCreditsDone()Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/efortin/frozenbubble/ScrollingCredits;->onKeyDown(ILandroid/view/KeyEvent;)Z <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onGameEvent(Lorg/jfedor/frozenbubble/GameScreen$eventEnum;)V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->startFrozenBubble()V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.efortin.frozenbubble.HomeScreen",
+                    "<unknown>"
+                ],
+                [
+                    "com.efortin.frozenbubble.ScrollingCredits",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/efortin/frozenbubble/ScrollingCredits;->onKeyDown(ILandroid/view/KeyEvent;)Z <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onGameEvent(Lorg/jfedor/frozenbubble/GameScreen$eventEnum;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.jfedor.frozenbubble.GAME",
+                    "start-activity -a"
+                ],
+                [
+                    "com.efortin.frozenbubble.ScrollingCredits",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/efortin/frozenbubble/ScrollingCredits;->onTouchEvent(Landroid/view/MotionEvent;)Z <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onGameEvent(Lorg/jfedor/frozenbubble/GameScreen$eventEnum;)V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->startFrozenBubble()V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.efortin.frozenbubble.HomeScreen",
+                    "<unknown>"
+                ],
+                [
+                    "com.efortin.frozenbubble.ScrollingCredits",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/efortin/frozenbubble/ScrollingCredits;->onTouchEvent(Landroid/view/MotionEvent;)Z <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onGameEvent(Lorg/jfedor/frozenbubble/GameScreen$eventEnum;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.jfedor.frozenbubble.GAME",
+                    "start-activity -a"
+                ],
+                [
+                    "com.efortin.frozenbubble.ScrollingCredits",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/efortin/frozenbubble/PreferencesActivity;->addPreferencesFromResource(I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/efortin/frozenbubble/PreferencesActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->startPreferencesScreen()V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->access$300(Lcom/efortin/frozenbubble/HomeScreen;)V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen$3;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.efortin.frozenbubble.HomeScreen",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/efortin/frozenbubble/HomeScreen$4;-><init>(Lcom/efortin/frozenbubble/HomeScreen;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/efortin/frozenbubble/HomeScreen;->addGameExtrasButtons()V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->displayPage(I)V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->startHomeScreen()V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.efortin.frozenbubble.HomeScreen",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/efortin/frozenbubble/HomeScreen;->addGameExtrasButtons()V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->displayPage(I)V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->access$600(Lcom/efortin/frozenbubble/HomeScreen;I)V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen$15;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.efortin.frozenbubble.HomeScreen",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/efortin/frozenbubble/HomeScreen;->addGameExtrasButtons()V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->displayPage(I)V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->access$600(Lcom/efortin/frozenbubble/HomeScreen;I)V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen$13;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.efortin.frozenbubble.HomeScreen",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/efortin/frozenbubble/ScrollingTextView;->invalidate()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/efortin/frozenbubble/ScrollingTextView;->refreshScroll()V <",
+                "> Lcom/efortin/frozenbubble/ScrollingTextView;->setPaused(Z)V <",
+                "> Lcom/efortin/frozenbubble/ScrollingCredits;->resumeCredits()V <",
+                "> Lcom/efortin/frozenbubble/ScrollingCredits;->onResume()V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onGameEvent(Lorg/jfedor/frozenbubble/GameScreen$eventEnum;)V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->startFrozenBubble()V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.efortin.frozenbubble.HomeScreen",
+                    "<unknown>"
+                ],
+                [
+                    "com.efortin.frozenbubble.ScrollingCredits",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/efortin/frozenbubble/ScrollingTextView;->refreshScroll()V <",
+                "> Lcom/efortin/frozenbubble/ScrollingTextView;->setPaused(Z)V <",
+                "> Lcom/efortin/frozenbubble/ScrollingCredits;->pauseCredits()V <",
+                "> Lcom/efortin/frozenbubble/ScrollingCredits;->onPause()V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onGameEvent(Lorg/jfedor/frozenbubble/GameScreen$eventEnum;)V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->startFrozenBubble()V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.efortin.frozenbubble.HomeScreen",
+                    "<unknown>"
+                ],
+                [
+                    "com.efortin.frozenbubble.ScrollingCredits",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/efortin/frozenbubble/ScrollingTextView;->refreshScroll()V <",
+                "> Lcom/efortin/frozenbubble/ScrollingTextView;->setPaused(Z)V <",
+                "> Lcom/efortin/frozenbubble/ScrollingCredits;->resumeCredits()V <",
+                "> Lcom/efortin/frozenbubble/ScrollingCredits;->onResume()V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onGameEvent(Lorg/jfedor/frozenbubble/GameScreen$eventEnum;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.jfedor.frozenbubble.GAME",
+                    "start-activity -a"
+                ],
+                [
+                    "com.efortin.frozenbubble.ScrollingCredits",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/efortin/frozenbubble/ScrollingTextView;->refreshScroll()V <",
+                "> Lcom/efortin/frozenbubble/ScrollingTextView;->setPaused(Z)V <",
+                "> Lcom/efortin/frozenbubble/ScrollingCredits;->pauseCredits()V <",
+                "> Lcom/efortin/frozenbubble/ScrollingCredits;->onPause()V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onGameEvent(Lorg/jfedor/frozenbubble/GameScreen$eventEnum;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.jfedor.frozenbubble.GAME",
+                    "start-activity -a"
+                ],
+                [
+                    "com.efortin.frozenbubble.ScrollingCredits",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/efortin/frozenbubble/HomeScreen;->getIntent()Landroid/content/Intent;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/efortin/frozenbubble/HomeScreen;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.efortin.frozenbubble.HomeScreen",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/efortin/frozenbubble/NetworkManager;-><init>(Landroid/content/Context;Lcom/efortin/frozenbubble/NetworkManager$connectEnum;Lcom/efortin/frozenbubble/VirtualInput;Lcom/efortin/frozenbubble/VirtualInput;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/jfedor/frozenbubble/GameView;->init(Landroid/content/Context;IIIIZ[BI)V <",
+                "> Lorg/jfedor/frozenbubble/GameView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->startCustomGame(Landroid/content/Intent;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onNewIntent(Landroid/content/Intent;)V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->startFrozenBubble()V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.efortin.frozenbubble.HomeScreen",
+                    "<unknown>"
+                ],
+                [
+                    "org.jfedor.frozenbubble.FrozenBubble",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/jfedor/frozenbubble/GameView;->init(Landroid/content/Context;IIIIZ[BI)V <",
+                "> Lorg/jfedor/frozenbubble/GameView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->startCustomGame(Landroid/content/Intent;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->startFrozenBubble()V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.efortin.frozenbubble.HomeScreen",
+                    "<unknown>"
+                ],
+                [
+                    "org.jfedor.frozenbubble.FrozenBubble",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lorg/jfedor/frozenbubble/GameView;->init(Landroid/content/Context;IIIIZ[BI)V <",
+                "> Lorg/jfedor/frozenbubble/GameView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->startCustomGame(Landroid/content/Intent;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onNewIntent(Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.jfedor.frozenbubble.GAME",
+                    "start-activity -a"
+                ],
+                [
+                    "org.jfedor.frozenbubble.FrozenBubble",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lorg/jfedor/frozenbubble/GameView;->init(Landroid/content/Context;IIIIZ[BI)V <",
+                "> Lorg/jfedor/frozenbubble/GameView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->startCustomGame(Landroid/content/Intent;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.jfedor.frozenbubble.GAME",
+                    "start-activity -a"
+                ],
+                [
+                    "org.jfedor.frozenbubble.FrozenBubble",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/efortin/frozenbubble/HighscoreManager;->getLastScoreDO()Lcom/efortin/frozenbubble/HighscoreDO;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->drawHighScoreScreen(Landroid/graphics/Canvas;I)V <",
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->run()V <",
+                "> Lorg/jfedor/frozenbubble/GameView;->init(Landroid/content/Context;IIIIZ[BI)V <",
+                "> Lorg/jfedor/frozenbubble/GameView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->startCustomGame(Landroid/content/Intent;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onNewIntent(Landroid/content/Intent;)V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->startFrozenBubble()V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.efortin.frozenbubble.HomeScreen",
+                    "<unknown>"
+                ],
+                [
+                    "org.jfedor.frozenbubble.FrozenBubble",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->drawHighScoreScreen(Landroid/graphics/Canvas;I)V <",
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->run()V <",
+                "> Lorg/jfedor/frozenbubble/GameView;->init(Landroid/content/Context;IIIIZ[BI)V <",
+                "> Lorg/jfedor/frozenbubble/GameView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->startCustomGame(Landroid/content/Intent;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->startFrozenBubble()V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.efortin.frozenbubble.HomeScreen",
+                    "<unknown>"
+                ],
+                [
+                    "org.jfedor.frozenbubble.FrozenBubble",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->drawHighScoreScreen(Landroid/graphics/Canvas;I)V <",
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->run()V <",
+                "> Lorg/jfedor/frozenbubble/GameView;->init(Landroid/content/Context;IIIIZ[BI)V <",
+                "> Lorg/jfedor/frozenbubble/GameView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->startCustomGame(Landroid/content/Intent;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onNewIntent(Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.jfedor.frozenbubble.GAME",
+                    "start-activity -a"
+                ],
+                [
+                    "org.jfedor.frozenbubble.FrozenBubble",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->drawHighScoreScreen(Landroid/graphics/Canvas;I)V <",
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->run()V <",
+                "> Lorg/jfedor/frozenbubble/GameView;->init(Landroid/content/Context;IIIIZ[BI)V <",
+                "> Lorg/jfedor/frozenbubble/GameView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->startCustomGame(Landroid/content/Intent;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.jfedor.frozenbubble.GAME",
+                    "start-activity -a"
+                ],
+                [
+                    "org.jfedor.frozenbubble.FrozenBubble",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->drawLowScoreScreen(Landroid/graphics/Canvas;I)V <",
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->run()V <",
+                "> Lorg/jfedor/frozenbubble/GameView;->init(Landroid/content/Context;IIIIZ[BI)V <",
+                "> Lorg/jfedor/frozenbubble/GameView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->startCustomGame(Landroid/content/Intent;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onNewIntent(Landroid/content/Intent;)V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->startFrozenBubble()V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.efortin.frozenbubble.HomeScreen",
+                    "<unknown>"
+                ],
+                [
+                    "org.jfedor.frozenbubble.FrozenBubble",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_5": {
+            "call_sequence": [
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->drawLowScoreScreen(Landroid/graphics/Canvas;I)V <",
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->run()V <",
+                "> Lorg/jfedor/frozenbubble/GameView;->init(Landroid/content/Context;IIIIZ[BI)V <",
+                "> Lorg/jfedor/frozenbubble/GameView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->startCustomGame(Landroid/content/Intent;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->startFrozenBubble()V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.efortin.frozenbubble.HomeScreen",
+                    "<unknown>"
+                ],
+                [
+                    "org.jfedor.frozenbubble.FrozenBubble",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_6": {
+            "call_sequence": [
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->drawLowScoreScreen(Landroid/graphics/Canvas;I)V <",
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->run()V <",
+                "> Lorg/jfedor/frozenbubble/GameView;->init(Landroid/content/Context;IIIIZ[BI)V <",
+                "> Lorg/jfedor/frozenbubble/GameView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->startCustomGame(Landroid/content/Intent;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onNewIntent(Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.jfedor.frozenbubble.GAME",
+                    "start-activity -a"
+                ],
+                [
+                    "org.jfedor.frozenbubble.FrozenBubble",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_7": {
+            "call_sequence": [
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->drawLowScoreScreen(Landroid/graphics/Canvas;I)V <",
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->run()V <",
+                "> Lorg/jfedor/frozenbubble/GameView;->init(Landroid/content/Context;IIIIZ[BI)V <",
+                "> Lorg/jfedor/frozenbubble/GameView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->startCustomGame(Landroid/content/Intent;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.jfedor.frozenbubble.GAME",
+                    "start-activity -a"
+                ],
+                [
+                    "org.jfedor.frozenbubble.FrozenBubble",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/efortin/frozenbubble/NetworkManager$ReconnectTask;->doInBackground([Ljava/lang/Void;)Ljava/lang/Void;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/efortin/frozenbubble/NetworkManager$ReconnectTask;->doInBackground([Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/efortin/frozenbubble/NetworkManager;->onUDPEvent(Ljava/net/InetAddress;[BI)V <",
+                "> Lcom/efortin/frozenbubble/NetworkManager;->newGame()V <",
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->newGame(Z)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->newGame()V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble$7;->onClick(Landroid/content/DialogInterface;I)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->newGameDialog()V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.jfedor.frozenbubble.GAME",
+                    "start-activity -a"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.jfedor.frozenbubble.FrozenBubble",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/efortin/frozenbubble/NetworkManager$ReconnectTask;->doInBackground([Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/efortin/frozenbubble/NetworkManager;->onUDPEvent(Ljava/net/InetAddress;[BI)V <",
+                "> Lcom/efortin/frozenbubble/NetworkManager;->newGame()V <",
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->newGame(Z)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->newGame()V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble$7;->onClick(Landroid/content/DialogInterface;I)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->newGameDialog()V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->startFrozenBubble()V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.efortin.frozenbubble.HomeScreen",
+                    "<unknown>"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.jfedor.frozenbubble.FrozenBubble",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/efortin/frozenbubble/NetworkManager$PlayerStatus;-><init>(Lcom/efortin/frozenbubble/NetworkManager;[BI)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/efortin/frozenbubble/NetworkManager;->processEventData([BI)V <",
+                "> Lcom/efortin/frozenbubble/NetworkManager;->onBluetoothEvent([BI)V <",
+                "> Lcom/efortin/frozenbubble/NetworkManager;->newGame()V <",
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->newGame(Z)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->newGame()V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble$7;->onClick(Landroid/content/DialogInterface;I)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->newGameDialog()V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.jfedor.frozenbubble.GAME",
+                    "start-activity -a"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.jfedor.frozenbubble.FrozenBubble",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/efortin/frozenbubble/NetworkManager;->processEventData([BI)V <",
+                "> Lcom/efortin/frozenbubble/NetworkManager;->onBluetoothEvent([BI)V <",
+                "> Lcom/efortin/frozenbubble/NetworkManager;->newGame()V <",
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->newGame(Z)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->newGame()V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble$7;->onClick(Landroid/content/DialogInterface;I)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->newGameDialog()V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->startFrozenBubble()V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.efortin.frozenbubble.HomeScreen",
+                    "<unknown>"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.jfedor.frozenbubble.FrozenBubble",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/efortin/frozenbubble/ModPlayer;->loadNewSong(IZ)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->playMusic(Z)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onPlayerEvent(Lcom/peculiargames/andmodplug/PlayerThread$eventEnum;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.jfedor.frozenbubble.GAME",
+                    "start-activity -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->playMusic(Z)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onPlayerEvent(Lcom/peculiargames/andmodplug/PlayerThread$eventEnum;)V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->startFrozenBubble()V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.efortin.frozenbubble.HomeScreen",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/efortin/frozenbubble/UDPSocket$TxThread;-><init>(Lcom/efortin/frozenbubble/UDPSocket;Lcom/efortin/frozenbubble/UDPSocket$1;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/efortin/frozenbubble/UDPSocket;-><init>(Landroid/content/Context;Lcom/efortin/frozenbubble/NetworkManager$connectEnum;Ljava/net/InetAddress;Ljava/lang/String;IIZ)V <",
+                "> Lcom/efortin/frozenbubble/NetworkManager;->createUDPsocketSession(Z)V <",
+                "> Lcom/efortin/frozenbubble/NetworkManager;->newGame()V <",
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->newGame(Z)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->newGame()V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble$7;->onClick(Landroid/content/DialogInterface;I)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->newGameDialog()V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.jfedor.frozenbubble.GAME",
+                    "start-activity -a"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.jfedor.frozenbubble.FrozenBubble",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/efortin/frozenbubble/UDPSocket;-><init>(Landroid/content/Context;Lcom/efortin/frozenbubble/NetworkManager$connectEnum;Ljava/net/InetAddress;Ljava/lang/String;IIZ)V <",
+                "> Lcom/efortin/frozenbubble/NetworkManager;->createUDPsocketSession(Z)V <",
+                "> Lcom/efortin/frozenbubble/NetworkManager;->newGame()V <",
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->newGame(Z)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->newGame()V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble$7;->onClick(Landroid/content/DialogInterface;I)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->newGameDialog()V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->startFrozenBubble()V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.efortin.frozenbubble.HomeScreen",
+                    "<unknown>"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.jfedor.frozenbubble.FrozenBubble",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/efortin/frozenbubble/HomeScreen;->access$700()I": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/efortin/frozenbubble/HomeScreen$25;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.efortin.frozenbubble.HomeScreen",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/efortin/frozenbubble/HomeScreen$23;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.efortin.frozenbubble.HomeScreen",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/efortin/frozenbubble/UDPSocket$RxThread;->receiveDatagram()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/efortin/frozenbubble/UDPSocket$RxThread;->run()V <",
+                "> Lcom/efortin/frozenbubble/UDPSocket;-><init>(Landroid/content/Context;Lcom/efortin/frozenbubble/NetworkManager$connectEnum;Ljava/net/InetAddress;Ljava/lang/String;IIZ)V <",
+                "> Lcom/efortin/frozenbubble/NetworkManager;->createUDPsocketSession(Z)V <",
+                "> Lcom/efortin/frozenbubble/NetworkManager;->newGame()V <",
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->newGame(Z)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->newGame()V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble$7;->onClick(Landroid/content/DialogInterface;I)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->newGameDialog()V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.jfedor.frozenbubble.GAME",
+                    "start-activity -a"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.jfedor.frozenbubble.FrozenBubble",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/efortin/frozenbubble/UDPSocket$RxThread;->run()V <",
+                "> Lcom/efortin/frozenbubble/UDPSocket;-><init>(Landroid/content/Context;Lcom/efortin/frozenbubble/NetworkManager$connectEnum;Ljava/net/InetAddress;Ljava/lang/String;IIZ)V <",
+                "> Lcom/efortin/frozenbubble/NetworkManager;->createUDPsocketSession(Z)V <",
+                "> Lcom/efortin/frozenbubble/NetworkManager;->newGame()V <",
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->newGame(Z)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->newGame()V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble$7;->onClick(Landroid/content/DialogInterface;I)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->newGameDialog()V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->startFrozenBubble()V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.efortin.frozenbubble.HomeScreen",
+                    "<unknown>"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.jfedor.frozenbubble.FrozenBubble",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/efortin/frozenbubble/HighscoreManager;->saveState(Landroid/os/Bundle;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->saveState(Landroid/os/Bundle;)Landroid/os/Bundle; <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->saveState(Landroid/os/Bundle;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onSaveInstanceState(Landroid/os/Bundle;)V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->startFrozenBubble()V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.efortin.frozenbubble.HomeScreen",
+                    "<unknown>"
+                ],
+                [
+                    "org.jfedor.frozenbubble.FrozenBubble",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->saveState(Landroid/os/Bundle;)Landroid/os/Bundle; <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->saveState(Landroid/os/Bundle;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onSaveInstanceState(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.jfedor.frozenbubble.GAME",
+                    "start-activity -a"
+                ],
+                [
+                    "org.jfedor.frozenbubble.FrozenBubble",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/efortin/frozenbubble/HomeScreen$7;-><init>(Lcom/efortin/frozenbubble/HomeScreen;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/efortin/frozenbubble/HomeScreen;->addHomeButtons()V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->displayPage(I)V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->startHomeScreen()V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.efortin.frozenbubble.HomeScreen",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/efortin/frozenbubble/HomeScreen;->addHomeButtons()V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->displayPage(I)V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->access$600(Lcom/efortin/frozenbubble/HomeScreen;I)V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen$15;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.efortin.frozenbubble.HomeScreen",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/efortin/frozenbubble/HomeScreen;->addHomeButtons()V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->displayPage(I)V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->access$600(Lcom/efortin/frozenbubble/HomeScreen;I)V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen$13;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.efortin.frozenbubble.HomeScreen",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/efortin/frozenbubble/NetworkManager;->manageNetworkGame()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/efortin/frozenbubble/NetworkManager;->run()V <",
+                "> Lcom/efortin/frozenbubble/NetworkManager;->newGame()V <",
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->newGame(Z)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->newGame()V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble$7;->onClick(Landroid/content/DialogInterface;I)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->newGameDialog()V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.jfedor.frozenbubble.GAME",
+                    "start-activity -a"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.jfedor.frozenbubble.FrozenBubble",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/efortin/frozenbubble/NetworkManager;->run()V <",
+                "> Lcom/efortin/frozenbubble/NetworkManager;->newGame()V <",
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->newGame(Z)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->newGame()V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble$7;->onClick(Landroid/content/DialogInterface;I)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->newGameDialog()V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->startFrozenBubble()V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.efortin.frozenbubble.HomeScreen",
+                    "<unknown>"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.jfedor.frozenbubble.FrozenBubble",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/efortin/frozenbubble/HighscoreManager;->restoreState(Landroid/os/Bundle;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->restoreState(Landroid/os/Bundle;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->newGameView(Landroid/os/Bundle;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->startDefaultGame(Landroid/content/Intent;Landroid/os/Bundle;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onNewIntent(Landroid/content/Intent;)V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->startFrozenBubble()V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.efortin.frozenbubble.HomeScreen",
+                    "<unknown>"
+                ],
+                [
+                    "org.jfedor.frozenbubble.FrozenBubble",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->restoreState(Landroid/os/Bundle;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->newGameView(Landroid/os/Bundle;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->startDefaultGame(Landroid/content/Intent;Landroid/os/Bundle;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onNewIntent(Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.jfedor.frozenbubble.GAME",
+                    "start-activity -a"
+                ],
+                [
+                    "org.jfedor.frozenbubble.FrozenBubble",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/efortin/frozenbubble/BluetoothManager;->access$800(Lcom/efortin/frozenbubble/BluetoothManager;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/efortin/frozenbubble/BluetoothManager$BluetoothRxThread;->run()V <",
+                "> Lcom/efortin/frozenbubble/BluetoothManager;-><init>(ZI)V <",
+                "> Lcom/efortin/frozenbubble/NetworkManager;->newGame()V <",
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->newGame(Z)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->newGame()V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble$7;->onClick(Landroid/content/DialogInterface;I)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->newGameDialog()V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.jfedor.frozenbubble.GAME",
+                    "start-activity -a"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.jfedor.frozenbubble.FrozenBubble",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/efortin/frozenbubble/BluetoothManager$BluetoothRxThread;->run()V <",
+                "> Lcom/efortin/frozenbubble/BluetoothManager;-><init>(ZI)V <",
+                "> Lcom/efortin/frozenbubble/NetworkManager;->newGame()V <",
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->newGame(Z)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->newGame()V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble$7;->onClick(Landroid/content/DialogInterface;I)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->newGameDialog()V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->startFrozenBubble()V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.efortin.frozenbubble.HomeScreen",
+                    "<unknown>"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.jfedor.frozenbubble.FrozenBubble",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/efortin/frozenbubble/VirtualInput;-><init>()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/jfedor/frozenbubble/GameView$PlayerInput;-><init>(Lorg/jfedor/frozenbubble/GameView;IZZ)V <",
+                "> Lorg/jfedor/frozenbubble/GameView;->init(Landroid/content/Context;IIIIZ[BI)V <",
+                "> Lorg/jfedor/frozenbubble/GameView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->startCustomGame(Landroid/content/Intent;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onNewIntent(Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.jfedor.frozenbubble.GAME",
+                    "start-activity -a"
+                ],
+                [
+                    "org.jfedor.frozenbubble.FrozenBubble",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/jfedor/frozenbubble/GameView$PlayerInput;-><init>(Lorg/jfedor/frozenbubble/GameView;IZZ)V <",
+                "> Lorg/jfedor/frozenbubble/GameView;->init(Landroid/content/Context;IIIIZ[BI)V <",
+                "> Lorg/jfedor/frozenbubble/GameView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->startCustomGame(Landroid/content/Intent;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.jfedor.frozenbubble.GAME",
+                    "start-activity -a"
+                ],
+                [
+                    "org.jfedor.frozenbubble.FrozenBubble",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lorg/jfedor/frozenbubble/GameView$PlayerInput;-><init>(Lorg/jfedor/frozenbubble/GameView;IZZ)V <",
+                "> Lorg/jfedor/frozenbubble/GameView;->init(Landroid/content/Context;IIIIZ[BI)V <",
+                "> Lorg/jfedor/frozenbubble/GameView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->startCustomGame(Landroid/content/Intent;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onNewIntent(Landroid/content/Intent;)V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->startFrozenBubble()V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.efortin.frozenbubble.HomeScreen",
+                    "<unknown>"
+                ],
+                [
+                    "org.jfedor.frozenbubble.FrozenBubble",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lorg/jfedor/frozenbubble/GameView$PlayerInput;-><init>(Lorg/jfedor/frozenbubble/GameView;IZZ)V <",
+                "> Lorg/jfedor/frozenbubble/GameView;->init(Landroid/content/Context;IIIIZ[BI)V <",
+                "> Lorg/jfedor/frozenbubble/GameView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->startCustomGame(Landroid/content/Intent;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->startFrozenBubble()V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.efortin.frozenbubble.HomeScreen",
+                    "<unknown>"
+                ],
+                [
+                    "org.jfedor.frozenbubble.FrozenBubble",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/efortin/frozenbubble/ScrollingCredits;->displayImage(I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/efortin/frozenbubble/ScrollingCredits;->run()V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onGameEvent(Lorg/jfedor/frozenbubble/GameScreen$eventEnum;)V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->startFrozenBubble()V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.efortin.frozenbubble.HomeScreen",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/efortin/frozenbubble/ScrollingCredits;->run()V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onGameEvent(Lorg/jfedor/frozenbubble/GameScreen$eventEnum;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.jfedor.frozenbubble.GAME",
+                    "start-activity -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/efortin/frozenbubble/HighscoreDB;->access$000()Ljava/lang/String;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/efortin/frozenbubble/HighscoreDB$OpenHelper;-><init>(Landroid/content/Context;)V <",
+                "> Lcom/efortin/frozenbubble/HighscoreDB;-><init>(Landroid/content/Context;Ljava/lang/String;)V <",
+                "> Lcom/efortin/frozenbubble/HighscoreManager;-><init>(Landroid/content/Context;Ljava/lang/String;)V <",
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;-><init>(Lorg/jfedor/frozenbubble/GameView;Landroid/view/SurfaceHolder;)V <",
+                "> Lorg/jfedor/frozenbubble/GameView;->init(Landroid/content/Context;IIIIZ[BI)V <",
+                "> Lorg/jfedor/frozenbubble/GameView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->startCustomGame(Landroid/content/Intent;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onNewIntent(Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.jfedor.frozenbubble.GAME",
+                    "start-activity -a"
+                ],
+                [
+                    "org.jfedor.frozenbubble.FrozenBubble",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/efortin/frozenbubble/HighscoreDB$OpenHelper;-><init>(Landroid/content/Context;)V <",
+                "> Lcom/efortin/frozenbubble/HighscoreDB;-><init>(Landroid/content/Context;Ljava/lang/String;)V <",
+                "> Lcom/efortin/frozenbubble/HighscoreManager;-><init>(Landroid/content/Context;Ljava/lang/String;)V <",
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;-><init>(Lorg/jfedor/frozenbubble/GameView;Landroid/view/SurfaceHolder;)V <",
+                "> Lorg/jfedor/frozenbubble/GameView;->init(Landroid/content/Context;IIIIZ[BI)V <",
+                "> Lorg/jfedor/frozenbubble/GameView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->startCustomGame(Landroid/content/Intent;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.jfedor.frozenbubble.GAME",
+                    "start-activity -a"
+                ],
+                [
+                    "org.jfedor.frozenbubble.FrozenBubble",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/efortin/frozenbubble/HighscoreDB$OpenHelper;-><init>(Landroid/content/Context;)V <",
+                "> Lcom/efortin/frozenbubble/HighscoreDB;-><init>(Landroid/content/Context;Ljava/lang/String;)V <",
+                "> Lcom/efortin/frozenbubble/HighscoreManager;-><init>(Landroid/content/Context;Ljava/lang/String;)V <",
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;-><init>(Lorg/jfedor/frozenbubble/GameView;Landroid/view/SurfaceHolder;)V <",
+                "> Lorg/jfedor/frozenbubble/GameView;->init(Landroid/content/Context;IIIIZ[BI)V <",
+                "> Lorg/jfedor/frozenbubble/GameView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->startCustomGame(Landroid/content/Intent;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onNewIntent(Landroid/content/Intent;)V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->startFrozenBubble()V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.efortin.frozenbubble.HomeScreen",
+                    "<unknown>"
+                ],
+                [
+                    "org.jfedor.frozenbubble.FrozenBubble",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/efortin/frozenbubble/HighscoreDB$OpenHelper;-><init>(Landroid/content/Context;)V <",
+                "> Lcom/efortin/frozenbubble/HighscoreDB;-><init>(Landroid/content/Context;Ljava/lang/String;)V <",
+                "> Lcom/efortin/frozenbubble/HighscoreManager;-><init>(Landroid/content/Context;Ljava/lang/String;)V <",
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;-><init>(Lorg/jfedor/frozenbubble/GameView;Landroid/view/SurfaceHolder;)V <",
+                "> Lorg/jfedor/frozenbubble/GameView;->init(Landroid/content/Context;IIIIZ[BI)V <",
+                "> Lorg/jfedor/frozenbubble/GameView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->startCustomGame(Landroid/content/Intent;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->startFrozenBubble()V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.efortin.frozenbubble.HomeScreen",
+                    "<unknown>"
+                ],
+                [
+                    "org.jfedor.frozenbubble.FrozenBubble",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/efortin/frozenbubble/HighscoreManager;->getLowScore(II)Ljava/util/List;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->drawLowScoreScreen(Landroid/graphics/Canvas;I)V <",
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->run()V <",
+                "> Lorg/jfedor/frozenbubble/GameView;->init(Landroid/content/Context;IIIIZ[BI)V <",
+                "> Lorg/jfedor/frozenbubble/GameView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->startCustomGame(Landroid/content/Intent;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onNewIntent(Landroid/content/Intent;)V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->startFrozenBubble()V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.efortin.frozenbubble.HomeScreen",
+                    "<unknown>"
+                ],
+                [
+                    "org.jfedor.frozenbubble.FrozenBubble",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->drawLowScoreScreen(Landroid/graphics/Canvas;I)V <",
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->run()V <",
+                "> Lorg/jfedor/frozenbubble/GameView;->init(Landroid/content/Context;IIIIZ[BI)V <",
+                "> Lorg/jfedor/frozenbubble/GameView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->startCustomGame(Landroid/content/Intent;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->startFrozenBubble()V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.efortin.frozenbubble.HomeScreen",
+                    "<unknown>"
+                ],
+                [
+                    "org.jfedor.frozenbubble.FrozenBubble",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->drawLowScoreScreen(Landroid/graphics/Canvas;I)V <",
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->run()V <",
+                "> Lorg/jfedor/frozenbubble/GameView;->init(Landroid/content/Context;IIIIZ[BI)V <",
+                "> Lorg/jfedor/frozenbubble/GameView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->startCustomGame(Landroid/content/Intent;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onNewIntent(Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.jfedor.frozenbubble.GAME",
+                    "start-activity -a"
+                ],
+                [
+                    "org.jfedor.frozenbubble.FrozenBubble",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->drawLowScoreScreen(Landroid/graphics/Canvas;I)V <",
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->run()V <",
+                "> Lorg/jfedor/frozenbubble/GameView;->init(Landroid/content/Context;IIIIZ[BI)V <",
+                "> Lorg/jfedor/frozenbubble/GameView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->startCustomGame(Landroid/content/Intent;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.jfedor.frozenbubble.GAME",
+                    "start-activity -a"
+                ],
+                [
+                    "org.jfedor.frozenbubble.FrozenBubble",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/efortin/frozenbubble/NetworkManager;->processEventData([BI)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/efortin/frozenbubble/NetworkManager;->onBluetoothEvent([BI)V <",
+                "> Lcom/efortin/frozenbubble/NetworkManager;->newGame()V <",
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->newGame(Z)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->newGame()V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble$7;->onClick(Landroid/content/DialogInterface;I)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->newGameDialog()V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.jfedor.frozenbubble.GAME",
+                    "start-activity -a"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.jfedor.frozenbubble.FrozenBubble",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/efortin/frozenbubble/NetworkManager;->onBluetoothEvent([BI)V <",
+                "> Lcom/efortin/frozenbubble/NetworkManager;->newGame()V <",
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->newGame(Z)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->newGame()V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble$7;->onClick(Landroid/content/DialogInterface;I)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->newGameDialog()V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->startFrozenBubble()V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.efortin.frozenbubble.HomeScreen",
+                    "<unknown>"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.jfedor.frozenbubble.FrozenBubble",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/efortin/frozenbubble/NetworkManager;->onUDPEvent(Ljava/net/InetAddress;[BI)V <",
+                "> Lcom/efortin/frozenbubble/NetworkManager;->newGame()V <",
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->newGame(Z)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->newGame()V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble$7;->onClick(Landroid/content/DialogInterface;I)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->newGameDialog()V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.jfedor.frozenbubble.GAME",
+                    "start-activity -a"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.jfedor.frozenbubble.FrozenBubble",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/efortin/frozenbubble/NetworkManager;->onUDPEvent(Ljava/net/InetAddress;[BI)V <",
+                "> Lcom/efortin/frozenbubble/NetworkManager;->newGame()V <",
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->newGame(Z)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->newGame()V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble$7;->onClick(Landroid/content/DialogInterface;I)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->newGameDialog()V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->startFrozenBubble()V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.efortin.frozenbubble.HomeScreen",
+                    "<unknown>"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.jfedor.frozenbubble.FrozenBubble",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/efortin/frozenbubble/BluetoothManager;->transmit([B)Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/efortin/frozenbubble/NetworkManager;->transmitAction(Lcom/efortin/frozenbubble/NetworkManager$PlayerAction;)Z <",
+                "> Lcom/efortin/frozenbubble/NetworkManager;->sendLocalPlayerAction(IZZZIIIII[BD)V <",
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->toggleKeyPress(IZZ)V <",
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->doKeyDown(II)Z <",
+                "> Lorg/jfedor/frozenbubble/GameView;->onGenericMotionEvent(Landroid/view/MotionEvent;)Z <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->startCustomGame(Landroid/content/Intent;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onNewIntent(Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.jfedor.frozenbubble.GAME",
+                    "start-activity -a"
+                ],
+                [
+                    "org.jfedor.frozenbubble.FrozenBubble",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/efortin/frozenbubble/NetworkManager;->transmitAction(Lcom/efortin/frozenbubble/NetworkManager$PlayerAction;)Z <",
+                "> Lcom/efortin/frozenbubble/NetworkManager;->sendLocalPlayerAction(IZZZIIIII[BD)V <",
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->toggleKeyPress(IZZ)V <",
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->doTouchEvent(Landroid/view/MotionEvent;)Z <",
+                "> Lorg/jfedor/frozenbubble/GameView;->onTouchEvent(Landroid/view/MotionEvent;)Z <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->startCustomGame(Landroid/content/Intent;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onNewIntent(Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.jfedor.frozenbubble.GAME",
+                    "start-activity -a"
+                ],
+                [
+                    "org.jfedor.frozenbubble.FrozenBubble",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/efortin/frozenbubble/NetworkManager;->transmitAction(Lcom/efortin/frozenbubble/NetworkManager$PlayerAction;)Z <",
+                "> Lcom/efortin/frozenbubble/NetworkManager;->sendLocalPlayerAction(IZZZIIIII[BD)V <",
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->toggleKeyPress(IZZ)V <",
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->doKeyDown(II)Z <",
+                "> Lorg/jfedor/frozenbubble/GameView;->onKeyDown(ILandroid/view/KeyEvent;)Z <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->startCustomGame(Landroid/content/Intent;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.jfedor.frozenbubble.GAME",
+                    "start-activity -a"
+                ],
+                [
+                    "org.jfedor.frozenbubble.FrozenBubble",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/efortin/frozenbubble/NetworkManager;->transmitAction(Lcom/efortin/frozenbubble/NetworkManager$PlayerAction;)Z <",
+                "> Lcom/efortin/frozenbubble/NetworkManager;->sendLocalPlayerAction(IZZZIIIII[BD)V <",
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->toggleKeyPress(IZZ)V <",
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->doKeyDown(II)Z <",
+                "> Lorg/jfedor/frozenbubble/GameView;->onGenericMotionEvent(Landroid/view/MotionEvent;)Z <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->startCustomGame(Landroid/content/Intent;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onNewIntent(Landroid/content/Intent;)V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->startFrozenBubble()V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.efortin.frozenbubble.HomeScreen",
+                    "<unknown>"
+                ],
+                [
+                    "org.jfedor.frozenbubble.FrozenBubble",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lcom/efortin/frozenbubble/NetworkManager;->transmitAction(Lcom/efortin/frozenbubble/NetworkManager$PlayerAction;)Z <",
+                "> Lcom/efortin/frozenbubble/NetworkManager;->sendLocalPlayerAction(IZZZIIIII[BD)V <",
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->toggleKeyPress(IZZ)V <",
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->doTouchEvent(Landroid/view/MotionEvent;)Z <",
+                "> Lorg/jfedor/frozenbubble/GameView;->onTouchEvent(Landroid/view/MotionEvent;)Z <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->startCustomGame(Landroid/content/Intent;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onNewIntent(Landroid/content/Intent;)V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->startFrozenBubble()V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.efortin.frozenbubble.HomeScreen",
+                    "<unknown>"
+                ],
+                [
+                    "org.jfedor.frozenbubble.FrozenBubble",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_5": {
+            "call_sequence": [
+                "> Lcom/efortin/frozenbubble/NetworkManager;->transmitAction(Lcom/efortin/frozenbubble/NetworkManager$PlayerAction;)Z <",
+                "> Lcom/efortin/frozenbubble/NetworkManager;->sendLocalPlayerAction(IZZZIIIII[BD)V <",
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->toggleKeyPress(IZZ)V <",
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->doKeyDown(II)Z <",
+                "> Lorg/jfedor/frozenbubble/GameView;->onKeyDown(ILandroid/view/KeyEvent;)Z <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->startCustomGame(Landroid/content/Intent;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->startFrozenBubble()V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.efortin.frozenbubble.HomeScreen",
+                    "<unknown>"
+                ],
+                [
+                    "org.jfedor.frozenbubble.FrozenBubble",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_6": {
+            "call_sequence": [
+                "> Lcom/efortin/frozenbubble/NetworkManager;->transmitGameField(Lcom/efortin/frozenbubble/NetworkManager$GameFieldData;)Z <",
+                "> Lcom/efortin/frozenbubble/NetworkManager;->manageNetworkGame()V <",
+                "> Lcom/efortin/frozenbubble/NetworkManager;->run()V <",
+                "> Lcom/efortin/frozenbubble/NetworkManager;->newGame()V <",
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->newGame(Z)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->newGame()V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble$7;->onClick(Landroid/content/DialogInterface;I)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->newGameDialog()V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.jfedor.frozenbubble.GAME",
+                    "start-activity -a"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.jfedor.frozenbubble.FrozenBubble",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_7": {
+            "call_sequence": [
+                "> Lcom/efortin/frozenbubble/NetworkManager;->transmitGameField(Lcom/efortin/frozenbubble/NetworkManager$GameFieldData;)Z <",
+                "> Lcom/efortin/frozenbubble/NetworkManager;->manageNetworkGame()V <",
+                "> Lcom/efortin/frozenbubble/NetworkManager;->run()V <",
+                "> Lcom/efortin/frozenbubble/NetworkManager;->newGame()V <",
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->newGame(Z)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->newGame()V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble$7;->onClick(Landroid/content/DialogInterface;I)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->newGameDialog()V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->startFrozenBubble()V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.efortin.frozenbubble.HomeScreen",
+                    "<unknown>"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.jfedor.frozenbubble.FrozenBubble",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_8": {
+            "call_sequence": [
+                "> Lcom/efortin/frozenbubble/NetworkManager;->transmitHello()Z <",
+                "> Lcom/efortin/frozenbubble/NetworkManager;->manageNetworkGame()V <",
+                "> Lcom/efortin/frozenbubble/NetworkManager;->run()V <",
+                "> Lcom/efortin/frozenbubble/NetworkManager;->newGame()V <",
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->newGame(Z)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->newGame()V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble$7;->onClick(Landroid/content/DialogInterface;I)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->newGameDialog()V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.jfedor.frozenbubble.GAME",
+                    "start-activity -a"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.jfedor.frozenbubble.FrozenBubble",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_9": {
+            "call_sequence": [
+                "> Lcom/efortin/frozenbubble/NetworkManager;->transmitHello()Z <",
+                "> Lcom/efortin/frozenbubble/NetworkManager;->manageNetworkGame()V <",
+                "> Lcom/efortin/frozenbubble/NetworkManager;->run()V <",
+                "> Lcom/efortin/frozenbubble/NetworkManager;->newGame()V <",
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->newGame(Z)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->newGame()V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble$7;->onClick(Landroid/content/DialogInterface;I)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->newGameDialog()V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->startFrozenBubble()V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.efortin.frozenbubble.HomeScreen",
+                    "<unknown>"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.jfedor.frozenbubble.FrozenBubble",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_10": {
+            "call_sequence": [
+                "> Lcom/efortin/frozenbubble/NetworkManager;->transmitPrefs()Z <",
+                "> Lcom/efortin/frozenbubble/NetworkManager;->manageNetworkGame()V <",
+                "> Lcom/efortin/frozenbubble/NetworkManager;->run()V <",
+                "> Lcom/efortin/frozenbubble/NetworkManager;->newGame()V <",
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->newGame(Z)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->newGame()V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble$7;->onClick(Landroid/content/DialogInterface;I)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->newGameDialog()V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.jfedor.frozenbubble.GAME",
+                    "start-activity -a"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.jfedor.frozenbubble.FrozenBubble",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_11": {
+            "call_sequence": [
+                "> Lcom/efortin/frozenbubble/NetworkManager;->transmitPrefs()Z <",
+                "> Lcom/efortin/frozenbubble/NetworkManager;->manageNetworkGame()V <",
+                "> Lcom/efortin/frozenbubble/NetworkManager;->run()V <",
+                "> Lcom/efortin/frozenbubble/NetworkManager;->newGame()V <",
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->newGame(Z)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->newGame()V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble$7;->onClick(Landroid/content/DialogInterface;I)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->newGameDialog()V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->startFrozenBubble()V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.efortin.frozenbubble.HomeScreen",
+                    "<unknown>"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.jfedor.frozenbubble.FrozenBubble",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_12": {
+            "call_sequence": [
+                "> Lcom/efortin/frozenbubble/NetworkManager;->transmitStatus(Lcom/efortin/frozenbubble/NetworkManager$PlayerStatus;)Z <",
+                "> Lcom/efortin/frozenbubble/NetworkManager;->manageNetworkGame()V <",
+                "> Lcom/efortin/frozenbubble/NetworkManager;->run()V <",
+                "> Lcom/efortin/frozenbubble/NetworkManager;->newGame()V <",
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->newGame(Z)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->newGame()V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble$7;->onClick(Landroid/content/DialogInterface;I)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->newGameDialog()V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.jfedor.frozenbubble.GAME",
+                    "start-activity -a"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.jfedor.frozenbubble.FrozenBubble",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_13": {
+            "call_sequence": [
+                "> Lcom/efortin/frozenbubble/NetworkManager;->transmitStatus(Lcom/efortin/frozenbubble/NetworkManager$PlayerStatus;)Z <",
+                "> Lcom/efortin/frozenbubble/NetworkManager;->manageNetworkGame()V <",
+                "> Lcom/efortin/frozenbubble/NetworkManager;->run()V <",
+                "> Lcom/efortin/frozenbubble/NetworkManager;->newGame()V <",
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->newGame(Z)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->newGame()V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble$7;->onClick(Landroid/content/DialogInterface;I)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->newGameDialog()V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->startFrozenBubble()V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.efortin.frozenbubble.HomeScreen",
+                    "<unknown>"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.jfedor.frozenbubble.FrozenBubble",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/efortin/frozenbubble/HomeScreen$12;-><init>(Lcom/efortin/frozenbubble/HomeScreen;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/efortin/frozenbubble/HomeScreen;->addHomeButtons()V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->displayPage(I)V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->startHomeScreen()V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.efortin.frozenbubble.HomeScreen",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/efortin/frozenbubble/HomeScreen;->addHomeButtons()V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->displayPage(I)V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->access$600(Lcom/efortin/frozenbubble/HomeScreen;I)V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen$15;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.efortin.frozenbubble.HomeScreen",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/efortin/frozenbubble/HomeScreen;->addHomeButtons()V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->displayPage(I)V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->access$600(Lcom/efortin/frozenbubble/HomeScreen;I)V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen$13;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.efortin.frozenbubble.HomeScreen",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/efortin/frozenbubble/HighscoreDO;-><init>(IILjava/lang/String;IJ)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/efortin/frozenbubble/HighscoreDB;->selectByLevel(II)Ljava/util/List; <",
+                "> Lcom/efortin/frozenbubble/HighscoreManager;->getHighScore(II)Ljava/util/List; <",
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->drawHighScoreScreen(Landroid/graphics/Canvas;I)V <",
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->run()V <",
+                "> Lorg/jfedor/frozenbubble/GameView;->init(Landroid/content/Context;IIIIZ[BI)V <",
+                "> Lorg/jfedor/frozenbubble/GameView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->startCustomGame(Landroid/content/Intent;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onNewIntent(Landroid/content/Intent;)V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->startFrozenBubble()V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.efortin.frozenbubble.HomeScreen",
+                    "<unknown>"
+                ],
+                [
+                    "org.jfedor.frozenbubble.FrozenBubble",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/efortin/frozenbubble/HighscoreDB;->selectByLevel(II)Ljava/util/List; <",
+                "> Lcom/efortin/frozenbubble/HighscoreManager;->getHighScore(II)Ljava/util/List; <",
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->drawHighScoreScreen(Landroid/graphics/Canvas;I)V <",
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->run()V <",
+                "> Lorg/jfedor/frozenbubble/GameView;->init(Landroid/content/Context;IIIIZ[BI)V <",
+                "> Lorg/jfedor/frozenbubble/GameView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->startCustomGame(Landroid/content/Intent;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->startFrozenBubble()V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.efortin.frozenbubble.HomeScreen",
+                    "<unknown>"
+                ],
+                [
+                    "org.jfedor.frozenbubble.FrozenBubble",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/efortin/frozenbubble/HighscoreDB;->selectByLevel(II)Ljava/util/List; <",
+                "> Lcom/efortin/frozenbubble/HighscoreManager;->getHighScore(II)Ljava/util/List; <",
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->drawHighScoreScreen(Landroid/graphics/Canvas;I)V <",
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->run()V <",
+                "> Lorg/jfedor/frozenbubble/GameView;->init(Landroid/content/Context;IIIIZ[BI)V <",
+                "> Lorg/jfedor/frozenbubble/GameView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->startCustomGame(Landroid/content/Intent;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onNewIntent(Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.jfedor.frozenbubble.GAME",
+                    "start-activity -a"
+                ],
+                [
+                    "org.jfedor.frozenbubble.FrozenBubble",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/efortin/frozenbubble/HighscoreDB;->selectByLevel(II)Ljava/util/List; <",
+                "> Lcom/efortin/frozenbubble/HighscoreManager;->getHighScore(II)Ljava/util/List; <",
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->drawHighScoreScreen(Landroid/graphics/Canvas;I)V <",
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->run()V <",
+                "> Lorg/jfedor/frozenbubble/GameView;->init(Landroid/content/Context;IIIIZ[BI)V <",
+                "> Lorg/jfedor/frozenbubble/GameView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->startCustomGame(Landroid/content/Intent;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.jfedor.frozenbubble.GAME",
+                    "start-activity -a"
+                ],
+                [
+                    "org.jfedor.frozenbubble.FrozenBubble",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lcom/efortin/frozenbubble/HighscoreDB;->selectLastByLevel(II)Ljava/util/List; <",
+                "> Lcom/efortin/frozenbubble/HighscoreManager;->getLowScore(II)Ljava/util/List; <",
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->drawLowScoreScreen(Landroid/graphics/Canvas;I)V <",
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->run()V <",
+                "> Lorg/jfedor/frozenbubble/GameView;->init(Landroid/content/Context;IIIIZ[BI)V <",
+                "> Lorg/jfedor/frozenbubble/GameView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->startCustomGame(Landroid/content/Intent;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onNewIntent(Landroid/content/Intent;)V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->startFrozenBubble()V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.efortin.frozenbubble.HomeScreen",
+                    "<unknown>"
+                ],
+                [
+                    "org.jfedor.frozenbubble.FrozenBubble",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_5": {
+            "call_sequence": [
+                "> Lcom/efortin/frozenbubble/HighscoreDB;->selectLastByLevel(II)Ljava/util/List; <",
+                "> Lcom/efortin/frozenbubble/HighscoreManager;->getLowScore(II)Ljava/util/List; <",
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->drawLowScoreScreen(Landroid/graphics/Canvas;I)V <",
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->run()V <",
+                "> Lorg/jfedor/frozenbubble/GameView;->init(Landroid/content/Context;IIIIZ[BI)V <",
+                "> Lorg/jfedor/frozenbubble/GameView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->startCustomGame(Landroid/content/Intent;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->startFrozenBubble()V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.efortin.frozenbubble.HomeScreen",
+                    "<unknown>"
+                ],
+                [
+                    "org.jfedor.frozenbubble.FrozenBubble",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_6": {
+            "call_sequence": [
+                "> Lcom/efortin/frozenbubble/HighscoreDB;->selectLastByLevel(II)Ljava/util/List; <",
+                "> Lcom/efortin/frozenbubble/HighscoreManager;->getLowScore(II)Ljava/util/List; <",
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->drawLowScoreScreen(Landroid/graphics/Canvas;I)V <",
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->run()V <",
+                "> Lorg/jfedor/frozenbubble/GameView;->init(Landroid/content/Context;IIIIZ[BI)V <",
+                "> Lorg/jfedor/frozenbubble/GameView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->startCustomGame(Landroid/content/Intent;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onNewIntent(Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.jfedor.frozenbubble.GAME",
+                    "start-activity -a"
+                ],
+                [
+                    "org.jfedor.frozenbubble.FrozenBubble",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_7": {
+            "call_sequence": [
+                "> Lcom/efortin/frozenbubble/HighscoreDB;->selectLastByLevel(II)Ljava/util/List; <",
+                "> Lcom/efortin/frozenbubble/HighscoreManager;->getLowScore(II)Ljava/util/List; <",
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->drawLowScoreScreen(Landroid/graphics/Canvas;I)V <",
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->run()V <",
+                "> Lorg/jfedor/frozenbubble/GameView;->init(Landroid/content/Context;IIIIZ[BI)V <",
+                "> Lorg/jfedor/frozenbubble/GameView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->startCustomGame(Landroid/content/Intent;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.jfedor.frozenbubble.GAME",
+                    "start-activity -a"
+                ],
+                [
+                    "org.jfedor.frozenbubble.FrozenBubble",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/efortin/frozenbubble/ModPlayer;->setMusicOn(Z)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/efortin/frozenbubble/ModPlayer;->newMusicPlayer(Landroid/content/Context;IIZZ)V <",
+                "> Lcom/efortin/frozenbubble/ModPlayer;-><init>(Landroid/content/Context;IIZZ)V <",
+                "> Lcom/efortin/frozenbubble/ScrollingCredits;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onGameEvent(Lorg/jfedor/frozenbubble/GameScreen$eventEnum;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.jfedor.frozenbubble.GAME",
+                    "start-activity -a"
+                ],
+                [
+                    "com.efortin.frozenbubble.ScrollingCredits",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/efortin/frozenbubble/ModPlayer;->newMusicPlayer(Landroid/content/Context;IIZZ)V <",
+                "> Lcom/efortin/frozenbubble/ModPlayer;-><init>(Landroid/content/Context;IIZZ)V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->startHomeScreen()V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.efortin.frozenbubble.HomeScreen",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lorg/jfedor/frozenbubble/FrozenBubble$9;->onClick(Landroid/content/DialogInterface;IZ)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->soundOptionsDialog()V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->startFrozenBubble()V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.efortin.frozenbubble.HomeScreen",
+                    "<unknown>"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.jfedor.frozenbubble.FrozenBubble",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lorg/jfedor/frozenbubble/FrozenBubble$9;->onClick(Landroid/content/DialogInterface;IZ)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->soundOptionsDialog()V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.jfedor.frozenbubble.GAME",
+                    "start-activity -a"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.jfedor.frozenbubble.FrozenBubble",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/efortin/frozenbubble/HomeScreen;->addHomeButtons()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/efortin/frozenbubble/HomeScreen;->displayPage(I)V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->startHomeScreen()V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.efortin.frozenbubble.HomeScreen",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/efortin/frozenbubble/HomeScreen;->displayPage(I)V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->access$600(Lcom/efortin/frozenbubble/HomeScreen;I)V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen$15;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.efortin.frozenbubble.HomeScreen",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/efortin/frozenbubble/HomeScreen;->displayPage(I)V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->access$600(Lcom/efortin/frozenbubble/HomeScreen;I)V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen$13;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.efortin.frozenbubble.HomeScreen",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/efortin/frozenbubble/HomeScreen;->access$1000(Lcom/efortin/frozenbubble/HomeScreen;I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/efortin/frozenbubble/HomeScreen$21;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.efortin.frozenbubble.HomeScreen",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/efortin/frozenbubble/VirtualInput;->checkNewActionKeyPress(I)Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->doKeyDown(II)Z <",
+                "> Lorg/jfedor/frozenbubble/GameView;->onGenericMotionEvent(Landroid/view/MotionEvent;)Z <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->startCustomGame(Landroid/content/Intent;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onNewIntent(Landroid/content/Intent;)V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->startFrozenBubble()V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.efortin.frozenbubble.HomeScreen",
+                    "<unknown>"
+                ],
+                [
+                    "org.jfedor.frozenbubble.FrozenBubble",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->doKeyDown(II)Z <",
+                "> Lorg/jfedor/frozenbubble/GameView;->onGenericMotionEvent(Landroid/view/MotionEvent;)Z <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->startCustomGame(Landroid/content/Intent;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->startFrozenBubble()V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.efortin.frozenbubble.HomeScreen",
+                    "<unknown>"
+                ],
+                [
+                    "org.jfedor.frozenbubble.FrozenBubble",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->doKeyDown(II)Z <",
+                "> Lorg/jfedor/frozenbubble/GameView;->onGenericMotionEvent(Landroid/view/MotionEvent;)Z <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->startCustomGame(Landroid/content/Intent;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onNewIntent(Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.jfedor.frozenbubble.GAME",
+                    "start-activity -a"
+                ],
+                [
+                    "org.jfedor.frozenbubble.FrozenBubble",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->doKeyDown(II)Z <",
+                "> Lorg/jfedor/frozenbubble/GameView;->onGenericMotionEvent(Landroid/view/MotionEvent;)Z <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->startCustomGame(Landroid/content/Intent;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.jfedor.frozenbubble.GAME",
+                    "start-activity -a"
+                ],
+                [
+                    "org.jfedor.frozenbubble.FrozenBubble",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/efortin/frozenbubble/HomeScreen;->removeViewByID(I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/efortin/frozenbubble/HomeScreen;->removeDynamicViews()V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->displayPage(I)V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->startHomeScreen()V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.efortin.frozenbubble.HomeScreen",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/efortin/frozenbubble/HomeScreen;->removeDynamicViews()V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->displayPage(I)V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->access$600(Lcom/efortin/frozenbubble/HomeScreen;I)V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen$15;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.efortin.frozenbubble.HomeScreen",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/efortin/frozenbubble/HomeScreen;->removeDynamicViews()V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->displayPage(I)V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->access$600(Lcom/efortin/frozenbubble/HomeScreen;I)V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen$13;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.efortin.frozenbubble.HomeScreen",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/efortin/frozenbubble/HomeScreen;->numGamepadsDialog(I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/efortin/frozenbubble/HomeScreen;->access$1000(Lcom/efortin/frozenbubble/HomeScreen;I)V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen$21;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.efortin.frozenbubble.HomeScreen",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/efortin/frozenbubble/CRC16;-><init>(I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/jfedor/frozenbubble/FrozenGame;->calculateGridChecksum()V <",
+                "> Lorg/jfedor/frozenbubble/FrozenGame;->play(ZZZZDZDDZD)Lorg/jfedor/frozenbubble/GameScreen$gameEnum; <",
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->updateGameState()V <",
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->run()V <",
+                "> Lorg/jfedor/frozenbubble/GameView;->init(Landroid/content/Context;IIIIZ[BI)V <",
+                "> Lorg/jfedor/frozenbubble/GameView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->startCustomGame(Landroid/content/Intent;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onNewIntent(Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.jfedor.frozenbubble.GAME",
+                    "start-activity -a"
+                ],
+                [
+                    "org.jfedor.frozenbubble.FrozenBubble",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/jfedor/frozenbubble/FrozenGame;->calculateGridChecksum()V <",
+                "> Lorg/jfedor/frozenbubble/FrozenGame;->play(ZZZZDZDDZD)Lorg/jfedor/frozenbubble/GameScreen$gameEnum; <",
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->updateGameState()V <",
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->run()V <",
+                "> Lorg/jfedor/frozenbubble/GameView;->init(Landroid/content/Context;IIIIZ[BI)V <",
+                "> Lorg/jfedor/frozenbubble/GameView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->startCustomGame(Landroid/content/Intent;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.jfedor.frozenbubble.GAME",
+                    "start-activity -a"
+                ],
+                [
+                    "org.jfedor.frozenbubble.FrozenBubble",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lorg/jfedor/frozenbubble/FrozenGame;->calculateGridChecksum()V <",
+                "> Lorg/jfedor/frozenbubble/FrozenGame;->play(ZZZZDZDDZD)Lorg/jfedor/frozenbubble/GameScreen$gameEnum; <",
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->updateGameState()V <",
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->run()V <",
+                "> Lorg/jfedor/frozenbubble/GameView;->init(Landroid/content/Context;IIIIZ[BI)V <",
+                "> Lorg/jfedor/frozenbubble/GameView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->startCustomGame(Landroid/content/Intent;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onNewIntent(Landroid/content/Intent;)V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->startFrozenBubble()V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.efortin.frozenbubble.HomeScreen",
+                    "<unknown>"
+                ],
+                [
+                    "org.jfedor.frozenbubble.FrozenBubble",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lorg/jfedor/frozenbubble/FrozenGame;->calculateGridChecksum()V <",
+                "> Lorg/jfedor/frozenbubble/FrozenGame;->play(ZZZZDZDDZD)Lorg/jfedor/frozenbubble/GameScreen$gameEnum; <",
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->updateGameState()V <",
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->run()V <",
+                "> Lorg/jfedor/frozenbubble/GameView;->init(Landroid/content/Context;IIIIZ[BI)V <",
+                "> Lorg/jfedor/frozenbubble/GameView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->startCustomGame(Landroid/content/Intent;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->startFrozenBubble()V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.efortin.frozenbubble.HomeScreen",
+                    "<unknown>"
+                ],
+                [
+                    "org.jfedor.frozenbubble.FrozenBubble",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/efortin/frozenbubble/NetworkManager;->toDouble([B)D": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/efortin/frozenbubble/NetworkManager$PlayerAction;->copyFromBuffer([BI)V <",
+                "> Lcom/efortin/frozenbubble/NetworkManager$PlayerAction;-><init>(Lcom/efortin/frozenbubble/NetworkManager;[BI)V <",
+                "> Lcom/efortin/frozenbubble/NetworkManager;->processEventData([BI)V <",
+                "> Lcom/efortin/frozenbubble/NetworkManager;->onBluetoothEvent([BI)V <",
+                "> Lcom/efortin/frozenbubble/NetworkManager;->newGame()V <",
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->newGame(Z)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->newGame()V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble$7;->onClick(Landroid/content/DialogInterface;I)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->newGameDialog()V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.jfedor.frozenbubble.GAME",
+                    "start-activity -a"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.jfedor.frozenbubble.FrozenBubble",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/efortin/frozenbubble/NetworkManager$PlayerAction;->copyFromBuffer([BI)V <",
+                "> Lcom/efortin/frozenbubble/NetworkManager$PlayerAction;-><init>(Lcom/efortin/frozenbubble/NetworkManager;[BI)V <",
+                "> Lcom/efortin/frozenbubble/NetworkManager;->processEventData([BI)V <",
+                "> Lcom/efortin/frozenbubble/NetworkManager;->onBluetoothEvent([BI)V <",
+                "> Lcom/efortin/frozenbubble/NetworkManager;->newGame()V <",
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->newGame(Z)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->newGame()V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble$7;->onClick(Landroid/content/DialogInterface;I)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->newGameDialog()V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->startFrozenBubble()V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.efortin.frozenbubble.HomeScreen",
+                    "<unknown>"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.jfedor.frozenbubble.FrozenBubble",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/efortin/frozenbubble/ScrollingCredits;->requestWindowFeature(I)Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/efortin/frozenbubble/ScrollingCredits;->setWindowLayout(I)V <",
+                "> Lcom/efortin/frozenbubble/ScrollingCredits;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onGameEvent(Lorg/jfedor/frozenbubble/GameScreen$eventEnum;)V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->startFrozenBubble()V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.efortin.frozenbubble.HomeScreen",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/efortin/frozenbubble/ScrollingCredits;->setWindowLayout(I)V <",
+                "> Lcom/efortin/frozenbubble/ScrollingCredits;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onGameEvent(Lorg/jfedor/frozenbubble/GameScreen$eventEnum;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.jfedor.frozenbubble.GAME",
+                    "start-activity -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/efortin/frozenbubble/HomeScreen;->requestWindowFeature(I)Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/efortin/frozenbubble/HomeScreen;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/efortin/frozenbubble/BluetoothManager;->access$500(Lcom/efortin/frozenbubble/BluetoothManager;)Ljava/util/ArrayList;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/efortin/frozenbubble/BluetoothManager$BluetoothRxThread;->receiveDatagram()V <",
+                "> Lcom/efortin/frozenbubble/BluetoothManager$BluetoothRxThread;->run()V <",
+                "> Lcom/efortin/frozenbubble/BluetoothManager;-><init>(ZI)V <",
+                "> Lcom/efortin/frozenbubble/NetworkManager;->newGame()V <",
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->newGame(Z)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->newGame()V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble$7;->onClick(Landroid/content/DialogInterface;I)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->newGameDialog()V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.jfedor.frozenbubble.GAME",
+                    "start-activity -a"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.jfedor.frozenbubble.FrozenBubble",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/efortin/frozenbubble/BluetoothManager$BluetoothRxThread;->receiveDatagram()V <",
+                "> Lcom/efortin/frozenbubble/BluetoothManager$BluetoothRxThread;->run()V <",
+                "> Lcom/efortin/frozenbubble/BluetoothManager;-><init>(ZI)V <",
+                "> Lcom/efortin/frozenbubble/NetworkManager;->newGame()V <",
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->newGame(Z)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->newGame()V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble$7;->onClick(Landroid/content/DialogInterface;I)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->newGameDialog()V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->startFrozenBubble()V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.efortin.frozenbubble.HomeScreen",
+                    "<unknown>"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.jfedor.frozenbubble.FrozenBubble",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/efortin/frozenbubble/NetworkManager;->getRemoteAction()Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/jfedor/frozenbubble/GameView;->monitorRemotePlayer()V <",
+                "> Lorg/jfedor/frozenbubble/GameView;->access$1700(Lorg/jfedor/frozenbubble/GameView;)V <",
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->run()V <",
+                "> Lorg/jfedor/frozenbubble/GameView;->init(Landroid/content/Context;IIIIZ[BI)V <",
+                "> Lorg/jfedor/frozenbubble/GameView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->startCustomGame(Landroid/content/Intent;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onNewIntent(Landroid/content/Intent;)V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->startFrozenBubble()V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.efortin.frozenbubble.HomeScreen",
+                    "<unknown>"
+                ],
+                [
+                    "org.jfedor.frozenbubble.FrozenBubble",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/jfedor/frozenbubble/GameView;->monitorRemotePlayer()V <",
+                "> Lorg/jfedor/frozenbubble/GameView;->access$1700(Lorg/jfedor/frozenbubble/GameView;)V <",
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->run()V <",
+                "> Lorg/jfedor/frozenbubble/GameView;->init(Landroid/content/Context;IIIIZ[BI)V <",
+                "> Lorg/jfedor/frozenbubble/GameView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->startCustomGame(Landroid/content/Intent;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->startFrozenBubble()V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.efortin.frozenbubble.HomeScreen",
+                    "<unknown>"
+                ],
+                [
+                    "org.jfedor.frozenbubble.FrozenBubble",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lorg/jfedor/frozenbubble/GameView;->monitorRemotePlayer()V <",
+                "> Lorg/jfedor/frozenbubble/GameView;->access$1700(Lorg/jfedor/frozenbubble/GameView;)V <",
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->run()V <",
+                "> Lorg/jfedor/frozenbubble/GameView;->init(Landroid/content/Context;IIIIZ[BI)V <",
+                "> Lorg/jfedor/frozenbubble/GameView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->startCustomGame(Landroid/content/Intent;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onNewIntent(Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.jfedor.frozenbubble.GAME",
+                    "start-activity -a"
+                ],
+                [
+                    "org.jfedor.frozenbubble.FrozenBubble",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lorg/jfedor/frozenbubble/GameView;->monitorRemotePlayer()V <",
+                "> Lorg/jfedor/frozenbubble/GameView;->access$1700(Lorg/jfedor/frozenbubble/GameView;)V <",
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->run()V <",
+                "> Lorg/jfedor/frozenbubble/GameView;->init(Landroid/content/Context;IIIIZ[BI)V <",
+                "> Lorg/jfedor/frozenbubble/GameView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->startCustomGame(Landroid/content/Intent;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.jfedor.frozenbubble.GAME",
+                    "start-activity -a"
+                ],
+                [
+                    "org.jfedor.frozenbubble.FrozenBubble",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/efortin/frozenbubble/ComputerAI;-><init>(Lorg/jfedor/frozenbubble/FrozenGame;Lcom/efortin/frozenbubble/VirtualInput;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->startOpponent()V <",
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->restoreState(Landroid/os/Bundle;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->newGameView(Landroid/os/Bundle;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->startDefaultGame(Landroid/content/Intent;Landroid/os/Bundle;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onNewIntent(Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.jfedor.frozenbubble.GAME",
+                    "start-activity -a"
+                ],
+                [
+                    "org.jfedor.frozenbubble.FrozenBubble",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->startOpponent()V <",
+                "> Lorg/jfedor/frozenbubble/GameView$GameThread;->restoreState(Landroid/os/Bundle;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->newGameView(Landroid/os/Bundle;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->startDefaultGame(Landroid/content/Intent;Landroid/os/Bundle;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onNewIntent(Landroid/content/Intent;)V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->startFrozenBubble()V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.efortin.frozenbubble.HomeScreen",
+                    "<unknown>"
+                ],
+                [
+                    "org.jfedor.frozenbubble.FrozenBubble",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/efortin/frozenbubble/HomeScreen;->displayPage(I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/efortin/frozenbubble/HomeScreen;->startHomeScreen()V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.efortin.frozenbubble.HomeScreen",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/efortin/frozenbubble/HomeScreen;->access$600(Lcom/efortin/frozenbubble/HomeScreen;I)V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen$7;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.efortin.frozenbubble.HomeScreen",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/efortin/frozenbubble/HomeScreen;->access$600(Lcom/efortin/frozenbubble/HomeScreen;I)V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen$28;->onClick(Landroid/content/DialogInterface;I)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/efortin/frozenbubble/HomeScreen;->backKeyPress()V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->onKeyDown(ILandroid/view/KeyEvent;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.efortin.frozenbubble.HomeScreen",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/efortin/frozenbubble/BluetoothManager;->pause()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/efortin/frozenbubble/NetworkManager;->pause()V <",
+                "> Lorg/jfedor/frozenbubble/GameView;->onWindowFocusChanged(Z)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->startCustomGame(Landroid/content/Intent;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onNewIntent(Landroid/content/Intent;)V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->startFrozenBubble()V <",
+                "> Lcom/efortin/frozenbubble/HomeScreen;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.efortin.frozenbubble.HomeScreen",
+                    "<unknown>"
+                ],
+                [
+                    "org.jfedor.frozenbubble.FrozenBubble",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/efortin/frozenbubble/NetworkManager;->pause()V <",
+                "> Lorg/jfedor/frozenbubble/GameView;->onWindowFocusChanged(Z)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->startCustomGame(Landroid/content/Intent;)V <",
+                "> Lorg/jfedor/frozenbubble/FrozenBubble;->onNewIntent(Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.jfedor.frozenbubble.GAME",
+                    "start-activity -a"
+                ],
+                [
+                    "org.jfedor.frozenbubble.FrozenBubble",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/efortin/frozenbubble/HomeScreen$30;-><init>(Lcom/efortin/frozenbubble/HomeScreen;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/efortin/frozenbubble/HomeScreen;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.efortin.frozenbubble.HomeScreen",
+                    "<unknown>"
+                ]
+            ]
+        }
+    }
+}

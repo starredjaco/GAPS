@@ -1,0 +1,911 @@
+{
+    "Lcom/beust/android/translate/TranslateActivity$1;-><init>(Lcom/beust/android/translate/TranslateActivity;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/beust/android/translate/TranslateActivity;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/beust/android/translate/TranslateActivity;->findViewById(I)Landroid/view/View;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/beust/android/translate/TranslateActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/beust/android/translate/History;->getHistoryRecordsMostRecentFirst()Ljava/util/List;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/beust/android/translate/HistoryActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/beust/android/translate/TranslateActivity;->showHistory()V <",
+                "> Lcom/beust/android/translate/TranslateActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.beust.android.translate.TranslateActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/beust/android/translate/HistoryActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/beust/android/translate/TranslateActivity;->showHistory()V <",
+                "> Lcom/beust/android/translate/TranslateActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.beust.android.translate.TranslateActivity",
+                    "<unknown>"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.beust.android.translate.HistoryActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/beust/android/translate/Languages$Language;->name()Ljava/lang/String;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/beust/android/translate/HistoryRecord;->encode()Ljava/lang/String; <",
+                "> Lcom/beust/android/translate/History;->addHistoryRecord(Landroid/content/Context;Lcom/beust/android/translate/Languages$Language;Lcom/beust/android/translate/Languages$Language;Ljava/lang/String;Ljava/lang/String;)V <",
+                "> Lcom/beust/android/translate/TranslateActivity$3;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/beust/android/translate/HistoryActivity;->initializeAdapter(Ljava/util/List;)V <",
+                "> Lcom/beust/android/translate/HistoryActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/beust/android/translate/TranslateActivity;->showHistory()V <",
+                "> Lcom/beust/android/translate/TranslateActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.beust.android.translate.TranslateActivity",
+                    "<unknown>"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.beust.android.translate.HistoryActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/beust/android/translate/History;->getHistoryRecordsByLanguages()Ljava/util/List;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/beust/android/translate/HistoryActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/beust/android/translate/TranslateActivity;->showHistory()V <",
+                "> Lcom/beust/android/translate/TranslateActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.beust.android.translate.TranslateActivity",
+                    "<unknown>"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.beust.android.translate.HistoryActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/beust/android/translate/Translate;->toString(Ljava/io/InputStream;)Ljava/lang/String;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/beust/android/translate/Translate;->retrieveTranslation(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; <",
+                "> Lcom/beust/android/translate/Translate;->translate(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; <",
+                "> Lcom/beust/android/translate/TranslateService$1;->translate(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; <",
+                "> Lcom/beust/android/translate/TranslateService;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.PICK",
+                    "start-service -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/beust/android/translate/TranslateActivity;->setOutputText(Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/beust/android/translate/TranslateActivity;->access$8(Lcom/beust/android/translate/TranslateActivity;Ljava/lang/String;)V <",
+                "> Lcom/beust/android/translate/TranslateActivity$3;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/beust/android/translate/TranslateActivity;->onResume()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/beust/android/translate/LanguageDialog;->setView(Landroid/view/View;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/beust/android/translate/LanguageDialog;-><init>(Lcom/beust/android/translate/TranslateActivity;)V <",
+                "> Lcom/beust/android/translate/TranslateActivity;->onCreateDialog(I)Landroid/app/Dialog; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/beust/android/translate/TranslateActivity;->getResources()Landroid/content/res/Resources;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/beust/android/translate/TranslateActivity;->selectRandomWord()V <",
+                "> Lcom/beust/android/translate/TranslateActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.beust.android.translate.TranslateActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/beust/android/translate/TranslateActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/beust/android/translate/Languages$Language;->values()[Lcom/beust/android/translate/Languages$Language;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/beust/android/translate/Languages$Language;-><clinit>()V <",
+                "> Lcom/beust/android/translate/Languages$Language;->valueOf(Ljava/lang/String;)Lcom/beust/android/translate/Languages$Language; <",
+                "> Lcom/beust/android/translate/HistoryRecord;->decode(Ljava/lang/String;)Lcom/beust/android/translate/HistoryRecord; <",
+                "> Lcom/beust/android/translate/History;->restoreHistory(Landroid/content/SharedPreferences;)Ljava/util/List; <",
+                "> Lcom/beust/android/translate/History;-><init>(Landroid/content/SharedPreferences;)V <",
+                "> Lcom/beust/android/translate/History;->addHistoryRecord(Landroid/content/Context;Lcom/beust/android/translate/Languages$Language;Lcom/beust/android/translate/Languages$Language;Ljava/lang/String;Ljava/lang/String;)V <",
+                "> Lcom/beust/android/translate/TranslateActivity$3;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/beust/android/translate/LanguageDialog;-><init>(Lcom/beust/android/translate/TranslateActivity;)V <",
+                "> Lcom/beust/android/translate/TranslateActivity;->onCreateDialog(I)Landroid/app/Dialog; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/beust/android/translate/TranslateActivity$3;-><init>(Lcom/beust/android/translate/TranslateActivity;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/beust/android/translate/TranslateActivity;->doTranslate()V <",
+                "> Lcom/beust/android/translate/TranslateActivity;->maybeTranslate()V <",
+                "> Lcom/beust/android/translate/TranslateActivity;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.beust.android.translate.TranslateActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/beust/android/translate/TranslateActivity;->getString(I)Ljava/lang/String;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/beust/android/translate/TranslateActivity;->onCreateDialog(I)Landroid/app/Dialog; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/beust/android/translate/LanguageDialog;->setFrom(Z)V <",
+                "> Lcom/beust/android/translate/TranslateActivity;->onPrepareDialog(ILandroid/app/Dialog;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/beust/android/translate/TranslateActivity$3;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/beust/android/translate/TranslateActivity;->getPrefs(Landroid/content/Context;)Landroid/content/SharedPreferences;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/beust/android/translate/HistoryActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/beust/android/translate/TranslateActivity;->showHistory()V <",
+                "> Lcom/beust/android/translate/TranslateActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.beust.android.translate.TranslateActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/beust/android/translate/History;->addHistoryRecord(Landroid/content/Context;Lcom/beust/android/translate/Languages$Language;Lcom/beust/android/translate/Languages$Language;Ljava/lang/String;Ljava/lang/String;)V <",
+                "> Lcom/beust/android/translate/TranslateActivity$3;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/beust/android/translate/TranslateActivity;->onPause()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/beust/android/translate/TranslateActivity;->onResume()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lcom/beust/android/translate/HistoryActivity;->onItemClick(Landroid/widget/AdapterView;Landroid/view/View;IJ)V <",
+                "> Lcom/beust/android/translate/TranslateActivity;->showHistory()V <",
+                "> Lcom/beust/android/translate/TranslateActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.beust.android.translate.TranslateActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_5": {
+            "call_sequence": [
+                "> Lcom/beust/android/translate/History;->clear(Landroid/content/Context;)V <",
+                "> Lcom/beust/android/translate/HistoryActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/beust/android/translate/TranslateActivity;->showHistory()V <",
+                "> Lcom/beust/android/translate/TranslateActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.beust.android.translate.TranslateActivity",
+                    "<unknown>"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.beust.android.translate.HistoryActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/beust/android/translate/History;-><init>(Landroid/content/SharedPreferences;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/beust/android/translate/HistoryActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/beust/android/translate/TranslateActivity;->showHistory()V <",
+                "> Lcom/beust/android/translate/TranslateActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.beust.android.translate.TranslateActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/beust/android/translate/History;->addHistoryRecord(Landroid/content/Context;Lcom/beust/android/translate/Languages$Language;Lcom/beust/android/translate/Languages$Language;Ljava/lang/String;Ljava/lang/String;)V <",
+                "> Lcom/beust/android/translate/TranslateActivity$3;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/beust/android/translate/ITranslate$Stub$Proxy;-><init>(Landroid/os/IBinder;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/beust/android/translate/ITranslate$Stub;->asInterface(Landroid/os/IBinder;)Lcom/beust/android/translate/ITranslate; <",
+                "> Lcom/beust/android/translate/TranslateActivity$2;->onServiceConnected(Landroid/content/ComponentName;Landroid/os/IBinder;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/beust/android/translate/LanguageDialog;->dismiss()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/beust/android/translate/LanguageDialog;->onClick(Landroid/view/View;)V <",
+                "> Lcom/beust/android/translate/TranslateActivity;->onCreateDialog(I)Landroid/app/Dialog; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.beust.android.translate.TranslateActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/beust/android/translate/History;->clear(Landroid/content/Context;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/beust/android/translate/HistoryActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/beust/android/translate/TranslateActivity;->showHistory()V <",
+                "> Lcom/beust/android/translate/TranslateActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.beust.android.translate.TranslateActivity",
+                    "<unknown>"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.beust.android.translate.HistoryActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/beust/android/translate/Translate;->translate(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/beust/android/translate/TranslateService$1;->translate(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; <",
+                "> Lcom/beust/android/translate/TranslateService;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.PICK",
+                    "start-service -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/beust/android/translate/ITranslate;->translate(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/beust/android/translate/TranslateActivity$3;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/beust/android/translate/Languages$Language;->getFlag()I": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/beust/android/translate/Languages$Language;->configureButton(Landroid/app/Activity;Landroid/widget/Button;)V <",
+                "> Lcom/beust/android/translate/LanguageDialog;-><init>(Lcom/beust/android/translate/TranslateActivity;)V <",
+                "> Lcom/beust/android/translate/TranslateActivity;->onCreateDialog(I)Landroid/app/Dialog; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/beust/android/translate/LanguageDialog;->log(Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/beust/android/translate/LanguageDialog;->setFrom(Z)V <",
+                "> Lcom/beust/android/translate/TranslateActivity;->onPrepareDialog(ILandroid/app/Dialog;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/beust/android/translate/ITranslate$Stub;->attachInterface(Landroid/os/IInterface;Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/beust/android/translate/ITranslate$Stub;-><init>()V <",
+                "> Lcom/beust/android/translate/TranslateService$1;-><init>(Lcom/beust/android/translate/TranslateService;)V <",
+                "> Lcom/beust/android/translate/TranslateService;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.PICK",
+                    "start-service -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/beust/android/translate/TranslateActivity;->startActivityForResult(Landroid/content/Intent;I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/beust/android/translate/TranslateActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.beust.android.translate.TranslateActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/beust/android/translate/TranslateActivity;->access$2(Lcom/beust/android/translate/TranslateActivity;)Lcom/beust/android/translate/ITranslate;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/beust/android/translate/TranslateActivity$2;->onServiceConnected(Landroid/content/ComponentName;Landroid/os/IBinder;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/beust/android/translate/TranslateActivity$3;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/beust/android/translate/TranslateActivity;->access$7(Lcom/beust/android/translate/TranslateActivity;)Landroid/widget/EditText;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/beust/android/translate/TranslateActivity$3;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/beust/android/translate/LanguageDialog;->setFrom(Z)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/beust/android/translate/TranslateActivity;->onPrepareDialog(ILandroid/app/Dialog;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/beust/android/translate/Entities;->createStringWriter(Ljava/lang/String;)Ljava/io/StringWriter;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/beust/android/translate/Entities;->unescape(Ljava/lang/String;)Ljava/lang/String; <",
+                "> Lcom/beust/android/translate/TranslateActivity;->setOutputText(Ljava/lang/String;)V <",
+                "> Lcom/beust/android/translate/TranslateActivity;->onResume()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/beust/android/translate/HistoryActivity;->finish()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/beust/android/translate/HistoryActivity;->onItemClick(Landroid/widget/AdapterView;Landroid/view/View;IJ)V <",
+                "> Lcom/beust/android/translate/TranslateActivity;->showHistory()V <",
+                "> Lcom/beust/android/translate/TranslateActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.beust.android.translate.TranslateActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/beust/android/translate/Maps;->newHashMap()Ljava/util/HashMap;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/beust/android/translate/Languages$Language;-><clinit>()V <",
+                "> Lcom/beust/android/translate/Languages$Language;->valueOf(Ljava/lang/String;)Lcom/beust/android/translate/Languages$Language; <",
+                "> Lcom/beust/android/translate/HistoryRecord;->decode(Ljava/lang/String;)Lcom/beust/android/translate/HistoryRecord; <",
+                "> Lcom/beust/android/translate/History;->restoreHistory(Landroid/content/SharedPreferences;)Ljava/util/List; <",
+                "> Lcom/beust/android/translate/History;-><init>(Landroid/content/SharedPreferences;)V <",
+                "> Lcom/beust/android/translate/History;->addHistoryRecord(Landroid/content/Context;Lcom/beust/android/translate/Languages$Language;Lcom/beust/android/translate/Languages$Language;Ljava/lang/String;Ljava/lang/String;)V <",
+                "> Lcom/beust/android/translate/TranslateActivity$3;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/beust/android/translate/Entities$PrimitiveEntityMap;-><init>()V <",
+                "> Lcom/beust/android/translate/Entities$LookupEntityMap;-><init>()V <",
+                "> Lcom/beust/android/translate/Entities;-><init>()V <",
+                "> Lcom/beust/android/translate/TranslateActivity;->setOutputText(Ljava/lang/String;)V <",
+                "> Lcom/beust/android/translate/TranslateActivity;->onResume()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/beust/android/translate/HistoryActivity;->initializeAdapter(Ljava/util/List;)V <",
+                "> Lcom/beust/android/translate/HistoryActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/beust/android/translate/TranslateActivity;->showHistory()V <",
+                "> Lcom/beust/android/translate/TranslateActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.beust.android.translate.TranslateActivity",
+                    "<unknown>"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.beust.android.translate.HistoryActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/beust/android/translate/History;->addHistoryRecord(Landroid/content/Context;Lcom/beust/android/translate/Languages$Language;Lcom/beust/android/translate/Languages$Language;Ljava/lang/String;Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/beust/android/translate/TranslateActivity$3;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/beust/android/translate/TranslateActivity;->access$3(Lcom/beust/android/translate/TranslateActivity;)Landroid/widget/Button;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/beust/android/translate/TranslateActivity$2;->onServiceDisconnected(Landroid/content/ComponentName;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/beust/android/translate/TranslateActivity$2;->onServiceConnected(Landroid/content/ComponentName;Landroid/os/IBinder;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/beust/android/translate/TranslateActivity;->showHistory()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/beust/android/translate/TranslateActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.beust.android.translate.TranslateActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/beust/android/translate/TranslateActivity;->log(Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/beust/android/translate/TranslateActivity;->selectRandomWord()V <",
+                "> Lcom/beust/android/translate/TranslateActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.beust.android.translate.TranslateActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/beust/android/translate/TranslateActivity;->setOutputText(Ljava/lang/String;)V <",
+                "> Lcom/beust/android/translate/TranslateActivity;->onResume()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/beust/android/translate/TranslateActivity;->access$4(Ljava/lang/String;)V <",
+                "> Lcom/beust/android/translate/TranslateActivity$2;->onServiceConnected(Landroid/content/ComponentName;Landroid/os/IBinder;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/beust/android/translate/TranslateActivity;->savePreferences(Landroid/content/SharedPreferences$Editor;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V <",
+                "> Lcom/beust/android/translate/TranslateActivity;->onPause()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/beust/android/translate/LanguageDialog;->setTitle(Ljava/lang/CharSequence;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/beust/android/translate/LanguageDialog;-><init>(Lcom/beust/android/translate/TranslateActivity;)V <",
+                "> Lcom/beust/android/translate/TranslateActivity;->onCreateDialog(I)Landroid/app/Dialog; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/beust/android/translate/LanguageDialog;->setFrom(Z)V <",
+                "> Lcom/beust/android/translate/TranslateActivity;->onPrepareDialog(ILandroid/app/Dialog;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/beust/android/translate/Languages$Language;->configureButton(Landroid/app/Activity;Landroid/widget/Button;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/beust/android/translate/LanguageDialog;-><init>(Lcom/beust/android/translate/TranslateActivity;)V <",
+                "> Lcom/beust/android/translate/TranslateActivity;->onCreateDialog(I)Landroid/app/Dialog; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/beust/android/translate/TranslateActivity;->updateButton(Landroid/widget/Button;Lcom/beust/android/translate/Languages$Language;Z)V <",
+                "> Lcom/beust/android/translate/TranslateActivity;->onResume()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/beust/android/translate/ITranslate$Stub;->getVersion()I": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/beust/android/translate/ITranslate$Stub;->onTransact(ILandroid/os/Parcel;Landroid/os/Parcel;I)Z <",
+                "> Lcom/beust/android/translate/TranslateService$1;-><init>(Lcom/beust/android/translate/TranslateService;)V <",
+                "> Lcom/beust/android/translate/TranslateService;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.PICK",
+                    "start-service -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/beust/android/translate/TranslateActivity;->selectRandomWord()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/beust/android/translate/TranslateActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.beust.android.translate.TranslateActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    }
+}

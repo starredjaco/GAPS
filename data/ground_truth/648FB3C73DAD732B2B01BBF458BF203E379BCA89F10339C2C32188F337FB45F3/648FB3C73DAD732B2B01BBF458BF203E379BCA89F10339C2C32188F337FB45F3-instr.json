@@ -1,0 +1,225 @@
+{
+    "Lorg/apache/cordova/CordovaActivity;->createViews()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/apache/cordova/CordovaActivity;->init()V <",
+                "> Lorg/apache/cordova/CordovaActivity;->loadUrl(Ljava/lang/String;)V <",
+                "> Lcom/makeup/games/asmr/makeover/MainActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/ironsource/mediationsdk/config/ConfigFile;->getPluginVersion()Ljava/lang/String;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/ironsource/mediationsdk/utils/h;->b()Ljava/lang/String; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.BATTERY_CHANGED",
+                    "start -a"
+                ]
+            ]
+        }
+    },
+    "Landroidx/core/app/NavUtils;->getParentActivityName(Landroid/app/Activity;)Ljava/lang/String;": {
+        "path_0": {
+            "call_sequence": [
+                "> Landroidx/core/app/NavUtils;->getParentActivityIntent(Landroid/app/Activity;)Landroid/content/Intent; <",
+                "> Landroidx/appcompat/app/AppCompatActivity;->getSupportParentActivityIntent()Landroid/content/Intent; <",
+                "> Landroidx/appcompat/app/AppCompatActivity;->onSupportNavigateUp()Z <",
+                "> Landroidx/appcompat/app/AppCompatActivity;->onMenuItemSelected(I <",
+                "> Lcom/makeup/games/asmr/makeover/MainActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Landroidx/activity/ComponentActivity;->ensureViewModelStore()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Landroidx/activity/ComponentActivity;->getViewModelStore()Landroidx/lifecycle/ViewModelStore; <",
+                "> Landroidx/activity/ComponentActivity$4;->onStateChanged(Landroidx/lifecycle/LifecycleOwner; <",
+                "> Landroidx/activity/ComponentActivity;-><init>()V <",
+                "> Landroidx/fragment/app/FragmentActivity;-><init>()V <",
+                "> Landroidx/appcompat/app/AppCompatActivity;-><init>()V <",
+                "> Lorg/apache/cordova/CordovaActivity;-><init>()V <",
+                "> Lcom/makeup/games/asmr/makeover/MainActivity;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Landroidx/activity/ComponentActivity$5;->onStateChanged(Landroidx/lifecycle/LifecycleOwner; <",
+                "> Landroidx/activity/ComponentActivity;-><init>()V <",
+                "> Landroidx/fragment/app/FragmentActivity;-><init>()V <",
+                "> Landroidx/appcompat/app/AppCompatActivity;-><init>()V <",
+                "> Lorg/apache/cordova/CordovaActivity;-><init>()V <",
+                "> Lcom/makeup/games/asmr/makeover/MainActivity;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Landroidx/activity/ComponentActivity;->getViewModelStore()Landroidx/lifecycle/ViewModelStore;": {
+        "path_0": {
+            "call_sequence": [
+                "> Landroidx/activity/ComponentActivity$4;->onStateChanged(Landroidx/lifecycle/LifecycleOwner; <",
+                "> Landroidx/activity/ComponentActivity;-><init>()V <",
+                "> Landroidx/fragment/app/FragmentActivity;-><init>()V <",
+                "> Landroidx/appcompat/app/AppCompatActivity;-><init>()V <",
+                "> Lorg/apache/cordova/CordovaActivity;-><init>()V <",
+                "> Lcom/makeup/games/asmr/makeover/MainActivity;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Landroidx/work/impl/WorkManagerImpl;->getWorkDatabase()Landroidx/work/impl/WorkDatabase;": {
+        "path_0": {
+            "call_sequence": [
+                "> Landroidx/work/impl/workers/DiagnosticsWorker;->doWork()Landroidx/work/ListenableWorker$Result; <",
+                "> Landroidx/work/impl/diagnostics/DiagnosticsReceiver;->onReceive(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "androidx.work.diagnostics.REQUEST_DIAGNOSTICS",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Lorg/apache/cordova/CordovaPreferences;->getBoolean(Ljava/lang/String;Z)Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/apache/cordova/PluginManager;->getLaunchUrlPrefix()Ljava/lang/String; <",
+                "> Lorg/apache/cordova/PluginManager;->shouldAllowNavigation(Ljava/lang/String;)Z <",
+                "> Lorg/apache/cordova/CordovaWebViewImpl;->showWebPage(Ljava/lang/String; <",
+                "> Lorg/apache/cordova/CordovaActivity;->makeWebView()Lorg/apache/cordova/CordovaWebView; <",
+                "> Lorg/apache/cordova/CordovaActivity;->init()V <",
+                "> Lorg/apache/cordova/CordovaActivity;->loadUrl(Ljava/lang/String;)V <",
+                "> Lcom/makeup/games/asmr/makeover/MainActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/apache/cordova/CordovaWebViewImpl;->init(Lorg/apache/cordova/CordovaInterface; <",
+                "> Lorg/apache/cordova/CordovaActivity;->makeWebView()Lorg/apache/cordova/CordovaWebView; <",
+                "> Lorg/apache/cordova/CordovaActivity;->init()V <",
+                "> Lorg/apache/cordova/CordovaActivity;->loadUrl(Ljava/lang/String;)V <",
+                "> Lcom/makeup/games/asmr/makeover/MainActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lorg/apache/cordova/ConfigXmlParser;->getLaunchUrlPrefix()Ljava/lang/String; <",
+                "> Lorg/apache/cordova/ConfigXmlParser;->setStartUrl(Ljava/lang/String;)V <",
+                "> Lorg/apache/cordova/ConfigXmlParser;->getLaunchUrl()Ljava/lang/String; <",
+                "> Lorg/apache/cordova/CordovaActivity;->loadConfig()V <",
+                "> Lorg/apache/cordova/CordovaActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/makeup/games/asmr/makeover/MainActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lorg/apache/cordova/CordovaActivity;->loadUrl(Ljava/lang/String;)V <",
+                "> Lcom/makeup/games/asmr/makeover/MainActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lorg/apache/cordova/engine/SystemWebViewEngine;->initWebViewSettings()V <",
+                "> Lorg/apache/cordova/CordovaWebViewImpl;->createEngine(Landroid/content/Context; <",
+                "> Lorg/apache/cordova/CordovaActivity;->makeWebView()Lorg/apache/cordova/CordovaWebView; <",
+                "> Lorg/apache/cordova/CordovaActivity;->init()V <",
+                "> Lorg/apache/cordova/CordovaActivity;->loadUrl(Ljava/lang/String;)V <",
+                "> Lcom/makeup/games/asmr/makeover/MainActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_5": {
+            "call_sequence": [
+                "> Lorg/apache/cordova/CordovaActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/makeup/games/asmr/makeover/MainActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/ironsource/environment/h;->c()Ljava/lang/String;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/ironsource/mediationsdk/utils/h;->run()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.BATTERY_CHANGED",
+                    "start -a"
+                ]
+            ]
+        }
+    },
+    "Lorg/apache/cordova/CordovaWebViewImpl;->getContext()Landroid/content/Context;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/apache/cordova/CordovaWebViewImpl;->showCustomView(Landroid/view/View; <",
+                "> Lorg/apache/cordova/CordovaActivity;->makeWebView()Lorg/apache/cordova/CordovaWebView; <",
+                "> Lorg/apache/cordova/CordovaActivity;->init()V <",
+                "> Lorg/apache/cordova/CordovaActivity;->loadUrl(Ljava/lang/String;)V <",
+                "> Lcom/makeup/games/asmr/makeover/MainActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    }
+}

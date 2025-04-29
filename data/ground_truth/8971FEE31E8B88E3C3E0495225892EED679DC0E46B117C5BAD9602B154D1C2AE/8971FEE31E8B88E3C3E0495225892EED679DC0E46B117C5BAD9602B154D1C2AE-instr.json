@@ -1,0 +1,333 @@
+{
+    "Ltournament/simulator/databinding/ActivityMainBinding;->inflate(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Z)Ltournament/simulator/databinding/ActivityMainBinding;": {
+        "path_0": {
+            "call_sequence": [
+                "> Ltournament/simulator/databinding/ActivityMainBinding;->inflate(Landroid/view/LayoutInflater;)Ltournament/simulator/databinding/ActivityMainBinding; <",
+                "> Ltournament/simulator/MainActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Ltournament/simulator/utils/Utils;->changeMode(Landroid/content/Context;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Ltournament/simulator/utils/Utils$27;->onClick(Landroid/content/DialogInterface; <",
+                "> Ltournament/simulator/utils/Utils;->executeSettingsDialog(Landroid/content/Context;)V <",
+                "> Ltournament/simulator/MainActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "tournament.simulator.MainActivity",
+                    "action_settings",
+                    "Settings"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Ltournament/simulator/MainActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Ltournament/simulator/dao/DaoHomeConfig;->getHomeConfig(Landroid/content/Context;)Ltournament/simulator/model/entity/HomeConfigEntity;": {
+        "path_0": {
+            "call_sequence": [
+                "> Ltournament/simulator/MainActivity;->lambda$getHomeConfig$3$tournament-simulator-MainActivity()V <",
+                "> Ltournament/simulator/MainActivity$$ExternalSyntheticLambda4;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Ltournament/simulator/databinding/ActivityMainBinding;->inflate(Landroid/view/LayoutInflater;)Ltournament/simulator/databinding/ActivityMainBinding;": {
+        "path_0": {
+            "call_sequence": [
+                "> Ltournament/simulator/databinding/ActivityMainBinding;->inflate(Landroid/view/LayoutInflater;)Ltournament/simulator/databinding/ActivityMainBinding; <",
+                "> Ltournament/simulator/MainActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Ltournament/simulator/MainActivity;->lambda$onCreate$2(Lcom/google/android/ump/FormError;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Ltournament/simulator/MainActivity$$ExternalSyntheticLambda3;->onConsentInfoUpdateFailure(Lcom/google/android/ump/FormError;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Ltournament/simulator/MainActivity;->isPrivacyOptionsRequired()Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Ltournament/simulator/MainActivity;->onCreateOptionsMenu(Landroid/view/Menu;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "tournament.simulator.MainActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Ltournament/simulator/MainActivity;->getHomeConfig()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Ltournament/simulator/MainActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Ltournament/simulator/database/DatabaseHelper;->getInstance(Landroid/content/Context;)Landroid/database/sqlite/SQLiteDatabase;": {
+        "path_0": {
+            "call_sequence": [
+                "> Ltournament/simulator/dao/DaoHomeConfig;->getHomeConfig(Landroid/content/Context;)Ltournament/simulator/model/entity/HomeConfigEntity; <",
+                "> Ltournament/simulator/MainActivity;->lambda$getHomeConfig$3$tournament-simulator-MainActivity()V <",
+                "> Ltournament/simulator/MainActivity$$ExternalSyntheticLambda4;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Ltournament/simulator/model/entity/HomeConfigEntity;->getLastRequest()Ljava/util/Date;": {
+        "path_0": {
+            "call_sequence": [
+                "> Ltournament/simulator/MainActivity;->lambda$getHomeConfig$3$tournament-simulator-MainActivity()V <",
+                "> Ltournament/simulator/MainActivity$$ExternalSyntheticLambda4;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Ltournament/simulator/databinding/ActivityMainBinding;->getRoot()Landroidx/coordinatorlayout/widget/CoordinatorLayout;": {
+        "path_0": {
+            "call_sequence": [
+                "> Ltournament/simulator/MainActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Ltournament/simulator/utils/Utils;->changeLanguage(Landroid/content/Context;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Ltournament/simulator/MainActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Ltournament/simulator/utils/ShareUtils;->executeShare(Landroid/content/Context;)V <",
+                "> Ltournament/simulator/MainActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "tournament.simulator.MainActivity",
+                    "action_share",
+                    "Share"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Ltournament/simulator/utils/Utils;->executeSettingsDialog(Landroid/content/Context;)V <",
+                "> Ltournament/simulator/MainActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "tournament.simulator.MainActivity",
+                    "action_settings",
+                    "Settings"
+                ]
+            ]
+        }
+    },
+    "Ltournament/simulator/dao/DaoHomeConfig;->saveHomeConfig(Landroid/content/Context;Ltournament/simulator/model/entity/HomeConfigEntity;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Ltournament/simulator/MainActivity$2;->onComplete(Lcom/google/android/gms/tasks/Task;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Ltournament/simulator/utils/Utils;->getLanguage(Landroid/content/Context;)Ljava/lang/String;": {
+        "path_0": {
+            "call_sequence": [
+                "> Ltournament/simulator/utils/Utils;->changeLanguage(Landroid/content/Context;)V <",
+                "> Ltournament/simulator/MainActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Ltournament/simulator/utils/Utils;->getLanguagePosition(Landroid/content/Context;)I <",
+                "> Ltournament/simulator/utils/Utils;->executeSettingsDialog(Landroid/content/Context;)V <",
+                "> Ltournament/simulator/MainActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "tournament.simulator.MainActivity",
+                    "action_settings",
+                    "Settings"
+                ]
+            ]
+        }
+    },
+    "Ltournament/simulator/MainActivity;->lambda$getHomeConfig$3$tournament-simulator-MainActivity()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Ltournament/simulator/MainActivity$$ExternalSyntheticLambda4;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Ltournament/simulator/utils/Utils;->getMode(Landroid/content/Context;)Ljava/lang/String;": {
+        "path_0": {
+            "call_sequence": [
+                "> Ltournament/simulator/utils/Utils;->getModePosition(Landroid/content/Context;)I <",
+                "> Ltournament/simulator/utils/Utils;->executeSettingsDialog(Landroid/content/Context;)V <",
+                "> Ltournament/simulator/MainActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "tournament.simulator.MainActivity",
+                    "action_settings",
+                    "Settings"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Ltournament/simulator/utils/Utils;->changeMode(Landroid/content/Context;)V <",
+                "> Ltournament/simulator/MainActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Landroidx/lifecycle/ViewModelProvider$Factory$-CC;->$default$create(Landroidx/lifecycle/ViewModelProvider$Factory;Ljava/lang/Class;Landroidx/lifecycle/viewmodel/CreationExtras;)Landroidx/lifecycle/ViewModel;": {
+        "path_0": {
+            "call_sequence": [
+                "> Landroidx/fragment/app/FragmentManagerViewModel$1;->create(Ljava/lang/Class; <",
+                "> Landroidx/fragment/app/FragmentManagerViewModel;-><clinit>()V <",
+                "> Landroidx/fragment/app/FragmentManagerViewModel;->getInstance(Landroidx/lifecycle/ViewModelStore;)Landroidx/fragment/app/FragmentManagerViewModel; <",
+                "> Landroidx/fragment/app/FragmentManager;->attachController(Landroidx/fragment/app/FragmentHostCallback; <",
+                "> Landroidx/fragment/app/FragmentManagerImpl;-><init>()V <",
+                "> Landroidx/fragment/app/FragmentHostCallback;-><init>(Landroid/app/Activity; <",
+                "> Landroidx/fragment/app/FragmentActivity$HostCallbacks;-><init>(Landroidx/fragment/app/FragmentActivity;)V <",
+                "> Landroidx/fragment/app/FragmentActivity;-><init>(I)V <",
+                "> Landroidx/appcompat/app/AppCompatActivity;-><init>(I)V <",
+                "> Ltournament/simulator/MainActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Landroidx/fragment/app/FragmentLifecycleCallbacksDispatcher;->dispatchOnFragmentPreAttached(Landroidx/fragment/app/Fragment;Z)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Landroidx/fragment/app/FragmentStateManager;->attach()V <",
+                "> Landroidx/fragment/app/FragmentStateManager;->moveToExpectedState()V <",
+                "> Landroidx/fragment/app/FragmentManager;->executeOpsTogether(Ljava/util/ArrayList; <",
+                "> Landroidx/fragment/app/FragmentManagerImpl;-><init>()V <",
+                "> Landroidx/fragment/app/FragmentHostCallback;-><init>(Landroid/app/Activity; <",
+                "> Landroidx/fragment/app/FragmentActivity$HostCallbacks;-><init>(Landroidx/fragment/app/FragmentActivity;)V <",
+                "> Landroidx/fragment/app/FragmentActivity;-><init>(I)V <",
+                "> Landroidx/appcompat/app/AppCompatActivity;-><init>(I)V <",
+                "> Ltournament/simulator/MainActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    }
+}

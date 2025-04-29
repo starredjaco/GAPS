@@ -1,0 +1,1000 @@
+{
+    "Lcom/example/anycut/CustomShortcutCreatorActivity;->createShortcutIntent()Landroid/content/Intent;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/example/anycut/CustomShortcutCreatorActivity;->onClick(Landroid/view/View;)V <",
+                "> Lcom/example/anycut/CreateShortcutActivity;->onListItemClick(Landroid/widget/ListView;Landroid/view/View;IJ)V <",
+                "> Lcom/example/anycut/FrontDoorActivity;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.example.anycut.FrontDoorActivity",
+                    "newShortcut"
+                ],
+                [
+                    "com.example.anycut.CustomShortcutCreatorActivity",
+                    "ok"
+                ]
+            ]
+        }
+    },
+    "Lcom/example/anycut/CustomShortcutCreatorActivity;->setResult(ILandroid/content/Intent;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/example/anycut/CustomShortcutCreatorActivity;->onClick(Landroid/view/View;)V <",
+                "> Lcom/example/anycut/CreateShortcutActivity;->onListItemClick(Landroid/widget/ListView;Landroid/view/View;IJ)V <",
+                "> Lcom/example/anycut/FrontDoorActivity;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.example.anycut.FrontDoorActivity",
+                    "newShortcut"
+                ]
+            ]
+        }
+    },
+    "Lcom/example/anycut/CustomShortcutCreatorActivity;->finish()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/example/anycut/CustomShortcutCreatorActivity;->onClick(Landroid/view/View;)V <",
+                "> Lcom/example/anycut/CreateShortcutActivity;->onListItemClick(Landroid/widget/ListView;Landroid/view/View;IJ)V <",
+                "> Lcom/example/anycut/FrontDoorActivity;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.example.anycut.FrontDoorActivity",
+                    "newShortcut"
+                ],
+                [
+                    "com.example.anycut.CustomShortcutCreatorActivity",
+                    "ok"
+                ]
+            ]
+        }
+    },
+    "Lcom/example/anycut/ShortcutEditorDialog;->setCancelable(Z)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/example/anycut/ShortcutEditorDialog;-><init>(Landroid/content/Context;Landroid/content/DialogInterface$OnClickListener;Landroid/content/DialogInterface$OnCancelListener;)V <",
+                "> Lcom/example/anycut/CreateShortcutActivity;->onCreateDialog(I)Landroid/app/Dialog; <",
+                "> Lcom/example/anycut/FrontDoorActivity;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.example.anycut.FrontDoorActivity",
+                    "newShortcut"
+                ]
+            ]
+        }
+    },
+    "Lcom/example/anycut/CreateShortcutActivity;->finish()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/example/anycut/CreateShortcutActivity;->onClick(Landroid/content/DialogInterface;I)V <",
+                "> Lcom/example/anycut/FrontDoorActivity;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.example.anycut.FrontDoorActivity",
+                    "newShortcut"
+                ]
+            ]
+        }
+    },
+    "Lcom/example/anycut/ActivityPickerActivity;->finish()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/example/anycut/ActivityPickerActivity;->onListItemClick(Landroid/widget/ListView;Landroid/view/View;IJ)V <",
+                "> Lcom/example/anycut/CreateShortcutActivity;->onListItemClick(Landroid/widget/ListView;Landroid/view/View;IJ)V <",
+                "> Lcom/example/anycut/FrontDoorActivity;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.example.anycut.FrontDoorActivity",
+                    "newShortcut"
+                ]
+            ]
+        }
+    },
+    "Lcom/example/anycut/CreateShortcutActivity;->setResult(ILandroid/content/Intent;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/example/anycut/CreateShortcutActivity;->onClick(Landroid/content/DialogInterface;I)V <",
+                "> Lcom/example/anycut/FrontDoorActivity;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.example.anycut.FrontDoorActivity",
+                    "newShortcut"
+                ]
+            ]
+        }
+    },
+    "Lcom/example/anycut/ShortcutEditorDialog;->setIntent(Landroid/content/Intent;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/example/anycut/CreateShortcutActivity;->onPrepareDialog(ILandroid/app/Dialog;)V <",
+                "> Lcom/example/anycut/FrontDoorActivity;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.example.anycut.FrontDoorActivity",
+                    "newShortcut"
+                ]
+            ]
+        }
+    },
+    "Lcom/example/anycut/ShortcutEditorDialog;->setTitle(I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/example/anycut/ShortcutEditorDialog;-><init>(Landroid/content/Context;Landroid/content/DialogInterface$OnClickListener;Landroid/content/DialogInterface$OnCancelListener;)V <",
+                "> Lcom/example/anycut/CreateShortcutActivity;->onCreateDialog(I)Landroid/app/Dialog; <",
+                "> Lcom/example/anycut/FrontDoorActivity;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.example.anycut.FrontDoorActivity",
+                    "newShortcut"
+                ]
+            ]
+        }
+    },
+    "Lcom/example/anycut/CreateShortcutActivity;->startActivityForResult(Landroid/content/Intent;I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/example/anycut/CreateShortcutActivity;->onListItemClick(Landroid/widget/ListView;Landroid/view/View;IJ)V <",
+                "> Lcom/example/anycut/FrontDoorActivity;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.example.anycut.FrontDoorActivity",
+                    "newShortcut"
+                ]
+            ]
+        }
+    },
+    "Lcom/example/anycut/ShortcutEditorDialog;->setButton(Ljava/lang/CharSequence;Landroid/content/DialogInterface$OnClickListener;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/example/anycut/ShortcutEditorDialog;-><init>(Landroid/content/Context;Landroid/content/DialogInterface$OnClickListener;Landroid/content/DialogInterface$OnCancelListener;)V <",
+                "> Lcom/example/anycut/CreateShortcutActivity;->onCreateDialog(I)Landroid/app/Dialog; <",
+                "> Lcom/example/anycut/FrontDoorActivity;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.example.anycut.FrontDoorActivity",
+                    "newShortcut"
+                ]
+            ]
+        }
+    },
+    "Lcom/example/anycut/FrontDoorActivity;->setContentView(I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/example/anycut/FrontDoorActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/example/anycut/ActivityPickerActivity;->setResult(ILandroid/content/Intent;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/example/anycut/ActivityPickerActivity;->onListItemClick(Landroid/widget/ListView;Landroid/view/View;IJ)V <",
+                "> Lcom/example/anycut/CreateShortcutActivity;->onListItemClick(Landroid/widget/ListView;Landroid/view/View;IJ)V <",
+                "> Lcom/example/anycut/FrontDoorActivity;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.example.anycut.FrontDoorActivity",
+                    "newShortcut"
+                ]
+            ]
+        }
+    },
+    "Lcom/example/anycut/ShortcutEditorDialog;->getLayoutInflater()Landroid/view/LayoutInflater;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/example/anycut/ShortcutEditorDialog;-><init>(Landroid/content/Context;Landroid/content/DialogInterface$OnClickListener;Landroid/content/DialogInterface$OnCancelListener;)V <",
+                "> Lcom/example/anycut/CreateShortcutActivity;->onCreateDialog(I)Landroid/app/Dialog; <",
+                "> Lcom/example/anycut/FrontDoorActivity;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.example.anycut.FrontDoorActivity",
+                    "newShortcut"
+                ]
+            ]
+        }
+    },
+    "Lcom/example/anycut/ActivityPickerActivity;->setListAdapter(Landroid/widget/ListAdapter;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/example/anycut/ActivityPickerActivity$LoadingTask;->onPostExecute(Lcom/example/anycut/ActivityPickerActivity$ActivityAdapter;)V <",
+                "> Lcom/example/anycut/ActivityPickerActivity$LoadingTask;->onPostExecute(Ljava/lang/Object;)V <",
+                "> Lcom/example/anycut/ActivityPickerActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/example/anycut/CreateShortcutActivity;->onListItemClick(Landroid/widget/ListView;Landroid/view/View;IJ)V <",
+                "> Lcom/example/anycut/FrontDoorActivity;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.example.anycut.FrontDoorActivity",
+                    "newShortcut"
+                ]
+            ]
+        }
+    },
+    "Lcom/example/anycut/ActivityPickerActivity;->requestWindowFeature(I)Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/example/anycut/ActivityPickerActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/example/anycut/CreateShortcutActivity;->onListItemClick(Landroid/widget/ListView;Landroid/view/View;IJ)V <",
+                "> Lcom/example/anycut/FrontDoorActivity;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.example.anycut.FrontDoorActivity",
+                    "newShortcut"
+                ]
+            ]
+        }
+    },
+    "Lcom/example/anycut/ShortcutEditorDialog;->getContext()Landroid/content/Context;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/example/anycut/ShortcutEditorDialog;->onClick(Landroid/content/DialogInterface;I)V <",
+                "> Lcom/example/anycut/CreateShortcutActivity;->onCreateDialog(I)Landroid/app/Dialog; <",
+                "> Lcom/example/anycut/FrontDoorActivity;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.example.anycut.FrontDoorActivity",
+                    "newShortcut"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/example/anycut/ShortcutEditorDialog;->loadIntent(Landroid/content/Intent;)V <",
+                "> Lcom/example/anycut/ShortcutEditorDialog;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/example/anycut/CreateShortcutActivity;->onCreateDialog(I)Landroid/app/Dialog; <",
+                "> Lcom/example/anycut/FrontDoorActivity;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.example.anycut.FrontDoorActivity",
+                    "newShortcut"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/example/anycut/ShortcutEditorDialog;->afterTextChanged(Landroid/text/Editable;)V <",
+                "> Lcom/example/anycut/CreateShortcutActivity;->onCreateDialog(I)Landroid/app/Dialog; <",
+                "> Lcom/example/anycut/FrontDoorActivity;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.example.anycut.FrontDoorActivity",
+                    "newShortcut"
+                ]
+            ]
+        }
+    },
+    "Lcom/example/anycut/ShortcutEditorDialog;->setOnCancelListener(Landroid/content/DialogInterface$OnCancelListener;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/example/anycut/ShortcutEditorDialog;-><init>(Landroid/content/Context;Landroid/content/DialogInterface$OnClickListener;Landroid/content/DialogInterface$OnCancelListener;)V <",
+                "> Lcom/example/anycut/CreateShortcutActivity;->onCreateDialog(I)Landroid/app/Dialog; <",
+                "> Lcom/example/anycut/FrontDoorActivity;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.example.anycut.FrontDoorActivity",
+                    "newShortcut"
+                ]
+            ]
+        }
+    },
+    "Lcom/example/anycut/CreateShortcutActivity;->startShortcutEditor(Landroid/content/Intent;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/example/anycut/CreateShortcutActivity;->onActivityResult(IILandroid/content/Intent;)V <",
+                "> Lcom/example/anycut/FrontDoorActivity;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.example.anycut.FrontDoorActivity",
+                    "newShortcut"
+                ]
+            ]
+        }
+    },
+    "Lcom/example/anycut/CreateShortcutActivity;->showDialog(I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/example/anycut/CreateShortcutActivity;->startShortcutEditor(Landroid/content/Intent;)V <",
+                "> Lcom/example/anycut/CreateShortcutActivity;->onActivityResult(IILandroid/content/Intent;)V <",
+                "> Lcom/example/anycut/FrontDoorActivity;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.example.anycut.FrontDoorActivity",
+                    "newShortcut"
+                ]
+            ]
+        }
+    },
+    "Lcom/example/anycut/FrontDoorActivity;->findViewById(I)Landroid/view/View;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/example/anycut/FrontDoorActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/example/anycut/ActivityPickerActivity$LoadingTask;-><init>(Lcom/example/anycut/ActivityPickerActivity;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/example/anycut/ActivityPickerActivity$LoadingTask;-><init>(Lcom/example/anycut/ActivityPickerActivity;Lcom/example/anycut/ActivityPickerActivity$1;)V <",
+                "> Lcom/example/anycut/ActivityPickerActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/example/anycut/CreateShortcutActivity;->onListItemClick(Landroid/widget/ListView;Landroid/view/View;IJ)V <",
+                "> Lcom/example/anycut/FrontDoorActivity;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.example.anycut.FrontDoorActivity",
+                    "newShortcut"
+                ]
+            ]
+        }
+    },
+    "Lcom/example/anycut/CreateShortcutActivity;->getText(I)Ljava/lang/CharSequence;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/example/anycut/CreateShortcutActivity;->onListItemClick(Landroid/widget/ListView;Landroid/view/View;IJ)V <",
+                "> Lcom/example/anycut/FrontDoorActivity;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.example.anycut.FrontDoorActivity",
+                    "newShortcut"
+                ]
+            ]
+        }
+    },
+    "Lcom/example/anycut/ShortcutEditorDialog;-><init>(Landroid/content/Context;Landroid/content/DialogInterface$OnClickListener;Landroid/content/DialogInterface$OnCancelListener;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/example/anycut/CreateShortcutActivity;->onCreateDialog(I)Landroid/app/Dialog; <",
+                "> Lcom/example/anycut/FrontDoorActivity;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.example.anycut.FrontDoorActivity",
+                    "newShortcut"
+                ]
+            ]
+        }
+    },
+    "Lcom/example/anycut/ShortcutEditorDialog;->getIntent()Landroid/content/Intent;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/example/anycut/CreateShortcutActivity;->onClick(Landroid/content/DialogInterface;I)V <",
+                "> Lcom/example/anycut/FrontDoorActivity;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.example.anycut.FrontDoorActivity",
+                    "newShortcut"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/example/anycut/ShortcutEditorDialog;->onSaveInstanceState()Landroid/os/Bundle; <",
+                "> Lcom/example/anycut/CreateShortcutActivity;->onCreateDialog(I)Landroid/app/Dialog; <",
+                "> Lcom/example/anycut/FrontDoorActivity;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.example.anycut.FrontDoorActivity",
+                    "newShortcut"
+                ]
+            ]
+        }
+    },
+    "Lcom/example/anycut/ActivityPickerActivity;->setProgressBarIndeterminateVisibility(Z)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/example/anycut/ActivityPickerActivity$LoadingTask;->onPreExecute()V <",
+                "> Lcom/example/anycut/ActivityPickerActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/example/anycut/CreateShortcutActivity;->onListItemClick(Landroid/widget/ListView;Landroid/view/View;IJ)V <",
+                "> Lcom/example/anycut/FrontDoorActivity;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.example.anycut.FrontDoorActivity",
+                    "newShortcut"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/example/anycut/ActivityPickerActivity$LoadingTask;->onPostExecute(Lcom/example/anycut/ActivityPickerActivity$ActivityAdapter;)V <",
+                "> Lcom/example/anycut/ActivityPickerActivity$LoadingTask;->onPostExecute(Ljava/lang/Object;)V <",
+                "> Lcom/example/anycut/ActivityPickerActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/example/anycut/CreateShortcutActivity;->onListItemClick(Landroid/widget/ListView;Landroid/view/View;IJ)V <",
+                "> Lcom/example/anycut/FrontDoorActivity;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.example.anycut.FrontDoorActivity",
+                    "newShortcut"
+                ]
+            ]
+        }
+    },
+    "Lcom/example/anycut/ActivityPickerActivity$ActivityAdapter;-><init>(Lcom/example/anycut/ActivityPickerActivity;Landroid/app/Activity;Ljava/util/ArrayList;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/example/anycut/ActivityPickerActivity$LoadingTask;->doInBackground([Ljava/lang/Object;)Lcom/example/anycut/ActivityPickerActivity$ActivityAdapter; <",
+                "> Lcom/example/anycut/ActivityPickerActivity$LoadingTask;->doInBackground([Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/example/anycut/ActivityPickerActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/example/anycut/CreateShortcutActivity;->onListItemClick(Landroid/widget/ListView;Landroid/view/View;IJ)V <",
+                "> Lcom/example/anycut/FrontDoorActivity;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.example.anycut.FrontDoorActivity",
+                    "newShortcut"
+                ]
+            ]
+        }
+    },
+    "Lcom/example/anycut/ShortcutEditorDialog;->setView(Landroid/view/View;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/example/anycut/ShortcutEditorDialog;-><init>(Landroid/content/Context;Landroid/content/DialogInterface$OnClickListener;Landroid/content/DialogInterface$OnCancelListener;)V <",
+                "> Lcom/example/anycut/CreateShortcutActivity;->onCreateDialog(I)Landroid/app/Dialog; <",
+                "> Lcom/example/anycut/FrontDoorActivity;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.example.anycut.FrontDoorActivity",
+                    "newShortcut"
+                ]
+            ]
+        }
+    },
+    "Lcom/example/anycut/CreateShortcutActivity;->generatePhoneShortcut(Landroid/content/Intent;ILjava/lang/String;Ljava/lang/String;)Landroid/content/Intent;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/example/anycut/CreateShortcutActivity;->onActivityResult(IILandroid/content/Intent;)V <",
+                "> Lcom/example/anycut/FrontDoorActivity;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.example.anycut.FrontDoorActivity",
+                    "newShortcut"
+                ]
+            ]
+        }
+    },
+    "Lcom/example/anycut/ActivityPickerActivity$ResolveInfoWrapper;->getInfo()Landroid/content/pm/ResolveInfo;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/example/anycut/ActivityPickerActivity$ActivityAdapter;->getView(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View; <",
+                "> Lcom/example/anycut/ActivityPickerActivity$LoadingTask;->doInBackground([Ljava/lang/Object;)Lcom/example/anycut/ActivityPickerActivity$ActivityAdapter; <",
+                "> Lcom/example/anycut/ActivityPickerActivity$LoadingTask;->doInBackground([Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/example/anycut/ActivityPickerActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/example/anycut/CreateShortcutActivity;->onListItemClick(Landroid/widget/ListView;Landroid/view/View;IJ)V <",
+                "> Lcom/example/anycut/FrontDoorActivity;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.example.anycut.FrontDoorActivity",
+                    "newShortcut"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/example/anycut/ActivityPickerActivity;->onListItemClick(Landroid/widget/ListView;Landroid/view/View;IJ)V <",
+                "> Lcom/example/anycut/CreateShortcutActivity;->onListItemClick(Landroid/widget/ListView;Landroid/view/View;IJ)V <",
+                "> Lcom/example/anycut/FrontDoorActivity;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.example.anycut.FrontDoorActivity",
+                    "newShortcut"
+                ]
+            ]
+        }
+    },
+    "Lcom/example/anycut/ActivityPickerActivity;->getListView()Landroid/widget/ListView;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/example/anycut/ActivityPickerActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/example/anycut/CreateShortcutActivity;->onListItemClick(Landroid/widget/ListView;Landroid/view/View;IJ)V <",
+                "> Lcom/example/anycut/FrontDoorActivity;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.example.anycut.FrontDoorActivity",
+                    "newShortcut"
+                ]
+            ]
+        }
+    },
+    "Lcom/example/anycut/CreateShortcutActivity;->getResources()Landroid/content/res/Resources;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/example/anycut/CreateShortcutActivity;->generatePhoneNumberIcon(Landroid/net/Uri;II)Landroid/graphics/Bitmap; <",
+                "> Lcom/example/anycut/CreateShortcutActivity;->generatePhoneShortcut(Landroid/content/Intent;ILjava/lang/String;Ljava/lang/String;)Landroid/content/Intent; <",
+                "> Lcom/example/anycut/CreateShortcutActivity;->onActivityResult(IILandroid/content/Intent;)V <",
+                "> Lcom/example/anycut/FrontDoorActivity;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.example.anycut.FrontDoorActivity",
+                    "newShortcut"
+                ]
+            ]
+        }
+    },
+    "Lcom/example/anycut/ActivityPickerActivity$LoadingTask;->onPostExecute(Lcom/example/anycut/ActivityPickerActivity$ActivityAdapter;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/example/anycut/ActivityPickerActivity$LoadingTask;->onPostExecute(Ljava/lang/Object;)V <",
+                "> Lcom/example/anycut/ActivityPickerActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/example/anycut/CreateShortcutActivity;->onListItemClick(Landroid/widget/ListView;Landroid/view/View;IJ)V <",
+                "> Lcom/example/anycut/FrontDoorActivity;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.example.anycut.FrontDoorActivity",
+                    "newShortcut"
+                ]
+            ]
+        }
+    },
+    "Lcom/example/anycut/ActivityPickerActivity$LoadingTask;->execute([Ljava/lang/Object;)Lcom/google/android/photostream/UserTask;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/example/anycut/ActivityPickerActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/example/anycut/CreateShortcutActivity;->onListItemClick(Landroid/widget/ListView;Landroid/view/View;IJ)V <",
+                "> Lcom/example/anycut/FrontDoorActivity;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.example.anycut.FrontDoorActivity",
+                    "newShortcut"
+                ]
+            ]
+        }
+    },
+    "Lcom/example/anycut/CreateShortcutActivity;->getContentResolver()Landroid/content/ContentResolver;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/example/anycut/CreateShortcutActivity;->generatePhoneShortcut(Landroid/content/Intent;ILjava/lang/String;Ljava/lang/String;)Landroid/content/Intent; <",
+                "> Lcom/example/anycut/CreateShortcutActivity;->onActivityResult(IILandroid/content/Intent;)V <",
+                "> Lcom/example/anycut/FrontDoorActivity;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.example.anycut.FrontDoorActivity",
+                    "newShortcut"
+                ]
+            ]
+        }
+    },
+    "Lcom/example/anycut/CreateShortcutActivity;->setListAdapter(Landroid/widget/ListAdapter;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/example/anycut/CreateShortcutActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/example/anycut/FrontDoorActivity;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.example.anycut.FrontDoorActivity",
+                    "newShortcut"
+                ]
+            ]
+        }
+    },
+    "Lcom/example/anycut/ActivityPickerActivity$LoadingTask;-><init>(Lcom/example/anycut/ActivityPickerActivity;Lcom/example/anycut/ActivityPickerActivity$1;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/example/anycut/ActivityPickerActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/example/anycut/CreateShortcutActivity;->onListItemClick(Landroid/widget/ListView;Landroid/view/View;IJ)V <",
+                "> Lcom/example/anycut/FrontDoorActivity;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.example.anycut.FrontDoorActivity",
+                    "newShortcut"
+                ]
+            ]
+        }
+    },
+    "Lcom/example/anycut/ActivityPickerActivity;->getListAdapter()Landroid/widget/ListAdapter;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/example/anycut/ActivityPickerActivity;->onListItemClick(Landroid/widget/ListView;Landroid/view/View;IJ)V <",
+                "> Lcom/example/anycut/CreateShortcutActivity;->onListItemClick(Landroid/widget/ListView;Landroid/view/View;IJ)V <",
+                "> Lcom/example/anycut/FrontDoorActivity;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.example.anycut.FrontDoorActivity",
+                    "newShortcut"
+                ]
+            ]
+        }
+    },
+    "Lcom/example/anycut/ActivityPickerActivity$ActivityAdapter;->getItem(I)Ljava/lang/Object;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/example/anycut/ActivityPickerActivity$ActivityAdapter;->getView(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View; <",
+                "> Lcom/example/anycut/ActivityPickerActivity$LoadingTask;->doInBackground([Ljava/lang/Object;)Lcom/example/anycut/ActivityPickerActivity$ActivityAdapter; <",
+                "> Lcom/example/anycut/ActivityPickerActivity$LoadingTask;->doInBackground([Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/example/anycut/ActivityPickerActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/example/anycut/CreateShortcutActivity;->onListItemClick(Landroid/widget/ListView;Landroid/view/View;IJ)V <",
+                "> Lcom/example/anycut/FrontDoorActivity;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.example.anycut.FrontDoorActivity",
+                    "newShortcut"
+                ]
+            ]
+        }
+    },
+    "Lcom/example/anycut/ActivityPickerActivity$ResolveInfoWrapper;-><init>(Lcom/example/anycut/ActivityPickerActivity;Landroid/content/pm/ResolveInfo;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/example/anycut/ActivityPickerActivity$LoadingTask;->doInBackground([Ljava/lang/Object;)Lcom/example/anycut/ActivityPickerActivity$ActivityAdapter; <",
+                "> Lcom/example/anycut/ActivityPickerActivity$LoadingTask;->doInBackground([Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/example/anycut/ActivityPickerActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/example/anycut/CreateShortcutActivity;->onListItemClick(Landroid/widget/ListView;Landroid/view/View;IJ)V <",
+                "> Lcom/example/anycut/FrontDoorActivity;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.example.anycut.FrontDoorActivity",
+                    "newShortcut"
+                ]
+            ]
+        }
+    },
+    "Lcom/example/anycut/ActivityPickerActivity;->getPackageManager()Landroid/content/pm/PackageManager;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/example/anycut/ActivityPickerActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/example/anycut/CreateShortcutActivity;->onListItemClick(Landroid/widget/ListView;Landroid/view/View;IJ)V <",
+                "> Lcom/example/anycut/FrontDoorActivity;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.example.anycut.FrontDoorActivity",
+                    "newShortcut"
+                ]
+            ]
+        }
+    },
+    "Lcom/example/anycut/CreateShortcutActivity;->generatePhoneNumberIcon(Landroid/net/Uri;II)Landroid/graphics/Bitmap;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/example/anycut/CreateShortcutActivity;->generatePhoneShortcut(Landroid/content/Intent;ILjava/lang/String;Ljava/lang/String;)Landroid/content/Intent; <",
+                "> Lcom/example/anycut/CreateShortcutActivity;->onActivityResult(IILandroid/content/Intent;)V <",
+                "> Lcom/example/anycut/FrontDoorActivity;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.example.anycut.FrontDoorActivity",
+                    "newShortcut"
+                ]
+            ]
+        }
+    },
+    "Lcom/example/anycut/FrontDoorActivity;->sendBroadcast(Landroid/content/Intent;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/example/anycut/FrontDoorActivity;->onActivityResult(IILandroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/example/anycut/ShortcutEditorDialog;->loadIntent(Landroid/content/Intent;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/example/anycut/ShortcutEditorDialog;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/example/anycut/CreateShortcutActivity;->onCreateDialog(I)Landroid/app/Dialog; <",
+                "> Lcom/example/anycut/FrontDoorActivity;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.example.anycut.FrontDoorActivity",
+                    "newShortcut"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/example/anycut/ShortcutEditorDialog;->setIntent(Landroid/content/Intent;)V <",
+                "> Lcom/example/anycut/CreateShortcutActivity;->onPrepareDialog(ILandroid/app/Dialog;)V <",
+                "> Lcom/example/anycut/FrontDoorActivity;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.example.anycut.FrontDoorActivity",
+                    "newShortcut"
+                ]
+            ]
+        }
+    },
+    "Lcom/example/anycut/CustomShortcutCreatorActivity;->setContentView(I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/example/anycut/CustomShortcutCreatorActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/example/anycut/CreateShortcutActivity;->onListItemClick(Landroid/widget/ListView;Landroid/view/View;IJ)V <",
+                "> Lcom/example/anycut/FrontDoorActivity;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.example.anycut.FrontDoorActivity",
+                    "newShortcut"
+                ]
+            ]
+        }
+    },
+    "Lcom/example/anycut/ShortcutEditorDialog;->setButton2(Ljava/lang/CharSequence;Landroid/content/DialogInterface$OnClickListener;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/example/anycut/ShortcutEditorDialog;-><init>(Landroid/content/Context;Landroid/content/DialogInterface$OnClickListener;Landroid/content/DialogInterface$OnCancelListener;)V <",
+                "> Lcom/example/anycut/CreateShortcutActivity;->onCreateDialog(I)Landroid/app/Dialog; <",
+                "> Lcom/example/anycut/FrontDoorActivity;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.example.anycut.FrontDoorActivity",
+                    "newShortcut"
+                ]
+            ]
+        }
+    },
+    "Lcom/example/anycut/CreateShortcutActivity;->getPhoneActionIcon(Landroid/content/res/Resources;I)Landroid/graphics/Bitmap;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/example/anycut/CreateShortcutActivity;->generatePhoneNumberIcon(Landroid/net/Uri;II)Landroid/graphics/Bitmap; <",
+                "> Lcom/example/anycut/CreateShortcutActivity;->generatePhoneShortcut(Landroid/content/Intent;ILjava/lang/String;Ljava/lang/String;)Landroid/content/Intent; <",
+                "> Lcom/example/anycut/CreateShortcutActivity;->onActivityResult(IILandroid/content/Intent;)V <",
+                "> Lcom/example/anycut/FrontDoorActivity;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.example.anycut.FrontDoorActivity",
+                    "newShortcut"
+                ]
+            ]
+        }
+    },
+    "Lcom/example/anycut/FrontDoorActivity;->startActivityForResult(Landroid/content/Intent;I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/example/anycut/FrontDoorActivity;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.example.anycut.FrontDoorActivity",
+                    "newShortcut"
+                ]
+            ]
+        }
+    },
+    "Lcom/example/anycut/ActivityPickerActivity;->setContentView(I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/example/anycut/ActivityPickerActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/example/anycut/CreateShortcutActivity;->onListItemClick(Landroid/widget/ListView;Landroid/view/View;IJ)V <",
+                "> Lcom/example/anycut/FrontDoorActivity;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.example.anycut.FrontDoorActivity",
+                    "newShortcut"
+                ]
+            ]
+        }
+    },
+    "Lcom/example/anycut/CustomShortcutCreatorActivity;->setResult(I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/example/anycut/CustomShortcutCreatorActivity;->onClick(Landroid/view/View;)V <",
+                "> Lcom/example/anycut/CreateShortcutActivity;->onListItemClick(Landroid/widget/ListView;Landroid/view/View;IJ)V <",
+                "> Lcom/example/anycut/FrontDoorActivity;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.example.anycut.FrontDoorActivity",
+                    "newShortcut"
+                ],
+                [
+                    "com.example.anycut.CustomShortcutCreatorActivity",
+                    "cancel"
+                ]
+            ]
+        }
+    }
+}

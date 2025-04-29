@@ -1,0 +1,2288 @@
+{
+    "Lcom/sinyee/android/base/b;->new()Lcom/sinyee/android/base/g;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/sinyee/android/base/b;->if(Ljava/lang/String;)Lcom/sinyee/android/base/i; <",
+                "> Lcom/sinyee/android/base/BaseBB;->getLog()Lcom/sinyee/android/base/module/ILog; <",
+                "> Lcom/sinyee/android/base/util/a;->if(Ljava/lang/Object;)V <",
+                "> Lcom/babybus/confs/PhoneConf;->countHighWidth(Landroid/content/Context;)V <",
+                "> Lcom/babybus/confs/PhoneConf;-><init>(Landroid/content/Context;)V <",
+                "> Lcom/babybus/utils/KidsUIUtil;->getPhoneConf()Lcom/babybus/confs/PhoneConf; <",
+                "> Lcom/sinyee/babybus/MainApplication;->super()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/sinyee/android/base/b;->break()[Ljava/lang/String; <",
+                "> Lcom/sinyee/android/base/b;->for([Ljava/lang/String;)Z <",
+                "> Lcom/sinyee/android/base/b;->if(Ljava/lang/String;)Lcom/sinyee/android/base/i; <",
+                "> Lcom/sinyee/android/base/BaseBB;->getLog()Lcom/sinyee/android/base/module/ILog; <",
+                "> Lcom/sinyee/android/base/util/a;->if(Ljava/lang/Object;)V <",
+                "> Lcom/babybus/confs/PhoneConf;->countHighWidth(Landroid/content/Context;)V <",
+                "> Lcom/babybus/confs/PhoneConf;-><init>(Landroid/content/Context;)V <",
+                "> Lcom/babybus/utils/KidsUIUtil;->getPhoneConf()Lcom/babybus/confs/PhoneConf; <",
+                "> Lcom/sinyee/babybus/MainApplication;->super()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/sinyee/babybus/base/BBHelper;->do()Ljava/lang/String;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/sinyee/babybus/base/BBHelper;->getProcessName()Ljava/lang/String; <",
+                "> Lcom/sinyee/babybus/MainApplication;->const()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/sinyee/babybus/base/BBHelper;->for()V <",
+                "> Lcom/sinyee/babybus/base/BBHelper;->setAppContext(Landroid/content/Context;)V <",
+                "> Lcom/sinyee/babybus/base/ModuleManager;->initAttachBaseContext(Landroid/content/Context;)V <",
+                "> Lcom/sinyee/babybus/MainApplication;->attachBaseContext(Landroid/content/Context;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/sinyee/babybus/base/BBHelper;->setAppContext(Landroid/content/Context;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/sinyee/babybus/base/ModuleManager;->initAttachBaseContext(Landroid/content/Context;)V <",
+                "> Lcom/sinyee/babybus/MainApplication;->attachBaseContext(Landroid/content/Context;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/sinyee/babybus/base/BBHelper;->getProcessName()Ljava/lang/String;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/babybus/managers/WebViewManager;->setDataDirectorySuffix()V <",
+                "> Lcom/babybus/managers/WebViewManager;->get()Lcom/babybus/plugins/interfaces/IWebView; <",
+                "> Lcom/sinyee/babybus/MainApplication$2;->onProcessForeground()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/sinyee/babybus/base/BBHelper;->isMainProcess()Z <",
+                "> Lcom/sinyee/babybus/MainApplication$2;->onProcessForeground()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/sinyee/babybus/base/BBHelper;->isMainProcess()Z <",
+                "> Lcom/sinyee/babybus/MainApplication;->class()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/sinyee/babybus/base/BBHelper;->isMainProcess()Z <",
+                "> Lcom/sinyee/babybus/MainApplication$2;->onProcessBackground()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lcom/sinyee/babybus/base/BBHelper;->isMainProcess()Z <",
+                "> Lcom/sinyee/babybus/MainApplication;->catch()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_5": {
+            "call_sequence": [
+                "> Lcom/sinyee/babybus/base/BBHelper;->isGameProcess()Z <",
+                "> Lcom/sinyee/babybus/MainApplication;->break()Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_6": {
+            "call_sequence": [
+                "> Lcom/sinyee/babybus/MainApplication;->const()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_7": {
+            "call_sequence": [
+                "> Lcom/sinyee/babybus/MainApplication;->case()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/sinyee/babybus/base/BBHelper;->isGameProcess()Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/sinyee/babybus/MainApplication;->break()Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/babybus/utils/thread/KidsThreadUtil;->getThreadPool()Ljava/util/concurrent/ExecutorService; <",
+                "> Lcom/babybus/utils/thread/KidsThreadUtil;->getSubHandler()Landroid/os/Handler; <",
+                "> Lcom/babybus/utils/thread/KidsThreadUtil;->exeSubLoop(Ljava/lang/Runnable;)V <",
+                "> Lcom/sinyee/babybus/MainApplication$2;->onProcessForeground()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/babybus/app/inithelper/config/ConfigInitHelper;->getDevelopConfigBean()Lcom/babybus/app/inithelper/config/DevelopConfigBean; <",
+                "> Lcom/babybus/utils/crash/ExceptionManager;->init()V <",
+                "> Lcom/sinyee/babybus/MainApplication;->break()Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/babybus/utils/thread/KidsThreadUtil;->getSingleThreadPool(Lcom/babybus/utils/thread/KidsThreadUtil$SingleTag;)Ljava/util/concurrent/ExecutorService; <",
+                "> Lcom/babybus/utils/thread/KidsThreadUtil;->getSubHandler()Landroid/os/Handler; <",
+                "> Lcom/babybus/utils/thread/KidsThreadUtil;->exeSubLoop(Ljava/lang/Runnable;)V <",
+                "> Lcom/sinyee/babybus/MainApplication$2;->onProcessForeground()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lcom/babybus/utils/crash/ExceptionManager;->matchHandle(Lcom/babybus/app/inithelper/config/ExceptionConfigBean; <",
+                "> Lcom/babybus/utils/crash/ExceptionManager;->getInstance()Lcom/babybus/utils/crash/ExceptionManager; <",
+                "> Lcom/sinyee/babybus/MainApplication;->break()Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/sinyee/android/base/util/d;->super(Ljava/lang/String;I)Lcom/sinyee/android/base/util/d;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/sinyee/android/base/util/d;->const()Lcom/sinyee/android/base/util/d; <",
+                "> Lcom/babybus/utils/FirebaseDeveloperConfig;->getConfigFromSp()Lcom/babybus/utils/FirebaseDeveloperConfig; <",
+                "> Lcom/babybus/utils/FirebaseDeveloperConfig;->getInstance()Lcom/babybus/utils/FirebaseDeveloperConfig; <",
+                "> Lcom/sinyee/babybus/MainApplication$1;->gameFinishAllActivity()Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/sinyee/android/base/util/d;->const()Lcom/sinyee/android/base/util/d; <",
+                "> Lcom/babybus/utils/FirebaseDeveloperConfig;->getConfigFromSp()Lcom/babybus/utils/FirebaseDeveloperConfig; <",
+                "> Lcom/babybus/utils/FirebaseDeveloperConfig;->getInstance()Lcom/babybus/utils/FirebaseDeveloperConfig; <",
+                "> Lcom/sinyee/babybus/MainApplication$1;->isMainProcessAutoExit()Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/sinyee/android/base/util/d;->const()Lcom/sinyee/android/base/util/d; <",
+                "> Lcom/sinyee/babybus/network/util/DeviceHelper;->getIMEI()Ljava/lang/String; <",
+                "> Lcom/sinyee/babybus/ad/apibase/util/ReportUtil;->getShuChuanAdUrl(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.BATTERY_CHANGED",
+                    "start -a"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/sinyee/android/base/util/d;->final(Ljava/lang/String;)Lcom/sinyee/android/base/util/d; <",
+                "> Lcom/babybus/gamecore/manager/WorldDataManager;->removeGameList(Ljava/util/List; <",
+                "> Lcom/babybus/gamecore/manager/WorldDataManager;->getInstance()Lcom/babybus/gamecore/manager/WorldDataManager; <",
+                "> Lcom/babybus/app/inithelper/config/ConfigInitHelper;->loadAndInitData(Z)V <",
+                "> Lcom/babybus/app/inithelper/config/ConfigInitHelper;->getInstance()Lcom/babybus/app/inithelper/config/ConfigInitHelper; <",
+                "> Lcom/babybus/utils/crash/ExceptionManager;->init()V <",
+                "> Lcom/sinyee/babybus/MainApplication;->break()Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lcom/sinyee/android/base/util/d;->final(Ljava/lang/String;)Lcom/sinyee/android/base/util/d; <",
+                "> Lcom/babybus/bean/CommonNetConfig;->save()V <",
+                "> Lcom/babybus/bean/CommonNetConfig;->update(Lcom/babybus/app/inithelper/config/OverseasCommonConfigBean;)V <",
+                "> Lcom/babybus/app/inithelper/config/ConfigInitHelper;->updateOverseasConfig()V <",
+                "> Lcom/babybus/app/inithelper/config/ConfigInitHelper;->getInstance()Lcom/babybus/app/inithelper/config/ConfigInitHelper; <",
+                "> Lcom/babybus/utils/crash/ExceptionManager;->init()V <",
+                "> Lcom/sinyee/babybus/MainApplication;->break()Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_5": {
+            "call_sequence": [
+                "> Lcom/sinyee/android/base/util/d;->final(Ljava/lang/String;)Lcom/sinyee/android/base/util/d; <",
+                "> Lcom/sinyee/babybus/network/util/DeviceHelper;->getPseudoUniqueID()Ljava/lang/String; <",
+                "> Lcom/sinyee/babybus/network/util/DeviceHelper;->getIMEI()Ljava/lang/String; <",
+                "> Lcom/sinyee/babybus/ad/apibase/util/ReportUtil;->getShuChuanAdUrl(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.BATTERY_CHANGED",
+                    "start -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/sinyee/android/base/b;->if(Ljava/lang/String;)Lcom/sinyee/android/base/i;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/sinyee/android/base/BaseBB;->getLog()Lcom/sinyee/android/base/module/ILog; <",
+                "> Lcom/sinyee/android/base/util/a;->if(Ljava/lang/Object;)V <",
+                "> Lcom/babybus/confs/PhoneConf;->countHighWidth(Landroid/content/Context;)V <",
+                "> Lcom/babybus/confs/PhoneConf;-><init>(Landroid/content/Context;)V <",
+                "> Lcom/babybus/utils/KidsUIUtil;->getPhoneConf()Lcom/babybus/confs/PhoneConf; <",
+                "> Lcom/sinyee/babybus/MainApplication;->super()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/sinyee/android/base/b;->goto(Landroid/content/Context;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/sinyee/babybus/base/ModuleManager;->initAttachBaseContext(Landroid/content/Context;)V <",
+                "> Lcom/sinyee/babybus/MainApplication;->attachBaseContext(Landroid/content/Context;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/sinyee/babybus/base/BBHelper;->getAppContext()Landroid/content/Context;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/sinyee/babybus/base/BBHelper;->for()V <",
+                "> Lcom/sinyee/babybus/base/BBHelper;->setAppContext(Landroid/content/Context;)V <",
+                "> Lcom/sinyee/babybus/base/ModuleManager;->initAttachBaseContext(Landroid/content/Context;)V <",
+                "> Lcom/sinyee/babybus/MainApplication;->attachBaseContext(Landroid/content/Context;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/babybus/utils/KidsSoundUtil;-><init>()V <",
+                "> Lcom/babybus/utils/KidsSoundUtil;->getInstance()Lcom/babybus/utils/KidsSoundUtil; <",
+                "> Lcom/babybus/plugin/videool/util/b;->if(Landroid/content/Context;)V <",
+                "> Lcom/babybus/plugin/videool/manager/h$c;->onError(Ljava/lang/Throwable;)V <",
+                "> Lretrofit2/adapter/rxjava2/BodyObservable$BodyObserver;->onNext(Lretrofit2/Response;)V <",
+                "> Lretrofit2/adapter/rxjava2/BodyObservable$BodyObserver;->onNext(Ljava/lang/Object;)V <",
+                "> Lcom/babybus/utils/rxbus/RxBus;->post(Ljava/lang/Object; <",
+                "> Lcom/babybus/utils/rxbus/RxBus;->get()Lcom/babybus/utils/rxbus/RxBus; <",
+                "> Lcom/babybus/utils/rxbus/KidsRxBus;->unregisterAll(Ljava/lang/Object;)V <",
+                "> Lcom/sinyee/babybus/SplashAct;->onDestroy()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/sinyee/babybus/base/ModuleManager;->initAttachBaseContext(Landroid/content/Context;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/sinyee/babybus/MainApplication;->attachBaseContext(Landroid/content/Context;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/sinyee/android/base/util/d;->final(Ljava/lang/String;)Lcom/sinyee/android/base/util/d;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/babybus/gamecore/utils/WorldSPUtil;->cleanOpenTime(Ljava/lang/String;)V <",
+                "> Lcom/babybus/gamecore/manager/WorldDataManager;->removeGameList(Ljava/util/List; <",
+                "> Lcom/babybus/gamecore/manager/WorldDataManager;->getInstance()Lcom/babybus/gamecore/manager/WorldDataManager; <",
+                "> Lcom/babybus/app/inithelper/config/ConfigInitHelper;->loadAndInitData(Z)V <",
+                "> Lcom/babybus/app/inithelper/config/ConfigInitHelper;->getInstance()Lcom/babybus/app/inithelper/config/ConfigInitHelper; <",
+                "> Lcom/babybus/utils/crash/ExceptionManager;->init()V <",
+                "> Lcom/sinyee/babybus/MainApplication;->break()Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/babybus/gamecore/manager/WorldDataManager;->removeGameList(Ljava/util/List; <",
+                "> Lcom/babybus/gamecore/manager/WorldDataManager;->getInstance()Lcom/babybus/gamecore/manager/WorldDataManager; <",
+                "> Lcom/babybus/app/inithelper/config/ConfigInitHelper;->loadAndInitData(Z)V <",
+                "> Lcom/babybus/app/inithelper/config/ConfigInitHelper;->getInstance()Lcom/babybus/app/inithelper/config/ConfigInitHelper; <",
+                "> Lcom/babybus/utils/crash/ExceptionManager;->init()V <",
+                "> Lcom/sinyee/babybus/MainApplication;->break()Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/babybus/gamecore/manager/WorldDataManager;->initLocalData()V <",
+                "> Lcom/babybus/gamecore/manager/WorldDataManager;->getInstance()Lcom/babybus/gamecore/manager/WorldDataManager; <",
+                "> Lcom/babybus/app/inithelper/config/ConfigInitHelper;->loadAndInitData(Z)V <",
+                "> Lcom/babybus/app/inithelper/config/ConfigInitHelper;->getInstance()Lcom/babybus/app/inithelper/config/ConfigInitHelper; <",
+                "> Lcom/babybus/utils/crash/ExceptionManager;->init()V <",
+                "> Lcom/sinyee/babybus/MainApplication;->break()Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/babybus/plugin/videool/manager/a;->super()Ljava/util/concurrent/ConcurrentHashMap; <",
+                "> Lcom/babybus/plugin/videool/manager/a;->try()Lcom/babybus/plugin/videool/manager/a; <",
+                "> Lcom/babybus/plugin/videool/manager/b$a;->do(Lcom/sinyee/babybus/network/BaseResponse;)V <",
+                "> Lcom/babybus/plugin/videool/manager/b$a;->onNext(Ljava/lang/Object;)V <",
+                "> Lcom/babybus/utils/rxbus/RxBus;->post(Ljava/lang/Object; <",
+                "> Lcom/babybus/utils/rxbus/RxBus;->get()Lcom/babybus/utils/rxbus/RxBus; <",
+                "> Lcom/babybus/utils/rxbus/KidsRxBus;->unregisterAll(Ljava/lang/Object;)V <",
+                "> Lcom/sinyee/babybus/SplashAct;->onDestroy()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lcom/babybus/plugin/videool/manager/a;->public(Ljava/util/Map;)V <",
+                "> Lcom/babybus/plugin/videool/manager/a;->try()Lcom/babybus/plugin/videool/manager/a; <",
+                "> Lcom/babybus/plugin/videool/manager/b$a;->do(Lcom/sinyee/babybus/network/BaseResponse;)V <",
+                "> Lcom/babybus/plugin/videool/manager/b$a;->onNext(Ljava/lang/Object;)V <",
+                "> Lcom/babybus/utils/rxbus/RxBus;->post(Ljava/lang/Object; <",
+                "> Lcom/babybus/utils/rxbus/RxBus;->get()Lcom/babybus/utils/rxbus/RxBus; <",
+                "> Lcom/babybus/utils/rxbus/KidsRxBus;->unregisterAll(Ljava/lang/Object;)V <",
+                "> Lcom/sinyee/babybus/SplashAct;->onDestroy()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_5": {
+            "call_sequence": [
+                "> Lcom/sinyee/android/config/library/a$a;->do(Lcom/sinyee/babybus/network/BaseResponse;)V <",
+                "> Lcom/sinyee/android/config/library/a$a;->onNext(Ljava/lang/Object;)V <",
+                "> Lcom/babybus/utils/rxbus/RxBus;->post(Ljava/lang/Object; <",
+                "> Lcom/babybus/utils/rxbus/RxBus;->get()Lcom/babybus/utils/rxbus/RxBus; <",
+                "> Lcom/babybus/utils/rxbus/KidsRxBus;->unregisterAll(Ljava/lang/Object;)V <",
+                "> Lcom/sinyee/babybus/SplashAct;->onDestroy()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_6": {
+            "call_sequence": [
+                "> Lcom/babybus/plugin/videool/manager/a;->switch(Ljava/lang/String; <",
+                "> Lcom/babybus/plugin/videool/manager/a;->try()Lcom/babybus/plugin/videool/manager/a; <",
+                "> Lcom/babybus/plugin/videool/manager/b$a;->do(Lcom/sinyee/babybus/network/BaseResponse;)V <",
+                "> Lcom/babybus/plugin/videool/manager/b$a;->onNext(Ljava/lang/Object;)V <",
+                "> Lcom/babybus/utils/rxbus/RxBus;->post(Ljava/lang/Object; <",
+                "> Lcom/babybus/utils/rxbus/RxBus;->get()Lcom/babybus/utils/rxbus/RxBus; <",
+                "> Lcom/babybus/utils/rxbus/KidsRxBus;->unregisterAll(Ljava/lang/Object;)V <",
+                "> Lcom/sinyee/babybus/SplashAct;->onDestroy()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_7": {
+            "call_sequence": [
+                "> Lcom/sinyee/android/config/library/a;->super()V <",
+                "> Lcom/sinyee/android/config/library/a;->final(Lcom/sinyee/android/config/library/a;)V <",
+                "> Lcom/sinyee/android/config/library/a$a;->onError(Ljava/lang/Throwable;)V <",
+                "> Lretrofit2/adapter/rxjava2/BodyObservable$BodyObserver;->onNext(Lretrofit2/Response;)V <",
+                "> Lretrofit2/adapter/rxjava2/BodyObservable$BodyObserver;->onNext(Ljava/lang/Object;)V <",
+                "> Lcom/babybus/utils/rxbus/RxBus;->post(Ljava/lang/Object; <",
+                "> Lcom/babybus/utils/rxbus/RxBus;->get()Lcom/babybus/utils/rxbus/RxBus; <",
+                "> Lcom/babybus/utils/rxbus/KidsRxBus;->unregisterAll(Ljava/lang/Object;)V <",
+                "> Lcom/sinyee/babybus/SplashAct;->onDestroy()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_8": {
+            "call_sequence": [
+                "> Lcom/babybus/plugin/videool/manager/a;->const()Ljava/util/concurrent/ConcurrentHashMap; <",
+                "> Lcom/babybus/plugin/videool/manager/a;->try()Lcom/babybus/plugin/videool/manager/a; <",
+                "> Lcom/babybus/plugin/videool/manager/b$a;->do(Lcom/sinyee/babybus/network/BaseResponse;)V <",
+                "> Lcom/babybus/plugin/videool/manager/b$a;->onNext(Ljava/lang/Object;)V <",
+                "> Lcom/babybus/utils/rxbus/RxBus;->post(Ljava/lang/Object; <",
+                "> Lcom/babybus/utils/rxbus/RxBus;->get()Lcom/babybus/utils/rxbus/RxBus; <",
+                "> Lcom/babybus/utils/rxbus/KidsRxBus;->unregisterAll(Ljava/lang/Object;)V <",
+                "> Lcom/sinyee/babybus/SplashAct;->onDestroy()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_9": {
+            "call_sequence": [
+                "> Lcom/babybus/plugin/videool/manager/a;->do(I)V <",
+                "> Lcom/babybus/plugin/videool/manager/a;->try()Lcom/babybus/plugin/videool/manager/a; <",
+                "> Lcom/babybus/plugin/videool/manager/b$a;->do(Lcom/sinyee/babybus/network/BaseResponse;)V <",
+                "> Lcom/babybus/plugin/videool/manager/b$a;->onNext(Ljava/lang/Object;)V <",
+                "> Lcom/babybus/utils/rxbus/RxBus;->post(Ljava/lang/Object; <",
+                "> Lcom/babybus/utils/rxbus/RxBus;->get()Lcom/babybus/utils/rxbus/RxBus; <",
+                "> Lcom/babybus/utils/rxbus/KidsRxBus;->unregisterAll(Ljava/lang/Object;)V <",
+                "> Lcom/sinyee/babybus/SplashAct;->onDestroy()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_10": {
+            "call_sequence": [
+                "> Lcom/sinyee/android/config/library/b;->import(Ljava/lang/String;)V <",
+                "> Lcom/sinyee/android/config/library/b;->return()V <",
+                "> Lcom/sinyee/android/config/library/b;->getConfig()Ljava/util/Map; <",
+                "> Lcom/sinyee/android/config/library/b$a;->do(Lcom/sinyee/babybus/network/BaseResponse;)V <",
+                "> Lcom/sinyee/android/config/library/b$a;->onNext(Ljava/lang/Object;)V <",
+                "> Lcom/babybus/utils/rxbus/RxBus;->post(Ljava/lang/Object; <",
+                "> Lcom/babybus/utils/rxbus/RxBus;->get()Lcom/babybus/utils/rxbus/RxBus; <",
+                "> Lcom/babybus/utils/rxbus/KidsRxBus;->unregisterAll(Ljava/lang/Object;)V <",
+                "> Lcom/sinyee/babybus/SplashAct;->onDestroy()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_11": {
+            "call_sequence": [
+                "> Lcom/babybus/plugin/videool/manager/a;->this()Ljava/util/concurrent/ConcurrentHashMap; <",
+                "> Lcom/babybus/plugin/videool/manager/a;->try()Lcom/babybus/plugin/videool/manager/a; <",
+                "> Lcom/babybus/plugin/videool/manager/b$a;->do(Lcom/sinyee/babybus/network/BaseResponse;)V <",
+                "> Lcom/babybus/plugin/videool/manager/b$a;->onNext(Ljava/lang/Object;)V <",
+                "> Lcom/babybus/utils/rxbus/RxBus;->post(Ljava/lang/Object; <",
+                "> Lcom/babybus/utils/rxbus/RxBus;->get()Lcom/babybus/utils/rxbus/RxBus; <",
+                "> Lcom/babybus/utils/rxbus/KidsRxBus;->unregisterAll(Ljava/lang/Object;)V <",
+                "> Lcom/sinyee/babybus/SplashAct;->onDestroy()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_12": {
+            "call_sequence": [
+                "> Lcom/babybus/plugin/videool/manager/a;->throws(Ljava/lang/String; <",
+                "> Lcom/babybus/plugin/videool/manager/a;->try()Lcom/babybus/plugin/videool/manager/a; <",
+                "> Lcom/babybus/plugin/videool/manager/b$a;->do(Lcom/sinyee/babybus/network/BaseResponse;)V <",
+                "> Lcom/babybus/plugin/videool/manager/b$a;->onNext(Ljava/lang/Object;)V <",
+                "> Lcom/babybus/utils/rxbus/RxBus;->post(Ljava/lang/Object; <",
+                "> Lcom/babybus/utils/rxbus/RxBus;->get()Lcom/babybus/utils/rxbus/RxBus; <",
+                "> Lcom/babybus/utils/rxbus/KidsRxBus;->unregisterAll(Ljava/lang/Object;)V <",
+                "> Lcom/sinyee/babybus/SplashAct;->onDestroy()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_13": {
+            "call_sequence": [
+                "> Lcom/babybus/gamecore/manager/VideoPlayRecordManager;->deleteVideoPlayRecordListCache(Ljava/util/List;)V <",
+                "> Lcom/babybus/gamecore/manager/VideoPlayRecordManager;->getInstance()Lcom/babybus/gamecore/manager/VideoPlayRecordManager; <",
+                "> Lcom/sinyee/babybus/world/impl/WorldLocalImpl;->localVideoPlayRecord(Ljava/lang/String; <",
+                "> Lcom/sinyee/babybus/world/impl/WorldLocalImpl;->get()Lcom/sinyee/babybus/world/impl/WorldLocalImpl; <",
+                "> Lcom/sinyee/babybus/world/adapter/WorldMainAdapter;->new(Lcom/sinyee/android/adapter/BaseViewHolder; <",
+                "> Lcom/sinyee/babybus/world/view/home/HomeView;->reloadAllData()V <",
+                "> Lcom/sinyee/babybus/world/view/home/HomeView;->getInstance()Lcom/sinyee/babybus/world/view/home/HomeView; <",
+                "> Lcom/sinyee/babybus/SplashAct;->final()V <",
+                "> Lcom/sinyee/babybus/SplashAct;->goto(Lcom/sinyee/babybus/SplashAct;)V <",
+                "> Lcom/sinyee/babybus/k;->run()V <",
+                "> Lcom/sinyee/babybus/SplashAct;->super()V <",
+                "> Lcom/sinyee/babybus/SplashAct;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_14": {
+            "call_sequence": [
+                "> Lcom/babybus/gamecore/manager/VideoPlayRecordManager;->getVideoPlayListCache()Ljava/util/concurrent/CopyOnWriteArrayList; <",
+                "> Lcom/sinyee/babybus/world/impl/WorldLocalImpl;->localVideoPlayRecord(Ljava/lang/String; <",
+                "> Lcom/sinyee/babybus/world/impl/WorldLocalImpl;->get()Lcom/sinyee/babybus/world/impl/WorldLocalImpl; <",
+                "> Lcom/sinyee/babybus/world/adapter/WorldMainAdapter;->new(Lcom/sinyee/android/adapter/BaseViewHolder; <",
+                "> Lcom/sinyee/babybus/world/view/home/HomeView;->reloadAllData()V <",
+                "> Lcom/sinyee/babybus/world/view/home/HomeView;->getInstance()Lcom/sinyee/babybus/world/view/home/HomeView; <",
+                "> Lcom/sinyee/babybus/SplashAct;->final()V <",
+                "> Lcom/sinyee/babybus/SplashAct;->goto(Lcom/sinyee/babybus/SplashAct;)V <",
+                "> Lcom/sinyee/babybus/k;->run()V <",
+                "> Lcom/sinyee/babybus/SplashAct;->super()V <",
+                "> Lcom/sinyee/babybus/SplashAct;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_15": {
+            "call_sequence": [
+                "> Lcom/babybus/gamecore/manager/VideoPlayRecordManager;->saveVideoPlayRecordListCache(I <",
+                "> Lcom/babybus/gamecore/manager/VideoPlayRecordManager;->getInstance()Lcom/babybus/gamecore/manager/VideoPlayRecordManager; <",
+                "> Lcom/sinyee/babybus/world/impl/WorldLocalImpl;->localVideoPlayRecord(Ljava/lang/String; <",
+                "> Lcom/sinyee/babybus/world/impl/WorldLocalImpl;->get()Lcom/sinyee/babybus/world/impl/WorldLocalImpl; <",
+                "> Lcom/sinyee/babybus/world/adapter/WorldMainAdapter;->new(Lcom/sinyee/android/adapter/BaseViewHolder; <",
+                "> Lcom/sinyee/babybus/world/view/home/HomeView;->reloadAllData()V <",
+                "> Lcom/sinyee/babybus/world/view/home/HomeView;->getInstance()Lcom/sinyee/babybus/world/view/home/HomeView; <",
+                "> Lcom/sinyee/babybus/SplashAct;->final()V <",
+                "> Lcom/sinyee/babybus/SplashAct;->goto(Lcom/sinyee/babybus/SplashAct;)V <",
+                "> Lcom/sinyee/babybus/k;->run()V <",
+                "> Lcom/sinyee/babybus/SplashAct;->super()V <",
+                "> Lcom/sinyee/babybus/SplashAct;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_16": {
+            "call_sequence": [
+                "> Lcom/babybus/plugin/videool/manager/a;->while()Ljava/util/concurrent/ConcurrentHashMap; <",
+                "> Lcom/babybus/plugin/videool/manager/a;->try()Lcom/babybus/plugin/videool/manager/a; <",
+                "> Lcom/babybus/plugin/videool/manager/b$a;->do(Lcom/sinyee/babybus/network/BaseResponse;)V <",
+                "> Lcom/babybus/plugin/videool/manager/b$a;->onNext(Ljava/lang/Object;)V <",
+                "> Lcom/babybus/utils/rxbus/RxBus;->post(Ljava/lang/Object; <",
+                "> Lcom/babybus/utils/rxbus/RxBus;->get()Lcom/babybus/utils/rxbus/RxBus; <",
+                "> Lcom/babybus/utils/rxbus/KidsRxBus;->unregisterAll(Ljava/lang/Object;)V <",
+                "> Lcom/sinyee/babybus/SplashAct;->onDestroy()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_17": {
+            "call_sequence": [
+                "> Lcom/babybus/gamecore/model/WorldMainModel$1;->onRun()V <",
+                "> Lcom/babybus/gamecore/model/WorldMainModel;->updateNetData()V <",
+                "> Lcom/babybus/gamecore/model/WorldMainModel;->updateServerData()V <",
+                "> Lcom/babybus/gamecore/manager/WorldDataManager;->updateServerData()V <",
+                "> Lcom/babybus/gamecore/manager/WorldDataManager;->getInstance()Lcom/babybus/gamecore/manager/WorldDataManager; <",
+                "> Lcom/babybus/app/inithelper/config/ConfigInitHelper;->loadAndInitData(Z)V <",
+                "> Lcom/babybus/app/inithelper/config/ConfigInitHelper;->getInstance()Lcom/babybus/app/inithelper/config/ConfigInitHelper; <",
+                "> Lcom/babybus/utils/crash/ExceptionManager;->init()V <",
+                "> Lcom/sinyee/babybus/MainApplication;->break()Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_18": {
+            "call_sequence": [
+                "> Lcom/babybus/managers/UserManager;->openBgm(Z)V <",
+                "> Lcom/sinyee/babybus/world/view/home/HomeView;->lambda$init$2(Landroid/view/View;)V <",
+                "> Lcom/sinyee/babybus/world/view/home/HomeView;->getInstance()Lcom/sinyee/babybus/world/view/home/HomeView; <",
+                "> Lcom/sinyee/babybus/SplashAct;->final()V <",
+                "> Lcom/sinyee/babybus/SplashAct;->goto(Lcom/sinyee/babybus/SplashAct;)V <",
+                "> Lcom/sinyee/babybus/k;->run()V <",
+                "> Lcom/sinyee/babybus/SplashAct;->super()V <",
+                "> Lcom/sinyee/babybus/SplashAct;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_19": {
+            "call_sequence": [
+                "> Lcom/babybus/managers/UserManager;->getAge()Ljava/lang/String; <",
+                "> Lcom/babybus/gamecore/model/WorldMainModel;->requestMainData(Ljava/lang/String;)V <",
+                "> Lcom/babybus/gamecore/model/WorldMainModel;->updateNetData()V <",
+                "> Lcom/babybus/gamecore/model/WorldMainModel;->updateServerData()V <",
+                "> Lcom/babybus/gamecore/manager/WorldDataManager;->updateServerData()V <",
+                "> Lcom/babybus/gamecore/manager/WorldDataManager;->getInstance()Lcom/babybus/gamecore/manager/WorldDataManager; <",
+                "> Lcom/babybus/app/inithelper/config/ConfigInitHelper;->loadAndInitData(Z)V <",
+                "> Lcom/babybus/app/inithelper/config/ConfigInitHelper;->getInstance()Lcom/babybus/app/inithelper/config/ConfigInitHelper; <",
+                "> Lcom/babybus/utils/crash/ExceptionManager;->init()V <",
+                "> Lcom/sinyee/babybus/MainApplication;->break()Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_20": {
+            "call_sequence": [
+                "> Lcom/sinyee/babybus/network/util/DeviceHelper;->getPseudoUniqueID()Ljava/lang/String; <",
+                "> Lcom/sinyee/babybus/network/util/DeviceHelper;->getIMEI()Ljava/lang/String; <",
+                "> Lcom/sinyee/babybus/ad/apibase/util/ReportUtil;->getShuChuanAdUrl(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.BATTERY_CHANGED",
+                    "start -a"
+                ]
+            ]
+        },
+        "path_21": {
+            "call_sequence": [
+                "> Lcom/babybus/gamecore/WorldGameManager;->getSilentDownloadKey()Ljava/lang/String; <",
+                "> Lcom/babybus/gamecore/WorldGameManager;->getInstance()Lcom/babybus/gamecore/WorldGameManager; <",
+                "> Lcom/babybus/gamecore/manager/WorldDataManager;->getExitPopGameInfo(Ljava/lang/String;)Lcom/babybus/gamecore/bean/GameAndVideoBean; <",
+                "> Lcom/babybus/gamecore/manager/WorldDataManager;->getInstance()Lcom/babybus/gamecore/manager/WorldDataManager; <",
+                "> Lcom/babybus/app/inithelper/config/ConfigInitHelper;->loadAndInitData(Z)V <",
+                "> Lcom/babybus/app/inithelper/config/ConfigInitHelper;->getInstance()Lcom/babybus/app/inithelper/config/ConfigInitHelper; <",
+                "> Lcom/babybus/utils/crash/ExceptionManager;->init()V <",
+                "> Lcom/sinyee/babybus/MainApplication;->break()Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_22": {
+            "call_sequence": [
+                "> Lcom/babybus/gamecore/manager/WorldGamePool;->removeGameInfo(Ljava/lang/String;)Z <",
+                "> Lcom/babybus/gamecore/manager/WorldGamePool;->getInstance()Lcom/babybus/gamecore/manager/WorldGamePool; <",
+                "> Lcom/babybus/gamecore/manager/WorldDataManager;->getGameInfoList(Z <",
+                "> Lcom/babybus/gamecore/manager/WorldDataManager;->getInstance()Lcom/babybus/gamecore/manager/WorldDataManager; <",
+                "> Lcom/babybus/app/inithelper/config/ConfigInitHelper;->loadAndInitData(Z)V <",
+                "> Lcom/babybus/app/inithelper/config/ConfigInitHelper;->getInstance()Lcom/babybus/app/inithelper/config/ConfigInitHelper; <",
+                "> Lcom/babybus/utils/crash/ExceptionManager;->init()V <",
+                "> Lcom/sinyee/babybus/MainApplication;->break()Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_23": {
+            "call_sequence": [
+                "> Lcom/babybus/gamecore/manager/WorldGamePool;->convertGameInfo(Lcom/babybus/bean/WorldFieldDataBean;)Lcom/babybus/gamecore/bean/GameAndVideoBean; <",
+                "> Lcom/babybus/gamecore/manager/WorldGamePool;->getInstance()Lcom/babybus/gamecore/manager/WorldGamePool; <",
+                "> Lcom/babybus/gamecore/manager/WorldDataManager;->getGameInfoList(Z <",
+                "> Lcom/babybus/gamecore/manager/WorldDataManager;->getInstance()Lcom/babybus/gamecore/manager/WorldDataManager; <",
+                "> Lcom/babybus/app/inithelper/config/ConfigInitHelper;->loadAndInitData(Z)V <",
+                "> Lcom/babybus/app/inithelper/config/ConfigInitHelper;->getInstance()Lcom/babybus/app/inithelper/config/ConfigInitHelper; <",
+                "> Lcom/babybus/utils/crash/ExceptionManager;->init()V <",
+                "> Lcom/sinyee/babybus/MainApplication;->break()Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_24": {
+            "call_sequence": [
+                "> Lcom/babybus/plugin/videool/manager/a;->break()Ljava/util/concurrent/ConcurrentHashMap; <",
+                "> Lcom/babybus/plugin/videool/manager/a;->try()Lcom/babybus/plugin/videool/manager/a; <",
+                "> Lcom/babybus/plugin/videool/manager/b$a;->do(Lcom/sinyee/babybus/network/BaseResponse;)V <",
+                "> Lcom/babybus/plugin/videool/manager/b$a;->onNext(Ljava/lang/Object;)V <",
+                "> Lcom/babybus/utils/rxbus/RxBus;->post(Ljava/lang/Object; <",
+                "> Lcom/babybus/utils/rxbus/RxBus;->get()Lcom/babybus/utils/rxbus/RxBus; <",
+                "> Lcom/babybus/utils/rxbus/KidsRxBus;->unregisterAll(Ljava/lang/Object;)V <",
+                "> Lcom/sinyee/babybus/SplashAct;->onDestroy()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_25": {
+            "call_sequence": [
+                "> Lcom/babybus/bean/CommonNetConfig;->save()V <",
+                "> Lcom/babybus/bean/CommonNetConfig;->update(Lcom/babybus/app/inithelper/config/OverseasCommonConfigBean;)V <",
+                "> Lcom/babybus/app/inithelper/config/ConfigInitHelper;->updateOverseasConfig()V <",
+                "> Lcom/babybus/app/inithelper/config/ConfigInitHelper;->getInstance()Lcom/babybus/app/inithelper/config/ConfigInitHelper; <",
+                "> Lcom/babybus/utils/crash/ExceptionManager;->init()V <",
+                "> Lcom/sinyee/babybus/MainApplication;->break()Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_26": {
+            "call_sequence": [
+                "> Lcom/babybus/gamecore/manager/WorldGamePool$3;->doInBackground()Ljava/lang/Object; <",
+                "> Lcom/babybus/gamecore/manager/WorldGamePool;->saveGameAndVideoBean(Ljava/util/List; <",
+                "> Lcom/babybus/gamecore/manager/WorldGamePool;->getInstance()Lcom/babybus/gamecore/manager/WorldGamePool; <",
+                "> Lcom/babybus/gamecore/manager/WorldDataManager;->getGameInfoList(Z <",
+                "> Lcom/babybus/gamecore/manager/WorldDataManager;->getInstance()Lcom/babybus/gamecore/manager/WorldDataManager; <",
+                "> Lcom/babybus/app/inithelper/config/ConfigInitHelper;->loadAndInitData(Z)V <",
+                "> Lcom/babybus/app/inithelper/config/ConfigInitHelper;->getInstance()Lcom/babybus/app/inithelper/config/ConfigInitHelper; <",
+                "> Lcom/babybus/utils/crash/ExceptionManager;->init()V <",
+                "> Lcom/sinyee/babybus/MainApplication;->break()Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_27": {
+            "call_sequence": [
+                "> Lcom/babybus/plugin/videool/manager/a;->static(I <",
+                "> Lcom/babybus/plugin/videool/manager/a;->try()Lcom/babybus/plugin/videool/manager/a; <",
+                "> Lcom/babybus/plugin/videool/manager/b$a;->do(Lcom/sinyee/babybus/network/BaseResponse;)V <",
+                "> Lcom/babybus/plugin/videool/manager/b$a;->onNext(Ljava/lang/Object;)V <",
+                "> Lcom/babybus/utils/rxbus/RxBus;->post(Ljava/lang/Object; <",
+                "> Lcom/babybus/utils/rxbus/RxBus;->get()Lcom/babybus/utils/rxbus/RxBus; <",
+                "> Lcom/babybus/utils/rxbus/KidsRxBus;->unregisterAll(Ljava/lang/Object;)V <",
+                "> Lcom/sinyee/babybus/SplashAct;->onDestroy()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_28": {
+            "call_sequence": [
+                "> Lcom/babybus/managers/UserManager;->isSoundOn()Z <",
+                "> Lcom/babybus/utils/sound/KidsSoundManager;->lambda$new$0(I <",
+                "> Lcom/babybus/utils/sound/KidsSoundManager;->getInstance()Lcom/babybus/utils/sound/KidsSoundManager; <",
+                "> Lcom/sinyee/babybus/world/view/home/HomeView;->lambda$showNoNetView$4(Landroid/view/View;)V <",
+                "> Lcom/sinyee/babybus/world/view/home/HomeView;->getInstance()Lcom/sinyee/babybus/world/view/home/HomeView; <",
+                "> Lcom/sinyee/babybus/SplashAct;->final()V <",
+                "> Lcom/sinyee/babybus/SplashAct;->goto(Lcom/sinyee/babybus/SplashAct;)V <",
+                "> Lcom/sinyee/babybus/k;->run()V <",
+                "> Lcom/sinyee/babybus/SplashAct;->super()V <",
+                "> Lcom/sinyee/babybus/SplashAct;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_29": {
+            "call_sequence": [
+                "> Lcom/babybus/plugin/videool/manager/a;->return(Ljava/util/Map;)V <",
+                "> Lcom/babybus/plugin/videool/manager/a;->try()Lcom/babybus/plugin/videool/manager/a; <",
+                "> Lcom/babybus/plugin/videool/manager/b$a;->do(Lcom/sinyee/babybus/network/BaseResponse;)V <",
+                "> Lcom/babybus/plugin/videool/manager/b$a;->onNext(Ljava/lang/Object;)V <",
+                "> Lcom/babybus/utils/rxbus/RxBus;->post(Ljava/lang/Object; <",
+                "> Lcom/babybus/utils/rxbus/RxBus;->get()Lcom/babybus/utils/rxbus/RxBus; <",
+                "> Lcom/babybus/utils/rxbus/KidsRxBus;->unregisterAll(Ljava/lang/Object;)V <",
+                "> Lcom/sinyee/babybus/SplashAct;->onDestroy()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_30": {
+            "call_sequence": [
+                "> Lcom/babybus/gamecore/utils/WorldSPUtil;->cleanRealOpenTime(Ljava/lang/String;)V <",
+                "> Lcom/babybus/gamecore/manager/WorldDataManager;->removeGameList(Ljava/util/List; <",
+                "> Lcom/babybus/gamecore/manager/WorldDataManager;->getInstance()Lcom/babybus/gamecore/manager/WorldDataManager; <",
+                "> Lcom/babybus/app/inithelper/config/ConfigInitHelper;->loadAndInitData(Z)V <",
+                "> Lcom/babybus/app/inithelper/config/ConfigInitHelper;->getInstance()Lcom/babybus/app/inithelper/config/ConfigInitHelper; <",
+                "> Lcom/babybus/utils/crash/ExceptionManager;->init()V <",
+                "> Lcom/sinyee/babybus/MainApplication;->break()Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_31": {
+            "call_sequence": [
+                "> Lcom/babybus/managers/UserManager;->isBgmOn()Z <",
+                "> Lcom/sinyee/babybus/world/view/home/HomeView;->init()V <",
+                "> Lcom/sinyee/babybus/world/view/home/HomeView;->getInstance()Lcom/sinyee/babybus/world/view/home/HomeView; <",
+                "> Lcom/sinyee/babybus/SplashAct;->final()V <",
+                "> Lcom/sinyee/babybus/SplashAct;->goto(Lcom/sinyee/babybus/SplashAct;)V <",
+                "> Lcom/sinyee/babybus/k;->run()V <",
+                "> Lcom/sinyee/babybus/SplashAct;->super()V <",
+                "> Lcom/sinyee/babybus/SplashAct;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_32": {
+            "call_sequence": [
+                "> Lcom/babybus/plugin/videool/manager/a;->native(Lcom/babybus/plugin/videool/bean/VideoItemBean;)V <",
+                "> Lcom/babybus/plugin/videool/manager/a;->try()Lcom/babybus/plugin/videool/manager/a; <",
+                "> Lcom/babybus/plugin/videool/manager/b$a;->do(Lcom/sinyee/babybus/network/BaseResponse;)V <",
+                "> Lcom/babybus/plugin/videool/manager/b$a;->onNext(Ljava/lang/Object;)V <",
+                "> Lcom/babybus/utils/rxbus/RxBus;->post(Ljava/lang/Object; <",
+                "> Lcom/babybus/utils/rxbus/RxBus;->get()Lcom/babybus/utils/rxbus/RxBus; <",
+                "> Lcom/babybus/utils/rxbus/KidsRxBus;->unregisterAll(Ljava/lang/Object;)V <",
+                "> Lcom/sinyee/babybus/SplashAct;->onDestroy()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_33": {
+            "call_sequence": [
+                "> Lcom/babybus/plugin/videool/manager/a$e;->doInBackground()Ljava/lang/Object; <",
+                "> Lcom/babybus/plugin/videool/manager/a;->default(Ljava/lang/String; <",
+                "> Lcom/babybus/plugin/videool/manager/a;->try()Lcom/babybus/plugin/videool/manager/a; <",
+                "> Lcom/babybus/plugin/videool/manager/b$a;->do(Lcom/sinyee/babybus/network/BaseResponse;)V <",
+                "> Lcom/babybus/plugin/videool/manager/b$a;->onNext(Ljava/lang/Object;)V <",
+                "> Lcom/babybus/utils/rxbus/RxBus;->post(Ljava/lang/Object; <",
+                "> Lcom/babybus/utils/rxbus/RxBus;->get()Lcom/babybus/utils/rxbus/RxBus; <",
+                "> Lcom/babybus/utils/rxbus/KidsRxBus;->unregisterAll(Ljava/lang/Object;)V <",
+                "> Lcom/sinyee/babybus/SplashAct;->onDestroy()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_34": {
+            "call_sequence": [
+                "> Lcom/babybus/gamecore/utils/WorldSPUtil;->getRealOpenTime(Ljava/lang/String;)J <",
+                "> Lcom/babybus/gamecore/WorldGameManager;->isPlayed(Ljava/lang/String;)Z <",
+                "> Lcom/babybus/gamecore/manager/WorldDataManager;->initData()V <",
+                "> Lcom/babybus/gamecore/manager/WorldDataManager;->getInstance()Lcom/babybus/gamecore/manager/WorldDataManager; <",
+                "> Lcom/babybus/app/inithelper/config/ConfigInitHelper;->loadAndInitData(Z)V <",
+                "> Lcom/babybus/app/inithelper/config/ConfigInitHelper;->getInstance()Lcom/babybus/app/inithelper/config/ConfigInitHelper; <",
+                "> Lcom/babybus/utils/crash/ExceptionManager;->init()V <",
+                "> Lcom/sinyee/babybus/MainApplication;->break()Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_35": {
+            "call_sequence": [
+                "> Lcom/babybus/gamecore/utils/WorldSPUtil;->getOpenTime(Ljava/lang/String;)J <",
+                "> Lcom/babybus/gamecore/bean/LocalGameInfo;->getOpenTime()J <",
+                "> Lcom/babybus/gamecore/manager/WorldDataManager;->initLocalData()V <",
+                "> Lcom/babybus/gamecore/manager/WorldDataManager;->getInstance()Lcom/babybus/gamecore/manager/WorldDataManager; <",
+                "> Lcom/babybus/app/inithelper/config/ConfigInitHelper;->loadAndInitData(Z)V <",
+                "> Lcom/babybus/app/inithelper/config/ConfigInitHelper;->getInstance()Lcom/babybus/app/inithelper/config/ConfigInitHelper; <",
+                "> Lcom/babybus/utils/crash/ExceptionManager;->init()V <",
+                "> Lcom/sinyee/babybus/MainApplication;->break()Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_36": {
+            "call_sequence": [
+                "> Lcom/babybus/gamecore/manager/WorldGamePool$5;->doInBackground()Ljava/lang/Object; <",
+                "> Lcom/babybus/gamecore/manager/WorldGamePool;->loadLocalGameAndVideoBeanMap()V <",
+                "> Lcom/babybus/gamecore/manager/WorldGamePool;->getInstance()Lcom/babybus/gamecore/manager/WorldGamePool; <",
+                "> Lcom/babybus/gamecore/manager/WorldDataManager;->getGameInfoList(Z <",
+                "> Lcom/babybus/gamecore/manager/WorldDataManager;->getInstance()Lcom/babybus/gamecore/manager/WorldDataManager; <",
+                "> Lcom/babybus/app/inithelper/config/ConfigInitHelper;->loadAndInitData(Z)V <",
+                "> Lcom/babybus/app/inithelper/config/ConfigInitHelper;->getInstance()Lcom/babybus/app/inithelper/config/ConfigInitHelper; <",
+                "> Lcom/babybus/utils/crash/ExceptionManager;->init()V <",
+                "> Lcom/sinyee/babybus/MainApplication;->break()Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_37": {
+            "call_sequence": [
+                "> Lcom/babybus/gamecore/manager/WorldGamePool$4;->doInBackground()Ljava/lang/Object; <",
+                "> Lcom/babybus/gamecore/manager/WorldGamePool;->removeGameAndVideoBean(Ljava/lang/String;)V <",
+                "> Lcom/babybus/gamecore/manager/WorldGamePool;->getInstance()Lcom/babybus/gamecore/manager/WorldGamePool; <",
+                "> Lcom/babybus/gamecore/manager/WorldDataManager;->getGameInfoList(Z <",
+                "> Lcom/babybus/gamecore/manager/WorldDataManager;->getInstance()Lcom/babybus/gamecore/manager/WorldDataManager; <",
+                "> Lcom/babybus/app/inithelper/config/ConfigInitHelper;->loadAndInitData(Z)V <",
+                "> Lcom/babybus/app/inithelper/config/ConfigInitHelper;->getInstance()Lcom/babybus/app/inithelper/config/ConfigInitHelper; <",
+                "> Lcom/babybus/utils/crash/ExceptionManager;->init()V <",
+                "> Lcom/sinyee/babybus/MainApplication;->break()Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_38": {
+            "call_sequence": [
+                "> Lcom/babybus/gamecore/manager/WorldGamePool;->lambda$convertGameInfo$0(Lcom/babybus/gamecore/bean/GameAndVideoBean; <",
+                "> Lcom/babybus/gamecore/manager/WorldGamePool;->getInstance()Lcom/babybus/gamecore/manager/WorldGamePool; <",
+                "> Lcom/babybus/gamecore/manager/WorldDataManager;->getGameInfoList(Z <",
+                "> Lcom/babybus/gamecore/manager/WorldDataManager;->getInstance()Lcom/babybus/gamecore/manager/WorldDataManager; <",
+                "> Lcom/babybus/app/inithelper/config/ConfigInitHelper;->loadAndInitData(Z)V <",
+                "> Lcom/babybus/app/inithelper/config/ConfigInitHelper;->getInstance()Lcom/babybus/app/inithelper/config/ConfigInitHelper; <",
+                "> Lcom/babybus/utils/crash/ExceptionManager;->init()V <",
+                "> Lcom/sinyee/babybus/MainApplication;->break()Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/sinyee/babybus/base/BBHelper;->for()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/sinyee/babybus/base/BBHelper;->setAppContext(Landroid/content/Context;)V <",
+                "> Lcom/sinyee/babybus/base/ModuleManager;->initAttachBaseContext(Landroid/content/Context;)V <",
+                "> Lcom/sinyee/babybus/MainApplication;->attachBaseContext(Landroid/content/Context;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/sinyee/android/base/util/d;->this(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/sinyee/android/config/library/a$a;->do(Lcom/sinyee/babybus/network/BaseResponse;)V <",
+                "> Lcom/sinyee/android/config/library/a$a;->onNext(Ljava/lang/Object;)V <",
+                "> Lcom/babybus/utils/rxbus/RxBus;->post(Ljava/lang/Object; <",
+                "> Lcom/babybus/utils/rxbus/RxBus;->get()Lcom/babybus/utils/rxbus/RxBus; <",
+                "> Lcom/babybus/utils/rxbus/KidsRxBus;->unregisterAll(Ljava/lang/Object;)V <",
+                "> Lcom/sinyee/babybus/SplashAct;->onDestroy()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/sinyee/babybus/network/util/DeviceHelper;->getMacAddress()Ljava/lang/String; <",
+                "> Lcom/sinyee/babybus/network/util/DeviceHelper;->getIMEI()Ljava/lang/String; <",
+                "> Lcom/sinyee/babybus/ad/apibase/util/ReportUtil;->getShuChuanAdUrl(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.BATTERY_CHANGED",
+                    "start -a"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/babybus/managers/UserManager;->getAge()Ljava/lang/String; <",
+                "> Lcom/babybus/gamecore/model/WorldMainModel;->requestMainData(Ljava/lang/String;)V <",
+                "> Lcom/babybus/gamecore/model/WorldMainModel;->updateNetData()V <",
+                "> Lcom/babybus/gamecore/model/WorldMainModel;->updateServerData()V <",
+                "> Lcom/babybus/gamecore/manager/WorldDataManager;->updateServerData()V <",
+                "> Lcom/babybus/gamecore/manager/WorldDataManager;->getInstance()Lcom/babybus/gamecore/manager/WorldDataManager; <",
+                "> Lcom/babybus/app/inithelper/config/ConfigInitHelper;->loadAndInitData(Z)V <",
+                "> Lcom/babybus/app/inithelper/config/ConfigInitHelper;->getInstance()Lcom/babybus/app/inithelper/config/ConfigInitHelper; <",
+                "> Lcom/babybus/utils/crash/ExceptionManager;->init()V <",
+                "> Lcom/sinyee/babybus/MainApplication;->break()Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/babybus/plugin/videool/manager/a;->super()Ljava/util/concurrent/ConcurrentHashMap; <",
+                "> Lcom/babybus/plugin/videool/manager/a;->try()Lcom/babybus/plugin/videool/manager/a; <",
+                "> Lcom/babybus/plugin/videool/manager/b$a;->do(Lcom/sinyee/babybus/network/BaseResponse;)V <",
+                "> Lcom/babybus/plugin/videool/manager/b$a;->onNext(Ljava/lang/Object;)V <",
+                "> Lcom/babybus/utils/rxbus/RxBus;->post(Ljava/lang/Object; <",
+                "> Lcom/babybus/utils/rxbus/RxBus;->get()Lcom/babybus/utils/rxbus/RxBus; <",
+                "> Lcom/babybus/utils/rxbus/KidsRxBus;->unregisterAll(Ljava/lang/Object;)V <",
+                "> Lcom/sinyee/babybus/SplashAct;->onDestroy()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lcom/sinyee/android/config/library/a;->super()V <",
+                "> Lcom/sinyee/android/config/library/a;->final(Lcom/sinyee/android/config/library/a;)V <",
+                "> Lcom/sinyee/android/config/library/a$a;->onError(Ljava/lang/Throwable;)V <",
+                "> Lretrofit2/adapter/rxjava2/BodyObservable$BodyObserver;->onNext(Lretrofit2/Response;)V <",
+                "> Lretrofit2/adapter/rxjava2/BodyObservable$BodyObserver;->onNext(Ljava/lang/Object;)V <",
+                "> Lcom/babybus/utils/rxbus/RxBus;->post(Ljava/lang/Object; <",
+                "> Lcom/babybus/utils/rxbus/RxBus;->get()Lcom/babybus/utils/rxbus/RxBus; <",
+                "> Lcom/babybus/utils/rxbus/KidsRxBus;->unregisterAll(Ljava/lang/Object;)V <",
+                "> Lcom/sinyee/babybus/SplashAct;->onDestroy()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_5": {
+            "call_sequence": [
+                "> Lcom/sinyee/android/config/library/adapter/a;->getBasicPackageInfoBean()Lcom/sinyee/android/config/library/bean/BasicPackageInfoBean; <",
+                "> Lcom/sinyee/android/config/library/a$a;->do(Lcom/sinyee/babybus/network/BaseResponse;)V <",
+                "> Lcom/sinyee/android/config/library/a$a;->onNext(Ljava/lang/Object;)V <",
+                "> Lcom/babybus/utils/rxbus/RxBus;->post(Ljava/lang/Object; <",
+                "> Lcom/babybus/utils/rxbus/RxBus;->get()Lcom/babybus/utils/rxbus/RxBus; <",
+                "> Lcom/babybus/utils/rxbus/KidsRxBus;->unregisterAll(Ljava/lang/Object;)V <",
+                "> Lcom/sinyee/babybus/SplashAct;->onDestroy()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_6": {
+            "call_sequence": [
+                "> Lcom/sinyee/android/config/library/adapter/a;->getBasicPackageInfoBean()Lcom/sinyee/android/config/library/bean/BasicPackageInfoBean; <",
+                "> Lcom/sinyee/android/config/library/BBConfig;->getBasicPackageInfoBean()Lcom/sinyee/android/config/library/bean/BasicPackageInfoBean; <",
+                "> Lcom/sinyee/android/config/library/BBConfig;->getInstance()Lcom/sinyee/android/config/library/BBConfig; <",
+                "> Lcom/babybus/app/inithelper/config/ConfigInitHelper;->getServerDataBean()Ljava/util/Map; <",
+                "> Lcom/babybus/app/inithelper/config/ConfigInitHelper;->getInstance()Lcom/babybus/app/inithelper/config/ConfigInitHelper; <",
+                "> Lcom/babybus/utils/crash/ExceptionManager;->init()V <",
+                "> Lcom/sinyee/babybus/MainApplication;->break()Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_7": {
+            "call_sequence": [
+                "> Lcom/sinyee/android/config/library/adapter/a;->getBasicPackageInfoBean()Lcom/sinyee/android/config/library/bean/BasicPackageInfoBean; <",
+                "> Lcom/sinyee/android/config/library/BBConfig;->getBasicPackageInfoBean()Lcom/sinyee/android/config/library/bean/BasicPackageInfoBean; <",
+                "> Lcom/sinyee/android/config/library/BBConfig;->getInstance()Lcom/sinyee/android/config/library/BBConfig; <",
+                "> Lcom/babybus/app/inithelper/config/ConfigInitHelper;->init()V <",
+                "> Lcom/babybus/app/inithelper/config/ConfigInitHelper;->getInstance()Lcom/babybus/app/inithelper/config/ConfigInitHelper; <",
+                "> Lcom/babybus/utils/crash/ExceptionManager;->init()V <",
+                "> Lcom/sinyee/babybus/MainApplication;->break()Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_8": {
+            "call_sequence": [
+                "> Lcom/sinyee/babybus/network/util/DeviceHelper;->getAndroidID(Landroid/content/Context;)Ljava/lang/String; <",
+                "> Lcom/sinyee/babybus/network/util/DeviceHelper;->getIMEI()Ljava/lang/String; <",
+                "> Lcom/sinyee/babybus/ad/apibase/util/ReportUtil;->getShuChuanAdUrl(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.BATTERY_CHANGED",
+                    "start -a"
+                ]
+            ]
+        },
+        "path_9": {
+            "call_sequence": [
+                "> Lcom/babybus/utils/FirebaseDeveloperConfig;->getConfigFromSp()Lcom/babybus/utils/FirebaseDeveloperConfig; <",
+                "> Lcom/babybus/utils/FirebaseDeveloperConfig;->getInstance()Lcom/babybus/utils/FirebaseDeveloperConfig; <",
+                "> Lcom/sinyee/babybus/MainApplication$1;->gameFinishAllActivity()Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_10": {
+            "call_sequence": [
+                "> Lcom/babybus/utils/FirebaseDeveloperConfig;->getConfigFromSp()Lcom/babybus/utils/FirebaseDeveloperConfig; <",
+                "> Lcom/babybus/utils/FirebaseDeveloperConfig;->getInstance()Lcom/babybus/utils/FirebaseDeveloperConfig; <",
+                "> Lcom/sinyee/babybus/MainApplication$1;->isMainProcessAutoExit()Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_11": {
+            "call_sequence": [
+                "> Lcom/babybus/gamecore/model/WorldMainModel$1;->onRun()V <",
+                "> Lcom/babybus/gamecore/model/WorldMainModel;->updateNetData()V <",
+                "> Lcom/babybus/gamecore/model/WorldMainModel;->updateServerData()V <",
+                "> Lcom/babybus/gamecore/manager/WorldDataManager;->updateServerData()V <",
+                "> Lcom/babybus/gamecore/manager/WorldDataManager;->getInstance()Lcom/babybus/gamecore/manager/WorldDataManager; <",
+                "> Lcom/babybus/app/inithelper/config/ConfigInitHelper;->loadAndInitData(Z)V <",
+                "> Lcom/babybus/app/inithelper/config/ConfigInitHelper;->getInstance()Lcom/babybus/app/inithelper/config/ConfigInitHelper; <",
+                "> Lcom/babybus/utils/crash/ExceptionManager;->init()V <",
+                "> Lcom/sinyee/babybus/MainApplication;->break()Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_12": {
+            "call_sequence": [
+                "> Lcom/babybus/plugin/videool/manager/a;->this()Ljava/util/concurrent/ConcurrentHashMap; <",
+                "> Lcom/babybus/plugin/videool/manager/a;->try()Lcom/babybus/plugin/videool/manager/a; <",
+                "> Lcom/babybus/plugin/videool/manager/b$a;->do(Lcom/sinyee/babybus/network/BaseResponse;)V <",
+                "> Lcom/babybus/plugin/videool/manager/b$a;->onNext(Ljava/lang/Object;)V <",
+                "> Lcom/babybus/utils/rxbus/RxBus;->post(Ljava/lang/Object; <",
+                "> Lcom/babybus/utils/rxbus/RxBus;->get()Lcom/babybus/utils/rxbus/RxBus; <",
+                "> Lcom/babybus/utils/rxbus/KidsRxBus;->unregisterAll(Ljava/lang/Object;)V <",
+                "> Lcom/sinyee/babybus/SplashAct;->onDestroy()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_13": {
+            "call_sequence": [
+                "> Lcom/babybus/gamecore/manager/VideoPlayRecordManager;->getVideoPlayListCache()Ljava/util/concurrent/CopyOnWriteArrayList; <",
+                "> Lcom/sinyee/babybus/world/impl/WorldLocalImpl;->localVideoPlayRecord(Ljava/lang/String; <",
+                "> Lcom/sinyee/babybus/world/impl/WorldLocalImpl;->get()Lcom/sinyee/babybus/world/impl/WorldLocalImpl; <",
+                "> Lcom/sinyee/babybus/world/adapter/WorldMainAdapter;->new(Lcom/sinyee/android/adapter/BaseViewHolder; <",
+                "> Lcom/sinyee/babybus/world/view/home/HomeView;->reloadAllData()V <",
+                "> Lcom/sinyee/babybus/world/view/home/HomeView;->getInstance()Lcom/sinyee/babybus/world/view/home/HomeView; <",
+                "> Lcom/sinyee/babybus/SplashAct;->final()V <",
+                "> Lcom/sinyee/babybus/SplashAct;->goto(Lcom/sinyee/babybus/SplashAct;)V <",
+                "> Lcom/sinyee/babybus/k;->run()V <",
+                "> Lcom/sinyee/babybus/SplashAct;->super()V <",
+                "> Lcom/sinyee/babybus/SplashAct;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_14": {
+            "call_sequence": [
+                "> Lcom/babybus/gamecore/manager/VideoPlayRecordManager;->getVideoPlayListCache()Ljava/util/concurrent/CopyOnWriteArrayList; <",
+                "> Lcom/sinyee/babybus/world/impl/WorldLocalImpl;->localVideoPlayRecord(Ljava/lang/String; <",
+                "> Lcom/sinyee/babybus/world/impl/WorldLocalImpl;->get()Lcom/sinyee/babybus/world/impl/WorldLocalImpl; <",
+                "> Lcom/sinyee/babybus/world/adapter/WorldMainAdapter;->new(Lcom/sinyee/android/adapter/BaseViewHolder; <",
+                "> Lcom/sinyee/babybus/world/view/home/HomeView;->init()V <",
+                "> Lcom/sinyee/babybus/world/view/home/HomeView;->getInstance()Lcom/sinyee/babybus/world/view/home/HomeView; <",
+                "> Lcom/sinyee/babybus/SplashAct;->final()V <",
+                "> Lcom/sinyee/babybus/SplashAct;->goto(Lcom/sinyee/babybus/SplashAct;)V <",
+                "> Lcom/sinyee/babybus/k;->run()V <",
+                "> Lcom/sinyee/babybus/SplashAct;->super()V <",
+                "> Lcom/sinyee/babybus/SplashAct;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_15": {
+            "call_sequence": [
+                "> Lcom/babybus/gamecore/manager/WorldGamePool$5;->doInBackground()Ljava/lang/Object; <",
+                "> Lcom/babybus/gamecore/manager/WorldGamePool;->loadLocalGameAndVideoBeanMap()V <",
+                "> Lcom/babybus/gamecore/manager/WorldGamePool;->getInstance()Lcom/babybus/gamecore/manager/WorldGamePool; <",
+                "> Lcom/babybus/gamecore/manager/WorldDataManager;->getGameInfoList(Z <",
+                "> Lcom/babybus/gamecore/manager/WorldDataManager;->getInstance()Lcom/babybus/gamecore/manager/WorldDataManager; <",
+                "> Lcom/babybus/app/inithelper/config/ConfigInitHelper;->loadAndInitData(Z)V <",
+                "> Lcom/babybus/app/inithelper/config/ConfigInitHelper;->getInstance()Lcom/babybus/app/inithelper/config/ConfigInitHelper; <",
+                "> Lcom/babybus/utils/crash/ExceptionManager;->init()V <",
+                "> Lcom/sinyee/babybus/MainApplication;->break()Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_16": {
+            "call_sequence": [
+                "> Lcom/babybus/gamecore/manager/WorldGamePool$5;->doInBackground()Ljava/lang/Object; <",
+                "> Lcom/babybus/gamecore/manager/WorldGamePool;->loadLocalGameAndVideoBeanMap()V <",
+                "> Lcom/babybus/gamecore/manager/WorldGamePool;->getInstance()Lcom/babybus/gamecore/manager/WorldGamePool; <",
+                "> Lcom/babybus/gamecore/manager/WorldDataManager;->getAllGameIdents()[Ljava/lang/String; <",
+                "> Lcom/babybus/gamecore/manager/WorldDataManager;->getInstance()Lcom/babybus/gamecore/manager/WorldDataManager; <",
+                "> Lcom/babybus/app/inithelper/config/ConfigInitHelper;->loadAndInitData(Z)V <",
+                "> Lcom/babybus/app/inithelper/config/ConfigInitHelper;->getInstance()Lcom/babybus/app/inithelper/config/ConfigInitHelper; <",
+                "> Lcom/babybus/utils/crash/ExceptionManager;->init()V <",
+                "> Lcom/sinyee/babybus/MainApplication;->break()Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_17": {
+            "call_sequence": [
+                "> Lcom/babybus/plugin/videool/manager/a;->const()Ljava/util/concurrent/ConcurrentHashMap; <",
+                "> Lcom/babybus/plugin/videool/manager/a;->try()Lcom/babybus/plugin/videool/manager/a; <",
+                "> Lcom/babybus/plugin/videool/manager/b$a;->do(Lcom/sinyee/babybus/network/BaseResponse;)V <",
+                "> Lcom/babybus/plugin/videool/manager/b$a;->onNext(Ljava/lang/Object;)V <",
+                "> Lcom/babybus/utils/rxbus/RxBus;->post(Ljava/lang/Object; <",
+                "> Lcom/babybus/utils/rxbus/RxBus;->get()Lcom/babybus/utils/rxbus/RxBus; <",
+                "> Lcom/babybus/utils/rxbus/KidsRxBus;->unregisterAll(Ljava/lang/Object;)V <",
+                "> Lcom/sinyee/babybus/SplashAct;->onDestroy()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_18": {
+            "call_sequence": [
+                "> Lcom/sinyee/babybus/network/util/DeviceHelper;->getPseudoUniqueID()Ljava/lang/String; <",
+                "> Lcom/sinyee/babybus/network/util/DeviceHelper;->getIMEI()Ljava/lang/String; <",
+                "> Lcom/sinyee/babybus/ad/apibase/util/ReportUtil;->getShuChuanAdUrl(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.BATTERY_CHANGED",
+                    "start -a"
+                ]
+            ]
+        },
+        "path_19": {
+            "call_sequence": [
+                "> Lcom/sinyee/babybus/network/util/DeviceHelper;->getSerial()Ljava/lang/String; <",
+                "> Lcom/sinyee/babybus/network/util/DeviceHelper;->getIMEI()Ljava/lang/String; <",
+                "> Lcom/sinyee/babybus/ad/apibase/util/ReportUtil;->getShuChuanAdUrl(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.BATTERY_CHANGED",
+                    "start -a"
+                ]
+            ]
+        },
+        "path_20": {
+            "call_sequence": [
+                "> Lcom/sinyee/babybus/network/util/DeviceHelper;->getIMEI()Ljava/lang/String; <",
+                "> Lcom/sinyee/babybus/ad/apibase/util/ReportUtil;->getShuChuanAdUrl(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.BATTERY_CHANGED",
+                    "start -a"
+                ]
+            ]
+        },
+        "path_21": {
+            "call_sequence": [
+                "> Lcom/babybus/gamecore/manager/VideoPlayRecordManager;->saveVideoPlayRecordListCache(I <",
+                "> Lcom/babybus/gamecore/manager/VideoPlayRecordManager;->getInstance()Lcom/babybus/gamecore/manager/VideoPlayRecordManager; <",
+                "> Lcom/sinyee/babybus/world/impl/WorldLocalImpl;->localVideoPlayRecord(Ljava/lang/String; <",
+                "> Lcom/sinyee/babybus/world/impl/WorldLocalImpl;->get()Lcom/sinyee/babybus/world/impl/WorldLocalImpl; <",
+                "> Lcom/sinyee/babybus/world/adapter/WorldMainAdapter;->new(Lcom/sinyee/android/adapter/BaseViewHolder; <",
+                "> Lcom/sinyee/babybus/world/view/home/HomeView;->reloadAllData()V <",
+                "> Lcom/sinyee/babybus/world/view/home/HomeView;->getInstance()Lcom/sinyee/babybus/world/view/home/HomeView; <",
+                "> Lcom/sinyee/babybus/SplashAct;->final()V <",
+                "> Lcom/sinyee/babybus/SplashAct;->goto(Lcom/sinyee/babybus/SplashAct;)V <",
+                "> Lcom/sinyee/babybus/k;->run()V <",
+                "> Lcom/sinyee/babybus/SplashAct;->super()V <",
+                "> Lcom/sinyee/babybus/SplashAct;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_22": {
+            "call_sequence": [
+                "> Lcom/babybus/gamecore/manager/VideoPlayRecordManager;->saveVideoPlayRecordListCache(I <",
+                "> Lcom/babybus/gamecore/manager/VideoPlayRecordManager;->getInstance()Lcom/babybus/gamecore/manager/VideoPlayRecordManager; <",
+                "> Lcom/sinyee/babybus/world/impl/WorldLocalImpl;->localVideoPlayRecord(Ljava/lang/String; <",
+                "> Lcom/sinyee/babybus/world/impl/WorldLocalImpl;->get()Lcom/sinyee/babybus/world/impl/WorldLocalImpl; <",
+                "> Lcom/sinyee/babybus/world/adapter/WorldMainAdapter;->new(Lcom/sinyee/android/adapter/BaseViewHolder; <",
+                "> Lcom/sinyee/babybus/world/view/home/HomeView;->init()V <",
+                "> Lcom/sinyee/babybus/world/view/home/HomeView;->getInstance()Lcom/sinyee/babybus/world/view/home/HomeView; <",
+                "> Lcom/sinyee/babybus/SplashAct;->final()V <",
+                "> Lcom/sinyee/babybus/SplashAct;->goto(Lcom/sinyee/babybus/SplashAct;)V <",
+                "> Lcom/sinyee/babybus/k;->run()V <",
+                "> Lcom/sinyee/babybus/SplashAct;->super()V <",
+                "> Lcom/sinyee/babybus/SplashAct;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_23": {
+            "call_sequence": [
+                "> Lcom/sinyee/android/config/library/b;->import(Ljava/lang/String;)V <",
+                "> Lcom/sinyee/android/config/library/b;->return()V <",
+                "> Lcom/sinyee/android/config/library/b;->getConfig()Ljava/util/Map; <",
+                "> Lcom/sinyee/android/config/library/b$a;->do(Lcom/sinyee/babybus/network/BaseResponse;)V <",
+                "> Lcom/sinyee/android/config/library/b$a;->onNext(Ljava/lang/Object;)V <",
+                "> Lcom/babybus/utils/rxbus/RxBus;->post(Ljava/lang/Object; <",
+                "> Lcom/babybus/utils/rxbus/RxBus;->get()Lcom/babybus/utils/rxbus/RxBus; <",
+                "> Lcom/babybus/utils/rxbus/KidsRxBus;->unregisterAll(Ljava/lang/Object;)V <",
+                "> Lcom/sinyee/babybus/SplashAct;->onDestroy()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_24": {
+            "call_sequence": [
+                "> Lcom/babybus/plugin/videool/manager/a;->break()Ljava/util/concurrent/ConcurrentHashMap; <",
+                "> Lcom/babybus/plugin/videool/manager/a;->try()Lcom/babybus/plugin/videool/manager/a; <",
+                "> Lcom/babybus/plugin/videool/manager/b$a;->do(Lcom/sinyee/babybus/network/BaseResponse;)V <",
+                "> Lcom/babybus/plugin/videool/manager/b$a;->onNext(Ljava/lang/Object;)V <",
+                "> Lcom/babybus/utils/rxbus/RxBus;->post(Ljava/lang/Object; <",
+                "> Lcom/babybus/utils/rxbus/RxBus;->get()Lcom/babybus/utils/rxbus/RxBus; <",
+                "> Lcom/babybus/utils/rxbus/KidsRxBus;->unregisterAll(Ljava/lang/Object;)V <",
+                "> Lcom/sinyee/babybus/SplashAct;->onDestroy()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_25": {
+            "call_sequence": [
+                "> Lcom/babybus/plugin/videool/manager/a;->while()Ljava/util/concurrent/ConcurrentHashMap; <",
+                "> Lcom/babybus/plugin/videool/manager/a;->try()Lcom/babybus/plugin/videool/manager/a; <",
+                "> Lcom/babybus/plugin/videool/manager/b$a;->do(Lcom/sinyee/babybus/network/BaseResponse;)V <",
+                "> Lcom/babybus/plugin/videool/manager/b$a;->onNext(Ljava/lang/Object;)V <",
+                "> Lcom/babybus/utils/rxbus/RxBus;->post(Ljava/lang/Object; <",
+                "> Lcom/babybus/utils/rxbus/RxBus;->get()Lcom/babybus/utils/rxbus/RxBus; <",
+                "> Lcom/babybus/utils/rxbus/KidsRxBus;->unregisterAll(Ljava/lang/Object;)V <",
+                "> Lcom/sinyee/babybus/SplashAct;->onDestroy()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/sinyee/babybus/base/BBHelper;->getPackageName()Ljava/lang/String;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/sinyee/babybus/base/BBHelper;->isGameProcess()Z <",
+                "> Lcom/sinyee/babybus/MainApplication;->break()Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/sinyee/babybus/base/BBHelper;->isMainProcess()Z <",
+                "> Lcom/sinyee/babybus/MainApplication$2;->onProcessForeground()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/sinyee/babybus/base/BBHelper;->isMainProcess()Z <",
+                "> Lcom/sinyee/babybus/MainApplication;->class()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/sinyee/babybus/base/BBHelper;->isMainProcess()Z <",
+                "> Lcom/sinyee/babybus/MainApplication$2;->onProcessBackground()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lcom/sinyee/babybus/base/BBHelper;->isMainProcess()Z <",
+                "> Lcom/sinyee/babybus/MainApplication;->catch()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/sinyee/babybus/MainApplication;->case()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/sinyee/babybus/MainApplication;->attachBaseContext(Landroid/content/Context;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/babybus/utils/SdUtil;->getSDAvailableSizeByte()J": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/babybus/utils/SdUtil;->getGameSDAvailableSizeByte(J)J <",
+                "> Lcom/babybus/gamecore/WorldGameManager;->startSilentDownload()V <",
+                "> Lcom/babybus/gamecore/WorldGameManager;->getInstance()Lcom/babybus/gamecore/WorldGameManager; <",
+                "> Lcom/babybus/gamecore/manager/WorldDataManager;->getExitPopGameInfo(Ljava/lang/String;)Lcom/babybus/gamecore/bean/GameAndVideoBean; <",
+                "> Lcom/babybus/gamecore/manager/WorldDataManager;->getInstance()Lcom/babybus/gamecore/manager/WorldDataManager; <",
+                "> Lcom/babybus/app/inithelper/config/ConfigInitHelper;->loadAndInitData(Z)V <",
+                "> Lcom/babybus/app/inithelper/config/ConfigInitHelper;->getInstance()Lcom/babybus/app/inithelper/config/ConfigInitHelper; <",
+                "> Lcom/babybus/utils/crash/ExceptionManager;->init()V <",
+                "> Lcom/sinyee/babybus/MainApplication;->break()Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/babybus/utils/SdUtil;->getGameSDAvailableSizeByte(J)J <",
+                "> Lcom/babybus/gamecore/WorldGameManager;->startSilentDownload()V <",
+                "> Lcom/babybus/gamecore/WorldGameManager;->getInstance()Lcom/babybus/gamecore/WorldGameManager; <",
+                "> Lcom/babybus/gamecore/manager/WorldDataManager;->removeGameList(Ljava/util/List; <",
+                "> Lcom/babybus/gamecore/manager/WorldDataManager;->getInstance()Lcom/babybus/gamecore/manager/WorldDataManager; <",
+                "> Lcom/babybus/app/inithelper/config/ConfigInitHelper;->loadAndInitData(Z)V <",
+                "> Lcom/babybus/app/inithelper/config/ConfigInitHelper;->getInstance()Lcom/babybus/app/inithelper/config/ConfigInitHelper; <",
+                "> Lcom/babybus/utils/crash/ExceptionManager;->init()V <",
+                "> Lcom/sinyee/babybus/MainApplication;->break()Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/babybus/utils/SdUtil;->getGameSDAvailableSizeByte(J)J <",
+                "> Lcom/babybus/gamecore/WorldGameManager;->startSilentDownload()V <",
+                "> Lcom/babybus/gamecore/WorldGameManager;->getInstance()Lcom/babybus/gamecore/WorldGameManager; <",
+                "> Lcom/babybus/gamecore/manager/WorldDataManager;->getLocalGameInstallList()Ljava/util/List; <",
+                "> Lcom/babybus/gamecore/manager/WorldDataManager;->getInstance()Lcom/babybus/gamecore/manager/WorldDataManager; <",
+                "> Lcom/babybus/app/inithelper/config/ConfigInitHelper;->loadAndInitData(Z)V <",
+                "> Lcom/babybus/app/inithelper/config/ConfigInitHelper;->getInstance()Lcom/babybus/app/inithelper/config/ConfigInitHelper; <",
+                "> Lcom/babybus/utils/crash/ExceptionManager;->init()V <",
+                "> Lcom/sinyee/babybus/MainApplication;->break()Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/sinyee/babybus/MainApplication;->case()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Ljava/lang/Thread;->start()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/ironsource/mediationsdk/utils/IronSourceUtils;->createAndStartWorker(Ljava/lang/Runnable; <",
+                "> Lcom/ironsource/mediationsdk/utils/IronSourceUtils;->getSessionId()Ljava/lang/String; <",
+                "> Lcom/ironsource/db;->a()Ljava/util/Map; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.BATTERY_CHANGED",
+                    "start -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/google/android/gms/measurement/internal/zzga;->zzt(Lcom/google/android/gms/measurement/internal/zzfy;)V <",
+                "> Lcom/google/android/gms/measurement/internal/zzga;->zzp(Ljava/lang/Runnable;)V <",
+                "> Lcom/google/android/gms/measurement/internal/zzfb;->onReceive(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.net.conn.CONNECTIVITY_CHANGE",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/google/common/util/concurrent/AbstractIdleService$1;->execute(Ljava/lang/Runnable;)V <",
+                "> Lokhttp3/internal/cache/DiskLruCache;->removeEntry(Lokhttp3/internal/cache/DiskLruCache$Entry;)Z <",
+                "> Lokhttp3/internal/cache/DiskLruCache;->remove(Ljava/lang/String;)Z <",
+                "> Lokhttp3/internal/cache/DiskLruCache$3;->remove()V <",
+                "> Lcom/google/common/collect/Iterators$8;->next()Ljava/lang/Object; <",
+                "> Lcom/google/android/gms/internal/ads/zzcec;->zzi(Ljava/lang/String;)V <",
+                "> Lcom/google/android/gms/ads/internal/util/zzd;->zza(Landroid/content/Context;)V <",
+                "> Lcom/google/android/gms/ads/internal/util/zzq;->onReceive(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.google.android.ads.intent.DEBUG_LOGGING_ENABLEMENT_CHANGED",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/google/common/util/concurrent/AbstractIdleService$1;->execute(Ljava/lang/Runnable;)V <",
+                "> Lokhttp3/internal/cache/DiskLruCache;->removeEntry(Lokhttp3/internal/cache/DiskLruCache$Entry;)Z <",
+                "> Lokhttp3/internal/cache/DiskLruCache;->remove(Ljava/lang/String;)Z <",
+                "> Lokhttp3/internal/cache/DiskLruCache$3;->remove()V <",
+                "> Lcom/google/common/collect/Iterators$8;->next()Ljava/lang/Object; <",
+                "> Lcom/google/firebase/FirebaseApp$UserUnlockReceiver;->onReceive(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.USER_UNLOCKED",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lnet/sqlcipher/database/SQLiteCursor;->fillWindow(I <",
+                "> Lnet/sqlcipher/database/SQLiteDatabase;->query(Landroidx/sqlite/db/SupportSQLiteQuery; <",
+                "> Lnet/sqlcipher/database/SQLiteDatabase;->loadLibs(Landroid/content/Context;)V <",
+                "> Lcom/sinyee/babybus/ad/core/internal/strategy/dao/base/BaseDBHelper;->getInstance(Landroid/content/Context;)Lcom/sinyee/babybus/ad/core/internal/strategy/dao/base/BaseDBHelper; <",
+                "> Lcom/sinyee/babybus/ad/apibase/receiver/SystemPackageReceiver$1;->run()V <",
+                "> Lcom/sinyee/babybus/ad/apibase/receiver/SystemPackageReceiver;->onReceive(Landroid/content/Context; <",
+                "----- CONDITIONAL -----",
+                "> Lnet/sqlcipher/database/SQLiteCursor;-><init>(Lnet/sqlcipher/database/SQLiteDatabase; <",
+                "----- CONDITIONAL -----",
+                "> Lnet/sqlcipher/database/SQLiteDatabase;->query(Landroidx/sqlite/db/SupportSQLiteQuery; <",
+                "----- CONDITIONAL -----",
+                "> Lnet/sqlcipher/database/SQLiteDatabase;->loadLibs(Landroid/content/Context;)V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/sinyee/babybus/ad/core/internal/strategy/dao/base/BaseDBHelper;->getInstance(Landroid/content/Context;)Lcom/sinyee/babybus/ad/core/internal/strategy/dao/base/BaseDBHelper; <",
+                "----- CONDITIONAL -----",
+                "> Lcom/sinyee/babybus/ad/apibase/receiver/SystemPackageReceiver$1;->run()V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/sinyee/babybus/ad/apibase/receiver/SystemPackageReceiver;->onReceive(Landroid/content/Context; <",
+                "----- CONDITIONAL -----"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.PACKAGE_ADDED",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_5": {
+            "call_sequence": [
+                "> Lcom/google/android/gms/ads/identifier/zzb;-><init>(Lcom/google/android/gms/ads/identifier/AdvertisingIdClient; <",
+                "> Lcom/google/android/gms/ads/identifier/AdvertisingIdClient;->zze()V <",
+                "> Lcom/ironsource/c9;->N(Landroid/content/Context;)Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.BATTERY_CHANGED",
+                    "start -a"
+                ]
+            ]
+        },
+        "path_6": {
+            "call_sequence": [
+                "> Lcom/google/android/gms/ads/identifier/AdvertisingIdClient;->zzc(Lcom/google/android/gms/ads/identifier/AdvertisingIdClient$Info; <",
+                "> Lcom/ironsource/c9;->N(Landroid/content/Context;)Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.BATTERY_CHANGED",
+                    "start -a"
+                ]
+            ]
+        },
+        "path_7": {
+            "call_sequence": [
+                "> Lcom/google/common/util/concurrent/AbstractExecutionThreadService$2;->execute(Ljava/lang/Runnable;)V <",
+                "> Lokhttp3/internal/cache/DiskLruCache;->removeEntry(Lokhttp3/internal/cache/DiskLruCache$Entry;)Z <",
+                "> Lokhttp3/internal/cache/DiskLruCache;->remove(Ljava/lang/String;)Z <",
+                "> Lokhttp3/internal/cache/DiskLruCache$3;->remove()V <",
+                "> Lcom/google/common/collect/Iterators$8;->next()Ljava/lang/Object; <",
+                "> Lcom/google/android/gms/internal/ads/zzcec;->zzi(Ljava/lang/String;)V <",
+                "> Lcom/google/android/gms/ads/internal/util/zzd;->zza(Landroid/content/Context;)V <",
+                "> Lcom/google/android/gms/ads/internal/util/zzq;->onReceive(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.google.android.ads.intent.DEBUG_LOGGING_ENABLEMENT_CHANGED",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_8": {
+            "call_sequence": [
+                "> Lcom/google/common/util/concurrent/AbstractExecutionThreadService$2;->execute(Ljava/lang/Runnable;)V <",
+                "> Lokhttp3/internal/cache/DiskLruCache;->removeEntry(Lokhttp3/internal/cache/DiskLruCache$Entry;)Z <",
+                "> Lokhttp3/internal/cache/DiskLruCache;->remove(Ljava/lang/String;)Z <",
+                "> Lokhttp3/internal/cache/DiskLruCache$3;->remove()V <",
+                "> Lcom/google/common/collect/Iterators$8;->next()Ljava/lang/Object; <",
+                "> Lcom/google/firebase/FirebaseApp$UserUnlockReceiver;->onReceive(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.USER_UNLOCKED",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_9": {
+            "call_sequence": [
+                "> Lnet/sqlcipher/database/SQLiteCursor;->fillWindow(I)V <",
+                "> Lnet/sqlcipher/database/SQLiteCursor;->getCount()I <",
+                "> Lnet/sqlcipher/database/SQLiteDatabase;->query(Landroidx/sqlite/db/SupportSQLiteQuery; <",
+                "> Lnet/sqlcipher/database/SQLiteDatabase;->loadLibs(Landroid/content/Context;)V <",
+                "> Lcom/sinyee/babybus/ad/core/internal/strategy/dao/base/BaseDBHelper;->getInstance(Landroid/content/Context;)Lcom/sinyee/babybus/ad/core/internal/strategy/dao/base/BaseDBHelper; <",
+                "> Lcom/sinyee/babybus/ad/apibase/receiver/SystemPackageReceiver$1;->run()V <",
+                "> Lcom/sinyee/babybus/ad/apibase/receiver/SystemPackageReceiver;->onReceive(Landroid/content/Context; <",
+                "----- CONDITIONAL -----",
+                "> Lnet/sqlcipher/database/SQLiteCursor;-><init>(Lnet/sqlcipher/database/SQLiteDatabase; <",
+                "----- CONDITIONAL -----",
+                "> Lnet/sqlcipher/database/SQLiteDatabase;->query(Landroidx/sqlite/db/SupportSQLiteQuery; <",
+                "----- CONDITIONAL -----",
+                "> Lnet/sqlcipher/database/SQLiteDatabase;->loadLibs(Landroid/content/Context;)V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/sinyee/babybus/ad/core/internal/strategy/dao/base/BaseDBHelper;->getInstance(Landroid/content/Context;)Lcom/sinyee/babybus/ad/core/internal/strategy/dao/base/BaseDBHelper; <",
+                "----- CONDITIONAL -----",
+                "> Lcom/sinyee/babybus/ad/apibase/receiver/SystemPackageReceiver$1;->run()V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/sinyee/babybus/ad/apibase/receiver/SystemPackageReceiver;->onReceive(Landroid/content/Context; <",
+                "----- CONDITIONAL -----"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.PACKAGE_ADDED",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/babybus/utils/KidsLowSpaceCleanUtil$Companion;->getMinSpaceLimit()J": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/babybus/utils/KidsLowSpaceCleanUtil;->upperCleanSpace$lambda$10(Lcom/babybus/utils/KidsLowSpaceCleanUtil;)V <",
+                "> Lcom/babybus/utils/KidsLowSpaceCleanUtil;->do(Lcom/babybus/utils/KidsLowSpaceCleanUtil;)V <",
+                "> Lcom/babybus/utils/q;->run()V <",
+                "> Lcom/babybus/utils/KidsLowSpaceCleanUtil;->upperCleanSpace()V <",
+                "> Lcom/babybus/utils/KidsLowSpaceCleanUtil;->doCleanup()V <",
+                "> Lcom/sinyee/babybus/MainApplication;->case()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/babybus/utils/KidsLowSpaceCleanUtil;->lowerSpaceClean$lambda$7(Lcom/babybus/utils/KidsLowSpaceCleanUtil;)V <",
+                "> Lcom/babybus/utils/KidsLowSpaceCleanUtil;->if(Lcom/babybus/utils/KidsLowSpaceCleanUtil;)V <",
+                "> Lcom/babybus/utils/r;->run()V <",
+                "> Lcom/babybus/utils/KidsLowSpaceCleanUtil;->lowerSpaceClean()V <",
+                "> Lcom/babybus/utils/KidsLowSpaceCleanUtil;->doCleanup()V <",
+                "> Lcom/sinyee/babybus/MainApplication;->case()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/babybus/utils/KidsLowSpaceCleanUtil;->getMinSpaceLimit()J <",
+                "> Lcom/sinyee/babybus/MainApplication;->case()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/babybus/utils/KidsLowSpaceCleanUtil;->access$getTestMode$cp()Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/babybus/utils/KidsLowSpaceCleanUtil$Companion;->getTestMode()Z <",
+                "> Lcom/babybus/utils/KidsLowSpaceCleanUtil$Companion;->getNothingSpaceLimit()J <",
+                "> Lcom/babybus/utils/KidsLowSpaceCleanUtil;->doCleanup()V <",
+                "> Lcom/sinyee/babybus/MainApplication;->case()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/babybus/utils/thread/ThreadFactoryBuilder;->setNameFormat(Ljava/lang/String;)Lcom/babybus/utils/thread/ThreadFactoryBuilder;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/babybus/utils/thread/KidsThreadUtil;->getThreadPool()Ljava/util/concurrent/ExecutorService; <",
+                "> Lcom/babybus/utils/thread/KidsThreadUtil;->getSubHandler()Landroid/os/Handler; <",
+                "> Lcom/babybus/utils/thread/KidsThreadUtil;->exeSubLoop(Ljava/lang/Runnable;)V <",
+                "> Lcom/sinyee/babybus/MainApplication$2;->onProcessForeground()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/babybus/utils/thread/KidsThreadUtil;->getSingleThreadPool(Lcom/babybus/utils/thread/KidsThreadUtil$SingleTag;)Ljava/util/concurrent/ExecutorService; <",
+                "> Lcom/babybus/utils/thread/KidsThreadUtil;->getSubHandler()Landroid/os/Handler; <",
+                "> Lcom/babybus/utils/thread/KidsThreadUtil;->exeSubLoop(Ljava/lang/Runnable;)V <",
+                "> Lcom/sinyee/babybus/MainApplication$2;->onProcessForeground()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/babybus/utils/thread/KidsThreadUtil;->run(Ljava/lang/Runnable;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/babybus/utils/thread/KidsThreadUtil$2;->run()V <",
+                "> Lcom/babybus/utils/thread/KidsThreadUtil;->executeMoreWithResult(Ljava/lang/Runnable; <",
+                "> Lcom/babybus/utils/thread/KidsThreadUtil;->getSubHandler()Landroid/os/Handler; <",
+                "> Lcom/babybus/utils/thread/KidsThreadUtil;->exeSubLoop(Ljava/lang/Runnable;)V <",
+                "> Lcom/sinyee/babybus/MainApplication$2;->onProcessForeground()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/babybus/utils/thread/KidsThreadUtil$4;->run()V <",
+                "> Lcom/babybus/utils/thread/KidsThreadUtil;->executeMmkvSet(Ljava/lang/Runnable; <",
+                "> Lcom/babybus/utils/thread/KidsThreadUtil;->getSubHandler()Landroid/os/Handler; <",
+                "> Lcom/babybus/utils/thread/KidsThreadUtil;->exeSubLoop(Ljava/lang/Runnable;)V <",
+                "> Lcom/sinyee/babybus/MainApplication$2;->onProcessForeground()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/babybus/utils/thread/KidsThreadUtil$3;->run()V <",
+                "> Lcom/babybus/utils/thread/KidsThreadUtil;->executeSingle(Lcom/babybus/utils/thread/KidsThreadUtil$SingleTag; <",
+                "> Lcom/babybus/utils/thread/KidsThreadUtil;->getSubHandler()Landroid/os/Handler; <",
+                "> Lcom/babybus/utils/thread/KidsThreadUtil;->exeSubLoop(Ljava/lang/Runnable;)V <",
+                "> Lcom/sinyee/babybus/MainApplication$2;->onProcessForeground()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/babybus/utils/thread/KidsThreadUtil;->lambda$executeSharjah$3(Ljava/lang/Runnable;)V <",
+                "> Lcom/babybus/utils/thread/KidsThreadUtil;->getSubHandler()Landroid/os/Handler; <",
+                "> Lcom/babybus/utils/thread/KidsThreadUtil;->exeSubLoop(Ljava/lang/Runnable;)V <",
+                "> Lcom/sinyee/babybus/MainApplication$2;->onProcessForeground()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lcom/babybus/utils/thread/KidsThreadUtil;->lambda$executeMainDelay$1(Ljava/lang/Runnable;)V <",
+                "> Lcom/babybus/utils/thread/KidsThreadUtil;->getSubHandler()Landroid/os/Handler; <",
+                "> Lcom/babybus/utils/thread/KidsThreadUtil;->exeSubLoop(Ljava/lang/Runnable;)V <",
+                "> Lcom/sinyee/babybus/MainApplication$2;->onProcessForeground()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_5": {
+            "call_sequence": [
+                "> Lcom/babybus/utils/thread/KidsThreadUtil;->lambda$exeSubLoop$4(Ljava/lang/Runnable;)V <",
+                "> Lcom/babybus/utils/thread/KidsThreadUtil;->getSubHandler()Landroid/os/Handler; <",
+                "> Lcom/babybus/utils/thread/KidsThreadUtil;->exeSubLoop(Ljava/lang/Runnable;)V <",
+                "> Lcom/sinyee/babybus/MainApplication$2;->onProcessForeground()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_6": {
+            "call_sequence": [
+                "> Lcom/babybus/utils/thread/KidsThreadUtil;->lambda$executeAnalysis$2(Ljava/lang/Runnable;)V <",
+                "> Lcom/babybus/utils/thread/KidsThreadUtil;->getSubHandler()Landroid/os/Handler; <",
+                "> Lcom/babybus/utils/thread/KidsThreadUtil;->exeSubLoop(Ljava/lang/Runnable;)V <",
+                "> Lcom/sinyee/babybus/MainApplication$2;->onProcessForeground()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_7": {
+            "call_sequence": [
+                "> Lcom/babybus/utils/thread/KidsThreadUtil;->lambda$mainAsync$0(Ljava/lang/Runnable;)V <",
+                "> Lcom/babybus/utils/thread/KidsThreadUtil;->getSubHandler()Landroid/os/Handler; <",
+                "> Lcom/babybus/utils/thread/KidsThreadUtil;->exeSubLoop(Ljava/lang/Runnable;)V <",
+                "> Lcom/sinyee/babybus/MainApplication$2;->onProcessForeground()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_8": {
+            "call_sequence": [
+                "> Lcom/babybus/utils/thread/KidsThreadUtil;->lambda$runOnSubLoop$5(Ljava/lang/Runnable;)V <",
+                "> Lcom/babybus/utils/thread/KidsThreadUtil;->getSubHandler()Landroid/os/Handler; <",
+                "> Lcom/babybus/utils/thread/KidsThreadUtil;->exeSubLoop(Ljava/lang/Runnable;)V <",
+                "> Lcom/sinyee/babybus/MainApplication$2;->onProcessForeground()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_9": {
+            "call_sequence": [
+                "> Lcom/babybus/utils/thread/KidsThreadUtil;->runOnSubLoop(Ljava/lang/Runnable;)V <",
+                "> Lcom/babybus/utils/thread/KidsThreadUtil;->getSubHandler()Landroid/os/Handler; <",
+                "> Lcom/babybus/utils/thread/KidsThreadUtil;->exeSubLoop(Ljava/lang/Runnable;)V <",
+                "> Lcom/sinyee/babybus/MainApplication$2;->onProcessForeground()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_10": {
+            "call_sequence": [
+                "> Lcom/babybus/utils/thread/KidsThreadUtil;->executeMain(Ljava/lang/Runnable;)V <",
+                "> Lcom/babybus/utils/thread/KidsThreadUtil;->getSubHandler()Landroid/os/Handler; <",
+                "> Lcom/babybus/utils/thread/KidsThreadUtil;->exeSubLoop(Ljava/lang/Runnable;)V <",
+                "> Lcom/sinyee/babybus/MainApplication$2;->onProcessForeground()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_11": {
+            "call_sequence": [
+                "> Lcom/babybus/utils/thread/KidsThreadUtil$1;->run()V <",
+                "> Lcom/babybus/utils/thread/KidsThreadUtil;->executeMore(Ljava/lang/Runnable; <",
+                "> Lcom/babybus/utils/thread/KidsThreadUtil;->getSubHandler()Landroid/os/Handler; <",
+                "> Lcom/babybus/utils/thread/KidsThreadUtil;->exeSubLoop(Ljava/lang/Runnable;)V <",
+                "> Lcom/sinyee/babybus/MainApplication$2;->onProcessForeground()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/babybus/utils/KidsLowSpaceCleanUtil$Companion;->getTestMode()Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/babybus/utils/KidsLowSpaceCleanUtil;->cleanExternalCacheDir()V <",
+                "> Lcom/babybus/utils/KidsLowSpaceCleanUtil;->upperCleanSpace()V <",
+                "> Lcom/babybus/utils/KidsLowSpaceCleanUtil;->doCleanup()V <",
+                "> Lcom/sinyee/babybus/MainApplication;->case()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/babybus/utils/KidsLowSpaceCleanUtil;->cleanImageLoader()V <",
+                "> Lcom/babybus/utils/KidsLowSpaceCleanUtil;->upperCleanSpace()V <",
+                "> Lcom/babybus/utils/KidsLowSpaceCleanUtil;->doCleanup()V <",
+                "> Lcom/sinyee/babybus/MainApplication;->case()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/babybus/utils/KidsLowSpaceCleanUtil;->cleanCommonWebView()V <",
+                "> Lcom/babybus/utils/KidsLowSpaceCleanUtil;->upperCleanSpace$lambda$10(Lcom/babybus/utils/KidsLowSpaceCleanUtil;)V <",
+                "> Lcom/babybus/utils/KidsLowSpaceCleanUtil;->do(Lcom/babybus/utils/KidsLowSpaceCleanUtil;)V <",
+                "> Lcom/babybus/utils/q;->run()V <",
+                "> Lcom/babybus/utils/KidsLowSpaceCleanUtil;->upperCleanSpace()V <",
+                "> Lcom/babybus/utils/KidsLowSpaceCleanUtil;->doCleanup()V <",
+                "> Lcom/sinyee/babybus/MainApplication;->case()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/babybus/utils/KidsLowSpaceCleanUtil;->cleanExternalBackground()V <",
+                "> Lcom/babybus/utils/KidsLowSpaceCleanUtil;->cleanImageLoader()V <",
+                "> Lcom/babybus/utils/KidsLowSpaceCleanUtil;->upperCleanSpace()V <",
+                "> Lcom/babybus/utils/KidsLowSpaceCleanUtil;->doCleanup()V <",
+                "> Lcom/sinyee/babybus/MainApplication;->case()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lcom/babybus/utils/KidsLowSpaceCleanUtil$Companion;->getNothingSpaceLimit()J <",
+                "> Lcom/babybus/utils/KidsLowSpaceCleanUtil;->doCleanup()V <",
+                "> Lcom/sinyee/babybus/MainApplication;->case()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_5": {
+            "call_sequence": [
+                "> Lcom/babybus/utils/KidsLowSpaceCleanUtil;->upperCleanSpace$lambda$10(Lcom/babybus/utils/KidsLowSpaceCleanUtil;)V <",
+                "> Lcom/babybus/utils/KidsLowSpaceCleanUtil;->do(Lcom/babybus/utils/KidsLowSpaceCleanUtil;)V <",
+                "> Lcom/babybus/utils/q;->run()V <",
+                "> Lcom/babybus/utils/KidsLowSpaceCleanUtil;->upperCleanSpace()V <",
+                "> Lcom/babybus/utils/KidsLowSpaceCleanUtil;->doCleanup()V <",
+                "> Lcom/sinyee/babybus/MainApplication;->case()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_6": {
+            "call_sequence": [
+                "> Lcom/babybus/utils/KidsLowSpaceCleanUtil$Companion;->getMinSpaceLimit()J <",
+                "> Lcom/babybus/utils/KidsLowSpaceCleanUtil;->getMinSpaceLimit()J <",
+                "> Lcom/sinyee/babybus/MainApplication;->case()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_7": {
+            "call_sequence": [
+                "> Lcom/babybus/utils/KidsLowSpaceCleanUtil;->lowerSpaceClean$lambda$7(Lcom/babybus/utils/KidsLowSpaceCleanUtil;)V <",
+                "> Lcom/babybus/utils/KidsLowSpaceCleanUtil;->if(Lcom/babybus/utils/KidsLowSpaceCleanUtil;)V <",
+                "> Lcom/babybus/utils/r;->run()V <",
+                "> Lcom/babybus/utils/KidsLowSpaceCleanUtil;->lowerSpaceClean()V <",
+                "> Lcom/babybus/utils/KidsLowSpaceCleanUtil;->doCleanup()V <",
+                "> Lcom/sinyee/babybus/MainApplication;->case()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_8": {
+            "call_sequence": [
+                "> Lcom/babybus/utils/KidsLowSpaceCleanUtil;->cleanMp4()V <",
+                "> Lcom/babybus/utils/KidsLowSpaceCleanUtil;->lowerSpaceClean$lambda$7(Lcom/babybus/utils/KidsLowSpaceCleanUtil;)V <",
+                "> Lcom/babybus/utils/KidsLowSpaceCleanUtil;->if(Lcom/babybus/utils/KidsLowSpaceCleanUtil;)V <",
+                "> Lcom/babybus/utils/r;->run()V <",
+                "> Lcom/babybus/utils/KidsLowSpaceCleanUtil;->lowerSpaceClean()V <",
+                "> Lcom/babybus/utils/KidsLowSpaceCleanUtil;->doCleanup()V <",
+                "> Lcom/sinyee/babybus/MainApplication;->case()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_9": {
+            "call_sequence": [
+                "> Lcom/babybus/utils/KidsLowSpaceCleanUtil;->cleanHttpCache()V <",
+                "> Lcom/babybus/utils/KidsLowSpaceCleanUtil;->upperCleanSpace$lambda$10(Lcom/babybus/utils/KidsLowSpaceCleanUtil;)V <",
+                "> Lcom/babybus/utils/KidsLowSpaceCleanUtil;->do(Lcom/babybus/utils/KidsLowSpaceCleanUtil;)V <",
+                "> Lcom/babybus/utils/q;->run()V <",
+                "> Lcom/babybus/utils/KidsLowSpaceCleanUtil;->upperCleanSpace()V <",
+                "> Lcom/babybus/utils/KidsLowSpaceCleanUtil;->doCleanup()V <",
+                "> Lcom/sinyee/babybus/MainApplication;->case()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_10": {
+            "call_sequence": [
+                "> Lcom/babybus/utils/KidsLowSpaceCleanUtil;->cleanExternalDownload()V <",
+                "> Lcom/babybus/utils/KidsLowSpaceCleanUtil;->upperCleanSpace()V <",
+                "> Lcom/babybus/utils/KidsLowSpaceCleanUtil;->doCleanup()V <",
+                "> Lcom/sinyee/babybus/MainApplication;->case()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/babybus/utils/sp/KidsSpUtil;->get(Lcom/babybus/utils/sp/ISpKey;Ljava/lang/String;)Ljava/lang/Object;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/babybus/utils/sp/KidsSpUtil;->get(Lcom/babybus/utils/sp/ISpKey;)Ljava/lang/Object; <",
+                "> Lcom/babybus/app/inithelper/config/ConfigInitHelper;->getDevelopConfigBean()Lcom/babybus/app/inithelper/config/DevelopConfigBean; <",
+                "> Lcom/babybus/utils/crash/ExceptionManager;->init()V <",
+                "> Lcom/sinyee/babybus/MainApplication;->break()Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/babybus/utils/sp/KidsSpUtil;->get(Lcom/babybus/utils/sp/ISpKey;)Ljava/lang/Object; <",
+                "> Lcom/ironsource/c9$_boostWeave;->com_sinyee_babybus_AsmProxy_getDefaultUserAgent(Landroid/content/Context;)Ljava/lang/String; <",
+                "> Lcom/ironsource/c9;->a(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.BATTERY_CHANGED",
+                    "start -a"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/babybus/utils/KidsFileUtils$CacheDir;->getPath()Ljava/lang/String; <",
+                "> Lcom/babybus/utils/KidsFileUtils;->getExternalStorageDirectory([Ljava/lang/String;)Ljava/lang/String; <",
+                "> Lcom/babybus/utils/SDCardUtil;->getSdAvailableSizeByte()J <",
+                "> Lcom/babybus/utils/SdUtil;->getSDAvailableSizeByte()J <",
+                "> Lcom/sinyee/babybus/MainApplication;->case()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    }
+}

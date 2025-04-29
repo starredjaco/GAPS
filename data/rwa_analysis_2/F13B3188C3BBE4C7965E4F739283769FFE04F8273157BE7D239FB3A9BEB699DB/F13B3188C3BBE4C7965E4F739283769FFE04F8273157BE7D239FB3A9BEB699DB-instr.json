@@ -1,0 +1,24 @@
+{
+    "Lcom/mcdonalds/app/activities/CampaignScanActivity;->eH()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/mcdonalds/app/activities/CampaignScanActivity;->iH(Lcom/mcdonalds/app/activities/CampaignScanActivity;Lorg/aspectj/lang/JoinPoint;)V <",
+                "> Lcom/mcdonalds/app/activities/CampaignScanActivity;->jH(Lcom/mcdonalds/app/activities/CampaignScanActivity;Lorg/aspectj/lang/JoinPoint;Lcom/mcdonalds/app/aop/AspectLogging;Lorg/aspectj/lang/ProceedingJoinPoint;)Ljava/lang/Object; <",
+                "> Lcom/mcdonalds/app/activities/CampaignScanActivity;->hH()V <",
+                "> Lcom/mcdonalds/app/activities/CampaignScanActivity;->dG(Lcom/mcdonalds/app/activities/CampaignScanActivity;Lorg/aspectj/lang/JoinPoint;)V <",
+                "> Lcom/mcdonalds/app/activities/CampaignScanActivity;->eG(Lcom/mcdonalds/app/activities/CampaignScanActivity;Lorg/aspectj/lang/JoinPoint;Lcom/mcdonalds/app/aop/AspectLogging;Lorg/aspectj/lang/ProceedingJoinPoint;)Ljava/lang/Object; <",
+                "> Lcom/mcdonalds/app/activities/CampaignScanActivity;->cG()V <",
+                "> Lcom/mcdonalds/app/activities/CampaignScanActivity;->UG(Lcom/mcdonalds/app/activities/CampaignScanActivity;Lorg/aspectj/lang/JoinPoint;)V <",
+                "> Lcom/mcdonalds/app/activities/CampaignScanActivity;->VG(Lcom/mcdonalds/app/activities/CampaignScanActivity;Lorg/aspectj/lang/JoinPoint;Lcom/mcdonalds/app/aop/AspectLogging;Lorg/aspectj/lang/ProceedingJoinPoint;)Ljava/lang/Object; <",
+                "> Lcom/mcdonalds/app/activities/CampaignScanActivity;->onResume()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.DEVICE_STORAGE_LOW",
+                    "start-activity -a"
+                ]
+            ]
+        }
+    }
+}

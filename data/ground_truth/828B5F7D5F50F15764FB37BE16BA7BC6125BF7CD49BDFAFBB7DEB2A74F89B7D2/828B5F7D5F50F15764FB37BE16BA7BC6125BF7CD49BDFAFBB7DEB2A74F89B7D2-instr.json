@@ -1,0 +1,2028 @@
+{
+    "Lcom/bj/lugandatranslator/MyApplication$AppOpenAdManager;->access$000(Lcom/bj/lugandatranslator/MyApplication$AppOpenAdManager;Landroid/content/Context;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/MyApplication$AppOpenAdManager$3;->onAdDismissedFullScreenContent()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/MyApplication$AppOpenAdManager$3;->onAdFailedToShowFullScreenContent(Lcom/google/android/gms/ads/AdError;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/MyApplication$AppOpenAdManager$2;->onAdDismissedFullScreenContent()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/MyApplication$AppOpenAdManager$2;->onAdFailedToShowFullScreenContent(Lcom/google/android/gms/ads/AdError;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/MyApplication;->loadAd(Landroid/app/Activity;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_5": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/MyApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/bj/lugandatranslator/SplashScreen;->loadAppOpen()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/SplashScreen;->access$200(Lcom/bj/lugandatranslator/SplashScreen;)V <",
+                "> Lcom/bj/lugandatranslator/SplashScreen$3;->onShowAdComplete(Z)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/SplashScreen;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/bj/lugandatranslator/MyApplication;->showAdIfAvailableSplash(Landroid/app/Activity;Lcom/bj/lugandatranslator/MyApplication$OnShowAdCompleteListener;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/SplashScreen;->isAppOpenAds()V <",
+                "> Lcom/bj/lugandatranslator/SplashScreen;->access$000(Lcom/bj/lugandatranslator/SplashScreen;)V <",
+                "> Lcom/bj/lugandatranslator/SplashScreen$2;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/bj/lugandatranslator/MyApplication$AppOpenAdManager;->isAdAvailable()Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/MyApplication$AppOpenAdManager;->showAdIfAvailable(Landroid/app/Activity; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/MyApplication$AppOpenAdManager;->loadAd(Landroid/content/Context;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/MyApplication$AppOpenAdManager;->showIfAvailableForSplash(Landroid/app/Activity; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/bj/lugandatranslator/SplashScreen;->isAppOpenAds()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/SplashScreen;->access$000(Lcom/bj/lugandatranslator/SplashScreen;)V <",
+                "> Lcom/bj/lugandatranslator/SplashScreen$2;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/bj/lugandatranslator/Home;->setupToolbar()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/Home;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/SplashScreen$1;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/bj/lugandatranslator/dbhelper/Database;->checkDataBase()Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/dbhelper/Database;->createDataBase()Z <",
+                "> Lcom/bj/lugandatranslator/dbhelper/Database;->openDataBase()V <",
+                "> Lcom/bj/lugandatranslator/dbhelper/Database;->deleteTranslatorFromFav(Ljava/lang/String; <",
+                "> Lcom/bj/lugandatranslator/Home;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/SplashScreen$1;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/dbhelper/Database;->createDataBase()Z <",
+                "> Lcom/bj/lugandatranslator/dbhelper/Database;->openDataBase()V <",
+                "> Lcom/bj/lugandatranslator/dbhelper/Database;->setFav(I <",
+                "> Lcom/bj/lugandatranslator/Home;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/SplashScreen$1;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/bj/lugandatranslator/utildata/GetSetClass;->getEngWord()Ljava/lang/String;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/Home;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/SplashScreen$1;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/fragment/EnglishMeaningFragment;->onActivityCreated(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/MeaningActivity;->setupViewPager(Landroidx/viewpager/widget/ViewPager;)V <",
+                "> Lcom/bj/lugandatranslator/MeaningActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/Home$1;->onClick(Landroid/view/View;)V <",
+                "> Lcom/bj/lugandatranslator/Home;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/SplashScreen$1;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.bj.lugandatranslator.Home",
+                    "d",
+                    "Rotate counter clockwise"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/adapter/EnglishAdapter;->getView(I <",
+                "> Lcom/bj/lugandatranslator/FavOfflineDictionaryActivity$1;->onTextChanged(Ljava/lang/CharSequence; <",
+                "> Lcom/bj/lugandatranslator/FavOfflineDictionaryActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/Home$17;->onClick(Landroid/view/View;)V <",
+                "> Lcom/bj/lugandatranslator/Home;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/SplashScreen$1;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.bj.lugandatranslator.Home",
+                    "imgFav"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/adapter/EnglishAdapter$1;->onClick(Landroid/view/View;)V <",
+                "> Lcom/bj/lugandatranslator/adapter/EnglishAdapter;->getView(I <",
+                "> Lcom/bj/lugandatranslator/FavOfflineDictionaryActivity$1;->onTextChanged(Ljava/lang/CharSequence; <",
+                "> Lcom/bj/lugandatranslator/FavOfflineDictionaryActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/Home$17;->onClick(Landroid/view/View;)V <",
+                "> Lcom/bj/lugandatranslator/Home;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/SplashScreen$1;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.bj.lugandatranslator.Home",
+                    "imgFav"
+                ],
+                [
+                    "com.bj.lugandatranslator.FavOfflineDictionaryActivity",
+                    "btnSubmit"
+                ]
+            ]
+        }
+    },
+    "Lcom/bj/lugandatranslator/MyApplication$AppOpenAdManager;->access$302(Lcom/bj/lugandatranslator/MyApplication$AppOpenAdManager;Z)Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/MyApplication$AppOpenAdManager$1;->onAdFailedToLoad(Lcom/google/android/gms/ads/LoadAdError;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/MyApplication$AppOpenAdManager$1;->onAdLoaded(Lcom/google/android/gms/ads/appopen/AppOpenAd;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/bj/lugandatranslator/SplashScreen;->access$000(Lcom/bj/lugandatranslator/SplashScreen;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/SplashScreen$2;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/bj/lugandatranslator/MyApplication$AppOpenAdManager;->loadAd(Landroid/content/Context;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/MyApplication$AppOpenAdManager;->access$000(Lcom/bj/lugandatranslator/MyApplication$AppOpenAdManager; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/MyApplication$AppOpenAdManager;->showAdIfAvailable(Landroid/app/Activity; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/bj/lugandatranslator/ProPreference;->isPurchase(Landroid/content/Context;)Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/AudioMessageChatActivity;->goHistory()V <",
+                "> Lcom/bj/lugandatranslator/Home;->goVideoChat()V <",
+                "> Lcom/bj/lugandatranslator/Home$18;->onClick(Landroid/view/View;)V <",
+                "> Lcom/bj/lugandatranslator/Home;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/SplashScreen$1;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.bj.lugandatranslator.Home",
+                    "imgChatTranslator"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/C;->goHistory()V <",
+                "> Lcom/bj/lugandatranslator/Home$9;->onClick(Landroid/view/View;)V <",
+                "> Lcom/bj/lugandatranslator/Home;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/SplashScreen$1;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.bj.lugandatranslator.Home",
+                    "c",
+                    "Rotate counter clockwise"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/Speak;->goTextLanguageActivity()V <",
+                "> Lcom/bj/lugandatranslator/Home$14;->onClick(Landroid/view/View;)V <",
+                "> Lcom/bj/lugandatranslator/Home;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/SplashScreen$1;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.bj.lugandatranslator.Home",
+                    "imgSpeak"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/MyApplication$AppOpenAdManager;->showAdIfAvailable(Landroid/app/Activity; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/MeaningActivity;->goMeaningActivity()V <",
+                "> Lcom/bj/lugandatranslator/Home$1;->onClick(Landroid/view/View;)V <",
+                "> Lcom/bj/lugandatranslator/Home;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/SplashScreen$1;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.bj.lugandatranslator.Home",
+                    "d",
+                    "Rotate counter clockwise"
+                ]
+            ]
+        },
+        "path_5": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/PremiumActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/Home;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/bj/lugandatranslator/SplashScreen$1;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.bj.lugandatranslator.Home",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_6": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/quiz/ChooseWordActivity;->goHistory()V <",
+                "> Lcom/bj/lugandatranslator/Home$24;->onClick(Landroid/view/View;)V <",
+                "> Lcom/bj/lugandatranslator/Home;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/SplashScreen$1;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.bj.lugandatranslator.Home",
+                    "imgQuiz"
+                ]
+            ]
+        },
+        "path_7": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/MyApplication$AppOpenAdManager;->showIfAvailableForSplash(Landroid/app/Activity; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_8": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/MyAddedOfflineDictionaryActivity;->goMyAddedOfflineDictionaryActivity()V <",
+                "> Lcom/bj/lugandatranslator/Home;->gotoMyAdded()V <",
+                "> Lcom/bj/lugandatranslator/Home;->access$500(Lcom/bj/lugandatranslator/Home;)V <",
+                "> Lcom/bj/lugandatranslator/Home$26;->onPermissionsChecked(Lcom/karumi/dexter/MultiplePermissionsReport;)V <",
+                "> Lcom/bj/lugandatranslator/Home;->askPermission(Ljava/lang/String;)V <",
+                "> Lcom/bj/lugandatranslator/Home$22;->onClick(Landroid/view/View;)V <",
+                "> Lcom/bj/lugandatranslator/Home;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/SplashScreen$1;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.bj.lugandatranslator.Home",
+                    "imgGalleryTransator"
+                ]
+            ]
+        },
+        "path_9": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/TranslatorFavActivity;->goHistory()V <",
+                "> Lcom/bj/lugandatranslator/Home$25;->onClick(Landroid/view/View;)V <",
+                "> Lcom/bj/lugandatranslator/Home;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/SplashScreen$1;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.bj.lugandatranslator.Home",
+                    "imgFavouriteTranslator"
+                ]
+            ]
+        },
+        "path_10": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/HistoryActivity;->goHistory()V <",
+                "> Lcom/bj/lugandatranslator/Home;->goHistory()V <",
+                "> Lcom/bj/lugandatranslator/Home$16;->onClick(Landroid/view/View;)V <",
+                "> Lcom/bj/lugandatranslator/Home;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/SplashScreen$1;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.bj.lugandatranslator.Home",
+                    "imgHistory"
+                ]
+            ]
+        },
+        "path_11": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/MeaningActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/Home$1;->onClick(Landroid/view/View;)V <",
+                "> Lcom/bj/lugandatranslator/Home;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/SplashScreen$1;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.bj.lugandatranslator.Home",
+                    "d",
+                    "Rotate counter clockwise"
+                ]
+            ]
+        },
+        "path_12": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/A;->goHistory()V <",
+                "> Lcom/bj/lugandatranslator/Home$7;->onClick(Landroid/view/View;)V <",
+                "> Lcom/bj/lugandatranslator/Home;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/SplashScreen$1;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.bj.lugandatranslator.Home",
+                    "a",
+                    "Rotate counter clockwise"
+                ]
+            ]
+        },
+        "path_13": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/Read;->goTextLanguageActivity()V <",
+                "> Lcom/bj/lugandatranslator/Home$13;->onClick(Landroid/view/View;)V <",
+                "> Lcom/bj/lugandatranslator/Home;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/SplashScreen$1;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.bj.lugandatranslator.Home",
+                    "imgReadNow"
+                ]
+            ]
+        },
+        "path_14": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/E;->goHistory()V <",
+                "> Lcom/bj/lugandatranslator/Home$11;->onClick(Landroid/view/View;)V <",
+                "> Lcom/bj/lugandatranslator/Home;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/SplashScreen$1;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.bj.lugandatranslator.Home",
+                    "e",
+                    "Rotate counter clockwise"
+                ]
+            ]
+        },
+        "path_15": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/AudioMessageChatActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/Home;->goVideoChat()V <",
+                "> Lcom/bj/lugandatranslator/Home$18;->onClick(Landroid/view/View;)V <",
+                "> Lcom/bj/lugandatranslator/Home;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/SplashScreen$1;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.bj.lugandatranslator.Home",
+                    "imgChatTranslator"
+                ]
+            ]
+        },
+        "path_16": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/MyAddedOfflineDictionaryActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/Home;->gotoMyAdded()V <",
+                "> Lcom/bj/lugandatranslator/Home;->access$500(Lcom/bj/lugandatranslator/Home;)V <",
+                "> Lcom/bj/lugandatranslator/Home$26;->onPermissionsChecked(Lcom/karumi/dexter/MultiplePermissionsReport;)V <",
+                "> Lcom/bj/lugandatranslator/Home;->askPermission(Ljava/lang/String;)V <",
+                "> Lcom/bj/lugandatranslator/Home$22;->onClick(Landroid/view/View;)V <",
+                "> Lcom/bj/lugandatranslator/Home;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/SplashScreen$1;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.bj.lugandatranslator.Home",
+                    "imgGalleryTransator"
+                ]
+            ]
+        },
+        "path_17": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/B;->goHistory()V <",
+                "> Lcom/bj/lugandatranslator/Home$8;->onClick(Landroid/view/View;)V <",
+                "> Lcom/bj/lugandatranslator/Home;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/SplashScreen$1;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.bj.lugandatranslator.Home",
+                    "b",
+                    "Rotate counter clockwise"
+                ]
+            ]
+        },
+        "path_18": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/OfflineDictionaryActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/Home;->goDictionary()V <",
+                "> Lcom/bj/lugandatranslator/Home$19;->onClick(Landroid/view/View;)V <",
+                "> Lcom/bj/lugandatranslator/Home;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/SplashScreen$1;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.bj.lugandatranslator.Home",
+                    "imgDictionary"
+                ]
+            ]
+        },
+        "path_19": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/F;->goHistory()V <",
+                "> Lcom/bj/lugandatranslator/Home$12;->onClick(Landroid/view/View;)V <",
+                "> Lcom/bj/lugandatranslator/Home;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/SplashScreen$1;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.bj.lugandatranslator.Home",
+                    "f",
+                    "Rotate counter clockwise"
+                ]
+            ]
+        },
+        "path_20": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/TextLangaugeActivity;->goTextLanguageActivity()V <",
+                "> Lcom/bj/lugandatranslator/Home;->goTranslate()V <",
+                "> Lcom/bj/lugandatranslator/Home$15;->onClick(Landroid/view/View;)V <",
+                "> Lcom/bj/lugandatranslator/Home;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/SplashScreen$1;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.bj.lugandatranslator.Home",
+                    "imgLangTranslator"
+                ]
+            ]
+        },
+        "path_21": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/MyDic;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/Home$6;->onClick(Landroid/view/View;)V <",
+                "> Lcom/bj/lugandatranslator/Home;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/SplashScreen$1;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.bj.lugandatranslator.Home",
+                    "myDic"
+                ]
+            ]
+        },
+        "path_22": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/TranslatorFavActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/Home$25;->onClick(Landroid/view/View;)V <",
+                "> Lcom/bj/lugandatranslator/Home;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/SplashScreen$1;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.bj.lugandatranslator.Home",
+                    "imgFavouriteTranslator"
+                ]
+            ]
+        },
+        "path_23": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/D;->goHistory()V <",
+                "> Lcom/bj/lugandatranslator/Home$10;->onClick(Landroid/view/View;)V <",
+                "> Lcom/bj/lugandatranslator/Home;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/SplashScreen$1;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.bj.lugandatranslator.Home",
+                    "d",
+                    "Rotate counter clockwise"
+                ]
+            ]
+        },
+        "path_24": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/MyDic;->goMyDic()V <",
+                "> Lcom/bj/lugandatranslator/Home$6;->onClick(Landroid/view/View;)V <",
+                "> Lcom/bj/lugandatranslator/Home;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/SplashScreen$1;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.bj.lugandatranslator.Home",
+                    "myDic"
+                ]
+            ]
+        },
+        "path_25": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/quiz/ChooseWordActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/Home$24;->onClick(Landroid/view/View;)V <",
+                "> Lcom/bj/lugandatranslator/Home;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/SplashScreen$1;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.bj.lugandatranslator.Home",
+                    "imgQuiz"
+                ]
+            ]
+        },
+        "path_26": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/FavOfflineDictionaryActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/Home$17;->onClick(Landroid/view/View;)V <",
+                "> Lcom/bj/lugandatranslator/Home;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/SplashScreen$1;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.bj.lugandatranslator.Home",
+                    "imgFav"
+                ]
+            ]
+        },
+        "path_27": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/FavOfflineDictionaryActivity;->goFavOfflineDictionaryActivity()V <",
+                "> Lcom/bj/lugandatranslator/Home$17;->onClick(Landroid/view/View;)V <",
+                "> Lcom/bj/lugandatranslator/Home;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/SplashScreen$1;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.bj.lugandatranslator.Home",
+                    "imgFav"
+                ]
+            ]
+        },
+        "path_28": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/ConstantData;->fullscreenAdmob(Landroid/content/Context;)V <",
+                "> Lcom/bj/lugandatranslator/Home;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/SplashScreen$1;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_29": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/ManageAds;->loadInit(Landroid/app/Activity;)V <",
+                "> Lcom/bj/lugandatranslator/Home;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/SplashScreen$1;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_30": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/TextLangaugeActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/Home;->goTranslate()V <",
+                "> Lcom/bj/lugandatranslator/Home$15;->onClick(Landroid/view/View;)V <",
+                "> Lcom/bj/lugandatranslator/Home;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/SplashScreen$1;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.bj.lugandatranslator.Home",
+                    "imgLangTranslator"
+                ]
+            ]
+        },
+        "path_31": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/MyApplication$AppOpenAdManager;->loadAd(Landroid/content/Context;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_32": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/HistoryActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/Home;->goHistory()V <",
+                "> Lcom/bj/lugandatranslator/Home$16;->onClick(Landroid/view/View;)V <",
+                "> Lcom/bj/lugandatranslator/Home;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/SplashScreen$1;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.bj.lugandatranslator.Home",
+                    "imgHistory"
+                ]
+            ]
+        },
+        "path_33": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/ConstantData;->showAds(Landroid/app/Activity;)V <",
+                "> Lcom/bj/lugandatranslator/FavOfflineDictionaryActivity;->onBackPressed()V <",
+                "> Lcom/bj/lugandatranslator/Home$17;->onClick(Landroid/view/View;)V <",
+                "> Lcom/bj/lugandatranslator/Home;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/SplashScreen$1;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.bj.lugandatranslator.Home",
+                    "imgFav"
+                ]
+            ]
+        },
+        "path_34": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/MyApplication;->onStart()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/bj/lugandatranslator/SplashScreen;->access$100(Lcom/bj/lugandatranslator/SplashScreen;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/SplashScreen$3;->onShowAdComplete(Z)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/bj/lugandatranslator/dbhelper/Database;->createDataBase()Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/dbhelper/Database;->openDataBase()V <",
+                "> Lcom/bj/lugandatranslator/dbhelper/Database;->deleteTranslatorFromFav(Ljava/lang/String; <",
+                "> Lcom/bj/lugandatranslator/Home;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/SplashScreen$1;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/dbhelper/Database;->openDataBase()V <",
+                "> Lcom/bj/lugandatranslator/dbhelper/Database;->setFav(I <",
+                "> Lcom/bj/lugandatranslator/Home;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/SplashScreen$1;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/TranslatorFavActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/Home$25;->onClick(Landroid/view/View;)V <",
+                "> Lcom/bj/lugandatranslator/Home;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/SplashScreen$1;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.bj.lugandatranslator.Home",
+                    "imgFavouriteTranslator"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/adapter/TranslatorFavAdp;-><init>(Landroid/content/Context; <",
+                "> Lcom/bj/lugandatranslator/TranslatorFavActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/Home$25;->onClick(Landroid/view/View;)V <",
+                "> Lcom/bj/lugandatranslator/Home;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/SplashScreen$1;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.bj.lugandatranslator.Home",
+                    "imgFavouriteTranslator"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/TextLangaugeActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/Home;->goTranslate()V <",
+                "> Lcom/bj/lugandatranslator/Home$15;->onClick(Landroid/view/View;)V <",
+                "> Lcom/bj/lugandatranslator/Home;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/SplashScreen$1;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.bj.lugandatranslator.Home",
+                    "imgLangTranslator"
+                ]
+            ]
+        }
+    },
+    "Lcom/bj/lugandatranslator/Home;->colorize()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/Home;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/SplashScreen$1;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/bj/lugandatranslator/dbhelper/Database;->copyDataBase()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/dbhelper/Database;->createDataBase()Z <",
+                "> Lcom/bj/lugandatranslator/dbhelper/Database;->openDataBase()V <",
+                "> Lcom/bj/lugandatranslator/dbhelper/Database;->deleteTranslatorFromFav(Ljava/lang/String; <",
+                "> Lcom/bj/lugandatranslator/Home;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/SplashScreen$1;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/dbhelper/Database;->createDataBase()Z <",
+                "> Lcom/bj/lugandatranslator/dbhelper/Database;->openDataBase()V <",
+                "> Lcom/bj/lugandatranslator/dbhelper/Database;->setFav(I <",
+                "> Lcom/bj/lugandatranslator/Home;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/SplashScreen$1;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/bj/lugandatranslator/ManageAds;->loadInit(Landroid/app/Activity;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/Home;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/SplashScreen$1;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/Speak;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/Home$14;->onClick(Landroid/view/View;)V <",
+                "> Lcom/bj/lugandatranslator/Home;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/SplashScreen$1;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.bj.lugandatranslator.Home",
+                    "imgSpeak"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/Read;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/Home$13;->onClick(Landroid/view/View;)V <",
+                "> Lcom/bj/lugandatranslator/Home;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/SplashScreen$1;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.bj.lugandatranslator.Home",
+                    "imgReadNow"
+                ]
+            ]
+        }
+    },
+    "Lcom/bj/lugandatranslator/ConstantData;->fullscreenAdmob(Landroid/content/Context;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/C;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/Home$9;->onClick(Landroid/view/View;)V <",
+                "> Lcom/bj/lugandatranslator/Home;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/SplashScreen$1;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.bj.lugandatranslator.Home",
+                    "c",
+                    "Rotate counter clockwise"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/FavOfflineDictionaryActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/Home$17;->onClick(Landroid/view/View;)V <",
+                "> Lcom/bj/lugandatranslator/Home;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/SplashScreen$1;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.bj.lugandatranslator.Home",
+                    "imgFav"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/Home;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/SplashScreen$1;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/Speak;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/Home$14;->onClick(Landroid/view/View;)V <",
+                "> Lcom/bj/lugandatranslator/Home;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/SplashScreen$1;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.bj.lugandatranslator.Home",
+                    "imgSpeak"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/MyDic;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/Home$6;->onClick(Landroid/view/View;)V <",
+                "> Lcom/bj/lugandatranslator/Home;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/SplashScreen$1;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.bj.lugandatranslator.Home",
+                    "myDic"
+                ]
+            ]
+        },
+        "path_5": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/E;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/Home$11;->onClick(Landroid/view/View;)V <",
+                "> Lcom/bj/lugandatranslator/Home;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/SplashScreen$1;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.bj.lugandatranslator.Home",
+                    "e",
+                    "Rotate counter clockwise"
+                ]
+            ]
+        },
+        "path_6": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/quiz/ChooseWordActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/Home$24;->onClick(Landroid/view/View;)V <",
+                "> Lcom/bj/lugandatranslator/Home;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/SplashScreen$1;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.bj.lugandatranslator.Home",
+                    "imgQuiz"
+                ]
+            ]
+        },
+        "path_7": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/AudioMessageChatActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/Home;->goVideoChat()V <",
+                "> Lcom/bj/lugandatranslator/Home$18;->onClick(Landroid/view/View;)V <",
+                "> Lcom/bj/lugandatranslator/Home;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/SplashScreen$1;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.bj.lugandatranslator.Home",
+                    "imgChatTranslator"
+                ]
+            ]
+        },
+        "path_8": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/B;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/Home$8;->onClick(Landroid/view/View;)V <",
+                "> Lcom/bj/lugandatranslator/Home;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/SplashScreen$1;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.bj.lugandatranslator.Home",
+                    "b",
+                    "Rotate counter clockwise"
+                ]
+            ]
+        },
+        "path_9": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/MeaningActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/Home$1;->onClick(Landroid/view/View;)V <",
+                "> Lcom/bj/lugandatranslator/Home;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/SplashScreen$1;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.bj.lugandatranslator.Home",
+                    "d",
+                    "Rotate counter clockwise"
+                ]
+            ]
+        },
+        "path_10": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/A;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/Home$7;->onClick(Landroid/view/View;)V <",
+                "> Lcom/bj/lugandatranslator/Home;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/SplashScreen$1;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.bj.lugandatranslator.Home",
+                    "a",
+                    "Rotate counter clockwise"
+                ]
+            ]
+        },
+        "path_11": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/F;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/Home$12;->onClick(Landroid/view/View;)V <",
+                "> Lcom/bj/lugandatranslator/Home;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/SplashScreen$1;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.bj.lugandatranslator.Home",
+                    "f",
+                    "Rotate counter clockwise"
+                ]
+            ]
+        },
+        "path_12": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/MyAddedOfflineDictionaryActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/Home;->gotoMyAdded()V <",
+                "> Lcom/bj/lugandatranslator/Home;->access$500(Lcom/bj/lugandatranslator/Home;)V <",
+                "> Lcom/bj/lugandatranslator/Home$26;->onPermissionsChecked(Lcom/karumi/dexter/MultiplePermissionsReport;)V <",
+                "> Lcom/bj/lugandatranslator/Home;->askPermission(Ljava/lang/String;)V <",
+                "> Lcom/bj/lugandatranslator/Home$22;->onClick(Landroid/view/View;)V <",
+                "> Lcom/bj/lugandatranslator/Home;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/SplashScreen$1;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.bj.lugandatranslator.Home",
+                    "imgGalleryTransator"
+                ]
+            ]
+        },
+        "path_13": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/TextLangaugeActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/Home;->goTranslate()V <",
+                "> Lcom/bj/lugandatranslator/Home$15;->onClick(Landroid/view/View;)V <",
+                "> Lcom/bj/lugandatranslator/Home;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/SplashScreen$1;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.bj.lugandatranslator.Home",
+                    "imgLangTranslator"
+                ]
+            ]
+        },
+        "path_14": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/D;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/Home$10;->onClick(Landroid/view/View;)V <",
+                "> Lcom/bj/lugandatranslator/Home;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/SplashScreen$1;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.bj.lugandatranslator.Home",
+                    "d",
+                    "Rotate counter clockwise"
+                ]
+            ]
+        },
+        "path_15": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/TranslatorFavActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/Home$25;->onClick(Landroid/view/View;)V <",
+                "> Lcom/bj/lugandatranslator/Home;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/SplashScreen$1;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.bj.lugandatranslator.Home",
+                    "imgFavouriteTranslator"
+                ]
+            ]
+        },
+        "path_16": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/HistoryActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/Home;->goHistory()V <",
+                "> Lcom/bj/lugandatranslator/Home$16;->onClick(Landroid/view/View;)V <",
+                "> Lcom/bj/lugandatranslator/Home;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/SplashScreen$1;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.bj.lugandatranslator.Home",
+                    "imgHistory"
+                ]
+            ]
+        },
+        "path_17": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/Read;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/Home$13;->onClick(Landroid/view/View;)V <",
+                "> Lcom/bj/lugandatranslator/Home;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/SplashScreen$1;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.bj.lugandatranslator.Home",
+                    "imgReadNow"
+                ]
+            ]
+        }
+    },
+    "Lcom/bj/lugandatranslator/SplashScreen;->access$200(Lcom/bj/lugandatranslator/SplashScreen;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/SplashScreen$3;->onShowAdComplete(Z)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/bj/lugandatranslator/dbhelper/Database;->openDataBase()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/adapter/TranslatorFavAdp;-><init>(Landroid/content/Context; <",
+                "> Lcom/bj/lugandatranslator/TranslatorFavActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/Home$25;->onClick(Landroid/view/View;)V <",
+                "> Lcom/bj/lugandatranslator/Home;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/SplashScreen$1;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.bj.lugandatranslator.Home",
+                    "imgFavouriteTranslator"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/dbhelper/Database;->deleteWord(I)V <",
+                "> Lcom/bj/lugandatranslator/adapter/EnglishAdapter$2$1;->onClick(Landroid/content/DialogInterface; <",
+                "> Lcom/bj/lugandatranslator/adapter/EnglishAdapter$2;->onClick(Landroid/view/View;)V <",
+                "> Lcom/bj/lugandatranslator/adapter/EnglishAdapter;->getView(I <",
+                "> Lcom/bj/lugandatranslator/FavOfflineDictionaryActivity$1;->onTextChanged(Ljava/lang/CharSequence; <",
+                "> Lcom/bj/lugandatranslator/FavOfflineDictionaryActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/Home$17;->onClick(Landroid/view/View;)V <",
+                "> Lcom/bj/lugandatranslator/Home;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/SplashScreen$1;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.bj.lugandatranslator.Home",
+                    "imgFav"
+                ],
+                [
+                    "com.bj.lugandatranslator.FavOfflineDictionaryActivity",
+                    "imgDelete"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/dbhelper/Database;->updateWord(I <",
+                "> Lcom/bj/lugandatranslator/Home;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/SplashScreen$1;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/dbhelper/Database;->setRecent(I)V <",
+                "> Lcom/bj/lugandatranslator/adapter/EnglishAdapter$4;->onClick(Landroid/view/View;)V <",
+                "> Lcom/bj/lugandatranslator/adapter/EnglishAdapter;->getView(I <",
+                "> Lcom/bj/lugandatranslator/FavOfflineDictionaryActivity$1;->onTextChanged(Ljava/lang/CharSequence; <",
+                "> Lcom/bj/lugandatranslator/FavOfflineDictionaryActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/Home$17;->onClick(Landroid/view/View;)V <",
+                "> Lcom/bj/lugandatranslator/Home;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/SplashScreen$1;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.bj.lugandatranslator.Home",
+                    "imgFav"
+                ],
+                [
+                    "com.bj.lugandatranslator.FavOfflineDictionaryActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/dbhelper/Database;->setFav(I <",
+                "> Lcom/bj/lugandatranslator/Home;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/SplashScreen$1;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_5": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/dbhelper/Database;->deleteTranslatorFromFav(Ljava/lang/String; <",
+                "> Lcom/bj/lugandatranslator/Home;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/SplashScreen$1;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_6": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/TextLangaugeActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/Home;->goTranslate()V <",
+                "> Lcom/bj/lugandatranslator/Home$15;->onClick(Landroid/view/View;)V <",
+                "> Lcom/bj/lugandatranslator/Home;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/SplashScreen$1;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.bj.lugandatranslator.Home",
+                    "imgLangTranslator"
+                ]
+            ]
+        },
+        "path_7": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/MyAddedOfflineDictionaryActivity$AsyncTaskRunner;->doInBackground([Ljava/lang/Void;)Ljava/lang/Void; <",
+                "> Lcom/bj/lugandatranslator/MyAddedOfflineDictionaryActivity$AsyncTaskRunner;->doInBackground([Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/bj/lugandatranslator/MyAddedOfflineDictionaryActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/Home;->gotoMyAdded()V <",
+                "> Lcom/bj/lugandatranslator/Home;->access$500(Lcom/bj/lugandatranslator/Home;)V <",
+                "> Lcom/bj/lugandatranslator/Home$26;->onPermissionsChecked(Lcom/karumi/dexter/MultiplePermissionsReport;)V <",
+                "> Lcom/bj/lugandatranslator/Home;->askPermission(Ljava/lang/String;)V <",
+                "> Lcom/bj/lugandatranslator/Home$22;->onClick(Landroid/view/View;)V <",
+                "> Lcom/bj/lugandatranslator/Home;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/SplashScreen$1;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.bj.lugandatranslator.Home",
+                    "imgGalleryTransator"
+                ]
+            ]
+        },
+        "path_8": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/dbhelper/Database;->getQuiz()Ljava/util/List; <",
+                "> Lcom/bj/lugandatranslator/quiz/ChooseWordActivity;->setData()V <",
+                "> Lcom/bj/lugandatranslator/quiz/ChooseWordActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/Home$24;->onClick(Landroid/view/View;)V <",
+                "> Lcom/bj/lugandatranslator/Home;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/SplashScreen$1;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.bj.lugandatranslator.Home",
+                    "imgQuiz"
+                ]
+            ]
+        },
+        "path_9": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/TranslatorFavActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/Home$25;->onClick(Landroid/view/View;)V <",
+                "> Lcom/bj/lugandatranslator/Home;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/SplashScreen$1;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.bj.lugandatranslator.Home",
+                    "imgFavouriteTranslator"
+                ]
+            ]
+        },
+        "path_10": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/dbhelper/Database;->GetMeaningsByHinWord(I)Ljava/util/ArrayList; <",
+                "> Lcom/bj/lugandatranslator/adapter/EnglishAdapter$1;->onClick(Landroid/view/View;)V <",
+                "> Lcom/bj/lugandatranslator/adapter/EnglishAdapter;->getView(I <",
+                "> Lcom/bj/lugandatranslator/FavOfflineDictionaryActivity$1;->onTextChanged(Ljava/lang/CharSequence; <",
+                "> Lcom/bj/lugandatranslator/FavOfflineDictionaryActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/Home$17;->onClick(Landroid/view/View;)V <",
+                "> Lcom/bj/lugandatranslator/Home;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/SplashScreen$1;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.bj.lugandatranslator.Home",
+                    "imgFav"
+                ],
+                [
+                    "com.bj.lugandatranslator.FavOfflineDictionaryActivity",
+                    "btnSubmit"
+                ]
+            ]
+        },
+        "path_11": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/OfflineDictionaryActivity$AsyncTaskRunner;->doInBackground([Ljava/lang/Void;)Ljava/lang/Void; <",
+                "> Lcom/bj/lugandatranslator/OfflineDictionaryActivity$AsyncTaskRunner;->doInBackground([Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/bj/lugandatranslator/OfflineDictionaryActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/Home;->goDictionary()V <",
+                "> Lcom/bj/lugandatranslator/Home$19;->onClick(Landroid/view/View;)V <",
+                "> Lcom/bj/lugandatranslator/Home;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/SplashScreen$1;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.bj.lugandatranslator.Home",
+                    "imgDictionary"
+                ]
+            ]
+        },
+        "path_12": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/dbhelper/Database;->GetMeaningsByEngWord(I)Ljava/util/ArrayList; <",
+                "> Lcom/bj/lugandatranslator/fragment/EnglishMeaningFragment;->onActivityCreated(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/MeaningActivity;->setupViewPager(Landroidx/viewpager/widget/ViewPager;)V <",
+                "> Lcom/bj/lugandatranslator/MeaningActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/Home$1;->onClick(Landroid/view/View;)V <",
+                "> Lcom/bj/lugandatranslator/Home;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/SplashScreen$1;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.bj.lugandatranslator.Home",
+                    "d",
+                    "Rotate counter clockwise"
+                ]
+            ]
+        },
+        "path_13": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/dbhelper/Database;->wordOfDay()Lcom/bj/lugandatranslator/utildata/GetSetClass; <",
+                "> Lcom/bj/lugandatranslator/Home;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/SplashScreen$1;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_14": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/dbhelper/Database;->deleteWordFromHistory(I)V <",
+                "> Lcom/bj/lugandatranslator/adapter/EnglishAdapter$2$1;->onClick(Landroid/content/DialogInterface; <",
+                "> Lcom/bj/lugandatranslator/adapter/EnglishAdapter$2;->onClick(Landroid/view/View;)V <",
+                "> Lcom/bj/lugandatranslator/adapter/EnglishAdapter;->getView(I <",
+                "> Lcom/bj/lugandatranslator/FavOfflineDictionaryActivity$1;->onTextChanged(Ljava/lang/CharSequence; <",
+                "> Lcom/bj/lugandatranslator/FavOfflineDictionaryActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/Home$17;->onClick(Landroid/view/View;)V <",
+                "> Lcom/bj/lugandatranslator/Home;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/SplashScreen$1;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.bj.lugandatranslator.Home",
+                    "imgFav"
+                ],
+                [
+                    "com.bj.lugandatranslator.FavOfflineDictionaryActivity",
+                    "imgDelete"
+                ]
+            ]
+        },
+        "path_15": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/FavOfflineDictionaryActivity$AsyncTaskRunner;->doInBackground([Ljava/lang/Void;)Ljava/lang/Void; <",
+                "> Lcom/bj/lugandatranslator/FavOfflineDictionaryActivity$AsyncTaskRunner;->doInBackground([Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/bj/lugandatranslator/FavOfflineDictionaryActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/Home$17;->onClick(Landroid/view/View;)V <",
+                "> Lcom/bj/lugandatranslator/Home;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/SplashScreen$1;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.bj.lugandatranslator.Home",
+                    "imgFav"
+                ]
+            ]
+        },
+        "path_16": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/quiz/ChooseWordActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/Home$24;->onClick(Landroid/view/View;)V <",
+                "> Lcom/bj/lugandatranslator/Home;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/SplashScreen$1;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.bj.lugandatranslator.Home",
+                    "imgQuiz"
+                ]
+            ]
+        }
+    },
+    "Lcom/bj/lugandatranslator/Home;->setupDrawerToggle()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/Home;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/SplashScreen$1;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/bj/lugandatranslator/MyApplication;->loadAd(Landroid/app/Activity;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/SplashScreen;->loadAppOpen()V <",
+                "> Lcom/bj/lugandatranslator/SplashScreen;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/bj/lugandatranslator/dbhelper/Database;->wordOfDay()Lcom/bj/lugandatranslator/utildata/GetSetClass;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/Home;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/SplashScreen$1;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/bj/lugandatranslator/ManageAds;->loadAdmobNative(Landroid/content/Context;Landroid/widget/RelativeLayout;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/Home;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/SplashScreen$1;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/Read;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/Home$13;->onClick(Landroid/view/View;)V <",
+                "> Lcom/bj/lugandatranslator/Home;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/SplashScreen$1;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.bj.lugandatranslator.Home",
+                    "imgReadNow"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/Speak;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/Home$14;->onClick(Landroid/view/View;)V <",
+                "> Lcom/bj/lugandatranslator/Home;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/SplashScreen$1;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.bj.lugandatranslator.Home",
+                    "imgSpeak"
+                ]
+            ]
+        }
+    },
+    "Lcom/bj/lugandatranslator/SplashScreen;->setStoreToken(Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/SplashScreen;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/bj/lugandatranslator/SplashScreen;->init()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/SplashScreen$3;->onShowAdComplete(Z)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/SplashScreen;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/bj/lugandatranslator/MyApplication$AppOpenAdManager;->showIfAvailableForSplash(Landroid/app/Activity;Lcom/bj/lugandatranslator/MyApplication$OnShowAdCompleteListener;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/MyApplication;->showAdIfAvailableSplash(Landroid/app/Activity; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/bj/lugandatranslator/SplashScreen;->goNext()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/SplashScreen;->access$100(Lcom/bj/lugandatranslator/SplashScreen;)V <",
+                "> Lcom/bj/lugandatranslator/SplashScreen$3;->onShowAdComplete(Z)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/SplashScreen;->isAppOpenAds()V <",
+                "> Lcom/bj/lugandatranslator/SplashScreen;->access$000(Lcom/bj/lugandatranslator/SplashScreen;)V <",
+                "> Lcom/bj/lugandatranslator/SplashScreen$2;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Landroidx/appcompat/app/AppCompatActivity;->onDestroy()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/quiz/DisplayResult;->onDestroy()V <",
+                "> Lcom/bj/lugandatranslator/quiz/ChooseWordActivity;->displayData()V <",
+                "> Lcom/bj/lugandatranslator/quiz/ChooseWordActivity;->setData()V <",
+                "> Lcom/bj/lugandatranslator/quiz/ChooseWordActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/Home$24;->onClick(Landroid/view/View;)V <",
+                "> Lcom/bj/lugandatranslator/Home;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/SplashScreen$1;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.bj.lugandatranslator.Home",
+                    "imgQuiz"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/FavOfflineDictionaryActivity;->onDestroy()V <",
+                "> Lcom/bj/lugandatranslator/Home$17;->onClick(Landroid/view/View;)V <",
+                "> Lcom/bj/lugandatranslator/Home;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/SplashScreen$1;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.bj.lugandatranslator.Home",
+                    "imgFav"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/Read;->onDestroy()V <",
+                "> Lcom/bj/lugandatranslator/Home$13;->onClick(Landroid/view/View;)V <",
+                "> Lcom/bj/lugandatranslator/Home;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/SplashScreen$1;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.bj.lugandatranslator.Home",
+                    "imgReadNow"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/MyAddedOfflineDictionaryActivity;->onDestroy()V <",
+                "> Lcom/bj/lugandatranslator/Home;->gotoMyAdded()V <",
+                "> Lcom/bj/lugandatranslator/Home;->access$500(Lcom/bj/lugandatranslator/Home;)V <",
+                "> Lcom/bj/lugandatranslator/Home$26;->onPermissionsChecked(Lcom/karumi/dexter/MultiplePermissionsReport;)V <",
+                "> Lcom/bj/lugandatranslator/Home;->askPermission(Ljava/lang/String;)V <",
+                "> Lcom/bj/lugandatranslator/Home$22;->onClick(Landroid/view/View;)V <",
+                "> Lcom/bj/lugandatranslator/Home;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/SplashScreen$1;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.bj.lugandatranslator.Home",
+                    "imgGalleryTransator"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/OfflineDictionaryActivity;->onDestroy()V <",
+                "> Lcom/bj/lugandatranslator/Home;->goDictionary()V <",
+                "> Lcom/bj/lugandatranslator/Home$19;->onClick(Landroid/view/View;)V <",
+                "> Lcom/bj/lugandatranslator/Home;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/SplashScreen$1;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.bj.lugandatranslator.Home",
+                    "imgDictionary"
+                ]
+            ]
+        },
+        "path_5": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/Speak;->onDestroy()V <",
+                "> Lcom/bj/lugandatranslator/Home$14;->onClick(Landroid/view/View;)V <",
+                "> Lcom/bj/lugandatranslator/Home;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/SplashScreen$1;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.bj.lugandatranslator.Home",
+                    "imgSpeak"
+                ]
+            ]
+        },
+        "path_6": {
+            "call_sequence": [
+                "> Lcom/bj/lugandatranslator/TextLangaugeActivity;->onDestroy()V <",
+                "> Lcom/bj/lugandatranslator/Home;->goTranslate()V <",
+                "> Lcom/bj/lugandatranslator/Home$15;->onClick(Landroid/view/View;)V <",
+                "> Lcom/bj/lugandatranslator/Home;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bj/lugandatranslator/SplashScreen$1;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.bj.lugandatranslator.Home",
+                    "imgLangTranslator"
+                ]
+            ]
+        }
+    }
+}

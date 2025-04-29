@@ -1,0 +1,17 @@
+MISSING ID > Litkach/aard2/MainActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <
+COMPONENT CONCAT > Litkach/aard2/SlobDescriptorList;->addAll(ILjava/util/Collection;)Z < extends Ljava/util/AbstractList, implements []
+COMPONENT CONCAT > Litkach/aard2/BlobDescriptorList;->get(I)Ljava/lang/Object; < extends Ljava/util/AbstractList, implements []
+COMPONENT CONCAT > Litkach/aard2/SlobDescriptorList;->clear()V < extends Ljava/util/AbstractList, implements []
+MISSING ID > Litkach/aard2/ArticleFragment;->onPrepareOptionsMenu(Landroid/view/Menu;)V <
+COMPONENT CONCAT > Litkach/aard2/CheckableRelativeLayout;->onFinishInflate()V < extends Landroid/widget/RelativeLayout, implements ['Landroid/widget/Checkable']
+COMPONENT CONCAT > Litkach/aard2/ArticleCollectionActivity$3;->convert(Ljava/lang/Object;)Litkach/slob/Slob$Blob; < extends Ljava/lang/Object, implements ['Litkach/aard2/ArticleCollectionActivity$ToBlob']
+COMPONENT CONCAT > Litkach/aard2/ArticleCollectionActivity$4;->convert(Ljava/lang/Object;)Litkach/slob/Slob$Blob; < extends Ljava/lang/Object, implements ['Litkach/aard2/ArticleCollectionActivity$ToBlob']
+MISSING ID > Litkach/aard2/MainActivity$HistoryFragment;->onPrepareOptionsMenu(Landroid/view/Menu;)V <
+MISSING ID > Litkach/aard2/BlobDescriptorListFragment;->onPrepareOptionsMenu(Landroid/view/Menu;)V <
+COMPONENT CONCAT > Litkach/aard2/SlobDescriptorList;->add(ILitkach/aard2/BaseDescriptor;)V < extends Ljava/util/AbstractList, implements []
+MISSING ID > Litkach/aard2/ArticleCollectionActivity;->onKeyUp(ILandroid/view/KeyEvent;)Z <
+MISSING ID > Litkach/aard2/ArticleCollectionActivity;->onKeyLongPress(ILandroid/view/KeyEvent;)Z <
+MISSING ID > Litkach/aard2/MainActivity$HistoryFragment;->onCreateOptionsMenu(Landroid/view/Menu;Landroid/view/MenuInflater;)V <
+MISSING ID > Litkach/aard2/MainActivity$BookmarksFragment;->onCreateOptionsMenu(Landroid/view/Menu;Landroid/view/MenuInflater;)V <
+MISSING ID > Litkach/aard2/MainActivity$BookmarksFragment;->onPrepareOptionsMenu(Landroid/view/Menu;)V <
+MISSING ID > Litkach/aard2/MainActivity;->onKeyUp(ILandroid/view/KeyEvent;)Z <

@@ -1,0 +1,3164 @@
+{
+    "Lcom/a1573595/musicplayer/songList/SongListActivity$b;->g(Ljava/lang/Object;)Ljava/lang/Object;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity$b;->c(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/a1573595/musicplayer/player/PlayerService$a;-><init>(Lcom/a1573595/musicplayer/player/PlayerService;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/a1573595/musicplayer/player/PlayerService;->onCreate()V <",
+                "> Lc1/e;->onStart()V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/a1573595/musicplayer/songList/SongListActivity$d;-><init>(Lcom/a1573595/musicplayer/songList/SongListActivity;Lf1/a;ZLn2/d;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->j(Lf1/a;Z)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity$d;->e(Ljava/lang/Object;Ln2/d;)Ln2/d; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/a1573595/musicplayer/player/PlayerService;->b()Lf1/a;": {
+        "path_0": {
+            "call_sequence": [
+                "> Li1/g;->a()V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->D()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lg1/d;->a()V <",
+                "> Lcom/a1573595/musicplayer/playSong/PlaySongActivity;->D()V <",
+                "> Li1/a;->onClick(Landroid/view/View;)V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->C(Lcom/a1573595/musicplayer/player/PlayerService;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/a1573595/musicplayer/player/PlayerService;->propertyChange(Ljava/beans/PropertyChangeEvent;)V <",
+                "> Lc1/e;->onStart()V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/a1573595/musicplayer/player/PlayerService$b;-><init>(Lcom/a1573595/musicplayer/player/PlayerService;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/a1573595/musicplayer/player/PlayerService;-><init>()V <",
+                "> Lc1/e;->onStart()V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/a1573595/musicplayer/player/PlayerService;->e(Lcom/a1573595/musicplayer/player/PlayerService;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/a1573595/musicplayer/player/PlayerService;->d(I)V <",
+                "> Lcom/a1573595/musicplayer/player/PlayerService$b;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "notification.CANCEL",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/a1573595/musicplayer/player/PlayerService;->d(I)V <",
+                "> Lg1/b;->onClick(Landroid/view/View;)V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->C(Lcom/a1573595/musicplayer/player/PlayerService;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/a1573595/musicplayer/player/PlayerService;->d(I)V <",
+                "> Lc1/e;->onRequestPermissionsResult(I[Ljava/lang/String;[I)V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/a1573595/musicplayer/songList/SongListActivity$b;->e(Ljava/lang/Object;Ln2/d;)Ln2/d;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity$b;->c(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/a1573595/musicplayer/songList/SongListActivity$d;->e(Ljava/lang/Object;Ln2/d;)Ln2/d;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity$d;->c(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/a1573595/musicplayer/player/PlayerService;->g()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lg1/b;->onClick(Landroid/view/View;)V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->C(Lcom/a1573595/musicplayer/player/PlayerService;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/a1573595/musicplayer/player/PlayerService$b;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "notification.CANCEL",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/a1573595/musicplayer/playSong/PlaySongActivity;->D()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/a1573595/musicplayer/playSong/PlaySongActivity;->propertyChange(Ljava/beans/PropertyChangeEvent;)V <",
+                "> Li1/a;->onClick(Landroid/view/View;)V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->C(Lcom/a1573595/musicplayer/player/PlayerService;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/a1573595/musicplayer/songList/SongListActivity$d;->g(Ljava/lang/Object;)Ljava/lang/Object;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity$d;->c(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/a1573595/musicplayer/songList/SongListActivity$c;-><init>(Lcom/a1573595/musicplayer/songList/SongListActivity;Ln2/d;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity$c;->e(Ljava/lang/Object;Ln2/d;)Ln2/d; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->d()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/a1573595/musicplayer/player/PlayerService;->d(I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lg1/c;->onStopTrackingTouch(Landroid/widget/SeekBar;)V <",
+                "> Lcom/a1573595/musicplayer/playSong/PlaySongActivity;->C(Lcom/a1573595/musicplayer/player/PlayerService;)V <",
+                "> Li1/a;->onClick(Landroid/view/View;)V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->C(Lcom/a1573595/musicplayer/player/PlayerService;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Li1/e;->onClick(Landroid/view/View;)V <",
+                "> Li1/f$a;-><init>(Li1/f;Le1/c;)V <",
+                "> Li1/f;->d(Landroidx/recyclerview/widget/RecyclerView;)Landroidx/recyclerview/widget/RecyclerView$a0; <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/a1573595/musicplayer/player/PlayerService$b;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "notification.CANCEL",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/a1573595/musicplayer/player/PlayerService;->e(Lcom/a1573595/musicplayer/player/PlayerService;)V <",
+                "> Lcom/a1573595/musicplayer/player/PlayerService;->d(I)V <",
+                "> Lcom/a1573595/musicplayer/player/PlayerService$b;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "notification.CANCEL",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lcom/a1573595/musicplayer/player/PlayerService;->e(Lcom/a1573595/musicplayer/player/PlayerService;)V <",
+                "> Lc1/e;->onStart()V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_5": {
+            "call_sequence": [
+                "> Lcom/a1573595/musicplayer/player/PlayerService;->f()V <",
+                "> Lcom/a1573595/musicplayer/player/PlayerService$b;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "notification.CANCEL",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_6": {
+            "call_sequence": [
+                "> Lcom/a1573595/musicplayer/player/PlayerService;->f()V <",
+                "> Lg1/b;->onClick(Landroid/view/View;)V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->C(Lcom/a1573595/musicplayer/player/PlayerService;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_7": {
+            "call_sequence": [
+                "> Lcom/a1573595/musicplayer/player/PlayerService;->f()V <",
+                "> Lc1/e;->onRequestPermissionsResult(I[Ljava/lang/String;[I)V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_8": {
+            "call_sequence": [
+                "> Lcom/a1573595/musicplayer/player/PlayerService;->g()V <",
+                "> Lcom/a1573595/musicplayer/player/PlayerService$b;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "notification.CANCEL",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_9": {
+            "call_sequence": [
+                "> Lcom/a1573595/musicplayer/player/PlayerService;->g()V <",
+                "> Lg1/b;->onClick(Landroid/view/View;)V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->C(Lcom/a1573595/musicplayer/player/PlayerService;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_10": {
+            "call_sequence": [
+                "> Lcom/a1573595/musicplayer/player/PlayerService;->g()V <",
+                "> Lc1/e;->onRequestPermissionsResult(I[Ljava/lang/String;[I)V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_11": {
+            "call_sequence": [
+                "> Lcom/a1573595/musicplayer/player/PlayerService;->propertyChange(Ljava/beans/PropertyChangeEvent;)V <",
+                "> Lc1/e;->onStart()V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_12": {
+            "call_sequence": [
+                "> Lg1/a;->onClick(Landroid/view/View;)V <",
+                "> Lcom/a1573595/musicplayer/playSong/PlaySongActivity;->C(Lcom/a1573595/musicplayer/player/PlayerService;)V <",
+                "> Li1/a;->onClick(Landroid/view/View;)V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->C(Lcom/a1573595/musicplayer/player/PlayerService;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_13": {
+            "call_sequence": [
+                "> Lg1/b;->onClick(Landroid/view/View;)V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->C(Lcom/a1573595/musicplayer/player/PlayerService;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/a1573595/musicplayer/songList/SongListActivity$b;-><init>(Lcom/a1573595/musicplayer/songList/SongListActivity;Ln2/d;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->l()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity$b;->e(Ljava/lang/Object;Ln2/d;)Ln2/d; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/a1573595/musicplayer/songList/SongListActivity$c;->e(Ljava/lang/Object;Ln2/d;)Ln2/d;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity$c;->c(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/a1573595/musicplayer/player/PlayerService;->c()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lg1/b;->onClick(Landroid/view/View;)V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->C(Lcom/a1573595/musicplayer/player/PlayerService;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lg1/a;->onClick(Landroid/view/View;)V <",
+                "> Lcom/a1573595/musicplayer/playSong/PlaySongActivity;->C(Lcom/a1573595/musicplayer/player/PlayerService;)V <",
+                "> Li1/a;->onClick(Landroid/view/View;)V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->C(Lcom/a1573595/musicplayer/player/PlayerService;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/a1573595/musicplayer/player/PlayerService$b;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "notification.CANCEL",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/a1573595/musicplayer/player/PlayerService$a$a;-><init>(Lcom/a1573595/musicplayer/player/PlayerService;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/a1573595/musicplayer/player/PlayerService$a;-><init>(Lcom/a1573595/musicplayer/player/PlayerService;)V <",
+                "> Lcom/a1573595/musicplayer/player/PlayerService;->onCreate()V <",
+                "> Lc1/e;->onStart()V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/a1573595/musicplayer/songList/SongListActivity$a;-><init>(Lcom/a1573595/musicplayer/songList/SongListActivity;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/a1573595/musicplayer/player/PlayerService;->f()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lg1/b;->onClick(Landroid/view/View;)V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->C(Lcom/a1573595/musicplayer/player/PlayerService;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/a1573595/musicplayer/player/PlayerService;->propertyChange(Ljava/beans/PropertyChangeEvent;)V <",
+                "> Lc1/e;->onStart()V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/a1573595/musicplayer/player/PlayerService$b;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "notification.CANCEL",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/a1573595/musicplayer/player/PlayerService;->a(Ljava/io/FileDescriptor;Ljava/lang/String;Ljava/lang/String;)Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lh1/f;->handleMessage(Landroid/os/Message;)Z <",
+                "> Lcom/a1573595/musicplayer/player/PlayerService;-><init>()V <",
+                "> Lc1/e;->onStart()V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/a1573595/musicplayer/songList/SongListActivity$c;->g(Ljava/lang/Object;)Ljava/lang/Object;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity$c;->c(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/a1573595/musicplayer/player/PlayerService$a$a;->b()Ljava/lang/Object;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lz0/r;-><init>(Lcom/a1573595/musicplayer/player/PlayerService$a$a;)V <",
+                "> Lcom/a1573595/musicplayer/player/PlayerService$a;-><init>(Lcom/a1573595/musicplayer/player/PlayerService;)V <",
+                "> Lcom/a1573595/musicplayer/player/PlayerService;->onCreate()V <",
+                "> Lc1/e;->onStart()V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lz1/m;->c(Landroid/content/Context;[ILjava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lz1/m;->a(Landroid/content/Context;Landroid/util/AttributeSet;II)V <",
+                "> Lz1/m;->d(Landroid/content/Context;Landroid/util/AttributeSet;[III[I)Landroid/content/res/TypedArray; <",
+                "> Lv1/b;-><init>(Landroid/content/Context;I)V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity$b;->g(Ljava/lang/Object;)Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lv2/f;->e(Ljava/lang/Object;Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lh3/a$a;->a([Ljava/lang/Object;)V <",
+                "> Lc1/e$a;->onServiceConnected(Landroid/content/ComponentName;Landroid/os/IBinder;)V <",
+                "> Lc1/e;-><init>()V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lh3/a$a;->c(Ljava/lang/String;[Ljava/lang/Object;)V <",
+                "> Lh1/d;->onError(Landroid/media/MediaPlayer;II)Z <",
+                "> Lh1/e;-><init>()V <",
+                "> Lcom/a1573595/musicplayer/player/PlayerService;-><init>()V <",
+                "> Lc1/e;->onStart()V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lh3/a$a;->d(Ljava/lang/String;[Ljava/lang/Object;)V <",
+                "> Lh1/e;->a(Ljava/lang/String;)V <",
+                "> Lcom/a1573595/musicplayer/player/PlayerService;->c()V <",
+                "> Lcom/a1573595/musicplayer/player/PlayerService$b;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "notification.CANCEL",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lh3/a$a;->d(Ljava/lang/String;[Ljava/lang/Object;)V <",
+                "> Lh1/e;->a(Ljava/lang/String;)V <",
+                "> Lcom/a1573595/musicplayer/player/PlayerService;->c()V <",
+                "> Lg1/b;->onClick(Landroid/view/View;)V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->C(Lcom/a1573595/musicplayer/player/PlayerService;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lm2/g;->contains(Ljava/lang/Object;)Z <",
+                "> Ln/d;->equals(Ljava/lang/Object;)Z <",
+                "> Ln/d;->b([I[Ljava/lang/Object;I)V <",
+                "> Ln/d;->addAll(Ljava/util/Collection;)Z <",
+                "> Lx/p;-><init>(Lx/m;)V <",
+                "> Lcom/a1573595/musicplayer/player/PlayerService;->propertyChange(Ljava/beans/PropertyChangeEvent;)V <",
+                "> Lc1/e;->onStart()V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_5": {
+            "call_sequence": [
+                "> Lm2/g;->contains(Ljava/lang/Object;)Z <",
+                "> Ln/d;->equals(Ljava/lang/Object;)Z <",
+                "> Ln/d;->a(I)V <",
+                "> Ln/d;-><init>(I)V <",
+                "> Lx/p;-><init>(Lx/m;)V <",
+                "> Lcom/a1573595/musicplayer/player/PlayerService;->propertyChange(Ljava/beans/PropertyChangeEvent;)V <",
+                "> Lc1/e;->onStart()V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_6": {
+            "call_sequence": [
+                "> Lm2/g;->contains(Ljava/lang/Object;)Z <",
+                "> Ln/d;->equals(Ljava/lang/Object;)Z <",
+                "> Ln/d;->a(I)V <",
+                "> Ln/d;->addAll(Ljava/util/Collection;)Z <",
+                "> Lx/p;-><init>(Lx/m;)V <",
+                "> Lcom/a1573595/musicplayer/player/PlayerService;->propertyChange(Ljava/beans/PropertyChangeEvent;)V <",
+                "> Lc1/e;->onRequestPermissionsResult(I[Ljava/lang/String;[I)V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_7": {
+            "call_sequence": [
+                "> Lm2/g;->contains(Ljava/lang/Object;)Z <",
+                "> Ln/d;->equals(Ljava/lang/Object;)Z <",
+                "> Ln/d;->b([I[Ljava/lang/Object;I)V <",
+                "> Ln/d;->add(Ljava/lang/Object;)Z <",
+                "> Ld/k;->k()V <",
+                "> Ld/q;->e()Ld/j; <",
+                "> Ld/q;->dismiss()V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->onDestroy()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_8": {
+            "call_sequence": [
+                "> Lm2/g;->contains(Ljava/lang/Object;)Z <",
+                "> Ln/d;->equals(Ljava/lang/Object;)Z <",
+                "> Ln/d;->b([I[Ljava/lang/Object;I)V <",
+                "> Ln/d;->add(Ljava/lang/Object;)Z <",
+                "> Ld/k;->k()V <",
+                "> Ld/q;->e()Ld/j; <",
+                "> Ld/q;->dismiss()V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity$c;->g(Ljava/lang/Object;)Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_9": {
+            "call_sequence": [
+                "> Lm2/g;->containsAll(Ljava/util/Collection;)Z <",
+                "> Ln/g;->j(Ljava/util/Set;Ljava/lang/Object;)Z <",
+                "> Ln/g$c;->equals(Ljava/lang/Object;)Z <",
+                "> Ln/d;->iterator()Ljava/util/Iterator; <",
+                "> Ld/j;->p(Ld/j;)V <",
+                "> Ld/k;->k()V <",
+                "> Ld/q;->e()Ld/j; <",
+                "> Ld/q;->dismiss()V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->onDestroy()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_10": {
+            "call_sequence": [
+                "> Lm2/g;->containsAll(Ljava/util/Collection;)Z <",
+                "> Ln/g;->j(Ljava/util/Set;Ljava/lang/Object;)Z <",
+                "> Ln/g$c;->equals(Ljava/lang/Object;)Z <",
+                "> Ln/d;->iterator()Ljava/util/Iterator; <",
+                "> Ld/j;->p(Ld/j;)V <",
+                "> Ld/k;->k()V <",
+                "> Ld/q;->e()Ld/j; <",
+                "> Ld/q;->dismiss()V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity$c;->g(Ljava/lang/Object;)Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_11": {
+            "call_sequence": [
+                "> Lm2/g;->containsAll(Ljava/util/Collection;)Z <",
+                "> Ln/g;->j(Ljava/util/Set;Ljava/lang/Object;)Z <",
+                "> Ln/g$c;->equals(Ljava/lang/Object;)Z <",
+                "> Ln/d;->iterator()Ljava/util/Iterator; <",
+                "> Ld/j;->p(Ld/j;)V <",
+                "> Ld/k;->k()V <",
+                "> Ld/h;->x()Ld/j; <",
+                "> Ld/h;->setContentView(Landroid/view/View;)V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_12": {
+            "call_sequence": [
+                "> Lw0/b;->b(Ljava/lang/String;Lw0/b$b;)V <",
+                "> Ld/h;-><init>()V <",
+                "> Lc1/a;-><init>()V <",
+                "> Lc1/e;-><init>()V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_13": {
+            "call_sequence": [
+                "> Li1/g;-><init>(Li1/i;)V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->y()Lc1/b; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_14": {
+            "call_sequence": [
+                "> Li1/g;->b(Ljava/lang/String;)V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->propertyChange(Ljava/beans/PropertyChangeEvent;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_15": {
+            "call_sequence": [
+                "> Lc1/b;-><init>(Lc1/f;)V <",
+                "> Li1/g;-><init>(Li1/i;)V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->y()Lc1/b; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_16": {
+            "call_sequence": [
+                "> Lc1/c;->onClick(Landroid/content/DialogInterface;I)V <",
+                "> Lc1/e;->onRequestPermissionsResult(I[Ljava/lang/String;[I)V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_17": {
+            "call_sequence": [
+                "> Lc1/d;->onClick(Landroid/content/DialogInterface;I)V <",
+                "> Lc1/e;->onRequestPermissionsResult(I[Ljava/lang/String;[I)V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_18": {
+            "call_sequence": [
+                "> Lc1/e$a;->onServiceConnected(Landroid/content/ComponentName;Landroid/os/IBinder;)V <",
+                "> Lc1/e;-><init>()V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_19": {
+            "call_sequence": [
+                "> Lh1/b;->onPrepared(Landroid/media/MediaPlayer;)V <",
+                "> Lh1/e;-><init>()V <",
+                "> Lcom/a1573595/musicplayer/player/PlayerService;-><init>()V <",
+                "> Lc1/e;->onStart()V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_20": {
+            "call_sequence": [
+                "> Lh1/c;->onCompletion(Landroid/media/MediaPlayer;)V <",
+                "> Lh1/e;-><init>()V <",
+                "> Lcom/a1573595/musicplayer/player/PlayerService;-><init>()V <",
+                "> Lc1/e;->onStart()V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_21": {
+            "call_sequence": [
+                "> Lh1/f;->handleMessage(Landroid/os/Message;)Z <",
+                "> Lcom/a1573595/musicplayer/player/PlayerService;-><init>()V <",
+                "> Lc1/e;->onStart()V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_22": {
+            "call_sequence": [
+                "> Lg1/a;->onClick(Landroid/view/View;)V <",
+                "> Lcom/a1573595/musicplayer/playSong/PlaySongActivity;->C(Lcom/a1573595/musicplayer/player/PlayerService;)V <",
+                "> Li1/a;->onClick(Landroid/view/View;)V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->C(Lcom/a1573595/musicplayer/player/PlayerService;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_23": {
+            "call_sequence": [
+                "> Lg1/b;->onClick(Landroid/view/View;)V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->C(Lcom/a1573595/musicplayer/player/PlayerService;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_24": {
+            "call_sequence": [
+                "> Lg1/c;->onProgressChanged(Landroid/widget/SeekBar;IZ)V <",
+                "> Lcom/a1573595/musicplayer/playSong/PlaySongActivity;->C(Lcom/a1573595/musicplayer/player/PlayerService;)V <",
+                "> Li1/a;->onClick(Landroid/view/View;)V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->C(Lcom/a1573595/musicplayer/player/PlayerService;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_25": {
+            "call_sequence": [
+                "> Lg1/c;->onStartTrackingTouch(Landroid/widget/SeekBar;)V <",
+                "> Lcom/a1573595/musicplayer/playSong/PlaySongActivity;->C(Lcom/a1573595/musicplayer/player/PlayerService;)V <",
+                "> Li1/a;->onClick(Landroid/view/View;)V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->C(Lcom/a1573595/musicplayer/player/PlayerService;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_26": {
+            "call_sequence": [
+                "> Lg1/c;->onStopTrackingTouch(Landroid/widget/SeekBar;)V <",
+                "> Lcom/a1573595/musicplayer/playSong/PlaySongActivity;->C(Lcom/a1573595/musicplayer/player/PlayerService;)V <",
+                "> Li1/a;->onClick(Landroid/view/View;)V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->C(Lcom/a1573595/musicplayer/player/PlayerService;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_27": {
+            "call_sequence": [
+                "> Lcom/a1573595/musicplayer/player/PlayerService;->d(I)V <",
+                "> Lcom/a1573595/musicplayer/player/PlayerService$b;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "notification.CANCEL",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_28": {
+            "call_sequence": [
+                "> Lcom/a1573595/musicplayer/player/PlayerService;->d(I)V <",
+                "> Lg1/b;->onClick(Landroid/view/View;)V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->C(Lcom/a1573595/musicplayer/player/PlayerService;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_29": {
+            "call_sequence": [
+                "> Lcom/a1573595/musicplayer/player/PlayerService;->onBind(Landroid/content/Intent;)Landroid/os/IBinder; <",
+                "> Lc1/e;->onStart()V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_30": {
+            "call_sequence": [
+                "> Lcom/a1573595/musicplayer/player/PlayerService;->onTaskRemoved(Landroid/content/Intent;)V <",
+                "> Lc1/e;->onStart()V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_31": {
+            "call_sequence": [
+                "> Lcom/a1573595/musicplayer/player/PlayerService;->propertyChange(Ljava/beans/PropertyChangeEvent;)V <",
+                "> Lc1/e;->onStart()V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_32": {
+            "call_sequence": [
+                "> Ld/h;->u()V <",
+                "> Ld/h;->setContentView(Landroid/view/View;)V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_33": {
+            "call_sequence": [
+                "> Li1/f;->d(Landroidx/recyclerview/widget/RecyclerView;)Landroidx/recyclerview/widget/RecyclerView$a0; <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_34": {
+            "call_sequence": [
+                "> Li1/a;->onClick(Landroid/view/View;)V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->C(Lcom/a1573595/musicplayer/player/PlayerService;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_35": {
+            "call_sequence": [
+                "> Ln2/g;->get(Ln2/f$c;)Ln2/f$b; <",
+                "> Li1/g;-><init>(Li1/i;)V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->y()Lc1/b; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_36": {
+            "call_sequence": [
+                "> Li1/e;->onClick(Landroid/view/View;)V <",
+                "> Li1/f$a;-><init>(Li1/f;Le1/c;)V <",
+                "> Li1/f;->d(Landroidx/recyclerview/widget/RecyclerView;)Landroidx/recyclerview/widget/RecyclerView$a0; <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_37": {
+            "call_sequence": [
+                "> Ln2/g;->plus(Ln2/f;)Ln2/f; <",
+                "> Li1/g;-><init>(Li1/i;)V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->y()Lc1/b; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_38": {
+            "call_sequence": [
+                "> Ln2/f$a;->a(Ln2/f;Ln2/f;)Ln2/f; <",
+                "> Ln2/c;->plus(Ln2/f;)Ln2/f; <",
+                "> Li1/g;-><init>(Li1/i;)V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->y()Lc1/b; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_39": {
+            "call_sequence": [
+                "> Ln2/a;->plus(Ln2/f;)Ln2/f; <",
+                "> Li1/g;-><init>(Li1/i;)V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->y()Lc1/b; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_40": {
+            "call_sequence": [
+                "> Lb3/d;->g0(Ljava/lang/String;Ljava/lang/String;)Z <",
+                "> Li1/g$a;->g(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Li1/g$a;->c(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Li1/g;->b(Ljava/lang/String;)V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->propertyChange(Ljava/beans/PropertyChangeEvent;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_41": {
+            "call_sequence": [
+                "> Lb3/d;->h0(Ljava/lang/CharSequence;Ljava/lang/String;ZI)I <",
+                "> Lb3/d;->g0(Ljava/lang/String;Ljava/lang/String;)Z <",
+                "> Li1/g$a;->g(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Li1/g$a;->c(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Li1/g;->b(Ljava/lang/String;)V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->propertyChange(Ljava/beans/PropertyChangeEvent;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_42": {
+            "call_sequence": [
+                "> Lc1/a;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lc1/e;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_43": {
+            "call_sequence": [
+                "> Lp2/a;->e(Ljava/lang/Object;Ln2/d;)Ln2/d; <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity$b;->c(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_44": {
+            "call_sequence": [
+                "> Lp2/a;->e(Ljava/lang/Object;Ln2/d;)Ln2/d; <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity$d;->c(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_45": {
+            "call_sequence": [
+                "> Lm2/c;->g0(Ljava/lang/Iterable;Ljava/util/AbstractCollection;)V <",
+                "> Lm2/c;->h0(Ljava/lang/Iterable;)Ljava/util/List; <",
+                "> Li1/g$a;->g(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Li1/g$a;->c(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Li1/g;->b(Ljava/lang/String;)V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->propertyChange(Ljava/beans/PropertyChangeEvent;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_46": {
+            "call_sequence": [
+                "> Lm2/c;->h0(Ljava/lang/Iterable;)Ljava/util/List; <",
+                "> Li1/g$a;->g(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Li1/g$a;->c(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Li1/g;->b(Ljava/lang/String;)V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->propertyChange(Ljava/beans/PropertyChangeEvent;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_47": {
+            "call_sequence": [
+                "> Lc1/e;->onRequestPermissionsResult(I[Ljava/lang/String;[I)V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_48": {
+            "call_sequence": [
+                "> Lg1/d;-><init>(Lg1/e;)V <",
+                "> Lcom/a1573595/musicplayer/playSong/PlaySongActivity;->y()Lc1/b; <",
+                "> Li1/a;->onClick(Landroid/view/View;)V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->C(Lcom/a1573595/musicplayer/player/PlayerService;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_49": {
+            "call_sequence": [
+                "> Ld1/b;->onAnimationUpdate(Landroid/animation/ValueAnimator;)V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity$b;->g(Ljava/lang/Object;)Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_50": {
+            "call_sequence": [
+                "> Lcom/a1573595/musicplayer/playSong/PlaySongActivity;->propertyChange(Ljava/beans/PropertyChangeEvent;)V <",
+                "> Li1/a;->onClick(Landroid/view/View;)V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->C(Lcom/a1573595/musicplayer/player/PlayerService;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_51": {
+            "call_sequence": [
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->propertyChange(Ljava/beans/PropertyChangeEvent;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lc0/b;->getTooltipText()Ljava/lang/CharSequence;": {
+        "path_0": {
+            "call_sequence": [
+                "> Li/c;->getTooltipText()Ljava/lang/CharSequence; <",
+                "> Lh/e$a;->a(Lh/a;Landroid/view/MenuItem;)Z <",
+                "> Ld/k$f;->b(Landroid/view/ActionMode$Callback;)Lh/e; <",
+                "> Ld/k$f;->onWindowStartingActionMode(Landroid/view/ActionMode$Callback;)Landroid/view/ActionMode; <",
+                "> Ld/k;->x(Landroid/view/Window;)V <",
+                "> Ld/k;-><init>(Landroid/content/Context;Landroid/view/Window;Ld/i;Ljava/lang/Object;)V <",
+                "> Ld/q;->e()Ld/j; <",
+                "> Ld/q;->dismiss()V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->onDestroy()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Li/c;->getTooltipText()Ljava/lang/CharSequence; <",
+                "> Lh/e$a;->a(Lh/a;Landroid/view/MenuItem;)Z <",
+                "> Ld/k$f;->b(Landroid/view/ActionMode$Callback;)Lh/e; <",
+                "> Ld/k$f;->onWindowStartingActionMode(Landroid/view/ActionMode$Callback;)Landroid/view/ActionMode; <",
+                "> Ld/k;->x(Landroid/view/Window;)V <",
+                "> Ld/k;-><init>(Landroid/content/Context;Landroid/view/Window;Ld/i;Ljava/lang/Object;)V <",
+                "> Ld/q;->e()Ld/j; <",
+                "> Ld/q;->dismiss()V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity$c;->g(Ljava/lang/Object;)Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Li/c;->getTooltipText()Ljava/lang/CharSequence; <",
+                "> Lh/e$a;->a(Lh/a;Landroid/view/MenuItem;)Z <",
+                "> Ld/k$f;->b(Landroid/view/ActionMode$Callback;)Lh/e; <",
+                "> Ld/k$f;->onWindowStartingActionMode(Landroid/view/ActionMode$Callback;)Landroid/view/ActionMode; <",
+                "> Ld/k;->x(Landroid/view/Window;)V <",
+                "> Ld/k;-><init>(Landroid/content/Context;Landroid/view/Window;Ld/i;Ljava/lang/Object;)V <",
+                "> Ld/h;->x()Ld/j; <",
+                "> Ld/h;->setContentView(Landroid/view/View;)V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lh0/l0$f;->u(Landroid/view/View;)La0/b;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lh0/l0$f;->d(Landroid/view/View;)V <",
+                "> Lh0/l0$g;-><init>(Lh0/l0;Landroid/view/WindowInsets;)V <",
+                "> Lh0/l0;-><init>(Landroid/view/WindowInsets;)V <",
+                "> Lh0/l0;->g(Landroid/view/WindowInsets;Landroid/view/View;)Lh0/l0; <",
+                "> Lh0/x$i$a;->onApplyWindowInsets(Landroid/view/View;Landroid/view/WindowInsets;)Landroid/view/WindowInsets; <",
+                "> Lh0/x$i;->u(Landroid/view/View;Lh0/p;)V <",
+                "> Lcom/a1573595/musicplayer/playSong/PlaySongActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Li1/a;->onClick(Landroid/view/View;)V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->C(Lcom/a1573595/musicplayer/player/PlayerService;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lz0/h;->t(Lz0/o;Lz0/o;Ljava/lang/String;)Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lz0/h;->r(Lz0/o;Lz0/o;)Z <",
+                "> Lz0/l$a;->onPreDraw()Z <",
+                "> Lz0/l;->a(Landroid/view/ViewGroup;Lz0/h;)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->s(ZZ)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->setDefaultHintTextColor(Landroid/content/res/ColorStateList;)V <",
+                "> Li2/p;->b()Lcom/google/android/material/textfield/TextInputLayout; <",
+                "> Li2/p;->onMeasure(II)V <",
+                "> Lcom/google/android/material/theme/MaterialComponentsViewInflater;->a(Landroid/content/Context;Landroid/util/AttributeSet;)Landroidx/appcompat/widget/d; <",
+                "> Ld/k;->onCreateView(Landroid/view/View;Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/k;->onCreateView(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/q;->e()Ld/j; <",
+                "> Ld/q;->dismiss()V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->onDestroy()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lz0/h;->r(Lz0/o;Lz0/o;)Z <",
+                "> Lz0/l$a;->onPreDraw()Z <",
+                "> Lz0/l;->a(Landroid/view/ViewGroup;Lz0/h;)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->s(ZZ)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->setExpandedHintEnabled(Z)V <",
+                "> Li2/p;->b()Lcom/google/android/material/textfield/TextInputLayout; <",
+                "> Li2/p;->onMeasure(II)V <",
+                "> Lcom/google/android/material/theme/MaterialComponentsViewInflater;->a(Landroid/content/Context;Landroid/util/AttributeSet;)Landroidx/appcompat/widget/d; <",
+                "> Ld/k;->onCreateView(Landroid/view/View;Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/k;->onCreateView(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/q;->e()Ld/j; <",
+                "> Ld/q;->dismiss()V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->onDestroy()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lz0/h;->r(Lz0/o;Lz0/o;)Z <",
+                "> Lz0/l$a;->onPreDraw()Z <",
+                "> Lz0/l;->a(Landroid/view/ViewGroup;Lz0/h;)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->s(ZZ)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->drawableStateChanged()V <",
+                "> Li2/p;->b()Lcom/google/android/material/textfield/TextInputLayout; <",
+                "> Li2/p;->getHint()Ljava/lang/CharSequence; <",
+                "> Lcom/google/android/material/theme/MaterialComponentsViewInflater;->a(Landroid/content/Context;Landroid/util/AttributeSet;)Landroidx/appcompat/widget/d; <",
+                "> Ld/k;->onCreateView(Landroid/view/View;Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/k;->onCreateView(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/q;->e()Ld/j; <",
+                "> Ld/q;->dismiss()V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->onDestroy()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lz0/h;->r(Lz0/o;Lz0/o;)Z <",
+                "> Lz0/l$a;->onPreDraw()Z <",
+                "> Lz0/l;->a(Landroid/view/ViewGroup;Lz0/h;)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->s(ZZ)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->setDefaultHintTextColor(Landroid/content/res/ColorStateList;)V <",
+                "> Li2/p;->b()Lcom/google/android/material/textfield/TextInputLayout; <",
+                "> Li2/p;->onAttachedToWindow()V <",
+                "> Lcom/google/android/material/theme/MaterialComponentsViewInflater;->a(Landroid/content/Context;Landroid/util/AttributeSet;)Landroidx/appcompat/widget/d; <",
+                "> Ld/k;->onCreateView(Landroid/view/View;Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/k;->onCreateView(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/q;->e()Ld/j; <",
+                "> Ld/q;->dismiss()V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->onDestroy()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lz0/h;->r(Lz0/o;Lz0/o;)Z <",
+                "> Lz0/l$a;->onPreDraw()Z <",
+                "> Lz0/l;->a(Landroid/view/ViewGroup;Lz0/h;)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->s(ZZ)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->setExpandedHintEnabled(Z)V <",
+                "> Li2/p;->b()Lcom/google/android/material/textfield/TextInputLayout; <",
+                "> Li2/p;->onAttachedToWindow()V <",
+                "> Lcom/google/android/material/theme/MaterialComponentsViewInflater;->a(Landroid/content/Context;Landroid/util/AttributeSet;)Landroidx/appcompat/widget/d; <",
+                "> Ld/k;->onCreateView(Landroid/view/View;Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/k;->onCreateView(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/q;->e()Ld/j; <",
+                "> Ld/q;->dismiss()V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->onDestroy()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_5": {
+            "call_sequence": [
+                "> Lz0/h;->r(Lz0/o;Lz0/o;)Z <",
+                "> Lz0/l$a;->onPreDraw()Z <",
+                "> Lz0/l;->a(Landroid/view/ViewGroup;Lz0/h;)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->s(ZZ)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->drawableStateChanged()V <",
+                "> Li2/p;->b()Lcom/google/android/material/textfield/TextInputLayout; <",
+                "> Li2/p;->onMeasure(II)V <",
+                "> Lcom/google/android/material/theme/MaterialComponentsViewInflater;->a(Landroid/content/Context;Landroid/util/AttributeSet;)Landroidx/appcompat/widget/d; <",
+                "> Ld/k;->onCreateView(Landroid/view/View;Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/k;->onCreateView(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/q;->e()Ld/j; <",
+                "> Ld/q;->dismiss()V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity$c;->g(Ljava/lang/Object;)Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_6": {
+            "call_sequence": [
+                "> Lz0/h;->r(Lz0/o;Lz0/o;)Z <",
+                "> Lz0/l$a;->onPreDraw()Z <",
+                "> Lz0/l;->a(Landroid/view/ViewGroup;Lz0/h;)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->s(ZZ)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->setDefaultHintTextColor(Landroid/content/res/ColorStateList;)V <",
+                "> Li2/p;->b()Lcom/google/android/material/textfield/TextInputLayout; <",
+                "> Li2/p;->getHint()Ljava/lang/CharSequence; <",
+                "> Lcom/google/android/material/theme/MaterialComponentsViewInflater;->a(Landroid/content/Context;Landroid/util/AttributeSet;)Landroidx/appcompat/widget/d; <",
+                "> Ld/k;->onCreateView(Landroid/view/View;Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/k;->onCreateView(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/q;->e()Ld/j; <",
+                "> Ld/q;->dismiss()V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity$c;->g(Ljava/lang/Object;)Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_7": {
+            "call_sequence": [
+                "> Lz0/h;->r(Lz0/o;Lz0/o;)Z <",
+                "> Lz0/l$a;->onPreDraw()Z <",
+                "> Lz0/l;->a(Landroid/view/ViewGroup;Lz0/h;)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->s(ZZ)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->setExpandedHintEnabled(Z)V <",
+                "> Li2/p;->b()Lcom/google/android/material/textfield/TextInputLayout; <",
+                "> Li2/p;->getHint()Ljava/lang/CharSequence; <",
+                "> Lcom/google/android/material/theme/MaterialComponentsViewInflater;->a(Landroid/content/Context;Landroid/util/AttributeSet;)Landroidx/appcompat/widget/d; <",
+                "> Ld/k;->onCreateView(Landroid/view/View;Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/k;->onCreateView(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/q;->e()Ld/j; <",
+                "> Ld/q;->dismiss()V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity$c;->g(Ljava/lang/Object;)Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_8": {
+            "call_sequence": [
+                "> Lz0/h;->r(Lz0/o;Lz0/o;)Z <",
+                "> Lz0/l$a;->onPreDraw()Z <",
+                "> Lz0/l;->a(Landroid/view/ViewGroup;Lz0/h;)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->s(ZZ)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->drawableStateChanged()V <",
+                "> Li2/p;->b()Lcom/google/android/material/textfield/TextInputLayout; <",
+                "> Li2/p;->onAttachedToWindow()V <",
+                "> Lcom/google/android/material/theme/MaterialComponentsViewInflater;->a(Landroid/content/Context;Landroid/util/AttributeSet;)Landroidx/appcompat/widget/d; <",
+                "> Ld/k;->onCreateView(Landroid/view/View;Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/k;->onCreateView(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/q;->e()Ld/j; <",
+                "> Ld/q;->dismiss()V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity$c;->g(Ljava/lang/Object;)Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_9": {
+            "call_sequence": [
+                "> Lz0/h;->r(Lz0/o;Lz0/o;)Z <",
+                "> Lz0/l$a;->onPreDraw()Z <",
+                "> Lz0/l;->a(Landroid/view/ViewGroup;Lz0/h;)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->s(ZZ)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->setDefaultHintTextColor(Landroid/content/res/ColorStateList;)V <",
+                "> Li2/p;->b()Lcom/google/android/material/textfield/TextInputLayout; <",
+                "> Li2/p;->onMeasure(II)V <",
+                "> Lcom/google/android/material/theme/MaterialComponentsViewInflater;->a(Landroid/content/Context;Landroid/util/AttributeSet;)Landroidx/appcompat/widget/d; <",
+                "> Ld/k;->onCreateView(Landroid/view/View;Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/k;->onCreateView(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/h;->x()Ld/j; <",
+                "> Ld/h;->setContentView(Landroid/view/View;)V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_10": {
+            "call_sequence": [
+                "> Lz0/h;->r(Lz0/o;Lz0/o;)Z <",
+                "> Lz0/l$a;->onPreDraw()Z <",
+                "> Lz0/l;->a(Landroid/view/ViewGroup;Lz0/h;)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->s(ZZ)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->setExpandedHintEnabled(Z)V <",
+                "> Li2/p;->b()Lcom/google/android/material/textfield/TextInputLayout; <",
+                "> Li2/p;->onMeasure(II)V <",
+                "> Lcom/google/android/material/theme/MaterialComponentsViewInflater;->a(Landroid/content/Context;Landroid/util/AttributeSet;)Landroidx/appcompat/widget/d; <",
+                "> Ld/k;->onCreateView(Landroid/view/View;Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/k;->onCreateView(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/h;->x()Ld/j; <",
+                "> Ld/h;->setContentView(Landroid/view/View;)V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_11": {
+            "call_sequence": [
+                "> Lz0/h;->r(Lz0/o;Lz0/o;)Z <",
+                "> Lz0/l$a;->onPreDraw()Z <",
+                "> Lz0/l;->a(Landroid/view/ViewGroup;Lz0/h;)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->s(ZZ)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->drawableStateChanged()V <",
+                "> Li2/p;->b()Lcom/google/android/material/textfield/TextInputLayout; <",
+                "> Li2/p;->getHint()Ljava/lang/CharSequence; <",
+                "> Lcom/google/android/material/theme/MaterialComponentsViewInflater;->a(Landroid/content/Context;Landroid/util/AttributeSet;)Landroidx/appcompat/widget/d; <",
+                "> Ld/k;->onCreateView(Landroid/view/View;Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/k;->onCreateView(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/h;->x()Ld/j; <",
+                "> Ld/h;->setContentView(Landroid/view/View;)V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_12": {
+            "call_sequence": [
+                "> Lz0/h;->r(Lz0/o;Lz0/o;)Z <",
+                "> Lz0/l$a;->onPreDraw()Z <",
+                "> Lz0/l;->a(Landroid/view/ViewGroup;Lz0/h;)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->s(ZZ)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->setDefaultHintTextColor(Landroid/content/res/ColorStateList;)V <",
+                "> Li2/p;->b()Lcom/google/android/material/textfield/TextInputLayout; <",
+                "> Li2/p;->onAttachedToWindow()V <",
+                "> Lcom/google/android/material/theme/MaterialComponentsViewInflater;->a(Landroid/content/Context;Landroid/util/AttributeSet;)Landroidx/appcompat/widget/d; <",
+                "> Ld/k;->onCreateView(Landroid/view/View;Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/k;->onCreateView(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/h;->x()Ld/j; <",
+                "> Ld/h;->setContentView(Landroid/view/View;)V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_13": {
+            "call_sequence": [
+                "> Lz0/h;->r(Lz0/o;Lz0/o;)Z <",
+                "> Lz0/l$a;->onPreDraw()Z <",
+                "> Lz0/l;->a(Landroid/view/ViewGroup;Lz0/h;)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->s(ZZ)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->setExpandedHintEnabled(Z)V <",
+                "> Li2/p;->b()Lcom/google/android/material/textfield/TextInputLayout; <",
+                "> Li2/p;->onAttachedToWindow()V <",
+                "> Lcom/google/android/material/theme/MaterialComponentsViewInflater;->a(Landroid/content/Context;Landroid/util/AttributeSet;)Landroidx/appcompat/widget/d; <",
+                "> Ld/k;->onCreateView(Landroid/view/View;Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/k;->onCreateView(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/h;->x()Ld/j; <",
+                "> Ld/h;->setContentView(Landroid/view/View;)V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Li2/e;-><init>(Lcom/google/android/material/textfield/TextInputLayout;I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/google/android/material/textfield/TextInputLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V <",
+                "> Li2/p;->b()Lcom/google/android/material/textfield/TextInputLayout; <",
+                "> Li2/p;->onMeasure(II)V <",
+                "> Lcom/google/android/material/theme/MaterialComponentsViewInflater;->a(Landroid/content/Context;Landroid/util/AttributeSet;)Landroidx/appcompat/widget/d; <",
+                "> Ld/k;->onCreateView(Landroid/view/View;Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/k;->onCreateView(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/q;->e()Ld/j; <",
+                "> Ld/q;->dismiss()V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->onDestroy()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/google/android/material/textfield/TextInputLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V <",
+                "> Li2/p;->b()Lcom/google/android/material/textfield/TextInputLayout; <",
+                "> Li2/p;->onAttachedToWindow()V <",
+                "> Lcom/google/android/material/theme/MaterialComponentsViewInflater;->a(Landroid/content/Context;Landroid/util/AttributeSet;)Landroidx/appcompat/widget/d; <",
+                "> Ld/k;->onCreateView(Landroid/view/View;Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/k;->onCreateView(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/q;->e()Ld/j; <",
+                "> Ld/q;->dismiss()V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->onDestroy()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/google/android/material/textfield/TextInputLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V <",
+                "> Li2/p;->b()Lcom/google/android/material/textfield/TextInputLayout; <",
+                "> Li2/p;->getHint()Ljava/lang/CharSequence; <",
+                "> Lcom/google/android/material/theme/MaterialComponentsViewInflater;->a(Landroid/content/Context;Landroid/util/AttributeSet;)Landroidx/appcompat/widget/d; <",
+                "> Ld/k;->onCreateView(Landroid/view/View;Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/k;->onCreateView(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/q;->e()Ld/j; <",
+                "> Ld/q;->dismiss()V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity$c;->g(Ljava/lang/Object;)Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/google/android/material/textfield/TextInputLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V <",
+                "> Li2/p;->b()Lcom/google/android/material/textfield/TextInputLayout; <",
+                "> Li2/p;->onMeasure(II)V <",
+                "> Lcom/google/android/material/theme/MaterialComponentsViewInflater;->a(Landroid/content/Context;Landroid/util/AttributeSet;)Landroidx/appcompat/widget/d; <",
+                "> Ld/k;->onCreateView(Landroid/view/View;Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/k;->onCreateView(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/h;->x()Ld/j; <",
+                "> Ld/h;->setContentView(Landroid/view/View;)V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lcom/google/android/material/textfield/TextInputLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V <",
+                "> Li2/p;->b()Lcom/google/android/material/textfield/TextInputLayout; <",
+                "> Li2/p;->onAttachedToWindow()V <",
+                "> Lcom/google/android/material/theme/MaterialComponentsViewInflater;->a(Landroid/content/Context;Landroid/util/AttributeSet;)Landroidx/appcompat/widget/d; <",
+                "> Ld/k;->onCreateView(Landroid/view/View;Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/k;->onCreateView(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/h;->x()Ld/j; <",
+                "> Ld/h;->setContentView(Landroid/view/View;)V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lc2/b;->b(Landroid/content/Context;ILjava/lang/String;)I": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/google/android/material/textfield/b;->f(FFFI)Lf2/f; <",
+                "> Lcom/google/android/material/textfield/b;->a()V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->setEndIconMode(I)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->setPasswordVisibilityToggleEnabled(Z)V <",
+                "> Li2/p;->b()Lcom/google/android/material/textfield/TextInputLayout; <",
+                "> Li2/p;->onMeasure(II)V <",
+                "> Lcom/google/android/material/theme/MaterialComponentsViewInflater;->a(Landroid/content/Context;Landroid/util/AttributeSet;)Landroidx/appcompat/widget/d; <",
+                "> Ld/k;->onCreateView(Landroid/view/View;Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/k;->onCreateView(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/q;->e()Ld/j; <",
+                "> Ld/q;->dismiss()V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->onDestroy()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/google/android/material/textfield/b;->f(FFFI)Lf2/f; <",
+                "> Lcom/google/android/material/textfield/b;->a()V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->setEndIconMode(I)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->setPasswordVisibilityToggleEnabled(Z)V <",
+                "> Li2/p;->b()Lcom/google/android/material/textfield/TextInputLayout; <",
+                "> Li2/p;->getHint()Ljava/lang/CharSequence; <",
+                "> Lcom/google/android/material/theme/MaterialComponentsViewInflater;->a(Landroid/content/Context;Landroid/util/AttributeSet;)Landroidx/appcompat/widget/d; <",
+                "> Ld/k;->onCreateView(Landroid/view/View;Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/k;->onCreateView(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/q;->e()Ld/j; <",
+                "> Ld/q;->dismiss()V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->onDestroy()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/google/android/material/textfield/b;->f(FFFI)Lf2/f; <",
+                "> Lcom/google/android/material/textfield/b;->a()V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->setEndIconMode(I)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->setPasswordVisibilityToggleEnabled(Z)V <",
+                "> Li2/p;->b()Lcom/google/android/material/textfield/TextInputLayout; <",
+                "> Li2/p;->onAttachedToWindow()V <",
+                "> Lcom/google/android/material/theme/MaterialComponentsViewInflater;->a(Landroid/content/Context;Landroid/util/AttributeSet;)Landroidx/appcompat/widget/d; <",
+                "> Ld/k;->onCreateView(Landroid/view/View;Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/k;->onCreateView(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/q;->e()Ld/j; <",
+                "> Ld/q;->dismiss()V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->onDestroy()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/google/android/material/textfield/b;->f(FFFI)Lf2/f; <",
+                "> Lcom/google/android/material/textfield/b;->a()V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->setEndIconMode(I)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->setPasswordVisibilityToggleEnabled(Z)V <",
+                "> Li2/p;->b()Lcom/google/android/material/textfield/TextInputLayout; <",
+                "> Li2/p;->onMeasure(II)V <",
+                "> Lcom/google/android/material/theme/MaterialComponentsViewInflater;->a(Landroid/content/Context;Landroid/util/AttributeSet;)Landroidx/appcompat/widget/d; <",
+                "> Ld/k;->onCreateView(Landroid/view/View;Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/k;->onCreateView(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/q;->e()Ld/j; <",
+                "> Ld/q;->dismiss()V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity$c;->g(Ljava/lang/Object;)Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lcom/google/android/material/textfield/b;->f(FFFI)Lf2/f; <",
+                "> Lcom/google/android/material/textfield/b;->a()V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->setEndIconMode(I)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->setPasswordVisibilityToggleEnabled(Z)V <",
+                "> Li2/p;->b()Lcom/google/android/material/textfield/TextInputLayout; <",
+                "> Li2/p;->getHint()Ljava/lang/CharSequence; <",
+                "> Lcom/google/android/material/theme/MaterialComponentsViewInflater;->a(Landroid/content/Context;Landroid/util/AttributeSet;)Landroidx/appcompat/widget/d; <",
+                "> Ld/k;->onCreateView(Landroid/view/View;Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/k;->onCreateView(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/q;->e()Ld/j; <",
+                "> Ld/q;->dismiss()V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity$c;->g(Ljava/lang/Object;)Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_5": {
+            "call_sequence": [
+                "> Lcom/google/android/material/textfield/b;->f(FFFI)Lf2/f; <",
+                "> Lcom/google/android/material/textfield/b;->a()V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->setEndIconMode(I)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->setPasswordVisibilityToggleEnabled(Z)V <",
+                "> Li2/p;->b()Lcom/google/android/material/textfield/TextInputLayout; <",
+                "> Li2/p;->onAttachedToWindow()V <",
+                "> Lcom/google/android/material/theme/MaterialComponentsViewInflater;->a(Landroid/content/Context;Landroid/util/AttributeSet;)Landroidx/appcompat/widget/d; <",
+                "> Ld/k;->onCreateView(Landroid/view/View;Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/k;->onCreateView(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/q;->e()Ld/j; <",
+                "> Ld/q;->dismiss()V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity$c;->g(Ljava/lang/Object;)Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_6": {
+            "call_sequence": [
+                "> Lcom/google/android/material/textfield/b;->f(FFFI)Lf2/f; <",
+                "> Lcom/google/android/material/textfield/b;->a()V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->setEndIconMode(I)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->setPasswordVisibilityToggleEnabled(Z)V <",
+                "> Li2/p;->b()Lcom/google/android/material/textfield/TextInputLayout; <",
+                "> Li2/p;->onMeasure(II)V <",
+                "> Lcom/google/android/material/theme/MaterialComponentsViewInflater;->a(Landroid/content/Context;Landroid/util/AttributeSet;)Landroidx/appcompat/widget/d; <",
+                "> Ld/k;->onCreateView(Landroid/view/View;Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/k;->onCreateView(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/h;->x()Ld/j; <",
+                "> Ld/h;->setContentView(Landroid/view/View;)V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_7": {
+            "call_sequence": [
+                "> Lcom/google/android/material/textfield/b;->f(FFFI)Lf2/f; <",
+                "> Lcom/google/android/material/textfield/b;->a()V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->setEndIconMode(I)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->setPasswordVisibilityToggleEnabled(Z)V <",
+                "> Li2/p;->b()Lcom/google/android/material/textfield/TextInputLayout; <",
+                "> Li2/p;->getHint()Ljava/lang/CharSequence; <",
+                "> Lcom/google/android/material/theme/MaterialComponentsViewInflater;->a(Landroid/content/Context;Landroid/util/AttributeSet;)Landroidx/appcompat/widget/d; <",
+                "> Ld/k;->onCreateView(Landroid/view/View;Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/k;->onCreateView(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/h;->x()Ld/j; <",
+                "> Ld/h;->setContentView(Landroid/view/View;)V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_8": {
+            "call_sequence": [
+                "> Lcom/google/android/material/textfield/b;->f(FFFI)Lf2/f; <",
+                "> Lcom/google/android/material/textfield/b;->a()V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->setEndIconMode(I)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->setPasswordVisibilityToggleEnabled(Z)V <",
+                "> Li2/p;->b()Lcom/google/android/material/textfield/TextInputLayout; <",
+                "> Li2/p;->onAttachedToWindow()V <",
+                "> Lcom/google/android/material/theme/MaterialComponentsViewInflater;->a(Landroid/content/Context;Landroid/util/AttributeSet;)Landroidx/appcompat/widget/d; <",
+                "> Ld/k;->onCreateView(Landroid/view/View;Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/k;->onCreateView(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/h;->x()Ld/j; <",
+                "> Ld/h;->setContentView(Landroid/view/View;)V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_9": {
+            "call_sequence": [
+                "> Lv1/b;-><init>(Landroid/content/Context;I)V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity$b;->g(Ljava/lang/Object;)Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lz0/h;->c(Lz0/p;Landroid/view/View;Lz0/o;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lz0/h;->e(Landroid/view/View;Z)V <",
+                "> Lz0/h;->h(Landroid/view/ViewGroup;Z)V <",
+                "> Lz0/l;->a(Landroid/view/ViewGroup;Lz0/h;)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->s(ZZ)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->setDefaultHintTextColor(Landroid/content/res/ColorStateList;)V <",
+                "> Li2/p;->b()Lcom/google/android/material/textfield/TextInputLayout; <",
+                "> Li2/p;->onMeasure(II)V <",
+                "> Lcom/google/android/material/theme/MaterialComponentsViewInflater;->a(Landroid/content/Context;Landroid/util/AttributeSet;)Landroidx/appcompat/widget/d; <",
+                "> Ld/k;->onCreateView(Landroid/view/View;Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/k;->onCreateView(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/q;->e()Ld/j; <",
+                "> Ld/q;->dismiss()V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->onDestroy()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lz0/h;->e(Landroid/view/View;Z)V <",
+                "> Lz0/h;->h(Landroid/view/ViewGroup;Z)V <",
+                "> Lz0/l;->a(Landroid/view/ViewGroup;Lz0/h;)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->s(ZZ)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->setExpandedHintEnabled(Z)V <",
+                "> Li2/p;->b()Lcom/google/android/material/textfield/TextInputLayout; <",
+                "> Li2/p;->onMeasure(II)V <",
+                "> Lcom/google/android/material/theme/MaterialComponentsViewInflater;->a(Landroid/content/Context;Landroid/util/AttributeSet;)Landroidx/appcompat/widget/d; <",
+                "> Ld/k;->onCreateView(Landroid/view/View;Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/k;->onCreateView(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/q;->e()Ld/j; <",
+                "> Ld/q;->dismiss()V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->onDestroy()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lz0/h;->e(Landroid/view/View;Z)V <",
+                "> Lz0/h;->h(Landroid/view/ViewGroup;Z)V <",
+                "> Lz0/l;->a(Landroid/view/ViewGroup;Lz0/h;)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->s(ZZ)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->drawableStateChanged()V <",
+                "> Li2/p;->b()Lcom/google/android/material/textfield/TextInputLayout; <",
+                "> Li2/p;->getHint()Ljava/lang/CharSequence; <",
+                "> Lcom/google/android/material/theme/MaterialComponentsViewInflater;->a(Landroid/content/Context;Landroid/util/AttributeSet;)Landroidx/appcompat/widget/d; <",
+                "> Ld/k;->onCreateView(Landroid/view/View;Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/k;->onCreateView(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/q;->e()Ld/j; <",
+                "> Ld/q;->dismiss()V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->onDestroy()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lz0/h;->e(Landroid/view/View;Z)V <",
+                "> Lz0/h;->h(Landroid/view/ViewGroup;Z)V <",
+                "> Lz0/l;->a(Landroid/view/ViewGroup;Lz0/h;)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->s(ZZ)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->setDefaultHintTextColor(Landroid/content/res/ColorStateList;)V <",
+                "> Li2/p;->b()Lcom/google/android/material/textfield/TextInputLayout; <",
+                "> Li2/p;->onAttachedToWindow()V <",
+                "> Lcom/google/android/material/theme/MaterialComponentsViewInflater;->a(Landroid/content/Context;Landroid/util/AttributeSet;)Landroidx/appcompat/widget/d; <",
+                "> Ld/k;->onCreateView(Landroid/view/View;Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/k;->onCreateView(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/q;->e()Ld/j; <",
+                "> Ld/q;->dismiss()V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->onDestroy()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lz0/h;->e(Landroid/view/View;Z)V <",
+                "> Lz0/h;->h(Landroid/view/ViewGroup;Z)V <",
+                "> Lz0/l;->a(Landroid/view/ViewGroup;Lz0/h;)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->s(ZZ)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->setExpandedHintEnabled(Z)V <",
+                "> Li2/p;->b()Lcom/google/android/material/textfield/TextInputLayout; <",
+                "> Li2/p;->onAttachedToWindow()V <",
+                "> Lcom/google/android/material/theme/MaterialComponentsViewInflater;->a(Landroid/content/Context;Landroid/util/AttributeSet;)Landroidx/appcompat/widget/d; <",
+                "> Ld/k;->onCreateView(Landroid/view/View;Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/k;->onCreateView(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/q;->e()Ld/j; <",
+                "> Ld/q;->dismiss()V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->onDestroy()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_5": {
+            "call_sequence": [
+                "> Lz0/h;->e(Landroid/view/View;Z)V <",
+                "> Lz0/h;->h(Landroid/view/ViewGroup;Z)V <",
+                "> Lz0/l;->a(Landroid/view/ViewGroup;Lz0/h;)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->s(ZZ)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->drawableStateChanged()V <",
+                "> Li2/p;->b()Lcom/google/android/material/textfield/TextInputLayout; <",
+                "> Li2/p;->onMeasure(II)V <",
+                "> Lcom/google/android/material/theme/MaterialComponentsViewInflater;->a(Landroid/content/Context;Landroid/util/AttributeSet;)Landroidx/appcompat/widget/d; <",
+                "> Ld/k;->onCreateView(Landroid/view/View;Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/k;->onCreateView(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/q;->e()Ld/j; <",
+                "> Ld/q;->dismiss()V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity$c;->g(Ljava/lang/Object;)Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_6": {
+            "call_sequence": [
+                "> Lz0/h;->e(Landroid/view/View;Z)V <",
+                "> Lz0/h;->h(Landroid/view/ViewGroup;Z)V <",
+                "> Lz0/l;->a(Landroid/view/ViewGroup;Lz0/h;)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->s(ZZ)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->setDefaultHintTextColor(Landroid/content/res/ColorStateList;)V <",
+                "> Li2/p;->b()Lcom/google/android/material/textfield/TextInputLayout; <",
+                "> Li2/p;->getHint()Ljava/lang/CharSequence; <",
+                "> Lcom/google/android/material/theme/MaterialComponentsViewInflater;->a(Landroid/content/Context;Landroid/util/AttributeSet;)Landroidx/appcompat/widget/d; <",
+                "> Ld/k;->onCreateView(Landroid/view/View;Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/k;->onCreateView(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/q;->e()Ld/j; <",
+                "> Ld/q;->dismiss()V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity$c;->g(Ljava/lang/Object;)Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_7": {
+            "call_sequence": [
+                "> Lz0/h;->e(Landroid/view/View;Z)V <",
+                "> Lz0/h;->h(Landroid/view/ViewGroup;Z)V <",
+                "> Lz0/l;->a(Landroid/view/ViewGroup;Lz0/h;)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->s(ZZ)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->setExpandedHintEnabled(Z)V <",
+                "> Li2/p;->b()Lcom/google/android/material/textfield/TextInputLayout; <",
+                "> Li2/p;->getHint()Ljava/lang/CharSequence; <",
+                "> Lcom/google/android/material/theme/MaterialComponentsViewInflater;->a(Landroid/content/Context;Landroid/util/AttributeSet;)Landroidx/appcompat/widget/d; <",
+                "> Ld/k;->onCreateView(Landroid/view/View;Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/k;->onCreateView(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/q;->e()Ld/j; <",
+                "> Ld/q;->dismiss()V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity$c;->g(Ljava/lang/Object;)Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_8": {
+            "call_sequence": [
+                "> Lz0/h;->e(Landroid/view/View;Z)V <",
+                "> Lz0/h;->h(Landroid/view/ViewGroup;Z)V <",
+                "> Lz0/l;->a(Landroid/view/ViewGroup;Lz0/h;)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->s(ZZ)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->drawableStateChanged()V <",
+                "> Li2/p;->b()Lcom/google/android/material/textfield/TextInputLayout; <",
+                "> Li2/p;->onAttachedToWindow()V <",
+                "> Lcom/google/android/material/theme/MaterialComponentsViewInflater;->a(Landroid/content/Context;Landroid/util/AttributeSet;)Landroidx/appcompat/widget/d; <",
+                "> Ld/k;->onCreateView(Landroid/view/View;Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/k;->onCreateView(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/q;->e()Ld/j; <",
+                "> Ld/q;->dismiss()V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity$c;->g(Ljava/lang/Object;)Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_9": {
+            "call_sequence": [
+                "> Lz0/h;->e(Landroid/view/View;Z)V <",
+                "> Lz0/h;->h(Landroid/view/ViewGroup;Z)V <",
+                "> Lz0/l;->a(Landroid/view/ViewGroup;Lz0/h;)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->s(ZZ)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->setDefaultHintTextColor(Landroid/content/res/ColorStateList;)V <",
+                "> Li2/p;->b()Lcom/google/android/material/textfield/TextInputLayout; <",
+                "> Li2/p;->onMeasure(II)V <",
+                "> Lcom/google/android/material/theme/MaterialComponentsViewInflater;->a(Landroid/content/Context;Landroid/util/AttributeSet;)Landroidx/appcompat/widget/d; <",
+                "> Ld/k;->onCreateView(Landroid/view/View;Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/k;->onCreateView(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/h;->x()Ld/j; <",
+                "> Ld/h;->setContentView(Landroid/view/View;)V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_10": {
+            "call_sequence": [
+                "> Lz0/h;->e(Landroid/view/View;Z)V <",
+                "> Lz0/h;->h(Landroid/view/ViewGroup;Z)V <",
+                "> Lz0/l;->a(Landroid/view/ViewGroup;Lz0/h;)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->s(ZZ)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->setExpandedHintEnabled(Z)V <",
+                "> Li2/p;->b()Lcom/google/android/material/textfield/TextInputLayout; <",
+                "> Li2/p;->onMeasure(II)V <",
+                "> Lcom/google/android/material/theme/MaterialComponentsViewInflater;->a(Landroid/content/Context;Landroid/util/AttributeSet;)Landroidx/appcompat/widget/d; <",
+                "> Ld/k;->onCreateView(Landroid/view/View;Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/k;->onCreateView(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/h;->x()Ld/j; <",
+                "> Ld/h;->setContentView(Landroid/view/View;)V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_11": {
+            "call_sequence": [
+                "> Lz0/h;->e(Landroid/view/View;Z)V <",
+                "> Lz0/h;->h(Landroid/view/ViewGroup;Z)V <",
+                "> Lz0/l;->a(Landroid/view/ViewGroup;Lz0/h;)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->s(ZZ)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->drawableStateChanged()V <",
+                "> Li2/p;->b()Lcom/google/android/material/textfield/TextInputLayout; <",
+                "> Li2/p;->getHint()Ljava/lang/CharSequence; <",
+                "> Lcom/google/android/material/theme/MaterialComponentsViewInflater;->a(Landroid/content/Context;Landroid/util/AttributeSet;)Landroidx/appcompat/widget/d; <",
+                "> Ld/k;->onCreateView(Landroid/view/View;Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/k;->onCreateView(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/h;->x()Ld/j; <",
+                "> Ld/h;->setContentView(Landroid/view/View;)V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_12": {
+            "call_sequence": [
+                "> Lz0/h;->e(Landroid/view/View;Z)V <",
+                "> Lz0/h;->h(Landroid/view/ViewGroup;Z)V <",
+                "> Lz0/l;->a(Landroid/view/ViewGroup;Lz0/h;)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->s(ZZ)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->setDefaultHintTextColor(Landroid/content/res/ColorStateList;)V <",
+                "> Li2/p;->b()Lcom/google/android/material/textfield/TextInputLayout; <",
+                "> Li2/p;->onAttachedToWindow()V <",
+                "> Lcom/google/android/material/theme/MaterialComponentsViewInflater;->a(Landroid/content/Context;Landroid/util/AttributeSet;)Landroidx/appcompat/widget/d; <",
+                "> Ld/k;->onCreateView(Landroid/view/View;Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/k;->onCreateView(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/h;->x()Ld/j; <",
+                "> Ld/h;->setContentView(Landroid/view/View;)V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_13": {
+            "call_sequence": [
+                "> Lz0/h;->e(Landroid/view/View;Z)V <",
+                "> Lz0/h;->h(Landroid/view/ViewGroup;Z)V <",
+                "> Lz0/l;->a(Landroid/view/ViewGroup;Lz0/h;)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->s(ZZ)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->setExpandedHintEnabled(Z)V <",
+                "> Li2/p;->b()Lcom/google/android/material/textfield/TextInputLayout; <",
+                "> Li2/p;->onAttachedToWindow()V <",
+                "> Lcom/google/android/material/theme/MaterialComponentsViewInflater;->a(Landroid/content/Context;Landroid/util/AttributeSet;)Landroidx/appcompat/widget/d; <",
+                "> Ld/k;->onCreateView(Landroid/view/View;Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/k;->onCreateView(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/h;->x()Ld/j; <",
+                "> Ld/h;->setContentView(Landroid/view/View;)V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_14": {
+            "call_sequence": [
+                "> Lz0/h;->h(Landroid/view/ViewGroup;Z)V <",
+                "> Lz0/l;->a(Landroid/view/ViewGroup;Lz0/h;)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->s(ZZ)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->setDefaultHintTextColor(Landroid/content/res/ColorStateList;)V <",
+                "> Li2/p;->b()Lcom/google/android/material/textfield/TextInputLayout; <",
+                "> Li2/p;->onMeasure(II)V <",
+                "> Lcom/google/android/material/theme/MaterialComponentsViewInflater;->a(Landroid/content/Context;Landroid/util/AttributeSet;)Landroidx/appcompat/widget/d; <",
+                "> Ld/k;->onCreateView(Landroid/view/View;Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/k;->onCreateView(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/q;->e()Ld/j; <",
+                "> Ld/q;->dismiss()V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->onDestroy()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_15": {
+            "call_sequence": [
+                "> Lz0/h;->h(Landroid/view/ViewGroup;Z)V <",
+                "> Lz0/l;->a(Landroid/view/ViewGroup;Lz0/h;)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->s(ZZ)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->setExpandedHintEnabled(Z)V <",
+                "> Li2/p;->b()Lcom/google/android/material/textfield/TextInputLayout; <",
+                "> Li2/p;->onMeasure(II)V <",
+                "> Lcom/google/android/material/theme/MaterialComponentsViewInflater;->a(Landroid/content/Context;Landroid/util/AttributeSet;)Landroidx/appcompat/widget/d; <",
+                "> Ld/k;->onCreateView(Landroid/view/View;Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/k;->onCreateView(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/q;->e()Ld/j; <",
+                "> Ld/q;->dismiss()V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->onDestroy()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_16": {
+            "call_sequence": [
+                "> Lz0/h;->h(Landroid/view/ViewGroup;Z)V <",
+                "> Lz0/l;->a(Landroid/view/ViewGroup;Lz0/h;)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->s(ZZ)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->drawableStateChanged()V <",
+                "> Li2/p;->b()Lcom/google/android/material/textfield/TextInputLayout; <",
+                "> Li2/p;->getHint()Ljava/lang/CharSequence; <",
+                "> Lcom/google/android/material/theme/MaterialComponentsViewInflater;->a(Landroid/content/Context;Landroid/util/AttributeSet;)Landroidx/appcompat/widget/d; <",
+                "> Ld/k;->onCreateView(Landroid/view/View;Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/k;->onCreateView(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/q;->e()Ld/j; <",
+                "> Ld/q;->dismiss()V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->onDestroy()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_17": {
+            "call_sequence": [
+                "> Lz0/h;->h(Landroid/view/ViewGroup;Z)V <",
+                "> Lz0/l;->a(Landroid/view/ViewGroup;Lz0/h;)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->s(ZZ)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->setDefaultHintTextColor(Landroid/content/res/ColorStateList;)V <",
+                "> Li2/p;->b()Lcom/google/android/material/textfield/TextInputLayout; <",
+                "> Li2/p;->onAttachedToWindow()V <",
+                "> Lcom/google/android/material/theme/MaterialComponentsViewInflater;->a(Landroid/content/Context;Landroid/util/AttributeSet;)Landroidx/appcompat/widget/d; <",
+                "> Ld/k;->onCreateView(Landroid/view/View;Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/k;->onCreateView(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/q;->e()Ld/j; <",
+                "> Ld/q;->dismiss()V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->onDestroy()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_18": {
+            "call_sequence": [
+                "> Lz0/h;->h(Landroid/view/ViewGroup;Z)V <",
+                "> Lz0/l;->a(Landroid/view/ViewGroup;Lz0/h;)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->s(ZZ)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->setExpandedHintEnabled(Z)V <",
+                "> Li2/p;->b()Lcom/google/android/material/textfield/TextInputLayout; <",
+                "> Li2/p;->onAttachedToWindow()V <",
+                "> Lcom/google/android/material/theme/MaterialComponentsViewInflater;->a(Landroid/content/Context;Landroid/util/AttributeSet;)Landroidx/appcompat/widget/d; <",
+                "> Ld/k;->onCreateView(Landroid/view/View;Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/k;->onCreateView(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/q;->e()Ld/j; <",
+                "> Ld/q;->dismiss()V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->onDestroy()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_19": {
+            "call_sequence": [
+                "> Lz0/h;->h(Landroid/view/ViewGroup;Z)V <",
+                "> Lz0/l;->a(Landroid/view/ViewGroup;Lz0/h;)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->s(ZZ)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->drawableStateChanged()V <",
+                "> Li2/p;->b()Lcom/google/android/material/textfield/TextInputLayout; <",
+                "> Li2/p;->onMeasure(II)V <",
+                "> Lcom/google/android/material/theme/MaterialComponentsViewInflater;->a(Landroid/content/Context;Landroid/util/AttributeSet;)Landroidx/appcompat/widget/d; <",
+                "> Ld/k;->onCreateView(Landroid/view/View;Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/k;->onCreateView(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/q;->e()Ld/j; <",
+                "> Ld/q;->dismiss()V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity$c;->g(Ljava/lang/Object;)Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_20": {
+            "call_sequence": [
+                "> Lz0/h;->h(Landroid/view/ViewGroup;Z)V <",
+                "> Lz0/l;->a(Landroid/view/ViewGroup;Lz0/h;)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->s(ZZ)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->setDefaultHintTextColor(Landroid/content/res/ColorStateList;)V <",
+                "> Li2/p;->b()Lcom/google/android/material/textfield/TextInputLayout; <",
+                "> Li2/p;->getHint()Ljava/lang/CharSequence; <",
+                "> Lcom/google/android/material/theme/MaterialComponentsViewInflater;->a(Landroid/content/Context;Landroid/util/AttributeSet;)Landroidx/appcompat/widget/d; <",
+                "> Ld/k;->onCreateView(Landroid/view/View;Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/k;->onCreateView(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/q;->e()Ld/j; <",
+                "> Ld/q;->dismiss()V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity$c;->g(Ljava/lang/Object;)Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_21": {
+            "call_sequence": [
+                "> Lz0/h;->h(Landroid/view/ViewGroup;Z)V <",
+                "> Lz0/l;->a(Landroid/view/ViewGroup;Lz0/h;)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->s(ZZ)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->setExpandedHintEnabled(Z)V <",
+                "> Li2/p;->b()Lcom/google/android/material/textfield/TextInputLayout; <",
+                "> Li2/p;->getHint()Ljava/lang/CharSequence; <",
+                "> Lcom/google/android/material/theme/MaterialComponentsViewInflater;->a(Landroid/content/Context;Landroid/util/AttributeSet;)Landroidx/appcompat/widget/d; <",
+                "> Ld/k;->onCreateView(Landroid/view/View;Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/k;->onCreateView(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/q;->e()Ld/j; <",
+                "> Ld/q;->dismiss()V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity$c;->g(Ljava/lang/Object;)Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_22": {
+            "call_sequence": [
+                "> Lz0/h;->h(Landroid/view/ViewGroup;Z)V <",
+                "> Lz0/l;->a(Landroid/view/ViewGroup;Lz0/h;)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->s(ZZ)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->drawableStateChanged()V <",
+                "> Li2/p;->b()Lcom/google/android/material/textfield/TextInputLayout; <",
+                "> Li2/p;->onAttachedToWindow()V <",
+                "> Lcom/google/android/material/theme/MaterialComponentsViewInflater;->a(Landroid/content/Context;Landroid/util/AttributeSet;)Landroidx/appcompat/widget/d; <",
+                "> Ld/k;->onCreateView(Landroid/view/View;Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/k;->onCreateView(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/q;->e()Ld/j; <",
+                "> Ld/q;->dismiss()V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity$c;->g(Ljava/lang/Object;)Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_23": {
+            "call_sequence": [
+                "> Lz0/h;->h(Landroid/view/ViewGroup;Z)V <",
+                "> Lz0/l;->a(Landroid/view/ViewGroup;Lz0/h;)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->s(ZZ)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->setDefaultHintTextColor(Landroid/content/res/ColorStateList;)V <",
+                "> Li2/p;->b()Lcom/google/android/material/textfield/TextInputLayout; <",
+                "> Li2/p;->onMeasure(II)V <",
+                "> Lcom/google/android/material/theme/MaterialComponentsViewInflater;->a(Landroid/content/Context;Landroid/util/AttributeSet;)Landroidx/appcompat/widget/d; <",
+                "> Ld/k;->onCreateView(Landroid/view/View;Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/k;->onCreateView(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/h;->x()Ld/j; <",
+                "> Ld/h;->setContentView(Landroid/view/View;)V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_24": {
+            "call_sequence": [
+                "> Lz0/h;->h(Landroid/view/ViewGroup;Z)V <",
+                "> Lz0/l;->a(Landroid/view/ViewGroup;Lz0/h;)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->s(ZZ)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->setExpandedHintEnabled(Z)V <",
+                "> Li2/p;->b()Lcom/google/android/material/textfield/TextInputLayout; <",
+                "> Li2/p;->onMeasure(II)V <",
+                "> Lcom/google/android/material/theme/MaterialComponentsViewInflater;->a(Landroid/content/Context;Landroid/util/AttributeSet;)Landroidx/appcompat/widget/d; <",
+                "> Ld/k;->onCreateView(Landroid/view/View;Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/k;->onCreateView(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/h;->x()Ld/j; <",
+                "> Ld/h;->setContentView(Landroid/view/View;)V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_25": {
+            "call_sequence": [
+                "> Lz0/h;->h(Landroid/view/ViewGroup;Z)V <",
+                "> Lz0/l;->a(Landroid/view/ViewGroup;Lz0/h;)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->s(ZZ)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->drawableStateChanged()V <",
+                "> Li2/p;->b()Lcom/google/android/material/textfield/TextInputLayout; <",
+                "> Li2/p;->getHint()Ljava/lang/CharSequence; <",
+                "> Lcom/google/android/material/theme/MaterialComponentsViewInflater;->a(Landroid/content/Context;Landroid/util/AttributeSet;)Landroidx/appcompat/widget/d; <",
+                "> Ld/k;->onCreateView(Landroid/view/View;Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/k;->onCreateView(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/h;->x()Ld/j; <",
+                "> Ld/h;->setContentView(Landroid/view/View;)V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_26": {
+            "call_sequence": [
+                "> Lz0/h;->h(Landroid/view/ViewGroup;Z)V <",
+                "> Lz0/l;->a(Landroid/view/ViewGroup;Lz0/h;)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->s(ZZ)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->setDefaultHintTextColor(Landroid/content/res/ColorStateList;)V <",
+                "> Li2/p;->b()Lcom/google/android/material/textfield/TextInputLayout; <",
+                "> Li2/p;->onAttachedToWindow()V <",
+                "> Lcom/google/android/material/theme/MaterialComponentsViewInflater;->a(Landroid/content/Context;Landroid/util/AttributeSet;)Landroidx/appcompat/widget/d; <",
+                "> Ld/k;->onCreateView(Landroid/view/View;Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/k;->onCreateView(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/h;->x()Ld/j; <",
+                "> Ld/h;->setContentView(Landroid/view/View;)V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_27": {
+            "call_sequence": [
+                "> Lz0/h;->h(Landroid/view/ViewGroup;Z)V <",
+                "> Lz0/l;->a(Landroid/view/ViewGroup;Lz0/h;)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->s(ZZ)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->setExpandedHintEnabled(Z)V <",
+                "> Li2/p;->b()Lcom/google/android/material/textfield/TextInputLayout; <",
+                "> Li2/p;->onAttachedToWindow()V <",
+                "> Lcom/google/android/material/theme/MaterialComponentsViewInflater;->a(Landroid/content/Context;Landroid/util/AttributeSet;)Landroidx/appcompat/widget/d; <",
+                "> Ld/k;->onCreateView(Landroid/view/View;Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/k;->onCreateView(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/h;->x()Ld/j; <",
+                "> Ld/h;->setContentView(Landroid/view/View;)V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lz0/b$i;-><init>(Landroid/view/View;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lz0/b;->k(Landroid/view/ViewGroup;Lz0/o;Lz0/o;)Landroid/animation/Animator; <",
+                "> Lz0/h;->l(Landroid/view/ViewGroup;Lz0/p;Lz0/p;Ljava/util/ArrayList;Ljava/util/ArrayList;)V <",
+                "> Lz0/l$a;->onPreDraw()Z <",
+                "> Lz0/l;->a(Landroid/view/ViewGroup;Lz0/h;)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->s(ZZ)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->setDefaultHintTextColor(Landroid/content/res/ColorStateList;)V <",
+                "> Li2/p;->b()Lcom/google/android/material/textfield/TextInputLayout; <",
+                "> Li2/p;->onMeasure(II)V <",
+                "> Lcom/google/android/material/theme/MaterialComponentsViewInflater;->a(Landroid/content/Context;Landroid/util/AttributeSet;)Landroidx/appcompat/widget/d; <",
+                "> Ld/k;->onCreateView(Landroid/view/View;Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/k;->onCreateView(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/q;->e()Ld/j; <",
+                "> Ld/q;->dismiss()V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->onDestroy()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lz0/b;->k(Landroid/view/ViewGroup;Lz0/o;Lz0/o;)Landroid/animation/Animator; <",
+                "> Lz0/h;->l(Landroid/view/ViewGroup;Lz0/p;Lz0/p;Ljava/util/ArrayList;Ljava/util/ArrayList;)V <",
+                "> Lz0/l$a;->onPreDraw()Z <",
+                "> Lz0/l;->a(Landroid/view/ViewGroup;Lz0/h;)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->s(ZZ)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->setExpandedHintEnabled(Z)V <",
+                "> Li2/p;->b()Lcom/google/android/material/textfield/TextInputLayout; <",
+                "> Li2/p;->onMeasure(II)V <",
+                "> Lcom/google/android/material/theme/MaterialComponentsViewInflater;->a(Landroid/content/Context;Landroid/util/AttributeSet;)Landroidx/appcompat/widget/d; <",
+                "> Ld/k;->onCreateView(Landroid/view/View;Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/k;->onCreateView(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/q;->e()Ld/j; <",
+                "> Ld/q;->dismiss()V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->onDestroy()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lz0/b;->k(Landroid/view/ViewGroup;Lz0/o;Lz0/o;)Landroid/animation/Animator; <",
+                "> Lz0/h;->l(Landroid/view/ViewGroup;Lz0/p;Lz0/p;Ljava/util/ArrayList;Ljava/util/ArrayList;)V <",
+                "> Lz0/l$a;->onPreDraw()Z <",
+                "> Lz0/l;->a(Landroid/view/ViewGroup;Lz0/h;)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->s(ZZ)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->drawableStateChanged()V <",
+                "> Li2/p;->b()Lcom/google/android/material/textfield/TextInputLayout; <",
+                "> Li2/p;->getHint()Ljava/lang/CharSequence; <",
+                "> Lcom/google/android/material/theme/MaterialComponentsViewInflater;->a(Landroid/content/Context;Landroid/util/AttributeSet;)Landroidx/appcompat/widget/d; <",
+                "> Ld/k;->onCreateView(Landroid/view/View;Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/k;->onCreateView(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/q;->e()Ld/j; <",
+                "> Ld/q;->dismiss()V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->onDestroy()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lz0/b;->k(Landroid/view/ViewGroup;Lz0/o;Lz0/o;)Landroid/animation/Animator; <",
+                "> Lz0/h;->l(Landroid/view/ViewGroup;Lz0/p;Lz0/p;Ljava/util/ArrayList;Ljava/util/ArrayList;)V <",
+                "> Lz0/l$a;->onPreDraw()Z <",
+                "> Lz0/l;->a(Landroid/view/ViewGroup;Lz0/h;)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->s(ZZ)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->setDefaultHintTextColor(Landroid/content/res/ColorStateList;)V <",
+                "> Li2/p;->b()Lcom/google/android/material/textfield/TextInputLayout; <",
+                "> Li2/p;->onAttachedToWindow()V <",
+                "> Lcom/google/android/material/theme/MaterialComponentsViewInflater;->a(Landroid/content/Context;Landroid/util/AttributeSet;)Landroidx/appcompat/widget/d; <",
+                "> Ld/k;->onCreateView(Landroid/view/View;Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/k;->onCreateView(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/q;->e()Ld/j; <",
+                "> Ld/q;->dismiss()V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->onDestroy()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lz0/b;->k(Landroid/view/ViewGroup;Lz0/o;Lz0/o;)Landroid/animation/Animator; <",
+                "> Lz0/h;->l(Landroid/view/ViewGroup;Lz0/p;Lz0/p;Ljava/util/ArrayList;Ljava/util/ArrayList;)V <",
+                "> Lz0/l$a;->onPreDraw()Z <",
+                "> Lz0/l;->a(Landroid/view/ViewGroup;Lz0/h;)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->s(ZZ)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->setExpandedHintEnabled(Z)V <",
+                "> Li2/p;->b()Lcom/google/android/material/textfield/TextInputLayout; <",
+                "> Li2/p;->onAttachedToWindow()V <",
+                "> Lcom/google/android/material/theme/MaterialComponentsViewInflater;->a(Landroid/content/Context;Landroid/util/AttributeSet;)Landroidx/appcompat/widget/d; <",
+                "> Ld/k;->onCreateView(Landroid/view/View;Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/k;->onCreateView(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/q;->e()Ld/j; <",
+                "> Ld/q;->dismiss()V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->onDestroy()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_5": {
+            "call_sequence": [
+                "> Lz0/b;->k(Landroid/view/ViewGroup;Lz0/o;Lz0/o;)Landroid/animation/Animator; <",
+                "> Lz0/h;->l(Landroid/view/ViewGroup;Lz0/p;Lz0/p;Ljava/util/ArrayList;Ljava/util/ArrayList;)V <",
+                "> Lz0/l$a;->onPreDraw()Z <",
+                "> Lz0/l;->a(Landroid/view/ViewGroup;Lz0/h;)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->s(ZZ)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->drawableStateChanged()V <",
+                "> Li2/p;->b()Lcom/google/android/material/textfield/TextInputLayout; <",
+                "> Li2/p;->onMeasure(II)V <",
+                "> Lcom/google/android/material/theme/MaterialComponentsViewInflater;->a(Landroid/content/Context;Landroid/util/AttributeSet;)Landroidx/appcompat/widget/d; <",
+                "> Ld/k;->onCreateView(Landroid/view/View;Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/k;->onCreateView(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/q;->e()Ld/j; <",
+                "> Ld/q;->dismiss()V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity$c;->g(Ljava/lang/Object;)Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_6": {
+            "call_sequence": [
+                "> Lz0/b;->k(Landroid/view/ViewGroup;Lz0/o;Lz0/o;)Landroid/animation/Animator; <",
+                "> Lz0/h;->l(Landroid/view/ViewGroup;Lz0/p;Lz0/p;Ljava/util/ArrayList;Ljava/util/ArrayList;)V <",
+                "> Lz0/l$a;->onPreDraw()Z <",
+                "> Lz0/l;->a(Landroid/view/ViewGroup;Lz0/h;)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->s(ZZ)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->setDefaultHintTextColor(Landroid/content/res/ColorStateList;)V <",
+                "> Li2/p;->b()Lcom/google/android/material/textfield/TextInputLayout; <",
+                "> Li2/p;->getHint()Ljava/lang/CharSequence; <",
+                "> Lcom/google/android/material/theme/MaterialComponentsViewInflater;->a(Landroid/content/Context;Landroid/util/AttributeSet;)Landroidx/appcompat/widget/d; <",
+                "> Ld/k;->onCreateView(Landroid/view/View;Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/k;->onCreateView(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/q;->e()Ld/j; <",
+                "> Ld/q;->dismiss()V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity$c;->g(Ljava/lang/Object;)Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_7": {
+            "call_sequence": [
+                "> Lz0/b;->k(Landroid/view/ViewGroup;Lz0/o;Lz0/o;)Landroid/animation/Animator; <",
+                "> Lz0/h;->l(Landroid/view/ViewGroup;Lz0/p;Lz0/p;Ljava/util/ArrayList;Ljava/util/ArrayList;)V <",
+                "> Lz0/l$a;->onPreDraw()Z <",
+                "> Lz0/l;->a(Landroid/view/ViewGroup;Lz0/h;)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->s(ZZ)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->setExpandedHintEnabled(Z)V <",
+                "> Li2/p;->b()Lcom/google/android/material/textfield/TextInputLayout; <",
+                "> Li2/p;->getHint()Ljava/lang/CharSequence; <",
+                "> Lcom/google/android/material/theme/MaterialComponentsViewInflater;->a(Landroid/content/Context;Landroid/util/AttributeSet;)Landroidx/appcompat/widget/d; <",
+                "> Ld/k;->onCreateView(Landroid/view/View;Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/k;->onCreateView(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/q;->e()Ld/j; <",
+                "> Ld/q;->dismiss()V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity$c;->g(Ljava/lang/Object;)Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_8": {
+            "call_sequence": [
+                "> Lz0/b;->k(Landroid/view/ViewGroup;Lz0/o;Lz0/o;)Landroid/animation/Animator; <",
+                "> Lz0/h;->l(Landroid/view/ViewGroup;Lz0/p;Lz0/p;Ljava/util/ArrayList;Ljava/util/ArrayList;)V <",
+                "> Lz0/l$a;->onPreDraw()Z <",
+                "> Lz0/l;->a(Landroid/view/ViewGroup;Lz0/h;)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->s(ZZ)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->drawableStateChanged()V <",
+                "> Li2/p;->b()Lcom/google/android/material/textfield/TextInputLayout; <",
+                "> Li2/p;->onAttachedToWindow()V <",
+                "> Lcom/google/android/material/theme/MaterialComponentsViewInflater;->a(Landroid/content/Context;Landroid/util/AttributeSet;)Landroidx/appcompat/widget/d; <",
+                "> Ld/k;->onCreateView(Landroid/view/View;Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/k;->onCreateView(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/q;->e()Ld/j; <",
+                "> Ld/q;->dismiss()V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity$c;->g(Ljava/lang/Object;)Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_9": {
+            "call_sequence": [
+                "> Lz0/b;->k(Landroid/view/ViewGroup;Lz0/o;Lz0/o;)Landroid/animation/Animator; <",
+                "> Lz0/h;->l(Landroid/view/ViewGroup;Lz0/p;Lz0/p;Ljava/util/ArrayList;Ljava/util/ArrayList;)V <",
+                "> Lz0/l$a;->onPreDraw()Z <",
+                "> Lz0/l;->a(Landroid/view/ViewGroup;Lz0/h;)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->s(ZZ)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->setDefaultHintTextColor(Landroid/content/res/ColorStateList;)V <",
+                "> Li2/p;->b()Lcom/google/android/material/textfield/TextInputLayout; <",
+                "> Li2/p;->onMeasure(II)V <",
+                "> Lcom/google/android/material/theme/MaterialComponentsViewInflater;->a(Landroid/content/Context;Landroid/util/AttributeSet;)Landroidx/appcompat/widget/d; <",
+                "> Ld/k;->onCreateView(Landroid/view/View;Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/k;->onCreateView(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/h;->x()Ld/j; <",
+                "> Ld/h;->setContentView(Landroid/view/View;)V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_10": {
+            "call_sequence": [
+                "> Lz0/b;->k(Landroid/view/ViewGroup;Lz0/o;Lz0/o;)Landroid/animation/Animator; <",
+                "> Lz0/h;->l(Landroid/view/ViewGroup;Lz0/p;Lz0/p;Ljava/util/ArrayList;Ljava/util/ArrayList;)V <",
+                "> Lz0/l$a;->onPreDraw()Z <",
+                "> Lz0/l;->a(Landroid/view/ViewGroup;Lz0/h;)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->s(ZZ)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->setExpandedHintEnabled(Z)V <",
+                "> Li2/p;->b()Lcom/google/android/material/textfield/TextInputLayout; <",
+                "> Li2/p;->onMeasure(II)V <",
+                "> Lcom/google/android/material/theme/MaterialComponentsViewInflater;->a(Landroid/content/Context;Landroid/util/AttributeSet;)Landroidx/appcompat/widget/d; <",
+                "> Ld/k;->onCreateView(Landroid/view/View;Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/k;->onCreateView(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/h;->x()Ld/j; <",
+                "> Ld/h;->setContentView(Landroid/view/View;)V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_11": {
+            "call_sequence": [
+                "> Lz0/b;->k(Landroid/view/ViewGroup;Lz0/o;Lz0/o;)Landroid/animation/Animator; <",
+                "> Lz0/h;->l(Landroid/view/ViewGroup;Lz0/p;Lz0/p;Ljava/util/ArrayList;Ljava/util/ArrayList;)V <",
+                "> Lz0/l$a;->onPreDraw()Z <",
+                "> Lz0/l;->a(Landroid/view/ViewGroup;Lz0/h;)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->s(ZZ)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->drawableStateChanged()V <",
+                "> Li2/p;->b()Lcom/google/android/material/textfield/TextInputLayout; <",
+                "> Li2/p;->getHint()Ljava/lang/CharSequence; <",
+                "> Lcom/google/android/material/theme/MaterialComponentsViewInflater;->a(Landroid/content/Context;Landroid/util/AttributeSet;)Landroidx/appcompat/widget/d; <",
+                "> Ld/k;->onCreateView(Landroid/view/View;Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/k;->onCreateView(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/h;->x()Ld/j; <",
+                "> Ld/h;->setContentView(Landroid/view/View;)V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_12": {
+            "call_sequence": [
+                "> Lz0/b;->k(Landroid/view/ViewGroup;Lz0/o;Lz0/o;)Landroid/animation/Animator; <",
+                "> Lz0/h;->l(Landroid/view/ViewGroup;Lz0/p;Lz0/p;Ljava/util/ArrayList;Ljava/util/ArrayList;)V <",
+                "> Lz0/l$a;->onPreDraw()Z <",
+                "> Lz0/l;->a(Landroid/view/ViewGroup;Lz0/h;)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->s(ZZ)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->setDefaultHintTextColor(Landroid/content/res/ColorStateList;)V <",
+                "> Li2/p;->b()Lcom/google/android/material/textfield/TextInputLayout; <",
+                "> Li2/p;->onAttachedToWindow()V <",
+                "> Lcom/google/android/material/theme/MaterialComponentsViewInflater;->a(Landroid/content/Context;Landroid/util/AttributeSet;)Landroidx/appcompat/widget/d; <",
+                "> Ld/k;->onCreateView(Landroid/view/View;Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/k;->onCreateView(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/h;->x()Ld/j; <",
+                "> Ld/h;->setContentView(Landroid/view/View;)V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_13": {
+            "call_sequence": [
+                "> Lz0/b;->k(Landroid/view/ViewGroup;Lz0/o;Lz0/o;)Landroid/animation/Animator; <",
+                "> Lz0/h;->l(Landroid/view/ViewGroup;Lz0/p;Lz0/p;Ljava/util/ArrayList;Ljava/util/ArrayList;)V <",
+                "> Lz0/l$a;->onPreDraw()Z <",
+                "> Lz0/l;->a(Landroid/view/ViewGroup;Lz0/h;)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->s(ZZ)V <",
+                "> Lcom/google/android/material/textfield/TextInputLayout;->setExpandedHintEnabled(Z)V <",
+                "> Li2/p;->b()Lcom/google/android/material/textfield/TextInputLayout; <",
+                "> Li2/p;->onAttachedToWindow()V <",
+                "> Lcom/google/android/material/theme/MaterialComponentsViewInflater;->a(Landroid/content/Context;Landroid/util/AttributeSet;)Landroidx/appcompat/widget/d; <",
+                "> Ld/k;->onCreateView(Landroid/view/View;Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/k;->onCreateView(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Ld/h;->x()Ld/j; <",
+                "> Ld/h;->setContentView(Landroid/view/View;)V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lh/h;->onWindowStartingActionMode(Landroid/view/ActionMode$Callback;I)Landroid/view/ActionMode;": {
+        "path_0": {
+            "call_sequence": [
+                "> Ld/k$f;->onWindowStartingActionMode(Landroid/view/ActionMode$Callback;I)Landroid/view/ActionMode; <",
+                "> Ld/k;->x(Landroid/view/Window;)V <",
+                "> Ld/k;-><init>(Landroid/content/Context;Landroid/view/Window;Ld/i;Ljava/lang/Object;)V <",
+                "> Ld/q;->e()Ld/j; <",
+                "> Ld/q;->dismiss()V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->onDestroy()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Ld/k$f;->onWindowStartingActionMode(Landroid/view/ActionMode$Callback;I)Landroid/view/ActionMode; <",
+                "> Ld/k;->x(Landroid/view/Window;)V <",
+                "> Ld/k;-><init>(Landroid/content/Context;Landroid/view/Window;Ld/i;Ljava/lang/Object;)V <",
+                "> Ld/h;->x()Ld/j; <",
+                "> Ld/h;->setContentView(Landroid/view/View;)V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Li0/g$b;-><init>(Li0/g;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Li0/g$c;-><init>(Li0/g;)V <",
+                "> Li0/g;-><init>()V <",
+                "> Lo0/a$c;-><init>(Lo0/a;)V <",
+                "> Lo0/a;->b(Landroid/view/View;)Li0/g; <",
+                "> Lh0/a$a;->getAccessibilityNodeProvider(Landroid/view/View;)Landroid/view/accessibility/AccessibilityNodeProvider; <",
+                "> Lh0/x;->l(Landroid/view/View;Li0/f$a;Li0/j;)V <",
+                "> Lcom/google/android/material/appbar/AppBarLayout$BaseBehavior;->G(Landroidx/coordinatorlayout/widget/CoordinatorLayout;Lcom/google/android/material/appbar/AppBarLayout;)V <",
+                "> Lcom/google/android/material/appbar/AppBarLayout$BaseBehavior;->h(Landroidx/coordinatorlayout/widget/CoordinatorLayout;Landroid/view/View;I)Z <",
+                "> Lcom/google/android/material/floatingactionbutton/FloatingActionButton$BaseBehavior;->d(Landroidx/coordinatorlayout/widget/CoordinatorLayout;Landroid/view/View;Landroid/view/View;)Z <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity$d;->g(Ljava/lang/Object;)Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Li0/g$c;-><init>(Li0/g;)V <",
+                "> Li0/g;-><init>()V <",
+                "> Lo0/a$c;-><init>(Lo0/a;)V <",
+                "> Lo0/a;->b(Landroid/view/View;)Li0/g; <",
+                "> Lh0/a$a;->getAccessibilityNodeProvider(Landroid/view/View;)Landroid/view/accessibility/AccessibilityNodeProvider; <",
+                "> Lh0/x;->l(Landroid/view/View;Li0/f$a;Li0/j;)V <",
+                "> Lcom/google/android/material/appbar/AppBarLayout$BaseBehavior;->G(Landroidx/coordinatorlayout/widget/CoordinatorLayout;Lcom/google/android/material/appbar/AppBarLayout;)V <",
+                "> Lcom/google/android/material/appbar/AppBarLayout$BaseBehavior;->h(Landroidx/coordinatorlayout/widget/CoordinatorLayout;Landroid/view/View;I)Z <",
+                "> Lcom/google/android/material/floatingactionbutton/FloatingActionButton$BaseBehavior;->h(Landroidx/coordinatorlayout/widget/CoordinatorLayout;Landroid/view/View;I)Z <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity$d;->g(Ljava/lang/Object;)Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Li0/g$c;-><init>(Li0/g;)V <",
+                "> Li0/g;-><init>()V <",
+                "> Lo0/a$c;-><init>(Lo0/a;)V <",
+                "> Lo0/a;->b(Landroid/view/View;)Li0/g; <",
+                "> Lh0/a$a;->getAccessibilityNodeProvider(Landroid/view/View;)Landroid/view/accessibility/AccessibilityNodeProvider; <",
+                "> Lh0/x;->l(Landroid/view/View;Li0/f$a;Li0/j;)V <",
+                "> Lcom/google/android/material/appbar/AppBarLayout$BaseBehavior;->G(Landroidx/coordinatorlayout/widget/CoordinatorLayout;Lcom/google/android/material/appbar/AppBarLayout;)V <",
+                "> Lcom/google/android/material/appbar/AppBarLayout$BaseBehavior;->h(Landroidx/coordinatorlayout/widget/CoordinatorLayout;Landroid/view/View;I)Z <",
+                "> Lcom/google/android/material/floatingactionbutton/FloatingActionButton$BaseBehavior;->d(Landroidx/coordinatorlayout/widget/CoordinatorLayout;Landroid/view/View;Landroid/view/View;)Z <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->C(Lcom/a1573595/musicplayer/player/PlayerService;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Li0/g$c;-><init>(Li0/g;)V <",
+                "> Li0/g;-><init>()V <",
+                "> Lo0/a$c;-><init>(Lo0/a;)V <",
+                "> Lo0/a;->b(Landroid/view/View;)Li0/g; <",
+                "> Lh0/a$a;->getAccessibilityNodeProvider(Landroid/view/View;)Landroid/view/accessibility/AccessibilityNodeProvider; <",
+                "> Lh0/x;->l(Landroid/view/View;Li0/f$a;Li0/j;)V <",
+                "> Lcom/google/android/material/appbar/AppBarLayout$BaseBehavior;->G(Landroidx/coordinatorlayout/widget/CoordinatorLayout;Lcom/google/android/material/appbar/AppBarLayout;)V <",
+                "> Lcom/google/android/material/appbar/AppBarLayout$BaseBehavior;->h(Landroidx/coordinatorlayout/widget/CoordinatorLayout;Landroid/view/View;I)Z <",
+                "> Lcom/google/android/material/floatingactionbutton/FloatingActionButton$BaseBehavior;->h(Landroidx/coordinatorlayout/widget/CoordinatorLayout;Landroid/view/View;I)Z <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->C(Lcom/a1573595/musicplayer/player/PlayerService;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Li0/g$c;-><init>(Li0/g;)V <",
+                "> Li0/g;-><init>()V <",
+                "> Lo0/a$c;-><init>(Lo0/a;)V <",
+                "> Lo0/a;->b(Landroid/view/View;)Li0/g; <",
+                "> Lh0/a$a;->getAccessibilityNodeProvider(Landroid/view/View;)Landroid/view/accessibility/AccessibilityNodeProvider; <",
+                "> Lh0/x;->l(Landroid/view/View;Li0/f$a;Li0/j;)V <",
+                "> Lcom/google/android/material/appbar/AppBarLayout$BaseBehavior;->G(Landroidx/coordinatorlayout/widget/CoordinatorLayout;Lcom/google/android/material/appbar/AppBarLayout;)V <",
+                "> Lcom/google/android/material/appbar/AppBarLayout$BaseBehavior;->h(Landroidx/coordinatorlayout/widget/CoordinatorLayout;Landroid/view/View;I)Z <",
+                "> Lcom/google/android/material/floatingactionbutton/FloatingActionButton$BaseBehavior;->d(Landroidx/coordinatorlayout/widget/CoordinatorLayout;Landroid/view/View;Landroid/view/View;)Z <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_5": {
+            "call_sequence": [
+                "> Li0/g$c;-><init>(Li0/g;)V <",
+                "> Li0/g;-><init>()V <",
+                "> Lo0/a$c;-><init>(Lo0/a;)V <",
+                "> Lo0/a;->b(Landroid/view/View;)Li0/g; <",
+                "> Lh0/a$a;->getAccessibilityNodeProvider(Landroid/view/View;)Landroid/view/accessibility/AccessibilityNodeProvider; <",
+                "> Lh0/x;->l(Landroid/view/View;Li0/f$a;Li0/j;)V <",
+                "> Lcom/google/android/material/appbar/AppBarLayout$BaseBehavior;->G(Landroidx/coordinatorlayout/widget/CoordinatorLayout;Lcom/google/android/material/appbar/AppBarLayout;)V <",
+                "> Lcom/google/android/material/appbar/AppBarLayout$BaseBehavior;->h(Landroidx/coordinatorlayout/widget/CoordinatorLayout;Landroid/view/View;I)Z <",
+                "> Lcom/google/android/material/floatingactionbutton/FloatingActionButton$BaseBehavior;->h(Landroidx/coordinatorlayout/widget/CoordinatorLayout;Landroid/view/View;I)Z <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_6": {
+            "call_sequence": [
+                "> Li0/g;-><init>()V <",
+                "> Lo0/a$c;-><init>(Lo0/a;)V <",
+                "> Lo0/a;->b(Landroid/view/View;)Li0/g; <",
+                "> Lh0/a$a;->getAccessibilityNodeProvider(Landroid/view/View;)Landroid/view/accessibility/AccessibilityNodeProvider; <",
+                "> Lh0/x;->l(Landroid/view/View;Li0/f$a;Li0/j;)V <",
+                "> Lcom/google/android/material/appbar/AppBarLayout$BaseBehavior;->G(Landroidx/coordinatorlayout/widget/CoordinatorLayout;Lcom/google/android/material/appbar/AppBarLayout;)V <",
+                "> Lcom/google/android/material/appbar/AppBarLayout$BaseBehavior;->h(Landroidx/coordinatorlayout/widget/CoordinatorLayout;Landroid/view/View;I)Z <",
+                "> Lcom/google/android/material/floatingactionbutton/FloatingActionButton$BaseBehavior;->d(Landroidx/coordinatorlayout/widget/CoordinatorLayout;Landroid/view/View;Landroid/view/View;)Z <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity$d;->g(Ljava/lang/Object;)Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_7": {
+            "call_sequence": [
+                "> Li0/g;-><init>()V <",
+                "> Lo0/a$c;-><init>(Lo0/a;)V <",
+                "> Lo0/a;->b(Landroid/view/View;)Li0/g; <",
+                "> Lh0/a$a;->getAccessibilityNodeProvider(Landroid/view/View;)Landroid/view/accessibility/AccessibilityNodeProvider; <",
+                "> Lh0/x;->l(Landroid/view/View;Li0/f$a;Li0/j;)V <",
+                "> Lcom/google/android/material/appbar/AppBarLayout$BaseBehavior;->G(Landroidx/coordinatorlayout/widget/CoordinatorLayout;Lcom/google/android/material/appbar/AppBarLayout;)V <",
+                "> Lcom/google/android/material/appbar/AppBarLayout$BaseBehavior;->h(Landroidx/coordinatorlayout/widget/CoordinatorLayout;Landroid/view/View;I)Z <",
+                "> Lcom/google/android/material/floatingactionbutton/FloatingActionButton$BaseBehavior;->h(Landroidx/coordinatorlayout/widget/CoordinatorLayout;Landroid/view/View;I)Z <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity$d;->g(Ljava/lang/Object;)Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_8": {
+            "call_sequence": [
+                "> Li0/g;-><init>()V <",
+                "> Lo0/a$c;-><init>(Lo0/a;)V <",
+                "> Lo0/a;->b(Landroid/view/View;)Li0/g; <",
+                "> Lh0/a$a;->getAccessibilityNodeProvider(Landroid/view/View;)Landroid/view/accessibility/AccessibilityNodeProvider; <",
+                "> Lh0/x;->l(Landroid/view/View;Li0/f$a;Li0/j;)V <",
+                "> Lcom/google/android/material/appbar/AppBarLayout$BaseBehavior;->G(Landroidx/coordinatorlayout/widget/CoordinatorLayout;Lcom/google/android/material/appbar/AppBarLayout;)V <",
+                "> Lcom/google/android/material/appbar/AppBarLayout$BaseBehavior;->h(Landroidx/coordinatorlayout/widget/CoordinatorLayout;Landroid/view/View;I)Z <",
+                "> Lcom/google/android/material/floatingactionbutton/FloatingActionButton$BaseBehavior;->d(Landroidx/coordinatorlayout/widget/CoordinatorLayout;Landroid/view/View;Landroid/view/View;)Z <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->C(Lcom/a1573595/musicplayer/player/PlayerService;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_9": {
+            "call_sequence": [
+                "> Li0/g;-><init>()V <",
+                "> Lo0/a$c;-><init>(Lo0/a;)V <",
+                "> Lo0/a;->b(Landroid/view/View;)Li0/g; <",
+                "> Lh0/a$a;->getAccessibilityNodeProvider(Landroid/view/View;)Landroid/view/accessibility/AccessibilityNodeProvider; <",
+                "> Lh0/x;->l(Landroid/view/View;Li0/f$a;Li0/j;)V <",
+                "> Lcom/google/android/material/appbar/AppBarLayout$BaseBehavior;->G(Landroidx/coordinatorlayout/widget/CoordinatorLayout;Lcom/google/android/material/appbar/AppBarLayout;)V <",
+                "> Lcom/google/android/material/appbar/AppBarLayout$BaseBehavior;->h(Landroidx/coordinatorlayout/widget/CoordinatorLayout;Landroid/view/View;I)Z <",
+                "> Lcom/google/android/material/floatingactionbutton/FloatingActionButton$BaseBehavior;->h(Landroidx/coordinatorlayout/widget/CoordinatorLayout;Landroid/view/View;I)Z <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->C(Lcom/a1573595/musicplayer/player/PlayerService;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_10": {
+            "call_sequence": [
+                "> Li0/g;-><init>()V <",
+                "> Lo0/a$c;-><init>(Lo0/a;)V <",
+                "> Lo0/a;->b(Landroid/view/View;)Li0/g; <",
+                "> Lh0/a$a;->getAccessibilityNodeProvider(Landroid/view/View;)Landroid/view/accessibility/AccessibilityNodeProvider; <",
+                "> Lh0/x;->l(Landroid/view/View;Li0/f$a;Li0/j;)V <",
+                "> Lcom/google/android/material/appbar/AppBarLayout$BaseBehavior;->G(Landroidx/coordinatorlayout/widget/CoordinatorLayout;Lcom/google/android/material/appbar/AppBarLayout;)V <",
+                "> Lcom/google/android/material/appbar/AppBarLayout$BaseBehavior;->h(Landroidx/coordinatorlayout/widget/CoordinatorLayout;Landroid/view/View;I)Z <",
+                "> Lcom/google/android/material/floatingactionbutton/FloatingActionButton$BaseBehavior;->d(Landroidx/coordinatorlayout/widget/CoordinatorLayout;Landroid/view/View;Landroid/view/View;)Z <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_11": {
+            "call_sequence": [
+                "> Li0/g;-><init>()V <",
+                "> Lo0/a$c;-><init>(Lo0/a;)V <",
+                "> Lo0/a;->b(Landroid/view/View;)Li0/g; <",
+                "> Lh0/a$a;->getAccessibilityNodeProvider(Landroid/view/View;)Landroid/view/accessibility/AccessibilityNodeProvider; <",
+                "> Lh0/x;->l(Landroid/view/View;Li0/f$a;Li0/j;)V <",
+                "> Lcom/google/android/material/appbar/AppBarLayout$BaseBehavior;->G(Landroidx/coordinatorlayout/widget/CoordinatorLayout;Lcom/google/android/material/appbar/AppBarLayout;)V <",
+                "> Lcom/google/android/material/appbar/AppBarLayout$BaseBehavior;->h(Landroidx/coordinatorlayout/widget/CoordinatorLayout;Landroid/view/View;I)Z <",
+                "> Lcom/google/android/material/floatingactionbutton/FloatingActionButton$BaseBehavior;->h(Landroidx/coordinatorlayout/widget/CoordinatorLayout;Landroid/view/View;I)Z <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    }
+}

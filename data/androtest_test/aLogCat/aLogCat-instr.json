@@ -1,0 +1,1372 @@
+{
+    "Lorg/jtb/alogcat/LogEntryAdapter;->clear()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/jtb/alogcat/LogActivity$1;->handleMessage(Landroid/os/Message;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/jtb/alogcat/LogActivity$5;-><init>(Lorg/jtb/alogcat/LogActivity;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/jtb/alogcat/LogActivity;->reset()V <",
+                "> Lorg/jtb/alogcat/LogActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.jtb.alogcat.LogActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lorg/jtb/alogcat/PrefsActivity;->addPreferencesFromResource(I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/jtb/alogcat/PrefsActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/jtb/alogcat/LogActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.jtb.alogcat.LogActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lorg/jtb/alogcat/LogEntry;->getLevel()Lorg/jtb/alogcat/Level;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/jtb/alogcat/LogEntryAdapter;->getView(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View; <",
+                "> Lorg/jtb/alogcat/LogActivity;->init()V <",
+                "> Lorg/jtb/alogcat/LogActivity;->onResume()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.jtb.alogcat.LogActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/jtb/alogcat/LogEntryAdapter;->getView(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View; <",
+                "> Lorg/jtb/alogcat/LogActivity;->jumpBottom()V <",
+                "> Lorg/jtb/alogcat/LogActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.jtb.alogcat.LogActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lorg/jtb/alogcat/LogActivity;->dump(Z)Ljava/lang/String; <",
+                "> Lorg/jtb/alogcat/LogActivity;->access$800(Lorg/jtb/alogcat/LogActivity;Z)Ljava/lang/String; <",
+                "> Lorg/jtb/alogcat/LogActivity$6;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/jtb/alogcat/LogActivity;->access$500(Lorg/jtb/alogcat/LogActivity;)Lorg/jtb/alogcat/LogActivity;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/jtb/alogcat/LogActivity$5;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/jtb/alogcat/LogEntry;->getText()Ljava/lang/String;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/jtb/alogcat/LogEntryAdapter;->getView(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View; <",
+                "> Lorg/jtb/alogcat/LogActivity;->init()V <",
+                "> Lorg/jtb/alogcat/LogActivity;->onResume()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.jtb.alogcat.LogActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/jtb/alogcat/LogEntryAdapter;->getView(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View; <",
+                "> Lorg/jtb/alogcat/LogActivity;->jumpBottom()V <",
+                "> Lorg/jtb/alogcat/LogActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.jtb.alogcat.LogActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lorg/jtb/alogcat/LogActivity;->dump(Z)Ljava/lang/String; <",
+                "> Lorg/jtb/alogcat/LogActivity;->access$800(Lorg/jtb/alogcat/LogActivity;Z)Ljava/lang/String; <",
+                "> Lorg/jtb/alogcat/LogActivity$6;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/jtb/alogcat/LogSaver;-><init>(Landroid/content/Context;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/jtb/alogcat/SaveService;->onHandleIntent(Landroid/content/Intent;)V <",
+                "> Lorg/jtb/alogcat/SaveReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.jtb.alogcat.intent.SAVE",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Lorg/jtb/alogcat/Level;->getHexColor()Ljava/lang/String;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/jtb/alogcat/LogDumper;->dump(Z)Ljava/lang/String; <",
+                "> Lorg/jtb/alogcat/LogSaver$1;->run()V <",
+                "> Lorg/jtb/alogcat/LogSaver;->save()Ljava/io/File; <",
+                "> Lorg/jtb/alogcat/SaveService;->onHandleIntent(Landroid/content/Intent;)V <",
+                "> Lorg/jtb/alogcat/SaveReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.jtb.alogcat.intent.SAVE",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/jtb/alogcat/LogDumper;->dump(Z)Ljava/lang/String; <",
+                "> Lorg/jtb/alogcat/ShareService;->onHandleIntent(Landroid/content/Intent;)V <",
+                "> Lorg/jtb/alogcat/ShareReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.jtb.alogcat.intent.SHARE",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lorg/jtb/alogcat/LogActivity;->dump(Z)Ljava/lang/String; <",
+                "> Lorg/jtb/alogcat/LogActivity;->access$800(Lorg/jtb/alogcat/LogActivity;Z)Ljava/lang/String; <",
+                "> Lorg/jtb/alogcat/LogActivity$6;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/jtb/alogcat/LogActivity;->dismissDialog(I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/jtb/alogcat/FilterDialog$4;->onClick(Landroid/content/DialogInterface;I)V <",
+                "> Lorg/jtb/alogcat/FilterDialog;-><init>(Lorg/jtb/alogcat/LogActivity;)V <",
+                "> Lorg/jtb/alogcat/LogActivity;->onCreateDialog(I)Landroid/app/Dialog; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.jtb.alogcat.LogActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/jtb/alogcat/FilterDialog$2;->onClick(Landroid/content/DialogInterface;I)V <",
+                "> Lorg/jtb/alogcat/FilterDialog;-><init>(Lorg/jtb/alogcat/LogActivity;)V <",
+                "> Lorg/jtb/alogcat/LogActivity;->onCreateDialog(I)Landroid/app/Dialog; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.jtb.alogcat.LogActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lorg/jtb/alogcat/FilterDialog$3;->onClick(Landroid/content/DialogInterface;I)V <",
+                "> Lorg/jtb/alogcat/FilterDialog;-><init>(Lorg/jtb/alogcat/LogActivity;)V <",
+                "> Lorg/jtb/alogcat/LogActivity;->onCreateDialog(I)Landroid/app/Dialog; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.jtb.alogcat.LogActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lorg/jtb/alogcat/FilterDialog$3;-><init>(Lorg/jtb/alogcat/FilterDialog;Landroid/widget/EditText;Landroid/widget/CheckBox;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/jtb/alogcat/FilterDialog;-><init>(Lorg/jtb/alogcat/LogActivity;)V <",
+                "> Lorg/jtb/alogcat/LogActivity;->onCreateDialog(I)Landroid/app/Dialog; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.jtb.alogcat.LogActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lorg/jtb/alogcat/Prefs;->getTextsize()Lorg/jtb/alogcat/Textsize;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/jtb/alogcat/LogEntryAdapter;->getView(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View; <",
+                "> Lorg/jtb/alogcat/LogActivity;->init()V <",
+                "> Lorg/jtb/alogcat/LogActivity;->onResume()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.jtb.alogcat.LogActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/jtb/alogcat/LogEntryAdapter;->getView(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View; <",
+                "> Lorg/jtb/alogcat/LogActivity;->jumpBottom()V <",
+                "> Lorg/jtb/alogcat/LogActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.jtb.alogcat.LogActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lorg/jtb/alogcat/PrefsActivity;->setTextsizeTitle()V <",
+                "> Lorg/jtb/alogcat/PrefsActivity;->onSharedPreferenceChanged(Landroid/content/SharedPreferences;Ljava/lang/String;)V <",
+                "> Lorg/jtb/alogcat/LogActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.jtb.alogcat.LogActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lorg/jtb/alogcat/LogActivity$2;-><init>(Lorg/jtb/alogcat/LogActivity;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/jtb/alogcat/LogActivity;->jumpTop()V <",
+                "> Lorg/jtb/alogcat/LogActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.jtb.alogcat.LogActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lorg/jtb/alogcat/LogActivity;->jumpBottom()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/jtb/alogcat/LogActivity;->cat(Ljava/util/List;)V <",
+                "> Lorg/jtb/alogcat/LogActivity;->access$000(Lorg/jtb/alogcat/LogActivity;Ljava/util/List;)V <",
+                "> Lorg/jtb/alogcat/LogActivity$1;->handleMessage(Landroid/os/Message;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/jtb/alogcat/LogActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.jtb.alogcat.LogActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lorg/jtb/alogcat/LogActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.jtb.alogcat.LogActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lorg/jtb/alogcat/LogEntryAdapter;->remove(I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/jtb/alogcat/LogActivity;->cat(Ljava/lang/String;)V <",
+                "> Lorg/jtb/alogcat/LogActivity;->cat(Ljava/util/List;)V <",
+                "> Lorg/jtb/alogcat/LogActivity;->access$000(Lorg/jtb/alogcat/LogActivity;Ljava/util/List;)V <",
+                "> Lorg/jtb/alogcat/LogActivity$1;->handleMessage(Landroid/os/Message;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/jtb/alogcat/LogActivity$3;-><init>(Lorg/jtb/alogcat/LogActivity;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/jtb/alogcat/LogActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.jtb.alogcat.LogActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lorg/jtb/alogcat/BackgroundColor;->valueOfHexColor(Ljava/lang/String;)Lorg/jtb/alogcat/BackgroundColor;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/jtb/alogcat/Prefs;->getBackgroundColor()Lorg/jtb/alogcat/BackgroundColor; <",
+                "> Lorg/jtb/alogcat/LogActivity;->init()V <",
+                "> Lorg/jtb/alogcat/LogActivity;->onResume()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/jtb/alogcat/LogActivity;->setContentView(I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/jtb/alogcat/LogActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/jtb/alogcat/Logcat$1;-><init>(Lorg/jtb/alogcat/Logcat;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/jtb/alogcat/Logcat;-><init>(Landroid/content/Context;Landroid/os/Handler;)V <",
+                "> Lorg/jtb/alogcat/LogActivity$5;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/jtb/alogcat/LogEntryAdapter;->add(Ljava/lang/Object;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/jtb/alogcat/LogActivity;->cat(Ljava/lang/String;)V <",
+                "> Lorg/jtb/alogcat/LogActivity;->cat(Ljava/util/List;)V <",
+                "> Lorg/jtb/alogcat/LogActivity;->access$000(Lorg/jtb/alogcat/LogActivity;Ljava/util/List;)V <",
+                "> Lorg/jtb/alogcat/LogActivity$1;->handleMessage(Landroid/os/Message;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/jtb/alogcat/PrefsActivity;->setBufferTitle()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/jtb/alogcat/PrefsActivity;->onSharedPreferenceChanged(Landroid/content/SharedPreferences;Ljava/lang/String;)V <",
+                "> Lorg/jtb/alogcat/LogActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.jtb.alogcat.LogActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/jtb/alogcat/PrefsActivity;->onResume()V <",
+                "> Lorg/jtb/alogcat/LogActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.jtb.alogcat.LogActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lorg/jtb/alogcat/Prefs;->setLevel(Lorg/jtb/alogcat/Level;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/jtb/alogcat/Intent;->handleExtras(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "> Lorg/jtb/alogcat/SaveReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.jtb.alogcat.intent.SAVE",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/jtb/alogcat/Intent;->handleExtras(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "> Lorg/jtb/alogcat/ShareReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.jtb.alogcat.intent.SHARE",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lorg/jtb/alogcat/Intent;->handleExtras(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "> Lorg/jtb/alogcat/LogActivity;->onNewIntent(Landroid/content/Intent;)V <",
+                "> Lorg/jtb/alogcat/LogActivity;->onResume()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/jtb/alogcat/Format;-><init>(Ljava/lang/String;ILjava/lang/String;ILjava/util/regex/Pattern;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/jtb/alogcat/Format;-><clinit>()V <",
+                "> Lorg/jtb/alogcat/Format;->valueOf(Ljava/lang/String;)Lorg/jtb/alogcat/Format; <",
+                "> Lorg/jtb/alogcat/Prefs;->getFormat()Lorg/jtb/alogcat/Format; <",
+                "> Lorg/jtb/alogcat/LogDumper;->dump(Z)Ljava/lang/String; <",
+                "> Lorg/jtb/alogcat/LogSaver$1;->run()V <",
+                "> Lorg/jtb/alogcat/LogSaver;->save()Ljava/io/File; <",
+                "> Lorg/jtb/alogcat/SaveService;->onHandleIntent(Landroid/content/Intent;)V <",
+                "> Lorg/jtb/alogcat/SaveReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.jtb.alogcat.intent.SAVE",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/jtb/alogcat/Format;-><clinit>()V <",
+                "> Lorg/jtb/alogcat/Format;->valueOf(Ljava/lang/String;)Lorg/jtb/alogcat/Format; <",
+                "> Lorg/jtb/alogcat/Prefs;->getFormat()Lorg/jtb/alogcat/Format; <",
+                "> Lorg/jtb/alogcat/Logcat;-><init>(Landroid/content/Context;Landroid/os/Handler;)V <",
+                "> Lorg/jtb/alogcat/LogActivity$5;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lorg/jtb/alogcat/Format;-><clinit>()V <",
+                "> Lorg/jtb/alogcat/Format;->valueOf(Ljava/lang/String;)Lorg/jtb/alogcat/Format; <",
+                "> Lorg/jtb/alogcat/Prefs;->getFormat()Lorg/jtb/alogcat/Format; <",
+                "> Lorg/jtb/alogcat/LogDumper;->dump(Z)Ljava/lang/String; <",
+                "> Lorg/jtb/alogcat/ShareService;->onHandleIntent(Landroid/content/Intent;)V <",
+                "> Lorg/jtb/alogcat/ShareReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.jtb.alogcat.intent.SHARE",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Lorg/jtb/alogcat/Textsize;->getTitle(Landroid/content/Context;)Ljava/lang/String;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/jtb/alogcat/PrefsActivity;->setTextsizeTitle()V <",
+                "> Lorg/jtb/alogcat/PrefsActivity;->onSharedPreferenceChanged(Landroid/content/SharedPreferences;Ljava/lang/String;)V <",
+                "> Lorg/jtb/alogcat/LogActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.jtb.alogcat.LogActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lorg/jtb/alogcat/LogActivity;->setListAdapter(Landroid/widget/ListAdapter;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/jtb/alogcat/LogActivity;->init()V <",
+                "> Lorg/jtb/alogcat/LogActivity;->onResume()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.jtb.alogcat.LogActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lorg/jtb/alogcat/LogActivity;->jumpTop()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/jtb/alogcat/LogActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.jtb.alogcat.LogActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lorg/jtb/alogcat/LogActivity;->access$700(Lorg/jtb/alogcat/LogActivity;)Lorg/jtb/alogcat/Prefs;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/jtb/alogcat/LogActivity$6;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/jtb/alogcat/BackgroundColor;->valueOf(Ljava/lang/String;)Lorg/jtb/alogcat/BackgroundColor;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/jtb/alogcat/Prefs;->getBackgroundColor()Lorg/jtb/alogcat/BackgroundColor; <",
+                "> Lorg/jtb/alogcat/LogActivity;->init()V <",
+                "> Lorg/jtb/alogcat/LogActivity;->onResume()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/jtb/alogcat/Format;->getValue()Ljava/lang/String;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/jtb/alogcat/LogDumper;->dump(Z)Ljava/lang/String; <",
+                "> Lorg/jtb/alogcat/LogSaver$1;->run()V <",
+                "> Lorg/jtb/alogcat/LogSaver;->save()Ljava/io/File; <",
+                "> Lorg/jtb/alogcat/SaveService;->onHandleIntent(Landroid/content/Intent;)V <",
+                "> Lorg/jtb/alogcat/SaveReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.jtb.alogcat.intent.SAVE",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/jtb/alogcat/LogDumper;->dump(Z)Ljava/lang/String; <",
+                "> Lorg/jtb/alogcat/ShareService;->onHandleIntent(Landroid/content/Intent;)V <",
+                "> Lorg/jtb/alogcat/ShareReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.jtb.alogcat.intent.SHARE",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lorg/jtb/alogcat/Logcat;->start()V <",
+                "> Lorg/jtb/alogcat/LogActivity$5;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/jtb/alogcat/LogDumper;->dump(Z)Ljava/lang/String;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/jtb/alogcat/ShareService;->onHandleIntent(Landroid/content/Intent;)V <",
+                "> Lorg/jtb/alogcat/ShareReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.jtb.alogcat.intent.SHARE",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/jtb/alogcat/LogSaver$1;->run()V <",
+                "> Lorg/jtb/alogcat/LogSaver;->save()Ljava/io/File; <",
+                "> Lorg/jtb/alogcat/SaveService;->onHandleIntent(Landroid/content/Intent;)V <",
+                "> Lorg/jtb/alogcat/SaveReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.jtb.alogcat.intent.SAVE",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Lorg/jtb/alogcat/Format;->getTitle(Landroid/content/Context;)Ljava/lang/String;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/jtb/alogcat/PrefsActivity;->setFormatTitle()V <",
+                "> Lorg/jtb/alogcat/PrefsActivity;->onSharedPreferenceChanged(Landroid/content/SharedPreferences;Ljava/lang/String;)V <",
+                "> Lorg/jtb/alogcat/LogActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.jtb.alogcat.LogActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lorg/jtb/alogcat/PrefsActivity;->getPreferenceScreen()Landroid/preference/PreferenceScreen;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/jtb/alogcat/PrefsActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/jtb/alogcat/LogActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.jtb.alogcat.LogActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/jtb/alogcat/PrefsActivity;->onPause()V <",
+                "> Lorg/jtb/alogcat/LogActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.jtb.alogcat.LogActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lorg/jtb/alogcat/PrefsActivity;->onResume()V <",
+                "> Lorg/jtb/alogcat/LogActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.jtb.alogcat.LogActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lorg/jtb/alogcat/Lock;->acquire(Landroid/content/Context;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/jtb/alogcat/SaveReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.jtb.alogcat.intent.SAVE",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/jtb/alogcat/ShareReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.jtb.alogcat.intent.SHARE",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Lorg/jtb/alogcat/Prefs;->getFilterPattern()Ljava/util/regex/Pattern;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/jtb/alogcat/LogDumper;->dump(Z)Ljava/lang/String; <",
+                "> Lorg/jtb/alogcat/LogSaver$1;->run()V <",
+                "> Lorg/jtb/alogcat/LogSaver;->save()Ljava/io/File; <",
+                "> Lorg/jtb/alogcat/SaveService;->onHandleIntent(Landroid/content/Intent;)V <",
+                "> Lorg/jtb/alogcat/SaveReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.jtb.alogcat.intent.SAVE",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/jtb/alogcat/LogDumper;->dump(Z)Ljava/lang/String; <",
+                "> Lorg/jtb/alogcat/ShareService;->onHandleIntent(Landroid/content/Intent;)V <",
+                "> Lorg/jtb/alogcat/ShareReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.jtb.alogcat.intent.SHARE",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lorg/jtb/alogcat/Logcat;-><init>(Landroid/content/Context;Landroid/os/Handler;)V <",
+                "> Lorg/jtb/alogcat/LogActivity$5;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/jtb/alogcat/BackgroundColor;->getColor()I": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/jtb/alogcat/LogActivity;->init()V <",
+                "> Lorg/jtb/alogcat/LogActivity;->onResume()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/jtb/alogcat/LogActivity;->init()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/jtb/alogcat/LogActivity;->onResume()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/jtb/alogcat/PrefsActivity;->setLevelTitle()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/jtb/alogcat/PrefsActivity;->onSharedPreferenceChanged(Landroid/content/SharedPreferences;Ljava/lang/String;)V <",
+                "> Lorg/jtb/alogcat/LogActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.jtb.alogcat.LogActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/jtb/alogcat/PrefsActivity;->onResume()V <",
+                "> Lorg/jtb/alogcat/LogActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.jtb.alogcat.LogActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lorg/jtb/alogcat/LogActivity;->setKeepScreenOn()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/jtb/alogcat/LogActivity;->onActivityResult(IILandroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/jtb/alogcat/LogActivity;->init()V <",
+                "> Lorg/jtb/alogcat/LogActivity;->onResume()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.jtb.alogcat.LogActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lorg/jtb/alogcat/PrefsActivity;->setFormatTitle()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/jtb/alogcat/PrefsActivity;->onSharedPreferenceChanged(Landroid/content/SharedPreferences;Ljava/lang/String;)V <",
+                "> Lorg/jtb/alogcat/LogActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.jtb.alogcat.LogActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/jtb/alogcat/PrefsActivity;->onResume()V <",
+                "> Lorg/jtb/alogcat/LogActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.jtb.alogcat.LogActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lorg/jtb/alogcat/ShareService;->startActivity(Landroid/content/Intent;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/jtb/alogcat/ShareService;->onHandleIntent(Landroid/content/Intent;)V <",
+                "> Lorg/jtb/alogcat/ShareReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.jtb.alogcat.intent.SHARE",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "[Lorg/jtb/alogcat/Format;->clone()Ljava/lang/Object;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/jtb/alogcat/Format;->values()[Lorg/jtb/alogcat/Format; <",
+                "> Lorg/jtb/alogcat/Format;->valueOf(Ljava/lang/String;)Lorg/jtb/alogcat/Format; <",
+                "> Lorg/jtb/alogcat/Prefs;->getFormat()Lorg/jtb/alogcat/Format; <",
+                "> Lorg/jtb/alogcat/LogDumper;->dump(Z)Ljava/lang/String; <",
+                "> Lorg/jtb/alogcat/LogSaver$1;->run()V <",
+                "> Lorg/jtb/alogcat/LogSaver;->save()Ljava/io/File; <",
+                "> Lorg/jtb/alogcat/SaveService;->onHandleIntent(Landroid/content/Intent;)V <",
+                "> Lorg/jtb/alogcat/SaveReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.jtb.alogcat.intent.SAVE",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/jtb/alogcat/Format;->values()[Lorg/jtb/alogcat/Format; <",
+                "> Lorg/jtb/alogcat/Format;->valueOf(Ljava/lang/String;)Lorg/jtb/alogcat/Format; <",
+                "> Lorg/jtb/alogcat/Prefs;->getFormat()Lorg/jtb/alogcat/Format; <",
+                "> Lorg/jtb/alogcat/Logcat;-><init>(Landroid/content/Context;Landroid/os/Handler;)V <",
+                "> Lorg/jtb/alogcat/LogActivity$5;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lorg/jtb/alogcat/Format;->values()[Lorg/jtb/alogcat/Format; <",
+                "> Lorg/jtb/alogcat/Format;->valueOf(Ljava/lang/String;)Lorg/jtb/alogcat/Format; <",
+                "> Lorg/jtb/alogcat/Prefs;->getFormat()Lorg/jtb/alogcat/Format; <",
+                "> Lorg/jtb/alogcat/LogDumper;->dump(Z)Ljava/lang/String; <",
+                "> Lorg/jtb/alogcat/ShareService;->onHandleIntent(Landroid/content/Intent;)V <",
+                "> Lorg/jtb/alogcat/ShareReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.jtb.alogcat.intent.SHARE",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Lorg/jtb/alogcat/Level;->toString()Ljava/lang/String;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/jtb/alogcat/Prefs;->setLevel(Lorg/jtb/alogcat/Level;)V <",
+                "> Lorg/jtb/alogcat/Intent;->handleExtras(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "> Lorg/jtb/alogcat/SaveReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.jtb.alogcat.intent.SAVE",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/jtb/alogcat/Prefs;->setLevel(Lorg/jtb/alogcat/Level;)V <",
+                "> Lorg/jtb/alogcat/Intent;->handleExtras(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "> Lorg/jtb/alogcat/ShareReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.jtb.alogcat.intent.SHARE",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lorg/jtb/alogcat/Prefs;->setLevel(Lorg/jtb/alogcat/Level;)V <",
+                "> Lorg/jtb/alogcat/Intent;->handleExtras(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "> Lorg/jtb/alogcat/LogActivity;->onNewIntent(Landroid/content/Intent;)V <",
+                "> Lorg/jtb/alogcat/LogActivity;->onResume()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/jtb/alogcat/Level;->getColor()I": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/jtb/alogcat/LogEntryAdapter;->getView(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View; <",
+                "> Lorg/jtb/alogcat/LogActivity;->init()V <",
+                "> Lorg/jtb/alogcat/LogActivity;->onResume()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.jtb.alogcat.LogActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/jtb/alogcat/LogEntryAdapter;->getView(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View; <",
+                "> Lorg/jtb/alogcat/LogActivity;->jumpBottom()V <",
+                "> Lorg/jtb/alogcat/LogActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.jtb.alogcat.LogActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lorg/jtb/alogcat/LogActivity;->getIntent()Landroid/content/Intent;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/jtb/alogcat/LogActivity;->onResume()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/jtb/alogcat/FilterDialog$4;-><init>(Lorg/jtb/alogcat/FilterDialog;Landroid/widget/EditText;Landroid/widget/CheckBox;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/jtb/alogcat/FilterDialog;-><init>(Lorg/jtb/alogcat/LogActivity;)V <",
+                "> Lorg/jtb/alogcat/LogActivity;->onCreateDialog(I)Landroid/app/Dialog; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.jtb.alogcat.LogActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lorg/jtb/alogcat/FilterDialog;->setView(Landroid/view/View;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/jtb/alogcat/FilterDialog;-><init>(Lorg/jtb/alogcat/LogActivity;)V <",
+                "> Lorg/jtb/alogcat/LogActivity;->onCreateDialog(I)Landroid/app/Dialog; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.jtb.alogcat.LogActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lorg/jtb/alogcat/Format;->getLevel(Ljava/lang/String;)Lorg/jtb/alogcat/Level;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/jtb/alogcat/LogDumper;->dump(Z)Ljava/lang/String; <",
+                "> Lorg/jtb/alogcat/LogSaver$1;->run()V <",
+                "> Lorg/jtb/alogcat/LogSaver;->save()Ljava/io/File; <",
+                "> Lorg/jtb/alogcat/SaveService;->onHandleIntent(Landroid/content/Intent;)V <",
+                "> Lorg/jtb/alogcat/SaveReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.jtb.alogcat.intent.SAVE",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/jtb/alogcat/LogDumper;->dump(Z)Ljava/lang/String; <",
+                "> Lorg/jtb/alogcat/ShareService;->onHandleIntent(Landroid/content/Intent;)V <",
+                "> Lorg/jtb/alogcat/ShareReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.jtb.alogcat.intent.SHARE",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lorg/jtb/alogcat/LogActivity;->cat(Ljava/lang/String;)V <",
+                "> Lorg/jtb/alogcat/LogActivity;->cat(Ljava/util/List;)V <",
+                "> Lorg/jtb/alogcat/LogActivity;->access$000(Lorg/jtb/alogcat/LogActivity;Ljava/util/List;)V <",
+                "> Lorg/jtb/alogcat/LogActivity$1;->handleMessage(Landroid/os/Message;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/jtb/alogcat/FilterDialog;->setTitle(I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/jtb/alogcat/FilterDialog;-><init>(Lorg/jtb/alogcat/LogActivity;)V <",
+                "> Lorg/jtb/alogcat/LogActivity;->onCreateDialog(I)Landroid/app/Dialog; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.jtb.alogcat.LogActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lorg/jtb/alogcat/Logcat;->setPlay(Z)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/jtb/alogcat/LogActivity;->pauseLog()V <",
+                "> Lorg/jtb/alogcat/LogActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.jtb.alogcat.LogActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/jtb/alogcat/LogActivity;->playLog()V <",
+                "> Lorg/jtb/alogcat/LogActivity;->jumpBottom()V <",
+                "> Lorg/jtb/alogcat/LogActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.jtb.alogcat.LogActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lorg/jtb/alogcat/LogActivity;->clear()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/jtb/alogcat/LogActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.jtb.alogcat.LogActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    }
+}

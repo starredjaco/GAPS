@@ -1,0 +1,12 @@
+COMPONENT CONCAT > Lcom/nloko/android/syncmypix/MainActivity;->access$4(Lcom/nloko/android/syncmypix/MainActivity;)V < extends Landroid/app/Activity, implements []
+COMPONENT CONCAT > Lcom/nloko/android/syncmypix/SyncProgressActivity$1$1;->onSyncCompleted()V < extends Ljava/lang/Object, implements ['Lcom/nloko/android/syncmypix/SyncServiceListener']
+COMPONENT CONCAT > Lcom/nloko/android/syncmypix/MainActivity;->sync()V < extends Landroid/app/Activity, implements []
+MISSING ID > Lcom/nloko/android/syncmypix/SyncResultsActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <
+COMPONENT CONCAT > Lcom/nloko/android/syncmypix/MainActivity;->login()V < extends Landroid/app/Activity, implements []
+COMPONENT CONCAT > Lcom/nloko/android/syncmypix/MainActivity;->onStart()V < extends Landroid/app/Activity, implements []
+COMPONENT CONCAT > Lcom/nloko/android/syncmypix/SyncMyPixBroadcastReceiver;->rescheduleAlarm(Landroid/content/Context;)V < extends Landroid/content/BroadcastReceiver, implements []
+COMPONENT CONCAT > Lcom/nloko/android/syncmypix/namematcher/NameMatcherFactory;->create(Landroid/content/Context;Ljava/io/InputStream;)Lcom/nloko/android/syncmypix/namematcher/NameMatcher; < extends Ljava/lang/Object, implements []
+MISSING ID > Lcom/nloko/android/syncmypix/SyncResultsActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <
+COMPONENT CONCAT > Lcom/nloko/android/syncmypix/SyncService;->onLowMemory()V < extends Landroid/app/Service, implements []
+COMPONENT CONCAT > Lcom/nloko/android/syncmypix/SyncMyPixDbHelper;->deleteAllPictures()V < extends Ljava/lang/Object, implements []
+COMPONENT CONCAT > Lcom/nloko/android/syncmypix/facebook/FacebookApi;->getUserInfo(Ljava/lang/String;)Ljava/util/List; < extends Ljava/lang/Object, implements []

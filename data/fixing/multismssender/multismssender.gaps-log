@@ -1,0 +1,7 @@
+COMPONENT CONCAT > Lcom/hectorone/multismssender/DeliveryDbAdapter;->insert(Landroid/net/Uri;Landroid/content/ContentValues;)Landroid/net/Uri; < extends Landroid/content/ContentProvider, implements []
+COMPONENT CONCAT > Lcom/hectorone/multismssender/DeliveryDbAdapter;->delete(Landroid/net/Uri;Ljava/lang/String;[Ljava/lang/String;)I < extends Landroid/content/ContentProvider, implements []
+COMPONENT CONCAT > Lcom/hectorone/multismssender/DeliveryDbAdapter;->onCreate()Z < extends Landroid/content/ContentProvider, implements []
+COMPONENT CONCAT > Lcom/hectorone/multismssender/DeliveryDbAdapter;->update(Landroid/net/Uri;Landroid/content/ContentValues;Ljava/lang/String;[Ljava/lang/String;)I < extends Landroid/content/ContentProvider, implements []
+COMPONENT CONCAT > Lcom/hectorone/multismssender/DeliveryDbAdapter;->query(Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor; < extends Landroid/content/ContentProvider, implements []
+MISSING ID > Lcom/hectorone/multismssender/SelectGroupActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <
+MISSING ID > Lcom/hectorone/multismssender/SelectDeliveryActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <

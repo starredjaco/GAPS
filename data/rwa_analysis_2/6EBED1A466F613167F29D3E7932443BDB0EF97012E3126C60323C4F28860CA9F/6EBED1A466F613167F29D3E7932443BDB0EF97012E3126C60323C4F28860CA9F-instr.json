@@ -1,0 +1,110 @@
+{
+    "Lcom/lutech/lockscreencustomizer/utils/Settings;->setImageWallpaperPath(Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/lutech/lockscreencustomizer/screen/SplashScreenActivity$downloadImageFirstData$1;->onDownloadComplete(Ljava/lang/String;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/lutech/lockscreencustomizer/service/LockScreenService;->handleEvent(Landroid/view/View;Landroid/content/Context;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/lutech/lockscreencustomizer/service/LockScreenService$handleEvent$2;->onComplete(Ljava/util/ArrayList;)Z <",
+                "> Lcom/lutech/lockscreencustomizer/service/LockScreenService;->handleEvent(Landroid/view/View;Landroid/content/Context;)V <",
+                "> Lcom/lutech/lockscreencustomizer/service/LockScreenService;->showLockScreen(Landroid/content/Context;)V <",
+                "> Lcom/lutech/lockscreencustomizer/service/LockScreenService;->access$showLockScreen(Lcom/lutech/lockscreencustomizer/service/LockScreenService;Landroid/content/Context;)V <",
+                "> Lcom/lutech/lockscreencustomizer/service/LockScreenService$mStatusScreenReceiver$1;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.SCREEN_OFF",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/lutech/lockscreencustomizer/screen/SplashScreenActivity;->showAds()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/lutech/lockscreencustomizer/screen/SplashScreenActivity;->showAds()V <",
+                "> Lcom/lutech/lockscreencustomizer/screen/SplashScreenActivity;->access$showAds(Lcom/lutech/lockscreencustomizer/screen/SplashScreenActivity;)V <",
+                "> Lcom/lutech/lockscreencustomizer/screen/SplashScreenActivity$onCreate$1$1$1;->invoke()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/lutech/lockscreencustomizer/service/LockScreenService;->autoScroll(Landroid/content/Context;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/lutech/lockscreencustomizer/service/LockScreenService$autoScroll$1;->invoke(Lkotlinx/coroutines/CoroutineScope;Lkotlin/coroutines/Continuation;)Ljava/lang/Object; <",
+                "> Lcom/lutech/lockscreencustomizer/service/LockScreenService$autoScroll$1;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/lutech/lockscreencustomizer/service/LockScreenService;->autoScroll(Landroid/content/Context;)V <",
+                "> Lcom/lutech/lockscreencustomizer/service/LockScreenService;->handleEvent$lambda$0(Lcom/lutech/lockscreencustomizer/service/LockScreenService;ILandroid/content/Context;Landroid/view/View;Landroid/view/MotionEvent;)Z <",
+                "> Lcom/lutech/lockscreencustomizer/service/LockScreenService;->$r8$lambda$-pmjZeTA-q7ji6tizGTaKtTDgsU(Lcom/lutech/lockscreencustomizer/service/LockScreenService;ILandroid/content/Context;Landroid/view/View;Landroid/view/MotionEvent;)Z <",
+                "> Lcom/lutech/lockscreencustomizer/service/LockScreenService$$ExternalSyntheticLambda0;->onTouch(Landroid/view/View;Landroid/view/MotionEvent;)Z <",
+                "> Lcom/lutech/lockscreencustomizer/service/LockScreenService;->handleEvent(Landroid/view/View;Landroid/content/Context;)V <",
+                "> Lcom/lutech/lockscreencustomizer/service/LockScreenService;->showLockScreen(Landroid/content/Context;)V <",
+                "> Lcom/lutech/lockscreencustomizer/service/LockScreenService;->access$showLockScreen(Lcom/lutech/lockscreencustomizer/service/LockScreenService;Landroid/content/Context;)V <",
+                "> Lcom/lutech/lockscreencustomizer/service/LockScreenService$mStatusScreenReceiver$1;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.SCREEN_OFF",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/lutech/lockscreencustomizer/service/LockScreenService;->hideLockScreenView()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/lutech/lockscreencustomizer/service/LockScreenService;->access$hideLockScreenView(Lcom/lutech/lockscreencustomizer/service/LockScreenService;)V <",
+                "> Lcom/lutech/lockscreencustomizer/service/LockScreenService$mStatusScreenReceiver$1;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.SCREEN_OFF",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/lutech/lockscreencustomizer/utils/LockScreenManager;->setRow(Ljava/util/ArrayList;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/lutech/lockscreencustomizer/screen/SplashScreenActivity;->loadDataRemoteConfig()V <",
+                "> Lcom/lutech/lockscreencustomizer/screen/SplashScreenActivity;->access$loadDataRemoteConfig(Lcom/lutech/lockscreencustomizer/screen/SplashScreenActivity;)V <",
+                "> Lcom/lutech/lockscreencustomizer/screen/SplashScreenActivity$onCreate$1;->invoke$lambda$0(Lcom/lutech/lockscreencustomizer/screen/SplashScreenActivity;Lcom/google/android/gms/tasks/Task;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/lutech/lockscreencustomizer/screen/SplashScreenActivity;->onCreate(Landroid/os/Bundle;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/lutech/lockscreencustomizer/screen/SplashScreenActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    }
+}

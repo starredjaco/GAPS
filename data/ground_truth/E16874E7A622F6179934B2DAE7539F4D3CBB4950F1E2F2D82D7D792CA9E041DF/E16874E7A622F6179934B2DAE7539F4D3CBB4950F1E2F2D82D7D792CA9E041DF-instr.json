@@ -1,0 +1,728 @@
+{
+    "Lkotlin/jvm/internal/Intrinsics;->checkNotNull(Ljava/lang/Object;Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lkotlin/text/DelimitedRangesSequence$iterator$1;->next()Lkotlin/ranges/IntRange; <",
+                "> Lkotlin/text/DelimitedRangesSequence$iterator$1;->next()Ljava/lang/Object; <",
+                "> Lcom/applovin/impl/sdk/a;->b()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.applovin.application_resumed",
+                    "start -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lkotlinx/coroutines/CancellableContinuationImpl;->isReusable()Z <",
+                "> Lkotlinx/coroutines/CancellableContinuationImpl;->getResult()Ljava/lang/Object; <",
+                "> Landroidx/privacysandbox/ads/adservices/measurement/MeasurementManager$Api33Ext5Impl;->registerWebTrigger(Landroidx/privacysandbox/ads/adservices/measurement/WebTriggerRegistrationRequest; <",
+                "> Landroidx/privacysandbox/ads/adservices/measurement/MeasurementManager$Companion;->obtain(Landroid/content/Context;)Landroidx/privacysandbox/ads/adservices/measurement/MeasurementManager; <",
+                "> Landroidx/privacysandbox/ads/adservices/java/measurement/MeasurementManagerFutures$Companion;->from(Landroid/content/Context;)Landroidx/privacysandbox/ads/adservices/java/measurement/MeasurementManagerFutures; <",
+                "> Landroidx/privacysandbox/ads/adservices/java/measurement/MeasurementManagerFutures;->from(Landroid/content/Context;)Landroidx/privacysandbox/ads/adservices/java/measurement/MeasurementManagerFutures; <",
+                "> Lcom/google/android/gms/measurement/internal/zzng;->zzn()Landroidx/privacysandbox/ads/adservices/java/measurement/MeasurementManagerFutures; <",
+                "> Lcom/google/android/gms/measurement/internal/zzng;->zzy()Z <",
+                "> Lcom/google/android/gms/measurement/internal/zzng;->zzh()J <",
+                "> Lcom/google/android/gms/measurement/internal/zzfj;->zza(Ljava/lang/String;)Lcom/google/android/gms/measurement/internal/zzo; <",
+                "> Lcom/google/android/gms/measurement/internal/zzkq;->zzb(Z)Lcom/google/android/gms/measurement/internal/zzo; <",
+                "> Lcom/google/android/gms/measurement/internal/zzkq;->zza(Lcom/google/android/gms/measurement/internal/zzae;)V <",
+                "> Lcom/google/android/gms/measurement/internal/zzjl;->run()V <",
+                "> Lcom/applovin/impl/w1;->a(Ljava/lang/Runnable;)V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/google/android/gms/measurement/internal/zzfj;->zza(Ljava/lang/String;)Lcom/google/android/gms/measurement/internal/zzo; <",
+                "----- CONDITIONAL -----",
+                "> Lcom/google/android/gms/measurement/internal/zzkq;->zzb(Z)Lcom/google/android/gms/measurement/internal/zzo; <",
+                "----- CONDITIONAL -----",
+                "> Lcom/google/android/gms/measurement/internal/zzkq;->zza(Landroid/os/Bundle;)V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/google/android/gms/measurement/internal/zzhd;->zza(Lcom/google/android/gms/internal/measurement/zzdd;)V <",
+                "----- CONDITIONAL -----"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.google.android.gms.measurement.TRIGGERS_AVAILABLE",
+                    "start -a"
+                ],
+                [
+                    "intent",
+                    "com.applovin.application_resumed",
+                    "start -a"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lkotlin/sequences/GeneratorSequence$iterator$1;->next()Ljava/lang/Object; <",
+                "> Lcom/applovin/impl/sdk/a;->b()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.applovin.application_resumed",
+                    "start -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/google/android/gms/common/GoogleApiAvailabilityLight;->isGooglePlayServicesAvailable(Landroid/content/Context;I)I": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/google/android/gms/measurement/internal/zzng;->zza(I)I <",
+                "> Lcom/google/android/gms/measurement/internal/zzkq;->zzak()Z <",
+                "> Lcom/google/android/gms/measurement/internal/zzkq;->zzad()V <",
+                "> Lcom/google/android/gms/measurement/internal/zzkq;->zza(Ljava/lang/Runnable;)V <",
+                "> Lcom/google/android/gms/measurement/internal/zzkq;->zza(Lcom/google/android/gms/measurement/internal/zzae;)V <",
+                "> Lcom/google/android/gms/measurement/internal/zzjl;->run()V <",
+                "> Lcom/applovin/impl/w1;->a(Ljava/lang/Runnable;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.applovin.application_resumed",
+                    "start -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/google/android/gms/measurement/internal/zzng;->zza(I)I <",
+                "> Lcom/google/android/gms/measurement/internal/zzkq;->zzak()Z <",
+                "> Lcom/google/android/gms/measurement/internal/zzkq;->zzad()V <",
+                "> Lcom/google/android/gms/measurement/internal/zzkq;->zza(Ljava/lang/Runnable;)V <",
+                "> Lcom/google/android/gms/measurement/internal/zzkq;->zza(Lcom/google/android/gms/measurement/internal/zzae;)V <",
+                "> Lcom/google/android/gms/measurement/internal/zzjl;->run()V <",
+                "> Landroidx/privacysandbox/ads/adservices/adid/AdIdManager$Api33Ext4Impl$$ExternalSyntheticLambda6;->execute(Ljava/lang/Runnable;)V <",
+                "> Landroidx/profileinstaller/ProfileInstallReceiver;->onReceive(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "androidx.profileinstaller.action.BENCHMARK_OPERATION",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/google/android/gms/measurement/internal/zzng;->zza(I)I <",
+                "> Lcom/google/android/gms/measurement/internal/zzkq;->zzak()Z <",
+                "> Lcom/google/android/gms/measurement/internal/zzkq;->zzad()V <",
+                "> Lcom/google/android/gms/measurement/internal/zzkq;->zza(Ljava/lang/Runnable;)V <",
+                "> Lcom/google/android/gms/measurement/internal/zzkq;->zza(Lcom/google/android/gms/measurement/internal/zzae;)V <",
+                "> Lcom/google/android/gms/measurement/internal/zzjl;->run()V <",
+                "> Lkotlinx/coroutines/DispatcherExecutor;->execute(Ljava/lang/Runnable;)V <",
+                "> Lokhttp3/internal/cache/DiskLruCache;->removeEntry(Lokhttp3/internal/cache/DiskLruCache$Entry;)Z <",
+                "> Lokhttp3/internal/cache/DiskLruCache$Entry;->snapshot()Lokhttp3/internal/cache/DiskLruCache$Snapshot; <",
+                "> Lokhttp3/internal/cache/DiskLruCache$3;->hasNext()Z <",
+                "> Lokhttp3/internal/cache/DiskLruCache$3;->next()Lokhttp3/internal/cache/DiskLruCache$Snapshot; <",
+                "> Lokhttp3/internal/cache/DiskLruCache$3;->next()Ljava/lang/Object; <",
+                "> Lcom/google/android/gms/ads/internal/util/client/zzm;->zzi(Ljava/lang/String;)V <",
+                "> Lcom/google/android/gms/ads/internal/util/zzd;->zza(Landroid/content/Context;)V <",
+                "> Lcom/google/android/gms/ads/internal/util/zzq;->onReceive(Landroid/content/Context; <",
+                "----- CONDITIONAL -----",
+                "> Lokhttp3/internal/cache/DiskLruCache;->close()V <",
+                "----- CONDITIONAL -----",
+                "> Lokhttp3/internal/cache/DiskLruCache;->delete()V <",
+                "----- CONDITIONAL -----",
+                "> Lokhttp3/internal/cache/DiskLruCache;->initialize()V <",
+                "----- CONDITIONAL -----",
+                "> Lokhttp3/internal/cache/DiskLruCache;->remove(Ljava/lang/String;)Z <",
+                "----- CONDITIONAL -----",
+                "> Lokhttp3/internal/cache/DiskLruCache$3;->remove()V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/applovin/impl/sdk/AppLovinBroadcastManager;->unregisterReceiver(Lcom/applovin/impl/sdk/AppLovinBroadcastManager$Receiver;)V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/applovin/impl/sdk/f;->c()V <",
+                "----- CONDITIONAL -----"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.applovin.application_paused",
+                    "broadcast -a"
+                ],
+                [
+                    "intent",
+                    "com.google.android.ads.intent.DEBUG_LOGGING_ENABLEMENT_CHANGED",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/google/android/gms/measurement/internal/zzng;->zza(I)I <",
+                "> Lcom/google/android/gms/measurement/internal/zzkq;->zzak()Z <",
+                "> Lcom/google/android/gms/measurement/internal/zzkq;->zzad()V <",
+                "> Lcom/google/android/gms/measurement/internal/zzkq;->zza(Ljava/lang/Runnable;)V <",
+                "> Lcom/google/android/gms/measurement/internal/zzkq;->zza(Lcom/google/android/gms/measurement/internal/zzae;)V <",
+                "> Lcom/google/android/gms/measurement/internal/zzjl;->run()V <",
+                "> Landroidx/core/location/LocationManagerCompat$InlineHandlerExecutor;->execute(Ljava/lang/Runnable;)V <",
+                "> Lokhttp3/internal/cache/DiskLruCache;->removeEntry(Lokhttp3/internal/cache/DiskLruCache$Entry;)Z <",
+                "> Lokhttp3/internal/cache/DiskLruCache$Entry;->snapshot()Lokhttp3/internal/cache/DiskLruCache$Snapshot; <",
+                "> Lokhttp3/internal/cache/DiskLruCache$3;->hasNext()Z <",
+                "> Lokhttp3/internal/cache/DiskLruCache$3;->next()Lokhttp3/internal/cache/DiskLruCache$Snapshot; <",
+                "> Lokhttp3/internal/cache/DiskLruCache$3;->next()Ljava/lang/Object; <",
+                "> Lcom/google/android/gms/ads/internal/util/client/zzm;->zzi(Ljava/lang/String;)V <",
+                "> Lcom/google/android/gms/ads/internal/util/zzd;->zza(Landroid/content/Context;)V <",
+                "> Lcom/google/android/gms/ads/internal/util/zzq;->onReceive(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.google.android.ads.intent.DEBUG_LOGGING_ENABLEMENT_CHANGED",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lcom/google/android/gms/measurement/internal/zzng;->zza(I)I <",
+                "> Lcom/google/android/gms/measurement/internal/zzkq;->zzak()Z <",
+                "> Lcom/google/android/gms/measurement/internal/zzkq;->zzad()V <",
+                "> Lcom/google/android/gms/measurement/internal/zzkq;->zza(Ljava/lang/Runnable;)V <",
+                "> Lcom/google/android/gms/measurement/internal/zzkq;->zza(Lcom/google/android/gms/measurement/internal/zzae;)V <",
+                "> Lcom/google/android/gms/measurement/internal/zzjl;->run()V <",
+                "> Lkotlinx/coroutines/tasks/DirectExecutor;->execute(Ljava/lang/Runnable;)V <",
+                "> Lokhttp3/internal/cache/DiskLruCache;->removeEntry(Lokhttp3/internal/cache/DiskLruCache$Entry;)Z <",
+                "> Lokhttp3/internal/cache/DiskLruCache$Entry;->snapshot()Lokhttp3/internal/cache/DiskLruCache$Snapshot; <",
+                "> Lokhttp3/internal/cache/DiskLruCache$3;->hasNext()Z <",
+                "> Lokhttp3/internal/cache/DiskLruCache$3;->next()Lokhttp3/internal/cache/DiskLruCache$Snapshot; <",
+                "> Lokhttp3/internal/cache/DiskLruCache$3;->next()Ljava/lang/Object; <",
+                "> Lcom/google/android/gms/ads/internal/util/client/zzm;->zzi(Ljava/lang/String;)V <",
+                "> Lcom/google/android/gms/ads/internal/util/zzd;->zza(Landroid/content/Context;)V <",
+                "> Lcom/google/android/gms/ads/internal/util/zzq;->onReceive(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.google.android.ads.intent.DEBUG_LOGGING_ENABLEMENT_CHANGED",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_5": {
+            "call_sequence": [
+                "> Lcom/google/android/gms/measurement/internal/zzng;->zza(I)I <",
+                "> Lcom/google/android/gms/measurement/internal/zzkq;->zzak()Z <",
+                "> Lcom/google/android/gms/measurement/internal/zzkq;->zzad()V <",
+                "> Lcom/google/android/gms/measurement/internal/zzkq;->zza(Ljava/lang/Runnable;)V <",
+                "> Lcom/google/android/gms/measurement/internal/zzkq;->zza(Lcom/google/android/gms/measurement/internal/zzae;)V <",
+                "> Lcom/google/android/gms/measurement/internal/zzjl;->run()V <",
+                "> Lkotlinx/coroutines/DispatcherExecutor;->execute(Ljava/lang/Runnable;)V <",
+                "> Lokhttp3/internal/cache/DiskLruCache;->removeEntry(Lokhttp3/internal/cache/DiskLruCache$Entry;)Z <",
+                "> Lokhttp3/internal/cache/DiskLruCache$Entry;->snapshot()Lokhttp3/internal/cache/DiskLruCache$Snapshot; <",
+                "> Lokhttp3/internal/cache/DiskLruCache$3;->hasNext()Z <",
+                "> Lokhttp3/internal/cache/DiskLruCache$3;->next()Lokhttp3/internal/cache/DiskLruCache$Snapshot; <",
+                "> Lokhttp3/internal/cache/DiskLruCache$3;->next()Ljava/lang/Object; <",
+                "> Lcom/applovin/impl/pj;->d()V <",
+                "> Lcom/applovin/impl/pj;-><init>(Lcom/applovin/impl/sdk/k;)V <",
+                "> Lcom/applovin/impl/sdk/k;->h0()Lcom/applovin/impl/pj; <",
+                "> Lcom/applovin/impl/sdk/k;->a(Lcom/applovin/impl/oj;)Ljava/lang/Object; <",
+                "> Lcom/applovin/impl/sdk/SessionTracker;->c()V <",
+                "> Lcom/applovin/impl/sdk/SessionTracker;->a()V <",
+                "> Lcom/applovin/impl/sdk/SessionTracker;->c(Lcom/applovin/impl/sdk/SessionTracker;)V <",
+                "> Lcom/applovin/impl/sdk/SessionTracker$c;->onReceive(Landroid/content/Context; <",
+                "----- CONDITIONAL -----",
+                "> Lokhttp3/internal/cache/DiskLruCache;->close()V <",
+                "----- CONDITIONAL -----",
+                "> Lokhttp3/internal/cache/DiskLruCache;->delete()V <",
+                "----- CONDITIONAL -----",
+                "> Lokhttp3/internal/cache/DiskLruCache;->initialize()V <",
+                "----- CONDITIONAL -----",
+                "> Lokhttp3/internal/cache/DiskLruCache;->remove(Ljava/lang/String;)Z <",
+                "----- CONDITIONAL -----",
+                "> Lokhttp3/internal/cache/DiskLruCache$3;->remove()V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/applovin/impl/sdk/AppLovinBroadcastManager;->unregisterReceiver(Lcom/applovin/impl/sdk/AppLovinBroadcastManager$Receiver;)V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/applovin/impl/sdk/f;->c()V <",
+                "----- CONDITIONAL -----"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.applovin.application_paused",
+                    "broadcast -a"
+                ],
+                [
+                    "intent",
+                    "android.intent.action.USER_PRESENT",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_6": {
+            "call_sequence": [
+                "> Lcom/google/android/gms/measurement/internal/zzng;->zza(I)I <",
+                "> Lcom/google/android/gms/measurement/internal/zzkq;->zzak()Z <",
+                "> Lcom/google/android/gms/measurement/internal/zzkq;->zzad()V <",
+                "> Lcom/google/android/gms/measurement/internal/zzkq;->zza(Ljava/lang/Runnable;)V <",
+                "> Lcom/google/android/gms/measurement/internal/zzkq;->zza(Lcom/google/android/gms/measurement/internal/zzae;)V <",
+                "> Lcom/google/android/gms/measurement/internal/zzjl;->run()V <",
+                "> Landroidx/core/location/LocationManagerCompat$InlineHandlerExecutor;->execute(Ljava/lang/Runnable;)V <",
+                "> Lokhttp3/internal/cache/DiskLruCache;->removeEntry(Lokhttp3/internal/cache/DiskLruCache$Entry;)Z <",
+                "> Lokhttp3/internal/cache/DiskLruCache$Entry;->snapshot()Lokhttp3/internal/cache/DiskLruCache$Snapshot; <",
+                "> Lokhttp3/internal/cache/DiskLruCache$3;->hasNext()Z <",
+                "> Lokhttp3/internal/cache/DiskLruCache$3;->next()Lokhttp3/internal/cache/DiskLruCache$Snapshot; <",
+                "> Lokhttp3/internal/cache/DiskLruCache$3;->next()Ljava/lang/Object; <",
+                "> Lcom/applovin/impl/pj;->d()V <",
+                "> Lcom/applovin/impl/pj;-><init>(Lcom/applovin/impl/sdk/k;)V <",
+                "> Lcom/applovin/impl/sdk/k;->h0()Lcom/applovin/impl/pj; <",
+                "> Lcom/applovin/impl/sdk/k;->a(Lcom/applovin/impl/oj;)Ljava/lang/Object; <",
+                "> Lcom/applovin/impl/sdk/SessionTracker;->c()V <",
+                "> Lcom/applovin/impl/sdk/SessionTracker;->a()V <",
+                "> Lcom/applovin/impl/sdk/SessionTracker;->c(Lcom/applovin/impl/sdk/SessionTracker;)V <",
+                "> Lcom/applovin/impl/sdk/SessionTracker$c;->onReceive(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.USER_PRESENT",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_7": {
+            "call_sequence": [
+                "> Lcom/google/android/gms/measurement/internal/zzng;->zza(I)I <",
+                "> Lcom/google/android/gms/measurement/internal/zzkq;->zzak()Z <",
+                "> Lcom/google/android/gms/measurement/internal/zzkq;->zzad()V <",
+                "> Lcom/google/android/gms/measurement/internal/zzkq;->zza(Ljava/lang/Runnable;)V <",
+                "> Lcom/google/android/gms/measurement/internal/zzkq;->zza(Lcom/google/android/gms/measurement/internal/zzae;)V <",
+                "> Lcom/google/android/gms/measurement/internal/zzjl;->run()V <",
+                "> Lkotlinx/coroutines/tasks/DirectExecutor;->execute(Ljava/lang/Runnable;)V <",
+                "> Lokhttp3/internal/cache/DiskLruCache;->removeEntry(Lokhttp3/internal/cache/DiskLruCache$Entry;)Z <",
+                "> Lokhttp3/internal/cache/DiskLruCache$Entry;->snapshot()Lokhttp3/internal/cache/DiskLruCache$Snapshot; <",
+                "> Lokhttp3/internal/cache/DiskLruCache$3;->hasNext()Z <",
+                "> Lokhttp3/internal/cache/DiskLruCache$3;->next()Lokhttp3/internal/cache/DiskLruCache$Snapshot; <",
+                "> Lokhttp3/internal/cache/DiskLruCache$3;->next()Ljava/lang/Object; <",
+                "> Lcom/applovin/impl/pj;->d()V <",
+                "> Lcom/applovin/impl/pj;-><init>(Lcom/applovin/impl/sdk/k;)V <",
+                "> Lcom/applovin/impl/sdk/k;->h0()Lcom/applovin/impl/pj; <",
+                "> Lcom/applovin/impl/sdk/k;->a(Lcom/applovin/impl/oj;)Ljava/lang/Object; <",
+                "> Lcom/applovin/impl/sdk/SessionTracker;->c()V <",
+                "> Lcom/applovin/impl/sdk/SessionTracker;->a()V <",
+                "> Lcom/applovin/impl/sdk/SessionTracker;->c(Lcom/applovin/impl/sdk/SessionTracker;)V <",
+                "> Lcom/applovin/impl/sdk/SessionTracker$c;->onReceive(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.USER_PRESENT",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_8": {
+            "call_sequence": [
+                "> Lcom/google/android/gms/ads/identifier/AdvertisingIdClient;->zzb(Z)V <",
+                "> Lcom/google/android/gms/ads/identifier/AdvertisingIdClient;->getAdvertisingIdInfo(Landroid/content/Context;)Lcom/google/android/gms/ads/identifier/AdvertisingIdClient$Info; <",
+                "> Lcom/applovin/impl/l0;->collectGoogleAdvertisingInfo(Landroid/content/Context;)Lcom/applovin/impl/l0$a; <",
+                "> Lcom/applovin/impl/l0;->c(Landroid/content/Context;)Lcom/applovin/impl/l0$a; <",
+                "> Lcom/applovin/impl/l0;->a(Landroid/content/Context;)Lcom/applovin/impl/l0$a; <",
+                "> Lcom/applovin/impl/l0;->b(Landroid/content/Context;)Lcom/applovin/impl/l0$a; <",
+                "> Lcom/applovin/impl/sdk/l;->f()Lcom/applovin/impl/l0$a; <",
+                "----- CONDITIONAL -----",
+                "> Lcom/google/android/gms/ads/identifier/AdvertisingIdClient;->zzb(Z)V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/google/android/gms/ads/identifier/AdvertisingIdClient;->getAdvertisingIdInfo(Landroid/content/Context;)Lcom/google/android/gms/ads/identifier/AdvertisingIdClient$Info; <",
+                "----- CONDITIONAL -----",
+                "> Lcom/applovin/impl/l0;->collectGoogleAdvertisingInfo(Landroid/content/Context;)Lcom/applovin/impl/l0$a; <",
+                "----- CONDITIONAL -----",
+                "> Lcom/applovin/impl/l0;->c(Landroid/content/Context;)Lcom/applovin/impl/l0$a; <",
+                "----- CONDITIONAL -----",
+                "> Lcom/applovin/impl/l0;->a(Landroid/content/Context;)Lcom/applovin/impl/l0$a; <",
+                "----- CONDITIONAL -----",
+                "> Lcom/applovin/impl/l0;->b(Landroid/content/Context;)Lcom/applovin/impl/l0$a; <",
+                "----- CONDITIONAL -----",
+                "> Lcom/applovin/impl/sdk/l;->f()Lcom/applovin/impl/l0$a; <",
+                "----- CONDITIONAL -----",
+                "----- CONDITIONAL -----",
+                "> Lcom/google/android/gms/ads/identifier/AdvertisingIdClient;->zzb(Z)V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/applovin/impl/l0;->a(Landroid/content/Context;)Lcom/applovin/impl/l0$a; <",
+                "----- CONDITIONAL -----",
+                "> Lcom/applovin/impl/im;->e()Lorg/json/JSONObject; <",
+                "----- CONDITIONAL -----",
+                "> Lcom/applovin/impl/im;->run()V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/applovin/impl/sdk/k;->d()V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/applovin/impl/sdk/k;->S0()V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/applovin/impl/sdk/k;->c()V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/applovin/impl/mediation/MediationServiceImpl;->loadAd(Ljava/lang/String; <",
+                "----- CONDITIONAL -----"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.applovin.render_process_gone",
+                    "start -a"
+                ],
+                [
+                    "intent",
+                    "android.intent.action.BATTERY_CHANGED",
+                    "start -a"
+                ]
+            ]
+        },
+        "path_9": {
+            "call_sequence": [
+                "> Lcom/google/android/gms/ads/identifier/AdvertisingIdClient;->zzb(Z)V <",
+                "> Lcom/google/android/gms/ads/identifier/AdvertisingIdClient;->getAdvertisingIdInfo(Landroid/content/Context;)Lcom/google/android/gms/ads/identifier/AdvertisingIdClient$Info; <",
+                "> Lcom/google/android/gms/measurement/internal/zzgb;->zza(Ljava/lang/String;)Landroid/util/Pair; <",
+                "> Lcom/google/android/gms/measurement/internal/zzhd;->zzah()Z <",
+                "----- CONDITIONAL -----",
+                "> Lcom/google/android/gms/ads/identifier/AdvertisingIdClient;->zzb(Z)V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/google/android/gms/ads/identifier/AdvertisingIdClient;->getAdvertisingIdInfo(Landroid/content/Context;)Lcom/google/android/gms/ads/identifier/AdvertisingIdClient$Info; <",
+                "----- CONDITIONAL -----",
+                "> Lcom/applovin/impl/l0;->collectGoogleAdvertisingInfo(Landroid/content/Context;)Lcom/applovin/impl/l0$a; <",
+                "----- CONDITIONAL -----",
+                "> Lcom/applovin/impl/l0;->c(Landroid/content/Context;)Lcom/applovin/impl/l0$a; <",
+                "----- CONDITIONAL -----",
+                "> Lcom/applovin/impl/l0;->a(Landroid/content/Context;)Lcom/applovin/impl/l0$a; <",
+                "----- CONDITIONAL -----",
+                "> Lcom/applovin/impl/l0;->b(Landroid/content/Context;)Lcom/applovin/impl/l0$a; <",
+                "----- CONDITIONAL -----",
+                "> Lcom/applovin/impl/sdk/l;->f()Lcom/applovin/impl/l0$a; <",
+                "----- CONDITIONAL -----",
+                "----- CONDITIONAL -----",
+                "> Lcom/google/android/gms/ads/identifier/AdvertisingIdClient;->zzb(Z)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.BATTERY_CHANGED",
+                    "start -a"
+                ],
+                [
+                    "intent",
+                    "com.google.android.gms.measurement.TRIGGERS_AVAILABLE",
+                    "start -a"
+                ]
+            ]
+        },
+        "path_10": {
+            "call_sequence": [
+                "> Lcom/google/android/gms/ads/identifier/AdvertisingIdClient;->zzb(Z)V <",
+                "> Lcom/google/android/gms/ads/identifier/AdvertisingIdClient;->getAdvertisingIdInfo(Landroid/content/Context;)Lcom/google/android/gms/ads/identifier/AdvertisingIdClient$Info; <",
+                "> Lcom/applovin/impl/l0;->collectGoogleAdvertisingInfo(Landroid/content/Context;)Lcom/applovin/impl/l0$a; <",
+                "> Lcom/applovin/impl/l0;->c(Landroid/content/Context;)Lcom/applovin/impl/l0$a; <",
+                "> Lcom/applovin/impl/l0;->a(Landroid/content/Context;)Lcom/applovin/impl/l0$a; <",
+                "> Lcom/applovin/impl/l0;->b(Landroid/content/Context;)Lcom/applovin/impl/l0$a; <",
+                "> Lcom/applovin/impl/sdk/l;->f()Lcom/applovin/impl/l0$a; <",
+                "> Lcom/applovin/impl/im;->e()Lorg/json/JSONObject; <",
+                "> Lcom/applovin/impl/im;->run()V <",
+                "> Lcom/applovin/impl/sdk/k;->d()V <",
+                "> Lcom/applovin/impl/sdk/k;->S0()V <",
+                "> Lcom/applovin/impl/sdk/k;->c()V <",
+                "> Lcom/applovin/impl/mediation/MediationServiceImpl;->loadAd(Ljava/lang/String; <",
+                "----- CONDITIONAL -----",
+                "> Lcom/google/android/gms/ads/identifier/AdvertisingIdClient;->zzb(Z)V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/google/android/gms/ads/identifier/AdvertisingIdClient;->getAdvertisingIdInfo(Landroid/content/Context;)Lcom/google/android/gms/ads/identifier/AdvertisingIdClient$Info; <",
+                "----- CONDITIONAL -----",
+                "> Lcom/applovin/impl/l0;->collectGoogleAdvertisingInfo(Landroid/content/Context;)Lcom/applovin/impl/l0$a; <",
+                "----- CONDITIONAL -----",
+                "> Lcom/applovin/impl/l0;->c(Landroid/content/Context;)Lcom/applovin/impl/l0$a; <",
+                "----- CONDITIONAL -----",
+                "> Lcom/applovin/impl/l0;->a(Landroid/content/Context;)Lcom/applovin/impl/l0$a; <",
+                "----- CONDITIONAL -----",
+                "> Lcom/applovin/impl/l0;->b(Landroid/content/Context;)Lcom/applovin/impl/l0$a; <",
+                "----- CONDITIONAL -----",
+                "> Lcom/applovin/impl/sdk/l;->f()Lcom/applovin/impl/l0$a; <",
+                "----- CONDITIONAL -----",
+                "----- CONDITIONAL -----",
+                "> Lcom/google/android/gms/ads/identifier/AdvertisingIdClient;->zzb(Z)V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/applovin/impl/l0;->a(Landroid/content/Context;)Lcom/applovin/impl/l0$a; <",
+                "----- CONDITIONAL -----",
+                "> Lcom/applovin/impl/im;->e()Lorg/json/JSONObject; <",
+                "----- CONDITIONAL -----",
+                "> Lcom/applovin/impl/im;->run()V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/applovin/impl/sdk/k;->d()V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/applovin/impl/sdk/k;->S0()V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/applovin/impl/sdk/k;->c()V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/applovin/impl/mediation/MediationServiceImpl;->loadAd(Ljava/lang/String; <",
+                "----- CONDITIONAL -----"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.applovin.render_process_gone",
+                    "start -a"
+                ],
+                [
+                    "intent",
+                    "android.intent.action.BATTERY_CHANGED",
+                    "start -a"
+                ],
+                [
+                    "intent",
+                    "com.applovin.render_process_gone",
+                    "start -a"
+                ]
+            ]
+        },
+        "path_11": {
+            "call_sequence": [
+                "> Lcom/google/android/gms/common/internal/BaseGmsClient;->checkAvailabilityAndConnect()V <",
+                "> Lcom/google/android/gms/measurement/internal/zzlj;->zza()V <",
+                "> Lcom/google/android/gms/measurement/internal/zzkq;->zzad()V <",
+                "> Lcom/google/android/gms/measurement/internal/zzkq;->zza(Ljava/lang/Runnable;)V <",
+                "> Lcom/google/android/gms/measurement/internal/zzkq;->zza(Lcom/google/android/gms/measurement/internal/zzae;)V <",
+                "> Lcom/google/android/gms/measurement/internal/zzjl;->run()V <",
+                "> Lcom/applovin/impl/w1;->a(Ljava/lang/Runnable;)V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/google/android/gms/measurement/internal/zzlj;->zza()V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/google/android/gms/measurement/internal/zzkq;->zzad()V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/google/android/gms/measurement/internal/zzhd;->zza(Lcom/google/android/gms/internal/measurement/zzdd;)V <",
+                "----- CONDITIONAL -----"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.google.android.gms.measurement.TRIGGERS_AVAILABLE",
+                    "start -a"
+                ],
+                [
+                    "intent",
+                    "com.applovin.application_resumed",
+                    "start -a"
+                ]
+            ]
+        },
+        "path_12": {
+            "call_sequence": [
+                "> Lcom/google/android/gms/common/internal/BaseGmsClient;->checkAvailabilityAndConnect()V <",
+                "> Lcom/google/android/gms/measurement/internal/zzlj;->zza()V <",
+                "> Lcom/google/android/gms/measurement/internal/zzkq;->zzad()V <",
+                "> Lcom/google/android/gms/measurement/internal/zzkq;->zza(Ljava/lang/Runnable;)V <",
+                "> Lcom/google/android/gms/measurement/internal/zzkq;->zza(Lcom/google/android/gms/measurement/internal/zzae;)V <",
+                "> Lcom/google/android/gms/measurement/internal/zzjl;->run()V <",
+                "> Landroidx/privacysandbox/ads/adservices/adid/AdIdManager$Api33Ext4Impl$$ExternalSyntheticLambda6;->execute(Ljava/lang/Runnable;)V <",
+                "> Landroidx/profileinstaller/ProfileInstallReceiver;->onReceive(Landroid/content/Context; <",
+                "----- CONDITIONAL -----",
+                "> Lcom/google/android/gms/measurement/internal/zzlj;->zza()V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/google/android/gms/measurement/internal/zzkq;->zzad()V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/google/android/gms/measurement/internal/zzhd;->zza(Lcom/google/android/gms/internal/measurement/zzdd;)V <",
+                "----- CONDITIONAL -----"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.google.android.gms.measurement.TRIGGERS_AVAILABLE",
+                    "start -a"
+                ],
+                [
+                    "intent",
+                    "androidx.profileinstaller.action.BENCHMARK_OPERATION",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_13": {
+            "call_sequence": [
+                "> Lcom/google/android/gms/common/internal/BaseGmsClient;->checkAvailabilityAndConnect()V <",
+                "> Lcom/google/android/gms/measurement/internal/zzlj;->zza()V <",
+                "> Lcom/google/android/gms/measurement/internal/zzkq;->zzad()V <",
+                "> Lcom/google/android/gms/measurement/internal/zzkq;->zza(Ljava/lang/Runnable;)V <",
+                "> Lcom/google/android/gms/measurement/internal/zzkq;->zza(Lcom/google/android/gms/measurement/internal/zzae;)V <",
+                "> Lcom/google/android/gms/measurement/internal/zzjl;->run()V <",
+                "> Lkotlinx/coroutines/DispatcherExecutor;->execute(Ljava/lang/Runnable;)V <",
+                "> Lokhttp3/internal/cache/DiskLruCache;->removeEntry(Lokhttp3/internal/cache/DiskLruCache$Entry;)Z <",
+                "> Lokhttp3/internal/cache/DiskLruCache$Entry;->snapshot()Lokhttp3/internal/cache/DiskLruCache$Snapshot; <",
+                "> Lokhttp3/internal/cache/DiskLruCache$3;->hasNext()Z <",
+                "> Lokhttp3/internal/cache/DiskLruCache$3;->next()Lokhttp3/internal/cache/DiskLruCache$Snapshot; <",
+                "> Lokhttp3/internal/cache/DiskLruCache$3;->next()Ljava/lang/Object; <",
+                "> Lcom/google/android/gms/ads/internal/util/client/zzm;->zzi(Ljava/lang/String;)V <",
+                "> Lcom/google/android/gms/ads/internal/util/zzd;->zza(Landroid/content/Context;)V <",
+                "> Lcom/google/android/gms/ads/internal/util/zzq;->onReceive(Landroid/content/Context; <",
+                "----- CONDITIONAL -----",
+                "> Lcom/google/android/gms/measurement/internal/zzlj;->zza()V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/google/android/gms/measurement/internal/zzkq;->zzad()V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/google/android/gms/measurement/internal/zzhd;->zza(Lcom/google/android/gms/internal/measurement/zzdd;)V <",
+                "----- CONDITIONAL -----",
+                "----- CONDITIONAL -----",
+                "> Lokhttp3/internal/cache/DiskLruCache;->close()V <",
+                "----- CONDITIONAL -----",
+                "> Lokhttp3/internal/cache/DiskLruCache;->delete()V <",
+                "----- CONDITIONAL -----",
+                "> Lokhttp3/internal/cache/DiskLruCache;->initialize()V <",
+                "----- CONDITIONAL -----",
+                "> Lokhttp3/internal/cache/DiskLruCache;->remove(Ljava/lang/String;)Z <",
+                "----- CONDITIONAL -----",
+                "> Lokhttp3/internal/cache/DiskLruCache$3;->remove()V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/applovin/impl/sdk/AppLovinBroadcastManager;->unregisterReceiver(Lcom/applovin/impl/sdk/AppLovinBroadcastManager$Receiver;)V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/applovin/impl/sdk/f;->c()V <",
+                "----- CONDITIONAL -----"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.applovin.application_paused",
+                    "broadcast -a"
+                ],
+                [
+                    "intent",
+                    "com.google.android.gms.measurement.TRIGGERS_AVAILABLE",
+                    "start -a"
+                ],
+                [
+                    "intent",
+                    "com.google.android.ads.intent.DEBUG_LOGGING_ENABLEMENT_CHANGED",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_14": {
+            "call_sequence": [
+                "> Lcom/google/android/gms/common/internal/BaseGmsClient;->checkAvailabilityAndConnect()V <",
+                "> Lcom/google/android/gms/measurement/internal/zzlj;->zza()V <",
+                "> Lcom/google/android/gms/measurement/internal/zzkq;->zzad()V <",
+                "> Lcom/google/android/gms/measurement/internal/zzkq;->zza(Ljava/lang/Runnable;)V <",
+                "> Lcom/google/android/gms/measurement/internal/zzkq;->zza(Lcom/google/android/gms/measurement/internal/zzae;)V <",
+                "> Lcom/google/android/gms/measurement/internal/zzjl;->run()V <",
+                "> Landroidx/core/location/LocationManagerCompat$InlineHandlerExecutor;->execute(Ljava/lang/Runnable;)V <",
+                "> Lokhttp3/internal/cache/DiskLruCache;->removeEntry(Lokhttp3/internal/cache/DiskLruCache$Entry;)Z <",
+                "> Lokhttp3/internal/cache/DiskLruCache$Entry;->snapshot()Lokhttp3/internal/cache/DiskLruCache$Snapshot; <",
+                "> Lokhttp3/internal/cache/DiskLruCache$3;->hasNext()Z <",
+                "> Lokhttp3/internal/cache/DiskLruCache$3;->next()Lokhttp3/internal/cache/DiskLruCache$Snapshot; <",
+                "> Lokhttp3/internal/cache/DiskLruCache$3;->next()Ljava/lang/Object; <",
+                "> Lcom/google/android/gms/ads/internal/util/client/zzm;->zzi(Ljava/lang/String;)V <",
+                "> Lcom/google/android/gms/ads/internal/util/zzd;->zza(Landroid/content/Context;)V <",
+                "> Lcom/google/android/gms/ads/internal/util/zzq;->onReceive(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.google.android.ads.intent.DEBUG_LOGGING_ENABLEMENT_CHANGED",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_15": {
+            "call_sequence": [
+                "> Lcom/google/android/gms/common/internal/BaseGmsClient;->checkAvailabilityAndConnect()V <",
+                "> Lcom/google/android/gms/measurement/internal/zzlj;->zza()V <",
+                "> Lcom/google/android/gms/measurement/internal/zzkq;->zzad()V <",
+                "> Lcom/google/android/gms/measurement/internal/zzkq;->zza(Ljava/lang/Runnable;)V <",
+                "> Lcom/google/android/gms/measurement/internal/zzkq;->zza(Lcom/google/android/gms/measurement/internal/zzae;)V <",
+                "> Lcom/google/android/gms/measurement/internal/zzjl;->run()V <",
+                "> Lkotlinx/coroutines/tasks/DirectExecutor;->execute(Ljava/lang/Runnable;)V <",
+                "> Lokhttp3/internal/cache/DiskLruCache;->removeEntry(Lokhttp3/internal/cache/DiskLruCache$Entry;)Z <",
+                "> Lokhttp3/internal/cache/DiskLruCache$Entry;->snapshot()Lokhttp3/internal/cache/DiskLruCache$Snapshot; <",
+                "> Lokhttp3/internal/cache/DiskLruCache$3;->hasNext()Z <",
+                "> Lokhttp3/internal/cache/DiskLruCache$3;->next()Lokhttp3/internal/cache/DiskLruCache$Snapshot; <",
+                "> Lokhttp3/internal/cache/DiskLruCache$3;->next()Ljava/lang/Object; <",
+                "> Lcom/google/android/gms/ads/internal/util/client/zzm;->zzi(Ljava/lang/String;)V <",
+                "> Lcom/google/android/gms/ads/internal/util/zzd;->zza(Landroid/content/Context;)V <",
+                "> Lcom/google/android/gms/ads/internal/util/zzq;->onReceive(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.google.android.ads.intent.DEBUG_LOGGING_ENABLEMENT_CHANGED",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/applovin/impl/l0;->a(Landroid/content/Context;)Lcom/applovin/impl/l0$a;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/applovin/impl/l0;->b(Landroid/content/Context;)Lcom/applovin/impl/l0$a; <",
+                "> Lcom/applovin/impl/sdk/l;->f()Lcom/applovin/impl/l0$a; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.BATTERY_CHANGED",
+                    "start -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/applovin/impl/l0;->b(Landroid/content/Context;)Lcom/applovin/impl/l0$a; <",
+                "> Lcom/applovin/impl/sdk/l;->f()Lcom/applovin/impl/l0$a; <",
+                "> Lcom/applovin/impl/im;->e()Lorg/json/JSONObject; <",
+                "> Lcom/applovin/impl/im;->run()V <",
+                "> Lcom/applovin/impl/sdk/k;->d()V <",
+                "> Lcom/applovin/impl/sdk/k;->S0()V <",
+                "> Lcom/applovin/impl/sdk/k;->c()V <",
+                "> Lcom/applovin/impl/mediation/MediationServiceImpl;->loadAd(Ljava/lang/String; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.applovin.render_process_gone",
+                    "start -a"
+                ]
+            ]
+        }
+    },
+    "Landroidx/fragment/app/FragmentManager;->dispatchPause()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Landroidx/fragment/app/Fragment;->performPause()V <",
+                "> Landroidx/fragment/app/FragmentStateManager;->pause()V <",
+                "> Landroidx/fragment/app/FragmentStateManager;->moveToExpectedState()V <",
+                "> Landroidx/fragment/app/FragmentManager;->executeOpsTogether(Ljava/util/ArrayList; <",
+                "> Landroidx/fragment/app/FragmentManagerImpl;-><init>()V <",
+                "> Landroidx/fragment/app/FragmentHostCallback;-><init>(Landroid/app/Activity; <",
+                "> Landroidx/fragment/app/FragmentActivity$HostCallbacks;-><init>(Landroidx/fragment/app/FragmentActivity;)V <",
+                "> Landroidx/fragment/app/FragmentActivity;-><init>()V <",
+                "> Landroidx/appcompat/app/AppCompatActivity;-><init>()V <",
+                "> Lcom/getcapacitor/BridgeActivity;-><init>()V <",
+                "> Lcom/coppercod/hearts/MainActivity;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Landroidx/arch/core/internal/FastSafeIterableMap;->putIfAbsent(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;": {
+        "path_0": {
+            "call_sequence": [
+                "> Landroidx/lifecycle/LifecycleRegistry;->addObserver(Landroidx/lifecycle/LifecycleObserver;)V <",
+                "> Landroidx/fragment/app/Fragment;->performCreate(Landroid/os/Bundle;)V <",
+                "> Landroidx/fragment/app/FragmentStateManager;->create()V <",
+                "> Landroidx/fragment/app/FragmentStateManager;->moveToExpectedState()V <",
+                "> Landroidx/fragment/app/FragmentManager;->executeOpsTogether(Ljava/util/ArrayList; <",
+                "> Landroidx/fragment/app/FragmentManagerImpl;-><init>()V <",
+                "> Landroidx/fragment/app/FragmentHostCallback;-><init>(Landroid/app/Activity; <",
+                "> Landroidx/fragment/app/FragmentActivity$HostCallbacks;-><init>(Landroidx/fragment/app/FragmentActivity;)V <",
+                "> Landroidx/fragment/app/FragmentActivity;-><init>()V <",
+                "> Landroidx/appcompat/app/AppCompatActivity;-><init>()V <",
+                "> Lcom/getcapacitor/BridgeActivity;-><init>()V <",
+                "> Lcom/coppercod/hearts/MainActivity;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    }
+}

@@ -1,0 +1,56 @@
+{
+    "Lcom/getcapacitor/BridgeWebChromeClient;->isMediaCaptureSupported()Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/getcapacitor/BridgeWebChromeClient;->onShowFileChooser(Landroid/webkit/WebView;Landroid/webkit/ValueCallback;Landroid/webkit/WebChromeClient$FileChooserParams;)Z <",
+                "> Lcom/getcapacitor/Bridge;->loadWebView()V <",
+                "> Lcom/getcapacitor/Bridge;-><init>(Landroidx/appcompat/app/AppCompatActivity;Lcom/getcapacitor/ServerPath;Landroidx/fragment/app/Fragment;Landroid/webkit/WebView;Ljava/util/List;Ljava/util/List;Lcom/getcapacitor/cordova/MockCordovaInterfaceImpl;Lorg/apache/cordova/PluginManager;Lorg/apache/cordova/CordovaPreferences;Lcom/getcapacitor/CapConfig;)V <",
+                "> Lcom/getcapacitor/Bridge;-><init>(Landroidx/appcompat/app/AppCompatActivity;Lcom/getcapacitor/ServerPath;Landroidx/fragment/app/Fragment;Landroid/webkit/WebView;Ljava/util/List;Ljava/util/List;Lcom/getcapacitor/cordova/MockCordovaInterfaceImpl;Lorg/apache/cordova/PluginManager;Lorg/apache/cordova/CordovaPreferences;Lcom/getcapacitor/CapConfig;Lcom/getcapacitor/Bridge-IA;)V <",
+                "> Lcom/getcapacitor/Bridge$Builder;->create()Lcom/getcapacitor/Bridge; <",
+                "> Lcom/getcapacitor/BridgeActivity;->load()V <",
+                "> Lcom/getcapacitor/BridgeActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/spectrum/convergedTech/MainActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/spectrum/cm/library/events/AirlyticsSetupManager;-><init>(Landroid/content/Context;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/spectrum/cm/library/events/EventsSetupManager;->getAirlyticsSetupManager()Lcom/spectrum/cm/library/events/AirlyticsSetupManager; <",
+                "> Lcom/spectrum/cm/library/util/CM3LogUploader;->doIt()V <",
+                "> Lcom/spectrum/cm/library/services/CMFirebaseMessagingService;->onMessageReceived(Lcom/google/firebase/messaging/RemoteMessage;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.google.firebase.MESSAGING_EVENT",
+                    "start-service -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/spectrum/cm/library/events/EventsSetupManager;->getAirlyticsSetupManager()Lcom/spectrum/cm/library/events/AirlyticsSetupManager; <",
+                "> Lcom/spectrum/cm/library/ConnectionManager;->getAnalytics()Lcom/spectrum/cm/analytics/IAnalytics; <",
+                "> Lcom/spectrum/cm/library/wifi/WifiEnabler;->getCachedWifiSession()Lcom/spectrum/cm/analytics/model/WifiSession; <",
+                "> Lcom/spectrum/cm/library/wifi/WifiEnabler;->isWifiConnected()Z <",
+                "> Lcom/spectrum/cm/library/wifi/WifiEnabler;->lambda$enableWifi$2$com-spectrum-cm-library-wifi-WifiEnabler()V <",
+                "> Lcom/spectrum/cm/library/wifi/WifiEnabler$$ExternalSyntheticLambda2;->run()V <",
+                "> Lcom/spectrum/cm/library/wifi/WifiEnabler;->enableWifi(Ljava/lang/String;)V <",
+                "> Lcom/spectrum/cm/library/receivers/BatteryStateReceiver;->lambda$new$0(Lcom/spectrum/cm/library/wifi/WifiEnabler;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.BATTERY_CHANGED",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    }
+}

@@ -1,0 +1,344 @@
+{
+    "Lcom/bvaauctions/home/HomeActivity$special$$inlined$viewModels$default$3;->invoke()Landroidx/lifecycle/viewmodel/CreationExtras;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/bvaauctions/home/HomeActivity$special$$inlined$viewModels$default$3;->invoke()Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/bvaauctions/home/HomeActivity;->access$getSearchViewListener$p(Lcom/bvaauctions/home/HomeActivity;)Lcom/bvaauctions/home/HomeActivity$searchViewListener$1;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/bvaauctions/home/HomeActivity$searchViewHandler$2;->invoke()Lcom/bvaauctions/search/searchview/SearchViewHandler; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/bvaauctions/activities/BaseActivity;->registerPush(Landroid/content/Intent;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/bvaauctions/activities/BaseActivity;->onNewIntent(Landroid/content/Intent;)V <",
+                "> Lcom/bvaauctions/biddetail/BidDetailActivity;->onNewIntent(Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.bvaauctions/com.bvaauctions.biddetail.BidDetailActivity",
+                    "start -n"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/bvaauctions/activities/BaseActivity;->onNewIntent(Landroid/content/Intent;)V <",
+                "> Lcom/bvaauctions/lotdetail/LotDetailActivity;->onNewIntent(Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.bvaauctions/com.bvaauctions.lotdetail.LotDetailActivity",
+                    "start -n"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/bvaauctions/activities/BaseActivity;->onNewIntent(Landroid/content/Intent;)V <",
+                "> Lcom/bvaauctions/checkout/PurchasesActivity;->onNewIntent(Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.bvaauctions/com.bvaauctions.checkout.PurchasesActivity",
+                    "start -n"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/bvaauctions/activities/BaseActivity;->onNewIntent(Landroid/content/Intent;)V <",
+                "> Lcom/bvaauctions/activities/BottomNavigationActivity;->onNewIntent(Landroid/content/Intent;)V <",
+                "> Lcom/bvaauctions/home/HomeActivity;->onNewIntent(Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lcom/bvaauctions/activities/BaseActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bvaauctions/biddetail/BidDetailActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.bvaauctions/com.bvaauctions.biddetail.BidDetailActivity",
+                    "start -n"
+                ]
+            ]
+        },
+        "path_5": {
+            "call_sequence": [
+                "> Lcom/bvaauctions/activities/BaseActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bvaauctions/lotdetail/LotDetailActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.bvaauctions/com.bvaauctions.lotdetail.LotDetailActivity",
+                    "start -n"
+                ]
+            ]
+        },
+        "path_6": {
+            "call_sequence": [
+                "> Lcom/bvaauctions/activities/BaseActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bvaauctions/checkout/PurchasesActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.VIEW",
+                    "start-activity -a"
+                ]
+            ]
+        },
+        "path_7": {
+            "call_sequence": [
+                "> Lcom/bvaauctions/activities/BaseActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bvaauctions/activities/BottomNavigationActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bvaauctions/home/HomeActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/bvaauctions/home/alertBanner/AlertBannerViewModel;->getState()Landroidx/lifecycle/LiveData;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/bvaauctions/home/alertBanner/AlertBannerFragment;->onViewCreated(Landroid/view/View; <",
+                "> Lcom/bvaauctions/home/builder/HomeScreenBuilder;->build()V <",
+                "> Lcom/bvaauctions/home/HomeActivity;->buildHomeScreen()V <",
+                "> Lcom/bvaauctions/home/HomeActivity;->onEvent(Lcom/bvaauctions/events/AppStartupCompleteEvent;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/bvaauctions/analytics/PushManager;->logEvent(Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/bvaauctions/analytics/PushManager;->registerPush(Landroid/os/Bundle;)V <",
+                "> Lcom/bvaauctions/analytics/PushManager;->registerPush(Lcom/bvaauctions/fcm/PushEvent;)V <",
+                "> Lcom/bvaauctions/activities/BaseActivity;->registerPush(Landroid/content/Intent;)V <",
+                "> Lcom/bvaauctions/activities/BaseActivity;->onNewIntent(Landroid/content/Intent;)V <",
+                "> Lcom/bvaauctions/lotdetail/LotDetailActivity;->onNewIntent(Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.bvaauctions/com.bvaauctions.lotdetail.LotDetailActivity",
+                    "start -n"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/bvaauctions/analytics/PushManager;->registerPush(Landroid/os/Bundle;)V <",
+                "> Lcom/bvaauctions/analytics/PushManager;->registerPush(Lcom/bvaauctions/fcm/PushEvent;)V <",
+                "> Lcom/bvaauctions/activities/BaseActivity;->registerPush(Landroid/content/Intent;)V <",
+                "> Lcom/bvaauctions/activities/BaseActivity;->onNewIntent(Landroid/content/Intent;)V <",
+                "> Lcom/bvaauctions/biddetail/BidDetailActivity;->onNewIntent(Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.bvaauctions/com.bvaauctions.biddetail.BidDetailActivity",
+                    "start -n"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/bvaauctions/analytics/PushManager;->registerPush(Landroid/os/Bundle;)V <",
+                "> Lcom/bvaauctions/managers/DeepLinkManagerImpl;->process(Landroid/content/Intent;)V <",
+                "> Lcom/bvaauctions/home/HomeActivity$deepLinkManager$2;->invoke()Lcom/bvaauctions/managers/DeepLinkManagerImpl; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/bvaauctions/analytics/PushManager;->registerPush(Landroid/os/Bundle;)V <",
+                "> Lcom/bvaauctions/analytics/PushManager;->registerPush(Lcom/bvaauctions/fcm/PushEvent;)V <",
+                "> Lcom/bvaauctions/activities/BaseActivity;->registerPush(Landroid/content/Intent;)V <",
+                "> Lcom/bvaauctions/activities/BaseActivity;->onNewIntent(Landroid/content/Intent;)V <",
+                "> Lcom/bvaauctions/checkout/PurchasesActivity;->onNewIntent(Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.bvaauctions/com.bvaauctions.checkout.PurchasesActivity",
+                    "start -n"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lcom/bvaauctions/analytics/PushManager;->registerPush(Landroid/os/Bundle;)V <",
+                "> Lcom/bvaauctions/analytics/PushManager;->registerPush(Lcom/bvaauctions/fcm/PushEvent;)V <",
+                "> Lcom/bvaauctions/activities/BaseActivity;->registerPush(Landroid/content/Intent;)V <",
+                "> Lcom/bvaauctions/activities/BaseActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bvaauctions/checkout/PurchasesActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.VIEW",
+                    "start-activity -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/bvaauctions/BVAApplication;->getCredentialProvider()Lcom/bvaauctions/providers/CredentialProvider;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/bvaauctions/BVAApplication;->clearUser()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/bvaauctions/BVAApplication;->getLifecycleManager()Lcom/bvaauctions/managers/LifecycleManager;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/bvaauctions/BVAApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/bvaauctions/fcm/BVAFirebaseMessagingService;->isAppRunning()Z <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.google.firebase.MESSAGING_EVENT",
+                    "start-service -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/bvaauctions/network/Gateways;->getDATO()Lretrofit2/Retrofit;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/bvaauctions/home/api/DatoApi$Companion;->create()Lcom/bvaauctions/home/api/DatoApi; <",
+                "> Lcom/bvaauctions/home/HomeActivity$viewModel$2;->invoke()Landroidx/lifecycle/ViewModelProvider$Factory; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/bvaauctions/model/BadgeStatus;->getShowHomeAlert()Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/bvaauctions/activities/BottomNavigationActivity;->handleBadgeStatus(Lcom/bvaauctions/model/BadgeStatus;)V <",
+                "> Lcom/bvaauctions/activities/BottomNavigationActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/bvaauctions/home/HomeActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/bvaauctions/home/BiddingFragment;->setupUI()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/bvaauctions/home/BiddingFragment;->onResume()V <",
+                "> Lcom/bvaauctions/home/builder/HomeScreenBuilder;->build()V <",
+                "> Lcom/bvaauctions/home/HomeActivity;->buildHomeScreen()V <",
+                "> Lcom/bvaauctions/home/HomeActivity;->onEvent(Lcom/bvaauctions/events/AppStartupCompleteEvent;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/bvaauctions/managers/BadgeManager;->updateLotStatus()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/bvaauctions/managers/BadgeManager;->updateStatusesIfNeeded()V <",
+                "> Lcom/bvaauctions/activities/BottomNavigationActivity;->onResume()V <",
+                "> Lcom/bvaauctions/home/HomeActivity;->onResume()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/bvaauctions/search/searchview/SearchViewHandler;->hideResultCount()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/bvaauctions/search/searchview/SearchViewHandler;->showResultCount(Ljava/lang/Integer;)V <",
+                "> Lcom/bvaauctions/search/searchview/SearchViewHandler$setup$2;->onSuggestionClicked(Lcom/arlib/floatingsearchview/suggestions/model/SearchSuggestion;)V <",
+                "> Lcom/bvaauctions/search/searchview/SearchViewHandler;->setup()V <",
+                "> Lcom/bvaauctions/search/searchview/SearchViewHandler;-><init>(Landroidx/lifecycle/LifecycleCoroutineScope; <",
+                "> Lcom/bvaauctions/home/HomeActivity$searchViewHandler$2;->invoke()Lcom/bvaauctions/search/searchview/SearchViewHandler; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/bvaauctions/search/searchview/SearchViewHandler$setup$3;->onFocus()V <",
+                "> Lcom/bvaauctions/search/searchview/SearchViewHandler;->setup()V <",
+                "> Lcom/bvaauctions/search/searchview/SearchViewHandler;-><init>(Landroidx/lifecycle/LifecycleCoroutineScope; <",
+                "> Lcom/bvaauctions/home/HomeActivity$searchViewHandler$2;->invoke()Lcom/bvaauctions/search/searchview/SearchViewHandler; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    }
+}

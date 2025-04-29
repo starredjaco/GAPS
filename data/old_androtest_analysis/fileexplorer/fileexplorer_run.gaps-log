@@ -1,0 +1,14 @@
+could not hook Lnet/micode/fileexplorer/ServerControlActivity;->getActivity()Landroid/app/Activity; 
+ could not hook Lnet/micode/fileexplorer/FileExplorerTabActivity;->getActionBar()Landroid/app/ActionBar; 
+ could not hook Lnet/micode/fileexplorer/FTPServerService;->releaseWifiLock()V 
+ could not hook Lnet/micode/fileexplorer/ServerControlActivity;->updateUi()V 
+ could not hook Lnet/micode/fileexplorer/FileExplorerTabActivity$TabsAdapter;->getItem(I)Landroid/app/Fragment; 
+ could not hook Lnet/micode/fileexplorer/IFileInteractionListener;->onDataChanged()V 
+ could not hook Lnet/micode/fileexplorer/ServerControlActivity;-><init>()V 
+ could not hook Lnet/micode/fileexplorer/FileViewActivity;->updateUI()V 
+ could not hook Lnet/micode/fileexplorer/FileViewInteractionHub;->clearSelection()V 
+ could not hook Lnet/micode/fileexplorer/ServerControlActivity;->warnIfNoExternalStorage()V 
+ could not hook Lnet/micode/fileexplorer/FTPServerService;->registerReceiver(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;)Landroid/content/Intent; 
+ could not hook Lnet/micode/fileexplorer/FileExplorerTabActivity;->onBackPressed()V 
+ could not hook Lnet/micode/fileexplorer/FTPServerService;->getPort()I 
+ 

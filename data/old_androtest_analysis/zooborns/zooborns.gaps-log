@@ -1,0 +1,10 @@
+MISSING ID > Lorg/smerty/zooborns/FullscreenImage;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <
+COMPONENT CONCAT > Lorg/smerty/zooborns/FullscreenImage;->onCreate(Landroid/os/Bundle;)V < extends Landroid/app/Activity, implements []
+COMPONENT CONCAT > Lorg/smerty/zooborns/FullscreenImage;->nextImage()V < extends Landroid/app/Activity, implements []
+COMPONENT CONCAT > Lorg/smerty/zooborns/FullscreenImage;->prevImage()V < extends Landroid/app/Activity, implements []
+COMPONENT CONCAT > Lorg/smerty/zooborns/FullscreenImage$SwipeDetector;->onFling(Landroid/view/MotionEvent;Landroid/view/MotionEvent;FF)Z < extends Landroid/view/GestureDetector$SimpleOnGestureListener, implements []
+COMPONENT CONCAT > Lorg/smerty/zooborns/FullscreenImage;->onKeyUp(ILandroid/view/KeyEvent;)Z < extends Landroid/app/Activity, implements []
+COMPONENT CONCAT > Lorg/smerty/zooborns/ZooBorns$1;->onItemClick(Landroid/widget/AdapterView;Landroid/view/View;IJ)V < extends Ljava/lang/Object, implements ['Landroid/widget/AdapterView$OnItemClickListener']
+MISSING ID > Lorg/smerty/zooborns/FullscreenImage;->onKeyUp(ILandroid/view/KeyEvent;)Z <
+MISSING ID > Lorg/smerty/zooborns/ZooBorns;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <
+MISSING ID > Lorg/smerty/zooborns/FullscreenImage$SwipeDetector;->onFling(Landroid/view/MotionEvent;Landroid/view/MotionEvent;FF)Z <

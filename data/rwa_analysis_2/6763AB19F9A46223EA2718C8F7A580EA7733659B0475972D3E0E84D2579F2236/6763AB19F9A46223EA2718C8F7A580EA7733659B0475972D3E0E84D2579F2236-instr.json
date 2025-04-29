@@ -1,0 +1,2447 @@
+{
+    "Lcom/dexterous/flutterlocalnotifications/ActionBroadcastReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/dexterous/flutterlocalnotifications/ActionBroadcastReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->createNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;)Landroid/app/Notification; <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->showNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ScheduledNotificationReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->repeatNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;Ljava/lang/Boolean;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->rescheduleNotifications(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ScheduledNotificationBootReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.MY_PACKAGE_REPLACED",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/dexterous/flutterlocalnotifications/ActionBroadcastReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->createNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;)Landroid/app/Notification; <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->showNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ScheduledNotificationReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->scheduleNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;Ljava/lang/Boolean;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->rescheduleNotifications(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ScheduledNotificationBootReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.MY_PACKAGE_REPLACED",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Lc5/b;->c(Ljava/lang/String;)Ljava/lang/CharSequence;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lw4/c0;->a(Landroid/content/Context;)Ljava/lang/String; <",
+                "> Lw4/c0;->d(Landroid/content/Context;I)Ljava/lang/String; <",
+                "> Lt4/e;->p(Landroid/content/Context;ILw4/f0;Landroid/content/DialogInterface$OnCancelListener;)Landroid/app/Dialog; <",
+                "> Lna/y0;->z(Landroid/content/Context;)Z <",
+                "> Lna/y0;->B(Landroid/content/Context;)Z <",
+                "> Lna/y0;->D(Landroid/content/Context;Lna/y0$a;)Z <",
+                "> Lna/e;-><init>(Landroid/content/Context;)V <",
+                "> Lna/e;->U(Landroid/content/Context;)Lna/e; <",
+                "> Lm2/d;->i(Lgb/k$d;)V <",
+                "> Lm2/d;->onMethodCall(Lgb/j;Lgb/k$d;)V <",
+                "> Lio/flutter/plugins/GeneratedPluginRegistrant;->registerWith(Lio/flutter/embedding/engine/a;)V <",
+                "> Ldb/a;->a(Lio/flutter/embedding/engine/a;)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;ZZ)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;[Ljava/lang/String;)V <",
+                "> Lio/flutter/plugins/firebase/messaging/b;->j(Lva/f;Lio/flutter/embedding/engine/e;J)V <",
+                "> Lio/flutter/plugins/firebase/messaging/b;->b(Lio/flutter/plugins/firebase/messaging/b;Lva/f;Lio/flutter/embedding/engine/e;J)V <",
+                "> Ljb/c;->run()V <",
+                "> Lio/flutter/plugins/firebase/messaging/b;->k(Lva/f;Landroid/os/Handler;Lio/flutter/embedding/engine/e;J)V <",
+                "> Lio/flutter/plugins/firebase/messaging/b;->a(Lio/flutter/plugins/firebase/messaging/b;Lva/f;Landroid/os/Handler;Lio/flutter/embedding/engine/e;J)V <",
+                "> Ljb/b;->run()V <",
+                "> Lio/flutter/plugins/firebase/messaging/b;->p(JLio/flutter/embedding/engine/e;)V <",
+                "> Lio/flutter/plugins/firebase/messaging/FlutterFirebaseMessagingBackgroundService;->p(JLio/flutter/embedding/engine/e;)V <",
+                "> Lio/flutter/plugins/firebase/messaging/FlutterFirebaseMessagingReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.google.android.c2dm.intent.RECEIVE",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lw4/c0;->a(Landroid/content/Context;)Ljava/lang/String; <",
+                "> Lw4/c0;->e(Landroid/content/Context;I)Ljava/lang/String; <",
+                "> Lt4/e;->t(Landroid/content/Context;ILjava/lang/String;Landroid/app/PendingIntent;)V <",
+                "> Lna/y0;->z(Landroid/content/Context;)Z <",
+                "> Lna/y0;->B(Landroid/content/Context;)Z <",
+                "> Lna/y0;->D(Landroid/content/Context;Lna/y0$a;)Z <",
+                "> Lna/e;-><init>(Landroid/content/Context;)V <",
+                "> Lna/e;->U(Landroid/content/Context;)Lna/e; <",
+                "> Lm2/d;->i(Lgb/k$d;)V <",
+                "> Lm2/d;->onMethodCall(Lgb/j;Lgb/k$d;)V <",
+                "> Lio/flutter/plugins/GeneratedPluginRegistrant;->registerWith(Lio/flutter/embedding/engine/a;)V <",
+                "> Ldb/a;->a(Lio/flutter/embedding/engine/a;)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;ZZ)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;[Ljava/lang/String;)V <",
+                "> Lio/flutter/plugins/firebase/messaging/b;->j(Lva/f;Lio/flutter/embedding/engine/e;J)V <",
+                "> Lio/flutter/plugins/firebase/messaging/b;->b(Lio/flutter/plugins/firebase/messaging/b;Lva/f;Lio/flutter/embedding/engine/e;J)V <",
+                "> Ljb/c;->run()V <",
+                "> Lio/flutter/plugins/firebase/messaging/b;->k(Lva/f;Landroid/os/Handler;Lio/flutter/embedding/engine/e;J)V <",
+                "> Lio/flutter/plugins/firebase/messaging/b;->a(Lio/flutter/plugins/firebase/messaging/b;Lva/f;Landroid/os/Handler;Lio/flutter/embedding/engine/e;J)V <",
+                "> Ljb/b;->run()V <",
+                "> Lio/flutter/plugins/firebase/messaging/b;->p(JLio/flutter/embedding/engine/e;)V <",
+                "> Lio/flutter/plugins/firebase/messaging/FlutterFirebaseMessagingBackgroundService;->p(JLio/flutter/embedding/engine/e;)V <",
+                "> Lio/flutter/plugins/firebase/messaging/FlutterFirebaseMessagingReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.google.android.c2dm.intent.RECEIVE",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lw4/c0;->a(Landroid/content/Context;)Ljava/lang/String; <",
+                "> Lw4/c0;->d(Landroid/content/Context;I)Ljava/lang/String; <",
+                "> Lt4/e;->q(Landroid/app/Activity;Landroid/content/DialogInterface$OnCancelListener;)Landroid/app/Dialog; <",
+                "> Lna/y0;->z(Landroid/content/Context;)Z <",
+                "> Lna/y0;->B(Landroid/content/Context;)Z <",
+                "> Lna/y0;->D(Landroid/content/Context;Lna/y0$a;)Z <",
+                "> Lna/e;-><init>(Landroid/content/Context;)V <",
+                "> Lna/e;->U(Landroid/content/Context;)Lna/e; <",
+                "> Lm2/d;->j(Lgb/j;Lgb/k$d;)V <",
+                "> Lm2/d;->onMethodCall(Lgb/j;Lgb/k$d;)V <",
+                "> Lio/flutter/plugins/GeneratedPluginRegistrant;->registerWith(Lio/flutter/embedding/engine/a;)V <",
+                "> Ldb/a;->a(Lio/flutter/embedding/engine/a;)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;ZZ)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;[Ljava/lang/String;)V <",
+                "> Lio/flutter/plugins/firebase/messaging/b;->j(Lva/f;Lio/flutter/embedding/engine/e;J)V <",
+                "> Lio/flutter/plugins/firebase/messaging/b;->b(Lio/flutter/plugins/firebase/messaging/b;Lva/f;Lio/flutter/embedding/engine/e;J)V <",
+                "> Ljb/c;->run()V <",
+                "> Lio/flutter/plugins/firebase/messaging/b;->k(Lva/f;Landroid/os/Handler;Lio/flutter/embedding/engine/e;J)V <",
+                "> Lio/flutter/plugins/firebase/messaging/b;->a(Lio/flutter/plugins/firebase/messaging/b;Lva/f;Landroid/os/Handler;Lio/flutter/embedding/engine/e;J)V <",
+                "> Ljb/b;->run()V <",
+                "> Lio/flutter/plugins/firebase/messaging/b;->p(JLio/flutter/embedding/engine/e;)V <",
+                "> Lio/flutter/plugins/firebase/messaging/FlutterFirebaseMessagingBackgroundService;->p(JLio/flutter/embedding/engine/e;)V <",
+                "> Lio/flutter/plugins/firebase/messaging/FlutterFirebaseMessagingReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.google.android.c2dm.intent.RECEIVE",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lw4/c0;->a(Landroid/content/Context;)Ljava/lang/String; <",
+                "> Lw4/c0;->d(Landroid/content/Context;I)Ljava/lang/String; <",
+                "> Lt4/e;->p(Landroid/content/Context;ILw4/f0;Landroid/content/DialogInterface$OnCancelListener;)Landroid/app/Dialog; <",
+                "> Lna/y0;->z(Landroid/content/Context;)Z <",
+                "> Lna/y0;->B(Landroid/content/Context;)Z <",
+                "> Lna/y0;->D(Landroid/content/Context;Lna/y0$a;)Z <",
+                "> Lna/e;-><init>(Landroid/content/Context;)V <",
+                "> Lna/e;->U(Landroid/content/Context;)Lna/e; <",
+                "> Lm2/d;->k(Lgb/k$d;)V <",
+                "> Lm2/d;->onMethodCall(Lgb/j;Lgb/k$d;)V <",
+                "> Lio/flutter/plugins/GeneratedPluginRegistrant;->registerWith(Lio/flutter/embedding/engine/a;)V <",
+                "> Ldb/a;->a(Lio/flutter/embedding/engine/a;)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;ZZ)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;[Ljava/lang/String;)V <",
+                "> Lio/flutter/plugins/firebase/messaging/b;->j(Lva/f;Lio/flutter/embedding/engine/e;J)V <",
+                "> Lio/flutter/plugins/firebase/messaging/b;->b(Lio/flutter/plugins/firebase/messaging/b;Lva/f;Lio/flutter/embedding/engine/e;J)V <",
+                "> Ljb/c;->run()V <",
+                "> Lio/flutter/plugins/firebase/messaging/b;->k(Lva/f;Landroid/os/Handler;Lio/flutter/embedding/engine/e;J)V <",
+                "> Lio/flutter/plugins/firebase/messaging/b;->a(Lio/flutter/plugins/firebase/messaging/b;Lva/f;Landroid/os/Handler;Lio/flutter/embedding/engine/e;J)V <",
+                "> Ljb/b;->run()V <",
+                "> Lio/flutter/plugins/firebase/messaging/b;->p(JLio/flutter/embedding/engine/e;)V <",
+                "> Lio/flutter/plugins/firebase/messaging/FlutterFirebaseMessagingBackgroundService;->p(JLio/flutter/embedding/engine/e;)V <",
+                "> Lio/flutter/plugins/firebase/messaging/FlutterFirebaseMessagingReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.google.android.c2dm.intent.RECEIVE",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lw4/c0;->a(Landroid/content/Context;)Ljava/lang/String; <",
+                "> Lw4/c0;->e(Landroid/content/Context;I)Ljava/lang/String; <",
+                "> Lt4/e;->t(Landroid/content/Context;ILjava/lang/String;Landroid/app/PendingIntent;)V <",
+                "> Lna/y0;->z(Landroid/content/Context;)Z <",
+                "> Lna/y0;->B(Landroid/content/Context;)Z <",
+                "> Lna/y0;->D(Landroid/content/Context;Lna/y0$a;)Z <",
+                "> Lna/e;-><init>(Landroid/content/Context;)V <",
+                "> Lna/e;->U(Landroid/content/Context;)Lna/e; <",
+                "> Lm2/d;->k(Lgb/k$d;)V <",
+                "> Lm2/d;->onMethodCall(Lgb/j;Lgb/k$d;)V <",
+                "> Lio/flutter/plugins/GeneratedPluginRegistrant;->registerWith(Lio/flutter/embedding/engine/a;)V <",
+                "> Ldb/a;->a(Lio/flutter/embedding/engine/a;)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;ZZ)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;[Ljava/lang/String;)V <",
+                "> Lio/flutter/plugins/firebase/messaging/b;->j(Lva/f;Lio/flutter/embedding/engine/e;J)V <",
+                "> Lio/flutter/plugins/firebase/messaging/b;->b(Lio/flutter/plugins/firebase/messaging/b;Lva/f;Lio/flutter/embedding/engine/e;J)V <",
+                "> Ljb/c;->run()V <",
+                "> Lio/flutter/plugins/firebase/messaging/b;->k(Lva/f;Landroid/os/Handler;Lio/flutter/embedding/engine/e;J)V <",
+                "> Lio/flutter/plugins/firebase/messaging/b;->a(Lio/flutter/plugins/firebase/messaging/b;Lva/f;Landroid/os/Handler;Lio/flutter/embedding/engine/e;J)V <",
+                "> Ljb/b;->run()V <",
+                "> Lio/flutter/plugins/firebase/messaging/b;->p(JLio/flutter/embedding/engine/e;)V <",
+                "> Lio/flutter/plugins/firebase/messaging/FlutterFirebaseMessagingBackgroundService;->p(JLio/flutter/embedding/engine/e;)V <",
+                "> Lio/flutter/plugins/firebase/messaging/FlutterFirebaseMessagingReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.google.android.c2dm.intent.RECEIVE",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_5": {
+            "call_sequence": [
+                "> Lw4/c0;->a(Landroid/content/Context;)Ljava/lang/String; <",
+                "> Lw4/c0;->d(Landroid/content/Context;I)Ljava/lang/String; <",
+                "> Lt4/e;->q(Landroid/app/Activity;Landroid/content/DialogInterface$OnCancelListener;)Landroid/app/Dialog; <",
+                "> Lna/y0;->z(Landroid/content/Context;)Z <",
+                "> Lna/y0;->B(Landroid/content/Context;)Z <",
+                "> Lna/y0;->D(Landroid/content/Context;Lna/y0$a;)Z <",
+                "> Lna/e;-><init>(Landroid/content/Context;)V <",
+                "> Lna/e;->U(Landroid/content/Context;)Lna/e; <",
+                "> Lm2/d;->n(Lgb/k$d;)V <",
+                "> Lm2/d;->onMethodCall(Lgb/j;Lgb/k$d;)V <",
+                "> Lio/flutter/plugins/GeneratedPluginRegistrant;->registerWith(Lio/flutter/embedding/engine/a;)V <",
+                "> Ldb/a;->a(Lio/flutter/embedding/engine/a;)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;ZZ)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;[Ljava/lang/String;)V <",
+                "> Lio/flutter/plugins/firebase/messaging/b;->j(Lva/f;Lio/flutter/embedding/engine/e;J)V <",
+                "> Lio/flutter/plugins/firebase/messaging/b;->b(Lio/flutter/plugins/firebase/messaging/b;Lva/f;Lio/flutter/embedding/engine/e;J)V <",
+                "> Ljb/c;->run()V <",
+                "> Lio/flutter/plugins/firebase/messaging/b;->k(Lva/f;Landroid/os/Handler;Lio/flutter/embedding/engine/e;J)V <",
+                "> Lio/flutter/plugins/firebase/messaging/b;->a(Lio/flutter/plugins/firebase/messaging/b;Lva/f;Landroid/os/Handler;Lio/flutter/embedding/engine/e;J)V <",
+                "> Ljb/b;->run()V <",
+                "> Lio/flutter/plugins/firebase/messaging/b;->p(JLio/flutter/embedding/engine/e;)V <",
+                "> Lio/flutter/plugins/firebase/messaging/FlutterFirebaseMessagingBackgroundService;->p(JLio/flutter/embedding/engine/e;)V <",
+                "> Lio/flutter/plugins/firebase/messaging/FlutterFirebaseMessagingReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.google.android.c2dm.intent.RECEIVE",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_6": {
+            "call_sequence": [
+                "> Lw4/c0;->a(Landroid/content/Context;)Ljava/lang/String; <",
+                "> Lw4/c0;->d(Landroid/content/Context;I)Ljava/lang/String; <",
+                "> Lt4/e;->p(Landroid/content/Context;ILw4/f0;Landroid/content/DialogInterface$OnCancelListener;)Landroid/app/Dialog; <",
+                "> Lna/y0;->z(Landroid/content/Context;)Z <",
+                "> Lna/y0;->B(Landroid/content/Context;)Z <",
+                "> Lna/y0;->D(Landroid/content/Context;Lna/y0$a;)Z <",
+                "> Lna/e;-><init>(Landroid/content/Context;)V <",
+                "> Lna/e;->c0()Lna/e; <",
+                "> Lna/e$n;->a()V <",
+                "> Lm2/d;->onActivityStarted(Landroid/app/Activity;)V <",
+                "> Lio/flutter/plugins/GeneratedPluginRegistrant;->registerWith(Lio/flutter/embedding/engine/a;)V <",
+                "> Ldb/a;->a(Lio/flutter/embedding/engine/a;)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;ZZ)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;[Ljava/lang/String;)V <",
+                "> Lio/flutter/plugins/firebase/messaging/b;->j(Lva/f;Lio/flutter/embedding/engine/e;J)V <",
+                "> Lio/flutter/plugins/firebase/messaging/b;->b(Lio/flutter/plugins/firebase/messaging/b;Lva/f;Lio/flutter/embedding/engine/e;J)V <",
+                "> Ljb/c;->run()V <",
+                "> Lio/flutter/plugins/firebase/messaging/b;->k(Lva/f;Landroid/os/Handler;Lio/flutter/embedding/engine/e;J)V <",
+                "> Lio/flutter/plugins/firebase/messaging/b;->a(Lio/flutter/plugins/firebase/messaging/b;Lva/f;Landroid/os/Handler;Lio/flutter/embedding/engine/e;J)V <",
+                "> Ljb/b;->run()V <",
+                "> Lio/flutter/plugins/firebase/messaging/b;->p(JLio/flutter/embedding/engine/e;)V <",
+                "> Lio/flutter/plugins/firebase/messaging/FlutterFirebaseMessagingBackgroundService;->p(JLio/flutter/embedding/engine/e;)V <",
+                "> Lio/flutter/plugins/firebase/messaging/FlutterFirebaseMessagingReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.google.android.c2dm.intent.RECEIVE",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_7": {
+            "call_sequence": [
+                "> Lw4/c0;->a(Landroid/content/Context;)Ljava/lang/String; <",
+                "> Lw4/c0;->e(Landroid/content/Context;I)Ljava/lang/String; <",
+                "> Lt4/e;->t(Landroid/content/Context;ILjava/lang/String;Landroid/app/PendingIntent;)V <",
+                "> Lna/y0;->z(Landroid/content/Context;)Z <",
+                "> Lna/y0;->B(Landroid/content/Context;)Z <",
+                "> Lna/y0;->D(Landroid/content/Context;Lna/y0$a;)Z <",
+                "> Lna/e;-><init>(Landroid/content/Context;)V <",
+                "> Lna/e;->c0()Lna/e; <",
+                "> Lna/e$n;->a()V <",
+                "> Lm2/d;->onActivityStarted(Landroid/app/Activity;)V <",
+                "> Lio/flutter/plugins/GeneratedPluginRegistrant;->registerWith(Lio/flutter/embedding/engine/a;)V <",
+                "> Ldb/a;->a(Lio/flutter/embedding/engine/a;)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;ZZ)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;[Ljava/lang/String;)V <",
+                "> Lio/flutter/plugins/firebase/messaging/b;->j(Lva/f;Lio/flutter/embedding/engine/e;J)V <",
+                "> Lio/flutter/plugins/firebase/messaging/b;->b(Lio/flutter/plugins/firebase/messaging/b;Lva/f;Lio/flutter/embedding/engine/e;J)V <",
+                "> Ljb/c;->run()V <",
+                "> Lio/flutter/plugins/firebase/messaging/b;->k(Lva/f;Landroid/os/Handler;Lio/flutter/embedding/engine/e;J)V <",
+                "> Lio/flutter/plugins/firebase/messaging/b;->a(Lio/flutter/plugins/firebase/messaging/b;Lva/f;Landroid/os/Handler;Lio/flutter/embedding/engine/e;J)V <",
+                "> Ljb/b;->run()V <",
+                "> Lio/flutter/plugins/firebase/messaging/b;->p(JLio/flutter/embedding/engine/e;)V <",
+                "> Lio/flutter/plugins/firebase/messaging/FlutterFirebaseMessagingBackgroundService;->p(JLio/flutter/embedding/engine/e;)V <",
+                "> Lio/flutter/plugins/firebase/messaging/FlutterFirebaseMessagingReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.google.android.c2dm.intent.RECEIVE",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_8": {
+            "call_sequence": [
+                "> Lw4/c0;->a(Landroid/content/Context;)Ljava/lang/String; <",
+                "> Lw4/c0;->d(Landroid/content/Context;I)Ljava/lang/String; <",
+                "> Lt4/e;->p(Landroid/content/Context;ILw4/f0;Landroid/content/DialogInterface$OnCancelListener;)Landroid/app/Dialog; <",
+                "> Lna/y0;->z(Landroid/content/Context;)Z <",
+                "> Lna/y0;->B(Landroid/content/Context;)Z <",
+                "> Lna/y0;->D(Landroid/content/Context;Lna/y0$a;)Z <",
+                "> Lna/e;-><init>(Landroid/content/Context;)V <",
+                "> Lna/e;->U(Landroid/content/Context;)Lna/e; <",
+                "> Lm2/d;->i(Lgb/k$d;)V <",
+                "> Lm2/d;->onMethodCall(Lgb/j;Lgb/k$d;)V <",
+                "> Lio/flutter/plugins/GeneratedPluginRegistrant;->registerWith(Lio/flutter/embedding/engine/a;)V <",
+                "> Ldb/a;->a(Lio/flutter/embedding/engine/a;)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;ZZ)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;[Ljava/lang/String;)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ActionBroadcastReceiver;->b(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->createNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;)Landroid/app/Notification; <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->showNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ScheduledNotificationReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->repeatNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;Ljava/lang/Boolean;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->rescheduleNotifications(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ScheduledNotificationBootReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.QUICKBOOT_POWERON",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_9": {
+            "call_sequence": [
+                "> Lw4/c0;->a(Landroid/content/Context;)Ljava/lang/String; <",
+                "> Lw4/c0;->e(Landroid/content/Context;I)Ljava/lang/String; <",
+                "> Lt4/e;->t(Landroid/content/Context;ILjava/lang/String;Landroid/app/PendingIntent;)V <",
+                "> Lna/y0;->z(Landroid/content/Context;)Z <",
+                "> Lna/y0;->B(Landroid/content/Context;)Z <",
+                "> Lna/y0;->D(Landroid/content/Context;Lna/y0$a;)Z <",
+                "> Lna/e;-><init>(Landroid/content/Context;)V <",
+                "> Lna/e;->U(Landroid/content/Context;)Lna/e; <",
+                "> Lm2/d;->i(Lgb/k$d;)V <",
+                "> Lm2/d;->onMethodCall(Lgb/j;Lgb/k$d;)V <",
+                "> Lio/flutter/plugins/GeneratedPluginRegistrant;->registerWith(Lio/flutter/embedding/engine/a;)V <",
+                "> Ldb/a;->a(Lio/flutter/embedding/engine/a;)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;ZZ)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;[Ljava/lang/String;)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ActionBroadcastReceiver;->b(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->createNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;)Landroid/app/Notification; <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->showNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ScheduledNotificationReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->repeatNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;Ljava/lang/Boolean;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->rescheduleNotifications(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ScheduledNotificationBootReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.QUICKBOOT_POWERON",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_10": {
+            "call_sequence": [
+                "> Lw4/c0;->a(Landroid/content/Context;)Ljava/lang/String; <",
+                "> Lw4/c0;->d(Landroid/content/Context;I)Ljava/lang/String; <",
+                "> Lt4/e;->q(Landroid/app/Activity;Landroid/content/DialogInterface$OnCancelListener;)Landroid/app/Dialog; <",
+                "> Lna/y0;->z(Landroid/content/Context;)Z <",
+                "> Lna/y0;->B(Landroid/content/Context;)Z <",
+                "> Lna/y0;->D(Landroid/content/Context;Lna/y0$a;)Z <",
+                "> Lna/e;-><init>(Landroid/content/Context;)V <",
+                "> Lna/e;->U(Landroid/content/Context;)Lna/e; <",
+                "> Lm2/d;->j(Lgb/j;Lgb/k$d;)V <",
+                "> Lm2/d;->onMethodCall(Lgb/j;Lgb/k$d;)V <",
+                "> Lio/flutter/plugins/GeneratedPluginRegistrant;->registerWith(Lio/flutter/embedding/engine/a;)V <",
+                "> Ldb/a;->a(Lio/flutter/embedding/engine/a;)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;ZZ)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;[Ljava/lang/String;)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ActionBroadcastReceiver;->b(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->createNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;)Landroid/app/Notification; <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->showNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ScheduledNotificationReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->repeatNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;Ljava/lang/Boolean;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->rescheduleNotifications(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ScheduledNotificationBootReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.QUICKBOOT_POWERON",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_11": {
+            "call_sequence": [
+                "> Lw4/c0;->a(Landroid/content/Context;)Ljava/lang/String; <",
+                "> Lw4/c0;->d(Landroid/content/Context;I)Ljava/lang/String; <",
+                "> Lt4/e;->p(Landroid/content/Context;ILw4/f0;Landroid/content/DialogInterface$OnCancelListener;)Landroid/app/Dialog; <",
+                "> Lna/y0;->z(Landroid/content/Context;)Z <",
+                "> Lna/y0;->B(Landroid/content/Context;)Z <",
+                "> Lna/y0;->D(Landroid/content/Context;Lna/y0$a;)Z <",
+                "> Lna/e;-><init>(Landroid/content/Context;)V <",
+                "> Lna/e;->U(Landroid/content/Context;)Lna/e; <",
+                "> Lm2/d;->k(Lgb/k$d;)V <",
+                "> Lm2/d;->onMethodCall(Lgb/j;Lgb/k$d;)V <",
+                "> Lio/flutter/plugins/GeneratedPluginRegistrant;->registerWith(Lio/flutter/embedding/engine/a;)V <",
+                "> Ldb/a;->a(Lio/flutter/embedding/engine/a;)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;ZZ)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;[Ljava/lang/String;)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ActionBroadcastReceiver;->b(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->createNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;)Landroid/app/Notification; <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->showNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ScheduledNotificationReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->repeatNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;Ljava/lang/Boolean;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->rescheduleNotifications(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ScheduledNotificationBootReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.QUICKBOOT_POWERON",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_12": {
+            "call_sequence": [
+                "> Lw4/c0;->a(Landroid/content/Context;)Ljava/lang/String; <",
+                "> Lw4/c0;->e(Landroid/content/Context;I)Ljava/lang/String; <",
+                "> Lt4/e;->t(Landroid/content/Context;ILjava/lang/String;Landroid/app/PendingIntent;)V <",
+                "> Lna/y0;->z(Landroid/content/Context;)Z <",
+                "> Lna/y0;->B(Landroid/content/Context;)Z <",
+                "> Lna/y0;->D(Landroid/content/Context;Lna/y0$a;)Z <",
+                "> Lna/e;-><init>(Landroid/content/Context;)V <",
+                "> Lna/e;->U(Landroid/content/Context;)Lna/e; <",
+                "> Lm2/d;->k(Lgb/k$d;)V <",
+                "> Lm2/d;->onMethodCall(Lgb/j;Lgb/k$d;)V <",
+                "> Lio/flutter/plugins/GeneratedPluginRegistrant;->registerWith(Lio/flutter/embedding/engine/a;)V <",
+                "> Ldb/a;->a(Lio/flutter/embedding/engine/a;)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;ZZ)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;[Ljava/lang/String;)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ActionBroadcastReceiver;->b(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->createNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;)Landroid/app/Notification; <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->showNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ScheduledNotificationReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->repeatNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;Ljava/lang/Boolean;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->rescheduleNotifications(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ScheduledNotificationBootReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.QUICKBOOT_POWERON",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_13": {
+            "call_sequence": [
+                "> Lw4/c0;->a(Landroid/content/Context;)Ljava/lang/String; <",
+                "> Lw4/c0;->d(Landroid/content/Context;I)Ljava/lang/String; <",
+                "> Lt4/e;->q(Landroid/app/Activity;Landroid/content/DialogInterface$OnCancelListener;)Landroid/app/Dialog; <",
+                "> Lna/y0;->z(Landroid/content/Context;)Z <",
+                "> Lna/y0;->B(Landroid/content/Context;)Z <",
+                "> Lna/y0;->D(Landroid/content/Context;Lna/y0$a;)Z <",
+                "> Lna/e;-><init>(Landroid/content/Context;)V <",
+                "> Lna/e;->U(Landroid/content/Context;)Lna/e; <",
+                "> Lm2/d;->n(Lgb/k$d;)V <",
+                "> Lm2/d;->onMethodCall(Lgb/j;Lgb/k$d;)V <",
+                "> Lio/flutter/plugins/GeneratedPluginRegistrant;->registerWith(Lio/flutter/embedding/engine/a;)V <",
+                "> Ldb/a;->a(Lio/flutter/embedding/engine/a;)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;ZZ)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;[Ljava/lang/String;)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ActionBroadcastReceiver;->b(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->createNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;)Landroid/app/Notification; <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->showNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ScheduledNotificationReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->repeatNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;Ljava/lang/Boolean;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->rescheduleNotifications(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ScheduledNotificationBootReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.QUICKBOOT_POWERON",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_14": {
+            "call_sequence": [
+                "> Lw4/c0;->a(Landroid/content/Context;)Ljava/lang/String; <",
+                "> Lw4/c0;->d(Landroid/content/Context;I)Ljava/lang/String; <",
+                "> Lt4/e;->p(Landroid/content/Context;ILw4/f0;Landroid/content/DialogInterface$OnCancelListener;)Landroid/app/Dialog; <",
+                "> Lna/y0;->z(Landroid/content/Context;)Z <",
+                "> Lna/y0;->B(Landroid/content/Context;)Z <",
+                "> Lna/y0;->D(Landroid/content/Context;Lna/y0$a;)Z <",
+                "> Lna/e;-><init>(Landroid/content/Context;)V <",
+                "> Lna/e;->c0()Lna/e; <",
+                "> Lna/e$n;->a()V <",
+                "> Lm2/d;->onActivityStarted(Landroid/app/Activity;)V <",
+                "> Lio/flutter/plugins/GeneratedPluginRegistrant;->registerWith(Lio/flutter/embedding/engine/a;)V <",
+                "> Ldb/a;->a(Lio/flutter/embedding/engine/a;)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;ZZ)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;[Ljava/lang/String;)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ActionBroadcastReceiver;->b(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->createNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;)Landroid/app/Notification; <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->showNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ScheduledNotificationReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->repeatNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;Ljava/lang/Boolean;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->rescheduleNotifications(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ScheduledNotificationBootReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.QUICKBOOT_POWERON",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_15": {
+            "call_sequence": [
+                "> Lw4/c0;->a(Landroid/content/Context;)Ljava/lang/String; <",
+                "> Lw4/c0;->e(Landroid/content/Context;I)Ljava/lang/String; <",
+                "> Lt4/e;->t(Landroid/content/Context;ILjava/lang/String;Landroid/app/PendingIntent;)V <",
+                "> Lna/y0;->z(Landroid/content/Context;)Z <",
+                "> Lna/y0;->B(Landroid/content/Context;)Z <",
+                "> Lna/y0;->D(Landroid/content/Context;Lna/y0$a;)Z <",
+                "> Lna/e;-><init>(Landroid/content/Context;)V <",
+                "> Lna/e;->c0()Lna/e; <",
+                "> Lna/e$n;->a()V <",
+                "> Lm2/d;->onActivityStarted(Landroid/app/Activity;)V <",
+                "> Lio/flutter/plugins/GeneratedPluginRegistrant;->registerWith(Lio/flutter/embedding/engine/a;)V <",
+                "> Ldb/a;->a(Lio/flutter/embedding/engine/a;)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;ZZ)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;[Ljava/lang/String;)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ActionBroadcastReceiver;->b(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->createNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;)Landroid/app/Notification; <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->showNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ScheduledNotificationReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->repeatNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;Ljava/lang/Boolean;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->rescheduleNotifications(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ScheduledNotificationBootReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.QUICKBOOT_POWERON",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_16": {
+            "call_sequence": [
+                "> Lw4/c0;->a(Landroid/content/Context;)Ljava/lang/String; <",
+                "> Lw4/c0;->d(Landroid/content/Context;I)Ljava/lang/String; <",
+                "> Lt4/e;->q(Landroid/app/Activity;Landroid/content/DialogInterface$OnCancelListener;)Landroid/app/Dialog; <",
+                "> Lna/y0;->z(Landroid/content/Context;)Z <",
+                "> Lna/y0;->B(Landroid/content/Context;)Z <",
+                "> Lna/y0;->D(Landroid/content/Context;Lna/y0$a;)Z <",
+                "> Lna/e;-><init>(Landroid/content/Context;)V <",
+                "> Lna/e;->U(Landroid/content/Context;)Lna/e; <",
+                "> Lm2/d;->i(Lgb/k$d;)V <",
+                "> Lm2/d;->onMethodCall(Lgb/j;Lgb/k$d;)V <",
+                "> Lio/flutter/plugins/GeneratedPluginRegistrant;->registerWith(Lio/flutter/embedding/engine/a;)V <",
+                "> Ldb/a;->a(Lio/flutter/embedding/engine/a;)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;ZZ)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;[Ljava/lang/String;)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ActionBroadcastReceiver;->b(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->createNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;)Landroid/app/Notification; <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->showNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ScheduledNotificationReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->zonedScheduleNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;Ljava/lang/Boolean;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->rescheduleNotifications(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ScheduledNotificationBootReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.QUICKBOOT_POWERON",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_17": {
+            "call_sequence": [
+                "> Lw4/c0;->a(Landroid/content/Context;)Ljava/lang/String; <",
+                "> Lw4/c0;->d(Landroid/content/Context;I)Ljava/lang/String; <",
+                "> Lt4/e;->p(Landroid/content/Context;ILw4/f0;Landroid/content/DialogInterface$OnCancelListener;)Landroid/app/Dialog; <",
+                "> Lna/y0;->z(Landroid/content/Context;)Z <",
+                "> Lna/y0;->B(Landroid/content/Context;)Z <",
+                "> Lna/y0;->D(Landroid/content/Context;Lna/y0$a;)Z <",
+                "> Lna/e;-><init>(Landroid/content/Context;)V <",
+                "> Lna/e;->U(Landroid/content/Context;)Lna/e; <",
+                "> Lm2/d;->j(Lgb/j;Lgb/k$d;)V <",
+                "> Lm2/d;->onMethodCall(Lgb/j;Lgb/k$d;)V <",
+                "> Lio/flutter/plugins/GeneratedPluginRegistrant;->registerWith(Lio/flutter/embedding/engine/a;)V <",
+                "> Ldb/a;->a(Lio/flutter/embedding/engine/a;)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;ZZ)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;[Ljava/lang/String;)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ActionBroadcastReceiver;->b(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->createNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;)Landroid/app/Notification; <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->showNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ScheduledNotificationReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->zonedScheduleNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;Ljava/lang/Boolean;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->rescheduleNotifications(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ScheduledNotificationBootReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.QUICKBOOT_POWERON",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_18": {
+            "call_sequence": [
+                "> Lw4/c0;->a(Landroid/content/Context;)Ljava/lang/String; <",
+                "> Lw4/c0;->e(Landroid/content/Context;I)Ljava/lang/String; <",
+                "> Lt4/e;->t(Landroid/content/Context;ILjava/lang/String;Landroid/app/PendingIntent;)V <",
+                "> Lna/y0;->z(Landroid/content/Context;)Z <",
+                "> Lna/y0;->B(Landroid/content/Context;)Z <",
+                "> Lna/y0;->D(Landroid/content/Context;Lna/y0$a;)Z <",
+                "> Lna/e;-><init>(Landroid/content/Context;)V <",
+                "> Lna/e;->U(Landroid/content/Context;)Lna/e; <",
+                "> Lm2/d;->j(Lgb/j;Lgb/k$d;)V <",
+                "> Lm2/d;->onMethodCall(Lgb/j;Lgb/k$d;)V <",
+                "> Lio/flutter/plugins/GeneratedPluginRegistrant;->registerWith(Lio/flutter/embedding/engine/a;)V <",
+                "> Ldb/a;->a(Lio/flutter/embedding/engine/a;)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;ZZ)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;[Ljava/lang/String;)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ActionBroadcastReceiver;->b(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->createNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;)Landroid/app/Notification; <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->showNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ScheduledNotificationReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->zonedScheduleNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;Ljava/lang/Boolean;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->rescheduleNotifications(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ScheduledNotificationBootReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.QUICKBOOT_POWERON",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_19": {
+            "call_sequence": [
+                "> Lw4/c0;->a(Landroid/content/Context;)Ljava/lang/String; <",
+                "> Lw4/c0;->d(Landroid/content/Context;I)Ljava/lang/String; <",
+                "> Lt4/e;->q(Landroid/app/Activity;Landroid/content/DialogInterface$OnCancelListener;)Landroid/app/Dialog; <",
+                "> Lna/y0;->z(Landroid/content/Context;)Z <",
+                "> Lna/y0;->B(Landroid/content/Context;)Z <",
+                "> Lna/y0;->D(Landroid/content/Context;Lna/y0$a;)Z <",
+                "> Lna/e;-><init>(Landroid/content/Context;)V <",
+                "> Lna/e;->U(Landroid/content/Context;)Lna/e; <",
+                "> Lm2/d;->k(Lgb/k$d;)V <",
+                "> Lm2/d;->onMethodCall(Lgb/j;Lgb/k$d;)V <",
+                "> Lio/flutter/plugins/GeneratedPluginRegistrant;->registerWith(Lio/flutter/embedding/engine/a;)V <",
+                "> Ldb/a;->a(Lio/flutter/embedding/engine/a;)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;ZZ)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;[Ljava/lang/String;)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ActionBroadcastReceiver;->b(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->createNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;)Landroid/app/Notification; <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->showNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ScheduledNotificationReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->zonedScheduleNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;Ljava/lang/Boolean;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->rescheduleNotifications(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ScheduledNotificationBootReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.QUICKBOOT_POWERON",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_20": {
+            "call_sequence": [
+                "> Lw4/c0;->a(Landroid/content/Context;)Ljava/lang/String; <",
+                "> Lw4/c0;->d(Landroid/content/Context;I)Ljava/lang/String; <",
+                "> Lt4/e;->p(Landroid/content/Context;ILw4/f0;Landroid/content/DialogInterface$OnCancelListener;)Landroid/app/Dialog; <",
+                "> Lna/y0;->z(Landroid/content/Context;)Z <",
+                "> Lna/y0;->B(Landroid/content/Context;)Z <",
+                "> Lna/y0;->D(Landroid/content/Context;Lna/y0$a;)Z <",
+                "> Lna/e;-><init>(Landroid/content/Context;)V <",
+                "> Lna/e;->U(Landroid/content/Context;)Lna/e; <",
+                "> Lm2/d;->n(Lgb/k$d;)V <",
+                "> Lm2/d;->onMethodCall(Lgb/j;Lgb/k$d;)V <",
+                "> Lio/flutter/plugins/GeneratedPluginRegistrant;->registerWith(Lio/flutter/embedding/engine/a;)V <",
+                "> Ldb/a;->a(Lio/flutter/embedding/engine/a;)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;ZZ)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;[Ljava/lang/String;)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ActionBroadcastReceiver;->b(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->createNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;)Landroid/app/Notification; <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->showNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ScheduledNotificationReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->zonedScheduleNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;Ljava/lang/Boolean;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->rescheduleNotifications(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ScheduledNotificationBootReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.QUICKBOOT_POWERON",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_21": {
+            "call_sequence": [
+                "> Lw4/c0;->a(Landroid/content/Context;)Ljava/lang/String; <",
+                "> Lw4/c0;->e(Landroid/content/Context;I)Ljava/lang/String; <",
+                "> Lt4/e;->t(Landroid/content/Context;ILjava/lang/String;Landroid/app/PendingIntent;)V <",
+                "> Lna/y0;->z(Landroid/content/Context;)Z <",
+                "> Lna/y0;->B(Landroid/content/Context;)Z <",
+                "> Lna/y0;->D(Landroid/content/Context;Lna/y0$a;)Z <",
+                "> Lna/e;-><init>(Landroid/content/Context;)V <",
+                "> Lna/e;->U(Landroid/content/Context;)Lna/e; <",
+                "> Lm2/d;->n(Lgb/k$d;)V <",
+                "> Lm2/d;->onMethodCall(Lgb/j;Lgb/k$d;)V <",
+                "> Lio/flutter/plugins/GeneratedPluginRegistrant;->registerWith(Lio/flutter/embedding/engine/a;)V <",
+                "> Ldb/a;->a(Lio/flutter/embedding/engine/a;)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;ZZ)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;[Ljava/lang/String;)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ActionBroadcastReceiver;->b(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->createNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;)Landroid/app/Notification; <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->showNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ScheduledNotificationReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->zonedScheduleNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;Ljava/lang/Boolean;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->rescheduleNotifications(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ScheduledNotificationBootReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.QUICKBOOT_POWERON",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_22": {
+            "call_sequence": [
+                "> Lw4/c0;->a(Landroid/content/Context;)Ljava/lang/String; <",
+                "> Lw4/c0;->d(Landroid/content/Context;I)Ljava/lang/String; <",
+                "> Lt4/e;->q(Landroid/app/Activity;Landroid/content/DialogInterface$OnCancelListener;)Landroid/app/Dialog; <",
+                "> Lna/y0;->z(Landroid/content/Context;)Z <",
+                "> Lna/y0;->B(Landroid/content/Context;)Z <",
+                "> Lna/y0;->D(Landroid/content/Context;Lna/y0$a;)Z <",
+                "> Lna/e;-><init>(Landroid/content/Context;)V <",
+                "> Lna/e;->c0()Lna/e; <",
+                "> Lna/e$n;->a()V <",
+                "> Lm2/d;->onActivityStarted(Landroid/app/Activity;)V <",
+                "> Lio/flutter/plugins/GeneratedPluginRegistrant;->registerWith(Lio/flutter/embedding/engine/a;)V <",
+                "> Ldb/a;->a(Lio/flutter/embedding/engine/a;)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;ZZ)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;[Ljava/lang/String;)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ActionBroadcastReceiver;->b(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->createNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;)Landroid/app/Notification; <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->showNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ScheduledNotificationReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->zonedScheduleNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;Ljava/lang/Boolean;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->rescheduleNotifications(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ScheduledNotificationBootReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.QUICKBOOT_POWERON",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_23": {
+            "call_sequence": [
+                "> Lw4/c0;->a(Landroid/content/Context;)Ljava/lang/String; <",
+                "> Lw4/c0;->d(Landroid/content/Context;I)Ljava/lang/String; <",
+                "> Lt4/e;->p(Landroid/content/Context;ILw4/f0;Landroid/content/DialogInterface$OnCancelListener;)Landroid/app/Dialog; <",
+                "> Lna/y0;->z(Landroid/content/Context;)Z <",
+                "> Lna/y0;->B(Landroid/content/Context;)Z <",
+                "> Lna/y0;->D(Landroid/content/Context;Lna/y0$a;)Z <",
+                "> Lna/e;-><init>(Landroid/content/Context;)V <",
+                "> Lna/e;->U(Landroid/content/Context;)Lna/e; <",
+                "> Lm2/d;->i(Lgb/k$d;)V <",
+                "> Lm2/d;->onMethodCall(Lgb/j;Lgb/k$d;)V <",
+                "> Lio/flutter/plugins/GeneratedPluginRegistrant;->registerWith(Lio/flutter/embedding/engine/a;)V <",
+                "> Ldb/a;->a(Lio/flutter/embedding/engine/a;)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;ZZ)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;[Ljava/lang/String;)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ActionBroadcastReceiver;->b(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->createNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;)Landroid/app/Notification; <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->showNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ScheduledNotificationReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->scheduleNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;Ljava/lang/Boolean;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->rescheduleNotifications(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ScheduledNotificationBootReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.QUICKBOOT_POWERON",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_24": {
+            "call_sequence": [
+                "> Lw4/c0;->a(Landroid/content/Context;)Ljava/lang/String; <",
+                "> Lw4/c0;->e(Landroid/content/Context;I)Ljava/lang/String; <",
+                "> Lt4/e;->t(Landroid/content/Context;ILjava/lang/String;Landroid/app/PendingIntent;)V <",
+                "> Lna/y0;->z(Landroid/content/Context;)Z <",
+                "> Lna/y0;->B(Landroid/content/Context;)Z <",
+                "> Lna/y0;->D(Landroid/content/Context;Lna/y0$a;)Z <",
+                "> Lna/e;-><init>(Landroid/content/Context;)V <",
+                "> Lna/e;->U(Landroid/content/Context;)Lna/e; <",
+                "> Lm2/d;->i(Lgb/k$d;)V <",
+                "> Lm2/d;->onMethodCall(Lgb/j;Lgb/k$d;)V <",
+                "> Lio/flutter/plugins/GeneratedPluginRegistrant;->registerWith(Lio/flutter/embedding/engine/a;)V <",
+                "> Ldb/a;->a(Lio/flutter/embedding/engine/a;)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;ZZ)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;[Ljava/lang/String;)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ActionBroadcastReceiver;->b(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->createNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;)Landroid/app/Notification; <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->showNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ScheduledNotificationReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->scheduleNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;Ljava/lang/Boolean;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->rescheduleNotifications(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ScheduledNotificationBootReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.QUICKBOOT_POWERON",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_25": {
+            "call_sequence": [
+                "> Lw4/c0;->a(Landroid/content/Context;)Ljava/lang/String; <",
+                "> Lw4/c0;->d(Landroid/content/Context;I)Ljava/lang/String; <",
+                "> Lt4/e;->q(Landroid/app/Activity;Landroid/content/DialogInterface$OnCancelListener;)Landroid/app/Dialog; <",
+                "> Lna/y0;->z(Landroid/content/Context;)Z <",
+                "> Lna/y0;->B(Landroid/content/Context;)Z <",
+                "> Lna/y0;->D(Landroid/content/Context;Lna/y0$a;)Z <",
+                "> Lna/e;-><init>(Landroid/content/Context;)V <",
+                "> Lna/e;->U(Landroid/content/Context;)Lna/e; <",
+                "> Lm2/d;->j(Lgb/j;Lgb/k$d;)V <",
+                "> Lm2/d;->onMethodCall(Lgb/j;Lgb/k$d;)V <",
+                "> Lio/flutter/plugins/GeneratedPluginRegistrant;->registerWith(Lio/flutter/embedding/engine/a;)V <",
+                "> Ldb/a;->a(Lio/flutter/embedding/engine/a;)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;ZZ)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;[Ljava/lang/String;)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ActionBroadcastReceiver;->b(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->createNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;)Landroid/app/Notification; <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->showNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ScheduledNotificationReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->scheduleNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;Ljava/lang/Boolean;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->rescheduleNotifications(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ScheduledNotificationBootReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.QUICKBOOT_POWERON",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_26": {
+            "call_sequence": [
+                "> Lw4/c0;->a(Landroid/content/Context;)Ljava/lang/String; <",
+                "> Lw4/c0;->d(Landroid/content/Context;I)Ljava/lang/String; <",
+                "> Lt4/e;->p(Landroid/content/Context;ILw4/f0;Landroid/content/DialogInterface$OnCancelListener;)Landroid/app/Dialog; <",
+                "> Lna/y0;->z(Landroid/content/Context;)Z <",
+                "> Lna/y0;->B(Landroid/content/Context;)Z <",
+                "> Lna/y0;->D(Landroid/content/Context;Lna/y0$a;)Z <",
+                "> Lna/e;-><init>(Landroid/content/Context;)V <",
+                "> Lna/e;->U(Landroid/content/Context;)Lna/e; <",
+                "> Lm2/d;->k(Lgb/k$d;)V <",
+                "> Lm2/d;->onMethodCall(Lgb/j;Lgb/k$d;)V <",
+                "> Lio/flutter/plugins/GeneratedPluginRegistrant;->registerWith(Lio/flutter/embedding/engine/a;)V <",
+                "> Ldb/a;->a(Lio/flutter/embedding/engine/a;)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;ZZ)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;[Ljava/lang/String;)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ActionBroadcastReceiver;->b(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->createNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;)Landroid/app/Notification; <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->showNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ScheduledNotificationReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->scheduleNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;Ljava/lang/Boolean;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->rescheduleNotifications(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ScheduledNotificationBootReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.QUICKBOOT_POWERON",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_27": {
+            "call_sequence": [
+                "> Lw4/c0;->a(Landroid/content/Context;)Ljava/lang/String; <",
+                "> Lw4/c0;->e(Landroid/content/Context;I)Ljava/lang/String; <",
+                "> Lt4/e;->t(Landroid/content/Context;ILjava/lang/String;Landroid/app/PendingIntent;)V <",
+                "> Lna/y0;->z(Landroid/content/Context;)Z <",
+                "> Lna/y0;->B(Landroid/content/Context;)Z <",
+                "> Lna/y0;->D(Landroid/content/Context;Lna/y0$a;)Z <",
+                "> Lna/e;-><init>(Landroid/content/Context;)V <",
+                "> Lna/e;->U(Landroid/content/Context;)Lna/e; <",
+                "> Lm2/d;->k(Lgb/k$d;)V <",
+                "> Lm2/d;->onMethodCall(Lgb/j;Lgb/k$d;)V <",
+                "> Lio/flutter/plugins/GeneratedPluginRegistrant;->registerWith(Lio/flutter/embedding/engine/a;)V <",
+                "> Ldb/a;->a(Lio/flutter/embedding/engine/a;)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;ZZ)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;[Ljava/lang/String;)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ActionBroadcastReceiver;->b(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->createNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;)Landroid/app/Notification; <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->showNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ScheduledNotificationReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->scheduleNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;Ljava/lang/Boolean;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->rescheduleNotifications(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ScheduledNotificationBootReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.QUICKBOOT_POWERON",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_28": {
+            "call_sequence": [
+                "> Lw4/c0;->a(Landroid/content/Context;)Ljava/lang/String; <",
+                "> Lw4/c0;->d(Landroid/content/Context;I)Ljava/lang/String; <",
+                "> Lt4/e;->q(Landroid/app/Activity;Landroid/content/DialogInterface$OnCancelListener;)Landroid/app/Dialog; <",
+                "> Lna/y0;->z(Landroid/content/Context;)Z <",
+                "> Lna/y0;->B(Landroid/content/Context;)Z <",
+                "> Lna/y0;->D(Landroid/content/Context;Lna/y0$a;)Z <",
+                "> Lna/e;-><init>(Landroid/content/Context;)V <",
+                "> Lna/e;->U(Landroid/content/Context;)Lna/e; <",
+                "> Lm2/d;->n(Lgb/k$d;)V <",
+                "> Lm2/d;->onMethodCall(Lgb/j;Lgb/k$d;)V <",
+                "> Lio/flutter/plugins/GeneratedPluginRegistrant;->registerWith(Lio/flutter/embedding/engine/a;)V <",
+                "> Ldb/a;->a(Lio/flutter/embedding/engine/a;)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;ZZ)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;[Ljava/lang/String;)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ActionBroadcastReceiver;->b(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->createNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;)Landroid/app/Notification; <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->showNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ScheduledNotificationReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->scheduleNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;Ljava/lang/Boolean;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->rescheduleNotifications(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ScheduledNotificationBootReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.QUICKBOOT_POWERON",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_29": {
+            "call_sequence": [
+                "> Lw4/c0;->a(Landroid/content/Context;)Ljava/lang/String; <",
+                "> Lw4/c0;->d(Landroid/content/Context;I)Ljava/lang/String; <",
+                "> Lt4/e;->p(Landroid/content/Context;ILw4/f0;Landroid/content/DialogInterface$OnCancelListener;)Landroid/app/Dialog; <",
+                "> Lna/y0;->z(Landroid/content/Context;)Z <",
+                "> Lna/y0;->B(Landroid/content/Context;)Z <",
+                "> Lna/y0;->D(Landroid/content/Context;Lna/y0$a;)Z <",
+                "> Lna/e;-><init>(Landroid/content/Context;)V <",
+                "> Lna/e;->c0()Lna/e; <",
+                "> Lna/e$n;->a()V <",
+                "> Lm2/d;->onActivityStarted(Landroid/app/Activity;)V <",
+                "> Lio/flutter/plugins/GeneratedPluginRegistrant;->registerWith(Lio/flutter/embedding/engine/a;)V <",
+                "> Ldb/a;->a(Lio/flutter/embedding/engine/a;)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;ZZ)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;[Ljava/lang/String;)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ActionBroadcastReceiver;->b(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->createNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;)Landroid/app/Notification; <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->showNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ScheduledNotificationReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->scheduleNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;Ljava/lang/Boolean;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->rescheduleNotifications(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ScheduledNotificationBootReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.QUICKBOOT_POWERON",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_30": {
+            "call_sequence": [
+                "> Lw4/c0;->a(Landroid/content/Context;)Ljava/lang/String; <",
+                "> Lw4/c0;->e(Landroid/content/Context;I)Ljava/lang/String; <",
+                "> Lt4/e;->t(Landroid/content/Context;ILjava/lang/String;Landroid/app/PendingIntent;)V <",
+                "> Lna/y0;->z(Landroid/content/Context;)Z <",
+                "> Lna/y0;->B(Landroid/content/Context;)Z <",
+                "> Lna/y0;->D(Landroid/content/Context;Lna/y0$a;)Z <",
+                "> Lna/e;-><init>(Landroid/content/Context;)V <",
+                "> Lna/e;->c0()Lna/e; <",
+                "> Lna/e$n;->a()V <",
+                "> Lm2/d;->onActivityStarted(Landroid/app/Activity;)V <",
+                "> Lio/flutter/plugins/GeneratedPluginRegistrant;->registerWith(Lio/flutter/embedding/engine/a;)V <",
+                "> Ldb/a;->a(Lio/flutter/embedding/engine/a;)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;ZZ)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;[Ljava/lang/String;)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ActionBroadcastReceiver;->b(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->createNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;)Landroid/app/Notification; <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->showNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ScheduledNotificationReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->scheduleNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;Ljava/lang/Boolean;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->rescheduleNotifications(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ScheduledNotificationBootReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.QUICKBOOT_POWERON",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_31": {
+            "call_sequence": [
+                "> Lw4/c0;->a(Landroid/content/Context;)Ljava/lang/String; <",
+                "> Lw4/c0;->d(Landroid/content/Context;I)Ljava/lang/String; <",
+                "> Lt4/e;->p(Landroid/content/Context;ILw4/f0;Landroid/content/DialogInterface$OnCancelListener;)Landroid/app/Dialog; <",
+                "> Lna/y0;->z(Landroid/content/Context;)Z <",
+                "> Lna/y0;->B(Landroid/content/Context;)Z <",
+                "> Lna/y0;->D(Landroid/content/Context;Lna/y0$a;)Z <",
+                "> Lna/e;-><init>(Landroid/content/Context;)V <",
+                "> Lna/e;->U(Landroid/content/Context;)Lna/e; <",
+                "> Lm2/d;->i(Lgb/k$d;)V <",
+                "> Lm2/d;->onMethodCall(Lgb/j;Lgb/k$d;)V <",
+                "> Lio/flutter/plugins/GeneratedPluginRegistrant;->registerWith(Lio/flutter/embedding/engine/a;)V <",
+                "> Ldb/a;->a(Lio/flutter/embedding/engine/a;)V <",
+                "> Lio/flutter/embedding/android/i;->l(Lio/flutter/embedding/engine/a;)V <",
+                "> Lcom/kalshi/kalshi_mobile_app/MainActivity;->l(Lio/flutter/embedding/engine/a;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_32": {
+            "call_sequence": [
+                "> Lw4/c0;->a(Landroid/content/Context;)Ljava/lang/String; <",
+                "> Lw4/c0;->e(Landroid/content/Context;I)Ljava/lang/String; <",
+                "> Lt4/e;->t(Landroid/content/Context;ILjava/lang/String;Landroid/app/PendingIntent;)V <",
+                "> Lna/y0;->z(Landroid/content/Context;)Z <",
+                "> Lna/y0;->B(Landroid/content/Context;)Z <",
+                "> Lna/y0;->D(Landroid/content/Context;Lna/y0$a;)Z <",
+                "> Lna/e;-><init>(Landroid/content/Context;)V <",
+                "> Lna/e;->U(Landroid/content/Context;)Lna/e; <",
+                "> Lm2/d;->i(Lgb/k$d;)V <",
+                "> Lm2/d;->onMethodCall(Lgb/j;Lgb/k$d;)V <",
+                "> Lio/flutter/plugins/GeneratedPluginRegistrant;->registerWith(Lio/flutter/embedding/engine/a;)V <",
+                "> Ldb/a;->a(Lio/flutter/embedding/engine/a;)V <",
+                "> Lio/flutter/embedding/android/i;->l(Lio/flutter/embedding/engine/a;)V <",
+                "> Lcom/kalshi/kalshi_mobile_app/MainActivity;->l(Lio/flutter/embedding/engine/a;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_33": {
+            "call_sequence": [
+                "> Lw4/c0;->a(Landroid/content/Context;)Ljava/lang/String; <",
+                "> Lw4/c0;->d(Landroid/content/Context;I)Ljava/lang/String; <",
+                "> Lt4/e;->q(Landroid/app/Activity;Landroid/content/DialogInterface$OnCancelListener;)Landroid/app/Dialog; <",
+                "> Lna/y0;->z(Landroid/content/Context;)Z <",
+                "> Lna/y0;->B(Landroid/content/Context;)Z <",
+                "> Lna/y0;->D(Landroid/content/Context;Lna/y0$a;)Z <",
+                "> Lna/e;-><init>(Landroid/content/Context;)V <",
+                "> Lna/e;->U(Landroid/content/Context;)Lna/e; <",
+                "> Lm2/d;->j(Lgb/j;Lgb/k$d;)V <",
+                "> Lm2/d;->onMethodCall(Lgb/j;Lgb/k$d;)V <",
+                "> Lio/flutter/plugins/GeneratedPluginRegistrant;->registerWith(Lio/flutter/embedding/engine/a;)V <",
+                "> Ldb/a;->a(Lio/flutter/embedding/engine/a;)V <",
+                "> Lio/flutter/embedding/android/i;->l(Lio/flutter/embedding/engine/a;)V <",
+                "> Lcom/kalshi/kalshi_mobile_app/MainActivity;->l(Lio/flutter/embedding/engine/a;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_34": {
+            "call_sequence": [
+                "> Lw4/c0;->a(Landroid/content/Context;)Ljava/lang/String; <",
+                "> Lw4/c0;->d(Landroid/content/Context;I)Ljava/lang/String; <",
+                "> Lt4/e;->p(Landroid/content/Context;ILw4/f0;Landroid/content/DialogInterface$OnCancelListener;)Landroid/app/Dialog; <",
+                "> Lna/y0;->z(Landroid/content/Context;)Z <",
+                "> Lna/y0;->B(Landroid/content/Context;)Z <",
+                "> Lna/y0;->D(Landroid/content/Context;Lna/y0$a;)Z <",
+                "> Lna/e;-><init>(Landroid/content/Context;)V <",
+                "> Lna/e;->U(Landroid/content/Context;)Lna/e; <",
+                "> Lm2/d;->k(Lgb/k$d;)V <",
+                "> Lm2/d;->onMethodCall(Lgb/j;Lgb/k$d;)V <",
+                "> Lio/flutter/plugins/GeneratedPluginRegistrant;->registerWith(Lio/flutter/embedding/engine/a;)V <",
+                "> Ldb/a;->a(Lio/flutter/embedding/engine/a;)V <",
+                "> Lio/flutter/embedding/android/i;->l(Lio/flutter/embedding/engine/a;)V <",
+                "> Lcom/kalshi/kalshi_mobile_app/MainActivity;->l(Lio/flutter/embedding/engine/a;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_35": {
+            "call_sequence": [
+                "> Lw4/c0;->a(Landroid/content/Context;)Ljava/lang/String; <",
+                "> Lw4/c0;->e(Landroid/content/Context;I)Ljava/lang/String; <",
+                "> Lt4/e;->t(Landroid/content/Context;ILjava/lang/String;Landroid/app/PendingIntent;)V <",
+                "> Lna/y0;->z(Landroid/content/Context;)Z <",
+                "> Lna/y0;->B(Landroid/content/Context;)Z <",
+                "> Lna/y0;->D(Landroid/content/Context;Lna/y0$a;)Z <",
+                "> Lna/e;-><init>(Landroid/content/Context;)V <",
+                "> Lna/e;->U(Landroid/content/Context;)Lna/e; <",
+                "> Lm2/d;->k(Lgb/k$d;)V <",
+                "> Lm2/d;->onMethodCall(Lgb/j;Lgb/k$d;)V <",
+                "> Lio/flutter/plugins/GeneratedPluginRegistrant;->registerWith(Lio/flutter/embedding/engine/a;)V <",
+                "> Ldb/a;->a(Lio/flutter/embedding/engine/a;)V <",
+                "> Lio/flutter/embedding/android/i;->l(Lio/flutter/embedding/engine/a;)V <",
+                "> Lcom/kalshi/kalshi_mobile_app/MainActivity;->l(Lio/flutter/embedding/engine/a;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_36": {
+            "call_sequence": [
+                "> Lw4/c0;->a(Landroid/content/Context;)Ljava/lang/String; <",
+                "> Lw4/c0;->d(Landroid/content/Context;I)Ljava/lang/String; <",
+                "> Lt4/e;->q(Landroid/app/Activity;Landroid/content/DialogInterface$OnCancelListener;)Landroid/app/Dialog; <",
+                "> Lna/y0;->z(Landroid/content/Context;)Z <",
+                "> Lna/y0;->B(Landroid/content/Context;)Z <",
+                "> Lna/y0;->D(Landroid/content/Context;Lna/y0$a;)Z <",
+                "> Lna/e;-><init>(Landroid/content/Context;)V <",
+                "> Lna/e;->U(Landroid/content/Context;)Lna/e; <",
+                "> Lm2/d;->n(Lgb/k$d;)V <",
+                "> Lm2/d;->onMethodCall(Lgb/j;Lgb/k$d;)V <",
+                "> Lio/flutter/plugins/GeneratedPluginRegistrant;->registerWith(Lio/flutter/embedding/engine/a;)V <",
+                "> Ldb/a;->a(Lio/flutter/embedding/engine/a;)V <",
+                "> Lio/flutter/embedding/android/i;->l(Lio/flutter/embedding/engine/a;)V <",
+                "> Lcom/kalshi/kalshi_mobile_app/MainActivity;->l(Lio/flutter/embedding/engine/a;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_37": {
+            "call_sequence": [
+                "> Lw4/c0;->a(Landroid/content/Context;)Ljava/lang/String; <",
+                "> Lw4/c0;->d(Landroid/content/Context;I)Ljava/lang/String; <",
+                "> Lt4/e;->p(Landroid/content/Context;ILw4/f0;Landroid/content/DialogInterface$OnCancelListener;)Landroid/app/Dialog; <",
+                "> Lna/y0;->z(Landroid/content/Context;)Z <",
+                "> Lna/y0;->B(Landroid/content/Context;)Z <",
+                "> Lna/y0;->D(Landroid/content/Context;Lna/y0$a;)Z <",
+                "> Lna/e;-><init>(Landroid/content/Context;)V <",
+                "> Lna/e;->c0()Lna/e; <",
+                "> Lna/e$n;->a()V <",
+                "> Lm2/d;->onActivityStarted(Landroid/app/Activity;)V <",
+                "> Lio/flutter/plugins/GeneratedPluginRegistrant;->registerWith(Lio/flutter/embedding/engine/a;)V <",
+                "> Ldb/a;->a(Lio/flutter/embedding/engine/a;)V <",
+                "> Lio/flutter/embedding/android/i;->l(Lio/flutter/embedding/engine/a;)V <",
+                "> Lcom/kalshi/kalshi_mobile_app/MainActivity;->l(Lio/flutter/embedding/engine/a;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_38": {
+            "call_sequence": [
+                "> Lw4/c0;->a(Landroid/content/Context;)Ljava/lang/String; <",
+                "> Lw4/c0;->e(Landroid/content/Context;I)Ljava/lang/String; <",
+                "> Lt4/e;->t(Landroid/content/Context;ILjava/lang/String;Landroid/app/PendingIntent;)V <",
+                "> Lna/y0;->z(Landroid/content/Context;)Z <",
+                "> Lna/y0;->B(Landroid/content/Context;)Z <",
+                "> Lna/y0;->D(Landroid/content/Context;Lna/y0$a;)Z <",
+                "> Lna/e;-><init>(Landroid/content/Context;)V <",
+                "> Lna/e;->c0()Lna/e; <",
+                "> Lna/e$n;->a()V <",
+                "> Lm2/d;->onActivityStarted(Landroid/app/Activity;)V <",
+                "> Lio/flutter/plugins/GeneratedPluginRegistrant;->registerWith(Lio/flutter/embedding/engine/a;)V <",
+                "> Ldb/a;->a(Lio/flutter/embedding/engine/a;)V <",
+                "> Lio/flutter/embedding/android/i;->l(Lio/flutter/embedding/engine/a;)V <",
+                "> Lcom/kalshi/kalshi_mobile_app/MainActivity;->l(Lio/flutter/embedding/engine/a;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lio/sentry/w0;->e(Lio/sentry/x0;Lio/sentry/f0;Ljava/util/TimeZone;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lio/sentry/w0;->a(Lio/sentry/x0;Lio/sentry/f0;Ljava/lang/Object;)V <",
+                "> Lio/sentry/x0;->X0(Lio/sentry/f0;Ljava/lang/Object;)Lio/sentry/x0; <",
+                "> Lio/sentry/protocol/e;->serialize(Lio/sentry/x0;Lio/sentry/f0;)V <",
+                "> Lio/sentry/protocol/c;->b()Lio/sentry/protocol/e; <",
+                "> Lio/sentry/android/core/c0;->V(Lio/sentry/g2;ZZ)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.BATTERY_CHANGED",
+                    "start -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lio/sentry/w0;->a(Lio/sentry/x0;Lio/sentry/f0;Ljava/lang/Object;)V <",
+                "> Lio/sentry/x0;->X0(Lio/sentry/f0;Ljava/lang/Object;)Lio/sentry/x0; <",
+                "> Lio/sentry/protocol/j;->serialize(Lio/sentry/x0;Lio/sentry/f0;)V <",
+                "> Lio/sentry/protocol/c;->d()Lio/sentry/protocol/j; <",
+                "> Lio/sentry/android/core/c0;->O(Lio/sentry/g2;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.BATTERY_CHANGED",
+                    "start -a"
+                ]
+            ]
+        }
+    },
+    "Lvc/f;->j()Lvc/f;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lvc/f$a;->a()Lvc/f; <",
+                "> Lvc/i;->k(II)Lvc/f; <",
+                "> Lvc/g;->k(II)Lvc/f; <",
+                "> Ltd/v;->p(Ljava/lang/String;)Ljava/lang/String; <",
+                "> Lretrofit2/s$a;->g(ILjava/lang/reflect/Type;[Ljava/lang/annotation/Annotation;Ljava/lang/annotation/Annotation;)Lretrofit2/p; <",
+                "> Lretrofit2/s$a;->f(ILjava/lang/reflect/Type;[Ljava/lang/annotation/Annotation;Z)Lretrofit2/p; <",
+                "> Lretrofit2/s$a;->b()Lretrofit2/s; <",
+                "> Lretrofit2/s;->b(Lretrofit2/u;Ljava/lang/reflect/Method;)Lretrofit2/s; <",
+                "> Lretrofit2/v;->b(Lretrofit2/u;Ljava/lang/reflect/Method;)Lretrofit2/v; <",
+                "> Lretrofit2/u;->c(Ljava/lang/reflect/Method;)Lretrofit2/v; <",
+                "> Lretrofit2/u;->j(Ljava/lang/Class;)V <",
+                "> Lretrofit2/u;->b(Ljava/lang/Class;)Ljava/lang/Object; <",
+                "> Lga/b$b;->invoke()Ljava/lang/Object; <",
+                "> Lga/b;-><init>()V <",
+                "> Lda/a;-><init>(Landroid/app/Application;)V <",
+                "> Lcom/socure/docv/capturesdk/feature/orchestrator/presentation/ui/OrchestratorActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/socure/docv/capturesdk/api/SocureDocVHelper;->getIntent(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent; <",
+                "> Lcom/kalshi/kalshi_mobile_app/MainActivity;->d0()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lvc/f$a;->a()Lvc/f; <",
+                "> Lvc/i;->k(II)Lvc/f; <",
+                "> Lvc/g;->k(II)Lvc/f; <",
+                "> Ltd/v;->p(Ljava/lang/String;)Ljava/lang/String; <",
+                "> Lretrofit2/s$a;->g(ILjava/lang/reflect/Type;[Ljava/lang/annotation/Annotation;Ljava/lang/annotation/Annotation;)Lretrofit2/p; <",
+                "> Lretrofit2/s$a;->f(ILjava/lang/reflect/Type;[Ljava/lang/annotation/Annotation;Z)Lretrofit2/p; <",
+                "> Lretrofit2/s$a;->b()Lretrofit2/s; <",
+                "> Lretrofit2/s;->b(Lretrofit2/u;Ljava/lang/reflect/Method;)Lretrofit2/s; <",
+                "> Lretrofit2/v;->b(Lretrofit2/u;Ljava/lang/reflect/Method;)Lretrofit2/v; <",
+                "> Lretrofit2/u;->c(Ljava/lang/reflect/Method;)Lretrofit2/v; <",
+                "> Lretrofit2/u$a;->invoke(Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lretrofit2/u;->b(Ljava/lang/Class;)Ljava/lang/Object; <",
+                "> Lga/b$b;->invoke()Ljava/lang/Object; <",
+                "> Lga/b;-><init>()V <",
+                "> Lda/a;-><init>(Landroid/app/Application;)V <",
+                "> Lcom/socure/docv/capturesdk/feature/orchestrator/presentation/ui/OrchestratorActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/socure/docv/capturesdk/api/SocureDocVHelper;->getIntent(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent; <",
+                "> Lcom/kalshi/kalshi_mobile_app/MainActivity;->d0()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lvc/f$a;->a()Lvc/f; <",
+                "> Lvc/i;->k(II)Lvc/f; <",
+                "> Lvc/g;->k(II)Lvc/f; <",
+                "> Ltd/v;->p(Ljava/lang/String;)Ljava/lang/String; <",
+                "> Lretrofit2/s$a;->g(ILjava/lang/reflect/Type;[Ljava/lang/annotation/Annotation;Ljava/lang/annotation/Annotation;)Lretrofit2/p; <",
+                "> Lretrofit2/s$a;->f(ILjava/lang/reflect/Type;[Ljava/lang/annotation/Annotation;Z)Lretrofit2/p; <",
+                "> Lretrofit2/s$a;->b()Lretrofit2/s; <",
+                "> Lretrofit2/s;->b(Lretrofit2/u;Ljava/lang/reflect/Method;)Lretrofit2/s; <",
+                "> Lretrofit2/v;->b(Lretrofit2/u;Ljava/lang/reflect/Method;)Lretrofit2/v; <",
+                "> Lretrofit2/u;->c(Ljava/lang/reflect/Method;)Lretrofit2/v; <",
+                "> Lretrofit2/u;->j(Ljava/lang/Class;)V <",
+                "> Lretrofit2/u;->b(Ljava/lang/Class;)Ljava/lang/Object; <",
+                "> Lga/b$c;->invoke()Ljava/lang/Object; <",
+                "> Lga/b;-><init>()V <",
+                "> Lda/a;-><init>(Landroid/app/Application;)V <",
+                "> Lcom/socure/docv/capturesdk/feature/orchestrator/presentation/ui/OrchestratorActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/socure/docv/capturesdk/api/SocureDocVHelper;->getIntent(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent; <",
+                "> Lcom/kalshi/kalshi_mobile_app/MainActivity;->d0()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lvc/f$a;->a()Lvc/f; <",
+                "> Lvc/i;->k(II)Lvc/f; <",
+                "> Lvc/g;->k(II)Lvc/f; <",
+                "> Ltd/v;->p(Ljava/lang/String;)Ljava/lang/String; <",
+                "> Lretrofit2/s$a;->g(ILjava/lang/reflect/Type;[Ljava/lang/annotation/Annotation;Ljava/lang/annotation/Annotation;)Lretrofit2/p; <",
+                "> Lretrofit2/s$a;->f(ILjava/lang/reflect/Type;[Ljava/lang/annotation/Annotation;Z)Lretrofit2/p; <",
+                "> Lretrofit2/s$a;->b()Lretrofit2/s; <",
+                "> Lretrofit2/s;->b(Lretrofit2/u;Ljava/lang/reflect/Method;)Lretrofit2/s; <",
+                "> Lretrofit2/v;->b(Lretrofit2/u;Ljava/lang/reflect/Method;)Lretrofit2/v; <",
+                "> Lretrofit2/u;->c(Ljava/lang/reflect/Method;)Lretrofit2/v; <",
+                "> Lretrofit2/u$a;->invoke(Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lretrofit2/u;->b(Ljava/lang/Class;)Ljava/lang/Object; <",
+                "> Lga/b$c;->invoke()Ljava/lang/Object; <",
+                "> Lga/b;-><init>()V <",
+                "> Lda/a;-><init>(Landroid/app/Application;)V <",
+                "> Lcom/socure/docv/capturesdk/feature/orchestrator/presentation/ui/OrchestratorActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/socure/docv/capturesdk/api/SocureDocVHelper;->getIntent(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent; <",
+                "> Lcom/kalshi/kalshi_mobile_app/MainActivity;->d0()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lvc/f$a;->a()Lvc/f; <",
+                "> Lvc/i;->k(II)Lvc/f; <",
+                "> Lvc/g;->k(II)Lvc/f; <",
+                "> Ltd/v;->p(Ljava/lang/String;)Ljava/lang/String; <",
+                "> Lretrofit2/s$a;->g(ILjava/lang/reflect/Type;[Ljava/lang/annotation/Annotation;Ljava/lang/annotation/Annotation;)Lretrofit2/p; <",
+                "> Lretrofit2/s$a;->f(ILjava/lang/reflect/Type;[Ljava/lang/annotation/Annotation;Z)Lretrofit2/p; <",
+                "> Lretrofit2/s$a;->b()Lretrofit2/s; <",
+                "> Lretrofit2/s;->b(Lretrofit2/u;Ljava/lang/reflect/Method;)Lretrofit2/s; <",
+                "> Lretrofit2/v;->b(Lretrofit2/u;Ljava/lang/reflect/Method;)Lretrofit2/v; <",
+                "> Lretrofit2/u;->c(Ljava/lang/reflect/Method;)Lretrofit2/v; <",
+                "> Lretrofit2/u;->j(Ljava/lang/Class;)V <",
+                "> Lretrofit2/u;->b(Ljava/lang/Class;)Ljava/lang/Object; <",
+                "> Lga/b$d;->invoke()Ljava/lang/Object; <",
+                "> Lga/b;-><init>()V <",
+                "> Lda/a;-><init>(Landroid/app/Application;)V <",
+                "> Lcom/socure/docv/capturesdk/feature/orchestrator/presentation/ui/OrchestratorActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/socure/docv/capturesdk/api/SocureDocVHelper;->getIntent(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent; <",
+                "> Lcom/kalshi/kalshi_mobile_app/MainActivity;->d0()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_5": {
+            "call_sequence": [
+                "> Lvc/f$a;->a()Lvc/f; <",
+                "> Lvc/i;->k(II)Lvc/f; <",
+                "> Lvc/g;->k(II)Lvc/f; <",
+                "> Ltd/v;->p(Ljava/lang/String;)Ljava/lang/String; <",
+                "> Lretrofit2/s$a;->g(ILjava/lang/reflect/Type;[Ljava/lang/annotation/Annotation;Ljava/lang/annotation/Annotation;)Lretrofit2/p; <",
+                "> Lretrofit2/s$a;->f(ILjava/lang/reflect/Type;[Ljava/lang/annotation/Annotation;Z)Lretrofit2/p; <",
+                "> Lretrofit2/s$a;->b()Lretrofit2/s; <",
+                "> Lretrofit2/s;->b(Lretrofit2/u;Ljava/lang/reflect/Method;)Lretrofit2/s; <",
+                "> Lretrofit2/v;->b(Lretrofit2/u;Ljava/lang/reflect/Method;)Lretrofit2/v; <",
+                "> Lretrofit2/u;->c(Ljava/lang/reflect/Method;)Lretrofit2/v; <",
+                "> Lretrofit2/u$a;->invoke(Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lretrofit2/u;->b(Ljava/lang/Class;)Ljava/lang/Object; <",
+                "> Lga/b$d;->invoke()Ljava/lang/Object; <",
+                "> Lga/b;-><init>()V <",
+                "> Lda/a;-><init>(Landroid/app/Application;)V <",
+                "> Lcom/socure/docv/capturesdk/feature/orchestrator/presentation/ui/OrchestratorActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/socure/docv/capturesdk/api/SocureDocVHelper;->getIntent(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent; <",
+                "> Lcom/kalshi/kalshi_mobile_app/MainActivity;->d0()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "La8/e;->c(La8/x;)La8/x;": {
+        "path_0": {
+            "call_sequence": [
+                "> La8/e;->c(La8/x;)La8/x; <",
+                "> La8/e;-><init>(Lc8/d;La8/d;Ljava/util/Map;ZZZZZZZLa8/u;Ljava/lang/String;IILjava/util/List;Ljava/util/List;Ljava/util/List;La8/w;La8/w;)V <",
+                "> La8/f;->b()La8/e; <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->buildGson()La8/e; <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->repeatNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;Ljava/lang/Boolean;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->rescheduleNotifications(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ScheduledNotificationBootReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.QUICKBOOT_POWERON",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> La8/e;->c(La8/x;)La8/x; <",
+                "> La8/e;-><init>(Lc8/d;La8/d;Ljava/util/Map;ZZZZZZZLa8/u;Ljava/lang/String;IILjava/util/List;Ljava/util/List;Ljava/util/List;La8/w;La8/w;)V <",
+                "> La8/f;->b()La8/e; <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->buildGson()La8/e; <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->scheduleNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;Ljava/lang/Boolean;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->rescheduleNotifications(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ScheduledNotificationBootReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.QUICKBOOT_POWERON",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> La8/e;->c(La8/x;)La8/x; <",
+                "> La8/e;-><init>(Lc8/d;La8/d;Ljava/util/Map;ZZZZZZZLa8/u;Ljava/lang/String;IILjava/util/List;Ljava/util/List;Ljava/util/List;La8/w;La8/w;)V <",
+                "> La8/e;-><init>()V <",
+                "> Lda/a;->k(Lcom/socure/docv/capturesdk/common/network/model/stepup/UploadResult;Lqc/a;)V <",
+                "> Lcom/socure/docv/capturesdk/feature/orchestrator/presentation/ui/OrchestratorActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/socure/docv/capturesdk/api/SocureDocVHelper;->getIntent(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent; <",
+                "> Lcom/kalshi/kalshi_mobile_app/MainActivity;->d0()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> La8/e;->c(La8/x;)La8/x; <",
+                "> La8/e;-><init>(Lc8/d;La8/d;Ljava/util/Map;ZZZZZZZLa8/u;Ljava/lang/String;IILjava/util/List;Ljava/util/List;Ljava/util/List;La8/w;La8/w;)V <",
+                "> La8/e;-><init>()V <",
+                "> Lda/a;->v()V <",
+                "> Lcom/socure/docv/capturesdk/feature/orchestrator/presentation/ui/OrchestratorActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/socure/docv/capturesdk/api/SocureDocVHelper;->getIntent(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent; <",
+                "> Lcom/kalshi/kalshi_mobile_app/MainActivity;->d0()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "La8/e;->f(Z)La8/x;": {
+        "path_0": {
+            "call_sequence": [
+                "> La8/e;-><init>(Lc8/d;La8/d;Ljava/util/Map;ZZZZZZZLa8/u;Ljava/lang/String;IILjava/util/List;Ljava/util/List;Ljava/util/List;La8/w;La8/w;)V <",
+                "> La8/f;->b()La8/e; <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->buildGson()La8/e; <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->repeatNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;Ljava/lang/Boolean;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->rescheduleNotifications(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ScheduledNotificationBootReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.QUICKBOOT_POWERON",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> La8/e;-><init>(Lc8/d;La8/d;Ljava/util/Map;ZZZZZZZLa8/u;Ljava/lang/String;IILjava/util/List;Ljava/util/List;Ljava/util/List;La8/w;La8/w;)V <",
+                "> La8/f;->b()La8/e; <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->buildGson()La8/e; <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->scheduleNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;Ljava/lang/Boolean;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->rescheduleNotifications(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ScheduledNotificationBootReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.QUICKBOOT_POWERON",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> La8/e;-><init>(Lc8/d;La8/d;Ljava/util/Map;ZZZZZZZLa8/u;Ljava/lang/String;IILjava/util/List;Ljava/util/List;Ljava/util/List;La8/w;La8/w;)V <",
+                "> La8/e;-><init>()V <",
+                "> Lda/a;->k(Lcom/socure/docv/capturesdk/common/network/model/stepup/UploadResult;Lqc/a;)V <",
+                "> Lcom/socure/docv/capturesdk/feature/orchestrator/presentation/ui/OrchestratorActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/socure/docv/capturesdk/api/SocureDocVHelper;->getIntent(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent; <",
+                "> Lcom/kalshi/kalshi_mobile_app/MainActivity;->d0()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> La8/e;-><init>(Lc8/d;La8/d;Ljava/util/Map;ZZZZZZZLa8/u;Ljava/lang/String;IILjava/util/List;Ljava/util/List;Ljava/util/List;La8/w;La8/w;)V <",
+                "> La8/e;-><init>()V <",
+                "> Lda/a;->v()V <",
+                "> Lcom/socure/docv/capturesdk/feature/orchestrator/presentation/ui/OrchestratorActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/socure/docv/capturesdk/api/SocureDocVHelper;->getIntent(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent; <",
+                "> Lcom/kalshi/kalshi_mobile_app/MainActivity;->d0()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lna/f;->b(Landroid/content/Context;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lna/f;->b(Landroid/content/Context;)V <",
+                "> Lna/f;->onActivityStarted(Landroid/app/Activity;)V <",
+                "> Lna/e;->T0(Landroid/app/Application;)V <",
+                "> Lna/e;->U(Landroid/content/Context;)Lna/e; <",
+                "> Lm2/d;->i(Lgb/k$d;)V <",
+                "> Lm2/d;->onMethodCall(Lgb/j;Lgb/k$d;)V <",
+                "> Lio/flutter/plugins/GeneratedPluginRegistrant;->registerWith(Lio/flutter/embedding/engine/a;)V <",
+                "> Ldb/a;->a(Lio/flutter/embedding/engine/a;)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;ZZ)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;[Ljava/lang/String;)V <",
+                "> Lio/flutter/plugins/firebase/messaging/b;->j(Lva/f;Lio/flutter/embedding/engine/e;J)V <",
+                "> Lio/flutter/plugins/firebase/messaging/b;->b(Lio/flutter/plugins/firebase/messaging/b;Lva/f;Lio/flutter/embedding/engine/e;J)V <",
+                "> Ljb/c;->run()V <",
+                "> Lio/flutter/plugins/firebase/messaging/b;->k(Lva/f;Landroid/os/Handler;Lio/flutter/embedding/engine/e;J)V <",
+                "> Lio/flutter/plugins/firebase/messaging/b;->a(Lio/flutter/plugins/firebase/messaging/b;Lva/f;Landroid/os/Handler;Lio/flutter/embedding/engine/e;J)V <",
+                "> Ljb/b;->run()V <",
+                "> Lio/flutter/plugins/firebase/messaging/b;->p(JLio/flutter/embedding/engine/e;)V <",
+                "> Lio/flutter/plugins/firebase/messaging/FlutterFirebaseMessagingBackgroundService;->p(JLio/flutter/embedding/engine/e;)V <",
+                "> Lio/flutter/plugins/firebase/messaging/FlutterFirebaseMessagingReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.google.android.c2dm.intent.RECEIVE",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lna/f;->b(Landroid/content/Context;)V <",
+                "> Lna/f;->onActivityStarted(Landroid/app/Activity;)V <",
+                "> Lna/e;->T0(Landroid/app/Application;)V <",
+                "> Lna/e;->U(Landroid/content/Context;)Lna/e; <",
+                "> Lm2/d;->k(Lgb/k$d;)V <",
+                "> Lm2/d;->onMethodCall(Lgb/j;Lgb/k$d;)V <",
+                "> Lio/flutter/plugins/GeneratedPluginRegistrant;->registerWith(Lio/flutter/embedding/engine/a;)V <",
+                "> Ldb/a;->a(Lio/flutter/embedding/engine/a;)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;ZZ)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;[Ljava/lang/String;)V <",
+                "> Lio/flutter/plugins/firebase/messaging/b;->j(Lva/f;Lio/flutter/embedding/engine/e;J)V <",
+                "> Lio/flutter/plugins/firebase/messaging/b;->b(Lio/flutter/plugins/firebase/messaging/b;Lva/f;Lio/flutter/embedding/engine/e;J)V <",
+                "> Ljb/c;->run()V <",
+                "> Lio/flutter/plugins/firebase/messaging/b;->k(Lva/f;Landroid/os/Handler;Lio/flutter/embedding/engine/e;J)V <",
+                "> Lio/flutter/plugins/firebase/messaging/b;->a(Lio/flutter/plugins/firebase/messaging/b;Lva/f;Landroid/os/Handler;Lio/flutter/embedding/engine/e;J)V <",
+                "> Ljb/b;->run()V <",
+                "> Lio/flutter/plugins/firebase/messaging/b;->p(JLio/flutter/embedding/engine/e;)V <",
+                "> Lio/flutter/plugins/firebase/messaging/FlutterFirebaseMessagingBackgroundService;->p(JLio/flutter/embedding/engine/e;)V <",
+                "> Lio/flutter/plugins/firebase/messaging/FlutterFirebaseMessagingReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.google.android.c2dm.intent.RECEIVE",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lna/f;->b(Landroid/content/Context;)V <",
+                "> Lna/f;->onActivityStarted(Landroid/app/Activity;)V <",
+                "> Lna/e;->T0(Landroid/app/Application;)V <",
+                "> Lna/e;->c0()Lna/e; <",
+                "> Lna/e$n;->a()V <",
+                "> Lm2/d;->onActivityStarted(Landroid/app/Activity;)V <",
+                "> Lio/flutter/plugins/GeneratedPluginRegistrant;->registerWith(Lio/flutter/embedding/engine/a;)V <",
+                "> Ldb/a;->a(Lio/flutter/embedding/engine/a;)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;ZZ)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;[Ljava/lang/String;)V <",
+                "> Lio/flutter/plugins/firebase/messaging/b;->j(Lva/f;Lio/flutter/embedding/engine/e;J)V <",
+                "> Lio/flutter/plugins/firebase/messaging/b;->b(Lio/flutter/plugins/firebase/messaging/b;Lva/f;Lio/flutter/embedding/engine/e;J)V <",
+                "> Ljb/c;->run()V <",
+                "> Lio/flutter/plugins/firebase/messaging/b;->k(Lva/f;Landroid/os/Handler;Lio/flutter/embedding/engine/e;J)V <",
+                "> Lio/flutter/plugins/firebase/messaging/b;->a(Lio/flutter/plugins/firebase/messaging/b;Lva/f;Landroid/os/Handler;Lio/flutter/embedding/engine/e;J)V <",
+                "> Ljb/b;->run()V <",
+                "> Lio/flutter/plugins/firebase/messaging/b;->p(JLio/flutter/embedding/engine/e;)V <",
+                "> Lio/flutter/plugins/firebase/messaging/FlutterFirebaseMessagingBackgroundService;->p(JLio/flutter/embedding/engine/e;)V <",
+                "> Lio/flutter/plugins/firebase/messaging/FlutterFirebaseMessagingReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.google.android.c2dm.intent.RECEIVE",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lna/f;->b(Landroid/content/Context;)V <",
+                "> Lna/f;->onActivityStarted(Landroid/app/Activity;)V <",
+                "> Lna/e;->T0(Landroid/app/Application;)V <",
+                "> Lna/e;->U(Landroid/content/Context;)Lna/e; <",
+                "> Lm2/d;->i(Lgb/k$d;)V <",
+                "> Lm2/d;->onMethodCall(Lgb/j;Lgb/k$d;)V <",
+                "> Lio/flutter/plugins/GeneratedPluginRegistrant;->registerWith(Lio/flutter/embedding/engine/a;)V <",
+                "> Ldb/a;->a(Lio/flutter/embedding/engine/a;)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;ZZ)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;[Ljava/lang/String;)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ActionBroadcastReceiver;->b(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->createNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;)Landroid/app/Notification; <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->showNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ScheduledNotificationReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->repeatNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;Ljava/lang/Boolean;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->rescheduleNotifications(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ScheduledNotificationBootReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.QUICKBOOT_POWERON",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lna/f;->b(Landroid/content/Context;)V <",
+                "> Lna/f;->onActivityStarted(Landroid/app/Activity;)V <",
+                "> Lna/e;->T0(Landroid/app/Application;)V <",
+                "> Lna/e;->U(Landroid/content/Context;)Lna/e; <",
+                "> Lm2/d;->k(Lgb/k$d;)V <",
+                "> Lm2/d;->onMethodCall(Lgb/j;Lgb/k$d;)V <",
+                "> Lio/flutter/plugins/GeneratedPluginRegistrant;->registerWith(Lio/flutter/embedding/engine/a;)V <",
+                "> Ldb/a;->a(Lio/flutter/embedding/engine/a;)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;ZZ)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;[Ljava/lang/String;)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ActionBroadcastReceiver;->b(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->createNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;)Landroid/app/Notification; <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->showNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ScheduledNotificationReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->repeatNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;Ljava/lang/Boolean;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->rescheduleNotifications(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ScheduledNotificationBootReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.QUICKBOOT_POWERON",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_5": {
+            "call_sequence": [
+                "> Lna/f;->b(Landroid/content/Context;)V <",
+                "> Lna/f;->onActivityStarted(Landroid/app/Activity;)V <",
+                "> Lna/e;->T0(Landroid/app/Application;)V <",
+                "> Lna/e;->c0()Lna/e; <",
+                "> Lna/e$n;->a()V <",
+                "> Lm2/d;->onActivityStarted(Landroid/app/Activity;)V <",
+                "> Lio/flutter/plugins/GeneratedPluginRegistrant;->registerWith(Lio/flutter/embedding/engine/a;)V <",
+                "> Ldb/a;->a(Lio/flutter/embedding/engine/a;)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;ZZ)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;[Ljava/lang/String;)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ActionBroadcastReceiver;->b(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->createNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;)Landroid/app/Notification; <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->showNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ScheduledNotificationReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->repeatNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;Ljava/lang/Boolean;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->rescheduleNotifications(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ScheduledNotificationBootReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.QUICKBOOT_POWERON",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_6": {
+            "call_sequence": [
+                "> Lna/f;->b(Landroid/content/Context;)V <",
+                "> Lna/f;->onActivityStarted(Landroid/app/Activity;)V <",
+                "> Lna/e;->T0(Landroid/app/Application;)V <",
+                "> Lna/e;->U(Landroid/content/Context;)Lna/e; <",
+                "> Lm2/d;->j(Lgb/j;Lgb/k$d;)V <",
+                "> Lm2/d;->onMethodCall(Lgb/j;Lgb/k$d;)V <",
+                "> Lio/flutter/plugins/GeneratedPluginRegistrant;->registerWith(Lio/flutter/embedding/engine/a;)V <",
+                "> Ldb/a;->a(Lio/flutter/embedding/engine/a;)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;ZZ)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;[Ljava/lang/String;)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ActionBroadcastReceiver;->b(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->createNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;)Landroid/app/Notification; <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->showNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ScheduledNotificationReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->zonedScheduleNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;Ljava/lang/Boolean;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->rescheduleNotifications(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ScheduledNotificationBootReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.QUICKBOOT_POWERON",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_7": {
+            "call_sequence": [
+                "> Lna/f;->b(Landroid/content/Context;)V <",
+                "> Lna/f;->onActivityStarted(Landroid/app/Activity;)V <",
+                "> Lna/e;->T0(Landroid/app/Application;)V <",
+                "> Lna/e;->U(Landroid/content/Context;)Lna/e; <",
+                "> Lm2/d;->n(Lgb/k$d;)V <",
+                "> Lm2/d;->onMethodCall(Lgb/j;Lgb/k$d;)V <",
+                "> Lio/flutter/plugins/GeneratedPluginRegistrant;->registerWith(Lio/flutter/embedding/engine/a;)V <",
+                "> Ldb/a;->a(Lio/flutter/embedding/engine/a;)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;ZZ)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;[Ljava/lang/String;)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ActionBroadcastReceiver;->b(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->createNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;)Landroid/app/Notification; <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->showNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ScheduledNotificationReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->zonedScheduleNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;Ljava/lang/Boolean;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->rescheduleNotifications(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ScheduledNotificationBootReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.QUICKBOOT_POWERON",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_8": {
+            "call_sequence": [
+                "> Lna/f;->b(Landroid/content/Context;)V <",
+                "> Lna/f;->onActivityStarted(Landroid/app/Activity;)V <",
+                "> Lna/e;->T0(Landroid/app/Application;)V <",
+                "> Lna/e;->U(Landroid/content/Context;)Lna/e; <",
+                "> Lm2/d;->i(Lgb/k$d;)V <",
+                "> Lm2/d;->onMethodCall(Lgb/j;Lgb/k$d;)V <",
+                "> Lio/flutter/plugins/GeneratedPluginRegistrant;->registerWith(Lio/flutter/embedding/engine/a;)V <",
+                "> Ldb/a;->a(Lio/flutter/embedding/engine/a;)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;ZZ)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;[Ljava/lang/String;)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ActionBroadcastReceiver;->b(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->createNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;)Landroid/app/Notification; <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->showNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ScheduledNotificationReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->scheduleNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;Ljava/lang/Boolean;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->rescheduleNotifications(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ScheduledNotificationBootReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.QUICKBOOT_POWERON",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_9": {
+            "call_sequence": [
+                "> Lna/f;->b(Landroid/content/Context;)V <",
+                "> Lna/f;->onActivityStarted(Landroid/app/Activity;)V <",
+                "> Lna/e;->T0(Landroid/app/Application;)V <",
+                "> Lna/e;->U(Landroid/content/Context;)Lna/e; <",
+                "> Lm2/d;->k(Lgb/k$d;)V <",
+                "> Lm2/d;->onMethodCall(Lgb/j;Lgb/k$d;)V <",
+                "> Lio/flutter/plugins/GeneratedPluginRegistrant;->registerWith(Lio/flutter/embedding/engine/a;)V <",
+                "> Ldb/a;->a(Lio/flutter/embedding/engine/a;)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;ZZ)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;[Ljava/lang/String;)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ActionBroadcastReceiver;->b(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->createNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;)Landroid/app/Notification; <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->showNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ScheduledNotificationReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->scheduleNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;Ljava/lang/Boolean;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->rescheduleNotifications(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ScheduledNotificationBootReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.QUICKBOOT_POWERON",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_10": {
+            "call_sequence": [
+                "> Lna/f;->b(Landroid/content/Context;)V <",
+                "> Lna/f;->onActivityStarted(Landroid/app/Activity;)V <",
+                "> Lna/e;->T0(Landroid/app/Application;)V <",
+                "> Lna/e;->c0()Lna/e; <",
+                "> Lna/e$n;->a()V <",
+                "> Lm2/d;->onActivityStarted(Landroid/app/Activity;)V <",
+                "> Lio/flutter/plugins/GeneratedPluginRegistrant;->registerWith(Lio/flutter/embedding/engine/a;)V <",
+                "> Ldb/a;->a(Lio/flutter/embedding/engine/a;)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;ZZ)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;[Ljava/lang/String;)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ActionBroadcastReceiver;->b(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->createNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;)Landroid/app/Notification; <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->showNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ScheduledNotificationReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->scheduleNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;Ljava/lang/Boolean;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->rescheduleNotifications(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ScheduledNotificationBootReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.QUICKBOOT_POWERON",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_11": {
+            "call_sequence": [
+                "> Lna/f;->b(Landroid/content/Context;)V <",
+                "> Lna/f;->onActivityStarted(Landroid/app/Activity;)V <",
+                "> Lna/e;->T0(Landroid/app/Application;)V <",
+                "> Lna/e;->U(Landroid/content/Context;)Lna/e; <",
+                "> Lm2/d;->i(Lgb/k$d;)V <",
+                "> Lm2/d;->onMethodCall(Lgb/j;Lgb/k$d;)V <",
+                "> Lio/flutter/plugins/GeneratedPluginRegistrant;->registerWith(Lio/flutter/embedding/engine/a;)V <",
+                "> Ldb/a;->a(Lio/flutter/embedding/engine/a;)V <",
+                "> Lio/flutter/embedding/android/i;->l(Lio/flutter/embedding/engine/a;)V <",
+                "> Lcom/kalshi/kalshi_mobile_app/MainActivity;->l(Lio/flutter/embedding/engine/a;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_12": {
+            "call_sequence": [
+                "> Lna/f;->b(Landroid/content/Context;)V <",
+                "> Lna/f;->onActivityStarted(Landroid/app/Activity;)V <",
+                "> Lna/e;->T0(Landroid/app/Application;)V <",
+                "> Lna/e;->U(Landroid/content/Context;)Lna/e; <",
+                "> Lm2/d;->k(Lgb/k$d;)V <",
+                "> Lm2/d;->onMethodCall(Lgb/j;Lgb/k$d;)V <",
+                "> Lio/flutter/plugins/GeneratedPluginRegistrant;->registerWith(Lio/flutter/embedding/engine/a;)V <",
+                "> Ldb/a;->a(Lio/flutter/embedding/engine/a;)V <",
+                "> Lio/flutter/embedding/android/i;->l(Lio/flutter/embedding/engine/a;)V <",
+                "> Lcom/kalshi/kalshi_mobile_app/MainActivity;->l(Lio/flutter/embedding/engine/a;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_13": {
+            "call_sequence": [
+                "> Lna/f;->b(Landroid/content/Context;)V <",
+                "> Lna/f;->onActivityStarted(Landroid/app/Activity;)V <",
+                "> Lna/e;->T0(Landroid/app/Application;)V <",
+                "> Lna/e;->c0()Lna/e; <",
+                "> Lna/e$n;->a()V <",
+                "> Lm2/d;->onActivityStarted(Landroid/app/Activity;)V <",
+                "> Lio/flutter/plugins/GeneratedPluginRegistrant;->registerWith(Lio/flutter/embedding/engine/a;)V <",
+                "> Ldb/a;->a(Lio/flutter/embedding/engine/a;)V <",
+                "> Lio/flutter/embedding/android/i;->l(Lio/flutter/embedding/engine/a;)V <",
+                "> Lcom/kalshi/kalshi_mobile_app/MainActivity;->l(Lio/flutter/embedding/engine/a;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lna/e;-><init>(Landroid/content/Context;)V": {
+        "path_14": {
+            "call_sequence": [
+                "> Lna/e;-><init>(Landroid/content/Context;)V <",
+                "> Lna/e;->U(Landroid/content/Context;)Lna/e; <",
+                "> Lm2/d;->i(Lgb/k$d;)V <",
+                "> Lm2/d;->onMethodCall(Lgb/j;Lgb/k$d;)V <",
+                "> Lio/flutter/plugins/GeneratedPluginRegistrant;->registerWith(Lio/flutter/embedding/engine/a;)V <",
+                "> Ldb/a;->a(Lio/flutter/embedding/engine/a;)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;ZZ)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;[Ljava/lang/String;)V <",
+                "> Lio/flutter/plugins/firebase/messaging/b;->j(Lva/f;Lio/flutter/embedding/engine/e;J)V <",
+                "> Lio/flutter/plugins/firebase/messaging/b;->b(Lio/flutter/plugins/firebase/messaging/b;Lva/f;Lio/flutter/embedding/engine/e;J)V <",
+                "> Ljb/c;->run()V <",
+                "> Lio/flutter/plugins/firebase/messaging/b;->k(Lva/f;Landroid/os/Handler;Lio/flutter/embedding/engine/e;J)V <",
+                "> Lio/flutter/plugins/firebase/messaging/b;->a(Lio/flutter/plugins/firebase/messaging/b;Lva/f;Landroid/os/Handler;Lio/flutter/embedding/engine/e;J)V <",
+                "> Ljb/b;->run()V <",
+                "> Lio/flutter/plugins/firebase/messaging/b;->p(JLio/flutter/embedding/engine/e;)V <",
+                "> Lio/flutter/plugins/firebase/messaging/FlutterFirebaseMessagingBackgroundService;->p(JLio/flutter/embedding/engine/e;)V <",
+                "> Lio/flutter/plugins/firebase/messaging/FlutterFirebaseMessagingReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.google.android.c2dm.intent.RECEIVE",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_15": {
+            "call_sequence": [
+                "> Lna/e;-><init>(Landroid/content/Context;)V <",
+                "> Lna/e;->U(Landroid/content/Context;)Lna/e; <",
+                "> Lm2/d;->k(Lgb/k$d;)V <",
+                "> Lm2/d;->onMethodCall(Lgb/j;Lgb/k$d;)V <",
+                "> Lio/flutter/plugins/GeneratedPluginRegistrant;->registerWith(Lio/flutter/embedding/engine/a;)V <",
+                "> Ldb/a;->a(Lio/flutter/embedding/engine/a;)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;ZZ)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;[Ljava/lang/String;)V <",
+                "> Lio/flutter/plugins/firebase/messaging/b;->j(Lva/f;Lio/flutter/embedding/engine/e;J)V <",
+                "> Lio/flutter/plugins/firebase/messaging/b;->b(Lio/flutter/plugins/firebase/messaging/b;Lva/f;Lio/flutter/embedding/engine/e;J)V <",
+                "> Ljb/c;->run()V <",
+                "> Lio/flutter/plugins/firebase/messaging/b;->k(Lva/f;Landroid/os/Handler;Lio/flutter/embedding/engine/e;J)V <",
+                "> Lio/flutter/plugins/firebase/messaging/b;->a(Lio/flutter/plugins/firebase/messaging/b;Lva/f;Landroid/os/Handler;Lio/flutter/embedding/engine/e;J)V <",
+                "> Ljb/b;->run()V <",
+                "> Lio/flutter/plugins/firebase/messaging/b;->p(JLio/flutter/embedding/engine/e;)V <",
+                "> Lio/flutter/plugins/firebase/messaging/FlutterFirebaseMessagingBackgroundService;->p(JLio/flutter/embedding/engine/e;)V <",
+                "> Lio/flutter/plugins/firebase/messaging/FlutterFirebaseMessagingReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.google.android.c2dm.intent.RECEIVE",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_16": {
+            "call_sequence": [
+                "> Lna/e;-><init>(Landroid/content/Context;)V <",
+                "> Lna/e;->c0()Lna/e; <",
+                "> Lna/e$n;->a()V <",
+                "> Lm2/d;->onActivityStarted(Landroid/app/Activity;)V <",
+                "> Lio/flutter/plugins/GeneratedPluginRegistrant;->registerWith(Lio/flutter/embedding/engine/a;)V <",
+                "> Ldb/a;->a(Lio/flutter/embedding/engine/a;)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;ZZ)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;[Ljava/lang/String;)V <",
+                "> Lio/flutter/plugins/firebase/messaging/b;->j(Lva/f;Lio/flutter/embedding/engine/e;J)V <",
+                "> Lio/flutter/plugins/firebase/messaging/b;->b(Lio/flutter/plugins/firebase/messaging/b;Lva/f;Lio/flutter/embedding/engine/e;J)V <",
+                "> Ljb/c;->run()V <",
+                "> Lio/flutter/plugins/firebase/messaging/b;->k(Lva/f;Landroid/os/Handler;Lio/flutter/embedding/engine/e;J)V <",
+                "> Lio/flutter/plugins/firebase/messaging/b;->a(Lio/flutter/plugins/firebase/messaging/b;Lva/f;Landroid/os/Handler;Lio/flutter/embedding/engine/e;J)V <",
+                "> Ljb/b;->run()V <",
+                "> Lio/flutter/plugins/firebase/messaging/b;->p(JLio/flutter/embedding/engine/e;)V <",
+                "> Lio/flutter/plugins/firebase/messaging/FlutterFirebaseMessagingBackgroundService;->p(JLio/flutter/embedding/engine/e;)V <",
+                "> Lio/flutter/plugins/firebase/messaging/FlutterFirebaseMessagingReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.google.android.c2dm.intent.RECEIVE",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_17": {
+            "call_sequence": [
+                "> Lna/e;-><init>(Landroid/content/Context;)V <",
+                "> Lna/e;->U(Landroid/content/Context;)Lna/e; <",
+                "> Lm2/d;->i(Lgb/k$d;)V <",
+                "> Lm2/d;->onMethodCall(Lgb/j;Lgb/k$d;)V <",
+                "> Lio/flutter/plugins/GeneratedPluginRegistrant;->registerWith(Lio/flutter/embedding/engine/a;)V <",
+                "> Ldb/a;->a(Lio/flutter/embedding/engine/a;)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;ZZ)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;[Ljava/lang/String;)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ActionBroadcastReceiver;->b(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->createNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;)Landroid/app/Notification; <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->showNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ScheduledNotificationReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->repeatNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;Ljava/lang/Boolean;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->rescheduleNotifications(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ScheduledNotificationBootReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.QUICKBOOT_POWERON",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_18": {
+            "call_sequence": [
+                "> Lna/e;-><init>(Landroid/content/Context;)V <",
+                "> Lna/e;->U(Landroid/content/Context;)Lna/e; <",
+                "> Lm2/d;->k(Lgb/k$d;)V <",
+                "> Lm2/d;->onMethodCall(Lgb/j;Lgb/k$d;)V <",
+                "> Lio/flutter/plugins/GeneratedPluginRegistrant;->registerWith(Lio/flutter/embedding/engine/a;)V <",
+                "> Ldb/a;->a(Lio/flutter/embedding/engine/a;)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;ZZ)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;[Ljava/lang/String;)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ActionBroadcastReceiver;->b(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->createNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;)Landroid/app/Notification; <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->showNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ScheduledNotificationReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->repeatNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;Ljava/lang/Boolean;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->rescheduleNotifications(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ScheduledNotificationBootReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.QUICKBOOT_POWERON",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_19": {
+            "call_sequence": [
+                "> Lna/e;-><init>(Landroid/content/Context;)V <",
+                "> Lna/e;->c0()Lna/e; <",
+                "> Lna/e$n;->a()V <",
+                "> Lm2/d;->onActivityStarted(Landroid/app/Activity;)V <",
+                "> Lio/flutter/plugins/GeneratedPluginRegistrant;->registerWith(Lio/flutter/embedding/engine/a;)V <",
+                "> Ldb/a;->a(Lio/flutter/embedding/engine/a;)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;ZZ)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;[Ljava/lang/String;)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ActionBroadcastReceiver;->b(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->createNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;)Landroid/app/Notification; <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->showNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ScheduledNotificationReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->repeatNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;Ljava/lang/Boolean;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->rescheduleNotifications(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ScheduledNotificationBootReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.QUICKBOOT_POWERON",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_20": {
+            "call_sequence": [
+                "> Lna/e;-><init>(Landroid/content/Context;)V <",
+                "> Lna/e;->U(Landroid/content/Context;)Lna/e; <",
+                "> Lm2/d;->j(Lgb/j;Lgb/k$d;)V <",
+                "> Lm2/d;->onMethodCall(Lgb/j;Lgb/k$d;)V <",
+                "> Lio/flutter/plugins/GeneratedPluginRegistrant;->registerWith(Lio/flutter/embedding/engine/a;)V <",
+                "> Ldb/a;->a(Lio/flutter/embedding/engine/a;)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;ZZ)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;[Ljava/lang/String;)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ActionBroadcastReceiver;->b(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->createNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;)Landroid/app/Notification; <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->showNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ScheduledNotificationReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->zonedScheduleNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;Ljava/lang/Boolean;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->rescheduleNotifications(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ScheduledNotificationBootReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.QUICKBOOT_POWERON",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_21": {
+            "call_sequence": [
+                "> Lna/e;-><init>(Landroid/content/Context;)V <",
+                "> Lna/e;->U(Landroid/content/Context;)Lna/e; <",
+                "> Lm2/d;->n(Lgb/k$d;)V <",
+                "> Lm2/d;->onMethodCall(Lgb/j;Lgb/k$d;)V <",
+                "> Lio/flutter/plugins/GeneratedPluginRegistrant;->registerWith(Lio/flutter/embedding/engine/a;)V <",
+                "> Ldb/a;->a(Lio/flutter/embedding/engine/a;)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;ZZ)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;[Ljava/lang/String;)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ActionBroadcastReceiver;->b(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->createNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;)Landroid/app/Notification; <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->showNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ScheduledNotificationReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->zonedScheduleNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;Ljava/lang/Boolean;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->rescheduleNotifications(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ScheduledNotificationBootReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.QUICKBOOT_POWERON",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_22": {
+            "call_sequence": [
+                "> Lna/e;-><init>(Landroid/content/Context;)V <",
+                "> Lna/e;->U(Landroid/content/Context;)Lna/e; <",
+                "> Lm2/d;->i(Lgb/k$d;)V <",
+                "> Lm2/d;->onMethodCall(Lgb/j;Lgb/k$d;)V <",
+                "> Lio/flutter/plugins/GeneratedPluginRegistrant;->registerWith(Lio/flutter/embedding/engine/a;)V <",
+                "> Ldb/a;->a(Lio/flutter/embedding/engine/a;)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;ZZ)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;[Ljava/lang/String;)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ActionBroadcastReceiver;->b(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->createNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;)Landroid/app/Notification; <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->showNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ScheduledNotificationReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->scheduleNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;Ljava/lang/Boolean;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->rescheduleNotifications(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ScheduledNotificationBootReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.QUICKBOOT_POWERON",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_23": {
+            "call_sequence": [
+                "> Lna/e;-><init>(Landroid/content/Context;)V <",
+                "> Lna/e;->U(Landroid/content/Context;)Lna/e; <",
+                "> Lm2/d;->k(Lgb/k$d;)V <",
+                "> Lm2/d;->onMethodCall(Lgb/j;Lgb/k$d;)V <",
+                "> Lio/flutter/plugins/GeneratedPluginRegistrant;->registerWith(Lio/flutter/embedding/engine/a;)V <",
+                "> Ldb/a;->a(Lio/flutter/embedding/engine/a;)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;ZZ)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;[Ljava/lang/String;)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ActionBroadcastReceiver;->b(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->createNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;)Landroid/app/Notification; <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->showNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ScheduledNotificationReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->scheduleNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;Ljava/lang/Boolean;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->rescheduleNotifications(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ScheduledNotificationBootReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.QUICKBOOT_POWERON",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_24": {
+            "call_sequence": [
+                "> Lna/e;-><init>(Landroid/content/Context;)V <",
+                "> Lna/e;->c0()Lna/e; <",
+                "> Lna/e$n;->a()V <",
+                "> Lm2/d;->onActivityStarted(Landroid/app/Activity;)V <",
+                "> Lio/flutter/plugins/GeneratedPluginRegistrant;->registerWith(Lio/flutter/embedding/engine/a;)V <",
+                "> Ldb/a;->a(Lio/flutter/embedding/engine/a;)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;ZZ)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/n;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;Lva/f;Lio/flutter/embedding/engine/FlutterJNI;[Ljava/lang/String;Z)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;[Ljava/lang/String;)V <",
+                "> Lio/flutter/embedding/engine/a;-><init>(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ActionBroadcastReceiver;->b(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->createNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;)Landroid/app/Notification; <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->showNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ScheduledNotificationReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->scheduleNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;Ljava/lang/Boolean;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->rescheduleNotifications(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ScheduledNotificationBootReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.QUICKBOOT_POWERON",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_25": {
+            "call_sequence": [
+                "> Lna/e;-><init>(Landroid/content/Context;)V <",
+                "> Lna/e;->U(Landroid/content/Context;)Lna/e; <",
+                "> Lm2/d;->i(Lgb/k$d;)V <",
+                "> Lm2/d;->onMethodCall(Lgb/j;Lgb/k$d;)V <",
+                "> Lio/flutter/plugins/GeneratedPluginRegistrant;->registerWith(Lio/flutter/embedding/engine/a;)V <",
+                "> Ldb/a;->a(Lio/flutter/embedding/engine/a;)V <",
+                "> Lio/flutter/embedding/android/i;->l(Lio/flutter/embedding/engine/a;)V <",
+                "> Lcom/kalshi/kalshi_mobile_app/MainActivity;->l(Lio/flutter/embedding/engine/a;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_26": {
+            "call_sequence": [
+                "> Lna/e;-><init>(Landroid/content/Context;)V <",
+                "> Lna/e;->U(Landroid/content/Context;)Lna/e; <",
+                "> Lm2/d;->k(Lgb/k$d;)V <",
+                "> Lm2/d;->onMethodCall(Lgb/j;Lgb/k$d;)V <",
+                "> Lio/flutter/plugins/GeneratedPluginRegistrant;->registerWith(Lio/flutter/embedding/engine/a;)V <",
+                "> Ldb/a;->a(Lio/flutter/embedding/engine/a;)V <",
+                "> Lio/flutter/embedding/android/i;->l(Lio/flutter/embedding/engine/a;)V <",
+                "> Lcom/kalshi/kalshi_mobile_app/MainActivity;->l(Lio/flutter/embedding/engine/a;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_27": {
+            "call_sequence": [
+                "> Lna/e;-><init>(Landroid/content/Context;)V <",
+                "> Lna/e;->c0()Lna/e; <",
+                "> Lna/e$n;->a()V <",
+                "> Lm2/d;->onActivityStarted(Landroid/app/Activity;)V <",
+                "> Lio/flutter/plugins/GeneratedPluginRegistrant;->registerWith(Lio/flutter/embedding/engine/a;)V <",
+                "> Ldb/a;->a(Lio/flutter/embedding/engine/a;)V <",
+                "> Lio/flutter/embedding/android/i;->l(Lio/flutter/embedding/engine/a;)V <",
+                "> Lcom/kalshi/kalshi_mobile_app/MainActivity;->l(Lio/flutter/embedding/engine/a;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "La9/c;->a()La9/c;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/heapanalytics/android/internal/r;->A(Landroid/content/Context;Ljava/lang/String;Z)V <",
+                "> Lcom/heapanalytics/android/internal/r;->q(Landroid/content/Context;Ljava/lang/String;Z)V <",
+                "> Lcom/heapanalytics/android/internal/r;->p(Landroid/content/Context;Ljava/lang/String;)V <",
+                "> Lz8/a;->c(Landroid/content/Context;Ljava/lang/String;)V <",
+                "> Lcom/kalshi/kalshi_mobile_app/MainActivity;->Y()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    }
+}

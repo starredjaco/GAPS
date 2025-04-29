@@ -1,0 +1,612 @@
+{
+    "Lcom/tgnanativeapps/MainActivity;->access$002(Lcom/tgnanativeapps/MainActivity;Landroid/os/Bundle;)Landroid/os/Bundle;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/tgnanativeapps/MainActivity$2;->getLaunchOptions()Landroid/os/Bundle; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/tgnanativeapps/MainActivity;->getMainComponentName()Ljava/lang/String;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/tgnanativeapps/MainActivity;->createReactActivityDelegate()Lcom/facebook/react/ReactActivityDelegate; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/tgnanativeapps/MainActivity;->access$000(Lcom/tgnanativeapps/MainActivity;)Landroid/os/Bundle;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/tgnanativeapps/MainActivity$2;->getLaunchOptions()Landroid/os/Bundle; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/tgnanativeapps/MainActivity;->getPendingNotification()Landroid/os/Bundle;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/tgnanativeapps/MainActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Landroidx/fragment/app/FragmentController;->attachHost(Landroidx/fragment/app/Fragment;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Landroidx/fragment/app/FragmentActivity;->lambda$init$3$androidx-fragment-app-FragmentActivity(Landroid/content/Context;)V <",
+                "> Landroidx/fragment/app/FragmentActivity$$ExternalSyntheticLambda3;->onContextAvailable(Landroid/content/Context;)V <",
+                "> Landroidx/fragment/app/FragmentActivity;->init()V <",
+                "> Landroidx/fragment/app/FragmentActivity;-><init>(I)V <",
+                "> Landroidx/appcompat/app/AppCompatActivity;-><init>(I)V <",
+                "> Lcom/tgnanativeapps/MainActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Landroidx/collection/SimpleArrayMap;->get(Ljava/lang/Object;)Ljava/lang/Object;": {
+        "path_0": {
+            "call_sequence": [
+                "> Landroidx/appcompat/widget/ResourceManagerInternal;->loadDrawableFromDelegates(Landroid/content/Context; <",
+                "> Landroidx/appcompat/widget/ResourceManagerInternal;->get()Landroidx/appcompat/widget/ResourceManagerInternal; <",
+                "> Landroidx/appcompat/widget/VectorEnabledTintResources;->getDrawable(I)Landroid/graphics/drawable/Drawable; <",
+                "> Landroidx/appcompat/app/AppCompatActivity;->getResources()Landroid/content/res/Resources; <",
+                "> Lcom/tgnanativeapps/MainActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Landroidx/collection/SimpleArrayMap;->equals(Ljava/lang/Object;)Z <",
+                "> Landroidx/collection/SimpleArrayMap;->allocArrays(I)V <",
+                "> Landroidx/collection/SimpleArrayMap;->ensureCapacity(I)V <",
+                "> Landroidx/collection/SimpleArrayMap;->putAll(Landroidx/collection/SimpleArrayMap;)V <",
+                "> Landroidx/collection/SimpleArrayMap;-><init>(Landroidx/collection/SimpleArrayMap;)V <",
+                "> Landroidx/collection/ArrayMap;-><init>(Landroidx/collection/SimpleArrayMap;)V <",
+                "> Lcom/google/android/gms/common/api/GoogleApiClient$Builder;-><init>(Landroid/content/Context;)V <",
+                "> Ltv/vizbee/sync/channel/implementations/googlecast/GoogleCastFacade;->connect(Lcom/google/android/gms/cast/CastDevice; <",
+                "> Ltv/vizbee/sync/channel/implementations/googlecast/GoogleCastFacade;->getInstance()Ltv/vizbee/sync/channel/implementations/googlecast/GoogleCastFacade; <",
+                "> Ltv/vizbee/d/a/a/d/d;->x()V <",
+                "> Ltv/vizbee/d/a/a/a/a;->n()Z <",
+                "> Ltv/vizbee/ui/d/a/c/a/a;->h()V <",
+                "> Ltv/vizbee/ui/d/d/c;->b(Landroid/app/Activity;)V <",
+                "> Ltv/vizbee/ui/d/b;->a(Ljava/lang/Class;)Ljava/lang/Class; <",
+                "> Ltv/vizbee/ui/d/a;->a(Ljava/lang/Class;)Ljava/lang/Class; <",
+                "> Ltv/vizbee/ui/d/a;->a()Ltv/vizbee/ui/d/a/c/a; <",
+                "> Ltv/vizbee/api/session/VizbeeSessionManager;->onCastIconClicked(Landroid/app/Activity;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "tv.vizbee.action.SELECTED_DEVICE_STATE_CHANGED",
+                    "start -a"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Landroidx/collection/SimpleArrayMap;->equals(Ljava/lang/Object;)Z <",
+                "> Landroidx/collection/SimpleArrayMap;->allocArrays(I)V <",
+                "> Landroidx/collection/SimpleArrayMap;->ensureCapacity(I)V <",
+                "> Landroidx/collection/SimpleArrayMap;->putAll(Landroidx/collection/SimpleArrayMap;)V <",
+                "> Landroidx/collection/SimpleArrayMap;-><init>(Landroidx/collection/SimpleArrayMap;)V <",
+                "> Landroidx/collection/ArrayMap;-><init>(Landroidx/collection/SimpleArrayMap;)V <",
+                "> Lcom/google/android/gms/common/api/GoogleApiClient$Builder;-><init>(Landroid/content/Context;)V <",
+                "> Ltv/vizbee/sync/channel/implementations/googlecast/GoogleCastFacade;->connect(Lcom/google/android/gms/cast/CastDevice; <",
+                "> Ltv/vizbee/sync/channel/implementations/googlecast/GoogleCastFacade;->getInstance()Ltv/vizbee/sync/channel/implementations/googlecast/GoogleCastFacade; <",
+                "> Ltv/vizbee/d/a/a/d/d;->a(F)V <",
+                "> Ltv/vizbee/d/a/a/a/a;->n()Z <",
+                "> Ltv/vizbee/ui/d/a/c/a/a;->h()V <",
+                "> Ltv/vizbee/ui/d/d/c;->b(Landroid/app/Activity;)V <",
+                "> Ltv/vizbee/ui/d/b;->a(Ljava/lang/Class;)Ljava/lang/Class; <",
+                "> Ltv/vizbee/ui/d/a;->a(Ljava/lang/Class;)Ljava/lang/Class; <",
+                "> Ltv/vizbee/ui/d/a;->a()Ltv/vizbee/ui/d/a/c/a; <",
+                "> Ltv/vizbee/api/session/VizbeeSessionManager;->onCastIconClicked(Landroid/app/Activity;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "tv.vizbee.action.SELECTED_DEVICE_STATE_CHANGED",
+                    "start -a"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Landroidx/collection/SimpleArrayMap;->equals(Ljava/lang/Object;)Z <",
+                "> Landroidx/collection/SimpleArrayMap;->allocArrays(I)V <",
+                "> Landroidx/collection/SimpleArrayMap;->ensureCapacity(I)V <",
+                "> Landroidx/collection/SimpleArrayMap;->putAll(Landroidx/collection/SimpleArrayMap;)V <",
+                "> Landroidx/collection/SimpleArrayMap;-><init>(Landroidx/collection/SimpleArrayMap;)V <",
+                "> Landroidx/collection/ArrayMap;-><init>(Landroidx/collection/SimpleArrayMap;)V <",
+                "> Lcom/google/android/gms/common/api/GoogleApiClient$Builder;-><init>(Landroid/content/Context;)V <",
+                "> Ltv/vizbee/sync/channel/implementations/googlecast/GoogleCastFacade;->connect(Lcom/google/android/gms/cast/CastDevice; <",
+                "> Ltv/vizbee/sync/channel/implementations/googlecast/GoogleCastFacade;->getInstance()Ltv/vizbee/sync/channel/implementations/googlecast/GoogleCastFacade; <",
+                "> Ltv/vizbee/d/a/a/d/d;->l()F <",
+                "> Ltv/vizbee/d/a/a/a/a;->n()Z <",
+                "> Ltv/vizbee/ui/d/a/c/a/a;->h()V <",
+                "> Ltv/vizbee/ui/d/d/c;->b(Landroid/app/Activity;)V <",
+                "> Ltv/vizbee/ui/d/b;->a(Ljava/lang/Class;)Ljava/lang/Class; <",
+                "> Ltv/vizbee/ui/d/a;->a(Ljava/lang/Class;)Ljava/lang/Class; <",
+                "> Ltv/vizbee/ui/d/a;->a()Ltv/vizbee/ui/d/a/c/a; <",
+                "> Ltv/vizbee/api/session/VizbeeSessionManager;->onCastIconClicked(Landroid/app/Activity;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "tv.vizbee.action.SELECTED_DEVICE_STATE_CHANGED",
+                    "start -a"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Landroidx/collection/SimpleArrayMap;->equals(Ljava/lang/Object;)Z <",
+                "> Landroidx/collection/SimpleArrayMap;->allocArrays(I)V <",
+                "> Landroidx/collection/SimpleArrayMap;->ensureCapacity(I)V <",
+                "> Landroidx/collection/SimpleArrayMap;->putAll(Landroidx/collection/SimpleArrayMap;)V <",
+                "> Landroidx/collection/SimpleArrayMap;-><init>(Landroidx/collection/SimpleArrayMap;)V <",
+                "> Landroidx/collection/ArrayMap;-><init>(Landroidx/collection/SimpleArrayMap;)V <",
+                "> Lcom/google/android/gms/common/api/GoogleApiClient$Builder;-><init>(Landroid/content/Context;)V <",
+                "> Ltv/vizbee/sync/channel/implementations/googlecast/GoogleCastFacade;->connect(Lcom/google/android/gms/cast/CastDevice; <",
+                "> Ltv/vizbee/sync/channel/implementations/googlecast/GoogleCastFacade;->getInstance()Ltv/vizbee/sync/channel/implementations/googlecast/GoogleCastFacade; <",
+                "> Ltv/vizbee/d/a/a/d/d;->u()V <",
+                "> Ltv/vizbee/d/a/a/a/a;->n()Z <",
+                "> Ltv/vizbee/ui/d/a/c/a/a;->h()V <",
+                "> Ltv/vizbee/ui/d/d/c;->b(Landroid/app/Activity;)V <",
+                "> Ltv/vizbee/ui/d/b;->a(Ljava/lang/Class;)Ljava/lang/Class; <",
+                "> Ltv/vizbee/ui/d/a;->a(Ljava/lang/Class;)Ljava/lang/Class; <",
+                "> Ltv/vizbee/ui/d/a;->a()Ltv/vizbee/ui/d/a/c/a; <",
+                "> Ltv/vizbee/api/session/VizbeeSessionManager;->onCastIconClicked(Landroid/app/Activity;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "tv.vizbee.action.SELECTED_DEVICE_STATE_CHANGED",
+                    "start -a"
+                ]
+            ]
+        },
+        "path_5": {
+            "call_sequence": [
+                "> Landroidx/collection/SimpleArrayMap;->equals(Ljava/lang/Object;)Z <",
+                "> Landroidx/collection/SimpleArrayMap;->allocArrays(I)V <",
+                "> Landroidx/collection/SimpleArrayMap;->ensureCapacity(I)V <",
+                "> Landroidx/collection/SimpleArrayMap;->putAll(Landroidx/collection/SimpleArrayMap;)V <",
+                "> Landroidx/collection/SimpleArrayMap;-><init>(Landroidx/collection/SimpleArrayMap;)V <",
+                "> Landroidx/collection/ArrayMap;-><init>(Landroidx/collection/SimpleArrayMap;)V <",
+                "> Lcom/google/android/gms/common/api/GoogleApiClient$Builder;-><init>(Landroid/content/Context;)V <",
+                "> Ltv/vizbee/sync/channel/implementations/googlecast/GoogleCastFacade;->connect(Lcom/google/android/gms/cast/CastDevice; <",
+                "> Ltv/vizbee/sync/channel/implementations/googlecast/GoogleCastFacade;->getInstance()Ltv/vizbee/sync/channel/implementations/googlecast/GoogleCastFacade; <",
+                "> Ltv/vizbee/d/a/a/d/d;->A()V <",
+                "> Ltv/vizbee/d/a/a/a/a;->n()Z <",
+                "> Ltv/vizbee/ui/d/a/c/a/a;->h()V <",
+                "> Ltv/vizbee/ui/d/d/c;->b(Landroid/app/Activity;)V <",
+                "> Ltv/vizbee/ui/d/b;->a(Ljava/lang/Class;)Ljava/lang/Class; <",
+                "> Ltv/vizbee/ui/d/a;->a(Ljava/lang/Class;)Ljava/lang/Class; <",
+                "> Ltv/vizbee/ui/d/a;->a()Ltv/vizbee/ui/d/a/c/a; <",
+                "> Ltv/vizbee/api/session/VizbeeSessionManager;->onCastIconClicked(Landroid/app/Activity;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "tv.vizbee.action.SELECTED_DEVICE_STATE_CHANGED",
+                    "start -a"
+                ]
+            ]
+        },
+        "path_6": {
+            "call_sequence": [
+                "> Landroidx/collection/SimpleArrayMap;->putIfAbsent(Ljava/lang/Object; <",
+                "> Landroidx/collection/SimpleArrayMap;->allocArrays(I)V <",
+                "> Landroidx/collection/SimpleArrayMap;->ensureCapacity(I)V <",
+                "> Landroidx/collection/SimpleArrayMap;->putAll(Landroidx/collection/SimpleArrayMap;)V <",
+                "> Landroidx/collection/SimpleArrayMap;-><init>(Landroidx/collection/SimpleArrayMap;)V <",
+                "> Landroidx/collection/ArrayMap;-><init>(Landroidx/collection/SimpleArrayMap;)V <",
+                "> Lcom/google/android/gms/common/api/GoogleApiClient$Builder;-><init>(Landroid/content/Context;)V <",
+                "> Ltv/vizbee/sync/channel/implementations/googlecast/GoogleCastFacade;->connect(Lcom/google/android/gms/cast/CastDevice; <",
+                "> Ltv/vizbee/sync/channel/implementations/googlecast/GoogleCastFacade;->getInstance()Ltv/vizbee/sync/channel/implementations/googlecast/GoogleCastFacade; <",
+                "> Ltv/vizbee/d/a/a/d/d;->x()V <",
+                "> Ltv/vizbee/d/a/a/a/a;->n()Z <",
+                "> Ltv/vizbee/ui/d/a/c/a/a;->h()V <",
+                "> Ltv/vizbee/ui/d/d/c;->b(Landroid/app/Activity;)V <",
+                "> Ltv/vizbee/ui/d/b;->a(Ljava/lang/Class;)Ljava/lang/Class; <",
+                "> Ltv/vizbee/ui/d/a;->a(Ljava/lang/Class;)Ljava/lang/Class; <",
+                "> Ltv/vizbee/ui/d/a;->a()Ltv/vizbee/ui/d/a/c/a; <",
+                "> Ltv/vizbee/api/session/VizbeeSessionManager;->onCastIconClicked(Landroid/app/Activity;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "tv.vizbee.action.SELECTED_DEVICE_STATE_CHANGED",
+                    "start -a"
+                ]
+            ]
+        },
+        "path_7": {
+            "call_sequence": [
+                "> Landroidx/collection/SimpleArrayMap;->putIfAbsent(Ljava/lang/Object; <",
+                "> Landroidx/collection/SimpleArrayMap;->allocArrays(I)V <",
+                "> Landroidx/collection/SimpleArrayMap;->ensureCapacity(I)V <",
+                "> Landroidx/collection/SimpleArrayMap;->putAll(Landroidx/collection/SimpleArrayMap;)V <",
+                "> Landroidx/collection/SimpleArrayMap;-><init>(Landroidx/collection/SimpleArrayMap;)V <",
+                "> Landroidx/collection/ArrayMap;-><init>(Landroidx/collection/SimpleArrayMap;)V <",
+                "> Lcom/google/android/gms/common/api/GoogleApiClient$Builder;-><init>(Landroid/content/Context;)V <",
+                "> Ltv/vizbee/sync/channel/implementations/googlecast/GoogleCastFacade;->connect(Lcom/google/android/gms/cast/CastDevice; <",
+                "> Ltv/vizbee/sync/channel/implementations/googlecast/GoogleCastFacade;->getInstance()Ltv/vizbee/sync/channel/implementations/googlecast/GoogleCastFacade; <",
+                "> Ltv/vizbee/d/a/a/d/d;->a(F)V <",
+                "> Ltv/vizbee/d/a/a/a/a;->n()Z <",
+                "> Ltv/vizbee/ui/d/a/c/a/a;->h()V <",
+                "> Ltv/vizbee/ui/d/d/c;->b(Landroid/app/Activity;)V <",
+                "> Ltv/vizbee/ui/d/b;->a(Ljava/lang/Class;)Ljava/lang/Class; <",
+                "> Ltv/vizbee/ui/d/a;->a(Ljava/lang/Class;)Ljava/lang/Class; <",
+                "> Ltv/vizbee/ui/d/a;->a()Ltv/vizbee/ui/d/a/c/a; <",
+                "> Ltv/vizbee/api/session/VizbeeSessionManager;->onCastIconClicked(Landroid/app/Activity;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "tv.vizbee.action.SELECTED_DEVICE_STATE_CHANGED",
+                    "start -a"
+                ]
+            ]
+        },
+        "path_8": {
+            "call_sequence": [
+                "> Landroidx/collection/SimpleArrayMap;->putIfAbsent(Ljava/lang/Object; <",
+                "> Landroidx/collection/SimpleArrayMap;->allocArrays(I)V <",
+                "> Landroidx/collection/SimpleArrayMap;->ensureCapacity(I)V <",
+                "> Landroidx/collection/SimpleArrayMap;->putAll(Landroidx/collection/SimpleArrayMap;)V <",
+                "> Landroidx/collection/SimpleArrayMap;-><init>(Landroidx/collection/SimpleArrayMap;)V <",
+                "> Landroidx/collection/ArrayMap;-><init>(Landroidx/collection/SimpleArrayMap;)V <",
+                "> Lcom/google/android/gms/common/api/GoogleApiClient$Builder;-><init>(Landroid/content/Context;)V <",
+                "> Ltv/vizbee/sync/channel/implementations/googlecast/GoogleCastFacade;->connect(Lcom/google/android/gms/cast/CastDevice; <",
+                "> Ltv/vizbee/sync/channel/implementations/googlecast/GoogleCastFacade;->getInstance()Ltv/vizbee/sync/channel/implementations/googlecast/GoogleCastFacade; <",
+                "> Ltv/vizbee/d/a/a/d/d;->l()F <",
+                "> Ltv/vizbee/d/a/a/a/a;->n()Z <",
+                "> Ltv/vizbee/ui/d/a/c/a/a;->h()V <",
+                "> Ltv/vizbee/ui/d/d/c;->b(Landroid/app/Activity;)V <",
+                "> Ltv/vizbee/ui/d/b;->a(Ljava/lang/Class;)Ljava/lang/Class; <",
+                "> Ltv/vizbee/ui/d/a;->a(Ljava/lang/Class;)Ljava/lang/Class; <",
+                "> Ltv/vizbee/ui/d/a;->a()Ltv/vizbee/ui/d/a/c/a; <",
+                "> Ltv/vizbee/api/session/VizbeeSessionManager;->onCastIconClicked(Landroid/app/Activity;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "tv.vizbee.action.SELECTED_DEVICE_STATE_CHANGED",
+                    "start -a"
+                ]
+            ]
+        },
+        "path_9": {
+            "call_sequence": [
+                "> Landroidx/collection/SimpleArrayMap;->putIfAbsent(Ljava/lang/Object; <",
+                "> Landroidx/collection/SimpleArrayMap;->allocArrays(I)V <",
+                "> Landroidx/collection/SimpleArrayMap;->ensureCapacity(I)V <",
+                "> Landroidx/collection/SimpleArrayMap;->putAll(Landroidx/collection/SimpleArrayMap;)V <",
+                "> Landroidx/collection/SimpleArrayMap;-><init>(Landroidx/collection/SimpleArrayMap;)V <",
+                "> Landroidx/collection/ArrayMap;-><init>(Landroidx/collection/SimpleArrayMap;)V <",
+                "> Lcom/google/android/gms/common/api/GoogleApiClient$Builder;-><init>(Landroid/content/Context;)V <",
+                "> Ltv/vizbee/sync/channel/implementations/googlecast/GoogleCastFacade;->connect(Lcom/google/android/gms/cast/CastDevice; <",
+                "> Ltv/vizbee/sync/channel/implementations/googlecast/GoogleCastFacade;->getInstance()Ltv/vizbee/sync/channel/implementations/googlecast/GoogleCastFacade; <",
+                "> Ltv/vizbee/d/a/a/d/d;->u()V <",
+                "> Ltv/vizbee/d/a/a/a/a;->n()Z <",
+                "> Ltv/vizbee/ui/d/a/c/a/a;->h()V <",
+                "> Ltv/vizbee/ui/d/d/c;->b(Landroid/app/Activity;)V <",
+                "> Ltv/vizbee/ui/d/b;->a(Ljava/lang/Class;)Ljava/lang/Class; <",
+                "> Ltv/vizbee/ui/d/a;->a(Ljava/lang/Class;)Ljava/lang/Class; <",
+                "> Ltv/vizbee/ui/d/a;->a()Ltv/vizbee/ui/d/a/c/a; <",
+                "> Ltv/vizbee/api/session/VizbeeSessionManager;->onCastIconClicked(Landroid/app/Activity;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "tv.vizbee.action.SELECTED_DEVICE_STATE_CHANGED",
+                    "start -a"
+                ]
+            ]
+        },
+        "path_10": {
+            "call_sequence": [
+                "> Landroidx/collection/SimpleArrayMap;->putIfAbsent(Ljava/lang/Object; <",
+                "> Landroidx/collection/SimpleArrayMap;->allocArrays(I)V <",
+                "> Landroidx/collection/SimpleArrayMap;->ensureCapacity(I)V <",
+                "> Landroidx/collection/SimpleArrayMap;->putAll(Landroidx/collection/SimpleArrayMap;)V <",
+                "> Landroidx/collection/SimpleArrayMap;-><init>(Landroidx/collection/SimpleArrayMap;)V <",
+                "> Landroidx/collection/ArrayMap;-><init>(Landroidx/collection/SimpleArrayMap;)V <",
+                "> Lcom/google/android/gms/common/api/GoogleApiClient$Builder;-><init>(Landroid/content/Context;)V <",
+                "> Ltv/vizbee/sync/channel/implementations/googlecast/GoogleCastFacade;->connect(Lcom/google/android/gms/cast/CastDevice; <",
+                "> Ltv/vizbee/sync/channel/implementations/googlecast/GoogleCastFacade;->getInstance()Ltv/vizbee/sync/channel/implementations/googlecast/GoogleCastFacade; <",
+                "> Ltv/vizbee/d/a/a/d/d;->A()V <",
+                "> Ltv/vizbee/d/a/a/a/a;->n()Z <",
+                "> Ltv/vizbee/ui/d/a/c/a/a;->h()V <",
+                "> Ltv/vizbee/ui/d/d/c;->b(Landroid/app/Activity;)V <",
+                "> Ltv/vizbee/ui/d/b;->a(Ljava/lang/Class;)Ljava/lang/Class; <",
+                "> Ltv/vizbee/ui/d/a;->a(Ljava/lang/Class;)Ljava/lang/Class; <",
+                "> Ltv/vizbee/ui/d/a;->a()Ltv/vizbee/ui/d/a/c/a; <",
+                "> Ltv/vizbee/api/session/VizbeeSessionManager;->onCastIconClicked(Landroid/app/Activity;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "tv.vizbee.action.SELECTED_DEVICE_STATE_CHANGED",
+                    "start -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/google/android/gms/common/internal/Preconditions;->checkArgument(ZLjava/lang/Object;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/google/android/gms/common/api/GoogleApiClient$Builder;->build()Lcom/google/android/gms/common/api/GoogleApiClient; <",
+                "> Ltv/vizbee/sync/channel/implementations/googlecast/GoogleCastFacade;->connect(Lcom/google/android/gms/cast/CastDevice; <",
+                "> Ltv/vizbee/sync/channel/implementations/googlecast/GoogleCastFacade;->getInstance()Ltv/vizbee/sync/channel/implementations/googlecast/GoogleCastFacade; <",
+                "> Ltv/vizbee/d/a/a/d/d;->x()V <",
+                "> Ltv/vizbee/d/a/a/a/a;->n()Z <",
+                "> Ltv/vizbee/ui/d/a/c/a/a;->h()V <",
+                "> Ltv/vizbee/ui/d/d/c;->b(Landroid/app/Activity;)V <",
+                "> Ltv/vizbee/ui/d/b;->a(Ljava/lang/Class;)Ljava/lang/Class; <",
+                "> Ltv/vizbee/ui/d/a;->a(Ljava/lang/Class;)Ljava/lang/Class; <",
+                "> Ltv/vizbee/ui/d/a;->a()Ltv/vizbee/ui/d/a/c/a; <",
+                "> Ltv/vizbee/api/session/VizbeeSessionManager;->onCastIconClicked(Landroid/app/Activity;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "tv.vizbee.action.SELECTED_DEVICE_STATE_CHANGED",
+                    "start -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/google/android/gms/common/api/GoogleApiClient$Builder;->build()Lcom/google/android/gms/common/api/GoogleApiClient; <",
+                "> Ltv/vizbee/sync/channel/implementations/googlecast/GoogleCastFacade;->connect(Lcom/google/android/gms/cast/CastDevice; <",
+                "> Ltv/vizbee/sync/channel/implementations/googlecast/GoogleCastFacade;->getInstance()Ltv/vizbee/sync/channel/implementations/googlecast/GoogleCastFacade; <",
+                "> Ltv/vizbee/d/a/a/d/d;->a(F)V <",
+                "> Ltv/vizbee/d/a/a/a/a;->n()Z <",
+                "> Ltv/vizbee/ui/d/a/c/a/a;->h()V <",
+                "> Ltv/vizbee/ui/d/d/c;->b(Landroid/app/Activity;)V <",
+                "> Ltv/vizbee/ui/d/b;->a(Ljava/lang/Class;)Ljava/lang/Class; <",
+                "> Ltv/vizbee/ui/d/a;->a(Ljava/lang/Class;)Ljava/lang/Class; <",
+                "> Ltv/vizbee/ui/d/a;->a()Ltv/vizbee/ui/d/a/c/a; <",
+                "> Ltv/vizbee/api/session/VizbeeSessionManager;->onCastIconClicked(Landroid/app/Activity;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "tv.vizbee.action.SELECTED_DEVICE_STATE_CHANGED",
+                    "start -a"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/google/android/gms/common/api/GoogleApiClient$Builder;->build()Lcom/google/android/gms/common/api/GoogleApiClient; <",
+                "> Ltv/vizbee/sync/channel/implementations/googlecast/GoogleCastFacade;->connect(Lcom/google/android/gms/cast/CastDevice; <",
+                "> Ltv/vizbee/sync/channel/implementations/googlecast/GoogleCastFacade;->getInstance()Ltv/vizbee/sync/channel/implementations/googlecast/GoogleCastFacade; <",
+                "> Ltv/vizbee/d/a/a/d/d;->l()F <",
+                "> Ltv/vizbee/d/a/a/a/a;->n()Z <",
+                "> Ltv/vizbee/ui/d/a/c/a/a;->h()V <",
+                "> Ltv/vizbee/ui/d/d/c;->b(Landroid/app/Activity;)V <",
+                "> Ltv/vizbee/ui/d/b;->a(Ljava/lang/Class;)Ljava/lang/Class; <",
+                "> Ltv/vizbee/ui/d/a;->a(Ljava/lang/Class;)Ljava/lang/Class; <",
+                "> Ltv/vizbee/ui/d/a;->a()Ltv/vizbee/ui/d/a/c/a; <",
+                "> Ltv/vizbee/api/session/VizbeeSessionManager;->onCastIconClicked(Landroid/app/Activity;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "tv.vizbee.action.SELECTED_DEVICE_STATE_CHANGED",
+                    "start -a"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/google/android/gms/common/api/GoogleApiClient$Builder;->build()Lcom/google/android/gms/common/api/GoogleApiClient; <",
+                "> Ltv/vizbee/sync/channel/implementations/googlecast/GoogleCastFacade;->connect(Lcom/google/android/gms/cast/CastDevice; <",
+                "> Ltv/vizbee/sync/channel/implementations/googlecast/GoogleCastFacade;->getInstance()Ltv/vizbee/sync/channel/implementations/googlecast/GoogleCastFacade; <",
+                "> Ltv/vizbee/d/a/a/d/d;->u()V <",
+                "> Ltv/vizbee/d/a/a/a/a;->n()Z <",
+                "> Ltv/vizbee/ui/d/a/c/a/a;->h()V <",
+                "> Ltv/vizbee/ui/d/d/c;->b(Landroid/app/Activity;)V <",
+                "> Ltv/vizbee/ui/d/b;->a(Ljava/lang/Class;)Ljava/lang/Class; <",
+                "> Ltv/vizbee/ui/d/a;->a(Ljava/lang/Class;)Ljava/lang/Class; <",
+                "> Ltv/vizbee/ui/d/a;->a()Ltv/vizbee/ui/d/a/c/a; <",
+                "> Ltv/vizbee/api/session/VizbeeSessionManager;->onCastIconClicked(Landroid/app/Activity;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "tv.vizbee.action.SELECTED_DEVICE_STATE_CHANGED",
+                    "start -a"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lcom/google/android/gms/common/api/internal/TaskApiCall$Builder;->build()Lcom/google/android/gms/common/api/internal/TaskApiCall; <",
+                "> Lcom/google/android/gms/cast/CastRemoteDisplayClient;->stopRemoteDisplay()Lcom/google/android/gms/tasks/Task; <",
+                "> Lcom/google/android/gms/cast/CastRemoteDisplayLocalService;->zzx(Z)V <",
+                "> Lcom/google/android/gms/cast/CastRemoteDisplayLocalService;->zzw(Z)V <",
+                "> Lcom/google/android/gms/cast/CastRemoteDisplayLocalService;->zzr(Z)V <",
+                "> Lcom/google/android/gms/cast/zzar;->onReceive(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.google.android.gms.cast.remote_display.ACTION_SESSION_ENDED",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/google/android/gms/common/wrappers/Wrappers;->zza(Landroid/content/Context;)Lcom/google/android/gms/common/wrappers/PackageManagerWrapper;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/google/android/gms/common/wrappers/Wrappers;->packageManager(Landroid/content/Context;)Lcom/google/android/gms/common/wrappers/PackageManagerWrapper; <",
+                "> Lcom/google/android/gms/internal/ads/zzbtr;-><init>(Landroid/content/Context;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.BATTERY_CHANGED",
+                    "start -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/google/android/gms/common/wrappers/Wrappers;->packageManager(Landroid/content/Context;)Lcom/google/android/gms/common/wrappers/PackageManagerWrapper; <",
+                "> Lcom/google/android/gms/measurement/internal/zzgd;->zzM()Z <",
+                "> Lcom/google/android/gms/measurement/internal/zzlf;->zzag()V <",
+                "> Lcom/google/android/gms/measurement/internal/zzlf;->zzJ(Z)V <",
+                "> Lcom/google/android/gms/measurement/internal/zzfa;->run()V <",
+                "> Lcom/google/android/gms/measurement/internal/zzfb;->onReceive(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.net.conn.CONNECTIVITY_CHANGE",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/microsoft/appcenter/channel/OneCollectorChannelListener;->getOneCollectorGroupName(Ljava/lang/String;)Ljava/lang/String;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/microsoft/appcenter/channel/OneCollectorChannelListener;->onClear(Ljava/lang/String;)V <",
+                "> Lcom/microsoft/appcenter/AppCenter;->finishConfiguration(Z)V <",
+                "> Lcom/microsoft/appcenter/AppCenter;->getInstance()Lcom/microsoft/appcenter/AppCenter; <",
+                "> Lcom/microsoft/appcenter/AppCenter;->configure(Landroid/app/Application;)V <",
+                "> Lcom/microsoft/appcenter/reactnative/shared/AppCenterReactNativeShared;->configureAppCenter(Landroid/app/Application;)V <",
+                "> Lcom/microsoft/appcenter/reactnative/appcenter/AppCenterReactNativeModule;-><init>(Landroid/app/Application;)V <",
+                "> Lcom/microsoft/appcenter/reactnative/appcenter/AppCenterReactNativePackage;-><init>(Landroid/app/Application;)V <",
+                "> Lcom/facebook/react/PackageList;->getPackages()Ljava/util/ArrayList; <",
+                "> Lcom/tgnanativeapps/MainApplication$1;->getPackages()Ljava/util/List; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/microsoft/appcenter/channel/OneCollectorChannelListener;->onPaused(Ljava/lang/String; <",
+                "> Lcom/microsoft/appcenter/AppCenter;->finishConfiguration(Z)V <",
+                "> Lcom/microsoft/appcenter/AppCenter;->getInstance()Lcom/microsoft/appcenter/AppCenter; <",
+                "> Lcom/microsoft/appcenter/AppCenter;->configure(Landroid/app/Application;)V <",
+                "> Lcom/microsoft/appcenter/reactnative/shared/AppCenterReactNativeShared;->configureAppCenter(Landroid/app/Application;)V <",
+                "> Lcom/microsoft/appcenter/reactnative/appcenter/AppCenterReactNativeModule;-><init>(Landroid/app/Application;)V <",
+                "> Lcom/microsoft/appcenter/reactnative/appcenter/AppCenterReactNativePackage;-><init>(Landroid/app/Application;)V <",
+                "> Lcom/facebook/react/PackageList;->getPackages()Ljava/util/ArrayList; <",
+                "> Lcom/tgnanativeapps/MainApplication$1;->getPackages()Ljava/util/List; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/microsoft/appcenter/channel/OneCollectorChannelListener;->onGroupAdded(Ljava/lang/String; <",
+                "> Lcom/microsoft/appcenter/AppCenter;->finishConfiguration(Z)V <",
+                "> Lcom/microsoft/appcenter/AppCenter;->getInstance()Lcom/microsoft/appcenter/AppCenter; <",
+                "> Lcom/microsoft/appcenter/AppCenter;->configure(Landroid/app/Application;)V <",
+                "> Lcom/microsoft/appcenter/reactnative/shared/AppCenterReactNativeShared;->configureAppCenter(Landroid/app/Application;)V <",
+                "> Lcom/microsoft/appcenter/reactnative/appcenter/AppCenterReactNativeModule;-><init>(Landroid/app/Application;)V <",
+                "> Lcom/microsoft/appcenter/reactnative/appcenter/AppCenterReactNativePackage;-><init>(Landroid/app/Application;)V <",
+                "> Lcom/facebook/react/PackageList;->getPackages()Ljava/util/ArrayList; <",
+                "> Lcom/tgnanativeapps/MainApplication$1;->getPackages()Ljava/util/List; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/microsoft/appcenter/channel/OneCollectorChannelListener;->onPreparedLog(Lcom/microsoft/appcenter/ingestion/models/Log; <",
+                "> Lcom/microsoft/appcenter/AppCenter;->finishConfiguration(Z)V <",
+                "> Lcom/microsoft/appcenter/AppCenter;->getInstance()Lcom/microsoft/appcenter/AppCenter; <",
+                "> Lcom/microsoft/appcenter/AppCenter;->configure(Landroid/app/Application;)V <",
+                "> Lcom/microsoft/appcenter/reactnative/shared/AppCenterReactNativeShared;->configureAppCenter(Landroid/app/Application;)V <",
+                "> Lcom/microsoft/appcenter/reactnative/appcenter/AppCenterReactNativeModule;-><init>(Landroid/app/Application;)V <",
+                "> Lcom/microsoft/appcenter/reactnative/appcenter/AppCenterReactNativePackage;-><init>(Landroid/app/Application;)V <",
+                "> Lcom/facebook/react/PackageList;->getPackages()Ljava/util/ArrayList; <",
+                "> Lcom/tgnanativeapps/MainApplication$1;->getPackages()Ljava/util/List; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lcom/microsoft/appcenter/channel/OneCollectorChannelListener;->onGroupRemoved(Ljava/lang/String;)V <",
+                "> Lcom/microsoft/appcenter/AppCenter;->finishConfiguration(Z)V <",
+                "> Lcom/microsoft/appcenter/AppCenter;->getInstance()Lcom/microsoft/appcenter/AppCenter; <",
+                "> Lcom/microsoft/appcenter/AppCenter;->configure(Landroid/app/Application;)V <",
+                "> Lcom/microsoft/appcenter/reactnative/shared/AppCenterReactNativeShared;->configureAppCenter(Landroid/app/Application;)V <",
+                "> Lcom/microsoft/appcenter/reactnative/appcenter/AppCenterReactNativeModule;-><init>(Landroid/app/Application;)V <",
+                "> Lcom/microsoft/appcenter/reactnative/appcenter/AppCenterReactNativePackage;-><init>(Landroid/app/Application;)V <",
+                "> Lcom/facebook/react/PackageList;->getPackages()Ljava/util/ArrayList; <",
+                "> Lcom/tgnanativeapps/MainApplication$1;->getPackages()Ljava/util/List; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_5": {
+            "call_sequence": [
+                "> Lcom/microsoft/appcenter/channel/OneCollectorChannelListener;->onResumed(Ljava/lang/String; <",
+                "> Lcom/microsoft/appcenter/AppCenter;->finishConfiguration(Z)V <",
+                "> Lcom/microsoft/appcenter/AppCenter;->getInstance()Lcom/microsoft/appcenter/AppCenter; <",
+                "> Lcom/microsoft/appcenter/AppCenter;->configure(Landroid/app/Application;)V <",
+                "> Lcom/microsoft/appcenter/reactnative/shared/AppCenterReactNativeShared;->configureAppCenter(Landroid/app/Application;)V <",
+                "> Lcom/microsoft/appcenter/reactnative/appcenter/AppCenterReactNativeModule;-><init>(Landroid/app/Application;)V <",
+                "> Lcom/microsoft/appcenter/reactnative/appcenter/AppCenterReactNativePackage;-><init>(Landroid/app/Application;)V <",
+                "> Lcom/facebook/react/PackageList;->getPackages()Ljava/util/ArrayList; <",
+                "> Lcom/tgnanativeapps/MainApplication$1;->getPackages()Ljava/util/List; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    }
+}

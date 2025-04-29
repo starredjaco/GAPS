@@ -1,0 +1,167 @@
+{
+    "Lcom/addi/core/interpreter/Variable;->isGlobal()Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/addi/core/interpreter/ContextList;->getVariable(Ljava/lang/String;)Lcom/addi/core/interpreter/Variable; <",
+                "> Lcom/addi/core/interpreter/GlobalValues;->getVariable(Ljava/lang/String;)Lcom/addi/core/interpreter/Variable; <",
+                "> Lcom/addi/core/interpreter/GlobalValues;->loadPropertiesFromFile()V <",
+                "> Lcom/addi/core/interpreter/Interpreter;-><init>(Z)V <",
+                "> Lcom/addi/Addi;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/addi/AddiIntent;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.VIEW",
+                    "start-activity -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/addi/core/interpreter/ContextList;->getVariable(Ljava/lang/String;)Lcom/addi/core/interpreter/Variable; <",
+                "> Lcom/addi/core/interpreter/GlobalValues;->getVariable(Ljava/lang/String;)Lcom/addi/core/interpreter/Variable; <",
+                "> Lcom/addi/core/interpreter/GlobalValues;->loadPropertiesFromFile()V <",
+                "> Lcom/addi/core/interpreter/Interpreter;-><init>(Z)V <",
+                "> Lcom/addi/Addi;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/addi/CandidateView;->getHeight()I": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/addi/CandidateView;->onDraw(Landroid/graphics/Canvas;)V <",
+                "> Lcom/addi/CandidateView;->takeSuggestionAt(F)V <",
+                "> Lcom/addi/AddiBase;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/addi/Addi;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/addi/AddiIntent;->onCreate(Landroid/os/Bundle;)V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/addi/CandidateView;->onDraw(Landroid/graphics/Canvas;)V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/addi/CandidateView;->takeSuggestionAt(F)V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/addi/AddiBase;->onCreate(Landroid/os/Bundle;)V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/addi/Addi;->onCreate(Landroid/os/Bundle;)V <",
+                "----- CONDITIONAL -----"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "intent",
+                    "android.intent.action.VIEW",
+                    "start-activity -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/addi/CandidateView;->onDraw(Landroid/graphics/Canvas;)V <",
+                "> Lcom/addi/CandidateView;->takeSuggestionAt(F)V <",
+                "> Lcom/addi/AddiBase;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/addi/Addi;->onCreate(Landroid/os/Bundle;)V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/addi/CandidateView;->onDraw(Landroid/graphics/Canvas;)V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/addi/CandidateView;->takeSuggestionAt(F)V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/addi/AddiBase;->onCreate(Landroid/os/Bundle;)V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/addi/Addi;->onCreate(Landroid/os/Bundle;)V <",
+                "----- CONDITIONAL -----"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/addi/Addi$8;-><init>(Lcom/addi/Addi;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/addi/Addi;->onOIFileManagerOptionsItemSelected(I <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/addi/KeyboardViewExtend;->setEnabled(Z)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/addi/KeyboardViewExtend;->init(Landroid/content/Context;)V <",
+                "> Lcom/addi/KeyboardViewExtend;-><init>(Landroid/content/Context; <",
+                "> Lcom/addi/AddiBase;->onConfigurationChanged(Landroid/content/res/Configuration;)V <",
+                "> Lcom/addi/AddiIntent;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.VIEW",
+                    "start-activity -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/addi/KeyboardViewExtend;->init(Landroid/content/Context;)V <",
+                "> Lcom/addi/KeyboardViewExtend;-><init>(Landroid/content/Context; <",
+                "> Lcom/addi/AddiBase;->onConfigurationChanged(Landroid/content/res/Configuration;)V <",
+                "> Lcom/addi/Addi;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/addi/Addi;->access$5(Lcom/addi/Addi;)Landroid/app/Activity;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/addi/Addi$3;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/addi/KeyboardViewExtend;->myOnConfigurationChanged(Landroid/content/res/Configuration;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/addi/AddiBase;->onConfigurationChanged(Landroid/content/res/Configuration;)V <",
+                "> Lcom/addi/AddiIntent;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.VIEW",
+                    "start-activity -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/addi/AddiBase;->onConfigurationChanged(Landroid/content/res/Configuration;)V <",
+                "> Lcom/addi/Addi;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    }
+}

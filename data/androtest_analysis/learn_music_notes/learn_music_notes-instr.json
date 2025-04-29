@@ -1,0 +1,108 @@
+{
+    "Lnet/fercanet/LNM/MainMenu;->getMenuInflater()Landroid/view/MenuInflater;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/MainMenu;->onCreateOptionsMenu(Landroid/view/Menu;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lnet/fercanet/LNM/MainMenu;->moveTaskToBack(Z)Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/MainMenu$1;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "net.fercanet.LNM.MainMenu",
+                    "mintest",
+                    "One Minute Test"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/MainMenu;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "net.fercanet.LNM.MainMenu",
+                    "menu_Quit",
+                    "Quit"
+                ]
+            ]
+        }
+    },
+    "Lnet/fercanet/LNM/MainMenu;->findViewById(I)Landroid/view/View;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/MainMenu;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lnet/fercanet/LNM/MainMenu;->startActivity(Landroid/content/Intent;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/MainMenu$1;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "net.fercanet.LNM.MainMenu",
+                    "mintest",
+                    "One Minute Test"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/MainMenu;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "net.fercanet.LNM.MainMenu",
+                    "menu_1mintest",
+                    "One Minute Test"
+                ]
+            ]
+        }
+    },
+    "Lnet/fercanet/LNM/MainMenu;->setContentView(I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lnet/fercanet/LNM/MainMenu;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "Lcom/braze/events/ContentCardsUpdatedEvent;->getTimestampSeconds()J": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/appboy/Appboy;->getContentCardsLastUpdatedInSecondsFromEpoch()J <",
+                "> Lcom/appboy/Appboy;->getInstance(Landroid/content/Context;)Lcom/braze/Braze; <",
+                "> Lcom/braze/Braze;->getInstance(Landroid/content/Context;)Lcom/braze/Braze; <",
+                "> Lbo/app/f0;->a(J)Lkotlinx/coroutines/Job; <",
+                "> Lbo/app/f0;->b(J)V <",
+                "> Lbo/app/f0;->c()V <",
+                "> Lbo/app/f0$b$a;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lbo/app/f0$b$a;->a(Lkotlinx/coroutines/CoroutineScope;Lkotlin/coroutines/Continuation;)Ljava/lang/Object; <",
+                "> Lbo/app/f0$b$a;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lbo/app/f0$b;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.net.conn.CONNECTIVITY_CHANGE",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    }
+}

@@ -1,0 +1,183 @@
+{
+    "Lc7/c;->b(IILjava/lang/String;)I": {
+        "path_0": {
+            "call_sequence": [
+                "> Lc7/m;->B(I)Lc7/a0; <",
+                "> Lc7/u;->iterator()Ljava/util/Iterator; <",
+                "> Lcom/google/android/gms/internal/measurement/nc;->a()Ljava/util/Iterator; <",
+                "> Lcom/google/android/gms/internal/measurement/nc;->next()Ljava/lang/Object; <",
+                "> Ll9/f$c;->onReceive(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.USER_UNLOCKED",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lc7/m;->B(I)Lc7/a0; <",
+                "> Lc7/u;->iterator()Ljava/util/Iterator; <",
+                "> Lcom/google/android/gms/internal/mlkit_vision_face_bundled/kn;->a()Ljava/util/Iterator; <",
+                "> Lcom/google/android/gms/internal/mlkit_vision_face_bundled/kn;->next()Ljava/lang/Object; <",
+                "> Ll9/f$c;->onReceive(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.USER_UNLOCKED",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lc7/m;->B(I)Lc7/a0; <",
+                "> Lc7/u;->iterator()Ljava/util/Iterator; <",
+                "> Lcom/google/android/gms/internal/measurement/fc;->a()Ljava/util/Iterator; <",
+                "> Lcom/google/android/gms/internal/measurement/fc;->next()Ljava/lang/Object; <",
+                "> Ll9/f$c;->onReceive(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.USER_UNLOCKED",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lc7/m;->B(I)Lc7/a0; <",
+                "> Lc7/u;->iterator()Ljava/util/Iterator; <",
+                "> Lcom/google/android/gms/internal/play_billing/e4;->a()Ljava/util/Iterator; <",
+                "> Lcom/google/android/gms/internal/play_billing/e4;->next()Ljava/lang/Object; <",
+                "> Ll9/f$c;->onReceive(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.USER_UNLOCKED",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lc7/m;->B(I)Lc7/a0; <",
+                "> Lc7/u;->iterator()Ljava/util/Iterator; <",
+                "> Lcom/google/android/gms/internal/measurement/nc;->a()Ljava/util/Iterator; <",
+                "> Lcom/google/android/gms/internal/measurement/nc;->next()Ljava/lang/Object; <",
+                "> Lj4/h$a;->a()[I <",
+                "> Lj4/h;->d(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.media.action.HDMI_AUDIO_PLUG",
+                    "start -a"
+                ]
+            ]
+        },
+        "path_5": {
+            "call_sequence": [
+                "> Lc7/m;->B(I)Lc7/a0; <",
+                "> Lc7/u;->iterator()Ljava/util/Iterator; <",
+                "> Lcom/google/android/gms/internal/mlkit_vision_face_bundled/kn;->a()Ljava/util/Iterator; <",
+                "> Lcom/google/android/gms/internal/mlkit_vision_face_bundled/kn;->next()Ljava/lang/Object; <",
+                "> Lj4/h$a;->a()[I <",
+                "> Lj4/h;->d(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.media.action.HDMI_AUDIO_PLUG",
+                    "start -a"
+                ]
+            ]
+        },
+        "path_6": {
+            "call_sequence": [
+                "> Lc7/m;->B(I)Lc7/a0; <",
+                "> Lc7/u;->iterator()Ljava/util/Iterator; <",
+                "> Lcom/google/android/gms/internal/measurement/fc;->a()Ljava/util/Iterator; <",
+                "> Lcom/google/android/gms/internal/measurement/fc;->next()Ljava/lang/Object; <",
+                "> Lj4/h$a;->a()[I <",
+                "> Lj4/h;->d(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.media.action.HDMI_AUDIO_PLUG",
+                    "start -a"
+                ]
+            ]
+        },
+        "path_7": {
+            "call_sequence": [
+                "> Lc7/m;->B(I)Lc7/a0; <",
+                "> Lc7/u;->iterator()Ljava/util/Iterator; <",
+                "> Lcom/google/android/gms/internal/play_billing/e4;->a()Ljava/util/Iterator; <",
+                "> Lcom/google/android/gms/internal/play_billing/e4;->next()Ljava/lang/Object; <",
+                "> Lj4/h$a;->a()[I <",
+                "> Lj4/h;->d(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.media.action.HDMI_AUDIO_PLUG",
+                    "start -a"
+                ]
+            ]
+        },
+        "path_8": {
+            "call_sequence": [
+                "> Lc7/m;->B(I)Lc7/a0; <",
+                "> Lc7/m;->iterator()Ljava/util/Iterator; <",
+                "> Lcom/google/android/gms/measurement/internal/q4;->a(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/google/android/gms/measurement/internal/nb;->N()V <",
+                "> Lcom/google/android/gms/measurement/internal/nb;->H(Z)V <",
+                "> Lcom/google/android/gms/measurement/internal/i5;->run()V <",
+                "> Lcom/google/android/gms/measurement/internal/j5;->onReceive(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.net.conn.CONNECTIVITY_CHANGE",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Lio/flutter/embedding/engine/loader/FlutterLoader;->startInitialization(Landroid/content/Context;Lio/flutter/embedding/engine/loader/FlutterLoader$Settings;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lio/flutter/embedding/engine/loader/FlutterLoader;->startInitialization(Landroid/content/Context;)V <",
+                "> Lio/flutter/app/FlutterApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lo9/n;->o(Z)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Ll9/f;->t()V <",
+                "> Ll9/f;->d(Ll9/f;)V <",
+                "> Ll9/f$c;->onReceive(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.USER_UNLOCKED",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    }
+}

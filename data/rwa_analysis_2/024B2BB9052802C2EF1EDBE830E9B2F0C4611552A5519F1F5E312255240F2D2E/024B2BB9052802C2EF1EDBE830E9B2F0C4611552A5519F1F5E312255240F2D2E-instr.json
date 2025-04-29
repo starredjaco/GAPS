@@ -1,0 +1,271 @@
+{
+    "Lcom/aigc/ushow/ichat/MainActivity;->onCreate$lambda$0(Landroid/window/SplashScreenView;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/aigc/ushow/ichat/MainActivity;->$r8$lambda$aq7R09w2Tsb-lwU0vngxGcn9jAg(Landroid/window/SplashScreenView;)V <",
+                "> Lcom/aigc/ushow/ichat/MainActivity$$ExternalSyntheticLambda2;->onSplashScreenExit(Landroid/window/SplashScreenView;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/aigc/ushow/ichat/MainActivity;->$r8$lambda$aq7R09w2Tsb-lwU0vngxGcn9jAg(Landroid/window/SplashScreenView;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/aigc/ushow/ichat/MainActivity$$ExternalSyntheticLambda2;->onSplashScreenExit(Landroid/window/SplashScreenView;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->setupNotificationChannel(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationChannelDetails;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->setupNotificationChannel(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationChannelDetails;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->createNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;)Landroid/app/Notification; <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->showNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ScheduledNotificationReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->scheduleNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;Ljava/lang/Boolean;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->rescheduleNotifications(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ScheduledNotificationBootReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.MY_PACKAGE_REPLACED",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->setupNotificationChannel(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationChannelDetails;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->createNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;)Landroid/app/Notification; <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->showNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ScheduledNotificationReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->repeatNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;Ljava/lang/Boolean;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->rescheduleNotifications(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ScheduledNotificationBootReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.MY_PACKAGE_REPLACED",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->setupNotificationChannel(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationChannelDetails;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->createNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;)Landroid/app/Notification; <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->showNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ScheduledNotificationReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->repeatNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;Ljava/lang/Boolean;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->rescheduleNotifications(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ScheduledNotificationBootReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.MY_PACKAGE_REPLACED",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/zegocloud/uikit/call_plugin/notification/PluginNotification;->createNotificationChannel(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Boolean;)V": {
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/zegocloud/uikit/call_plugin/notification/PluginNotification;->createNotificationChannel(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Boolean;)V <",
+                "> Lcom/zegocloud/uikit/call_plugin/ZegoUIKitCallPlugin;->onMethodCall(Lio/flutter/plugin/common/MethodCall;Lio/flutter/plugin/common/MethodChannel$Result;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "ACTION_CLICK_IM",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/zegocloud/uikit/call_plugin/notification/PluginNotification;->createNotificationChannel(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Boolean;)V <",
+                "> Lcom/zegocloud/uikit/call_plugin/ZegoUIKitCallPlugin;->onMethodCall(Lio/flutter/plugin/common/MethodCall;Lio/flutter/plugin/common/MethodChannel$Result;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "ACTION_CLICK_IM",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/hiennv/flutter_callkit_incoming/CallkitNotificationManager;->createNotificationChanel(Ljava/lang/String;Ljava/lang/String;)V": {
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/hiennv/flutter_callkit_incoming/CallkitNotificationManager;->createNotificationChanel(Ljava/lang/String;Ljava/lang/String;)V <",
+                "> Lcom/hiennv/flutter_callkit_incoming/CallkitNotificationManager;->showIncomingNotification(Landroid/os/Bundle;)V <",
+                "> Lcom/hiennv/flutter_callkit_incoming/CallkitIncomingBroadcastReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.aigc.ushow.ichat.com.hiennv.flutter_callkit_incoming.ACTION_CALL_INCOMING",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/hiennv/flutter_callkit_incoming/CallkitNotificationManager;->createNotificationChanel(Ljava/lang/String;Ljava/lang/String;)V <",
+                "> Lcom/hiennv/flutter_callkit_incoming/CallkitNotificationManager;->showIncomingNotification(Landroid/os/Bundle;)V <",
+                "> Lcom/hiennv/flutter_callkit_incoming/CallkitIncomingBroadcastReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.aigc.ushow.ichat.com.hiennv.flutter_callkit_incoming.ACTION_CALL_INCOMING",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lcom/hiennv/flutter_callkit_incoming/CallkitNotificationManager;->createNotificationChanel(Ljava/lang/String;Ljava/lang/String;)V <",
+                "> Lcom/hiennv/flutter_callkit_incoming/CallkitNotificationManager;->showIncomingNotification(Landroid/os/Bundle;)V <",
+                "> Lcom/hiennv/flutter_callkit_incoming/CallkitIncomingBroadcastReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.aigc.ushow.ichat.com.hiennv.flutter_callkit_incoming.ACTION_CALL_INCOMING",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/aigc/ushow/ichat/MyApplication;->safedk_MyApplication_onCreate_09ef8d50f47f0f12436fe4216dd5a67d(Lcom/aigc/ushow/ichat/MyApplication;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/aigc/ushow/ichat/MyApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/aigc/ushow/ichat/MainActivity;->onCreate(Landroid/os/Bundle;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/aigc/ushow/ichat/MainActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/hiennv/flutter_callkit_incoming/CallkitSoundPlayerService;->playVibrator()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/hiennv/flutter_callkit_incoming/CallkitSoundPlayerService;->playVibrator()V <",
+                "> Lcom/hiennv/flutter_callkit_incoming/CallkitIncomingBroadcastReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.aigc.ushow.ichat.com.hiennv.flutter_callkit_incoming.ACTION_CALL_INCOMING",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/hiennv/flutter_callkit_incoming/CallkitNotificationManager;->incomingChannelEnabled()Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/hiennv/flutter_callkit_incoming/CallkitNotificationManager;->incomingChannelEnabled()Z <",
+                "> Lcom/hiennv/flutter_callkit_incoming/CallkitIncomingBroadcastReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.aigc.ushow.ichat.com.hiennv.flutter_callkit_incoming.ACTION_CALL_INCOMING",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/pravera/flutter_foreground_task/service/ForegroundService;->startForegroundService()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/pravera/flutter_foreground_task/service/ForegroundService;->startForegroundService()V <",
+                "> Lcom/pravera/flutter_foreground_task/service/BootReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.BOOT_COMPLETED",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lcom/pravera/flutter_foreground_task/service/ForegroundService;->startForegroundService()V <",
+                "> Lcom/pravera/flutter_foreground_task/service/BootReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.BOOT_COMPLETED",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->checkCanScheduleExactAlarms(Landroid/app/AlarmManager;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->checkCanScheduleExactAlarms(Landroid/app/AlarmManager;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->setupAlarm(Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;Landroid/app/AlarmManager;JLandroid/app/PendingIntent;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->zonedScheduleNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;Ljava/lang/Boolean;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->rescheduleNotifications(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ScheduledNotificationBootReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.MY_PACKAGE_REPLACED",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->checkCanScheduleExactAlarms(Landroid/app/AlarmManager;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->setupAllowWhileIdleAlarm(Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;Landroid/app/AlarmManager;JLandroid/app/PendingIntent;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->repeatNotification(Landroid/content/Context;Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;Ljava/lang/Boolean;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin;->rescheduleNotifications(Landroid/content/Context;)V <",
+                "> Lcom/dexterous/flutterlocalnotifications/ScheduledNotificationBootReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.MY_PACKAGE_REPLACED",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    }
+}

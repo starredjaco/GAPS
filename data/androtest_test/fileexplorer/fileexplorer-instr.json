@@ -1,0 +1,300 @@
+{
+    "Lnet/micode/fileexplorer/ServerControlActivity;->getActivity()Landroid/app/Activity;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lnet/micode/fileexplorer/ServerControlActivity;->onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View; <",
+                "> Lnet/micode/fileexplorer/FileExplorerTabActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "net.micode.fileexplorer.FileExplorerTabActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lnet/micode/fileexplorer/FileExplorerTabActivity;->getActionBar()Landroid/app/ActionBar;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lnet/micode/fileexplorer/FileExplorerTabActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "net.micode.fileexplorer.FileExplorerTabActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lnet/micode/fileexplorer/FileExplorerTabActivity;->onSaveInstanceState(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lnet/micode/fileexplorer/FTPServerService;->releaseWifiLock()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lnet/micode/fileexplorer/FTPServerService;->cleanupAndStopService()V <",
+                "> Lnet/micode/fileexplorer/ServerControlActivity$2;->onClick(Landroid/view/View;)V <",
+                "> Lnet/micode/fileexplorer/ServerControlActivity;-><init>()V <",
+                "> Lnet/micode/fileexplorer/FileExplorerTabActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "net.micode.fileexplorer.FileExplorerTabActivity",
+                    "<unknown>"
+                ],
+                [
+                    "net.micode.fileexplorer.FileExplorerTabActivity",
+                    "start_stop_button"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lnet/micode/fileexplorer/FTPServerService;->run()V <",
+                "> Lnet/micode/fileexplorer/ServerControlActivity$2;->onClick(Landroid/view/View;)V <",
+                "> Lnet/micode/fileexplorer/ServerControlActivity;-><init>()V <",
+                "> Lnet/micode/fileexplorer/FileExplorerTabActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "net.micode.fileexplorer.FileExplorerTabActivity",
+                    "<unknown>"
+                ],
+                [
+                    "net.micode.fileexplorer.FileExplorerTabActivity",
+                    "start_stop_button"
+                ]
+            ]
+        }
+    },
+    "Lnet/micode/fileexplorer/ServerControlActivity;->updateUi()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lnet/micode/fileexplorer/ServerControlActivity$1;->handleMessage(Landroid/os/Message;)V <",
+                "> Lnet/micode/fileexplorer/ServerControlActivity;-><init>()V <",
+                "> Lnet/micode/fileexplorer/FileExplorerTabActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "net.micode.fileexplorer.FileExplorerTabActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lnet/micode/fileexplorer/ServerControlActivity$3;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.net.wifi.WIFI_STATE_CHANGED",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lnet/micode/fileexplorer/ServerControlActivity;->onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View; <",
+                "> Lnet/micode/fileexplorer/FileExplorerTabActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "net.micode.fileexplorer.FileExplorerTabActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lnet/micode/fileexplorer/ServerControlActivity;->onResume()V <",
+                "> Lnet/micode/fileexplorer/FileExplorerTabActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "net.micode.fileexplorer.FileExplorerTabActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lnet/micode/fileexplorer/ServerControlActivity;->onStart()V <",
+                "> Lnet/micode/fileexplorer/FileExplorerTabActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "net.micode.fileexplorer.FileExplorerTabActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lnet/micode/fileexplorer/FileExplorerTabActivity$TabsAdapter$TabInfo;->access$100(Lnet/micode/fileexplorer/FileExplorerTabActivity$TabsAdapter$TabInfo;)Ljava/lang/Class;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lnet/micode/fileexplorer/FileExplorerTabActivity$TabsAdapter;->getItem(I)Landroid/app/Fragment; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lnet/micode/fileexplorer/ServerControlActivity$2;-><init>(Lnet/micode/fileexplorer/ServerControlActivity;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lnet/micode/fileexplorer/ServerControlActivity;-><init>()V <",
+                "> Lnet/micode/fileexplorer/FileExplorerTabActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "net.micode.fileexplorer.FileExplorerTabActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lnet/micode/fileexplorer/ServerControlActivity;->warnIfNoExternalStorage()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lnet/micode/fileexplorer/ServerControlActivity;->access$100(Lnet/micode/fileexplorer/ServerControlActivity;)V <",
+                "> Lnet/micode/fileexplorer/FileExplorerTabActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "net.micode.fileexplorer.FileExplorerTabActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lnet/micode/fileexplorer/FTPServerService;->registerReceiver(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;)Landroid/content/Intent;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lnet/micode/fileexplorer/FTPServerService;->onCreate()V <",
+                "> Lnet/micode/fileexplorer/ServerControlActivity$2;->onClick(Landroid/view/View;)V <",
+                "> Lnet/micode/fileexplorer/ServerControlActivity;-><init>()V <",
+                "> Lnet/micode/fileexplorer/FileExplorerTabActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "net.micode.fileexplorer.FileExplorerTabActivity",
+                    "<unknown>"
+                ],
+                [
+                    "net.micode.fileexplorer.FileExplorerTabActivity",
+                    "start_stop_button"
+                ]
+            ]
+        }
+    },
+    "Lnet/micode/fileexplorer/FileExplorerTabActivity$IBackPressedListener;->onBack()Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lnet/micode/fileexplorer/FileExplorerTabActivity;->onBackPressed()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lnet/micode/fileexplorer/FTPServerService;->getPort()I": {
+        "path_0": {
+            "call_sequence": [
+                "> Lnet/micode/fileexplorer/FTPServerService;->setupNotification()V <",
+                "> Lnet/micode/fileexplorer/ServerControlActivity$2;->onClick(Landroid/view/View;)V <",
+                "> Lnet/micode/fileexplorer/ServerControlActivity;-><init>()V <",
+                "> Lnet/micode/fileexplorer/FileExplorerTabActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "net.micode.fileexplorer.FileExplorerTabActivity",
+                    "<unknown>"
+                ],
+                [
+                    "net.micode.fileexplorer.FileExplorerTabActivity",
+                    "start_stop_button"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lnet/micode/fileexplorer/ServerControlActivity;->updateUi()V <",
+                "> Lnet/micode/fileexplorer/ServerControlActivity$3;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.net.wifi.WIFI_STATE_CHANGED",
+                    "broadcast -a"
+                ],
+                [
+                    "net.micode.fileexplorer.ServerControlActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lnet/micode/fileexplorer/ServerControlActivity;->updateUi()V <",
+                "> Lnet/micode/fileexplorer/FileExplorerTabActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "net.micode.fileexplorer.FileExplorerTabActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    }
+}

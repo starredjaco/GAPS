@@ -1,0 +1,1195 @@
+{
+    "Lde/we/acaldav/widget/IconfiedEditText;->requestFocus()Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/gege/caldavsyncadapter/authenticator/j;->onPostExecute(Ljava/lang/Object;)V <",
+                "> Lorg/gege/caldavsyncadapter/authenticator/AuthenticatorActivity;->a()V <",
+                "> Lorg/gege/caldavsyncadapter/authenticator/e;->onClick(Landroid/view/View;)V <",
+                "> Lorg/gege/caldavsyncadapter/authenticator/AuthenticatorActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/a;->onPerformSync(Landroid/accounts/Account;Landroid/os/Bundle;Ljava/lang/String;Landroid/content/ContentProviderClient;Landroid/content/SyncResult;)V <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/SyncService;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.content.SyncAdapter",
+                    "start-service -a"
+                ],
+                [
+                    "org.gege.caldavsyncadapter.authenticator.AuthenticatorActivity",
+                    "sign_in_button"
+                ]
+            ]
+        }
+    },
+    "Lde/we/acaldav/widget/IconfiedEditText;->a(Lde/we/acaldav/widget/a;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/gege/caldavsyncadapter/authenticator/AuthenticatorActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/a;->onPerformSync(Landroid/accounts/Account;Landroid/os/Bundle;Ljava/lang/String;Landroid/content/ContentProviderClient;Landroid/content/SyncResult;)V <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/SyncService;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.content.SyncAdapter",
+                    "start-service -a"
+                ]
+            ]
+        }
+    },
+    "Lde/we/acaldav/widget/IconfiedEditText;->setOnEditorActionListener(Landroid/widget/TextView$OnEditorActionListener;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/gege/caldavsyncadapter/authenticator/AuthenticatorActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/a;->onPerformSync(Landroid/accounts/Account;Landroid/os/Bundle;Ljava/lang/String;Landroid/content/ContentProviderClient;Landroid/content/SyncResult;)V <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/SyncService;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.content.SyncAdapter",
+                    "start-service -a"
+                ]
+            ]
+        }
+    },
+    "Lde/we/acaldav/widget/d;-><init>(Lde/we/acaldav/widget/IconfiedEditText;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lde/we/acaldav/widget/IconfiedEditText;->a()V <",
+                "> Lorg/gege/caldavsyncadapter/authenticator/AuthenticatorActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/a;->onPerformSync(Landroid/accounts/Account;Landroid/os/Bundle;Ljava/lang/String;Landroid/content/ContentProviderClient;Landroid/content/SyncResult;)V <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/SyncService;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.content.SyncAdapter",
+                    "start-service -a"
+                ]
+            ]
+        }
+    },
+    "Lde/we/acaldav/a;->a(Landroid/content/Context;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/gege/caldavsyncadapter/syncadapter/SyncService;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.content.SyncAdapter",
+                    "start-service -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/gege/caldavsyncadapter/authenticator/AuthenticatorActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/a;->onPerformSync(Landroid/accounts/Account;Landroid/os/Bundle;Ljava/lang/String;Landroid/content/ContentProviderClient;Landroid/content/SyncResult;)V <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/SyncService;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.content.SyncAdapter",
+                    "start-service -a"
+                ]
+            ]
+        }
+    },
+    "Lde/we/acaldav/widget/IconfiedEditText;->setHeight(I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lde/we/acaldav/widget/IconfiedEditText;->onSizeChanged(IIII)V <",
+                "> Lorg/gege/caldavsyncadapter/authenticator/AuthenticatorActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/a;->onPerformSync(Landroid/accounts/Account;Landroid/os/Bundle;Ljava/lang/String;Landroid/content/ContentProviderClient;Landroid/content/SyncResult;)V <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/SyncService;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.content.SyncAdapter",
+                    "start-service -a"
+                ]
+            ]
+        }
+    },
+    "Lde/we/acaldav/widget/IconfiedEditText;->getText()Landroid/text/Editable;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/gege/caldavsyncadapter/authenticator/AuthenticatorActivity;->a()V <",
+                "> Lorg/gege/caldavsyncadapter/authenticator/e;->onClick(Landroid/view/View;)V <",
+                "> Lorg/gege/caldavsyncadapter/authenticator/AuthenticatorActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/a;->onPerformSync(Landroid/accounts/Account;Landroid/os/Bundle;Ljava/lang/String;Landroid/content/ContentProviderClient;Landroid/content/SyncResult;)V <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/SyncService;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.content.SyncAdapter",
+                    "start-service -a"
+                ],
+                [
+                    "org.gege.caldavsyncadapter.authenticator.AuthenticatorActivity",
+                    "sign_in_button"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lde/we/acaldav/widget/IconfiedEditText;->a()V <",
+                "> Lorg/gege/caldavsyncadapter/authenticator/AuthenticatorActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/a;->onPerformSync(Landroid/accounts/Account;Landroid/os/Bundle;Ljava/lang/String;Landroid/content/ContentProviderClient;Landroid/content/SyncResult;)V <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/SyncService;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.content.SyncAdapter",
+                    "start-service -a"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lorg/gege/caldavsyncadapter/authenticator/d;->a(Lde/we/acaldav/widget/b;)V <",
+                "> Lde/we/acaldav/widget/IconfiedEditText;->onTouchEvent(Landroid/view/MotionEvent;)Z <",
+                "> Lorg/gege/caldavsyncadapter/authenticator/AuthenticatorActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/a;->onPerformSync(Landroid/accounts/Account;Landroid/os/Bundle;Ljava/lang/String;Landroid/content/ContentProviderClient;Landroid/content/SyncResult;)V <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/SyncService;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.content.SyncAdapter",
+                    "start-service -a"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lde/we/acaldav/widget/d;->onTextChanged(Ljava/lang/CharSequence;III)V <",
+                "> Lde/we/acaldav/widget/IconfiedEditText;->a()V <",
+                "> Lorg/gege/caldavsyncadapter/authenticator/AuthenticatorActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/a;->onPerformSync(Landroid/accounts/Account;Landroid/os/Bundle;Ljava/lang/String;Landroid/content/ContentProviderClient;Landroid/content/SyncResult;)V <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/SyncService;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.content.SyncAdapter",
+                    "start-service -a"
+                ]
+            ]
+        }
+    },
+    "Lde/we/acaldav/widget/IconfiedEditText;->getResources()Landroid/content/res/Resources;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lde/we/acaldav/widget/IconfiedEditText;->a()V <",
+                "> Lorg/gege/caldavsyncadapter/authenticator/AuthenticatorActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/a;->onPerformSync(Landroid/accounts/Account;Landroid/os/Bundle;Ljava/lang/String;Landroid/content/ContentProviderClient;Landroid/content/SyncResult;)V <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/SyncService;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.content.SyncAdapter",
+                    "start-service -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lde/we/acaldav/widget/IconfiedEditText;->onTouchEvent(Landroid/view/MotionEvent;)Z <",
+                "> Lorg/gege/caldavsyncadapter/authenticator/AuthenticatorActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/a;->onPerformSync(Landroid/accounts/Account;Landroid/os/Bundle;Ljava/lang/String;Landroid/content/ContentProviderClient;Landroid/content/SyncResult;)V <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/SyncService;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.content.SyncAdapter",
+                    "start-service -a"
+                ]
+            ]
+        }
+    },
+    "Lde/we/acaldav/widget/IconfiedEditText;->setCompoundDrawablesWithIntrinsicBounds(Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lde/we/acaldav/widget/IconfiedEditText;->a()V <",
+                "> Lorg/gege/caldavsyncadapter/authenticator/AuthenticatorActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/a;->onPerformSync(Landroid/accounts/Account;Landroid/os/Bundle;Ljava/lang/String;Landroid/content/ContentProviderClient;Landroid/content/SyncResult;)V <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/SyncService;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.content.SyncAdapter",
+                    "start-service -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lde/we/acaldav/widget/d;->onTextChanged(Ljava/lang/CharSequence;III)V <",
+                "> Lde/we/acaldav/widget/IconfiedEditText;->a()V <",
+                "> Lorg/gege/caldavsyncadapter/authenticator/AuthenticatorActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/a;->onPerformSync(Landroid/accounts/Account;Landroid/os/Bundle;Ljava/lang/String;Landroid/content/ContentProviderClient;Landroid/content/SyncResult;)V <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/SyncService;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.content.SyncAdapter",
+                    "start-service -a"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lorg/gege/caldavsyncadapter/authenticator/c;->onTextChanged(Ljava/lang/CharSequence;III)V <",
+                "> Lorg/gege/caldavsyncadapter/authenticator/AuthenticatorActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/a;->onPerformSync(Landroid/accounts/Account;Landroid/os/Bundle;Ljava/lang/String;Landroid/content/ContentProviderClient;Landroid/content/SyncResult;)V <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/SyncService;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.content.SyncAdapter",
+                    "start-service -a"
+                ]
+            ]
+        }
+    },
+    "Lde/we/acaldav/widget/IconfiedEditText;->setError(Ljava/lang/CharSequence;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/gege/caldavsyncadapter/authenticator/j;->onPostExecute(Ljava/lang/Object;)V <",
+                "> Lorg/gege/caldavsyncadapter/authenticator/AuthenticatorActivity;->a()V <",
+                "> Lorg/gege/caldavsyncadapter/authenticator/e;->onClick(Landroid/view/View;)V <",
+                "> Lorg/gege/caldavsyncadapter/authenticator/AuthenticatorActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/a;->onPerformSync(Landroid/accounts/Account;Landroid/os/Bundle;Ljava/lang/String;Landroid/content/ContentProviderClient;Landroid/content/SyncResult;)V <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/SyncService;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.content.SyncAdapter",
+                    "start-service -a"
+                ],
+                [
+                    "org.gege.caldavsyncadapter.authenticator.AuthenticatorActivity",
+                    "sign_in_button"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/gege/caldavsyncadapter/authenticator/AuthenticatorActivity;->a()V <",
+                "> Lorg/gege/caldavsyncadapter/authenticator/e;->onClick(Landroid/view/View;)V <",
+                "> Lorg/gege/caldavsyncadapter/authenticator/AuthenticatorActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/a;->onPerformSync(Landroid/accounts/Account;Landroid/os/Bundle;Ljava/lang/String;Landroid/content/ContentProviderClient;Landroid/content/SyncResult;)V <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/SyncService;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.content.SyncAdapter",
+                    "start-service -a"
+                ],
+                [
+                    "org.gege.caldavsyncadapter.authenticator.AuthenticatorActivity",
+                    "sign_in_button"
+                ]
+            ]
+        }
+    },
+    "Lde/we/acaldav/widget/IconfiedEditText;->a(Lde/we/acaldav/widget/IconfiedEditText;)Landroid/graphics/drawable/Drawable;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lde/we/acaldav/widget/d;->onTextChanged(Ljava/lang/CharSequence;III)V <",
+                "> Lde/we/acaldav/widget/IconfiedEditText;->a()V <",
+                "> Lorg/gege/caldavsyncadapter/authenticator/AuthenticatorActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/a;->onPerformSync(Landroid/accounts/Account;Landroid/os/Bundle;Ljava/lang/String;Landroid/content/ContentProviderClient;Landroid/content/SyncResult;)V <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/SyncService;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.content.SyncAdapter",
+                    "start-service -a"
+                ]
+            ]
+        }
+    },
+    "Lde/we/acaldav/widget/b;->ordinal()I": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/gege/caldavsyncadapter/authenticator/d;->a(Lde/we/acaldav/widget/b;)V <",
+                "> Lde/we/acaldav/widget/IconfiedEditText;->onTouchEvent(Landroid/view/MotionEvent;)Z <",
+                "> Lorg/gege/caldavsyncadapter/authenticator/AuthenticatorActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/a;->onPerformSync(Landroid/accounts/Account;Landroid/os/Bundle;Ljava/lang/String;Landroid/content/ContentProviderClient;Landroid/content/SyncResult;)V <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/SyncService;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.content.SyncAdapter",
+                    "start-service -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lde/we/acaldav/widget/c;->a(Lde/we/acaldav/widget/b;)V <",
+                "> Lde/we/acaldav/widget/IconfiedEditText;->onTouchEvent(Landroid/view/MotionEvent;)Z <",
+                "> Lorg/gege/caldavsyncadapter/authenticator/AuthenticatorActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/a;->onPerformSync(Landroid/accounts/Account;Landroid/os/Bundle;Ljava/lang/String;Landroid/content/ContentProviderClient;Landroid/content/SyncResult;)V <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/SyncService;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.content.SyncAdapter",
+                    "start-service -a"
+                ]
+            ]
+        }
+    },
+    "Lde/we/acaldav/widget/IconfiedEditText;->addTextChangedListener(Landroid/text/TextWatcher;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lde/we/acaldav/widget/IconfiedEditText;->a()V <",
+                "> Lorg/gege/caldavsyncadapter/authenticator/AuthenticatorActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/a;->onPerformSync(Landroid/accounts/Account;Landroid/os/Bundle;Ljava/lang/String;Landroid/content/ContentProviderClient;Landroid/content/SyncResult;)V <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/SyncService;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.content.SyncAdapter",
+                    "start-service -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/gege/caldavsyncadapter/authenticator/AuthenticatorActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/a;->onPerformSync(Landroid/accounts/Account;Landroid/os/Bundle;Ljava/lang/String;Landroid/content/ContentProviderClient;Landroid/content/SyncResult;)V <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/SyncService;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.content.SyncAdapter",
+                    "start-service -a"
+                ]
+            ]
+        }
+    },
+    "Lde/we/acaldav/widget/IconfiedEditText;->setText(Ljava/lang/CharSequence;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/gege/caldavsyncadapter/authenticator/d;->a(Lde/we/acaldav/widget/b;)V <",
+                "> Lde/we/acaldav/widget/IconfiedEditText;->onTouchEvent(Landroid/view/MotionEvent;)Z <",
+                "> Lorg/gege/caldavsyncadapter/authenticator/AuthenticatorActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/a;->onPerformSync(Landroid/accounts/Account;Landroid/os/Bundle;Ljava/lang/String;Landroid/content/ContentProviderClient;Landroid/content/SyncResult;)V <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/SyncService;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.content.SyncAdapter",
+                    "start-service -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/gege/caldavsyncadapter/authenticator/AuthenticatorActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/a;->onPerformSync(Landroid/accounts/Account;Landroid/os/Bundle;Ljava/lang/String;Landroid/content/ContentProviderClient;Landroid/content/SyncResult;)V <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/SyncService;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.content.SyncAdapter",
+                    "start-service -a"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lde/we/acaldav/widget/c;->a(Lde/we/acaldav/widget/b;)V <",
+                "> Lde/we/acaldav/widget/IconfiedEditText;->onTouchEvent(Landroid/view/MotionEvent;)Z <",
+                "> Lorg/gege/caldavsyncadapter/authenticator/AuthenticatorActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/a;->onPerformSync(Landroid/accounts/Account;Landroid/os/Bundle;Ljava/lang/String;Landroid/content/ContentProviderClient;Landroid/content/SyncResult;)V <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/SyncService;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.content.SyncAdapter",
+                    "start-service -a"
+                ]
+            ]
+        }
+    },
+    "Lde/we/acaldav/widget/a;->a(Lde/we/acaldav/widget/b;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lde/we/acaldav/widget/IconfiedEditText;->onTouchEvent(Landroid/view/MotionEvent;)Z <",
+                "> Lorg/gege/caldavsyncadapter/authenticator/AuthenticatorActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/a;->onPerformSync(Landroid/accounts/Account;Landroid/os/Bundle;Ljava/lang/String;Landroid/content/ContentProviderClient;Landroid/content/SyncResult;)V <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/SyncService;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.content.SyncAdapter",
+                    "start-service -a"
+                ]
+            ]
+        }
+    },
+    "Lde/we/acaldav/a;->a()Landroid/content/Context;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/gege/caldavsyncadapter/authenticator/d;->a(Lde/we/acaldav/widget/b;)V <",
+                "> Lde/we/acaldav/widget/IconfiedEditText;->onTouchEvent(Landroid/view/MotionEvent;)Z <",
+                "> Lorg/gege/caldavsyncadapter/authenticator/AuthenticatorActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/a;->onPerformSync(Landroid/accounts/Account;Landroid/os/Bundle;Ljava/lang/String;Landroid/content/ContentProviderClient;Landroid/content/SyncResult;)V <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/SyncService;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.content.SyncAdapter",
+                    "start-service -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/gege/caldavsyncadapter/a/a/a;->a(Ljava/lang/String;)Z <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/a;->a(Landroid/content/ContentProviderClient;Landroid/accounts/Account;Landroid/net/Uri;Lorg/gege/caldavsyncadapter/b/a;Ljava/net/URI;Landroid/content/SyncStats;Ljava/util/ArrayList;)I <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/a;->onPerformSync(Landroid/accounts/Account;Landroid/os/Bundle;Ljava/lang/String;Landroid/content/ContentProviderClient;Landroid/content/SyncResult;)V <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/SyncService;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.content.SyncAdapter",
+                    "start-service -a"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lorg/gege/caldavsyncadapter/b/b/a;->o()Z <",
+                "> Lorg/gege/caldavsyncadapter/b/b/a;->f()Z <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/a;->a(Landroid/content/ContentProviderClient;Landroid/accounts/Account;Landroid/net/Uri;Lorg/gege/caldavsyncadapter/b/a;Ljava/net/URI;Landroid/content/SyncStats;Ljava/util/ArrayList;)I <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/a;->onPerformSync(Landroid/accounts/Account;Landroid/os/Bundle;Ljava/lang/String;Landroid/content/ContentProviderClient;Landroid/content/SyncResult;)V <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/SyncService;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.content.SyncAdapter",
+                    "start-service -a"
+                ]
+            ]
+        }
+    },
+    "Lde/we/acaldav/widget/c;-><init>(Lde/we/acaldav/widget/IconfiedEditText;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lde/we/acaldav/widget/IconfiedEditText;->a()V <",
+                "> Lorg/gege/caldavsyncadapter/authenticator/AuthenticatorActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/a;->onPerformSync(Landroid/accounts/Account;Landroid/os/Bundle;Ljava/lang/String;Landroid/content/ContentProviderClient;Landroid/content/SyncResult;)V <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/SyncService;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.content.SyncAdapter",
+                    "start-service -a"
+                ]
+            ]
+        }
+    },
+    "Lde/we/acaldav/widget/IconfiedEditText;->a()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/gege/caldavsyncadapter/authenticator/AuthenticatorActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/a;->onPerformSync(Landroid/accounts/Account;Landroid/os/Bundle;Ljava/lang/String;Landroid/content/ContentProviderClient;Landroid/content/SyncResult;)V <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/SyncService;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.content.SyncAdapter",
+                    "start-service -a"
+                ]
+            ]
+        }
+    },
+    "Lde/we/acaldav/widget/IconfiedEditText;->getWidth()I": {
+        "path_0": {
+            "call_sequence": [
+                "> Lde/we/acaldav/widget/IconfiedEditText;->onTouchEvent(Landroid/view/MotionEvent;)Z <",
+                "> Lorg/gege/caldavsyncadapter/authenticator/AuthenticatorActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/a;->onPerformSync(Landroid/accounts/Account;Landroid/os/Bundle;Ljava/lang/String;Landroid/content/ContentProviderClient;Landroid/content/SyncResult;)V <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/SyncService;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.content.SyncAdapter",
+                    "start-service -a"
+                ]
+            ]
+        }
+    },
+    "Lde/we/acaldav/widget/IconfiedEditText;->setEnabled(Z)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/gege/caldavsyncadapter/authenticator/AuthenticatorActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/a;->onPerformSync(Landroid/accounts/Account;Landroid/os/Bundle;Ljava/lang/String;Landroid/content/ContentProviderClient;Landroid/content/SyncResult;)V <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/SyncService;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.content.SyncAdapter",
+                    "start-service -a"
+                ]
+            ]
+        }
+    },
+    "Lc/a/a/b/c/q;-><init>(Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/gege/caldavsyncadapter/a/a/a;->a(Ljava/lang/String;)Z <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/a;->a(Landroid/content/ContentProviderClient;Landroid/accounts/Account;Landroid/net/Uri;Lorg/gege/caldavsyncadapter/b/a;Ljava/net/URI;Landroid/content/SyncStats;Ljava/util/ArrayList;)I <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/a;->onPerformSync(Landroid/accounts/Account;Landroid/os/Bundle;Ljava/lang/String;Landroid/content/ContentProviderClient;Landroid/content/SyncResult;)V <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/SyncService;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.content.SyncAdapter",
+                    "start-service -a"
+                ]
+            ]
+        }
+    },
+    "Lc/a/a/b/dq;->a()Lc/a/a/b/a/ae;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/gege/caldavsyncadapter/a/a/a;->a(Ljava/lang/String;)Z <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/a;->a(Landroid/content/ContentProviderClient;Landroid/accounts/Account;Landroid/net/Uri;Lorg/gege/caldavsyncadapter/b/a;Ljava/net/URI;Landroid/content/SyncStats;Ljava/util/ArrayList;)I <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/a;->onPerformSync(Landroid/accounts/Account;Landroid/os/Bundle;Ljava/lang/String;Landroid/content/ContentProviderClient;Landroid/content/SyncResult;)V <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/SyncService;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.content.SyncAdapter",
+                    "start-service -a"
+                ]
+            ]
+        }
+    },
+    "Lc/a/a/b/c/bl;-><init>()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lc/a/a/b/dj;->a(Ljava/lang/String;)Lc/a/a/b/be; <",
+                "> Lc/a/a/a/b;->c(Ljava/lang/String;)V <",
+                "> Lc/a/a/a/k;->a(Lc/a/a/a/k;Ljava/io/StreamTokenizer;Ljava/io/Reader;Lc/a/a/a/l;)V <",
+                "> Lc/a/a/a/j;->a(Ljava/io/StreamTokenizer;Ljava/io/Reader;Lc/a/a/a/l;)V <",
+                "> Lc/a/a/a/e;->a(Ljava/io/Reader;Lc/a/a/a/l;)V <",
+                "> Lc/a/a/a/a;->a(Ljava/io/Reader;)Lc/a/a/b/c; <",
+                "> Lorg/gege/caldavsyncadapter/b/b/a;->o()Z <",
+                "> Lorg/gege/caldavsyncadapter/b/b/a;->f()Z <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/a;->a(Landroid/content/ContentProviderClient;Landroid/accounts/Account;Landroid/net/Uri;Lorg/gege/caldavsyncadapter/b/a;Ljava/net/URI;Landroid/content/SyncStats;Ljava/util/ArrayList;)I <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/a;->onPerformSync(Landroid/accounts/Account;Landroid/os/Bundle;Ljava/lang/String;Landroid/content/ContentProviderClient;Landroid/content/SyncResult;)V <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/SyncService;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.content.SyncAdapter",
+                    "start-service -a"
+                ]
+            ]
+        }
+    },
+    "Lc/a/a/b/q;-><init>()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lc/a/a/b/q;-><init>(Z)V <",
+                "> Lc/a/a/b/c/bm;-><init>(Ljava/lang/String;Lc/a/a/b/bf;)V <",
+                "> Lc/a/a/b/c/be;-><init>(Lc/a/a/b/t;)V <",
+                "> Lorg/gege/caldavsyncadapter/a/a/a;->c(Landroid/database/Cursor;)Z <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/a;->a(Landroid/content/ContentProviderClient;Landroid/accounts/Account;Landroid/net/Uri;Lorg/gege/caldavsyncadapter/b/a;Ljava/net/URI;Landroid/content/SyncStats;Ljava/util/ArrayList;)I <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/a;->onPerformSync(Landroid/accounts/Account;Landroid/os/Bundle;Ljava/lang/String;Landroid/content/ContentProviderClient;Landroid/content/SyncResult;)V <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/SyncService;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.content.SyncAdapter",
+                    "start-service -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lc/a/a/b/dq;->a(Lc/a/a/b/a/ae;)I <",
+                "> Lc/a/a/b/dq;-><init>(Lc/a/a/b/a/ae;)V <",
+                "> Lorg/gege/caldavsyncadapter/b/b/a;->o()Z <",
+                "> Lorg/gege/caldavsyncadapter/b/b/a;->f()Z <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/a;->a(Landroid/content/ContentProviderClient;Landroid/accounts/Account;Landroid/net/Uri;Lorg/gege/caldavsyncadapter/b/a;Ljava/net/URI;Landroid/content/SyncStats;Ljava/util/ArrayList;)I <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/a;->onPerformSync(Landroid/accounts/Account;Landroid/os/Bundle;Ljava/lang/String;Landroid/content/ContentProviderClient;Landroid/content/SyncResult;)V <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/SyncService;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.content.SyncAdapter",
+                    "start-service -a"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lorg/gege/caldavsyncadapter/a/a/a;->a(Ljava/lang/String;)Z <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/a;->a(Landroid/content/ContentProviderClient;Landroid/accounts/Account;Landroid/net/Uri;Lorg/gege/caldavsyncadapter/b/a;Ljava/net/URI;Landroid/content/SyncStats;Ljava/util/ArrayList;)I <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/a;->onPerformSync(Landroid/accounts/Account;Landroid/os/Bundle;Ljava/lang/String;Landroid/content/ContentProviderClient;Landroid/content/SyncResult;)V <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/SyncService;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.content.SyncAdapter",
+                    "start-service -a"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lc/a/a/b/c/aq;-><init>()V <",
+                "> Lc/a/a/b/cq;->a(Ljava/lang/String;)Lc/a/a/b/be; <",
+                "> Lc/a/a/a/b;->c(Ljava/lang/String;)V <",
+                "> Lc/a/a/a/k;->a(Lc/a/a/a/k;Ljava/io/StreamTokenizer;Ljava/io/Reader;Lc/a/a/a/l;)V <",
+                "> Lc/a/a/a/j;->a(Ljava/io/StreamTokenizer;Ljava/io/Reader;Lc/a/a/a/l;)V <",
+                "> Lc/a/a/a/e;->a(Ljava/io/Reader;Lc/a/a/a/l;)V <",
+                "> Lc/a/a/a/a;->a(Ljava/io/Reader;)Lc/a/a/b/c; <",
+                "> Lorg/gege/caldavsyncadapter/b/b/a;->o()Z <",
+                "> Lorg/gege/caldavsyncadapter/b/b/a;->f()Z <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/a;->a(Landroid/content/ContentProviderClient;Landroid/accounts/Account;Landroid/net/Uri;Lorg/gege/caldavsyncadapter/b/a;Ljava/net/URI;Landroid/content/SyncStats;Ljava/util/ArrayList;)I <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/a;->onPerformSync(Landroid/accounts/Account;Landroid/os/Bundle;Ljava/lang/String;Landroid/content/ContentProviderClient;Landroid/content/SyncResult;)V <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/SyncService;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.content.SyncAdapter",
+                    "start-service -a"
+                ]
+            ]
+        }
+    },
+    "Lc/a/a/b/c/u;->a(Lc/a/a/b/n;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lc/a/a/b/c/u;-><init>()V <",
+                "> Lc/a/a/b/bw;->a(Ljava/lang/String;)Lc/a/a/b/be; <",
+                "> Lc/a/a/a/b;->c(Ljava/lang/String;)V <",
+                "> Lc/a/a/a/k;->a(Lc/a/a/a/k;Ljava/io/StreamTokenizer;Ljava/io/Reader;Lc/a/a/a/l;)V <",
+                "> Lc/a/a/a/j;->a(Ljava/io/StreamTokenizer;Ljava/io/Reader;Lc/a/a/a/l;)V <",
+                "> Lc/a/a/a/e;->a(Ljava/io/Reader;Lc/a/a/a/l;)V <",
+                "> Lc/a/a/a/a;->a(Ljava/io/Reader;)Lc/a/a/b/c; <",
+                "> Lorg/gege/caldavsyncadapter/b/b/a;->o()Z <",
+                "> Lorg/gege/caldavsyncadapter/b/b/a;->f()Z <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/a;->a(Landroid/content/ContentProviderClient;Landroid/accounts/Account;Landroid/net/Uri;Lorg/gege/caldavsyncadapter/b/a;Ljava/net/URI;Landroid/content/SyncStats;Ljava/util/ArrayList;)I <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/a;->onPerformSync(Landroid/accounts/Account;Landroid/os/Bundle;Ljava/lang/String;Landroid/content/ContentProviderClient;Landroid/content/SyncResult;)V <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/SyncService;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.content.SyncAdapter",
+                    "start-service -a"
+                ]
+            ]
+        }
+    },
+    "Lc/a/a/b/a/v;-><init>(Lc/a/a/b/a/n;B)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lc/a/a/b/a/n;-><init>()V <",
+                "> Lorg/gege/caldavsyncadapter/a/a/a;->a(Ljava/lang/String;)Z <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/a;->a(Landroid/content/ContentProviderClient;Landroid/accounts/Account;Landroid/net/Uri;Lorg/gege/caldavsyncadapter/b/a;Ljava/net/URI;Landroid/content/SyncStats;Ljava/util/ArrayList;)I <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/a;->onPerformSync(Landroid/accounts/Account;Landroid/os/Bundle;Ljava/lang/String;Landroid/content/ContentProviderClient;Landroid/content/SyncResult;)V <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/SyncService;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.content.SyncAdapter",
+                    "start-service -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lc/a/a/b/a/n;-><init>(Lc/a/a/b/dm;)V <",
+                "> Lc/a/a/b/k;->a(Ljava/lang/String;)Lc/a/a/b/j; <",
+                "> Lc/a/a/a/b;->b(Ljava/lang/String;)V <",
+                "> Lc/a/a/a/g;->a(Lc/a/a/a/g;Ljava/io/StreamTokenizer;Ljava/io/Reader;Lc/a/a/a/l;)V <",
+                "> Lc/a/a/a/j;->a(Ljava/io/StreamTokenizer;Ljava/io/Reader;Lc/a/a/a/l;)V <",
+                "> Lc/a/a/a/e;->a(Ljava/io/Reader;Lc/a/a/a/l;)V <",
+                "> Lc/a/a/a/a;->a(Ljava/io/Reader;)Lc/a/a/b/c; <",
+                "> Lorg/gege/caldavsyncadapter/b/b/a;->o()Z <",
+                "> Lorg/gege/caldavsyncadapter/b/b/a;->f()Z <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/a;->a(Landroid/content/ContentProviderClient;Landroid/accounts/Account;Landroid/net/Uri;Lorg/gege/caldavsyncadapter/b/a;Ljava/net/URI;Landroid/content/SyncStats;Ljava/util/ArrayList;)I <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/a;->onPerformSync(Landroid/accounts/Account;Landroid/os/Bundle;Ljava/lang/String;Landroid/content/ContentProviderClient;Landroid/content/SyncResult;)V <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/SyncService;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.content.SyncAdapter",
+                    "start-service -a"
+                ]
+            ]
+        }
+    },
+    "Lc/a/a/a/k;-><init>(Lc/a/a/a/e;B)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lc/a/a/a/e;-><init>()V <",
+                "> Lc/a/a/a/m;->b()Lc/a/a/a/c; <",
+                "> Lc/a/a/a/a;-><init>()V <",
+                "> Lorg/gege/caldavsyncadapter/b/b/a;->o()Z <",
+                "> Lorg/gege/caldavsyncadapter/b/b/a;->f()Z <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/a;->a(Landroid/content/ContentProviderClient;Landroid/accounts/Account;Landroid/net/Uri;Lorg/gege/caldavsyncadapter/b/a;Ljava/net/URI;Landroid/content/SyncStats;Ljava/util/ArrayList;)I <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/a;->onPerformSync(Landroid/accounts/Account;Landroid/os/Bundle;Ljava/lang/String;Landroid/content/ContentProviderClient;Landroid/content/SyncResult;)V <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/SyncService;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.content.SyncAdapter",
+                    "start-service -a"
+                ]
+            ]
+        }
+    },
+    "Lc/a/a/b/dn;->a(Ljava/util/StringTokenizer;Ljava/lang/String;)Ljava/lang/String;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lc/a/a/b/dn;-><init>(Ljava/lang/String;)V <",
+                "> Lc/a/a/b/c/ap;->b(Ljava/lang/String;)V <",
+                "> Lorg/gege/caldavsyncadapter/a/a/a;->a(Ljava/lang/String;)Z <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/a;->a(Landroid/content/ContentProviderClient;Landroid/accounts/Account;Landroid/net/Uri;Lorg/gege/caldavsyncadapter/b/a;Ljava/net/URI;Landroid/content/SyncStats;Ljava/util/ArrayList;)I <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/a;->onPerformSync(Landroid/accounts/Account;Landroid/os/Bundle;Ljava/lang/String;Landroid/content/ContentProviderClient;Landroid/content/SyncResult;)V <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/SyncService;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.content.SyncAdapter",
+                    "start-service -a"
+                ]
+            ]
+        }
+    },
+    "La/a/a/a/g;->b(Ljava/lang/String;)Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lc/a/a/b/c/aa;->b(Ljava/lang/String;)V <",
+                "> Lc/a/a/a/a;->a()V <",
+                "> Lc/a/a/a/a;->a(Ljava/io/Reader;)Lc/a/a/b/c; <",
+                "> Lorg/gege/caldavsyncadapter/b/b/a;->o()Z <",
+                "> Lorg/gege/caldavsyncadapter/b/b/a;->f()Z <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/a;->a(Landroid/content/ContentProviderClient;Landroid/accounts/Account;Landroid/net/Uri;Lorg/gege/caldavsyncadapter/b/a;Ljava/net/URI;Landroid/content/SyncStats;Ljava/util/ArrayList;)I <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/a;->onPerformSync(Landroid/accounts/Account;Landroid/os/Bundle;Ljava/lang/String;Landroid/content/ContentProviderClient;Landroid/content/SyncResult;)V <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/SyncService;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.content.SyncAdapter",
+                    "start-service -a"
+                ]
+            ]
+        }
+    },
+    "Lc/a/a/b/bu;-><init>(B)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lc/a/a/b/bg;-><init>()V <",
+                "> Lc/a/a/b/dl;-><init>()V <",
+                "> Lc/a/a/a/a;-><init>()V <",
+                "> Lorg/gege/caldavsyncadapter/b/b/a;->o()Z <",
+                "> Lorg/gege/caldavsyncadapter/b/b/a;->f()Z <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/a;->a(Landroid/content/ContentProviderClient;Landroid/accounts/Account;Landroid/net/Uri;Lorg/gege/caldavsyncadapter/b/a;Ljava/net/URI;Landroid/content/SyncStats;Ljava/util/ArrayList;)I <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/a;->onPerformSync(Landroid/accounts/Account;Landroid/os/Bundle;Ljava/lang/String;Landroid/content/ContentProviderClient;Landroid/content/SyncResult;)V <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/SyncService;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.content.SyncAdapter",
+                    "start-service -a"
+                ]
+            ]
+        }
+    },
+    "Lc/a/a/a/l;->c(Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lc/a/a/a/k;->a(Lc/a/a/a/k;Ljava/io/StreamTokenizer;Ljava/io/Reader;Lc/a/a/a/l;)V <",
+                "> Lc/a/a/a/j;->a(Ljava/io/StreamTokenizer;Ljava/io/Reader;Lc/a/a/a/l;)V <",
+                "> Lc/a/a/a/e;->a(Ljava/io/Reader;Lc/a/a/a/l;)V <",
+                "> Lc/a/a/a/a;->a(Ljava/io/Reader;)Lc/a/a/b/c; <",
+                "> Lorg/gege/caldavsyncadapter/b/b/a;->o()Z <",
+                "> Lorg/gege/caldavsyncadapter/b/b/a;->f()Z <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/a;->a(Landroid/content/ContentProviderClient;Landroid/accounts/Account;Landroid/net/Uri;Lorg/gege/caldavsyncadapter/b/a;Ljava/net/URI;Landroid/content/SyncStats;Ljava/util/ArrayList;)I <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/a;->onPerformSync(Landroid/accounts/Account;Landroid/os/Bundle;Ljava/lang/String;Landroid/content/ContentProviderClient;Landroid/content/SyncResult;)V <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/SyncService;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.content.SyncAdapter",
+                    "start-service -a"
+                ]
+            ]
+        }
+    },
+    "Lc/a/a/b/dn;->f(Lc/a/a/b/o;)Lc/a/a/b/o;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lc/a/a/b/dn;->a(Lc/a/a/b/n;Lc/a/a/b/n;Lc/a/a/b/b/x;)Lc/a/a/b/o; <",
+                "> Lc/a/a/b/a/e;->a(Lc/a/a/b/n;)Lc/a/a/b/n; <",
+                "> Lc/a/a/b/dq;->a(Lc/a/a/b/a/ae;)I <",
+                "> Lc/a/a/b/dq;-><init>(Lc/a/a/b/a/ae;)V <",
+                "> Lorg/gege/caldavsyncadapter/b/b/a;->o()Z <",
+                "> Lorg/gege/caldavsyncadapter/b/b/a;->f()Z <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/a;->a(Landroid/content/ContentProviderClient;Landroid/accounts/Account;Landroid/net/Uri;Lorg/gege/caldavsyncadapter/b/a;Ljava/net/URI;Landroid/content/SyncStats;Ljava/util/ArrayList;)I <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/a;->onPerformSync(Landroid/accounts/Account;Landroid/os/Bundle;Ljava/lang/String;Landroid/content/ContentProviderClient;Landroid/content/SyncResult;)V <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/SyncService;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.content.SyncAdapter",
+                    "start-service -a"
+                ]
+            ]
+        }
+    },
+    "Lc/a/a/b/n;->toString()Ljava/lang/String;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lc/a/a/b/a/e;->a(Lc/a/a/b/n;)Lc/a/a/b/n; <",
+                "> Lc/a/a/b/dq;->a(Lc/a/a/b/a/ae;)I <",
+                "> Lc/a/a/b/dq;-><init>(Lc/a/a/b/a/ae;)V <",
+                "> Lorg/gege/caldavsyncadapter/b/b/a;->o()Z <",
+                "> Lorg/gege/caldavsyncadapter/b/b/a;->f()Z <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/a;->a(Landroid/content/ContentProviderClient;Landroid/accounts/Account;Landroid/net/Uri;Lorg/gege/caldavsyncadapter/b/a;Ljava/net/URI;Landroid/content/SyncStats;Ljava/util/ArrayList;)I <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/a;->onPerformSync(Landroid/accounts/Account;Landroid/os/Bundle;Ljava/lang/String;Landroid/content/ContentProviderClient;Landroid/content/SyncResult;)V <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/SyncService;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.content.SyncAdapter",
+                    "start-service -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lc/a/a/b/q;->toString()Ljava/lang/String; <",
+                "> Lc/a/a/b/a/e;->a(Lc/a/a/b/n;)Lc/a/a/b/n; <",
+                "> Lc/a/a/b/dq;->a(Lc/a/a/b/a/ae;)I <",
+                "> Lc/a/a/b/dq;-><init>(Lc/a/a/b/a/ae;)V <",
+                "> Lorg/gege/caldavsyncadapter/b/b/a;->o()Z <",
+                "> Lorg/gege/caldavsyncadapter/b/b/a;->f()Z <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/a;->a(Landroid/content/ContentProviderClient;Landroid/accounts/Account;Landroid/net/Uri;Lorg/gege/caldavsyncadapter/b/a;Ljava/net/URI;Landroid/content/SyncStats;Ljava/util/ArrayList;)I <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/a;->onPerformSync(Landroid/accounts/Account;Landroid/os/Bundle;Ljava/lang/String;Landroid/content/ContentProviderClient;Landroid/content/SyncResult;)V <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/SyncService;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.content.SyncAdapter",
+                    "start-service -a"
+                ]
+            ]
+        }
+    },
+    "Lc/a/a/b/aw;-><init>()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lc/a/a/b/aw;-><init>(B)V <",
+                "> Lc/a/a/b/aa;-><init>()V <",
+                "> Lc/a/a/b/ba;-><init>()V <",
+                "> Lc/a/a/a/a;-><init>()V <",
+                "> Lorg/gege/caldavsyncadapter/b/b/a;->o()Z <",
+                "> Lorg/gege/caldavsyncadapter/b/b/a;->f()Z <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/a;->a(Landroid/content/ContentProviderClient;Landroid/accounts/Account;Landroid/net/Uri;Lorg/gege/caldavsyncadapter/b/a;Ljava/net/URI;Landroid/content/SyncStats;Ljava/util/ArrayList;)I <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/a;->onPerformSync(Landroid/accounts/Account;Landroid/os/Bundle;Ljava/lang/String;Landroid/content/ContentProviderClient;Landroid/content/SyncResult;)V <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/SyncService;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.content.SyncAdapter",
+                    "start-service -a"
+                ]
+            ]
+        }
+    },
+    "Lc/a/a/b/cg;-><init>()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lc/a/a/b/cg;-><init>(B)V <",
+                "> Lc/a/a/b/bg;-><init>()V <",
+                "> Lc/a/a/b/dl;-><init>()V <",
+                "> Lc/a/a/a/a;-><init>()V <",
+                "> Lorg/gege/caldavsyncadapter/b/b/a;->o()Z <",
+                "> Lorg/gege/caldavsyncadapter/b/b/a;->f()Z <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/a;->a(Landroid/content/ContentProviderClient;Landroid/accounts/Account;Landroid/net/Uri;Lorg/gege/caldavsyncadapter/b/a;Ljava/net/URI;Landroid/content/SyncStats;Ljava/util/ArrayList;)I <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/a;->onPerformSync(Landroid/accounts/Account;Landroid/os/Bundle;Ljava/lang/String;Landroid/content/ContentProviderClient;Landroid/content/SyncResult;)V <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/SyncService;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.content.SyncAdapter",
+                    "start-service -a"
+                ]
+            ]
+        }
+    },
+    "Lc/a/a/b/ch;-><init>()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lc/a/a/b/ch;-><init>(B)V <",
+                "> Lc/a/a/b/bg;-><init>()V <",
+                "> Lc/a/a/b/dl;-><init>()V <",
+                "> Lc/a/a/a/a;-><init>()V <",
+                "> Lorg/gege/caldavsyncadapter/b/b/a;->o()Z <",
+                "> Lorg/gege/caldavsyncadapter/b/b/a;->f()Z <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/a;->a(Landroid/content/ContentProviderClient;Landroid/accounts/Account;Landroid/net/Uri;Lorg/gege/caldavsyncadapter/b/a;Ljava/net/URI;Landroid/content/SyncStats;Ljava/util/ArrayList;)I <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/a;->onPerformSync(Landroid/accounts/Account;Landroid/os/Bundle;Ljava/lang/String;Landroid/content/ContentProviderClient;Landroid/content/SyncResult;)V <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/SyncService;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.content.SyncAdapter",
+                    "start-service -a"
+                ]
+            ]
+        }
+    },
+    "Lorg/gege/caldavsyncadapter/authenticator/j;-><init>(Lorg/gege/caldavsyncadapter/authenticator/AuthenticatorActivity;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/gege/caldavsyncadapter/authenticator/AuthenticatorActivity;->a()V <",
+                "> Lorg/gege/caldavsyncadapter/authenticator/e;->onClick(Landroid/view/View;)V <",
+                "> Lorg/gege/caldavsyncadapter/authenticator/AuthenticatorActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/a;->onPerformSync(Landroid/accounts/Account;Landroid/os/Bundle;Ljava/lang/String;Landroid/content/ContentProviderClient;Landroid/content/SyncResult;)V <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/SyncService;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.content.SyncAdapter",
+                    "start-service -a"
+                ],
+                [
+                    "org.gege.caldavsyncadapter.authenticator.AuthenticatorActivity",
+                    "sign_in_button"
+                ]
+            ]
+        }
+    },
+    "Lc/a/a/b/ac;-><init>(B)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lc/a/a/b/aa;-><init>()V <",
+                "> Lc/a/a/b/ba;-><init>()V <",
+                "> Lc/a/a/a/a;-><init>()V <",
+                "> Lorg/gege/caldavsyncadapter/b/b/a;->o()Z <",
+                "> Lorg/gege/caldavsyncadapter/b/b/a;->f()Z <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/a;->a(Landroid/content/ContentProviderClient;Landroid/accounts/Account;Landroid/net/Uri;Lorg/gege/caldavsyncadapter/b/a;Ljava/net/URI;Landroid/content/SyncStats;Ljava/util/ArrayList;)I <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/a;->onPerformSync(Landroid/accounts/Account;Landroid/os/Bundle;Ljava/lang/String;Landroid/content/ContentProviderClient;Landroid/content/SyncResult;)V <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/SyncService;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.content.SyncAdapter",
+                    "start-service -a"
+                ]
+            ]
+        }
+    },
+    "Lc/a/a/b/am;-><init>()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lc/a/a/b/am;-><init>(B)V <",
+                "> Lc/a/a/b/aa;-><init>()V <",
+                "> Lc/a/a/b/ba;-><init>()V <",
+                "> Lc/a/a/a/a;-><init>()V <",
+                "> Lorg/gege/caldavsyncadapter/b/b/a;->o()Z <",
+                "> Lorg/gege/caldavsyncadapter/b/b/a;->f()Z <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/a;->a(Landroid/content/ContentProviderClient;Landroid/accounts/Account;Landroid/net/Uri;Lorg/gege/caldavsyncadapter/b/a;Ljava/net/URI;Landroid/content/SyncStats;Ljava/util/ArrayList;)I <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/a;->onPerformSync(Landroid/accounts/Account;Landroid/os/Bundle;Ljava/lang/String;Landroid/content/ContentProviderClient;Landroid/content/SyncResult;)V <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/SyncService;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.content.SyncAdapter",
+                    "start-service -a"
+                ]
+            ]
+        }
+    },
+    "La/a/a/a/v;->a(La/a/a/a/b;Ljava/lang/CharSequence;ZLjava/lang/CharSequence;Landroid/graphics/Bitmap;Landroid/graphics/Bitmap;Z)V": {
+        "path_0": {
+            "call_sequence": [
+                "> La/a/a/a/c;->a(La/a/a/a/b;La/a/a/a/q;)V <",
+                "> La/a/a/a/o;->a(La/a/a/a/g;)Landroid/app/Notification; <",
+                "> La/a/a/a/g;->a()Landroid/app/Notification; <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/a;->onPerformSync(Landroid/accounts/Account;Landroid/os/Bundle;Ljava/lang/String;Landroid/content/ContentProviderClient;Landroid/content/SyncResult;)V <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/SyncService;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.content.SyncAdapter",
+                    "start-service -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> La/a/a/a/c;->a(La/a/a/a/b;La/a/a/a/q;)V <",
+                "> La/a/a/a/j;->a(La/a/a/a/g;)Landroid/app/Notification; <",
+                "> La/a/a/a/g;->a()Landroid/app/Notification; <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/a;->onPerformSync(Landroid/accounts/Account;Landroid/os/Bundle;Ljava/lang/String;Landroid/content/ContentProviderClient;Landroid/content/SyncResult;)V <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/SyncService;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.content.SyncAdapter",
+                    "start-service -a"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> La/a/a/a/c;->a(La/a/a/a/b;La/a/a/a/q;)V <",
+                "> La/a/a/a/o;->a(La/a/a/a/g;)Landroid/app/Notification; <",
+                "> La/a/a/a/g;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/a;->onPerformSync(Landroid/accounts/Account;Landroid/os/Bundle;Ljava/lang/String;Landroid/content/ContentProviderClient;Landroid/content/SyncResult;)V <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/SyncService;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.content.SyncAdapter",
+                    "start-service -a"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> La/a/a/a/c;->a(La/a/a/a/b;La/a/a/a/q;)V <",
+                "> La/a/a/a/j;->a(La/a/a/a/g;)Landroid/app/Notification; <",
+                "> La/a/a/a/g;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/a;->onPerformSync(Landroid/accounts/Account;Landroid/os/Bundle;Ljava/lang/String;Landroid/content/ContentProviderClient;Landroid/content/SyncResult;)V <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/SyncService;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.content.SyncAdapter",
+                    "start-service -a"
+                ]
+            ]
+        }
+    },
+    "Lorg/a/a/a/b;->b([B)[B": {
+        "path_0": {
+            "call_sequence": [
+                "> Lc/a/a/b/c/c;->a()Ljava/lang/String; <",
+                "> Lorg/gege/caldavsyncadapter/b/b/a;->e()Z <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/a;->a(Landroid/content/ContentProviderClient;Landroid/accounts/Account;Landroid/net/Uri;Lorg/gege/caldavsyncadapter/b/a;Ljava/net/URI;Landroid/content/SyncStats;Ljava/util/ArrayList;)I <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/a;->onPerformSync(Landroid/accounts/Account;Landroid/os/Bundle;Ljava/lang/String;Landroid/content/ContentProviderClient;Landroid/content/SyncResult;)V <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/SyncService;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.content.SyncAdapter",
+                    "start-service -a"
+                ]
+            ]
+        }
+    },
+    "Lorg/a/a/a/a/a;-><init>()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lc/a/a/c/e;->a(Lc/a/a/b/b/h;)Lorg/a/a/a/b; <",
+                "> Lc/a/a/b/c/c;->a()Ljava/lang/String; <",
+                "> Lorg/gege/caldavsyncadapter/b/b/a;->e()Z <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/a;->a(Landroid/content/ContentProviderClient;Landroid/accounts/Account;Landroid/net/Uri;Lorg/gege/caldavsyncadapter/b/a;Ljava/net/URI;Landroid/content/SyncStats;Ljava/util/ArrayList;)I <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/a;->onPerformSync(Landroid/accounts/Account;Landroid/os/Bundle;Ljava/lang/String;Landroid/content/ContentProviderClient;Landroid/content/SyncResult;)V <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/SyncService;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.content.SyncAdapter",
+                    "start-service -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lc/a/a/c/d;->a(Lc/a/a/b/b/h;)Lorg/a/a/a/a; <",
+                "> Lc/a/a/b/c/c;->b(Ljava/lang/String;)V <",
+                "> Lc/a/a/a/a;->a()V <",
+                "> Lc/a/a/a/a;->a(Ljava/io/Reader;)Lc/a/a/b/c; <",
+                "> Lorg/gege/caldavsyncadapter/b/b/a;->o()Z <",
+                "> Lorg/gege/caldavsyncadapter/b/b/a;->f()Z <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/a;->a(Landroid/content/ContentProviderClient;Landroid/accounts/Account;Landroid/net/Uri;Lorg/gege/caldavsyncadapter/b/a;Ljava/net/URI;Landroid/content/SyncStats;Ljava/util/ArrayList;)I <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/a;->onPerformSync(Landroid/accounts/Account;Landroid/os/Bundle;Ljava/lang/String;Landroid/content/ContentProviderClient;Landroid/content/SyncResult;)V <",
+                "> Lorg/gege/caldavsyncadapter/syncadapter/SyncService;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.content.SyncAdapter",
+                    "start-service -a"
+                ]
+            ]
+        }
+    }
+}

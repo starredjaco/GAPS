@@ -1,0 +1,1746 @@
+{
+    "Lin/shick/lockpatterngenerator/external/Point;-><init>(II)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/LockPatternView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V <",
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/LockPatternView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V <",
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity$2;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "in.shick.lockpatterngenerator.GeneratorActivity",
+                    "generate_button"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/LockPatternView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V <",
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity$5;->onCheckedChanged(Landroid/widget/CompoundButton;Z)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "in.shick.lockpatterngenerator.GeneratorActivity",
+                    "practice_toggle"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/LockPatternView;->buildDrawables()V <",
+                "> Lin/shick/lockpatterngenerator/LockPatternView;->onSizeChanged(IIII)V <",
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/LockPatternView;->buildDrawables()V <",
+                "> Lin/shick/lockpatterngenerator/LockPatternView;->onSizeChanged(IIII)V <",
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity$2;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "in.shick.lockpatterngenerator.GeneratorActivity",
+                    "generate_button"
+                ]
+            ]
+        },
+        "path_5": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/LockPatternView;->buildDrawables()V <",
+                "> Lin/shick/lockpatterngenerator/LockPatternView;->onSizeChanged(IIII)V <",
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity$5;->onCheckedChanged(Landroid/widget/CompoundButton;Z)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "in.shick.lockpatterngenerator.GeneratorActivity",
+                    "practice_toggle"
+                ]
+            ]
+        },
+        "path_6": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_7": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/PatternGenerator;->getPattern()Ljava/util/List; <",
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity$2;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "in.shick.lockpatterngenerator.GeneratorActivity",
+                    "generate_button"
+                ]
+            ]
+        },
+        "path_8": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/PatternGenerator;->setGridLength(I)V <",
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity;->setGridLength(I)V <",
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_9": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/LockPatternView;->onTouchEvent(Landroid/view/MotionEvent;)Z <",
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_10": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/LockPatternView;->onTouchEvent(Landroid/view/MotionEvent;)Z <",
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity$2;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "in.shick.lockpatterngenerator.GeneratorActivity",
+                    "generate_button"
+                ]
+            ]
+        },
+        "path_11": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/LockPatternView;->onTouchEvent(Landroid/view/MotionEvent;)Z <",
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity$5;->onCheckedChanged(Landroid/widget/CompoundButton;Z)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "in.shick.lockpatterngenerator.GeneratorActivity",
+                    "practice_toggle"
+                ]
+            ]
+        }
+    },
+    "Lin/shick/lockpatterngenerator/NodeDrawable;-><init>(FLin/shick/lockpatterngenerator/external/Point;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/LockPatternView;->buildDrawables()V <",
+                "> Lin/shick/lockpatterngenerator/LockPatternView;->onSizeChanged(IIII)V <",
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/LockPatternView;->buildDrawables()V <",
+                "> Lin/shick/lockpatterngenerator/LockPatternView;->onSizeChanged(IIII)V <",
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity$2;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "in.shick.lockpatterngenerator.GeneratorActivity",
+                    "generate_button"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/LockPatternView;->buildDrawables()V <",
+                "> Lin/shick/lockpatterngenerator/LockPatternView;->onSizeChanged(IIII)V <",
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity$5;->onCheckedChanged(Landroid/widget/CompoundButton;Z)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "in.shick.lockpatterngenerator.GeneratorActivity",
+                    "practice_toggle"
+                ]
+            ]
+        }
+    },
+    "Lin/shick/lockpatterngenerator/LockPatternView;->setPracticeMode(Z)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity$5;->onCheckedChanged(Landroid/widget/CompoundButton;Z)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "in.shick.lockpatterngenerator.GeneratorActivity",
+                    "practice_toggle"
+                ]
+            ]
+        }
+    },
+    "Lin/shick/lockpatterngenerator/LockPatternView$1;-><init>(Lin/shick/lockpatterngenerator/LockPatternView;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/LockPatternView;->testPracticePattern()V <",
+                "> Lin/shick/lockpatterngenerator/LockPatternView;->onTouchEvent(Landroid/view/MotionEvent;)Z <",
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/LockPatternView;->testPracticePattern()V <",
+                "> Lin/shick/lockpatterngenerator/LockPatternView;->onTouchEvent(Landroid/view/MotionEvent;)Z <",
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity$2;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "in.shick.lockpatterngenerator.GeneratorActivity",
+                    "generate_button"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/LockPatternView;->testPracticePattern()V <",
+                "> Lin/shick/lockpatterngenerator/LockPatternView;->onTouchEvent(Landroid/view/MotionEvent;)Z <",
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity$5;->onCheckedChanged(Landroid/widget/CompoundButton;Z)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "in.shick.lockpatterngenerator.GeneratorActivity",
+                    "practice_toggle"
+                ]
+            ]
+        }
+    },
+    "Lin/shick/lockpatterngenerator/LockPatternView$CenterIterator;->hasNext()Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/LockPatternView;->onDraw(Landroid/graphics/Canvas;)V <",
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/LockPatternView;->onDraw(Landroid/graphics/Canvas;)V <",
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity$2;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "in.shick.lockpatterngenerator.GeneratorActivity",
+                    "generate_button"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/LockPatternView;->onDraw(Landroid/graphics/Canvas;)V <",
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity$5;->onCheckedChanged(Landroid/widget/CompoundButton;Z)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "in.shick.lockpatterngenerator.GeneratorActivity",
+                    "practice_toggle"
+                ]
+            ]
+        }
+    },
+    "Lin/shick/lockpatterngenerator/external/Point;-><init>(Lin/shick/lockpatterngenerator/external/Point;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/LockPatternView;->onTouchEvent(Landroid/view/MotionEvent;)Z <",
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/LockPatternView;->onTouchEvent(Landroid/view/MotionEvent;)Z <",
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity$2;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "in.shick.lockpatterngenerator.GeneratorActivity",
+                    "generate_button"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/LockPatternView;->onTouchEvent(Landroid/view/MotionEvent;)Z <",
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity$5;->onCheckedChanged(Landroid/widget/CompoundButton;Z)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "in.shick.lockpatterngenerator.GeneratorActivity",
+                    "practice_toggle"
+                ]
+            ]
+        }
+    },
+    "Lin/shick/lockpatterngenerator/TextWallActivity$SafeLinkMovementMethod;-><init>(Lin/shick/lockpatterngenerator/TextWallActivity;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/TextWallActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "in.shick.lockpatterngenerator.GeneratorActivity",
+                    "menu_help",
+                    "Help"
+                ]
+            ]
+        }
+    },
+    "Lin/shick/lockpatterngenerator/BaseActivity;->onResume()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity;->onResume()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lin/shick/lockpatterngenerator/LockPatternView;->setMeasuredDimension(II)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/LockPatternView;->onMeasure(II)V <",
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/LockPatternView;->onMeasure(II)V <",
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity$2;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "in.shick.lockpatterngenerator.GeneratorActivity",
+                    "generate_button"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/LockPatternView;->onMeasure(II)V <",
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity$5;->onCheckedChanged(Landroid/widget/CompoundButton;Z)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "in.shick.lockpatterngenerator.GeneratorActivity",
+                    "practice_toggle"
+                ]
+            ]
+        }
+    },
+    "Lin/shick/lockpatterngenerator/GeneratorActivity;->setHighlightMode(Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity;->updateFromPrefs()V <",
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity;->onResume()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lin/shick/lockpatterngenerator/BitcoinAddressDialogBuilder$1;-><init>(Lin/shick/lockpatterngenerator/BitcoinAddressDialogBuilder;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/BitcoinAddressDialogBuilder;->build()Landroid/app/AlertDialog; <",
+                "> Lin/shick/lockpatterngenerator/TextWallActivity$SafeLinkMovementMethod;->onTouchEvent(Landroid/widget/TextView;Landroid/text/Spannable;Landroid/view/MotionEvent;)Z <",
+                "> Lin/shick/lockpatterngenerator/TextWallActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "in.shick.lockpatterngenerator.GeneratorActivity",
+                    "menu_help",
+                    "Help"
+                ]
+            ]
+        }
+    },
+    "Lin/shick/lockpatterngenerator/TextWallActivity;->getIntent()Landroid/content/Intent;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/TextWallActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "in.shick.lockpatterngenerator.GeneratorActivity",
+                    "menu_help",
+                    "Help"
+                ]
+            ]
+        }
+    },
+    "Lin/shick/lockpatterngenerator/GeneratorActivity;->getMenuInflater()Landroid/view/MenuInflater;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity;->onCreateOptionsMenu(Landroid/view/Menu;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lin/shick/lockpatterngenerator/GeneratorActivity$1;-><init>(Lin/shick/lockpatterngenerator/GeneratorActivity;Ljava/lang/Thread$UncaughtExceptionHandler;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lin/shick/lockpatterngenerator/LockPatternView;->buildDrawables()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/LockPatternView;->setGridLength(I)V <",
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity;->setGridLength(I)V <",
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/LockPatternView;->onSizeChanged(IIII)V <",
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/LockPatternView;->onSizeChanged(IIII)V <",
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity$2;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "in.shick.lockpatterngenerator.GeneratorActivity",
+                    "generate_button"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/LockPatternView;->onSizeChanged(IIII)V <",
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity$5;->onCheckedChanged(Landroid/widget/CompoundButton;Z)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "in.shick.lockpatterngenerator.GeneratorActivity",
+                    "practice_toggle"
+                ]
+            ]
+        }
+    },
+    "Lin/shick/lockpatterngenerator/GeneratorActivity$3;-><init>(Lin/shick/lockpatterngenerator/GeneratorActivity;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lin/shick/lockpatterngenerator/LockPatternView;->setTactileFeedbackEnabled(Z)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity;->setTactileFeedback(Z)V <",
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity;->updateFromPrefs()V <",
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity;->onResume()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lin/shick/lockpatterngenerator/LockPatternView;->getPattern()Ljava/util/List;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity;->onSaveInstanceState(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lin/shick/lockpatterngenerator/TextWallActivity;->getResources()Landroid/content/res/Resources;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/TextWallActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "in.shick.lockpatterngenerator.GeneratorActivity",
+                    "menu_help",
+                    "Help"
+                ]
+            ]
+        }
+    },
+    "Lin/shick/lockpatterngenerator/LockPatternView$SuccessHighlight;-><init>()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/LockPatternView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V <",
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/LockPatternView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V <",
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity$2;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "in.shick.lockpatterngenerator.GeneratorActivity",
+                    "generate_button"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/LockPatternView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V <",
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity$5;->onCheckedChanged(Landroid/widget/CompoundButton;Z)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "in.shick.lockpatterngenerator.GeneratorActivity",
+                    "practice_toggle"
+                ]
+            ]
+        }
+    },
+    "Lin/shick/lockpatterngenerator/GeneratorActivity;->findViewById(I)Landroid/view/View;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lin/shick/lockpatterngenerator/LockPatternView;->setHighlightMode(Lin/shick/lockpatterngenerator/LockPatternView$HighlightMode;Z)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/LockPatternView;->setHighlightMode(Lin/shick/lockpatterngenerator/LockPatternView$HighlightMode;)V <",
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity$3;->onLongClick(Landroid/view/View;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "in.shick.lockpatterngenerator.GeneratorActivity",
+                    "generate_button"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity$3;->onLongClick(Landroid/view/View;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "in.shick.lockpatterngenerator.GeneratorActivity",
+                    "generate_button"
+                ]
+            ]
+        }
+    },
+    "Lin/shick/lockpatterngenerator/PatternGenerator;->getPattern()Ljava/util/List;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity$2;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "in.shick.lockpatterngenerator.GeneratorActivity",
+                    "generate_button"
+                ]
+            ]
+        }
+    },
+    "Lin/shick/lockpatterngenerator/GeneratorActivity;->setPatternMin(I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity;->updateFromPrefs()V <",
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity;->onResume()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lin/shick/lockpatterngenerator/TextWallActivity;->setContentView(I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/TextWallActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "in.shick.lockpatterngenerator.GeneratorActivity",
+                    "menu_help",
+                    "Help"
+                ]
+            ]
+        }
+    },
+    "Lin/shick/lockpatterngenerator/GeneratorActivity$7;-><init>(Lin/shick/lockpatterngenerator/GeneratorActivity;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity;->onCreateDialog(I)Landroid/app/Dialog; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lin/shick/lockpatterngenerator/LockPatternView;->setPattern(Ljava/util/List;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity$3;->onLongClick(Landroid/view/View;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "in.shick.lockpatterngenerator.GeneratorActivity",
+                    "generate_button"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity$2;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "in.shick.lockpatterngenerator.GeneratorActivity",
+                    "generate_button"
+                ]
+            ]
+        }
+    },
+    "Lin/shick/lockpatterngenerator/GeneratorActivity;->setContentView(I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lin/shick/lockpatterngenerator/GeneratorActivity;->setPatternMax(I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity;->updateFromPrefs()V <",
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity;->onResume()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lin/shick/lockpatterngenerator/TextWallActivity;->findViewById(I)Landroid/view/View;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/TextWallActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "in.shick.lockpatterngenerator.GeneratorActivity",
+                    "menu_help",
+                    "Help"
+                ]
+            ]
+        }
+    },
+    "Lin/shick/lockpatterngenerator/LockPatternView$FailureHighlight;-><init>()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/LockPatternView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V <",
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/LockPatternView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V <",
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity$2;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "in.shick.lockpatterngenerator.GeneratorActivity",
+                    "generate_button"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/LockPatternView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V <",
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity$5;->onCheckedChanged(Landroid/widget/CompoundButton;Z)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "in.shick.lockpatterngenerator.GeneratorActivity",
+                    "practice_toggle"
+                ]
+            ]
+        }
+    },
+    "Lin/shick/lockpatterngenerator/BitcoinAddressDialogBuilder$2;-><init>(Lin/shick/lockpatterngenerator/BitcoinAddressDialogBuilder;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/BitcoinAddressDialogBuilder;->build()Landroid/app/AlertDialog; <",
+                "> Lin/shick/lockpatterngenerator/TextWallActivity$SafeLinkMovementMethod;->onTouchEvent(Landroid/widget/TextView;Landroid/text/Spannable;Landroid/view/MotionEvent;)Z <",
+                "> Lin/shick/lockpatterngenerator/TextWallActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "in.shick.lockpatterngenerator.GeneratorActivity",
+                    "menu_help",
+                    "Help"
+                ]
+            ]
+        }
+    },
+    "Lin/shick/lockpatterngenerator/GeneratorActivity;->jumpToSecurity()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity;->access$100(Lin/shick/lockpatterngenerator/GeneratorActivity;)V <",
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity$7;->onClick(Landroid/content/DialogInterface;I)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lin/shick/lockpatterngenerator/NodeDrawable;->draw(Landroid/graphics/Canvas;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/LockPatternView;->onDraw(Landroid/graphics/Canvas;)V <",
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/LockPatternView;->onDraw(Landroid/graphics/Canvas;)V <",
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity$2;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "in.shick.lockpatterngenerator.GeneratorActivity",
+                    "generate_button"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/LockPatternView;->onDraw(Landroid/graphics/Canvas;)V <",
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity$5;->onCheckedChanged(Landroid/widget/CompoundButton;Z)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "in.shick.lockpatterngenerator.GeneratorActivity",
+                    "practice_toggle"
+                ]
+            ]
+        }
+    },
+    "Lin/shick/lockpatterngenerator/LockPatternView;->testPracticePattern()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/LockPatternView;->onTouchEvent(Landroid/view/MotionEvent;)Z <",
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/LockPatternView;->onTouchEvent(Landroid/view/MotionEvent;)Z <",
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity$2;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "in.shick.lockpatterngenerator.GeneratorActivity",
+                    "generate_button"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/LockPatternView;->onTouchEvent(Landroid/view/MotionEvent;)Z <",
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity$5;->onCheckedChanged(Landroid/widget/CompoundButton;Z)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "in.shick.lockpatterngenerator.GeneratorActivity",
+                    "practice_toggle"
+                ]
+            ]
+        }
+    },
+    "Lin/shick/lockpatterngenerator/LockPatternView;->clearPattern(Ljava/util/List;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/LockPatternView;->setPattern(Ljava/util/List;)V <",
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity$3;->onLongClick(Landroid/view/View;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "in.shick.lockpatterngenerator.GeneratorActivity",
+                    "generate_button"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/LockPatternView;->setPattern(Ljava/util/List;)V <",
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity$2;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "in.shick.lockpatterngenerator.GeneratorActivity",
+                    "generate_button"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/LockPatternView;->setPracticeMode(Z)V <",
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity$5;->onCheckedChanged(Landroid/widget/CompoundButton;Z)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "in.shick.lockpatterngenerator.GeneratorActivity",
+                    "practice_toggle"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/LockPatternView;->resetPractice()V <",
+                "> Lin/shick/lockpatterngenerator/LockPatternView;->onTouchEvent(Landroid/view/MotionEvent;)Z <",
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/LockPatternView;->resetPractice()V <",
+                "> Lin/shick/lockpatterngenerator/LockPatternView;->onTouchEvent(Landroid/view/MotionEvent;)Z <",
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity$2;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "in.shick.lockpatterngenerator.GeneratorActivity",
+                    "generate_button"
+                ]
+            ]
+        },
+        "path_5": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/LockPatternView;->resetPractice()V <",
+                "> Lin/shick/lockpatterngenerator/LockPatternView;->onTouchEvent(Landroid/view/MotionEvent;)Z <",
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity$5;->onCheckedChanged(Landroid/widget/CompoundButton;Z)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "in.shick.lockpatterngenerator.GeneratorActivity",
+                    "practice_toggle"
+                ]
+            ]
+        }
+    },
+    "Lin/shick/lockpatterngenerator/PatternGenerator;->setMinNodes(I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity;->setPatternMin(I)V <",
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/PatternGenerator;-><init>()V <",
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lin/shick/lockpatterngenerator/PreferencesActivity;->addPreferencesFromResource(I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/PreferencesActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "in.shick.lockpatterngenerator.GeneratorActivity",
+                    "menu_settings",
+                    "Settings"
+                ]
+            ]
+        }
+    },
+    "Lin/shick/lockpatterngenerator/BitcoinAddressDialogBuilder$4;-><init>(Lin/shick/lockpatterngenerator/BitcoinAddressDialogBuilder;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/BitcoinAddressDialogBuilder;->build()Landroid/app/AlertDialog; <",
+                "> Lin/shick/lockpatterngenerator/TextWallActivity$SafeLinkMovementMethod;->onTouchEvent(Landroid/widget/TextView;Landroid/text/Spannable;Landroid/view/MotionEvent;)Z <",
+                "> Lin/shick/lockpatterngenerator/TextWallActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "in.shick.lockpatterngenerator.GeneratorActivity",
+                    "menu_help",
+                    "Help"
+                ]
+            ]
+        }
+    },
+    "Lin/shick/lockpatterngenerator/BitcoinAddressDialogBuilder;->openWalletDownload(Landroid/content/Context;)Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/BitcoinAddressDialogBuilder$3;->onClick(Landroid/view/View;)V <",
+                "> Lin/shick/lockpatterngenerator/BitcoinAddressDialogBuilder;->build()Landroid/app/AlertDialog; <",
+                "> Lin/shick/lockpatterngenerator/TextWallActivity$SafeLinkMovementMethod;->onTouchEvent(Landroid/widget/TextView;Landroid/text/Spannable;Landroid/view/MotionEvent;)Z <",
+                "> Lin/shick/lockpatterngenerator/TextWallActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "in.shick.lockpatterngenerator.GeneratorActivity",
+                    "menu_help",
+                    "Help"
+                ],
+                [
+                    "in.shick.lockpatterngenerator.TextWallActivity",
+                    "get_wallet_button"
+                ]
+            ]
+        }
+    },
+    "Lin/shick/lockpatterngenerator/TextWallActivity;->getString(I)Ljava/lang/String;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/TextWallActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "in.shick.lockpatterngenerator.GeneratorActivity",
+                    "menu_help",
+                    "Help"
+                ]
+            ]
+        }
+    },
+    "Lin/shick/lockpatterngenerator/LockPatternView$CenterIterator;->next()Lin/shick/lockpatterngenerator/external/Point;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/LockPatternView$CenterIterator;->next()Ljava/lang/Object; <",
+                "> Lin/shick/lockpatterngenerator/LockPatternView;->onDraw(Landroid/graphics/Canvas;)V <",
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/LockPatternView$CenterIterator;->next()Ljava/lang/Object; <",
+                "> Lin/shick/lockpatterngenerator/LockPatternView;->onDraw(Landroid/graphics/Canvas;)V <",
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity$2;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "in.shick.lockpatterngenerator.GeneratorActivity",
+                    "generate_button"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/LockPatternView$CenterIterator;->next()Ljava/lang/Object; <",
+                "> Lin/shick/lockpatterngenerator/LockPatternView;->onDraw(Landroid/graphics/Canvas;)V <",
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity$5;->onCheckedChanged(Landroid/widget/CompoundButton;Z)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "in.shick.lockpatterngenerator.GeneratorActivity",
+                    "practice_toggle"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/LockPatternView;->onDraw(Landroid/graphics/Canvas;)V <",
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/LockPatternView;->onDraw(Landroid/graphics/Canvas;)V <",
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity$2;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "in.shick.lockpatterngenerator.GeneratorActivity",
+                    "generate_button"
+                ]
+            ]
+        },
+        "path_5": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/LockPatternView;->onDraw(Landroid/graphics/Canvas;)V <",
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity$5;->onCheckedChanged(Landroid/widget/CompoundButton;Z)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "in.shick.lockpatterngenerator.GeneratorActivity",
+                    "practice_toggle"
+                ]
+            ]
+        }
+    },
+    "Lin/shick/lockpatterngenerator/BitcoinAddressDialogBuilder;->openAddressInfo(Landroid/content/Context;Ljava/lang/CharSequence;)Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/BitcoinAddressDialogBuilder$2;->onClick(Landroid/view/View;)V <",
+                "> Lin/shick/lockpatterngenerator/BitcoinAddressDialogBuilder;->build()Landroid/app/AlertDialog; <",
+                "> Lin/shick/lockpatterngenerator/TextWallActivity$SafeLinkMovementMethod;->onTouchEvent(Landroid/widget/TextView;Landroid/text/Spannable;Landroid/view/MotionEvent;)Z <",
+                "> Lin/shick/lockpatterngenerator/TextWallActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "in.shick.lockpatterngenerator.GeneratorActivity",
+                    "menu_help",
+                    "Help"
+                ],
+                [
+                    "in.shick.lockpatterngenerator.TextWallActivity",
+                    "open_qr_button"
+                ]
+            ]
+        }
+    },
+    "Lin/shick/lockpatterngenerator/NodeDrawable;->setExitAngle(F)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/LockPatternView;->appendPattern(Ljava/util/List;Lin/shick/lockpatterngenerator/external/Point;)V <",
+                "> Lin/shick/lockpatterngenerator/LockPatternView;->onTouchEvent(Landroid/view/MotionEvent;)Z <",
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/LockPatternView;->appendPattern(Ljava/util/List;Lin/shick/lockpatterngenerator/external/Point;)V <",
+                "> Lin/shick/lockpatterngenerator/LockPatternView;->onTouchEvent(Landroid/view/MotionEvent;)Z <",
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity$2;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "in.shick.lockpatterngenerator.GeneratorActivity",
+                    "generate_button"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/LockPatternView;->appendPattern(Ljava/util/List;Lin/shick/lockpatterngenerator/external/Point;)V <",
+                "> Lin/shick/lockpatterngenerator/LockPatternView;->onTouchEvent(Landroid/view/MotionEvent;)Z <",
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity$5;->onCheckedChanged(Landroid/widget/CompoundButton;Z)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "in.shick.lockpatterngenerator.GeneratorActivity",
+                    "practice_toggle"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/NodeDrawable;->setNodeState(I)V <",
+                "> Lin/shick/lockpatterngenerator/LockPatternView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V <",
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/NodeDrawable;->setNodeState(I)V <",
+                "> Lin/shick/lockpatterngenerator/LockPatternView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V <",
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity$2;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "in.shick.lockpatterngenerator.GeneratorActivity",
+                    "generate_button"
+                ]
+            ]
+        },
+        "path_5": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/NodeDrawable;->setNodeState(I)V <",
+                "> Lin/shick/lockpatterngenerator/LockPatternView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V <",
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity$5;->onCheckedChanged(Landroid/widget/CompoundButton;Z)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "in.shick.lockpatterngenerator.GeneratorActivity",
+                    "practice_toggle"
+                ]
+            ]
+        },
+        "path_6": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/LockPatternView;->loadPattern(Ljava/util/List;Lin/shick/lockpatterngenerator/LockPatternView$HighlightMode;)V <",
+                "> Lin/shick/lockpatterngenerator/LockPatternView;->setHighlightMode(Lin/shick/lockpatterngenerator/LockPatternView$HighlightMode;Z)V <",
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity$3;->onLongClick(Landroid/view/View;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "in.shick.lockpatterngenerator.GeneratorActivity",
+                    "generate_button"
+                ]
+            ]
+        },
+        "path_7": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/LockPatternView;->loadPattern(Ljava/util/List;Lin/shick/lockpatterngenerator/LockPatternView$HighlightMode;)V <",
+                "> Lin/shick/lockpatterngenerator/LockPatternView;->onSizeChanged(IIII)V <",
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity;->onSaveInstanceState(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_8": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/LockPatternView;->loadPattern(Ljava/util/List;Lin/shick/lockpatterngenerator/LockPatternView$HighlightMode;)V <",
+                "> Lin/shick/lockpatterngenerator/LockPatternView;->onSizeChanged(IIII)V <",
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity$3;->onLongClick(Landroid/view/View;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "in.shick.lockpatterngenerator.GeneratorActivity",
+                    "generate_button"
+                ]
+            ]
+        },
+        "path_9": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/LockPatternView;->loadPattern(Ljava/util/List;Lin/shick/lockpatterngenerator/LockPatternView$HighlightMode;)V <",
+                "> Lin/shick/lockpatterngenerator/LockPatternView;->setPattern(Ljava/util/List;)V <",
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity$3;->onLongClick(Landroid/view/View;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "in.shick.lockpatterngenerator.GeneratorActivity",
+                    "generate_button"
+                ]
+            ]
+        },
+        "path_10": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/LockPatternView;->loadPattern(Ljava/util/List;Lin/shick/lockpatterngenerator/LockPatternView$HighlightMode;)V <",
+                "> Lin/shick/lockpatterngenerator/LockPatternView;->setPattern(Ljava/util/List;)V <",
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity$2;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "in.shick.lockpatterngenerator.GeneratorActivity",
+                    "generate_button"
+                ]
+            ]
+        }
+    },
+    "Lin/shick/lockpatterngenerator/LockPatternView$CenterIterator;-><init>(Lin/shick/lockpatterngenerator/LockPatternView;Ljava/util/Iterator;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/LockPatternView;->onDraw(Landroid/graphics/Canvas;)V <",
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/LockPatternView;->onDraw(Landroid/graphics/Canvas;)V <",
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity$2;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "in.shick.lockpatterngenerator.GeneratorActivity",
+                    "generate_button"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/LockPatternView;->onDraw(Landroid/graphics/Canvas;)V <",
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity$5;->onCheckedChanged(Landroid/widget/CompoundButton;Z)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "in.shick.lockpatterngenerator.GeneratorActivity",
+                    "practice_toggle"
+                ]
+            ]
+        }
+    },
+    "Lin/shick/lockpatterngenerator/external/Point;->readFromParcel(Landroid/os/Parcel;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/external/Point$1;->createFromParcel(Landroid/os/Parcel;)Lin/shick/lockpatterngenerator/external/Point; <",
+                "> Lin/shick/lockpatterngenerator/external/Point$1;->createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object; <",
+                "> Lin/shick/lockpatterngenerator/external/Point;-><clinit>()V <",
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lin/shick/lockpatterngenerator/NodeDrawable;->buildShapes(FLin/shick/lockpatterngenerator/external/Point;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/NodeDrawable;-><init>(FLin/shick/lockpatterngenerator/external/Point;)V <",
+                "> Lin/shick/lockpatterngenerator/LockPatternView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V <",
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/NodeDrawable;-><init>(FLin/shick/lockpatterngenerator/external/Point;)V <",
+                "> Lin/shick/lockpatterngenerator/LockPatternView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V <",
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity$2;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "in.shick.lockpatterngenerator.GeneratorActivity",
+                    "generate_button"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/NodeDrawable;-><init>(FLin/shick/lockpatterngenerator/external/Point;)V <",
+                "> Lin/shick/lockpatterngenerator/LockPatternView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V <",
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity$5;->onCheckedChanged(Landroid/widget/CompoundButton;Z)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "in.shick.lockpatterngenerator.GeneratorActivity",
+                    "practice_toggle"
+                ]
+            ]
+        }
+    },
+    "Lin/shick/lockpatterngenerator/LockPatternView;->access$000(Lin/shick/lockpatterngenerator/LockPatternView;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/LockPatternView$1;->run()V <",
+                "> Lin/shick/lockpatterngenerator/LockPatternView;->testPracticePattern()V <",
+                "> Lin/shick/lockpatterngenerator/LockPatternView;->onTouchEvent(Landroid/view/MotionEvent;)Z <",
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/LockPatternView$1;->run()V <",
+                "> Lin/shick/lockpatterngenerator/LockPatternView;->testPracticePattern()V <",
+                "> Lin/shick/lockpatterngenerator/LockPatternView;->onTouchEvent(Landroid/view/MotionEvent;)Z <",
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity$2;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "in.shick.lockpatterngenerator.GeneratorActivity",
+                    "generate_button"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/LockPatternView$1;->run()V <",
+                "> Lin/shick/lockpatterngenerator/LockPatternView;->testPracticePattern()V <",
+                "> Lin/shick/lockpatterngenerator/LockPatternView;->onTouchEvent(Landroid/view/MotionEvent;)Z <",
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity$5;->onCheckedChanged(Landroid/widget/CompoundButton;Z)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "in.shick.lockpatterngenerator.GeneratorActivity",
+                    "practice_toggle"
+                ]
+            ]
+        }
+    },
+    "Lin/shick/lockpatterngenerator/BaseActivity;->onCreate(Landroid/os/Bundle;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/TextWallActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "in.shick.lockpatterngenerator.GeneratorActivity",
+                    "menu_help",
+                    "Help"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lin/shick/lockpatterngenerator/GeneratorActivity;->getLayoutInflater()Landroid/view/LayoutInflater;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lin/shick/lockpatterngenerator/GeneratorActivity;->onCreateDialog(I)Landroid/app/Dialog; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    }
+}

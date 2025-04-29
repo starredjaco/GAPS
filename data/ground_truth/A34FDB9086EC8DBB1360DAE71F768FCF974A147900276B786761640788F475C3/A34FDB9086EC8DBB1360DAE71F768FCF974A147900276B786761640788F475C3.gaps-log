@@ -1,0 +1,7 @@
+COMPONENT CONCAT > Lcom/smallbouldering/aurorawatchuk/core/StatusHelper;->getLatestTime(Landroid/content/Context;)Ljava/lang/String; < extends Ljava/lang/Object, implements []
+MISSING ID > Lcom/smallbouldering/aurorawatchuk/AuroraWatchMainActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <
+COMPONENT CONCAT > Lcom/smallbouldering/aurorawatchuk/core/Constants;-><clinit>()V < extends Ljava/lang/Object, implements []
+COMPONENT CONCAT > Lcom/smallbouldering/aurorawatchuk/core/TimeHelper;->isDaytime(Ljava/lang/String; < extends Ljava/lang/Object, implements []
+COMPONENT CONCAT > Lcom/smallbouldering/aurorawatchuk/core/StatusHelper;->getTimeAndDate(Landroid/content/Context; < extends Ljava/lang/Object, implements []
+COMPONENT CONCAT > Lcom/smallbouldering/aurorawatchuk/core/StatusHelper;->parseXml(Landroid/content/Context; < extends Ljava/lang/Object, implements []
+COMPONENT CONCAT > Lcom/smallbouldering/aurorawatchuk/graph/MagnitudeStackedBarChart;->getRenderer(Landroid/content/Context; < extends Landroidx/fragment/app/FragmentActivity, implements ['Landroidx/core/app/ActivityCompat$OnRequestPermissionsResultCallback', 'Landroidx/core/app/ActivityCompat$RequestPermissionsRequestCodeValidator']

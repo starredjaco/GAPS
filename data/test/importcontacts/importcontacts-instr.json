@@ -1,0 +1,1223 @@
+{
+    "Lorg/waxworlds/edam/importcontacts/FileChooser;->prettyPrint(Ljava/lang/String;Z)Ljava/lang/String;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/waxworlds/edam/importcontacts/ConfigureVCF;->updatePathButton()V <",
+                "> Lorg/waxworlds/edam/importcontacts/ConfigureVCF;->onResume()V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onNext()V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity$1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/Intro;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.waxworlds.edam.importcontacts.WizardActivity",
+                    "next"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/waxworlds/edam/importcontacts/FileChooser;->updateCurrentSelection()V <",
+                "> Lorg/waxworlds/edam/importcontacts/FileChooser;->access$5(Lorg/waxworlds/edam/importcontacts/FileChooser;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/FileChooser$2;->onItemClick(Landroid/widget/AdapterView; <",
+                "> Lorg/waxworlds/edam/importcontacts/FileChooser;-><init>(Landroid/content/Context;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/ConfigureVCF;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onNext()V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity$1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/Intro;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.waxworlds.edam.importcontacts.WizardActivity",
+                    "next"
+                ]
+            ]
+        }
+    },
+    "Lorg/waxworlds/edam/importcontacts/VCFImporter$1VCardFilter;-><init>(Lorg/waxworlds/edam/importcontacts/VCFImporter;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/waxworlds/edam/importcontacts/VCFImporter;->onImport()V <",
+                "> Lorg/waxworlds/edam/importcontacts/Doit;->importContacts()V <",
+                "> Lorg/waxworlds/edam/importcontacts/Doit;->onNext()V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onNext()V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity$1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/Intro;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.waxworlds.edam.importcontacts.WizardActivity",
+                    "next"
+                ]
+            ]
+        }
+    },
+    "Lorg/waxworlds/edam/importcontacts/VCFImporter;->getText(I)Ljava/lang/CharSequence;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/waxworlds/edam/importcontacts/VCFImporter;->importVCardFile(Ljava/io/File;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/VCFImporter;->onImport()V <",
+                "> Lorg/waxworlds/edam/importcontacts/Doit;->importContacts()V <",
+                "> Lorg/waxworlds/edam/importcontacts/Doit;->onNext()V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onNext()V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity$1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/Intro;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.waxworlds.edam.importcontacts.WizardActivity",
+                    "next"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/waxworlds/edam/importcontacts/VCFImporter;->countVCardFile(Ljava/io/File;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/VCFImporter;->onImport()V <",
+                "> Lorg/waxworlds/edam/importcontacts/Doit;->importContacts()V <",
+                "> Lorg/waxworlds/edam/importcontacts/Doit;->onNext()V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onNext()V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity$1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/Intro;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.waxworlds.edam.importcontacts.WizardActivity",
+                    "next"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lorg/waxworlds/edam/importcontacts/VCFImporter;->importVCardFileContent([B <",
+                "> Lorg/waxworlds/edam/importcontacts/Doit;->importContacts()V <",
+                "> Lorg/waxworlds/edam/importcontacts/Doit;->onNext()V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onNext()V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity$1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/Intro;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.waxworlds.edam.importcontacts.WizardActivity",
+                    "next"
+                ]
+            ]
+        }
+    },
+    "Lorg/waxworlds/edam/importcontacts/WizardActivity;->onResume()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/waxworlds/edam/importcontacts/Merge;->onResume()V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onNext()V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity$1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/Intro;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.waxworlds.edam.importcontacts.WizardActivity",
+                    "next"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/waxworlds/edam/importcontacts/ConfigureVCF;->onResume()V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onNext()V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity$1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/Intro;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.waxworlds.edam.importcontacts.WizardActivity",
+                    "next"
+                ]
+            ]
+        }
+    },
+    "Lorg/waxworlds/edam/importcontacts/VCFImporter;->skipContact()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/waxworlds/edam/importcontacts/VCFImporter;->importVCardFileContent([B <",
+                "> Lorg/waxworlds/edam/importcontacts/Doit;->importContacts()V <",
+                "> Lorg/waxworlds/edam/importcontacts/Doit;->onNext()V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onNext()V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity$1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/Intro;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.waxworlds.edam.importcontacts.WizardActivity",
+                    "next"
+                ]
+            ]
+        }
+    },
+    "Lorg/waxworlds/edam/importcontacts/Importer;->buildContactsCache()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/waxworlds/edam/importcontacts/Importer;->run()V <",
+                "> Lorg/waxworlds/edam/importcontacts/Doit;->importContacts()V <",
+                "> Lorg/waxworlds/edam/importcontacts/Doit;->onNext()V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onNext()V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity$1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/Intro;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.waxworlds.edam.importcontacts.WizardActivity",
+                    "next"
+                ]
+            ]
+        }
+    },
+    "Lorg/waxworlds/edam/importcontacts/ConfigureVCF;->access$4(Lorg/waxworlds/edam/importcontacts/ConfigureVCF;)Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/waxworlds/edam/importcontacts/ConfigureVCF$5;->onDismiss(Landroid/content/DialogInterface;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/ConfigureVCF;->onCreateDialog(I)Landroid/app/Dialog; <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onNext()V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity$1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/Intro;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.waxworlds.edam.importcontacts.WizardActivity",
+                    "next"
+                ]
+            ]
+        }
+    },
+    "Lorg/waxworlds/edam/importcontacts/VCFImporter;->setProgressMax(I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/waxworlds/edam/importcontacts/VCFImporter;->onImport()V <",
+                "> Lorg/waxworlds/edam/importcontacts/Doit;->importContacts()V <",
+                "> Lorg/waxworlds/edam/importcontacts/Doit;->onNext()V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onNext()V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity$1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/Intro;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.waxworlds.edam.importcontacts.WizardActivity",
+                    "next"
+                ]
+            ]
+        }
+    },
+    "Lorg/waxworlds/edam/importcontacts/VCFImporter;->showContinue(Ljava/lang/String;)Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/waxworlds/edam/importcontacts/VCFImporter;->importVCardFileContent([B <",
+                "> Lorg/waxworlds/edam/importcontacts/Doit;->importContacts()V <",
+                "> Lorg/waxworlds/edam/importcontacts/Doit;->onNext()V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onNext()V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity$1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/Intro;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.waxworlds.edam.importcontacts.WizardActivity",
+                    "next"
+                ]
+            ]
+        }
+    },
+    "Lorg/waxworlds/edam/importcontacts/Merge;->setContentView(I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/waxworlds/edam/importcontacts/Merge;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onNext()V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity$1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/Intro;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.waxworlds.edam.importcontacts.WizardActivity",
+                    "next"
+                ]
+            ]
+        }
+    },
+    "Lorg/waxworlds/edam/importcontacts/ConfigureVCF;->updatePathButton()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/waxworlds/edam/importcontacts/ConfigureVCF$1;->onDismiss(Landroid/content/DialogInterface;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/ConfigureVCF;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onNext()V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity$1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/Intro;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.waxworlds.edam.importcontacts.WizardActivity",
+                    "next"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/waxworlds/edam/importcontacts/ConfigureVCF;->onResume()V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onNext()V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity$1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/Intro;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.waxworlds.edam.importcontacts.WizardActivity",
+                    "next"
+                ]
+            ]
+        }
+    },
+    "Lorg/waxworlds/edam/importcontacts/VCFImporter$VCard;->finaliseParsing()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/waxworlds/edam/importcontacts/VCFImporter;->importVCardFileContent([B <",
+                "> Lorg/waxworlds/edam/importcontacts/Doit;->importContacts()V <",
+                "> Lorg/waxworlds/edam/importcontacts/Doit;->onNext()V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onNext()V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity$1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/Intro;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.waxworlds.edam.importcontacts.WizardActivity",
+                    "next"
+                ]
+            ]
+        }
+    },
+    "Lorg/waxworlds/edam/importcontacts/VCFImporter$VCard$UnencodeResult;->isAnotherLineRequired()Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/waxworlds/edam/importcontacts/VCFImporter$VCard;->parseLine(Ljava/nio/ByteBuffer;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/VCFImporter;->importVCardFileContent([B <",
+                "> Lorg/waxworlds/edam/importcontacts/Doit;->importContacts()V <",
+                "> Lorg/waxworlds/edam/importcontacts/Doit;->onNext()V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onNext()V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity$1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/Intro;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.waxworlds.edam.importcontacts.WizardActivity",
+                    "next"
+                ]
+            ]
+        }
+    },
+    "Lorg/waxworlds/edam/importcontacts/FileChooser;->setPath(Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/waxworlds/edam/importcontacts/ConfigureVCF;->showBrowseDialog()V <",
+                "> Lorg/waxworlds/edam/importcontacts/ConfigureVCF;->access$5(Lorg/waxworlds/edam/importcontacts/ConfigureVCF;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/ConfigureVCF$5;->onDismiss(Landroid/content/DialogInterface;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/ConfigureVCF;->onCreateDialog(I)Landroid/app/Dialog; <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onNext()V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity$1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/Intro;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.waxworlds.edam.importcontacts.WizardActivity",
+                    "next"
+                ]
+            ]
+        }
+    },
+    "Lorg/waxworlds/edam/importcontacts/VCFImporter$VCard;-><init>(Lorg/waxworlds/edam/importcontacts/VCFImporter;Lorg/waxworlds/edam/importcontacts/VCFImporter$VCard;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/waxworlds/edam/importcontacts/VCFImporter;->importVCardFileContent([B <",
+                "> Lorg/waxworlds/edam/importcontacts/Doit;->importContacts()V <",
+                "> Lorg/waxworlds/edam/importcontacts/Doit;->onNext()V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onNext()V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity$1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/Intro;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.waxworlds.edam.importcontacts.WizardActivity",
+                    "next"
+                ]
+            ]
+        }
+    },
+    "Lorg/waxworlds/edam/importcontacts/FileChooser;->setDismissListener(Landroid/content/DialogInterface$OnDismissListener;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/waxworlds/edam/importcontacts/ConfigureVCF;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onNext()V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity$1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/Intro;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.waxworlds.edam.importcontacts.WizardActivity",
+                    "next"
+                ]
+            ]
+        }
+    },
+    "Lorg/waxworlds/edam/importcontacts/Doit;->access$3(Lorg/waxworlds/edam/importcontacts/Doit;Landroid/app/Dialog;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/waxworlds/edam/importcontacts/Doit$1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/Doit;-><init>()V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onNext()V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity$1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/Intro;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.waxworlds.edam.importcontacts.WizardActivity",
+                    "next"
+                ],
+                [
+                    "org.waxworlds.edam.importcontacts.Doit",
+                    "merge_keep"
+                ]
+            ]
+        }
+    },
+    "Lorg/waxworlds/edam/importcontacts/FileChooser;->onPrepareDialog(Landroid/content/Context;Landroid/app/Dialog;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/waxworlds/edam/importcontacts/ConfigureVCF;->onPrepareDialog(I <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onNext()V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity$1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/Intro;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.waxworlds.edam.importcontacts.WizardActivity",
+                    "next"
+                ]
+            ]
+        }
+    },
+    "Lorg/waxworlds/edam/importcontacts/Importer;->finish(I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/waxworlds/edam/importcontacts/Importer;->run()V <",
+                "> Lorg/waxworlds/edam/importcontacts/Doit;->importContacts()V <",
+                "> Lorg/waxworlds/edam/importcontacts/Doit;->onNext()V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onNext()V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity$1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/Intro;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.waxworlds.edam.importcontacts.WizardActivity",
+                    "next"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/waxworlds/edam/importcontacts/Importer;->showError(Ljava/lang/String;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/Importer;->showError(I)V <",
+                "> Lorg/waxworlds/edam/importcontacts/Doit;->importContacts()V <",
+                "> Lorg/waxworlds/edam/importcontacts/Doit;->onNext()V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onNext()V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity$1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/Intro;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.waxworlds.edam.importcontacts.WizardActivity",
+                    "next"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lorg/waxworlds/edam/importcontacts/Importer;->showFatalError(Ljava/lang/String;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/Importer;->showFatalError(I)V <",
+                "> Lorg/waxworlds/edam/importcontacts/Doit;->importContacts()V <",
+                "> Lorg/waxworlds/edam/importcontacts/Doit;->onNext()V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onNext()V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity$1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/Intro;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.waxworlds.edam.importcontacts.WizardActivity",
+                    "next"
+                ]
+            ]
+        }
+    },
+    "Lorg/waxworlds/edam/importcontacts/ConfigureVCF$3;-><init>(Lorg/waxworlds/edam/importcontacts/ConfigureVCF;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/waxworlds/edam/importcontacts/ConfigureVCF;->onCreateDialog(I)Landroid/app/Dialog; <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onNext()V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity$1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/Intro;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.waxworlds.edam.importcontacts.WizardActivity",
+                    "next"
+                ]
+            ]
+        }
+    },
+    "Lorg/waxworlds/edam/importcontacts/VCFImporter$VCard;->transcodeAsciiToUtf8(Ljava/nio/ByteBuffer;)Ljava/nio/ByteBuffer;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/waxworlds/edam/importcontacts/VCFImporter$VCard;->parseLine(Ljava/nio/ByteBuffer;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/VCFImporter;->importVCardFileContent([B <",
+                "> Lorg/waxworlds/edam/importcontacts/Doit;->importContacts()V <",
+                "> Lorg/waxworlds/edam/importcontacts/Doit;->onNext()V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onNext()V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity$1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/Intro;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.waxworlds.edam.importcontacts.WizardActivity",
+                    "next"
+                ]
+            ]
+        }
+    },
+    "Lorg/waxworlds/edam/importcontacts/Importer$ContactData$EmailData;->getType()I": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/waxworlds/edam/importcontacts/Importer;->importContactEmails(Landroid/net/Uri; <",
+                "> Lorg/waxworlds/edam/importcontacts/Doit;->importContacts()V <",
+                "> Lorg/waxworlds/edam/importcontacts/Doit;->onNext()V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onNext()V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity$1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/Intro;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.waxworlds.edam.importcontacts.WizardActivity",
+                    "next"
+                ]
+            ]
+        }
+    },
+    "Lorg/waxworlds/edam/importcontacts/Importer;->onImport()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/waxworlds/edam/importcontacts/Importer;->run()V <",
+                "> Lorg/waxworlds/edam/importcontacts/Doit;->importContacts()V <",
+                "> Lorg/waxworlds/edam/importcontacts/Doit;->onNext()V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onNext()V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity$1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/Intro;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.waxworlds.edam.importcontacts.WizardActivity",
+                    "next"
+                ]
+            ]
+        }
+    },
+    "Lorg/waxworlds/edam/importcontacts/ConfigureVCF$1;-><init>(Lorg/waxworlds/edam/importcontacts/ConfigureVCF;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/waxworlds/edam/importcontacts/ConfigureVCF;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onNext()V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity$1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/Intro;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.waxworlds.edam.importcontacts.WizardActivity",
+                    "next"
+                ]
+            ]
+        }
+    },
+    "Lorg/waxworlds/edam/importcontacts/Doit$3;-><init>(Lorg/waxworlds/edam/importcontacts/Doit;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/waxworlds/edam/importcontacts/Doit;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onNext()V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity$1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/Intro;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.waxworlds.edam.importcontacts.WizardActivity",
+                    "next"
+                ]
+            ]
+        }
+    },
+    "Lorg/waxworlds/edam/importcontacts/Importer;-><init>(Lorg/waxworlds/edam/importcontacts/Doit;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/waxworlds/edam/importcontacts/VCFImporter;-><init>(Lorg/waxworlds/edam/importcontacts/Doit;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/Doit;->importContacts()V <",
+                "> Lorg/waxworlds/edam/importcontacts/Doit;->onNext()V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onNext()V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity$1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/Intro;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.waxworlds.edam.importcontacts.WizardActivity",
+                    "next"
+                ]
+            ]
+        }
+    },
+    "Lorg/waxworlds/edam/importcontacts/Importer;->sanitiseEmailAddress(Ljava/lang/String;)Ljava/lang/String;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/waxworlds/edam/importcontacts/Importer;->importContactEmails(Landroid/net/Uri; <",
+                "> Lorg/waxworlds/edam/importcontacts/Doit;->importContacts()V <",
+                "> Lorg/waxworlds/edam/importcontacts/Doit;->onNext()V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onNext()V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity$1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/Intro;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.waxworlds.edam.importcontacts.WizardActivity",
+                    "next"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/waxworlds/edam/importcontacts/Importer;->buildContactsCache()V <",
+                "> Lorg/waxworlds/edam/importcontacts/Importer;->run()V <",
+                "> Lorg/waxworlds/edam/importcontacts/Doit;->importContacts()V <",
+                "> Lorg/waxworlds/edam/importcontacts/Doit;->onNext()V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onNext()V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity$1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/Intro;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.waxworlds.edam.importcontacts.WizardActivity",
+                    "next"
+                ]
+            ]
+        }
+    },
+    "Lorg/waxworlds/edam/importcontacts/ConfigureVCF;->access$5(Lorg/waxworlds/edam/importcontacts/ConfigureVCF;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/waxworlds/edam/importcontacts/ConfigureVCF$5;->onDismiss(Landroid/content/DialogInterface;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/ConfigureVCF;->onCreateDialog(I)Landroid/app/Dialog; <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onNext()V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity$1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/Intro;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.waxworlds.edam.importcontacts.WizardActivity",
+                    "next"
+                ]
+            ]
+        }
+    },
+    "Lorg/waxworlds/edam/importcontacts/ConfigureVCF;->onBrowse()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/waxworlds/edam/importcontacts/ConfigureVCF;->access$2(Lorg/waxworlds/edam/importcontacts/ConfigureVCF;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/ConfigureVCF$2;->onClick(Landroid/view/View;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/ConfigureVCF;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onNext()V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity$1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/Intro;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.waxworlds.edam.importcontacts.WizardActivity",
+                    "next"
+                ],
+                [
+                    "org.waxworlds.edam.importcontacts.ConfigureVCF",
+                    "path"
+                ]
+            ]
+        }
+    },
+    "Lorg/waxworlds/edam/importcontacts/VCFImporter;->importVCardFile(Ljava/io/File;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/waxworlds/edam/importcontacts/VCFImporter;->onImport()V <",
+                "> Lorg/waxworlds/edam/importcontacts/Doit;->importContacts()V <",
+                "> Lorg/waxworlds/edam/importcontacts/Doit;->onNext()V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onNext()V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity$1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/Intro;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.waxworlds.edam.importcontacts.WizardActivity",
+                    "next"
+                ]
+            ]
+        }
+    },
+    "Lorg/waxworlds/edam/importcontacts/Importer;->wake()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/waxworlds/edam/importcontacts/Doit$4;->onClick(Landroid/content/DialogInterface; <",
+                "> Lorg/waxworlds/edam/importcontacts/Doit;->onCreateDialog(I)Landroid/app/Dialog; <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onNext()V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity$1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/Intro;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.waxworlds.edam.importcontacts.WizardActivity",
+                    "next"
+                ]
+            ]
+        }
+    },
+    "Lorg/waxworlds/edam/importcontacts/FileChooser;->access$3(Lorg/waxworlds/edam/importcontacts/FileChooser;Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/waxworlds/edam/importcontacts/FileChooser$2;->onItemClick(Landroid/widget/AdapterView; <",
+                "> Lorg/waxworlds/edam/importcontacts/FileChooser;-><init>(Landroid/content/Context;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/ConfigureVCF;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onNext()V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity$1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/Intro;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.waxworlds.edam.importcontacts.WizardActivity",
+                    "next"
+                ]
+            ]
+        }
+    },
+    "Lorg/waxworlds/edam/importcontacts/Doit$4;-><init>(Lorg/waxworlds/edam/importcontacts/Doit;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/waxworlds/edam/importcontacts/Doit;->onCreateDialog(I)Landroid/app/Dialog; <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onNext()V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity$1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/Intro;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.waxworlds.edam.importcontacts.WizardActivity",
+                    "next"
+                ]
+            ]
+        }
+    },
+    "Lorg/waxworlds/edam/importcontacts/ConfigureVCF$5;-><init>(Lorg/waxworlds/edam/importcontacts/ConfigureVCF;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/waxworlds/edam/importcontacts/ConfigureVCF;->onCreateDialog(I)Landroid/app/Dialog; <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onNext()V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity$1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/Intro;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.waxworlds.edam.importcontacts.WizardActivity",
+                    "next"
+                ]
+            ]
+        }
+    },
+    "Lorg/waxworlds/edam/importcontacts/VCFImporter$VCard;->parseORG([Ljava/lang/String;Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/waxworlds/edam/importcontacts/VCFImporter$VCard;->parseLine(Ljava/nio/ByteBuffer;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/VCFImporter;->importVCardFileContent([B <",
+                "> Lorg/waxworlds/edam/importcontacts/Doit;->importContacts()V <",
+                "> Lorg/waxworlds/edam/importcontacts/Doit;->onNext()V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onNext()V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity$1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/Intro;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.waxworlds.edam.importcontacts.WizardActivity",
+                    "next"
+                ]
+            ]
+        }
+    },
+    "Lorg/waxworlds/edam/importcontacts/FileChooser;->access$0(Lorg/waxworlds/edam/importcontacts/FileChooser;)Landroid/app/Dialog;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/waxworlds/edam/importcontacts/FileChooser$1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/FileChooser;-><init>(Landroid/content/Context;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/ConfigureVCF;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onNext()V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity$1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/Intro;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.waxworlds.edam.importcontacts.WizardActivity",
+                    "next"
+                ],
+                [
+                    "org.waxworlds.edam.importcontacts.ConfigureVCF",
+                    "ok"
+                ]
+            ]
+        }
+    },
+    "Lorg/waxworlds/edam/importcontacts/VCFImporter$VCard;->parseEMAIL([Ljava/lang/String;Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/waxworlds/edam/importcontacts/VCFImporter$VCard;->parseLine(Ljava/nio/ByteBuffer;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/VCFImporter;->importVCardFileContent([B <",
+                "> Lorg/waxworlds/edam/importcontacts/Doit;->importContacts()V <",
+                "> Lorg/waxworlds/edam/importcontacts/Doit;->onNext()V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onNext()V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity$1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/Intro;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.waxworlds.edam.importcontacts.WizardActivity",
+                    "next"
+                ]
+            ]
+        }
+    },
+    "Lorg/waxworlds/edam/importcontacts/Doit$6;-><init>(Lorg/waxworlds/edam/importcontacts/Doit;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/waxworlds/edam/importcontacts/Doit;->onCreateDialog(I)Landroid/app/Dialog; <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onNext()V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity$1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/Intro;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.waxworlds.edam.importcontacts.WizardActivity",
+                    "next"
+                ]
+            ]
+        }
+    },
+    "Lorg/waxworlds/edam/importcontacts/FileChooser;->setMode(I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/waxworlds/edam/importcontacts/ConfigureVCF;->showBrowseDialog()V <",
+                "> Lorg/waxworlds/edam/importcontacts/ConfigureVCF;->access$5(Lorg/waxworlds/edam/importcontacts/ConfigureVCF;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/ConfigureVCF$5;->onDismiss(Landroid/content/DialogInterface;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/ConfigureVCF;->onCreateDialog(I)Landroid/app/Dialog; <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onNext()V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity$1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/Intro;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.waxworlds.edam.importcontacts.WizardActivity",
+                    "next"
+                ]
+            ]
+        }
+    },
+    "Lorg/waxworlds/edam/importcontacts/Importer;->wake(II)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/waxworlds/edam/importcontacts/Doit$4;->onClick(Landroid/content/DialogInterface; <",
+                "> Lorg/waxworlds/edam/importcontacts/Doit;->onCreateDialog(I)Landroid/app/Dialog; <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onNext()V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity$1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/Intro;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.waxworlds.edam.importcontacts.WizardActivity",
+                    "next"
+                ]
+            ]
+        }
+    },
+    "Lorg/waxworlds/edam/importcontacts/WizardActivity;-><init>()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/waxworlds/edam/importcontacts/Merge;-><init>()V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onNext()V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity$1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/Intro;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.waxworlds.edam.importcontacts.WizardActivity",
+                    "next"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/waxworlds/edam/importcontacts/Intro;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lorg/waxworlds/edam/importcontacts/Doit;-><init>()V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onNext()V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity$1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/Intro;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.waxworlds.edam.importcontacts.WizardActivity",
+                    "next"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lorg/waxworlds/edam/importcontacts/ConfigureVCF;-><init>()V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onNext()V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity$1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/Intro;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.waxworlds.edam.importcontacts.WizardActivity",
+                    "next"
+                ]
+            ]
+        }
+    },
+    "Lorg/waxworlds/edam/importcontacts/Merge;->setNextActivity(Ljava/lang/Class;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/waxworlds/edam/importcontacts/Merge;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onNext()V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity$1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/Intro;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.waxworlds.edam.importcontacts.WizardActivity",
+                    "next"
+                ]
+            ]
+        }
+    },
+    "Lorg/waxworlds/edam/importcontacts/Doit;->abortImport(Z)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/waxworlds/edam/importcontacts/Doit;->onActivityResult(I <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onNext()V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity$1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/Intro;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.waxworlds.edam.importcontacts.WizardActivity",
+                    "next"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/waxworlds/edam/importcontacts/Doit;->manualAbort(Z)V <",
+                "> Lorg/waxworlds/edam/importcontacts/Doit;->onPause()V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onNext()V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity$1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/Intro;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.waxworlds.edam.importcontacts.WizardActivity",
+                    "next"
+                ]
+            ]
+        }
+    },
+    "Lorg/waxworlds/edam/importcontacts/Importer;->setAbort()Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/waxworlds/edam/importcontacts/Doit;->abortImport(Z)V <",
+                "> Lorg/waxworlds/edam/importcontacts/Doit;->onActivityResult(I <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onNext()V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity$1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/Intro;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.waxworlds.edam.importcontacts.WizardActivity",
+                    "next"
+                ]
+            ]
+        }
+    },
+    "Lorg/waxworlds/edam/importcontacts/Doit$DoitHandler;-><init>(Lorg/waxworlds/edam/importcontacts/Doit;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/waxworlds/edam/importcontacts/Doit;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onNext()V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity$1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/Intro;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.waxworlds.edam.importcontacts.WizardActivity",
+                    "next"
+                ]
+            ]
+        }
+    },
+    "Lorg/waxworlds/edam/importcontacts/Doit;->access$13(Lorg/waxworlds/edam/importcontacts/Doit;)I": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/waxworlds/edam/importcontacts/Doit$DoitHandler;->handleMessage(Landroid/os/Message;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/Doit;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onNext()V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity$1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/WizardActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/waxworlds/edam/importcontacts/Intro;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.waxworlds.edam.importcontacts.WizardActivity",
+                    "next"
+                ]
+            ]
+        }
+    }
+}

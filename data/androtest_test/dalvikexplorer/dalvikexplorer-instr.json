@@ -1,0 +1,1114 @@
+{
+    "Lorg/jessies/dalvikexplorer/BetterArrayAdapter$ArrayFilter;-><init>(Lorg/jessies/dalvikexplorer/BetterArrayAdapter;Lorg/jessies/dalvikexplorer/BetterArrayAdapter$1;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/jessies/dalvikexplorer/BetterArrayAdapter;->getFilter()Landroid/widget/Filter; <",
+                "> Lorg/jessies/dalvikexplorer/DalvikExplorerActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.jessies.dalvikexplorer.DalvikExplorerActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lorg/jessies/dalvikexplorer/LocaleActivity;->describeNumberFormat(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/text/NumberFormat;[Ljava/lang/Number;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/jessies/dalvikexplorer/LocaleActivity;->describeLocale(Ljava/lang/String;)Ljava/lang/String; <",
+                "> Lorg/jessies/dalvikexplorer/LocaleActivity;->content(Ljava/lang/String;)Ljava/lang/String; <",
+                "> Lorg/jessies/dalvikexplorer/LocalesActivity;->onListItemClick(Landroid/widget/ListView;Landroid/view/View;IJ)V <",
+                "> Lorg/jessies/dalvikexplorer/DalvikExplorerActivity;-><clinit>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.jessies.dalvikexplorer.LocalesActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lorg/jessies/dalvikexplorer/DeviceActivity;->decodeImplementer(I)Ljava/lang/String;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/jessies/dalvikexplorer/DeviceActivity;->getDeviceDetailsAsString(Landroid/app/Activity;Landroid/view/WindowManager;)Ljava/lang/String; <",
+                "> Lorg/jessies/dalvikexplorer/DeviceActivity;->content(Ljava/lang/String;)Ljava/lang/String; <",
+                "> Lorg/jessies/dalvikexplorer/DalvikExplorerActivity;-><clinit>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.jessies.dalvikexplorer.DeviceActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lorg/jessies/dalvikexplorer/Utils;->prettySize(J)Ljava/lang/String;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/jessies/dalvikexplorer/FileSystemActivity$FileListItem;->toSubtitle()Ljava/lang/String; <",
+                "> Lorg/jessies/dalvikexplorer/BetterArrayAdapter$ArrayFilter;->performFiltering(Ljava/lang/CharSequence;)Landroid/widget/Filter$FilterResults; <",
+                "> Lorg/jessies/dalvikexplorer/BetterArrayAdapter;->getFilter()Landroid/widget/Filter; <",
+                "> Lorg/jessies/dalvikexplorer/DalvikExplorerActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.jessies.dalvikexplorer.DalvikExplorerActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/jessies/dalvikexplorer/FileSystemActivity$FileListItem;->toSubtitle()Ljava/lang/String; <",
+                "> Lorg/jessies/dalvikexplorer/BetterArrayAdapter;->createViewFromResource(ILandroid/view/View;Landroid/view/ViewGroup;I)Landroid/view/View; <",
+                "> Lorg/jessies/dalvikexplorer/BetterArrayAdapter;->getDropDownView(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View; <",
+                "> Lorg/jessies/dalvikexplorer/DalvikExplorerActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.jessies.dalvikexplorer.DalvikExplorerActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lorg/jessies/dalvikexplorer/DeviceActivity;->getDeviceDetailsAsString(Landroid/app/Activity;Landroid/view/WindowManager;)Ljava/lang/String; <",
+                "> Lorg/jessies/dalvikexplorer/DeviceActivity;->content(Ljava/lang/String;)Ljava/lang/String; <",
+                "> Lorg/jessies/dalvikexplorer/DalvikExplorerActivity;-><clinit>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.jessies.dalvikexplorer.DeviceActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lorg/jessies/dalvikexplorer/Compatibility$GingerbreadCompatibility;->describeFs(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; <",
+                "> Lorg/jessies/dalvikexplorer/FileSystemsActivity$FsListItem;->toSubtitle()Ljava/lang/String; <",
+                "> Lorg/jessies/dalvikexplorer/BetterArrayAdapter$ArrayFilter;->performFiltering(Ljava/lang/CharSequence;)Landroid/widget/Filter$FilterResults; <",
+                "> Lorg/jessies/dalvikexplorer/BetterArrayAdapter;->getFilter()Landroid/widget/Filter; <",
+                "> Lorg/jessies/dalvikexplorer/DalvikExplorerActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.jessies.dalvikexplorer.DalvikExplorerActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lorg/jessies/dalvikexplorer/Compatibility$GingerbreadCompatibility;->describeFs(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; <",
+                "> Lorg/jessies/dalvikexplorer/FileSystemsActivity$FsListItem;->toSubtitle()Ljava/lang/String; <",
+                "> Lorg/jessies/dalvikexplorer/BetterArrayAdapter;->createViewFromResource(ILandroid/view/View;Landroid/view/ViewGroup;I)Landroid/view/View; <",
+                "> Lorg/jessies/dalvikexplorer/BetterArrayAdapter;->getDropDownView(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View; <",
+                "> Lorg/jessies/dalvikexplorer/DalvikExplorerActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.jessies.dalvikexplorer.DalvikExplorerActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lorg/jessies/dalvikexplorer/SensorsActivity;->getListView()Landroid/widget/ListView;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/jessies/dalvikexplorer/SensorsActivity;->onSensorChanged(Landroid/hardware/SensorEvent;)V <",
+                "> Lorg/jessies/dalvikexplorer/DalvikExplorerActivity;-><clinit>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.jessies.dalvikexplorer.SensorsActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lorg/jessies/dalvikexplorer/TextViewActivity;->onCreateContextMenu(Landroid/view/ContextMenu;Landroid/view/View;Landroid/view/ContextMenu$ContextMenuInfo;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/jessies/dalvikexplorer/FileViewerActivity;->onCreateContextMenu(Landroid/view/ContextMenu;Landroid/view/View;Landroid/view/ContextMenu$ContextMenuInfo;)V <",
+                "> Lorg/jessies/dalvikexplorer/FileSystemActivity;->onListItemClick(Landroid/widget/ListView;Landroid/view/View;IJ)V <",
+                "> Lorg/jessies/dalvikexplorer/FileSystemsActivity;->onListItemClick(Landroid/widget/ListView;Landroid/view/View;IJ)V <",
+                "> Lorg/jessies/dalvikexplorer/DalvikExplorerActivity;-><clinit>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.jessies.dalvikexplorer.FileSystemsActivity",
+                    "<unknown>"
+                ],
+                [
+                    "org.jessies.dalvikexplorer.FileSystemActivity",
+                    "<unknown>"
+                ],
+                [
+                    "org.jessies.dalvikexplorer.FileViewerActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lorg/jessies/dalvikexplorer/LocaleCountriesActivity;->setTitle(Ljava/lang/CharSequence;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/jessies/dalvikexplorer/LocaleCountriesActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/jessies/dalvikexplorer/LocalesActivity;->onListItemClick(Landroid/widget/ListView;Landroid/view/View;IJ)V <",
+                "> Lorg/jessies/dalvikexplorer/DalvikExplorerActivity;-><clinit>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.jessies.dalvikexplorer.LocalesActivity",
+                    "<unknown>"
+                ],
+                [
+                    "org.jessies.dalvikexplorer.LocaleCountriesActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lorg/jessies/dalvikexplorer/CharsetActivity;->append(Ljava/lang/StringBuilder;Ljava/lang/CharSequence;Ljava/lang/Object;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/jessies/dalvikexplorer/CharsetActivity;->describeCharset(Ljava/lang/String;)Ljava/lang/String; <",
+                "> Lorg/jessies/dalvikexplorer/CharsetActivity;->content(Ljava/lang/String;)Ljava/lang/String; <",
+                "> Lorg/jessies/dalvikexplorer/CharsetsActivity;->onListItemClick(Landroid/widget/ListView;Landroid/view/View;IJ)V <",
+                "> Lorg/jessies/dalvikexplorer/DalvikExplorerActivity;-><clinit>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.jessies.dalvikexplorer.CharsetsActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lorg/jessies/dalvikexplorer/TimeZoneActivity;->formatTime(Ljava/text/DateFormat;I)Ljava/lang/String;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/jessies/dalvikexplorer/TimeZoneActivity;->describeTransitions(Ljava/lang/StringBuilder;Ljava/util/TimeZone;)V <",
+                "> Lorg/jessies/dalvikexplorer/TimeZoneActivity;->describeTimeZone(Ljava/lang/String;)Ljava/lang/String; <",
+                "> Lorg/jessies/dalvikexplorer/TimeZoneActivity;->content(Ljava/lang/String;)Ljava/lang/String; <",
+                "> Lorg/jessies/dalvikexplorer/TimeZonesActivity;->onListItemClick(Landroid/widget/ListView;Landroid/view/View;IJ)V <",
+                "> Lorg/jessies/dalvikexplorer/DalvikExplorerActivity;-><clinit>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.jessies.dalvikexplorer.TimeZonesActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lorg/jessies/dalvikexplorer/CharsetsActivity$CharsetListItem;->access$000(Lorg/jessies/dalvikexplorer/CharsetsActivity$CharsetListItem;)Ljava/nio/charset/Charset;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/jessies/dalvikexplorer/CharsetsActivity;->onListItemClick(Landroid/widget/ListView;Landroid/view/View;IJ)V <",
+                "> Lorg/jessies/dalvikexplorer/DalvikExplorerActivity;-><clinit>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.jessies.dalvikexplorer.CharsetsActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lorg/jessies/dalvikexplorer/LocaleActivity;->localeDataClass()Ljava/lang/Class;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/jessies/dalvikexplorer/LocaleActivity;->getLocaleDataInstance(Ljava/util/Locale;)Ljava/lang/Object; <",
+                "> Lorg/jessies/dalvikexplorer/LocaleActivity;->describeLocale(Ljava/lang/String;)Ljava/lang/String; <",
+                "> Lorg/jessies/dalvikexplorer/LocaleActivity;->content(Ljava/lang/String;)Ljava/lang/String; <",
+                "> Lorg/jessies/dalvikexplorer/LocalesActivity;->onListItemClick(Landroid/widget/ListView;Landroid/view/View;IJ)V <",
+                "> Lorg/jessies/dalvikexplorer/DalvikExplorerActivity;-><clinit>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.jessies.dalvikexplorer.LocalesActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/jessies/dalvikexplorer/LocaleActivity;->hasLocaleData()Z <",
+                "> Lorg/jessies/dalvikexplorer/LocaleActivity;->describeLocale(Ljava/lang/String;)Ljava/lang/String; <",
+                "> Lorg/jessies/dalvikexplorer/LocaleActivity;->content(Ljava/lang/String;)Ljava/lang/String; <",
+                "> Lorg/jessies/dalvikexplorer/LocalesActivity;->onListItemClick(Landroid/widget/ListView;Landroid/view/View;IJ)V <",
+                "> Lorg/jessies/dalvikexplorer/DalvikExplorerActivity;-><clinit>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.jessies.dalvikexplorer.LocalesActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lorg/jessies/dalvikexplorer/BetterArrayAdapter$Subtitleable;->toSubtitle()Ljava/lang/String;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/jessies/dalvikexplorer/BetterArrayAdapter$ArrayFilter;->performFiltering(Ljava/lang/CharSequence;)Landroid/widget/Filter$FilterResults; <",
+                "> Lorg/jessies/dalvikexplorer/BetterArrayAdapter;->getFilter()Landroid/widget/Filter; <",
+                "> Lorg/jessies/dalvikexplorer/DalvikExplorerActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.jessies.dalvikexplorer.DalvikExplorerActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/jessies/dalvikexplorer/BetterArrayAdapter;->createViewFromResource(ILandroid/view/View;Landroid/view/ViewGroup;I)Landroid/view/View; <",
+                "> Lorg/jessies/dalvikexplorer/BetterArrayAdapter;->getView(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View; <",
+                "> Lorg/jessies/dalvikexplorer/DalvikExplorerActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.jessies.dalvikexplorer.DalvikExplorerActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lorg/jessies/dalvikexplorer/TextViewActivity;->getTitle()Ljava/lang/CharSequence;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/jessies/dalvikexplorer/TextViewActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lorg/jessies/dalvikexplorer/FileViewerActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lorg/jessies/dalvikexplorer/FileSystemActivity;->onListItemClick(Landroid/widget/ListView;Landroid/view/View;IJ)V <",
+                "> Lorg/jessies/dalvikexplorer/FileSystemsActivity;->onListItemClick(Landroid/widget/ListView;Landroid/view/View;IJ)V <",
+                "> Lorg/jessies/dalvikexplorer/DalvikExplorerActivity;-><clinit>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.jessies.dalvikexplorer.FileSystemsActivity",
+                    "<unknown>"
+                ],
+                [
+                    "org.jessies.dalvikexplorer.FileSystemActivity",
+                    "<unknown>"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.jessies.dalvikexplorer.FileViewerActivity",
+                    "<unknown>"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.jessies.dalvikexplorer.TextViewActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lorg/jessies/dalvikexplorer/LocaleActivity;->describeString(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/jessies/dalvikexplorer/LocaleActivity;->describeLocale(Ljava/lang/String;)Ljava/lang/String; <",
+                "> Lorg/jessies/dalvikexplorer/LocaleActivity;->content(Ljava/lang/String;)Ljava/lang/String; <",
+                "> Lorg/jessies/dalvikexplorer/LocalesActivity;->onListItemClick(Landroid/widget/ListView;Landroid/view/View;IJ)V <",
+                "> Lorg/jessies/dalvikexplorer/DalvikExplorerActivity;-><clinit>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.jessies.dalvikexplorer.LocalesActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lorg/jessies/dalvikexplorer/Compatibility$HoneycombCompatibility$2;-><init>(Lorg/jessies/dalvikexplorer/Compatibility$HoneycombCompatibility;Landroid/app/ListActivity;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/jessies/dalvikexplorer/Compatibility$HoneycombCompatibility;->configureSearchView(Landroid/app/ListActivity;Landroid/view/Menu;)V <",
+                "> Lorg/jessies/dalvikexplorer/BetterListActivity;->onCreateOptionsMenu(Landroid/view/Menu;)Z <",
+                "> Lorg/jessies/dalvikexplorer/TimeZonesActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/jessies/dalvikexplorer/DalvikExplorerActivity;-><clinit>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.jessies.dalvikexplorer.BetterListActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lorg/jessies/dalvikexplorer/LocalesActivity;->setListAdapter(Landroid/widget/ListAdapter;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/jessies/dalvikexplorer/LocalesActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/jessies/dalvikexplorer/DalvikExplorerActivity;-><clinit>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.jessies.dalvikexplorer.LocalesActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lorg/jessies/dalvikexplorer/DalvikExplorerActivity;->setTitle(Ljava/lang/CharSequence;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/jessies/dalvikexplorer/DalvikExplorerActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.jessies.dalvikexplorer.DalvikExplorerActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lorg/jessies/dalvikexplorer/FileSystemsActivity$FsListItem;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/jessies/dalvikexplorer/FileSystemsActivity$1;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/jessies/dalvikexplorer/FileSystemsActivity;->fileSystems()Ljava/util/List; <",
+                "> Lorg/jessies/dalvikexplorer/FileSystemsActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/jessies/dalvikexplorer/DalvikExplorerActivity;-><clinit>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/jessies/dalvikexplorer/FileSystemActivity;->finish()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/jessies/dalvikexplorer/FileSystemActivity;->directoryItems(Ljava/lang/String;)Ljava/util/List; <",
+                "> Lorg/jessies/dalvikexplorer/FileSystemActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/jessies/dalvikexplorer/FileSystemsActivity;->onListItemClick(Landroid/widget/ListView;Landroid/view/View;IJ)V <",
+                "> Lorg/jessies/dalvikexplorer/DalvikExplorerActivity;-><clinit>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.jessies.dalvikexplorer.FileSystemsActivity",
+                    "<unknown>"
+                ],
+                [
+                    "org.jessies.dalvikexplorer.FileSystemActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lorg/jessies/dalvikexplorer/SensorItem;-><init>(Ljava/util/HashMap;Landroid/hardware/Sensor;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/jessies/dalvikexplorer/SensorsActivity;->gatherSensors()Ljava/util/List; <",
+                "> Lorg/jessies/dalvikexplorer/SensorsActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/jessies/dalvikexplorer/DalvikExplorerActivity;-><clinit>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/jessies/dalvikexplorer/BuildActivity;->append(Ljava/lang/StringBuilder;Ljava/lang/CharSequence;Ljava/lang/Object;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/jessies/dalvikexplorer/BuildActivity;->getBuildDetailsAsString(Landroid/app/Activity;Landroid/view/WindowManager;)Ljava/lang/String; <",
+                "> Lorg/jessies/dalvikexplorer/BuildActivity;->content(Ljava/lang/String;)Ljava/lang/String; <",
+                "> Lorg/jessies/dalvikexplorer/DalvikExplorerActivity;-><clinit>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.jessies.dalvikexplorer.BuildActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lorg/jessies/dalvikexplorer/FileSystemsActivity;->setListAdapter(Landroid/widget/ListAdapter;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/jessies/dalvikexplorer/FileSystemsActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/jessies/dalvikexplorer/DalvikExplorerActivity;-><clinit>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.jessies.dalvikexplorer.FileSystemsActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lorg/jessies/dalvikexplorer/FileSystemActivity$FileListItem;-><init>(Ljava/io/File;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/jessies/dalvikexplorer/FileSystemActivity$FileListItem;-><init>(Ljava/io/File;Lorg/jessies/dalvikexplorer/FileSystemActivity$1;)V <",
+                "> Lorg/jessies/dalvikexplorer/FileSystemActivity;->directoryItems(Ljava/lang/String;)Ljava/util/List; <",
+                "> Lorg/jessies/dalvikexplorer/FileSystemActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/jessies/dalvikexplorer/FileSystemsActivity;->onListItemClick(Landroid/widget/ListView;Landroid/view/View;IJ)V <",
+                "> Lorg/jessies/dalvikexplorer/DalvikExplorerActivity;-><clinit>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.jessies.dalvikexplorer.FileSystemsActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lorg/jessies/dalvikexplorer/LocaleActivity;->unicodeString(Ljava/lang/String;)Ljava/lang/String;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/jessies/dalvikexplorer/LocaleActivity;->unicodeString(C)Ljava/lang/String; <",
+                "> Lorg/jessies/dalvikexplorer/LocaleActivity;->describeChar(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V <",
+                "> Lorg/jessies/dalvikexplorer/LocaleActivity;->describeLocale(Ljava/lang/String;)Ljava/lang/String; <",
+                "> Lorg/jessies/dalvikexplorer/LocaleActivity;->content(Ljava/lang/String;)Ljava/lang/String; <",
+                "> Lorg/jessies/dalvikexplorer/LocalesActivity;->onListItemClick(Landroid/widget/ListView;Landroid/view/View;IJ)V <",
+                "> Lorg/jessies/dalvikexplorer/DalvikExplorerActivity;-><clinit>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.jessies.dalvikexplorer.LocalesActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/jessies/dalvikexplorer/LocaleActivity;->describeString(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V <",
+                "> Lorg/jessies/dalvikexplorer/LocaleActivity;->describeLocale(Ljava/lang/String;)Ljava/lang/String; <",
+                "> Lorg/jessies/dalvikexplorer/LocaleActivity;->content(Ljava/lang/String;)Ljava/lang/String; <",
+                "> Lorg/jessies/dalvikexplorer/LocalesActivity;->onListItemClick(Landroid/widget/ListView;Landroid/view/View;IJ)V <",
+                "> Lorg/jessies/dalvikexplorer/DalvikExplorerActivity;-><clinit>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.jessies.dalvikexplorer.LocalesActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lorg/jessies/dalvikexplorer/LocaleActivity;->describeDecimalFormatSymbols(Ljava/lang/StringBuilder;Ljava/text/DecimalFormatSymbols;)V <",
+                "> Lorg/jessies/dalvikexplorer/LocaleActivity;->describeLocale(Ljava/lang/String;)Ljava/lang/String; <",
+                "> Lorg/jessies/dalvikexplorer/LocaleActivity;->content(Ljava/lang/String;)Ljava/lang/String; <",
+                "> Lorg/jessies/dalvikexplorer/LocalesActivity;->onListItemClick(Landroid/widget/ListView;Landroid/view/View;IJ)V <",
+                "> Lorg/jessies/dalvikexplorer/DalvikExplorerActivity;-><clinit>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.jessies.dalvikexplorer.LocalesActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lorg/jessies/dalvikexplorer/LocaleActivity;->describeLocale(Ljava/lang/String;)Ljava/lang/String; <",
+                "> Lorg/jessies/dalvikexplorer/LocaleActivity;->content(Ljava/lang/String;)Ljava/lang/String; <",
+                "> Lorg/jessies/dalvikexplorer/LocalesActivity;->onListItemClick(Landroid/widget/ListView;Landroid/view/View;IJ)V <",
+                "> Lorg/jessies/dalvikexplorer/DalvikExplorerActivity;-><clinit>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.jessies.dalvikexplorer.LocalesActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lorg/jessies/dalvikexplorer/DalvikExplorerActivity$NamedActivity;->access$100(Lorg/jessies/dalvikexplorer/DalvikExplorerActivity$NamedActivity;)Ljava/lang/Class;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/jessies/dalvikexplorer/DalvikExplorerActivity;->onListItemClick(Landroid/widget/ListView;Landroid/view/View;IJ)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.jessies.dalvikexplorer.DalvikExplorerActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lorg/jessies/dalvikexplorer/TextViewActivity;->mail(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/jessies/dalvikexplorer/TextViewActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lorg/jessies/dalvikexplorer/FileViewerActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lorg/jessies/dalvikexplorer/FileSystemActivity;->onListItemClick(Landroid/widget/ListView;Landroid/view/View;IJ)V <",
+                "> Lorg/jessies/dalvikexplorer/FileSystemsActivity;->onListItemClick(Landroid/widget/ListView;Landroid/view/View;IJ)V <",
+                "> Lorg/jessies/dalvikexplorer/DalvikExplorerActivity;-><clinit>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.jessies.dalvikexplorer.FileSystemsActivity",
+                    "<unknown>"
+                ],
+                [
+                    "org.jessies.dalvikexplorer.FileSystemActivity",
+                    "<unknown>"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.jessies.dalvikexplorer.FileViewerActivity",
+                    "<unknown>"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.jessies.dalvikexplorer.TextViewActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lorg/jessies/dalvikexplorer/TimeZonesActivity$TimeZoneListItem;-><init>(Ljava/util/TimeZone;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/jessies/dalvikexplorer/TimeZonesActivity$TimeZoneListItem;-><init>(Ljava/util/TimeZone;Lorg/jessies/dalvikexplorer/TimeZonesActivity$1;)V <",
+                "> Lorg/jessies/dalvikexplorer/TimeZonesActivity;->gatherTimeZones()Ljava/util/List; <",
+                "> Lorg/jessies/dalvikexplorer/TimeZonesActivity;->updateTimeZones()V <",
+                "> Lorg/jessies/dalvikexplorer/TimeZonesActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/jessies/dalvikexplorer/DalvikExplorerActivity;-><clinit>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/jessies/dalvikexplorer/LocaleActivity;->describeStringArray(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;[Ljava/lang/String;)[Ljava/lang/String;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/jessies/dalvikexplorer/LocaleActivity;->describeLocale(Ljava/lang/String;)Ljava/lang/String; <",
+                "> Lorg/jessies/dalvikexplorer/LocaleActivity;->content(Ljava/lang/String;)Ljava/lang/String; <",
+                "> Lorg/jessies/dalvikexplorer/LocalesActivity;->onListItemClick(Landroid/widget/ListView;Landroid/view/View;IJ)V <",
+                "> Lorg/jessies/dalvikexplorer/DalvikExplorerActivity;-><clinit>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.jessies.dalvikexplorer.LocalesActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lorg/jessies/dalvikexplorer/BetterListActivity;->onPause()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/jessies/dalvikexplorer/SensorsActivity;->onPause()V <",
+                "> Lorg/jessies/dalvikexplorer/DalvikExplorerActivity;-><clinit>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/jessies/dalvikexplorer/EnvironmentVariablesActivity;->getEnvironmentAsString()Ljava/lang/String;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/jessies/dalvikexplorer/EnvironmentVariablesActivity;->content(Ljava/lang/String;)Ljava/lang/String; <",
+                "> Lorg/jessies/dalvikexplorer/DalvikExplorerActivity;-><clinit>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/jessies/dalvikexplorer/LocaleCountriesActivity;->gatherLocales(Ljava/lang/String;)Ljava/util/List;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/jessies/dalvikexplorer/LocaleCountriesActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/jessies/dalvikexplorer/LocalesActivity;->onListItemClick(Landroid/widget/ListView;Landroid/view/View;IJ)V <",
+                "> Lorg/jessies/dalvikexplorer/DalvikExplorerActivity;-><clinit>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.jessies.dalvikexplorer.LocalesActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lorg/jessies/dalvikexplorer/Utils;->offsetString(IZZ)Ljava/lang/String;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/jessies/dalvikexplorer/TimeZonesActivity$TimeZoneListItem;->toSubtitle()Ljava/lang/String; <",
+                "> Lorg/jessies/dalvikexplorer/BetterArrayAdapter$ArrayFilter;->performFiltering(Ljava/lang/CharSequence;)Landroid/widget/Filter$FilterResults; <",
+                "> Lorg/jessies/dalvikexplorer/BetterArrayAdapter;->getFilter()Landroid/widget/Filter; <",
+                "> Lorg/jessies/dalvikexplorer/DalvikExplorerActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.jessies.dalvikexplorer.DalvikExplorerActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/jessies/dalvikexplorer/TimeZonesActivity$TimeZoneListItem;->toSubtitle()Ljava/lang/String; <",
+                "> Lorg/jessies/dalvikexplorer/BetterArrayAdapter;->createViewFromResource(ILandroid/view/View;Landroid/view/ViewGroup;I)Landroid/view/View; <",
+                "> Lorg/jessies/dalvikexplorer/BetterArrayAdapter;->getDropDownView(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View; <",
+                "> Lorg/jessies/dalvikexplorer/DalvikExplorerActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.jessies.dalvikexplorer.DalvikExplorerActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lorg/jessies/dalvikexplorer/TimeZoneActivity;->describeTimeZone(Ljava/lang/String;)Ljava/lang/String; <",
+                "> Lorg/jessies/dalvikexplorer/TimeZoneActivity;->content(Ljava/lang/String;)Ljava/lang/String; <",
+                "> Lorg/jessies/dalvikexplorer/TimeZonesActivity;->onListItemClick(Landroid/widget/ListView;Landroid/view/View;IJ)V <",
+                "> Lorg/jessies/dalvikexplorer/DalvikExplorerActivity;-><clinit>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.jessies.dalvikexplorer.TimeZonesActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lorg/jessies/dalvikexplorer/DeviceActivity$MemInfo;-><init>()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/jessies/dalvikexplorer/DeviceActivity;->readMemInfo()Lorg/jessies/dalvikexplorer/DeviceActivity$MemInfo; <",
+                "> Lorg/jessies/dalvikexplorer/DeviceActivity;->getDeviceDetailsAsString(Landroid/app/Activity;Landroid/view/WindowManager;)Ljava/lang/String; <",
+                "> Lorg/jessies/dalvikexplorer/DeviceActivity;->content(Ljava/lang/String;)Ljava/lang/String; <",
+                "> Lorg/jessies/dalvikexplorer/DalvikExplorerActivity;-><clinit>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.jessies.dalvikexplorer.DeviceActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lorg/jessies/dalvikexplorer/TimeZoneActivity;->describeTimeZone(Ljava/lang/String;)Ljava/lang/String;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/jessies/dalvikexplorer/TimeZoneActivity;->content(Ljava/lang/String;)Ljava/lang/String; <",
+                "> Lorg/jessies/dalvikexplorer/TimeZonesActivity;->onListItemClick(Landroid/widget/ListView;Landroid/view/View;IJ)V <",
+                "> Lorg/jessies/dalvikexplorer/DalvikExplorerActivity;-><clinit>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.jessies.dalvikexplorer.TimeZonesActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lorg/jessies/dalvikexplorer/FileSystemActivity;->directoryItems(Ljava/lang/String;)Ljava/util/List;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/jessies/dalvikexplorer/FileSystemActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/jessies/dalvikexplorer/FileSystemsActivity;->onListItemClick(Landroid/widget/ListView;Landroid/view/View;IJ)V <",
+                "> Lorg/jessies/dalvikexplorer/DalvikExplorerActivity;-><clinit>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.jessies.dalvikexplorer.FileSystemsActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lorg/jessies/dalvikexplorer/BetterListActivity$1;-><init>(Lorg/jessies/dalvikexplorer/BetterListActivity;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/jessies/dalvikexplorer/BetterListActivity;->onResume()V <",
+                "> Lorg/jessies/dalvikexplorer/SensorsActivity;->onResume()V <",
+                "> Lorg/jessies/dalvikexplorer/DalvikExplorerActivity;-><clinit>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.jessies.dalvikexplorer.BetterListActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lorg/jessies/dalvikexplorer/TextViewActivity;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/jessies/dalvikexplorer/TextViewActivity;->copyToClipboard(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z <",
+                "> Lorg/jessies/dalvikexplorer/TextViewActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lorg/jessies/dalvikexplorer/FileViewerActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lorg/jessies/dalvikexplorer/FileSystemActivity;->onListItemClick(Landroid/widget/ListView;Landroid/view/View;IJ)V <",
+                "> Lorg/jessies/dalvikexplorer/FileSystemsActivity;->onListItemClick(Landroid/widget/ListView;Landroid/view/View;IJ)V <",
+                "> Lorg/jessies/dalvikexplorer/DalvikExplorerActivity;-><clinit>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.jessies.dalvikexplorer.FileSystemsActivity",
+                    "<unknown>"
+                ],
+                [
+                    "org.jessies.dalvikexplorer.FileSystemActivity",
+                    "<unknown>"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.jessies.dalvikexplorer.FileViewerActivity",
+                    "<unknown>"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.jessies.dalvikexplorer.TextViewActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lorg/jessies/dalvikexplorer/BetterListActivity;->access$000(Lorg/jessies/dalvikexplorer/BetterListActivity;)Landroid/os/Parcelable;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/jessies/dalvikexplorer/BetterListActivity$1;->run()V <",
+                "> Lorg/jessies/dalvikexplorer/BetterListActivity;->onResume()V <",
+                "> Lorg/jessies/dalvikexplorer/SensorsActivity;->onResume()V <",
+                "> Lorg/jessies/dalvikexplorer/DalvikExplorerActivity;-><clinit>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.jessies.dalvikexplorer.BetterListActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lorg/jessies/dalvikexplorer/DalvikExplorerActivity$NamedActivity;-><init>(Ljava/lang/String;Ljava/lang/Class;Lorg/jessies/dalvikexplorer/DalvikExplorerActivity$1;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/jessies/dalvikexplorer/DalvikExplorerActivity;-><clinit>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/jessies/dalvikexplorer/DeviceActivity;->getWindowManager()Landroid/view/WindowManager;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/jessies/dalvikexplorer/DeviceActivity;->content(Ljava/lang/String;)Ljava/lang/String; <",
+                "> Lorg/jessies/dalvikexplorer/DalvikExplorerActivity;-><clinit>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.jessies.dalvikexplorer.DeviceActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lorg/jessies/dalvikexplorer/BetterListActivity;->getListView()Landroid/widget/ListView;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/jessies/dalvikexplorer/BetterListActivity;->onResume()V <",
+                "> Lorg/jessies/dalvikexplorer/SensorsActivity;->onResume()V <",
+                "> Lorg/jessies/dalvikexplorer/DalvikExplorerActivity;-><clinit>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.jessies.dalvikexplorer.BetterListActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/jessies/dalvikexplorer/BetterListActivity;->onSaveInstanceState(Landroid/os/Bundle;)V <",
+                "> Lorg/jessies/dalvikexplorer/TimeZonesActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/jessies/dalvikexplorer/DalvikExplorerActivity;-><clinit>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.jessies.dalvikexplorer.BetterListActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lorg/jessies/dalvikexplorer/BetterListActivity$1;->run()V <",
+                "> Lorg/jessies/dalvikexplorer/BetterListActivity;->onResume()V <",
+                "> Lorg/jessies/dalvikexplorer/SensorsActivity;->onResume()V <",
+                "> Lorg/jessies/dalvikexplorer/DalvikExplorerActivity;-><clinit>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.jessies.dalvikexplorer.BetterListActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lorg/jessies/dalvikexplorer/BetterListActivity;->showSoftKeyboard()V <",
+                "> Lorg/jessies/dalvikexplorer/BetterListActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lorg/jessies/dalvikexplorer/TimeZonesActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/jessies/dalvikexplorer/DalvikExplorerActivity;-><clinit>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.jessies.dalvikexplorer.BetterListActivity",
+                    "menu_search"
+                ],
+                [
+                    "org.jessies.dalvikexplorer.BetterListActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lorg/jessies/dalvikexplorer/BetterListActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/jessies/dalvikexplorer/SensorsActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/jessies/dalvikexplorer/DalvikExplorerActivity;-><clinit>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.jessies.dalvikexplorer.BetterListActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lorg/jessies/dalvikexplorer/Compatibility$PreGingerbreadCompatibility;-><init>()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/jessies/dalvikexplorer/Compatibility;->get()Lorg/jessies/dalvikexplorer/Compatibility; <",
+                "> Lorg/jessies/dalvikexplorer/BetterListActivity;->onCreateOptionsMenu(Landroid/view/Menu;)Z <",
+                "> Lorg/jessies/dalvikexplorer/TimeZonesActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/jessies/dalvikexplorer/DalvikExplorerActivity;-><clinit>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.jessies.dalvikexplorer.BetterListActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/jessies/dalvikexplorer/Compatibility$GingerbreadCompatibility;-><init>()V <",
+                "> Lorg/jessies/dalvikexplorer/Compatibility;->get()Lorg/jessies/dalvikexplorer/Compatibility; <",
+                "> Lorg/jessies/dalvikexplorer/BetterListActivity;->onCreateOptionsMenu(Landroid/view/Menu;)Z <",
+                "> Lorg/jessies/dalvikexplorer/TimeZonesActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/jessies/dalvikexplorer/DalvikExplorerActivity;-><clinit>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.jessies.dalvikexplorer.BetterListActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lorg/jessies/dalvikexplorer/CharsetsActivity;->gatherCharsets()Ljava/util/List;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/jessies/dalvikexplorer/CharsetsActivity;-><clinit>()V <",
+                "> Lorg/jessies/dalvikexplorer/DalvikExplorerActivity;-><clinit>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    }
+}

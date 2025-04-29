@@ -1,0 +1,32 @@
+MISSING ID > Lcom/easwareapps/g2l/AddGestureActivity;->onClick(Landroid/view/View;)V <
+COMPONENT CONCAT > Lcom/easwareapps/g2l/fragment/AppCompatPreferenceActivity;->getSupportActionBar()Landroid/support/v7/app/ActionBar; < extends Landroid/preference/PreferenceActivity, implements []
+COMPONENT CONCAT > Lcom/easwareapps/g2l/fragment/AppCompatPreferenceActivity;->onPostResume()V < extends Landroid/preference/PreferenceActivity, implements []
+COMPONENT CONCAT > Lcom/easwareapps/g2l/fragment/AppCompatPreferenceActivity;->invalidateOptionsMenu()V < extends Landroid/preference/PreferenceActivity, implements []
+COMPONENT CONCAT > Lcom/easwareapps/g2l/fragment/AppCompatPreferenceActivity;->onDestroy()V < extends Landroid/preference/PreferenceActivity, implements []
+COMPONENT CONCAT > Lcom/easwareapps/g2l/fragment/AppCompatPreferenceActivity;->onStop()V < extends Landroid/preference/PreferenceActivity, implements []
+COMPONENT CONCAT > Lcom/easwareapps/g2l/fragment/AppCompatPreferenceActivity;->setContentView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V < extends Landroid/preference/PreferenceActivity, implements []
+COMPONENT CONCAT > Lcom/easwareapps/g2l/fragment/AppCompatPreferenceActivity;->onConfigurationChanged(Landroid/content/res/Configuration;)V < extends Landroid/preference/PreferenceActivity, implements []
+COMPONENT CONCAT > Lcom/easwareapps/g2l/fragment/AppCompatPreferenceActivity;->onTitleChanged(Ljava/lang/CharSequence;I)V < extends Landroid/preference/PreferenceActivity, implements []
+COMPONENT CONCAT > Lcom/easwareapps/g2l/fragment/AppCompatPreferenceActivity;->onCreate(Landroid/os/Bundle;)V < extends Landroid/preference/PreferenceActivity, implements []
+COMPONENT CONCAT > Lcom/easwareapps/g2l/fragment/AppCompatPreferenceActivity;->setContentView(I)V < extends Landroid/preference/PreferenceActivity, implements []
+COMPONENT CONCAT > Lcom/easwareapps/g2l/fragment/AppCompatPreferenceActivity;->setContentView(Landroid/view/View;)V < extends Landroid/preference/PreferenceActivity, implements []
+COMPONENT CONCAT > Lcom/easwareapps/g2l/fragment/AppCompatPreferenceActivity;->addContentView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V < extends Landroid/preference/PreferenceActivity, implements []
+COMPONENT CONCAT > Lcom/easwareapps/g2l/fragment/AppCompatPreferenceActivity;->setSupportActionBar(Landroid/support/v7/widget/Toolbar;)V < extends Landroid/preference/PreferenceActivity, implements []
+COMPONENT CONCAT > Lcom/easwareapps/g2l/fragment/AppCompatPreferenceActivity;->getMenuInflater()Landroid/view/MenuInflater; < extends Landroid/preference/PreferenceActivity, implements []
+COMPONENT CONCAT > Lcom/easwareapps/g2l/fragment/AppCompatPreferenceActivity;->onPostCreate(Landroid/os/Bundle;)V < extends Landroid/preference/PreferenceActivity, implements []
+COMPONENT CONCAT > Lcom/easwareapps/g2l/fragment/SettingsFragment;->onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View; < extends Landroid/support/v4/app/Fragment, implements ['Landroid/content/ComponentCallbacks', 'Landroid/view/View$OnCreateContextMenuListener']
+MISSING ID > Lcom/easwareapps/g2l/fragment/QuickLauncherFragment;->onClick(Landroid/view/View;)V <
+COMPONENT CONCAT > Lcom/easwareapps/g2l/NavigationDrawerFragment;->onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View; < extends Landroid/app/Fragment, implements []
+MISSING ID > Lcom/easwareapps/g2l/QLIconChangerActivity;->onCreateOptionsMenu(Landroid/view/Menu;)Z <
+MISSING ID > Lcom/easwareapps/g2l/fragment/SwipeLauncherFragment;->onClick(Landroid/view/View;)V <
+MISSING ID > Lcom/easwareapps/g2l/adapter/GestureAdapter$ViewHolder$2;->onLongClick(Landroid/view/View;)Z <
+COMPONENT CONCAT > Lcom/easwareapps/g2l/NavigationDrawerFragment;->onCreate(Landroid/os/Bundle;)V < extends Landroid/app/Fragment, implements []
+MISSING ID > Lcom/easwareapps/g2l/service/FloatingWidgetService$9;->onTouch(Landroid/view/View;Landroid/view/MotionEvent;)Z <
+MISSING ID > Lcom/easwareapps/g2l/fragment/QuickLauncherFragment;->onCheckedChanged(Landroid/widget/CompoundButton;Z)V <
+MISSING ID > Lcom/easwareapps/g2l/fragment/GestureSettingFragment;->onCheckedChanged(Landroid/widget/CompoundButton;Z)V <
+MISSING ID > Lcom/easwareapps/g2l/fragment/GestureSettingFragment;->onProgressChanged(Landroid/widget/SeekBar;IZ)V <
+COMPONENT CONCAT > Lcom/easwareapps/g2l/NavigationDrawerFragment;->onCreateOptionsMenu(Landroid/view/Menu;Landroid/view/MenuInflater;)V < extends Landroid/app/Fragment, implements []
+COMPONENT CONCAT > Lcom/easwareapps/g2l/NavigationDrawerFragment;->setUp(ILandroid/support/v4/widget/DrawerLayout;)V < extends Landroid/app/Fragment, implements []
+MISSING ID > Lcom/easwareapps/g2l/fragment/QuickLauncherFragment;->onItemSelected(Landroid/widget/AdapterView;Landroid/view/View;IJ)V <
+MISSING ID > Lcom/easwareapps/g2l/fragment/SwipeLauncherFragment;->onCheckedChanged(Landroid/widget/CompoundButton;Z)V <
+MISSING ID > Lcom/easwareapps/g2l/adapter/GestureAdapter$3;->onCreateActionMode(Landroid/support/v7/view/ActionMode;Landroid/view/Menu;)Z <

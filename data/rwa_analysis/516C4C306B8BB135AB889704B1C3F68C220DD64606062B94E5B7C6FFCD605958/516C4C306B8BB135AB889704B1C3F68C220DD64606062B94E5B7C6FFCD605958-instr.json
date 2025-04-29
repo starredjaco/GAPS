@@ -1,0 +1,78 @@
+{
+    "Lcom/discord/theme/ThemeManager;->initThemeObject(Lcom/discord/theme/DiscordTheme;)Lcom/discord/theme/DiscordThemeObject;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/discord/theme/DarkTheme$infoHelpForeground$2;->invoke()Ljava/lang/Object; <",
+                "> Lcom/discord/theme/DarkTheme;-><init>(Landroid/content/res/Resources;Landroid/content/res/Resources$Theme;)V <",
+                "> Lcom/discord/theme/ThemeManager;->initThemeObject(Lcom/discord/theme/DiscordTheme;)Lcom/discord/theme/DiscordThemeObject; <",
+                "> Lcom/discord/theme/ThemeManager;->getTheme()Lcom/discord/theme/DiscordThemeObject; <",
+                "> Lcom/discord/theme/ThemeManagerKt;->getTheme()Lcom/discord/theme/DiscordThemeObject; <",
+                "> Lcom/discord/external_pip/ExternalPipTransitionView;-><init>(Landroid/content/Context;)V <",
+                "> Lcom/discord/external_pip/ExternalPipTransitionView$Companion;->tryShow(Landroid/app/Activity;)V <",
+                "> Lcom/discord/external_pip/ExternalPipModule;->enterPipMode(ZLkotlin/jvm/functions/Function1;)V <",
+                "> Lcom/discord/external_pip/ExternalPipModule;->access$enterPipMode(Lcom/discord/external_pip/ExternalPipModule;ZLkotlin/jvm/functions/Function1;)V <",
+                "> Lcom/discord/external_pip/ExternalPipModule$Companion;->onUserLeaveHint(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/discord/main/MainActivity;->onUserLeaveHint()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/discord/notifications/api/KvMessageEntry;-><init>(Ljava/util/List;Ljava/util/List;Lkotlinx/serialization/json/JsonObject;Ljava/lang/String;J)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/discord/notifications/api/KvMessageEntry;-><init>(Ljava/util/List;Ljava/util/List;Lkotlinx/serialization/json/JsonObject;Ljava/lang/String;JLkotlin/jvm/internal/DefaultConstructorMarker;)V <",
+                "> Lcom/discord/notifications/renderer/utils/NotificationDataUtilsKt;->getKvMessage(Lcom/discord/notifications/api/NotificationData;Ljava/lang/String;)Lcom/discord/notifications/api/KvMessageEntry; <",
+                "> Lcom/discord/notifications/client/NotificationClient;->showNotification(Landroid/content/Context;Lcom/discord/notifications/api/NotificationData;Ljava/util/Map;Z)V <",
+                "> Lcom/discord/notifications/client/NotificationClient;->onNotificationReceived(Landroid/content/Context;Ljava/util/Map;)V <",
+                "> Lcom/discord/notifications/fcm/MessagingService;->onMessageReceived(Lcom/google/firebase/messaging/RemoteMessage;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.google.firebase.MESSAGING_EVENT",
+                    "start-service -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/discord/notifications/renderer/utils/NotificationDataUtilsKt;->getSystemMessageUserJoin-_NT-lnE(Landroid/content/Context;Lcom/discord/primitives/UserId;Ljava/lang/String;)Ljava/lang/CharSequence;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/discord/notifications/renderer/utils/NotificationDataUtilsKt$getSystemMessageUserJoin$1$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/discord/notifications/renderer/utils/NotificationDataUtilsKt;->getSystemMessageUserJoin-_NT-lnE(Landroid/content/Context;Lcom/discord/primitives/UserId;Ljava/lang/String;)Ljava/lang/CharSequence; <",
+                "> Lcom/discord/notifications/renderer/utils/NotificationDataUtilsKt;->getContent(Lcom/discord/notifications/api/NotificationData;Landroid/content/Context;Z)Ljava/lang/CharSequence; <",
+                "> Lcom/discord/notifications/client/NotificationClient;->showNotification(Landroid/content/Context;Lcom/discord/notifications/api/NotificationData;Ljava/util/Map;Z)V <",
+                "> Lcom/discord/notifications/client/NotificationClient;->onNotificationReceived(Landroid/content/Context;Ljava/util/Map;)V <",
+                "> Lcom/discord/notifications/fcm/MessagingService;->onMessageReceived(Lcom/google/firebase/messaging/RemoteMessage;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.google.firebase.MESSAGING_EVENT",
+                    "start-service -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/discord/notifications/renderer/utils/NotificationDataUtilsKt;->getContent(Lcom/discord/notifications/api/NotificationData;Landroid/content/Context;Z)Ljava/lang/CharSequence;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/discord/notifications/renderer/utils/NotificationDataUtilsKt;->getContent(Lcom/discord/notifications/api/NotificationData;Landroid/content/Context;Z)Ljava/lang/CharSequence; <",
+                "> Lcom/discord/notifications/client/NotificationClient;->showNotification(Landroid/content/Context;Lcom/discord/notifications/api/NotificationData;Ljava/util/Map;Z)V <",
+                "> Lcom/discord/notifications/client/NotificationClient;->onNotificationReceived(Landroid/content/Context;Ljava/util/Map;)V <",
+                "> Lcom/discord/notifications/fcm/MessagingService;->onMessageReceived(Lcom/google/firebase/messaging/RemoteMessage;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.google.firebase.MESSAGING_EVENT",
+                    "start-service -a"
+                ]
+            ]
+        }
+    }
+}

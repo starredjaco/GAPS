@@ -1,0 +1,935 @@
+{
+    "Lcom/wolterskluwer/oneclick/common/kotlin/PortalAvatarImageData;->$r8$lambda$L8IdtvY5huGuaLCzU9lzU0cbXn0(Lcom/wolterskluwer/oneclick/common/kotlin/PortalAvatarImageData;Landroid/widget/ImageView;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/wolterskluwer/oneclick/common/kotlin/PortalAvatarImageData$$ExternalSyntheticLambda1;->setImageDrawable(Landroid/widget/ImageView;)V <",
+                "> Lcom/wolterskluwer/oneclick/common/kotlin/PortalAvatarImageData;->getAvatarOrganizationDrawableSetter()Lcom/wolterskluwer/oneclick/common/presentation/databinding/imageview/ImageDrawableSetter; <",
+                "> Lcom/wolterskluwer/oneclick/profile/common/presentation/WithProfileMenuActivity;-><init>()V <",
+                "> Lcom/wolterskluwer/oneclick/main/MainActivity;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/wolterskluwer/oneclick/common/OneClickApplication;->injection()Lcom/wolterskluwer/oneclick/common/DependencyInjection;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/wolterskluwer/oneclick/auth/aaa/presentation/LoginActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/wolterskluwer/oneclick/auth/aaa/AaaAccountAuthenticator;-><init>(Landroid/content/Context; <",
+                "> Lcom/wolterskluwer/oneclick/auth/common/android/AuthenticatorService;->createAccountAuthenticator()Landroid/accounts/AbstractAccountAuthenticator; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.accounts.AccountAuthenticator",
+                    "start-service -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/wolterskluwer/oneclick/push/service/OneClickFirebaseMessagingService;->getSession()Lcom/wolterskluwer/oneclick/session/portal/PortalSession; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.google.firebase.MESSAGING_EVENT",
+                    "start-service -a"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/wolterskluwer/oneclick/common/presentation/OneClickActivity;-><init>()V <",
+                "> Lcom/wolterskluwer/oneclick/common/presentation/OneClickWithCpmActivity;-><init>()V <",
+                "> Lcom/wolterskluwer/oneclick/profile/common/presentation/WithProfileMenuActivity;-><init>()V <",
+                "> Lcom/wolterskluwer/oneclick/main/MainActivity;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/wolterskluwer/oneclick/push/service/OneClickFirebaseMessagingService;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.google.firebase.MESSAGING_EVENT",
+                    "start-service -a"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lcom/wolterskluwer/oneclick/common/OneClickApplication;->restart(Lkotlin/jvm/functions/Function1;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_5": {
+            "call_sequence": [
+                "> Lcom/wolterskluwer/oneclick/profile/aaa/portal/presentation/PortalAaaUserProfileFragment;->createViewModel(Landroidx/fragment/app/Fragment;)Lcom/wolterskluwer/oneclick/profile/aaa/common/presentation/viewmodel/AaaProfileViewModel; <",
+                "> Lcom/wolterskluwer/oneclick/profile/aaa/portal/presentation/PortalAaaUserProfileFragment;->newInstance()Lcom/wolterskluwer/oneclick/profile/aaa/portal/presentation/PortalAaaUserProfileFragment; <",
+                "> Lcom/wolterskluwer/oneclick/profile/aaa/portal/presentation/PortalAaaUserProfileActivity;->createProfileFragment()Lcom/wolterskluwer/oneclick/profile/aaa/common/presentation/AaaProfileFragment; <",
+                "> Lcom/wolterskluwer/oneclick/profile/aaa/portal/presentation/PortalAaaUserProfileActivity;->createIntent(Landroid/content/Context;)Landroid/content/Intent; <",
+                "> Lcom/wolterskluwer/oneclick/common/Navigator;->createProfileIntent(Landroid/content/Context;)Landroid/content/Intent; <",
+                "> Lcom/wolterskluwer/oneclick/common/Navigator;->showProfile(Landroid/content/Context;)V <",
+                "> Lcom/wolterskluwer/oneclick/main/MainActivity$9;->onDrawerClosed(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_6": {
+            "call_sequence": [
+                "> Lcom/wolterskluwer/oneclick/auth/common/kotlin/presentation/TenantAuthorizationFragment;->onViewCreated(Landroid/view/View; <",
+                "> Lcom/wolterskluwer/oneclick/auth/common/kotlin/presentation/TenantAuthorizationFragment$Companion;->newInstance()Lcom/wolterskluwer/oneclick/auth/common/kotlin/presentation/TenantAuthorizationFragment; <",
+                "> Lcom/wolterskluwer/oneclick/auth/common/kotlin/presentation/AuthorizationFragmentFactory;->create()Landroidx/fragment/app/Fragment; <",
+                "> Lcom/wolterskluwer/oneclick/main/MainActivity;->onShowAuthContainer()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_7": {
+            "call_sequence": [
+                "> Lcom/wolterskluwer/oneclick/auth/identity/presentation/PasscodeLockActivity;-><init>()V <",
+                "> Lcom/wolterskluwer/oneclick/autolock/OneClickAppLock;->getAppLockActivityClass()Ljava/lang/Class; <",
+                "> Lcom/wolterskluwer/oneclick/autolock/OneClickAppLock;->getInstance(Landroid/content/Context;)Lcom/wolterskluwer/oneclick/autolock/OneClickAppLock; <",
+                "> Lcom/wolterskluwer/oneclick/common/OneClickApplication;->initializeAppLock()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_8": {
+            "call_sequence": [
+                "> Lcom/wolterskluwer/oneclick/auth/aaa/presentation/LogoutManagementActivity;-><init>()V <",
+                "> Lcom/wolterskluwer/oneclick/auth/aaa/presentation/PasscodeLockActivity;->getLogoutActivityClass()Ljava/lang/Class; <",
+                "> Lcom/wolterskluwer/oneclick/autolock/OneClickAppLock;->getAppLockActivityClass()Ljava/lang/Class; <",
+                "> Lcom/wolterskluwer/oneclick/autolock/OneClickAppLock;->getInstance(Landroid/content/Context;)Lcom/wolterskluwer/oneclick/autolock/OneClickAppLock; <",
+                "> Lcom/wolterskluwer/oneclick/common/OneClickApplication;->initializeAppLock()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_9": {
+            "call_sequence": [
+                "> Lcom/wolterskluwer/oneclick/common/presentation/CpmFragment;->onViewCreated(Landroid/view/View; <",
+                "> Lcom/wolterskluwer/oneclick/instantreport/presentation/view/InstantReportListFragment;-><init>()V <",
+                "> Lcom/wolterskluwer/oneclick/instantreport/presentation/view/InstantReportListFragment$Companion;->newInstance(Ljava/lang/String;)Lcom/wolterskluwer/oneclick/instantreport/presentation/view/InstantReportListFragment; <",
+                "> Lcom/wolterskluwer/oneclick/main/MainActivity;->showInstantReports(Ljava/lang/String; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_10": {
+            "call_sequence": [
+                "> Lcom/wolterskluwer/oneclick/conversation/kotlin/signalr/SignalRService;->startSignalR()V <",
+                "> Lcom/wolterskluwer/oneclick/common/presentation/SignalRManager;->startSignalR(Landroid/content/Context;)V <",
+                "> Lcom/wolterskluwer/oneclick/common/presentation/OneClickFragment;->lambda$subscribePrincipal$0(Lcom/wolterskluwer/oneclick/session/portal/PortalSession; <",
+                "> Lcom/wolterskluwer/oneclick/auth/cpm/presentation/CpmAuthorizationFragment;-><init>()V <",
+                "> Lcom/wolterskluwer/oneclick/auth/cpm/presentation/CpmAuthorizationFragment;->newInstance()Lcom/wolterskluwer/oneclick/auth/cpm/presentation/CpmAuthorizationFragment; <",
+                "> Lcom/wolterskluwer/oneclick/main/MainActivity;->showInstantReports(Ljava/lang/String; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_11": {
+            "call_sequence": [
+                "> Lcom/wolterskluwer/oneclick/conversation/kotlin/signalr/SignalRService;->startSignalR()V <",
+                "> Lcom/wolterskluwer/oneclick/common/presentation/SignalRManager;->startSignalR(Landroid/content/Context;)V <",
+                "> Lcom/wolterskluwer/oneclick/common/presentation/OneClickFragment;->lambda$subscribePrincipal$0(Lcom/wolterskluwer/oneclick/session/portal/PortalSession; <",
+                "> Lcom/wolterskluwer/oneclick/auth/cpm/presentation/CpmAuthorizationFragment;-><init>()V <",
+                "> Lcom/wolterskluwer/oneclick/auth/cpm/presentation/CpmAuthorizationFragment;->newInstance()Lcom/wolterskluwer/oneclick/auth/cpm/presentation/CpmAuthorizationFragment; <",
+                "> Lcom/wolterskluwer/oneclick/main/MainActivity;->showSickNotes(Ljava/lang/String; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_12": {
+            "call_sequence": [
+                "> Lcom/wolterskluwer/oneclick/instantreport/presentation/view/InstantReportListFragment;->onPrincipalReady(Lcom/wolterskluwer/oneclick/session/cpm/CpmSession; <",
+                "> Lcom/wolterskluwer/oneclick/instantreport/presentation/view/InstantReportListFragment$Companion;->newInstance(Ljava/lang/String;)Lcom/wolterskluwer/oneclick/instantreport/presentation/view/InstantReportListFragment; <",
+                "> Lcom/wolterskluwer/oneclick/main/MainActivity;->showInstantReports(Ljava/lang/String; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_13": {
+            "call_sequence": [
+                "> Lcom/wolterskluwer/oneclick/auth/identity/presentation/LogoutManagementActivity;-><init>()V <",
+                "> Lcom/wolterskluwer/oneclick/auth/identity/presentation/RedirectUriReceiverActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.VIEW",
+                    "start-activity -a"
+                ]
+            ]
+        },
+        "path_14": {
+            "call_sequence": [
+                "> Lcom/wolterskluwer/oneclick/auth/identity/presentation/LogoutManagementActivity;-><init>()V <",
+                "> Lcom/wolterskluwer/oneclick/auth/identity/presentation/PasscodeLockActivity;->getLogoutActivityClass()Ljava/lang/Class; <",
+                "> Lcom/wolterskluwer/oneclick/autolock/OneClickAppLock;->getAppLockActivityClass()Ljava/lang/Class; <",
+                "> Lcom/wolterskluwer/oneclick/autolock/OneClickAppLock;->getInstance(Landroid/content/Context;)Lcom/wolterskluwer/oneclick/autolock/OneClickAppLock; <",
+                "> Lcom/wolterskluwer/oneclick/common/OneClickApplication;->initializeAppLock()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_15": {
+            "call_sequence": [
+                "> Lcom/wolterskluwer/oneclick/auth/cpm/presentation/CpmAuthorizationFragment;->onViewCreated(Landroid/view/View; <",
+                "> Lcom/wolterskluwer/oneclick/auth/cpm/presentation/CpmAuthorizationFragment;->newInstance()Lcom/wolterskluwer/oneclick/auth/cpm/presentation/CpmAuthorizationFragment; <",
+                "> Lcom/wolterskluwer/oneclick/main/MainActivity;->showInstantReports(Ljava/lang/String; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_16": {
+            "call_sequence": [
+                "> Lcom/wolterskluwer/oneclick/common/presentation/OneClickWithCpmActivity;->handleOnCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/wolterskluwer/oneclick/profile/common/presentation/WithProfileMenuActivity;->handleOnCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/wolterskluwer/oneclick/main/MainActivity;->handleOnCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_17": {
+            "call_sequence": [
+                "> Lcom/wolterskluwer/oneclick/auth/password/presentation/PasscodeLockActivity;->handleOnCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/wolterskluwer/oneclick/autolock/OneClickAppLock;->getAppLockActivityClass()Ljava/lang/Class; <",
+                "> Lcom/wolterskluwer/oneclick/autolock/OneClickAppLock;->getInstance(Landroid/content/Context;)Lcom/wolterskluwer/oneclick/autolock/OneClickAppLock; <",
+                "> Lcom/wolterskluwer/oneclick/common/OneClickApplication;->initializeAppLock()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_18": {
+            "call_sequence": [
+                "> Lcom/wolterskluwer/oneclick/images/AvatarUploadWorker;->uploadPhoto(Lcom/wolterskluwer/oneclick/images/Photo; <",
+                "> Lcom/wolterskluwer/oneclick/profile/portaluser/presentation/viewmodel/ProfileViewModel;->uploadAvatar(Lcom/wolterskluwer/oneclick/images/Photo;)V <",
+                "> Lcom/wolterskluwer/oneclick/profile/portaluser/presentation/IdentityProfileFragment;->onViewCreated(Landroid/view/View; <",
+                "> Lcom/wolterskluwer/oneclick/profile/portaluser/presentation/IdentityProfileFragment;->newInstance()Lcom/wolterskluwer/oneclick/profile/portaluser/presentation/IdentityProfileFragment; <",
+                "> Lcom/wolterskluwer/oneclick/profile/portaluser/presentation/IdentityProfileActivity;->onShowContentContainer()V <",
+                "> Lcom/wolterskluwer/oneclick/profile/portaluser/presentation/IdentityProfileActivity$Companion;->createIntent(Landroid/content/Context;)Landroid/content/Intent; <",
+                "> Lcom/wolterskluwer/oneclick/common/Navigator;->createProfileIntent(Landroid/content/Context;)Landroid/content/Intent; <",
+                "> Lcom/wolterskluwer/oneclick/common/Navigator;->showProfile(Landroid/content/Context;)V <",
+                "> Lcom/wolterskluwer/oneclick/main/MainActivity$9;->onDrawerClosed(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_19": {
+            "call_sequence": [
+                "> Lcom/wolterskluwer/oneclick/profile/portaluser/presentation/IdentityProfileActivity;-><init>()V <",
+                "> Lcom/wolterskluwer/oneclick/profile/portaluser/presentation/IdentityProfileActivity$Companion;->createIntent(Landroid/content/Context;)Landroid/content/Intent; <",
+                "> Lcom/wolterskluwer/oneclick/common/Navigator;->createProfileIntent(Landroid/content/Context;)Landroid/content/Intent; <",
+                "> Lcom/wolterskluwer/oneclick/common/Navigator;->showProfile(Landroid/content/Context;)V <",
+                "> Lcom/wolterskluwer/oneclick/main/MainActivity$9;->onDrawerClosed(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_20": {
+            "call_sequence": [
+                "> Lcom/wolterskluwer/oneclick/main/MainActivity;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_21": {
+            "call_sequence": [
+                "> Lcom/wolterskluwer/oneclick/auth/password/presentation/LoginFragment;->onViewCreated(Landroid/view/View; <",
+                "> Lcom/wolterskluwer/oneclick/auth/password/presentation/LoginFragment;->newInstance()Lcom/wolterskluwer/oneclick/auth/password/presentation/LoginFragment; <",
+                "> Lcom/wolterskluwer/oneclick/auth/password/presentation/LoginActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/wolterskluwer/oneclick/auth/password/PasswordAccountAuthenticator;-><init>(Landroid/content/Context; <",
+                "> Lcom/wolterskluwer/oneclick/auth/common/android/AuthenticatorService;->createAccountAuthenticator()Landroid/accounts/AbstractAccountAuthenticator; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.accounts.AccountAuthenticator",
+                    "start-service -a"
+                ]
+            ]
+        },
+        "path_22": {
+            "call_sequence": [
+                "> Lcom/wolterskluwer/oneclick/common/presentation/OneClickFragment;->onViewCreated(Landroid/view/View; <",
+                "> Lcom/wolterskluwer/oneclick/auth/cpm/presentation/CpmAuthorizationFragment;-><init>()V <",
+                "> Lcom/wolterskluwer/oneclick/auth/cpm/presentation/CpmAuthorizationFragment;->newInstance()Lcom/wolterskluwer/oneclick/auth/cpm/presentation/CpmAuthorizationFragment; <",
+                "> Lcom/wolterskluwer/oneclick/main/MainActivity;->showInstantReports(Ljava/lang/String; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_23": {
+            "call_sequence": [
+                "> Lcom/wolterskluwer/oneclick/profile/portaluser/presentation/IdentityProfileFragment;->onViewCreated(Landroid/view/View; <",
+                "> Lcom/wolterskluwer/oneclick/profile/portaluser/presentation/IdentityProfileFragment;->newInstance()Lcom/wolterskluwer/oneclick/profile/portaluser/presentation/IdentityProfileFragment; <",
+                "> Lcom/wolterskluwer/oneclick/profile/portaluser/presentation/IdentityProfileActivity;->onShowContentContainer()V <",
+                "> Lcom/wolterskluwer/oneclick/profile/portaluser/presentation/IdentityProfileActivity$Companion;->createIntent(Landroid/content/Context;)Landroid/content/Intent; <",
+                "> Lcom/wolterskluwer/oneclick/common/Navigator;->createProfileIntent(Landroid/content/Context;)Landroid/content/Intent; <",
+                "> Lcom/wolterskluwer/oneclick/common/Navigator;->showProfile(Landroid/content/Context;)V <",
+                "> Lcom/wolterskluwer/oneclick/main/MainActivity$9;->onDrawerClosed(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_24": {
+            "call_sequence": [
+                "> Lcom/wolterskluwer/oneclick/autolock/OneClickAppLockActivity;-><init>()V <",
+                "> Lcom/wolterskluwer/oneclick/auth/password/presentation/PasscodeLockActivity;-><init>()V <",
+                "> Lcom/wolterskluwer/oneclick/autolock/OneClickAppLock;->getAppLockActivityClass()Ljava/lang/Class; <",
+                "> Lcom/wolterskluwer/oneclick/autolock/OneClickAppLock;->getInstance(Landroid/content/Context;)Lcom/wolterskluwer/oneclick/autolock/OneClickAppLock; <",
+                "> Lcom/wolterskluwer/oneclick/common/OneClickApplication;->initializeAppLock()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_25": {
+            "call_sequence": [
+                "> Lcom/wolterskluwer/oneclick/profile/aaa/portal/presentation/PortalAaaUserProfileActivity;-><init>()V <",
+                "> Lcom/wolterskluwer/oneclick/profile/aaa/portal/presentation/PortalAaaUserProfileActivity;->createIntent(Landroid/content/Context;)Landroid/content/Intent; <",
+                "> Lcom/wolterskluwer/oneclick/common/Navigator;->createProfileIntent(Landroid/content/Context;)Landroid/content/Intent; <",
+                "> Lcom/wolterskluwer/oneclick/common/Navigator;->showProfile(Landroid/content/Context;)V <",
+                "> Lcom/wolterskluwer/oneclick/main/MainActivity$9;->onDrawerClosed(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_26": {
+            "call_sequence": [
+                "> Lcom/wolterskluwer/oneclick/tasks/kotlin/notification/TaskNotificationService;->onHandleIntent(Landroid/content/Intent;)V <",
+                "> Lcom/wolterskluwer/oneclick/tasks/kotlin/notification/TaskAlarmReceiver;->onReceive(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.wolterskluwer.oneclick.employee.de.push.TASK_NOTIFICATION",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_27": {
+            "call_sequence": [
+                "> Lcom/wolterskluwer/oneclick/profile/aaa/portal/presentation/PortalAaaUserProfileFragment;->createPrepareLogoutViewModel(Landroidx/fragment/app/Fragment;)Lcom/wolterskluwer/oneclick/auth/appauth/presentation/viewmodel/PrepareLogoutViewModel; <",
+                "> Lcom/wolterskluwer/oneclick/profile/aaa/portal/presentation/PortalAaaUserProfileFragment;->newInstance()Lcom/wolterskluwer/oneclick/profile/aaa/portal/presentation/PortalAaaUserProfileFragment; <",
+                "> Lcom/wolterskluwer/oneclick/profile/aaa/portal/presentation/PortalAaaUserProfileActivity;->createProfileFragment()Lcom/wolterskluwer/oneclick/profile/aaa/common/presentation/AaaProfileFragment; <",
+                "> Lcom/wolterskluwer/oneclick/profile/aaa/portal/presentation/PortalAaaUserProfileActivity;->createIntent(Landroid/content/Context;)Landroid/content/Intent; <",
+                "> Lcom/wolterskluwer/oneclick/common/Navigator;->createProfileIntent(Landroid/content/Context;)Landroid/content/Intent; <",
+                "> Lcom/wolterskluwer/oneclick/common/Navigator;->showProfile(Landroid/content/Context;)V <",
+                "> Lcom/wolterskluwer/oneclick/main/MainActivity$9;->onDrawerClosed(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_28": {
+            "call_sequence": [
+                "> Lcom/wolterskluwer/oneclick/conversation/kotlin/signalr/SignalRService;->handleSignalRMessage(Lcom/wolterskluwer/oneclick/common/signalr/SignalRMessage;)V <",
+                "> Lcom/wolterskluwer/oneclick/common/presentation/SignalRManager;->startSignalR(Landroid/content/Context;)V <",
+                "> Lcom/wolterskluwer/oneclick/common/presentation/OneClickFragment;->lambda$subscribePrincipal$0(Lcom/wolterskluwer/oneclick/session/portal/PortalSession; <",
+                "> Lcom/wolterskluwer/oneclick/auth/cpm/presentation/CpmAuthorizationFragment;-><init>()V <",
+                "> Lcom/wolterskluwer/oneclick/auth/cpm/presentation/CpmAuthorizationFragment;->newInstance()Lcom/wolterskluwer/oneclick/auth/cpm/presentation/CpmAuthorizationFragment; <",
+                "> Lcom/wolterskluwer/oneclick/main/MainActivity;->showInstantReports(Ljava/lang/String; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_29": {
+            "call_sequence": [
+                "> Lcom/wolterskluwer/oneclick/conversation/kotlin/signalr/SignalRService;->handleSignalRMessage(Lcom/wolterskluwer/oneclick/common/signalr/SignalRMessage;)V <",
+                "> Lcom/wolterskluwer/oneclick/common/presentation/SignalRManager;->startSignalR(Landroid/content/Context;)V <",
+                "> Lcom/wolterskluwer/oneclick/common/presentation/OneClickFragment;->lambda$subscribePrincipal$0(Lcom/wolterskluwer/oneclick/session/portal/PortalSession; <",
+                "> Lcom/wolterskluwer/oneclick/auth/cpm/presentation/CpmAuthorizationFragment;-><init>()V <",
+                "> Lcom/wolterskluwer/oneclick/auth/cpm/presentation/CpmAuthorizationFragment;->newInstance()Lcom/wolterskluwer/oneclick/auth/cpm/presentation/CpmAuthorizationFragment; <",
+                "> Lcom/wolterskluwer/oneclick/main/MainActivity;->showSickNotes(Ljava/lang/String; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_30": {
+            "call_sequence": [
+                "> Lcom/wolterskluwer/oneclick/profile/common/presentation/WithProfileMenuActivity;-><init>()V <",
+                "> Lcom/wolterskluwer/oneclick/main/MainActivity;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_31": {
+            "call_sequence": [
+                "> Lcom/wolterskluwer/oneclick/auth/aaa/presentation/PasscodeLockActivity;-><init>()V <",
+                "> Lcom/wolterskluwer/oneclick/autolock/OneClickAppLock;->getAppLockActivityClass()Ljava/lang/Class; <",
+                "> Lcom/wolterskluwer/oneclick/autolock/OneClickAppLock;->getInstance(Landroid/content/Context;)Lcom/wolterskluwer/oneclick/autolock/OneClickAppLock; <",
+                "> Lcom/wolterskluwer/oneclick/common/OneClickApplication;->initializeAppLock()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_32": {
+            "call_sequence": [
+                "> Lcom/wolterskluwer/oneclick/profile/portaluser/presentation/ProfileFragment;->onViewCreated(Landroid/view/View; <",
+                "> Lcom/wolterskluwer/oneclick/profile/portaluser/presentation/ProfileFragment;->newInstance()Lcom/wolterskluwer/oneclick/profile/portaluser/presentation/ProfileFragment; <",
+                "> Lcom/wolterskluwer/oneclick/profile/portaluser/presentation/ProfileActivity;->onShowContentContainer()V <",
+                "> Lcom/wolterskluwer/oneclick/profile/portaluser/presentation/ProfileActivity;->createIntent(Landroid/content/Context;)Landroid/content/Intent; <",
+                "> Lcom/wolterskluwer/oneclick/common/Navigator;->createProfileIntent(Landroid/content/Context;)Landroid/content/Intent; <",
+                "> Lcom/wolterskluwer/oneclick/common/Navigator;->showProfile(Landroid/content/Context;)V <",
+                "> Lcom/wolterskluwer/oneclick/main/MainActivity$9;->onDrawerClosed(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/wolterskluwer/oneclick/auth/cpm/presentation/CpmAuthViewModel;->setUserResourceValue(Lcom/wolterskluwer/oneclick/auth/common/presentation/data/UserResource;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/wolterskluwer/oneclick/auth/cpm/presentation/CpmAuthViewModel;->-$$Nest$msetUserResourceValue(Lcom/wolterskluwer/oneclick/auth/cpm/presentation/CpmAuthViewModel; <",
+                "> Lcom/wolterskluwer/oneclick/auth/cpm/presentation/CpmAuthorizationFragment;->onViewCreated(Landroid/view/View; <",
+                "> Lcom/wolterskluwer/oneclick/auth/cpm/presentation/CpmAuthorizationFragment;->newInstance()Lcom/wolterskluwer/oneclick/auth/cpm/presentation/CpmAuthorizationFragment; <",
+                "> Lcom/wolterskluwer/oneclick/main/MainActivity;->showInstantReports(Ljava/lang/String; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/wolterskluwer/oneclick/auth/cpm/presentation/CpmAuthViewModel;->-$$Nest$msetUserResourceValue(Lcom/wolterskluwer/oneclick/auth/cpm/presentation/CpmAuthViewModel; <",
+                "> Lcom/wolterskluwer/oneclick/common/presentation/OneClickWithCpmActivity;->handleOnCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/wolterskluwer/oneclick/profile/common/presentation/WithProfileMenuActivity;->handleOnCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/wolterskluwer/oneclick/main/MainActivity;->handleOnCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/wolterskluwer/oneclick/auth/common/kotlin/presentation/viewmodel/TenantAuthorizationViewModel;->getUrlValidationLiveData()Landroidx/lifecycle/LiveData;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/wolterskluwer/oneclick/auth/common/kotlin/presentation/viewmodel/TenantAuthorizationViewModel;-><init>(Landroid/app/Application;)V <",
+                "> Lcom/wolterskluwer/oneclick/auth/common/kotlin/presentation/TenantAuthorizationFragment;->onViewCreated(Landroid/view/View; <",
+                "> Lcom/wolterskluwer/oneclick/auth/common/kotlin/presentation/TenantAuthorizationFragment$Companion;->newInstance()Lcom/wolterskluwer/oneclick/auth/common/kotlin/presentation/TenantAuthorizationFragment; <",
+                "> Lcom/wolterskluwer/oneclick/auth/common/kotlin/presentation/AuthorizationFragmentFactory;->create()Landroidx/fragment/app/Fragment; <",
+                "> Lcom/wolterskluwer/oneclick/main/MainActivity;->onShowAuthContainer()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/wolterskluwer/oneclick/common/preference/PreferenceWrapper;->getBoolean(Ljava/lang/String;Z)Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/wolterskluwer/oneclick/main/MainActivity;->onPortalPrincipalReady(Lcom/wolterskluwer/oneclick/session/portal/PortalSession; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/wolterskluwer/oneclick/common/OneClickApplication;->refreshConfigurationFromAppSettings()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/wolterskluwer/oneclick/main/menu/MenuViewModel;->isInitialized()Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/wolterskluwer/oneclick/main/MainActivity;->onPortalPrincipalReady(Lcom/wolterskluwer/oneclick/session/portal/PortalSession; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/wolterskluwer/oneclick/main/MainActivity;->unsubscribeUiMenu()V <",
+                "> Lcom/wolterskluwer/oneclick/main/MainActivity;->onLoggedOut()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/wolterskluwer/oneclick/main/menu/MenuViewModel;->ensureInitialized()V <",
+                "> Lcom/wolterskluwer/oneclick/main/MainActivity;->handleOnCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/wolterskluwer/oneclick/main/menu/MenuViewModel;->ensureNotInitialized()V <",
+                "> Lcom/wolterskluwer/oneclick/main/MainActivity;->handleOnCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/wolterskluwer/oneclick/main/MainActivity$$ExternalSyntheticApiModelOutline0;->m(Landroid/app/NotificationChannel;I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/wolterskluwer/oneclick/utils/NotificationUtils;->createChannel()V <",
+                "> Lcom/wolterskluwer/oneclick/utils/NotificationUtils;-><init>(Landroid/content/Context;)V <",
+                "> Lcom/wolterskluwer/oneclick/common/DependencyInjection;-><init>(Landroid/app/Application;)V <",
+                "> Lcom/wolterskluwer/oneclick/common/OneClickApplication;->getDependencyInjection()Lcom/wolterskluwer/oneclick/common/DependencyInjection; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/wolterskluwer/oneclick/utils/NotificationUtils;->createChannel()V <",
+                "> Lcom/wolterskluwer/oneclick/utils/NotificationUtils;-><init>(Landroid/content/Context;)V <",
+                "> Lcom/wolterskluwer/oneclick/common/DependencyInjection;-><init>(Landroid/app/Application;)V <",
+                "> Lcom/wolterskluwer/oneclick/common/OneClickApplication;->getDependencyInjection()Lcom/wolterskluwer/oneclick/common/DependencyInjection; <",
+                "> Lcom/wolterskluwer/oneclick/common/OneClickApplication;->injection()Lcom/wolterskluwer/oneclick/common/DependencyInjection; <",
+                "> Lcom/wolterskluwer/oneclick/auth/aaa/presentation/LoginActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/wolterskluwer/oneclick/auth/aaa/AaaAccountAuthenticator;-><init>(Landroid/content/Context; <",
+                "> Lcom/wolterskluwer/oneclick/auth/common/android/AuthenticatorService;->createAccountAuthenticator()Landroid/accounts/AbstractAccountAuthenticator; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.accounts.AccountAuthenticator",
+                    "start-service -a"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/wolterskluwer/oneclick/utils/NotificationUtils;->createChannel()V <",
+                "> Lcom/wolterskluwer/oneclick/utils/NotificationUtils;-><init>(Landroid/content/Context;)V <",
+                "> Lcom/wolterskluwer/oneclick/common/DependencyInjection;-><init>(Landroid/app/Application;)V <",
+                "> Lcom/wolterskluwer/oneclick/common/OneClickApplication;->getDependencyInjection()Lcom/wolterskluwer/oneclick/common/DependencyInjection; <",
+                "> Lcom/wolterskluwer/oneclick/common/OneClickApplication;->injection()Lcom/wolterskluwer/oneclick/common/DependencyInjection; <",
+                "> Lcom/wolterskluwer/oneclick/auth/identity/presentation/LogoutManagementActivity;-><init>()V <",
+                "> Lcom/wolterskluwer/oneclick/auth/identity/presentation/RedirectUriReceiverActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.VIEW",
+                    "start-activity -a"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/wolterskluwer/oneclick/utils/NotificationUtils;->createChannel()V <",
+                "> Lcom/wolterskluwer/oneclick/utils/NotificationUtils;-><init>(Landroid/content/Context;)V <",
+                "> Lcom/wolterskluwer/oneclick/common/DependencyInjection;-><init>(Landroid/app/Application;)V <",
+                "> Lcom/wolterskluwer/oneclick/common/OneClickApplication;->getDependencyInjection()Lcom/wolterskluwer/oneclick/common/DependencyInjection; <",
+                "> Lcom/wolterskluwer/oneclick/common/OneClickApplication;->injection()Lcom/wolterskluwer/oneclick/common/DependencyInjection; <",
+                "> Lcom/wolterskluwer/oneclick/push/service/OneClickFirebaseMessagingService;->getSession()Lcom/wolterskluwer/oneclick/session/portal/PortalSession; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.google.firebase.MESSAGING_EVENT",
+                    "start-service -a"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lcom/wolterskluwer/oneclick/utils/NotificationUtils;->createChannel()V <",
+                "> Lcom/wolterskluwer/oneclick/utils/NotificationUtils;-><init>(Landroid/content/Context;)V <",
+                "> Lcom/wolterskluwer/oneclick/common/DependencyInjection;-><init>(Landroid/app/Application;)V <",
+                "> Lcom/wolterskluwer/oneclick/common/OneClickApplication;->getDependencyInjection()Lcom/wolterskluwer/oneclick/common/DependencyInjection; <",
+                "> Lcom/wolterskluwer/oneclick/common/OneClickApplication;->injection()Lcom/wolterskluwer/oneclick/common/DependencyInjection; <",
+                "> Lcom/wolterskluwer/oneclick/tasks/kotlin/notification/TaskNotificationService;->onHandleIntent(Landroid/content/Intent;)V <",
+                "> Lcom/wolterskluwer/oneclick/tasks/kotlin/notification/TaskAlarmReceiver;->onReceive(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.wolterskluwer.oneclick.employee.de.push.TASK_NOTIFICATION",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/wolterskluwer/oneclick/common/architecture/android/lifecycle/EventListener;->enable()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/wolterskluwer/oneclick/common/architecture/android/lifecycle/EventListener;->setEnabled(Z)V <",
+                "> Lcom/wolterskluwer/oneclick/common/architecture/android/lifecycle/DrawerListener;-><init>(Landroidx/drawerlayout/widget/DrawerLayout; <",
+                "> Lcom/wolterskluwer/oneclick/main/MainActivity;->initNavigationDrawer()V <",
+                "> Lcom/wolterskluwer/oneclick/main/MainActivity;->handleOnCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/wolterskluwer/oneclick/common/architecture/android/lifecycle/EventListener;->setEnabled(Z)V <",
+                "> Lcom/wolterskluwer/oneclick/common/architecture/android/lifecycle/TextChangedListener;-><init>(Landroid/widget/TextView; <",
+                "> Lcom/wolterskluwer/oneclick/auth/password/presentation/LoginFragment;->onCreateView(Landroid/view/LayoutInflater; <",
+                "> Lcom/wolterskluwer/oneclick/auth/password/presentation/LoginFragment;->newInstance()Lcom/wolterskluwer/oneclick/auth/password/presentation/LoginFragment; <",
+                "> Lcom/wolterskluwer/oneclick/auth/password/presentation/LoginActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/wolterskluwer/oneclick/auth/password/PasswordAccountAuthenticator;-><init>(Landroid/content/Context; <",
+                "> Lcom/wolterskluwer/oneclick/auth/common/android/AuthenticatorService;->createAccountAuthenticator()Landroid/accounts/AbstractAccountAuthenticator; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.accounts.AccountAuthenticator",
+                    "start-service -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/wolterskluwer/oneclick/main/MainActivity;->unsubscribeUiDocuments()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/wolterskluwer/oneclick/main/MainActivity;->onLoggedOut()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/wolterskluwer/oneclick/autolock/OneClickAppLock;->getAppLockActivityClass()Ljava/lang/Class;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/wolterskluwer/oneclick/autolock/OneClickAppLock;->getInstance(Landroid/content/Context;)Lcom/wolterskluwer/oneclick/autolock/OneClickAppLock; <",
+                "> Lcom/wolterskluwer/oneclick/common/OneClickApplication;->initializeAppLock()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/wolterskluwer/oneclick/main/MainActivity$$ExternalSyntheticApiModelOutline0;->m(Ljava/lang/String;Ljava/lang/CharSequence;I)Landroid/app/NotificationChannel;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/wolterskluwer/oneclick/utils/NotificationUtils;->createChannel()V <",
+                "> Lcom/wolterskluwer/oneclick/utils/NotificationUtils;-><init>(Landroid/content/Context;)V <",
+                "> Lcom/wolterskluwer/oneclick/common/DependencyInjection;-><init>(Landroid/app/Application;)V <",
+                "> Lcom/wolterskluwer/oneclick/common/OneClickApplication;->getDependencyInjection()Lcom/wolterskluwer/oneclick/common/DependencyInjection; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/wolterskluwer/oneclick/utils/NotificationUtils;->createChannel()V <",
+                "> Lcom/wolterskluwer/oneclick/utils/NotificationUtils;-><init>(Landroid/content/Context;)V <",
+                "> Lcom/wolterskluwer/oneclick/common/DependencyInjection;-><init>(Landroid/app/Application;)V <",
+                "> Lcom/wolterskluwer/oneclick/common/OneClickApplication;->getDependencyInjection()Lcom/wolterskluwer/oneclick/common/DependencyInjection; <",
+                "> Lcom/wolterskluwer/oneclick/common/OneClickApplication;->injection()Lcom/wolterskluwer/oneclick/common/DependencyInjection; <",
+                "> Lcom/wolterskluwer/oneclick/auth/aaa/presentation/LoginActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/wolterskluwer/oneclick/auth/aaa/AaaAccountAuthenticator;-><init>(Landroid/content/Context; <",
+                "> Lcom/wolterskluwer/oneclick/auth/common/android/AuthenticatorService;->createAccountAuthenticator()Landroid/accounts/AbstractAccountAuthenticator; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.accounts.AccountAuthenticator",
+                    "start-service -a"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/wolterskluwer/oneclick/utils/NotificationUtils;->createChannel()V <",
+                "> Lcom/wolterskluwer/oneclick/utils/NotificationUtils;-><init>(Landroid/content/Context;)V <",
+                "> Lcom/wolterskluwer/oneclick/common/DependencyInjection;-><init>(Landroid/app/Application;)V <",
+                "> Lcom/wolterskluwer/oneclick/common/OneClickApplication;->getDependencyInjection()Lcom/wolterskluwer/oneclick/common/DependencyInjection; <",
+                "> Lcom/wolterskluwer/oneclick/common/OneClickApplication;->injection()Lcom/wolterskluwer/oneclick/common/DependencyInjection; <",
+                "> Lcom/wolterskluwer/oneclick/auth/identity/presentation/LogoutManagementActivity;-><init>()V <",
+                "> Lcom/wolterskluwer/oneclick/auth/identity/presentation/RedirectUriReceiverActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.VIEW",
+                    "start-activity -a"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/wolterskluwer/oneclick/utils/NotificationUtils;->createChannel()V <",
+                "> Lcom/wolterskluwer/oneclick/utils/NotificationUtils;-><init>(Landroid/content/Context;)V <",
+                "> Lcom/wolterskluwer/oneclick/common/DependencyInjection;-><init>(Landroid/app/Application;)V <",
+                "> Lcom/wolterskluwer/oneclick/common/OneClickApplication;->getDependencyInjection()Lcom/wolterskluwer/oneclick/common/DependencyInjection; <",
+                "> Lcom/wolterskluwer/oneclick/common/OneClickApplication;->injection()Lcom/wolterskluwer/oneclick/common/DependencyInjection; <",
+                "> Lcom/wolterskluwer/oneclick/push/service/OneClickFirebaseMessagingService;->getSession()Lcom/wolterskluwer/oneclick/session/portal/PortalSession; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.google.firebase.MESSAGING_EVENT",
+                    "start-service -a"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lcom/wolterskluwer/oneclick/utils/NotificationUtils;->createChannel()V <",
+                "> Lcom/wolterskluwer/oneclick/utils/NotificationUtils;-><init>(Landroid/content/Context;)V <",
+                "> Lcom/wolterskluwer/oneclick/common/DependencyInjection;-><init>(Landroid/app/Application;)V <",
+                "> Lcom/wolterskluwer/oneclick/common/OneClickApplication;->getDependencyInjection()Lcom/wolterskluwer/oneclick/common/DependencyInjection; <",
+                "> Lcom/wolterskluwer/oneclick/common/OneClickApplication;->injection()Lcom/wolterskluwer/oneclick/common/DependencyInjection; <",
+                "> Lcom/wolterskluwer/oneclick/tasks/kotlin/notification/TaskNotificationService;->onHandleIntent(Landroid/content/Intent;)V <",
+                "> Lcom/wolterskluwer/oneclick/tasks/kotlin/notification/TaskAlarmReceiver;->onReceive(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.wolterskluwer.oneclick.employee.de.push.TASK_NOTIFICATION",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/wolterskluwer/oneclick/main/MainActivity;->handleAppLink(Landroid/content/Intent;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/wolterskluwer/oneclick/main/MainActivity;->handleIntent()V <",
+                "> Lcom/wolterskluwer/oneclick/main/MainActivity;->handleOnCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/wolterskluwer/oneclick/main/MainActivity;->$r8$lambda$380eHO6z5cuf9WYZUL_esyAiAgo(Lcom/wolterskluwer/oneclick/main/MainActivity;Landroid/content/SharedPreferences;Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/wolterskluwer/oneclick/main/MainActivity$$ExternalSyntheticLambda8;->onSharedPreferenceChanged(Landroid/content/SharedPreferences; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/wolterskluwer/oneclick/auth/common/presentation/viewmodel/OneClickAuthViewModel;->lambda$new$0(Lcom/wolterskluwer/oneclick/auth/common/AuthenticationManager;Lkotlin/Unit;)Landroidx/lifecycle/LiveData;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/wolterskluwer/oneclick/auth/common/presentation/viewmodel/OneClickAuthViewModel$$ExternalSyntheticLambda0;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/wolterskluwer/oneclick/auth/common/presentation/viewmodel/OneClickAuthViewModel;-><init>(Lcom/wolterskluwer/oneclick/auth/common/AuthenticationManager; <",
+                "> Lcom/wolterskluwer/oneclick/common/presentation/OneClickFragment;->onViewCreated(Landroid/view/View; <",
+                "> Lcom/wolterskluwer/oneclick/auth/cpm/presentation/CpmAuthorizationFragment;-><init>()V <",
+                "> Lcom/wolterskluwer/oneclick/auth/cpm/presentation/CpmAuthorizationFragment;->newInstance()Lcom/wolterskluwer/oneclick/auth/cpm/presentation/CpmAuthorizationFragment; <",
+                "> Lcom/wolterskluwer/oneclick/main/MainActivity;->showInstantReports(Ljava/lang/String; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/wolterskluwer/oneclick/auth/common/presentation/viewmodel/OneClickAuthViewModel$$ExternalSyntheticLambda0;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/wolterskluwer/oneclick/auth/common/presentation/viewmodel/OneClickAuthViewModel;-><init>(Lcom/wolterskluwer/oneclick/auth/common/AuthenticationManager; <",
+                "> Lcom/wolterskluwer/oneclick/auth/common/kotlin/presentation/TenantAuthorizationFragment;->onViewCreated(Landroid/view/View; <",
+                "> Lcom/wolterskluwer/oneclick/auth/common/kotlin/presentation/TenantAuthorizationFragment$Companion;->newInstance()Lcom/wolterskluwer/oneclick/auth/common/kotlin/presentation/TenantAuthorizationFragment; <",
+                "> Lcom/wolterskluwer/oneclick/auth/common/kotlin/presentation/AuthorizationFragmentFactory;->create()Landroidx/fragment/app/Fragment; <",
+                "> Lcom/wolterskluwer/oneclick/main/MainActivity;->onShowAuthContainer()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/wolterskluwer/oneclick/auth/identity/implementation/AocIdentityAuthStorage;->credentialsFromJson(Ljava/lang/String;)Lcom/wolterskluwer/oneclick/auth/password/PortalUser;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/wolterskluwer/oneclick/auth/identity/implementation/AocIdentityAuthStorage;->getCredentials()Lcom/wolterskluwer/oneclick/auth/password/PortalUser; <",
+                "> Lcom/wolterskluwer/oneclick/auth/identity/implementation/AocIdentityAuthenticator;->getCredentials()Lcom/wolterskluwer/oneclick/auth/password/PortalUser; <",
+                "> Lcom/wolterskluwer/oneclick/auth/identity/implementation/IdentityAuthenticationManager;->hasAccount()Z <",
+                "> Lcom/wolterskluwer/oneclick/auth/identity/presentation/LogoutManagementActivity;-><init>()V <",
+                "> Lcom/wolterskluwer/oneclick/auth/identity/presentation/RedirectUriReceiverActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.VIEW",
+                    "start-activity -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/wolterskluwer/oneclick/auth/identity/implementation/AocIdentityAuthStorage;->getCredentials()Lcom/wolterskluwer/oneclick/auth/password/PortalUser; <",
+                "> Lcom/wolterskluwer/oneclick/auth/identity/implementation/AocIdentityAuthenticator;->getCredentials()Lcom/wolterskluwer/oneclick/auth/password/PortalUser; <",
+                "> Lcom/wolterskluwer/oneclick/auth/identity/implementation/IdentityAuthenticationManager;->createAccountRequestBlocked()Lcom/wolterskluwer/oneclick/auth/appauth/AccountRequest; <",
+                "> Lcom/wolterskluwer/oneclick/auth/identity/presentation/LogoutManagementActivity;-><init>()V <",
+                "> Lcom/wolterskluwer/oneclick/auth/identity/presentation/RedirectUriReceiverActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.VIEW",
+                    "start-activity -a"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/wolterskluwer/oneclick/auth/identity/implementation/AocIdentityAuthStorage;->getCredentials()Lcom/wolterskluwer/oneclick/auth/password/PortalUser; <",
+                "> Lcom/wolterskluwer/oneclick/auth/identity/implementation/AocIdentityAuthenticator;->getCredentials()Lcom/wolterskluwer/oneclick/auth/password/PortalUser; <",
+                "> Lcom/wolterskluwer/oneclick/auth/identity/implementation/IdentityAuthenticationManager;->hasAccount()Z <",
+                "> Lcom/wolterskluwer/oneclick/auth/identity/presentation/PasscodeLockActivity;-><init>()V <",
+                "> Lcom/wolterskluwer/oneclick/autolock/OneClickAppLock;->getAppLockActivityClass()Ljava/lang/Class; <",
+                "> Lcom/wolterskluwer/oneclick/autolock/OneClickAppLock;->getInstance(Landroid/content/Context;)Lcom/wolterskluwer/oneclick/autolock/OneClickAppLock; <",
+                "> Lcom/wolterskluwer/oneclick/common/OneClickApplication;->initializeAppLock()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/wolterskluwer/oneclick/auth/identity/implementation/AocIdentityAuthStorage;->getCredentials()Lcom/wolterskluwer/oneclick/auth/password/PortalUser; <",
+                "> Lcom/wolterskluwer/oneclick/auth/identity/implementation/AocIdentityAuthenticator;->getCredentials()Lcom/wolterskluwer/oneclick/auth/password/PortalUser; <",
+                "> Lcom/wolterskluwer/oneclick/auth/identity/implementation/IdentityAuthenticationManager;->createAccountRequestBlocked()Lcom/wolterskluwer/oneclick/auth/appauth/AccountRequest; <",
+                "> Lcom/wolterskluwer/oneclick/auth/identity/presentation/PasscodeLockActivity;-><init>()V <",
+                "> Lcom/wolterskluwer/oneclick/autolock/OneClickAppLock;->getAppLockActivityClass()Ljava/lang/Class; <",
+                "> Lcom/wolterskluwer/oneclick/autolock/OneClickAppLock;->getInstance(Landroid/content/Context;)Lcom/wolterskluwer/oneclick/autolock/OneClickAppLock; <",
+                "> Lcom/wolterskluwer/oneclick/common/OneClickApplication;->initializeAppLock()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    }
+}

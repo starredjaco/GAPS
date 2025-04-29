@@ -1,0 +1,1827 @@
+{
+    "Litkach/aard2/Application$2;->onPostExecute(Ljava/util/Iterator;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Litkach/aard2/Application$2;->onPostExecute(Ljava/lang/Object;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Litkach/aard2/BlobDescriptorListFragment;->getListView()Landroid/widget/ListView;": {
+        "path_0": {
+            "call_sequence": [
+                "> Litkach/aard2/BlobDescriptorListFragment;->deleteSelectedItems()V <",
+                "> Litkach/aard2/BlobDescriptorListFragment$1;->onClick(Landroid/content/DialogInterface;I)V <",
+                "> Litkach/aard2/BlobDescriptorListFragment;->onSelectionActionItemClicked(Landroid/view/ActionMode;Landroid/view/MenuItem;)Z <",
+                "> Litkach/aard2/MainActivity$HistoryFragment;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "itkach.aard2.MainActivity",
+                    "blob_descriptor_delete",
+                    "Delete"
+                ],
+                [
+                    "itkach.aard2.MainActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Litkach/aard2/BlobDescriptorListFragment;->onSelectionActionItemClicked(Landroid/view/ActionMode;Landroid/view/MenuItem;)Z <",
+                "> Litkach/aard2/MainActivity$HistoryFragment;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "itkach.aard2.MainActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Litkach/aard2/BlobDescriptorListFragment;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V <",
+                "> Litkach/aard2/MainActivity$HistoryFragment;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "itkach.aard2.MainActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Litkach/aard2/BlobDescriptorList$1;-><init>(Litkach/aard2/BlobDescriptorList;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Litkach/aard2/BlobDescriptorList;-><init>(Litkach/aard2/Application;Litkach/aard2/DescriptorStore;I)V <",
+                "> Litkach/aard2/BlobDescriptorList;-><init>(Litkach/aard2/Application;Litkach/aard2/DescriptorStore;)V <",
+                "> Litkach/aard2/Application;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Litkach/aard2/ArticleCollectionActivity$ArticleCollectionPagerAdapter;-><init>(Litkach/aard2/Application;Landroid/widget/BaseAdapter;Litkach/aard2/ArticleCollectionActivity$ToBlob;Landroid/support/v4/app/FragmentManager;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Litkach/aard2/ArticleCollectionActivity;->createFromBookmarks(Litkach/aard2/Application;)Litkach/aard2/ArticleCollectionActivity$ArticleCollectionPagerAdapter; <",
+                "> Litkach/aard2/ArticleCollectionActivity;->access$200(Litkach/aard2/ArticleCollectionActivity;Litkach/aard2/Application;)Litkach/aard2/ArticleCollectionActivity$ArticleCollectionPagerAdapter; <",
+                "> Litkach/aard2/ArticleCollectionActivity$2;->doInBackground([Ljava/lang/Void;)Litkach/aard2/ArticleCollectionActivity$ArticleCollectionPagerAdapter; <",
+                "> Litkach/aard2/ArticleCollectionActivity$2;->doInBackground([Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Litkach/aard2/ArticleCollectionActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "colordict.intent.action.SEARCH",
+                    "start-activity -a"
+                ],
+                [
+                    "itkach.aard2.ArticleCollectionActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Litkach/aard2/ArticleCollectionActivity;->createFromBookmarks(Litkach/aard2/Application;)Litkach/aard2/ArticleCollectionActivity$ArticleCollectionPagerAdapter; <",
+                "> Litkach/aard2/ArticleCollectionActivity;->access$200(Litkach/aard2/ArticleCollectionActivity;Litkach/aard2/Application;)Litkach/aard2/ArticleCollectionActivity$ArticleCollectionPagerAdapter; <",
+                "> Litkach/aard2/ArticleCollectionActivity$2;->doInBackground([Ljava/lang/Void;)Litkach/aard2/ArticleCollectionActivity$ArticleCollectionPagerAdapter; <",
+                "> Litkach/aard2/ArticleCollectionActivity$2;->doInBackground([Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Litkach/aard2/ArticleCollectionActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Litkach/aard2/MainActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "itkach.aard2.MainActivity",
+                    "<unknown>"
+                ],
+                [
+                    "itkach.aard2.ArticleCollectionActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Litkach/aard2/ArticleCollectionActivity;->createFromHistory(Litkach/aard2/Application;)Litkach/aard2/ArticleCollectionActivity$ArticleCollectionPagerAdapter; <",
+                "> Litkach/aard2/ArticleCollectionActivity;->access$300(Litkach/aard2/ArticleCollectionActivity;Litkach/aard2/Application;)Litkach/aard2/ArticleCollectionActivity$ArticleCollectionPagerAdapter; <",
+                "> Litkach/aard2/ArticleCollectionActivity$2;->doInBackground([Ljava/lang/Void;)Litkach/aard2/ArticleCollectionActivity$ArticleCollectionPagerAdapter; <",
+                "> Litkach/aard2/ArticleCollectionActivity$2;->doInBackground([Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Litkach/aard2/ArticleCollectionActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "colordict.intent.action.SEARCH",
+                    "start-activity -a"
+                ],
+                [
+                    "itkach.aard2.ArticleCollectionActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Litkach/aard2/ArticleCollectionActivity;->createFromHistory(Litkach/aard2/Application;)Litkach/aard2/ArticleCollectionActivity$ArticleCollectionPagerAdapter; <",
+                "> Litkach/aard2/ArticleCollectionActivity;->access$300(Litkach/aard2/ArticleCollectionActivity;Litkach/aard2/Application;)Litkach/aard2/ArticleCollectionActivity$ArticleCollectionPagerAdapter; <",
+                "> Litkach/aard2/ArticleCollectionActivity$2;->doInBackground([Ljava/lang/Void;)Litkach/aard2/ArticleCollectionActivity$ArticleCollectionPagerAdapter; <",
+                "> Litkach/aard2/ArticleCollectionActivity$2;->doInBackground([Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Litkach/aard2/ArticleCollectionActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Litkach/aard2/MainActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "itkach.aard2.MainActivity",
+                    "<unknown>"
+                ],
+                [
+                    "itkach.aard2.ArticleCollectionActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Litkach/aard2/ArticleCollectionActivity;->createFromIntent(Litkach/aard2/Application;Landroid/content/Intent;)Litkach/aard2/ArticleCollectionActivity$ArticleCollectionPagerAdapter; <",
+                "> Litkach/aard2/ArticleCollectionActivity;->access$400(Litkach/aard2/ArticleCollectionActivity;Litkach/aard2/Application;Landroid/content/Intent;)Litkach/aard2/ArticleCollectionActivity$ArticleCollectionPagerAdapter; <",
+                "> Litkach/aard2/ArticleCollectionActivity$2;->doInBackground([Ljava/lang/Void;)Litkach/aard2/ArticleCollectionActivity$ArticleCollectionPagerAdapter; <",
+                "> Litkach/aard2/ArticleCollectionActivity$2;->doInBackground([Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Litkach/aard2/ArticleCollectionActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "colordict.intent.action.SEARCH",
+                    "start-activity -a"
+                ],
+                [
+                    "itkach.aard2.ArticleCollectionActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_5": {
+            "call_sequence": [
+                "> Litkach/aard2/ArticleCollectionActivity;->createFromIntent(Litkach/aard2/Application;Landroid/content/Intent;)Litkach/aard2/ArticleCollectionActivity$ArticleCollectionPagerAdapter; <",
+                "> Litkach/aard2/ArticleCollectionActivity;->access$400(Litkach/aard2/ArticleCollectionActivity;Litkach/aard2/Application;Landroid/content/Intent;)Litkach/aard2/ArticleCollectionActivity$ArticleCollectionPagerAdapter; <",
+                "> Litkach/aard2/ArticleCollectionActivity$2;->doInBackground([Ljava/lang/Void;)Litkach/aard2/ArticleCollectionActivity$ArticleCollectionPagerAdapter; <",
+                "> Litkach/aard2/ArticleCollectionActivity$2;->doInBackground([Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Litkach/aard2/ArticleCollectionActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Litkach/aard2/MainActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "itkach.aard2.MainActivity",
+                    "<unknown>"
+                ],
+                [
+                    "itkach.aard2.ArticleCollectionActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_6": {
+            "call_sequence": [
+                "> Litkach/aard2/ArticleCollectionActivity;->createFromLastResult(Litkach/aard2/Application;)Litkach/aard2/ArticleCollectionActivity$ArticleCollectionPagerAdapter; <",
+                "> Litkach/aard2/ArticleCollectionActivity;->access$100(Litkach/aard2/ArticleCollectionActivity;Litkach/aard2/Application;)Litkach/aard2/ArticleCollectionActivity$ArticleCollectionPagerAdapter; <",
+                "> Litkach/aard2/ArticleCollectionActivity$2;->doInBackground([Ljava/lang/Void;)Litkach/aard2/ArticleCollectionActivity$ArticleCollectionPagerAdapter; <",
+                "> Litkach/aard2/ArticleCollectionActivity$2;->doInBackground([Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Litkach/aard2/ArticleCollectionActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "colordict.intent.action.SEARCH",
+                    "start-activity -a"
+                ],
+                [
+                    "itkach.aard2.ArticleCollectionActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_7": {
+            "call_sequence": [
+                "> Litkach/aard2/ArticleCollectionActivity;->createFromLastResult(Litkach/aard2/Application;)Litkach/aard2/ArticleCollectionActivity$ArticleCollectionPagerAdapter; <",
+                "> Litkach/aard2/ArticleCollectionActivity;->access$100(Litkach/aard2/ArticleCollectionActivity;Litkach/aard2/Application;)Litkach/aard2/ArticleCollectionActivity$ArticleCollectionPagerAdapter; <",
+                "> Litkach/aard2/ArticleCollectionActivity$2;->doInBackground([Ljava/lang/Void;)Litkach/aard2/ArticleCollectionActivity$ArticleCollectionPagerAdapter; <",
+                "> Litkach/aard2/ArticleCollectionActivity$2;->doInBackground([Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Litkach/aard2/ArticleCollectionActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Litkach/aard2/MainActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "itkach.aard2.MainActivity",
+                    "<unknown>"
+                ],
+                [
+                    "itkach.aard2.ArticleCollectionActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_8": {
+            "call_sequence": [
+                "> Litkach/aard2/ArticleCollectionActivity;->createFromUri(Litkach/aard2/Application;Landroid/net/Uri;)Litkach/aard2/ArticleCollectionActivity$ArticleCollectionPagerAdapter; <",
+                "> Litkach/aard2/ArticleCollectionActivity;->access$000(Litkach/aard2/ArticleCollectionActivity;Litkach/aard2/Application;Landroid/net/Uri;)Litkach/aard2/ArticleCollectionActivity$ArticleCollectionPagerAdapter; <",
+                "> Litkach/aard2/ArticleCollectionActivity$2;->doInBackground([Ljava/lang/Void;)Litkach/aard2/ArticleCollectionActivity$ArticleCollectionPagerAdapter; <",
+                "> Litkach/aard2/ArticleCollectionActivity$2;->doInBackground([Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Litkach/aard2/ArticleCollectionActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "colordict.intent.action.SEARCH",
+                    "start-activity -a"
+                ],
+                [
+                    "itkach.aard2.ArticleCollectionActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_9": {
+            "call_sequence": [
+                "> Litkach/aard2/ArticleCollectionActivity;->createFromUri(Litkach/aard2/Application;Landroid/net/Uri;)Litkach/aard2/ArticleCollectionActivity$ArticleCollectionPagerAdapter; <",
+                "> Litkach/aard2/ArticleCollectionActivity;->access$000(Litkach/aard2/ArticleCollectionActivity;Litkach/aard2/Application;Landroid/net/Uri;)Litkach/aard2/ArticleCollectionActivity$ArticleCollectionPagerAdapter; <",
+                "> Litkach/aard2/ArticleCollectionActivity$2;->doInBackground([Ljava/lang/Void;)Litkach/aard2/ArticleCollectionActivity$ArticleCollectionPagerAdapter; <",
+                "> Litkach/aard2/ArticleCollectionActivity$2;->doInBackground([Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Litkach/aard2/ArticleCollectionActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Litkach/aard2/MainActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "itkach.aard2.MainActivity",
+                    "<unknown>"
+                ],
+                [
+                    "itkach.aard2.ArticleCollectionActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Litkach/aard2/BlobDescriptorList;->get(I)Litkach/aard2/BlobDescriptor;": {
+        "path_0": {
+            "call_sequence": [
+                "> Litkach/aard2/BlobDescriptorListAdapter;->getItem(I)Ljava/lang/Object; <",
+                "> Litkach/aard2/BlobDescriptorListFragment;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V <",
+                "> Litkach/aard2/MainActivity$HistoryFragment;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "itkach.aard2.MainActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Litkach/aard2/BlobDescriptorListAdapter;->getItem(I)Ljava/lang/Object; <",
+                "> Litkach/aard2/BlobDescriptorListFragment;->setSelectionMode(Z)V <",
+                "> Litkach/aard2/MainActivity$HistoryFragment;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Litkach/aard2/BlobDescriptorListAdapter;->getView(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View; <",
+                "> Litkach/aard2/BlobDescriptorListFragment;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V <",
+                "> Litkach/aard2/MainActivity$HistoryFragment;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "itkach.aard2.MainActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Litkach/aard2/BlobDescriptorListAdapter;->getView(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View; <",
+                "> Litkach/aard2/BlobDescriptorListFragment;->setSelectionMode(Z)V <",
+                "> Litkach/aard2/MainActivity$HistoryFragment;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "itkach.aard2.MainActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Litkach/aard2/ArticleCollectionActivity;->findViewById(I)Landroid/view/View;": {
+        "path_0": {
+            "call_sequence": [
+                "> Litkach/aard2/ArticleCollectionActivity$2;->onPostExecute(Litkach/aard2/ArticleCollectionActivity$ArticleCollectionPagerAdapter;)V <",
+                "> Litkach/aard2/ArticleCollectionActivity$2;->onPostExecute(Ljava/lang/Object;)V <",
+                "> Litkach/aard2/ArticleCollectionActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "colordict.intent.action.SEARCH",
+                    "start-activity -a"
+                ],
+                [
+                    "itkach.aard2.ArticleCollectionActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Litkach/aard2/ArticleCollectionActivity$2;->onPostExecute(Litkach/aard2/ArticleCollectionActivity$ArticleCollectionPagerAdapter;)V <",
+                "> Litkach/aard2/ArticleCollectionActivity$2;->onPostExecute(Ljava/lang/Object;)V <",
+                "> Litkach/aard2/ArticleCollectionActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Litkach/aard2/MainActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "itkach.aard2.MainActivity",
+                    "<unknown>"
+                ],
+                [
+                    "itkach.aard2.ArticleCollectionActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Litkach/aard2/BaseDescriptorList;-><init>(Ljava/lang/Class;Litkach/aard2/DescriptorStore;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Litkach/aard2/SlobDescriptorList;-><init>(Litkach/aard2/Application;Litkach/aard2/DescriptorStore;)V <",
+                "> Litkach/aard2/Application;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Litkach/aard2/MainActivity$HistoryFragment;->getString(I)Ljava/lang/String;": {
+        "path_0": {
+            "call_sequence": [
+                "> Litkach/aard2/MainActivity$HistoryFragment;->getEmptyText()Ljava/lang/String; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Litkach/aard2/ArticleWebView;->setWebChromeClient(Landroid/webkit/WebChromeClient;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Litkach/aard2/ArticleFragment;->onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View; <",
+                "> Litkach/aard2/ArticleCollectionActivity$ArticleCollectionPagerAdapter;->getItem(I)Landroid/support/v4/app/Fragment; <",
+                "> Litkach/aard2/ArticleCollectionActivity$2$1$1;->run()V <",
+                "> Litkach/aard2/ArticleCollectionActivity$2$1;->onPageSelected(I)V <",
+                "> Litkach/aard2/ArticleCollectionActivity$2;->onPostExecute(Litkach/aard2/ArticleCollectionActivity$ArticleCollectionPagerAdapter;)V <",
+                "> Litkach/aard2/ArticleCollectionActivity$2;->onPostExecute(Ljava/lang/Object;)V <",
+                "> Litkach/aard2/ArticleCollectionActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "colordict.intent.action.SEARCH",
+                    "start-activity -a"
+                ],
+                [
+                    "itkach.aard2.ArticleCollectionActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Litkach/aard2/ArticleFragment;->onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View; <",
+                "> Litkach/aard2/ArticleCollectionActivity$ArticleCollectionPagerAdapter;->getItem(I)Landroid/support/v4/app/Fragment; <",
+                "> Litkach/aard2/ArticleCollectionActivity$2$1$1;->run()V <",
+                "> Litkach/aard2/ArticleCollectionActivity$2$1;->onPageSelected(I)V <",
+                "> Litkach/aard2/ArticleCollectionActivity$2;->onPostExecute(Litkach/aard2/ArticleCollectionActivity$ArticleCollectionPagerAdapter;)V <",
+                "> Litkach/aard2/ArticleCollectionActivity$2;->onPostExecute(Ljava/lang/Object;)V <",
+                "> Litkach/aard2/ArticleCollectionActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Litkach/aard2/MainActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "itkach.aard2.MainActivity",
+                    "<unknown>"
+                ],
+                [
+                    "itkach.aard2.ArticleCollectionActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Litkach/aard2/ArticleWebView;->reload()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Litkach/aard2/ArticleFragment;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Litkach/aard2/ArticleCollectionActivity$ArticleCollectionPagerAdapter;->getItem(I)Landroid/support/v4/app/Fragment; <",
+                "> Litkach/aard2/ArticleCollectionActivity$2$1$1;->run()V <",
+                "> Litkach/aard2/ArticleCollectionActivity$2$1;->onPageSelected(I)V <",
+                "> Litkach/aard2/ArticleCollectionActivity$2;->onPostExecute(Litkach/aard2/ArticleCollectionActivity$ArticleCollectionPagerAdapter;)V <",
+                "> Litkach/aard2/ArticleCollectionActivity$2;->onPostExecute(Ljava/lang/Object;)V <",
+                "> Litkach/aard2/ArticleCollectionActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "colordict.intent.action.SEARCH",
+                    "start-activity -a"
+                ],
+                [
+                    "itkach.aard2.ArticleCollectionActivity",
+                    "<unknown>"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "itkach.aard2.ArticleCollectionActivity",
+                    "action_load_remote_content",
+                    "Load Remote Content"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Litkach/aard2/ArticleFragment;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Litkach/aard2/ArticleCollectionActivity$ArticleCollectionPagerAdapter;->getItem(I)Landroid/support/v4/app/Fragment; <",
+                "> Litkach/aard2/ArticleCollectionActivity$2$1$1;->run()V <",
+                "> Litkach/aard2/ArticleCollectionActivity$2$1;->onPageSelected(I)V <",
+                "> Litkach/aard2/ArticleCollectionActivity$2;->onPostExecute(Litkach/aard2/ArticleCollectionActivity$ArticleCollectionPagerAdapter;)V <",
+                "> Litkach/aard2/ArticleCollectionActivity$2;->onPostExecute(Ljava/lang/Object;)V <",
+                "> Litkach/aard2/ArticleCollectionActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Litkach/aard2/MainActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "itkach.aard2.MainActivity",
+                    "<unknown>"
+                ],
+                [
+                    "itkach.aard2.ArticleCollectionActivity",
+                    "<unknown>"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "itkach.aard2.ArticleCollectionActivity",
+                    "action_load_remote_content",
+                    "Load Remote Content"
+                ]
+            ]
+        }
+    },
+    "Litkach/aard2/Application;->installTheme(Landroid/app/Activity;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Litkach/aard2/ArticleCollectionActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "colordict.intent.action.SEARCH",
+                    "start-activity -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Litkach/aard2/ArticleCollectionActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Litkach/aard2/MainActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "itkach.aard2.MainActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Litkach/aard2/MainActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Litkach/aard2/BlobDescriptorList$SortOrder;-><init>(Ljava/lang/String;I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Litkach/aard2/BlobDescriptorList$SortOrder;-><clinit>()V <",
+                "> Litkach/aard2/BlobDescriptorList$SortOrder;->valueOf(Ljava/lang/String;)Litkach/aard2/BlobDescriptorList$SortOrder; <",
+                "> Litkach/aard2/BlobDescriptorListFragment;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V <",
+                "> Litkach/aard2/MainActivity$HistoryFragment;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "itkach.aard2.MainActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Litkach/aard2/BlobDescriptorListAdapter;->notifyDataSetInvalidated()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Litkach/aard2/BlobDescriptorListAdapter$1;->onInvalidated()V <",
+                "> Litkach/aard2/BlobDescriptorListAdapter;-><init>(Litkach/aard2/BlobDescriptorList;)V <",
+                "> Litkach/aard2/ArticleCollectionActivity;->createFromBookmarks(Litkach/aard2/Application;)Litkach/aard2/ArticleCollectionActivity$ArticleCollectionPagerAdapter; <",
+                "> Litkach/aard2/ArticleCollectionActivity;->access$200(Litkach/aard2/ArticleCollectionActivity;Litkach/aard2/Application;)Litkach/aard2/ArticleCollectionActivity$ArticleCollectionPagerAdapter; <",
+                "> Litkach/aard2/ArticleCollectionActivity$2;->doInBackground([Ljava/lang/Void;)Litkach/aard2/ArticleCollectionActivity$ArticleCollectionPagerAdapter; <",
+                "> Litkach/aard2/ArticleCollectionActivity$2;->doInBackground([Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Litkach/aard2/ArticleCollectionActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "colordict.intent.action.SEARCH",
+                    "start-activity -a"
+                ],
+                [
+                    "itkach.aard2.ArticleCollectionActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Litkach/aard2/BlobDescriptorListAdapter$1;->onInvalidated()V <",
+                "> Litkach/aard2/BlobDescriptorListAdapter;-><init>(Litkach/aard2/BlobDescriptorList;)V <",
+                "> Litkach/aard2/BlobDescriptorListFragment;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V <",
+                "> Litkach/aard2/MainActivity$HistoryFragment;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "itkach.aard2.MainActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Litkach/aard2/BaseDescriptorList;->load()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Litkach/aard2/SlobDescriptorList;->load()V <",
+                "> Litkach/aard2/Application;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Litkach/aard2/BlobDescriptorListFragment;->getString(I[Ljava/lang/Object;)Ljava/lang/String;": {
+        "path_0": {
+            "call_sequence": [
+                "> Litkach/aard2/BlobDescriptorListFragment;->onSelectionActionItemClicked(Landroid/view/ActionMode;Landroid/view/MenuItem;)Z <",
+                "> Litkach/aard2/MainActivity$HistoryFragment;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "itkach.aard2.MainActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Litkach/aard2/Application;->access$000(Litkach/aard2/Application;)Litkach/slobber/Slobber;": {
+        "path_0": {
+            "call_sequence": [
+                "> Litkach/aard2/Application$1;->onChanged()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Litkach/aard2/BaseDescriptorList;->size()I": {
+        "path_0": {
+            "call_sequence": [
+                "> Litkach/aard2/SlobDescriptorList;->size()I <",
+                "> Litkach/aard2/Application;->getFavoriteSlobs()[Litkach/slob/Slob; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Litkach/aard2/SlobDescriptorList;->size()I <",
+                "> Litkach/aard2/Application;->getActiveSlobs()[Litkach/slob/Slob; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Litkach/aard2/SlobDescriptorList;->size()I <",
+                "> Litkach/aard2/Application;->getActiveSlobs()[Litkach/slob/Slob; <",
+                "> Litkach/aard2/Application;->find(Ljava/lang/String;Ljava/lang/String;ZLitkach/slob/Slob$Strength;)Litkach/slob/Slob$PeekableIterator; <",
+                "> Litkach/aard2/Application;->find(Ljava/lang/String;Ljava/lang/String;Z)Litkach/slob/Slob$PeekableIterator; <",
+                "> Litkach/aard2/ArticleCollectionActivity;->stemLookup(Litkach/aard2/Application;Ljava/lang/String;Ljava/lang/String;)Ljava/util/Iterator; <",
+                "> Litkach/aard2/ArticleCollectionActivity;->stemLookup(Litkach/aard2/Application;Ljava/lang/String;)Ljava/util/Iterator; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "colordict.intent.action.SEARCH",
+                    "start-activity -a"
+                ]
+            ]
+        }
+    },
+    "Litkach/aard2/ArticleWebView;->textZoomOut()Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Litkach/aard2/ArticleFragment;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Litkach/aard2/ArticleCollectionActivity$ArticleCollectionPagerAdapter;->getItem(I)Landroid/support/v4/app/Fragment; <",
+                "> Litkach/aard2/ArticleCollectionActivity$2$1$1;->run()V <",
+                "> Litkach/aard2/ArticleCollectionActivity$2$1;->onPageSelected(I)V <",
+                "> Litkach/aard2/ArticleCollectionActivity$2;->onPostExecute(Litkach/aard2/ArticleCollectionActivity$ArticleCollectionPagerAdapter;)V <",
+                "> Litkach/aard2/ArticleCollectionActivity$2;->onPostExecute(Ljava/lang/Object;)V <",
+                "> Litkach/aard2/ArticleCollectionActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "colordict.intent.action.SEARCH",
+                    "start-activity -a"
+                ],
+                [
+                    "itkach.aard2.ArticleCollectionActivity",
+                    "<unknown>"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "itkach.aard2.ArticleCollectionActivity",
+                    "action_zoom_out",
+                    "Zoom Out"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Litkach/aard2/ArticleFragment;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Litkach/aard2/ArticleCollectionActivity$ArticleCollectionPagerAdapter;->getItem(I)Landroid/support/v4/app/Fragment; <",
+                "> Litkach/aard2/ArticleCollectionActivity$2$1$1;->run()V <",
+                "> Litkach/aard2/ArticleCollectionActivity$2$1;->onPageSelected(I)V <",
+                "> Litkach/aard2/ArticleCollectionActivity$2;->onPostExecute(Litkach/aard2/ArticleCollectionActivity$ArticleCollectionPagerAdapter;)V <",
+                "> Litkach/aard2/ArticleCollectionActivity$2;->onPostExecute(Ljava/lang/Object;)V <",
+                "> Litkach/aard2/ArticleCollectionActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Litkach/aard2/MainActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "itkach.aard2.MainActivity",
+                    "<unknown>"
+                ],
+                [
+                    "itkach.aard2.ArticleCollectionActivity",
+                    "<unknown>"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "itkach.aard2.ArticleCollectionActivity",
+                    "action_zoom_out",
+                    "Zoom Out"
+                ]
+            ]
+        }
+    },
+    "Litkach/aard2/ArticleFragment;->displayBookmarked(Z)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Litkach/aard2/ArticleFragment;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Litkach/aard2/ArticleCollectionActivity$ArticleCollectionPagerAdapter;->getItem(I)Landroid/support/v4/app/Fragment; <",
+                "> Litkach/aard2/ArticleCollectionActivity$2$1$1;->run()V <",
+                "> Litkach/aard2/ArticleCollectionActivity$2$1;->onPageSelected(I)V <",
+                "> Litkach/aard2/ArticleCollectionActivity$2;->onPostExecute(Litkach/aard2/ArticleCollectionActivity$ArticleCollectionPagerAdapter;)V <",
+                "> Litkach/aard2/ArticleCollectionActivity$2;->onPostExecute(Ljava/lang/Object;)V <",
+                "> Litkach/aard2/ArticleCollectionActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "colordict.intent.action.SEARCH",
+                    "start-activity -a"
+                ],
+                [
+                    "itkach.aard2.ArticleCollectionActivity",
+                    "<unknown>"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "itkach.aard2.ArticleCollectionActivity",
+                    "action_bookmark_article",
+                    "Bookmark"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Litkach/aard2/ArticleFragment;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Litkach/aard2/ArticleCollectionActivity$ArticleCollectionPagerAdapter;->getItem(I)Landroid/support/v4/app/Fragment; <",
+                "> Litkach/aard2/ArticleCollectionActivity$2$1$1;->run()V <",
+                "> Litkach/aard2/ArticleCollectionActivity$2$1;->onPageSelected(I)V <",
+                "> Litkach/aard2/ArticleCollectionActivity$2;->onPostExecute(Litkach/aard2/ArticleCollectionActivity$ArticleCollectionPagerAdapter;)V <",
+                "> Litkach/aard2/ArticleCollectionActivity$2;->onPostExecute(Ljava/lang/Object;)V <",
+                "> Litkach/aard2/ArticleCollectionActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Litkach/aard2/MainActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "itkach.aard2.MainActivity",
+                    "<unknown>"
+                ],
+                [
+                    "itkach.aard2.ArticleCollectionActivity",
+                    "<unknown>"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "itkach.aard2.ArticleCollectionActivity",
+                    "action_bookmark_article",
+                    "Bookmark"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Litkach/aard2/ArticleFragment;->onPrepareOptionsMenu(Landroid/view/Menu;)V <",
+                "> Litkach/aard2/ArticleCollectionActivity$ArticleCollectionPagerAdapter;->getItem(I)Landroid/support/v4/app/Fragment; <",
+                "> Litkach/aard2/ArticleCollectionActivity$2$1$1;->run()V <",
+                "> Litkach/aard2/ArticleCollectionActivity$2$1;->onPageSelected(I)V <",
+                "> Litkach/aard2/ArticleCollectionActivity$2;->onPostExecute(Litkach/aard2/ArticleCollectionActivity$ArticleCollectionPagerAdapter;)V <",
+                "> Litkach/aard2/ArticleCollectionActivity$2;->onPostExecute(Ljava/lang/Object;)V <",
+                "> Litkach/aard2/ArticleCollectionActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "----- CONDITIONAL -----",
+                "> Litkach/aard2/ArticleFragment;->onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View; <",
+                "----- CONDITIONAL -----",
+                "> Litkach/aard2/ArticleCollectionActivity$ArticleCollectionPagerAdapter;->getItem(I)Landroid/support/v4/app/Fragment; <",
+                "----- CONDITIONAL -----",
+                "> Litkach/aard2/ArticleCollectionActivity$2$1$1;->run()V <",
+                "----- CONDITIONAL -----",
+                "> Litkach/aard2/ArticleCollectionActivity$2$1;->onPageSelected(I)V <",
+                "----- CONDITIONAL -----",
+                "> Litkach/aard2/ArticleCollectionActivity$2;->onPostExecute(Litkach/aard2/ArticleCollectionActivity$ArticleCollectionPagerAdapter;)V <",
+                "----- CONDITIONAL -----",
+                "> Litkach/aard2/ArticleCollectionActivity$2;->onPostExecute(Ljava/lang/Object;)V <",
+                "----- CONDITIONAL -----",
+                "> Litkach/aard2/ArticleCollectionActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "----- CONDITIONAL -----"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "aard2.lookup",
+                    "start-activity -a"
+                ],
+                [
+                    "itkach.aard2.ArticleCollectionActivity",
+                    "<unknown>"
+                ],
+                [
+                    "intent",
+                    "colordict.intent.action.SEARCH",
+                    "start-activity -a"
+                ],
+                [
+                    "itkach.aard2.ArticleCollectionActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Litkach/aard2/ArticleFragment;->onPrepareOptionsMenu(Landroid/view/Menu;)V <",
+                "> Litkach/aard2/ArticleCollectionActivity$ArticleCollectionPagerAdapter;->getItem(I)Landroid/support/v4/app/Fragment; <",
+                "> Litkach/aard2/ArticleCollectionActivity$2$1$1;->run()V <",
+                "> Litkach/aard2/ArticleCollectionActivity$2$1;->onPageSelected(I)V <",
+                "> Litkach/aard2/ArticleCollectionActivity$2;->onPostExecute(Litkach/aard2/ArticleCollectionActivity$ArticleCollectionPagerAdapter;)V <",
+                "> Litkach/aard2/ArticleCollectionActivity$2;->onPostExecute(Ljava/lang/Object;)V <",
+                "> Litkach/aard2/ArticleCollectionActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Litkach/aard2/MainActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "----- CONDITIONAL -----",
+                "> Litkach/aard2/ArticleFragment;->onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View; <",
+                "----- CONDITIONAL -----",
+                "> Litkach/aard2/ArticleCollectionActivity$ArticleCollectionPagerAdapter;->getItem(I)Landroid/support/v4/app/Fragment; <",
+                "----- CONDITIONAL -----",
+                "> Litkach/aard2/ArticleCollectionActivity$2$1$1;->run()V <",
+                "----- CONDITIONAL -----",
+                "> Litkach/aard2/ArticleCollectionActivity$2$1;->onPageSelected(I)V <",
+                "----- CONDITIONAL -----",
+                "> Litkach/aard2/ArticleCollectionActivity$2;->onPostExecute(Litkach/aard2/ArticleCollectionActivity$ArticleCollectionPagerAdapter;)V <",
+                "----- CONDITIONAL -----",
+                "> Litkach/aard2/ArticleCollectionActivity$2;->onPostExecute(Ljava/lang/Object;)V <",
+                "----- CONDITIONAL -----",
+                "> Litkach/aard2/ArticleCollectionActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "----- CONDITIONAL -----"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "aard2.lookup",
+                    "start-activity -a"
+                ],
+                [
+                    "itkach.aard2.ArticleCollectionActivity",
+                    "<unknown>"
+                ],
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "itkach.aard2.MainActivity",
+                    "<unknown>"
+                ],
+                [
+                    "itkach.aard2.ArticleCollectionActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Litkach/aard2/ArticleCollectionActivity;->prefs()Landroid/content/SharedPreferences;": {
+        "path_0": {
+            "call_sequence": [
+                "> Litkach/aard2/ArticleCollectionActivity;->onResume()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "colordict.intent.action.SEARCH",
+                    "start-activity -a"
+                ],
+                [
+                    "itkach.aard2.ArticleCollectionActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Litkach/aard2/ArticleCollectionActivity;->onResume()V <",
+                "> Litkach/aard2/MainActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "itkach.aard2.MainActivity",
+                    "<unknown>"
+                ],
+                [
+                    "itkach.aard2.ArticleCollectionActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Litkach/aard2/ArticleCollectionActivity;->onPause()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "colordict.intent.action.SEARCH",
+                    "start-activity -a"
+                ],
+                [
+                    "itkach.aard2.ArticleCollectionActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Litkach/aard2/ArticleCollectionActivity;->onPause()V <",
+                "> Litkach/aard2/MainActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "itkach.aard2.MainActivity",
+                    "<unknown>"
+                ],
+                [
+                    "itkach.aard2.ArticleCollectionActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Litkach/aard2/ArticleCollectionActivity;->getFullScreenPref()Z <",
+                "> Litkach/aard2/ArticleCollectionActivity;->applyFullScreenPref()V <",
+                "> Litkach/aard2/ArticleCollectionActivity;->onResume()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "colordict.intent.action.SEARCH",
+                    "start-activity -a"
+                ]
+            ]
+        },
+        "path_5": {
+            "call_sequence": [
+                "> Litkach/aard2/ArticleCollectionActivity;->getFullScreenPref()Z <",
+                "> Litkach/aard2/ArticleCollectionActivity;->applyFullScreenPref()V <",
+                "> Litkach/aard2/ArticleCollectionActivity;->onResume()V <",
+                "> Litkach/aard2/MainActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "itkach.aard2.MainActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_6": {
+            "call_sequence": [
+                "> Litkach/aard2/ArticleCollectionActivity;->setFullScreenPref(Z)V <",
+                "> Litkach/aard2/ArticleCollectionActivity;->onSystemUiVisibilityChange(I)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "colordict.intent.action.SEARCH",
+                    "start-activity -a"
+                ],
+                [
+                    "itkach.aard2.ArticleCollectionActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_7": {
+            "call_sequence": [
+                "> Litkach/aard2/ArticleCollectionActivity;->setFullScreenPref(Z)V <",
+                "> Litkach/aard2/ArticleCollectionActivity;->onSystemUiVisibilityChange(I)V <",
+                "> Litkach/aard2/MainActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "itkach.aard2.MainActivity",
+                    "<unknown>"
+                ],
+                [
+                    "itkach.aard2.ArticleCollectionActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Litkach/aard2/BlobDescriptorList;->access$100(Litkach/aard2/BlobDescriptorList;Litkach/aard2/BlobDescriptor;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Litkach/aard2/BlobDescriptorList$4;->run()V <",
+                "> Litkach/aard2/BlobDescriptorList;->updateLastAccess(Litkach/aard2/BlobDescriptor;)V <",
+                "> Litkach/aard2/BlobDescriptorList;->resolve(Litkach/aard2/BlobDescriptor;)Litkach/slob/Slob$Blob; <",
+                "> Litkach/aard2/ArticleCollectionActivity$3;->convert(Ljava/lang/Object;)Litkach/slob/Slob$Blob; <",
+                "> Litkach/aard2/ArticleCollectionActivity$ArticleCollectionPagerAdapter;->get(I)Litkach/slob/Slob$Blob; <",
+                "> Litkach/aard2/ArticleCollectionActivity;->updateTitle(I)V <",
+                "> Litkach/aard2/ArticleCollectionActivity;->access$600(Litkach/aard2/ArticleCollectionActivity;I)V <",
+                "> Litkach/aard2/ArticleCollectionActivity$2;->onPostExecute(Litkach/aard2/ArticleCollectionActivity$ArticleCollectionPagerAdapter;)V <",
+                "> Litkach/aard2/ArticleCollectionActivity$2;->onPostExecute(Ljava/lang/Object;)V <",
+                "> Litkach/aard2/ArticleCollectionActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "colordict.intent.action.SEARCH",
+                    "start-activity -a"
+                ],
+                [
+                    "itkach.aard2.ArticleCollectionActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Litkach/aard2/BlobDescriptorList$4;->run()V <",
+                "> Litkach/aard2/BlobDescriptorList;->updateLastAccess(Litkach/aard2/BlobDescriptor;)V <",
+                "> Litkach/aard2/BlobDescriptorList;->resolve(Litkach/aard2/BlobDescriptor;)Litkach/slob/Slob$Blob; <",
+                "> Litkach/aard2/ArticleCollectionActivity$3;->convert(Ljava/lang/Object;)Litkach/slob/Slob$Blob; <",
+                "> Litkach/aard2/ArticleCollectionActivity$ArticleCollectionPagerAdapter;->get(I)Litkach/slob/Slob$Blob; <",
+                "> Litkach/aard2/ArticleCollectionActivity;->updateTitle(I)V <",
+                "> Litkach/aard2/ArticleCollectionActivity;->access$600(Litkach/aard2/ArticleCollectionActivity;I)V <",
+                "> Litkach/aard2/ArticleCollectionActivity$2;->onPostExecute(Litkach/aard2/ArticleCollectionActivity$ArticleCollectionPagerAdapter;)V <",
+                "> Litkach/aard2/ArticleCollectionActivity$2;->onPostExecute(Ljava/lang/Object;)V <",
+                "> Litkach/aard2/ArticleCollectionActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Litkach/aard2/MainActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "itkach.aard2.MainActivity",
+                    "<unknown>"
+                ],
+                [
+                    "itkach.aard2.ArticleCollectionActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Litkach/aard2/BlobDescriptorList;->setFilter(Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Litkach/aard2/BlobDescriptorListFragment$4;->onQueryTextChange(Ljava/lang/String;)Z <",
+                "> Litkach/aard2/BlobDescriptorListFragment;->onPrepareOptionsMenu(Landroid/view/Menu;)V <",
+                "> Litkach/aard2/MainActivity$HistoryFragment;->onPrepareOptionsMenu(Landroid/view/Menu;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "itkach.aard2.MainActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Litkach/aard2/BlobDescriptorList$3;-><init>(Litkach/aard2/BlobDescriptorList;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Litkach/aard2/BlobDescriptorList;-><init>(Litkach/aard2/Application;Litkach/aard2/DescriptorStore;I)V <",
+                "> Litkach/aard2/BlobDescriptorList;-><init>(Litkach/aard2/Application;Litkach/aard2/DescriptorStore;)V <",
+                "> Litkach/aard2/Application;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Litkach/aard2/SlobDescriptorList;->load()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Litkach/aard2/Application;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Litkach/aard2/ArticleCollectionActivity;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;": {
+        "path_0": {
+            "call_sequence": [
+                "> Litkach/aard2/ArticleCollectionActivity;->prefs()Landroid/content/SharedPreferences; <",
+                "> Litkach/aard2/ArticleCollectionActivity;->onResume()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "colordict.intent.action.SEARCH",
+                    "start-activity -a"
+                ],
+                [
+                    "itkach.aard2.ArticleCollectionActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Litkach/aard2/ArticleCollectionActivity;->prefs()Landroid/content/SharedPreferences; <",
+                "> Litkach/aard2/ArticleCollectionActivity;->onResume()V <",
+                "> Litkach/aard2/MainActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "itkach.aard2.MainActivity",
+                    "<unknown>"
+                ],
+                [
+                    "itkach.aard2.ArticleCollectionActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Litkach/aard2/ArticleWebView;->getApplication()Litkach/aard2/Application;": {
+        "path_0": {
+            "call_sequence": [
+                "> Litkach/aard2/ArticleWebView;->isUIDark()Z <",
+                "> Litkach/aard2/ArticleWebView;->getAutoStyle()Ljava/lang/String; <",
+                "> Litkach/aard2/ArticleWebView;->getPreferredStyle()Ljava/lang/String; <",
+                "> Litkach/aard2/ArticleWebView;->applyStylePref()V <",
+                "> Litkach/aard2/ArticleFragment$1;->onClick(Landroid/content/DialogInterface;I)V <",
+                "> Litkach/aard2/ArticleFragment;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Litkach/aard2/ArticleCollectionActivity$ArticleCollectionPagerAdapter;->getItem(I)Landroid/support/v4/app/Fragment; <",
+                "> Litkach/aard2/ArticleCollectionActivity$2$1$1;->run()V <",
+                "> Litkach/aard2/ArticleCollectionActivity$2$1;->onPageSelected(I)V <",
+                "> Litkach/aard2/ArticleCollectionActivity$2;->onPostExecute(Litkach/aard2/ArticleCollectionActivity$ArticleCollectionPagerAdapter;)V <",
+                "> Litkach/aard2/ArticleCollectionActivity$2;->onPostExecute(Ljava/lang/Object;)V <",
+                "> Litkach/aard2/ArticleCollectionActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "----- CONDITIONAL -----",
+                "> Litkach/aard2/ArticleWebView;->setCurrentSlobIdFromUrl(Ljava/lang/String;)V <",
+                "----- CONDITIONAL -----",
+                "> Litkach/aard2/ArticleWebView;->beforeLoadUrl(Ljava/lang/String;)V <",
+                "----- CONDITIONAL -----",
+                "> Litkach/aard2/ArticleWebView;->loadUrl(Ljava/lang/String;)V <",
+                "----- CONDITIONAL -----",
+                "> Litkach/aard2/ArticleFragment;->onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View; <",
+                "----- CONDITIONAL -----",
+                "> Litkach/aard2/ArticleCollectionActivity$ArticleCollectionPagerAdapter;->getItem(I)Landroid/support/v4/app/Fragment; <",
+                "----- CONDITIONAL -----",
+                "> Litkach/aard2/ArticleCollectionActivity$2$1$1;->run()V <",
+                "----- CONDITIONAL -----",
+                "> Litkach/aard2/ArticleCollectionActivity$2$1;->onPageSelected(I)V <",
+                "----- CONDITIONAL -----",
+                "> Litkach/aard2/ArticleCollectionActivity$2;->onPostExecute(Litkach/aard2/ArticleCollectionActivity$ArticleCollectionPagerAdapter;)V <",
+                "----- CONDITIONAL -----",
+                "> Litkach/aard2/ArticleCollectionActivity$2;->onPostExecute(Ljava/lang/Object;)V <",
+                "----- CONDITIONAL -----",
+                "> Litkach/aard2/ArticleCollectionActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "----- CONDITIONAL -----"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "aard2.lookup",
+                    "start-activity -a"
+                ],
+                [
+                    "itkach.aard2.ArticleCollectionActivity",
+                    "<unknown>"
+                ],
+                [
+                    "intent",
+                    "colordict.intent.action.SEARCH",
+                    "start-activity -a"
+                ],
+                [
+                    "itkach.aard2.ArticleCollectionActivity",
+                    "<unknown>"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "itkach.aard2.ArticleCollectionActivity",
+                    "action_select_style",
+                    "Style..."
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Litkach/aard2/ArticleWebView;->isUIDark()Z <",
+                "> Litkach/aard2/ArticleWebView;->getAutoStyle()Ljava/lang/String; <",
+                "> Litkach/aard2/ArticleWebView;->getPreferredStyle()Ljava/lang/String; <",
+                "> Litkach/aard2/ArticleWebView;->applyStylePref()V <",
+                "> Litkach/aard2/ArticleFragment;->applyStylePref()V <",
+                "> Litkach/aard2/ArticleFragment;->onResume()V <",
+                "> Litkach/aard2/ArticleCollectionActivity$ArticleCollectionPagerAdapter;->getItem(I)Landroid/support/v4/app/Fragment; <",
+                "> Litkach/aard2/ArticleCollectionActivity$2$1$1;->run()V <",
+                "> Litkach/aard2/ArticleCollectionActivity$2$1;->onPageSelected(I)V <",
+                "> Litkach/aard2/ArticleCollectionActivity$2;->onPostExecute(Litkach/aard2/ArticleCollectionActivity$ArticleCollectionPagerAdapter;)V <",
+                "> Litkach/aard2/ArticleCollectionActivity$2;->onPostExecute(Ljava/lang/Object;)V <",
+                "> Litkach/aard2/ArticleCollectionActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "colordict.intent.action.SEARCH",
+                    "start-activity -a"
+                ],
+                [
+                    "itkach.aard2.ArticleCollectionActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Litkach/aard2/ArticleWebView;->isUIDark()Z <",
+                "> Litkach/aard2/ArticleWebView;->getAutoStyle()Ljava/lang/String; <",
+                "> Litkach/aard2/ArticleWebView;->getPreferredStyle()Ljava/lang/String; <",
+                "> Litkach/aard2/ArticleWebView;->applyStylePref()V <",
+                "> Litkach/aard2/ArticleFragment$1;->onClick(Landroid/content/DialogInterface;I)V <",
+                "> Litkach/aard2/ArticleFragment;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Litkach/aard2/ArticleCollectionActivity$ArticleCollectionPagerAdapter;->getItem(I)Landroid/support/v4/app/Fragment; <",
+                "> Litkach/aard2/ArticleCollectionActivity$2$1$1;->run()V <",
+                "> Litkach/aard2/ArticleCollectionActivity$2$1;->onPageSelected(I)V <",
+                "> Litkach/aard2/ArticleCollectionActivity$2;->onPostExecute(Litkach/aard2/ArticleCollectionActivity$ArticleCollectionPagerAdapter;)V <",
+                "> Litkach/aard2/ArticleCollectionActivity$2;->onPostExecute(Ljava/lang/Object;)V <",
+                "> Litkach/aard2/ArticleCollectionActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Litkach/aard2/MainActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "----- CONDITIONAL -----",
+                "> Litkach/aard2/ArticleWebView;->setCurrentSlobIdFromUrl(Ljava/lang/String;)V <",
+                "----- CONDITIONAL -----",
+                "> Litkach/aard2/ArticleWebView;->beforeLoadUrl(Ljava/lang/String;)V <",
+                "----- CONDITIONAL -----",
+                "> Litkach/aard2/ArticleWebView;->loadUrl(Ljava/lang/String;)V <",
+                "----- CONDITIONAL -----",
+                "> Litkach/aard2/ArticleFragment;->onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View; <",
+                "----- CONDITIONAL -----",
+                "> Litkach/aard2/ArticleCollectionActivity$ArticleCollectionPagerAdapter;->getItem(I)Landroid/support/v4/app/Fragment; <",
+                "----- CONDITIONAL -----",
+                "> Litkach/aard2/ArticleCollectionActivity$2$1$1;->run()V <",
+                "----- CONDITIONAL -----",
+                "> Litkach/aard2/ArticleCollectionActivity$2$1;->onPageSelected(I)V <",
+                "----- CONDITIONAL -----",
+                "> Litkach/aard2/ArticleCollectionActivity$2;->onPostExecute(Litkach/aard2/ArticleCollectionActivity$ArticleCollectionPagerAdapter;)V <",
+                "----- CONDITIONAL -----",
+                "> Litkach/aard2/ArticleCollectionActivity$2;->onPostExecute(Ljava/lang/Object;)V <",
+                "----- CONDITIONAL -----",
+                "> Litkach/aard2/ArticleCollectionActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "----- CONDITIONAL -----"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "aard2.lookup",
+                    "start-activity -a"
+                ],
+                [
+                    "itkach.aard2.ArticleCollectionActivity",
+                    "<unknown>"
+                ],
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "itkach.aard2.MainActivity",
+                    "<unknown>"
+                ],
+                [
+                    "itkach.aard2.ArticleCollectionActivity",
+                    "<unknown>"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "itkach.aard2.ArticleCollectionActivity",
+                    "action_select_style",
+                    "Style..."
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Litkach/aard2/ArticleWebView;->isUIDark()Z <",
+                "> Litkach/aard2/ArticleWebView;->getAutoStyle()Ljava/lang/String; <",
+                "> Litkach/aard2/ArticleWebView;->getPreferredStyle()Ljava/lang/String; <",
+                "> Litkach/aard2/ArticleWebView;->applyStylePref()V <",
+                "> Litkach/aard2/ArticleFragment;->applyStylePref()V <",
+                "> Litkach/aard2/ArticleFragment;->onResume()V <",
+                "> Litkach/aard2/ArticleCollectionActivity$ArticleCollectionPagerAdapter;->getItem(I)Landroid/support/v4/app/Fragment; <",
+                "> Litkach/aard2/ArticleCollectionActivity$2$1$1;->run()V <",
+                "> Litkach/aard2/ArticleCollectionActivity$2$1;->onPageSelected(I)V <",
+                "> Litkach/aard2/ArticleCollectionActivity$2;->onPostExecute(Litkach/aard2/ArticleCollectionActivity$ArticleCollectionPagerAdapter;)V <",
+                "> Litkach/aard2/ArticleCollectionActivity$2;->onPostExecute(Ljava/lang/Object;)V <",
+                "> Litkach/aard2/ArticleCollectionActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Litkach/aard2/MainActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "itkach.aard2.MainActivity",
+                    "<unknown>"
+                ],
+                [
+                    "itkach.aard2.ArticleCollectionActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Litkach/aard2/ArticleWebView;->setCurrentSlobIdFromUrl(Ljava/lang/String;)V <",
+                "> Litkach/aard2/ArticleWebView;->beforeLoadUrl(Ljava/lang/String;)V <",
+                "> Litkach/aard2/ArticleWebView;->loadUrl(Ljava/lang/String;)V <",
+                "> Litkach/aard2/ArticleFragment;->onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View; <",
+                "> Litkach/aard2/ArticleCollectionActivity$ArticleCollectionPagerAdapter;->getItem(I)Landroid/support/v4/app/Fragment; <",
+                "> Litkach/aard2/ArticleCollectionActivity$2$1$1;->run()V <",
+                "> Litkach/aard2/ArticleCollectionActivity$2$1;->onPageSelected(I)V <",
+                "> Litkach/aard2/ArticleCollectionActivity$2;->onPostExecute(Litkach/aard2/ArticleCollectionActivity$ArticleCollectionPagerAdapter;)V <",
+                "> Litkach/aard2/ArticleCollectionActivity$2;->onPostExecute(Ljava/lang/Object;)V <",
+                "> Litkach/aard2/ArticleCollectionActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "colordict.intent.action.SEARCH",
+                    "start-activity -a"
+                ],
+                [
+                    "itkach.aard2.ArticleCollectionActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_5": {
+            "call_sequence": [
+                "> Litkach/aard2/ArticleWebView;->setCurrentSlobIdFromUrl(Ljava/lang/String;)V <",
+                "> Litkach/aard2/ArticleWebView;->beforeLoadUrl(Ljava/lang/String;)V <",
+                "> Litkach/aard2/ArticleWebView;->loadUrl(Ljava/lang/String;)V <",
+                "> Litkach/aard2/ArticleFragment;->onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View; <",
+                "> Litkach/aard2/ArticleCollectionActivity$ArticleCollectionPagerAdapter;->getItem(I)Landroid/support/v4/app/Fragment; <",
+                "> Litkach/aard2/ArticleCollectionActivity$2$1$1;->run()V <",
+                "> Litkach/aard2/ArticleCollectionActivity$2$1;->onPageSelected(I)V <",
+                "> Litkach/aard2/ArticleCollectionActivity$2;->onPostExecute(Litkach/aard2/ArticleCollectionActivity$ArticleCollectionPagerAdapter;)V <",
+                "> Litkach/aard2/ArticleCollectionActivity$2;->onPostExecute(Ljava/lang/Object;)V <",
+                "> Litkach/aard2/ArticleCollectionActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Litkach/aard2/MainActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "itkach.aard2.MainActivity",
+                    "<unknown>"
+                ],
+                [
+                    "itkach.aard2.ArticleCollectionActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Litkach/aard2/ArticleCollectionActivity$ArticleCollectionPagerAdapter;->getPrimaryItem()Litkach/aard2/ArticleFragment;": {
+        "path_0": {
+            "call_sequence": [
+                "> Litkach/aard2/ArticleCollectionActivity;->onKeyLongPress(ILandroid/view/KeyEvent;)Z <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "colordict.intent.action.SEARCH",
+                    "start-activity -a"
+                ],
+                [
+                    "itkach.aard2.ArticleCollectionActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Litkach/aard2/ArticleCollectionActivity;->onKeyLongPress(ILandroid/view/KeyEvent;)Z <",
+                "> Litkach/aard2/MainActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "itkach.aard2.MainActivity",
+                    "<unknown>"
+                ],
+                [
+                    "itkach.aard2.ArticleCollectionActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Litkach/aard2/ArticleCollectionActivity;->onKeyUp(ILandroid/view/KeyEvent;)Z <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "colordict.intent.action.SEARCH",
+                    "start-activity -a"
+                ],
+                [
+                    "itkach.aard2.ArticleCollectionActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Litkach/aard2/ArticleCollectionActivity;->onKeyUp(ILandroid/view/KeyEvent;)Z <",
+                "> Litkach/aard2/MainActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "itkach.aard2.MainActivity",
+                    "<unknown>"
+                ],
+                [
+                    "itkach.aard2.ArticleCollectionActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Litkach/aard2/BlobDescriptorListFragment;->getPreferencesNS()Ljava/lang/String;": {
+        "path_0": {
+            "call_sequence": [
+                "> Litkach/aard2/BlobDescriptorListFragment;->prefs()Landroid/content/SharedPreferences; <",
+                "> Litkach/aard2/BlobDescriptorListFragment;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V <",
+                "> Litkach/aard2/MainActivity$HistoryFragment;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "itkach.aard2.MainActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Litkach/aard2/BlobDescriptorListFragment;->onCreateOptionsMenu(Landroid/view/Menu;Landroid/view/MenuInflater;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Litkach/aard2/MainActivity$BookmarksFragment;->onCreateOptionsMenu(Landroid/view/Menu;Landroid/view/MenuInflater;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "itkach.aard2.MainActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Litkach/aard2/MainActivity$HistoryFragment;->onCreateOptionsMenu(Landroid/view/Menu;Landroid/view/MenuInflater;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "itkach.aard2.MainActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Litkach/aard2/BlobDescriptorListFragment;->onPrepareOptionsMenu(Landroid/view/Menu;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Litkach/aard2/MainActivity$HistoryFragment;->onPrepareOptionsMenu(Landroid/view/Menu;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "itkach.aard2.MainActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Litkach/aard2/MainActivity$BookmarksFragment;->onPrepareOptionsMenu(Landroid/view/Menu;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "itkach.aard2.MainActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Litkach/aard2/MainActivity$AppSectionsPagerAdapter;->getCount()I": {
+        "path_0": {
+            "call_sequence": [
+                "> Litkach/aard2/MainActivity;->onKeyUp(ILandroid/view/KeyEvent;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "itkach.aard2.MainActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Litkach/aard2/MainActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "itkach.aard2.MainActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Litkach/aard2/Application;->findSlob(Ljava/lang/String;)Litkach/slob/Slob;": {
+        "path_0": {
+            "call_sequence": [
+                "> Litkach/aard2/ArticleCollectionActivity;->createFromIntent(Litkach/aard2/Application;Landroid/content/Intent;)Litkach/aard2/ArticleCollectionActivity$ArticleCollectionPagerAdapter; <",
+                "> Litkach/aard2/ArticleCollectionActivity;->access$400(Litkach/aard2/ArticleCollectionActivity;Litkach/aard2/Application;Landroid/content/Intent;)Litkach/aard2/ArticleCollectionActivity$ArticleCollectionPagerAdapter; <",
+                "> Litkach/aard2/ArticleCollectionActivity$2;->doInBackground([Ljava/lang/Void;)Litkach/aard2/ArticleCollectionActivity$ArticleCollectionPagerAdapter; <",
+                "> Litkach/aard2/ArticleCollectionActivity$2;->doInBackground([Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Litkach/aard2/ArticleCollectionActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "colordict.intent.action.SEARCH",
+                    "start-activity -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Litkach/aard2/ArticleCollectionActivity;->createFromIntent(Litkach/aard2/Application;Landroid/content/Intent;)Litkach/aard2/ArticleCollectionActivity$ArticleCollectionPagerAdapter; <",
+                "> Litkach/aard2/ArticleCollectionActivity;->access$400(Litkach/aard2/ArticleCollectionActivity;Litkach/aard2/Application;Landroid/content/Intent;)Litkach/aard2/ArticleCollectionActivity$ArticleCollectionPagerAdapter; <",
+                "> Litkach/aard2/ArticleCollectionActivity$2;->doInBackground([Ljava/lang/Void;)Litkach/aard2/ArticleCollectionActivity$ArticleCollectionPagerAdapter; <",
+                "> Litkach/aard2/ArticleCollectionActivity$2;->doInBackground([Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Litkach/aard2/ArticleCollectionActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Litkach/aard2/MainActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "itkach.aard2.MainActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Litkach/aard2/BlobDescriptorList;->resolveOwner(Litkach/aard2/BlobDescriptor;)Litkach/slob/Slob; <",
+                "> Litkach/aard2/BlobDescriptorList;->resolve(Litkach/aard2/BlobDescriptor;)Litkach/slob/Slob$Blob; <",
+                "> Litkach/aard2/ArticleCollectionActivity$3;->convert(Ljava/lang/Object;)Litkach/slob/Slob$Blob; <",
+                "> Litkach/aard2/ArticleCollectionActivity$ArticleCollectionPagerAdapter;->get(I)Litkach/slob/Slob$Blob; <",
+                "> Litkach/aard2/ArticleCollectionActivity;->updateTitle(I)V <",
+                "> Litkach/aard2/ArticleCollectionActivity;->access$600(Litkach/aard2/ArticleCollectionActivity;I)V <",
+                "> Litkach/aard2/ArticleCollectionActivity$2;->onPostExecute(Litkach/aard2/ArticleCollectionActivity$ArticleCollectionPagerAdapter;)V <",
+                "> Litkach/aard2/ArticleCollectionActivity$2;->onPostExecute(Ljava/lang/Object;)V <",
+                "> Litkach/aard2/ArticleCollectionActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "colordict.intent.action.SEARCH",
+                    "start-activity -a"
+                ],
+                [
+                    "itkach.aard2.ArticleCollectionActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Litkach/aard2/BlobDescriptorList;->resolveOwner(Litkach/aard2/BlobDescriptor;)Litkach/slob/Slob; <",
+                "> Litkach/aard2/BlobDescriptorListAdapter;->getView(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View; <",
+                "> Litkach/aard2/BlobDescriptorListFragment;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V <",
+                "> Litkach/aard2/MainActivity$HistoryFragment;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "itkach.aard2.MainActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Litkach/aard2/BlobDescriptorList;->resolveOwner(Litkach/aard2/BlobDescriptor;)Litkach/slob/Slob; <",
+                "> Litkach/aard2/BlobDescriptorListAdapter;->getView(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View; <",
+                "> Litkach/aard2/BlobDescriptorListFragment;->setSelectionMode(Z)V <",
+                "> Litkach/aard2/MainActivity$HistoryFragment;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "itkach.aard2.MainActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    }
+}

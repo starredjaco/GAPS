@@ -1,0 +1,1121 @@
+{
+    "Lcom/android/lolcat/LolcatActivity;->access$500(Lcom/android/lolcat/LolcatActivity;)Landroid/os/Handler;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/android/lolcat/LolcatActivity$7;->onMediaScannerConnected()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/android/lolcat/LolcatActivity$7;->onScanCompleted(Ljava/lang/String;Landroid/net/Uri;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/android/lolcat/LolcatView;->getImageMatrix()Landroid/graphics/Matrix;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/android/lolcat/LolcatView;->onDraw(Landroid/graphics/Canvas;)V <",
+                "> Lcom/android/lolcat/LolcatActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.android.lolcat.LolcatActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/android/lolcat/LolcatView;->onTouchEvent(Landroid/view/MotionEvent;)Z <",
+                "> Lcom/android/lolcat/LolcatActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.android.lolcat.LolcatActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/android/lolcat/LolcatActivity;->saveImageInternal()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/android/lolcat/LolcatActivity;->access$300(Lcom/android/lolcat/LolcatActivity;)V <",
+                "> Lcom/android/lolcat/LolcatActivity$6;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/android/lolcat/LolcatActivity;->startActivity(Landroid/content/Intent;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/android/lolcat/LolcatActivity;->viewSavedImage(Landroid/net/Uri;)V <",
+                "> Lcom/android/lolcat/LolcatActivity;->viewSavedImage()V <",
+                "> Lcom/android/lolcat/LolcatActivity;->access$200(Lcom/android/lolcat/LolcatActivity;)V <",
+                "> Lcom/android/lolcat/LolcatActivity$5;->onClick(Landroid/content/DialogInterface;I)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/android/lolcat/LolcatActivity;->shareSavedImage(Landroid/net/Uri;)V <",
+                "> Lcom/android/lolcat/LolcatActivity;->shareSavedImage()V <",
+                "> Lcom/android/lolcat/LolcatActivity;->access$100(Lcom/android/lolcat/LolcatActivity;)V <",
+                "> Lcom/android/lolcat/LolcatActivity$4;->onClick(Landroid/content/DialogInterface;I)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/android/lolcat/LolcatView;->getPaddingTop()I": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/android/lolcat/LolcatView;->onDraw(Landroid/graphics/Canvas;)V <",
+                "> Lcom/android/lolcat/LolcatActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.android.lolcat.LolcatActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/android/lolcat/LolcatView;->onTouchEvent(Landroid/view/MotionEvent;)Z <",
+                "> Lcom/android/lolcat/LolcatActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.android.lolcat.LolcatActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/android/lolcat/LolcatActivity;->updateSaveSuccessDialogBody()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/android/lolcat/LolcatActivity;->showSaveSuccessDialog()V <",
+                "> Lcom/android/lolcat/LolcatActivity;->onScanCompleted(Ljava/lang/String;Landroid/net/Uri;)V <",
+                "> Lcom/android/lolcat/LolcatActivity;->access$600(Lcom/android/lolcat/LolcatActivity;Ljava/lang/String;Landroid/net/Uri;)V <",
+                "> Lcom/android/lolcat/LolcatActivity$7$2;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/android/lolcat/LolcatActivity;->onCreateDialog(I)Landroid/app/Dialog; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/android/lolcat/LolcatView$Caption;-><init>(Lcom/android/lolcat/LolcatView;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/android/lolcat/LolcatView;-><init>(Landroid/content/Context;)V <",
+                "> Lcom/android/lolcat/LolcatActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.android.lolcat.LolcatActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/android/lolcat/LolcatView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V <",
+                "> Lcom/android/lolcat/LolcatActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.android.lolcat.LolcatActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/android/lolcat/LolcatView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V <",
+                "> Lcom/android/lolcat/LolcatActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.android.lolcat.LolcatActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/android/lolcat/LolcatActivity;->setContentView(I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/android/lolcat/LolcatActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/android/lolcat/LolcatView;->getCaptionPositions()[I": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/android/lolcat/LolcatActivity;->onSaveInstanceState(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/android/lolcat/LolcatActivity;->saveImage()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/android/lolcat/LolcatActivity;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.android.lolcat.LolcatActivity",
+                    "save_button"
+                ]
+            ]
+        }
+    },
+    "Lcom/android/lolcat/LolcatActivity$7$2;-><init>(Lcom/android/lolcat/LolcatActivity$7;Ljava/lang/String;Landroid/net/Uri;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/android/lolcat/LolcatActivity$7;->onScanCompleted(Ljava/lang/String;Landroid/net/Uri;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/android/lolcat/LolcatActivity$6;-><init>(Lcom/android/lolcat/LolcatActivity;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/android/lolcat/LolcatActivity;->saveImage()V <",
+                "> Lcom/android/lolcat/LolcatActivity;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.android.lolcat.LolcatActivity",
+                    "save_button"
+                ]
+            ]
+        }
+    },
+    "Lcom/android/lolcat/LolcatView;->hasValidCaption()Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/android/lolcat/LolcatActivity;->updateButtons()V <",
+                "> Lcom/android/lolcat/LolcatActivity;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.android.lolcat.LolcatActivity",
+                    "clear_caption_button"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/android/lolcat/LolcatActivity;->updateButtons()V <",
+                "> Lcom/android/lolcat/LolcatActivity;->onActivityResult(IILandroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/android/lolcat/LolcatView;->onTouchEvent(Landroid/view/MotionEvent;)Z <",
+                "> Lcom/android/lolcat/LolcatActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.android.lolcat.LolcatActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/android/lolcat/LolcatActivity;->access$200(Lcom/android/lolcat/LolcatActivity;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/android/lolcat/LolcatActivity$5;->onClick(Landroid/content/DialogInterface;I)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/android/lolcat/LolcatActivity;->showCaptionDialog()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/android/lolcat/LolcatActivity;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.android.lolcat.LolcatActivity",
+                    "caption_button"
+                ]
+            ]
+        }
+    },
+    "Lcom/android/lolcat/LolcatView;->getPaddingLeft()I": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/android/lolcat/LolcatView;->onDraw(Landroid/graphics/Canvas;)V <",
+                "> Lcom/android/lolcat/LolcatActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.android.lolcat.LolcatActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/android/lolcat/LolcatView;->onTouchEvent(Landroid/view/MotionEvent;)Z <",
+                "> Lcom/android/lolcat/LolcatActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.android.lolcat.LolcatActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/android/lolcat/LolcatView;->renderCaptions([Lcom/android/lolcat/LolcatView$Caption;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/android/lolcat/LolcatView;->setCaptions(Ljava/lang/String;Ljava/lang/String;)V <",
+                "> Lcom/android/lolcat/LolcatActivity;->restoreStateFromIcicle(Landroid/os/Bundle;)V <",
+                "> Lcom/android/lolcat/LolcatActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.android.lolcat.LolcatActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/android/lolcat/LolcatView;->onTouchEvent(Landroid/view/MotionEvent;)Z <",
+                "> Lcom/android/lolcat/LolcatActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.android.lolcat.LolcatActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/android/lolcat/LolcatView;->setCaptionPositions([I)V <",
+                "> Lcom/android/lolcat/LolcatActivity;->restoreStateFromIcicle(Landroid/os/Bundle;)V <",
+                "> Lcom/android/lolcat/LolcatActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.android.lolcat.LolcatActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/android/lolcat/LolcatActivity;->updateButtons()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/android/lolcat/LolcatActivity;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.android.lolcat.LolcatActivity",
+                    "clear_caption_button"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/android/lolcat/LolcatActivity;->updateCaptionsFromDialog()V <",
+                "> Lcom/android/lolcat/LolcatActivity;->access$000(Lcom/android/lolcat/LolcatActivity;)V <",
+                "> Lcom/android/lolcat/LolcatActivity$2;->onClick(Landroid/content/DialogInterface;I)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.android.lolcat.LolcatActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/android/lolcat/LolcatActivity;->onResume()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/android/lolcat/LolcatActivity;->onActivityResult(IILandroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/android/lolcat/LolcatActivity;->clearPhoto()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/android/lolcat/LolcatActivity;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.android.lolcat.LolcatActivity",
+                    "clear_photo_button"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/android/lolcat/LolcatActivity;->onDestroy()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/android/lolcat/LolcatActivity;->loadPhoto(Landroid/net/Uri;)V <",
+                "> Lcom/android/lolcat/LolcatActivity;->onActivityResult(IILandroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/android/lolcat/LolcatView;->getWorkingBitmap()Landroid/graphics/Bitmap;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/android/lolcat/LolcatActivity;->saveImageInternal()V <",
+                "> Lcom/android/lolcat/LolcatActivity;->access$300(Lcom/android/lolcat/LolcatActivity;)V <",
+                "> Lcom/android/lolcat/LolcatActivity$6;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/android/lolcat/LolcatActivity;->clearCaptions()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/android/lolcat/LolcatActivity;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.android.lolcat.LolcatActivity",
+                    "clear_caption_button"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/android/lolcat/LolcatActivity;->clearPhoto()V <",
+                "> Lcom/android/lolcat/LolcatActivity;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.android.lolcat.LolcatActivity",
+                    "clear_photo_button"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/android/lolcat/LolcatActivity;->loadPhoto(Landroid/net/Uri;)V <",
+                "> Lcom/android/lolcat/LolcatActivity;->onActivityResult(IILandroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/android/lolcat/LolcatActivity;->dismissDialog(I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/android/lolcat/LolcatActivity;->onSaveFailed(I)V <",
+                "> Lcom/android/lolcat/LolcatActivity;->onScanCompleted(Ljava/lang/String;Landroid/net/Uri;)V <",
+                "> Lcom/android/lolcat/LolcatActivity;->access$600(Lcom/android/lolcat/LolcatActivity;Ljava/lang/String;Landroid/net/Uri;)V <",
+                "> Lcom/android/lolcat/LolcatActivity$7$2;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/android/lolcat/LolcatActivity;->onScanCompleted(Ljava/lang/String;Landroid/net/Uri;)V <",
+                "> Lcom/android/lolcat/LolcatActivity;->access$600(Lcom/android/lolcat/LolcatActivity;Ljava/lang/String;Landroid/net/Uri;)V <",
+                "> Lcom/android/lolcat/LolcatActivity$7$2;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/android/lolcat/LolcatActivity$4;-><init>(Lcom/android/lolcat/LolcatActivity;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/android/lolcat/LolcatActivity;->onCreateDialog(I)Landroid/app/Dialog; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/android/lolcat/LolcatView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/android/lolcat/LolcatView;->clear()V <",
+                "> Lcom/android/lolcat/LolcatActivity;->clearPhoto()V <",
+                "> Lcom/android/lolcat/LolcatActivity;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.android.lolcat.LolcatActivity",
+                    "clear_photo_button"
+                ]
+            ]
+        }
+    },
+    "Lcom/android/lolcat/LolcatView;->setCaptions(Ljava/lang/String;Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/android/lolcat/LolcatActivity;->updateCaptionsFromDialog()V <",
+                "> Lcom/android/lolcat/LolcatActivity;->access$000(Lcom/android/lolcat/LolcatActivity;)V <",
+                "> Lcom/android/lolcat/LolcatActivity$2;->onClick(Landroid/content/DialogInterface;I)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.android.lolcat.LolcatActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/android/lolcat/LolcatActivity;->restoreStateFromIcicle(Landroid/os/Bundle;)V <",
+                "> Lcom/android/lolcat/LolcatActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.android.lolcat.LolcatActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/android/lolcat/LolcatView;->clearCaptions()V <",
+                "> Lcom/android/lolcat/LolcatActivity;->clearCaptions()V <",
+                "> Lcom/android/lolcat/LolcatActivity;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.android.lolcat.LolcatActivity",
+                    "clear_caption_button"
+                ]
+            ]
+        }
+    },
+    "Lcom/android/lolcat/LolcatView;->getDrawable()Landroid/graphics/drawable/Drawable;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/android/lolcat/LolcatActivity;->updateButtons()V <",
+                "> Lcom/android/lolcat/LolcatActivity;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.android.lolcat.LolcatActivity",
+                    "clear_caption_button"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/android/lolcat/LolcatActivity;->updateButtons()V <",
+                "> Lcom/android/lolcat/LolcatActivity;->onActivityResult(IILandroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/android/lolcat/LolcatView;->loadFromUri(Landroid/net/Uri;)V <",
+                "> Lcom/android/lolcat/LolcatActivity;->loadPhoto(Landroid/net/Uri;)V <",
+                "> Lcom/android/lolcat/LolcatActivity;->onActivityResult(IILandroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/android/lolcat/LolcatActivity;->access$100(Lcom/android/lolcat/LolcatActivity;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/android/lolcat/LolcatActivity$4;->onClick(Landroid/content/DialogInterface;I)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/android/lolcat/LolcatActivity;->showSaveSuccessDialog()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/android/lolcat/LolcatActivity;->onScanCompleted(Ljava/lang/String;Landroid/net/Uri;)V <",
+                "> Lcom/android/lolcat/LolcatActivity;->access$600(Lcom/android/lolcat/LolcatActivity;Ljava/lang/String;Landroid/net/Uri;)V <",
+                "> Lcom/android/lolcat/LolcatActivity$7$2;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/android/lolcat/LolcatActivity$2;-><init>(Lcom/android/lolcat/LolcatActivity;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/android/lolcat/LolcatActivity;->onCreateDialog(I)Landroid/app/Dialog; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.android.lolcat.LolcatActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/android/lolcat/LolcatView;->loadFromUri(Landroid/net/Uri;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/android/lolcat/LolcatActivity;->loadPhoto(Landroid/net/Uri;)V <",
+                "> Lcom/android/lolcat/LolcatActivity;->onActivityResult(IILandroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/android/lolcat/LolcatActivity;->access$400(Lcom/android/lolcat/LolcatActivity;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/android/lolcat/LolcatActivity$7$1;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/android/lolcat/LolcatView;->getBottomCaption()Ljava/lang/String;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/android/lolcat/LolcatActivity;->onSaveInstanceState(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/android/lolcat/LolcatActivity;->access$600(Lcom/android/lolcat/LolcatActivity;Ljava/lang/String;Landroid/net/Uri;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/android/lolcat/LolcatActivity$7$2;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/android/lolcat/LolcatActivity$7$1;-><init>(Lcom/android/lolcat/LolcatActivity$7;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/android/lolcat/LolcatActivity$7;->onMediaScannerConnected()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/android/lolcat/LolcatView$Caption;->setPosition(II)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/android/lolcat/LolcatView;->renderCaptions([Lcom/android/lolcat/LolcatView$Caption;)V <",
+                "> Lcom/android/lolcat/LolcatView;->onTouchEvent(Landroid/view/MotionEvent;)Z <",
+                "> Lcom/android/lolcat/LolcatActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.android.lolcat.LolcatActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/android/lolcat/LolcatView;->setCaptionPositions([I)V <",
+                "> Lcom/android/lolcat/LolcatActivity;->restoreStateFromIcicle(Landroid/os/Bundle;)V <",
+                "> Lcom/android/lolcat/LolcatActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.android.lolcat.LolcatActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/android/lolcat/LolcatView;->setImageBitmap(Landroid/graphics/Bitmap;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/android/lolcat/LolcatView;->renderCaptions([Lcom/android/lolcat/LolcatView$Caption;)V <",
+                "> Lcom/android/lolcat/LolcatView;->onTouchEvent(Landroid/view/MotionEvent;)Z <",
+                "> Lcom/android/lolcat/LolcatActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.android.lolcat.LolcatActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/android/lolcat/LolcatActivity;->access$000(Lcom/android/lolcat/LolcatActivity;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/android/lolcat/LolcatActivity$2;->onClick(Landroid/content/DialogInterface;I)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/android/lolcat/LolcatActivity;->viewSavedImage(Landroid/net/Uri;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/android/lolcat/LolcatActivity;->viewSavedImage()V <",
+                "> Lcom/android/lolcat/LolcatActivity;->access$200(Lcom/android/lolcat/LolcatActivity;)V <",
+                "> Lcom/android/lolcat/LolcatActivity$5;->onClick(Landroid/content/DialogInterface;I)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/android/lolcat/LolcatActivity;->access$300(Lcom/android/lolcat/LolcatActivity;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/android/lolcat/LolcatActivity$6;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/android/lolcat/LolcatActivity;->loadPhoto(Landroid/net/Uri;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/android/lolcat/LolcatActivity;->restoreStateFromIcicle(Landroid/os/Bundle;)V <",
+                "> Lcom/android/lolcat/LolcatActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.android.lolcat.LolcatActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/android/lolcat/LolcatActivity;->onActivityResult(IILandroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/android/lolcat/LolcatActivity;->shareSavedImage()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/android/lolcat/LolcatActivity;->access$100(Lcom/android/lolcat/LolcatActivity;)V <",
+                "> Lcom/android/lolcat/LolcatActivity$4;->onClick(Landroid/content/DialogInterface;I)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/android/lolcat/LolcatActivity;->startActivityForResult(Landroid/content/Intent;I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/android/lolcat/LolcatActivity;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.android.lolcat.LolcatActivity",
+                    "pick_button"
+                ]
+            ]
+        }
+    },
+    "Lcom/android/lolcat/LolcatView;->clear()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/android/lolcat/LolcatActivity;->clearPhoto()V <",
+                "> Lcom/android/lolcat/LolcatActivity;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.android.lolcat.LolcatActivity",
+                    "clear_photo_button"
+                ]
+            ]
+        }
+    },
+    "Lcom/android/lolcat/LolcatActivity;->updateCaptionsFromDialog()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/android/lolcat/LolcatActivity;->access$000(Lcom/android/lolcat/LolcatActivity;)V <",
+                "> Lcom/android/lolcat/LolcatActivity$2;->onClick(Landroid/content/DialogInterface;I)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/android/lolcat/LolcatActivity;->onSaveFailed(I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/android/lolcat/LolcatActivity;->onScanCompleted(Ljava/lang/String;Landroid/net/Uri;)V <",
+                "> Lcom/android/lolcat/LolcatActivity;->access$600(Lcom/android/lolcat/LolcatActivity;Ljava/lang/String;Landroid/net/Uri;)V <",
+                "> Lcom/android/lolcat/LolcatActivity$7$2;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/android/lolcat/LolcatActivity;->saveImageInternal()V <",
+                "> Lcom/android/lolcat/LolcatActivity;->access$300(Lcom/android/lolcat/LolcatActivity;)V <",
+                "> Lcom/android/lolcat/LolcatActivity$6;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/android/lolcat/LolcatActivity;->showDialog(I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/android/lolcat/LolcatActivity;->showCaptionDialog()V <",
+                "> Lcom/android/lolcat/LolcatActivity;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.android.lolcat.LolcatActivity",
+                    "caption_button"
+                ],
+                [
+                    "com.android.lolcat.LolcatActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/android/lolcat/LolcatActivity;->showSaveSuccessDialog()V <",
+                "> Lcom/android/lolcat/LolcatActivity;->onScanCompleted(Ljava/lang/String;Landroid/net/Uri;)V <",
+                "> Lcom/android/lolcat/LolcatActivity;->access$600(Lcom/android/lolcat/LolcatActivity;Ljava/lang/String;Landroid/net/Uri;)V <",
+                "> Lcom/android/lolcat/LolcatActivity$7$2;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/android/lolcat/LolcatActivity;->saveImage()V <",
+                "> Lcom/android/lolcat/LolcatActivity;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.android.lolcat.LolcatActivity",
+                    "save_button"
+                ]
+            ]
+        }
+    },
+    "Lcom/android/lolcat/LolcatActivity;->findViewById(I)Landroid/view/View;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/android/lolcat/LolcatActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.android.lolcat.LolcatActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/android/lolcat/LolcatActivity;->viewSavedImage()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/android/lolcat/LolcatActivity;->viewSavedImage()V <",
+                "> Lcom/android/lolcat/LolcatActivity;->access$200(Lcom/android/lolcat/LolcatActivity;)V <",
+                "> Lcom/android/lolcat/LolcatActivity$5;->onClick(Landroid/content/DialogInterface;I)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/android/lolcat/LolcatActivity$3;-><init>(Lcom/android/lolcat/LolcatActivity;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/android/lolcat/LolcatActivity;->onCreateDialog(I)Landroid/app/Dialog; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/android/lolcat/LolcatActivity$5;-><init>(Lcom/android/lolcat/LolcatActivity;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/android/lolcat/LolcatActivity;->onCreateDialog(I)Landroid/app/Dialog; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    }
+}

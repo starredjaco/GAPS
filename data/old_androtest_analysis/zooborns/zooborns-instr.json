@@ -1,0 +1,1201 @@
+{
+    "Lorg/smerty/zooborns/data/ZooBornsPhoto;-><init>(Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/smerty/zooborns/data/ZooBornsGallery;->update(Ljava/lang/String;)Z <",
+                "> Lorg/smerty/zooborns/ZooBorns$UpdateFeedTask;->doInBackground([Lorg/smerty/zooborns/ZooBorns;)Ljava/lang/Integer; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/smerty/zooborns/data/ZooBornsGallery;->addEntry(Lorg/smerty/zooborns/data/ZooBornsEntry;)Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/smerty/zooborns/data/ZooBornsGallery;->update(Ljava/lang/String;)Z <",
+                "> Lorg/smerty/zooborns/ZooBorns$UpdateFeedTask;->doInBackground([Lorg/smerty/zooborns/ZooBorns;)Ljava/lang/Integer; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/smerty/zooborns/ZooBorns;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/smerty/zooborns/ZooBorns;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/smerty/zooborns/ZooBorns$UpdateFeedTask;->doInBackground([Lorg/smerty/zooborns/ZooBorns;)Ljava/lang/Integer; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/smerty/zooborns/data/ZooBornsGallery;->getEntries()Ljava/util/ArrayList;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/smerty/zooborns/FullscreenImage;->getEntryFromCachedImage(Lorg/smerty/cache/CachedImage;)Lorg/smerty/zooborns/data/ZooBornsEntry; <",
+                "> Lorg/smerty/zooborns/FullscreenImage;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.VIEW",
+                    "start-activity -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/smerty/zooborns/FullscreenImage;->getEntryFromCachedImage(Lorg/smerty/cache/CachedImage;)Lorg/smerty/zooborns/data/ZooBornsEntry; <",
+                "> Lorg/smerty/zooborns/FullscreenImage;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lorg/smerty/zooborns/ZooBorns$1;->onItemClick(Landroid/widget/AdapterView;Landroid/view/View;IJ)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.smerty.zooborns.ZooBorns",
+                    "gridview"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lorg/smerty/zooborns/ZooBorns$UpdateFeedTask;->doInBackground([Lorg/smerty/zooborns/ZooBorns;)Ljava/lang/Integer; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/smerty/zooborns/data/ZooBornsGallery;->update(Ljava/lang/String;)Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/smerty/zooborns/ZooBorns$UpdateFeedTask;->doInBackground([Lorg/smerty/zooborns/ZooBorns;)Ljava/lang/Integer; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/smerty/zooborns/FullscreenImage;->getIntent()Landroid/content/Intent;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/smerty/zooborns/FullscreenImage;->setImage()V <",
+                "> Lorg/smerty/zooborns/FullscreenImage;->onCreate(Landroid/os/Bundle;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/smerty/zooborns/FullscreenImage;->setImage()V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/smerty/zooborns/FullscreenImage;->onCreate(Landroid/os/Bundle;)V <",
+                "----- CONDITIONAL -----",
+                "----- CONDITIONAL -----",
+                "> Lorg/smerty/zooborns/FullscreenImage;->setImage()V <",
+                "> Lorg/smerty/zooborns/FullscreenImage;->prevImage()V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/smerty/zooborns/FullscreenImage;->onKeyUp(ILandroid/view/KeyEvent;)Z <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.VIEW",
+                    "start-activity -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/smerty/zooborns/FullscreenImage;->setImage()V <",
+                "> Lorg/smerty/zooborns/FullscreenImage;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/smerty/zooborns/ZooBorns$1;->onItemClick(Landroid/widget/AdapterView;Landroid/view/View;IJ)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/smerty/zooborns/FullscreenImage;->setImage()V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/smerty/zooborns/FullscreenImage;->onCreate(Landroid/os/Bundle;)V <",
+                "----- CONDITIONAL -----",
+                "----- CONDITIONAL -----",
+                "> Lorg/smerty/zooborns/FullscreenImage;->setImage()V <",
+                "> Lorg/smerty/zooborns/FullscreenImage;->prevImage()V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/smerty/zooborns/FullscreenImage;->onKeyUp(ILandroid/view/KeyEvent;)Z <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.VIEW",
+                    "start-activity -a"
+                ],
+                [
+                    "main activity"
+                ],
+                [
+                    "org.smerty.zooborns.ZooBorns",
+                    "gridview"
+                ]
+            ]
+        }
+    },
+    "Lorg/smerty/zooborns/feed/FeedFetcher;->pull(Ljava/lang/String;)Lorg/smerty/zooborns/feed/UpdateStatus;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/smerty/zooborns/data/ZooBornsGallery;->update(Ljava/lang/String;)Z <",
+                "> Lorg/smerty/zooborns/ZooBorns$UpdateFeedTask;->doInBackground([Lorg/smerty/zooborns/ZooBorns;)Ljava/lang/Integer; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/smerty/zooborns/ZooBorns;->settings()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/smerty/zooborns/ZooBorns;->settings()V <",
+                "> Lorg/smerty/zooborns/ZooBorns;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/smerty/zooborns/ZooBorns$UpdateFeedTask;->onPostExecute(Ljava/lang/Integer;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/smerty/zooborns/FullscreenImage;->onCreate(Landroid/os/Bundle;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/smerty/zooborns/FullscreenImage;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.VIEW",
+                    "start-activity -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/smerty/zooborns/FullscreenImage;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/smerty/zooborns/ZooBorns$1;->onItemClick(Landroid/widget/AdapterView;Landroid/view/View;IJ)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.smerty.zooborns.ZooBorns",
+                    "gridview"
+                ]
+            ]
+        }
+    },
+    "Lorg/smerty/zooborns/ZooBorns$UpdateFeedTask;->onPostExecute(Ljava/lang/Integer;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/smerty/zooborns/ZooBorns$UpdateFeedTask;->onPostExecute(Ljava/lang/Object;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lorg/smerty/zooborns/ZooBorns$UpdateFeedTask;->onPostExecute(Ljava/lang/Integer;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/smerty/zooborns/ZooBorns$2;->onClick(Landroid/content/DialogInterface;I)V": {
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/smerty/zooborns/ZooBorns$2;->onClick(Landroid/content/DialogInterface;I)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/smerty/zooborns/ZooBorns$UpdateFeedTask;->onProgressUpdate([Ljava/lang/Integer;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/smerty/zooborns/ZooBorns$UpdateFeedTask;->onProgressUpdate([Ljava/lang/Object;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/smerty/zooborns/ZooBorns$UpdateFeedTask;->doInBackground([Lorg/smerty/zooborns/ZooBorns;)Ljava/lang/Integer;": {
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/smerty/zooborns/ZooBorns$UpdateFeedTask;->doInBackground([Lorg/smerty/zooborns/ZooBorns;)Ljava/lang/Integer; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/smerty/zooborns/ZooBorns$UpdateFeedTask;->doInBackground([Ljava/lang/Object;)Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/smerty/zooborns/ZooBorns$1;->onItemClick(Landroid/widget/AdapterView;Landroid/view/View;IJ)V": {
+        "path_2": {
+            "call_sequence": [
+                "> Lorg/smerty/zooborns/ZooBorns$1;->onItemClick(Landroid/widget/AdapterView;Landroid/view/View;IJ)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.smerty.zooborns.ZooBorns",
+                    "gridview"
+                ]
+            ]
+        }
+    },
+    "Lorg/smerty/zooborns/data/ZooBornsPhoto;->getUrl()Ljava/lang/String;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/smerty/zooborns/FullscreenImage;->getEntryFromCachedImage(Lorg/smerty/cache/CachedImage;)Lorg/smerty/zooborns/data/ZooBornsEntry; <",
+                "> Lorg/smerty/zooborns/FullscreenImage;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.VIEW",
+                    "start-activity -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/smerty/zooborns/FullscreenImage;->getEntryFromCachedImage(Lorg/smerty/cache/CachedImage;)Lorg/smerty/zooborns/data/ZooBornsEntry; <",
+                "> Lorg/smerty/zooborns/FullscreenImage;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lorg/smerty/zooborns/ZooBorns$1;->onItemClick(Landroid/widget/AdapterView;Landroid/view/View;IJ)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.smerty.zooborns.ZooBorns",
+                    "gridview"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lorg/smerty/zooborns/ZooBorns$UpdateFeedTask;->doInBackground([Lorg/smerty/zooborns/ZooBorns;)Ljava/lang/Integer; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/smerty/zooborns/ZooBorns;->getApplicationInfo()Landroid/content/pm/ApplicationInfo;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/smerty/cache/ImageCache$DownloadFilesTask;->onPostExecute(Lorg/smerty/cache/ImageCache;)V <",
+                "> Lorg/smerty/cache/ImageCache$DownloadFilesTask;->onPostExecute(Ljava/lang/Object;)V <",
+                "> Lorg/smerty/cache/ImageCache;->startDownloading()V <",
+                "> Lorg/smerty/zooborns/ZooBorns$1;->onItemClick(Landroid/widget/AdapterView;Landroid/view/View;IJ)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.smerty.zooborns.ZooBorns",
+                    "gridview"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/smerty/zooborns/ZooBorns$UpdateFeedTask;->onPostExecute(Ljava/lang/Integer;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/smerty/zooborns/ZooBorns;->startActivity(Landroid/content/Intent;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/smerty/zooborns/ZooBorns$1;->onItemClick(Landroid/widget/AdapterView;Landroid/view/View;IJ)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.smerty.zooborns.ZooBorns",
+                    "gridview"
+                ]
+            ]
+        }
+    },
+    "Lorg/smerty/zooborns/data/ZooBornsEntry;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/smerty/zooborns/data/ZooBornsGallery;->update(Ljava/lang/String;)Z <",
+                "> Lorg/smerty/zooborns/ZooBorns$UpdateFeedTask;->doInBackground([Lorg/smerty/zooborns/ZooBorns;)Ljava/lang/Integer; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/smerty/zooborns/FullscreenImage;->getApplicationContext()Landroid/content/Context;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/smerty/zooborns/FullscreenImage;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.VIEW",
+                    "start-activity -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/smerty/zooborns/FullscreenImage;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lorg/smerty/zooborns/ZooBorns$1;->onItemClick(Landroid/widget/AdapterView;Landroid/view/View;IJ)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.smerty.zooborns.ZooBorns",
+                    "gridview"
+                ]
+            ]
+        }
+    },
+    "Lorg/smerty/zooborns/ZooBorns;->getApplicationContext()Landroid/content/Context;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/smerty/zooborns/ZooBorns;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/smerty/zooborns/FullscreenImage;->startActivity(Landroid/content/Intent;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/smerty/zooborns/FullscreenImage;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.VIEW",
+                    "start-activity -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/smerty/zooborns/FullscreenImage;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lorg/smerty/zooborns/ZooBorns$1;->onItemClick(Landroid/widget/AdapterView;Landroid/view/View;IJ)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.smerty.zooborns.ZooBorns",
+                    "gridview"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lorg/smerty/zooborns/FullscreenImage;->share(Lorg/smerty/zooborns/data/ZooBornsEntry;I)V <",
+                "> Lorg/smerty/zooborns/FullscreenImage$1;->onClick(Landroid/content/DialogInterface;I)V <",
+                "> Lorg/smerty/zooborns/FullscreenImage;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.VIEW",
+                    "start-activity -a"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lorg/smerty/zooborns/FullscreenImage;->share(Lorg/smerty/zooborns/data/ZooBornsEntry;I)V <",
+                "> Lorg/smerty/zooborns/FullscreenImage$1;->onClick(Landroid/content/DialogInterface;I)V <",
+                "> Lorg/smerty/zooborns/FullscreenImage;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lorg/smerty/zooborns/ZooBorns$1;->onItemClick(Landroid/widget/AdapterView;Landroid/view/View;IJ)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.smerty.zooborns.ZooBorns",
+                    "gridview"
+                ]
+            ]
+        }
+    },
+    "Lorg/smerty/zooborns/ZooBorns;->onCreate(Landroid/os/Bundle;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/smerty/zooborns/ZooBorns;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/smerty/zooborns/ZooBorns;->setContentView(I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/smerty/zooborns/ZooBorns;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/smerty/zooborns/data/ZooBornsGallery;->getEtag()Ljava/lang/String;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/smerty/zooborns/ZooBorns$UpdateFeedTask;->doInBackground([Lorg/smerty/zooborns/ZooBorns;)Ljava/lang/Integer; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/smerty/zooborns/ZooBorns;->findViewById(I)Landroid/view/View;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/smerty/zooborns/ZooBorns;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/smerty/zooborns/FullscreenImage;->onOptionsItemSelected(Landroid/view/MenuItem;)Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/smerty/zooborns/FullscreenImage;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.VIEW",
+                    "start-activity -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/smerty/zooborns/FullscreenImage;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lorg/smerty/zooborns/ZooBorns$1;->onItemClick(Landroid/widget/AdapterView;Landroid/view/View;IJ)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.smerty.zooborns.ZooBorns",
+                    "gridview"
+                ]
+            ]
+        }
+    },
+    "Lorg/smerty/zooborns/ZooBorns;->purge()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/smerty/zooborns/ZooBorns;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/smerty/zooborns/feed/UpdateService;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/smerty/zooborns/feed/UpdateService;->sendNotification(Landroid/content/Context;Ljava/lang/String;)V <",
+                "> Lorg/smerty/zooborns/SetupAlarm;->setup(Landroid/content/Context;)V <",
+                "> Lorg/smerty/zooborns/BootReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.BOOT_COMPLETED",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/smerty/zooborns/feed/UpdateService;->sendNotification(Landroid/content/Context;Ljava/lang/String;)V <",
+                "> Lorg/smerty/zooborns/SetupAlarm;->setup(Landroid/content/Context;)V <",
+                "> Lorg/smerty/zooborns/ZooBorns;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lorg/smerty/zooborns/feed/UpdateService;->onHandleIntent(Landroid/content/Intent;)V <",
+                "> Lorg/smerty/zooborns/SetupAlarm;->setup(Landroid/content/Context;)V <",
+                "> Lorg/smerty/zooborns/BootReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.BOOT_COMPLETED",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lorg/smerty/zooborns/feed/UpdateService;->onHandleIntent(Landroid/content/Intent;)V <",
+                "> Lorg/smerty/zooborns/SetupAlarm;->setup(Landroid/content/Context;)V <",
+                "> Lorg/smerty/zooborns/ZooBorns;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/smerty/zooborns/data/ZooBornsEntry;->getPhotos()Ljava/util/ArrayList;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/smerty/zooborns/FullscreenImage;->getEntryFromCachedImage(Lorg/smerty/cache/CachedImage;)Lorg/smerty/zooborns/data/ZooBornsEntry; <",
+                "> Lorg/smerty/zooborns/FullscreenImage;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.VIEW",
+                    "start-activity -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/smerty/zooborns/FullscreenImage;->getEntryFromCachedImage(Lorg/smerty/cache/CachedImage;)Lorg/smerty/zooborns/data/ZooBornsEntry; <",
+                "> Lorg/smerty/zooborns/FullscreenImage;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lorg/smerty/zooborns/ZooBorns$1;->onItemClick(Landroid/widget/AdapterView;Landroid/view/View;IJ)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.smerty.zooborns.ZooBorns",
+                    "gridview"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lorg/smerty/zooborns/ZooBorns$UpdateFeedTask;->doInBackground([Lorg/smerty/zooborns/ZooBorns;)Ljava/lang/Integer; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lorg/smerty/zooborns/data/ZooBornsGallery;->update(Ljava/lang/String;)Z <",
+                "> Lorg/smerty/zooborns/ZooBorns$UpdateFeedTask;->doInBackground([Lorg/smerty/zooborns/ZooBorns;)Ljava/lang/Integer; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/smerty/zooborns/ZooBorns$UpdateFeedTask;->publishProgress([Ljava/lang/Object;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/smerty/zooborns/ZooBorns$UpdateFeedTask;->doInBackground([Lorg/smerty/zooborns/ZooBorns;)Ljava/lang/Integer; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/smerty/zooborns/data/ZooBornsGallery;-><init>()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/smerty/zooborns/ZooBorns;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/smerty/zooborns/FullscreenImage;->getBaseContext()Landroid/content/Context;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/smerty/zooborns/FullscreenImage;->setImage()V <",
+                "> Lorg/smerty/zooborns/FullscreenImage;->onCreate(Landroid/os/Bundle;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/smerty/zooborns/FullscreenImage;->setImage()V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/smerty/zooborns/FullscreenImage;->onCreate(Landroid/os/Bundle;)V <",
+                "----- CONDITIONAL -----",
+                "----- CONDITIONAL -----",
+                "> Lorg/smerty/zooborns/FullscreenImage;->setImage()V <",
+                "> Lorg/smerty/zooborns/FullscreenImage;->prevImage()V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/smerty/zooborns/FullscreenImage;->onKeyUp(ILandroid/view/KeyEvent;)Z <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.VIEW",
+                    "start-activity -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/smerty/zooborns/FullscreenImage;->setImage()V <",
+                "> Lorg/smerty/zooborns/FullscreenImage;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/smerty/zooborns/ZooBorns$1;->onItemClick(Landroid/widget/AdapterView;Landroid/view/View;IJ)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/smerty/zooborns/FullscreenImage;->setImage()V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/smerty/zooborns/FullscreenImage;->onCreate(Landroid/os/Bundle;)V <",
+                "----- CONDITIONAL -----",
+                "----- CONDITIONAL -----",
+                "> Lorg/smerty/zooborns/FullscreenImage;->setImage()V <",
+                "> Lorg/smerty/zooborns/FullscreenImage;->prevImage()V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/smerty/zooborns/FullscreenImage;->onKeyUp(ILandroid/view/KeyEvent;)Z <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.VIEW",
+                    "start-activity -a"
+                ],
+                [
+                    "main activity"
+                ],
+                [
+                    "org.smerty.zooborns.ZooBorns",
+                    "gridview"
+                ]
+            ]
+        }
+    },
+    "Lorg/smerty/zooborns/FullscreenImage;->setImage()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/smerty/zooborns/FullscreenImage;->prevImage()V <",
+                "> Lorg/smerty/zooborns/FullscreenImage;->onKeyUp(ILandroid/view/KeyEvent;)Z <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.VIEW",
+                    "start-activity -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/smerty/zooborns/FullscreenImage;->prevImage()V <",
+                "> Lorg/smerty/zooborns/FullscreenImage;->onKeyUp(ILandroid/view/KeyEvent;)Z <",
+                "> Lorg/smerty/zooborns/ZooBorns$1;->onItemClick(Landroid/widget/AdapterView;Landroid/view/View;IJ)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.smerty.zooborns.ZooBorns",
+                    "gridview"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lorg/smerty/zooborns/FullscreenImage;->nextImage()V <",
+                "> Lorg/smerty/zooborns/FullscreenImage;->onKeyUp(ILandroid/view/KeyEvent;)Z <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.VIEW",
+                    "start-activity -a"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lorg/smerty/zooborns/FullscreenImage;->nextImage()V <",
+                "> Lorg/smerty/zooborns/FullscreenImage;->onKeyUp(ILandroid/view/KeyEvent;)Z <",
+                "> Lorg/smerty/zooborns/ZooBorns$1;->onItemClick(Landroid/widget/AdapterView;Landroid/view/View;IJ)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.smerty.zooborns.ZooBorns",
+                    "gridview"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lorg/smerty/zooborns/FullscreenImage;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.VIEW",
+                    "start-activity -a"
+                ]
+            ]
+        },
+        "path_5": {
+            "call_sequence": [
+                "> Lorg/smerty/zooborns/FullscreenImage;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/smerty/zooborns/ZooBorns$1;->onItemClick(Landroid/widget/AdapterView;Landroid/view/View;IJ)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.smerty.zooborns.ZooBorns",
+                    "gridview"
+                ]
+            ]
+        }
+    },
+    "Lorg/smerty/zooborns/data/ZooBornsEntry;->getBody()Ljava/lang/String;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/smerty/zooborns/FullscreenImage;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.VIEW",
+                    "start-activity -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/smerty/zooborns/FullscreenImage;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lorg/smerty/zooborns/ZooBorns$1;->onItemClick(Landroid/widget/AdapterView;Landroid/view/View;IJ)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.smerty.zooborns.ZooBorns",
+                    "gridview"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lorg/smerty/zooborns/FullscreenImage;->share(Lorg/smerty/zooborns/data/ZooBornsEntry;I)V <",
+                "> Lorg/smerty/zooborns/FullscreenImage$1;->onClick(Landroid/content/DialogInterface;I)V <",
+                "> Lorg/smerty/zooborns/FullscreenImage;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.VIEW",
+                    "start-activity -a"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lorg/smerty/zooborns/FullscreenImage;->share(Lorg/smerty/zooborns/data/ZooBornsEntry;I)V <",
+                "> Lorg/smerty/zooborns/FullscreenImage$1;->onClick(Landroid/content/DialogInterface;I)V <",
+                "> Lorg/smerty/zooborns/FullscreenImage;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lorg/smerty/zooborns/ZooBorns$1;->onItemClick(Landroid/widget/AdapterView;Landroid/view/View;IJ)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.smerty.zooborns.ZooBorns",
+                    "gridview"
+                ]
+            ]
+        }
+    },
+    "Lorg/smerty/zooborns/feed/FeedFetcher;->getDoc()Lorg/w3c/dom/Document;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/smerty/zooborns/data/ZooBornsGallery;->update(Ljava/lang/String;)Z <",
+                "> Lorg/smerty/zooborns/ZooBorns$UpdateFeedTask;->doInBackground([Lorg/smerty/zooborns/ZooBorns;)Ljava/lang/Integer; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/smerty/zooborns/FullscreenImage;->setContentView(Landroid/view/View;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/smerty/zooborns/FullscreenImage;->setImage()V <",
+                "> Lorg/smerty/zooborns/FullscreenImage;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.VIEW",
+                    "start-activity -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/smerty/zooborns/FullscreenImage;->setImage()V <",
+                "> Lorg/smerty/zooborns/FullscreenImage;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/smerty/zooborns/ZooBorns$1;->onItemClick(Landroid/widget/AdapterView;Landroid/view/View;IJ)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.smerty.zooborns.ZooBorns",
+                    "gridview"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lorg/smerty/zooborns/FullscreenImage;->onConfigurationChanged(Landroid/content/res/Configuration;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/smerty/zooborns/FullscreenImage;->setImage()V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/smerty/zooborns/FullscreenImage;->onCreate(Landroid/os/Bundle;)V <",
+                "----- CONDITIONAL -----",
+                "----- CONDITIONAL -----",
+                "> Lorg/smerty/zooborns/FullscreenImage;->setImage()V <",
+                "> Lorg/smerty/zooborns/FullscreenImage;->prevImage()V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/smerty/zooborns/FullscreenImage;->onKeyUp(ILandroid/view/KeyEvent;)Z <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.VIEW",
+                    "start-activity -a"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lorg/smerty/zooborns/FullscreenImage;->onConfigurationChanged(Landroid/content/res/Configuration;)V <",
+                "> Lorg/smerty/zooborns/ZooBorns$1;->onItemClick(Landroid/widget/AdapterView;Landroid/view/View;IJ)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/smerty/zooborns/FullscreenImage;->setImage()V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/smerty/zooborns/FullscreenImage;->onCreate(Landroid/os/Bundle;)V <",
+                "----- CONDITIONAL -----",
+                "----- CONDITIONAL -----",
+                "> Lorg/smerty/zooborns/FullscreenImage;->setImage()V <",
+                "> Lorg/smerty/zooborns/FullscreenImage;->prevImage()V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/smerty/zooborns/FullscreenImage;->onKeyUp(ILandroid/view/KeyEvent;)Z <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.VIEW",
+                    "start-activity -a"
+                ],
+                [
+                    "main activity"
+                ],
+                [
+                    "org.smerty.zooborns.ZooBorns",
+                    "gridview"
+                ]
+            ]
+        }
+    },
+    "Lorg/smerty/zooborns/ZooBorns;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/smerty/zooborns/ZooBorns;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/smerty/zooborns/feed/UpdateService;->sendNotification(Landroid/content/Context;Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/smerty/zooborns/feed/UpdateService;->onHandleIntent(Landroid/content/Intent;)V <",
+                "> Lorg/smerty/zooborns/SetupAlarm;->setup(Landroid/content/Context;)V <",
+                "> Lorg/smerty/zooborns/BootReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.BOOT_COMPLETED",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/smerty/zooborns/feed/UpdateService;->onHandleIntent(Landroid/content/Intent;)V <",
+                "> Lorg/smerty/zooborns/SetupAlarm;->setup(Landroid/content/Context;)V <",
+                "> Lorg/smerty/zooborns/ZooBorns;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/smerty/zooborns/ZooBorns;->setContentView(Landroid/view/View;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/smerty/zooborns/ZooBorns;->onConfigurationChanged(Landroid/content/res/Configuration;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/smerty/zooborns/ZooBorns$UpdateFeedTask;-><init>(Lorg/smerty/zooborns/ZooBorns;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/smerty/zooborns/ZooBorns$UpdateFeedTask;-><init>(Lorg/smerty/zooborns/ZooBorns;Lorg/smerty/zooborns/ZooBorns$1;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/smerty/zooborns/data/ZooBornsEntry;->getTitle()Ljava/lang/String;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/smerty/zooborns/FullscreenImage;->setImage()V <",
+                "> Lorg/smerty/zooborns/FullscreenImage;->onCreate(Landroid/os/Bundle;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/smerty/zooborns/FullscreenImage;->setImage()V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/smerty/zooborns/FullscreenImage;->onCreate(Landroid/os/Bundle;)V <",
+                "----- CONDITIONAL -----",
+                "----- CONDITIONAL -----",
+                "> Lorg/smerty/zooborns/FullscreenImage;->setImage()V <",
+                "> Lorg/smerty/zooborns/FullscreenImage;->prevImage()V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/smerty/zooborns/FullscreenImage;->onKeyUp(ILandroid/view/KeyEvent;)Z <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.VIEW",
+                    "start-activity -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/smerty/zooborns/FullscreenImage;->setImage()V <",
+                "> Lorg/smerty/zooborns/FullscreenImage;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/smerty/zooborns/ZooBorns$1;->onItemClick(Landroid/widget/AdapterView;Landroid/view/View;IJ)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/smerty/zooborns/FullscreenImage;->setImage()V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/smerty/zooborns/FullscreenImage;->onCreate(Landroid/os/Bundle;)V <",
+                "----- CONDITIONAL -----",
+                "----- CONDITIONAL -----",
+                "> Lorg/smerty/zooborns/FullscreenImage;->setImage()V <",
+                "> Lorg/smerty/zooborns/FullscreenImage;->prevImage()V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/smerty/zooborns/FullscreenImage;->onKeyUp(ILandroid/view/KeyEvent;)Z <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.VIEW",
+                    "start-activity -a"
+                ],
+                [
+                    "main activity"
+                ],
+                [
+                    "org.smerty.zooborns.ZooBorns",
+                    "gridview"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lorg/smerty/zooborns/FullscreenImage;->share(Lorg/smerty/zooborns/data/ZooBornsEntry;I)V <",
+                "> Lorg/smerty/zooborns/FullscreenImage$1;->onClick(Landroid/content/DialogInterface;I)V <",
+                "> Lorg/smerty/zooborns/FullscreenImage;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.VIEW",
+                    "start-activity -a"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lorg/smerty/zooborns/FullscreenImage;->share(Lorg/smerty/zooborns/data/ZooBornsEntry;I)V <",
+                "> Lorg/smerty/zooborns/FullscreenImage$1;->onClick(Landroid/content/DialogInterface;I)V <",
+                "> Lorg/smerty/zooborns/FullscreenImage;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lorg/smerty/zooborns/ZooBorns$1;->onItemClick(Landroid/widget/AdapterView;Landroid/view/View;IJ)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.smerty.zooborns.ZooBorns",
+                    "gridview"
+                ]
+            ]
+        }
+    },
+    "Lorg/smerty/zooborns/SetupAlarm;->setup(Landroid/content/Context;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/smerty/zooborns/ZooBorns;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lorg/smerty/zooborns/BootReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.BOOT_COMPLETED",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    }
+}

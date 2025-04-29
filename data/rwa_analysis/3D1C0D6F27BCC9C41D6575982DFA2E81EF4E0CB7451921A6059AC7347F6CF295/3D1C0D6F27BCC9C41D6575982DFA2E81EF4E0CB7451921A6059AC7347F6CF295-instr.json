@@ -1,0 +1,2430 @@
+{
+    "Lcom/kashkick/kashkickapp/ResetImageView;-><init>(Lcom/facebook/react/bridge/ReactApplicationContext;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/kashkick/kashkickapp/MainApplication$reactNativeHost$1$getPackages$1$1;->createNativeModules(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/List; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication$reactNativeHost$1;->getPackages()Ljava/util/List; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/kashkick/kashkickapp/MainApplication;-><init>()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/kashkick/kashkickapp/MainApplication;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/kashkick/kashkickapp/MainActivity;->createReactActivityDelegate()Lcom/facebook/react/ReactActivityDelegate;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/kashkick/kashkickapp/MainActivity;->createReactActivityDelegate()Lcom/facebook/react/ReactActivityDelegate; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/kashkick/kashkickapp/IPQSModule;-><init>(Lcom/facebook/react/bridge/ReactApplicationContext;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/kashkick/kashkickapp/MainApplication$reactNativeHost$1$getPackages$1$1;->createNativeModules(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/List; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication$reactNativeHost$1;->getPackages()Ljava/util/List; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/kashkick/kashkickapp/MainApplication;->getApplicationContext()Landroid/content/Context;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/kashkick/kashkickapp/MainApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/kashkick/kashkickapp/KashKickFirebaseMessagingService;->getApplicationContext()Landroid/content/Context;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/kashkick/kashkickapp/KashKickFirebaseMessagingService;->onMessageReceived(Lcom/google/firebase/messaging/RemoteMessage;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.google.firebase.MESSAGING_EVENT",
+                    "start-service -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/kashkick/kashkickapp/MainActivity;->getApplicationContext()Landroid/content/Context;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/kashkick/kashkickapp/MainActivity;->onNewIntent(Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/kashkick/kashkickapp/MainActivity;->setIntent(Landroid/content/Intent;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/kashkick/kashkickapp/MainActivity;->onNewIntent(Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/kashkick/kashkickapp/MainActivity;->getMainComponentName()Ljava/lang/String;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/kashkick/kashkickapp/MainActivity;->createReactActivityDelegate()Lcom/facebook/react/ReactActivityDelegate; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/kashkick/kashkickapp/MainActivity;->getIntent()Landroid/content/Intent;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/kashkick/kashkickapp/MainActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/facebook/FacebookRequestError;->checkResponseAndCreateError(Lorg/json/JSONObject;Ljava/lang/Object;Ljava/net/HttpURLConnection;)Lcom/facebook/FacebookRequestError;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/facebook/FacebookRequestError$Companion;->checkResponseAndCreateError(Lorg/json/JSONObject;Ljava/lang/Object;Ljava/net/HttpURLConnection;)Lcom/facebook/FacebookRequestError; <",
+                "> Lcom/facebook/FacebookRequestError;->checkResponseAndCreateError(Lorg/json/JSONObject;Ljava/lang/Object;Ljava/net/HttpURLConnection;)Lcom/facebook/FacebookRequestError; <",
+                "> Lcom/facebook/gamingservices/cloudgaming/DaemonReceiver;->createDefaultErrorResponse(Ljava/lang/String;)Lcom/facebook/GraphResponse; <",
+                "> Lcom/facebook/gamingservices/cloudgaming/DaemonReceiver;->processResponse(Lorg/json/JSONObject;Ljava/lang/String;)Lcom/facebook/GraphResponse; <",
+                "> Lcom/facebook/gamingservices/cloudgaming/DaemonReceiver;->access$200(Lorg/json/JSONObject;Ljava/lang/String;)Lcom/facebook/GraphResponse; <",
+                "> Lcom/facebook/gamingservices/cloudgaming/DaemonReceiver$DaemonBroadcastReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.facebook.gamingservices.DAEMON_RESPONSE",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/facebook/FacebookRequestError$Companion;->checkResponseAndCreateError(Lorg/json/JSONObject;Ljava/lang/Object;Ljava/net/HttpURLConnection;)Lcom/facebook/FacebookRequestError; <",
+                "> Lcom/facebook/FacebookRequestError;->checkResponseAndCreateError(Lorg/json/JSONObject;Ljava/lang/Object;Ljava/net/HttpURLConnection;)Lcom/facebook/FacebookRequestError; <",
+                "> Lcom/facebook/GraphResponse$Companion;->constructErrorResponses(Ljava/util/List;Ljava/net/HttpURLConnection;Lcom/facebook/FacebookException;)Ljava/util/List; <",
+                "> Lcom/facebook/GraphRequest$Companion;->executeBatchAndWait(Lcom/facebook/GraphRequestBatch;)Ljava/util/List; <",
+                "> Lcom/facebook/GraphRequest$Companion;->executeBatchAndWait(Ljava/util/Collection;)Ljava/util/List; <",
+                "> Lcom/facebook/GraphRequest$Companion;->executeBatchAndWait([Lcom/facebook/GraphRequest;)Ljava/util/List; <",
+                "> Lcom/facebook/GraphRequest$Companion;->executeAndWait(Lcom/facebook/GraphRequest;)Lcom/facebook/GraphResponse; <",
+                "> Lcom/facebook/GraphRequest;->executeAndWait()Lcom/facebook/GraphResponse; <",
+                "> Lcom/facebook/internal/FetchedAppGateKeepersManager;->getAppGateKeepersQueryResponse(Ljava/lang/String;)Lorg/json/JSONObject; <",
+                "> Lcom/facebook/internal/FetchedAppGateKeepersManager;->loadAppGateKeepersAsync$lambda-0(Ljava/lang/String;Landroid/content/Context;Ljava/lang/String;)V <",
+                "> Lcom/facebook/internal/FetchedAppGateKeepersManager;->$r8$lambda$Tw9JXEbPRzoud2mdIxizp6VF2V0(Ljava/lang/String;Landroid/content/Context;Ljava/lang/String;)V <",
+                "> Lcom/facebook/internal/FetchedAppGateKeepersManager$$ExternalSyntheticLambda0;->run()V <",
+                "> Lcom/facebook/internal/FetchedAppGateKeepersManager;->loadAppGateKeepersAsync(Lcom/facebook/internal/FetchedAppGateKeepersManager$Callback;)V <",
+                "> Lcom/facebook/internal/FeatureManager;->checkFeature(Lcom/facebook/internal/FeatureManager$Feature;Lcom/facebook/internal/FeatureManager$Callback;)V <",
+                "> Lcom/facebook/FacebookException;-><init>(Ljava/lang/String;)V <",
+                "> Lcom/facebook/FacebookSdkNotInitializedException;-><init>(Ljava/lang/String;)V <",
+                "> Lcom/facebook/internal/Validate;->sdkInitialized()V <",
+                "> Lcom/facebook/FacebookSdk;->getApplicationContext()Landroid/content/Context; <",
+                "> Lcom/facebook/AccessTokenManager$Companion;->getInstance()Lcom/facebook/AccessTokenManager; <",
+                "> Lcom/facebook/CurrentAccessTokenExpirationBroadcastReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/clevertap/android/sdk/pushnotification/PushProviders;->initPushAmp()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/clevertap/android/sdk/pushnotification/PushProviders;-><init>(Landroid/content/Context;Lcom/clevertap/android/sdk/CleverTapInstanceConfig;Lcom/clevertap/android/sdk/db/BaseDatabaseManager;Lcom/clevertap/android/sdk/validation/ValidationResultStack;Lcom/clevertap/android/sdk/AnalyticsManager;Lcom/clevertap/android/sdk/pushnotification/work/CTWorkManager;)V <",
+                "> Lcom/clevertap/android/sdk/pushnotification/PushProviders;->load(Landroid/content/Context;Lcom/clevertap/android/sdk/CleverTapInstanceConfig;Lcom/clevertap/android/sdk/db/BaseDatabaseManager;Lcom/clevertap/android/sdk/validation/ValidationResultStack;Lcom/clevertap/android/sdk/AnalyticsManager;Lcom/clevertap/android/sdk/ControllerManager;Lcom/clevertap/android/sdk/pushnotification/work/CTWorkManager;)Lcom/clevertap/android/sdk/pushnotification/PushProviders; <",
+                "> Lcom/clevertap/android/sdk/CleverTapFactory;->getCoreState(Landroid/content/Context;Lcom/clevertap/android/sdk/CleverTapInstanceConfig;Ljava/lang/String;)Lcom/clevertap/android/sdk/CoreState; <",
+                "> Lcom/clevertap/android/sdk/CleverTapAPI;-><init>(Landroid/content/Context;Lcom/clevertap/android/sdk/CleverTapInstanceConfig;Ljava/lang/String;)V <",
+                "> Lcom/clevertap/android/sdk/CleverTapAPI;->instanceWithConfig(Landroid/content/Context;Lcom/clevertap/android/sdk/CleverTapInstanceConfig;Ljava/lang/String;)Lcom/clevertap/android/sdk/CleverTapAPI; <",
+                "> Lcom/clevertap/android/sdk/CleverTapAPI;->getDefaultInstance(Landroid/content/Context;Ljava/lang/String;)Lcom/clevertap/android/sdk/CleverTapAPI; <",
+                "> Lcom/clevertap/android/sdk/CleverTapAPI;->getDefaultInstance(Landroid/content/Context;)Lcom/clevertap/android/sdk/CleverTapAPI; <",
+                "> Lcom/kashkick/kashkickapp/MainActivity;->onNewIntent(Landroid/content/Intent;)V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/clevertap/android/sdk/CleverTapAPI;->getDefaultInstance(Landroid/content/Context;Ljava/lang/String;)Lcom/clevertap/android/sdk/CleverTapAPI; <",
+                "----- CONDITIONAL -----",
+                "> Lcom/clevertap/android/sdk/CleverTapAPI;->getDefaultInstance(Landroid/content/Context;)Lcom/clevertap/android/sdk/CleverTapAPI; <",
+                "----- CONDITIONAL -----",
+                "> Lcom/kashkick/kashkickapp/MainActivity;->onNewIntent(Landroid/content/Intent;)V <",
+                "----- CONDITIONAL -----"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                "----- CONDITIONAL -----",
+                "----- CONDITIONAL -----",
+                "----- CONDITIONAL -----",
+                "----- CONDITIONAL -----",
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/clevertap/android/sdk/pushnotification/PushProviders;-><init>(Landroid/content/Context;Lcom/clevertap/android/sdk/CleverTapInstanceConfig;Lcom/clevertap/android/sdk/db/BaseDatabaseManager;Lcom/clevertap/android/sdk/validation/ValidationResultStack;Lcom/clevertap/android/sdk/AnalyticsManager;Lcom/clevertap/android/sdk/pushnotification/work/CTWorkManager;)V <",
+                "> Lcom/clevertap/android/sdk/pushnotification/PushProviders;->load(Landroid/content/Context;Lcom/clevertap/android/sdk/CleverTapInstanceConfig;Lcom/clevertap/android/sdk/db/BaseDatabaseManager;Lcom/clevertap/android/sdk/validation/ValidationResultStack;Lcom/clevertap/android/sdk/AnalyticsManager;Lcom/clevertap/android/sdk/ControllerManager;Lcom/clevertap/android/sdk/pushnotification/work/CTWorkManager;)Lcom/clevertap/android/sdk/pushnotification/PushProviders; <",
+                "> Lcom/clevertap/android/sdk/CleverTapFactory;->getCoreState(Landroid/content/Context;Lcom/clevertap/android/sdk/CleverTapInstanceConfig;Ljava/lang/String;)Lcom/clevertap/android/sdk/CoreState; <",
+                "> Lcom/clevertap/android/sdk/CleverTapAPI;-><init>(Landroid/content/Context;Lcom/clevertap/android/sdk/CleverTapInstanceConfig;Ljava/lang/String;)V <",
+                "> Lcom/clevertap/android/sdk/CleverTapAPI;->instanceWithConfig(Landroid/content/Context;Lcom/clevertap/android/sdk/CleverTapInstanceConfig;Ljava/lang/String;)Lcom/clevertap/android/sdk/CleverTapAPI; <",
+                "> Lcom/clevertap/android/sdk/CleverTapAPI;->getDefaultInstance(Landroid/content/Context;Ljava/lang/String;)Lcom/clevertap/android/sdk/CleverTapAPI; <",
+                "> Lcom/clevertap/android/sdk/CleverTapAPI;->getDefaultInstance(Landroid/content/Context;)Lcom/clevertap/android/sdk/CleverTapAPI; <",
+                "> Lcom/clevertap/react/CleverTapApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/clevertap/android/sdk/pushnotification/PushProviders;-><init>(Landroid/content/Context;Lcom/clevertap/android/sdk/CleverTapInstanceConfig;Lcom/clevertap/android/sdk/db/BaseDatabaseManager;Lcom/clevertap/android/sdk/validation/ValidationResultStack;Lcom/clevertap/android/sdk/AnalyticsManager;Lcom/clevertap/android/sdk/pushnotification/work/CTWorkManager;)V <",
+                "> Lcom/clevertap/android/sdk/pushnotification/PushProviders;->load(Landroid/content/Context;Lcom/clevertap/android/sdk/CleverTapInstanceConfig;Lcom/clevertap/android/sdk/db/BaseDatabaseManager;Lcom/clevertap/android/sdk/validation/ValidationResultStack;Lcom/clevertap/android/sdk/AnalyticsManager;Lcom/clevertap/android/sdk/ControllerManager;Lcom/clevertap/android/sdk/pushnotification/work/CTWorkManager;)Lcom/clevertap/android/sdk/pushnotification/PushProviders; <",
+                "> Lcom/clevertap/android/sdk/CleverTapFactory;->getCoreState(Landroid/content/Context;Lcom/clevertap/android/sdk/CleverTapInstanceConfig;Ljava/lang/String;)Lcom/clevertap/android/sdk/CoreState; <",
+                "> Lcom/clevertap/android/sdk/CleverTapAPI;-><init>(Landroid/content/Context;Lcom/clevertap/android/sdk/CleverTapInstanceConfig;Ljava/lang/String;)V <",
+                "> Lcom/clevertap/android/sdk/CleverTapAPI;->instanceWithConfig(Landroid/content/Context;Lcom/clevertap/android/sdk/CleverTapInstanceConfig;Ljava/lang/String;)Lcom/clevertap/android/sdk/CleverTapAPI; <",
+                "> Lcom/clevertap/android/sdk/CleverTapAPI;->createInstanceIfAvailable(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Lcom/clevertap/android/sdk/CleverTapAPI; <",
+                "> Lcom/clevertap/android/sdk/CleverTapAPI;->createInstanceIfAvailable(Landroid/content/Context;Ljava/lang/String;)Lcom/clevertap/android/sdk/CleverTapAPI; <",
+                "> Lcom/clevertap/android/sdk/CleverTapAPI;->fromAccountId(Landroid/content/Context;Ljava/lang/String;)Lcom/clevertap/android/sdk/CleverTapAPI; <",
+                "> Lcom/clevertap/android/sdk/CleverTapAPI;->getGlobalInstance(Landroid/content/Context;Ljava/lang/String;)Lcom/clevertap/android/sdk/CleverTapAPI; <",
+                "> Lcom/clevertap/android/sdk/pushnotification/fcm/CTFirebaseMessagingReceiver;->lambda$onReceive$0$com-clevertap-android-sdk-pushnotification-fcm-CTFirebaseMessagingReceiver(Landroid/content/Context;Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.google.android.c2dm.intent.RECEIVE",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/horcrux/svg/SvgView;->getCanvasBounds()Landroid/graphics/Rect;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/horcrux/svg/RadialGradientView;->saveDefinition()V <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Lcom/horcrux/svg/VirtualView; <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Landroid/view/View; <",
+                "> Lcom/horcrux/svg/RenderableViewManager$LinearGradientManager;-><init>()V <",
+                "> Lcom/horcrux/svg/SvgPackage$15;->get()Lcom/facebook/react/bridge/NativeModule; <",
+                "> Lcom/horcrux/svg/SvgPackage$15;->get()Ljava/lang/Object; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagersMap(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/Map; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagers(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/List; <",
+                "> Lcom/facebook/react/PackageList;->getPackages()Ljava/util/ArrayList; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication$reactNativeHost$1;->getPackages()Ljava/util/List; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/horcrux/svg/RadialGradientView;->saveDefinition()V <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Lcom/horcrux/svg/VirtualView; <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Landroid/view/View; <",
+                "> Lcom/horcrux/svg/RenderableViewManager$RadialGradientManager;-><init>()V <",
+                "> Lcom/horcrux/svg/SvgPackage$16;->get()Lcom/facebook/react/bridge/NativeModule; <",
+                "> Lcom/horcrux/svg/SvgPackage$16;->get()Ljava/lang/Object; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagersMap(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/Map; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagers(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/List; <",
+                "> Lcom/facebook/react/PackageList;->getPackages()Ljava/util/ArrayList; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication$reactNativeHost$1;->getPackages()Ljava/util/List; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/horcrux/svg/RadialGradientView;->saveDefinition()V <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Lcom/horcrux/svg/VirtualView; <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Landroid/view/View; <",
+                "> Lcom/horcrux/svg/RenderableViewManager$DefsViewManager;-><init>()V <",
+                "> Lcom/horcrux/svg/SvgPackage$12;->get()Lcom/facebook/react/bridge/NativeModule; <",
+                "> Lcom/horcrux/svg/SvgPackage$12;->get()Ljava/lang/Object; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagersMap(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/Map; <",
+                "> Lcom/horcrux/svg/SvgPackage;->createViewManager(Lcom/facebook/react/bridge/ReactApplicationContext;Ljava/lang/String;)Lcom/facebook/react/uimanager/ViewManager; <",
+                "> Lcom/facebook/react/PackageList;->getPackages()Ljava/util/ArrayList; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication$reactNativeHost$1;->getPackages()Ljava/util/List; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/horcrux/svg/LinearGradientView;->saveDefinition()V <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Lcom/horcrux/svg/VirtualView; <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Landroid/view/View; <",
+                "> Lcom/horcrux/svg/RenderableViewManager$LinearGradientManager;-><init>()V <",
+                "> Lcom/horcrux/svg/SvgPackage$15;->get()Lcom/facebook/react/bridge/NativeModule; <",
+                "> Lcom/horcrux/svg/SvgPackage$15;->get()Ljava/lang/Object; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagersMap(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/Map; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagers(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/List; <",
+                "> Lcom/facebook/react/PackageList;->getPackages()Ljava/util/ArrayList; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication$reactNativeHost$1;->getPackages()Ljava/util/List; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lcom/horcrux/svg/LinearGradientView;->saveDefinition()V <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Lcom/horcrux/svg/VirtualView; <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Landroid/view/View; <",
+                "> Lcom/horcrux/svg/RenderableViewManager$RadialGradientManager;-><init>()V <",
+                "> Lcom/horcrux/svg/SvgPackage$16;->get()Lcom/facebook/react/bridge/NativeModule; <",
+                "> Lcom/horcrux/svg/SvgPackage$16;->get()Ljava/lang/Object; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagersMap(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/Map; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagers(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/List; <",
+                "> Lcom/facebook/react/PackageList;->getPackages()Ljava/util/ArrayList; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication$reactNativeHost$1;->getPackages()Ljava/util/List; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_5": {
+            "call_sequence": [
+                "> Lcom/horcrux/svg/LinearGradientView;->saveDefinition()V <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Lcom/horcrux/svg/VirtualView; <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Landroid/view/View; <",
+                "> Lcom/horcrux/svg/RenderableViewManager$DefsViewManager;-><init>()V <",
+                "> Lcom/horcrux/svg/SvgPackage$12;->get()Lcom/facebook/react/bridge/NativeModule; <",
+                "> Lcom/horcrux/svg/SvgPackage$12;->get()Ljava/lang/Object; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagersMap(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/Map; <",
+                "> Lcom/horcrux/svg/SvgPackage;->createViewManager(Lcom/facebook/react/bridge/ReactApplicationContext;Ljava/lang/String;)Lcom/facebook/react/uimanager/ViewManager; <",
+                "> Lcom/facebook/react/PackageList;->getPackages()Ljava/util/ArrayList; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication$reactNativeHost$1;->getPackages()Ljava/util/List; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_6": {
+            "call_sequence": [
+                "> Lcom/horcrux/svg/VirtualView;->getCanvasHeight()F <",
+                "> Lcom/horcrux/svg/VirtualView;->relativeOnHeight(Lcom/horcrux/svg/SVGLength;)D <",
+                "> Lcom/horcrux/svg/RenderableView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/ImageView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Lcom/horcrux/svg/VirtualView; <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Landroid/view/View; <",
+                "> Lcom/horcrux/svg/RenderableViewManager$LinearGradientManager;-><init>()V <",
+                "> Lcom/horcrux/svg/SvgPackage$15;->get()Lcom/facebook/react/bridge/NativeModule; <",
+                "> Lcom/horcrux/svg/SvgPackage$15;->get()Ljava/lang/Object; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagersMap(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/Map; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagers(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/List; <",
+                "> Lcom/facebook/react/PackageList;->getPackages()Ljava/util/ArrayList; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication$reactNativeHost$1;->getPackages()Ljava/util/List; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_7": {
+            "call_sequence": [
+                "> Lcom/horcrux/svg/VirtualView;->getCanvasHeight()F <",
+                "> Lcom/horcrux/svg/VirtualView;->relativeOnHeight(Lcom/horcrux/svg/SVGLength;)D <",
+                "> Lcom/horcrux/svg/RenderableView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/UseView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Lcom/horcrux/svg/VirtualView; <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Landroid/view/View; <",
+                "> Lcom/horcrux/svg/RenderableViewManager$LinearGradientManager;-><init>()V <",
+                "> Lcom/horcrux/svg/SvgPackage$15;->get()Lcom/facebook/react/bridge/NativeModule; <",
+                "> Lcom/horcrux/svg/SvgPackage$15;->get()Ljava/lang/Object; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagersMap(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/Map; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagers(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/List; <",
+                "> Lcom/facebook/react/PackageList;->getPackages()Ljava/util/ArrayList; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication$reactNativeHost$1;->getPackages()Ljava/util/List; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_8": {
+            "call_sequence": [
+                "> Lcom/horcrux/svg/VirtualView;->getCanvasHeight()F <",
+                "> Lcom/horcrux/svg/VirtualView;->relativeOnHeight(Lcom/horcrux/svg/SVGLength;)D <",
+                "> Lcom/horcrux/svg/RenderableView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/GroupView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Lcom/horcrux/svg/VirtualView; <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Landroid/view/View; <",
+                "> Lcom/horcrux/svg/RenderableViewManager$LinearGradientManager;-><init>()V <",
+                "> Lcom/horcrux/svg/SvgPackage$15;->get()Lcom/facebook/react/bridge/NativeModule; <",
+                "> Lcom/horcrux/svg/SvgPackage$15;->get()Ljava/lang/Object; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagersMap(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/Map; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagers(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/List; <",
+                "> Lcom/facebook/react/PackageList;->getPackages()Ljava/util/ArrayList; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication$reactNativeHost$1;->getPackages()Ljava/util/List; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_9": {
+            "call_sequence": [
+                "> Lcom/horcrux/svg/VirtualView;->getCanvasHeight()F <",
+                "> Lcom/horcrux/svg/VirtualView;->relativeOnHeight(Lcom/horcrux/svg/SVGLength;)D <",
+                "> Lcom/horcrux/svg/RenderableView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/CircleView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Lcom/horcrux/svg/VirtualView; <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Landroid/view/View; <",
+                "> Lcom/horcrux/svg/RenderableViewManager$LinearGradientManager;-><init>()V <",
+                "> Lcom/horcrux/svg/SvgPackage$15;->get()Lcom/facebook/react/bridge/NativeModule; <",
+                "> Lcom/horcrux/svg/SvgPackage$15;->get()Ljava/lang/Object; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagersMap(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/Map; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagers(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/List; <",
+                "> Lcom/facebook/react/PackageList;->getPackages()Ljava/util/ArrayList; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication$reactNativeHost$1;->getPackages()Ljava/util/List; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_10": {
+            "call_sequence": [
+                "> Lcom/horcrux/svg/VirtualView;->getCanvasHeight()F <",
+                "> Lcom/horcrux/svg/VirtualView;->relativeOnHeight(Lcom/horcrux/svg/SVGLength;)D <",
+                "> Lcom/horcrux/svg/DefinitionView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/RadialGradientView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Lcom/horcrux/svg/VirtualView; <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Landroid/view/View; <",
+                "> Lcom/horcrux/svg/RenderableViewManager$LinearGradientManager;-><init>()V <",
+                "> Lcom/horcrux/svg/SvgPackage$15;->get()Lcom/facebook/react/bridge/NativeModule; <",
+                "> Lcom/horcrux/svg/SvgPackage$15;->get()Ljava/lang/Object; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagersMap(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/Map; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagers(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/List; <",
+                "> Lcom/facebook/react/PackageList;->getPackages()Ljava/util/ArrayList; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication$reactNativeHost$1;->getPackages()Ljava/util/List; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_11": {
+            "call_sequence": [
+                "> Lcom/horcrux/svg/VirtualView;->getCanvasHeight()F <",
+                "> Lcom/horcrux/svg/VirtualView;->relativeOnHeight(Lcom/horcrux/svg/SVGLength;)D <",
+                "> Lcom/horcrux/svg/DefinitionView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/DefsView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Lcom/horcrux/svg/VirtualView; <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Landroid/view/View; <",
+                "> Lcom/horcrux/svg/RenderableViewManager$LinearGradientManager;-><init>()V <",
+                "> Lcom/horcrux/svg/SvgPackage$15;->get()Lcom/facebook/react/bridge/NativeModule; <",
+                "> Lcom/horcrux/svg/SvgPackage$15;->get()Ljava/lang/Object; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagersMap(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/Map; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagers(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/List; <",
+                "> Lcom/facebook/react/PackageList;->getPackages()Ljava/util/ArrayList; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication$reactNativeHost$1;->getPackages()Ljava/util/List; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_12": {
+            "call_sequence": [
+                "> Lcom/horcrux/svg/VirtualView;->getCanvasHeight()F <",
+                "> Lcom/horcrux/svg/VirtualView;->relativeOnHeight(Lcom/horcrux/svg/SVGLength;)D <",
+                "> Lcom/horcrux/svg/RenderableView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/EllipseView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Lcom/horcrux/svg/VirtualView; <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Landroid/view/View; <",
+                "> Lcom/horcrux/svg/RenderableViewManager$DefsViewManager;-><init>()V <",
+                "> Lcom/horcrux/svg/SvgPackage$12;->get()Lcom/facebook/react/bridge/NativeModule; <",
+                "> Lcom/horcrux/svg/SvgPackage$12;->get()Ljava/lang/Object; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagersMap(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/Map; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagers(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/List; <",
+                "> Lcom/facebook/react/PackageList;->getPackages()Ljava/util/ArrayList; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication$reactNativeHost$1;->getPackages()Ljava/util/List; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_13": {
+            "call_sequence": [
+                "> Lcom/horcrux/svg/VirtualView;->getCanvasHeight()F <",
+                "> Lcom/horcrux/svg/VirtualView;->relativeOnHeight(Lcom/horcrux/svg/SVGLength;)D <",
+                "> Lcom/horcrux/svg/RenderableView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/PathView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Lcom/horcrux/svg/VirtualView; <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Landroid/view/View; <",
+                "> Lcom/horcrux/svg/RenderableViewManager$DefsViewManager;-><init>()V <",
+                "> Lcom/horcrux/svg/SvgPackage$12;->get()Lcom/facebook/react/bridge/NativeModule; <",
+                "> Lcom/horcrux/svg/SvgPackage$12;->get()Ljava/lang/Object; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagersMap(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/Map; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagers(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/List; <",
+                "> Lcom/facebook/react/PackageList;->getPackages()Ljava/util/ArrayList; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication$reactNativeHost$1;->getPackages()Ljava/util/List; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_14": {
+            "call_sequence": [
+                "> Lcom/horcrux/svg/VirtualView;->getCanvasHeight()F <",
+                "> Lcom/horcrux/svg/VirtualView;->relativeOnHeight(Lcom/horcrux/svg/SVGLength;)D <",
+                "> Lcom/horcrux/svg/RenderableView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/RectView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Lcom/horcrux/svg/VirtualView; <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Landroid/view/View; <",
+                "> Lcom/horcrux/svg/RenderableViewManager$DefsViewManager;-><init>()V <",
+                "> Lcom/horcrux/svg/SvgPackage$12;->get()Lcom/facebook/react/bridge/NativeModule; <",
+                "> Lcom/horcrux/svg/SvgPackage$12;->get()Ljava/lang/Object; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagersMap(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/Map; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagers(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/List; <",
+                "> Lcom/facebook/react/PackageList;->getPackages()Ljava/util/ArrayList; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication$reactNativeHost$1;->getPackages()Ljava/util/List; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_15": {
+            "call_sequence": [
+                "> Lcom/horcrux/svg/VirtualView;->getCanvasHeight()F <",
+                "> Lcom/horcrux/svg/VirtualView;->relativeOnHeight(Lcom/horcrux/svg/SVGLength;)D <",
+                "> Lcom/horcrux/svg/RenderableView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/LineView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Lcom/horcrux/svg/VirtualView; <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Landroid/view/View; <",
+                "> Lcom/horcrux/svg/RenderableViewManager$DefsViewManager;-><init>()V <",
+                "> Lcom/horcrux/svg/SvgPackage$12;->get()Lcom/facebook/react/bridge/NativeModule; <",
+                "> Lcom/horcrux/svg/SvgPackage$12;->get()Ljava/lang/Object; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagersMap(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/Map; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagers(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/List; <",
+                "> Lcom/facebook/react/PackageList;->getPackages()Ljava/util/ArrayList; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication$reactNativeHost$1;->getPackages()Ljava/util/List; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_16": {
+            "call_sequence": [
+                "> Lcom/horcrux/svg/VirtualView;->getCanvasHeight()F <",
+                "> Lcom/horcrux/svg/VirtualView;->relativeOnHeight(Lcom/horcrux/svg/SVGLength;)D <",
+                "> Lcom/horcrux/svg/DefinitionView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/LinearGradientView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Lcom/horcrux/svg/VirtualView; <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Landroid/view/View; <",
+                "> Lcom/horcrux/svg/RenderableViewManager$DefsViewManager;-><init>()V <",
+                "> Lcom/horcrux/svg/SvgPackage$12;->get()Lcom/facebook/react/bridge/NativeModule; <",
+                "> Lcom/horcrux/svg/SvgPackage$12;->get()Ljava/lang/Object; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagersMap(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/Map; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagers(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/List; <",
+                "> Lcom/facebook/react/PackageList;->getPackages()Ljava/util/ArrayList; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication$reactNativeHost$1;->getPackages()Ljava/util/List; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_17": {
+            "call_sequence": [
+                "> Lcom/horcrux/svg/VirtualView;->getCanvasHeight()F <",
+                "> Lcom/horcrux/svg/VirtualView;->relativeOnHeight(Lcom/horcrux/svg/SVGLength;)D <",
+                "> Lcom/horcrux/svg/RenderableView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/ImageView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Lcom/horcrux/svg/VirtualView; <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Landroid/view/View; <",
+                "> Lcom/horcrux/svg/RenderableViewManager$RadialGradientManager;-><init>()V <",
+                "> Lcom/horcrux/svg/SvgPackage$16;->get()Lcom/facebook/react/bridge/NativeModule; <",
+                "> Lcom/horcrux/svg/SvgPackage$16;->get()Ljava/lang/Object; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagersMap(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/Map; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagers(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/List; <",
+                "> Lcom/facebook/react/PackageList;->getPackages()Ljava/util/ArrayList; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication$reactNativeHost$1;->getPackages()Ljava/util/List; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_18": {
+            "call_sequence": [
+                "> Lcom/horcrux/svg/VirtualView;->getCanvasHeight()F <",
+                "> Lcom/horcrux/svg/VirtualView;->relativeOnHeight(Lcom/horcrux/svg/SVGLength;)D <",
+                "> Lcom/horcrux/svg/RenderableView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/UseView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Lcom/horcrux/svg/VirtualView; <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Landroid/view/View; <",
+                "> Lcom/horcrux/svg/RenderableViewManager$RadialGradientManager;-><init>()V <",
+                "> Lcom/horcrux/svg/SvgPackage$16;->get()Lcom/facebook/react/bridge/NativeModule; <",
+                "> Lcom/horcrux/svg/SvgPackage$16;->get()Ljava/lang/Object; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagersMap(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/Map; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagers(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/List; <",
+                "> Lcom/facebook/react/PackageList;->getPackages()Ljava/util/ArrayList; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication$reactNativeHost$1;->getPackages()Ljava/util/List; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_19": {
+            "call_sequence": [
+                "> Lcom/horcrux/svg/VirtualView;->getCanvasHeight()F <",
+                "> Lcom/horcrux/svg/VirtualView;->relativeOnHeight(Lcom/horcrux/svg/SVGLength;)D <",
+                "> Lcom/horcrux/svg/RenderableView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/GroupView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Lcom/horcrux/svg/VirtualView; <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Landroid/view/View; <",
+                "> Lcom/horcrux/svg/RenderableViewManager$RadialGradientManager;-><init>()V <",
+                "> Lcom/horcrux/svg/SvgPackage$16;->get()Lcom/facebook/react/bridge/NativeModule; <",
+                "> Lcom/horcrux/svg/SvgPackage$16;->get()Ljava/lang/Object; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagersMap(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/Map; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagers(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/List; <",
+                "> Lcom/facebook/react/PackageList;->getPackages()Ljava/util/ArrayList; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication$reactNativeHost$1;->getPackages()Ljava/util/List; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_20": {
+            "call_sequence": [
+                "> Lcom/horcrux/svg/VirtualView;->getCanvasHeight()F <",
+                "> Lcom/horcrux/svg/VirtualView;->relativeOnHeight(Lcom/horcrux/svg/SVGLength;)D <",
+                "> Lcom/horcrux/svg/RenderableView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/CircleView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Lcom/horcrux/svg/VirtualView; <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Landroid/view/View; <",
+                "> Lcom/horcrux/svg/RenderableViewManager$RadialGradientManager;-><init>()V <",
+                "> Lcom/horcrux/svg/SvgPackage$16;->get()Lcom/facebook/react/bridge/NativeModule; <",
+                "> Lcom/horcrux/svg/SvgPackage$16;->get()Ljava/lang/Object; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagersMap(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/Map; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagers(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/List; <",
+                "> Lcom/facebook/react/PackageList;->getPackages()Ljava/util/ArrayList; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication$reactNativeHost$1;->getPackages()Ljava/util/List; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_21": {
+            "call_sequence": [
+                "> Lcom/horcrux/svg/VirtualView;->getCanvasHeight()F <",
+                "> Lcom/horcrux/svg/VirtualView;->relativeOnHeight(Lcom/horcrux/svg/SVGLength;)D <",
+                "> Lcom/horcrux/svg/DefinitionView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/RadialGradientView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Lcom/horcrux/svg/VirtualView; <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Landroid/view/View; <",
+                "> Lcom/horcrux/svg/RenderableViewManager$RadialGradientManager;-><init>()V <",
+                "> Lcom/horcrux/svg/SvgPackage$16;->get()Lcom/facebook/react/bridge/NativeModule; <",
+                "> Lcom/horcrux/svg/SvgPackage$16;->get()Ljava/lang/Object; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagersMap(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/Map; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagers(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/List; <",
+                "> Lcom/facebook/react/PackageList;->getPackages()Ljava/util/ArrayList; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication$reactNativeHost$1;->getPackages()Ljava/util/List; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_22": {
+            "call_sequence": [
+                "> Lcom/horcrux/svg/VirtualView;->getCanvasHeight()F <",
+                "> Lcom/horcrux/svg/VirtualView;->relativeOnHeight(Lcom/horcrux/svg/SVGLength;)D <",
+                "> Lcom/horcrux/svg/DefinitionView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/DefsView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Lcom/horcrux/svg/VirtualView; <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Landroid/view/View; <",
+                "> Lcom/horcrux/svg/RenderableViewManager$RadialGradientManager;-><init>()V <",
+                "> Lcom/horcrux/svg/SvgPackage$16;->get()Lcom/facebook/react/bridge/NativeModule; <",
+                "> Lcom/horcrux/svg/SvgPackage$16;->get()Ljava/lang/Object; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagersMap(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/Map; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagers(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/List; <",
+                "> Lcom/facebook/react/PackageList;->getPackages()Ljava/util/ArrayList; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication$reactNativeHost$1;->getPackages()Ljava/util/List; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_23": {
+            "call_sequence": [
+                "> Lcom/horcrux/svg/VirtualView;->getCanvasHeight()F <",
+                "> Lcom/horcrux/svg/VirtualView;->relativeOnHeight(Lcom/horcrux/svg/SVGLength;)D <",
+                "> Lcom/horcrux/svg/RenderableView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/EllipseView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Lcom/horcrux/svg/VirtualView; <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Landroid/view/View; <",
+                "> Lcom/horcrux/svg/RenderableViewManager$LinearGradientManager;-><init>()V <",
+                "> Lcom/horcrux/svg/SvgPackage$15;->get()Lcom/facebook/react/bridge/NativeModule; <",
+                "> Lcom/horcrux/svg/SvgPackage$15;->get()Ljava/lang/Object; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagersMap(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/Map; <",
+                "> Lcom/horcrux/svg/SvgPackage;->createViewManager(Lcom/facebook/react/bridge/ReactApplicationContext;Ljava/lang/String;)Lcom/facebook/react/uimanager/ViewManager; <",
+                "> Lcom/facebook/react/PackageList;->getPackages()Ljava/util/ArrayList; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication$reactNativeHost$1;->getPackages()Ljava/util/List; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_24": {
+            "call_sequence": [
+                "> Lcom/horcrux/svg/VirtualView;->getCanvasHeight()F <",
+                "> Lcom/horcrux/svg/VirtualView;->relativeOnHeight(Lcom/horcrux/svg/SVGLength;)D <",
+                "> Lcom/horcrux/svg/RenderableView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/PathView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Lcom/horcrux/svg/VirtualView; <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Landroid/view/View; <",
+                "> Lcom/horcrux/svg/RenderableViewManager$LinearGradientManager;-><init>()V <",
+                "> Lcom/horcrux/svg/SvgPackage$15;->get()Lcom/facebook/react/bridge/NativeModule; <",
+                "> Lcom/horcrux/svg/SvgPackage$15;->get()Ljava/lang/Object; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagersMap(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/Map; <",
+                "> Lcom/horcrux/svg/SvgPackage;->createViewManager(Lcom/facebook/react/bridge/ReactApplicationContext;Ljava/lang/String;)Lcom/facebook/react/uimanager/ViewManager; <",
+                "> Lcom/facebook/react/PackageList;->getPackages()Ljava/util/ArrayList; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication$reactNativeHost$1;->getPackages()Ljava/util/List; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_25": {
+            "call_sequence": [
+                "> Lcom/horcrux/svg/VirtualView;->getCanvasHeight()F <",
+                "> Lcom/horcrux/svg/VirtualView;->relativeOnHeight(Lcom/horcrux/svg/SVGLength;)D <",
+                "> Lcom/horcrux/svg/RenderableView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/RectView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Lcom/horcrux/svg/VirtualView; <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Landroid/view/View; <",
+                "> Lcom/horcrux/svg/RenderableViewManager$LinearGradientManager;-><init>()V <",
+                "> Lcom/horcrux/svg/SvgPackage$15;->get()Lcom/facebook/react/bridge/NativeModule; <",
+                "> Lcom/horcrux/svg/SvgPackage$15;->get()Ljava/lang/Object; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagersMap(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/Map; <",
+                "> Lcom/horcrux/svg/SvgPackage;->createViewManager(Lcom/facebook/react/bridge/ReactApplicationContext;Ljava/lang/String;)Lcom/facebook/react/uimanager/ViewManager; <",
+                "> Lcom/facebook/react/PackageList;->getPackages()Ljava/util/ArrayList; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication$reactNativeHost$1;->getPackages()Ljava/util/List; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_26": {
+            "call_sequence": [
+                "> Lcom/horcrux/svg/VirtualView;->getCanvasHeight()F <",
+                "> Lcom/horcrux/svg/VirtualView;->relativeOnHeight(Lcom/horcrux/svg/SVGLength;)D <",
+                "> Lcom/horcrux/svg/RenderableView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/LineView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Lcom/horcrux/svg/VirtualView; <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Landroid/view/View; <",
+                "> Lcom/horcrux/svg/RenderableViewManager$LinearGradientManager;-><init>()V <",
+                "> Lcom/horcrux/svg/SvgPackage$15;->get()Lcom/facebook/react/bridge/NativeModule; <",
+                "> Lcom/horcrux/svg/SvgPackage$15;->get()Ljava/lang/Object; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagersMap(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/Map; <",
+                "> Lcom/horcrux/svg/SvgPackage;->createViewManager(Lcom/facebook/react/bridge/ReactApplicationContext;Ljava/lang/String;)Lcom/facebook/react/uimanager/ViewManager; <",
+                "> Lcom/facebook/react/PackageList;->getPackages()Ljava/util/ArrayList; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication$reactNativeHost$1;->getPackages()Ljava/util/List; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_27": {
+            "call_sequence": [
+                "> Lcom/horcrux/svg/VirtualView;->getCanvasHeight()F <",
+                "> Lcom/horcrux/svg/VirtualView;->relativeOnHeight(Lcom/horcrux/svg/SVGLength;)D <",
+                "> Lcom/horcrux/svg/DefinitionView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/LinearGradientView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Lcom/horcrux/svg/VirtualView; <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Landroid/view/View; <",
+                "> Lcom/horcrux/svg/RenderableViewManager$LinearGradientManager;-><init>()V <",
+                "> Lcom/horcrux/svg/SvgPackage$15;->get()Lcom/facebook/react/bridge/NativeModule; <",
+                "> Lcom/horcrux/svg/SvgPackage$15;->get()Ljava/lang/Object; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagersMap(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/Map; <",
+                "> Lcom/horcrux/svg/SvgPackage;->createViewManager(Lcom/facebook/react/bridge/ReactApplicationContext;Ljava/lang/String;)Lcom/facebook/react/uimanager/ViewManager; <",
+                "> Lcom/facebook/react/PackageList;->getPackages()Ljava/util/ArrayList; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication$reactNativeHost$1;->getPackages()Ljava/util/List; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_28": {
+            "call_sequence": [
+                "> Lcom/horcrux/svg/VirtualView;->getCanvasHeight()F <",
+                "> Lcom/horcrux/svg/VirtualView;->relativeOnHeight(Lcom/horcrux/svg/SVGLength;)D <",
+                "> Lcom/horcrux/svg/RenderableView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/ImageView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Lcom/horcrux/svg/VirtualView; <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Landroid/view/View; <",
+                "> Lcom/horcrux/svg/RenderableViewManager$DefsViewManager;-><init>()V <",
+                "> Lcom/horcrux/svg/SvgPackage$12;->get()Lcom/facebook/react/bridge/NativeModule; <",
+                "> Lcom/horcrux/svg/SvgPackage$12;->get()Ljava/lang/Object; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagersMap(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/Map; <",
+                "> Lcom/horcrux/svg/SvgPackage;->createViewManager(Lcom/facebook/react/bridge/ReactApplicationContext;Ljava/lang/String;)Lcom/facebook/react/uimanager/ViewManager; <",
+                "> Lcom/facebook/react/PackageList;->getPackages()Ljava/util/ArrayList; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication$reactNativeHost$1;->getPackages()Ljava/util/List; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_29": {
+            "call_sequence": [
+                "> Lcom/horcrux/svg/VirtualView;->getCanvasHeight()F <",
+                "> Lcom/horcrux/svg/VirtualView;->relativeOnHeight(Lcom/horcrux/svg/SVGLength;)D <",
+                "> Lcom/horcrux/svg/RenderableView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/UseView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Lcom/horcrux/svg/VirtualView; <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Landroid/view/View; <",
+                "> Lcom/horcrux/svg/RenderableViewManager$DefsViewManager;-><init>()V <",
+                "> Lcom/horcrux/svg/SvgPackage$12;->get()Lcom/facebook/react/bridge/NativeModule; <",
+                "> Lcom/horcrux/svg/SvgPackage$12;->get()Ljava/lang/Object; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagersMap(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/Map; <",
+                "> Lcom/horcrux/svg/SvgPackage;->createViewManager(Lcom/facebook/react/bridge/ReactApplicationContext;Ljava/lang/String;)Lcom/facebook/react/uimanager/ViewManager; <",
+                "> Lcom/facebook/react/PackageList;->getPackages()Ljava/util/ArrayList; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication$reactNativeHost$1;->getPackages()Ljava/util/List; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_30": {
+            "call_sequence": [
+                "> Lcom/horcrux/svg/VirtualView;->getCanvasHeight()F <",
+                "> Lcom/horcrux/svg/VirtualView;->relativeOnHeight(Lcom/horcrux/svg/SVGLength;)D <",
+                "> Lcom/horcrux/svg/RenderableView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/GroupView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Lcom/horcrux/svg/VirtualView; <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Landroid/view/View; <",
+                "> Lcom/horcrux/svg/RenderableViewManager$DefsViewManager;-><init>()V <",
+                "> Lcom/horcrux/svg/SvgPackage$12;->get()Lcom/facebook/react/bridge/NativeModule; <",
+                "> Lcom/horcrux/svg/SvgPackage$12;->get()Ljava/lang/Object; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagersMap(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/Map; <",
+                "> Lcom/horcrux/svg/SvgPackage;->createViewManager(Lcom/facebook/react/bridge/ReactApplicationContext;Ljava/lang/String;)Lcom/facebook/react/uimanager/ViewManager; <",
+                "> Lcom/facebook/react/PackageList;->getPackages()Ljava/util/ArrayList; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication$reactNativeHost$1;->getPackages()Ljava/util/List; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_31": {
+            "call_sequence": [
+                "> Lcom/horcrux/svg/VirtualView;->getCanvasHeight()F <",
+                "> Lcom/horcrux/svg/VirtualView;->relativeOnHeight(Lcom/horcrux/svg/SVGLength;)D <",
+                "> Lcom/horcrux/svg/RenderableView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/CircleView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Lcom/horcrux/svg/VirtualView; <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Landroid/view/View; <",
+                "> Lcom/horcrux/svg/RenderableViewManager$DefsViewManager;-><init>()V <",
+                "> Lcom/horcrux/svg/SvgPackage$12;->get()Lcom/facebook/react/bridge/NativeModule; <",
+                "> Lcom/horcrux/svg/SvgPackage$12;->get()Ljava/lang/Object; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagersMap(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/Map; <",
+                "> Lcom/horcrux/svg/SvgPackage;->createViewManager(Lcom/facebook/react/bridge/ReactApplicationContext;Ljava/lang/String;)Lcom/facebook/react/uimanager/ViewManager; <",
+                "> Lcom/facebook/react/PackageList;->getPackages()Ljava/util/ArrayList; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication$reactNativeHost$1;->getPackages()Ljava/util/List; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_32": {
+            "call_sequence": [
+                "> Lcom/horcrux/svg/VirtualView;->getCanvasHeight()F <",
+                "> Lcom/horcrux/svg/VirtualView;->relativeOnHeight(Lcom/horcrux/svg/SVGLength;)D <",
+                "> Lcom/horcrux/svg/DefinitionView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/RadialGradientView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Lcom/horcrux/svg/VirtualView; <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Landroid/view/View; <",
+                "> Lcom/horcrux/svg/RenderableViewManager$DefsViewManager;-><init>()V <",
+                "> Lcom/horcrux/svg/SvgPackage$12;->get()Lcom/facebook/react/bridge/NativeModule; <",
+                "> Lcom/horcrux/svg/SvgPackage$12;->get()Ljava/lang/Object; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagersMap(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/Map; <",
+                "> Lcom/horcrux/svg/SvgPackage;->createViewManager(Lcom/facebook/react/bridge/ReactApplicationContext;Ljava/lang/String;)Lcom/facebook/react/uimanager/ViewManager; <",
+                "> Lcom/facebook/react/PackageList;->getPackages()Ljava/util/ArrayList; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication$reactNativeHost$1;->getPackages()Ljava/util/List; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_33": {
+            "call_sequence": [
+                "> Lcom/horcrux/svg/VirtualView;->getCanvasHeight()F <",
+                "> Lcom/horcrux/svg/VirtualView;->relativeOnHeight(Lcom/horcrux/svg/SVGLength;)D <",
+                "> Lcom/horcrux/svg/DefinitionView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/DefsView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Lcom/horcrux/svg/VirtualView; <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Landroid/view/View; <",
+                "> Lcom/horcrux/svg/RenderableViewManager$DefsViewManager;-><init>()V <",
+                "> Lcom/horcrux/svg/SvgPackage$12;->get()Lcom/facebook/react/bridge/NativeModule; <",
+                "> Lcom/horcrux/svg/SvgPackage$12;->get()Ljava/lang/Object; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagersMap(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/Map; <",
+                "> Lcom/horcrux/svg/SvgPackage;->createViewManager(Lcom/facebook/react/bridge/ReactApplicationContext;Ljava/lang/String;)Lcom/facebook/react/uimanager/ViewManager; <",
+                "> Lcom/facebook/react/PackageList;->getPackages()Ljava/util/ArrayList; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication$reactNativeHost$1;->getPackages()Ljava/util/List; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_34": {
+            "call_sequence": [
+                "> Lcom/horcrux/svg/VirtualView;->getCanvasHeight()F <",
+                "> Lcom/horcrux/svg/VirtualView;->relativeOnHeight(Lcom/horcrux/svg/SVGLength;)D <",
+                "> Lcom/horcrux/svg/RenderableView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/EllipseView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Lcom/horcrux/svg/VirtualView; <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Landroid/view/View; <",
+                "> Lcom/horcrux/svg/RenderableViewManager$RadialGradientManager;-><init>()V <",
+                "> Lcom/horcrux/svg/SvgPackage$16;->get()Lcom/facebook/react/bridge/NativeModule; <",
+                "> Lcom/horcrux/svg/SvgPackage$16;->get()Ljava/lang/Object; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagersMap(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/Map; <",
+                "> Lcom/horcrux/svg/SvgPackage;->createViewManager(Lcom/facebook/react/bridge/ReactApplicationContext;Ljava/lang/String;)Lcom/facebook/react/uimanager/ViewManager; <",
+                "> Lcom/facebook/react/PackageList;->getPackages()Ljava/util/ArrayList; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication$reactNativeHost$1;->getPackages()Ljava/util/List; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_35": {
+            "call_sequence": [
+                "> Lcom/horcrux/svg/VirtualView;->getCanvasHeight()F <",
+                "> Lcom/horcrux/svg/VirtualView;->relativeOnHeight(Lcom/horcrux/svg/SVGLength;)D <",
+                "> Lcom/horcrux/svg/RenderableView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/PathView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Lcom/horcrux/svg/VirtualView; <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Landroid/view/View; <",
+                "> Lcom/horcrux/svg/RenderableViewManager$RadialGradientManager;-><init>()V <",
+                "> Lcom/horcrux/svg/SvgPackage$16;->get()Lcom/facebook/react/bridge/NativeModule; <",
+                "> Lcom/horcrux/svg/SvgPackage$16;->get()Ljava/lang/Object; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagersMap(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/Map; <",
+                "> Lcom/horcrux/svg/SvgPackage;->createViewManager(Lcom/facebook/react/bridge/ReactApplicationContext;Ljava/lang/String;)Lcom/facebook/react/uimanager/ViewManager; <",
+                "> Lcom/facebook/react/PackageList;->getPackages()Ljava/util/ArrayList; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication$reactNativeHost$1;->getPackages()Ljava/util/List; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_36": {
+            "call_sequence": [
+                "> Lcom/horcrux/svg/VirtualView;->getCanvasHeight()F <",
+                "> Lcom/horcrux/svg/VirtualView;->relativeOnHeight(Lcom/horcrux/svg/SVGLength;)D <",
+                "> Lcom/horcrux/svg/RenderableView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/RectView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Lcom/horcrux/svg/VirtualView; <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Landroid/view/View; <",
+                "> Lcom/horcrux/svg/RenderableViewManager$RadialGradientManager;-><init>()V <",
+                "> Lcom/horcrux/svg/SvgPackage$16;->get()Lcom/facebook/react/bridge/NativeModule; <",
+                "> Lcom/horcrux/svg/SvgPackage$16;->get()Ljava/lang/Object; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagersMap(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/Map; <",
+                "> Lcom/horcrux/svg/SvgPackage;->createViewManager(Lcom/facebook/react/bridge/ReactApplicationContext;Ljava/lang/String;)Lcom/facebook/react/uimanager/ViewManager; <",
+                "> Lcom/facebook/react/PackageList;->getPackages()Ljava/util/ArrayList; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication$reactNativeHost$1;->getPackages()Ljava/util/List; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_37": {
+            "call_sequence": [
+                "> Lcom/horcrux/svg/VirtualView;->getCanvasHeight()F <",
+                "> Lcom/horcrux/svg/VirtualView;->relativeOnHeight(Lcom/horcrux/svg/SVGLength;)D <",
+                "> Lcom/horcrux/svg/RenderableView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/LineView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Lcom/horcrux/svg/VirtualView; <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Landroid/view/View; <",
+                "> Lcom/horcrux/svg/RenderableViewManager$RadialGradientManager;-><init>()V <",
+                "> Lcom/horcrux/svg/SvgPackage$16;->get()Lcom/facebook/react/bridge/NativeModule; <",
+                "> Lcom/horcrux/svg/SvgPackage$16;->get()Ljava/lang/Object; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagersMap(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/Map; <",
+                "> Lcom/horcrux/svg/SvgPackage;->createViewManager(Lcom/facebook/react/bridge/ReactApplicationContext;Ljava/lang/String;)Lcom/facebook/react/uimanager/ViewManager; <",
+                "> Lcom/facebook/react/PackageList;->getPackages()Ljava/util/ArrayList; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication$reactNativeHost$1;->getPackages()Ljava/util/List; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_38": {
+            "call_sequence": [
+                "> Lcom/horcrux/svg/VirtualView;->getCanvasHeight()F <",
+                "> Lcom/horcrux/svg/VirtualView;->relativeOnHeight(Lcom/horcrux/svg/SVGLength;)D <",
+                "> Lcom/horcrux/svg/DefinitionView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/LinearGradientView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Lcom/horcrux/svg/VirtualView; <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Landroid/view/View; <",
+                "> Lcom/horcrux/svg/RenderableViewManager$RadialGradientManager;-><init>()V <",
+                "> Lcom/horcrux/svg/SvgPackage$16;->get()Lcom/facebook/react/bridge/NativeModule; <",
+                "> Lcom/horcrux/svg/SvgPackage$16;->get()Ljava/lang/Object; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagersMap(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/Map; <",
+                "> Lcom/horcrux/svg/SvgPackage;->createViewManager(Lcom/facebook/react/bridge/ReactApplicationContext;Ljava/lang/String;)Lcom/facebook/react/uimanager/ViewManager; <",
+                "> Lcom/facebook/react/PackageList;->getPackages()Ljava/util/ArrayList; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication$reactNativeHost$1;->getPackages()Ljava/util/List; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_39": {
+            "call_sequence": [
+                "> Lcom/horcrux/svg/VirtualView;->getCanvasWidth()F <",
+                "> Lcom/horcrux/svg/VirtualView;->relativeOnWidth(Lcom/horcrux/svg/SVGLength;)D <",
+                "> Lcom/horcrux/svg/RenderableView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/ImageView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Lcom/horcrux/svg/VirtualView; <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Landroid/view/View; <",
+                "> Lcom/horcrux/svg/RenderableViewManager$LinearGradientManager;-><init>()V <",
+                "> Lcom/horcrux/svg/SvgPackage$15;->get()Lcom/facebook/react/bridge/NativeModule; <",
+                "> Lcom/horcrux/svg/SvgPackage$15;->get()Ljava/lang/Object; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagersMap(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/Map; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagers(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/List; <",
+                "> Lcom/facebook/react/PackageList;->getPackages()Ljava/util/ArrayList; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication$reactNativeHost$1;->getPackages()Ljava/util/List; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_40": {
+            "call_sequence": [
+                "> Lcom/horcrux/svg/VirtualView;->getCanvasWidth()F <",
+                "> Lcom/horcrux/svg/VirtualView;->relativeOnWidth(Lcom/horcrux/svg/SVGLength;)D <",
+                "> Lcom/horcrux/svg/RenderableView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/UseView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Lcom/horcrux/svg/VirtualView; <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Landroid/view/View; <",
+                "> Lcom/horcrux/svg/RenderableViewManager$LinearGradientManager;-><init>()V <",
+                "> Lcom/horcrux/svg/SvgPackage$15;->get()Lcom/facebook/react/bridge/NativeModule; <",
+                "> Lcom/horcrux/svg/SvgPackage$15;->get()Ljava/lang/Object; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagersMap(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/Map; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagers(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/List; <",
+                "> Lcom/facebook/react/PackageList;->getPackages()Ljava/util/ArrayList; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication$reactNativeHost$1;->getPackages()Ljava/util/List; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_41": {
+            "call_sequence": [
+                "> Lcom/horcrux/svg/VirtualView;->getCanvasWidth()F <",
+                "> Lcom/horcrux/svg/VirtualView;->relativeOnWidth(Lcom/horcrux/svg/SVGLength;)D <",
+                "> Lcom/horcrux/svg/RenderableView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/GroupView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Lcom/horcrux/svg/VirtualView; <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Landroid/view/View; <",
+                "> Lcom/horcrux/svg/RenderableViewManager$LinearGradientManager;-><init>()V <",
+                "> Lcom/horcrux/svg/SvgPackage$15;->get()Lcom/facebook/react/bridge/NativeModule; <",
+                "> Lcom/horcrux/svg/SvgPackage$15;->get()Ljava/lang/Object; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagersMap(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/Map; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagers(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/List; <",
+                "> Lcom/facebook/react/PackageList;->getPackages()Ljava/util/ArrayList; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication$reactNativeHost$1;->getPackages()Ljava/util/List; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_42": {
+            "call_sequence": [
+                "> Lcom/horcrux/svg/VirtualView;->getCanvasWidth()F <",
+                "> Lcom/horcrux/svg/VirtualView;->relativeOnWidth(Lcom/horcrux/svg/SVGLength;)D <",
+                "> Lcom/horcrux/svg/RenderableView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/CircleView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Lcom/horcrux/svg/VirtualView; <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Landroid/view/View; <",
+                "> Lcom/horcrux/svg/RenderableViewManager$LinearGradientManager;-><init>()V <",
+                "> Lcom/horcrux/svg/SvgPackage$15;->get()Lcom/facebook/react/bridge/NativeModule; <",
+                "> Lcom/horcrux/svg/SvgPackage$15;->get()Ljava/lang/Object; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagersMap(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/Map; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagers(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/List; <",
+                "> Lcom/facebook/react/PackageList;->getPackages()Ljava/util/ArrayList; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication$reactNativeHost$1;->getPackages()Ljava/util/List; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_43": {
+            "call_sequence": [
+                "> Lcom/horcrux/svg/VirtualView;->getCanvasWidth()F <",
+                "> Lcom/horcrux/svg/VirtualView;->relativeOnWidth(Lcom/horcrux/svg/SVGLength;)D <",
+                "> Lcom/horcrux/svg/DefinitionView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/RadialGradientView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Lcom/horcrux/svg/VirtualView; <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Landroid/view/View; <",
+                "> Lcom/horcrux/svg/RenderableViewManager$LinearGradientManager;-><init>()V <",
+                "> Lcom/horcrux/svg/SvgPackage$15;->get()Lcom/facebook/react/bridge/NativeModule; <",
+                "> Lcom/horcrux/svg/SvgPackage$15;->get()Ljava/lang/Object; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagersMap(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/Map; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagers(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/List; <",
+                "> Lcom/facebook/react/PackageList;->getPackages()Ljava/util/ArrayList; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication$reactNativeHost$1;->getPackages()Ljava/util/List; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_44": {
+            "call_sequence": [
+                "> Lcom/horcrux/svg/VirtualView;->getCanvasWidth()F <",
+                "> Lcom/horcrux/svg/VirtualView;->relativeOnWidth(Lcom/horcrux/svg/SVGLength;)D <",
+                "> Lcom/horcrux/svg/DefinitionView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/DefsView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Lcom/horcrux/svg/VirtualView; <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Landroid/view/View; <",
+                "> Lcom/horcrux/svg/RenderableViewManager$LinearGradientManager;-><init>()V <",
+                "> Lcom/horcrux/svg/SvgPackage$15;->get()Lcom/facebook/react/bridge/NativeModule; <",
+                "> Lcom/horcrux/svg/SvgPackage$15;->get()Ljava/lang/Object; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagersMap(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/Map; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagers(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/List; <",
+                "> Lcom/facebook/react/PackageList;->getPackages()Ljava/util/ArrayList; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication$reactNativeHost$1;->getPackages()Ljava/util/List; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_45": {
+            "call_sequence": [
+                "> Lcom/horcrux/svg/VirtualView;->getCanvasWidth()F <",
+                "> Lcom/horcrux/svg/VirtualView;->relativeOnWidth(Lcom/horcrux/svg/SVGLength;)D <",
+                "> Lcom/horcrux/svg/RenderableView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/EllipseView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Lcom/horcrux/svg/VirtualView; <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Landroid/view/View; <",
+                "> Lcom/horcrux/svg/RenderableViewManager$DefsViewManager;-><init>()V <",
+                "> Lcom/horcrux/svg/SvgPackage$12;->get()Lcom/facebook/react/bridge/NativeModule; <",
+                "> Lcom/horcrux/svg/SvgPackage$12;->get()Ljava/lang/Object; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagersMap(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/Map; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagers(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/List; <",
+                "> Lcom/facebook/react/PackageList;->getPackages()Ljava/util/ArrayList; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication$reactNativeHost$1;->getPackages()Ljava/util/List; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_46": {
+            "call_sequence": [
+                "> Lcom/horcrux/svg/VirtualView;->getCanvasWidth()F <",
+                "> Lcom/horcrux/svg/VirtualView;->relativeOnWidth(Lcom/horcrux/svg/SVGLength;)D <",
+                "> Lcom/horcrux/svg/RenderableView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/PathView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Lcom/horcrux/svg/VirtualView; <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Landroid/view/View; <",
+                "> Lcom/horcrux/svg/RenderableViewManager$DefsViewManager;-><init>()V <",
+                "> Lcom/horcrux/svg/SvgPackage$12;->get()Lcom/facebook/react/bridge/NativeModule; <",
+                "> Lcom/horcrux/svg/SvgPackage$12;->get()Ljava/lang/Object; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagersMap(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/Map; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagers(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/List; <",
+                "> Lcom/facebook/react/PackageList;->getPackages()Ljava/util/ArrayList; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication$reactNativeHost$1;->getPackages()Ljava/util/List; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_47": {
+            "call_sequence": [
+                "> Lcom/horcrux/svg/VirtualView;->getCanvasWidth()F <",
+                "> Lcom/horcrux/svg/VirtualView;->relativeOnWidth(Lcom/horcrux/svg/SVGLength;)D <",
+                "> Lcom/horcrux/svg/RenderableView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/RectView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Lcom/horcrux/svg/VirtualView; <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Landroid/view/View; <",
+                "> Lcom/horcrux/svg/RenderableViewManager$DefsViewManager;-><init>()V <",
+                "> Lcom/horcrux/svg/SvgPackage$12;->get()Lcom/facebook/react/bridge/NativeModule; <",
+                "> Lcom/horcrux/svg/SvgPackage$12;->get()Ljava/lang/Object; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagersMap(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/Map; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagers(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/List; <",
+                "> Lcom/facebook/react/PackageList;->getPackages()Ljava/util/ArrayList; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication$reactNativeHost$1;->getPackages()Ljava/util/List; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_48": {
+            "call_sequence": [
+                "> Lcom/horcrux/svg/VirtualView;->getCanvasWidth()F <",
+                "> Lcom/horcrux/svg/VirtualView;->relativeOnWidth(Lcom/horcrux/svg/SVGLength;)D <",
+                "> Lcom/horcrux/svg/RenderableView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/LineView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Lcom/horcrux/svg/VirtualView; <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Landroid/view/View; <",
+                "> Lcom/horcrux/svg/RenderableViewManager$DefsViewManager;-><init>()V <",
+                "> Lcom/horcrux/svg/SvgPackage$12;->get()Lcom/facebook/react/bridge/NativeModule; <",
+                "> Lcom/horcrux/svg/SvgPackage$12;->get()Ljava/lang/Object; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagersMap(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/Map; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagers(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/List; <",
+                "> Lcom/facebook/react/PackageList;->getPackages()Ljava/util/ArrayList; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication$reactNativeHost$1;->getPackages()Ljava/util/List; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_49": {
+            "call_sequence": [
+                "> Lcom/horcrux/svg/VirtualView;->getCanvasWidth()F <",
+                "> Lcom/horcrux/svg/VirtualView;->relativeOnWidth(Lcom/horcrux/svg/SVGLength;)D <",
+                "> Lcom/horcrux/svg/DefinitionView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/LinearGradientView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Lcom/horcrux/svg/VirtualView; <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Landroid/view/View; <",
+                "> Lcom/horcrux/svg/RenderableViewManager$DefsViewManager;-><init>()V <",
+                "> Lcom/horcrux/svg/SvgPackage$12;->get()Lcom/facebook/react/bridge/NativeModule; <",
+                "> Lcom/horcrux/svg/SvgPackage$12;->get()Ljava/lang/Object; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagersMap(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/Map; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagers(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/List; <",
+                "> Lcom/facebook/react/PackageList;->getPackages()Ljava/util/ArrayList; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication$reactNativeHost$1;->getPackages()Ljava/util/List; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_50": {
+            "call_sequence": [
+                "> Lcom/horcrux/svg/VirtualView;->getCanvasWidth()F <",
+                "> Lcom/horcrux/svg/VirtualView;->relativeOnWidth(Lcom/horcrux/svg/SVGLength;)D <",
+                "> Lcom/horcrux/svg/RenderableView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/ImageView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Lcom/horcrux/svg/VirtualView; <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Landroid/view/View; <",
+                "> Lcom/horcrux/svg/RenderableViewManager$RadialGradientManager;-><init>()V <",
+                "> Lcom/horcrux/svg/SvgPackage$16;->get()Lcom/facebook/react/bridge/NativeModule; <",
+                "> Lcom/horcrux/svg/SvgPackage$16;->get()Ljava/lang/Object; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagersMap(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/Map; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagers(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/List; <",
+                "> Lcom/facebook/react/PackageList;->getPackages()Ljava/util/ArrayList; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication$reactNativeHost$1;->getPackages()Ljava/util/List; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_51": {
+            "call_sequence": [
+                "> Lcom/horcrux/svg/VirtualView;->getCanvasWidth()F <",
+                "> Lcom/horcrux/svg/VirtualView;->relativeOnWidth(Lcom/horcrux/svg/SVGLength;)D <",
+                "> Lcom/horcrux/svg/RenderableView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/UseView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Lcom/horcrux/svg/VirtualView; <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Landroid/view/View; <",
+                "> Lcom/horcrux/svg/RenderableViewManager$RadialGradientManager;-><init>()V <",
+                "> Lcom/horcrux/svg/SvgPackage$16;->get()Lcom/facebook/react/bridge/NativeModule; <",
+                "> Lcom/horcrux/svg/SvgPackage$16;->get()Ljava/lang/Object; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagersMap(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/Map; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagers(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/List; <",
+                "> Lcom/facebook/react/PackageList;->getPackages()Ljava/util/ArrayList; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication$reactNativeHost$1;->getPackages()Ljava/util/List; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_52": {
+            "call_sequence": [
+                "> Lcom/horcrux/svg/VirtualView;->getCanvasWidth()F <",
+                "> Lcom/horcrux/svg/VirtualView;->relativeOnWidth(Lcom/horcrux/svg/SVGLength;)D <",
+                "> Lcom/horcrux/svg/RenderableView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/GroupView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Lcom/horcrux/svg/VirtualView; <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Landroid/view/View; <",
+                "> Lcom/horcrux/svg/RenderableViewManager$RadialGradientManager;-><init>()V <",
+                "> Lcom/horcrux/svg/SvgPackage$16;->get()Lcom/facebook/react/bridge/NativeModule; <",
+                "> Lcom/horcrux/svg/SvgPackage$16;->get()Ljava/lang/Object; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagersMap(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/Map; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagers(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/List; <",
+                "> Lcom/facebook/react/PackageList;->getPackages()Ljava/util/ArrayList; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication$reactNativeHost$1;->getPackages()Ljava/util/List; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_53": {
+            "call_sequence": [
+                "> Lcom/horcrux/svg/VirtualView;->getCanvasWidth()F <",
+                "> Lcom/horcrux/svg/VirtualView;->relativeOnWidth(Lcom/horcrux/svg/SVGLength;)D <",
+                "> Lcom/horcrux/svg/RenderableView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/CircleView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Lcom/horcrux/svg/VirtualView; <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Landroid/view/View; <",
+                "> Lcom/horcrux/svg/RenderableViewManager$RadialGradientManager;-><init>()V <",
+                "> Lcom/horcrux/svg/SvgPackage$16;->get()Lcom/facebook/react/bridge/NativeModule; <",
+                "> Lcom/horcrux/svg/SvgPackage$16;->get()Ljava/lang/Object; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagersMap(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/Map; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagers(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/List; <",
+                "> Lcom/facebook/react/PackageList;->getPackages()Ljava/util/ArrayList; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication$reactNativeHost$1;->getPackages()Ljava/util/List; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_54": {
+            "call_sequence": [
+                "> Lcom/horcrux/svg/VirtualView;->getCanvasWidth()F <",
+                "> Lcom/horcrux/svg/VirtualView;->relativeOnWidth(Lcom/horcrux/svg/SVGLength;)D <",
+                "> Lcom/horcrux/svg/DefinitionView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/RadialGradientView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Lcom/horcrux/svg/VirtualView; <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Landroid/view/View; <",
+                "> Lcom/horcrux/svg/RenderableViewManager$RadialGradientManager;-><init>()V <",
+                "> Lcom/horcrux/svg/SvgPackage$16;->get()Lcom/facebook/react/bridge/NativeModule; <",
+                "> Lcom/horcrux/svg/SvgPackage$16;->get()Ljava/lang/Object; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagersMap(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/Map; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagers(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/List; <",
+                "> Lcom/facebook/react/PackageList;->getPackages()Ljava/util/ArrayList; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication$reactNativeHost$1;->getPackages()Ljava/util/List; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_55": {
+            "call_sequence": [
+                "> Lcom/horcrux/svg/VirtualView;->getCanvasWidth()F <",
+                "> Lcom/horcrux/svg/VirtualView;->relativeOnWidth(Lcom/horcrux/svg/SVGLength;)D <",
+                "> Lcom/horcrux/svg/DefinitionView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/DefsView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Lcom/horcrux/svg/VirtualView; <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Landroid/view/View; <",
+                "> Lcom/horcrux/svg/RenderableViewManager$RadialGradientManager;-><init>()V <",
+                "> Lcom/horcrux/svg/SvgPackage$16;->get()Lcom/facebook/react/bridge/NativeModule; <",
+                "> Lcom/horcrux/svg/SvgPackage$16;->get()Ljava/lang/Object; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagersMap(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/Map; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagers(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/List; <",
+                "> Lcom/facebook/react/PackageList;->getPackages()Ljava/util/ArrayList; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication$reactNativeHost$1;->getPackages()Ljava/util/List; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_56": {
+            "call_sequence": [
+                "> Lcom/horcrux/svg/VirtualView;->getCanvasWidth()F <",
+                "> Lcom/horcrux/svg/VirtualView;->relativeOnWidth(Lcom/horcrux/svg/SVGLength;)D <",
+                "> Lcom/horcrux/svg/RenderableView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/EllipseView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Lcom/horcrux/svg/VirtualView; <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Landroid/view/View; <",
+                "> Lcom/horcrux/svg/RenderableViewManager$LinearGradientManager;-><init>()V <",
+                "> Lcom/horcrux/svg/SvgPackage$15;->get()Lcom/facebook/react/bridge/NativeModule; <",
+                "> Lcom/horcrux/svg/SvgPackage$15;->get()Ljava/lang/Object; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagersMap(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/Map; <",
+                "> Lcom/horcrux/svg/SvgPackage;->createViewManager(Lcom/facebook/react/bridge/ReactApplicationContext;Ljava/lang/String;)Lcom/facebook/react/uimanager/ViewManager; <",
+                "> Lcom/facebook/react/PackageList;->getPackages()Ljava/util/ArrayList; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication$reactNativeHost$1;->getPackages()Ljava/util/List; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_57": {
+            "call_sequence": [
+                "> Lcom/horcrux/svg/VirtualView;->getCanvasWidth()F <",
+                "> Lcom/horcrux/svg/VirtualView;->relativeOnWidth(Lcom/horcrux/svg/SVGLength;)D <",
+                "> Lcom/horcrux/svg/RenderableView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/PathView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Lcom/horcrux/svg/VirtualView; <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Landroid/view/View; <",
+                "> Lcom/horcrux/svg/RenderableViewManager$LinearGradientManager;-><init>()V <",
+                "> Lcom/horcrux/svg/SvgPackage$15;->get()Lcom/facebook/react/bridge/NativeModule; <",
+                "> Lcom/horcrux/svg/SvgPackage$15;->get()Ljava/lang/Object; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagersMap(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/Map; <",
+                "> Lcom/horcrux/svg/SvgPackage;->createViewManager(Lcom/facebook/react/bridge/ReactApplicationContext;Ljava/lang/String;)Lcom/facebook/react/uimanager/ViewManager; <",
+                "> Lcom/facebook/react/PackageList;->getPackages()Ljava/util/ArrayList; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication$reactNativeHost$1;->getPackages()Ljava/util/List; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_58": {
+            "call_sequence": [
+                "> Lcom/horcrux/svg/VirtualView;->getCanvasWidth()F <",
+                "> Lcom/horcrux/svg/VirtualView;->relativeOnWidth(Lcom/horcrux/svg/SVGLength;)D <",
+                "> Lcom/horcrux/svg/RenderableView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/RectView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Lcom/horcrux/svg/VirtualView; <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Landroid/view/View; <",
+                "> Lcom/horcrux/svg/RenderableViewManager$LinearGradientManager;-><init>()V <",
+                "> Lcom/horcrux/svg/SvgPackage$15;->get()Lcom/facebook/react/bridge/NativeModule; <",
+                "> Lcom/horcrux/svg/SvgPackage$15;->get()Ljava/lang/Object; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagersMap(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/Map; <",
+                "> Lcom/horcrux/svg/SvgPackage;->createViewManager(Lcom/facebook/react/bridge/ReactApplicationContext;Ljava/lang/String;)Lcom/facebook/react/uimanager/ViewManager; <",
+                "> Lcom/facebook/react/PackageList;->getPackages()Ljava/util/ArrayList; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication$reactNativeHost$1;->getPackages()Ljava/util/List; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_59": {
+            "call_sequence": [
+                "> Lcom/horcrux/svg/VirtualView;->getCanvasWidth()F <",
+                "> Lcom/horcrux/svg/VirtualView;->relativeOnWidth(Lcom/horcrux/svg/SVGLength;)D <",
+                "> Lcom/horcrux/svg/RenderableView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/LineView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Lcom/horcrux/svg/VirtualView; <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Landroid/view/View; <",
+                "> Lcom/horcrux/svg/RenderableViewManager$LinearGradientManager;-><init>()V <",
+                "> Lcom/horcrux/svg/SvgPackage$15;->get()Lcom/facebook/react/bridge/NativeModule; <",
+                "> Lcom/horcrux/svg/SvgPackage$15;->get()Ljava/lang/Object; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagersMap(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/Map; <",
+                "> Lcom/horcrux/svg/SvgPackage;->createViewManager(Lcom/facebook/react/bridge/ReactApplicationContext;Ljava/lang/String;)Lcom/facebook/react/uimanager/ViewManager; <",
+                "> Lcom/facebook/react/PackageList;->getPackages()Ljava/util/ArrayList; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication$reactNativeHost$1;->getPackages()Ljava/util/List; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_60": {
+            "call_sequence": [
+                "> Lcom/horcrux/svg/VirtualView;->getCanvasWidth()F <",
+                "> Lcom/horcrux/svg/VirtualView;->relativeOnWidth(Lcom/horcrux/svg/SVGLength;)D <",
+                "> Lcom/horcrux/svg/DefinitionView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/LinearGradientView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Lcom/horcrux/svg/VirtualView; <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Landroid/view/View; <",
+                "> Lcom/horcrux/svg/RenderableViewManager$LinearGradientManager;-><init>()V <",
+                "> Lcom/horcrux/svg/SvgPackage$15;->get()Lcom/facebook/react/bridge/NativeModule; <",
+                "> Lcom/horcrux/svg/SvgPackage$15;->get()Ljava/lang/Object; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagersMap(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/Map; <",
+                "> Lcom/horcrux/svg/SvgPackage;->createViewManager(Lcom/facebook/react/bridge/ReactApplicationContext;Ljava/lang/String;)Lcom/facebook/react/uimanager/ViewManager; <",
+                "> Lcom/facebook/react/PackageList;->getPackages()Ljava/util/ArrayList; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication$reactNativeHost$1;->getPackages()Ljava/util/List; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_61": {
+            "call_sequence": [
+                "> Lcom/horcrux/svg/VirtualView;->getCanvasWidth()F <",
+                "> Lcom/horcrux/svg/VirtualView;->relativeOnWidth(Lcom/horcrux/svg/SVGLength;)D <",
+                "> Lcom/horcrux/svg/RenderableView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/ImageView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Lcom/horcrux/svg/VirtualView; <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Landroid/view/View; <",
+                "> Lcom/horcrux/svg/RenderableViewManager$DefsViewManager;-><init>()V <",
+                "> Lcom/horcrux/svg/SvgPackage$12;->get()Lcom/facebook/react/bridge/NativeModule; <",
+                "> Lcom/horcrux/svg/SvgPackage$12;->get()Ljava/lang/Object; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagersMap(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/Map; <",
+                "> Lcom/horcrux/svg/SvgPackage;->createViewManager(Lcom/facebook/react/bridge/ReactApplicationContext;Ljava/lang/String;)Lcom/facebook/react/uimanager/ViewManager; <",
+                "> Lcom/facebook/react/PackageList;->getPackages()Ljava/util/ArrayList; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication$reactNativeHost$1;->getPackages()Ljava/util/List; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_62": {
+            "call_sequence": [
+                "> Lcom/horcrux/svg/VirtualView;->getCanvasWidth()F <",
+                "> Lcom/horcrux/svg/VirtualView;->relativeOnWidth(Lcom/horcrux/svg/SVGLength;)D <",
+                "> Lcom/horcrux/svg/RenderableView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/UseView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Lcom/horcrux/svg/VirtualView; <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Landroid/view/View; <",
+                "> Lcom/horcrux/svg/RenderableViewManager$DefsViewManager;-><init>()V <",
+                "> Lcom/horcrux/svg/SvgPackage$12;->get()Lcom/facebook/react/bridge/NativeModule; <",
+                "> Lcom/horcrux/svg/SvgPackage$12;->get()Ljava/lang/Object; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagersMap(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/Map; <",
+                "> Lcom/horcrux/svg/SvgPackage;->createViewManager(Lcom/facebook/react/bridge/ReactApplicationContext;Ljava/lang/String;)Lcom/facebook/react/uimanager/ViewManager; <",
+                "> Lcom/facebook/react/PackageList;->getPackages()Ljava/util/ArrayList; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication$reactNativeHost$1;->getPackages()Ljava/util/List; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_63": {
+            "call_sequence": [
+                "> Lcom/horcrux/svg/VirtualView;->getCanvasWidth()F <",
+                "> Lcom/horcrux/svg/VirtualView;->relativeOnWidth(Lcom/horcrux/svg/SVGLength;)D <",
+                "> Lcom/horcrux/svg/RenderableView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/GroupView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Lcom/horcrux/svg/VirtualView; <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Landroid/view/View; <",
+                "> Lcom/horcrux/svg/RenderableViewManager$DefsViewManager;-><init>()V <",
+                "> Lcom/horcrux/svg/SvgPackage$12;->get()Lcom/facebook/react/bridge/NativeModule; <",
+                "> Lcom/horcrux/svg/SvgPackage$12;->get()Ljava/lang/Object; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagersMap(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/Map; <",
+                "> Lcom/horcrux/svg/SvgPackage;->createViewManager(Lcom/facebook/react/bridge/ReactApplicationContext;Ljava/lang/String;)Lcom/facebook/react/uimanager/ViewManager; <",
+                "> Lcom/facebook/react/PackageList;->getPackages()Ljava/util/ArrayList; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication$reactNativeHost$1;->getPackages()Ljava/util/List; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_64": {
+            "call_sequence": [
+                "> Lcom/horcrux/svg/VirtualView;->getCanvasWidth()F <",
+                "> Lcom/horcrux/svg/VirtualView;->relativeOnWidth(Lcom/horcrux/svg/SVGLength;)D <",
+                "> Lcom/horcrux/svg/RenderableView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/CircleView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Lcom/horcrux/svg/VirtualView; <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Landroid/view/View; <",
+                "> Lcom/horcrux/svg/RenderableViewManager$DefsViewManager;-><init>()V <",
+                "> Lcom/horcrux/svg/SvgPackage$12;->get()Lcom/facebook/react/bridge/NativeModule; <",
+                "> Lcom/horcrux/svg/SvgPackage$12;->get()Ljava/lang/Object; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagersMap(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/Map; <",
+                "> Lcom/horcrux/svg/SvgPackage;->createViewManager(Lcom/facebook/react/bridge/ReactApplicationContext;Ljava/lang/String;)Lcom/facebook/react/uimanager/ViewManager; <",
+                "> Lcom/facebook/react/PackageList;->getPackages()Ljava/util/ArrayList; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication$reactNativeHost$1;->getPackages()Ljava/util/List; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_65": {
+            "call_sequence": [
+                "> Lcom/horcrux/svg/VirtualView;->getCanvasWidth()F <",
+                "> Lcom/horcrux/svg/VirtualView;->relativeOnWidth(Lcom/horcrux/svg/SVGLength;)D <",
+                "> Lcom/horcrux/svg/DefinitionView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/RadialGradientView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Lcom/horcrux/svg/VirtualView; <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Landroid/view/View; <",
+                "> Lcom/horcrux/svg/RenderableViewManager$DefsViewManager;-><init>()V <",
+                "> Lcom/horcrux/svg/SvgPackage$12;->get()Lcom/facebook/react/bridge/NativeModule; <",
+                "> Lcom/horcrux/svg/SvgPackage$12;->get()Ljava/lang/Object; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagersMap(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/Map; <",
+                "> Lcom/horcrux/svg/SvgPackage;->createViewManager(Lcom/facebook/react/bridge/ReactApplicationContext;Ljava/lang/String;)Lcom/facebook/react/uimanager/ViewManager; <",
+                "> Lcom/facebook/react/PackageList;->getPackages()Ljava/util/ArrayList; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication$reactNativeHost$1;->getPackages()Ljava/util/List; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_66": {
+            "call_sequence": [
+                "> Lcom/horcrux/svg/VirtualView;->getCanvasWidth()F <",
+                "> Lcom/horcrux/svg/VirtualView;->relativeOnWidth(Lcom/horcrux/svg/SVGLength;)D <",
+                "> Lcom/horcrux/svg/DefinitionView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/DefsView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Lcom/horcrux/svg/VirtualView; <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Landroid/view/View; <",
+                "> Lcom/horcrux/svg/RenderableViewManager$DefsViewManager;-><init>()V <",
+                "> Lcom/horcrux/svg/SvgPackage$12;->get()Lcom/facebook/react/bridge/NativeModule; <",
+                "> Lcom/horcrux/svg/SvgPackage$12;->get()Ljava/lang/Object; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagersMap(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/Map; <",
+                "> Lcom/horcrux/svg/SvgPackage;->createViewManager(Lcom/facebook/react/bridge/ReactApplicationContext;Ljava/lang/String;)Lcom/facebook/react/uimanager/ViewManager; <",
+                "> Lcom/facebook/react/PackageList;->getPackages()Ljava/util/ArrayList; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication$reactNativeHost$1;->getPackages()Ljava/util/List; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_67": {
+            "call_sequence": [
+                "> Lcom/horcrux/svg/VirtualView;->getCanvasWidth()F <",
+                "> Lcom/horcrux/svg/VirtualView;->relativeOnWidth(Lcom/horcrux/svg/SVGLength;)D <",
+                "> Lcom/horcrux/svg/RenderableView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/EllipseView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Lcom/horcrux/svg/VirtualView; <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Landroid/view/View; <",
+                "> Lcom/horcrux/svg/RenderableViewManager$RadialGradientManager;-><init>()V <",
+                "> Lcom/horcrux/svg/SvgPackage$16;->get()Lcom/facebook/react/bridge/NativeModule; <",
+                "> Lcom/horcrux/svg/SvgPackage$16;->get()Ljava/lang/Object; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagersMap(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/Map; <",
+                "> Lcom/horcrux/svg/SvgPackage;->createViewManager(Lcom/facebook/react/bridge/ReactApplicationContext;Ljava/lang/String;)Lcom/facebook/react/uimanager/ViewManager; <",
+                "> Lcom/facebook/react/PackageList;->getPackages()Ljava/util/ArrayList; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication$reactNativeHost$1;->getPackages()Ljava/util/List; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_68": {
+            "call_sequence": [
+                "> Lcom/horcrux/svg/VirtualView;->getCanvasWidth()F <",
+                "> Lcom/horcrux/svg/VirtualView;->relativeOnWidth(Lcom/horcrux/svg/SVGLength;)D <",
+                "> Lcom/horcrux/svg/RenderableView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/PathView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Lcom/horcrux/svg/VirtualView; <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Landroid/view/View; <",
+                "> Lcom/horcrux/svg/RenderableViewManager$RadialGradientManager;-><init>()V <",
+                "> Lcom/horcrux/svg/SvgPackage$16;->get()Lcom/facebook/react/bridge/NativeModule; <",
+                "> Lcom/horcrux/svg/SvgPackage$16;->get()Ljava/lang/Object; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagersMap(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/Map; <",
+                "> Lcom/horcrux/svg/SvgPackage;->createViewManager(Lcom/facebook/react/bridge/ReactApplicationContext;Ljava/lang/String;)Lcom/facebook/react/uimanager/ViewManager; <",
+                "> Lcom/facebook/react/PackageList;->getPackages()Ljava/util/ArrayList; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication$reactNativeHost$1;->getPackages()Ljava/util/List; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_69": {
+            "call_sequence": [
+                "> Lcom/horcrux/svg/VirtualView;->getCanvasWidth()F <",
+                "> Lcom/horcrux/svg/VirtualView;->relativeOnWidth(Lcom/horcrux/svg/SVGLength;)D <",
+                "> Lcom/horcrux/svg/RenderableView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/RectView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Lcom/horcrux/svg/VirtualView; <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Landroid/view/View; <",
+                "> Lcom/horcrux/svg/RenderableViewManager$RadialGradientManager;-><init>()V <",
+                "> Lcom/horcrux/svg/SvgPackage$16;->get()Lcom/facebook/react/bridge/NativeModule; <",
+                "> Lcom/horcrux/svg/SvgPackage$16;->get()Ljava/lang/Object; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagersMap(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/Map; <",
+                "> Lcom/horcrux/svg/SvgPackage;->createViewManager(Lcom/facebook/react/bridge/ReactApplicationContext;Ljava/lang/String;)Lcom/facebook/react/uimanager/ViewManager; <",
+                "> Lcom/facebook/react/PackageList;->getPackages()Ljava/util/ArrayList; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication$reactNativeHost$1;->getPackages()Ljava/util/List; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_70": {
+            "call_sequence": [
+                "> Lcom/horcrux/svg/VirtualView;->getCanvasWidth()F <",
+                "> Lcom/horcrux/svg/VirtualView;->relativeOnWidth(Lcom/horcrux/svg/SVGLength;)D <",
+                "> Lcom/horcrux/svg/RenderableView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/LineView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Lcom/horcrux/svg/VirtualView; <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Landroid/view/View; <",
+                "> Lcom/horcrux/svg/RenderableViewManager$RadialGradientManager;-><init>()V <",
+                "> Lcom/horcrux/svg/SvgPackage$16;->get()Lcom/facebook/react/bridge/NativeModule; <",
+                "> Lcom/horcrux/svg/SvgPackage$16;->get()Ljava/lang/Object; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagersMap(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/Map; <",
+                "> Lcom/horcrux/svg/SvgPackage;->createViewManager(Lcom/facebook/react/bridge/ReactApplicationContext;Ljava/lang/String;)Lcom/facebook/react/uimanager/ViewManager; <",
+                "> Lcom/facebook/react/PackageList;->getPackages()Ljava/util/ArrayList; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication$reactNativeHost$1;->getPackages()Ljava/util/List; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_71": {
+            "call_sequence": [
+                "> Lcom/horcrux/svg/VirtualView;->getCanvasWidth()F <",
+                "> Lcom/horcrux/svg/VirtualView;->relativeOnWidth(Lcom/horcrux/svg/SVGLength;)D <",
+                "> Lcom/horcrux/svg/DefinitionView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/LinearGradientView;-><init>(Lcom/facebook/react/bridge/ReactContext;)V <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Lcom/horcrux/svg/VirtualView; <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Landroid/view/View; <",
+                "> Lcom/horcrux/svg/RenderableViewManager$RadialGradientManager;-><init>()V <",
+                "> Lcom/horcrux/svg/SvgPackage$16;->get()Lcom/facebook/react/bridge/NativeModule; <",
+                "> Lcom/horcrux/svg/SvgPackage$16;->get()Ljava/lang/Object; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagersMap(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/Map; <",
+                "> Lcom/horcrux/svg/SvgPackage;->createViewManager(Lcom/facebook/react/bridge/ReactApplicationContext;Ljava/lang/String;)Lcom/facebook/react/uimanager/ViewManager; <",
+                "> Lcom/facebook/react/PackageList;->getPackages()Ljava/util/ArrayList; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication$reactNativeHost$1;->getPackages()Ljava/util/List; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_72": {
+            "call_sequence": [
+                "> Lcom/horcrux/svg/PatternView;->saveDefinition()V <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Lcom/horcrux/svg/VirtualView; <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Landroid/view/View; <",
+                "> Lcom/horcrux/svg/RenderableViewManager$LinearGradientManager;-><init>()V <",
+                "> Lcom/horcrux/svg/SvgPackage$15;->get()Lcom/facebook/react/bridge/NativeModule; <",
+                "> Lcom/horcrux/svg/SvgPackage$15;->get()Ljava/lang/Object; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagersMap(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/Map; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagers(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/List; <",
+                "> Lcom/facebook/react/PackageList;->getPackages()Ljava/util/ArrayList; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication$reactNativeHost$1;->getPackages()Ljava/util/List; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_73": {
+            "call_sequence": [
+                "> Lcom/horcrux/svg/PatternView;->saveDefinition()V <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Lcom/horcrux/svg/VirtualView; <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Landroid/view/View; <",
+                "> Lcom/horcrux/svg/RenderableViewManager$RadialGradientManager;-><init>()V <",
+                "> Lcom/horcrux/svg/SvgPackage$16;->get()Lcom/facebook/react/bridge/NativeModule; <",
+                "> Lcom/horcrux/svg/SvgPackage$16;->get()Ljava/lang/Object; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagersMap(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/Map; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagers(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/List; <",
+                "> Lcom/facebook/react/PackageList;->getPackages()Ljava/util/ArrayList; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication$reactNativeHost$1;->getPackages()Ljava/util/List; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_74": {
+            "call_sequence": [
+                "> Lcom/horcrux/svg/PatternView;->saveDefinition()V <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Lcom/horcrux/svg/VirtualView; <",
+                "> Lcom/horcrux/svg/VirtualViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Landroid/view/View; <",
+                "> Lcom/horcrux/svg/RenderableViewManager$DefsViewManager;-><init>()V <",
+                "> Lcom/horcrux/svg/SvgPackage$12;->get()Lcom/facebook/react/bridge/NativeModule; <",
+                "> Lcom/horcrux/svg/SvgPackage$12;->get()Ljava/lang/Object; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagersMap(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/Map; <",
+                "> Lcom/horcrux/svg/SvgPackage;->createViewManager(Lcom/facebook/react/bridge/ReactApplicationContext;Ljava/lang/String;)Lcom/facebook/react/uimanager/ViewManager; <",
+                "> Lcom/facebook/react/PackageList;->getPackages()Ljava/util/ArrayList; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication$reactNativeHost$1;->getPackages()Ljava/util/List; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/facebook/GraphRequest;->serializeToBatch(Lorg/json/JSONArray;Ljava/util/Map;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/facebook/GraphRequest;->serializeToBatch(Lorg/json/JSONArray;Ljava/util/Map;)V <",
+                "> Lcom/facebook/GraphRequest;->access$serializeToBatch(Lcom/facebook/GraphRequest;Lorg/json/JSONArray;Ljava/util/Map;)V <",
+                "> Lcom/facebook/GraphRequest$Companion;->serializeRequestsAsJSON(Lcom/facebook/GraphRequest$Serializer;Ljava/util/Collection;Ljava/util/Map;)V <",
+                "> Lcom/facebook/GraphRequest$Companion;->processRequest(Lcom/facebook/GraphRequestBatch;Lcom/facebook/internal/Logger;ILjava/net/URL;Ljava/io/OutputStream;Z)V <",
+                "> Lcom/facebook/GraphRequest$Companion;->serializeToUrlConnection$facebook_core_release(Lcom/facebook/GraphRequestBatch;Ljava/net/HttpURLConnection;)V <",
+                "> Lcom/facebook/GraphRequest$Companion;->toHttpConnection(Lcom/facebook/GraphRequestBatch;)Ljava/net/HttpURLConnection; <",
+                "> Lcom/facebook/GraphRequest$Companion;->executeBatchAndWait(Lcom/facebook/GraphRequestBatch;)Ljava/util/List; <",
+                "> Lcom/facebook/GraphRequest$Companion;->executeBatchAndWait(Ljava/util/Collection;)Ljava/util/List; <",
+                "> Lcom/facebook/GraphRequest$Companion;->executeBatchAndWait([Lcom/facebook/GraphRequest;)Ljava/util/List; <",
+                "> Lcom/facebook/GraphRequest$Companion;->executeAndWait(Lcom/facebook/GraphRequest;)Lcom/facebook/GraphResponse; <",
+                "> Lcom/facebook/GraphRequest;->executeAndWait()Lcom/facebook/GraphResponse; <",
+                "> Lcom/facebook/UserSettingsManager;->initializeCodelessSetupEnabledAsync$lambda-0(J)V <",
+                "> Lcom/facebook/UserSettingsManager;->$r8$lambda$aplsConLqG69UDRfnzXKr1cLNq4(J)V <",
+                "> Lcom/facebook/UserSettingsManager$$ExternalSyntheticLambda0;->run()V <",
+                "> Lcom/facebook/UserSettingsManager;->initializeCodelessSetupEnabledAsync()V <",
+                "> Lcom/facebook/UserSettingsManager;->initializeIfNotInitialized()V <",
+                "> Lcom/facebook/UserSettingsManager;->getAutoLogAppEventsEnabled()Z <",
+                "> Lcom/facebook/FacebookSdk;->getAutoLogAppEventsEnabled()Z <",
+                "> Lcom/facebook/appevents/InternalAppEventsLogger;->logEventImplicitly(Ljava/lang/String;Landroid/os/Bundle;)V <",
+                "> Lcom/facebook/gamingservices/cloudgaming/internal/SDKLogger;->logSendingSuccessResponse(Ljava/lang/String;)V <",
+                "> Lcom/facebook/gamingservices/cloudgaming/DaemonReceiver;->createSuccessResponse(Lorg/json/JSONObject;Ljava/lang/String;)Lcom/facebook/GraphResponse; <",
+                "> Lcom/facebook/gamingservices/cloudgaming/DaemonReceiver;->processResponse(Lorg/json/JSONObject;Ljava/lang/String;)Lcom/facebook/GraphResponse; <",
+                "> Lcom/facebook/gamingservices/cloudgaming/DaemonReceiver;->access$200(Lorg/json/JSONObject;Ljava/lang/String;)Lcom/facebook/GraphResponse; <",
+                "> Lcom/facebook/gamingservices/cloudgaming/DaemonReceiver$DaemonBroadcastReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.facebook.gamingservices.DAEMON_RESPONSE",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/facebook/GraphRequest;->serializeToBatch(Lorg/json/JSONArray;Ljava/util/Map;)V <",
+                "> Lcom/facebook/GraphRequest;->access$serializeToBatch(Lcom/facebook/GraphRequest;Lorg/json/JSONArray;Ljava/util/Map;)V <",
+                "> Lcom/facebook/GraphRequest$Companion;->serializeRequestsAsJSON(Lcom/facebook/GraphRequest$Serializer;Ljava/util/Collection;Ljava/util/Map;)V <",
+                "> Lcom/facebook/GraphRequest$Companion;->processRequest(Lcom/facebook/GraphRequestBatch;Lcom/facebook/internal/Logger;ILjava/net/URL;Ljava/io/OutputStream;Z)V <",
+                "> Lcom/facebook/GraphRequest$Companion;->serializeToUrlConnection$facebook_core_release(Lcom/facebook/GraphRequestBatch;Ljava/net/HttpURLConnection;)V <",
+                "> Lcom/facebook/GraphRequest$Companion;->toHttpConnection(Lcom/facebook/GraphRequestBatch;)Ljava/net/HttpURLConnection; <",
+                "> Lcom/facebook/GraphRequest$Companion;->executeBatchAndWait(Lcom/facebook/GraphRequestBatch;)Ljava/util/List; <",
+                "> Lcom/facebook/GraphRequest$Companion;->executeBatchAndWait(Ljava/util/Collection;)Ljava/util/List; <",
+                "> Lcom/facebook/GraphRequest$Companion;->executeBatchAndWait([Lcom/facebook/GraphRequest;)Ljava/util/List; <",
+                "> Lcom/facebook/GraphRequest$Companion;->executeAndWait(Lcom/facebook/GraphRequest;)Lcom/facebook/GraphResponse; <",
+                "> Lcom/facebook/GraphRequest;->executeAndWait()Lcom/facebook/GraphResponse; <",
+                "> Lcom/facebook/internal/FetchedAppGateKeepersManager;->getAppGateKeepersQueryResponse(Ljava/lang/String;)Lorg/json/JSONObject; <",
+                "> Lcom/facebook/internal/FetchedAppGateKeepersManager;->loadAppGateKeepersAsync$lambda-0(Ljava/lang/String;Landroid/content/Context;Ljava/lang/String;)V <",
+                "> Lcom/facebook/internal/FetchedAppGateKeepersManager;->$r8$lambda$Tw9JXEbPRzoud2mdIxizp6VF2V0(Ljava/lang/String;Landroid/content/Context;Ljava/lang/String;)V <",
+                "> Lcom/facebook/internal/FetchedAppGateKeepersManager$$ExternalSyntheticLambda0;->run()V <",
+                "> Lcom/facebook/internal/FetchedAppGateKeepersManager;->loadAppGateKeepersAsync(Lcom/facebook/internal/FetchedAppGateKeepersManager$Callback;)V <",
+                "> Lcom/facebook/internal/FeatureManager;->checkFeature(Lcom/facebook/internal/FeatureManager$Feature;Lcom/facebook/internal/FeatureManager$Callback;)V <",
+                "> Lcom/facebook/FacebookException;-><init>(Ljava/lang/String;)V <",
+                "> Lcom/facebook/FacebookSdkNotInitializedException;-><init>(Ljava/lang/String;)V <",
+                "> Lcom/facebook/internal/Validate;->sdkInitialized()V <",
+                "> Lcom/facebook/FacebookSdk;->getApplicationContext()Landroid/content/Context; <",
+                "> Lcom/facebook/AccessTokenManager$Companion;->getInstance()Lcom/facebook/AccessTokenManager; <",
+                "> Lcom/facebook/CurrentAccessTokenExpirationBroadcastReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/facebook/GraphRequest;->executeAndWait()Lcom/facebook/GraphResponse;": {
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/facebook/GraphRequest$Companion;->processRequest(Lcom/facebook/GraphRequestBatch;Lcom/facebook/internal/Logger;ILjava/net/URL;Ljava/io/OutputStream;Z)V <",
+                "> Lcom/facebook/GraphRequest$Companion;->serializeToUrlConnection$facebook_core_release(Lcom/facebook/GraphRequestBatch;Ljava/net/HttpURLConnection;)V <",
+                "> Lcom/facebook/GraphRequest$Companion;->toHttpConnection(Lcom/facebook/GraphRequestBatch;)Ljava/net/HttpURLConnection; <",
+                "> Lcom/facebook/GraphRequest$Companion;->executeBatchAndWait(Lcom/facebook/GraphRequestBatch;)Ljava/util/List; <",
+                "> Lcom/facebook/GraphRequest$Companion;->executeBatchAndWait(Ljava/util/Collection;)Ljava/util/List; <",
+                "> Lcom/facebook/GraphRequest$Companion;->executeBatchAndWait([Lcom/facebook/GraphRequest;)Ljava/util/List; <",
+                "> Lcom/facebook/GraphRequest$Companion;->executeAndWait(Lcom/facebook/GraphRequest;)Lcom/facebook/GraphResponse; <",
+                "> Lcom/facebook/GraphRequest;->executeAndWait()Lcom/facebook/GraphResponse; <",
+                "> Lcom/facebook/UserSettingsManager;->initializeCodelessSetupEnabledAsync$lambda-0(J)V <",
+                "> Lcom/facebook/UserSettingsManager;->$r8$lambda$aplsConLqG69UDRfnzXKr1cLNq4(J)V <",
+                "> Lcom/facebook/UserSettingsManager$$ExternalSyntheticLambda0;->run()V <",
+                "> Lcom/facebook/UserSettingsManager;->initializeCodelessSetupEnabledAsync()V <",
+                "> Lcom/facebook/UserSettingsManager;->initializeIfNotInitialized()V <",
+                "> Lcom/facebook/UserSettingsManager;->getAutoLogAppEventsEnabled()Z <",
+                "> Lcom/facebook/FacebookSdk;->getAutoLogAppEventsEnabled()Z <",
+                "> Lcom/facebook/appevents/InternalAppEventsLogger;->logEventImplicitly(Ljava/lang/String;Landroid/os/Bundle;)V <",
+                "> Lcom/facebook/gamingservices/cloudgaming/internal/SDKLogger;->logSendingSuccessResponse(Ljava/lang/String;)V <",
+                "> Lcom/facebook/gamingservices/cloudgaming/DaemonReceiver;->createSuccessResponse(Lorg/json/JSONObject;Ljava/lang/String;)Lcom/facebook/GraphResponse; <",
+                "> Lcom/facebook/gamingservices/cloudgaming/DaemonReceiver;->processResponse(Lorg/json/JSONObject;Ljava/lang/String;)Lcom/facebook/GraphResponse; <",
+                "> Lcom/facebook/gamingservices/cloudgaming/DaemonReceiver;->access$200(Lorg/json/JSONObject;Ljava/lang/String;)Lcom/facebook/GraphResponse; <",
+                "> Lcom/facebook/gamingservices/cloudgaming/DaemonReceiver$DaemonBroadcastReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.facebook.gamingservices.DAEMON_RESPONSE",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/facebook/GraphRequest$Companion;->processRequest(Lcom/facebook/GraphRequestBatch;Lcom/facebook/internal/Logger;ILjava/net/URL;Ljava/io/OutputStream;Z)V <",
+                "> Lcom/facebook/GraphRequest$Companion;->serializeToUrlConnection$facebook_core_release(Lcom/facebook/GraphRequestBatch;Ljava/net/HttpURLConnection;)V <",
+                "> Lcom/facebook/GraphRequest$Companion;->toHttpConnection(Lcom/facebook/GraphRequestBatch;)Ljava/net/HttpURLConnection; <",
+                "> Lcom/facebook/GraphRequest$Companion;->executeBatchAndWait(Lcom/facebook/GraphRequestBatch;)Ljava/util/List; <",
+                "> Lcom/facebook/GraphRequest$Companion;->executeBatchAndWait(Ljava/util/Collection;)Ljava/util/List; <",
+                "> Lcom/facebook/GraphRequest$Companion;->executeBatchAndWait([Lcom/facebook/GraphRequest;)Ljava/util/List; <",
+                "> Lcom/facebook/GraphRequest$Companion;->executeAndWait(Lcom/facebook/GraphRequest;)Lcom/facebook/GraphResponse; <",
+                "> Lcom/facebook/GraphRequest;->executeAndWait()Lcom/facebook/GraphResponse; <",
+                "> Lcom/facebook/internal/FetchedAppGateKeepersManager;->getAppGateKeepersQueryResponse(Ljava/lang/String;)Lorg/json/JSONObject; <",
+                "> Lcom/facebook/internal/FetchedAppGateKeepersManager;->loadAppGateKeepersAsync$lambda-0(Ljava/lang/String;Landroid/content/Context;Ljava/lang/String;)V <",
+                "> Lcom/facebook/internal/FetchedAppGateKeepersManager;->$r8$lambda$Tw9JXEbPRzoud2mdIxizp6VF2V0(Ljava/lang/String;Landroid/content/Context;Ljava/lang/String;)V <",
+                "> Lcom/facebook/internal/FetchedAppGateKeepersManager$$ExternalSyntheticLambda0;->run()V <",
+                "> Lcom/facebook/internal/FetchedAppGateKeepersManager;->loadAppGateKeepersAsync(Lcom/facebook/internal/FetchedAppGateKeepersManager$Callback;)V <",
+                "> Lcom/facebook/internal/FeatureManager;->checkFeature(Lcom/facebook/internal/FeatureManager$Feature;Lcom/facebook/internal/FeatureManager$Callback;)V <",
+                "> Lcom/facebook/FacebookException;-><init>(Ljava/lang/String;)V <",
+                "> Lcom/facebook/FacebookSdkNotInitializedException;-><init>(Ljava/lang/String;)V <",
+                "> Lcom/facebook/internal/Validate;->sdkInitialized()V <",
+                "> Lcom/facebook/FacebookSdk;->getApplicationContext()Landroid/content/Context; <",
+                "> Lcom/facebook/AccessTokenManager$Companion;->getInstance()Lcom/facebook/AccessTokenManager; <",
+                "> Lcom/facebook/CurrentAccessTokenExpirationBroadcastReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/facebook/drawee/drawable/RoundedDrawable;->updateTransform()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/facebook/drawee/drawable/RoundedBitmapDrawable;->updateTransform()V <",
+                "> Lcom/facebook/drawee/drawable/RoundedBitmapDrawable;->draw(Landroid/graphics/Canvas;)V <",
+                "> Lcom/facebook/drawee/generic/WrappingUtils;->applyLeafRounding(Landroid/graphics/drawable/Drawable;Lcom/facebook/drawee/generic/RoundingParams;Landroid/content/res/Resources;)Landroid/graphics/drawable/Drawable; <",
+                "> Lcom/facebook/drawee/generic/WrappingUtils;->updateLeafRounding(Lcom/facebook/drawee/drawable/DrawableParent;Lcom/facebook/drawee/generic/RoundingParams;Landroid/content/res/Resources;)V <",
+                "> Lcom/facebook/drawee/generic/GenericDraweeHierarchy;->setRoundingParams(Lcom/facebook/drawee/generic/RoundingParams;)V <",
+                "> Lcom/facebook/react/views/image/ReactImageView;->maybeUpdateView()V <",
+                "> Lcom/facebook/react/views/image/ReactImageView;->setControllerListener(Lcom/facebook/drawee/controller/ControllerListener;)V <",
+                "> Lcom/facebook/react/views/image/ReactImageManager;->onAfterUpdateTransaction(Landroid/view/View;)V <",
+                "> Lcom/facebook/react/shell/MainReactPackage;->createViewManagers(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/List; <",
+                "> Lcom/facebook/react/PackageList;->getPackages()Ljava/util/ArrayList; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication$reactNativeHost$1;->getPackages()Ljava/util/List; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/facebook/drawee/drawable/RoundedBitmapDrawable;->updateTransform()V <",
+                "> Lcom/facebook/drawee/drawable/RoundedBitmapDrawable;->draw(Landroid/graphics/Canvas;)V <",
+                "> Lcom/facebook/drawee/generic/WrappingUtils;->applyLeafRounding(Landroid/graphics/drawable/Drawable;Lcom/facebook/drawee/generic/RoundingParams;Landroid/content/res/Resources;)Landroid/graphics/drawable/Drawable; <",
+                "> Lcom/facebook/drawee/generic/WrappingUtils;->updateLeafRounding(Lcom/facebook/drawee/drawable/DrawableParent;Lcom/facebook/drawee/generic/RoundingParams;Landroid/content/res/Resources;)V <",
+                "> Lcom/facebook/drawee/generic/GenericDraweeHierarchy;->setRoundingParams(Lcom/facebook/drawee/generic/RoundingParams;)V <",
+                "> Lcom/facebook/react/views/image/ReactImageView;->maybeUpdateView()V <",
+                "> Lcom/facebook/react/views/image/ReactImageManager;->onAfterUpdateTransaction(Lcom/facebook/react/views/image/ReactImageView;)V <",
+                "> Lcom/facebook/react/views/image/ReactImageManager;->onAfterUpdateTransaction(Landroid/view/View;)V <",
+                "> Lcom/facebook/react/shell/MainReactPackage;->createViewManagers(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/List; <",
+                "> Lcom/facebook/react/PackageList;->getPackages()Ljava/util/ArrayList; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication$reactNativeHost$1;->getPackages()Ljava/util/List; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/swmansion/gesturehandler/react/RNGestureHandlerRootHelper;->tryCancelAllHandlers()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/swmansion/gesturehandler/react/RNGestureHandlerRootHelper;->requestDisallowInterceptTouchEvent()V <",
+                "> Lcom/swmansion/gesturehandler/react/RNGestureHandlerRootView;->requestDisallowInterceptTouchEvent(Z)V <",
+                "> Lcom/swmansion/gesturehandler/react/RNGestureHandlerRootViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Lcom/swmansion/gesturehandler/react/RNGestureHandlerRootView; <",
+                "> Lcom/swmansion/gesturehandler/react/RNGestureHandlerRootViewManager;->createViewInstance(Lcom/facebook/react/uimanager/ThemedReactContext;)Landroid/view/View; <",
+                "> Lcom/swmansion/gesturehandler/RNGestureHandlerPackage;->createViewManagers(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/List; <",
+                "> Lcom/facebook/react/PackageList;->getPackages()Ljava/util/ArrayList; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication$reactNativeHost$1;->getPackages()Ljava/util/List; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/facebook/common/util/UriUtil;->isDataUri(Landroid/net/Uri;)Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/facebook/imagepipeline/request/ImageRequest;->getSourceUriType(Landroid/net/Uri;)I <",
+                "> Lcom/facebook/imagepipeline/request/ImageRequest;-><init>(Lcom/facebook/imagepipeline/request/ImageRequestBuilder;)V <",
+                "> Lcom/facebook/imagepipeline/request/ImageRequestBuilder;->build()Lcom/facebook/imagepipeline/request/ImageRequest; <",
+                "> Ln/o/t/i/f/e/e/n;->a(Ljava/lang/String;)Lcom/google/android/gms/tasks/Task; <",
+                "> Lapp/notifee/core/c;->a(Lapp/notifee/core/model/NotificationAndroidModel;Lcom/google/android/gms/tasks/Task;)Landroidx/core/app/NotificationCompat$Builder; <",
+                "> Lapp/notifee/core/c$$ExternalSyntheticLambda4;->then(Lcom/google/android/gms/tasks/Task;)Ljava/lang/Object; <",
+                "> Lapp/notifee/core/c;->a(Lapp/notifee/core/model/NotificationModel;)Lcom/google/android/gms/tasks/Task; <",
+                "> Lapp/notifee/core/c;->b(Lapp/notifee/core/model/NotificationModel;Landroid/os/Bundle;)Lcom/google/android/gms/tasks/Task; <",
+                "> Lapp/notifee/core/b;->a(Ljava/lang/String;Lcom/google/android/gms/tasks/Task;)Lcom/google/android/gms/tasks/Task; <",
+                "> Lapp/notifee/core/b$$ExternalSyntheticLambda4;->then(Lcom/google/android/gms/tasks/Task;)Ljava/lang/Object; <",
+                "> Lapp/notifee/core/b;->a(Landroid/os/Bundle;)V <",
+                "> Lapp/notifee/core/NotificationAlarmReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.BOOT_COMPLETED",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/facebook/imagepipeline/request/ImageRequest;->getSourceUriType(Landroid/net/Uri;)I <",
+                "> Lcom/facebook/imagepipeline/request/ImageRequest;-><init>(Lcom/facebook/imagepipeline/request/ImageRequestBuilder;)V <",
+                "> Lcom/facebook/imagepipeline/request/ImageRequestBuilder;->build()Lcom/facebook/imagepipeline/request/ImageRequest; <",
+                "> Ln/o/t/i/f/e/e/n;->a(Ljava/lang/String;)Lcom/google/android/gms/tasks/Task; <",
+                "> Lapp/notifee/core/c;->a(Lapp/notifee/core/model/NotificationAndroidModel;Lcom/google/android/gms/tasks/Task;)Landroidx/core/app/NotificationCompat$Builder; <",
+                "> Lapp/notifee/core/c$$ExternalSyntheticLambda4;->then(Lcom/google/android/gms/tasks/Task;)Ljava/lang/Object; <",
+                "> Lapp/notifee/core/c;->a(Lapp/notifee/core/model/NotificationModel;)Lcom/google/android/gms/tasks/Task; <",
+                "> Lapp/notifee/core/c;->b(Lapp/notifee/core/model/NotificationModel;Landroid/os/Bundle;)Lcom/google/android/gms/tasks/Task; <",
+                "> Lapp/notifee/core/b;->a(Ljava/lang/String;Lcom/google/android/gms/tasks/Task;)Lcom/google/android/gms/tasks/Task; <",
+                "> Lapp/notifee/core/b$$ExternalSyntheticLambda4;->then(Lcom/google/android/gms/tasks/Task;)Ljava/lang/Object; <",
+                "> Lapp/notifee/core/b;->a(Landroid/os/Bundle;)V <",
+                "> Lapp/notifee/core/NotificationAlarmReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "> Lapp/notifee/core/b;->a(Ljava/lang/String;)Landroid/app/PendingIntent; <",
+                "> Lapp/notifee/core/b;->a(Lapp/notifee/core/model/NotificationModel;Lapp/notifee/core/model/a;)V <",
+                "> Lapp/notifee/core/b;->d(Lcom/google/android/gms/tasks/Task;)V <",
+                "> Lapp/notifee/core/b;->$r8$lambda$151PIGd68T6XmG3qfUpdhLSxeHA(Lapp/notifee/core/b;Lcom/google/android/gms/tasks/Task;)V <",
+                "> Lapp/notifee/core/b$$ExternalSyntheticLambda1;->onComplete(Lcom/google/android/gms/tasks/Task;)V <",
+                "> Lapp/notifee/core/b;->b()V <",
+                "> Lapp/notifee/core/AlarmPermissionBroadcastReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.app.action.SCHEDULE_EXACT_ALARM_PERMISSION_STATE_CHANGED",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/facebook/imagepipeline/request/ImageRequest;->getSourceUriType(Landroid/net/Uri;)I <",
+                "> Lcom/facebook/imagepipeline/request/ImageRequest;-><init>(Lcom/facebook/imagepipeline/request/ImageRequestBuilder;)V <",
+                "> Lcom/facebook/imagepipeline/request/ImageRequestBuilder;->build()Lcom/facebook/imagepipeline/request/ImageRequest; <",
+                "> Lcom/facebook/react/modules/image/ImageLoaderModule;->prefetchImage(Ljava/lang/String;DLcom/facebook/react/bridge/Promise;)V <",
+                "> Lcom/facebook/react/shell/MainReactPackage;->getModule(Ljava/lang/String;Lcom/facebook/react/bridge/ReactApplicationContext;)Lcom/facebook/react/bridge/NativeModule; <",
+                "> Lcom/facebook/react/PackageList;->getPackages()Ljava/util/ArrayList; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication$reactNativeHost$1;->getPackages()Ljava/util/List; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/facebook/react/views/view/ReactViewManager;->prepareToRecycleView(Lcom/facebook/react/uimanager/ThemedReactContext;Lcom/facebook/react/views/view/ReactViewGroup;)Lcom/facebook/react/views/view/ReactViewGroup;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/facebook/react/views/view/ReactViewManager;->prepareToRecycleView(Lcom/facebook/react/uimanager/ThemedReactContext;Landroid/view/View;)Landroid/view/View; <",
+                "> Lcom/facebook/react/shell/MainReactPackage;->createViewManagers(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/List; <",
+                "> Lcom/facebook/react/PackageList;->getPackages()Ljava/util/ArrayList; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication$reactNativeHost$1;->getPackages()Ljava/util/List; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/horcrux/svg/RadialGradientView;->setGradientUnits(I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/horcrux/svg/RenderableViewManager$RadialGradientManager;->setGradientUnits(Lcom/horcrux/svg/RadialGradientView;I)V <",
+                "> Lcom/horcrux/svg/RenderableViewManager$RadialGradientManager;->setGradientUnits(Landroid/view/View;I)V <",
+                "> Lcom/horcrux/svg/SvgPackage$16;->get()Lcom/facebook/react/bridge/NativeModule; <",
+                "> Lcom/horcrux/svg/SvgPackage$16;->get()Ljava/lang/Object; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagersMap(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/Map; <",
+                "> Lcom/horcrux/svg/SvgPackage;->getViewManagers(Lcom/facebook/react/bridge/ReactApplicationContext;)Ljava/util/List; <",
+                "> Lcom/facebook/react/PackageList;->getPackages()Ljava/util/ArrayList; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication$reactNativeHost$1;->getPackages()Ljava/util/List; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/clevertap/android/sdk/bitmap/BitmapDownloadRequest;->component2()Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/clevertap/android/sdk/bitmap/NotificationBitmapDownloadRequestHandler;->handleRequest(Lcom/clevertap/android/sdk/bitmap/BitmapDownloadRequest;)Lcom/clevertap/android/sdk/network/DownloadedBitmap; <",
+                "> Lcom/clevertap/android/sdk/bitmap/HttpBitmapLoader;->getHttpBitmap(Lcom/clevertap/android/sdk/bitmap/HttpBitmapLoader$HttpBitmapOperation;Lcom/clevertap/android/sdk/bitmap/BitmapDownloadRequest;)Lcom/clevertap/android/sdk/network/DownloadedBitmap; <",
+                "> Lcom/clevertap/android/sdk/Utils;->getNotificationBitmapWithTimeoutAndSize(Ljava/lang/String;ZLandroid/content/Context;Lcom/clevertap/android/sdk/CleverTapInstanceConfig;JI)Lcom/clevertap/android/sdk/network/DownloadedBitmap; <",
+                "> Lcom/clevertap/android/sdk/CleverTapAPI;->getNotificationBitmapWithTimeoutAndSize(Landroid/content/Context;Landroid/os/Bundle;Ljava/lang/String;ZJI)Landroid/graphics/Bitmap; <",
+                "> Lcom/clevertap/android/sdk/CleverTapAPI;->instanceWithConfig(Landroid/content/Context;Lcom/clevertap/android/sdk/CleverTapInstanceConfig;Ljava/lang/String;)Lcom/clevertap/android/sdk/CleverTapAPI; <",
+                "> Lcom/clevertap/android/sdk/CleverTapAPI;->getDefaultInstance(Landroid/content/Context;Ljava/lang/String;)Lcom/clevertap/android/sdk/CleverTapAPI; <",
+                "> Lcom/clevertap/android/sdk/CleverTapAPI;->getDefaultInstance(Landroid/content/Context;)Lcom/clevertap/android/sdk/CleverTapAPI; <",
+                "> Lcom/kashkick/kashkickapp/MainActivity;->onNewIntent(Landroid/content/Intent;)V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/clevertap/android/sdk/CleverTapAPI;->getDefaultInstance(Landroid/content/Context;Ljava/lang/String;)Lcom/clevertap/android/sdk/CleverTapAPI; <",
+                "----- CONDITIONAL -----",
+                "> Lcom/clevertap/android/sdk/CleverTapAPI;->getDefaultInstance(Landroid/content/Context;)Lcom/clevertap/android/sdk/CleverTapAPI; <",
+                "----- CONDITIONAL -----",
+                "> Lcom/kashkick/kashkickapp/MainActivity;->onNewIntent(Landroid/content/Intent;)V <",
+                "----- CONDITIONAL -----"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                "----- CONDITIONAL -----",
+                "----- CONDITIONAL -----",
+                "----- CONDITIONAL -----",
+                "----- CONDITIONAL -----",
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/clevertap/android/sdk/bitmap/NotificationBitmapDownloadRequestHandler;->handleRequest(Lcom/clevertap/android/sdk/bitmap/BitmapDownloadRequest;)Lcom/clevertap/android/sdk/network/DownloadedBitmap; <",
+                "> Lcom/clevertap/android/sdk/bitmap/HttpBitmapLoader;->getHttpBitmap(Lcom/clevertap/android/sdk/bitmap/HttpBitmapLoader$HttpBitmapOperation;Lcom/clevertap/android/sdk/bitmap/BitmapDownloadRequest;)Lcom/clevertap/android/sdk/network/DownloadedBitmap; <",
+                "> Lcom/clevertap/android/sdk/Utils;->getNotificationBitmapWithTimeoutAndSize(Ljava/lang/String;ZLandroid/content/Context;Lcom/clevertap/android/sdk/CleverTapInstanceConfig;JI)Lcom/clevertap/android/sdk/network/DownloadedBitmap; <",
+                "> Lcom/clevertap/android/sdk/CleverTapAPI;->getNotificationBitmapWithTimeoutAndSize(Landroid/content/Context;Landroid/os/Bundle;Ljava/lang/String;ZJI)Landroid/graphics/Bitmap; <",
+                "> Lcom/clevertap/android/sdk/CleverTapAPI;->instanceWithConfig(Landroid/content/Context;Lcom/clevertap/android/sdk/CleverTapInstanceConfig;Ljava/lang/String;)Lcom/clevertap/android/sdk/CleverTapAPI; <",
+                "> Lcom/clevertap/android/sdk/CleverTapAPI;->getDefaultInstance(Landroid/content/Context;Ljava/lang/String;)Lcom/clevertap/android/sdk/CleverTapAPI; <",
+                "> Lcom/clevertap/android/sdk/CleverTapAPI;->getDefaultInstance(Landroid/content/Context;)Lcom/clevertap/android/sdk/CleverTapAPI; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/clevertap/android/sdk/bitmap/NotificationBitmapDownloadRequestHandler;->handleRequest(Lcom/clevertap/android/sdk/bitmap/BitmapDownloadRequest;)Lcom/clevertap/android/sdk/network/DownloadedBitmap; <",
+                "> Lcom/clevertap/android/sdk/bitmap/HttpBitmapLoader;->getHttpBitmap(Lcom/clevertap/android/sdk/bitmap/HttpBitmapLoader$HttpBitmapOperation;Lcom/clevertap/android/sdk/bitmap/BitmapDownloadRequest;)Lcom/clevertap/android/sdk/network/DownloadedBitmap; <",
+                "> Lcom/clevertap/android/sdk/Utils;->getNotificationBitmapWithTimeoutAndSize(Ljava/lang/String;ZLandroid/content/Context;Lcom/clevertap/android/sdk/CleverTapInstanceConfig;JI)Lcom/clevertap/android/sdk/network/DownloadedBitmap; <",
+                "> Lcom/clevertap/android/sdk/CleverTapAPI;->getNotificationBitmapWithTimeoutAndSize(Landroid/content/Context;Landroid/os/Bundle;Ljava/lang/String;ZJI)Landroid/graphics/Bitmap; <",
+                "> Lcom/clevertap/android/sdk/CleverTapAPI;->instanceWithConfig(Landroid/content/Context;Lcom/clevertap/android/sdk/CleverTapInstanceConfig;Ljava/lang/String;)Lcom/clevertap/android/sdk/CleverTapAPI; <",
+                "> Lcom/clevertap/android/sdk/CleverTapAPI;->getDefaultInstance(Landroid/content/Context;Ljava/lang/String;)Lcom/clevertap/android/sdk/CleverTapAPI; <",
+                "> Lcom/clevertap/android/sdk/CleverTapAPI;->getDefaultInstance(Landroid/content/Context;)Lcom/clevertap/android/sdk/CleverTapAPI; <",
+                "> Lcom/clevertap/react/CleverTapApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/clevertap/android/sdk/bitmap/NotificationBitmapDownloadRequestHandler;->handleRequest(Lcom/clevertap/android/sdk/bitmap/BitmapDownloadRequest;)Lcom/clevertap/android/sdk/network/DownloadedBitmap; <",
+                "> Lcom/clevertap/android/sdk/bitmap/HttpBitmapLoader;->getHttpBitmap(Lcom/clevertap/android/sdk/bitmap/HttpBitmapLoader$HttpBitmapOperation;Lcom/clevertap/android/sdk/bitmap/BitmapDownloadRequest;)Lcom/clevertap/android/sdk/network/DownloadedBitmap; <",
+                "> Lcom/clevertap/android/sdk/Utils;->getNotificationBitmapWithTimeoutAndSize(Ljava/lang/String;ZLandroid/content/Context;Lcom/clevertap/android/sdk/CleverTapInstanceConfig;JI)Lcom/clevertap/android/sdk/network/DownloadedBitmap; <",
+                "> Lcom/clevertap/android/sdk/CleverTapAPI;->getNotificationBitmapWithTimeoutAndSize(Landroid/content/Context;Landroid/os/Bundle;Ljava/lang/String;ZJI)Landroid/graphics/Bitmap; <",
+                "> Lcom/clevertap/android/sdk/CleverTapAPI;->instanceWithConfig(Landroid/content/Context;Lcom/clevertap/android/sdk/CleverTapInstanceConfig;Ljava/lang/String;)Lcom/clevertap/android/sdk/CleverTapAPI; <",
+                "> Lcom/clevertap/android/sdk/CleverTapAPI;->createInstanceIfAvailable(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Lcom/clevertap/android/sdk/CleverTapAPI; <",
+                "> Lcom/clevertap/android/sdk/CleverTapAPI;->createInstanceIfAvailable(Landroid/content/Context;Ljava/lang/String;)Lcom/clevertap/android/sdk/CleverTapAPI; <",
+                "> Lcom/clevertap/android/sdk/CleverTapAPI;->fromAccountId(Landroid/content/Context;Ljava/lang/String;)Lcom/clevertap/android/sdk/CleverTapAPI; <",
+                "> Lcom/clevertap/android/sdk/CleverTapAPI;->getGlobalInstance(Landroid/content/Context;Ljava/lang/String;)Lcom/clevertap/android/sdk/CleverTapAPI; <",
+                "> Lcom/clevertap/android/sdk/pushnotification/fcm/CTFirebaseMessagingReceiver;->lambda$onReceive$0$com-clevertap-android-sdk-pushnotification-fcm-CTFirebaseMessagingReceiver(Landroid/content/Context;Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.google.android.c2dm.intent.RECEIVE",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lcom/clevertap/android/sdk/bitmap/BitmapDownloadRequestHandlerWithTimeLimit;->handleRequest(Lcom/clevertap/android/sdk/bitmap/BitmapDownloadRequest;)Lcom/clevertap/android/sdk/network/DownloadedBitmap; <",
+                "> Lcom/clevertap/android/sdk/bitmap/HttpBitmapLoader;->getHttpBitmap(Lcom/clevertap/android/sdk/bitmap/HttpBitmapLoader$HttpBitmapOperation;Lcom/clevertap/android/sdk/bitmap/BitmapDownloadRequest;)Lcom/clevertap/android/sdk/network/DownloadedBitmap; <",
+                "> Lcom/clevertap/android/sdk/Utils;->getNotificationBitmapWithTimeoutAndSize(Ljava/lang/String;ZLandroid/content/Context;Lcom/clevertap/android/sdk/CleverTapInstanceConfig;JI)Lcom/clevertap/android/sdk/network/DownloadedBitmap; <",
+                "> Lcom/clevertap/android/sdk/CleverTapAPI;->getNotificationBitmapWithTimeoutAndSize(Landroid/content/Context;Landroid/os/Bundle;Ljava/lang/String;ZJI)Landroid/graphics/Bitmap; <",
+                "> Lcom/clevertap/android/sdk/CleverTapAPI;->instanceWithConfig(Landroid/content/Context;Lcom/clevertap/android/sdk/CleverTapInstanceConfig;Ljava/lang/String;)Lcom/clevertap/android/sdk/CleverTapAPI; <",
+                "> Lcom/clevertap/android/sdk/CleverTapAPI;->getDefaultInstance(Landroid/content/Context;Ljava/lang/String;)Lcom/clevertap/android/sdk/CleverTapAPI; <",
+                "> Lcom/clevertap/android/sdk/CleverTapAPI;->getDefaultInstance(Landroid/content/Context;)Lcom/clevertap/android/sdk/CleverTapAPI; <",
+                "> Lcom/kashkick/kashkickapp/MainActivity;->onNewIntent(Landroid/content/Intent;)V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/clevertap/android/sdk/CleverTapAPI;->getDefaultInstance(Landroid/content/Context;Ljava/lang/String;)Lcom/clevertap/android/sdk/CleverTapAPI; <",
+                "----- CONDITIONAL -----",
+                "> Lcom/clevertap/android/sdk/CleverTapAPI;->getDefaultInstance(Landroid/content/Context;)Lcom/clevertap/android/sdk/CleverTapAPI; <",
+                "----- CONDITIONAL -----",
+                "> Lcom/kashkick/kashkickapp/MainActivity;->onNewIntent(Landroid/content/Intent;)V <",
+                "----- CONDITIONAL -----"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                "----- CONDITIONAL -----",
+                "----- CONDITIONAL -----",
+                "----- CONDITIONAL -----",
+                "----- CONDITIONAL -----",
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_5": {
+            "call_sequence": [
+                "> Lcom/clevertap/android/sdk/bitmap/BitmapDownloadRequestHandlerWithTimeLimit;->handleRequest(Lcom/clevertap/android/sdk/bitmap/BitmapDownloadRequest;)Lcom/clevertap/android/sdk/network/DownloadedBitmap; <",
+                "> Lcom/clevertap/android/sdk/bitmap/HttpBitmapLoader;->getHttpBitmap(Lcom/clevertap/android/sdk/bitmap/HttpBitmapLoader$HttpBitmapOperation;Lcom/clevertap/android/sdk/bitmap/BitmapDownloadRequest;)Lcom/clevertap/android/sdk/network/DownloadedBitmap; <",
+                "> Lcom/clevertap/android/sdk/Utils;->getNotificationBitmapWithTimeoutAndSize(Ljava/lang/String;ZLandroid/content/Context;Lcom/clevertap/android/sdk/CleverTapInstanceConfig;JI)Lcom/clevertap/android/sdk/network/DownloadedBitmap; <",
+                "> Lcom/clevertap/android/sdk/CleverTapAPI;->getNotificationBitmapWithTimeoutAndSize(Landroid/content/Context;Landroid/os/Bundle;Ljava/lang/String;ZJI)Landroid/graphics/Bitmap; <",
+                "> Lcom/clevertap/android/sdk/CleverTapAPI;->instanceWithConfig(Landroid/content/Context;Lcom/clevertap/android/sdk/CleverTapInstanceConfig;Ljava/lang/String;)Lcom/clevertap/android/sdk/CleverTapAPI; <",
+                "> Lcom/clevertap/android/sdk/CleverTapAPI;->getDefaultInstance(Landroid/content/Context;Ljava/lang/String;)Lcom/clevertap/android/sdk/CleverTapAPI; <",
+                "> Lcom/clevertap/android/sdk/CleverTapAPI;->getDefaultInstance(Landroid/content/Context;)Lcom/clevertap/android/sdk/CleverTapAPI; <",
+                "> Lcom/kashkick/kashkickapp/MainApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_6": {
+            "call_sequence": [
+                "> Lcom/clevertap/android/sdk/bitmap/BitmapDownloadRequestHandlerWithTimeLimit;->handleRequest(Lcom/clevertap/android/sdk/bitmap/BitmapDownloadRequest;)Lcom/clevertap/android/sdk/network/DownloadedBitmap; <",
+                "> Lcom/clevertap/android/sdk/bitmap/HttpBitmapLoader;->getHttpBitmap(Lcom/clevertap/android/sdk/bitmap/HttpBitmapLoader$HttpBitmapOperation;Lcom/clevertap/android/sdk/bitmap/BitmapDownloadRequest;)Lcom/clevertap/android/sdk/network/DownloadedBitmap; <",
+                "> Lcom/clevertap/android/sdk/Utils;->getNotificationBitmapWithTimeoutAndSize(Ljava/lang/String;ZLandroid/content/Context;Lcom/clevertap/android/sdk/CleverTapInstanceConfig;JI)Lcom/clevertap/android/sdk/network/DownloadedBitmap; <",
+                "> Lcom/clevertap/android/sdk/CleverTapAPI;->getNotificationBitmapWithTimeoutAndSize(Landroid/content/Context;Landroid/os/Bundle;Ljava/lang/String;ZJI)Landroid/graphics/Bitmap; <",
+                "> Lcom/clevertap/android/sdk/CleverTapAPI;->instanceWithConfig(Landroid/content/Context;Lcom/clevertap/android/sdk/CleverTapInstanceConfig;Ljava/lang/String;)Lcom/clevertap/android/sdk/CleverTapAPI; <",
+                "> Lcom/clevertap/android/sdk/CleverTapAPI;->getDefaultInstance(Landroid/content/Context;Ljava/lang/String;)Lcom/clevertap/android/sdk/CleverTapAPI; <",
+                "> Lcom/clevertap/android/sdk/CleverTapAPI;->getDefaultInstance(Landroid/content/Context;)Lcom/clevertap/android/sdk/CleverTapAPI; <",
+                "> Lcom/clevertap/react/CleverTapApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_7": {
+            "call_sequence": [
+                "> Lcom/clevertap/android/sdk/bitmap/BitmapDownloadRequestHandlerWithTimeLimit;->handleRequest(Lcom/clevertap/android/sdk/bitmap/BitmapDownloadRequest;)Lcom/clevertap/android/sdk/network/DownloadedBitmap; <",
+                "> Lcom/clevertap/android/sdk/bitmap/HttpBitmapLoader;->getHttpBitmap(Lcom/clevertap/android/sdk/bitmap/HttpBitmapLoader$HttpBitmapOperation;Lcom/clevertap/android/sdk/bitmap/BitmapDownloadRequest;)Lcom/clevertap/android/sdk/network/DownloadedBitmap; <",
+                "> Lcom/clevertap/android/sdk/Utils;->getNotificationBitmapWithTimeoutAndSize(Ljava/lang/String;ZLandroid/content/Context;Lcom/clevertap/android/sdk/CleverTapInstanceConfig;JI)Lcom/clevertap/android/sdk/network/DownloadedBitmap; <",
+                "> Lcom/clevertap/android/sdk/CleverTapAPI;->getNotificationBitmapWithTimeoutAndSize(Landroid/content/Context;Landroid/os/Bundle;Ljava/lang/String;ZJI)Landroid/graphics/Bitmap; <",
+                "> Lcom/clevertap/android/sdk/CleverTapAPI;->instanceWithConfig(Landroid/content/Context;Lcom/clevertap/android/sdk/CleverTapInstanceConfig;Ljava/lang/String;)Lcom/clevertap/android/sdk/CleverTapAPI; <",
+                "> Lcom/clevertap/android/sdk/CleverTapAPI;->createInstanceIfAvailable(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Lcom/clevertap/android/sdk/CleverTapAPI; <",
+                "> Lcom/clevertap/android/sdk/CleverTapAPI;->createInstanceIfAvailable(Landroid/content/Context;Ljava/lang/String;)Lcom/clevertap/android/sdk/CleverTapAPI; <",
+                "> Lcom/clevertap/android/sdk/CleverTapAPI;->fromAccountId(Landroid/content/Context;Ljava/lang/String;)Lcom/clevertap/android/sdk/CleverTapAPI; <",
+                "> Lcom/clevertap/android/sdk/CleverTapAPI;->getGlobalInstance(Landroid/content/Context;Ljava/lang/String;)Lcom/clevertap/android/sdk/CleverTapAPI; <",
+                "> Lcom/clevertap/android/sdk/pushnotification/fcm/CTFirebaseMessagingReceiver;->lambda$onReceive$0$com-clevertap-android-sdk-pushnotification-fcm-CTFirebaseMessagingReceiver(Landroid/content/Context;Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.google.android.c2dm.intent.RECEIVE",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    }
+}

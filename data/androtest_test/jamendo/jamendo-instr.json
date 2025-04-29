@@ -1,0 +1,1275 @@
+{
+    "Lcom/teleca/jamendo/activity/PlayerActivity$UriLoadingDialog;-><init>(Lcom/teleca/jamendo/activity/PlayerActivity;Landroid/app/Activity;II)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/teleca/jamendo/activity/PlayerActivity;->handleIntent()V <",
+                "> Lcom/teleca/jamendo/activity/PlayerActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/teleca/jamendo/service/PlayerService;->displayNotifcation(Lcom/teleca/jamendo/api/PlaylistEntry;)V <",
+                "> Lcom/teleca/jamendo/JamendoApplication$IntentPlayerEngine;->startAction(Ljava/lang/String;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.teleca.jamendo.activity.PlayerActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/teleca/jamendo/activity/RadioActivity;->setContentView(I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/teleca/jamendo/activity/RadioActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/teleca/jamendo/activity/RadioActivity;->launch(Landroid/content/Context;)V <",
+                "> Lcom/teleca/jamendo/activity/HomeActivity$4;->performAction()V <",
+                "> Lcom/teleca/jamendo/activity/HomeActivity;->fillHomeListView()V <",
+                "> Lcom/teleca/jamendo/activity/HomeActivity;->onResume()V <",
+                "> Lcom/teleca/jamendo/activity/HomeActivity;->launch(Landroid/content/Context;)V <",
+                "> Lcom/teleca/jamendo/activity/SplashscreenActivity$2;->onAnimationEnd(Landroid/view/animation/Animation;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.teleca.jamendo.activity.SplashscreenActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/teleca/jamendo/activity/AlbumActivity;->downloadAlbum()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/teleca/jamendo/activity/AlbumActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/teleca/jamendo/dialog/AlbumLoadingDialog;->doStuffWithResult(Ljava/lang/Integer;)V <",
+                "> Lcom/teleca/jamendo/dialog/AlbumLoadingDialog;->doStuffWithResult(Ljava/lang/Object;)V <",
+                "> Lcom/teleca/jamendo/activity/AlbumActivity;->launch(Landroid/app/Activity;Lcom/teleca/jamendo/api/Album;)V <",
+                "> Lcom/teleca/jamendo/activity/RadioPlayerActivity;->albumClickHandler(Landroid/view/View;)V <",
+                "> Lcom/teleca/jamendo/service/RadioPlayerService;->showNotification(Lcom/teleca/jamendo/api/PlaylistEntry;)V <",
+                "> Lcom/teleca/jamendo/JamendoApplication$IntentPlayerEngine;->startAction(Ljava/lang/String;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.teleca.jamendo.activity.RadioPlayerActivity",
+                    "<unknown>"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.teleca.jamendo.activity.AlbumActivity",
+                    "download_menu_item"
+                ]
+            ]
+        }
+    },
+    "Lcom/teleca/jamendo/activity/PlayerActivity;->equalizerOnClick(Landroid/view/View;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/teleca/jamendo/activity/PlayerActivity$CupcakeListener;->onClick(Landroid/view/View;)V <",
+                "> Lcom/teleca/jamendo/activity/PlayerActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/teleca/jamendo/service/PlayerService;->displayNotifcation(Lcom/teleca/jamendo/api/PlaylistEntry;)V <",
+                "> Lcom/teleca/jamendo/JamendoApplication$IntentPlayerEngine;->startAction(Ljava/lang/String;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.teleca.jamendo.activity.PlayerActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.teleca.jamendo.activity.PlayerActivity",
+                    "SliderHome"
+                ]
+            ]
+        }
+    },
+    "Lcom/teleca/jamendo/activity/HomeActivity;->access$1(Lcom/teleca/jamendo/activity/HomeActivity;)Lcom/teleca/jamendo/widget/ProgressBar;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/teleca/jamendo/activity/HomeActivity$NewsTask;->onPreExecute()V <",
+                "> Lcom/teleca/jamendo/activity/HomeActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/teleca/jamendo/activity/HomeActivity;->launch(Landroid/content/Context;)V <",
+                "> Lcom/teleca/jamendo/activity/SplashscreenActivity$2;->onAnimationEnd(Landroid/view/animation/Animation;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.teleca.jamendo.activity.SplashscreenActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.teleca.jamendo.activity.HomeActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/teleca/jamendo/activity/RadioPlayerActivity;->startService(Landroid/content/Intent;)Landroid/content/ComponentName;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/teleca/jamendo/activity/RadioPlayerActivity;->stopPlayback()V <",
+                "> Lcom/teleca/jamendo/activity/RadioPlayerActivity;->access$5(Lcom/teleca/jamendo/activity/RadioPlayerActivity;)V <",
+                "> Lcom/teleca/jamendo/activity/RadioPlayerActivity$3;->onClick(Landroid/view/View;)V <",
+                "> Lcom/teleca/jamendo/activity/RadioPlayerActivity;-><init>()V <",
+                "> Lcom/teleca/jamendo/service/RadioPlayerService;->showNotification(Lcom/teleca/jamendo/api/PlaylistEntry;)V <",
+                "> Lcom/teleca/jamendo/JamendoApplication$IntentPlayerEngine;->startAction(Ljava/lang/String;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.teleca.jamendo.activity.RadioPlayerActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.teleca.jamendo.activity.RadioPlayerActivity",
+                    "StopImageButton"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/teleca/jamendo/activity/RadioPlayerActivity;->startPlayback()V <",
+                "> Lcom/teleca/jamendo/activity/RadioPlayerActivity;->onResume()V <",
+                "> Lcom/teleca/jamendo/service/RadioPlayerService;->showNotification(Lcom/teleca/jamendo/api/PlaylistEntry;)V <",
+                "> Lcom/teleca/jamendo/JamendoApplication$IntentPlayerEngine;->startAction(Ljava/lang/String;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/teleca/jamendo/activity/RadioPlayerActivity;->bindListener()V <",
+                "> Lcom/teleca/jamendo/activity/RadioPlayerActivity;->onPause()V <",
+                "> Lcom/teleca/jamendo/service/RadioPlayerService;->showNotification(Lcom/teleca/jamendo/api/PlaylistEntry;)V <",
+                "> Lcom/teleca/jamendo/JamendoApplication$IntentPlayerEngine;->startAction(Ljava/lang/String;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/teleca/jamendo/activity/PlayerActivity;->access$14(Lcom/teleca/jamendo/activity/PlayerActivity;)Ljava/lang/String;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/teleca/jamendo/activity/PlayerActivity$7;->onTrackChanged(Lcom/teleca/jamendo/api/PlaylistEntry;)V <",
+                "> Lcom/teleca/jamendo/activity/PlayerActivity;-><init>()V <",
+                "> Lcom/teleca/jamendo/service/PlayerService;->displayNotifcation(Lcom/teleca/jamendo/api/PlaylistEntry;)V <",
+                "> Lcom/teleca/jamendo/JamendoApplication$IntentPlayerEngine;->startAction(Ljava/lang/String;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.teleca.jamendo.activity.PlayerActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/teleca/jamendo/activity/PlayerActivity;->access$16(Lcom/teleca/jamendo/activity/PlayerActivity;)Landroid/widget/RatingBar;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/teleca/jamendo/activity/PlayerActivity$7;->onTrackChanged(Lcom/teleca/jamendo/api/PlaylistEntry;)V <",
+                "> Lcom/teleca/jamendo/activity/PlayerActivity;-><init>()V <",
+                "> Lcom/teleca/jamendo/service/PlayerService;->displayNotifcation(Lcom/teleca/jamendo/api/PlaylistEntry;)V <",
+                "> Lcom/teleca/jamendo/JamendoApplication$IntentPlayerEngine;->startAction(Ljava/lang/String;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.teleca.jamendo.activity.PlayerActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/teleca/jamendo/activity/PlayerActivity$UriLoadingDialog;->doCancel()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/teleca/jamendo/activity/PlayerActivity$UriLoadingDialog;->doInBackground([Ljava/lang/Void;)Lcom/teleca/jamendo/api/Playlist; <",
+                "> Lcom/teleca/jamendo/activity/PlayerActivity$UriLoadingDialog;->doInBackground([Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/teleca/jamendo/activity/PlayerActivity;->handleIntent()V <",
+                "> Lcom/teleca/jamendo/activity/PlayerActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/teleca/jamendo/service/PlayerService;->displayNotifcation(Lcom/teleca/jamendo/api/PlaylistEntry;)V <",
+                "> Lcom/teleca/jamendo/JamendoApplication$IntentPlayerEngine;->startAction(Ljava/lang/String;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.teleca.jamendo.activity.PlayerActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/teleca/jamendo/activity/HomeActivity$NewsTask;->execute([Ljava/lang/Object;)Landroid/os/AsyncTask;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/teleca/jamendo/activity/HomeActivity$NewsTask$1;->onClick(Landroid/view/View;)V <",
+                "> Lcom/teleca/jamendo/activity/HomeActivity$NewsTask;->onPostExecute([Lcom/teleca/jamendo/api/Album;)V <",
+                "> Lcom/teleca/jamendo/activity/HomeActivity$NewsTask;->onPostExecute(Ljava/lang/Object;)V <",
+                "> Lcom/teleca/jamendo/activity/HomeActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/teleca/jamendo/activity/HomeActivity;->launch(Landroid/content/Context;)V <",
+                "> Lcom/teleca/jamendo/activity/SplashscreenActivity$2;->onAnimationEnd(Landroid/view/animation/Animation;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.teleca.jamendo.activity.SplashscreenActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.teleca.jamendo.activity.HomeActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.teleca.jamendo.activity.HomeActivity",
+                    "RetryButton"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/teleca/jamendo/activity/HomeActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/teleca/jamendo/activity/HomeActivity;->launch(Landroid/content/Context;)V <",
+                "> Lcom/teleca/jamendo/activity/SplashscreenActivity$2;->onAnimationEnd(Landroid/view/animation/Animation;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.teleca.jamendo.activity.SplashscreenActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.teleca.jamendo.activity.HomeActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/teleca/jamendo/activity/ArtistActivity$AddToPlaylistLoadingDialog;->doStuffWithResult([Lcom/teleca/jamendo/api/Track;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/teleca/jamendo/activity/ArtistActivity$AddToPlaylistLoadingDialog;->doStuffWithResult(Ljava/lang/Object;)V <",
+                "> Lcom/teleca/jamendo/activity/ArtistActivity$2;->onItemLongClick(Landroid/widget/AdapterView;Landroid/view/View;IJ)Z <",
+                "> Lcom/teleca/jamendo/activity/ArtistActivity;-><init>()V <",
+                "> Lcom/teleca/jamendo/dialog/ArtistLoadingDialog;->doStuffWithResult(Lcom/teleca/jamendo/api/Artist;)V <",
+                "> Lcom/teleca/jamendo/dialog/ArtistLoadingDialog;->doStuffWithResult(Ljava/lang/Object;)V <",
+                "> Lcom/teleca/jamendo/activity/ArtistActivity;->launch(Landroid/app/Activity;Ljava/lang/String;)V <",
+                "> Lcom/teleca/jamendo/activity/RadioPlayerActivity;->artistClickHandler(Landroid/view/View;)V <",
+                "> Lcom/teleca/jamendo/service/RadioPlayerService;->showNotification(Lcom/teleca/jamendo/api/PlaylistEntry;)V <",
+                "> Lcom/teleca/jamendo/JamendoApplication$IntentPlayerEngine;->startAction(Ljava/lang/String;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.teleca.jamendo.activity.RadioPlayerActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.teleca.jamendo.activity.ArtistActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.teleca.jamendo.activity.ArtistActivity",
+                    "AlbumGridView"
+                ]
+            ]
+        }
+    },
+    "Lcom/teleca/jamendo/activity/DownloadActivity;->getJob(I)Lcom/teleca/jamendo/util/download/DownloadJob;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/teleca/jamendo/activity/DownloadActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/teleca/jamendo/activity/DownloadActivity;->launch(Landroid/content/Context;)V <",
+                "> Lcom/teleca/jamendo/activity/HomeActivity$8;->performAction()V <",
+                "> Lcom/teleca/jamendo/activity/HomeActivity;->fillHomeListView()V <",
+                "> Lcom/teleca/jamendo/activity/HomeActivity;->onResume()V <",
+                "> Lcom/teleca/jamendo/activity/HomeActivity;->launch(Landroid/content/Context;)V <",
+                "> Lcom/teleca/jamendo/activity/SplashscreenActivity$2;->onAnimationEnd(Landroid/view/animation/Animation;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.teleca.jamendo.activity.SplashscreenActivity",
+                    "<unknown>"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.teleca.jamendo.activity.DownloadActivity",
+                    "add_to_playlist"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/teleca/jamendo/activity/DownloadActivity;->playNow(I)V <",
+                "> Lcom/teleca/jamendo/activity/DownloadActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/teleca/jamendo/activity/DownloadActivity;->launch(Landroid/content/Context;)V <",
+                "> Lcom/teleca/jamendo/activity/HomeActivity$8;->performAction()V <",
+                "> Lcom/teleca/jamendo/activity/HomeActivity;->fillHomeListView()V <",
+                "> Lcom/teleca/jamendo/activity/HomeActivity;->onResume()V <",
+                "> Lcom/teleca/jamendo/activity/HomeActivity;->launch(Landroid/content/Context;)V <",
+                "> Lcom/teleca/jamendo/activity/SplashscreenActivity$2;->onAnimationEnd(Landroid/view/animation/Animation;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.teleca.jamendo.activity.SplashscreenActivity",
+                    "<unknown>"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.teleca.jamendo.activity.DownloadActivity",
+                    "play_download"
+                ]
+            ]
+        }
+    },
+    "Lcom/teleca/jamendo/activity/RadioPlayerActivity$4;-><init>(Lcom/teleca/jamendo/activity/RadioPlayerActivity;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/teleca/jamendo/activity/RadioPlayerActivity;-><init>()V <",
+                "> Lcom/teleca/jamendo/service/RadioPlayerService;->showNotification(Lcom/teleca/jamendo/api/PlaylistEntry;)V <",
+                "> Lcom/teleca/jamendo/JamendoApplication$IntentPlayerEngine;->startAction(Ljava/lang/String;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.teleca.jamendo.activity.RadioPlayerActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/teleca/jamendo/activity/AlbumActivity$2;-><init>(Lcom/teleca/jamendo/activity/AlbumActivity;Ljava/util/ArrayList;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/teleca/jamendo/activity/AlbumActivity;->loadReviews()V <",
+                "> Lcom/teleca/jamendo/activity/AlbumActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/teleca/jamendo/dialog/AlbumLoadingDialog;->doStuffWithResult(Ljava/lang/Integer;)V <",
+                "> Lcom/teleca/jamendo/dialog/AlbumLoadingDialog;->doStuffWithResult(Ljava/lang/Object;)V <",
+                "> Lcom/teleca/jamendo/activity/AlbumActivity;->launch(Landroid/app/Activity;Lcom/teleca/jamendo/api/Album;)V <",
+                "> Lcom/teleca/jamendo/activity/RadioPlayerActivity;->albumClickHandler(Landroid/view/View;)V <",
+                "> Lcom/teleca/jamendo/service/RadioPlayerService;->showNotification(Lcom/teleca/jamendo/api/PlaylistEntry;)V <",
+                "> Lcom/teleca/jamendo/JamendoApplication$IntentPlayerEngine;->startAction(Ljava/lang/String;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.teleca.jamendo.activity.RadioPlayerActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.teleca.jamendo.activity.AlbumActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/teleca/jamendo/activity/AlbumActivity;->getTabHost()Landroid/widget/TabHost;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/teleca/jamendo/activity/AlbumActivity;->setupTabs()V <",
+                "> Lcom/teleca/jamendo/activity/AlbumActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/teleca/jamendo/dialog/AlbumLoadingDialog;->doStuffWithResult(Ljava/lang/Integer;)V <",
+                "> Lcom/teleca/jamendo/dialog/AlbumLoadingDialog;->doStuffWithResult(Ljava/lang/Object;)V <",
+                "> Lcom/teleca/jamendo/activity/AlbumActivity;->launch(Landroid/app/Activity;Lcom/teleca/jamendo/api/Album;)V <",
+                "> Lcom/teleca/jamendo/activity/RadioPlayerActivity;->albumClickHandler(Landroid/view/View;)V <",
+                "> Lcom/teleca/jamendo/service/RadioPlayerService;->showNotification(Lcom/teleca/jamendo/api/PlaylistEntry;)V <",
+                "> Lcom/teleca/jamendo/JamendoApplication$IntentPlayerEngine;->startAction(Ljava/lang/String;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.teleca.jamendo.activity.RadioPlayerActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.teleca.jamendo.activity.AlbumActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/teleca/jamendo/activity/PlaylistActivity;->access$1(Lcom/teleca/jamendo/activity/PlaylistActivity;)Lcom/teleca/jamendo/widget/AlbumBar;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/teleca/jamendo/activity/PlaylistActivity$1;->onItemClick(Landroid/widget/AdapterView;Landroid/view/View;IJ)V <",
+                "> Lcom/teleca/jamendo/activity/PlaylistActivity;-><init>()V <",
+                "> Lcom/teleca/jamendo/activity/PlaylistActivity;->launch(Landroid/content/Context;Z)V <",
+                "> Lcom/teleca/jamendo/activity/PlayerActivity;->playlistClickHandler(Landroid/view/View;)V <",
+                "> Lcom/teleca/jamendo/activity/PlayerActivity$CupcakeListener;->onClick(Landroid/view/View;)V <",
+                "> Lcom/teleca/jamendo/activity/PlayerActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/teleca/jamendo/service/PlayerService;->displayNotifcation(Lcom/teleca/jamendo/api/PlaylistEntry;)V <",
+                "> Lcom/teleca/jamendo/JamendoApplication$IntentPlayerEngine;->startAction(Ljava/lang/String;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.teleca.jamendo.activity.PlayerActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.teleca.jamendo.activity.PlayerActivity",
+                    "SliderHome"
+                ],
+                [
+                    "com.teleca.jamendo.activity.PlayerActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.teleca.jamendo.activity.PlaylistActivity",
+                    "PlaylistTracksListView"
+                ]
+            ]
+        }
+    },
+    "Lcom/teleca/jamendo/activity/PlayerActivity;->access$11(Lcom/teleca/jamendo/activity/PlayerActivity;)Landroid/widget/TextView;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/teleca/jamendo/activity/PlayerActivity$7;->onTrackChanged(Lcom/teleca/jamendo/api/PlaylistEntry;)V <",
+                "> Lcom/teleca/jamendo/activity/PlayerActivity;-><init>()V <",
+                "> Lcom/teleca/jamendo/service/PlayerService;->displayNotifcation(Lcom/teleca/jamendo/api/PlaylistEntry;)V <",
+                "> Lcom/teleca/jamendo/JamendoApplication$IntentPlayerEngine;->startAction(Ljava/lang/String;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.teleca.jamendo.activity.PlayerActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/teleca/jamendo/activity/PlayerActivity$7;->onTrackProgress(I)V <",
+                "> Lcom/teleca/jamendo/activity/PlayerActivity;-><init>()V <",
+                "> Lcom/teleca/jamendo/service/PlayerService;->displayNotifcation(Lcom/teleca/jamendo/api/PlaylistEntry;)V <",
+                "> Lcom/teleca/jamendo/JamendoApplication$IntentPlayerEngine;->startAction(Ljava/lang/String;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.teleca.jamendo.activity.PlayerActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/teleca/jamendo/activity/HomeActivity;->requestWindowFeature(I)Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/teleca/jamendo/activity/HomeActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/teleca/jamendo/activity/HomeActivity;->launch(Landroid/content/Context;)V <",
+                "> Lcom/teleca/jamendo/activity/SplashscreenActivity$2;->onAnimationEnd(Landroid/view/animation/Animation;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.teleca.jamendo.activity.SplashscreenActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/teleca/jamendo/activity/SearchActivity;->access$3(Lcom/teleca/jamendo/activity/SearchActivity;)Landroid/widget/AdapterView$OnItemClickListener;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/teleca/jamendo/activity/SearchActivity$SearchingDialog;->doStuffWithResult(Ljava/lang/Integer;)V <",
+                "> Lcom/teleca/jamendo/activity/SearchActivity$SearchingDialog;->doStuffWithResult(Ljava/lang/Object;)V <",
+                "> Lcom/teleca/jamendo/activity/SearchActivity$1;->onClick(Landroid/view/View;)V <",
+                "> Lcom/teleca/jamendo/activity/SearchActivity;-><init>()V <",
+                "> Lcom/teleca/jamendo/activity/SearchActivity;->launch(Landroid/content/Context;)V <",
+                "> Lcom/teleca/jamendo/activity/HomeActivity$3;->performAction()V <",
+                "> Lcom/teleca/jamendo/activity/HomeActivity;->fillHomeListView()V <",
+                "> Lcom/teleca/jamendo/activity/HomeActivity;->onResume()V <",
+                "> Lcom/teleca/jamendo/activity/HomeActivity;->launch(Landroid/content/Context;)V <",
+                "> Lcom/teleca/jamendo/activity/SplashscreenActivity$2;->onAnimationEnd(Landroid/view/animation/Animation;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.teleca.jamendo.activity.SplashscreenActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.teleca.jamendo.activity.SearchActivity",
+                    "SearchButton"
+                ],
+                [
+                    "com.teleca.jamendo.activity.SearchActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/teleca/jamendo/activity/PlayerActivity;->artistClickHandler(Landroid/view/View;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/teleca/jamendo/activity/PlayerActivity$CupcakeListener;->onClick(Landroid/view/View;)V <",
+                "> Lcom/teleca/jamendo/activity/PlayerActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/teleca/jamendo/service/PlayerService;->displayNotifcation(Lcom/teleca/jamendo/api/PlaylistEntry;)V <",
+                "> Lcom/teleca/jamendo/JamendoApplication$IntentPlayerEngine;->startAction(Ljava/lang/String;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.teleca.jamendo.activity.PlayerActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.teleca.jamendo.activity.PlayerActivity",
+                    "SliderHome"
+                ]
+            ]
+        }
+    },
+    "Lcom/teleca/jamendo/activity/PlaylistActivity;->requestWindowFeature(I)Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/teleca/jamendo/activity/PlaylistActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/teleca/jamendo/activity/PlaylistActivity;->launch(Landroid/content/Context;Z)V <",
+                "> Lcom/teleca/jamendo/activity/PlayerActivity;->playlistClickHandler(Landroid/view/View;)V <",
+                "> Lcom/teleca/jamendo/activity/PlayerActivity$CupcakeListener;->onClick(Landroid/view/View;)V <",
+                "> Lcom/teleca/jamendo/activity/PlayerActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/teleca/jamendo/service/PlayerService;->displayNotifcation(Lcom/teleca/jamendo/api/PlaylistEntry;)V <",
+                "> Lcom/teleca/jamendo/JamendoApplication$IntentPlayerEngine;->startAction(Ljava/lang/String;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.teleca.jamendo.activity.PlayerActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.teleca.jamendo.activity.PlayerActivity",
+                    "SliderHome"
+                ],
+                [
+                    "com.teleca.jamendo.activity.PlayerActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/teleca/jamendo/activity/ArtistActivity$4;-><init>(Lcom/teleca/jamendo/activity/ArtistActivity;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/teleca/jamendo/activity/ArtistActivity;-><init>()V <",
+                "> Lcom/teleca/jamendo/dialog/ArtistLoadingDialog;->doStuffWithResult(Lcom/teleca/jamendo/api/Artist;)V <",
+                "> Lcom/teleca/jamendo/dialog/ArtistLoadingDialog;->doStuffWithResult(Ljava/lang/Object;)V <",
+                "> Lcom/teleca/jamendo/activity/ArtistActivity;->launch(Landroid/app/Activity;Ljava/lang/String;)V <",
+                "> Lcom/teleca/jamendo/activity/RadioPlayerActivity;->artistClickHandler(Landroid/view/View;)V <",
+                "> Lcom/teleca/jamendo/service/RadioPlayerService;->showNotification(Lcom/teleca/jamendo/api/PlaylistEntry;)V <",
+                "> Lcom/teleca/jamendo/JamendoApplication$IntentPlayerEngine;->startAction(Ljava/lang/String;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.teleca.jamendo.activity.RadioPlayerActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.teleca.jamendo.activity.ArtistActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/teleca/jamendo/activity/BrowsePlaylistActivity$RemotePlaylistTask;->onProgressUpdate([Lcom/teleca/jamendo/api/WSError;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/teleca/jamendo/activity/BrowsePlaylistActivity$RemotePlaylistTask;->onProgressUpdate([Ljava/lang/Object;)V <",
+                "> Lcom/teleca/jamendo/activity/BrowsePlaylistActivity;->loadPlaylists()V <",
+                "> Lcom/teleca/jamendo/activity/BrowsePlaylistActivity;->setupMode(Lcom/teleca/jamendo/activity/BrowsePlaylistActivity$Mode;)V <",
+                "> Lcom/teleca/jamendo/activity/BrowsePlaylistActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/teleca/jamendo/activity/BrowsePlaylistActivity;->launch(Landroid/content/Context;Lcom/teleca/jamendo/activity/BrowsePlaylistActivity$Mode;)V <",
+                "> Lcom/teleca/jamendo/activity/HomeActivity$6;->performAction()V <",
+                "> Lcom/teleca/jamendo/activity/HomeActivity;->fillHomeListView()V <",
+                "> Lcom/teleca/jamendo/activity/HomeActivity;->onResume()V <",
+                "> Lcom/teleca/jamendo/activity/HomeActivity;->launch(Landroid/content/Context;)V <",
+                "> Lcom/teleca/jamendo/activity/SplashscreenActivity$2;->onAnimationEnd(Landroid/view/animation/Animation;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.teleca.jamendo.activity.SplashscreenActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.teleca.jamendo.activity.BrowsePlaylistActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/teleca/jamendo/activity/HomeActivity$Top100Task;->doStuffWithResult(Lcom/teleca/jamendo/api/Playlist;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/teleca/jamendo/activity/HomeActivity$Top100Task;->doStuffWithResult(Ljava/lang/Object;)V <",
+                "> Lcom/teleca/jamendo/activity/HomeActivity$5;->performAction()V <",
+                "> Lcom/teleca/jamendo/activity/HomeActivity;->fillHomeListView()V <",
+                "> Lcom/teleca/jamendo/activity/HomeActivity;->onResume()V <",
+                "> Lcom/teleca/jamendo/activity/HomeActivity;->launch(Landroid/content/Context;)V <",
+                "> Lcom/teleca/jamendo/activity/SplashscreenActivity$2;->onAnimationEnd(Landroid/view/animation/Animation;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.teleca.jamendo.activity.SplashscreenActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/teleca/jamendo/activity/SearchActivity$1;-><init>(Lcom/teleca/jamendo/activity/SearchActivity;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/teleca/jamendo/activity/SearchActivity;-><init>()V <",
+                "> Lcom/teleca/jamendo/activity/SearchActivity;->launch(Landroid/content/Context;)V <",
+                "> Lcom/teleca/jamendo/activity/HomeActivity$3;->performAction()V <",
+                "> Lcom/teleca/jamendo/activity/HomeActivity;->fillHomeListView()V <",
+                "> Lcom/teleca/jamendo/activity/HomeActivity;->onResume()V <",
+                "> Lcom/teleca/jamendo/activity/HomeActivity;->launch(Landroid/content/Context;)V <",
+                "> Lcom/teleca/jamendo/activity/SplashscreenActivity$2;->onAnimationEnd(Landroid/view/animation/Animation;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.teleca.jamendo.activity.SplashscreenActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/teleca/jamendo/activity/RadioPlayerActivity$7;-><init>(Lcom/teleca/jamendo/activity/RadioPlayerActivity;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/teleca/jamendo/activity/RadioPlayerActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/teleca/jamendo/service/RadioPlayerService;->showNotification(Lcom/teleca/jamendo/api/PlaylistEntry;)V <",
+                "> Lcom/teleca/jamendo/JamendoApplication$IntentPlayerEngine;->startAction(Ljava/lang/String;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.teleca.jamendo.activity.RadioPlayerActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/teleca/jamendo/activity/PlaylistActivity;->findViewById(I)Landroid/view/View;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/teleca/jamendo/activity/PlaylistActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/teleca/jamendo/activity/PlaylistActivity;->launch(Landroid/content/Context;Z)V <",
+                "> Lcom/teleca/jamendo/activity/PlayerActivity;->playlistClickHandler(Landroid/view/View;)V <",
+                "> Lcom/teleca/jamendo/activity/PlayerActivity$CupcakeListener;->onClick(Landroid/view/View;)V <",
+                "> Lcom/teleca/jamendo/activity/PlayerActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/teleca/jamendo/service/PlayerService;->displayNotifcation(Lcom/teleca/jamendo/api/PlaylistEntry;)V <",
+                "> Lcom/teleca/jamendo/JamendoApplication$IntentPlayerEngine;->startAction(Ljava/lang/String;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.teleca.jamendo.activity.PlayerActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.teleca.jamendo.activity.PlayerActivity",
+                    "SliderHome"
+                ],
+                [
+                    "com.teleca.jamendo.activity.PlayerActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.teleca.jamendo.activity.PlaylistActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/teleca/jamendo/activity/RadioPlayerActivity;->access$1(Lcom/teleca/jamendo/activity/RadioPlayerActivity;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/teleca/jamendo/activity/RadioPlayerActivity$1;->onClick(Landroid/view/View;)V <",
+                "> Lcom/teleca/jamendo/activity/RadioPlayerActivity;-><init>()V <",
+                "> Lcom/teleca/jamendo/service/RadioPlayerService;->showNotification(Lcom/teleca/jamendo/api/PlaylistEntry;)V <",
+                "> Lcom/teleca/jamendo/JamendoApplication$IntentPlayerEngine;->startAction(Ljava/lang/String;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.teleca.jamendo.activity.RadioPlayerActivity",
+                    "CoverImageView"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/teleca/jamendo/activity/RadioPlayerActivity$6;->onAnimationStart(Landroid/view/animation/Animation;)V <",
+                "> Lcom/teleca/jamendo/activity/RadioPlayerActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/teleca/jamendo/service/RadioPlayerService;->showNotification(Lcom/teleca/jamendo/api/PlaylistEntry;)V <",
+                "> Lcom/teleca/jamendo/JamendoApplication$IntentPlayerEngine;->startAction(Ljava/lang/String;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.teleca.jamendo.activity.RadioPlayerActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/teleca/jamendo/activity/PlayerActivity;->access$1(Lcom/teleca/jamendo/activity/PlayerActivity;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/teleca/jamendo/activity/PlayerActivity$9;->onAnimationStart(Landroid/view/animation/Animation;)V <",
+                "> Lcom/teleca/jamendo/activity/PlayerActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/teleca/jamendo/service/PlayerService;->displayNotifcation(Lcom/teleca/jamendo/api/PlaylistEntry;)V <",
+                "> Lcom/teleca/jamendo/JamendoApplication$IntentPlayerEngine;->startAction(Ljava/lang/String;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.teleca.jamendo.activity.PlayerActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/teleca/jamendo/activity/PlayerActivity$1;->onClick(Landroid/view/View;)V <",
+                "> Lcom/teleca/jamendo/activity/PlayerActivity;-><init>()V <",
+                "> Lcom/teleca/jamendo/service/PlayerService;->displayNotifcation(Lcom/teleca/jamendo/api/PlaylistEntry;)V <",
+                "> Lcom/teleca/jamendo/JamendoApplication$IntentPlayerEngine;->startAction(Ljava/lang/String;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.teleca.jamendo.activity.PlayerActivity",
+                    "CoverImageView"
+                ]
+            ]
+        }
+    },
+    "Lcom/teleca/jamendo/activity/ArtistActivity;->access$1(Lcom/teleca/jamendo/activity/ArtistActivity;)Landroid/widget/GridView;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/teleca/jamendo/activity/ArtistActivity$2;->onItemLongClick(Landroid/widget/AdapterView;Landroid/view/View;IJ)Z <",
+                "> Lcom/teleca/jamendo/activity/ArtistActivity;-><init>()V <",
+                "> Lcom/teleca/jamendo/dialog/ArtistLoadingDialog;->doStuffWithResult(Lcom/teleca/jamendo/api/Artist;)V <",
+                "> Lcom/teleca/jamendo/dialog/ArtistLoadingDialog;->doStuffWithResult(Ljava/lang/Object;)V <",
+                "> Lcom/teleca/jamendo/activity/ArtistActivity;->launch(Landroid/app/Activity;Ljava/lang/String;)V <",
+                "> Lcom/teleca/jamendo/activity/RadioPlayerActivity;->artistClickHandler(Landroid/view/View;)V <",
+                "> Lcom/teleca/jamendo/service/RadioPlayerService;->showNotification(Lcom/teleca/jamendo/api/PlaylistEntry;)V <",
+                "> Lcom/teleca/jamendo/JamendoApplication$IntentPlayerEngine;->startAction(Ljava/lang/String;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.teleca.jamendo.activity.RadioPlayerActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.teleca.jamendo.activity.ArtistActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.teleca.jamendo.activity.ArtistActivity",
+                    "AlbumGridView"
+                ]
+            ]
+        }
+    },
+    "Lcom/teleca/jamendo/activity/HomeActivity;->launch(Landroid/content/Context;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/teleca/jamendo/activity/SplashscreenActivity$2;->onAnimationEnd(Landroid/view/animation/Animation;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.teleca.jamendo.activity.SplashscreenActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/teleca/jamendo/activity/BrowsePlaylistActivity$PlaylistPurpleEntry;-><init>(Lcom/teleca/jamendo/activity/BrowsePlaylistActivity;Ljava/lang/Integer;Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/teleca/jamendo/activity/BrowsePlaylistActivity$RemotePlaylistTask;->onPostExecute([Lcom/teleca/jamendo/api/PlaylistRemote;)V <",
+                "> Lcom/teleca/jamendo/activity/BrowsePlaylistActivity$RemotePlaylistTask;->onPostExecute(Ljava/lang/Object;)V <",
+                "> Lcom/teleca/jamendo/activity/BrowsePlaylistActivity;->loadPlaylists()V <",
+                "> Lcom/teleca/jamendo/activity/BrowsePlaylistActivity;->setupMode(Lcom/teleca/jamendo/activity/BrowsePlaylistActivity$Mode;)V <",
+                "> Lcom/teleca/jamendo/activity/BrowsePlaylistActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/teleca/jamendo/activity/BrowsePlaylistActivity;->launch(Landroid/content/Context;Lcom/teleca/jamendo/activity/BrowsePlaylistActivity$Mode;)V <",
+                "> Lcom/teleca/jamendo/activity/HomeActivity$6;->performAction()V <",
+                "> Lcom/teleca/jamendo/activity/HomeActivity;->fillHomeListView()V <",
+                "> Lcom/teleca/jamendo/activity/HomeActivity;->onResume()V <",
+                "> Lcom/teleca/jamendo/activity/HomeActivity;->launch(Landroid/content/Context;)V <",
+                "> Lcom/teleca/jamendo/activity/SplashscreenActivity$2;->onAnimationEnd(Landroid/view/animation/Animation;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.teleca.jamendo.activity.SplashscreenActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.teleca.jamendo.activity.BrowsePlaylistActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/teleca/jamendo/activity/AlbumActivity$1;-><init>(Lcom/teleca/jamendo/activity/AlbumActivity;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/teleca/jamendo/activity/AlbumActivity;-><init>()V <",
+                "> Lcom/teleca/jamendo/dialog/AlbumLoadingDialog;->doStuffWithResult(Ljava/lang/Integer;)V <",
+                "> Lcom/teleca/jamendo/dialog/AlbumLoadingDialog;->doStuffWithResult(Ljava/lang/Object;)V <",
+                "> Lcom/teleca/jamendo/activity/AlbumActivity;->launch(Landroid/app/Activity;Lcom/teleca/jamendo/api/Album;)V <",
+                "> Lcom/teleca/jamendo/activity/RadioPlayerActivity;->albumClickHandler(Landroid/view/View;)V <",
+                "> Lcom/teleca/jamendo/service/RadioPlayerService;->showNotification(Lcom/teleca/jamendo/api/PlaylistEntry;)V <",
+                "> Lcom/teleca/jamendo/JamendoApplication$IntentPlayerEngine;->startAction(Ljava/lang/String;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.teleca.jamendo.activity.RadioPlayerActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/teleca/jamendo/activity/PlaylistActivity;->setContentView(I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/teleca/jamendo/activity/PlaylistActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/teleca/jamendo/activity/PlaylistActivity;->launch(Landroid/content/Context;Z)V <",
+                "> Lcom/teleca/jamendo/activity/PlayerActivity;->playlistClickHandler(Landroid/view/View;)V <",
+                "> Lcom/teleca/jamendo/activity/PlayerActivity$CupcakeListener;->onClick(Landroid/view/View;)V <",
+                "> Lcom/teleca/jamendo/activity/PlayerActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/teleca/jamendo/service/PlayerService;->displayNotifcation(Lcom/teleca/jamendo/api/PlaylistEntry;)V <",
+                "> Lcom/teleca/jamendo/JamendoApplication$IntentPlayerEngine;->startAction(Ljava/lang/String;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.teleca.jamendo.activity.PlayerActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.teleca.jamendo.activity.PlayerActivity",
+                    "SliderHome"
+                ],
+                [
+                    "com.teleca.jamendo.activity.PlayerActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/teleca/jamendo/activity/PlayerActivity$LicenseTask;-><init>(Lcom/teleca/jamendo/activity/PlayerActivity;Lcom/teleca/jamendo/api/Album;Lcom/teleca/jamendo/api/Album;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/teleca/jamendo/activity/PlayerActivity$7;->onTrackChanged(Lcom/teleca/jamendo/api/PlaylistEntry;)V <",
+                "> Lcom/teleca/jamendo/activity/PlayerActivity;-><init>()V <",
+                "> Lcom/teleca/jamendo/service/PlayerService;->displayNotifcation(Lcom/teleca/jamendo/api/PlaylistEntry;)V <",
+                "> Lcom/teleca/jamendo/JamendoApplication$IntentPlayerEngine;->startAction(Ljava/lang/String;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.teleca.jamendo.activity.PlayerActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/teleca/jamendo/activity/SearchActivity;->requestWindowFeature(I)Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/teleca/jamendo/activity/SearchActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/teleca/jamendo/activity/SearchActivity;->launch(Landroid/content/Context;)V <",
+                "> Lcom/teleca/jamendo/activity/HomeActivity$3;->performAction()V <",
+                "> Lcom/teleca/jamendo/activity/HomeActivity;->fillHomeListView()V <",
+                "> Lcom/teleca/jamendo/activity/HomeActivity;->onResume()V <",
+                "> Lcom/teleca/jamendo/activity/HomeActivity;->launch(Landroid/content/Context;)V <",
+                "> Lcom/teleca/jamendo/activity/SplashscreenActivity$2;->onAnimationEnd(Landroid/view/animation/Animation;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.teleca.jamendo.activity.SplashscreenActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/teleca/jamendo/activity/PlayerActivity;->homeClickHandler(Landroid/view/View;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/teleca/jamendo/activity/PlayerActivity$CupcakeListener;->onClick(Landroid/view/View;)V <",
+                "> Lcom/teleca/jamendo/activity/PlayerActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/teleca/jamendo/service/PlayerService;->displayNotifcation(Lcom/teleca/jamendo/api/PlaylistEntry;)V <",
+                "> Lcom/teleca/jamendo/JamendoApplication$IntentPlayerEngine;->startAction(Ljava/lang/String;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.teleca.jamendo.activity.PlayerActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.teleca.jamendo.activity.PlayerActivity",
+                    "SliderHome"
+                ]
+            ]
+        }
+    },
+    "Lcom/teleca/jamendo/activity/PlayerActivity$LicenseTask;->onProgressUpdate([Lcom/teleca/jamendo/api/WSError;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/teleca/jamendo/activity/PlayerActivity$LicenseTask;->onProgressUpdate([Ljava/lang/Object;)V <",
+                "> Lcom/teleca/jamendo/activity/PlayerActivity$7;->onTrackChanged(Lcom/teleca/jamendo/api/PlaylistEntry;)V <",
+                "> Lcom/teleca/jamendo/activity/PlayerActivity;-><init>()V <",
+                "> Lcom/teleca/jamendo/service/PlayerService;->displayNotifcation(Lcom/teleca/jamendo/api/PlaylistEntry;)V <",
+                "> Lcom/teleca/jamendo/JamendoApplication$IntentPlayerEngine;->startAction(Ljava/lang/String;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.teleca.jamendo.activity.PlayerActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/teleca/jamendo/activity/RadioActivity$RadioChannel;->getIconId()I": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/teleca/jamendo/adapter/RadioChannelAdapter;->getView(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View; <",
+                "> Lcom/teleca/jamendo/activity/RadioActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/teleca/jamendo/activity/RadioActivity;->launch(Landroid/content/Context;)V <",
+                "> Lcom/teleca/jamendo/activity/HomeActivity$4;->performAction()V <",
+                "> Lcom/teleca/jamendo/activity/HomeActivity;->fillHomeListView()V <",
+                "> Lcom/teleca/jamendo/activity/HomeActivity;->onResume()V <",
+                "> Lcom/teleca/jamendo/activity/HomeActivity;->launch(Landroid/content/Context;)V <",
+                "> Lcom/teleca/jamendo/activity/SplashscreenActivity$2;->onAnimationEnd(Landroid/view/animation/Animation;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.teleca.jamendo.activity.SplashscreenActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.teleca.jamendo.activity.RadioActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/teleca/jamendo/activity/RadioPlayerActivity;->access$4(Lcom/teleca/jamendo/activity/RadioPlayerActivity;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/teleca/jamendo/activity/RadioPlayerActivity$2;->onClick(Landroid/view/View;)V <",
+                "> Lcom/teleca/jamendo/activity/RadioPlayerActivity;-><init>()V <",
+                "> Lcom/teleca/jamendo/service/RadioPlayerService;->showNotification(Lcom/teleca/jamendo/api/PlaylistEntry;)V <",
+                "> Lcom/teleca/jamendo/JamendoApplication$IntentPlayerEngine;->startAction(Ljava/lang/String;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.teleca.jamendo.activity.RadioPlayerActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.teleca.jamendo.activity.RadioPlayerActivity",
+                    "PlayImageButton"
+                ]
+            ]
+        }
+    },
+    "Lcom/teleca/jamendo/activity/SplashscreenActivity;->access$0(Lcom/teleca/jamendo/activity/SplashscreenActivity;)Landroid/view/animation/Animation;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/teleca/jamendo/activity/SplashscreenActivity$1;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.teleca.jamendo.activity.SplashscreenActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/teleca/jamendo/activity/PlayerActivity;->loadPlaylist(Lcom/teleca/jamendo/api/Playlist;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/teleca/jamendo/activity/PlayerActivity;->handleIntent()V <",
+                "> Lcom/teleca/jamendo/activity/PlayerActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/teleca/jamendo/service/PlayerService;->displayNotifcation(Lcom/teleca/jamendo/api/PlaylistEntry;)V <",
+                "> Lcom/teleca/jamendo/JamendoApplication$IntentPlayerEngine;->startAction(Ljava/lang/String;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.teleca.jamendo.activity.PlayerActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/teleca/jamendo/activity/PlayerActivity;->access$17(Lcom/teleca/jamendo/activity/PlayerActivity;Lcom/teleca/jamendo/api/Playlist;)V <",
+                "> Lcom/teleca/jamendo/activity/PlayerActivity$UriLoadingDialog;->doStuffWithResult(Lcom/teleca/jamendo/api/Playlist;)V <",
+                "> Lcom/teleca/jamendo/activity/PlayerActivity$UriLoadingDialog;->doStuffWithResult(Ljava/lang/Object;)V <",
+                "> Lcom/teleca/jamendo/activity/PlayerActivity;->handleIntent()V <",
+                "> Lcom/teleca/jamendo/activity/PlayerActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/teleca/jamendo/service/PlayerService;->displayNotifcation(Lcom/teleca/jamendo/api/PlaylistEntry;)V <",
+                "> Lcom/teleca/jamendo/JamendoApplication$IntentPlayerEngine;->startAction(Ljava/lang/String;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.teleca.jamendo.activity.PlayerActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/teleca/jamendo/activity/BrowsePlaylistActivity;->showDialog(I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/teleca/jamendo/activity/BrowsePlaylistActivity$3;->onItemLongClick(Landroid/widget/AdapterView;Landroid/view/View;IJ)Z <",
+                "> Lcom/teleca/jamendo/activity/BrowsePlaylistActivity;-><init>()V <",
+                "> Lcom/teleca/jamendo/activity/BrowsePlaylistActivity;->launch(Landroid/content/Context;Lcom/teleca/jamendo/activity/BrowsePlaylistActivity$Mode;)V <",
+                "> Lcom/teleca/jamendo/activity/HomeActivity$6;->performAction()V <",
+                "> Lcom/teleca/jamendo/activity/HomeActivity;->fillHomeListView()V <",
+                "> Lcom/teleca/jamendo/activity/HomeActivity;->onResume()V <",
+                "> Lcom/teleca/jamendo/activity/HomeActivity;->launch(Landroid/content/Context;)V <",
+                "> Lcom/teleca/jamendo/activity/SplashscreenActivity$2;->onAnimationEnd(Landroid/view/animation/Animation;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.teleca.jamendo.activity.SplashscreenActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.teleca.jamendo.activity.BrowsePlaylistActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.teleca.jamendo.activity.BrowsePlaylistActivity",
+                    "PlaylistsListView"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/teleca/jamendo/activity/BrowsePlaylistActivity;->savePlaylist(Ljava/lang/String;)V <",
+                "> Lcom/teleca/jamendo/activity/BrowsePlaylistActivity;->access$0(Lcom/teleca/jamendo/activity/BrowsePlaylistActivity;Ljava/lang/String;)V <",
+                "> Lcom/teleca/jamendo/activity/BrowsePlaylistActivity$4;->onClick(Landroid/view/View;)V <",
+                "> Lcom/teleca/jamendo/activity/BrowsePlaylistActivity;-><init>()V <",
+                "> Lcom/teleca/jamendo/activity/BrowsePlaylistActivity;->launch(Landroid/content/Context;Lcom/teleca/jamendo/activity/BrowsePlaylistActivity$Mode;)V <",
+                "> Lcom/teleca/jamendo/activity/HomeActivity$6;->performAction()V <",
+                "> Lcom/teleca/jamendo/activity/HomeActivity;->fillHomeListView()V <",
+                "> Lcom/teleca/jamendo/activity/HomeActivity;->onResume()V <",
+                "> Lcom/teleca/jamendo/activity/HomeActivity;->launch(Landroid/content/Context;)V <",
+                "> Lcom/teleca/jamendo/activity/SplashscreenActivity$2;->onAnimationEnd(Landroid/view/animation/Animation;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.teleca.jamendo.activity.SplashscreenActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.teleca.jamendo.activity.BrowsePlaylistActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.teleca.jamendo.activity.BrowsePlaylistActivity",
+                    "BrowseButton"
+                ]
+            ]
+        }
+    },
+    "Lcom/teleca/jamendo/activity/BrowsePlaylistActivity$2;-><init>(Lcom/teleca/jamendo/activity/BrowsePlaylistActivity;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/teleca/jamendo/activity/BrowsePlaylistActivity;-><init>()V <",
+                "> Lcom/teleca/jamendo/activity/BrowsePlaylistActivity;->launch(Landroid/content/Context;Lcom/teleca/jamendo/activity/BrowsePlaylistActivity$Mode;)V <",
+                "> Lcom/teleca/jamendo/activity/HomeActivity$6;->performAction()V <",
+                "> Lcom/teleca/jamendo/activity/HomeActivity;->fillHomeListView()V <",
+                "> Lcom/teleca/jamendo/activity/HomeActivity;->onResume()V <",
+                "> Lcom/teleca/jamendo/activity/HomeActivity;->launch(Landroid/content/Context;)V <",
+                "> Lcom/teleca/jamendo/activity/SplashscreenActivity$2;->onAnimationEnd(Landroid/view/animation/Animation;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.teleca.jamendo.activity.SplashscreenActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.teleca.jamendo.activity.BrowsePlaylistActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/teleca/jamendo/activity/RadioPlayerActivity$2;-><init>(Lcom/teleca/jamendo/activity/RadioPlayerActivity;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/teleca/jamendo/activity/RadioPlayerActivity;-><init>()V <",
+                "> Lcom/teleca/jamendo/service/RadioPlayerService;->showNotification(Lcom/teleca/jamendo/api/PlaylistEntry;)V <",
+                "> Lcom/teleca/jamendo/JamendoApplication$IntentPlayerEngine;->startAction(Ljava/lang/String;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.teleca.jamendo.activity.RadioPlayerActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/teleca/jamendo/activity/SplashscreenActivity;->finish()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/teleca/jamendo/activity/SplashscreenActivity$2;->onAnimationEnd(Landroid/view/animation/Animation;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.teleca.jamendo.activity.SplashscreenActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    }
+}

@@ -1,0 +1,31 @@
+COMPONENT CONCAT > Lcom/evancharlton/mileage/provider/FillUpsProvider;->onCreate()Z < extends Landroid/content/ContentProvider, implements []
+COMPONENT CONCAT > Lcom/evancharlton/mileage/ChartActivity;->onCreate(Landroid/os/Bundle;)V < extends Landroid/app/Activity, implements ['Landroid/content/DialogInterface$OnCancelListener']
+MISSING ID > Lcom/evancharlton/mileage/VehicleStatisticsActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <
+COMPONENT CONCAT > Lcom/evancharlton/mileage/provider/Statistics;-><clinit>()V < extends Ljava/lang/Object, implements []
+COMPONENT CONCAT > Lcom/evancharlton/mileage/BaseListActivity;->onItemClick(Landroid/widget/AdapterView;Landroid/view/View;IJ)V < extends Landroid/app/ListActivity, implements ['Landroid/widget/AdapterView$OnItemClickListener', 'Landroid/view/View$OnCreateContextMenuListener']
+COMPONENT CONCAT > Lcom/evancharlton/mileage/BaseListActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z < extends Landroid/app/ListActivity, implements ['Landroid/widget/AdapterView$OnItemClickListener', 'Landroid/view/View$OnCreateContextMenuListener']
+COMPONENT CONCAT > Lcom/evancharlton/mileage/provider/FillUpsProvider;->update(Landroid/net/Uri;Landroid/content/ContentValues;Ljava/lang/String;[Ljava/lang/String;)I < extends Landroid/content/ContentProvider, implements []
+COMPONENT CONCAT > Lcom/evancharlton/mileage/provider/FillUpsProvider;->insert(Landroid/net/Uri;Landroid/content/ContentValues;)Landroid/net/Uri; < extends Landroid/content/ContentProvider, implements []
+COMPONENT CONCAT > Lcom/evancharlton/mileage/provider/FillUpsProvider;->delete(Landroid/net/Uri;Ljava/lang/String;[Ljava/lang/String;)I < extends Landroid/content/ContentProvider, implements []
+MISSING ID > Lcom/evancharlton/mileage/FillupListActivity$3;->onItemClick(Landroid/widget/AdapterView;Landroid/view/View;IJ)V <
+MISSING ID > Lcom/evancharlton/mileage/ServiceIntervalsListActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <
+MISSING ID > Lcom/evancharlton/mileage/ServiceIntervalTemplateListActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <
+COMPONENT CONCAT > Lcom/evancharlton/mileage/provider/tables/ServiceIntervalsTable;->getDaoType()Ljava/lang/Class; < extends Ljava/lang/Object, implements []
+MISSING ID > Lcom/evancharlton/mileage/VehicleListActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <
+COMPONENT CONCAT > Lcom/evancharlton/mileage/dao/FillupSeries;->load(Landroid/database/Cursor;)Ljava/util/ArrayList; < extends Ljava/util/ArrayList, implements []
+COMPONENT CONCAT > Lcom/evancharlton/mileage/dao/FillupSeries;->add(Ljava/lang/Object;)Z < extends Ljava/util/ArrayList, implements []
+COMPONENT CONCAT > Lcom/evancharlton/mileage/math/Calculator;->averageEconomy(Lcom/evancharlton/mileage/dao/Vehicle;Lcom/evancharlton/mileage/dao/Fillup;)D < extends Ljava/lang/Object, implements []
+COMPONENT CONCAT > Lcom/evancharlton/mileage/provider/tables/FillupsTable;->getDaoType()Ljava/lang/Class; < extends Ljava/lang/Object, implements []
+COMPONENT CONCAT > Lcom/evancharlton/mileage/BaseListActivity;->onResume()V < extends Landroid/app/ListActivity, implements ['Landroid/widget/AdapterView$OnItemClickListener', 'Landroid/view/View$OnCreateContextMenuListener']
+COMPONENT CONCAT > Lcom/evancharlton/mileage/provider/tables/CacheTable;->getDaoType()Ljava/lang/Class; < extends Ljava/lang/Object, implements []
+COMPONENT CONCAT > Lcom/evancharlton/mileage/provider/tables/ServiceIntervalTemplatesTable;->getDaoType()Ljava/lang/Class; < extends Ljava/lang/Object, implements []
+COMPONENT CONCAT > Lcom/evancharlton/mileage/provider/tables/VehiclesTable;->getDaoType()Ljava/lang/Class; < extends Ljava/lang/Object, implements []
+COMPONENT CONCAT > Lcom/evancharlton/mileage/provider/tables/FillupsFieldsTable;->getDaoType()Ljava/lang/Class; < extends Ljava/lang/Object, implements []
+COMPONENT CONCAT > Lcom/evancharlton/mileage/provider/tables/VehicleTypesTable;->getDaoType()Ljava/lang/Class; < extends Ljava/lang/Object, implements []
+COMPONENT CONCAT > Lcom/evancharlton/mileage/provider/tables/FieldsTable;->getDaoType()Ljava/lang/Class; < extends Ljava/lang/Object, implements []
+COMPONENT CONCAT > Lcom/evancharlton/mileage/provider/tables/ServiceIntervalTemplatesTable;->init(Z)[Ljava/lang/String; < extends Ljava/lang/Object, implements []
+COMPONENT CONCAT > Lcom/evancharlton/mileage/provider/tables/VehiclesTable;->init(Z)[Ljava/lang/String; < extends Ljava/lang/Object, implements []
+COMPONENT CONCAT > Lcom/evancharlton/mileage/dao/Dao;->saveIfChanged(Landroid/content/Context;)Z < extends Ljava/lang/Object, implements ['Ljava/lang/Cloneable']
+COMPONENT CONCAT > Lcom/evancharlton/mileage/BaseFormActivity;->onCreateDialog(I)Landroid/app/Dialog; < extends Landroid/app/Activity, implements []
+MISSING ID > Lcom/evancharlton/mileage/FillupActivity;->onCreateOptionsMenu(Landroid/view/Menu;)Z <
+MISSING ID > Lcom/evancharlton/mileage/BaseFormActivity;->onCreateOptionsMenu(Landroid/view/Menu;)Z <

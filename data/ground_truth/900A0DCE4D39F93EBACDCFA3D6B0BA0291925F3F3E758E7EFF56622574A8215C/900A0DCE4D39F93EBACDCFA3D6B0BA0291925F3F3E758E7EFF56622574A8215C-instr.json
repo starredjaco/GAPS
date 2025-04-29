@@ -1,0 +1,597 @@
+{
+    "Lcom/campQuality/kidsGuideToCancer/MainApplication;->a()Lcom/facebook/react/t;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/campQuality/kidsGuideToCancer/MainApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Landroidx/lifecycle/l;->l(Landroidx/lifecycle/g$c;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Landroidx/lifecycle/l;->o(Landroidx/lifecycle/g$c;)V <",
+                "> Landroidx/lifecycle/l;->j(Landroidx/lifecycle/g$c;)V <",
+                "> Landroidx/lifecycle/w;-><init>(Landroidx/lifecycle/k;)V <",
+                "> Landroidx/lifecycle/n;-><init>()V <",
+                "> Landroidx/work/impl/background/systemalarm/SystemAlarmService;-><init>()V <",
+                "> Landroidx/work/impl/background/systemalarm/b;->e(Landroid/content/Context;)Landroid/content/Intent; <",
+                "> Landroidx/work/impl/background/systemalarm/RescheduleReceiver;->onReceive(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.BOOT_COMPLETED",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Landroidx/lifecycle/l;->h(Landroidx/lifecycle/g$b;)V <",
+                "> Landroidx/lifecycle/w$a;->run()V <",
+                "> Landroidx/lifecycle/w;->f(Landroidx/lifecycle/g$b;)V <",
+                "> Landroidx/lifecycle/w;->c()V <",
+                "> Landroidx/lifecycle/n;->onCreate()V <",
+                "> Landroidx/work/impl/background/systemalarm/SystemAlarmService;->onCreate()V <",
+                "> Landroidx/work/impl/background/systemalarm/b;->e(Landroid/content/Context;)Landroid/content/Intent; <",
+                "> Landroidx/work/impl/background/systemalarm/RescheduleReceiver;->onReceive(Landroid/content/Context; <",
+                "----- CONDITIONAL -----",
+                "> Landroidx/lifecycle/w$a;-><init>(Landroidx/lifecycle/l; <",
+                "----- CONDITIONAL -----",
+                "> Landroidx/lifecycle/w;->f(Landroidx/lifecycle/g$b;)V <",
+                "----- CONDITIONAL -----",
+                "> Landroidx/lifecycle/w;->c()V <",
+                "----- CONDITIONAL -----",
+                "> Landroidx/lifecycle/n;->onCreate()V <",
+                "----- CONDITIONAL -----",
+                "> Landroidx/work/impl/background/systemalarm/SystemAlarmService;->onCreate()V <",
+                "----- CONDITIONAL -----",
+                "> Landroidx/work/impl/background/systemalarm/b;->e(Landroid/content/Context;)Landroid/content/Intent; <",
+                "----- CONDITIONAL -----",
+                "> Landroidx/work/impl/background/systemalarm/RescheduleReceiver;->onReceive(Landroid/content/Context; <",
+                "----- CONDITIONAL -----"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.TIME_SET",
+                    "broadcast -a"
+                ],
+                [
+                    "intent",
+                    "android.intent.action.BOOT_COMPLETED",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/facebook/react/r;->f(Lcom/facebook/react/devsupport/b;)Lcom/facebook/react/r;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/facebook/react/t;->a()Lcom/facebook/react/q; <",
+                "> Lcom/facebook/react/t;->j()Lcom/facebook/react/q; <",
+                "> Lcom/campQuality/kidsGuideToCancer/MainApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/facebook/react/t;->m()Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/facebook/react/t;->a()Lcom/facebook/react/q; <",
+                "> Lcom/facebook/react/t;->j()Lcom/facebook/react/q; <",
+                "> Lcom/campQuality/kidsGuideToCancer/MainApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lm4/a;->b()Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lm4/a;->a()Ljava/lang/String; <",
+                "> Lcom/facebook/react/r;->b()Lcom/facebook/react/q; <",
+                "> Lcom/facebook/react/t;->a()Lcom/facebook/react/q; <",
+                "> Lcom/facebook/react/t;->j()Lcom/facebook/react/q; <",
+                "> Lcom/campQuality/kidsGuideToCancer/MainApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lj5/q;->i(Ljava/lang/Object;)Ljava/lang/Object;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/google/firebase/messaging/c;->a()Lv5/h; <",
+                "> Lcom/google/firebase/messaging/b;->a()Z <",
+                "> Lcom/google/firebase/messaging/FirebaseMessagingService;->e(Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.google.firebase.MESSAGING_EVENT",
+                    "start-service -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lu6/r;->e(Lv6/a;)V <",
+                "> Lu6/r;->b()V <",
+                "> Lu6/l;->e(Z)V <",
+                "> Ls6/c;->l()V <",
+                "> Ls6/c;->b(Ls6/c;)V <",
+                "> Ls6/c$e;->onReceive(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.USER_UNLOCKED",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Lf1/j;->c()Lf1/j;": {
+        "path_0": {
+            "call_sequence": [
+                "> Landroidx/work/impl/background/systemalarm/e;->j()V <",
+                "> Landroidx/work/impl/background/systemalarm/SystemAlarmService;->onStartCommand(Landroid/content/Intent; <",
+                "> Landroidx/work/impl/background/systemalarm/b;->e(Landroid/content/Context;)Landroid/content/Intent; <",
+                "> Landroidx/work/impl/background/systemalarm/RescheduleReceiver;->onReceive(Landroid/content/Context; <",
+                "----- CONDITIONAL -----",
+                "> Landroidx/work/impl/background/systemalarm/SystemAlarmService;->c()V <",
+                "----- CONDITIONAL -----",
+                "> Landroidx/work/impl/background/systemalarm/b;->e(Landroid/content/Context;)Landroid/content/Intent; <",
+                "----- CONDITIONAL -----",
+                "> Landroidx/work/impl/background/systemalarm/RescheduleReceiver;->onReceive(Landroid/content/Context; <",
+                "----- CONDITIONAL -----",
+                "----- CONDITIONAL -----",
+                "> Landroidx/work/impl/background/systemalarm/SystemAlarmService;->onDestroy()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.TIME_SET",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Landroidx/work/impl/background/systemalarm/ConstraintProxyUpdateReceiver;->onReceive(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "androidx.work.impl.background.systemalarm.UpdateProxies",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Landroidx/work/impl/background/systemalarm/SystemAlarmService;->c()V <",
+                "> Landroidx/work/impl/background/systemalarm/b;->e(Landroid/content/Context;)Landroid/content/Intent; <",
+                "> Landroidx/work/impl/background/systemalarm/RescheduleReceiver;->onReceive(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.TIME_SET",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Landroidx/work/impl/background/systemalarm/e;->m(Landroidx/work/impl/background/systemalarm/e$c;)V <",
+                "> Landroidx/work/impl/background/systemalarm/SystemAlarmService;->g()V <",
+                "> Landroidx/work/impl/background/systemalarm/b;->e(Landroid/content/Context;)Landroid/content/Intent; <",
+                "> Landroidx/work/impl/background/systemalarm/RescheduleReceiver;->onReceive(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.TIME_SET",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Landroidx/work/impl/background/systemalarm/SystemAlarmService;->onStartCommand(Landroid/content/Intent; <",
+                "> Landroidx/work/impl/background/systemalarm/b;->e(Landroid/content/Context;)Landroid/content/Intent; <",
+                "> Landroidx/work/impl/background/systemalarm/RescheduleReceiver;->onReceive(Landroid/content/Context; <",
+                "----- CONDITIONAL -----",
+                "> Landroidx/work/impl/background/systemalarm/SystemAlarmService;->c()V <",
+                "----- CONDITIONAL -----",
+                "> Landroidx/work/impl/background/systemalarm/b;->e(Landroid/content/Context;)Landroid/content/Intent; <",
+                "----- CONDITIONAL -----",
+                "> Landroidx/work/impl/background/systemalarm/RescheduleReceiver;->onReceive(Landroid/content/Context; <",
+                "----- CONDITIONAL -----",
+                "----- CONDITIONAL -----",
+                "> Landroidx/work/impl/background/systemalarm/SystemAlarmService;->onDestroy()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.TIME_SET",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_5": {
+            "call_sequence": [
+                "> Landroidx/work/impl/background/systemalarm/RescheduleReceiver;->onReceive(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.BOOT_COMPLETED",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_6": {
+            "call_sequence": [
+                "> Ll1/a;->h(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.BATTERY_CHANGED",
+                    "start -a"
+                ]
+            ]
+        },
+        "path_7": {
+            "call_sequence": [
+                "> Ll1/a;->i()Ljava/lang/Boolean; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.BATTERY_CHANGED",
+                    "start -a"
+                ]
+            ]
+        },
+        "path_8": {
+            "call_sequence": [
+                "> Ll1/b;->h(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.BATTERY_CHANGED",
+                    "start -a"
+                ]
+            ]
+        },
+        "path_9": {
+            "call_sequence": [
+                "> Landroidx/work/impl/workers/DiagnosticsWorker;->q()Landroidx/work/ListenableWorker$a; <",
+                "> Landroidx/work/impl/diagnostics/DiagnosticsReceiver;->onReceive(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "androidx.work.diagnostics.REQUEST_DIAGNOSTICS",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_10": {
+            "call_sequence": [
+                "> Ll1/b;->i()Ljava/lang/Boolean; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.BATTERY_CHANGED",
+                    "start -a"
+                ]
+            ]
+        },
+        "path_11": {
+            "call_sequence": [
+                "> Ll1/g$a;->onReceive(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.net.conn.CONNECTIVITY_CHANGE",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_12": {
+            "call_sequence": [
+                "> Ll1/g;->i()Z <",
+                "> Ll1/g;->g()Lj1/b; <",
+                "> Ll1/g$a;->onReceive(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.net.conn.CONNECTIVITY_CHANGE",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_13": {
+            "call_sequence": [
+                "> Lo1/l;->a()V <",
+                "> Landroidx/work/impl/background/systemalarm/SystemAlarmService;->c()V <",
+                "> Landroidx/work/impl/background/systemalarm/b;->e(Landroid/content/Context;)Landroid/content/Intent; <",
+                "> Landroidx/work/impl/background/systemalarm/RescheduleReceiver;->onReceive(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.TIME_SET",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_14": {
+            "call_sequence": [
+                "> Landroidx/work/impl/diagnostics/DiagnosticsReceiver;->onReceive(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "androidx.work.diagnostics.REQUEST_DIAGNOSTICS",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_15": {
+            "call_sequence": [
+                "> Landroidx/work/impl/background/systemalarm/ConstraintProxyUpdateReceiver$a;->run()V <",
+                "> Landroidx/work/impl/background/systemalarm/ConstraintProxyUpdateReceiver;->onReceive(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "androidx.work.impl.background.systemalarm.UpdateProxies",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/facebook/react/t;->l()Ld4/f;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/facebook/react/t;->a()Lcom/facebook/react/q; <",
+                "> Lcom/facebook/react/t;->j()Lcom/facebook/react/q; <",
+                "> Lcom/campQuality/kidsGuideToCancer/MainApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/facebook/react/r;->q(La4/i;)Lcom/facebook/react/r;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/facebook/react/t;->a()Lcom/facebook/react/q; <",
+                "> Lcom/facebook/react/t;->j()Lcom/facebook/react/q; <",
+                "> Lcom/campQuality/kidsGuideToCancer/MainApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/facebook/react/bridge/ReactMarker;->logMarker(Lcom/facebook/react/bridge/ReactMarkerConstants;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/facebook/react/t;->a()Lcom/facebook/react/q; <",
+                "> Lcom/facebook/react/t;->j()Lcom/facebook/react/q; <",
+                "> Lcom/campQuality/kidsGuideToCancer/MainApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/facebook/react/z;->i()V <",
+                "> Lcom/facebook/react/z;->v(Lcom/facebook/react/q; <",
+                "> Lcom/facebook/react/o;->h()V <",
+                "> Lcom/facebook/react/l;->q()V <",
+                "> Lcom/facebook/react/k;->onDestroy()V <",
+                "> Lcom/campQuality/kidsGuideToCancer/MainActivity;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/facebook/react/bridge/ReactContext;->onHostPause()V <",
+                "> Lcom/facebook/react/q;->H()V <",
+                "> Lcom/facebook/react/q;->O()V <",
+                "> Lcom/facebook/react/q;->P(Landroid/app/Activity;)V <",
+                "> Lcom/facebook/react/o;->i()V <",
+                "> Lcom/facebook/react/l;->v()V <",
+                "> Lcom/facebook/react/k;->onPause()V <",
+                "> Lcom/campQuality/kidsGuideToCancer/MainActivity;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/facebook/react/z;->x(Z <",
+                "> Lcom/facebook/react/o;->h()V <",
+                "> Lcom/facebook/react/l;->q()V <",
+                "> Lcom/facebook/react/k;->onDestroy()V <",
+                "> Lcom/campQuality/kidsGuideToCancer/MainActivity;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lcom/facebook/react/z;->onMeasure(I <",
+                "> Lcom/facebook/react/o;->h()V <",
+                "> Lcom/facebook/react/l;->q()V <",
+                "> Lcom/facebook/react/k;->onDestroy()V <",
+                "> Lcom/campQuality/kidsGuideToCancer/MainActivity;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_5": {
+            "call_sequence": [
+                "> Lcom/facebook/react/bridge/ReactContext;->onHostResume(Landroid/app/Activity;)V <",
+                "> Lcom/facebook/react/q;->H()V <",
+                "> Lcom/facebook/react/q;->O()V <",
+                "> Lcom/facebook/react/q;->P(Landroid/app/Activity;)V <",
+                "> Lcom/facebook/react/o;->i()V <",
+                "> Lcom/facebook/react/l;->v()V <",
+                "> Lcom/facebook/react/k;->onPause()V <",
+                "> Lcom/campQuality/kidsGuideToCancer/MainActivity;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_6": {
+            "call_sequence": [
+                "> Lcom/facebook/react/t;->j()Lcom/facebook/react/q; <",
+                "> Lcom/campQuality/kidsGuideToCancer/MainApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_7": {
+            "call_sequence": [
+                "> Lcom/facebook/react/d$a$a;->a()Lcom/facebook/react/bridge/ModuleHolder; <",
+                "> Lcom/facebook/react/d$a$a;->next()Ljava/lang/Object; <",
+                "> Lcom/google/firebase/iid/i;->j(Ljava/lang/String;)V <",
+                "> Lcom/google/firebase/iid/FirebaseInstanceId;->z()V <",
+                "> Lcom/google/firebase/iid/FirebaseInstanceIdReceiver;->e(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.google.android.c2dm.intent.RECEIVE",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Landroidx/lifecycle/g$b;->b()Landroidx/lifecycle/g$c;": {
+        "path_0": {
+            "call_sequence": [
+                "> Landroidx/lifecycle/l;->h(Landroidx/lifecycle/g$b;)V <",
+                "> Landroidx/lifecycle/w$a;->run()V <",
+                "> Landroidx/lifecycle/w;->f(Landroidx/lifecycle/g$b;)V <",
+                "> Landroidx/lifecycle/w;->c()V <",
+                "> Landroidx/lifecycle/n;->onCreate()V <",
+                "> Landroidx/work/impl/background/systemalarm/SystemAlarmService;->onCreate()V <",
+                "> Landroidx/work/impl/background/systemalarm/b;->e(Landroid/content/Context;)Landroid/content/Intent; <",
+                "> Landroidx/work/impl/background/systemalarm/RescheduleReceiver;->onReceive(Landroid/content/Context; <",
+                "----- CONDITIONAL -----",
+                "> Landroidx/lifecycle/w$a;-><init>(Landroidx/lifecycle/l; <",
+                "----- CONDITIONAL -----",
+                "> Landroidx/lifecycle/w;->f(Landroidx/lifecycle/g$b;)V <",
+                "----- CONDITIONAL -----",
+                "> Landroidx/lifecycle/w;->c()V <",
+                "----- CONDITIONAL -----",
+                "> Landroidx/lifecycle/n;->onCreate()V <",
+                "----- CONDITIONAL -----",
+                "> Landroidx/work/impl/background/systemalarm/SystemAlarmService;->onCreate()V <",
+                "----- CONDITIONAL -----",
+                "> Landroidx/work/impl/background/systemalarm/b;->e(Landroid/content/Context;)Landroid/content/Intent; <",
+                "----- CONDITIONAL -----",
+                "> Landroidx/work/impl/background/systemalarm/RescheduleReceiver;->onReceive(Landroid/content/Context; <",
+                "----- CONDITIONAL -----"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.TIME_SET",
+                    "broadcast -a"
+                ],
+                [
+                    "intent",
+                    "android.intent.action.BOOT_COMPLETED",
+                    "broadcast -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Landroidx/lifecycle/l;->d(Landroidx/lifecycle/k;)V <",
+                "> Landroidx/lifecycle/l;->p()V <",
+                "> Landroidx/lifecycle/l;->a(Landroidx/lifecycle/j;)V <",
+                "> Landroidx/lifecycle/w;-><init>(Landroidx/lifecycle/k;)V <",
+                "> Landroidx/lifecycle/n;-><init>()V <",
+                "> Landroidx/work/impl/background/systemalarm/SystemAlarmService;-><init>()V <",
+                "> Landroidx/work/impl/background/systemalarm/b;->e(Landroid/content/Context;)Landroid/content/Intent; <",
+                "> Landroidx/work/impl/background/systemalarm/RescheduleReceiver;->onReceive(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.BOOT_COMPLETED",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/facebook/soloader/SoLoader;->l(Landroid/content/Context;Z)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/campQuality/kidsGuideToCancer/MainApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    }
+}

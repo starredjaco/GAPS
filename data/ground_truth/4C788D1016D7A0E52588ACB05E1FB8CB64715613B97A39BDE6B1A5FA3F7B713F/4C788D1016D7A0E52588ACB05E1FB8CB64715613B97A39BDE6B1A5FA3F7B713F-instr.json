@@ -1,0 +1,269 @@
+{
+    "Landroidx/appcompat/widget/ResourceManagerInternal;->isVectorDrawable(Landroid/graphics/drawable/Drawable;)Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Landroidx/appcompat/widget/ResourceManagerInternal;->checkVectorDrawableSetup(Landroid/content/Context;)V <",
+                "> Landroidx/appcompat/widget/ResourceManagerInternal;->get()Landroidx/appcompat/widget/ResourceManagerInternal; <",
+                "> Landroidx/appcompat/widget/VectorEnabledTintResources;->getDrawable(I)Landroid/graphics/drawable/Drawable; <",
+                "> Landroidx/appcompat/app/AppCompatActivity;->getResources()Landroid/content/res/Resources; <",
+                "> Lcom/pasonabook/PASONA_handbook/MainActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/apache/cordova/ConfigXmlParser;->handleEndTag(Lorg/xmlpull/v1/XmlPullParser;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/apache/cordova/ConfigXmlParser;->parse(Lorg/xmlpull/v1/XmlPullParser;)V <",
+                "> Lorg/apache/cordova/ConfigXmlParser;->parse(Landroid/content/Context;)V <",
+                "> Lorg/apache/cordova/CordovaActivity;->loadConfig()V <",
+                "> Lorg/apache/cordova/CordovaActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/pasonabook/PASONA_handbook/MainActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lkotlin/Pair;->component2()Ljava/lang/Object;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lkotlin/text/DelimitedRangesSequence$iterator$1;->calcNext()V <",
+                "> Lkotlin/text/DelimitedRangesSequence$iterator$1;->hasNext()Z <",
+                "> Lorg/apache/cordova/PluginManager;->onConfigurationChanged(Landroid/content/res/Configuration;)V <",
+                "> Lorg/apache/cordova/CordovaActivity;->onConfigurationChanged(Landroid/content/res/Configuration;)V <",
+                "> Lcom/pasonabook/PASONA_handbook/MainActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/apache/cordova/CordovaPlugin;->onPause(Z)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/apache/cordova/PluginManager;->onPause(Z)V <",
+                "> Lorg/apache/cordova/CordovaWebViewImpl;->handlePause(Z)V <",
+                "> Lorg/apache/cordova/CordovaActivity;->makeWebView()Lorg/apache/cordova/CordovaWebView; <",
+                "> Lorg/apache/cordova/CordovaActivity;->init()V <",
+                "> Lorg/apache/cordova/CordovaActivity;->loadUrl(Ljava/lang/String;)V <",
+                "> Lcom/pasonabook/PASONA_handbook/MainActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lkotlin/Pair;->component1()Ljava/lang/Object;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lkotlin/text/DelimitedRangesSequence$iterator$1;->calcNext()V <",
+                "> Lkotlin/text/DelimitedRangesSequence$iterator$1;->hasNext()Z <",
+                "> Lorg/apache/cordova/PluginManager;->onConfigurationChanged(Landroid/content/res/Configuration;)V <",
+                "> Lorg/apache/cordova/CordovaActivity;->onConfigurationChanged(Landroid/content/res/Configuration;)V <",
+                "> Lcom/pasonabook/PASONA_handbook/MainActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lkotlin/jvm/internal/Intrinsics;->checkNotNull(Ljava/lang/Object;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lkotlin/collections/AbstractMap;->getValues()Ljava/util/Collection; <",
+                "> Lkotlin/collections/AbstractMap;->values()Ljava/util/Collection; <",
+                "> Lorg/apache/cordova/PluginManager;->onConfigurationChanged(Landroid/content/res/Configuration;)V <",
+                "> Lorg/apache/cordova/CordovaActivity;->onConfigurationChanged(Landroid/content/res/Configuration;)V <",
+                "> Lcom/pasonabook/PASONA_handbook/MainActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lkotlin/collections/builders/MapBuilder$ValuesItr;->next()Ljava/lang/Object; <",
+                "> Lorg/apache/cordova/PluginManager;->onConfigurationChanged(Landroid/content/res/Configuration;)V <",
+                "> Lorg/apache/cordova/CordovaActivity;->onConfigurationChanged(Landroid/content/res/Configuration;)V <",
+                "> Lcom/pasonabook/PASONA_handbook/MainActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lkotlin/io/LinesSequence$iterator$1;->next()Ljava/lang/String; <",
+                "> Lkotlin/io/LinesSequence$iterator$1;->next()Ljava/lang/Object; <",
+                "> Lorg/apache/cordova/PluginManager;->onConfigurationChanged(Landroid/content/res/Configuration;)V <",
+                "> Lorg/apache/cordova/CordovaActivity;->onConfigurationChanged(Landroid/content/res/Configuration;)V <",
+                "> Lcom/pasonabook/PASONA_handbook/MainActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lkotlin/sequences/FlatteningSequence$iterator$1;->next()Ljava/lang/Object; <",
+                "> Lorg/apache/cordova/PluginManager;->onConfigurationChanged(Landroid/content/res/Configuration;)V <",
+                "> Lorg/apache/cordova/CordovaActivity;->onConfigurationChanged(Landroid/content/res/Configuration;)V <",
+                "> Lcom/pasonabook/PASONA_handbook/MainActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lkotlin/sequences/GeneratorSequence$iterator$1;->calcNext()V <",
+                "> Lkotlin/sequences/GeneratorSequence$iterator$1;->hasNext()Z <",
+                "> Lorg/apache/cordova/PluginManager;->onConfigurationChanged(Landroid/content/res/Configuration;)V <",
+                "> Lorg/apache/cordova/CordovaActivity;->onConfigurationChanged(Landroid/content/res/Configuration;)V <",
+                "> Lcom/pasonabook/PASONA_handbook/MainActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_5": {
+            "call_sequence": [
+                "> Lkotlin/collections/builders/MapBuilder;->get(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lorg/apache/cordova/PluginManager;->getPlugin(Ljava/lang/String;)Lorg/apache/cordova/CordovaPlugin; <",
+                "> Lorg/apache/cordova/CordovaInterfaceImpl;->onCordovaInit(Lorg/apache/cordova/PluginManager;)V <",
+                "> Lorg/apache/cordova/CordovaActivity;->init()V <",
+                "> Lorg/apache/cordova/CordovaActivity;->loadUrl(Ljava/lang/String;)V <",
+                "> Lcom/pasonabook/PASONA_handbook/MainActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Landroidx/lifecycle/ViewTreeLifecycleOwner;->set(Landroid/view/View;Landroidx/lifecycle/LifecycleOwner;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Landroidx/appcompat/app/AppCompatActivity;->initViewTreeOwners()V <",
+                "> Landroidx/appcompat/app/AppCompatActivity;->setContentView(Landroid/view/View;)V <",
+                "> Lcom/pasonabook/PASONA_handbook/MainActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Landroidx/appcompat/app/AppCompatActivity;->initViewTreeOwners()V <",
+                "> Landroidx/appcompat/app/AppCompatActivity;->setContentView(Landroid/view/View; <",
+                "> Lcom/pasonabook/PASONA_handbook/MainActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Landroidx/webkit/WebViewAssetLoader$PathMatcher;->match(Landroid/net/Uri;)Landroidx/webkit/WebViewAssetLoader$PathHandler;": {
+        "path_0": {
+            "call_sequence": [
+                "> Landroidx/webkit/WebViewAssetLoader;->shouldInterceptRequest(Landroid/net/Uri;)Landroid/webkit/WebResourceResponse; <",
+                "> Lorg/apache/cordova/engine/SystemWebViewClient;->shouldInterceptRequest(Landroid/webkit/WebView; <",
+                "> Lorg/apache/cordova/engine/SystemWebView;->init(Lorg/apache/cordova/engine/SystemWebViewEngine; <",
+                "> Lorg/apache/cordova/engine/SystemWebViewEngine;-><init>(Landroid/content/Context; <",
+                "> Lorg/apache/cordova/CordovaWebViewImpl;->createEngine(Landroid/content/Context; <",
+                "> Lorg/apache/cordova/CordovaActivity;->makeWebView()Lorg/apache/cordova/CordovaWebView; <",
+                "> Lorg/apache/cordova/CordovaActivity;->init()V <",
+                "> Lorg/apache/cordova/CordovaActivity;->loadUrl(Ljava/lang/String;)V <",
+                "> Lcom/pasonabook/PASONA_handbook/MainActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Landroidx/appcompat/app/AppCompatActivity;->initDelegate()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Landroidx/appcompat/app/AppCompatActivity;-><init>(I)V <",
+                "> Lcom/pasonabook/PASONA_handbook/MainActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Landroidx/appcompat/app/AppCompatActivity;-><init>()V <",
+                "> Lorg/apache/cordova/CordovaActivity;-><init>()V <",
+                "> Lcom/pasonabook/PASONA_handbook/MainActivity;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Landroidx/appcompat/widget/VectorEnabledTintResources;->isCompatVectorFromResourcesEnabled()Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Landroidx/appcompat/widget/VectorEnabledTintResources;->shouldBeUsed()Z <",
+                "> Landroidx/appcompat/app/AppCompatActivity;->getResources()Landroid/content/res/Resources; <",
+                "> Lcom/pasonabook/PASONA_handbook/MainActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/apache/cordova/PluginManager;->instantiatePlugin(Ljava/lang/String;)Lorg/apache/cordova/CordovaPlugin;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/apache/cordova/PluginManager;->getPlugin(Ljava/lang/String;)Lorg/apache/cordova/CordovaPlugin; <",
+                "> Lorg/apache/cordova/CordovaInterfaceImpl;->onCordovaInit(Lorg/apache/cordova/PluginManager;)V <",
+                "> Lorg/apache/cordova/CordovaActivity;->init()V <",
+                "> Lorg/apache/cordova/CordovaActivity;->loadUrl(Ljava/lang/String;)V <",
+                "> Lcom/pasonabook/PASONA_handbook/MainActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    }
+}

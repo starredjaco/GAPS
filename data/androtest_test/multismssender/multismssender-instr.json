@@ -1,0 +1,2330 @@
+{
+    "Lcom/hectorone/multismssender/PhoneNumberSelection;->findViewById(I)Landroid/view/View;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/hectorone/multismssender/PhoneNumberSelection;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->selectNumbers()V <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender$2;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.hectorone.multismssender.MultiSmsSender",
+                    "contacts"
+                ],
+                [
+                    "com.hectorone.multismssender.MultiSmsSender",
+                    "<unknown>"
+                ],
+                [
+                    "com.hectorone.multismssender.PhoneNumberSelection",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/hectorone/multismssender/MultiSmsSender;->access$102(Lcom/hectorone/multismssender/MultiSmsSender;Z)Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/hectorone/multismssender/MultiSmsSender$1$4;->onClick(Landroid/content/DialogInterface;I)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/hectorone/multismssender/MultiSmsSender$1$3;->onClick(Landroid/content/DialogInterface;I)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/hectorone/multismssender/GroupEditActivity;->setResult(ILandroid/content/Intent;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/hectorone/multismssender/GroupEditActivity$1;->onClick(Landroid/view/View;)V <",
+                "> Lcom/hectorone/multismssender/GroupEditActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/hectorone/multismssender/SelectGroupActivity;->editGroup(Ljava/lang/Long;)V <",
+                "> Lcom/hectorone/multismssender/SelectGroupActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->display_group_list()V <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender$3;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.hectorone.multismssender.MultiSmsSender",
+                    "groups"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.hectorone.multismssender.SelectGroupActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.hectorone.multismssender.GroupEditActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.hectorone.multismssender.GroupEditActivity",
+                    "okGroups"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/hectorone/multismssender/GroupEditActivity$1;->onClick(Landroid/view/View;)V <",
+                "> Lcom/hectorone/multismssender/GroupEditActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/hectorone/multismssender/SelectGroupActivity;->editGroup(Ljava/lang/Long;)V <",
+                "> Lcom/hectorone/multismssender/SelectGroupActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->display_group_list()V <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->onMenuItemSelected(ILandroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.hectorone.multismssender.MultiSmsSender",
+                    "<unknown>"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.hectorone.multismssender.SelectGroupActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.hectorone.multismssender.GroupEditActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.hectorone.multismssender.GroupEditActivity",
+                    "okGroups"
+                ]
+            ]
+        }
+    },
+    "Lcom/hectorone/multismssender/ListEntryActivity;->startManagingCursor(Landroid/database/Cursor;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/hectorone/multismssender/ListEntryActivity;->fillData()V <",
+                "> Lcom/hectorone/multismssender/ListEntryActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/hectorone/multismssender/SelectDeliveryActivity;->onListItemClick(Landroid/widget/ListView;Landroid/view/View;IJ)V <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->display_delivery_list()V <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->onMenuItemSelected(ILandroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.hectorone.multismssender.MultiSmsSender",
+                    "<unknown>"
+                ],
+                [
+                    "com.hectorone.multismssender.SelectDeliveryActivity",
+                    "<unknown>"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.hectorone.multismssender.ListEntryActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/hectorone/multismssender/GroupEditActivity;->reNameGroup()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/hectorone/multismssender/GroupEditActivity;->access$100(Lcom/hectorone/multismssender/GroupEditActivity;)V <",
+                "> Lcom/hectorone/multismssender/GroupEditActivity$1;->onClick(Landroid/view/View;)V <",
+                "> Lcom/hectorone/multismssender/GroupEditActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/hectorone/multismssender/SelectGroupActivity;->editGroup(Ljava/lang/Long;)V <",
+                "> Lcom/hectorone/multismssender/SelectGroupActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->display_group_list()V <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender$3;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.hectorone.multismssender.MultiSmsSender",
+                    "groups"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.hectorone.multismssender.SelectGroupActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.hectorone.multismssender.GroupEditActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.hectorone.multismssender.GroupEditActivity",
+                    "okGroups"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/hectorone/multismssender/GroupEditActivity;->access$100(Lcom/hectorone/multismssender/GroupEditActivity;)V <",
+                "> Lcom/hectorone/multismssender/GroupEditActivity$1;->onClick(Landroid/view/View;)V <",
+                "> Lcom/hectorone/multismssender/GroupEditActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/hectorone/multismssender/SelectGroupActivity;->editGroup(Ljava/lang/Long;)V <",
+                "> Lcom/hectorone/multismssender/SelectGroupActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->display_group_list()V <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->onMenuItemSelected(ILandroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.hectorone.multismssender.MultiSmsSender",
+                    "<unknown>"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.hectorone.multismssender.SelectGroupActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.hectorone.multismssender.GroupEditActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.hectorone.multismssender.GroupEditActivity",
+                    "okGroups"
+                ]
+            ]
+        }
+    },
+    "Lcom/hectorone/multismssender/GroupsDbAdapter;->close()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/hectorone/multismssender/SelectGroupActivity;->onStop()V <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->display_group_list()V <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender$3;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.hectorone.multismssender.MultiSmsSender",
+                    "groups"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/hectorone/multismssender/GroupEditActivity;->onStop()V <",
+                "> Lcom/hectorone/multismssender/SelectGroupActivity;->editGroup(Ljava/lang/Long;)V <",
+                "> Lcom/hectorone/multismssender/SelectGroupActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->display_group_list()V <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender$3;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.hectorone.multismssender.MultiSmsSender",
+                    "groups"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.hectorone.multismssender.SelectGroupActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/hectorone/multismssender/GroupEditActivity;->onStop()V <",
+                "> Lcom/hectorone/multismssender/SelectGroupActivity;->editGroup(Ljava/lang/Long;)V <",
+                "> Lcom/hectorone/multismssender/SelectGroupActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->display_group_list()V <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->onMenuItemSelected(ILandroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.hectorone.multismssender.MultiSmsSender",
+                    "<unknown>"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.hectorone.multismssender.SelectGroupActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/hectorone/multismssender/PhoneNumberSelection$PhoneDataListAdapter;-><init>(Lcom/hectorone/multismssender/PhoneNumberSelection;Landroid/content/Context;ILandroid/database/Cursor;[Ljava/lang/String;[ILjava/util/HashSet;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/hectorone/multismssender/PhoneNumberSelection;->fillData()V <",
+                "> Lcom/hectorone/multismssender/PhoneNumberSelection;->onActivityResult(IILandroid/content/Intent;)V <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->selectNumbers()V <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender$2;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.hectorone.multismssender.MultiSmsSender",
+                    "contacts"
+                ],
+                [
+                    "com.hectorone.multismssender.MultiSmsSender",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/hectorone/multismssender/PhoneNumberSelection;->fillData()V <",
+                "> Lcom/hectorone/multismssender/PhoneNumberSelection;->onMenuItemSelected(ILandroid/view/MenuItem;)Z <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->selectNumbers()V <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender$2;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.hectorone.multismssender.MultiSmsSender",
+                    "contacts"
+                ],
+                [
+                    "com.hectorone.multismssender.MultiSmsSender",
+                    "<unknown>"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.hectorone.multismssender.PhoneNumberSelection",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/hectorone/multismssender/MultiSmsSender;->findViewById(I)Landroid/view/View;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.hectorone.multismssender.MultiSmsSender",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/hectorone/multismssender/PhoneNumberSelection;->setContentView(I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/hectorone/multismssender/PhoneNumberSelection;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->selectNumbers()V <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender$2;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.hectorone.multismssender.MultiSmsSender",
+                    "contacts"
+                ],
+                [
+                    "com.hectorone.multismssender.MultiSmsSender",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/hectorone/multismssender/GroupsDbAdapter;-><init>(Landroid/content/Context;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/hectorone/multismssender/SelectGroupActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->display_group_list()V <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender$3;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.hectorone.multismssender.MultiSmsSender",
+                    "groups"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/hectorone/multismssender/GroupEditActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/hectorone/multismssender/SelectGroupActivity;->editGroup(Ljava/lang/Long;)V <",
+                "> Lcom/hectorone/multismssender/SelectGroupActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->display_group_list()V <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender$3;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.hectorone.multismssender.MultiSmsSender",
+                    "groups"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.hectorone.multismssender.SelectGroupActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.hectorone.multismssender.GroupEditActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/hectorone/multismssender/GroupEditActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/hectorone/multismssender/SelectGroupActivity;->editGroup(Ljava/lang/Long;)V <",
+                "> Lcom/hectorone/multismssender/SelectGroupActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->display_group_list()V <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->onMenuItemSelected(ILandroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.hectorone.multismssender.MultiSmsSender",
+                    "<unknown>"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.hectorone.multismssender.SelectGroupActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.hectorone.multismssender.GroupEditActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/hectorone/multismssender/GroupEditActivity;->finish()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/hectorone/multismssender/GroupEditActivity$1;->onClick(Landroid/view/View;)V <",
+                "> Lcom/hectorone/multismssender/GroupEditActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/hectorone/multismssender/SelectGroupActivity;->editGroup(Ljava/lang/Long;)V <",
+                "> Lcom/hectorone/multismssender/SelectGroupActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->display_group_list()V <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender$3;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.hectorone.multismssender.MultiSmsSender",
+                    "groups"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.hectorone.multismssender.SelectGroupActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.hectorone.multismssender.GroupEditActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.hectorone.multismssender.GroupEditActivity",
+                    "okGroups"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/hectorone/multismssender/GroupEditActivity$1;->onClick(Landroid/view/View;)V <",
+                "> Lcom/hectorone/multismssender/GroupEditActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/hectorone/multismssender/SelectGroupActivity;->editGroup(Ljava/lang/Long;)V <",
+                "> Lcom/hectorone/multismssender/SelectGroupActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->display_group_list()V <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->onMenuItemSelected(ILandroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.hectorone.multismssender.MultiSmsSender",
+                    "<unknown>"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.hectorone.multismssender.SelectGroupActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.hectorone.multismssender.GroupEditActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.hectorone.multismssender.GroupEditActivity",
+                    "okGroups"
+                ]
+            ]
+        }
+    },
+    "Lcom/hectorone/multismssender/MultiSmsSender$1;-><init>(Lcom/hectorone/multismssender/MultiSmsSender;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/hectorone/multismssender/MultiSmsSender;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/hectorone/multismssender/GroupEditActivity$addNumberToGroupClickListener;-><init>(Lcom/hectorone/multismssender/GroupEditActivity;Ljava/lang/Long;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/hectorone/multismssender/GroupEditActivity$GroupDataListAdapter;->getView(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View; <",
+                "> Lcom/hectorone/multismssender/GroupEditActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/hectorone/multismssender/SelectGroupActivity;->editGroup(Ljava/lang/Long;)V <",
+                "> Lcom/hectorone/multismssender/SelectGroupActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->display_group_list()V <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender$3;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.hectorone.multismssender.MultiSmsSender",
+                    "groups"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.hectorone.multismssender.SelectGroupActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.hectorone.multismssender.GroupEditActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/hectorone/multismssender/GroupEditActivity$GroupDataListAdapter;->getView(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View; <",
+                "> Lcom/hectorone/multismssender/GroupEditActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/hectorone/multismssender/SelectGroupActivity;->editGroup(Ljava/lang/Long;)V <",
+                "> Lcom/hectorone/multismssender/SelectGroupActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->display_group_list()V <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->onMenuItemSelected(ILandroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.hectorone.multismssender.MultiSmsSender",
+                    "<unknown>"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.hectorone.multismssender.SelectGroupActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.hectorone.multismssender.GroupEditActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/hectorone/multismssender/PhoneNumberSelection$PhoneDataListAdapter$1;-><init>(Lcom/hectorone/multismssender/PhoneNumberSelection$PhoneDataListAdapter;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/hectorone/multismssender/PhoneNumberSelection$PhoneDataListAdapter;->getView(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View; <",
+                "> Lcom/hectorone/multismssender/PhoneNumberSelection;->fillData()V <",
+                "> Lcom/hectorone/multismssender/PhoneNumberSelection;->onActivityResult(IILandroid/content/Intent;)V <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->selectNumbers()V <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender$2;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.hectorone.multismssender.MultiSmsSender",
+                    "contacts"
+                ],
+                [
+                    "com.hectorone.multismssender.MultiSmsSender",
+                    "<unknown>"
+                ],
+                [
+                    "com.hectorone.multismssender.PhoneNumberSelection",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/hectorone/multismssender/PhoneNumberSelection$PhoneDataListAdapter;->getView(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View; <",
+                "> Lcom/hectorone/multismssender/PhoneNumberSelection;->fillData()V <",
+                "> Lcom/hectorone/multismssender/PhoneNumberSelection;->onMenuItemSelected(ILandroid/view/MenuItem;)Z <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->selectNumbers()V <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender$2;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.hectorone.multismssender.MultiSmsSender",
+                    "contacts"
+                ],
+                [
+                    "com.hectorone.multismssender.MultiSmsSender",
+                    "<unknown>"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.hectorone.multismssender.PhoneNumberSelection",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/hectorone/multismssender/GroupEditActivity;->getIntent()Landroid/content/Intent;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/hectorone/multismssender/GroupEditActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/hectorone/multismssender/SelectGroupActivity;->editGroup(Ljava/lang/Long;)V <",
+                "> Lcom/hectorone/multismssender/SelectGroupActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->display_group_list()V <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender$3;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.hectorone.multismssender.MultiSmsSender",
+                    "groups"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.hectorone.multismssender.SelectGroupActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.hectorone.multismssender.GroupEditActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/hectorone/multismssender/GroupEditActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/hectorone/multismssender/SelectGroupActivity;->editGroup(Ljava/lang/Long;)V <",
+                "> Lcom/hectorone/multismssender/SelectGroupActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->display_group_list()V <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->onMenuItemSelected(ILandroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.hectorone.multismssender.MultiSmsSender",
+                    "<unknown>"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.hectorone.multismssender.SelectGroupActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.hectorone.multismssender.GroupEditActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/hectorone/multismssender/SelectGroupActivity;->setResult(ILandroid/content/Intent;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/hectorone/multismssender/SelectGroupActivity;->onListItemClick(Landroid/widget/ListView;Landroid/view/View;IJ)V <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->display_group_list()V <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender$3;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.hectorone.multismssender.MultiSmsSender",
+                    "groups"
+                ],
+                [
+                    "com.hectorone.multismssender.SelectGroupActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/hectorone/multismssender/PhoneNumberSelection;->setListAdapter(Landroid/widget/ListAdapter;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/hectorone/multismssender/PhoneNumberSelection;->fillData()V <",
+                "> Lcom/hectorone/multismssender/PhoneNumberSelection;->onActivityResult(IILandroid/content/Intent;)V <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->selectNumbers()V <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender$2;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.hectorone.multismssender.MultiSmsSender",
+                    "contacts"
+                ],
+                [
+                    "com.hectorone.multismssender.MultiSmsSender",
+                    "<unknown>"
+                ],
+                [
+                    "com.hectorone.multismssender.PhoneNumberSelection",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/hectorone/multismssender/PhoneNumberSelection;->fillData()V <",
+                "> Lcom/hectorone/multismssender/PhoneNumberSelection;->onMenuItemSelected(ILandroid/view/MenuItem;)Z <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->selectNumbers()V <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender$2;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.hectorone.multismssender.MultiSmsSender",
+                    "contacts"
+                ],
+                [
+                    "com.hectorone.multismssender.MultiSmsSender",
+                    "<unknown>"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.hectorone.multismssender.PhoneNumberSelection",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/hectorone/multismssender/GroupsDbAdapter;->updateGroup(JLjava/lang/String;)Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/hectorone/multismssender/GroupEditActivity;->reNameGroup()V <",
+                "> Lcom/hectorone/multismssender/GroupEditActivity;->access$100(Lcom/hectorone/multismssender/GroupEditActivity;)V <",
+                "> Lcom/hectorone/multismssender/GroupEditActivity$1;->onClick(Landroid/view/View;)V <",
+                "> Lcom/hectorone/multismssender/GroupEditActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/hectorone/multismssender/SelectGroupActivity;->editGroup(Ljava/lang/Long;)V <",
+                "> Lcom/hectorone/multismssender/SelectGroupActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->display_group_list()V <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender$3;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.hectorone.multismssender.MultiSmsSender",
+                    "groups"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.hectorone.multismssender.SelectGroupActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.hectorone.multismssender.GroupEditActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.hectorone.multismssender.GroupEditActivity",
+                    "okGroups"
+                ],
+                [
+                    "com.hectorone.multismssender.GroupEditActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/hectorone/multismssender/GroupEditActivity;->reNameGroup()V <",
+                "> Lcom/hectorone/multismssender/GroupEditActivity;->access$100(Lcom/hectorone/multismssender/GroupEditActivity;)V <",
+                "> Lcom/hectorone/multismssender/GroupEditActivity$1;->onClick(Landroid/view/View;)V <",
+                "> Lcom/hectorone/multismssender/GroupEditActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/hectorone/multismssender/SelectGroupActivity;->editGroup(Ljava/lang/Long;)V <",
+                "> Lcom/hectorone/multismssender/SelectGroupActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->display_group_list()V <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->onMenuItemSelected(ILandroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.hectorone.multismssender.MultiSmsSender",
+                    "<unknown>"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.hectorone.multismssender.SelectGroupActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.hectorone.multismssender.GroupEditActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.hectorone.multismssender.GroupEditActivity",
+                    "okGroups"
+                ],
+                [
+                    "com.hectorone.multismssender.GroupEditActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/hectorone/multismssender/SelectDeliveryActivity;->getListView()Landroid/widget/ListView;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/hectorone/multismssender/SelectDeliveryActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->display_delivery_list()V <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->onMenuItemSelected(ILandroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.hectorone.multismssender.MultiSmsSender",
+                    "<unknown>"
+                ],
+                [
+                    "com.hectorone.multismssender.SelectDeliveryActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/hectorone/multismssender/SelectDeliveryActivity;->setContentView(I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/hectorone/multismssender/SelectDeliveryActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->display_delivery_list()V <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->onMenuItemSelected(ILandroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.hectorone.multismssender.MultiSmsSender",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/hectorone/multismssender/GroupEditActivity;->access$000(Lcom/hectorone/multismssender/GroupEditActivity;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/hectorone/multismssender/GroupEditActivity$addNumberToGroupClickListener;->onClick(Landroid/view/View;)V <",
+                "> Lcom/hectorone/multismssender/GroupEditActivity$GroupDataListAdapter;->getView(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View; <",
+                "> Lcom/hectorone/multismssender/GroupEditActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/hectorone/multismssender/SelectGroupActivity;->editGroup(Ljava/lang/Long;)V <",
+                "> Lcom/hectorone/multismssender/SelectGroupActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->display_group_list()V <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender$3;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.hectorone.multismssender.MultiSmsSender",
+                    "groups"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.hectorone.multismssender.SelectGroupActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.hectorone.multismssender.GroupEditActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.hectorone.multismssender.GroupEditActivity",
+                    "CheckBox"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/hectorone/multismssender/GroupEditActivity$addNumberToGroupClickListener;->onClick(Landroid/view/View;)V <",
+                "> Lcom/hectorone/multismssender/GroupEditActivity$GroupDataListAdapter;->getView(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View; <",
+                "> Lcom/hectorone/multismssender/GroupEditActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/hectorone/multismssender/SelectGroupActivity;->editGroup(Ljava/lang/Long;)V <",
+                "> Lcom/hectorone/multismssender/SelectGroupActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->display_group_list()V <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->onMenuItemSelected(ILandroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.hectorone.multismssender.MultiSmsSender",
+                    "<unknown>"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.hectorone.multismssender.SelectGroupActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.hectorone.multismssender.GroupEditActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.hectorone.multismssender.GroupEditActivity",
+                    "CheckBox"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/hectorone/multismssender/GroupEditActivity$1;->onClick(Landroid/view/View;)V <",
+                "> Lcom/hectorone/multismssender/GroupEditActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/hectorone/multismssender/SelectGroupActivity;->editGroup(Ljava/lang/Long;)V <",
+                "> Lcom/hectorone/multismssender/SelectGroupActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->display_group_list()V <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender$3;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.hectorone.multismssender.MultiSmsSender",
+                    "groups"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.hectorone.multismssender.SelectGroupActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.hectorone.multismssender.GroupEditActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.hectorone.multismssender.GroupEditActivity",
+                    "okGroups"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/hectorone/multismssender/GroupEditActivity$1;->onClick(Landroid/view/View;)V <",
+                "> Lcom/hectorone/multismssender/GroupEditActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/hectorone/multismssender/SelectGroupActivity;->editGroup(Ljava/lang/Long;)V <",
+                "> Lcom/hectorone/multismssender/SelectGroupActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->display_group_list()V <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->onMenuItemSelected(ILandroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.hectorone.multismssender.MultiSmsSender",
+                    "<unknown>"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.hectorone.multismssender.SelectGroupActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.hectorone.multismssender.GroupEditActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.hectorone.multismssender.GroupEditActivity",
+                    "okGroups"
+                ]
+            ]
+        }
+    },
+    "Lcom/hectorone/multismssender/GroupEditActivity;->setListAdapter(Landroid/widget/ListAdapter;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/hectorone/multismssender/GroupEditActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/hectorone/multismssender/SelectGroupActivity;->editGroup(Ljava/lang/Long;)V <",
+                "> Lcom/hectorone/multismssender/SelectGroupActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->display_group_list()V <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender$3;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.hectorone.multismssender.MultiSmsSender",
+                    "groups"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.hectorone.multismssender.SelectGroupActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.hectorone.multismssender.GroupEditActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/hectorone/multismssender/GroupEditActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/hectorone/multismssender/SelectGroupActivity;->editGroup(Ljava/lang/Long;)V <",
+                "> Lcom/hectorone/multismssender/SelectGroupActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->display_group_list()V <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->onMenuItemSelected(ILandroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.hectorone.multismssender.MultiSmsSender",
+                    "<unknown>"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.hectorone.multismssender.SelectGroupActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.hectorone.multismssender.GroupEditActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/hectorone/multismssender/SelectGroupActivity;->setListAdapter(Landroid/widget/ListAdapter;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/hectorone/multismssender/SelectGroupActivity;->fillData()V <",
+                "> Lcom/hectorone/multismssender/SelectGroupActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->display_group_list()V <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender$3;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.hectorone.multismssender.MultiSmsSender",
+                    "groups"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.hectorone.multismssender.SelectGroupActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/hectorone/multismssender/SelectGroupActivity;->fillData()V <",
+                "> Lcom/hectorone/multismssender/SelectGroupActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->display_group_list()V <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->onMenuItemSelected(ILandroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.hectorone.multismssender.MultiSmsSender",
+                    "<unknown>"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.hectorone.multismssender.SelectGroupActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/hectorone/multismssender/ListEntryActivity;->getContentResolver()Landroid/content/ContentResolver;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/hectorone/multismssender/ListEntryActivity;->fillData()V <",
+                "> Lcom/hectorone/multismssender/ListEntryActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/hectorone/multismssender/SelectDeliveryActivity;->onListItemClick(Landroid/widget/ListView;Landroid/view/View;IJ)V <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->display_delivery_list()V <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->onMenuItemSelected(ILandroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.hectorone.multismssender.MultiSmsSender",
+                    "<unknown>"
+                ],
+                [
+                    "com.hectorone.multismssender.SelectDeliveryActivity",
+                    "<unknown>"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.hectorone.multismssender.ListEntryActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/hectorone/multismssender/PhoneNumberSelection;->getIntent()Landroid/content/Intent;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/hectorone/multismssender/PhoneNumberSelection;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->selectNumbers()V <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender$2;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.hectorone.multismssender.MultiSmsSender",
+                    "contacts"
+                ],
+                [
+                    "com.hectorone.multismssender.MultiSmsSender",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/hectorone/multismssender/MultiSmsSender$1$1;-><init>(Lcom/hectorone/multismssender/MultiSmsSender$1;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/hectorone/multismssender/MultiSmsSender$1;->handleMessage(Landroid/os/Message;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/hectorone/multismssender/GroupEditActivity$GroupDataListAdapter$1;-><init>(Lcom/hectorone/multismssender/GroupEditActivity$GroupDataListAdapter;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/hectorone/multismssender/GroupEditActivity$GroupDataListAdapter;->getView(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View; <",
+                "> Lcom/hectorone/multismssender/GroupEditActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/hectorone/multismssender/SelectGroupActivity;->editGroup(Ljava/lang/Long;)V <",
+                "> Lcom/hectorone/multismssender/SelectGroupActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->display_group_list()V <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender$3;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.hectorone.multismssender.MultiSmsSender",
+                    "groups"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.hectorone.multismssender.SelectGroupActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.hectorone.multismssender.GroupEditActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/hectorone/multismssender/GroupEditActivity$GroupDataListAdapter;->getView(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View; <",
+                "> Lcom/hectorone/multismssender/GroupEditActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/hectorone/multismssender/SelectGroupActivity;->editGroup(Ljava/lang/Long;)V <",
+                "> Lcom/hectorone/multismssender/SelectGroupActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->display_group_list()V <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->onMenuItemSelected(ILandroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.hectorone.multismssender.MultiSmsSender",
+                    "<unknown>"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.hectorone.multismssender.SelectGroupActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.hectorone.multismssender.GroupEditActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/hectorone/multismssender/PhoneNumberSelection$addNumberToSelectedClickListener;-><init>(Lcom/hectorone/multismssender/PhoneNumberSelection;Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/hectorone/multismssender/PhoneNumberSelection$PhoneDataListAdapter;->getView(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View; <",
+                "> Lcom/hectorone/multismssender/PhoneNumberSelection;->fillData()V <",
+                "> Lcom/hectorone/multismssender/PhoneNumberSelection;->onActivityResult(IILandroid/content/Intent;)V <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->selectNumbers()V <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender$2;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.hectorone.multismssender.MultiSmsSender",
+                    "contacts"
+                ],
+                [
+                    "com.hectorone.multismssender.MultiSmsSender",
+                    "<unknown>"
+                ],
+                [
+                    "com.hectorone.multismssender.PhoneNumberSelection",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/hectorone/multismssender/PhoneNumberSelection$PhoneDataListAdapter;->getView(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View; <",
+                "> Lcom/hectorone/multismssender/PhoneNumberSelection;->fillData()V <",
+                "> Lcom/hectorone/multismssender/PhoneNumberSelection;->onMenuItemSelected(ILandroid/view/MenuItem;)Z <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->selectNumbers()V <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender$2;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.hectorone.multismssender.MultiSmsSender",
+                    "contacts"
+                ],
+                [
+                    "com.hectorone.multismssender.MultiSmsSender",
+                    "<unknown>"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.hectorone.multismssender.PhoneNumberSelection",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/hectorone/multismssender/GroupsDbAdapter;->removePhoneToGroup(JJ)Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/hectorone/multismssender/GroupEditActivity$addNumberToGroupClickListener;->onClick(Landroid/view/View;)V <",
+                "> Lcom/hectorone/multismssender/GroupEditActivity$GroupDataListAdapter;->getView(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View; <",
+                "> Lcom/hectorone/multismssender/GroupEditActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/hectorone/multismssender/SelectGroupActivity;->editGroup(Ljava/lang/Long;)V <",
+                "> Lcom/hectorone/multismssender/SelectGroupActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->display_group_list()V <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender$3;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.hectorone.multismssender.MultiSmsSender",
+                    "groups"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.hectorone.multismssender.SelectGroupActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.hectorone.multismssender.GroupEditActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.hectorone.multismssender.GroupEditActivity",
+                    "CheckBox"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/hectorone/multismssender/GroupEditActivity$addNumberToGroupClickListener;->onClick(Landroid/view/View;)V <",
+                "> Lcom/hectorone/multismssender/GroupEditActivity$GroupDataListAdapter;->getView(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View; <",
+                "> Lcom/hectorone/multismssender/GroupEditActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/hectorone/multismssender/SelectGroupActivity;->editGroup(Ljava/lang/Long;)V <",
+                "> Lcom/hectorone/multismssender/SelectGroupActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->display_group_list()V <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->onMenuItemSelected(ILandroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.hectorone.multismssender.MultiSmsSender",
+                    "<unknown>"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.hectorone.multismssender.SelectGroupActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.hectorone.multismssender.GroupEditActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.hectorone.multismssender.GroupEditActivity",
+                    "CheckBox"
+                ]
+            ]
+        }
+    },
+    "Lcom/hectorone/multismssender/GroupEditActivity;->startManagingCursor(Landroid/database/Cursor;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/hectorone/multismssender/GroupEditActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/hectorone/multismssender/SelectGroupActivity;->editGroup(Ljava/lang/Long;)V <",
+                "> Lcom/hectorone/multismssender/SelectGroupActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->display_group_list()V <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender$3;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.hectorone.multismssender.MultiSmsSender",
+                    "groups"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.hectorone.multismssender.SelectGroupActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.hectorone.multismssender.GroupEditActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/hectorone/multismssender/GroupEditActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/hectorone/multismssender/SelectGroupActivity;->editGroup(Ljava/lang/Long;)V <",
+                "> Lcom/hectorone/multismssender/SelectGroupActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->display_group_list()V <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->onMenuItemSelected(ILandroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.hectorone.multismssender.MultiSmsSender",
+                    "<unknown>"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.hectorone.multismssender.SelectGroupActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.hectorone.multismssender.GroupEditActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/hectorone/multismssender/GroupEditActivity$GroupDataListAdapter;->getView(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View; <",
+                "> Lcom/hectorone/multismssender/GroupEditActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/hectorone/multismssender/SelectGroupActivity;->editGroup(Ljava/lang/Long;)V <",
+                "> Lcom/hectorone/multismssender/SelectGroupActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->display_group_list()V <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender$3;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.hectorone.multismssender.MultiSmsSender",
+                    "groups"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.hectorone.multismssender.SelectGroupActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.hectorone.multismssender.GroupEditActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/hectorone/multismssender/GroupEditActivity$GroupDataListAdapter;->getView(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View; <",
+                "> Lcom/hectorone/multismssender/GroupEditActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/hectorone/multismssender/SelectGroupActivity;->editGroup(Ljava/lang/Long;)V <",
+                "> Lcom/hectorone/multismssender/SelectGroupActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->display_group_list()V <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->onMenuItemSelected(ILandroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.hectorone.multismssender.MultiSmsSender",
+                    "<unknown>"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.hectorone.multismssender.SelectGroupActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.hectorone.multismssender.GroupEditActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/hectorone/multismssender/MultiSmsSender;->getContentResolver()Landroid/content/ContentResolver;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->createEntryId(Ljava/lang/String;J)J <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->sendMessage(Landroid/os/Handler;)V <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender$MessageSenderThread;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.hectorone.multismssender.MultiSmsSender",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->createMessageId(Ljava/lang/String;I)J <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->sendMessage(Landroid/os/Handler;)V <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender$MessageSenderThread;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.hectorone.multismssender.MultiSmsSender",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->sendMessage(Landroid/os/Handler;)V <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender$MessageSenderThread;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/hectorone/multismssender/MultiSmsSender;->sendMessage(Landroid/os/Handler;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/hectorone/multismssender/MultiSmsSender$MessageSenderThread;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/hectorone/multismssender/MultiSmsSender$MessageSenderThread;->start()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/hectorone/multismssender/MultiSmsSender$4;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.hectorone.multismssender.MultiSmsSender",
+                    "send"
+                ]
+            ]
+        }
+    },
+    "Lcom/hectorone/multismssender/GroupEditActivity;->createGroup()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/hectorone/multismssender/GroupEditActivity;->access$000(Lcom/hectorone/multismssender/GroupEditActivity;)V <",
+                "> Lcom/hectorone/multismssender/GroupEditActivity$1;->onClick(Landroid/view/View;)V <",
+                "> Lcom/hectorone/multismssender/GroupEditActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/hectorone/multismssender/SelectGroupActivity;->editGroup(Ljava/lang/Long;)V <",
+                "> Lcom/hectorone/multismssender/SelectGroupActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->display_group_list()V <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender$3;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.hectorone.multismssender.MultiSmsSender",
+                    "groups"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.hectorone.multismssender.SelectGroupActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.hectorone.multismssender.GroupEditActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.hectorone.multismssender.GroupEditActivity",
+                    "okGroups"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/hectorone/multismssender/GroupEditActivity;->access$000(Lcom/hectorone/multismssender/GroupEditActivity;)V <",
+                "> Lcom/hectorone/multismssender/GroupEditActivity$1;->onClick(Landroid/view/View;)V <",
+                "> Lcom/hectorone/multismssender/GroupEditActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/hectorone/multismssender/SelectGroupActivity;->editGroup(Ljava/lang/Long;)V <",
+                "> Lcom/hectorone/multismssender/SelectGroupActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->display_group_list()V <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->onMenuItemSelected(ILandroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.hectorone.multismssender.MultiSmsSender",
+                    "<unknown>"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.hectorone.multismssender.SelectGroupActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.hectorone.multismssender.GroupEditActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.hectorone.multismssender.GroupEditActivity",
+                    "okGroups"
+                ]
+            ]
+        }
+    },
+    "Lcom/hectorone/multismssender/SelectGroupActivity;->finish()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/hectorone/multismssender/SelectGroupActivity;->onListItemClick(Landroid/widget/ListView;Landroid/view/View;IJ)V <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->display_group_list()V <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender$3;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.hectorone.multismssender.MultiSmsSender",
+                    "groups"
+                ],
+                [
+                    "com.hectorone.multismssender.SelectGroupActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/hectorone/multismssender/ListEntryActivity;->getIntent()Landroid/content/Intent;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/hectorone/multismssender/ListEntryActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/hectorone/multismssender/SelectDeliveryActivity;->onListItemClick(Landroid/widget/ListView;Landroid/view/View;IJ)V <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->display_delivery_list()V <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->onMenuItemSelected(ILandroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.hectorone.multismssender.MultiSmsSender",
+                    "<unknown>"
+                ],
+                [
+                    "com.hectorone.multismssender.SelectDeliveryActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/hectorone/multismssender/MultiSmsSender$4;-><init>(Lcom/hectorone/multismssender/MultiSmsSender;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.hectorone.multismssender.MultiSmsSender",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/hectorone/multismssender/PhoneNumberSelection;->fillData()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/hectorone/multismssender/PhoneNumberSelection;->onActivityResult(IILandroid/content/Intent;)V <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->selectNumbers()V <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender$2;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.hectorone.multismssender.MultiSmsSender",
+                    "contacts"
+                ],
+                [
+                    "com.hectorone.multismssender.MultiSmsSender",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/hectorone/multismssender/PhoneNumberSelection;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->selectNumbers()V <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender$2;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.hectorone.multismssender.MultiSmsSender",
+                    "contacts"
+                ],
+                [
+                    "com.hectorone.multismssender.MultiSmsSender",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/hectorone/multismssender/PhoneNumberSelection;->onMenuItemSelected(ILandroid/view/MenuItem;)Z <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->selectNumbers()V <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender$2;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.hectorone.multismssender.MultiSmsSender",
+                    "contacts"
+                ],
+                [
+                    "com.hectorone.multismssender.MultiSmsSender",
+                    "<unknown>"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.hectorone.multismssender.PhoneNumberSelection",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/hectorone/multismssender/MultiSmsSender;->setContentView(I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/hectorone/multismssender/SelectDeliveryActivity;->startManagingCursor(Landroid/database/Cursor;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/hectorone/multismssender/SelectDeliveryActivity;->fillData()V <",
+                "> Lcom/hectorone/multismssender/SelectDeliveryActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->display_delivery_list()V <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->onMenuItemSelected(ILandroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.hectorone.multismssender.MultiSmsSender",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/hectorone/multismssender/SelectDeliveryActivity;->fillData()V <",
+                "> Lcom/hectorone/multismssender/SelectDeliveryActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->display_delivery_list()V <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->onMenuItemSelected(ILandroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.hectorone.multismssender.MultiSmsSender",
+                    "<unknown>"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.hectorone.multismssender.SelectDeliveryActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/hectorone/multismssender/PhoneNumberSelection;->getContentResolver()Landroid/content/ContentResolver;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/hectorone/multismssender/PhoneNumberSelection;->fillData()V <",
+                "> Lcom/hectorone/multismssender/PhoneNumberSelection;->onActivityResult(IILandroid/content/Intent;)V <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->selectNumbers()V <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender$2;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.hectorone.multismssender.MultiSmsSender",
+                    "contacts"
+                ],
+                [
+                    "com.hectorone.multismssender.MultiSmsSender",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/hectorone/multismssender/PhoneNumberSelection;->fillData()V <",
+                "> Lcom/hectorone/multismssender/PhoneNumberSelection;->onMenuItemSelected(ILandroid/view/MenuItem;)Z <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->selectNumbers()V <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender$2;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.hectorone.multismssender.MultiSmsSender",
+                    "contacts"
+                ],
+                [
+                    "com.hectorone.multismssender.MultiSmsSender",
+                    "<unknown>"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.hectorone.multismssender.PhoneNumberSelection",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/hectorone/multismssender/PhoneNumberSelection;->onMenuItemSelected(ILandroid/view/MenuItem;)Z <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->selectNumbers()V <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender$2;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.hectorone.multismssender.MultiSmsSender",
+                    "contacts"
+                ],
+                [
+                    "com.hectorone.multismssender.MultiSmsSender",
+                    "<unknown>"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.hectorone.multismssender.PhoneNumberSelection",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/hectorone/multismssender/PhoneNumberSelection;->display_group_list()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/hectorone/multismssender/PhoneNumberSelection;->onMenuItemSelected(ILandroid/view/MenuItem;)Z <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->selectNumbers()V <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender$2;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.hectorone.multismssender.MultiSmsSender",
+                    "contacts"
+                ],
+                [
+                    "com.hectorone.multismssender.MultiSmsSender",
+                    "<unknown>"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.hectorone.multismssender.PhoneNumberSelection",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/hectorone/multismssender/GroupsDbAdapter;->fetchPhonesFromGroup(J)Landroid/database/Cursor;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/hectorone/multismssender/GroupEditActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/hectorone/multismssender/SelectGroupActivity;->editGroup(Ljava/lang/Long;)V <",
+                "> Lcom/hectorone/multismssender/SelectGroupActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->display_group_list()V <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender$3;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.hectorone.multismssender.MultiSmsSender",
+                    "groups"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.hectorone.multismssender.SelectGroupActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.hectorone.multismssender.GroupEditActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/hectorone/multismssender/GroupEditActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/hectorone/multismssender/SelectGroupActivity;->editGroup(Ljava/lang/Long;)V <",
+                "> Lcom/hectorone/multismssender/SelectGroupActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->display_group_list()V <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->onMenuItemSelected(ILandroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.hectorone.multismssender.MultiSmsSender",
+                    "<unknown>"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.hectorone.multismssender.SelectGroupActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.hectorone.multismssender.GroupEditActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/hectorone/multismssender/SelectGroupActivity;->onListItemClick(Landroid/widget/ListView;Landroid/view/View;IJ)V <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->display_group_list()V <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender$3;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.hectorone.multismssender.MultiSmsSender",
+                    "groups"
+                ],
+                [
+                    "com.hectorone.multismssender.SelectGroupActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/hectorone/multismssender/MultiSmsSender;->createMessageId(Ljava/lang/String;I)J": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->sendMessage(Landroid/os/Handler;)V <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender$MessageSenderThread;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.hectorone.multismssender.MultiSmsSender",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/hectorone/multismssender/SelectGroupActivity;->getListView()Landroid/widget/ListView;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/hectorone/multismssender/SelectGroupActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->display_group_list()V <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender$3;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.hectorone.multismssender.MultiSmsSender",
+                    "groups"
+                ],
+                [
+                    "com.hectorone.multismssender.SelectGroupActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/hectorone/multismssender/GroupEditActivity;->access$100(Lcom/hectorone/multismssender/GroupEditActivity;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/hectorone/multismssender/GroupEditActivity$1;->onClick(Landroid/view/View;)V <",
+                "> Lcom/hectorone/multismssender/GroupEditActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/hectorone/multismssender/SelectGroupActivity;->editGroup(Ljava/lang/Long;)V <",
+                "> Lcom/hectorone/multismssender/SelectGroupActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->display_group_list()V <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender$3;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.hectorone.multismssender.MultiSmsSender",
+                    "groups"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.hectorone.multismssender.SelectGroupActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.hectorone.multismssender.GroupEditActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.hectorone.multismssender.GroupEditActivity",
+                    "okGroups"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/hectorone/multismssender/GroupEditActivity$1;->onClick(Landroid/view/View;)V <",
+                "> Lcom/hectorone/multismssender/GroupEditActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/hectorone/multismssender/SelectGroupActivity;->editGroup(Ljava/lang/Long;)V <",
+                "> Lcom/hectorone/multismssender/SelectGroupActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->display_group_list()V <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->onMenuItemSelected(ILandroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.hectorone.multismssender.MultiSmsSender",
+                    "<unknown>"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.hectorone.multismssender.SelectGroupActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.hectorone.multismssender.GroupEditActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.hectorone.multismssender.GroupEditActivity",
+                    "okGroups"
+                ]
+            ]
+        }
+    },
+    "Lcom/hectorone/multismssender/GroupsDbAdapter$GroupDbHelper;->close()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/hectorone/multismssender/GroupsDbAdapter;->close()V <",
+                "> Lcom/hectorone/multismssender/SelectGroupActivity;->onStop()V <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->display_group_list()V <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender$3;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.hectorone.multismssender.MultiSmsSender",
+                    "groups"
+                ]
+            ]
+        }
+    },
+    "Lcom/hectorone/multismssender/GroupEditActivity$GroupDataListAdapter;->getCursor()Landroid/database/Cursor;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/hectorone/multismssender/GroupEditActivity$GroupDataListAdapter;->getView(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View; <",
+                "> Lcom/hectorone/multismssender/GroupEditActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/hectorone/multismssender/SelectGroupActivity;->editGroup(Ljava/lang/Long;)V <",
+                "> Lcom/hectorone/multismssender/SelectGroupActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->display_group_list()V <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender$3;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.hectorone.multismssender.MultiSmsSender",
+                    "groups"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.hectorone.multismssender.SelectGroupActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.hectorone.multismssender.GroupEditActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/hectorone/multismssender/GroupEditActivity$GroupDataListAdapter;->getView(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View; <",
+                "> Lcom/hectorone/multismssender/GroupEditActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/hectorone/multismssender/SelectGroupActivity;->editGroup(Ljava/lang/Long;)V <",
+                "> Lcom/hectorone/multismssender/SelectGroupActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->display_group_list()V <",
+                "> Lcom/hectorone/multismssender/MultiSmsSender;->onMenuItemSelected(ILandroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.hectorone.multismssender.MultiSmsSender",
+                    "<unknown>"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.hectorone.multismssender.SelectGroupActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.hectorone.multismssender.GroupEditActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    }
+}

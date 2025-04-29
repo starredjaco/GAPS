@@ -1,0 +1,1403 @@
+{
+    "Lcom/appyet/data/DatabaseHelper;->getWebDao()Lcom/j256/ormlite/dao/Dao;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lm3/f;->g0(J)Lcom/appyet/data/Web; <",
+                "> Li3/r1;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/appyet/activity/MainActivity;->p0(Ljava/lang/String; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lm3/f$x;->a()Ljava/lang/Void; <",
+                "> Lm3/f$x;->call()Ljava/lang/Object; <",
+                "> Lm3/f;->u0()Z <",
+                "> Lcom/appyet/context/ApplicationContext;->h()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/appyet/activity/MainActivity;->s0(Lcom/appyet/view/observablescrollview/Scrollable;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Li3/e0;->onUpOrCancelMotionEvent(Lcom/appyet/view/observablescrollview/ScrollState;)V <",
+                "> Li3/d0$d;->getItem(I)Landroidx/fragment/app/Fragment; <",
+                "> Li3/d0;->onViewCreated(Landroid/view/View; <",
+                "> Lcom/appyet/activity/MainActivity;->c(Ljava/util/List; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/appyet/fragment/i;->onUpOrCancelMotionEvent(Lcom/appyet/view/observablescrollview/ScrollState;)V <",
+                "> Lcom/appyet/fragment/j;->onActivityCreated(Landroid/os/Bundle;)V <",
+                "> Lcom/appyet/activity/MainActivity;->p0(Ljava/lang/String; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lk3/q;->onUpOrCancelMotionEvent(Lcom/appyet/view/observablescrollview/ScrollState;)V <",
+                "> Lk3/p$e;->getItem(I)Landroidx/fragment/app/Fragment; <",
+                "> Lk3/p;->onViewCreated(Landroid/view/View; <",
+                "> Lcom/appyet/activity/MainActivity;->j(Ljava/lang/Long; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/appyet/fragment/h;->onUpOrCancelMotionEvent(Lcom/appyet/view/observablescrollview/ScrollState;)V <",
+                "> Lcom/appyet/fragment/j;->l(Lcom/appyet/entity/mediastore/MediaStoreItem;)V <",
+                "> Lcom/appyet/activity/MainActivity;->p0(Ljava/lang/String; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lcom/appyet/fragment/b;->onUpOrCancelMotionEvent(Lcom/appyet/view/observablescrollview/ScrollState;)V <",
+                "> Lcom/appyet/activity/IntroActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/appyet/activity/MainActivity;->M0()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_5": {
+            "call_sequence": [
+                "> Lcom/appyet/fragment/g;->onUpOrCancelMotionEvent(Lcom/appyet/view/observablescrollview/ScrollState;)V <",
+                "> Lcom/appyet/fragment/j;->l(Lcom/appyet/entity/mediastore/MediaStoreItem;)V <",
+                "> Lcom/appyet/activity/MainActivity;->p0(Ljava/lang/String; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_6": {
+            "call_sequence": [
+                "> Li3/e;->onUpOrCancelMotionEvent(Lcom/appyet/view/observablescrollview/ScrollState;)V <",
+                "> Lcom/appyet/activity/MainActivity;->p0(Ljava/lang/String; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_7": {
+            "call_sequence": [
+                "> Lk3/b;->onUpOrCancelMotionEvent(Lcom/appyet/view/observablescrollview/ScrollState;)V <",
+                "> Lk3/r;->c0(Ljava/lang/Long; <",
+                "> Lk3/l$b;->getItem(I)Landroidx/fragment/app/Fragment; <",
+                "> Lk3/l;->onViewCreated(Landroid/view/View; <",
+                "> Lcom/appyet/activity/forum/ForumProfileActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lk3/q;->j1(Ljava/lang/String;)V <",
+                "> Lk3/q;->e0(Lk3/q; <",
+                "> Lk3/p$e;->getItem(I)Landroidx/fragment/app/Fragment; <",
+                "> Lk3/p;->onViewCreated(Landroid/view/View; <",
+                "> Lcom/appyet/activity/MainActivity;->j(Ljava/lang/Long; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_8": {
+            "call_sequence": [
+                "> Lcom/appyet/fragment/FeedItemFragment;->onUpOrCancelMotionEvent(Lcom/appyet/view/observablescrollview/ScrollState;)V <",
+                "> Lcom/appyet/activity/MainActivity;->p0(Ljava/lang/String; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_9": {
+            "call_sequence": [
+                "> Lcom/appyet/fragment/d;->onUpOrCancelMotionEvent(Lcom/appyet/view/observablescrollview/ScrollState;)V <",
+                "> Li3/z$b;->getItem(I)Landroidx/fragment/app/Fragment; <",
+                "> Li3/z;->onViewCreated(Landroid/view/View; <",
+                "> Lcom/appyet/activity/MainActivity;->B0()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_10": {
+            "call_sequence": [
+                "> Lk3/r;->onUpOrCancelMotionEvent(Lcom/appyet/view/observablescrollview/ScrollState;)V <",
+                "> Lk3/l$b;->getItem(I)Landroidx/fragment/app/Fragment; <",
+                "> Lk3/l;->onViewCreated(Landroid/view/View; <",
+                "> Lcom/appyet/activity/forum/ForumProfileActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lk3/q;->j1(Ljava/lang/String;)V <",
+                "> Lk3/q;->e0(Lk3/q; <",
+                "> Lk3/p$e;->getItem(I)Landroidx/fragment/app/Fragment; <",
+                "> Lk3/p;->onViewCreated(Landroid/view/View; <",
+                "> Lcom/appyet/activity/MainActivity;->j(Ljava/lang/Long; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_11": {
+            "call_sequence": [
+                "> Lcom/appyet/fragment/a;->onUpOrCancelMotionEvent(Lcom/appyet/view/observablescrollview/ScrollState;)V <",
+                "> Li3/e$b;->getItem(I)Landroidx/fragment/app/Fragment; <",
+                "> Li3/e;->onViewCreated(Landroid/view/View; <",
+                "> Lcom/appyet/activity/MainActivity;->p0(Ljava/lang/String; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/appyet/fragment/FeedItemFragment;->E(Lcom/appyet/fragment/FeedItemFragment;)Lcom/appyet/view/observablescrollview/ObservableRecyclerView;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/appyet/fragment/FeedItemFragment$f;->onClick(Landroid/content/DialogInterface; <",
+                "> Lcom/appyet/fragment/FeedItemFragment;->L0()V <",
+                "> Lcom/appyet/fragment/FeedItemFragment;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/appyet/activity/MainActivity;->p0(Ljava/lang/String; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.appyet.activity.MainActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/appyet/activity/MainActivity;->o0(Ljava/lang/String;Ljava/lang/Long;Ljava/lang/String;Z)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/appyet/activity/MainActivity;->z0()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/appyet/activity/MainActivity;->q0(Landroid/content/Intent;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/appyet/activity/MainActivity;->onActivityResult(I <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/appyet/fragment/FeedItemFragment;->D0(Ljava/util/List;ZZ)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/appyet/fragment/FeedItemFragment;->q(Ljava/lang/String;)V <",
+                "> Lcom/appyet/activity/MainActivity;->p0(Ljava/lang/String; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/appyet/fragment/FeedItemFragment;->onConfigurationChanged(Landroid/content/res/Configuration;)V <",
+                "> Lcom/appyet/activity/MainActivity;->p0(Ljava/lang/String; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/appyet/fragment/FeedItemFragment;->X(Lcom/appyet/fragment/FeedItemFragment; <",
+                "> Lcom/appyet/activity/MainActivity;->p0(Ljava/lang/String; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/appyet/activity/MainActivity;->Q0(Lc3/c;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Li3/d0;->onActivityCreated(Landroid/os/Bundle;)V <",
+                "> Lcom/appyet/activity/MainActivity;->c(Ljava/util/List; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lk3/p;->onViewCreated(Landroid/view/View; <",
+                "> Lcom/appyet/activity/MainActivity;->j(Ljava/lang/Long; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/appyet/context/ApplicationContext;->r()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/appyet/context/ApplicationContext;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/appyet/data/DatabaseHelper;->getFileCacheDao()Lcom/j256/ormlite/dao/Dao;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lm3/f$k;->a()Ljava/lang/Void; <",
+                "> Lm3/f$k;->call()Ljava/lang/Object; <",
+                "> Lm3/f;->o()Z <",
+                "> Lm3/f$x;->a()Ljava/lang/Void; <",
+                "> Lm3/f$x;->call()Ljava/lang/Object; <",
+                "> Lm3/f;->u0()Z <",
+                "> Lcom/appyet/context/ApplicationContext;->h()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lm3/f;->I()Ljava/util/List; <",
+                "> Li3/d0;->onActivityResult(I <",
+                "> Lcom/appyet/activity/MainActivity;->c(Ljava/util/List; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/appyet/activity/MainActivity;->i()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/appyet/activity/MainActivity;->r0()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/appyet/data/Feed;->getWebLink()Ljava/lang/String;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/appyet/data/Feed;->applyChange(Lcom/appyet/data/Feed;)V <",
+                "> Lcom/appyet/data/DatabaseHelper;->getFeedDao()Lcom/j256/ormlite/dao/Dao; <",
+                "> Lm3/f;->A(J)Lcom/appyet/data/Feed; <",
+                "> Lcom/appyet/activity/MainActivity;->q0(Landroid/content/Intent;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/appyet/data/Feed;->applyChange(Lcom/appyet/data/Feed;)V <",
+                "> Lcom/appyet/data/DatabaseHelper;->getFeedDao()Lcom/j256/ormlite/dao/Dao; <",
+                "> Lm3/f;->b()V <",
+                "> Lcom/appyet/context/ApplicationContext;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/appyet/data/Feed;->applyChange(Lcom/appyet/data/Feed;)V <",
+                "> Lcom/appyet/data/DatabaseHelper;->getFeedDao()Lcom/j256/ormlite/dao/Dao; <",
+                "> Lm3/f;->i0(J)Ljava/util/List; <",
+                "> Lcom/appyet/provider/WidgetProvider;->d(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.appwidget.action.APPWIDGET_UPDATE",
+                    "start -a"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/appyet/data/Feed;->getFavIconUrl()Ljava/lang/String; <",
+                "> Lcom/appyet/context/ApplicationContext;->i(Lcom/appyet/data/Module; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lcom/appyet/data/Feed;->getFavIconUrl()Ljava/lang/String; <",
+                "> Lcom/appyet/data/DatabaseHelper;->getFeedDao()Lcom/j256/ormlite/dao/Dao; <",
+                "> Lm3/f;->i0(J)Ljava/util/List; <",
+                "> Lcom/appyet/provider/WidgetProvider;->d(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.appwidget.action.APPWIDGET_UPDATE",
+                    "start -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/appyet/data/Feed;->setTitle(Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/appyet/data/Feed;->applyChange(Lcom/appyet/data/Feed;)V <",
+                "> Lcom/appyet/data/DatabaseHelper;->getFeedDao()Lcom/j256/ormlite/dao/Dao; <",
+                "> Lm3/f;->A(J)Lcom/appyet/data/Feed; <",
+                "> Lcom/appyet/activity/MainActivity;->q0(Landroid/content/Intent;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/appyet/data/Feed;->applyChange(Lcom/appyet/data/Feed;)V <",
+                "> Lcom/appyet/data/DatabaseHelper;->getFeedDao()Lcom/j256/ormlite/dao/Dao; <",
+                "> Lm3/f;->b()V <",
+                "> Lcom/appyet/context/ApplicationContext;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/appyet/data/Feed;->applyChange(Lcom/appyet/data/Feed;)V <",
+                "> Lcom/appyet/data/DatabaseHelper;->getFeedDao()Lcom/j256/ormlite/dao/Dao; <",
+                "> Lm3/f;->i0(J)Ljava/util/List; <",
+                "> Lcom/appyet/provider/WidgetProvider;->d(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.appwidget.action.APPWIDGET_UPDATE",
+                    "start -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/appyet/exoplayer/ExoDownLoadManger;->getDownloadManager()Lcom/google/android/exoplayer2/offline/DownloadManager;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/appyet/exoplayer/ExoDownloadService;->getDownloadManager()Lcom/google/android/exoplayer2/offline/DownloadManager; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.google.android.exoplayer.downloadService.action.RESTART",
+                    "start-service -a"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/appyet/fragment/ExoMediaPlayerFragment;->onActivityCreated(Landroid/os/Bundle;)V <",
+                "> Lm3/h;->b()Lcom/appyet/fragment/ExoMediaPlayerFragment; <",
+                "> Lm3/h;->g(Landroidx/fragment/app/i;)Lcom/appyet/fragment/ExoMediaPlayerFragment; <",
+                "> Lcom/appyet/activity/MainActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/appyet/data/Module;->setIsHomeLauncherVisible(Z)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lm3/f$x;->a()Ljava/lang/Void; <",
+                "> Lm3/f$x;->call()Ljava/lang/Object; <",
+                "> Lm3/f;->u0()Z <",
+                "> Lcom/appyet/context/ApplicationContext;->h()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/appyet/data/Feed;->setEncoding(Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/appyet/data/Feed;->applyChange(Lcom/appyet/data/Feed;)V <",
+                "> Lcom/appyet/data/DatabaseHelper;->getFeedDao()Lcom/j256/ormlite/dao/Dao; <",
+                "> Lm3/f;->A(J)Lcom/appyet/data/Feed; <",
+                "> Lcom/appyet/activity/MainActivity;->q0(Landroid/content/Intent;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/appyet/data/Feed;->applyChange(Lcom/appyet/data/Feed;)V <",
+                "> Lcom/appyet/data/DatabaseHelper;->getFeedDao()Lcom/j256/ormlite/dao/Dao; <",
+                "> Lm3/f;->b()V <",
+                "> Lcom/appyet/context/ApplicationContext;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/appyet/data/Feed;->applyChange(Lcom/appyet/data/Feed;)V <",
+                "> Lcom/appyet/data/DatabaseHelper;->getFeedDao()Lcom/j256/ormlite/dao/Dao; <",
+                "> Lm3/f;->i0(J)Ljava/util/List; <",
+                "> Lcom/appyet/provider/WidgetProvider;->d(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.appwidget.action.APPWIDGET_UPDATE",
+                    "start -a"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lm3/f$x;->a()Ljava/lang/Void; <",
+                "> Lm3/f$x;->call()Ljava/lang/Object; <",
+                "> Lm3/f;->u0()Z <",
+                "> Lcom/appyet/context/ApplicationContext;->h()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/appyet/context/ApplicationContext;->y()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/appyet/context/ApplicationContext;->onConfigurationChanged(Landroid/content/res/Configuration;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/appyet/context/ApplicationContext;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/appyet/data/FeedItem;->setArticle(Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Li3/d0;->O()V <",
+                "> Li3/d0;->onPause()V <",
+                "> Lcom/appyet/activity/MainActivity;->c(Ljava/util/List; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/appyet/activity/MainActivity;->U(Lcom/appyet/activity/MainActivity;)Lcom/google/android/material/appbar/AppBarLayout;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/appyet/activity/MainActivity$d;->a(Lp8/j;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/appyet/fragment/f;->c(Lcom/appyet/fragment/f;)Lcom/appyet/fragment/f$e;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/appyet/fragment/f$b;->onLongClick(Landroid/view/View;)Z <",
+                "> Lcom/appyet/fragment/f;-><init>(Landroidx/recyclerview/widget/RecyclerView;)V <",
+                "> Lcom/appyet/fragment/f;->f(Landroidx/recyclerview/widget/RecyclerView;)Lcom/appyet/fragment/f; <",
+                "> Lcom/appyet/fragment/FeedItemFragment;->I0()V <",
+                "> Lcom/appyet/fragment/FeedItemFragment;->j0(Z <",
+                "> Lcom/appyet/activity/MainActivity;->p0(Ljava/lang/String; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.appyet.activity.MainActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/appyet/fragment/f$c;->d(Landroid/view/View;)V <",
+                "> Lcom/appyet/fragment/f;-><init>(Landroidx/recyclerview/widget/RecyclerView;)V <",
+                "> Lcom/appyet/fragment/f;->f(Landroidx/recyclerview/widget/RecyclerView;)Lcom/appyet/fragment/f; <",
+                "> Lcom/appyet/fragment/FeedItemFragment;->I0()V <",
+                "> Lcom/appyet/fragment/FeedItemFragment;->j0(Z <",
+                "> Lcom/appyet/activity/MainActivity;->p0(Ljava/lang/String; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/appyet/fragment/FeedItemFragment;->I0()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/appyet/fragment/FeedItemFragment;->j0(Z <",
+                "> Lcom/appyet/activity/MainActivity;->p0(Ljava/lang/String; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/appyet/fragment/f;->b(Lcom/appyet/fragment/f;)Landroidx/recyclerview/widget/RecyclerView;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/appyet/fragment/f$b;->onLongClick(Landroid/view/View;)Z <",
+                "> Lcom/appyet/fragment/f;-><init>(Landroidx/recyclerview/widget/RecyclerView;)V <",
+                "> Lcom/appyet/fragment/f;->f(Landroidx/recyclerview/widget/RecyclerView;)Lcom/appyet/fragment/f; <",
+                "> Lcom/appyet/fragment/FeedItemFragment;->I0()V <",
+                "> Lcom/appyet/fragment/FeedItemFragment;->j0(Z <",
+                "> Lcom/appyet/activity/MainActivity;->p0(Ljava/lang/String; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.appyet.activity.MainActivity",
+                    "<unknown>"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/appyet/fragment/f$a;->onClick(Landroid/view/View;)V <",
+                "> Lcom/appyet/fragment/f;-><init>(Landroidx/recyclerview/widget/RecyclerView;)V <",
+                "> Lcom/appyet/fragment/f;->f(Landroidx/recyclerview/widget/RecyclerView;)Lcom/appyet/fragment/f; <",
+                "> Lcom/appyet/fragment/FeedItemFragment;->I0()V <",
+                "> Lcom/appyet/fragment/FeedItemFragment;->j0(Z <",
+                "> Lcom/appyet/activity/MainActivity;->p0(Ljava/lang/String; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.appyet.activity.MainActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/appyet/context/ApplicationContext;->a()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/appyet/context/ApplicationContext;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/appyet/data/FeedItem;->getThumbnail2()Ljava/lang/String;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/appyet/fragment/adapter/FeedItemAdapter;->getItemViewType(I)I <",
+                "> Lcom/appyet/fragment/FeedItemFragment$s;->getSpanSize(I)I <",
+                "> Lcom/appyet/fragment/FeedItemFragment$o;-><init>(Lcom/appyet/fragment/FeedItemFragment;)V <",
+                "> Lcom/appyet/fragment/FeedItemFragment;-><init>()V <",
+                "> Lcom/appyet/activity/MainActivity;->p0(Ljava/lang/String; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/appyet/fragment/adapter/FeedItemAdapter;->getItemViewType(I)I <",
+                "> Lcom/appyet/fragment/FeedItemFragment$b;->getSpanSize(I)I <",
+                "> Lcom/appyet/fragment/FeedItemFragment$o;-><init>(Lcom/appyet/fragment/FeedItemFragment;)V <",
+                "> Lcom/appyet/fragment/FeedItemFragment;-><init>()V <",
+                "> Lcom/appyet/activity/MainActivity;->p0(Ljava/lang/String; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/appyet/fragment/adapter/FeedItemAdapter;->getItemViewType(I)I <",
+                "> Lcom/appyet/fragment/FeedItemFragment$a;->getSpanSize(I)I <",
+                "> Lcom/appyet/fragment/FeedItemFragment$o;-><init>(Lcom/appyet/fragment/FeedItemFragment;)V <",
+                "> Lcom/appyet/fragment/FeedItemFragment;-><init>()V <",
+                "> Lcom/appyet/activity/MainActivity;->p0(Ljava/lang/String; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/appyet/fragment/adapter/FeedItemAdapter;->getItemViewType(I)I <",
+                "> Lcom/appyet/fragment/FeedItemFragment$u;->getSpanSize(I)I <",
+                "> Lcom/appyet/fragment/FeedItemFragment$p;->onClick(Landroid/view/View;)V <",
+                "> Lcom/appyet/fragment/FeedItemFragment;->onResume()V <",
+                "> Lcom/appyet/activity/MainActivity;->p0(Ljava/lang/String; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.appyet.activity.MainActivity",
+                    "app_bar_search"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lcom/appyet/fragment/adapter/FeedItemAdapter;->getItemViewType(I)I <",
+                "> Lcom/appyet/fragment/FeedItemFragment$t;->getSpanSize(I)I <",
+                "> Lcom/appyet/fragment/FeedItemFragment$p;->onClick(Landroid/view/View;)V <",
+                "> Lcom/appyet/fragment/FeedItemFragment;->onResume()V <",
+                "> Lcom/appyet/activity/MainActivity;->p0(Ljava/lang/String; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.appyet.activity.MainActivity",
+                    "app_bar_search"
+                ]
+            ]
+        },
+        "path_5": {
+            "call_sequence": [
+                "> Lcom/appyet/fragment/adapter/FeedItemAdapter;->getItemViewType(I)I <",
+                "> Lcom/appyet/fragment/FeedItemFragment$s;->getSpanSize(I)I <",
+                "> Lcom/appyet/fragment/FeedItemFragment$p;-><init>(Lcom/appyet/fragment/FeedItemFragment;)V <",
+                "> Lcom/appyet/fragment/FeedItemFragment;->onResume()V <",
+                "> Lcom/appyet/activity/MainActivity;->p0(Ljava/lang/String; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_6": {
+            "call_sequence": [
+                "> Lcom/appyet/fragment/adapter/FeedItemAdapter;->getItemViewType(I)I <",
+                "> Lcom/appyet/fragment/FeedItemFragment$b;->getSpanSize(I)I <",
+                "> Lcom/appyet/fragment/FeedItemFragment$p;-><init>(Lcom/appyet/fragment/FeedItemFragment;)V <",
+                "> Lcom/appyet/fragment/FeedItemFragment;->onResume()V <",
+                "> Lcom/appyet/activity/MainActivity;->p0(Ljava/lang/String; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_7": {
+            "call_sequence": [
+                "> Lcom/appyet/fragment/adapter/FeedItemAdapter;->getItemViewType(I)I <",
+                "> Lcom/appyet/fragment/FeedItemFragment$a;->getSpanSize(I)I <",
+                "> Lcom/appyet/fragment/FeedItemFragment$p;-><init>(Lcom/appyet/fragment/FeedItemFragment;)V <",
+                "> Lcom/appyet/fragment/FeedItemFragment;->onResume()V <",
+                "> Lcom/appyet/activity/MainActivity;->p0(Ljava/lang/String; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_8": {
+            "call_sequence": [
+                "> Lcom/appyet/fragment/adapter/FeedItemAdapter;->getItemViewType(I)I <",
+                "> Lcom/appyet/fragment/FeedItemFragment$u;->getSpanSize(I)I <",
+                "> Lcom/appyet/fragment/FeedItemFragment$l;-><init>(Lcom/appyet/fragment/FeedItemFragment;)V <",
+                "> Lcom/appyet/fragment/FeedItemFragment;->m()V <",
+                "> Lcom/appyet/activity/MainActivity;->p0(Ljava/lang/String; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_9": {
+            "call_sequence": [
+                "> Lcom/appyet/fragment/adapter/FeedItemAdapter;->getItemViewType(I)I <",
+                "> Lcom/appyet/fragment/FeedItemFragment$t;->getSpanSize(I)I <",
+                "> Lcom/appyet/fragment/FeedItemFragment$l;-><init>(Lcom/appyet/fragment/FeedItemFragment;)V <",
+                "> Lcom/appyet/fragment/FeedItemFragment;->m()V <",
+                "> Lcom/appyet/activity/MainActivity;->p0(Ljava/lang/String; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_10": {
+            "call_sequence": [
+                "> Lcom/appyet/fragment/adapter/FeedItemAdapter;->getItemViewType(I)I <",
+                "> Lcom/appyet/fragment/FeedItemFragment$s;->getSpanSize(I)I <",
+                "> Lcom/appyet/fragment/FeedItemFragment$l;->run()V <",
+                "> Lcom/appyet/fragment/FeedItemFragment;->m()V <",
+                "> Lcom/appyet/activity/MainActivity;->p0(Ljava/lang/String; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_11": {
+            "call_sequence": [
+                "> Lcom/appyet/fragment/adapter/FeedItemAdapter;->getItemViewType(I)I <",
+                "> Lcom/appyet/fragment/FeedItemFragment$b;->getSpanSize(I)I <",
+                "> Lcom/appyet/fragment/FeedItemFragment$l;->run()V <",
+                "> Lcom/appyet/fragment/FeedItemFragment;->m()V <",
+                "> Lcom/appyet/activity/MainActivity;->p0(Ljava/lang/String; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_12": {
+            "call_sequence": [
+                "> Lcom/appyet/fragment/adapter/FeedItemAdapter;->getItemViewType(I)I <",
+                "> Lcom/appyet/fragment/FeedItemFragment$a;->getSpanSize(I)I <",
+                "> Lcom/appyet/fragment/FeedItemFragment$l;->run()V <",
+                "> Lcom/appyet/fragment/FeedItemFragment;->m()V <",
+                "> Lcom/appyet/activity/MainActivity;->p0(Ljava/lang/String; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_13": {
+            "call_sequence": [
+                "> Lcom/appyet/fragment/adapter/FeedItemAdapter;->onBindViewHolder(Landroidx/recyclerview/widget/RecyclerView$e0; <",
+                "> Lcom/appyet/fragment/FeedItemFragment;->q(Ljava/lang/String;)V <",
+                "> Lcom/appyet/activity/MainActivity;->p0(Ljava/lang/String; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_14": {
+            "call_sequence": [
+                "> Lcom/appyet/fragment/adapter/FeedItemAdapter;->onBindViewHolder(Landroidx/recyclerview/widget/RecyclerView$e0; <",
+                "> Lcom/appyet/fragment/FeedItemFragment;->onConfigurationChanged(Landroid/content/res/Configuration;)V <",
+                "> Lcom/appyet/activity/MainActivity;->p0(Ljava/lang/String; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_15": {
+            "call_sequence": [
+                "> Lcom/appyet/fragment/adapter/FeedItemAdapter;->onBindViewHolder(Landroidx/recyclerview/widget/RecyclerView$e0; <",
+                "> Lcom/appyet/fragment/FeedItemFragment;->j0(Z <",
+                "> Lcom/appyet/activity/MainActivity;->p0(Ljava/lang/String; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_16": {
+            "call_sequence": [
+                "> Lcom/appyet/fragment/adapter/FeedItemAdapter;->onBindViewHolder(Landroidx/recyclerview/widget/RecyclerView$e0; <",
+                "> Lcom/appyet/fragment/FeedItemFragment;->onResume()V <",
+                "> Lcom/appyet/activity/MainActivity;->p0(Ljava/lang/String; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_17": {
+            "call_sequence": [
+                "> Lcom/appyet/data/FeedItem;->getThumbnailMD52()Ljava/lang/String; <",
+                "> Lcom/appyet/data/DatabaseHelper;->getFeedItemDao()Lcom/j256/ormlite/dao/Dao; <",
+                "> Lm3/f;->e0(Ljava/lang/String;)J <",
+                "> Lcom/appyet/activity/MainActivity$i;->s([Ljava/lang/Void;)Ljava/lang/Void; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_18": {
+            "call_sequence": [
+                "> Lcom/appyet/data/FeedItem;->getThumbnailMD52()Ljava/lang/String; <",
+                "> Lcom/appyet/data/DatabaseHelper;->getFeedItemDao()Lcom/j256/ormlite/dao/Dao; <",
+                "> Lm3/f;->b()V <",
+                "> Lcom/appyet/context/ApplicationContext;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_19": {
+            "call_sequence": [
+                "> Lcom/appyet/data/FeedItem;->getThumbnailMD52()Ljava/lang/String; <",
+                "> Lcom/appyet/data/DatabaseHelper;->getFeedItemDao()Lcom/j256/ormlite/dao/Dao; <",
+                "> Lm3/f;->i0(J)Ljava/util/List; <",
+                "> Lcom/appyet/provider/WidgetProvider;->d(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.appwidget.action.APPWIDGET_UPDATE",
+                    "start -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/appyet/fragment/FeedItemFragment;->H0()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/appyet/fragment/FeedItemFragment;->onResume()V <",
+                "> Lcom/appyet/activity/MainActivity;->p0(Ljava/lang/String; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/appyet/data/Feed;->getModuleId()J": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/appyet/activity/MainActivity$i;->s([Ljava/lang/Void;)Ljava/lang/Void; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/appyet/activity/MainActivity;->q0(Landroid/content/Intent;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/appyet/fragment/adapter/FeedItemAdapter;->onBindViewHolder(Landroidx/recyclerview/widget/RecyclerView$e0; <",
+                "> Lcom/appyet/fragment/FeedItemFragment;->q(Ljava/lang/String;)V <",
+                "> Lcom/appyet/activity/MainActivity;->p0(Ljava/lang/String; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/appyet/fragment/adapter/FeedItemAdapter;->onBindViewHolder(Landroidx/recyclerview/widget/RecyclerView$e0; <",
+                "> Lcom/appyet/fragment/FeedItemFragment;->onConfigurationChanged(Landroid/content/res/Configuration;)V <",
+                "> Lcom/appyet/activity/MainActivity;->p0(Ljava/lang/String; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lcom/appyet/fragment/adapter/FeedItemAdapter;->onBindViewHolder(Landroidx/recyclerview/widget/RecyclerView$e0; <",
+                "> Lcom/appyet/fragment/FeedItemFragment;->j0(Z <",
+                "> Lcom/appyet/activity/MainActivity;->p0(Ljava/lang/String; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_5": {
+            "call_sequence": [
+                "> Lcom/appyet/fragment/adapter/FeedItemAdapter;->onBindViewHolder(Landroidx/recyclerview/widget/RecyclerView$e0; <",
+                "> Lcom/appyet/fragment/FeedItemFragment;->onResume()V <",
+                "> Lcom/appyet/activity/MainActivity;->p0(Ljava/lang/String; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_6": {
+            "call_sequence": [
+                "> Lcom/appyet/fragment/ExoMediaPlayerFragment$c;->onClick(Landroid/view/View;)V <",
+                "> Lcom/appyet/fragment/ExoMediaPlayerFragment;->onActivityCreated(Landroid/os/Bundle;)V <",
+                "> Lm3/h;->b()Lcom/appyet/fragment/ExoMediaPlayerFragment; <",
+                "> Lm3/h;->g(Landroidx/fragment/app/i;)Lcom/appyet/fragment/ExoMediaPlayerFragment; <",
+                "> Lcom/appyet/activity/MainActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.appyet.activity.MainActivity",
+                    "exo_media_player_link"
+                ]
+            ]
+        },
+        "path_7": {
+            "call_sequence": [
+                "> Lcom/appyet/activity/MainActivity$i;->t(Ljava/lang/Void;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_8": {
+            "call_sequence": [
+                "> Lcom/appyet/data/Feed;->applyChange(Lcom/appyet/data/Feed;)V <",
+                "> Lcom/appyet/data/DatabaseHelper;->getFeedDao()Lcom/j256/ormlite/dao/Dao; <",
+                "> Lm3/f;->A(J)Lcom/appyet/data/Feed; <",
+                "> Lcom/appyet/activity/MainActivity;->q0(Landroid/content/Intent;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_9": {
+            "call_sequence": [
+                "> Lcom/appyet/data/Feed;->applyChange(Lcom/appyet/data/Feed;)V <",
+                "> Lcom/appyet/data/DatabaseHelper;->getFeedDao()Lcom/j256/ormlite/dao/Dao; <",
+                "> Lm3/f;->b()V <",
+                "> Lcom/appyet/context/ApplicationContext;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_10": {
+            "call_sequence": [
+                "> Lcom/appyet/data/Feed;->applyChange(Lcom/appyet/data/Feed;)V <",
+                "> Lcom/appyet/data/DatabaseHelper;->getFeedDao()Lcom/j256/ormlite/dao/Dao; <",
+                "> Lm3/f;->i0(J)Ljava/util/List; <",
+                "> Lcom/appyet/provider/WidgetProvider;->d(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.appwidget.action.APPWIDGET_UPDATE",
+                    "start -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/appyet/data/Feed;->getFavIcon()Ljava/lang/String;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/appyet/fragment/adapter/FeedItemAdapter;->onBindViewHolder(Landroidx/recyclerview/widget/RecyclerView$e0; <",
+                "> Lcom/appyet/fragment/FeedItemFragment;->q(Ljava/lang/String;)V <",
+                "> Lcom/appyet/activity/MainActivity;->p0(Ljava/lang/String; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/appyet/fragment/adapter/FeedItemAdapter;->onBindViewHolder(Landroidx/recyclerview/widget/RecyclerView$e0; <",
+                "> Lcom/appyet/fragment/FeedItemFragment;->onConfigurationChanged(Landroid/content/res/Configuration;)V <",
+                "> Lcom/appyet/activity/MainActivity;->p0(Ljava/lang/String; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/appyet/fragment/adapter/FeedItemAdapter;->onBindViewHolder(Landroidx/recyclerview/widget/RecyclerView$e0; <",
+                "> Lcom/appyet/fragment/FeedItemFragment;->j0(Z <",
+                "> Lcom/appyet/activity/MainActivity;->p0(Ljava/lang/String; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/appyet/fragment/adapter/FeedItemAdapter;->onBindViewHolder(Landroidx/recyclerview/widget/RecyclerView$e0; <",
+                "> Lcom/appyet/fragment/FeedItemFragment;->onResume()V <",
+                "> Lcom/appyet/activity/MainActivity;->p0(Ljava/lang/String; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lcom/appyet/fragment/ExoMediaPlayerFragment;->L0(Lcom/appyet/data/FeedItem;)Ljava/util/List; <",
+                "> Lcom/appyet/fragment/ExoMediaPlayerFragment;->E1(Z <",
+                "> Lm3/h;->b()Lcom/appyet/fragment/ExoMediaPlayerFragment; <",
+                "> Lm3/h;->g(Landroidx/fragment/app/i;)Lcom/appyet/fragment/ExoMediaPlayerFragment; <",
+                "> Lcom/appyet/activity/MainActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_5": {
+            "call_sequence": [
+                "> Lcom/appyet/data/Feed;->applyChange(Lcom/appyet/data/Feed;)V <",
+                "> Lcom/appyet/data/DatabaseHelper;->getFeedDao()Lcom/j256/ormlite/dao/Dao; <",
+                "> Lm3/f;->A(J)Lcom/appyet/data/Feed; <",
+                "> Lcom/appyet/activity/MainActivity;->q0(Landroid/content/Intent;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_6": {
+            "call_sequence": [
+                "> Lcom/appyet/data/Feed;->applyChange(Lcom/appyet/data/Feed;)V <",
+                "> Lcom/appyet/data/DatabaseHelper;->getFeedDao()Lcom/j256/ormlite/dao/Dao; <",
+                "> Lm3/f;->b()V <",
+                "> Lcom/appyet/context/ApplicationContext;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_7": {
+            "call_sequence": [
+                "> Lcom/appyet/data/Feed;->applyChange(Lcom/appyet/data/Feed;)V <",
+                "> Lcom/appyet/data/DatabaseHelper;->getFeedDao()Lcom/j256/ormlite/dao/Dao; <",
+                "> Lm3/f;->i0(J)Ljava/util/List; <",
+                "> Lcom/appyet/provider/WidgetProvider;->d(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.appwidget.action.APPWIDGET_UPDATE",
+                    "start -a"
+                ]
+            ]
+        },
+        "path_8": {
+            "call_sequence": [
+                "> Lcom/appyet/data/Feed;->getFavIconUrl()Ljava/lang/String; <",
+                "> Lcom/appyet/context/ApplicationContext;->i(Lcom/appyet/data/Module; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_9": {
+            "call_sequence": [
+                "> Lcom/appyet/data/Feed;->getFavIconUrl()Ljava/lang/String; <",
+                "> Lcom/appyet/data/DatabaseHelper;->getFeedDao()Lcom/j256/ormlite/dao/Dao; <",
+                "> Lm3/f;->i0(J)Ljava/util/List; <",
+                "> Lcom/appyet/provider/WidgetProvider;->d(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.appwidget.action.APPWIDGET_UPDATE",
+                    "start -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/appyet/data/Feed;->getImageLink()Ljava/lang/String;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/appyet/data/Feed;->getImageLinkMD5()Ljava/lang/String; <",
+                "> Lcom/appyet/data/DatabaseHelper;->getFeedDao()Lcom/j256/ormlite/dao/Dao; <",
+                "> Lm3/f;->A(J)Lcom/appyet/data/Feed; <",
+                "> Lcom/appyet/activity/MainActivity;->q0(Landroid/content/Intent;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Lcom/appyet/data/Feed;->getImageLinkMD5()Ljava/lang/String; <",
+                "> Lcom/appyet/data/DatabaseHelper;->getFeedDao()Lcom/j256/ormlite/dao/Dao; <",
+                "> Lm3/f;->b()V <",
+                "> Lcom/appyet/context/ApplicationContext;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Lcom/appyet/data/Feed;->getImageLinkMD5()Ljava/lang/String; <",
+                "> Lcom/appyet/data/DatabaseHelper;->getFeedDao()Lcom/j256/ormlite/dao/Dao; <",
+                "> Lm3/f;->i0(J)Ljava/util/List; <",
+                "> Lcom/appyet/provider/WidgetProvider;->d(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.appwidget.action.APPWIDGET_UPDATE",
+                    "start -a"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Lcom/appyet/context/ApplicationContext;->i(Lcom/appyet/data/Module; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_4": {
+            "call_sequence": [
+                "> Lcom/appyet/fragment/ExoMediaPlayerFragment;->L0(Lcom/appyet/data/FeedItem;)Ljava/util/List; <",
+                "> Lcom/appyet/fragment/ExoMediaPlayerFragment;->E1(Z <",
+                "> Lm3/h;->b()Lcom/appyet/fragment/ExoMediaPlayerFragment; <",
+                "> Lm3/h;->g(Landroidx/fragment/app/i;)Lcom/appyet/fragment/ExoMediaPlayerFragment; <",
+                "> Lcom/appyet/activity/MainActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_5": {
+            "call_sequence": [
+                "> Lcom/appyet/data/Feed;->applyChange(Lcom/appyet/data/Feed;)V <",
+                "> Lcom/appyet/data/DatabaseHelper;->getFeedDao()Lcom/j256/ormlite/dao/Dao; <",
+                "> Lm3/f;->A(J)Lcom/appyet/data/Feed; <",
+                "> Lcom/appyet/activity/MainActivity;->q0(Landroid/content/Intent;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_6": {
+            "call_sequence": [
+                "> Lcom/appyet/data/Feed;->applyChange(Lcom/appyet/data/Feed;)V <",
+                "> Lcom/appyet/data/DatabaseHelper;->getFeedDao()Lcom/j256/ormlite/dao/Dao; <",
+                "> Lm3/f;->b()V <",
+                "> Lcom/appyet/context/ApplicationContext;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_7": {
+            "call_sequence": [
+                "> Lcom/appyet/data/Feed;->applyChange(Lcom/appyet/data/Feed;)V <",
+                "> Lcom/appyet/data/DatabaseHelper;->getFeedDao()Lcom/j256/ormlite/dao/Dao; <",
+                "> Lm3/f;->i0(J)Ljava/util/List; <",
+                "> Lcom/appyet/provider/WidgetProvider;->d(Landroid/content/Context; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.appwidget.action.APPWIDGET_UPDATE",
+                    "start -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/appyet/data/Module;->setSortOrder(I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lm3/f$x;->a()Ljava/lang/Void; <",
+                "> Lm3/f$x;->call()Ljava/lang/Object; <",
+                "> Lm3/f;->u0()Z <",
+                "> Lcom/appyet/context/ApplicationContext;->h()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    }
+}

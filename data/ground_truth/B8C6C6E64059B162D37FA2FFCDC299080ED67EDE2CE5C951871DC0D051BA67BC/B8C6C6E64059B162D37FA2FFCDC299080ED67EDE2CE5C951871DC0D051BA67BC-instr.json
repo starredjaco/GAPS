@@ -1,0 +1,148 @@
+{
+    "Ljp/co/trustbank/furusatolocalcurrencyuser/model/storage/PreferenceAccessor;->setNotUpdateFlag(Z)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Ljp/co/trustbank/furusatolocalcurrencyuser/view/activity/MainActivity;->onActivityResult(I <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Ljp/co/trustbank/furusatolocalcurrencyuser/view/activity/MainActivity;->executeShowUpdateDialog(Landroidx/fragment/app/Fragment;)V <",
+                "> Ljp/co/trustbank/furusatolocalcurrencyuser/view/activity/MainActivity;->checkVersion(Ljp/co/trustbank/furusatolocalcurrencyuser/view/fragment/BaseFragment$CheckVersionEvent;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_2": {
+            "call_sequence": [
+                "> Ljp/co/trustbank/furusatolocalcurrencyuser/view/activity/MainActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_3": {
+            "call_sequence": [
+                "> Ljp/co/trustbank/furusatolocalcurrencyuser/view/activity/MainActivity;->onRestart()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Ljp/co/trustbank/furusatolocalcurrencyuser/viewmodel/activity/MainActivityViewModel;->setDrawerClickable(Z)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Ljp/co/trustbank/furusatolocalcurrencyuser/view/activity/MainActivity$2;->onDrawerStateChanged(I)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Ljp/co/trustbank/furusatolocalcurrencyuser/view/activity/MainActivity;->onPause()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Ljp/co/trustbank/furusatolocalcurrencyuser/view/activity/MainActivity;->setFingerPrint()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Ljp/co/trustbank/furusatolocalcurrencyuser/view/activity/MainActivity;->onPause()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Ljp/co/trustbank/furusatolocalcurrencyuser/view/activity/MainActivity;->onStart()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Ljp/co/trustbank/furusatolocalcurrencyuser/view/activity/BaseActivity;->onResume()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Ljp/co/trustbank/furusatolocalcurrencyuser/view/activity/MainActivity;->onResume()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Ljp/co/trustbank/furusatolocalcurrencyuser/model/di/DaggerAppComponent$Builder;->build()Ljp/co/trustbank/furusatolocalcurrencyuser/model/di/AppComponent;": {
+        "path_0": {
+            "call_sequence": [
+                "> Ljp/co/trustbank/furusatolocalcurrencyuser/application/ApplicationController;->buildAppComponent()Ljp/co/trustbank/furusatolocalcurrencyuser/model/di/AppComponent; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Ljp/co/trustbank/furusatolocalcurrencyuser/model/storage/PreferenceAccessor;->getNotPinAuthFlag()Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Ljp/co/trustbank/furusatolocalcurrencyuser/view/activity/MainActivity;->onStart()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Ljp/co/trustbank/furusatolocalcurrencyuser/view/activity/MainActivity;->onPause()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Ljp/co/trustbank/furusatolocalcurrencyuser/model/storage/PreferenceAccessor;->setProgress(Z)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Ljp/co/trustbank/furusatolocalcurrencyuser/viewmodel/activity/MainActivityViewModel;->showProgressBar(Z)V <",
+                "> Ljp/co/trustbank/furusatolocalcurrencyuser/view/activity/MainActivity;->setProgressBar(Ljp/co/trustbank/furusatolocalcurrencyuser/viewmodel/base/FragmentViewModel$ShowProgressEvent;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    }
+}

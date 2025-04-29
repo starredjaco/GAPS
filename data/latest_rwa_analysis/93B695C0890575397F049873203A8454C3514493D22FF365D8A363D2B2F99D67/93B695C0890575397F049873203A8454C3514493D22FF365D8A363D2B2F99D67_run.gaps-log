@@ -1,0 +1,28 @@
+could not hook Lcom/fanduel/sportsbook/reactnative/viewBridge/casino/UtilsKt;->toWritableMap(Ljava/util/Map;)Lcom/facebook/react/bridge/WritableMap; 
+ could not hook Lcom/fanduel/sportsbook/reactnative/viewBridge/casino/CasinoLobbyUseCase$loginRequested$1;-><init>(Lcom/fanduel/sportsbook/reactnative/viewBridge/casino/CasinoLobbyUseCase;)V 
+ could not hook Lcom/fanduel/sportsbook/core/location/LocationPresenter;->onCreate(Landroidx/fragment/app/FragmentActivity;)V 
+ could not hook Lcom/fanduel/sportsbook/config/AppLifecycleObserver;-><init>(Lcom/fanduel/android/core/FutureEventBus;)V 
+ could not hook Lcom/fanduel/sportsbook/analytics/wrappers/IDataDogWrapper;->isInitialized()Z 
+ could not hook Lcom/fanduel/sportsbook/flows/FoundGeolocation;->getState()Ljava/lang/String; 
+ could not hook Lcom/fanduel/sportsbook/di/PermissionsModule_ProvidesPermissionUseCaseFactory;-><init>(Lcom/fanduel/sportsbook/di/PermissionsModule;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)V 
+ could not hook Lcom/fanduel/sportsbook/analytics/providers/AFLifecycleCallbacks$Companion;-><init>()V 
+ could not hook Lcom/fanduel/sportsbook/flows/gan/RealityCheckDialog$Companion;-><init>(Lkotlin/jvm/internal/DefaultConstructorMarker;)V 
+ could not hook Lcom/fanduel/sportsbook/di/AppModule$keyValueStore$2;->invoke()Lcom/fanduel/arch/prefstore/SharedPrefsWrapper; 
+ could not hook Lcom/fanduel/sportsbook/flows/FDRequestRealityCheck;->getUserId()Ljava/lang/String; 
+ could not hook Lcom/fanduel/sportsbook/flows/FDGeoComplyFlowUseCase$on_no_successful_jwt_with_no_location_permissions_send_error$2;->test(Lcom/fanduel/sportsbook/events/FDNoSuccessfulJWTFound;)Z 
+ could not hook Lcom/fanduel/sportsbook/games/GamePopupDialog$Companion;-><init>()V 
+ could not hook Lcom/fanduel/sportsbook/SportsbookApplication;->getLocationService()Lcom/fanduel/sportsbook/permissions/LocationServiceChangeReceiver; 
+ could not hook Lcom/fanduel/sportsbook/deeplinks/FDdeeplink;->getDL_FANDUEL_HOST()[Ljava/lang/String; 
+ could not hook Lcom/fanduel/sportsbook/di/AppModule_ProvidesLocationPresenterFactory;-><init>(Lcom/fanduel/sportsbook/di/AppModule;Ljavax/inject/Provider;)V 
+ could not hook Lcom/fanduel/sportsbook/analytics/providers/FirebaseAnalyticsProvider;->makeDebugKey(Ljava/lang/String;)Ljava/lang/String; 
+ could not hook Lcom/fanduel/sportsbook/reactnative/viewBridge/casino/CasinoLobbyUseCase;->access$getViewQueue$p(Lcom/fanduel/sportsbook/reactnative/viewBridge/casino/CasinoLobbyUseCase;)Lcom/fanduel/sportsbook/reactnative/viewBridge/casino/CallbackQueue; 
+ could not hook Lcom/fanduel/sportsbook/packages/DeprecatedPackageUninstalledDialog$onViewCreated$1;-><init>(Lcom/fanduel/sportsbook/packages/DeprecatedPackageUninstalledDialog;)V 
+ could not hook Lcom/fanduel/sportsbook/reactnative/viewBridge/casino/CasinoLobbyUseCase;->openUrlRequested(Ljava/lang/String;)V 
+ could not hook Lcom/fanduel/sportsbook/di/FDGeoComplyModule_ProvidesGeoComplyStopListenerFactory;->create(Lcom/fanduel/sportsbook/di/FDGeoComplyModule;Ljavax/inject/Provider;)Lcom/fanduel/sportsbook/di/FDGeoComplyModule_ProvidesGeoComplyStopListenerFactory; 
+ could not hook Lcom/fanduel/sportsbook/api/docs/FDGeoComplyLocationDocParser;-><init>()V 
+ could not hook Lcom/fanduel/sportsbook/api/docs/DeprecationDoc;->getMessageText()Ljava/lang/String; 
+ could not hook Lcom/fanduel/sportsbook/flows/gan/GeolocationErrorMessageDialog$Companion;-><init>(Lkotlin/jvm/internal/DefaultConstructorMarker;)V 
+ could not hook Lcom/fanduel/sportsbook/di/AppModule_ProvideAuthBridgeInterfaceFactory;->create(Lcom/fanduel/sportsbook/di/AppModule;Ljavax/inject/Provider;)Lcom/fanduel/sportsbook/di/AppModule_ProvideAuthBridgeInterfaceFactory; 
+ could not hook Lcom/fanduel/sportsbook/analytics/IAnalyticsManager$DefaultImpls;->logEvent$default(Lcom/fanduel/sportsbook/analytics/IAnalyticsManager;Ljava/lang/String;Ljava/util/Map;Lcom/fanduel/sportsbook/analytics/HandlingHint;Lcom/fanduel/sportsbook/analytics/LogLevel;ILjava/lang/Object;)V 
+ could not hook Lcom/fanduel/sportsbook/core/tools/UrlObject$Companion;->parse(Ljava/lang/String;)Lcom/fanduel/sportsbook/core/tools/UrlObject; 
+ 

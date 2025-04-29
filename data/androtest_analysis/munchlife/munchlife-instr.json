@@ -1,0 +1,337 @@
+{
+    "Linfo/bpace/munchlife/MunchLifeActivity;->getApplicationContext()Landroid/content/Context;": {
+        "path_0": {
+            "call_sequence": [
+                "> Linfo/bpace/munchlife/MunchLifeActivity;->onCreateDialog(I)Landroid/app/Dialog; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Linfo/bpace/munchlife/MunchLifeActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "info.bpace.munchlife.MunchLifeActivity",
+                    "settings",
+                    "Change Settings"
+                ]
+            ]
+        }
+    },
+    "Linfo/bpace/munchlife/MunchLifeActivity$4;-><init>(Linfo/bpace/munchlife/MunchLifeActivity;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Linfo/bpace/munchlife/MunchLifeActivity;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Linfo/bpace/munchlife/MunchLifeActivity$6;-><init>(Linfo/bpace/munchlife/MunchLifeActivity;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Linfo/bpace/munchlife/MunchLifeActivity;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Linfo/bpace/munchlife/MunchLifeActivity;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;": {
+        "path_0": {
+            "call_sequence": [
+                "> Linfo/bpace/munchlife/MunchLifeActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Linfo/bpace/munchlife/MunchLifeActivity;->onStart()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Linfo/bpace/munchlife/MunchLifeActivity$7;-><init>(Linfo/bpace/munchlife/MunchLifeActivity;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Linfo/bpace/munchlife/MunchLifeActivity;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Linfo/bpace/munchlife/MunchLifeActivity;->setContentView(I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Linfo/bpace/munchlife/MunchLifeActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Linfo/bpace/munchlife/MunchLifeActivity$3;-><init>(Linfo/bpace/munchlife/MunchLifeActivity;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Linfo/bpace/munchlife/MunchLifeActivity;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Linfo/bpace/munchlife/MunchLifeActivity;->getMenuInflater()Landroid/view/MenuInflater;": {
+        "path_0": {
+            "call_sequence": [
+                "> Linfo/bpace/munchlife/MunchLifeActivity;->onCreateOptionsMenu(Landroid/view/Menu;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Linfo/bpace/munchlife/MunchLifeActivity;->getBaseContext()Landroid/content/Context;": {
+        "path_0": {
+            "call_sequence": [
+                "> Linfo/bpace/munchlife/MunchLifeActivity;->onStart()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Linfo/bpace/munchlife/SettingsActivity;->addPreferencesFromResource(I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Linfo/bpace/munchlife/SettingsActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Linfo/bpace/munchlife/MunchLifeActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "info.bpace.munchlife.MunchLifeActivity",
+                    "settings",
+                    "Change Settings"
+                ]
+            ]
+        }
+    },
+    "Linfo/bpace/munchlife/MunchLifeActivity;->findViewById(I)Landroid/view/View;": {
+        "path_0": {
+            "call_sequence": [
+                "> Linfo/bpace/munchlife/MunchLifeActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Linfo/bpace/munchlife/MunchLifeActivity;->getAssets()Landroid/content/res/AssetManager;": {
+        "path_0": {
+            "call_sequence": [
+                "> Linfo/bpace/munchlife/MunchLifeActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Linfo/bpace/munchlife/MunchLifeActivity;->showDialog(I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Linfo/bpace/munchlife/MunchLifeActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "info.bpace.munchlife.MunchLifeActivity",
+                    "diceroller",
+                    "Roll Dice"
+                ]
+            ]
+        },
+        "path_1": {
+            "call_sequence": [
+                "> Linfo/bpace/munchlife/MunchLifeActivity$3;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "info.bpace.munchlife.MunchLifeActivity",
+                    "up_button"
+                ]
+            ]
+        }
+    },
+    "Linfo/bpace/munchlife/SettingsActivity;->getPreferenceScreen()Landroid/preference/PreferenceScreen;": {
+        "path_0": {
+            "call_sequence": [
+                "> Linfo/bpace/munchlife/SettingsActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Linfo/bpace/munchlife/MunchLifeActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "info.bpace.munchlife.MunchLifeActivity",
+                    "settings",
+                    "Change Settings"
+                ]
+            ]
+        }
+    },
+    "Linfo/bpace/munchlife/MunchLifeActivity;->startActivity(Landroid/content/Intent;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Linfo/bpace/munchlife/MunchLifeActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "info.bpace.munchlife.MunchLifeActivity",
+                    "settings",
+                    "Change Settings"
+                ]
+            ]
+        }
+    },
+    "Linfo/bpace/munchlife/MunchLifeActivity$5;-><init>(Linfo/bpace/munchlife/MunchLifeActivity;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Linfo/bpace/munchlife/MunchLifeActivity;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Linfo/bpace/munchlife/SettingsActivity$1;-><init>(Linfo/bpace/munchlife/SettingsActivity;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Linfo/bpace/munchlife/SettingsActivity;-><init>()V <",
+                "> Linfo/bpace/munchlife/MunchLifeActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "info.bpace.munchlife.MunchLifeActivity",
+                    "settings",
+                    "Change Settings"
+                ]
+            ]
+        }
+    },
+    "Linfo/bpace/munchlife/SettingsActivity;->getApplicationContext()Landroid/content/Context;": {
+        "path_0": {
+            "call_sequence": [
+                "> Linfo/bpace/munchlife/SettingsActivity$1;->onPreferenceChange(Landroid/preference/Preference;Ljava/lang/Object;)Z <",
+                "> Linfo/bpace/munchlife/SettingsActivity;-><init>()V <",
+                "> Linfo/bpace/munchlife/MunchLifeActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "info.bpace.munchlife.MunchLifeActivity",
+                    "settings",
+                    "Change Settings"
+                ]
+            ]
+        }
+    },
+    "Linfo/bpace/munchlife/MunchLifeActivity$1;-><init>(Linfo/bpace/munchlife/MunchLifeActivity;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Linfo/bpace/munchlife/MunchLifeActivity;->onCreateDialog(I)Landroid/app/Dialog; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Linfo/bpace/munchlife/MunchLifeActivity$2;-><init>(Linfo/bpace/munchlife/MunchLifeActivity;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Linfo/bpace/munchlife/MunchLifeActivity;->onCreateDialog(I)Landroid/app/Dialog; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    }
+}

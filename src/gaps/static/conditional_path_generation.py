@@ -45,7 +45,7 @@ def find_conditional(paths: list, gaps) -> defaultdict:
         for i in range(len(path)):
             if_instr = path[i].split()[0]
             if "if" == if_instr[:2]:
-                gaps.conditional_key = None
+                conditional_key = None
                 if_regs = data_flow_analysis.get_registers(path[i])
                 parameters = data_flow_analysis.points_to_analysis(
                     path, i, gaps
@@ -54,15 +54,17 @@ def find_conditional(paths: list, gaps) -> defaultdict:
                     path, gaps, parameters, if_regs[0]
                 )
                 if if_instr in if_zero:
-                    gaps.conditional_key = f"{if_instr} 0 {first_parameter}"
-                    if not _check_condition_to_visit(paths, gaps):
+                    conditional_key = f"{if_instr} 0 {first_parameter}"
+                    if not _check_condition_to_visit(
+                        paths, conditional_key, gaps
+                    ):
                         continue
                     if (
-                        gaps.conditional_key in gaps.conditional_paths
-                        and gaps.conditional_key not in conditional_solutions
+                        conditional_key in gaps.conditional_paths
+                        and conditional_key not in conditional_solutions
                     ):
-                        conditional_solutions[gaps.conditional_key] = (
-                            gaps.conditional_paths[gaps.conditional_key]
+                        conditional_solutions[conditional_key] = (
+                            gaps.conditional_paths[conditional_key]
                         )
                         continue
                     (
@@ -75,10 +77,10 @@ def find_conditional(paths: list, gaps) -> defaultdict:
                         conditional_entry = _get_ifz_paths(
                             first_parameter_assignments, if_instr, paths, gaps
                         )
-                        conditional_solutions[gaps.conditional_key].append(
+                        conditional_solutions[conditional_key].append(
                             conditional_entry
                         )
-                        gaps.conditional_paths[gaps.conditional_key].append(
+                        gaps.conditional_paths[conditional_key].append(
                             conditional_entry
                         )
                         if len(conditional_entry) > MAX_PATHS:
@@ -87,17 +89,19 @@ def find_conditional(paths: list, gaps) -> defaultdict:
                     second_parameter = _get_conditional_key(
                         path, gaps, parameters, if_regs[1]
                     )
-                    gaps.conditional_key = (
+                    conditional_key = (
                         f"{if_instr} {second_parameter} {first_parameter}"
                     )
-                    if not _check_condition_to_visit(paths, gaps):
+                    if not _check_condition_to_visit(
+                        paths, conditional_key, gaps
+                    ):
                         continue
                     if (
-                        gaps.conditional_key in gaps.conditional_paths
-                        and gaps.conditional_key not in conditional_solutions
+                        conditional_key in gaps.conditional_paths
+                        and conditional_key not in conditional_solutions
                     ):
-                        conditional_solutions[gaps.conditional_key] = (
-                            gaps.conditional_paths[gaps.conditional_key]
+                        conditional_solutions[conditional_key] = (
+                            gaps.conditional_paths[conditional_key]
                         )
                         continue
                     (
@@ -126,10 +130,10 @@ def find_conditional(paths: list, gaps) -> defaultdict:
                             paths,
                             gaps,
                         )
-                        conditional_solutions[gaps.conditional_key].append(
+                        conditional_solutions[conditional_key].append(
                             conditional_entry
                         )
-                        gaps.conditional_paths[gaps.conditional_key].append(
+                        gaps.conditional_paths[conditional_key].append(
                             conditional_entry
                         )
                         if len(conditional_entry) > MAX_PATHS * 2:
@@ -358,7 +362,7 @@ def _get_argument_if(
     return parameter_assignments, parameter_type
 
 
-def _check_condition_to_visit(paths: list, gaps) -> bool:
+def _check_condition_to_visit(paths: list, conditional_key, gaps) -> bool:
     """
     Checks if a condition has been visited.
 
@@ -369,9 +373,9 @@ def _check_condition_to_visit(paths: list, gaps) -> bool:
     Returns:
         bool: Indicates whether the condition has been visited.
     """
-    if gaps.conditional_key in gaps.condition_visited:
+    if conditional_key in gaps.condition_visited:
         return False
-    gaps.condition_visited.add(gaps.conditional_key)
+    gaps.condition_visited.add(conditional_key)
     return True
 
 

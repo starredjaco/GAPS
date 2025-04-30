@@ -1,5 +1,4 @@
 import csv
-from multiprocessing import Lock
 import os
 import sys
 import time
@@ -12,6 +11,8 @@ from collections import deque
 from pathlib import Path
 from collections import defaultdict
 from androguard.misc import AnalyzeDex
+from concurrent.futures import ThreadPoolExecutor
+from multiprocessing import Lock
 
 from . import dalvik_disassembler
 from . import method_utils
@@ -394,7 +395,7 @@ class GAPS:
             None
         """
         self.stats_row[1] = time.time() - self.start_time
-        self.stats_row[2] = len(self.solved_methods)
+        self.stats_row[2] = len(self.json_output)
         self.stats_row[5] = 0
         for method in self.solved_methods:
             self.stats_row[5] += self.solved_methods[method]
@@ -453,15 +454,12 @@ class GAPS:
         LOG.info("[+] STARTING PATH RECONSTRUCTION")
         self.stats_row = [self.file_name, 0, 0, 0, 0, 0, 0]
         self.solved_methods = defaultdict(int)
-        index = 0
         self.search_list = {}
-        for instruction in self.starting_points:
+        self.call_sequences = set()
+        self.conditional_paths = defaultdict(list)
+
+        def process_instruction(index, instruction):
             LOG.info(f"[+] METHOD {index}/{len(self.starting_points)-1}")
-            index += 1
-            self.call_sequences = set()
-            self.instruction = instruction
-            self.conditional_paths = defaultdict(list)
-            self.path_index = 0
             (
                 search_class_name,
                 search_method_name,
@@ -485,6 +483,15 @@ class GAPS:
                     self.conditional,
                     max_paths=self.max_paths // len(partial_paths),
                 )
+
+        with ThreadPoolExecutor() as executor:
+            futures = [
+                executor.submit(process_instruction, idx, instruction)
+                for idx, instruction in enumerate(self.starting_points)
+            ]
+            for future in futures:
+                future.result()
+
         LOG.info("--- %s seconds ---" % (time.time() - self.start_time))
         self._save_stats()
         self._save_json_output()

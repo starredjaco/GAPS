@@ -1544,6 +1544,7 @@ def build_paths(
     n_paths = 0
     # start from the paths found initially
     for partial_path in partial_paths:
+        target_instruction = partial_path[0].split()[-1]
         graph = nx.DiGraph()
         analyzed_nodes = set()
         nodes_queue = deque()
@@ -1579,6 +1580,7 @@ def build_paths(
                     store_paths,
                     set_paths,
                     nodes_queue,
+                    target_instruction,
                     gaps,
                 )
 
@@ -1593,6 +1595,7 @@ def build_paths(
                 store_paths,
                 set_paths,
                 nodes_queue,
+                target_instruction,
                 gaps,
             )
 
@@ -1608,6 +1611,7 @@ def _get_paths(
     store_paths,
     set_paths,
     nodes_queue,
+    target_instruction,
     gaps,
 ):
     n_paths = 0
@@ -1631,6 +1635,7 @@ def _get_paths(
                 conditional,
                 store_paths,
                 set_paths,
+                target_instruction,
                 gaps,
             )
 
@@ -1646,6 +1651,7 @@ def process_paths(
     conditional,
     store_paths,
     set_paths,
+    target_instruction,
     gaps,
 ):
     n_paths = 0
@@ -1694,7 +1700,9 @@ def process_paths(
             if store_paths:
                 _add_to_set_paths(set_paths, complete_paths)
             else:
-                generate_instructions([complete_paths], gaps)
+                generate_instructions(
+                    [complete_paths], target_instruction, gaps
+                )
     else:
         complete_paths = simple_paths
         n_paths += len(complete_paths)
@@ -1706,7 +1714,7 @@ def process_paths(
         if store_paths:
             _add_to_set_paths(set_paths, complete_paths)
         else:
-            generate_instructions(complete_paths, gaps)
+            generate_instructions(complete_paths, target_instruction, gaps)
     return n_paths
 
 
@@ -1903,7 +1911,7 @@ def plot_graph(graph):
     plt.show()
 
 
-def _is_unique_path(gaps, call_sequence):
+def _is_unique_path(gaps, target_instruction, call_sequence):
     """
     Checks if a path is unique and updates statistics.
 
@@ -1914,14 +1922,14 @@ def _is_unique_path(gaps, call_sequence):
     Returns:
         bool: True if the path is unique, False otherwise.
     """
-    gaps.solved_methods[gaps.instruction] += 1
+    gaps.solved_methods[target_instruction] += 1
     if call_sequence in gaps.call_sequences:
         return False
     gaps.stats_row[6] += 1
     return True
 
 
-def generate_instructions(paths: list, gaps):
+def generate_instructions(paths: list, target_instruction, gaps):
     """
     Generates instructions for the paths and updates statistics.
 
@@ -1929,16 +1937,17 @@ def generate_instructions(paths: list, gaps):
         paths (list): List of paths.
         gaps: Gaps analysis object containing required data.
     """
+    path_index = 0
     for path in paths:
         conditional_found = False
         gaps.stats_row[3] += 1
-        path_info = gaps.instruction
+        path_info = target_instruction
         complete_path = deque()
         for piece in path:
             complete_path.extend(piece)
         call_sequence = _get_call_sequence(complete_path)
         imm_call_sequence = tuple(call_sequence)
-        if not _is_unique_path(gaps, imm_call_sequence):
+        if not _is_unique_path(gaps, target_instruction, imm_call_sequence):
             continue
         gaps.call_sequences.add(imm_call_sequence)
         path_j = deque()
@@ -2000,5 +2009,5 @@ def generate_instructions(paths: list, gaps):
                 "call_sequence": call_sequence,
                 "path": filtered_path_j,
             }
-            gaps.json_output[path_info][f"path_{gaps.path_index}"] = path_entry
-            gaps.path_index += 1
+            gaps.json_output[path_info][f"path_{path_index}"] = path_entry
+            path_index += 1

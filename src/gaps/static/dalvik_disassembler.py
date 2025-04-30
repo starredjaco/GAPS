@@ -235,7 +235,7 @@ def process_instr(
             method_body = myAndroguard.get_whole_method(
                 method.basic_blocks.get()
             )
-            gaps.methods_with_switches[parent_method] = method_body
+            gaps.methods_with_switches[parent_method.split()[1]] = method_body
         return
 
     elif "return" in instr_type and "return-void" not in instr_type:

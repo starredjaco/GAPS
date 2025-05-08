@@ -218,7 +218,7 @@ class ContextManager:
         self.history = []
         self.contexts = []
         self.all_events = []
-        self.screen_events = []
+        self.screen_events = defaultdict(list)
         self.last_event = None
 
     def init_context(self, controller):
@@ -226,7 +226,7 @@ class ContextManager:
         self.history = []
         self.all_contexts = []
         self.all_events = []
-        self.screen_events = []
+        self.screen_events = defaultdict(list)
         self.last_event = None
         initContext: Context = self.getCurrentContext(controller)
         if len(self.history) == 0:
@@ -259,12 +259,13 @@ class ContextManager:
     def update_history(self, event, activity):
         self.last_event = event
         self.all_events.append(event)
-        event_tag = activity + " " + str(event)
-        self.screen_events.append(event_tag)
+        event_tag = str(event)
+        if event_tag not in self.screen_events[activity]:
+            self.screen_events[activity].append(event_tag)
         self.contexts[-1].setEvent(event)
 
-    def get_activity_history(self):
-        return self.screen_events
+    def get_activity_history(self, activity):
+        return self.screen_events[activity]
 
     def PreUpdateContext(self, controller: AndroidController) -> Context:
         currentContext = self.getCurrentContext(controller)

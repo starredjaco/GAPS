@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-import argparse
 import os
 import subprocess as subp
 import sys
@@ -8,27 +7,30 @@ import json
 import frida
 import threading
 import csv
-import threading
 
 from com.dtmilano.android.viewclient import ViewClient
+from collections import defaultdict
+
+from . import utils
+
+event = threading.Event()
 
 
 class LLMThread(threading.Thread):
-    def __init__(self, apk_path, activity, _id):
+    def __init__(self, apk_path, instructions_dir, activity, _id):
         self.apk_path = apk_path
         self.activity = activity
         self._id = _id
+        self.instructions_dir = instructions_dir
         threading.Thread.__init__(self)
 
     def run(self):
-        cmd = f'python Guardian/run.py -a "{self.apk_path}" -t "interact with the application to help me explore" -m 15 -c {self.activity}'
-        if self._id:
-            cmd += f" -id {self._id}"
+        cmd = f'python Guardian/run.py -a "{self.apk_path}" -t "interact with the application to help me explore" -m 15 -o {self.instructions_dir} -c {self.activity} -id "{self._id}"'
         print(cmd)
         p = subp.Popen(
             cmd,
             shell=True,
-            stdout=subp.PIPE,
+            # stdout=subp.PIPE,
             stderr=subp.PIPE,
         )
         print(p.communicate()[1].decode().strip())
@@ -54,6 +56,7 @@ class GAPSRUN:
         self.frida_script_name = "fridaHooks.js"
         self.hook_dir = self.output
         self.hook_path = os.path.join(self.hook_dir, self.frida_script_name)
+        self.llm_used = defaultdict(bool)
         if not os.path.exists(self.hook_path):
             with open(self.hook_path, "w") as _:
                 pass
@@ -66,7 +69,7 @@ class GAPSRUN:
                 script = session.create_script(open(self.hook_path).read())
                 script.on("message", self.on_message)
                 script.load()
-            except:
+            except Exception:
                 pass
             self.frida_device.resume(spawn.pid)
 
@@ -78,121 +81,47 @@ class GAPSRUN:
                 print(comm)
             self.method_reached = True
 
-    def extract_arguments(self, method_arg):
-        i = 0
-        args = []
-        isArray = False
-        while i < len(method_arg):
-            # class or interface
-            if method_arg[i] == "L":
-                if method_arg[i - 1] == "[":
-                    isArray = True
+    def check_method_in_logcat(self, methods):
+        """
+        Continuously monitors adb logcat output in a separate thread to check if the method is reached.
 
-                # check array
-                if isArray:
-                    args.append(
-                        "[L" + method_arg[i + 1 : method_arg.find(";")] + ";"
-                    )
-                    isArray = False
-                else:
-                    args.append(method_arg[i + 1 : method_arg.find(";")])
+        :param method_name: The name of the method to check.
+        """
+        java_methods = {}
+        for method in methods:
+            java_method = utils.to_java_signature(method)
+            java_methods[java_method] = method
 
-                i = method_arg.find(";") + 1
-                method_arg = method_arg.replace(";", " ", 1)
+        def monitor_logcat():
+            # clear initally
+            subp.Popen(
+                ["adb", "logcat", "-c"],
+                stdout=subp.DEVNULL,
+                stderr=subp.DEVNULL,
+                text=True,
+            )
+            process = subp.Popen(
+                ["adb", "logcat", "-s", "GAPS"],
+                stdout=subp.PIPE,
+                stderr=subp.DEVNULL,
+                text=True,
+            )
+            try:
+                for line in process.stdout:
+                    if "METHOD" in line:
+                        for method_name in java_methods:
+                            if method_name in line:
+                                print(
+                                    f"[+] Method '{java_methods[method_name]}' found in logcat."
+                                )
+                                self.methods_por[
+                                    java_methods[method_name]
+                                ] += 1
+            finally:
+                process.terminate()
 
-                continue
-
-            # Int
-            if method_arg[i] == "I":
-                if method_arg[i - 1] == "[":
-                    isArray = True
-
-                if isArray:
-                    args.append("[I")
-                    isArray = False
-                else:
-                    args.append("int")
-
-            # Boolean
-            if method_arg[i] == "Z":
-                if method_arg[i - 1] == "[":
-                    isArray = True
-
-                if isArray:
-                    args.append("[Z")
-                    isArray = False
-                else:
-                    args.append("boolean")
-
-            # Float
-            if method_arg[i] == "F":
-                if method_arg[i - 1] == "[":
-                    isArray = True
-
-                if isArray:
-                    args.append("[F")
-                    isArray = False
-                else:
-                    args.append("float")
-
-            # Long
-            if method_arg[i] == "J":
-                if method_arg[i - 1] == "[":
-                    isArray = True
-
-                if isArray:
-                    args.append("[J")
-                    isArray = False
-                else:
-                    args.append("long")
-
-            # Double
-            if method_arg[i] == "D":
-                if method_arg[i - 1] == "[":
-                    isArray = True
-
-                if isArray:
-                    args.append("[D")
-                    isArray = False
-                else:
-                    args.append("double")
-
-            # Char
-            if method_arg[i] == "C":
-                if method_arg[i - 1] == "[":
-                    isArray = True
-
-                if isArray:
-                    args.append("[C")
-                    isArray = False
-                else:
-                    args.append("char")
-
-            # Byte
-            if method_arg[i] == "B":
-                if method_arg[i - 1] == "[":
-                    isArray = True
-
-                if isArray:
-                    args.append("[B")
-                    isArray = False
-                else:
-                    args.append("byte")
-
-            # Short
-            if method_arg[i] == "S":
-                if method_arg[i - 1] == "[":
-                    isArray = True
-
-                if isArray:
-                    args.append("[S")
-                    isArray = False
-                else:
-                    args.append("short")
-
-            i += 1
-
-        return args
+        logcat_thread = threading.Thread(target=monitor_logcat, daemon=True)
+        logcat_thread.start()
 
     def save(self, javascript):
         if not os.path.exists(self.hook_dir):
@@ -200,108 +129,6 @@ class GAPSRUN:
 
         with open(self.hook_path, "w") as f:
             f.write(javascript)
-
-    def create_javascript(self, class_method):
-        if class_method == "CONDITIONAL":
-            return ""
-        javascript = "Java.perform(function() {\n"
-
-        full_class_name = class_method.split(";->")[0][1:].replace("/", ".")
-        class_name = "class_hook"
-        javascript += (
-            "    var "
-            + class_name
-            + " = Java.use('"
-            + full_class_name
-            + "');\n\n"
-        )
-        # extract method
-        full_method_name = class_method.split(";->")[1]
-        method_name = full_method_name.split("(")[0]
-        if method_name == "<init>":
-            method_name = "$init"
-        method_arg = full_method_name.split("(")[1].split(")")[0]
-
-        # args extract
-        if len(method_arg) == 0:  # args is not exist
-            javascript += (
-                "    "
-                + class_name
-                + "."
-                + method_name
-                + ".overload().implementation = function(){\n"
-            )
-            javascript += (
-                "        send('[Method] "
-                + full_class_name
-                + "."
-                + method_name
-                + "() reached');\n"
-            )
-
-            # create retval
-            javascript += "        var retval = this." + method_name + "();\n"
-            # return method
-            javascript += "        return retval;\n"
-
-            javascript += "    };\n\n"
-
-        else:  # args exist
-            args_list = self.extract_arguments(method_arg)
-
-            args_string = ""
-            args_len = len(args_list)
-            args_quota_added = []
-
-            for i in range(args_len):
-                # replace / to .
-                args_list[i] = args_list[i].replace("/", ".")
-                args_quota_added.append("'" + args_list[i] + "'")
-                # arg string create
-                args_string += "arg" + str(i)
-                # if last arg
-                if i != args_len - 1:
-                    args_string += ","
-
-            javascript += (
-                "    "
-                + class_name
-                + "."
-                + method_name
-                + ".overload("
-                + ",".join(args_quota_added)
-                + ").implementation = function("
-                + args_string
-                + "){\n"
-            )
-
-            # print hook method name
-            javascript += (
-                "        send('[Method] "
-                + full_class_name
-                + "."
-                + method_name
-                + "("
-                + ",".join(args_list)
-                + ") reached');\n"
-            )
-
-            # create retval
-            javascript += (
-                "        var retval = this."
-                + method_name
-                + "("
-                + args_string
-                + ");\n"
-            )
-
-            # return method
-            javascript += "        return retval;\n"
-
-            javascript += "    };\n\n"
-
-        javascript += "});\n"
-        return javascript
 
     def get_package_name(self, apk_path):
         """get the package name of an app"""
@@ -357,25 +184,31 @@ class GAPSRUN:
                 attempts += 1
                 vc.dump(-1, sleep=1)
                 break
-            except:
+            except Exception:
                 pass
+
+    def get_current_activity(self):
+        get_current_focus = subp.Popen(
+            "adb shell dumpsys window | grep mCurrentFocus",
+            shell=True,
+            stdout=subp.PIPE,
+        )
+        communicate = get_current_focus.communicate()
+        activity = (
+            communicate[0].decode().strip().split("/")[-1].replace("}", "")
+        )
+        return activity
 
     def check_current_activity(self, activity):
         cycles = 0
         while True:
-            get_current_focus = subp.Popen(
-                "adb shell dumpsys window | grep mCurrentFocus",
-                shell=True,
-                stdout=subp.PIPE,
-            )
-            communicate = get_current_focus.communicate()
-            if len(communicate) > 0:
-                if activity in str(communicate):
-                    print(f"[+] CURRENT FOCUS {activity}")
-                    return True
-            if cycles > 5:
+            curr_activity = self.get_current_activity()
+            print(curr_activity)
+            if activity == curr_activity:
+                return True
+            if cycles > 2:
                 return False
-            time.sleep(5)
+            time.sleep(2)
             cycles += 1
 
     def scroll_find_click(self, vc, comp_id):
@@ -440,13 +273,13 @@ class GAPSRUN:
             try:
                 comp_id = f"{package_name}:id/{instruction[1]}"
                 vc.findViewByIdOrRaise(comp_id).touch()
-            except:
+            except Exception:
                 try:
                     if len(instruction) > 2:
                         vc.findViewWithText(instruction[2]).touch()
                     else:
                         self.scroll_find_click(vc, comp_id)
-                except:
+                except Exception:
                     self.log += (
                         "missing id " + instruction[1] + " not found \n"
                     )
@@ -513,31 +346,66 @@ class GAPSRUN:
         else:
             activity, _id = instruction[0], None
 
-        if _id == "<unknown>":
-            _id = None
+        llmThread = LLMThread(
+            self.apk_path, self.instructions_dir, activity, _id
+        )
+        llmThread.start()
+        llmThread.join()
 
-        attempts = 1
+        self.llm_used[activity] = True
 
-        while attempts > 0:
-            if self.frida_bool and self.method_reached:
-                break
-            llmThread = LLMThread(self.apk_path, activity, _id)
-            llmThread.start()
-            llmThread.join()
-
-            status = self.perform_action(
-                self.vc, instruction, self.package_name
+    def input_text(self, text):
+        try:
+            text = text.replace(" ", "\ ")
+            os.system('adb shell input text "{}"'.format(text))
+            subp.Popen(
+                'adb shell input text "{}"'.format(text),
+                shell=True,
+                stdout=subp.DEVNULL,
+                stderr=subp.PIPE,
             )
-            if status > 0:
-                break
-            attempts -= 1
+            time.sleep(0.2)
+        except:
+            return False
+        return True
+
+    def perform_action_from_memory(self, curr_activity, target_activity):
+        activity_memory_path = os.path.join(
+            self.instructions_dir, "activity_memory.json"
+        )
+        found = False
+        if os.path.exists(activity_memory_path):
+            with open(activity_memory_path, "r") as f:
+                activity_memory = json.load(f)
+            if (
+                curr_activity in activity_memory
+                and target_activity in activity_memory[curr_activity]
+            ):
+                print("[+] FOUND ACTIVITY MEMORY, PERFORMING ACTIONS")
+                for actions in activity_memory[curr_activity][target_activity]:
+                    for action in actions:
+                        splits = action.split()
+                        if splits[0] == "click":
+                            operation = f"{curr_activity} {splits[1]}"
+                            self.perform_action(
+                                self.vc, operation, self.package_name
+                            )
+                        elif splits[0] == "text":
+                            operation = f"{curr_activity} {splits[1]}"
+                            self.perform_action(
+                                self.vc, operation, self.package_name
+                            )
+                            self.input_text(splits[2].replace("input:", ""))
+                    if self.get_current_activity() == target_activity:
+                        return found
+        return found
 
     def _process_method(self, class_method, json_paths):
-        methods_por = {}
         print(f"[+] LOOKING FOR {class_method}")
+        self.llm_used = defaultdict(bool)
         if self.frida_bool:
             self.save("")
-            frida_script = self.create_javascript(class_method)
+            frida_script = utils.create_javascript(class_method)
             self.save(frida_script)
             print("[+] CREATED FRIDA SCRIPT\n")
         frida_err = False
@@ -551,7 +419,7 @@ class GAPSRUN:
                 script.load()
 
                 self.frida_device.resume(pid)
-            except Exception as e:
+            except Exception:
                 frida_err = True
                 pass
         else:
@@ -561,7 +429,7 @@ class GAPSRUN:
             print(f"[!] ERROR COULD NOT HOOK {class_method}")
             # return tot_methods, methods_por
             self.stop_app(self.package_name)
-            time.sleep(5)
+            time.sleep(2)
             self.start_app(self.package_name)
 
         seen_paths = set()
@@ -634,34 +502,46 @@ class GAPSRUN:
                 component=self.get_main_component(self.apk_path)
             )
             self.vc.sleep(1)
-            for i in range(len(path)):
+            i = 0
+            while i < len(path):
                 if type(path[i]) is str:
                     self.start_app(self.package_name)
                     self.vc.sleep(2)
+                    i += 1
                     pass
                 elif type(path[i]) is list:
-                    self.vc.sleep(5)
+                    self.vc.sleep(2)
                     status = self.perform_action(
                         self.vc, path[i], self.package_name
                     )
-                    if status == -1 or status == -2:
-                        print("[+] USING LLMs")
-                        self.use_llms(path[i])
-                    self.vc.sleep(5)
+                    curr_activity = self.get_current_activity()
+                    target_activity = path[i][0]
+                    if (status == -1 or status == -2) and not self.llm_used[
+                        curr_activity
+                    ]:
+                        if not self.perform_action_from_memory(
+                            curr_activity, target_activity
+                        ):
+                            print("[+] USING LLMs")
+                            self.use_llms(path[i])
+                    else:
+                        i += 1
+                    self.vc.sleep(2)
                 if self.frida_bool and self.method_reached:
+                    break
+                if self.methods_por[class_method] > 0:
+                    print("[*] PATH SUCCESSFULLY VISITED!\n")
                     break
             if self.frida_bool and self.method_reached:
                 print("[*] PATH SUCCESSFULLY VISITED!\n")
-                if class_method not in methods_por:
-                    methods_por[class_method] = 0
-                methods_por[class_method] += 1
+                self.methods_por[class_method] += 1
+                break
+            if self.methods_por[class_method] > 0:
+                print("[*] PATH SUCCESSFULLY VISITED!\n")
                 break
             print("-" * 100)
-            if class_method in methods_por:
-                break
         subp.call(f"adb shell am force-stop {self.package_name}", shell=True)
         self.save("")
-        return methods_por
 
     def is_app_installed(self):
         adb_packages = subp.Popen(
@@ -674,9 +554,10 @@ class GAPSRUN:
                 installed = True
         return installed
 
-    def run(self, json_path, target):
+    def run(self, json_path, target, instructions_dir):
         tot_methods = 0
-        methods_por = {}
+        self.methods_por = defaultdict(int)
+        self.instructions_dir = instructions_dir
         app_name = os.path.splitext(os.path.basename(self.apk_path))[0]
         with open(self.stats_file_path, "r") as stats_file:
             reader = csv.reader(stats_file)
@@ -701,7 +582,7 @@ class GAPSRUN:
             self.frida_device.on("spawn-added", self.spawn_added)
             self.frida_device.enable_spawn_gating()
 
-        ViewClient.sleep(4)
+        ViewClient.sleep(2)
 
         self.package_name = self.get_package_name(self.apk_path).replace(
             "'", ""
@@ -715,7 +596,7 @@ class GAPSRUN:
             print(install_status.communicate())
 
         if not self.is_app_installed():
-            self.update_csv(app_name, tot_methods, methods_por)
+            self.update_csv(app_name, tot_methods, self.methods_por)
             print("[+] APP NOT INSTALLED")
             return
 
@@ -742,20 +623,21 @@ class GAPSRUN:
             json_paths = json.load(json_file)
 
         if target:
-            update_methods_por = self._process_method(target, json_paths)
+            self.check_method_in_logcat([target])
+            self._process_method(target, json_paths)
             tot_methods += 1
-            methods_por.update(update_methods_por)
         else:
             tot_methods = len(json_paths)
+            self.check_method_in_logcat(list(json_paths.keys()))
             for i, class_method in enumerate(json_paths):
                 print(f"[+] METHOD {str(i)}/{str(tot_methods)}")
-                update_methods_por = self._process_method(
-                    class_method, json_paths
-                )
-                methods_por.update(update_methods_por)
+                if class_method in self.methods_por:
+                    print(f"[+] METHOD {class_method} ALREADY VISITED")
+                    continue
+                self._process_method(class_method, json_paths)
 
         self.uninstall_app(self.package_name)
-        self.update_csv(app_name, tot_methods, methods_por)
+        self.update_csv(app_name, tot_methods, self.methods_por)
 
         with open(
             os.path.join(self.output, app_name, app_name + "_run.gaps-log"),

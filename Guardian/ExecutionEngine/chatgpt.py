@@ -91,7 +91,7 @@ class Session:
     def __call__(self, message):
         # print(self.history)
         self.history.append(("user", message))
-        print(message)
+        # print(message)
         resp = chat_completion_with_backoff(
             model=model,
             messages=self.transformMessage(self.history),
@@ -99,9 +99,9 @@ class Session:
         )
         self.updateTokensUsed(resp["usage"])
         response = resp["choices"][0]["message"]["content"]
-        print("=" * 20)
+        # print("=" * 20)
         self.history.append(("assistant", response))
-        print(response)
+        # print(response)
         return response
 
     def findFirstInteger(self, s: str):
@@ -115,7 +115,7 @@ class Session:
             + "\nIf none of the UI element can do so, respond with index-none."
         )
         response = self(prompt)
-        print("In queryIndex: ", response)
+        # print("In queryIndex: ", response)
         for m in re.finditer("index-", response):
             local = response[m.start() : m.start() + 12]
             if "index-none" not in local and limit(
@@ -152,9 +152,9 @@ class Session:
                 )
             )
         except:
-            print(
-                "No list is find in the response. Fall back to using regex and grab all the numbers."
-            )
+            # print(
+            #    "No list is find in the response. Fall back to using regex and grab all the numbers."
+            # )
             return set(
                 filter(
                     guard,

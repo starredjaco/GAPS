@@ -10,6 +10,9 @@ if __name__ == "__main__":
         "-a", "--apk_path", type=str, help="Path to apk file", required=True
     )
     parser.add_argument(
+        "-o", "--output", type=str, help="Path to output dir", required=True
+    )
+    parser.add_argument(
         "-t",
         "--testing_objective",
         type=str,
@@ -17,7 +20,11 @@ if __name__ == "__main__":
         required=True,
     )
     parser.add_argument(
-        "-m", "--max_test_step", type=int, help="max test step", default=30
+        "-m",
+        "--max_test_step",
+        type=int,
+        help="max test step",
+        default=sys.maxsize,
     )
     parser.add_argument(
         "-c", "--target_activity", type=str, help="target activity"
@@ -31,6 +38,7 @@ if __name__ == "__main__":
 
     guardian = Guardian(
         args.apk_path,
+        args.output,
         args.testing_objective,
         args.max_test_step,
         args.target_activity,

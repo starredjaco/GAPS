@@ -34,25 +34,23 @@ class Agent:
         self.app_name = app_name
         self.testing_objective = target
         self.initial_prompt = (
-            "Suppose you are an Android UI testing expert helping me interact with an Android application. "
-            "During my interaction, I happen to be stuck in front of a screen that I did not expect and I need your help. "
-            "In our conversation, each round I will provide you with a list of UI elements on the screen, "
-            "and your task is to select one and only one UI element with its index that is the most likely to reach "
-            "the test target.\n"
+            f"You are an expert in Android UI testing assisting with automated interaction for the {self.app_name} app. "
+            "Our goal is to reach a specific testing target by exploring the app's interface. "
+            "In each interaction round, I will provide a list of UI elements currently visible on the screen. "
+            "Your task is to select exactly one UI element (by its index) that is most likely to lead us closer to the target. \n"
         )
 
         self.exploration_strategy = (
-            "When choosing the UI element, please remeber to prioritize a forward based exploration of the application "
-            'and to limit the use of the "back" or "cancel" functions (or analogous UI elements) to the minimum (ideally never).'
-            "Instead, attempt to always choose UI elements that confirm current configurations. "
-            'For instance, if a screen has UI elements with text corresponding to "OK" or "Confirm", choose them.\n'
+            'Prioritize UI elements that involve text input, confirm current actions (such as buttons labeled "OK" or "Confirm"), or advance the flow forward through the app. '
+            "Avoid selecting elements that trigger back navigation, cancel actions, or lead away from progress, unless absolutely necessary. "
+            "Always aim to move forward through the app's interface toward the goal.\n"
         )
 
         self.first_prompt = (
             self.initial_prompt
             + self.exploration_strategy
             + f"We are testing the {self.app_name} app . "
-            + f"Our testing target is to {self.testing_objective}ff."
+            + f"Our testing target is to {self.testing_objective}."
         )
 
         self.targetPrompt = f"Remember our test target is to {self.testing_objective} on {self.app_name}."
@@ -64,13 +62,39 @@ class Agent:
         event = self.obtain_event_to_execute(
             events, activity, activity_history
         )
+        if event is None:
+            return None
         if event.action == "text":
-            event.input = self.getInput(self.testing_objective)
+            event.input = self.getInput(
+                self.testing_objective, event.widget.contentDesc
+            )
         return event
 
     def obtain_event_to_execute(
         self, events: List[Event], current_activity, activity_history
     ):
+        # remove previous actions performed in the same activity
+        if len(events) > 1:
+            for action_widget in activity_history:
+                for event in events:
+                    splits = action_widget.split()
+                    if len(splits) > 2:
+                        action, widget = splits[:2]
+                    elif len(splits) == 2:
+                        action, widget = splits
+                    else:
+                        widget = action = splits
+                    # print(activity, action, widget)
+                    if (
+                        f"{action}" == event.action
+                        and f"{widget}"
+                        == event.widget.resourceId.split("/")[-1]
+                    ):
+                        events.remove(event)
+
+        if len(events) == 0:
+            if len(activity_history) > 0:
+                activity_history.pop(0)
 
         filteredEvents = list(
             filter(
@@ -78,26 +102,6 @@ class Agent:
                 [(i, e.dump()) for i, e in enumerate(events)],
             )
         )
-        # remove previous actions performed in the same activity
-        for i, filteredEvent in filteredEvents:
-            for action_widget in activity_history:
-
-                splits = action_widget.split()
-                print(splits)
-                if len(splits) > 3:
-                    activity, action, widget = splits[:3]
-                elif len(splits) == 3:
-                    activity, action, widget = splits
-                else:
-                    activity, action = splits
-                    widget = action
-                if (
-                    activity == current_activity
-                    and f"resource_id {widget}" in filteredEvent
-                    and f"to {action}" in filteredEvent
-                    and filteredEvent in filteredEvents
-                ):
-                    filteredEvents.remove(filteredEvent)
 
         elemDesc = [f"index-{i}: {x[1]}" for i, x in enumerate(filteredEvents)]
         event_map = {i: e[0] for i, e in enumerate(filteredEvents)}
@@ -108,51 +112,31 @@ class Agent:
         )
 
         task = self.targetPrompt
-        latest_actions = activity_history
-        if len(latest_actions) > 3:
-            latest_actions = latest_actions[:3]
-        history = (
-            f"The user has recently performed {len(latest_actions)} actions:\n"
-            + "\n".join(latest_actions)
-        )
-        prompt = "\n".join(
-            [description, self.exploration_strategy, history, task]
-        )
+        prompt = "\n".join([description, self.exploration_strategy, task])
         self.session = chatgpt.Session()
-        print(prompt)
+        # print(prompt)
         idx = self.session.queryIndex(
             prompt, lambda x: x in range(len(events))
         )
-        print(idx)
-
-        """
-        if HISTORY == HistoryConf.ALL:
-            historyDesc = [f"- {e.dump()}" for e in self.getAllHistory()]
-            history = (
-                f"The user has performed {len(historyDesc)} actions:\n"
-                + "\n".join(historyDesc)
-            )
-            description += "\n\n" + history
-        elif HISTORY == HistoryConf.PROCESSED:
-            historyDesc = [f"- {e.dump()}" for e in self.getCurHistory()]
-            history = (
-                f"The user has performed {len(historyDesc)} actions:\n"
-                + "\n".join(historyDesc)
-            )
-            description += "\n\n" + history
-        """
+        # print(idx)
         if idx == -1:
+            for action in activity_history:
+                if "text" == action.split()[0]:
+                    return None
             return Event.back()
         return events[event_map[idx]]
 
-    def getInput(self, target) -> str:
+    def getInput(self, target, text) -> str:
         # ask chatGPT what text to input
         task = (
             "You have selected a TextEdit view, which requires a text input."
+            'Never answer with "none" or invalid input.'
             f"Remember that your task is to {target}"
         )
         requirement = (
             "Please insert the text that you want to input."
             "Please only respond with the text input and nothing else."
         )
+        if text.strip():
+            task += f'\nInsert the text accordingly, considering that the description of the input field is: "{text}"'
         return self.session.queryString(f"{task}\n{requirement}")

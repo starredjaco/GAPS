@@ -129,7 +129,18 @@ def parseUIHierarchy(
         # set the needtexts
         setNeedText(root, app_name)
 
-    ret = [Widget(elem) for elem in root.iter() if _filter(elem)]
+    ret = []
+    prev_elem = None
+    for elem in root.iter():
+        if _filter(elem):
+            if (
+                elem.get("class") == "android.widget.EditText"
+                and prev_elem is not None
+                and prev_elem.get("class") == "android.widget.TextView"
+            ):
+                elem.set("content-desc", prev_elem.get("text", ""))
+            ret.append(Widget(elem))
+        prev_elem = elem
     for widget in ret:
         if widget.package == "com.android.systemui":
             ret.remove(widget)

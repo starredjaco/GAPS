@@ -106,7 +106,6 @@ class AndroidController:
     def input(self, text="PKU", clear=True):
         try:
             # TODO: deal with clear here
-            print(text)
             text = text.replace(" ", "\ ")
             os.system('adb shell input text "{}"'.format(text))
             time.sleep(0.2)

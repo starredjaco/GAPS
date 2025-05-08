@@ -13,6 +13,8 @@ from typing import List, Tuple, Callable
 from Infra.infra import TestCase, EventSeq, Event, Widget
 from Memory.context import Context, ContextManager
 from Agents.agent import Agent
+import json
+import os
 
 from DomainKnowledgeLoader.error_handler import (
     block_failed_action,
@@ -42,12 +44,14 @@ class Guardian:
     def __init__(
         self,
         apk_path,
+        output: str,
         target: str,
         _generation_limit: int,
         target_activity: str,
         target_id: str,
     ):
         self.apk_path = apk_path
+        self.output = output
         self.app_name = util.get_app_name(apk_path)
         self.pkg = util.get_package_name(apk_path)
         self.target = target
@@ -56,8 +60,8 @@ class Guardian:
         self.agent = Agent(
             self.app_name, self.target
         )  # LLM agent contains the LLM driver
-        print(f"[+] ANALYZING {self.app_name}")
-        print(f"[+] PACKAGE NAME {self.pkg}")
+        # print(f"[+] ANALYZING {self.app_name}")
+        # print(f"[+] PACKAGE NAME {self.pkg}")
         self.context_manager = ContextManager(
             self.pkg, self.app_name, self.target
         )  # Context manager is the memory driver
@@ -104,15 +108,58 @@ class Guardian:
 
             activity = self.controller.get_activity_name()
 
-            activity_history = self.context_manager.get_activity_history()
+            activity_history = self.context_manager.get_activity_history(
+                activity
+            )
 
             event = self.agent.plan(
                 events, activity, activity_history
             )  # get the UI event to execute from the LLM agent
-
+            if event is None:
+                self.attempt_cnt += 1
+                continue
+            print("chosen event: ", event)
             event.act(self.controller)
             self.context_manager.update_history(event, activity)
             time.sleep(1)
+
+            new_activity = self.controller.get_activity_name()
+
+            if (
+                new_activity != activity
+                and activity.strip()
+                and new_activity.strip()
+            ):
+                memory_file = os.path.join(self.output, "activity_memory.json")
+                try:
+                    try:
+                        with open(memory_file, "r") as f:
+                            data = json.load(f)
+                    except FileNotFoundError:
+                        data = {}
+
+                    if activity not in data:
+                        data[activity] = {}
+
+                    if new_activity not in data[activity]:
+                        data[activity][new_activity] = []
+
+                    new_activity_history = (
+                        self.context_manager.get_activity_history(activity)
+                    )
+
+                    if (
+                        new_activity_history
+                        not in data[activity][new_activity]
+                    ):
+                        data[activity][new_activity].append(
+                            new_activity_history
+                        )
+
+                    with open(memory_file, "w") as f:
+                        json.dump(data, f, indent=4)
+                except Exception as e:
+                    print(f"Error writing to memory file: {e}")
 
             # check if still in app
             if self.domain_knowledge["validator"]["out_of_app"](
@@ -123,7 +170,7 @@ class Guardian:
                         self.context_manager
                     )
                     util.restart_app(self.pkg)
-                    time.sleep(4)
+                    time.sleep(2)
                     allow_outside = 0
                 else:
                     allow_outside += 1

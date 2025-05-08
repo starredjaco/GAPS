@@ -194,14 +194,14 @@ def static(
     "--frida",
     is_flag=True,
     help="Use Frida for dynamic analysis",
-    default=True,
+    default=False,
 )
 @click.option(
     "-ms",
     "--manual-setup",
     is_flag=True,
     help="Introduce a manual setup",
-    default=True,
+    default=False,
 )
 @click.option(
     "-t",
@@ -223,8 +223,11 @@ def run(apk, instructions, output, frida, manual_setup, target):
     if not os.path.exists(output):
         os.mkdir(output)
 
+    instructions_dir = os.path.dirname(instructions)
+    LOG.info(f"[+] INSTRUCTIONS DIRECTORY: {instructions_dir}")
+
     gaps_run = GAPSRUN(apk, output, manual_setup, frida)
-    gaps_run.run(instructions, target)
+    gaps_run.run(instructions, target, instructions_dir)
 
 
 @cli.command("hybrid")

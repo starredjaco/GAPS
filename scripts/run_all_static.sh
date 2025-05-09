@@ -27,8 +27,33 @@ for file in $files; do
 	fi
 	if [ $resume -eq 1 ]; then
 		app_name=$(basename $file .apk)
-		poetry run gaps static -i $app_path/$file -seed $testing_seed_path/$app_name.seed -cond -o $output_data_dir
-		echo "done"
+		poetry run gaps static -i $app_path/$file -seed $testing_seed_path/$app_name.seed -cond -o $output_data_dir &
+		pid=$!
+		start_time=$(date +%s.%N)
+		max_ram_kb=0
+		# Monitor RAM usage while the process is running
+		while kill -0 "$pid" 2>/dev/null; do
+			current_ram_kb=$(ps -o rss= -p "$pid" 2>/dev/null | awk '{print $1}')
+			if [[ $current_ram_kb -gt $max_ram_kb ]]; then
+				max_ram_kb=$current_ram_kb
+			fi
+			sleep 1
+		done
+
+		wait "$pid"
+		return_code=$? # Capture the return code of the command
+		end_time=$(date +%s.%N)
+
+		execution_time=$( echo "$end_time - $start_time" | bc -l )
+		max_ram_mb=$((max_ram_kb / 1024)) # Convert to MB
+
+		# Save app name, execution time, RAM usage, and return code to stats.csv
+		stats_file="$output_data_dir/stats_static.csv"
+		if [ ! -f "$stats_file" ]; then
+			echo "App Name,Analysis Time (s),Max RAM Usage (MB),Return Code" > "$stats_file"
+		fi
+		echo "$app_name,$execution_time,$max_ram_mb,$return_code" >> "$stats_file"
+				echo "done"
 		rm -rf /tmp/*.cache
 	fi
 done

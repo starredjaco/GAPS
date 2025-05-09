@@ -17,15 +17,21 @@ event = threading.Event()
 
 
 class LLMThread(threading.Thread):
-    def __init__(self, apk_path, instructions_dir, activity, _id):
+    def __init__(
+        self, apk_path, instructions_dir, target_method, activity, _id
+    ):
         self.apk_path = apk_path
         self.activity = activity
         self._id = _id
         self.instructions_dir = instructions_dir
+        self.target_method = target_method
         threading.Thread.__init__(self)
 
     def run(self):
-        cmd = f'python Guardian/run.py -a "{self.apk_path}" -t "interact with the application to help me explore" -m 15 -o {self.instructions_dir} -c {self.activity} -id "{self._id}"'
+        class_name, method_name = self.target_method.split(";->")
+        class_name = class_name[1:].replace("/", ".")
+        method_name = method_name.split("(")[0]
+        cmd = f'python Guardian/run.py -a "{self.apk_path}" -t "interact with the application to reach class "{class_name}" and method "{method_name}"" -m 15 -o {self.instructions_dir} -c {self.activity} -id "{self._id}"'
         print(cmd)
         p = subp.Popen(
             cmd,
@@ -182,7 +188,7 @@ class GAPSRUN:
         while attempts < 10:
             try:
                 attempts += 1
-                vc.dump(-1, sleep=1)
+                vc.dump(-1, sleep=0.2)
                 break
             except Exception:
                 pass
@@ -203,12 +209,11 @@ class GAPSRUN:
         cycles = 0
         while True:
             curr_activity = self.get_current_activity()
-            print(curr_activity)
             if activity == curr_activity:
                 return True
             if cycles > 2:
                 return False
-            time.sleep(2)
+            time.sleep(1)
             cycles += 1
 
     def scroll_find_click(self, vc, comp_id):
@@ -227,7 +232,7 @@ class GAPSRUN:
                     stdout=subp.DEVNULL,
                     stderr=subp.DEVNULL,
                 )
-                vc.sleep(1)
+                vc.sleep(0.2)
                 tries -= 1
                 scroll = 0
                 if tries == 0:
@@ -239,7 +244,7 @@ class GAPSRUN:
                     stdout=subp.DEVNULL,
                     stderr=subp.DEVNULL,
                 )
-                vc.sleep(1)
+                vc.sleep(0.2)
                 scroll += 1
 
     def perform_action(self, vc, instruction, package_name):
@@ -270,13 +275,36 @@ class GAPSRUN:
             self.force_dump(vc)
             if instruction[1] == "<unknown>":
                 return -2
+            print(f"[+] LOOKING FOR {instruction[1]}")
             try:
                 comp_id = f"{package_name}:id/{instruction[1]}"
-                vc.findViewByIdOrRaise(comp_id).touch()
+                try:
+                    vc.findViewByIdOrRaise(comp_id).touch()
+                    print(f"[+] CLICKED {instruction[1]}")
+                except Exception:
+                    print(
+                        f"[!] Element with id '{instruction[1]}' not found under package '{package_name}'. Listing all elements on the screen:"
+                    )
+                    self.force_dump(vc)
+                    for view in vc.views:
+                        if (
+                            instruction[1] in view.getId()
+                            or instruction[1] in view.getUniqueId()
+                        ):
+                            print(
+                                f"[+] Found matching element: {view.getId()} or {view.getUniqueId()}"
+                            )
+                            view.touch()
+                            print(f"[+] CLICKED {instruction[1]}")
+                            return
+                    raise Exception(
+                        f"[!] Element with id '{instruction[1]}' not found on the screen."
+                    )
             except Exception:
                 try:
                     if len(instruction) > 2:
                         vc.findViewWithText(instruction[2]).touch()
+                        print(f"[+] CLICKED {instruction[1]}")
                     else:
                         self.scroll_find_click(vc, comp_id)
                 except Exception:
@@ -285,8 +313,7 @@ class GAPSRUN:
                     )
                     return -1
 
-            print(f"[+] CLICKED {instruction[1]}")
-            vc.sleep(1)
+            vc.sleep(0.2)
         else:
             return -1
         return 0
@@ -296,7 +323,13 @@ class GAPSRUN:
         app_por = 0
         if tot_methods > 0:
             app_por = "{:.2f}".format(
-                float((len(methods_por) / tot_methods) * 100)
+                float(
+                    (
+                        sum(1 for method in methods_por.values() if method > 0)
+                        / tot_methods
+                    )
+                    * 100
+                )
             )
         with open(self.stats_file_path, "r") as stats_file:
             reader = csv.reader(stats_file)
@@ -347,7 +380,11 @@ class GAPSRUN:
             activity, _id = instruction[0], None
 
         llmThread = LLMThread(
-            self.apk_path, self.instructions_dir, activity, _id
+            self.apk_path,
+            self.instructions_dir,
+            self.target_method,
+            activity,
+            _id,
         )
         llmThread.start()
         llmThread.join()
@@ -357,9 +394,11 @@ class GAPSRUN:
     def input_text(self, text):
         try:
             text = text.replace(" ", "\ ")
-            os.system('adb shell input text "{}"'.format(text))
+
             subp.Popen(
-                'adb shell input text "{}"'.format(text),
+                'adb shell input keycombination 113 29 && adb shell input keyevent 67 && adb shell input text "{}"'.format(
+                    text
+                ),
                 shell=True,
                 stdout=subp.DEVNULL,
                 stderr=subp.PIPE,
@@ -377,6 +416,7 @@ class GAPSRUN:
         if os.path.exists(activity_memory_path):
             with open(activity_memory_path, "r") as f:
                 activity_memory = json.load(f)
+            print(curr_activity, target_activity)
             if (
                 curr_activity in activity_memory
                 and target_activity in activity_memory[curr_activity]
@@ -386,17 +426,18 @@ class GAPSRUN:
                     for action in actions:
                         splits = action.split()
                         if splits[0] == "click":
-                            operation = f"{curr_activity} {splits[1]}"
+                            operation = [curr_activity, splits[1]]
                             self.perform_action(
                                 self.vc, operation, self.package_name
                             )
                         elif splits[0] == "text":
-                            operation = f"{curr_activity} {splits[1]}"
+                            operation = [curr_activity, splits[1]]
                             self.perform_action(
                                 self.vc, operation, self.package_name
                             )
                             self.input_text(splits[2].replace("input:", ""))
                     if self.get_current_activity() == target_activity:
+                        found = True
                         return found
         return found
 
@@ -497,20 +538,20 @@ class GAPSRUN:
                 continue
             """
             self.force_dump(self.vc)
-            self.vc.sleep(1)
+            self.vc.sleep(0.2)
             self.avc_device.startActivity(
                 component=self.get_main_component(self.apk_path)
             )
-            self.vc.sleep(1)
+            self.vc.sleep(0.2)
             i = 0
             while i < len(path):
                 if type(path[i]) is str:
                     self.start_app(self.package_name)
-                    self.vc.sleep(2)
+                    self.vc.sleep(0.2)
                     i += 1
                     pass
                 elif type(path[i]) is list:
-                    self.vc.sleep(2)
+                    self.vc.sleep(0.2)
                     status = self.perform_action(
                         self.vc, path[i], self.package_name
                     )
@@ -526,7 +567,7 @@ class GAPSRUN:
                             self.use_llms(path[i])
                     else:
                         i += 1
-                    self.vc.sleep(2)
+                    self.vc.sleep(0.2)
                 if self.frida_bool and self.method_reached:
                     break
                 if self.methods_por[class_method] > 0:
@@ -582,7 +623,7 @@ class GAPSRUN:
             self.frida_device.on("spawn-added", self.spawn_added)
             self.frida_device.enable_spawn_gating()
 
-        ViewClient.sleep(2)
+        ViewClient.sleep(0.2)
 
         self.package_name = self.get_package_name(self.apk_path).replace(
             "'", ""
@@ -622,6 +663,7 @@ class GAPSRUN:
         with open(json_path, "r") as json_file:
             json_paths = json.load(json_file)
 
+        self.target_method = target
         if target:
             self.check_method_in_logcat([target])
             self._process_method(target, json_paths)
@@ -634,6 +676,7 @@ class GAPSRUN:
                 if class_method in self.methods_por:
                     print(f"[+] METHOD {class_method} ALREADY VISITED")
                     continue
+                self.target_method = class_method
                 self._process_method(class_method, json_paths)
 
         self.uninstall_app(self.package_name)

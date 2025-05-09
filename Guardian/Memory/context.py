@@ -260,8 +260,7 @@ class ContextManager:
         self.last_event = event
         self.all_events.append(event)
         event_tag = str(event)
-        if event_tag not in self.screen_events[activity]:
-            self.screen_events[activity].append(event_tag)
+        self.screen_events[activity].append(event_tag)
         self.contexts[-1].setEvent(event)
 
     def get_activity_history(self, activity):

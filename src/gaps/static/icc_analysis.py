@@ -126,7 +126,7 @@ def get_icc_info(gaps):
     )
     for register_receiver in register_receivers:
         dest = None
-        class_name, method_name = method_utils.get_class_and_method(
+        _, method_name = method_utils.get_class_and_method(
             register_receiver[0], True
         )
         if (

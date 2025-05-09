@@ -1911,24 +1911,6 @@ def plot_graph(graph):
     plt.show()
 
 
-def _is_unique_path(gaps, target_instruction, call_sequence):
-    """
-    Checks if a path is unique and updates statistics.
-
-    Args:
-        gaps: Gaps analysis object containing required data.
-        path: Path to check.
-
-    Returns:
-        bool: True if the path is unique, False otherwise.
-    """
-    gaps.solved_methods[target_instruction] += 1
-    if call_sequence in gaps.call_sequences:
-        return False
-    gaps.stats_row[6] += 1
-    return True
-
-
 def generate_instructions(paths: list, target_instruction, gaps):
     """
     Generates instructions for the paths and updates statistics.
@@ -1946,10 +1928,14 @@ def generate_instructions(paths: list, target_instruction, gaps):
         for piece in path:
             complete_path.extend(piece)
         call_sequence = _get_call_sequence(complete_path)
-        imm_call_sequence = tuple(call_sequence)
-        if not _is_unique_path(gaps, target_instruction, imm_call_sequence):
-            continue
-        gaps.call_sequences.add(imm_call_sequence)
+        if path_info in gaps.json_output:
+            for path in gaps.json_output[path_info]:
+                if (
+                    call_sequence
+                    == gaps.json_output[path_info][path]["call_sequence"]
+                ):
+                    continue
+        gaps.stats_row[6] += 1
         path_j = deque()
         for j in range(len(path) - 1, -1, -1):
             node = path[j]

@@ -397,8 +397,8 @@ class GAPS:
         self.stats_row[1] = time.time() - self.start_time
         self.stats_row[2] = len(self.json_output)
         self.stats_row[5] = 0
-        for method in self.solved_methods:
-            self.stats_row[5] += self.solved_methods[method]
+        for method in self.json_output:
+            self.stats_row[5] += len(list(self.json_output[method].keys()))
         if self.stats_row[2] != 0:
             self.stats_row[5] /= self.stats_row[2]
         else:
@@ -484,6 +484,10 @@ class GAPS:
                     max_paths=self.max_paths // len(partial_paths),
                 )
 
+        for idx, instruction in enumerate(self.starting_points):
+            process_instruction(idx, instruction)
+
+        """
         with ThreadPoolExecutor() as executor:
             futures = [
                 executor.submit(process_instruction, idx, instruction)
@@ -491,6 +495,7 @@ class GAPS:
             ]
             for future in futures:
                 future.result()
+        """
 
         LOG.info("--- %s seconds ---" % (time.time() - self.start_time))
         self._save_stats()

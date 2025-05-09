@@ -53,7 +53,7 @@ for file in $files; do
 			echo "App Name,Analysis Time (s),Max RAM Usage (MB),Return Code" > "$stats_file"
 		fi
 		echo "$app_name,$execution_time,$max_ram_mb,$return_code" >> "$stats_file"
-				echo "done"
+		echo "done"
 		rm -rf /tmp/*.cache
 	fi
 done

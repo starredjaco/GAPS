@@ -71,3 +71,7 @@ If device is rooted and equipped with Frida, a Runtime Reachability can be obtai
 `
 poetry run gaps run -i <app_path> -instr <path_to_json> -frida
 `
+
+## Paper evaluation data
+
+In `evaluation_data` the results of the experiments described in the paper can be found, as well as the target methods considered.

@@ -1,0 +1,72 @@
+{
+    "com.kvance.Nectroid.NectroidActivity": {
+        "com.kvance.Nectroid.PlaylistActivity": [
+            [
+                "click com.kvance.Nectroid:id/queue_button"
+            ],
+            [
+                "click com.kvance.Nectroid:id/queue_button",
+                "click com.kvance.Nectroid:id/play_button",
+                "click com.kvance.Nectroid:id/history_button"
+            ],
+            [
+                "click com.kvance.Nectroid:id/history_button"
+            ],
+            [
+                "click com.kvance.Nectroid:id/history_button",
+                "click com.kvance.Nectroid:id/queue_button"
+            ],
+            [
+                "click com.kvance.Nectroid:id/history_button",
+                "click com.kvance.Nectroid:id/play_button",
+                "click com.kvance.Nectroid:id/queue_button"
+            ]
+        ],
+        "com.kvance.Nectroid.StreamsActivity": [
+            [
+                "click com.kvance.Nectroid:id/queue_button",
+                "click com.kvance.Nectroid:id/play_button"
+            ],
+            [
+                "click com.kvance.Nectroid:id/history_button",
+                "click com.kvance.Nectroid:id/queue_button",
+                "click com.kvance.Nectroid:id/play_button"
+            ],
+            [
+                "click com.kvance.Nectroid:id/history_button",
+                "click com.kvance.Nectroid:id/play_button"
+            ]
+        ],
+        "com.android.chromecom.google.android.apps.chrome.Main": [
+            [
+                "click com.kvance.Nectroid:id/play_button",
+                "click com.kvance.Nectroid:id/history_button"
+            ],
+            [
+                "click com.kvance.Nectroid:id/queue_button",
+                "click com.kvance.Nectroid:id/play_button"
+            ]
+        ],
+        "com.google.android.apps.nexuslauncher.NexusLauncherActivity": [
+            [
+                "click com.kvance.Nectroid:id/play_button",
+                "click com.kvance.Nectroid:id/queue_button"
+            ]
+        ]
+    },
+    "com.kvance.Nectroid.PlaylistActivity": {
+        "com.kvance.Nectroid.NectroidActivity": [
+            []
+        ]
+    },
+    "com.kvance.Nectroid.StreamsActivity": {
+        "com.kvance.Nectroid.NectroidActivity": [
+            []
+        ]
+    },
+    "com.kvance.Nectroid.SettingsActivity": {
+        "com.kvance.Nectroid.NectroidActivity": [
+            []
+        ]
+    }
+}

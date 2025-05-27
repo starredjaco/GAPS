@@ -259,8 +259,7 @@ class ContextManager:
     def update_history(self, event, activity):
         self.last_event = event
         self.all_events.append(event)
-        event_tag = str(event)
-        self.screen_events[activity].append(event_tag)
+        self.screen_events[activity].append(event)
         self.contexts[-1].setEvent(event)
 
     def get_activity_history(self, activity):

@@ -4,7 +4,7 @@ OIFS="$IFS"
 IFS=$'\n'
 
 # Command-line arguments
-if [[ $# -lt 3 ]]; then
+if [[ $# -lt 2 ]]; then
 	echo "Usage: $0 <app_path> <output_dir> [files] [resume_from]"
 	exit 1
 fi
@@ -34,7 +34,7 @@ for file in $files; do
 		start_time=$(date +%s.%N)
 		poetry run gaps run -i $app_path/$file -instr $output_dir/$app_name/$app_name-instr.json -o $output_dir
 		end_time=$(date +%s.%N)
-		execution_time=$((end_time - start_time))
+		execution_time=$(echo "$end_time - $start_time" | bc)
 		echo "$app_name,$execution_time" >> "$stats_file"
 	fi
 	echo "done"

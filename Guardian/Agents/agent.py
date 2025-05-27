@@ -75,21 +75,9 @@ class Agent:
     ):
         # remove previous actions performed in the same activity
         if len(events) > 1:
-            for action_widget in activity_history:
+            for history_event in activity_history:
                 for event in events:
-                    splits = action_widget.split()
-                    if len(splits) > 2:
-                        action, widget = splits[:2]
-                    elif len(splits) == 2:
-                        action, widget = splits
-                    else:
-                        widget = action = splits
-                    # print(activity, action, widget)
-                    if (
-                        f"{action}" == event.action
-                        and f"{widget}"
-                        == event.widget.resourceId.split("/")[-1]
-                    ):
+                    if event == history_event:
                         events.remove(event)
 
         if len(events) == 0:
@@ -120,8 +108,8 @@ class Agent:
         )
         # print(idx)
         if idx == -1:
-            for action in activity_history:
-                if "text" == action.split()[0]:
+            for event in activity_history:
+                if "text" == event.action:
                     return None
             return Event.back()
         return events[event_map[idx]]

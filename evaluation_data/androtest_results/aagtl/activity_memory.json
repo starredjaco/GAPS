@@ -1,0 +1,48 @@
+{
+    "com.android.vendingcom.google.android.finsky.activities.MainActivity": {
+        "com.android.vendingcom.google.android.finsky.offlinegames.impl.OfflineGamesActivity": [
+            [
+                "click com.android.vending:id/button"
+            ]
+        ],
+        "com.zoffcc.applications.aagtl.aagtl": [
+            [
+                "click com.android.vending:id/button"
+            ],
+            []
+        ]
+    },
+    "com.android.vendingcom.google.android.finsky.offlinegames.impl.OfflineGamesActivity": {
+        "com.android.vendingcom.google.android.finsky.activities.MainActivity": [
+            [
+                "click com.android.vending:id/0_resource_name_obfuscated"
+            ]
+        ]
+    },
+    "com.zoffcc.applications.aagtl.aagtl": {
+        "com.google.android.calendar.allinone.AllInOneCalendarActivity": [
+            []
+        ],
+        "com.google.android.apps.nexuslauncher.NexusLauncherActivity": [
+            []
+        ],
+        "dkj.ueju.fd.K.OP": [
+            []
+        ]
+    },
+    "com.google.android.calendar.allinone.AllInOneCalendarActivity": {
+        "com.google.android.apps.nexuslauncher.NexusLauncherActivity": [
+            []
+        ]
+    },
+    "dkj.ueju.fd.K.OP": {
+        "com.zoffcc.applications.aagtl.aagtl": [
+            []
+        ]
+    },
+    "com.google.android.apps.nexuslauncher.NexusLauncherActivity": {
+        "com.zoffcc.applications.aagtl.aagtl": [
+            []
+        ]
+    }
+}

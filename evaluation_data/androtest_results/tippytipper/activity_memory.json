@@ -1,0 +1,21 @@
+{
+    "net.mandaria.tippytipperlibrary.activities.Total": {
+        "net.mandaria.tippytipperlibrary.activities.SplitBill": [
+            [
+                "click net.mandaria.tippytipper:id/btn_TipAmount1",
+                "click net.mandaria.tippytipper:id/btn_TipAmount2",
+                "click net.mandaria.tippytipper:id/btn_TipAmount3",
+                "click net.mandaria.tippytipper:id/btn_round_down",
+                "click net.mandaria.tippytipper:id/btn_round_up",
+                "click net.mandaria.tippytipper:id/btn_SplitBill"
+            ]
+        ]
+    },
+    "net.mandaria.tippytipperlibrary.activities.SplitBill": {
+        "net.mandaria.tippytipperlibrary.activities.Total": [
+            [
+                "click net.mandaria.tippytipper:id/btn_remove_person"
+            ]
+        ]
+    }
+}

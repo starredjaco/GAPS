@@ -1,0 +1,73 @@
+{
+    "com.android.vendingcom.google.android.finsky.activities.MainActivity": {
+        "com.android.vendingcom.google.android.finsky.offlinegames.impl.OfflineGamesActivity": [
+            [
+                "click com.android.vending:id/0_resource_name_obfuscated",
+                "click com.android.vending:id/button"
+            ],
+            [
+                "click com.android.vending:id/button"
+            ]
+        ]
+    },
+    "com.example.anycut.FrontDoorActivity": {
+        "com.example.anycut.CreateShortcutActivity": [
+            [
+                "click com.example.anycut:id/newShortcut"
+            ],
+            [
+                "click com.example.anycut:id/newShortcut",
+                "click com.example.anycut:id/newShortcut"
+            ],
+            [
+                "click com.example.anycut:id/newShortcut",
+                "click com.example.anycut:id/newShortcut",
+                "click com.example.anycut:id/newShortcut"
+            ],
+            [
+                "click com.example.anycut:id/newShortcut",
+                "click com.example.anycut:id/newShortcut",
+                "click com.example.anycut:id/newShortcut",
+                "click com.example.anycut:id/newShortcut"
+            ],
+            [
+                "click com.example.anycut:id/newShortcut",
+                "click com.example.anycut:id/newShortcut",
+                "click com.example.anycut:id/newShortcut",
+                "click com.example.anycut:id/newShortcut",
+                "click com.example.anycut:id/newShortcut"
+            ],
+            [
+                "click com.example.anycut:id/newShortcut",
+                "click com.example.anycut:id/newShortcut",
+                "click com.example.anycut:id/newShortcut",
+                "click com.example.anycut:id/newShortcut",
+                "click com.example.anycut:id/newShortcut",
+                "click com.example.anycut:id/newShortcut"
+            ],
+            [
+                "click com.example.anycut:id/newShortcut",
+                "click com.example.anycut:id/newShortcut",
+                "click com.example.anycut:id/newShortcut",
+                "click com.example.anycut:id/newShortcut",
+                "click com.example.anycut:id/newShortcut",
+                "click com.example.anycut:id/newShortcut",
+                "click com.example.anycut:id/newShortcut"
+            ],
+            []
+        ],
+        "com.example.anycut.CustomShortcutCreatorActivity": [
+            [
+                "click com.example.anycut:id/newShortcut",
+                "click com.example.anycut:id/newShortcut",
+                "click com.example.anycut:id/newShortcut",
+                "click com.example.anycut:id/newShortcut"
+            ]
+        ]
+    },
+    "com.example.anycut.CreateShortcutActivity": {
+        "com.example.anycut.FrontDoorActivity": [
+            []
+        ]
+    }
+}

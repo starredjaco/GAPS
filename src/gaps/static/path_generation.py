@@ -6,7 +6,6 @@ import networkx as nx
 import matplotlib.pyplot as plt
 from collections import deque, defaultdict
 from itertools import groupby
-from pathlib import Path
 
 from . import method_utils
 from . import conditional_path_generation
@@ -119,9 +118,9 @@ def find_path_smali(
         starting_points = defaultdict(set)
         if not target_instruction:
             if target_method in gaps.signature_to_address:
-                for method in gaps.signature_to_address[target_method]:
+                for method in list(gaps.signature_to_address[target_method]):
                     classes = gaps.signature_to_address[target_method][method]
-                    for class_name in classes:
+                    for class_name in list(classes):
                         if not target_class or (
                             target_class and target_class == class_name
                         ):
@@ -321,14 +320,19 @@ def _breadth_first_search_graph(
             for addr in translate:
                 if source_node in translate[addr] and addr != -1:
                     list_paths.extend(
-                        _graph_visit(graph, translate, addr, explore)
+                        _graph_visit(
+                            graph, translate, addr, explore, gaps.conditional
+                        )
                     )
+                    break
     if search:
         gaps.search_list[search] = list_paths
     return list_paths
 
 
-def _graph_visit(graph, translate: dict, source_node: list, explore: bool):
+def _graph_visit(
+    graph, translate: dict, source_node: list, explore: bool, conditional: bool
+):
     """
     Visits nodes in a graph.
 
@@ -337,6 +341,7 @@ def _graph_visit(graph, translate: dict, source_node: list, explore: bool):
         translate: Translated nodes.
         source_node: Source node.
         explore: Whether to explore paths.
+        conditional: Conditional information.
 
     Returns:
         list: List of visited nodes.
@@ -345,7 +350,9 @@ def _graph_visit(graph, translate: dict, source_node: list, explore: bool):
     max_alternative_paths = 1
     if explore:
         max_alternative_paths = 5
-    max_path_len = 50
+    max_path_len = 1
+    if conditional:
+        max_path_len = 50
     dict_paths = {}
     paths = deque()
     code_paths = deque()
@@ -585,6 +592,7 @@ def add_new_nodes(
     previous_node: list,
     analyzed_nodes,
     nodes_queue,
+    max_paths,
 ) -> list:
     """
     Adds new nodes to a graph.
@@ -600,10 +608,14 @@ def add_new_nodes(
     """
     if len(to_add) == 0:
         return
+    already_seen = set()
     for i in range(len(to_add)):
         graph.add_edge(previous_node, to_add[i])
-        if to_add[i][-1] in analyzed_nodes:
+        if to_add[i][-1] in analyzed_nodes or to_add[i][-1] in already_seen:
             continue
+        already_seen.add(to_add[i][-1])
+        if len(already_seen) > max_paths:
+            break
         if (
             not to_add[i][-1].startswith("SEND")
             and to_add[i][-1] != "MAIN ACTIVITY"
@@ -765,7 +777,10 @@ def _find_component_paths(last_instr, last_path, super_class, gaps) -> list:
                     target_instruction=target_signature,
                     consider_hierarchy=False,
                 )
-                res.extend(new_paths)
+                if len(new_paths) > 0:
+
+                    res.extend(new_paths)
+                    continue
 
     if len(res) > 0:
         return res
@@ -1545,7 +1560,6 @@ def build_paths(
     # start from the paths found initially
     for partial_path in partial_paths:
         target_instruction = partial_path[0].split()[-1]
-        graph = nx.DiGraph()
         analyzed_nodes = set()
         nodes_queue = deque()
         nodes_queue.append(partial_path)
@@ -1565,14 +1579,16 @@ def build_paths(
             # add any additional paths found to alternative paths
             add_new_nodes(
                 new_nodes,
-                graph,
+                gaps.graph,
                 current_node,
                 analyzed_nodes,
                 nodes_queue,
+                max_paths,
             )
             if len(entry_points) > max_paths:
+                # clean_graph_copy = clean_graph(gaps.graph.copy(), entry_points)
                 n_paths += _get_paths(
-                    graph,
+                    gaps.graph.copy(),
                     source_node,
                     entry_points,
                     max_paths,
@@ -1585,9 +1601,9 @@ def build_paths(
                 )
 
         if len(entry_points) > 0:
-            graph = clean_graph(graph, entry_points)
+            # clean_graph_copy = clean_graph(gaps.graph.copy(), entry_points)
             n_paths += _get_paths(
-                graph,
+                gaps.graph.copy(),
                 source_node,
                 entry_points,
                 max_paths,
@@ -1954,9 +1970,15 @@ def generate_instructions(paths: list, target_instruction, gaps):
                     conditional_found = True
 
             str_path_piece = str(node)
-            if re.search(
-                r"\(.*Landroid/view.*\)", str_path_piece
-            ) or re.search(r"\(.*Landroid/widget.*\)", str_path_piece):
+            if (
+                "Landroid/view" in str_path_piece
+                or "Landroid/widget" in str_path_piece
+            ):
+                # Only then use regex if substring matches
+                if re.search(
+                    r"\(.*Landroid/view.*\)", str_path_piece
+                ) or re.search(r"\(.*Landroid/widget.*\)", str_path_piece):
+                    pass  # keep the original logic here if needed
                 result = ui_id_finder.use_ui_id_finder_on_paths(node, gaps)
                 for element_id, element_text in result:
                     if not element_id:

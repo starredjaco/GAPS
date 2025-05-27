@@ -1,0 +1,60 @@
+{
+    "org.beide.bomber.BomberActivity": {
+        "org.dnaq.dialer2.DialerActivity": [
+            [
+                "click android:id/button1"
+            ]
+        ]
+    },
+    "org.dnaq.dialer2.DialerActivity": {
+        "com.google.android.apps.nexuslauncher.NexusLauncherActivity": [
+            [
+                "text org.dnaq.dialer2:id/EditTextPhoneNumber",
+                "click org.dnaq.dialer2:id/ButtonCall"
+            ],
+            [
+                "click org.dnaq.dialer2:id/ButtonCall",
+                "click org.dnaq.dialer2:id/ButtonContract"
+            ],
+            [
+                "click org.dnaq.dialer2:id/ButtonCall",
+                "click org.dnaq.dialer2:id/ButtonContract",
+                "click com.google.android.googlequicksearchbox:id/googleapp_navigation_bar_discover",
+                "click org.dnaq.dialer2:id/DialerExpandButton"
+            ]
+        ],
+        "com.google.android.dialer.extensions.GoogleDialtactsActivity": [
+            []
+        ]
+    },
+    "com.google.android.apps.nexuslauncher.NexusLauncherActivity": {
+        "com.google.android.dialer.extensions.GoogleDialtactsActivity": [
+            [
+                "click (35, 1382, 237, 1592)"
+            ]
+        ],
+        "com.google.android.googlequicksearchbox.InternalGoogleAppActivityEntrypoint": [
+            [
+                "click org.dnaq.dialer2:id/DialerExpandButton"
+            ]
+        ]
+    },
+    "com.google.android.dialer.extensions.GoogleDialtactsActivity": {
+        "com.google.android.dialercom.android.dialer.incall.activity.ui.InCallActivity": [
+            [
+                "text org.dnaq.dialer2:id/EditTextPhoneNumber",
+                "click com.google.android.dialer:id/dialpad_voice_call_button",
+                "click com.google.android.dialer:id/dialpad_view",
+                "click com.google.android.dialer:id/dialpad_view",
+                "click org.dnaq.dialer2:id/ButtonCall"
+            ]
+        ]
+    },
+    "com.google.android.dialercom.android.dialer.incall.activity.ui.InCallActivity": {
+        "com.google.android.dialer.extensions.GoogleDialtactsActivity": [
+            [
+                "click android:id/button2"
+            ]
+        ]
+    }
+}

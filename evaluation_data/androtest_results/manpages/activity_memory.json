@@ -1,0 +1,18 @@
+{
+    "com.chmod0.manpages.ManualActivity": {
+        "com.chmod0.manpages.BrowserActivity": [
+            [
+                "text com.chmod0.manpages:id/search_input com.chmod0.manpages.BrowserActivitygetApplication",
+                "swipe com.chmod0.manpages:id/pages_names",
+                "click android:id/text1"
+            ]
+        ]
+    },
+    "com.chmod0.manpages.BrowserActivity": {
+        "com.chmod0.manpages.ManualActivity": [
+            [
+                "click com.chmod0.manpages:id/webview"
+            ]
+        ]
+    }
+}

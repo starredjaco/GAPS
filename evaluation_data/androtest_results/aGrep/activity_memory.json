@@ -1,0 +1,56 @@
+{
+    "jp.sblo.pandora.aGrep.Settings": {
+        "jp.sblo.pandora.aGrep.FileSelectorActivity": [
+            [
+                "click jp.sblo.pandora.aGrep:id/textview",
+                "click jp.sblo.pandora.aGrep:id/checkre",
+                "text jp.sblo.pandora.aGrep:id/EditText01",
+                "click jp.sblo.pandora.aGrep:id/adddir"
+            ],
+            [
+                "click jp.sblo.pandora.aGrep:id/ButtonSearch",
+                "click jp.sblo.pandora.aGrep:id/textview",
+                "click jp.sblo.pandora.aGrep:id/adddir"
+            ]
+        ]
+    },
+    "jp.sblo.pandora.aGrep.FileSelectorActivity": {
+        "jp.sblo.pandora.aGrep.Settings": [
+            [
+                "click (0, 63, 147, 210)"
+            ]
+        ]
+    },
+    "jp.sblo.pandora.aGrep.OptionActivity": {
+        "com.android.vendingcom.google.android.finsky.activities.MainActivity": [
+            [
+                "click (0, 210, 360, 399)"
+            ]
+        ],
+        "jp.sblo.pandora.aGrep.Settings": [
+            [
+                "click (0, 210, 360, 399)",
+                "click (0, 63, 147, 210)"
+            ],
+            [
+                "click jp.sblo.pandora.aGrep:id/textview",
+                "click (0, 63, 147, 210)"
+            ]
+        ],
+        "jp.sblo.pandora.aGrep.ColorPickerActivity": [
+            [
+                "click jp.sblo.pandora.aGrep:id/textview"
+            ]
+        ]
+    },
+    "jp.sblo.pandora.aGrep.ColorPickerActivity": {
+        "jp.sblo.pandora.aGrep.OptionActivity": [
+            [
+                "click (0, 210, 360, 399)",
+                "text (70, 857, 1010, 975) #FFFFFF",
+                "click android:id/button2",
+                "click (0, 63, 147, 210)"
+            ]
+        ]
+    }
+}

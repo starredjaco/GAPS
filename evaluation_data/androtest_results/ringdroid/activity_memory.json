@@ -1,0 +1,54 @@
+{
+    "com.ringdroid.RingdroidSelectActivity": {
+        "com.ringdroid.RingdroidEditActivity": [
+            [
+                "click com.ringdroid:id/action_record"
+            ],
+            [
+                "click com.ringdroid:id/action_search_filter",
+                "click com.ringdroid:id/action_record"
+            ]
+        ],
+        "AtchDlg:com.ringdroidcom.ringdroid.RingdroidSelectActivity": [
+            [
+                "click com.ringdroid:id/action_record",
+                "click com.ringdroid:id/action_search_filter",
+                "click (932, 63, 1080, 189)",
+                "click com.ringdroid:id/row_options_button"
+            ],
+            [
+                "click com.ringdroid:id/action_record",
+                "click com.ringdroid:id/action_search_filter",
+                "click (932, 63, 1080, 189)",
+                "click com.ringdroid:id/row_options_button",
+                "click com.ringdroid:id/row_options_button"
+            ],
+            [
+                "click com.ringdroid:id/action_record",
+                "click com.ringdroid:id/action_search_filter",
+                "click (932, 63, 1080, 189)",
+                "click com.ringdroid:id/row_options_button",
+                "click com.ringdroid:id/row_options_button",
+                "click com.ringdroid:id/row_options_button"
+            ],
+            [
+                "click com.ringdroid:id/action_search_filter",
+                "click com.ringdroid:id/action_record",
+                "click (932, 63, 1080, 189)",
+                "click com.ringdroid:id/row_options_button"
+            ],
+            [
+                "click com.ringdroid:id/action_search_filter",
+                "click com.ringdroid:id/action_record",
+                "click (932, 63, 1080, 189)",
+                "click com.ringdroid:id/row_options_button",
+                "click com.ringdroid:id/row_options_button"
+            ]
+        ]
+    },
+    "AtchDlg:com.ringdroidcom.ringdroid.RingdroidSelectActivity": {
+        "com.ringdroid.RingdroidSelectActivity": [
+            []
+        ]
+    }
+}

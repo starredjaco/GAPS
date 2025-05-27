@@ -1,0 +1,376 @@
+{
+    "com.fsck.k9.ui.onboarding.OnboardingActivity": {
+        "com.fsck.k9.activity.setup.AccountSetupBasics": [
+            [
+                "click com.fsck.k9:id/next"
+            ]
+        ]
+    },
+    "com.fsck.k9.activity.setup.AccountSetupBasics": {
+        "com.fsck.k9.activity.setup.AccountSetupAccountType": [
+            [
+                "text com.fsck.k9:id/account_email",
+                "click com.fsck.k9:id/next",
+                "text com.fsck.k9:id/account_password",
+                "click com.fsck.k9:id/manual_setup"
+            ],
+            [
+                "text com.fsck.k9:id/account_email",
+                "click com.fsck.k9:id/manual_setup"
+            ],
+            [
+                "text com.fsck.k9:id/account_email",
+                "click com.fsck.k9:id/next",
+                "click com.fsck.k9:id/foldableControl",
+                "text com.fsck.k9:id/account_password",
+                "click com.fsck.k9:id/manual_setup"
+            ],
+            [
+                "text com.fsck.k9:id/account_email example@example.com",
+                "click com.fsck.k9:id/next",
+                "text com.fsck.k9:id/account_password P@ssw0rd",
+                "click com.fsck.k9:id/manual_setup"
+            ],
+            [
+                "text com.fsck.k9:id/account_email example@example.com",
+                "click com.fsck.k9:id/next",
+                "click com.fsck.k9:id/text_input_end_icon",
+                "text com.fsck.k9:id/account_password P@ssw0rd",
+                "click com.fsck.k9:id/manual_setup"
+            ],
+            [
+                "text com.fsck.k9:id/account_email test@example.com",
+                "click com.fsck.k9:id/next",
+                "text com.fsck.k9:id/account_password P@ssw0rd",
+                "click com.fsck.k9:id/manual_setup"
+            ],
+            [
+                "text com.fsck.k9:id/account_email test@example.com",
+                "click com.fsck.k9:id/manual_setup"
+            ]
+        ],
+        "com.google.android.apps.nexuslauncher.NexusLauncherActivity": [
+            [
+                "text com.fsck.k9:id/account_email test@example.com"
+            ]
+        ]
+    },
+    "com.fsck.k9.activity.setup.AccountSetupAccountType": {
+        "com.fsck.k9.activity.setup.AccountSetupIncoming": [
+            [
+                "click com.fsck.k9:id/imap"
+            ],
+            [
+                "click com.fsck.k9:id/account_auth_type",
+                "click com.fsck.k9:id/imap"
+            ]
+        ]
+    },
+    "com.fsck.k9.activity.setup.AccountSetupIncoming": {
+        "com.fsck.k9.activity.setup.AccountSetupCheckSettings": [
+            [
+                "click com.fsck.k9:id/next"
+            ]
+        ],
+        "org.waxworlds.edam.importcontacts.ConfigureVCF": [
+            [
+                "click com.fsck.k9:id/next",
+                "click com.fsck.k9:id/account_auth_type"
+            ],
+            [
+                "click com.fsck.k9:id/imap_autodetect_namespace",
+                "click com.fsck.k9:id/client_certificate_spinner_button",
+                "click com.fsck.k9:id/account_auth_type"
+            ]
+        ],
+        "com.fsck.k9.activity.MessageList": [
+            [
+                "text com.fsck.k9:id/account_email pixel123"
+            ]
+        ]
+    },
+    "com.fsck.k9.activity.setup.AccountSetupCheckSettings": {
+        "com.fsck.k9.activity.setup.AccountSetupIncoming": [
+            [
+                "click android:id/button1"
+            ]
+        ],
+        "com.fsck.k9.activity.setup.AccountSetupOutgoing": [
+            [
+                "click android:id/button2"
+            ],
+            [
+                "click android:id/button2",
+                "click android:id/button1"
+            ]
+        ]
+    },
+    "org.waxworlds.edam.importcontacts.ConfigureVCF": {
+        "com.fsck.k9.activity.setup.AccountSetupIncoming": [
+            []
+        ],
+        "com.fsck.k9.activity.MessageList": [
+            []
+        ]
+    },
+    "com.fsck.k9.activity.setup.AccountSetupOutgoing": {
+        "com.fsck.k9.activity.setup.AccountSetupCheckSettings": [
+            [
+                "click com.fsck.k9:id/next"
+            ]
+        ]
+    },
+    "com.fsck.k9.activity.MessageList": {
+        "com.fsck.k9.ui.settings.SettingsActivity": [
+            [
+                "click com.fsck.k9:id/search_button",
+                "click com.fsck.k9:id/floating_action_button",
+                "click (0, 63, 147, 210)",
+                "click (0, 1668, 840, 1794)"
+            ],
+            [
+                "click (975, 73, 1080, 199)",
+                "click com.fsck.k9:id/search_button",
+                "click com.fsck.k9:id/floating_action_button",
+                "click (0, 63, 147, 210)",
+                "click (0, 1668, 840, 1794)"
+            ],
+            [
+                "click (0, 1668, 840, 1794)"
+            ],
+            [
+                "click com.fsck.k9:id/floating_action_button",
+                "click com.fsck.k9:id/search_button",
+                "click (0, 63, 147, 210)",
+                "click (0, 1668, 840, 1794)"
+            ],
+            [
+                "click com.fsck.k9:id/search_button",
+                "click com.fsck.k9:id/floating_action_button",
+                "click (0, 442, 1080, 674)",
+                "click com.fsck.k9:id/menu_overflow",
+                "click com.fsck.k9:id/set_sort",
+                "click (0, 63, 147, 210)",
+                "click (0, 1668, 840, 1794)"
+            ],
+            [
+                "click com.fsck.k9:id/search_button",
+                "click com.fsck.k9:id/floating_action_button",
+                "text com.fsck.k9:id/search_src_text imap.",
+                "click (0, 63, 147, 210)",
+                "click (0, 1668, 840, 1794)"
+            ]
+        ],
+        "com.fsck.k9.activity.MessageCompose": [
+            [
+                "click com.fsck.k9:id/floating_action_button"
+            ],
+            [
+                "click (0, 210, 1080, 351)",
+                "click com.fsck.k9:id/floating_action_button"
+            ],
+            [
+                "click com.fsck.k9:id/search_button",
+                "click com.fsck.k9:id/floating_action_button",
+                "click (0, 63, 147, 210)",
+                "click com.fsck.k9:id/material_drawer_recycler_view",
+                "click com.fsck.k9:id/set_sort",
+                "click (0, 442, 1080, 668)",
+                "click com.fsck.k9:id/menu_primary_action"
+            ],
+            [
+                "click com.fsck.k9:id/search_button",
+                "click com.fsck.k9:id/floating_action_button",
+                "click (0, 210, 1080, 442)",
+                "click com.fsck.k9:id/menu_primary_action"
+            ],
+            [
+                "click com.fsck.k9:id/search_button",
+                "click (0, 63, 147, 210)",
+                "click com.fsck.k9:id/floating_action_button",
+                "click (0, 1126, 1080, 1358)",
+                "click com.fsck.k9:id/menu_primary_action"
+            ]
+        ],
+        "com.google.android.apps.nexuslauncher.NexusLauncherActivity": [
+            [
+                "click com.fsck.k9:id/search_button",
+                "click com.fsck.k9:id/floating_action_button",
+                "click (0, 442, 1080, 668)",
+                "click com.fsck.k9:id/menu_overflow",
+                "click com.fsck.k9:id/set_sort",
+                "click (0, 63, 147, 210)",
+                "click com.fsck.k9:id/material_drawer_recycler_view"
+            ],
+            [
+                "click com.fsck.k9:id/search_button",
+                "click com.fsck.k9:id/floating_action_button",
+                "click com.fsck.k9:id/menu_primary_action"
+            ],
+            [
+                "click com.fsck.k9:id/search_button",
+                "click com.fsck.k9:id/floating_action_button",
+                "click com.fsck.k9:id/menu_primary_action",
+                "click com.fsck.k9:id/set_sort",
+                "click (0, 63, 147, 210)"
+            ],
+            [
+                "click com.fsck.k9:id/search_button",
+                "click com.fsck.k9:id/floating_action_button",
+                "click (0, 63, 147, 210)",
+                "click com.fsck.k9:id/material_drawer_recycler_view",
+                "click com.fsck.k9:id/set_sort",
+                "click (0, 1584, 1080, 1794)",
+                "click com.fsck.k9:id/menu_overflow"
+            ]
+        ],
+        "com.google.android.googlequicksearchboxcom.google.android.libraries.speech.transcription.ui.TranscriptionActivity": [
+            [
+                "click com.fsck.k9:id/search_button",
+                "click com.fsck.k9:id/floating_action_button",
+                "text com.fsck.k9:id/search_src_text test message",
+                "click com.fsck.k9:id/search_close_btn",
+                "click com.fsck.k9:id/search_voice_btn"
+            ],
+            [
+                "click com.fsck.k9:id/search_button",
+                "click com.fsck.k9:id/floating_action_button",
+                "text com.fsck.k9:id/search_src_text example@example.com",
+                "click com.fsck.k9:id/search_close_btn",
+                "click com.fsck.k9:id/search_voice_btn"
+            ]
+        ],
+        "com.android.chromeorg.chromium.chrome.browser.ChromeTabbedActivity": [
+            [
+                "click com.fsck.k9:id/search_button",
+                "click com.fsck.k9:id/floating_action_button",
+                "click (0, 63, 147, 210)",
+                "click com.fsck.k9:id/material_drawer_account_header_current",
+                "click com.fsck.k9:id/set_sort",
+                "click (0, 442, 1080, 674)",
+                "click (357, 1641, 724, 1738)"
+            ]
+        ],
+        "com.fsck.k9.ui.managefolders.ManageFoldersActivity": [
+            [
+                "click com.fsck.k9:id/search_button",
+                "click (0, 63, 147, 210)",
+                "click (0, 1542, 840, 1668)"
+            ]
+        ],
+        "com.fsck.k9.activity.setup.AccountSetupIncoming": [
+            [
+                "click com.fsck.k9:id/search_button",
+                "click com.fsck.k9:id/floating_action_button",
+                "click (0, 63, 147, 210)",
+                "click com.fsck.k9:id/material_drawer_recycler_view"
+            ]
+        ]
+    },
+    "com.fsck.k9.ui.settings.SettingsActivity": {
+        "com.fsck.k9.activity.setup.AccountSetupBasics": [
+            [
+                "click (0, 571, 1080, 697)"
+            ],
+            [
+                "click (0, 210, 1080, 336)",
+                "click com.fsck.k9:id/show_recent_changes_checkbox",
+                "click (0, 571, 1080, 697)"
+            ]
+        ],
+        "com.fsck.k9.activity.MessageList": [
+            [
+                "click (0, 210, 1080, 336)",
+                "click com.fsck.k9:id/show_recent_changes_checkbox"
+            ]
+        ]
+    },
+    "com.fsck.k9.activity.MessageCompose": {
+        "com.google.android.documentsuicom.android.documentsui.picker.PickActivity": [
+            [
+                "click com.fsck.k9:id/identity",
+                "click com.fsck.k9:id/send",
+                "click com.fsck.k9:id/add_attachment"
+            ],
+            [
+                "click com.fsck.k9:id/send",
+                "click com.fsck.k9:id/add_attachment"
+            ],
+            [
+                "click com.fsck.k9:id/send",
+                "text com.fsck.k9:id/subject Testing123",
+                "click com.fsck.k9:id/add_attachment"
+            ],
+            [
+                "click com.fsck.k9:id/send",
+                "text com.fsck.k9:id/to example@example.com",
+                "click com.fsck.k9:id/add_attachment"
+            ]
+        ],
+        "com.fsck.k9.activity.MessageList": [
+            [
+                "click (0, 63, 147, 210)"
+            ],
+            [
+                "click com.fsck.k9:id/send"
+            ],
+            [
+                "click com.fsck.k9:id/identity",
+                "click com.fsck.k9:id/send",
+                "text com.fsck.k9:id/subject Testing Subject",
+                "click com.fsck.k9:id/recipient_expander",
+                "click (0, 63, 147, 210)",
+                "click android:id/button1"
+            ],
+            [
+                "click com.fsck.k9:id/floating_action_button"
+            ],
+            [
+                "click com.fsck.k9:id/floating_action_button",
+                "click com.fsck.k9:id/menu_primary_action"
+            ],
+            [
+                "click com.fsck.k9:id/send",
+                "click (0, 63, 147, 210)"
+            ]
+        ]
+    },
+    "com.google.android.documentsuicom.android.documentsui.picker.PickActivity": {
+        "com.android.vendingcom.google.android.finsky.activities.MainActivity": [
+            [
+                "click (0, 483, 270, 668)",
+                "click (21, 84, 168, 210)",
+                "click com.google.android.documentsui:id/option_menu_search"
+            ]
+        ],
+        "com.google.android.apps.docs.common.entrypicker.EntryPickerActivity": [
+            [
+                "click (21, 84, 168, 210)",
+                "click com.google.android.documentsui:id/action_icon_area"
+            ]
+        ],
+        "com.google.android.apps.nexuslauncher.NexusLauncherActivity": [
+            [
+                "click com.google.android.documentsui:id/option_menu_search",
+                "text com.google.android.documentsui:id/search_src_text test@email.com",
+                "click (21, 84, 168, 210)",
+                "click (21, 84, 168, 210)"
+            ]
+        ]
+    },
+    "com.google.android.apps.nexuslauncher.NexusLauncherActivity": {
+        "com.google.android.googlequicksearchbox.InternalGoogleAppActivityEntrypoint": [
+            [
+                "click com.fsck.k9:id/search_button"
+            ]
+        ]
+    },
+    "com.google.android.apps.docs.common.entrypicker.EntryPickerActivity": {
+        "com.android.chromeorg.chromium.chrome.browser.ChromeTabbedActivity": [
+            [
+                "click (278, 231, 514, 357)",
+                "click (538, 1627, 784, 1753)"
+            ]
+        ]
+    }
+}

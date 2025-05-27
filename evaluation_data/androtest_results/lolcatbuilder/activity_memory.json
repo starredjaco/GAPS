@@ -1,0 +1,27 @@
+{
+    "com.android.lolcat.LolcatActivity": {
+        "com.google.android.documentsuicom.android.documentsui.picker.PickActivity": [
+            [
+                "click com.android.lolcat:id/pick_button"
+            ]
+        ]
+    },
+    "com.google.android.documentsuicom.android.documentsui.picker.PickActivity": {
+        "com.google.android.apps.docs.common.entrypicker.EntryPickerActivity": [
+            [
+                "click com.google.android.documentsui:id/searchbar_title",
+                "text com.google.android.documentsui:id/search_src_text",
+                "click com.google.android.documentsui:id/sub_menu_list",
+                "click com.google.android.documentsui:id/sub_menu_grid",
+                "click (21, 84, 168, 210)",
+                "click (21, 84, 168, 210)",
+                "click com.google.android.documentsui:id/action_icon_area"
+            ]
+        ]
+    },
+    "com.google.android.apps.docs.common.entrypicker.EntryPickerActivity": {
+        "com.android.chromecom.google.android.apps.chrome.Main": [
+            []
+        ]
+    }
+}

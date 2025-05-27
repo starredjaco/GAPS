@@ -1,0 +1,1075 @@
+{
+    "Lcri/sanity/screen/AboutActivity;->donateUrl()Ljava/lang/String;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcri/sanity/screen/AboutActivity;->access$000()Ljava/lang/String; <",
+                "> Lcri/sanity/screen/AboutActivity$4;->on()Z <",
+                "> Lcri/sanity/screen/AboutActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcri/sanity/PrefGroups;->screens()[Ljava/lang/Object; <",
+                "> Lcri/sanity/ScreenActivity;->screenerAll()V <",
+                "> Lcri/sanity/ScreenActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcri/sanity/MainActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcri/sanity/screen/DateTimeActivity;->access$1202(Lcri/sanity/screen/DateTimeActivity;Z)Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcri/sanity/screen/DateTimeActivity$Pref$1;->on()V <",
+                "> Lcri/sanity/screen/DateTimeActivity$Pref;->onPreferenceClick(Landroid/preference/Preference;)Z <",
+                "> Lcri/sanity/screen/DateTimeActivity;->initTimes()V <",
+                "> Lcri/sanity/screen/DateTimeActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcri/sanity/screen/FilterActivity;->startAct(Ljava/lang/Class;I)Z <",
+                "> Lcri/sanity/screen/FilterActivity;->access$000(Lcri/sanity/screen/FilterActivity;Ljava/lang/Class;I)Z <",
+                "> Lcri/sanity/screen/FilterActivity$1;->on()Z <",
+                "> Lcri/sanity/screen/FilterActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcri/sanity/ShortcutActivity;->execFilter(Ljava/lang/String;)Z <",
+                "> Lcri/sanity/ShortcutActivity;->execShortcut(Landroid/content/Intent;)Z <",
+                "> Lcri/sanity/ShortcutActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.CREATE_SHORTCUT",
+                    "start-activity -a"
+                ]
+            ]
+        }
+    },
+    "Lcri/sanity/screen/TtsActivity$5$1$1;-><init>(Lcri/sanity/screen/TtsActivity$5$1;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcri/sanity/screen/TtsActivity$5$1;->onUtteranceCompleted(Ljava/lang/String;)V <",
+                "> Lcri/sanity/screen/TtsActivity$5;->on()Z <",
+                "> Lcri/sanity/screen/TtsActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcri/sanity/PrefGroups;->screens()[Ljava/lang/Object; <",
+                "> Lcri/sanity/ScreenActivity;->screenerAll()V <",
+                "> Lcri/sanity/ScreenActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcri/sanity/MainActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcri/sanity/PickupService$1;->stop([I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcri/sanity/PickupService$1;->run()V <",
+                "> Lcri/sanity/PickupService;->onStartCommand(Landroid/content/Intent;II)I <",
+                "> Lcri/sanity/PickupService;->start()V <",
+                "> Lcri/sanity/OutgoingReceiver;->setCallNum(Ljava/lang/String;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.NEW_OUTGOING_CALL",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Lcri/sanity/util/Task;->idNew()I": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcri/sanity/util/WifiTracker;-><clinit>()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.net.wifi.WIFI_STATE_CHANGED",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Lcri/sanity/A;->verName()Ljava/lang/String;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcri/sanity/ScreenActivity;->fullName()Ljava/lang/String; <",
+                "> Lcri/sanity/ScreenActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcri/sanity/screen/DevicesActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcri/sanity/ShortcutActivity;->getShortcuts()[Ljava/lang/Object; <",
+                "> Lcri/sanity/ShortcutActivity;->chooseShortcut()V <",
+                "> Lcri/sanity/ShortcutActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.MAIN",
+                    "start-activity -a"
+                ]
+            ]
+        }
+    },
+    "Lcri/sanity/TTS$1;->exec(I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcri/sanity/TTS;->onUtteranceCompleted(Ljava/lang/String;)V <",
+                "> Lcri/sanity/screen/TtsActivity$5$1;->onUtteranceCompleted(Ljava/lang/String;)V <",
+                "> Lcri/sanity/screen/TtsActivity$5;->on()Z <",
+                "> Lcri/sanity/screen/TtsActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcri/sanity/PrefGroups;->screens()[Ljava/lang/Object; <",
+                "> Lcri/sanity/ScreenActivity;->screenerAll()V <",
+                "> Lcri/sanity/ScreenActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcri/sanity/MainActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcri/sanity/screen/DateTimeActivity;->hasDays()Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcri/sanity/screen/DateTimeActivity;->onBackPressed()V <",
+                "> Lcri/sanity/screen/FilterActivity;->startAct(Ljava/lang/Class;I)Z <",
+                "> Lcri/sanity/screen/FilterActivity;->access$000(Lcri/sanity/screen/FilterActivity;Ljava/lang/Class;I)Z <",
+                "> Lcri/sanity/screen/FilterActivity$1;->on()Z <",
+                "> Lcri/sanity/screen/FilterActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcri/sanity/ShortcutActivity;->execFilter(Ljava/lang/String;)Z <",
+                "> Lcri/sanity/ShortcutActivity;->execShortcut(Landroid/content/Intent;)Z <",
+                "> Lcri/sanity/ShortcutActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.CREATE_SHORTCUT",
+                    "start-activity -a"
+                ]
+            ]
+        }
+    },
+    "Lcri/sanity/PhoneListener$5;-><init>(Lcri/sanity/PhoneListener;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcri/sanity/PhoneListener;->initCall()V <",
+                "> Lcri/sanity/PhoneListener;->onRinging()V <",
+                "> Lcri/sanity/PhoneListener;->onCallStateChanged(ILjava/lang/String;)V <",
+                "> Lcri/sanity/MainService;->onCreate()V <",
+                "> Lcri/sanity/MainService;->start()V <",
+                "> Lcri/sanity/PhoneReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.PHONE_STATE",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Lcri/sanity/util/Alert$Edited;->access$000(Lcri/sanity/util/Alert$Edited;Ljava/lang/String;Landroid/content/DialogInterface;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcri/sanity/util/Alert$8;->on()V <",
+                "> Lcri/sanity/util/Alert;->pwdChoose(Ljava/lang/String;Ljava/lang/String;Lcri/sanity/util/Alert$Edited;Lcri/sanity/util/Alert$Click;Landroid/content/Context;)Landroid/app/AlertDialog; <",
+                "> Lcri/sanity/util/Alert;->pwdChoose(Ljava/lang/String;Lcri/sanity/util/Alert$Edited;)Landroid/app/AlertDialog; <",
+                "> Lcri/sanity/ShortcutActivity;->execChoosePwd()Z <",
+                "> Lcri/sanity/ShortcutActivity;->execOption(Ljava/lang/String;Ljava/lang/String;)Z <",
+                "> Lcri/sanity/ShortcutActivity;->execShortcut(Landroid/content/Intent;)Z <",
+                "> Lcri/sanity/ShortcutActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.CREATE_SHORTCUT",
+                    "start-activity -a"
+                ]
+            ]
+        }
+    },
+    "Lcri/sanity/screen/ContactsActivity;->isFinishing()Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcri/sanity/screen/ContactsActivity;->onBackPressed()V <",
+                "> Lcri/sanity/screen/FilterActivity;->startAct(Ljava/lang/Class;I)Z <",
+                "> Lcri/sanity/screen/FilterActivity;->access$000(Lcri/sanity/screen/FilterActivity;Ljava/lang/Class;I)Z <",
+                "> Lcri/sanity/screen/FilterActivity$3;->on()Z <",
+                "> Lcri/sanity/screen/FilterActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcri/sanity/ShortcutActivity;->execFilter(Ljava/lang/String;)Z <",
+                "> Lcri/sanity/ShortcutActivity;->execShortcut(Landroid/content/Intent;)Z <",
+                "> Lcri/sanity/ShortcutActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.CREATE_SHORTCUT",
+                    "start-activity -a"
+                ]
+            ]
+        }
+    },
+    "Lcri/sanity/PrefGroups;->screens()[Ljava/lang/Object;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcri/sanity/ScreenActivity;->screenerAll()V <",
+                "> Lcri/sanity/ScreenActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcri/sanity/screen/DevicesActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcri/sanity/ShortcutActivity;->getShortcuts()[Ljava/lang/Object; <",
+                "> Lcri/sanity/ShortcutActivity;->chooseShortcut()V <",
+                "> Lcri/sanity/ShortcutActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.MAIN",
+                    "start-activity -a"
+                ]
+            ]
+        }
+    },
+    "Lcri/sanity/screen/DateTimeActivity$Pref;->setPersistent(Z)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcri/sanity/screen/DateTimeActivity$Pref;-><init>(Lcri/sanity/screen/DateTimeActivity;IIII)V <",
+                "> Lcri/sanity/screen/DateTimeActivity$Pref;-><init>(Lcri/sanity/screen/DateTimeActivity;IIIILcri/sanity/screen/DateTimeActivity$1;)V <",
+                "> Lcri/sanity/screen/DateTimeActivity;->initTimes()V <",
+                "> Lcri/sanity/screen/DateTimeActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcri/sanity/screen/FilterActivity;->startAct(Ljava/lang/Class;I)Z <",
+                "> Lcri/sanity/screen/FilterActivity;->access$000(Lcri/sanity/screen/FilterActivity;Ljava/lang/Class;I)Z <",
+                "> Lcri/sanity/screen/FilterActivity$1;->on()Z <",
+                "> Lcri/sanity/screen/FilterActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcri/sanity/ShortcutActivity;->execFilter(Ljava/lang/String;)Z <",
+                "> Lcri/sanity/ShortcutActivity;->execShortcut(Landroid/content/Intent;)Z <",
+                "> Lcri/sanity/ShortcutActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.CREATE_SHORTCUT",
+                    "start-activity -a"
+                ]
+            ]
+        }
+    },
+    "Lcri/sanity/screen/GroupsActivity;->canc()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcri/sanity/screen/GroupsActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcri/sanity/screen/FilterActivity;->startAct(Ljava/lang/Class;I)Z <",
+                "> Lcri/sanity/screen/FilterActivity;->access$000(Lcri/sanity/screen/FilterActivity;Ljava/lang/Class;I)Z <",
+                "> Lcri/sanity/screen/FilterActivity$4;->on()Z <",
+                "> Lcri/sanity/screen/FilterActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcri/sanity/ShortcutActivity;->execFilter(Ljava/lang/String;)Z <",
+                "> Lcri/sanity/ShortcutActivity;->execShortcut(Landroid/content/Intent;)Z <",
+                "> Lcri/sanity/ShortcutActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.CREATE_SHORTCUT",
+                    "start-activity -a"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "cri.sanity.screen.GroupsActivity",
+                    "canc",
+                    "Deselect all"
+                ]
+            ]
+        }
+    },
+    "Lcri/sanity/util/Dev;->enableLock(Z)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcri/sanity/PhoneListener;->onIdle()V <",
+                "> Lcri/sanity/PhoneListener;->onCallStateChanged(ILjava/lang/String;)V <",
+                "> Lcri/sanity/MainService;->onCreate()V <",
+                "> Lcri/sanity/MainService;->start()V <",
+                "> Lcri/sanity/PhoneReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.PHONE_STATE",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Lcri/sanity/util/Vibra;->setMode()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcri/sanity/screen/VibraActivity$1;->on()Z <",
+                "> Lcri/sanity/screen/VibraActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcri/sanity/PrefGroups;->screens()[Ljava/lang/Object; <",
+                "> Lcri/sanity/ScreenActivity;->screenerAll()V <",
+                "> Lcri/sanity/ScreenActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcri/sanity/MainActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcri/sanity/screen/ProfileActivity;->access$1300()Ljava/lang/String;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcri/sanity/screen/ProfileActivity$Pref;->setSummary()V <",
+                "> Lcri/sanity/screen/ProfileActivity$Pref;-><init>(Lcri/sanity/screen/ProfileActivity;Ljava/io/File;Ljava/lang/String;)V <",
+                "> Lcri/sanity/screen/ProfileActivity$Pref;-><init>(Lcri/sanity/screen/ProfileActivity;Ljava/io/File;Ljava/lang/String;Lcri/sanity/screen/ProfileActivity$1;)V <",
+                "> Lcri/sanity/screen/ProfileActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcri/sanity/screen/GeneralActivity$4;->on()Z <",
+                "> Lcri/sanity/screen/GeneralActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcri/sanity/PrefGroups;->screens()[Ljava/lang/Object; <",
+                "> Lcri/sanity/ScreenActivity;->screenerAll()V <",
+                "> Lcri/sanity/ScreenActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcri/sanity/MainActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcri/sanity/screen/BrowseActivity$Pref;->access$000(Lcri/sanity/screen/BrowseActivity$Pref;)Ljava/lang/String;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcri/sanity/screen/BrowseActivity;->open()V <",
+                "> Lcri/sanity/screen/BrowseActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcri/sanity/screen/RecordActivity$1;->on()Z <",
+                "> Lcri/sanity/screen/RecordActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcri/sanity/PrefGroups;->screens()[Ljava/lang/Object; <",
+                "> Lcri/sanity/ScreenActivity;->screenerAll()V <",
+                "> Lcri/sanity/ScreenActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcri/sanity/MainActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "----- CONDITIONAL -----",
+                "> Lcri/sanity/screen/BrowseActivity;->empty(II)V <",
+                "----- CONDITIONAL -----",
+                "> Lcri/sanity/screen/BrowseActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "----- CONDITIONAL -----",
+                "> Lcri/sanity/screen/RecordActivity$1;->on()Z <",
+                "----- CONDITIONAL -----",
+                "> Lcri/sanity/screen/RecordActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "----- CONDITIONAL -----",
+                "> Lcri/sanity/ShortcutActivity;->getShortcuts()[Ljava/lang/Object; <",
+                "----- CONDITIONAL -----",
+                "> Lcri/sanity/ShortcutActivity;->chooseShortcut()V <",
+                "----- CONDITIONAL -----",
+                "> Lcri/sanity/ShortcutActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "----- CONDITIONAL -----"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.CREATE_SHORTCUT",
+                    "start-activity -a"
+                ],
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "cri.sanity.screen.BrowseActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcri/sanity/screen/NumsActivity$3;-><init>(Lcri/sanity/screen/NumsActivity;Ljava/lang/String;Lcri/sanity/screen/NumsActivity$Pref;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcri/sanity/screen/NumsActivity;->change()V <",
+                "> Lcri/sanity/screen/NumsActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcri/sanity/screen/FilterActivity;->startAct(Ljava/lang/Class;I)Z <",
+                "> Lcri/sanity/screen/FilterActivity;->access$000(Lcri/sanity/screen/FilterActivity;Ljava/lang/Class;I)Z <",
+                "> Lcri/sanity/screen/FilterActivity$2;->on()Z <",
+                "> Lcri/sanity/screen/FilterActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcri/sanity/ShortcutActivity;->execFilter(Ljava/lang/String;)Z <",
+                "> Lcri/sanity/ShortcutActivity;->execShortcut(Landroid/content/Intent;)Z <",
+                "> Lcri/sanity/ShortcutActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.CREATE_SHORTCUT",
+                    "start-activity -a"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "cri.sanity.screen.NumsActivity",
+                    "change",
+                    "Modify"
+                ]
+            ]
+        }
+    },
+    "Lcri/sanity/util/Alert;->access$200()Ljava/lang/String;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcri/sanity/util/Alert$8;->on()V <",
+                "> Lcri/sanity/util/Alert;->pwdChoose(Ljava/lang/String;Ljava/lang/String;Lcri/sanity/util/Alert$Edited;Lcri/sanity/util/Alert$Click;Landroid/content/Context;)Landroid/app/AlertDialog; <",
+                "> Lcri/sanity/util/Alert;->pwdChoose(Ljava/lang/String;Lcri/sanity/util/Alert$Edited;)Landroid/app/AlertDialog; <",
+                "> Lcri/sanity/ShortcutActivity;->execChoosePwd()Z <",
+                "> Lcri/sanity/ShortcutActivity;->execOption(Ljava/lang/String;Ljava/lang/String;)Z <",
+                "> Lcri/sanity/ShortcutActivity;->execShortcut(Landroid/content/Intent;)Z <",
+                "> Lcri/sanity/ShortcutActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.CREATE_SHORTCUT",
+                    "start-activity -a"
+                ]
+            ]
+        }
+    },
+    "Lcri/sanity/screen/UrgentActivity$1;-><init>(Lcri/sanity/screen/UrgentActivity;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcri/sanity/screen/UrgentActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcri/sanity/PrefGroups;->screens()[Ljava/lang/Object; <",
+                "> Lcri/sanity/ScreenActivity;->screenerAll()V <",
+                "> Lcri/sanity/ScreenActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcri/sanity/MainActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcri/sanity/HistoryActivity;->readHistory(Lcri/sanity/HistoryActivity$Async;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcri/sanity/HistoryActivity;->access$300(Lcri/sanity/HistoryActivity;Lcri/sanity/HistoryActivity$Async;)V <",
+                "> Lcri/sanity/HistoryActivity$3;->run()V <",
+                "> Lcri/sanity/HistoryActivity;->onStart()V <",
+                "> Lcri/sanity/screen/ContactsActivity;->onStart()V <",
+                "> Lcri/sanity/screen/FilterActivity;->startAct(Ljava/lang/Class;I)Z <",
+                "> Lcri/sanity/screen/FilterActivity;->access$000(Lcri/sanity/screen/FilterActivity;Ljava/lang/Class;I)Z <",
+                "> Lcri/sanity/screen/FilterActivity$3;->on()Z <",
+                "> Lcri/sanity/screen/FilterActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcri/sanity/ShortcutActivity;->execFilter(Ljava/lang/String;)Z <",
+                "> Lcri/sanity/ShortcutActivity;->execShortcut(Landroid/content/Intent;)Z <",
+                "> Lcri/sanity/ShortcutActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "----- CONDITIONAL -----",
+                "> Lcri/sanity/HistoryActivity;->readHistory(Lcri/sanity/HistoryActivity$Async;)V <",
+                "----- CONDITIONAL -----",
+                "> Lcri/sanity/HistoryActivity;->access$300(Lcri/sanity/HistoryActivity;Lcri/sanity/HistoryActivity$Async;)V <",
+                "----- CONDITIONAL -----",
+                "> Lcri/sanity/HistoryActivity$3;->run()V <",
+                "----- CONDITIONAL -----",
+                "> Lcri/sanity/HistoryActivity;->onStart()V <",
+                "----- CONDITIONAL -----",
+                "> Lcri/sanity/screen/ContactsActivity;->onStart()V <",
+                "----- CONDITIONAL -----",
+                "> Lcri/sanity/screen/FilterActivity;->startAct(Ljava/lang/Class;I)Z <",
+                "> Lcri/sanity/screen/FilterActivity;->access$000(Lcri/sanity/screen/FilterActivity;Ljava/lang/Class;I)Z <",
+                "> Lcri/sanity/screen/FilterActivity$3;->on()Z <",
+                "----- CONDITIONAL -----",
+                "> Lcri/sanity/screen/FilterActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "----- CONDITIONAL -----",
+                "> Lcri/sanity/ShortcutActivity;->execFilter(Ljava/lang/String;)Z <",
+                "----- CONDITIONAL -----",
+                "> Lcri/sanity/ShortcutActivity;->execShortcut(Landroid/content/Intent;)Z <",
+                "----- CONDITIONAL -----",
+                "> Lcri/sanity/ShortcutActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "----- CONDITIONAL -----"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.MAIN",
+                    "start-activity -a"
+                ],
+                [
+                    "intent",
+                    "android.intent.action.CREATE_SHORTCUT",
+                    "start-activity -a"
+                ]
+            ]
+        }
+    },
+    "Lcri/sanity/PhoneListener;->regHeadset()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcri/sanity/PhoneListener;->initCall()V <",
+                "> Lcri/sanity/PhoneListener;->onRinging()V <",
+                "> Lcri/sanity/PhoneListener;->onCallStateChanged(ILjava/lang/String;)V <",
+                "> Lcri/sanity/MainService;->onCreate()V <",
+                "> Lcri/sanity/MainService;->start()V <",
+                "> Lcri/sanity/PhoneReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.PHONE_STATE",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Lcri/sanity/MainActivity$4;-><init>(Lcri/sanity/MainActivity;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcri/sanity/MainActivity;->enableFull(Z)V <",
+                "> Lcri/sanity/MainActivity;->access$100(Lcri/sanity/MainActivity;Z)V <",
+                "> Lcri/sanity/MainActivity$3;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcri/sanity/PrefGroups;->skipKeys()[Ljava/lang/String;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcri/sanity/P;->skipKeysMap()Ljava/util/Map; <",
+                "> Lcri/sanity/ScreenActivity;-><clinit>()V <",
+                "> Lcri/sanity/screen/ProximityActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcri/sanity/ShortcutActivity;->getShortcuts()[Ljava/lang/Object; <",
+                "> Lcri/sanity/ShortcutActivity;->chooseShortcut()V <",
+                "> Lcri/sanity/ShortcutActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.MAIN",
+                    "start-activity -a"
+                ]
+            ]
+        }
+    },
+    "Lcri/sanity/screen/GeneralActivity;->access$202(Lcri/sanity/screen/GeneralActivity;Z)Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcri/sanity/screen/GeneralActivity$5$2;->on()V <",
+                "> Lcri/sanity/screen/GeneralActivity$5;->on()Z <",
+                "> Lcri/sanity/screen/GeneralActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcri/sanity/PrefGroups;->screens()[Ljava/lang/Object; <",
+                "> Lcri/sanity/ScreenActivity;->screenerAll()V <",
+                "> Lcri/sanity/ScreenActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcri/sanity/MainActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcri/sanity/screen/ProfileActivity$Pref;->setSummary()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcri/sanity/screen/ProfileActivity$Pref;->setActive(Z)V <",
+                "> Lcri/sanity/screen/ProfileActivity$Pref;-><init>(Lcri/sanity/screen/ProfileActivity;Ljava/io/File;Ljava/lang/String;)V <",
+                "> Lcri/sanity/screen/ProfileActivity$Pref;-><init>(Lcri/sanity/screen/ProfileActivity;Ljava/io/File;Ljava/lang/String;Lcri/sanity/screen/ProfileActivity$1;)V <",
+                "> Lcri/sanity/screen/ProfileActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcri/sanity/screen/GeneralActivity$4;->on()Z <",
+                "> Lcri/sanity/screen/GeneralActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcri/sanity/PrefGroups;->screens()[Ljava/lang/Object; <",
+                "> Lcri/sanity/ScreenActivity;->screenerAll()V <",
+                "> Lcri/sanity/ScreenActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcri/sanity/MainActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcri/sanity/util/Alert;->pwdAsk(Lcri/sanity/util/Alert$Edited;Lcri/sanity/util/Alert$Click;)Landroid/app/AlertDialog;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcri/sanity/ScreenActivity;->protect()V <",
+                "> Lcri/sanity/ScreenActivity;->onResume()V <",
+                "> Lcri/sanity/screen/TtsActivity;->onResume()V <",
+                "> Lcri/sanity/ShortcutActivity;->getShortcuts()[Ljava/lang/Object; <",
+                "> Lcri/sanity/ShortcutActivity;->chooseShortcut()V <",
+                "> Lcri/sanity/ShortcutActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "----- CONDITIONAL -----",
+                "> Lcri/sanity/ScreenActivity;->ungrant()V <",
+                "----- CONDITIONAL -----",
+                "> Lcri/sanity/ScreenActivity;->onPause()V <",
+                "----- CONDITIONAL -----",
+                "> Lcri/sanity/screen/TtsActivity;->onPause()V <",
+                "----- CONDITIONAL -----",
+                "> Lcri/sanity/ShortcutActivity;->getShortcuts()[Ljava/lang/Object; <",
+                "----- CONDITIONAL -----",
+                "> Lcri/sanity/ShortcutActivity;->chooseShortcut()V <",
+                "----- CONDITIONAL -----",
+                "> Lcri/sanity/ShortcutActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "----- CONDITIONAL -----"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.CREATE_SHORTCUT",
+                    "start-activity -a"
+                ],
+                [
+                    "intent",
+                    "android.intent.action.MAIN",
+                    "start-activity -a"
+                ]
+            ]
+        }
+    },
+    "Lcri/sanity/util/Blocker$1;->exec(I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcri/sanity/util/Blocker;->apply(I)Z <",
+                "> Lcri/sanity/PhoneListener;->onRinging()V <",
+                "> Lcri/sanity/PhoneListener;->onCallStateChanged(ILjava/lang/String;)V <",
+                "> Lcri/sanity/MainService;->onCreate()V <",
+                "> Lcri/sanity/MainService;->start()V <",
+                "> Lcri/sanity/PhoneReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.PHONE_STATE",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Lcri/sanity/screen/ContactsActivity;->finish()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcri/sanity/screen/ContactsActivity;->canc()V <",
+                "> Lcri/sanity/screen/ContactsActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcri/sanity/screen/FilterActivity;->startAct(Ljava/lang/Class;I)Z <",
+                "> Lcri/sanity/screen/FilterActivity;->access$000(Lcri/sanity/screen/FilterActivity;Ljava/lang/Class;I)Z <",
+                "> Lcri/sanity/screen/FilterActivity$3;->on()Z <",
+                "> Lcri/sanity/screen/FilterActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcri/sanity/ShortcutActivity;->execFilter(Ljava/lang/String;)Z <",
+                "> Lcri/sanity/ShortcutActivity;->execShortcut(Landroid/content/Intent;)Z <",
+                "> Lcri/sanity/ShortcutActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.CREATE_SHORTCUT",
+                    "start-activity -a"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "cri.sanity.screen.ContactsActivity",
+                    "canc",
+                    "Deselect all"
+                ]
+            ]
+        }
+    },
+    "Lcri/sanity/pref/PList;->setEnabled(Z)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcri/sanity/screen/SpeakerActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcri/sanity/PrefGroups;->screens()[Ljava/lang/Object; <",
+                "> Lcri/sanity/ScreenActivity;->screenerAll()V <",
+                "> Lcri/sanity/ScreenActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcri/sanity/MainActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcri/sanity/BlankActivity$1;-><init>(Lcri/sanity/BlankActivity;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcri/sanity/BlankActivity;->postFinish()V <",
+                "> Lcri/sanity/util/Blocker;->shutdown()V <",
+                "> Lcri/sanity/PhoneListener;->onIdle()V <",
+                "> Lcri/sanity/PhoneListener;->onCallStateChanged(ILjava/lang/String;)V <",
+                "> Lcri/sanity/MainService;->onCreate()V <",
+                "> Lcri/sanity/MainService;->start()V <",
+                "> Lcri/sanity/PhoneReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.PHONE_STATE",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Lcri/sanity/util/Dev;->gConn()Lcri/sanity/ghost/ConnMan;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcri/sanity/util/Dev;->isTetheringOn()Z <",
+                "> Lcri/sanity/PhoneListener;->initCall()V <",
+                "> Lcri/sanity/PhoneListener;->onRinging()V <",
+                "> Lcri/sanity/PhoneListener;->onCallStateChanged(ILjava/lang/String;)V <",
+                "> Lcri/sanity/MainService;->onCreate()V <",
+                "> Lcri/sanity/MainService;->start()V <",
+                "> Lcri/sanity/PhoneReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "----- CONDITIONAL -----",
+                "> Lcri/sanity/PhoneListener;->enableDevs(Z)V <",
+                "----- CONDITIONAL -----",
+                "> Lcri/sanity/PhoneListener;->updateHeadset(ZI)V <",
+                "----- CONDITIONAL -----",
+                "> Lcri/sanity/PhoneListener;->updateHeadsetBt(Z)V <",
+                "----- CONDITIONAL -----",
+                "> Lcri/sanity/BtReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "----- CONDITIONAL -----"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.bluetooth.device.action.ACL_CONNECTED",
+                    "broadcast -a"
+                ],
+                [
+                    "intent",
+                    "android.intent.action.PHONE_STATE",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Lcri/sanity/PhoneListener;->access$302(Lcri/sanity/PhoneListener;Z)Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcri/sanity/PhoneListener$1;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.HEADSET_PLUG",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Lcri/sanity/HistoryActivity$3;->execute([Ljava/lang/Object;)Landroid/os/AsyncTask;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcri/sanity/HistoryActivity;->onStart()V <",
+                "> Lcri/sanity/screen/ContactsActivity;->onStart()V <",
+                "> Lcri/sanity/screen/FilterActivity;->startAct(Ljava/lang/Class;I)Z <",
+                "> Lcri/sanity/screen/FilterActivity;->access$000(Lcri/sanity/screen/FilterActivity;Ljava/lang/Class;I)Z <",
+                "> Lcri/sanity/screen/FilterActivity$3;->on()Z <",
+                "> Lcri/sanity/screen/FilterActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcri/sanity/ShortcutActivity;->execFilter(Ljava/lang/String;)Z <",
+                "> Lcri/sanity/ShortcutActivity;->execShortcut(Landroid/content/Intent;)Z <",
+                "> Lcri/sanity/ShortcutActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "----- CONDITIONAL -----",
+                "> Lcri/sanity/HistoryActivity;->readHistory(Lcri/sanity/HistoryActivity$Async;)V <",
+                "----- CONDITIONAL -----",
+                "> Lcri/sanity/HistoryActivity;->access$300(Lcri/sanity/HistoryActivity;Lcri/sanity/HistoryActivity$Async;)V <",
+                "----- CONDITIONAL -----",
+                "> Lcri/sanity/HistoryActivity$3;->run()V <",
+                "----- CONDITIONAL -----",
+                "> Lcri/sanity/HistoryActivity;->onStart()V <",
+                "----- CONDITIONAL -----",
+                "> Lcri/sanity/screen/ContactsActivity;->onStart()V <",
+                "----- CONDITIONAL -----",
+                "> Lcri/sanity/screen/FilterActivity;->startAct(Ljava/lang/Class;I)Z <",
+                "> Lcri/sanity/screen/FilterActivity;->access$000(Lcri/sanity/screen/FilterActivity;Ljava/lang/Class;I)Z <",
+                "> Lcri/sanity/screen/FilterActivity$3;->on()Z <",
+                "----- CONDITIONAL -----",
+                "> Lcri/sanity/screen/FilterActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "----- CONDITIONAL -----",
+                "> Lcri/sanity/ShortcutActivity;->execFilter(Ljava/lang/String;)Z <",
+                "----- CONDITIONAL -----",
+                "> Lcri/sanity/ShortcutActivity;->execShortcut(Landroid/content/Intent;)Z <",
+                "----- CONDITIONAL -----",
+                "> Lcri/sanity/ShortcutActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "----- CONDITIONAL -----"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.MAIN",
+                    "start-activity -a"
+                ],
+                [
+                    "intent",
+                    "android.intent.action.CREATE_SHORTCUT",
+                    "start-activity -a"
+                ]
+            ]
+        }
+    },
+    "Lcri/sanity/screen/FilterActivity;->screener(Ljava/lang/Class;II)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcri/sanity/screen/FilterActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcri/sanity/ShortcutActivity;->execFilter(Ljava/lang/String;)Z <",
+                "> Lcri/sanity/ShortcutActivity;->execShortcut(Landroid/content/Intent;)Z <",
+                "> Lcri/sanity/ShortcutActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.CREATE_SHORTCUT",
+                    "start-activity -a"
+                ]
+            ]
+        }
+    },
+    "Lcri/sanity/HistoryActivity;->lineItems()I": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcri/sanity/HistoryActivity;->readHistory(Lcri/sanity/HistoryActivity$Async;)V <",
+                "> Lcri/sanity/HistoryActivity;->access$300(Lcri/sanity/HistoryActivity;Lcri/sanity/HistoryActivity$Async;)V <",
+                "> Lcri/sanity/HistoryActivity$3;->run()V <",
+                "> Lcri/sanity/HistoryActivity;->onStart()V <",
+                "> Lcri/sanity/screen/ContactsActivity;->onStart()V <",
+                "> Lcri/sanity/screen/FilterActivity;->startAct(Ljava/lang/Class;I)Z <",
+                "> Lcri/sanity/screen/FilterActivity;->access$000(Lcri/sanity/screen/FilterActivity;Ljava/lang/Class;I)Z <",
+                "> Lcri/sanity/screen/FilterActivity$3;->on()Z <",
+                "> Lcri/sanity/screen/FilterActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcri/sanity/ShortcutActivity;->execFilter(Ljava/lang/String;)Z <",
+                "> Lcri/sanity/ShortcutActivity;->execShortcut(Landroid/content/Intent;)Z <",
+                "> Lcri/sanity/ShortcutActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "----- CONDITIONAL -----",
+                "> Lcri/sanity/HistoryActivity;->readHistory(Lcri/sanity/HistoryActivity$Async;)V <",
+                "----- CONDITIONAL -----",
+                "> Lcri/sanity/HistoryActivity;->access$300(Lcri/sanity/HistoryActivity;Lcri/sanity/HistoryActivity$Async;)V <",
+                "----- CONDITIONAL -----",
+                "> Lcri/sanity/HistoryActivity$3;->run()V <",
+                "----- CONDITIONAL -----",
+                "> Lcri/sanity/HistoryActivity;->onStart()V <",
+                "----- CONDITIONAL -----",
+                "> Lcri/sanity/screen/ContactsActivity;->onStart()V <",
+                "----- CONDITIONAL -----",
+                "> Lcri/sanity/screen/FilterActivity;->startAct(Ljava/lang/Class;I)Z <",
+                "> Lcri/sanity/screen/FilterActivity;->access$000(Lcri/sanity/screen/FilterActivity;Ljava/lang/Class;I)Z <",
+                "> Lcri/sanity/screen/FilterActivity$3;->on()Z <",
+                "----- CONDITIONAL -----",
+                "> Lcri/sanity/screen/FilterActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "----- CONDITIONAL -----",
+                "> Lcri/sanity/ShortcutActivity;->execFilter(Ljava/lang/String;)Z <",
+                "----- CONDITIONAL -----",
+                "> Lcri/sanity/ShortcutActivity;->execShortcut(Landroid/content/Intent;)Z <",
+                "----- CONDITIONAL -----",
+                "> Lcri/sanity/ShortcutActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "----- CONDITIONAL -----"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.MAIN",
+                    "start-activity -a"
+                ],
+                [
+                    "intent",
+                    "android.intent.action.CREATE_SHORTCUT",
+                    "start-activity -a"
+                ]
+            ]
+        }
+    },
+    "Lcri/sanity/A;->geti(Ljava/lang/String;)I": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcri/sanity/ModeActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcri/sanity/ModeActivity;->start(Ljava/lang/String;Z)V <",
+                "> Lcri/sanity/ModeReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "----- CONDITIONAL -----",
+                "> Lcri/sanity/Alarmer;->actSilentLimit()V <",
+                "----- CONDITIONAL -----",
+                "> Lcri/sanity/Alarmer;->alarmIntent(Ljava/lang/String;Landroid/os/Bundle;)Landroid/app/PendingIntent; <",
+                "----- CONDITIONAL -----",
+                "> Lcri/sanity/Alarmer;->alarmIntent(Ljava/lang/String;)Landroid/app/PendingIntent; <",
+                "----- CONDITIONAL -----",
+                "> Lcri/sanity/Alarmer;->stop(Ljava/lang/String;)V <",
+                "----- CONDITIONAL -----",
+                "> Lcri/sanity/ModeReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "----- CONDITIONAL -----"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.media.RINGER_MODE_CHANGED",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Lcri/sanity/screen/TtsActivity$4;-><init>(Lcri/sanity/screen/TtsActivity;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcri/sanity/screen/TtsActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcri/sanity/PrefGroups;->screens()[Ljava/lang/Object; <",
+                "> Lcri/sanity/ScreenActivity;->screenerAll()V <",
+                "> Lcri/sanity/ScreenActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcri/sanity/MainActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcri/sanity/MainActivity;->pref(Ljava/lang/String;)Landroid/preference/Preference;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcri/sanity/MainActivity;->enableFull(Z)V <",
+                "> Lcri/sanity/MainActivity;->access$100(Lcri/sanity/MainActivity;Z)V <",
+                "> Lcri/sanity/MainActivity$3;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcri/sanity/A;->rstring(Ljava/lang/String;)I": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcri/sanity/ShortcutActivity;->execFilter(Ljava/lang/String;)Z <",
+                "> Lcri/sanity/ShortcutActivity;->execShortcut(Landroid/content/Intent;)Z <",
+                "> Lcri/sanity/ShortcutActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.CREATE_SHORTCUT",
+                    "start-activity -a"
+                ]
+            ]
+        }
+    },
+    "Lcri/sanity/util/Dev;->iTel()Lcom/android/internal/telephony/ITelephony;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcri/sanity/util/Dev;->endCall()Z <",
+                "> Lcri/sanity/util/Blocker;->onOffhook()Z <",
+                "> Lcri/sanity/PhoneListener;->onOffhook()V <",
+                "> Lcri/sanity/PhoneListener;->onCallStateChanged(ILjava/lang/String;)V <",
+                "> Lcri/sanity/MainService;->onCreate()V <",
+                "> Lcri/sanity/MainService;->start()V <",
+                "> Lcri/sanity/PhoneReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.PHONE_STATE",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Lcri/sanity/screen/AnonymActivity;->on(Landroid/preference/Preference;Lcri/sanity/PrefActivity$Change;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcri/sanity/screen/AnonymActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcri/sanity/PrefGroups;->screens()[Ljava/lang/Object; <",
+                "> Lcri/sanity/ScreenActivity;->screenerAll()V <",
+                "> Lcri/sanity/ScreenActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcri/sanity/MainActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcri/sanity/ScreenActivity;->getMenuInflater()Landroid/view/MenuInflater;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcri/sanity/ScreenActivity;->onCreateOptionsMenu(Landroid/view/Menu;)Z <",
+                "> Lcri/sanity/screen/BrowseActivity;->onCreateOptionsMenu(Landroid/view/Menu;)Z <",
+                "> Lcri/sanity/screen/RecordActivity$1;->on()Z <",
+                "> Lcri/sanity/screen/RecordActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcri/sanity/PrefGroups;->screens()[Ljava/lang/Object; <",
+                "> Lcri/sanity/ScreenActivity;->screenerAll()V <",
+                "> Lcri/sanity/ScreenActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcri/sanity/MainActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "----- CONDITIONAL -----",
+                "> Lcri/sanity/screen/BrowseActivity;->empty(II)V <",
+                "----- CONDITIONAL -----",
+                "> Lcri/sanity/screen/BrowseActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "----- CONDITIONAL -----",
+                "> Lcri/sanity/screen/RecordActivity$1;->on()Z <",
+                "----- CONDITIONAL -----",
+                "> Lcri/sanity/screen/RecordActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "----- CONDITIONAL -----",
+                "> Lcri/sanity/ShortcutActivity;->getShortcuts()[Ljava/lang/Object; <",
+                "----- CONDITIONAL -----",
+                "> Lcri/sanity/ShortcutActivity;->chooseShortcut()V <",
+                "----- CONDITIONAL -----",
+                "> Lcri/sanity/ShortcutActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "----- CONDITIONAL -----"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.CREATE_SHORTCUT",
+                    "start-activity -a"
+                ],
+                [
+                    "main activity"
+                ],
+                [
+                    "cri.sanity.screen.BrowseActivity",
+                    "<unknown>"
+                ],
+                [
+                    "cri.sanity.ScreenActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcri/sanity/screen/TtsActivity;->setChecked(Ljava/lang/String;Z)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcri/sanity/screen/TtsActivity;->onResume()V <",
+                "> Lcri/sanity/PrefGroups;->screens()[Ljava/lang/Object; <",
+                "> Lcri/sanity/ScreenActivity;->screenerAll()V <",
+                "> Lcri/sanity/ScreenActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcri/sanity/MainActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcri/sanity/screen/TtsActivity;->ttsBroken()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcri/sanity/screen/TtsActivity;->access$000(Lcri/sanity/screen/TtsActivity;)V <",
+                "> Lcri/sanity/screen/TtsActivity$1;->on()Z <",
+                "> Lcri/sanity/screen/TtsActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcri/sanity/PrefGroups;->screens()[Ljava/lang/Object; <",
+                "> Lcri/sanity/ScreenActivity;->screenerAll()V <",
+                "> Lcri/sanity/ScreenActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcri/sanity/MainActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    }
+}

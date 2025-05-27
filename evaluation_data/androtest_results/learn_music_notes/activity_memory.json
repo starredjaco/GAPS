@@ -1,0 +1,184 @@
+{
+    "org.waxworlds.edam.importcontacts.ConfigureVCF": {
+        "net.fercanet.LNM.MainMenu": [
+            [
+                "click android:id/button1"
+            ]
+        ]
+    },
+    "net.fercanet.LNM.MainMenu": {
+        "net.fercanet.LNM.Game": [
+            [
+                "click net.fercanet.LNM:id/training"
+            ],
+            [
+                "click net.fercanet.LNM:id/training",
+                "click net.fercanet.LNM:id/mintest"
+            ],
+            [
+                "click net.fercanet.LNM:id/hof",
+                "click net.fercanet.LNM:id/mintest"
+            ],
+            [
+                "click net.fercanet.LNM:id/hof",
+                "click net.fercanet.LNM:id/mintest",
+                "click net.fercanet.LNM:id/training"
+            ],
+            [
+                "click net.fercanet.LNM:id/training",
+                "click net.fercanet.LNM:id/hof",
+                "click net.fercanet.LNM:id/mintest"
+            ],
+            [
+                "click net.fercanet.LNM:id/mintest"
+            ],
+            [
+                "click net.fercanet.LNM:id/mintest",
+                "click net.fercanet.LNM:id/training"
+            ],
+            [
+                "click net.fercanet.LNM:id/training",
+                "click net.fercanet.LNM:id/hof",
+                "click net.fercanet.LNM:id/endgame",
+                "click net.fercanet.LNM:id/mintest"
+            ],
+            [
+                "click net.fercanet.LNM:id/hof",
+                "click net.fercanet.LNM:id/training"
+            ],
+            [
+                "click net.fercanet.LNM:id/hof",
+                "click net.fercanet.LNM:id/training",
+                "click net.fercanet.LNM:id/mintest"
+            ]
+        ],
+        "com.fsck.k9.activity.setup.AccountSetupBasics": [
+            [
+                "click net.fercanet.LNM:id/training",
+                "click net.fercanet.LNM:id/mintest",
+                "click net.fercanet.LNM:id/hof",
+                "click net.fercanet.LNM:id/endgame"
+            ],
+            [
+                "click net.fercanet.LNM:id/hof",
+                "click net.fercanet.LNM:id/mintest",
+                "click net.fercanet.LNM:id/training",
+                "click net.fercanet.LNM:id/endgame"
+            ]
+        ],
+        "com.google.android.calendar.allinone.AllInOneCalendarActivity": [
+            [
+                "click net.fercanet.LNM:id/training",
+                "click net.fercanet.LNM:id/hof",
+                "click net.fercanet.LNM:id/mintest",
+                "click net.fercanet.LNM:id/endgame"
+            ]
+        ],
+        "com.google.android.apps.nexuslauncher.NexusLauncherActivity": [
+            [
+                "click net.fercanet.LNM:id/training",
+                "click net.fercanet.LNM:id/hof",
+                "click net.fercanet.LNM:id/mintest",
+                "click net.fercanet.LNM:id/endgame"
+            ],
+            [
+                "click net.fercanet.LNM:id/mintest",
+                "click net.fercanet.LNM:id/training",
+                "click net.fercanet.LNM:id/hof",
+                "click net.fercanet.LNM:id/endgame"
+            ],
+            [
+                "click net.fercanet.LNM:id/training",
+                "click net.fercanet.LNM:id/hof",
+                "click net.fercanet.LNM:id/endgame"
+            ]
+        ],
+        "com.fsck.k9.activity.MessageList": [
+            [
+                "click net.fercanet.LNM:id/mintest",
+                "click net.fercanet.LNM:id/training",
+                "click net.fercanet.LNM:id/hof",
+                "click net.fercanet.LNM:id/endgame"
+            ],
+            [
+                "click net.fercanet.LNM:id/training",
+                "click net.fercanet.LNM:id/hof",
+                "click net.fercanet.LNM:id/endgame"
+            ],
+            [
+                "click net.fercanet.LNM:id/hof",
+                "click net.fercanet.LNM:id/training",
+                "click net.fercanet.LNM:id/mintest",
+                "click net.fercanet.LNM:id/endgame"
+            ],
+            [
+                "click net.fercanet.LNM:id/training",
+                "click net.fercanet.LNM:id/mintest",
+                "click net.fercanet.LNM:id/endgame"
+            ],
+            [
+                "click net.fercanet.LNM:id/training",
+                "click net.fercanet.LNM:id/mintest",
+                "click net.fercanet.LNM:id/endgame",
+                "click net.fercanet.LNM:id/hof"
+            ]
+        ]
+    },
+    "net.fercanet.LNM.Game": {
+        "net.fercanet.LNM.MainMenu": [
+            []
+        ]
+    },
+    "com.android.settings.applications.InstalledAppDetails": {
+        "net.fercanet.LNM.MainMenu": [
+            [
+                "click (0, 63, 147, 210)"
+            ]
+        ]
+    },
+    "com.fsck.k9.activity.setup.AccountSetupBasics": {
+        "com.google.android.dialer.extensions.GoogleDialtactsActivity": [
+            []
+        ]
+    },
+    "com.google.android.dialer.extensions.GoogleDialtactsActivity": {
+        "com.google.android.apps.nexuslauncher.NexusLauncherActivity": [
+            []
+        ]
+    },
+    "com.google.android.apps.nexuslauncher.NexusLauncherActivity": {
+        "com.google.android.calendar.allinone.AllInOneCalendarActivity": [
+            [
+                "text com.google.android.dialer:id/open_search_bar"
+            ]
+        ],
+        "com.google.android.googlequicksearchbox.InternalGoogleAppActivityEntrypoint": [
+            [
+                "click com.google.android.apps.nexuslauncher:id/search_container_all_apps"
+            ]
+        ],
+        "com.android.chromecom.google.android.apps.chrome.Main": [
+            [
+                "click (641, 1382, 843, 1592)"
+            ]
+        ]
+    },
+    "com.google.android.calendar.allinone.AllInOneCalendarActivity": {
+        "com.google.android.apps.nexuslauncher.NexusLauncherActivity": [
+            [
+                "click (0, 73, 147, 220)"
+            ]
+        ]
+    },
+    "com.google.android.googlequicksearchbox.InternalGoogleAppActivityEntrypoint": {
+        "net.fercanet.LNM.MainMenu": [
+            [
+                "text com.google.android.googlequicksearchbox:id/googleapp_search_box",
+                "click (34, 792, 236, 1004)"
+            ],
+            [
+                "click (640, 234, 843, 446)"
+            ]
+        ]
+    }
+}

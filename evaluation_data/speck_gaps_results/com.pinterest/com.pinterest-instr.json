@@ -1,0 +1,233 @@
+{
+    "Landroid/content/Intent;-><init>(Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lpj2/v3;->R0(Lh/b;)V <",
+                "> Li22/n0;->onClick(Landroid/view/View;)V <",
+                "> Li22/l1;->onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View; <",
+                "> Luo/t8;->S4(Luo/t8;)Lrk/e1; <",
+                "> Luo/s8;->a()Ljava/lang/Object; <",
+                "> Luo/s8;->get()Ljava/lang/Object; <",
+                "> Ld21/d1;-><init>(Landroid/content/Context;Lvx/g0;Ld21/h1;)V <",
+                "> Lvq/t3;->createView()V <",
+                "> Lsq/k1;->z0()Lvq/t3; <",
+                "> Lhe/o;->run()V <",
+                "> Lte/a;->b(Ljava/lang/String;)V <",
+                "> Luc/b;->l(Luc/b;Lje/f;Lje/b;)V <",
+                "> Lje/m;->e(Ljava/lang/String;Ljava/lang/Double;Landroid/os/Bundle;ZLjava/util/UUID;)V <",
+                "> Lje/m;->f(Ljava/lang/String;Landroid/os/Bundle;)V <",
+                "> Lie/r0;->f()V <",
+                "> Lie/r0;->b()Z <",
+                "> Lff/a;->a(Ljava/lang/Object;Ljava/lang/Throwable;)V <",
+                "> Ld7/a;->handleMessage(Landroid/os/Message;)V <",
+                "> Ld7/c;-><init>(Landroid/content/Context;)V <",
+                "> Ld7/c;->a(Landroid/content/Context;)Ld7/c; <",
+                "> Ltc/l;->t()Lie/f; <",
+                "> Lie/p;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.ACTION_POWER_DISCONNECTED",
+                    "broadcast -a"
+                ],
+                [
+                    "ie.p",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Ldalvik/system/DexClassLoader;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/ClassLoader;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lads_mobile_sdk/bb1;->c()V <",
+                "> Lads_mobile_sdk/qc0;->c()Ljava/lang/Void; <",
+                "> Lb/l1;->call()Ljava/lang/Object; <",
+                "> Lw5/f;->onPostMessage(Landroid/webkit/WebView;Ljava/lang/reflect/InvocationHandler;Landroid/net/Uri;ZLjava/lang/reflect/InvocationHandler;)V <",
+                "> Lpt1/a;->a()V <",
+                "> Lpt0/g;->run()V <",
+                "> Lrl/c;->execute(Ljava/lang/Runnable;)V <",
+                "> Lh7/t;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.media.action.HDMI_AUDIO_PLUG",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Landroid/webkit/WebView;-><init>(Landroid/content/Context;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lpt1/a;->a()V <",
+                "> Lpt0/g;->run()V <",
+                "> Lrl/c;->execute(Ljava/lang/Runnable;)V <",
+                "> Lh7/t;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.media.action.HDMI_AUDIO_PLUG",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lqi/z6;->O()V <",
+                "> Lqi/e7;->v()V <",
+                "> Lqi/s6;->run()V <",
+                "> Lt/f;->run()V <",
+                "> Lh7/t;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.media.action.HDMI_AUDIO_PLUG",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Landroid/webkit/WebView;->evaluateJavascript(Ljava/lang/String;Landroid/webkit/ValueCallback;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lads_mobile_sdk/fr1;->a(Landroid/webkit/WebView;Ljava/lang/String;)V <",
+                "> Lads_mobile_sdk/fr1;->a(Landroid/webkit/WebView;Ljava/lang/String;[Ljava/lang/Object;)V <",
+                "> Lb/u;->onPostExecute(Ljava/lang/String;)V <",
+                "> Lb/u;->onPostExecute(Ljava/lang/Object;)V <",
+                "> Lb/cf;->run()V <",
+                "> Lrl/c;->execute(Ljava/lang/Runnable;)V <",
+                "> Lh7/t;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.media.action.HDMI_AUDIO_PLUG",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Intent;-><init>()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Ltp1/c;->d(Landroid/content/Context;Landroid/content/Intent;)Z <",
+                "> Ltp1/c;->a(Ltp1/c;Lcom/pinterest/api/model/h30;Landroid/content/Context;Lw80/b;Ljava/lang/String;Lz42/j1;Ljava/lang/String;Ljava/util/HashMap;ZZI)Z <",
+                "> Lqj1/c;->a(Lcom/pinterest/api/model/h30;Ljava/lang/String;Lz42/j1;Ljava/lang/Integer;Ljava/lang/String;ZZ)Z <",
+                "> Lty0/a;->invoke()V <",
+                "> Lty0/a;->invoke()Ljava/lang/Object; <",
+                "> Lwg1/d1;->b4(Ljava/lang/String;)V <",
+                "> Lxg1/h2;->onTouchEvent(Landroid/view/MotionEvent;)Z <",
+                "> Lsq/m0;->h()Lcom/pinterest/ui/imageview/WebImageView; <",
+                "> Lha1/b;->a()V <",
+                "> Lc90/j;->l(Landroid/graphics/Matrix;Z)V <",
+                "> Lt/h;->run()V <",
+                "> Ln/g;->p(I)V <",
+                "> Lh7/t;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.media.action.HDMI_AUDIO_PLUG",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Context;->getExternalCacheDir()Ljava/io/File;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lg11/a;->a(Landroid/content/Context;Landroid/graphics/Bitmap;)Ljava/lang/String; <",
+                "> Lq5/h;->onLayoutChange(Landroid/view/View;IIIIIIII)V <",
+                "> Lhe/o;->run()V <",
+                "> Lte/a;->b(Ljava/lang/String;)V <",
+                "> Laf/z;->run()V <",
+                "> Laf/e0;->c()V <",
+                "> Lie/x;->l(Landroid/content/Context;Ln21/g;)V <",
+                "> Lie/x;->k(Landroid/content/Context;)V <",
+                "> Laf0/b;->b(Landroid/app/Activity;)V <",
+                "> Laf0/a;->call()Ljava/lang/Object; <",
+                "> Lt/f;->c()V <",
+                "> Lt/f;->run()V <",
+                "> Lh7/t;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.media.action.HDMI_AUDIO_PLUG",
+                    "broadcast -a"
+                ],
+                [
+                    "h7.t",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Intent;->setDataAndType(Landroid/net/Uri;Ljava/lang/String;)Landroid/content/Intent;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lt/f;->run()V <",
+                "> Lh7/t;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.media.action.HDMI_AUDIO_PLUG",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lkb/b;->a(ILandroid/content/Intent;Lkb/i;)V <",
+                "> Lkb/g;->run()V <",
+                "> Lkb/i;->c()V <",
+                "> Lkb/i;->a(Landroid/content/Intent;I)V <",
+                "> Le/d;->run()V <",
+                "> Lt/f;->run()V <",
+                "> Lh7/t;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.media.action.HDMI_AUDIO_PLUG",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;": {
+        "path_0": {
+            "call_sequence": [
+                "> Ls0/q0;->run()V <",
+                "> Ls0/w0;->F(Lt0/a;Landroidx/camera/core/impl/k;)Landroidx/camera/core/impl/l2; <",
+                "> Lv/a;-><init>(Landroidx/camera/core/impl/t1;I)V <",
+                "> Lv/a;-><init>(I)V <",
+                "> Lw/e2;->c(Lt4/i;)V <",
+                "> Lb/a1;->z(Lt4/i;)Ljava/lang/Object; <",
+                "> Lb/u3;->z(Lt4/i;)Ljava/lang/Object; <",
+                "> Llk/s;->n(Lfq2/s0;)Lt4/l; <",
+                "> Llk/a;->a(Landroid/content/Context;Ljava/lang/String;)V <",
+                "> Lea1/b;->b(Ljava/lang/Object;)V <",
+                "> Llk/x;->c(Llk/d;)V <",
+                "> Lh7/t;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.media.action.HDMI_AUDIO_PLUG",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    }
+}

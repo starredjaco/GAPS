@@ -247,7 +247,7 @@ def add_ui_info_to_path(element_id, element_text, path, gaps):
 
 def _get_ui_id_or_text(
     class_name_callback: str, method_name: str, last_path: list, gaps
-) -> [str, str]:
+) -> tuple[str, str]:
     """
     Searches for ID associated with the graphical element.
 

@@ -1,0 +1,12 @@
+{
+    "com.tum.yahtzee.YahtzeeActivity": {
+        "com.tum.yahtzee.GameActivity": [
+            [
+                "click android:id/button1",
+                "text com.tum.yahtzee:id/player_amount 2",
+                "text com.tum.yahtzee:id/game_rounds 10",
+                "click com.tum.yahtzee:id/play_button"
+            ]
+        ]
+    }
+}

@@ -1,0 +1,374 @@
+{
+    "Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/freshchat/consumer/sdk/util/cc;->Q(Landroid/content/Context;Ljava/lang/String;)V <",
+                "> Lcom/freshchat/consumer/sdk/activity/ConversationDetailActivity;->aD()V <",
+                "> Lcom/freshchat/consumer/sdk/activity/ConversationDetailActivity;->onBackPressed()V <",
+                "> Lcom/freshchat/consumer/sdk/i/b;->c(Landroid/content/Context;Lcom/freshchat/consumer/sdk/i/a;)V <",
+                "> Lcom/freshchat/consumer/sdk/i/b;->b(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "> Lcom/freshchat/consumer/sdk/Freshchat;->handleFcmMessage(Landroid/content/Context;Ljava/lang/Object;)V <",
+                "> Lcom/freshchat/consumer/sdk/Freshchat;->getInstance(Landroid/content/Context;)Lcom/freshchat/consumer/sdk/Freshchat; <",
+                "> Lcom/radio/pocketfm/FeedActivity;->openFreshChatFaqEvent(Lcom/radio/pocketfm/app/mobile/events/OpenFreshChatFaqEvent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.media.action.MEDIA_PLAY_FROM_SEARCH",
+                    "start-activity -a"
+                ]
+            ]
+        }
+    },
+    "Landroid/webkit/WebView;->evaluateJavascript(Ljava/lang/String;Landroid/webkit/ValueCallback;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/iab/omid/library/fyber/internal/h;->c(Landroid/webkit/WebView;Ljava/lang/String;)Z <",
+                "> Lcom/iab/omid/library/fyber/internal/h;->a(Landroid/webkit/WebView;Ljava/lang/StringBuilder;)V <",
+                "> Lcom/iab/omid/library/fyber/internal/h;->a(Landroid/webkit/WebView;Ljava/lang/String;[Ljava/lang/Object;)V <",
+                "> Lcom/iab/omid/library/fyber/internal/h;->a(Landroid/webkit/WebView;Ljava/lang/String;Ljava/lang/String;)V <",
+                "> Lcom/iab/omid/library/fyber/publisher/AdSessionStatePublisher;->b(Z)V <",
+                "> Lcom/iab/omid/library/fyber/internal/j;->a(ZZ)V <",
+                "> Lcom/iab/omid/library/fyber/internal/j$a;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.SCREEN_ON",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lgg/m;->a(Landroid/content/Context;Landroid/os/Bundle;Lcom/moengage/core/internal/model/SdkInstance;)V <",
+                "> Lbc/t3;->run()V <",
+                "> Lbc/b0;->run()V <",
+                "> Lcom/inmobi/media/K5;->a()V <",
+                "> Lcom/inmobi/media/K5;->b(Lcom/inmobi/media/K5;)V <",
+                "> Lbc/c0;->run()V <",
+                "> Lcom/radio/pocketfm/FeedActivity;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.media.action.MEDIA_PLAY_FROM_SEARCH",
+                    "start-activity -a"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Intent;-><init>(Ljava/lang/String;Landroid/net/Uri;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/smaato/sdk/core/linkhandler/LinkHandler;->createUncheckedIntentForUrl(Ljava/lang/String;)Landroid/content/Intent; <",
+                "> Lcom/smaato/sdk/core/linkhandler/LinkHandler;->tryToStartAsAppLink(Ljava/lang/String;Z)Z <",
+                "> Lcom/smaato/sdk/core/linkhandler/LinkHandler;->launchUrl(Ljava/lang/String;)Z <",
+                "> Lcom/smaato/sdk/core/linkhandler/LinkHandler;->handleUrl(Ljava/lang/String;)Z <",
+                "> Lcom/smaato/sdk/core/linkhandler/LinkHandler;->handleUrlOnBackGround(Ljava/lang/String;Ljava/lang/Runnable;Ljava/lang/Runnable;)V <",
+                "> Lcom/smaato/sdk/core/linkhandler/LinkHandler;->lambda$handleUrlOnBackGround$2(Ljava/lang/String;Ljava/lang/Runnable;Ljava/lang/Runnable;)V <",
+                "> Lcom/smaato/sdk/core/linkhandler/LinkHandler;->d(Lcom/smaato/sdk/core/linkhandler/LinkHandler;Ljava/lang/String;Ljava/lang/Runnable;Ljava/lang/Runnable;)V <",
+                "> Lcom/smaato/sdk/core/linkhandler/a;->run()V <",
+                "> Lcom/ironsource/mediationsdk/ads/nativead/LevelPlayNativeAd;->onNativeAdLoaded(Lcom/ironsource/mediationsdk/adunit/adapter/utility/AdInfo;Lcom/ironsource/mediationsdk/ads/nativead/AdapterNativeAdData;Lcom/ironsource/mediationsdk/adunit/adapter/internal/nativead/AdapterNativeAdViewBinder;)V <",
+                "> Lcom/ironsource/mediationsdk/ads/nativead/LevelPlayNativeAd$Builder;->build()Lcom/ironsource/mediationsdk/ads/nativead/LevelPlayNativeAd; <",
+                "> Lcom/radio/pocketfm/app/ads/servers/ironsource/f;-><init>(Landroid/app/Activity;Lcom/radio/pocketfm/app/ads/models/ExternalAdModel;Lcom/radio/pocketfm/app/ads/models/AdPlacements;Lcom/radio/pocketfm/app/shared/domain/usecases/x;Lfi/a;)V <",
+                "> Lcom/radio/pocketfm/app/ads/views/j;->e(Lcom/radio/pocketfm/app/ads/models/ExternalAdModel;Lcom/radio/pocketfm/app/ads/models/AdPlacements;)V <",
+                "> Lcom/radio/pocketfm/app/ads/utils/f;->g(Landroid/app/Activity;Lcom/radio/pocketfm/app/ads/models/ExternalAdModel;Lcom/radio/pocketfm/app/ads/utils/f$a;)V <",
+                "> Lcom/radio/pocketfm/app/ads/utils/f;->f(Landroid/app/Activity;)V <",
+                "> Lcom/radio/pocketfm/app/ads/utils/f;->e(Landroid/app/Activity;Ljava/util/List;Lcom/radio/pocketfm/app/ads/utils/f$a;Lcom/radio/pocketfm/app/mobile/viewmodels/b;)V <",
+                "> Lcom/radio/pocketfm/FeedActivity;->e4()V <",
+                "> Lcom/radio/pocketfm/FeedActivity;->refreshNativeAdCacheEvent(Lcom/radio/pocketfm/app/ads/utils/h;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.radio.pocketfm/com.radio.pocketfm.FeedActivity",
+                    "start -n"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Intent;-><init>()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/radio/pocketfm/app/onboarding/ui/WalkthroughActivity;->V0()V <",
+                "> Lcom/radio/pocketfm/app/mobile/ui/k1;->v1(Lcom/radio/pocketfm/app/mobile/ui/k1;Lcom/radio/pocketfm/app/models/UserModel;)V <",
+                "> Lcom/radio/pocketfm/app/mobile/ui/j1;->onChanged(Ljava/lang/Object;)V <",
+                "> Lcom/radio/pocketfm/app/payments/view/z1;->t1(Lcom/radio/pocketfm/app/payments/view/z1;)V <",
+                "> Lcom/radio/pocketfm/app/payments/view/z1$b;->onTick(J)V <",
+                "> Lcom/radio/pocketfm/app/payments/view/z1;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V <",
+                "> Lcom/radio/pocketfm/app/payments/view/z1$a;->a(Lcom/radio/pocketfm/app/payments/models/PaymentStatusFragmentExtras;)Lcom/radio/pocketfm/app/payments/view/z1; <",
+                "> Lcom/radio/pocketfm/app/payments/view/b;->x1(Lcom/radio/pocketfm/app/payments/view/b;Ljava/lang/String;)V <",
+                "> Lcom/radio/pocketfm/app/mobile/services/x;->onChanged(Ljava/lang/Object;)V <",
+                "> Lcom/radio/pocketfm/app/mobile/services/MediaPlayerService;->s(Lcom/radio/pocketfm/app/mobile/services/MediaPlayerService;Lcom/radio/pocketfm/app/mobile/services/StartPlaybackModel;Ljava/lang/String;ZLandroidx/media3/common/MediaItem;)V <",
+                "> Lcom/radio/pocketfm/FeedActivity;->p2()V <",
+                "> Lcom/radio/pocketfm/FeedActivity;->onResume()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.radio.pocketfm/com.radio.pocketfm.FeedActivity",
+                    "start -n"
+                ]
+            ]
+        }
+    },
+    "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/unity3d/services/core/request/WebRequest;->getHttpUrlConnectionWithHeaders()Ljava/net/HttpURLConnection; <",
+                "> Lcom/unity3d/services/core/request/WebRequest;->makeStreamRequest(Ljava/io/OutputStream;)J <",
+                "> Lcom/unity3d/services/core/cache/CacheThreadHandler;->downloadFile(Ljava/lang/String;Ljava/lang/String;IIILjava/util/HashMap;ZLcom/unity3d/services/core/cache/CacheEventSender;)V <",
+                "> Lcom/unity3d/services/core/cache/CacheThreadHandler;->handleMessage(Landroid/os/Message;)V <",
+                "> Lcom/unity3d/services/core/cache/CacheThread;->run()V <",
+                "> Lcom/unity3d/services/core/cache/CacheThread;->download(Ljava/lang/String;Ljava/lang/String;Ljava/util/HashMap;ZLcom/unity3d/services/core/webview/bridge/IEventSender;)V <",
+                "> Lcom/unity3d/services/core/api/Cache;->download(Ljava/lang/String;Ljava/lang/String;Lorg/json/JSONArray;Ljava/lang/Boolean;Lcom/unity3d/services/core/webview/bridge/WebViewCallback;)V <",
+                "> Lcom/unity3d/services/core/configuration/CoreModuleConfiguration;->getWebAppApiClassList()[Ljava/lang/Class; <",
+                "> Lcom/unity3d/services/core/configuration/Configuration;-><init>()V <",
+                "> Lcom/unity3d/services/core/configuration/ConfigurationReader;->getCurrentConfiguration()Lcom/unity3d/services/core/configuration/Configuration; <",
+                "> Lcom/unity3d/services/banners/bridge/BannerBridge;->load(Ljava/lang/String;Ljava/lang/String;Lcom/unity3d/services/banners/UnityBannerSize;Lcom/unity3d/ads/UnityAdsLoadOptions;)V <",
+                "> Lcom/unity3d/services/banners/BannerView;->bridgeLoad()V <",
+                "> Lcom/unity3d/services/banners/BannerView;->load()V <",
+                "> Lbc/q4;->run()V <",
+                "> Lcom/radio/pocketfm/app/mobile/ui/z0;->onRefresh()V <",
+                "> Lcom/radio/pocketfm/app/mobile/ui/b1;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V <",
+                "> Lcom/radio/pocketfm/FeedActivity;->onOpenDownloadSectionFragmentEvent(Lcom/radio/pocketfm/app/mobile/events/OpenDownloadSectionFragmentEvent;)V <",
+                "> Lcom/radio/pocketfm/app/shared/CommonLib;->n0(ILandroid/content/Context;Landroid/content/Intent;)Landroid/app/PendingIntent; <",
+                "> Lcom/radio/pocketfm/app/mobile/services/MediaPlayerService;->L1()Landroid/app/PendingIntent; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.media.browse.MediaBrowserService",
+                    "start-service -a"
+                ]
+            ]
+        }
+    },
+    "Landroid/webkit/WebView;-><init>(Landroid/content/Context;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/smaato/sdk/core/webview/BaseWebView;-><init>(Landroid/content/Context;)V <",
+                "> Lcom/smaato/sdk/video/vast/widget/element/VastElementView;-><init>(Landroid/content/Context;)V <",
+                "> Lcom/smaato/sdk/video/vast/widget/element/VastElementPresenterImpl;->getView()Lcom/smaato/sdk/video/vast/widget/element/VastElementView; <",
+                "> Lol/d;->run()V <",
+                "> Lbd/n;->run()V <",
+                "> Lzc/a;->c(Landroid/content/Context;Lcom/moengage/core/model/AppStatus;)V <",
+                "> Lcom/radio/pocketfm/app/mobile/viewmodels/u1;->N(Landroid/content/Context;)V <",
+                "> Lcom/radio/pocketfm/FeedActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/radio/pocketfm/app/shared/CommonLib;->n0(ILandroid/content/Context;Landroid/content/Intent;)Landroid/app/PendingIntent; <",
+                "> Lcom/radio/pocketfm/app/mobile/services/MediaPlayerService;->L1()Landroid/app/PendingIntent; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.media.browse.MediaBrowserService",
+                    "start-service -a"
+                ]
+            ]
+        }
+    },
+    "Landroid/webkit/WebView;->addJavascriptInterface(Ljava/lang/Object;Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lbf/b;->run()V <",
+                "> Laf/m5;->f(Landroid/content/Context;Lcom/moengage/inapp/internal/model/CampaignPayload;Lcom/moengage/inapp/internal/model/ViewCreationMeta;)Landroid/widget/RelativeLayout; <",
+                "> Laf/m5;->d(Lcom/moengage/inapp/internal/model/CampaignPayload;Lcom/moengage/inapp/internal/model/ViewCreationMeta;)Landroid/widget/RelativeLayout; <",
+                "> Laf/m5;->c(Landroid/content/Context;Lcom/moengage/inapp/internal/model/meta/InAppCampaign;Lcom/moengage/inapp/internal/model/CampaignPayload;)V <",
+                "> Laf/k1;->run()V <",
+                "> Laf/w1;->r(Landroid/content/Context;)V <",
+                "> Laf/w1;->m(Landroid/content/Context;)V <",
+                "> Laf/w1;->w(Landroid/content/Context;)V <",
+                "> Laf/e1;->run()V <",
+                "> Lcom/smaato/sdk/core/mvvm/repository/SmaatoSdkRepository;->lambda$loadAd$4(Lcom/smaato/sdk/core/util/fi/Consumer;Lcom/smaato/sdk/core/mvvm/model/soma/SomaAdRequest;Lcom/smaato/sdk/core/util/fi/Consumer;)V <",
+                "> Lcom/smaato/sdk/core/mvvm/repository/SmaatoSdkRepository;->i(Lcom/smaato/sdk/core/mvvm/repository/SmaatoSdkRepository;Lcom/smaato/sdk/core/util/fi/Consumer;Lcom/smaato/sdk/core/mvvm/model/soma/SomaAdRequest;Lcom/smaato/sdk/core/util/fi/Consumer;)V <",
+                "> Lcom/radio/pocketfm/app/payments/view/s1;->run()V <",
+                "> Lbc/a1;->run()V <",
+                "> Lcom/inmobi/media/T1;->a(Lcom/inmobi/media/N1;)V <",
+                "> Lcom/inmobi/media/R1;->handleMessage(Landroid/os/Message;)V <",
+                "> Lcom/inmobi/media/Y1;->a()V <",
+                "> Lbc/p1;->run()V <",
+                "> Lpu/z0;->execute(Ljava/lang/Runnable;)V <",
+                "> Lb00/c;->h(Lb00/n;Ljava/lang/Object;Z)V <",
+                "> Lb00/c;->b()Lb00/c; <",
+                "> Lcom/radio/pocketfm/app/mobile/services/MediaPlayerService$h;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.bluetooth.headset.profile.action.CONNECTION_STATE_CHANGED",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Intent;-><init>(Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/radio/pocketfm/app/mobile/adapters/m3;->onClick(Landroid/view/View;)V <",
+                "> Lcom/radio/pocketfm/app/mobile/adapters/h4;->onBindViewHolder(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;I)V <",
+                "> Lcom/radio/pocketfm/k3;->onChanged(Ljava/lang/Object;)V <",
+                "> Lcom/radio/pocketfm/FeedActivity;->onStripeWebPaymentResult(Lcom/radio/pocketfm/app/wallet/event/StripePaymentResultEvent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.radio.pocketfm/com.radio.pocketfm.FeedActivity",
+                    "start -n"
+                ],
+                [
+                    "com.radio.pocketfm.FeedActivity",
+                    "facebook_link"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Intent;->setDataAndType(Landroid/net/Uri;Ljava/lang/String;)Landroid/content/Intent;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/unity3d/services/core/api/Intent;->launch(Lorg/json/JSONObject;Lcom/unity3d/services/core/webview/bridge/WebViewCallback;)V <",
+                "> Lcom/unity3d/services/core/configuration/CoreModuleConfiguration;->getWebAppApiClassList()[Ljava/lang/Class; <",
+                "> Lcom/unity3d/services/core/configuration/Configuration;-><init>()V <",
+                "> Lcom/unity3d/services/core/configuration/ConfigurationReader;->getCurrentConfiguration()Lcom/unity3d/services/core/configuration/Configuration; <",
+                "> Lcom/unity3d/services/banners/bridge/BannerBridge;->load(Ljava/lang/String;Ljava/lang/String;Lcom/unity3d/services/banners/UnityBannerSize;Lcom/unity3d/ads/UnityAdsLoadOptions;)V <",
+                "> Lcom/unity3d/services/banners/BannerView;->bridgeLoad()V <",
+                "> Lcom/unity3d/services/banners/BannerView;->load()V <",
+                "> Lbc/q4;->run()V <",
+                "> Lcom/radio/pocketfm/app/mobile/ui/z0;->onRefresh()V <",
+                "> Lcom/radio/pocketfm/app/mobile/ui/b1;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V <",
+                "> Lcom/radio/pocketfm/FeedActivity;->onOpenDownloadSectionFragmentEvent(Lcom/radio/pocketfm/app/mobile/events/OpenDownloadSectionFragmentEvent;)V <",
+                "> Lcom/radio/pocketfm/app/mobile/ui/n0;->onClick(Landroid/view/View;)V <",
+                "> Lcom/radio/pocketfm/app/payments/view/l1;->I1()V <",
+                "> Lcom/radio/pocketfm/app/folioreader/ui/activity/e;->onChanged(Ljava/lang/Object;)V <",
+                "> Lcom/radio/pocketfm/app/folioreader/ui/activity/FolioActivity;->G1()V <",
+                "> Lcom/radio/pocketfm/app/folioreader/ui/activity/FolioActivity;->g(ILcom/radio/pocketfm/app/models/ChapterModel;ZZZ)V <",
+                "> Lcom/radio/pocketfm/app/folioreader/ui/activity/FolioActivity;->L1()V <",
+                "> Lcom/radio/pocketfm/app/folioreader/ui/activity/FolioActivity;->Q1(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/radio/pocketfm/app/novels/ExitRecommendationData;Ljava/lang/String;)V <",
+                "> Lcom/radio/pocketfm/app/folioreader/ui/activity/l;->onChanged(Ljava/lang/Object;)V <",
+                "> Lcom/radio/pocketfm/app/folioreader/ui/activity/FolioActivity;->P1(Lcom/radio/pocketfm/app/novels/ExitRecommendationData;Ljava/lang/String;)V <",
+                "> Lcb/h;->run()V <",
+                "> Lcb/g;->run()V <",
+                "> Lra/d;-><init>(Lc9/f;Lja/b;Lka/f;Lja/b;Lcom/google/firebase/perf/config/RemoteConfigManager;Lta/a;Lcom/google/firebase/perf/session/SessionManager;)V <",
+                "> Lra/d;->a()Lra/d; <",
+                "> Lcb/i;->g(Leb/k$b;Leb/d;)V <",
+                "> Lbd/n;->run()V <",
+                "> Lzc/a;->c(Landroid/content/Context;Lcom/moengage/core/model/AppStatus;)V <",
+                "> Lcom/radio/pocketfm/app/mobile/ui/routing/RoutingActivity;->onResume()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.radio.pocketfm.app.folioreader.ui.activity.FolioActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Context;->getExternalCacheDir()Ljava/io/File;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/radio/pocketfm/app/helpers/w;->f(Landroid/content/Context;)Ljava/io/File; <",
+                "> Lcom/radio/pocketfm/app/helpers/w;->c(ILandroid/content/Context;Landroid/content/Intent;)Ljava/lang/String; <",
+                "> Lcom/radio/pocketfm/app/mobile/ui/j9;->onActivityResult(IILandroid/content/Intent;)V <",
+                "> Laf/e1;->run()V <",
+                "> Lcom/smaato/sdk/core/mvvm/repository/SmaatoSdkRepository;->lambda$loadAd$4(Lcom/smaato/sdk/core/util/fi/Consumer;Lcom/smaato/sdk/core/mvvm/model/soma/SomaAdRequest;Lcom/smaato/sdk/core/util/fi/Consumer;)V <",
+                "> Lcom/smaato/sdk/core/mvvm/repository/SmaatoSdkRepository;->i(Lcom/smaato/sdk/core/mvvm/repository/SmaatoSdkRepository;Lcom/smaato/sdk/core/util/fi/Consumer;Lcom/smaato/sdk/core/mvvm/model/soma/SomaAdRequest;Lcom/smaato/sdk/core/util/fi/Consumer;)V <",
+                "> Lcom/radio/pocketfm/app/payments/view/s1;->run()V <",
+                "> Lbc/a1;->run()V <",
+                "> Lcom/inmobi/media/T1;->a(Lcom/inmobi/media/N1;)V <",
+                "> Lcom/inmobi/media/R1;->handleMessage(Landroid/os/Message;)V <",
+                "> Lcom/inmobi/media/Y1;->a()V <",
+                "> Lbc/p1;->run()V <",
+                "> Lt9/m;->call()Ljava/lang/Object; <",
+                "> Lp9/d;->d(Ljava/lang/Throwable;)V <",
+                "> Lcom/radio/pocketfm/app/RadioLyApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Ljavax/crypto/KeyGenerator;->getInstance(Ljava/lang/String;)Ljavax/crypto/KeyGenerator;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/freshchat/consumer/sdk/b/m;->fI()Ljava/lang/String; <",
+                "> Lcom/freshchat/consumer/sdk/b/m;-><init>(Landroid/content/Context;Ljava/lang/String;)V <",
+                "> Lcom/freshchat/consumer/sdk/util/n;->aQ(Landroid/content/Context;)V <",
+                "> Lcom/freshchat/consumer/sdk/b/f;->fy()V <",
+                "> Lcom/freshchat/consumer/sdk/Freshchat;->init(Lcom/freshchat/consumer/sdk/FreshchatConfig;)V <",
+                "> Lcom/radio/pocketfm/FeedActivity;->openFreshChatFaqEvent(Lcom/radio/pocketfm/app/mobile/events/OpenFreshChatFaqEvent;)V <",
+                "> Lcom/radio/pocketfm/app/mobile/ui/n0;->onClick(Landroid/view/View;)V <",
+                "> Lcom/radio/pocketfm/app/payments/view/l1;->I1()V <",
+                "> Lcom/radio/pocketfm/app/folioreader/ui/activity/e;->onChanged(Ljava/lang/Object;)V <",
+                "> Lcom/radio/pocketfm/app/folioreader/ui/activity/FolioActivity;->G1()V <",
+                "> Lcom/radio/pocketfm/app/folioreader/ui/activity/FolioActivity;->g(ILcom/radio/pocketfm/app/models/ChapterModel;ZZZ)V <",
+                "> Lcom/radio/pocketfm/app/folioreader/ui/activity/FolioActivity;->L1()V <",
+                "> Lcom/radio/pocketfm/app/folioreader/ui/activity/FolioActivity;->Q1(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/radio/pocketfm/app/novels/ExitRecommendationData;Ljava/lang/String;)V <",
+                "> Lcom/radio/pocketfm/app/folioreader/ui/activity/l;->onChanged(Ljava/lang/Object;)V <",
+                "> Lcom/radio/pocketfm/app/folioreader/ui/activity/FolioActivity;->P1(Lcom/radio/pocketfm/app/novels/ExitRecommendationData;Ljava/lang/String;)V <",
+                "> Lcb/h;->run()V <",
+                "> Lcb/g;->run()V <",
+                "> Lra/d;-><init>(Lc9/f;Lja/b;Lka/f;Lja/b;Lcom/google/firebase/perf/config/RemoteConfigManager;Lta/a;Lcom/google/firebase/perf/session/SessionManager;)V <",
+                "> Lra/d;->a()Lra/d; <",
+                "> Lcb/i;->g(Leb/k$b;Leb/d;)V <",
+                "> Lbd/n;->run()V <",
+                "> Lzc/a;->c(Landroid/content/Context;Lcom/moengage/core/model/AppStatus;)V <",
+                "> Lcom/radio/pocketfm/app/mobile/ui/routing/RoutingActivity;->onResume()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.radio.pocketfm.app.folioreader.ui.activity.FolioActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Intent;->createChooser(Landroid/content/Intent;Ljava/lang/CharSequence;)Landroid/content/Intent;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/radio/pocketfm/app/folioreader/ui/view/d;->onClick(Landroid/view/View;)V <",
+                "> Lcom/radio/pocketfm/app/payments/view/b;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V <",
+                "> Lcom/radio/pocketfm/app/payments/view/b$a;->a(Lcom/stripe/android/model/PaymentMethodCreateParams;Lcom/radio/pocketfm/app/payments/models/CheckoutOptionsFragmentExtras;Ljava/lang/Boolean;)Lcom/radio/pocketfm/app/payments/view/b; <",
+                "> Lcom/radio/pocketfm/app/payments/view/t;->Y0(Lcom/stripe/android/model/PaymentMethodCreateParams;ZLcom/radio/pocketfm/databinding/g3;)V <",
+                "> Lcom/radio/pocketfm/app/payments/view/t$b;->a(Lcom/radio/pocketfm/app/payments/models/CheckoutOptionsFragmentExtras;Lcom/radio/pocketfm/app/payments/models/PaymentWidgetsWrapperModel;Ljava/lang/String;)Lcom/radio/pocketfm/app/payments/view/t; <",
+                "> Lcom/radio/pocketfm/FeedActivity;->C4(Lcom/radio/pocketfm/app/payments/models/CheckoutOptionsFragmentExtras;Lcom/radio/pocketfm/app/payments/models/PaymentWidgetsWrapperModel;Z)V <",
+                "> Lcom/radio/pocketfm/FeedActivity;->j1(Lcom/radio/pocketfm/FeedActivity;Lcom/radio/pocketfm/app/payments/models/CheckoutOptionsFragmentExtras;Ljava/lang/String;Lcom/radio/pocketfm/app/payments/models/PaymentWidgetsWrapperModel;)V <",
+                "> Lcom/radio/pocketfm/g2;->onChanged(Ljava/lang/Object;)V <",
+                "> Lcom/radio/pocketfm/FeedActivity;->R4(Ljava/lang/String;Lcom/radio/pocketfm/app/wallet/model/WalletPlan;ZLjava/lang/String;Ljava/lang/String;ZLcom/radio/pocketfm/app/models/BattlePassBasicRequest;ZLjava/lang/String;ZLjava/lang/String;Lcom/radio/pocketfm/app/models/download/DownloadUnlockRequest;Lcom/radio/pocketfm/app/wallet/model/EpisodeUnlockParams;Ljava/lang/Boolean;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Boolean;)V <",
+                "> Lcom/radio/pocketfm/FeedActivity;->p3(Ljava/lang/String;Lcom/radio/pocketfm/app/wallet/model/WalletPlan;ZLcom/radio/pocketfm/app/wallet/model/EpisodeUnlockParams;Ljava/lang/String;Ljava/lang/String;ZLcom/radio/pocketfm/app/models/BattlePassBasicRequest;ZLjava/lang/String;ZLjava/lang/String;Lcom/radio/pocketfm/app/models/download/DownloadUnlockRequest;Ljava/lang/String;Ljava/lang/String;)V <",
+                "> Lcom/radio/pocketfm/FeedActivity;->f1(Lcom/radio/pocketfm/FeedActivity;Ljava/util/concurrent/atomic/AtomicBoolean;Lcom/radio/pocketfm/app/wallet/event/BattlePassSheetOpenEvent;Lcom/radio/pocketfm/app/models/BattlePassThreshold;)V <",
+                "> Lcom/radio/pocketfm/l2;->onChanged(Ljava/lang/Object;)V <",
+                "> Lcom/radio/pocketfm/app/mobile/adapters/h4;->onBindViewHolder(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;I)V <",
+                "> Lcom/radio/pocketfm/w3;->onChanged(Ljava/lang/Object;)V <",
+                "> Lzi/a;->M1()V <",
+                "> Lzi/a;->G1()V <",
+                "> Lcb/h;->run()V <",
+                "> Lcb/g;->run()V <",
+                "> Lra/d;-><init>(Lc9/f;Lja/b;Lka/f;Lja/b;Lcom/google/firebase/perf/config/RemoteConfigManager;Lta/a;Lcom/google/firebase/perf/session/SessionManager;)V <",
+                "> Lra/d;->a()Lra/d; <",
+                "> Lcb/i;->g(Leb/k$b;Leb/d;)V <",
+                "> Lbd/n;->run()V <",
+                "> Lzc/a;->c(Landroid/content/Context;Lcom/moengage/core/model/AppStatus;)V <",
+                "> Lcom/radio/pocketfm/app/mobile/ui/routing/RoutingActivity;->onResume()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.radio.pocketfm.FeedActivity",
+                    "gif_btn"
+                ]
+            ]
+        }
+    }
+}

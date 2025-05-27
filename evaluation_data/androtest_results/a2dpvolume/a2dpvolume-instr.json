@@ -1,0 +1,1046 @@
+{
+    "La2dp/Vol/EditDevice;->access$802(La2dp/Vol/EditDevice;La2dp/Vol/DeviceDB;)La2dp/Vol/DeviceDB;": {
+        "path_0": {
+            "call_sequence": [
+                "> La2dp/Vol/EditDevice$8;->onClick(Landroid/view/View;)V <",
+                "> La2dp/Vol/EditDevice;->onCreate(Landroid/os/Bundle;)V <",
+                "> La2dp/Vol/main$5$2;->onClick(Landroid/content/DialogInterface;I)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "a2dp.Vol.EditDevice",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "La2dp/Vol/btDevice;->setSilent(I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> La2dp/Vol/DeviceDB;->selectAlldb()Ljava/util/Vector; <",
+                "> La2dp/Vol/main;->loadFromDB()I <",
+                "> La2dp/Vol/main;->onResume()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "La2dp/Vol/ManageData$2;-><init>(La2dp/Vol/ManageData;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> La2dp/Vol/ManageData;->onCreate(Landroid/os/Bundle;)V <",
+                "> La2dp/Vol/main;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "a2dp.Vol.main",
+                    "Manage_data",
+                    "Manage Data"
+                ]
+            ]
+        }
+    },
+    "La2dp/Vol/Connector;->getResources()Landroid/content/res/Resources;": {
+        "path_0": {
+            "call_sequence": [
+                "> La2dp/Vol/Connector;->updatenot()V <",
+                "> La2dp/Vol/ConnectWidget;->onUpdate(Landroid/content/Context;Landroid/appwidget/AppWidgetManager;[I)V <",
+                "> La2dp/Vol/service;->UpdateConnectWidgets()V <",
+                "> La2dp/Vol/Starter;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "----- CONDITIONAL -----",
+                "> La2dp/Vol/service;->DoDisconnected(La2dp/Vol/btDevice;)V <",
+                "----- CONDITIONAL -----",
+                "> La2dp/Vol/service$13;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "----- CONDITIONAL -----"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "a2dp.vol.service.NOTIFY",
+                    "broadcast -a"
+                ],
+                [
+                    "intent",
+                    "android.intent.action.MY_PACKAGE_REPLACED",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "La2dp/Vol/service;->access$900()Z": {
+        "path_0": {
+            "call_sequence": [
+                "> La2dp/Vol/service$19;->onTick(J)V <",
+                "> La2dp/Vol/service;->setVolume(I)V <",
+                "> La2dp/Vol/Starter;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "----- CONDITIONAL -----",
+                "> La2dp/Vol/service;->DoDisconnected(La2dp/Vol/btDevice;)V <",
+                "----- CONDITIONAL -----",
+                "> La2dp/Vol/service$13;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "----- CONDITIONAL -----"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "a2dp.vol.service.NOTIFY",
+                    "broadcast -a"
+                ],
+                [
+                    "intent",
+                    "android.intent.action.MY_PACKAGE_REPLACED",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "La2dp/Vol/Connector;->getIBluetoothA2dp(Landroid/content/Context;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> La2dp/Vol/Connector;->onStartCommand(Landroid/content/Intent;II)I <",
+                "> La2dp/Vol/ConnectWidget;->onUpdate(Landroid/content/Context;Landroid/appwidget/AppWidgetManager;[I)V <",
+                "> La2dp/Vol/service;->UpdateConnectWidgets()V <",
+                "> La2dp/Vol/Starter;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "----- CONDITIONAL -----",
+                "> La2dp/Vol/service;->DoDisconnected(La2dp/Vol/btDevice;)V <",
+                "----- CONDITIONAL -----",
+                "> La2dp/Vol/service$13;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "----- CONDITIONAL -----"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "a2dp.vol.service.NOTIFY",
+                    "broadcast -a"
+                ],
+                [
+                    "intent",
+                    "android.intent.action.MY_PACKAGE_REPLACED",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "La2dp/Vol/service$5;-><init>(La2dp/Vol/service;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> La2dp/Vol/service;-><init>()V <",
+                "> La2dp/Vol/Starter;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "----- CONDITIONAL -----",
+                "> La2dp/Vol/service;->DoDisconnected(La2dp/Vol/btDevice;)V <",
+                "----- CONDITIONAL -----",
+                "> La2dp/Vol/service$13;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "----- CONDITIONAL -----"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "a2dp.vol.service.NOTIFY",
+                    "broadcast -a"
+                ],
+                [
+                    "intent",
+                    "android.intent.action.MY_PACKAGE_REPLACED",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "La2dp/Vol/service;->set_car_mode(Z)V": {
+        "path_0": {
+            "call_sequence": [
+                "> La2dp/Vol/service;->DoDisconnected(La2dp/Vol/btDevice;)V <",
+                "> La2dp/Vol/Starter;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "----- CONDITIONAL -----",
+                "> La2dp/Vol/service;->DoDisconnected(La2dp/Vol/btDevice;)V <",
+                "----- CONDITIONAL -----",
+                "> La2dp/Vol/service$13;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "----- CONDITIONAL -----"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "a2dp.vol.service.NOTIFY",
+                    "broadcast -a"
+                ],
+                [
+                    "intent",
+                    "android.intent.action.MY_PACKAGE_REPLACED",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "La2dp/Vol/EditDevice;->setTTSVisibility()V": {
+        "path_0": {
+            "call_sequence": [
+                "> La2dp/Vol/EditDevice;->onCreate(Landroid/os/Bundle;)V <",
+                "> La2dp/Vol/main$5$2;->onClick(Landroid/content/DialogInterface;I)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "La2dp/Vol/ManageData$ImportDatabaseFileTask;->copyFile(Ljava/io/File;Ljava/io/File;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> La2dp/Vol/ManageData$ImportDatabaseFileTask;->doInBackground([Ljava/lang/String;)Ljava/lang/Boolean; <",
+                "> La2dp/Vol/ManageData$ImportDatabaseFileTask;->doInBackground([Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> La2dp/Vol/ManageData$4;->onClick(Landroid/view/View;)V <",
+                "> La2dp/Vol/ManageData;->onCreate(Landroid/os/Bundle;)V <",
+                "> La2dp/Vol/main;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "a2dp.Vol.main",
+                    "Manage_data",
+                    "Manage Data"
+                ],
+                [
+                    "a2dp.Vol.ManageData",
+                    "ImportDBButton"
+                ]
+            ]
+        }
+    },
+    "La2dp/Vol/main$4;-><init>(La2dp/Vol/main;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> La2dp/Vol/main;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "La2dp/Vol/ManageData;->access$200(La2dp/Vol/ManageData;)La2dp/Vol/MyApplication;": {
+        "path_0": {
+            "call_sequence": [
+                "> La2dp/Vol/ManageData$1;->onClick(Landroid/view/View;)V <",
+                "> La2dp/Vol/ManageData;->onCreate(Landroid/os/Bundle;)V <",
+                "> La2dp/Vol/main;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "a2dp.Vol.main",
+                    "Manage_data",
+                    "Manage Data"
+                ],
+                [
+                    "a2dp.Vol.ManageData",
+                    "pushNamesButton"
+                ]
+            ]
+        }
+    },
+    "La2dp/Vol/btDevice;->setBdevice(Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> La2dp/Vol/DeviceDB;->selectAlldb()Ljava/util/Vector; <",
+                "> La2dp/Vol/main;->loadFromDB()I <",
+                "> La2dp/Vol/main;->onResume()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "La2dp/Vol/service;->dowifi(Z)V": {
+        "path_0": {
+            "call_sequence": [
+                "> La2dp/Vol/service;->DoConnected(La2dp/Vol/btDevice;)V <",
+                "> La2dp/Vol/Starter;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "----- CONDITIONAL -----",
+                "> La2dp/Vol/service;->DoDisconnected(La2dp/Vol/btDevice;)V <",
+                "----- CONDITIONAL -----",
+                "> La2dp/Vol/service$13;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "----- CONDITIONAL -----"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "a2dp.vol.service.NOTIFY",
+                    "broadcast -a"
+                ],
+                [
+                    "intent",
+                    "android.intent.action.MY_PACKAGE_REPLACED",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "La2dp/Vol/ManageData$4;-><init>(La2dp/Vol/ManageData;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> La2dp/Vol/ManageData;->onCreate(Landroid/os/Bundle;)V <",
+                "> La2dp/Vol/main;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "a2dp.Vol.main",
+                    "Manage_data",
+                    "Manage Data"
+                ]
+            ]
+        }
+    },
+    "La2dp/Vol/CustomIntentMaker;->access$300(La2dp/Vol/CustomIntentMaker;)Landroid/widget/EditText;": {
+        "path_0": {
+            "call_sequence": [
+                "> La2dp/Vol/CustomIntentMaker$3;->onClick(Landroid/view/View;)V <",
+                "> La2dp/Vol/CustomIntentMaker;-><init>()V <",
+                "> La2dp/Vol/EditDevice$11;->onClick(Landroid/content/DialogInterface;I)V <",
+                "> La2dp/Vol/EditDevice;-><init>()V <",
+                "> La2dp/Vol/main$5$2;->onClick(Landroid/content/DialogInterface;I)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "a2dp.Vol.CustomIntentMaker",
+                    "ci_btn_test"
+                ]
+            ]
+        }
+    },
+    "La2dp/Vol/AppChooser;->access$500(La2dp/Vol/AppChooser;)Ljava/lang/Runnable;": {
+        "path_0": {
+            "call_sequence": [
+                "> La2dp/Vol/AppChooser$6;->run()V <",
+                "> La2dp/Vol/AppChooser;-><init>()V <",
+                "> La2dp/Vol/EditDevice$11;->onClick(Landroid/content/DialogInterface;I)V <",
+                "> La2dp/Vol/EditDevice;-><init>()V <",
+                "> La2dp/Vol/main$5$2;->onClick(Landroid/content/DialogInterface;I)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "La2dp/Vol/ManageData;->setContentView(I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> La2dp/Vol/ManageData;->onCreate(Landroid/os/Bundle;)V <",
+                "> La2dp/Vol/main;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "a2dp.Vol.main",
+                    "Manage_data",
+                    "Manage Data"
+                ]
+            ]
+        }
+    },
+    "La2dp/Vol/PackagesChooser$AppInfoCache;->setChecked(Z)V": {
+        "path_0": {
+            "call_sequence": [
+                "> La2dp/Vol/PackagesChooser$AppInfoCache;-><init>(La2dp/Vol/PackagesChooser;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V <",
+                "> La2dp/Vol/PackagesChooser$1;->run()V <",
+                "> La2dp/Vol/PackagesChooser;-><init>()V <",
+                "> La2dp/Vol/main;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "a2dp.Vol.main",
+                    "prefs",
+                    "Preferences"
+                ]
+            ]
+        }
+    },
+    "La2dp/Vol/main;->setContentView(I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> La2dp/Vol/main;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "La2dp/Vol/ManageData;->getActionBar()Landroid/app/ActionBar;": {
+        "path_0": {
+            "call_sequence": [
+                "> La2dp/Vol/ManageData;->setupActionBar()V <",
+                "> La2dp/Vol/ManageData;->onCreate(Landroid/os/Bundle;)V <",
+                "> La2dp/Vol/main;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "a2dp.Vol.main",
+                    "Manage_data",
+                    "Manage Data"
+                ]
+            ]
+        }
+    },
+    "La2dp/Vol/PackagesChooser;->access$402(La2dp/Vol/PackagesChooser;La2dp/Vol/PackagesChooser$PackageListAdapter;)La2dp/Vol/PackagesChooser$PackageListAdapter;": {
+        "path_0": {
+            "call_sequence": [
+                "> La2dp/Vol/PackagesChooser$1;->run()V <",
+                "> La2dp/Vol/PackagesChooser;-><init>()V <",
+                "> La2dp/Vol/main;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "a2dp.Vol.main",
+                    "prefs",
+                    "Preferences"
+                ]
+            ]
+        }
+    },
+    "La2dp/Vol/ConnectWidgetConfigureActivity;->finish()V": {
+        "path_0": {
+            "call_sequence": [
+                "> La2dp/Vol/ConnectWidgetConfigureActivity$1;->onClick(Landroid/view/View;)V <",
+                "> La2dp/Vol/ConnectWidgetConfigureActivity;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.appwidget.action.APPWIDGET_CONFIGURE",
+                    "start-activity -a"
+                ],
+                [
+                    "a2dp.Vol.ConnectWidgetConfigureActivity",
+                    "add_button"
+                ]
+            ]
+        }
+    },
+    "La2dp/Vol/DeviceDB;->checkIcon(I)I": {
+        "path_0": {
+            "call_sequence": [
+                "> La2dp/Vol/DeviceDB;->getBTD(Ljava/lang/String;)La2dp/Vol/btDevice; <",
+                "> La2dp/Vol/main$5;->onItemClick(Landroid/widget/AdapterView;Landroid/view/View;IJ)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "La2dp/Vol/btDevice;->islSetpv()J": {
+        "path_0": {
+            "call_sequence": [
+                "> La2dp/Vol/DeviceDB;->update(La2dp/Vol/btDevice;)V <",
+                "> La2dp/Vol/service;->DoDisconnected(La2dp/Vol/btDevice;)V <",
+                "> La2dp/Vol/Starter;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "----- CONDITIONAL -----",
+                "> La2dp/Vol/service;->DoDisconnected(La2dp/Vol/btDevice;)V <",
+                "----- CONDITIONAL -----",
+                "> La2dp/Vol/service$13;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "----- CONDITIONAL -----"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "a2dp.vol.service.NOTIFY",
+                    "broadcast -a"
+                ],
+                [
+                    "intent",
+                    "android.intent.action.MY_PACKAGE_REPLACED",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "La2dp/Vol/CustomIntentMaker;->access$400(La2dp/Vol/CustomIntentMaker;)Landroid/widget/Button;": {
+        "path_0": {
+            "call_sequence": [
+                "> La2dp/Vol/CustomIntentMaker$3;->onClick(Landroid/view/View;)V <",
+                "> La2dp/Vol/CustomIntentMaker;-><init>()V <",
+                "> La2dp/Vol/EditDevice$11;->onClick(Landroid/content/DialogInterface;I)V <",
+                "> La2dp/Vol/EditDevice;-><init>()V <",
+                "> La2dp/Vol/main$5$2;->onClick(Landroid/content/DialogInterface;I)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "a2dp.Vol.CustomIntentMaker",
+                    "ci_btn_test"
+                ]
+            ]
+        }
+    },
+    "La2dp/Vol/service;->access$1100(La2dp/Vol/service;)Landroid/speech/tts/TextToSpeech;": {
+        "path_0": {
+            "call_sequence": [
+                "> La2dp/Vol/service$22;->onInit(I)V <",
+                "> La2dp/Vol/service;-><init>()V <",
+                "> La2dp/Vol/Starter;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "----- CONDITIONAL -----",
+                "> La2dp/Vol/service;->DoDisconnected(La2dp/Vol/btDevice;)V <",
+                "----- CONDITIONAL -----",
+                "> La2dp/Vol/service$13;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "----- CONDITIONAL -----"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "a2dp.vol.service.NOTIFY",
+                    "broadcast -a"
+                ],
+                [
+                    "intent",
+                    "android.intent.action.MY_PACKAGE_REPLACED",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "La2dp/Vol/main;->access$100(La2dp/Vol/main;)I": {
+        "path_0": {
+            "call_sequence": [
+                "> La2dp/Vol/main$14;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "----- CONDITIONAL -----",
+                "> La2dp/Vol/service;->onStart()V <",
+                "----- CONDITIONAL -----",
+                "> La2dp/Vol/Starter;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "----- CONDITIONAL -----"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.BOOT_COMPLETED",
+                    "broadcast -a"
+                ],
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "La2dp/Vol/AppChooser;->setContentView(I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> La2dp/Vol/AppChooser;->onCreate(Landroid/os/Bundle;)V <",
+                "> La2dp/Vol/EditDevice$11;->onClick(Landroid/content/DialogInterface;I)V <",
+                "> La2dp/Vol/EditDevice;-><init>()V <",
+                "> La2dp/Vol/main$5$2;->onClick(Landroid/content/DialogInterface;I)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "La2dp/Vol/AppChooser$AppInfoCache;->getPackageName()Ljava/lang/String;": {
+        "path_0": {
+            "call_sequence": [
+                "> La2dp/Vol/AppChooser$5;->onItemClick(Landroid/widget/AdapterView;Landroid/view/View;IJ)V <",
+                "> La2dp/Vol/AppChooser;-><init>()V <",
+                "> La2dp/Vol/EditDevice$11;->onClick(Landroid/content/DialogInterface;I)V <",
+                "> La2dp/Vol/EditDevice;-><init>()V <",
+                "> La2dp/Vol/main$5$2;->onClick(Landroid/content/DialogInterface;I)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "La2dp/Vol/service;->startActivity(Landroid/content/Intent;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> La2dp/Vol/service;->runApp(La2dp/Vol/btDevice;)Z <",
+                "> La2dp/Vol/Starter;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "----- CONDITIONAL -----",
+                "> La2dp/Vol/service;->DoDisconnected(La2dp/Vol/btDevice;)V <",
+                "----- CONDITIONAL -----",
+                "> La2dp/Vol/service$13;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "----- CONDITIONAL -----"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "a2dp.vol.service.NOTIFY",
+                    "broadcast -a"
+                ],
+                [
+                    "intent",
+                    "android.intent.action.MY_PACKAGE_REPLACED",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "La2dp/Vol/CustomIntentMaker;->initViews()V": {
+        "path_0": {
+            "call_sequence": [
+                "> La2dp/Vol/CustomIntentMaker;->onCreate(Landroid/os/Bundle;)V <",
+                "> La2dp/Vol/EditDevice$11;->onClick(Landroid/content/DialogInterface;I)V <",
+                "> La2dp/Vol/EditDevice;-><init>()V <",
+                "> La2dp/Vol/main$5$2;->onClick(Landroid/content/DialogInterface;I)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "La2dp/Vol/Connector;->access$500()Ljava/lang/String;": {
+        "path_0": {
+            "call_sequence": [
+                "> La2dp/Vol/Connector$2;->onServiceConnected(Landroid/content/ComponentName;Landroid/os/IBinder;)V <",
+                "> La2dp/Vol/Connector;-><clinit>()V <",
+                "> La2dp/Vol/ConnectWidget;->onUpdate(Landroid/content/Context;Landroid/appwidget/AppWidgetManager;[I)V <",
+                "> La2dp/Vol/service;->UpdateConnectWidgets()V <",
+                "> La2dp/Vol/Starter;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "----- CONDITIONAL -----",
+                "> La2dp/Vol/service;->DoDisconnected(La2dp/Vol/btDevice;)V <",
+                "----- CONDITIONAL -----",
+                "> La2dp/Vol/service$13;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "----- CONDITIONAL -----"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "a2dp.vol.service.NOTIFY",
+                    "broadcast -a"
+                ],
+                [
+                    "intent",
+                    "android.intent.action.MY_PACKAGE_REPLACED",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "La2dp/Vol/service;->getPackageManager()Landroid/content/pm/PackageManager;": {
+        "path_0": {
+            "call_sequence": [
+                "> La2dp/Vol/service;->onCreate()V <",
+                "> La2dp/Vol/Starter;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "----- CONDITIONAL -----",
+                "> La2dp/Vol/service;-><init>()V <",
+                "----- CONDITIONAL -----",
+                "> La2dp/Vol/Starter;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "----- CONDITIONAL -----",
+                "----- CONDITIONAL -----",
+                "> La2dp/Vol/service;->runApp(La2dp/Vol/btDevice;)Z <",
+                "----- CONDITIONAL -----",
+                "----- CONDITIONAL -----",
+                "> La2dp/Vol/service;->DoDisconnected(La2dp/Vol/btDevice;)V <",
+                "----- CONDITIONAL -----",
+                "> La2dp/Vol/service$13;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "----- CONDITIONAL -----"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "a2dp.vol.service.NOTIFY",
+                    "broadcast -a"
+                ],
+                [
+                    "intent",
+                    "android.intent.action.BOOT_COMPLETED",
+                    "broadcast -a"
+                ],
+                [
+                    "intent",
+                    "android.intent.action.MY_PACKAGE_REPLACED",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "La2dp/Vol/btDevice;->setBluetoothDevice(Landroid/bluetooth/BluetoothDevice;Ljava/lang/String;I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> La2dp/Vol/main;->getBtDevices(I)I <",
+                "> La2dp/Vol/main;->onActivityResult(IILandroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "La2dp/Vol/service;->access$200(La2dp/Vol/service;)Z": {
+        "path_0": {
+            "call_sequence": [
+                "> La2dp/Vol/service$24;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.media.ACTION_SCO_AUDIO_STATE_UPDATED",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "La2dp/Vol/ManageData;->access$900(La2dp/Vol/ManageData;)Landroid/widget/TextView;": {
+        "path_0": {
+            "call_sequence": [
+                "> La2dp/Vol/ManageData$ExportLocationTask;->onPostExecute(Ljava/lang/Boolean;)V <",
+                "> La2dp/Vol/ManageData$ExportLocationTask;->onPostExecute(Ljava/lang/Object;)V <",
+                "> La2dp/Vol/ManageData$5;->onClick(Landroid/view/View;)V <",
+                "> La2dp/Vol/ManageData;->onCreate(Landroid/os/Bundle;)V <",
+                "> La2dp/Vol/main;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "a2dp.Vol.main",
+                    "Manage_data",
+                    "Manage Data"
+                ],
+                [
+                    "a2dp.Vol.ManageData",
+                    "ExportLoc"
+                ]
+            ]
+        }
+    },
+    "La2dp/Vol/Connector;->doUnbind()V": {
+        "path_0": {
+            "call_sequence": [
+                "> La2dp/Vol/Connector$2;->onServiceDisconnected(Landroid/content/ComponentName;)V <",
+                "> La2dp/Vol/Connector;-><clinit>()V <",
+                "> La2dp/Vol/ConnectWidget;->onUpdate(Landroid/content/Context;Landroid/appwidget/AppWidgetManager;[I)V <",
+                "> La2dp/Vol/service;->UpdateConnectWidgets()V <",
+                "> La2dp/Vol/Starter;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "----- CONDITIONAL -----",
+                "> La2dp/Vol/service;->DoDisconnected(La2dp/Vol/btDevice;)V <",
+                "----- CONDITIONAL -----",
+                "> La2dp/Vol/service$13;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "----- CONDITIONAL -----"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "a2dp.vol.service.NOTIFY",
+                    "broadcast -a"
+                ],
+                [
+                    "intent",
+                    "android.intent.action.MY_PACKAGE_REPLACED",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "La2dp/Vol/main$8;-><init>(La2dp/Vol/main;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> La2dp/Vol/main;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "La2dp/Vol/service;->access$600(La2dp/Vol/service;)Z": {
+        "path_0": {
+            "call_sequence": [
+                "> La2dp/Vol/service$12;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "a2dp.vol.service.NOTIFY",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "La2dp/Vol/PackagesChooser;->access$800(La2dp/Vol/PackagesChooser;)Landroid/widget/ProgressBar;": {
+        "path_0": {
+            "call_sequence": [
+                "> La2dp/Vol/PackagesChooser$2;->run()V <",
+                "> La2dp/Vol/PackagesChooser;-><init>()V <",
+                "> La2dp/Vol/main;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "a2dp.Vol.main",
+                    "prefs",
+                    "Preferences"
+                ]
+            ]
+        }
+    },
+    "La2dp/Vol/EditDevice;->closedb()V": {
+        "path_0": {
+            "call_sequence": [
+                "> La2dp/Vol/EditDevice;->onBackPressed()V <",
+                "> La2dp/Vol/main$5$2;->onClick(Landroid/content/DialogInterface;I)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "La2dp/Vol/PackagesChooser;->access$200(La2dp/Vol/PackagesChooser;)Ljava/util/List;": {
+        "path_0": {
+            "call_sequence": [
+                "> La2dp/Vol/PackagesChooser$1;->run()V <",
+                "> La2dp/Vol/PackagesChooser;-><init>()V <",
+                "> La2dp/Vol/main;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "a2dp.Vol.main",
+                    "prefs",
+                    "Preferences"
+                ]
+            ]
+        }
+    },
+    "La2dp/Vol/PackagesChooser$PackageListAdapter;-><init>(La2dp/Vol/PackagesChooser;Landroid/content/Context;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> La2dp/Vol/PackagesChooser$1;->run()V <",
+                "> La2dp/Vol/PackagesChooser;-><init>()V <",
+                "> La2dp/Vol/main;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "a2dp.Vol.main",
+                    "prefs",
+                    "Preferences"
+                ]
+            ]
+        }
+    },
+    "La2dp/Vol/main$5$2;-><init>(La2dp/Vol/main$5;La2dp/Vol/btDevice;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> La2dp/Vol/main$5;->onItemClick(Landroid/widget/AdapterView;Landroid/view/View;IJ)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "La2dp/Vol/service$18;->start()Landroid/os/CountDownTimer;": {
+        "path_0": {
+            "call_sequence": [
+                "> La2dp/Vol/service;->DoDisconnected(La2dp/Vol/btDevice;)V <",
+                "> La2dp/Vol/Starter;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "----- CONDITIONAL -----",
+                "> La2dp/Vol/service;->DoDisconnected(La2dp/Vol/btDevice;)V <",
+                "----- CONDITIONAL -----",
+                "> La2dp/Vol/service$15;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "----- CONDITIONAL -----",
+                "----- CONDITIONAL -----",
+                "> La2dp/Vol/service;-><clinit>()V <",
+                "----- CONDITIONAL -----",
+                "> La2dp/Vol/Starter;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "----- CONDITIONAL -----",
+                "----- CONDITIONAL -----",
+                "> La2dp/Vol/service;->DoDisconnected(La2dp/Vol/btDevice;)V <",
+                "----- CONDITIONAL -----",
+                "> La2dp/Vol/service$13;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "----- CONDITIONAL -----"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "a2dp.vol.service.NOTIFY",
+                    "broadcast -a"
+                ],
+                [
+                    "intent",
+                    "android.intent.action.MY_PACKAGE_REPLACED",
+                    "broadcast -a"
+                ],
+                [
+                    "intent",
+                    "android.intent.action.ACTION_POWER_DISCONNECTED",
+                    "broadcast -a"
+                ],
+                [
+                    "intent",
+                    "android.intent.action.MY_PACKAGE_REPLACED",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "La2dp/Vol/service;->DoConnected(La2dp/Vol/btDevice;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> La2dp/Vol/service$6;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "a2dp.vol.service.NOTIFY",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "La2dp/Vol/btDevice;->setGetLoc(Z)V": {
+        "path_0": {
+            "call_sequence": [
+                "> La2dp/Vol/main;->getBtDevices(I)I <",
+                "> La2dp/Vol/main;->onActivityResult(IILandroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "La2dp/Vol/StoreLoc;->openFileOutput(Ljava/lang/String;I)Ljava/io/FileOutputStream;": {
+        "path_0": {
+            "call_sequence": [
+                "> La2dp/Vol/StoreLoc;->clearLoc()V <",
+                "> La2dp/Vol/service;->DoDisconnected(La2dp/Vol/btDevice;)V <",
+                "> La2dp/Vol/Starter;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "----- CONDITIONAL -----",
+                "> La2dp/Vol/StoreLoc;->clearLoc()V <",
+                "----- CONDITIONAL -----",
+                "> La2dp/Vol/service;->DoDisconnected(La2dp/Vol/btDevice;)V <",
+                "----- CONDITIONAL -----",
+                "> La2dp/Vol/service$13;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "----- CONDITIONAL -----",
+                "----- CONDITIONAL -----",
+                "> La2dp/Vol/StoreLoc;->clearLoc()V <",
+                "> La2dp/Vol/StoreLoc;->access$100(La2dp/Vol/StoreLoc;)V <",
+                "----- CONDITIONAL -----",
+                "> La2dp/Vol/service$15;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "----- CONDITIONAL -----"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.ACTION_POWER_DISCONNECTED",
+                    "broadcast -a"
+                ],
+                [
+                    "intent",
+                    "a2dp.vol.service.NOTIFY",
+                    "broadcast -a"
+                ],
+                [
+                    "intent",
+                    "android.intent.action.MY_PACKAGE_REPLACED",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "La2dp/Vol/main;->access$300(La2dp/Vol/main;I)I": {
+        "path_0": {
+            "call_sequence": [
+                "> La2dp/Vol/main$13;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    }
+}

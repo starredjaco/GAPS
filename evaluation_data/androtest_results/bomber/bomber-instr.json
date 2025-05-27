@@ -1,0 +1,471 @@
+{
+    "Lorg/beide/bomber/BomberView;-><init>(Landroid/content/Context;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/beide/bomber/BomberActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/beide/bomber/BomberThread;->levelGen(I)[I": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/beide/bomber/BomberThread;->initlevel(I)V <",
+                "> Lorg/beide/bomber/BomberThread;->restart()V <",
+                "> Lorg/beide/bomber/BomberActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.beide.bomber.BomberActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lorg/beide/bomber/BomberActivity;->getWindow()Landroid/view/Window;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/beide/bomber/BomberActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/beide/bomber/BomberThread;->join()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/beide/bomber/BomberView;->surfaceDestroyed(Landroid/view/SurfaceHolder;)V <",
+                "> Lorg/beide/bomber/BomberActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/beide/bomber/BomberView;->getThread()Lorg/beide/bomber/BomberThread;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/beide/bomber/BomberActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/beide/bomber/BomberPreferences$1;-><init>(Lorg/beide/bomber/BomberPreferences;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/beide/bomber/BomberPreferences;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/beide/bomber/BomberActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.beide.bomber.BomberActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lorg/beide/bomber/BomberView;->setOnTouchListener(Landroid/view/View$OnTouchListener;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/beide/bomber/BomberView;->surfaceCreated(Landroid/view/SurfaceHolder;)V <",
+                "> Lorg/beide/bomber/BomberActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/beide/bomber/BomberActivity;->setRequestedOrientation(I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/beide/bomber/BomberActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/beide/bomber/BomberActivity;->getApplicationContext()Landroid/content/Context;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/beide/bomber/BomberActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/beide/bomber/BomberThread;->click()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/beide/bomber/BomberThread;->onTouch(Landroid/view/View;Landroid/view/MotionEvent;)Z <",
+                "> Lorg/beide/bomber/BomberView;->surfaceCreated(Landroid/view/SurfaceHolder;)V <",
+                "> Lorg/beide/bomber/BomberActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "org.beide.bomber.BomberActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lorg/beide/bomber/BomberThread;->drawnewgame(Landroid/graphics/Canvas;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/beide/bomber/BomberThread;->run()V <",
+                "> Lorg/beide/bomber/BomberView;->surfaceCreated(Landroid/view/SurfaceHolder;)V <",
+                "> Lorg/beide/bomber/BomberActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/beide/bomber/BomberThread;->getSettings()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/beide/bomber/BomberThread;->surfaceSize(II)V <",
+                "> Lorg/beide/bomber/BomberView;->surfaceChanged(Landroid/view/SurfaceHolder;III)V <",
+                "> Lorg/beide/bomber/BomberActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/beide/bomber/BomberThread;-><init>(Landroid/view/SurfaceHolder;Landroid/content/Context;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/beide/bomber/BomberView;-><init>(Landroid/content/Context;)V <",
+                "> Lorg/beide/bomber/BomberActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/beide/bomber/BomberThread;->setPaused(Z)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/beide/bomber/BomberActivity;->onStop()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/beide/bomber/BomberPreferences;->getApplicationContext()Landroid/content/Context;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/beide/bomber/BomberPreferences$1;->onPreferenceClick(Landroid/preference/Preference;)Z <",
+                "> Lorg/beide/bomber/BomberPreferences;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/beide/bomber/BomberActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.beide.bomber.BomberActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lorg/beide/bomber/BomberThread;->drawlevelup(Landroid/graphics/Canvas;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/beide/bomber/BomberThread;->run()V <",
+                "> Lorg/beide/bomber/BomberView;->surfaceCreated(Landroid/view/SurfaceHolder;)V <",
+                "> Lorg/beide/bomber/BomberActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/beide/bomber/BomberActivity;->requestWindowFeature(I)Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/beide/bomber/BomberActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/beide/bomber/BomberPreferences;->addPreferencesFromResource(I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/beide/bomber/BomberPreferences;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/beide/bomber/BomberActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.beide.bomber.BomberActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lorg/beide/bomber/BomberActivity;->startActivity(Landroid/content/Intent;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/beide/bomber/BomberActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.beide.bomber.BomberActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lorg/beide/bomber/BomberThread;->surfaceSize(II)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/beide/bomber/BomberView;->surfaceChanged(Landroid/view/SurfaceHolder;III)V <",
+                "> Lorg/beide/bomber/BomberActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/beide/bomber/BomberView;->setOnKeyListener(Landroid/view/View$OnKeyListener;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/beide/bomber/BomberView;->surfaceCreated(Landroid/view/SurfaceHolder;)V <",
+                "> Lorg/beide/bomber/BomberActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/beide/bomber/BomberThread;->start()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/beide/bomber/BomberView;->surfaceCreated(Landroid/view/SurfaceHolder;)V <",
+                "> Lorg/beide/bomber/BomberActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/beide/bomber/BomberThread;->initlevel(I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/beide/bomber/BomberThread;->restart()V <",
+                "> Lorg/beide/bomber/BomberActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.beide.bomber.BomberActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lorg/beide/bomber/BomberThread;->setRunning(Z)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/beide/bomber/BomberView;->surfaceCreated(Landroid/view/SurfaceHolder;)V <",
+                "> Lorg/beide/bomber/BomberActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/beide/bomber/BomberThread;->draw(Landroid/graphics/Canvas;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/beide/bomber/BomberThread;->run()V <",
+                "> Lorg/beide/bomber/BomberView;->surfaceCreated(Landroid/view/SurfaceHolder;)V <",
+                "> Lorg/beide/bomber/BomberActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/beide/bomber/BomberView;->setFocusable(Z)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/beide/bomber/BomberActivity;->onStart()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/beide/bomber/BomberThread;->drawgameover(Landroid/graphics/Canvas;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/beide/bomber/BomberThread;->run()V <",
+                "> Lorg/beide/bomber/BomberView;->surfaceCreated(Landroid/view/SurfaceHolder;)V <",
+                "> Lorg/beide/bomber/BomberActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/beide/bomber/BomberActivity;->setContentView(Landroid/view/View;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/beide/bomber/BomberActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/beide/bomber/BomberThread;->update()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/beide/bomber/BomberThread;->run()V <",
+                "> Lorg/beide/bomber/BomberView;->surfaceCreated(Landroid/view/SurfaceHolder;)V <",
+                "> Lorg/beide/bomber/BomberActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/beide/bomber/BomberPreferences;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/beide/bomber/BomberPreferences;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/beide/bomber/BomberActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.beide.bomber.BomberActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lorg/beide/bomber/BomberView;->getHolder()Landroid/view/SurfaceHolder;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/beide/bomber/BomberView;-><init>(Landroid/content/Context;)V <",
+                "> Lorg/beide/bomber/BomberActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/beide/bomber/BomberThread;->restart()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/beide/bomber/BomberThread;->run()V <",
+                "> Lorg/beide/bomber/BomberView;->surfaceCreated(Landroid/view/SurfaceHolder;)V <",
+                "> Lorg/beide/bomber/BomberActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    }
+}

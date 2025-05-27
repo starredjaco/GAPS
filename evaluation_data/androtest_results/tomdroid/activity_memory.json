@@ -1,0 +1,71 @@
+{
+    "org.tomdroid.ui.Tomdroid": {
+        "org.tomdroid.ui.EditNote": [
+            [
+                "click android:id/button3",
+                "click org.tomdroid:id/menuNew"
+            ],
+            [
+                "click org.tomdroid:id/menuNew"
+            ],
+            [
+                "click (932, 63, 1080, 189)",
+                "click org.tomdroid:id/menuSync",
+                "click org.tomdroid:id/menuNew"
+            ],
+            [
+                "click org.tomdroid:id/view_note_edit",
+                "click android:id/button2",
+                "click org.tomdroid:id/menuNew"
+            ],
+            [
+                "click org.tomdroid:id/menuSync",
+                "click android:id/button3",
+                "click (932, 63, 1080, 189)",
+                "click org.tomdroid:id/menuNew"
+            ],
+            [
+                "click org.tomdroid:id/menuSync",
+                "click org.tomdroid:id/menuNew"
+            ]
+        ],
+        "net.mandaria.tippytipperlibrary.activities.TippyTipper": [
+            [
+                "click org.tomdroid:id/menuNew",
+                "click org.tomdroid:id/menuSync",
+                "click (932, 63, 1080, 189)"
+            ],
+            [
+                "click org.tomdroid:id/menuSync",
+                "click (932, 63, 1080, 189)"
+            ]
+        ],
+        "org.tomdroid.ui.ViewNote": [
+            [
+                "click org.tomdroid:id/view_note_edit"
+            ]
+        ]
+    },
+    "org.tomdroid.ui.EditNote": {
+        "org.tomdroid.ui.Tomdroid": [
+            [
+                "click (932, 63, 1080, 189)",
+                "click org.tomdroid:id/edit_note_save"
+            ],
+            [
+                "click org.tomdroid:id/edit_note_save"
+            ],
+            [
+                "click org.tomdroid:id/edit_note_save",
+                "click (0, 63, 578, 189)"
+            ]
+        ]
+    },
+    "org.tomdroid.ui.FilePickerActivity": {
+        "org.tomdroid.ui.Tomdroid": [
+            [
+                "click (0, 63, 638, 189)"
+            ]
+        ]
+    }
+}

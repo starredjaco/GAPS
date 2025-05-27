@@ -1,0 +1,905 @@
+{
+    "Ljp/sblo/pandora/aGrep/OptionActivity$1;-><init>(Ljp/sblo/pandora/aGrep/OptionActivity;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Ljp/sblo/pandora/aGrep/OptionActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Ljp/sblo/pandora/aGrep/Settings;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "jp.sblo.pandora.aGrep.Settings",
+                    "menu_option",
+                    "Preferences"
+                ]
+            ]
+        }
+    },
+    "Ljp/sblo/pandora/aGrep/ColorPickerActivity;->setCurrentColor(I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Ljp/sblo/pandora/aGrep/ColorPickerActivity;->access$200(Ljp/sblo/pandora/aGrep/ColorPickerActivity;I)V <",
+                "> Ljp/sblo/pandora/aGrep/ColorPickerActivity$2;->onClick(Landroid/content/DialogInterface;I)V <",
+                "> Ljp/sblo/pandora/aGrep/ColorPickerActivity;->onClick(Landroid/view/View;)V <",
+                "> Ljp/sblo/pandora/aGrep/OptionActivity$3;->onPreferenceClick(Landroid/preference/Preference;)Z <",
+                "> Ljp/sblo/pandora/aGrep/OptionActivity;->createHighlightPreference(II)V <",
+                "> Ljp/sblo/pandora/aGrep/OptionActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Ljp/sblo/pandora/aGrep/Settings;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "jp.sblo.pandora.aGrep.Settings",
+                    "menu_option",
+                    "Preferences"
+                ],
+                [
+                    "jp.sblo.pandora.aGrep.ColorPickerActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Ljp/sblo/pandora/aGrep/TextViewer;->getActionBar()Landroid/app/ActionBar;": {
+        "path_0": {
+            "call_sequence": [
+                "> Ljp/sblo/pandora/aGrep/TextViewer;->onCreate(Landroid/os/Bundle;)V <",
+                "> Ljp/sblo/pandora/aGrep/Search;->onGrepItemClicked(I)V <",
+                "> Ljp/sblo/pandora/aGrep/Settings$10;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "jp.sblo.pandora.aGrep.Settings",
+                    "ButtonSearch"
+                ]
+            ]
+        }
+    },
+    "Ljp/sblo/pandora/aGrep/GrepView;->setSelection(I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Ljp/sblo/pandora/aGrep/Search$GrepTask;->onPostExecute(Ljava/lang/Boolean;)V <",
+                "> Ljp/sblo/pandora/aGrep/Search$GrepTask;->onCancelled()V <",
+                "> Ljp/sblo/pandora/aGrep/Search;->onCreate(Landroid/os/Bundle;)V <",
+                "> Ljp/sblo/pandora/aGrep/Settings$10;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "jp.sblo.pandora.aGrep.Settings",
+                    "ButtonSearch"
+                ]
+            ]
+        }
+    },
+    "Ljp/sblo/pandora/aGrep/FileSelectorActivity;->getListAdapter()Landroid/widget/ListAdapter;": {
+        "path_0": {
+            "call_sequence": [
+                "> Ljp/sblo/pandora/aGrep/FileSelectorActivity;->onListItemClick(Landroid/widget/ListView;Landroid/view/View;IJ)V <",
+                "> Ljp/sblo/pandora/aGrep/Settings$4;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "jp.sblo.pandora.aGrep.Settings",
+                    "adddir"
+                ]
+            ]
+        }
+    },
+    "Ljp/sblo/pandora/aGrep/FileSelectorActivity;->access$002(Ljp/sblo/pandora/aGrep/FileSelectorActivity;Ljava/lang/String;)Ljava/lang/String;": {
+        "path_0": {
+            "call_sequence": [
+                "> Ljp/sblo/pandora/aGrep/FileSelectorActivity$1;->onItemLongClick(Landroid/widget/AdapterView;Landroid/view/View;IJ)Z <",
+                "> Ljp/sblo/pandora/aGrep/FileSelectorActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Ljp/sblo/pandora/aGrep/Settings$4;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "jp.sblo.pandora.aGrep.Settings",
+                    "adddir"
+                ]
+            ]
+        }
+    },
+    "Ljp/sblo/pandora/aGrep/GrepView$GrepAdapter;->getItem(I)Ljava/lang/Object;": {
+        "path_0": {
+            "call_sequence": [
+                "> Ljp/sblo/pandora/aGrep/GrepView$GrepAdapter;->getView(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View; <",
+                "> Ljp/sblo/pandora/aGrep/Search;->onGrepItemClicked(I)V <",
+                "> Ljp/sblo/pandora/aGrep/Settings$10;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "jp.sblo.pandora.aGrep.Settings",
+                    "ButtonSearch"
+                ]
+            ]
+        }
+    },
+    "Ljp/sblo/pandora/aGrep/Settings;->access$200(Ljp/sblo/pandora/aGrep/Settings;)Landroid/content/Context;": {
+        "path_0": {
+            "call_sequence": [
+                "> Ljp/sblo/pandora/aGrep/Settings$1$1;->onClick(Landroid/content/DialogInterface;I)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Ljp/sblo/pandora/aGrep/Settings$2$1;-><init>(Ljp/sblo/pandora/aGrep/Settings$2;Ljp/sblo/pandora/aGrep/CheckedString;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Ljp/sblo/pandora/aGrep/Settings$2;->onLongClick(Landroid/view/View;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "jp.sblo.pandora.aGrep.Settings",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Ljp/sblo/pandora/aGrep/GrepView;->setCacheColorHint(I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Ljp/sblo/pandora/aGrep/GrepView;->init(Landroid/content/Context;)V <",
+                "> Ljp/sblo/pandora/aGrep/GrepView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V <",
+                "> Ljp/sblo/pandora/aGrep/Search;->onGrepItemClicked(I)V <",
+                "> Ljp/sblo/pandora/aGrep/Settings$10;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "jp.sblo.pandora.aGrep.Settings",
+                    "ButtonSearch"
+                ]
+            ]
+        }
+    },
+    "Ljp/sblo/pandora/aGrep/Search;->access$000(Ljp/sblo/pandora/aGrep/Search;)Ljava/lang/String;": {
+        "path_0": {
+            "call_sequence": [
+                "> Ljp/sblo/pandora/aGrep/Search$GrepTask;->onPreExecute()V <",
+                "> Ljp/sblo/pandora/aGrep/Search;->onCreate(Landroid/os/Bundle;)V <",
+                "> Ljp/sblo/pandora/aGrep/Settings$10;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "jp.sblo.pandora.aGrep.Settings",
+                    "ButtonSearch"
+                ]
+            ]
+        }
+    },
+    "Ljp/sblo/pandora/aGrep/Search;->access$600(Ljp/sblo/pandora/aGrep/Search;)Ljp/sblo/pandora/aGrep/Prefs;": {
+        "path_0": {
+            "call_sequence": [
+                "> Ljp/sblo/pandora/aGrep/Search$GrepTask;->grepFile(Ljava/io/File;)Z <",
+                "> Ljp/sblo/pandora/aGrep/Search$GrepTask;->grepDirectory(Ljava/io/File;)Z <",
+                "> Ljp/sblo/pandora/aGrep/Search$GrepTask;->grepRoot(Ljava/lang/String;)Z <",
+                "> Ljp/sblo/pandora/aGrep/Search$GrepTask;->doInBackground([Ljava/lang/String;)Ljava/lang/Boolean; <",
+                "> Ljp/sblo/pandora/aGrep/Search$GrepTask;->doInBackground([Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Ljp/sblo/pandora/aGrep/Search;->onCreate(Landroid/os/Bundle;)V <",
+                "> Ljp/sblo/pandora/aGrep/Settings$10;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "jp.sblo.pandora.aGrep.Settings",
+                    "ButtonSearch"
+                ]
+            ]
+        }
+    },
+    "Ljp/sblo/pandora/aGrep/ColorPickerActivity;->getResources()Landroid/content/res/Resources;": {
+        "path_0": {
+            "call_sequence": [
+                "> Ljp/sblo/pandora/aGrep/ColorPickerActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Ljp/sblo/pandora/aGrep/OptionActivity$3;->onPreferenceClick(Landroid/preference/Preference;)Z <",
+                "> Ljp/sblo/pandora/aGrep/OptionActivity;->createHighlightPreference(II)V <",
+                "> Ljp/sblo/pandora/aGrep/OptionActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Ljp/sblo/pandora/aGrep/Settings;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "jp.sblo.pandora.aGrep.Settings",
+                    "menu_option",
+                    "Preferences"
+                ]
+            ]
+        }
+    },
+    "Ljp/sblo/pandora/aGrep/GrepView$GrepAdapter;->setFormat(Ljava/util/regex/Pattern;III)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Ljp/sblo/pandora/aGrep/Search;->onCreate(Landroid/os/Bundle;)V <",
+                "> Ljp/sblo/pandora/aGrep/Settings$10;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "jp.sblo.pandora.aGrep.Settings",
+                    "ButtonSearch"
+                ]
+            ]
+        }
+    },
+    "Ljp/sblo/pandora/aGrep/OptionActivity;->getPackageName()Ljava/lang/String;": {
+        "path_0": {
+            "call_sequence": [
+                "> Ljp/sblo/pandora/aGrep/OptionActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Ljp/sblo/pandora/aGrep/Settings;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "jp.sblo.pandora.aGrep.Settings",
+                    "menu_option",
+                    "Preferences"
+                ]
+            ]
+        }
+    },
+    "Ljp/sblo/pandora/aGrep/GrepView$GrepAdapter;->getContext()Landroid/content/Context;": {
+        "path_0": {
+            "call_sequence": [
+                "> Ljp/sblo/pandora/aGrep/GrepView$GrepAdapter;->getView(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View; <",
+                "> Ljp/sblo/pandora/aGrep/Search;->onGrepItemClicked(I)V <",
+                "> Ljp/sblo/pandora/aGrep/Settings$10;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "jp.sblo.pandora.aGrep.Settings",
+                    "ButtonSearch"
+                ]
+            ]
+        }
+    },
+    "Ljp/sblo/pandora/aGrep/FileSelectorActivity;->setResult(ILandroid/content/Intent;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Ljp/sblo/pandora/aGrep/FileSelectorActivity$1;->onItemLongClick(Landroid/widget/AdapterView;Landroid/view/View;IJ)Z <",
+                "> Ljp/sblo/pandora/aGrep/FileSelectorActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Ljp/sblo/pandora/aGrep/Settings$4;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "jp.sblo.pandora.aGrep.Settings",
+                    "adddir"
+                ]
+            ]
+        }
+    },
+    "Ljp/sblo/pandora/aGrep/TextPreview;->getHeight()I": {
+        "path_0": {
+            "call_sequence": [
+                "> Ljp/sblo/pandora/aGrep/TextViewer$TextLoadTask;->onPostExecute(Ljava/lang/Boolean;)V <",
+                "> Ljp/sblo/pandora/aGrep/TextViewer$TextLoadTask;->onPostExecute(Ljava/lang/Object;)V <",
+                "> Ljp/sblo/pandora/aGrep/TextViewer;->onCreate(Landroid/os/Bundle;)V <",
+                "> Ljp/sblo/pandora/aGrep/Search;->onGrepItemClicked(I)V <",
+                "> Ljp/sblo/pandora/aGrep/Settings$10;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "jp.sblo.pandora.aGrep.Settings",
+                    "ButtonSearch"
+                ]
+            ]
+        }
+    },
+    "Ljp/sblo/pandora/aGrep/OptionActivity$3;-><init>(Ljp/sblo/pandora/aGrep/OptionActivity;II)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Ljp/sblo/pandora/aGrep/OptionActivity;->createHighlightPreference(II)V <",
+                "> Ljp/sblo/pandora/aGrep/OptionActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Ljp/sblo/pandora/aGrep/Settings;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "jp.sblo.pandora.aGrep.Settings",
+                    "menu_option",
+                    "Preferences"
+                ]
+            ]
+        }
+    },
+    "Ljp/sblo/pandora/aGrep/ColorPickerActivity;->access$000(Ljp/sblo/pandora/aGrep/ColorPickerActivity;)I": {
+        "path_0": {
+            "call_sequence": [
+                "> Ljp/sblo/pandora/aGrep/ColorPickerActivity$ColorArrayAdapter;->getView(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View; <",
+                "> Ljp/sblo/pandora/aGrep/ColorPickerActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Ljp/sblo/pandora/aGrep/OptionActivity$3;->onPreferenceClick(Landroid/preference/Preference;)Z <",
+                "> Ljp/sblo/pandora/aGrep/OptionActivity;->createHighlightPreference(II)V <",
+                "> Ljp/sblo/pandora/aGrep/OptionActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Ljp/sblo/pandora/aGrep/Settings;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "jp.sblo.pandora.aGrep.Settings",
+                    "menu_option",
+                    "Preferences"
+                ]
+            ]
+        }
+    },
+    "Ljp/sblo/pandora/aGrep/OptionActivity;->setPreferenceScreen(Landroid/preference/PreferenceScreen;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Ljp/sblo/pandora/aGrep/OptionActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Ljp/sblo/pandora/aGrep/Settings;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "jp.sblo.pandora.aGrep.Settings",
+                    "menu_option",
+                    "Preferences"
+                ]
+            ]
+        }
+    },
+    "Ljp/sblo/pandora/aGrep/Search$GrepTask;->doInBackground([Ljava/lang/String;)Ljava/lang/Boolean;": {
+        "path_0": {
+            "call_sequence": [
+                "> Ljp/sblo/pandora/aGrep/Search$GrepTask;->doInBackground([Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Ljp/sblo/pandora/aGrep/Search;->onCreate(Landroid/os/Bundle;)V <",
+                "> Ljp/sblo/pandora/aGrep/Settings$10;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "jp.sblo.pandora.aGrep.Settings",
+                    "ButtonSearch"
+                ]
+            ]
+        }
+    },
+    "Ljp/sblo/pandora/aGrep/Search$GrepTask;->grepRoot(Ljava/lang/String;)Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Ljp/sblo/pandora/aGrep/Search$GrepTask;->doInBackground([Ljava/lang/String;)Ljava/lang/Boolean; <",
+                "> Ljp/sblo/pandora/aGrep/Search$GrepTask;->doInBackground([Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Ljp/sblo/pandora/aGrep/Search;->onCreate(Landroid/os/Bundle;)V <",
+                "> Ljp/sblo/pandora/aGrep/Settings$10;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "jp.sblo.pandora.aGrep.Settings",
+                    "ButtonSearch"
+                ]
+            ]
+        }
+    },
+    "Ljp/sblo/pandora/aGrep/TextViewer;->setContentView(I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Ljp/sblo/pandora/aGrep/TextViewer;->onCreate(Landroid/os/Bundle;)V <",
+                "> Ljp/sblo/pandora/aGrep/Search;->onGrepItemClicked(I)V <",
+                "> Ljp/sblo/pandora/aGrep/Settings$10;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "jp.sblo.pandora.aGrep.Settings",
+                    "ButtonSearch"
+                ]
+            ]
+        }
+    },
+    "Ljp/sblo/pandora/aGrep/Search$GrepTask;->isCancelled()Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Ljp/sblo/pandora/aGrep/Search$GrepTask;->grepFile(Ljava/io/File;)Z <",
+                "> Ljp/sblo/pandora/aGrep/Search$GrepTask;->grepDirectory(Ljava/io/File;)Z <",
+                "> Ljp/sblo/pandora/aGrep/Search$GrepTask;->grepRoot(Ljava/lang/String;)Z <",
+                "> Ljp/sblo/pandora/aGrep/Search$GrepTask;->doInBackground([Ljava/lang/String;)Ljava/lang/Boolean; <",
+                "> Ljp/sblo/pandora/aGrep/Search$GrepTask;->doInBackground([Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Ljp/sblo/pandora/aGrep/Search;->onCreate(Landroid/os/Bundle;)V <",
+                "> Ljp/sblo/pandora/aGrep/Settings$10;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "jp.sblo.pandora.aGrep.Settings",
+                    "ButtonSearch"
+                ]
+            ]
+        }
+    },
+    "Ljp/sblo/pandora/aGrep/Search;->access$700(Ljp/sblo/pandora/aGrep/Search;)Ljava/util/regex/Pattern;": {
+        "path_0": {
+            "call_sequence": [
+                "> Ljp/sblo/pandora/aGrep/Search$GrepTask;->grepFile(Ljava/io/File;)Z <",
+                "> Ljp/sblo/pandora/aGrep/Search$GrepTask;->grepDirectory(Ljava/io/File;)Z <",
+                "> Ljp/sblo/pandora/aGrep/Search$GrepTask;->grepRoot(Ljava/lang/String;)Z <",
+                "> Ljp/sblo/pandora/aGrep/Search$GrepTask;->doInBackground([Ljava/lang/String;)Ljava/lang/Boolean; <",
+                "> Ljp/sblo/pandora/aGrep/Search$GrepTask;->doInBackground([Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Ljp/sblo/pandora/aGrep/Search;->onCreate(Landroid/os/Bundle;)V <",
+                "> Ljp/sblo/pandora/aGrep/Settings$10;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "jp.sblo.pandora.aGrep.Settings",
+                    "ButtonSearch"
+                ]
+            ]
+        }
+    },
+    "Ljp/sblo/pandora/aGrep/GrepView$1;-><init>(Ljp/sblo/pandora/aGrep/GrepView;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Ljp/sblo/pandora/aGrep/GrepView;->init(Landroid/content/Context;)V <",
+                "> Ljp/sblo/pandora/aGrep/GrepView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V <",
+                "> Ljp/sblo/pandora/aGrep/Search;->onGrepItemClicked(I)V <",
+                "> Ljp/sblo/pandora/aGrep/Settings$10;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "jp.sblo.pandora.aGrep.Settings",
+                    "ButtonSearch"
+                ]
+            ]
+        }
+    },
+    "Ljp/sblo/pandora/aGrep/TextPreview;->setScrollingCacheEnabled(Z)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Ljp/sblo/pandora/aGrep/TextPreview;->init(Landroid/content/Context;)V <",
+                "> Ljp/sblo/pandora/aGrep/TextPreview;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V <",
+                "> Ljp/sblo/pandora/aGrep/TextViewer;->onCreate(Landroid/os/Bundle;)V <",
+                "> Ljp/sblo/pandora/aGrep/Search;->onGrepItemClicked(I)V <",
+                "> Ljp/sblo/pandora/aGrep/Settings$10;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "jp.sblo.pandora.aGrep.Settings",
+                    "ButtonSearch"
+                ]
+            ]
+        }
+    },
+    "Ljp/sblo/pandora/aGrep/GrepView;->setFocusable(Z)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Ljp/sblo/pandora/aGrep/GrepView;->init(Landroid/content/Context;)V <",
+                "> Ljp/sblo/pandora/aGrep/GrepView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V <",
+                "> Ljp/sblo/pandora/aGrep/Search;->onGrepItemClicked(I)V <",
+                "> Ljp/sblo/pandora/aGrep/Settings$10;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "jp.sblo.pandora.aGrep.Settings",
+                    "ButtonSearch"
+                ]
+            ]
+        }
+    },
+    "Ljp/sblo/pandora/aGrep/GrepView;->setCallback(Ljp/sblo/pandora/aGrep/GrepView$Callback;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Ljp/sblo/pandora/aGrep/Search;->onCreate(Landroid/os/Bundle;)V <",
+                "> Ljp/sblo/pandora/aGrep/Settings$10;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "jp.sblo.pandora.aGrep.Settings",
+                    "ButtonSearch"
+                ]
+            ]
+        }
+    },
+    "Ljp/sblo/pandora/aGrep/Search;->convertOrPattern(Ljava/lang/String;)Ljava/lang/String;": {
+        "path_0": {
+            "call_sequence": [
+                "> Ljp/sblo/pandora/aGrep/Search;->onCreate(Landroid/os/Bundle;)V <",
+                "> Ljp/sblo/pandora/aGrep/Settings$10;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "jp.sblo.pandora.aGrep.Settings",
+                    "ButtonSearch"
+                ]
+            ]
+        }
+    },
+    "Ljp/sblo/pandora/aGrep/Prefs;->savePrefs(Landroid/content/Context;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Ljp/sblo/pandora/aGrep/Settings$1$1;->onClick(Landroid/content/DialogInterface;I)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Ljp/sblo/pandora/aGrep/Search$GrepTask;->access$102(Ljp/sblo/pandora/aGrep/Search$GrepTask;Z)Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Ljp/sblo/pandora/aGrep/Search$GrepTask$1;->onCancel(Landroid/content/DialogInterface;)V <",
+                "> Ljp/sblo/pandora/aGrep/Search$GrepTask;->onPreExecute()V <",
+                "> Ljp/sblo/pandora/aGrep/Search;->onCreate(Landroid/os/Bundle;)V <",
+                "> Ljp/sblo/pandora/aGrep/Settings$10;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "jp.sblo.pandora.aGrep.Settings",
+                    "ButtonSearch"
+                ]
+            ]
+        }
+    },
+    "Ljp/sblo/pandora/aGrep/OptionActivity;->getPreferenceManager()Landroid/preference/PreferenceManager;": {
+        "path_0": {
+            "call_sequence": [
+                "> Ljp/sblo/pandora/aGrep/OptionActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Ljp/sblo/pandora/aGrep/Settings;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "jp.sblo.pandora.aGrep.Settings",
+                    "menu_option",
+                    "Preferences"
+                ]
+            ]
+        }
+    },
+    "Ljp/sblo/pandora/aGrep/Search;->getIntent()Landroid/content/Intent;": {
+        "path_0": {
+            "call_sequence": [
+                "> Ljp/sblo/pandora/aGrep/Search;->onCreate(Landroid/os/Bundle;)V <",
+                "> Ljp/sblo/pandora/aGrep/Settings$10;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "jp.sblo.pandora.aGrep.Settings",
+                    "ButtonSearch"
+                ]
+            ]
+        }
+    },
+    "Ljp/sblo/pandora/aGrep/Search;->setContentView(I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Ljp/sblo/pandora/aGrep/Search;->onCreate(Landroid/os/Bundle;)V <",
+                "> Ljp/sblo/pandora/aGrep/Settings$10;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "jp.sblo.pandora.aGrep.Settings",
+                    "ButtonSearch"
+                ]
+            ]
+        }
+    },
+    "Ljp/sblo/pandora/aGrep/OptionActivity;->startActivityForResult(Landroid/content/Intent;I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Ljp/sblo/pandora/aGrep/OptionActivity$3;->onPreferenceClick(Landroid/preference/Preference;)Z <",
+                "> Ljp/sblo/pandora/aGrep/OptionActivity;->createHighlightPreference(II)V <",
+                "> Ljp/sblo/pandora/aGrep/OptionActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Ljp/sblo/pandora/aGrep/Settings;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "jp.sblo.pandora.aGrep.Settings",
+                    "menu_option",
+                    "Preferences"
+                ]
+            ]
+        }
+    },
+    "Ljp/sblo/pandora/aGrep/GrepView$GrepAdapter;-><init>(Landroid/content/Context;IILjava/util/ArrayList;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Ljp/sblo/pandora/aGrep/Search;->onCreate(Landroid/os/Bundle;)V <",
+                "> Ljp/sblo/pandora/aGrep/Settings$10;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "jp.sblo.pandora.aGrep.Settings",
+                    "ButtonSearch"
+                ]
+            ]
+        }
+    },
+    "Ljp/sblo/pandora/aGrep/TextViewer;->access$100(Ljp/sblo/pandora/aGrep/TextViewer;)Ljava/lang/String;": {
+        "path_0": {
+            "call_sequence": [
+                "> Ljp/sblo/pandora/aGrep/TextViewer$TextLoadTask;->onPostExecute(Ljava/lang/Boolean;)V <",
+                "> Ljp/sblo/pandora/aGrep/TextViewer$TextLoadTask;->onPostExecute(Ljava/lang/Object;)V <",
+                "> Ljp/sblo/pandora/aGrep/TextViewer;->onCreate(Landroid/os/Bundle;)V <",
+                "> Ljp/sblo/pandora/aGrep/Search;->onGrepItemClicked(I)V <",
+                "> Ljp/sblo/pandora/aGrep/Settings$10;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "jp.sblo.pandora.aGrep.Settings",
+                    "ButtonSearch"
+                ]
+            ]
+        }
+    },
+    "Ljp/sblo/pandora/aGrep/CheckedString;-><init>(Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Ljp/sblo/pandora/aGrep/Settings$5$2;->onClick(Landroid/content/DialogInterface;I)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Ljp/sblo/pandora/aGrep/TextPreview;->setFocusable(Z)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Ljp/sblo/pandora/aGrep/TextPreview;->init(Landroid/content/Context;)V <",
+                "> Ljp/sblo/pandora/aGrep/TextPreview;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V <",
+                "> Ljp/sblo/pandora/aGrep/TextViewer;->onCreate(Landroid/os/Bundle;)V <",
+                "> Ljp/sblo/pandora/aGrep/Search;->onGrepItemClicked(I)V <",
+                "> Ljp/sblo/pandora/aGrep/Settings$10;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "jp.sblo.pandora.aGrep.Settings",
+                    "ButtonSearch"
+                ]
+            ]
+        }
+    },
+    "Ljp/sblo/pandora/aGrep/Settings;->refreshExtList()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Ljp/sblo/pandora/aGrep/Settings;->access$300(Ljp/sblo/pandora/aGrep/Settings;)V <",
+                "> Ljp/sblo/pandora/aGrep/Settings$2$1;->onClick(Landroid/content/DialogInterface;I)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Ljp/sblo/pandora/aGrep/TextPreview;->setBackgroundColor(I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Ljp/sblo/pandora/aGrep/TextPreview;->init(Landroid/content/Context;)V <",
+                "> Ljp/sblo/pandora/aGrep/TextPreview;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V <",
+                "> Ljp/sblo/pandora/aGrep/TextViewer;->onCreate(Landroid/os/Bundle;)V <",
+                "> Ljp/sblo/pandora/aGrep/Search;->onGrepItemClicked(I)V <",
+                "> Ljp/sblo/pandora/aGrep/Settings$10;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "jp.sblo.pandora.aGrep.Settings",
+                    "ButtonSearch"
+                ]
+            ]
+        }
+    },
+    "Ljp/sblo/pandora/aGrep/Settings$9;-><init>(Ljp/sblo/pandora/aGrep/Settings;Landroid/widget/AutoCompleteTextView;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Ljp/sblo/pandora/aGrep/Settings;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Ljp/sblo/pandora/aGrep/GrepView;->setDividerHeight(I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Ljp/sblo/pandora/aGrep/GrepView;->init(Landroid/content/Context;)V <",
+                "> Ljp/sblo/pandora/aGrep/GrepView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V <",
+                "> Ljp/sblo/pandora/aGrep/Search;->onGrepItemClicked(I)V <",
+                "> Ljp/sblo/pandora/aGrep/Settings$10;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "jp.sblo.pandora.aGrep.Settings",
+                    "ButtonSearch"
+                ]
+            ]
+        }
+    },
+    "Ljp/sblo/pandora/aGrep/TextPreview$Adapter;->getItem(I)Ljava/lang/Object;": {
+        "path_0": {
+            "call_sequence": [
+                "> Ljp/sblo/pandora/aGrep/TextPreview$Adapter;->getView(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View; <",
+                "> Ljp/sblo/pandora/aGrep/TextViewer;->onCreate(Landroid/os/Bundle;)V <",
+                "> Ljp/sblo/pandora/aGrep/Search;->onGrepItemClicked(I)V <",
+                "> Ljp/sblo/pandora/aGrep/Settings$10;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "jp.sblo.pandora.aGrep.Settings",
+                    "ButtonSearch"
+                ]
+            ]
+        }
+    },
+    "Ljp/sblo/pandora/aGrep/GrepView;->setScrollingCacheEnabled(Z)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Ljp/sblo/pandora/aGrep/GrepView;->init(Landroid/content/Context;)V <",
+                "> Ljp/sblo/pandora/aGrep/GrepView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V <",
+                "> Ljp/sblo/pandora/aGrep/Search;->onGrepItemClicked(I)V <",
+                "> Ljp/sblo/pandora/aGrep/Settings$10;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "jp.sblo.pandora.aGrep.Settings",
+                    "ButtonSearch"
+                ]
+            ]
+        }
+    },
+    "Ljp/sblo/pandora/aGrep/TextViewer;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;": {
+        "path_0": {
+            "call_sequence": [
+                "> Ljp/sblo/pandora/aGrep/TextViewer;->onItemClick(Landroid/widget/AdapterView;Landroid/view/View;IJ)V <",
+                "> Ljp/sblo/pandora/aGrep/Search;->onGrepItemClicked(I)V <",
+                "> Ljp/sblo/pandora/aGrep/Settings$10;->onClick(Landroid/view/View;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "jp.sblo.pandora.aGrep.Settings",
+                    "ButtonSearch"
+                ]
+            ]
+        }
+    }
+}

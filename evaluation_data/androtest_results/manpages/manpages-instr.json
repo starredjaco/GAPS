@@ -1,0 +1,811 @@
+{
+    "Lcom/chmod0/manpages/DownloadZipTask;->publishProgress([Ljava/lang/Object;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/chmod0/manpages/DownloadZipTask;->doInBackground([Ljava/lang/Void;)Ljava/lang/Void; <",
+                "> Lcom/chmod0/manpages/DownloadZipTask;->doInBackground([Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/chmod0/manpages/ManualActivity;->downloadPages()Z <",
+                "> Lcom/chmod0/manpages/ManualActivity;->access$1(Lcom/chmod0/manpages/ManualActivity;)Z <",
+                "> Lcom/chmod0/manpages/ManualActivity$2;->onClick(Landroid/content/DialogInterface;I)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/chmod0/manpages/BrowserActivity;->startActivity(Landroid/content/Intent;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/chmod0/manpages/BrowserActivity$MyWebViewClient;->shouldOverrideUrlLoading(Landroid/webkit/WebView;Ljava/lang/String;)Z <",
+                "> Lcom/chmod0/manpages/BrowserActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/chmod0/manpages/ManualActivity;->displayManpage(Lcom/chmod0/manpages/Page;)V <",
+                "> Lcom/chmod0/manpages/ManualActivity$1;->onEditorAction(Landroid/widget/TextView;ILandroid/view/KeyEvent;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.chmod0.manpages.ManualActivity",
+                    "search_input"
+                ]
+            ]
+        }
+    },
+    "Lcom/chmod0/manpages/DownloadZipTask;->isCancelled()Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/chmod0/manpages/DownloadZipTask;->onProgressUpdate([Ljava/lang/Integer;)V <",
+                "> Lcom/chmod0/manpages/DownloadZipTask;->onProgressUpdate([Ljava/lang/Object;)V <",
+                "> Lcom/chmod0/manpages/ManualActivity;->downloadPages()Z <",
+                "> Lcom/chmod0/manpages/ManualActivity;->access$1(Lcom/chmod0/manpages/ManualActivity;)Z <",
+                "> Lcom/chmod0/manpages/ManualActivity$2;->onClick(Landroid/content/DialogInterface;I)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/chmod0/manpages/BrowserActivity$MyWebViewClient;-><init>(Lcom/chmod0/manpages/BrowserActivity;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/chmod0/manpages/BrowserActivity$MyWebViewClient;-><init>(Lcom/chmod0/manpages/BrowserActivity;Lcom/chmod0/manpages/BrowserActivity$MyWebViewClient;)V <",
+                "> Lcom/chmod0/manpages/BrowserActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/chmod0/manpages/ManualActivity;->displayManpage(Lcom/chmod0/manpages/Page;)V <",
+                "> Lcom/chmod0/manpages/ManualActivity$1;->onEditorAction(Landroid/widget/TextView;ILandroid/view/KeyEvent;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.chmod0.manpages.ManualActivity",
+                    "search_input"
+                ]
+            ]
+        }
+    },
+    "Lcom/chmod0/manpages/BrowserActivity$MyWebViewClient;-><init>(Lcom/chmod0/manpages/BrowserActivity;Lcom/chmod0/manpages/BrowserActivity$MyWebViewClient;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/chmod0/manpages/BrowserActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/chmod0/manpages/ManualActivity;->displayManpage(Lcom/chmod0/manpages/Page;)V <",
+                "> Lcom/chmod0/manpages/ManualActivity$1;->onEditorAction(Landroid/widget/TextView;ILandroid/view/KeyEvent;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.chmod0.manpages.ManualActivity",
+                    "search_input"
+                ]
+            ]
+        }
+    },
+    "Lcom/chmod0/manpages/RotationAwareTask;->attach(Lcom/chmod0/manpages/ManualActivity;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/chmod0/manpages/RotationAwareTask;-><init>(Lcom/chmod0/manpages/ManualActivity;)V <",
+                "> Lcom/chmod0/manpages/DownloadZipTask;-><init>(Lcom/chmod0/manpages/ManualActivity;Ljava/lang/String;Ljava/lang/String;)V <",
+                "> Lcom/chmod0/manpages/ManualActivity;->downloadPages()Z <",
+                "> Lcom/chmod0/manpages/ManualActivity;->access$1(Lcom/chmod0/manpages/ManualActivity;)Z <",
+                "> Lcom/chmod0/manpages/ManualActivity$2;->onClick(Landroid/content/DialogInterface;I)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/chmod0/manpages/ManualActivity;->access$1(Lcom/chmod0/manpages/ManualActivity;)Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/chmod0/manpages/ManualActivity$2;->onClick(Landroid/content/DialogInterface;I)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/chmod0/manpages/ManualActivity;->initPages()Ljava/util/ArrayList;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/chmod0/manpages/ManualActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/chmod0/manpages/BrowserActivity;->getIntent()Landroid/content/Intent;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/chmod0/manpages/BrowserActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/chmod0/manpages/ManualActivity;->displayManpage(Lcom/chmod0/manpages/Page;)V <",
+                "> Lcom/chmod0/manpages/ManualActivity$1;->onEditorAction(Landroid/widget/TextView;ILandroid/view/KeyEvent;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.chmod0.manpages.ManualActivity",
+                    "search_input"
+                ]
+            ]
+        }
+    },
+    "Lcom/chmod0/manpages/DownloadZipTask;->doInBackground([Ljava/lang/Void;)Ljava/lang/Void;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/chmod0/manpages/DownloadZipTask;->doInBackground([Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/chmod0/manpages/ManualActivity;->downloadPages()Z <",
+                "> Lcom/chmod0/manpages/ManualActivity;->access$1(Lcom/chmod0/manpages/ManualActivity;)Z <",
+                "> Lcom/chmod0/manpages/ManualActivity$2;->onClick(Landroid/content/DialogInterface;I)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/chmod0/manpages/ExtractZipTask;->doInBackground([Ljava/lang/Void;)Ljava/lang/Void;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/chmod0/manpages/ExtractZipTask;->doInBackground([Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/chmod0/manpages/ManualActivity;->extractZipFile(Ljava/lang/String;)V <",
+                "> Lcom/chmod0/manpages/DownloadZipTask;->onPostExecute(Ljava/lang/Void;)V <",
+                "> Lcom/chmod0/manpages/DownloadZipTask;->onPostExecute(Ljava/lang/Object;)V <",
+                "> Lcom/chmod0/manpages/ManualActivity;->downloadPages()Z <",
+                "> Lcom/chmod0/manpages/ManualActivity;->access$1(Lcom/chmod0/manpages/ManualActivity;)Z <",
+                "> Lcom/chmod0/manpages/ManualActivity$2;->onClick(Landroid/content/DialogInterface;I)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/chmod0/manpages/ManualActivity;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/chmod0/manpages/ManualActivity;->downloadPages()Z <",
+                "> Lcom/chmod0/manpages/ManualActivity;->access$1(Lcom/chmod0/manpages/ManualActivity;)Z <",
+                "> Lcom/chmod0/manpages/ManualActivity$2;->onClick(Landroid/content/DialogInterface;I)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/chmod0/manpages/ManualActivity$2;-><init>(Lcom/chmod0/manpages/ManualActivity;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/chmod0/manpages/ManualActivity;->suggestDownload()V <",
+                "> Lcom/chmod0/manpages/ManualActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/chmod0/manpages/BrowserActivity;->setContentView(I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/chmod0/manpages/BrowserActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/chmod0/manpages/ManualActivity;->displayManpage(Lcom/chmod0/manpages/Page;)V <",
+                "> Lcom/chmod0/manpages/ManualActivity$1;->onEditorAction(Landroid/widget/TextView;ILandroid/view/KeyEvent;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.chmod0.manpages.ManualActivity",
+                    "search_input"
+                ]
+            ]
+        }
+    },
+    "Lcom/chmod0/manpages/RotationAwareTask;->onPreExecute()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/chmod0/manpages/ExtractZipTask;->onPreExecute()V <",
+                "> Lcom/chmod0/manpages/ManualActivity;->extractZipFile(Ljava/lang/String;)V <",
+                "> Lcom/chmod0/manpages/DownloadZipTask;->onPostExecute(Ljava/lang/Void;)V <",
+                "> Lcom/chmod0/manpages/DownloadZipTask;->onPostExecute(Ljava/lang/Object;)V <",
+                "> Lcom/chmod0/manpages/ManualActivity;->downloadPages()Z <",
+                "> Lcom/chmod0/manpages/ManualActivity;->access$1(Lcom/chmod0/manpages/ManualActivity;)Z <",
+                "> Lcom/chmod0/manpages/ManualActivity$2;->onClick(Landroid/content/DialogInterface;I)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/chmod0/manpages/ManualActivity;->getApplication()Landroid/app/Application;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/chmod0/manpages/ManualActivity;->onCreateOptionsMenu(Landroid/view/Menu;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.chmod0.manpages.ManualActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/chmod0/manpages/ExtractZipTask;->execute([Ljava/lang/Object;)Landroid/os/AsyncTask;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/chmod0/manpages/ManualActivity;->extractZipFile(Ljava/lang/String;)V <",
+                "> Lcom/chmod0/manpages/DownloadZipTask;->onPostExecute(Ljava/lang/Void;)V <",
+                "> Lcom/chmod0/manpages/DownloadZipTask;->onPostExecute(Ljava/lang/Object;)V <",
+                "> Lcom/chmod0/manpages/ManualActivity;->downloadPages()Z <",
+                "> Lcom/chmod0/manpages/ManualActivity;->access$1(Lcom/chmod0/manpages/ManualActivity;)Z <",
+                "> Lcom/chmod0/manpages/ManualActivity$2;->onClick(Landroid/content/DialogInterface;I)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/chmod0/manpages/ManualActivity;->displayManpage(Lcom/chmod0/manpages/Page;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/chmod0/manpages/ManualActivity$1;->onEditorAction(Landroid/widget/TextView;ILandroid/view/KeyEvent;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.chmod0.manpages.ManualActivity",
+                    "search_input"
+                ]
+            ]
+        }
+    },
+    "Lcom/chmod0/manpages/ManualActivity;->loadPagesNames(II)Ljava/util/ArrayList;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/chmod0/manpages/ManualActivity;->initPages()Ljava/util/ArrayList; <",
+                "> Lcom/chmod0/manpages/ManualActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/chmod0/manpages/ManualActivity$1;-><init>(Lcom/chmod0/manpages/ManualActivity;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/chmod0/manpages/ManualActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/chmod0/manpages/DownloadZipTask;->execute([Ljava/lang/Object;)Landroid/os/AsyncTask;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/chmod0/manpages/ManualActivity;->downloadPages()Z <",
+                "> Lcom/chmod0/manpages/ManualActivity;->access$1(Lcom/chmod0/manpages/ManualActivity;)Z <",
+                "> Lcom/chmod0/manpages/ManualActivity$2;->onClick(Landroid/content/DialogInterface;I)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/chmod0/manpages/ManualActivity;->checkPageFilesOnExternalStorage(Ljava/lang/String;)Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/chmod0/manpages/ManualActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/chmod0/manpages/Page;->getName()Ljava/lang/String;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/chmod0/manpages/BrowserActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/chmod0/manpages/ManualActivity;->displayManpage(Lcom/chmod0/manpages/Page;)V <",
+                "> Lcom/chmod0/manpages/ManualActivity$1;->onEditorAction(Landroid/widget/TextView;ILandroid/view/KeyEvent;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.chmod0.manpages.ManualActivity",
+                    "search_input"
+                ]
+            ]
+        }
+    },
+    "Lcom/chmod0/manpages/ManualActivity;->access$0(Lcom/chmod0/manpages/ManualActivity;)Landroid/app/AlertDialog;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/chmod0/manpages/ManualActivity$2;->onClick(Landroid/content/DialogInterface;I)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/chmod0/manpages/BrowserActivity;->getApplication()Landroid/app/Application;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/chmod0/manpages/BrowserActivity;->onCreateOptionsMenu(Landroid/view/Menu;)Z <",
+                "> Lcom/chmod0/manpages/ManualActivity;->displayManpage(Lcom/chmod0/manpages/Page;)V <",
+                "> Lcom/chmod0/manpages/ManualActivity$1;->onEditorAction(Landroid/widget/TextView;ILandroid/view/KeyEvent;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.chmod0.manpages.ManualActivity",
+                    "search_input"
+                ],
+                [
+                    "com.chmod0.manpages.BrowserActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/chmod0/manpages/ExtractZipTask;->dirChecker(Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/chmod0/manpages/ExtractZipTask;-><init>(Lcom/chmod0/manpages/ManualActivity;Ljava/lang/String;Ljava/lang/String;)V <",
+                "> Lcom/chmod0/manpages/ManualActivity;->extractZipFile(Ljava/lang/String;)V <",
+                "> Lcom/chmod0/manpages/DownloadZipTask;->onPostExecute(Ljava/lang/Void;)V <",
+                "> Lcom/chmod0/manpages/DownloadZipTask;->onPostExecute(Ljava/lang/Object;)V <",
+                "> Lcom/chmod0/manpages/ManualActivity;->downloadPages()Z <",
+                "> Lcom/chmod0/manpages/ManualActivity;->access$1(Lcom/chmod0/manpages/ManualActivity;)Z <",
+                "> Lcom/chmod0/manpages/ManualActivity$2;->onClick(Landroid/content/DialogInterface;I)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/chmod0/manpages/RotationAwareTask;-><init>(Lcom/chmod0/manpages/ManualActivity;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/chmod0/manpages/ExtractZipTask;-><init>(Lcom/chmod0/manpages/ManualActivity;Ljava/lang/String;Ljava/lang/String;)V <",
+                "> Lcom/chmod0/manpages/ManualActivity;->extractZipFile(Ljava/lang/String;)V <",
+                "> Lcom/chmod0/manpages/DownloadZipTask;->onPostExecute(Ljava/lang/Void;)V <",
+                "> Lcom/chmod0/manpages/DownloadZipTask;->onPostExecute(Ljava/lang/Object;)V <",
+                "> Lcom/chmod0/manpages/ManualActivity;->downloadPages()Z <",
+                "> Lcom/chmod0/manpages/ManualActivity;->access$1(Lcom/chmod0/manpages/ManualActivity;)Z <",
+                "> Lcom/chmod0/manpages/ManualActivity$2;->onClick(Landroid/content/DialogInterface;I)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/chmod0/manpages/RotationAwareTask;->onProgressUpdate([Ljava/lang/Object;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/chmod0/manpages/DownloadZipTask;->onProgressUpdate([Ljava/lang/Integer;)V <",
+                "> Lcom/chmod0/manpages/DownloadZipTask;->onProgressUpdate([Ljava/lang/Object;)V <",
+                "> Lcom/chmod0/manpages/ManualActivity;->downloadPages()Z <",
+                "> Lcom/chmod0/manpages/ManualActivity;->access$1(Lcom/chmod0/manpages/ManualActivity;)Z <",
+                "> Lcom/chmod0/manpages/ManualActivity$2;->onClick(Landroid/content/DialogInterface;I)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/chmod0/manpages/ExtractZipTask;->onPostExecute(Ljava/lang/Void;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/chmod0/manpages/ExtractZipTask;->onPostExecute(Ljava/lang/Object;)V <",
+                "> Lcom/chmod0/manpages/ManualActivity;->extractZipFile(Ljava/lang/String;)V <",
+                "> Lcom/chmod0/manpages/DownloadZipTask;->onPostExecute(Ljava/lang/Void;)V <",
+                "> Lcom/chmod0/manpages/DownloadZipTask;->onPostExecute(Ljava/lang/Object;)V <",
+                "> Lcom/chmod0/manpages/ManualActivity;->downloadPages()Z <",
+                "> Lcom/chmod0/manpages/ManualActivity;->access$1(Lcom/chmod0/manpages/ManualActivity;)Z <",
+                "> Lcom/chmod0/manpages/ManualActivity$2;->onClick(Landroid/content/DialogInterface;I)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/chmod0/manpages/DownloadZipTask;->onPostExecute(Ljava/lang/Void;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/chmod0/manpages/DownloadZipTask;->onPostExecute(Ljava/lang/Object;)V <",
+                "> Lcom/chmod0/manpages/ManualActivity;->downloadPages()Z <",
+                "> Lcom/chmod0/manpages/ManualActivity;->access$1(Lcom/chmod0/manpages/ManualActivity;)Z <",
+                "> Lcom/chmod0/manpages/ManualActivity$2;->onClick(Landroid/content/DialogInterface;I)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/chmod0/manpages/BrowserActivity;->getWindow()Landroid/view/Window;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/chmod0/manpages/BrowserActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/chmod0/manpages/ManualActivity;->displayManpage(Lcom/chmod0/manpages/Page;)V <",
+                "> Lcom/chmod0/manpages/ManualActivity$1;->onEditorAction(Landroid/widget/TextView;ILandroid/view/KeyEvent;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.chmod0.manpages.ManualActivity",
+                    "search_input"
+                ]
+            ]
+        }
+    },
+    "Lcom/chmod0/manpages/ExtractZipTask;->publishProgress([Ljava/lang/Object;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/chmod0/manpages/ExtractZipTask;->doInBackground([Ljava/lang/Void;)Ljava/lang/Void; <",
+                "> Lcom/chmod0/manpages/ExtractZipTask;->doInBackground([Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/chmod0/manpages/ManualActivity;->extractZipFile(Ljava/lang/String;)V <",
+                "> Lcom/chmod0/manpages/DownloadZipTask;->onPostExecute(Ljava/lang/Void;)V <",
+                "> Lcom/chmod0/manpages/DownloadZipTask;->onPostExecute(Ljava/lang/Object;)V <",
+                "> Lcom/chmod0/manpages/ManualActivity;->downloadPages()Z <",
+                "> Lcom/chmod0/manpages/ManualActivity;->access$1(Lcom/chmod0/manpages/ManualActivity;)Z <",
+                "> Lcom/chmod0/manpages/ManualActivity$2;->onClick(Landroid/content/DialogInterface;I)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/chmod0/manpages/BrowserActivity;->getLayoutInflater()Landroid/view/LayoutInflater;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/chmod0/manpages/BrowserActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/chmod0/manpages/ManualActivity;->displayManpage(Lcom/chmod0/manpages/Page;)V <",
+                "> Lcom/chmod0/manpages/ManualActivity$1;->onEditorAction(Landroid/widget/TextView;ILandroid/view/KeyEvent;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.chmod0.manpages.ManualActivity",
+                    "search_input"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.chmod0.manpages.BrowserActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/chmod0/manpages/OnManpageClickListener;-><init>(Lcom/chmod0/manpages/ManualActivity;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/chmod0/manpages/ManualActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/chmod0/manpages/BrowserActivity;->findViewById(I)Landroid/view/View;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/chmod0/manpages/BrowserActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/chmod0/manpages/ManualActivity;->displayManpage(Lcom/chmod0/manpages/Page;)V <",
+                "> Lcom/chmod0/manpages/ManualActivity$1;->onEditorAction(Landroid/widget/TextView;ILandroid/view/KeyEvent;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.chmod0.manpages.ManualActivity",
+                    "search_input"
+                ]
+            ]
+        }
+    },
+    "Lcom/chmod0/manpages/ExtractZipTask;->isCancelled()Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/chmod0/manpages/ExtractZipTask;->onProgressUpdate([Ljava/lang/Integer;)V <",
+                "> Lcom/chmod0/manpages/ExtractZipTask;->onProgressUpdate([Ljava/lang/Object;)V <",
+                "> Lcom/chmod0/manpages/ManualActivity;->extractZipFile(Ljava/lang/String;)V <",
+                "> Lcom/chmod0/manpages/DownloadZipTask;->onPostExecute(Ljava/lang/Void;)V <",
+                "> Lcom/chmod0/manpages/DownloadZipTask;->onPostExecute(Ljava/lang/Object;)V <",
+                "> Lcom/chmod0/manpages/ManualActivity;->downloadPages()Z <",
+                "> Lcom/chmod0/manpages/ManualActivity;->access$1(Lcom/chmod0/manpages/ManualActivity;)Z <",
+                "> Lcom/chmod0/manpages/ManualActivity$2;->onClick(Landroid/content/DialogInterface;I)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/chmod0/manpages/ManualActivity;->getLayoutInflater()Landroid/view/LayoutInflater;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/chmod0/manpages/ManualActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.chmod0.manpages.ManualActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/chmod0/manpages/ManualActivity;->setContentView(I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/chmod0/manpages/ManualActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/chmod0/manpages/RotationAwareTask;->onPostExecute(Ljava/lang/Object;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/chmod0/manpages/ExtractZipTask;->onPostExecute(Ljava/lang/Void;)V <",
+                "> Lcom/chmod0/manpages/ExtractZipTask;->onPostExecute(Ljava/lang/Object;)V <",
+                "> Lcom/chmod0/manpages/ManualActivity;->extractZipFile(Ljava/lang/String;)V <",
+                "> Lcom/chmod0/manpages/DownloadZipTask;->onPostExecute(Ljava/lang/Void;)V <",
+                "> Lcom/chmod0/manpages/DownloadZipTask;->onPostExecute(Ljava/lang/Object;)V <",
+                "> Lcom/chmod0/manpages/ManualActivity;->downloadPages()Z <",
+                "> Lcom/chmod0/manpages/ManualActivity;->access$1(Lcom/chmod0/manpages/ManualActivity;)Z <",
+                "> Lcom/chmod0/manpages/ManualActivity$2;->onClick(Landroid/content/DialogInterface;I)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/chmod0/manpages/ManualActivity;->extractZipFile(Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/chmod0/manpages/DownloadZipTask;->onPostExecute(Ljava/lang/Void;)V <",
+                "> Lcom/chmod0/manpages/DownloadZipTask;->onPostExecute(Ljava/lang/Object;)V <",
+                "> Lcom/chmod0/manpages/ManualActivity;->downloadPages()Z <",
+                "> Lcom/chmod0/manpages/ManualActivity;->access$1(Lcom/chmod0/manpages/ManualActivity;)Z <",
+                "> Lcom/chmod0/manpages/ManualActivity$2;->onClick(Landroid/content/DialogInterface;I)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/chmod0/manpages/DownloadZipTask;->onProgressUpdate([Ljava/lang/Integer;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/chmod0/manpages/DownloadZipTask;->onProgressUpdate([Ljava/lang/Object;)V <",
+                "> Lcom/chmod0/manpages/ManualActivity;->downloadPages()Z <",
+                "> Lcom/chmod0/manpages/ManualActivity;->access$1(Lcom/chmod0/manpages/ManualActivity;)Z <",
+                "> Lcom/chmod0/manpages/ManualActivity$2;->onClick(Landroid/content/DialogInterface;I)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/chmod0/manpages/Page;->getSection()I": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/chmod0/manpages/BrowserActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/chmod0/manpages/ManualActivity;->displayManpage(Lcom/chmod0/manpages/Page;)V <",
+                "> Lcom/chmod0/manpages/ManualActivity$1;->onEditorAction(Landroid/widget/TextView;ILandroid/view/KeyEvent;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.chmod0.manpages.ManualActivity",
+                    "search_input"
+                ]
+            ]
+        }
+    },
+    "Lcom/chmod0/manpages/Page;-><init>(Ljava/lang/String;I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/chmod0/manpages/ManualActivity;->loadPagesNames(II)Ljava/util/ArrayList; <",
+                "> Lcom/chmod0/manpages/ManualActivity;->initPages()Ljava/util/ArrayList; <",
+                "> Lcom/chmod0/manpages/ManualActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/chmod0/manpages/ManualActivity;->findViewById(I)Landroid/view/View;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/chmod0/manpages/ManualActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/chmod0/manpages/ExtractZipTask;-><init>(Lcom/chmod0/manpages/ManualActivity;Ljava/lang/String;Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/chmod0/manpages/ManualActivity;->extractZipFile(Ljava/lang/String;)V <",
+                "> Lcom/chmod0/manpages/DownloadZipTask;->onPostExecute(Ljava/lang/Void;)V <",
+                "> Lcom/chmod0/manpages/DownloadZipTask;->onPostExecute(Ljava/lang/Object;)V <",
+                "> Lcom/chmod0/manpages/ManualActivity;->downloadPages()Z <",
+                "> Lcom/chmod0/manpages/ManualActivity;->access$1(Lcom/chmod0/manpages/ManualActivity;)Z <",
+                "> Lcom/chmod0/manpages/ManualActivity$2;->onClick(Landroid/content/DialogInterface;I)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/chmod0/manpages/ManualActivity;->downloadPages()Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/chmod0/manpages/ManualActivity;->access$1(Lcom/chmod0/manpages/ManualActivity;)Z <",
+                "> Lcom/chmod0/manpages/ManualActivity$2;->onClick(Landroid/content/DialogInterface;I)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/chmod0/manpages/ManualActivity;->getManpageCalled(Ljava/lang/String;)Lcom/chmod0/manpages/Page;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/chmod0/manpages/ManualActivity$1;->onEditorAction(Landroid/widget/TextView;ILandroid/view/KeyEvent;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.chmod0.manpages.ManualActivity",
+                    "search_input"
+                ]
+            ]
+        }
+    },
+    "Lcom/chmod0/manpages/ExtractZipTask;->onProgressUpdate([Ljava/lang/Integer;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/chmod0/manpages/ExtractZipTask;->onProgressUpdate([Ljava/lang/Object;)V <",
+                "> Lcom/chmod0/manpages/ManualActivity;->extractZipFile(Ljava/lang/String;)V <",
+                "> Lcom/chmod0/manpages/DownloadZipTask;->onPostExecute(Ljava/lang/Void;)V <",
+                "> Lcom/chmod0/manpages/DownloadZipTask;->onPostExecute(Ljava/lang/Object;)V <",
+                "> Lcom/chmod0/manpages/ManualActivity;->downloadPages()Z <",
+                "> Lcom/chmod0/manpages/ManualActivity;->access$1(Lcom/chmod0/manpages/ManualActivity;)Z <",
+                "> Lcom/chmod0/manpages/ManualActivity$2;->onClick(Landroid/content/DialogInterface;I)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/chmod0/manpages/BrowserActivity$1;-><init>(Lcom/chmod0/manpages/BrowserActivity;Landroid/app/Activity;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/chmod0/manpages/BrowserActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/chmod0/manpages/ManualActivity;->displayManpage(Lcom/chmod0/manpages/Page;)V <",
+                "> Lcom/chmod0/manpages/ManualActivity$1;->onEditorAction(Landroid/widget/TextView;ILandroid/view/KeyEvent;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.chmod0.manpages.ManualActivity",
+                    "search_input"
+                ]
+            ]
+        }
+    },
+    "Lcom/chmod0/manpages/ManualActivity;->suggestDownload()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/chmod0/manpages/ManualActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    }
+}

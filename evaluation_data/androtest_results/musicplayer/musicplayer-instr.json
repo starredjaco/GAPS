@@ -1,0 +1,392 @@
+{
+    "Lcom/a1573595/musicplayer/songList/SongListActivity$b;->g(Ljava/lang/Object;)Ljava/lang/Object;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity$b;->c(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/a1573595/musicplayer/player/PlayerService$a;-><init>(Lcom/a1573595/musicplayer/player/PlayerService;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/a1573595/musicplayer/player/PlayerService;->onCreate()V <",
+                "> Lc1/e;->onRequestPermissionsResult(I[Ljava/lang/String;[I)V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/a1573595/musicplayer/songList/SongListActivity$d;-><init>(Lcom/a1573595/musicplayer/songList/SongListActivity;Lf1/a;ZLn2/d;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->j(Lf1/a;Z)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/a1573595/musicplayer/player/PlayerService;->b()Lf1/a;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lg1/d;->a()V <",
+                "> Lcom/a1573595/musicplayer/playSong/PlaySongActivity;->C(Lcom/a1573595/musicplayer/player/PlayerService;)V <",
+                "> Li1/a;->onClick(Landroid/view/View;)V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->C(Lcom/a1573595/musicplayer/player/PlayerService;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.a1573595.musicplayer.songList.SongListActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/a1573595/musicplayer/player/PlayerService$b;-><init>(Lcom/a1573595/musicplayer/player/PlayerService;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/a1573595/musicplayer/player/PlayerService;-><init>()V <",
+                "> Lc1/e;->onRequestPermissionsResult(I[Ljava/lang/String;[I)V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/a1573595/musicplayer/player/PlayerService;->e(Lcom/a1573595/musicplayer/player/PlayerService;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/a1573595/musicplayer/player/PlayerService;->d(I)V <",
+                "> Lg1/b;->onClick(Landroid/view/View;)V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->C(Lcom/a1573595/musicplayer/player/PlayerService;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.a1573595.musicplayer.songList.SongListActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/a1573595/musicplayer/songList/SongListActivity$b;->e(Ljava/lang/Object;Ln2/d;)Ln2/d;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity$b;->c(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/a1573595/musicplayer/songList/SongListActivity$d;->e(Ljava/lang/Object;Ln2/d;)Ln2/d;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity$d;->c(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/a1573595/musicplayer/player/PlayerService;->g()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/a1573595/musicplayer/player/PlayerService$b;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "notification.CANCEL",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/a1573595/musicplayer/playSong/PlaySongActivity;->D()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/a1573595/musicplayer/playSong/PlaySongActivity;->propertyChange(Ljava/beans/PropertyChangeEvent;)V <",
+                "> Li1/a;->onClick(Landroid/view/View;)V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->C(Lcom/a1573595/musicplayer/player/PlayerService;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.a1573595.musicplayer.songList.SongListActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/a1573595/musicplayer/songList/SongListActivity$d;->g(Ljava/lang/Object;)Ljava/lang/Object;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity$d;->c(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/a1573595/musicplayer/songList/SongListActivity$c;-><init>(Lcom/a1573595/musicplayer/songList/SongListActivity;Ln2/d;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->d()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/a1573595/musicplayer/player/PlayerService;->d(I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/a1573595/musicplayer/player/PlayerService;->g()V <",
+                "> Lg1/b;->onClick(Landroid/view/View;)V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->C(Lcom/a1573595/musicplayer/player/PlayerService;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.a1573595.musicplayer.songList.SongListActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/a1573595/musicplayer/songList/SongListActivity$b;-><init>(Lcom/a1573595/musicplayer/songList/SongListActivity;Ln2/d;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity$b;->e(Ljava/lang/Object;Ln2/d;)Ln2/d; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/a1573595/musicplayer/songList/SongListActivity$c;->e(Ljava/lang/Object;Ln2/d;)Ln2/d;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity$c;->c(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/a1573595/musicplayer/player/PlayerService;->c()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/a1573595/musicplayer/player/PlayerService$b;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "notification.CANCEL",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/a1573595/musicplayer/player/PlayerService$a$a;-><init>(Lcom/a1573595/musicplayer/player/PlayerService;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/a1573595/musicplayer/player/PlayerService$a;-><init>(Lcom/a1573595/musicplayer/player/PlayerService;)V <",
+                "> Lcom/a1573595/musicplayer/player/PlayerService;->onCreate()V <",
+                "> Lc1/e;->onRequestPermissionsResult(I[Ljava/lang/String;[I)V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/a1573595/musicplayer/songList/SongListActivity$a;-><init>(Lcom/a1573595/musicplayer/songList/SongListActivity;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/a1573595/musicplayer/player/PlayerService;->f()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/a1573595/musicplayer/player/PlayerService;->propertyChange(Ljava/beans/PropertyChangeEvent;)V <",
+                "> Lc1/e;->onRequestPermissionsResult(I[Ljava/lang/String;[I)V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/a1573595/musicplayer/player/PlayerService;->a(Ljava/io/FileDescriptor;Ljava/lang/String;Ljava/lang/String;)Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lh1/f;->handleMessage(Landroid/os/Message;)Z <",
+                "> Lcom/a1573595/musicplayer/player/PlayerService;-><init>()V <",
+                "> Lc1/e;->onRequestPermissionsResult(I[Ljava/lang/String;[I)V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/a1573595/musicplayer/songList/SongListActivity$c;->g(Ljava/lang/Object;)Ljava/lang/Object;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity$c;->c(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/a1573595/musicplayer/player/PlayerService$a$a;->b()Ljava/lang/Object;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lz0/r;-><init>(Lcom/a1573595/musicplayer/player/PlayerService$a$a;)V <",
+                "> Lcom/a1573595/musicplayer/player/PlayerService$a;-><init>(Lcom/a1573595/musicplayer/player/PlayerService;)V <",
+                "> Lcom/a1573595/musicplayer/player/PlayerService;->onCreate()V <",
+                "> Lc1/e;->onRequestPermissionsResult(I[Ljava/lang/String;[I)V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lz1/m;->c(Landroid/content/Context;[ILjava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lz1/m;->a(Landroid/content/Context;Landroid/util/AttributeSet;II)V <",
+                "> Lz1/m;->d(Landroid/content/Context;Landroid/util/AttributeSet;[III[I)Landroid/content/res/TypedArray; <",
+                "> Lv1/b;-><init>(Landroid/content/Context;I)V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity$b;->g(Ljava/lang/Object;)Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lv2/f;->e(Ljava/lang/Object;Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Li1/g;->b(Ljava/lang/String;)V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->D()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lc0/b;->getTooltipText()Ljava/lang/CharSequence;": {
+        "path_0": {
+            "call_sequence": [
+                "> Li/c;->getTooltipText()Ljava/lang/CharSequence; <",
+                "> Li/b;->c(Landroid/view/MenuItem;)Landroid/view/MenuItem; <",
+                "> Li/e;->findItem(I)Landroid/view/MenuItem; <",
+                "> Lh/e;->getMenu()Landroid/view/Menu; <",
+                "> Lh/e$a;->e(Lh/a;)Lh/e; <",
+                "> Ld/k$f;->b(Landroid/view/ActionMode$Callback;)Lh/e; <",
+                "> Ld/k$f;->onWindowStartingActionMode(Landroid/view/ActionMode$Callback;)Landroid/view/ActionMode; <",
+                "> Ld/k;->x(Landroid/view/Window;)V <",
+                "> Ld/k;-><init>(Landroid/content/Context;Landroid/view/Window;Ld/i;Ljava/lang/Object;)V <",
+                "> Ld/q;->e()Ld/j; <",
+                "> Ld/q;->dismiss()V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->onDestroy()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lc2/b;->b(Landroid/content/Context;ILjava/lang/String;)I": {
+        "path_0": {
+            "call_sequence": [
+                "> Lv1/b;-><init>(Landroid/content/Context;I)V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity$b;->g(Ljava/lang/Object;)Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lh/h;->onWindowStartingActionMode(Landroid/view/ActionMode$Callback;I)Landroid/view/ActionMode;": {
+        "path_0": {
+            "call_sequence": [
+                "> Ld/k$f;->onWindowStartingActionMode(Landroid/view/ActionMode$Callback;I)Landroid/view/ActionMode; <",
+                "> Ld/k;->x(Landroid/view/Window;)V <",
+                "> Ld/k;-><init>(Landroid/content/Context;Landroid/view/Window;Ld/i;Ljava/lang/Object;)V <",
+                "> Ld/q;->e()Ld/j; <",
+                "> Ld/q;->dismiss()V <",
+                "> Lcom/a1573595/musicplayer/songList/SongListActivity;->onDestroy()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    }
+}

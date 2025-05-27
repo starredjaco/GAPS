@@ -1,0 +1,126 @@
+{
+    "de.homac.Mirrored.view.ArticlesList": {
+        "de.homac.Mirrored.view.CategoriesList": [
+            [
+                "click android:id/button1",
+                "click de.homac.Mirrored:id/menu_categories"
+            ],
+            [
+                "click android:id/button1",
+                "click de.homac.Mirrored:id/menu_refresh",
+                "click de.homac.Mirrored:id/menu_categories"
+            ],
+            [
+                "click de.homac.Mirrored:id/menu_categories"
+            ],
+            [
+                "click de.homac.Mirrored:id/menu_refresh",
+                "click android:id/button1",
+                "click (975, 73, 1080, 199)",
+                "click android:id/button1",
+                "click android:id/button1",
+                "click de.homac.Mirrored:id/menu_categories"
+            ]
+        ],
+        "com.android.chromeorg.chromium.chrome.browser.settings.SettingsActivity": [
+            [
+                "click de.homac.Mirrored:id/menu_categories",
+                "click de.homac.Mirrored:id/menu_refresh",
+                "click android:id/button1",
+                "click (975, 73, 1080, 199)"
+            ],
+            [
+                "click de.homac.Mirrored:id/menu_categories",
+                "click (975, 73, 1080, 199)",
+                "click de.homac.Mirrored:id/menu_refresh",
+                "click android:id/button1"
+            ],
+            [
+                "click (975, 73, 1080, 199)",
+                "click de.homac.Mirrored:id/menu_refresh",
+                "click android:id/button1"
+            ],
+            [
+                "click de.homac.Mirrored:id/menu_categories",
+                "click de.homac.Mirrored:id/menu_refresh",
+                "click (975, 73, 1080, 199)"
+            ]
+        ],
+        "com.android.chromecom.google.android.apps.chrome.Main": [
+            [
+                "click android:id/button1",
+                "click de.homac.Mirrored:id/menu_refresh",
+                "click de.homac.Mirrored:id/menu_categories"
+            ]
+        ],
+        "com.google.android.gms.googlehelp.helpactivities.HelpActivity": [
+            [
+                "click de.homac.Mirrored:id/menu_categories",
+                "click de.homac.Mirrored:id/menu_refresh",
+                "click android:id/button1",
+                "click (975, 73, 1080, 199)"
+            ]
+        ],
+        "com.google.android.apps.nexuslauncher.NexusLauncherActivity": [
+            [
+                "click de.homac.Mirrored:id/menu_refresh",
+                "click android:id/button1",
+                "click (975, 73, 1080, 199)",
+                "click android:id/button1"
+            ]
+        ]
+    },
+    "de.homac.Mirrored.view.CategoriesList": {
+        "de.homac.Mirrored.view.ArticlesList": [
+            [
+                "click (0, 63, 147, 210)"
+            ]
+        ]
+    },
+    "com.android.chromeorg.chromium.chrome.browser.settings.SettingsActivity": {
+        "com.android.chromecom.google.android.apps.chrome.Main": [
+            [
+                "click de.homac.Mirrored:id/menu_categories",
+                "click (0, 63, 147, 210)"
+            ]
+        ],
+        "com.google.android.gms.googlehelp.helpactivities.HelpActivity": [
+            [
+                "click com.android.chrome:id/menu_id_general_help"
+            ],
+            [
+                "click (975, 73, 1080, 199)"
+            ]
+        ]
+    },
+    "com.android.chromecom.google.android.apps.chrome.Main": {
+        "com.android.chromeorg.chromium.chrome.browser.settings.SettingsActivity": [
+            [
+                "click de.homac.Mirrored:id/menu_categories"
+            ]
+        ]
+    },
+    "com.google.android.gms.googlehelp.helpactivities.HelpActivity": {
+        "com.android.chromeorg.chromium.chrome.browser.settings.SettingsActivity": [
+            [
+                "click (0, 73, 147, 220)"
+            ],
+            [
+                "click de.homac.Mirrored:id/menu_categories",
+                "click (0, 73, 147, 220)"
+            ]
+        ]
+    },
+    "de.homac.Mirrored.view.Preferences": {
+        "de.homac.Mirrored.view.ArticlesList": [
+            []
+        ]
+    },
+    "com.google.android.apps.nexuslauncher.NexusLauncherActivity": {
+        "com.google.android.calendar.allinone.AllInOneCalendarActivity": [
+            [
+                "click de.homac.Mirrored:id/menu_categories"
+            ]
+        ]
+    }
+}

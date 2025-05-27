@@ -1,0 +1,36 @@
+{
+    "com.android.vendingcom.google.android.finsky.activities.MainActivity": {
+        "org.beide.bomber.BomberActivity": [
+            [
+                "swipe com.android.vending:id/0_resource_name_obfuscated"
+            ],
+            [
+                "click com.android.vending:id/0_resource_name_obfuscated"
+            ]
+        ]
+    },
+    "org.beide.bomber.BomberActivity": {
+        "com.google.android.apps.nexuslauncher.NexusLauncherActivity": [
+            [
+                "click android:id/aerr_wait"
+            ],
+            []
+        ],
+        "com.android.vendingcom.google.android.finsky.activities.MainActivity": [
+            [
+                "click android:id/aerr_wait",
+                "click android:id/button3"
+            ],
+            [
+                "click android:id/button3"
+            ]
+        ]
+    },
+    "AtchDlg:org.beide.bomberorg.beide.bomber.BomberActivity": {
+        "org.beide.bomber.BomberActivity": [
+            [
+                "click android:id/title"
+            ]
+        ]
+    }
+}

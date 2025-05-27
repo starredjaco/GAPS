@@ -1,0 +1,298 @@
+{
+    "Lcom/everysoft/autoanswer/BluetoothHeadset;-><init>(Landroid/content/Context;Lcom/everysoft/autoanswer/BluetoothHeadset$ServiceListener;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/everysoft/autoanswer/AutoAnswerIntentService;->onHandleIntent(Landroid/content/Intent;)V <",
+                "> Lcom/everysoft/autoanswer/AutoAnswerReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.PHONE_STATE",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/everysoft/autoanswer/BluetoothHeadset;->access$002(Lcom/everysoft/autoanswer/BluetoothHeadset;Landroid/bluetooth/IBluetoothHeadset;)Landroid/bluetooth/IBluetoothHeadset;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/everysoft/autoanswer/BluetoothHeadset$1;->onServiceConnected(Landroid/content/ComponentName;Landroid/os/IBinder;)V <",
+                "> Lcom/everysoft/autoanswer/BluetoothHeadset;-><init>(Landroid/content/Context;Lcom/everysoft/autoanswer/BluetoothHeadset$ServiceListener;)V <",
+                "> Lcom/everysoft/autoanswer/AutoAnswerIntentService;->onHandleIntent(Landroid/content/Intent;)V <",
+                "> Lcom/everysoft/autoanswer/AutoAnswerReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.PHONE_STATE",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/everysoft/autoanswer/AutoAnswerNotifier;-><init>(Landroid/content/Context;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/everysoft/autoanswer/AutoAnswerPreferenceActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/everysoft/autoanswer/AutoAnswerIntentService;->answerPhoneHeadsethook(Landroid/content/Context;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/everysoft/autoanswer/AutoAnswerIntentService;->onHandleIntent(Landroid/content/Intent;)V <",
+                "> Lcom/everysoft/autoanswer/AutoAnswerReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.PHONE_STATE",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/everysoft/autoanswer/AutoAnswerIntentService;->answerPhoneAidl(Landroid/content/Context;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/everysoft/autoanswer/AutoAnswerIntentService;->onHandleIntent(Landroid/content/Intent;)V <",
+                "> Lcom/everysoft/autoanswer/AutoAnswerReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.PHONE_STATE",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/everysoft/autoanswer/BluetoothHeadset$ServiceListener;->onServiceDisconnected()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/everysoft/autoanswer/BluetoothHeadset$1;->onServiceDisconnected(Landroid/content/ComponentName;)V <",
+                "> Lcom/everysoft/autoanswer/BluetoothHeadset;-><init>(Landroid/content/Context;Lcom/everysoft/autoanswer/BluetoothHeadset$ServiceListener;)V <",
+                "> Lcom/everysoft/autoanswer/AutoAnswerIntentService;->onHandleIntent(Landroid/content/Intent;)V <",
+                "> Lcom/everysoft/autoanswer/AutoAnswerReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.PHONE_STATE",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/everysoft/autoanswer/BluetoothHeadset;->getState()I": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/everysoft/autoanswer/AutoAnswerIntentService;->onHandleIntent(Landroid/content/Intent;)V <",
+                "> Lcom/everysoft/autoanswer/AutoAnswerReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.PHONE_STATE",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/everysoft/autoanswer/BluetoothHeadset$1;-><init>(Lcom/everysoft/autoanswer/BluetoothHeadset;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/everysoft/autoanswer/BluetoothHeadset;-><init>(Landroid/content/Context;Lcom/everysoft/autoanswer/BluetoothHeadset$ServiceListener;)V <",
+                "> Lcom/everysoft/autoanswer/AutoAnswerIntentService;->onHandleIntent(Landroid/content/Intent;)V <",
+                "> Lcom/everysoft/autoanswer/AutoAnswerReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.PHONE_STATE",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/everysoft/autoanswer/AutoAnswerNotifier;->updateNotification()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/everysoft/autoanswer/AutoAnswerPreferenceActivity;->onSharedPreferenceChanged(Landroid/content/SharedPreferences;Ljava/lang/String;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/everysoft/autoanswer/AutoAnswerPreferenceActivity;->addPreferencesFromResource(I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/everysoft/autoanswer/AutoAnswerPreferenceActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/everysoft/autoanswer/AutoAnswerIntentService;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/everysoft/autoanswer/AutoAnswerIntentService;->answerPhoneAidl(Landroid/content/Context;)V <",
+                "> Lcom/everysoft/autoanswer/AutoAnswerReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.PHONE_STATE",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/everysoft/autoanswer/AutoAnswerIntentService;->getBaseContext()Landroid/content/Context;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/everysoft/autoanswer/AutoAnswerIntentService;->onHandleIntent(Landroid/content/Intent;)V <",
+                "> Lcom/everysoft/autoanswer/AutoAnswerReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.PHONE_STATE",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/everysoft/autoanswer/BluetoothHeadset$ServiceListener;->onServiceConnected()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/everysoft/autoanswer/BluetoothHeadset$1;->onServiceConnected(Landroid/content/ComponentName;Landroid/os/IBinder;)V <",
+                "> Lcom/everysoft/autoanswer/BluetoothHeadset;-><init>(Landroid/content/Context;Lcom/everysoft/autoanswer/BluetoothHeadset$ServiceListener;)V <",
+                "> Lcom/everysoft/autoanswer/AutoAnswerIntentService;->onHandleIntent(Landroid/content/Intent;)V <",
+                "> Lcom/everysoft/autoanswer/AutoAnswerReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.PHONE_STATE",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/everysoft/autoanswer/BluetoothHeadset;->access$100(Lcom/everysoft/autoanswer/BluetoothHeadset;)Lcom/everysoft/autoanswer/BluetoothHeadset$ServiceListener;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/everysoft/autoanswer/BluetoothHeadset$1;->onServiceConnected(Landroid/content/ComponentName;Landroid/os/IBinder;)V <",
+                "> Lcom/everysoft/autoanswer/BluetoothHeadset;-><init>(Landroid/content/Context;Lcom/everysoft/autoanswer/BluetoothHeadset$ServiceListener;)V <",
+                "> Lcom/everysoft/autoanswer/AutoAnswerIntentService;->onHandleIntent(Landroid/content/Intent;)V <",
+                "> Lcom/everysoft/autoanswer/AutoAnswerReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.PHONE_STATE",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/everysoft/autoanswer/AutoAnswerNotifier;->disableNotification()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/everysoft/autoanswer/AutoAnswerNotifier;->updateNotification()V <",
+                "> Lcom/everysoft/autoanswer/AutoAnswerBootReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.BOOT_COMPLETED",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/everysoft/autoanswer/AutoAnswerPreferenceActivity;->getPreferenceManager()Landroid/preference/PreferenceManager;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/everysoft/autoanswer/AutoAnswerPreferenceActivity;->onDestroy()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/everysoft/autoanswer/AutoAnswerIntentService;->enableSpeakerPhone(Landroid/content/Context;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/everysoft/autoanswer/AutoAnswerIntentService;->onHandleIntent(Landroid/content/Intent;)V <",
+                "> Lcom/everysoft/autoanswer/AutoAnswerReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.PHONE_STATE",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/everysoft/autoanswer/AutoAnswerReceiver;->isStarred(Landroid/content/Context;Ljava/lang/String;)I": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/everysoft/autoanswer/AutoAnswerReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.PHONE_STATE",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/everysoft/autoanswer/AutoAnswerNotifier;->enableNotification()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/everysoft/autoanswer/AutoAnswerNotifier;->updateNotification()V <",
+                "> Lcom/everysoft/autoanswer/AutoAnswerBootReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.BOOT_COMPLETED",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Lcom/everysoft/autoanswer/BluetoothHeadset;->close()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/everysoft/autoanswer/AutoAnswerIntentService;->onHandleIntent(Landroid/content/Intent;)V <",
+                "> Lcom/everysoft/autoanswer/AutoAnswerReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.PHONE_STATE",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    }
+}

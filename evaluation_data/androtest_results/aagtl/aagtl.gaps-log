@@ -1,0 +1,10 @@
+MISSING ID > Lcom/zoffcc/applications/aagtl/Rose;->onTouch(Landroid/view/View;Landroid/view/MotionEvent;)Z <
+COMPONENT CONCAT > Lcom/zoffcc/applications/aagtl/Base64$OutputStream;->suspendEncoding()V < extends Ljava/io/FilterOutputStream, implements []
+COMPONENT CONCAT > Lcom/zoffcc/applications/aagtl/ClientHttpRequest;->post(Ljava/net/URL;Ljava/util/Map;Ljava/util/Map;)Ljava/io/InputStream; < extends Ljava/lang/Object, implements []
+COMPONENT CONCAT > Lcom/zoffcc/applications/aagtl/ClientHttpRequest;->post(Ljava/net/URL;Ljava/util/Map;)Ljava/io/InputStream; < extends Ljava/lang/Object, implements []
+COMPONENT CONCAT > Lcom/zoffcc/applications/aagtl/ClientHttpRequest;->post(Ljava/net/URL;[Ljava/lang/String;[Ljava/lang/Object;)Ljava/io/InputStream; < extends Ljava/lang/Object, implements []
+COMPONENT CONCAT > Lcom/zoffcc/applications/aagtl/FieldnotesUploader;->upload_v2()Ljava/lang/Boolean; < extends Ljava/lang/Object, implements []
+COMPONENT CONCAT > Lcom/zoffcc/applications/aagtl/ClientHttpRequest;->post(Ljava/net/URL;Ljava/lang/String;Ljava/lang/Object;Ljava/lang/String;Ljava/lang/Object;Ljava/lang/String;Ljava/lang/Object;Ljava/lang/String;Ljava/lang/Object;)Ljava/io/InputStream; < extends Ljava/lang/Object, implements []
+COMPONENT CONCAT > Lcom/zoffcc/applications/aagtl/ClientHttpRequest;->post(Ljava/net/URL;Ljava/lang/String;Ljava/lang/Object;Ljava/lang/String;Ljava/lang/Object;Ljava/lang/String;Ljava/lang/Object;)Ljava/io/InputStream; < extends Ljava/lang/Object, implements []
+COMPONENT CONCAT > Lcom/zoffcc/applications/aagtl/HTMLDownloader;->get_geocaches_v1([Lcom/zoffcc/applications/aagtl/Coordinate;IIILandroid/os/Handler;I)Lcom/zoffcc/applications/aagtl/HTMLDownloader$get_geocaches_ret; < extends Ljava/lang/Object, implements []
+COMPONENT CONCAT > Lcom/zoffcc/applications/aagtl/HTMLDownloader;->get_geocaches_v2([Lcom/zoffcc/applications/aagtl/Coordinate;IIILandroid/os/Handler;I)Lcom/zoffcc/applications/aagtl/HTMLDownloader$get_geocaches_ret; < extends Ljava/lang/Object, implements []

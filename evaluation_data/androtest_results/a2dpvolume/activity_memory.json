@@ -1,0 +1,223 @@
+{
+    "com.google.android.apps.nexuslauncher.NexusLauncherActivity": {
+        "com.google.android.calendar.allinone.AllInOneCalendarActivity": [
+            [
+                "click a2dp.Vol:id/Button01"
+            ],
+            [
+                "click a2dp.Vol:id/Button01",
+                "click com.google.android.calendar:id/action_search"
+            ],
+            [
+                "click com.google.android.apps.nexuslauncher:id/search_container_all_apps",
+                "click a2dp.Vol:id/Button01"
+            ]
+        ],
+        "com.google.android.gm.ConversationListActivityGmail": [
+            [
+                "click a2dp.Vol:id/Button01"
+            ]
+        ],
+        "com.google.android.googlequicksearchboxcom.google.android.apps.search.assistant.surfaces.voice.ui.voicesearchblocker.VoiceSearchInterstitialActivity": [
+            [
+                "click a2dp.Vol:id/Button01",
+                "click com.google.android.calendar:id/action_search",
+                "click com.google.android.calendar:id/floating_action_button"
+            ]
+        ],
+        "com.google.android.googlequicksearchbox.InternalGoogleAppActivityEntrypoint": [
+            [
+                "click com.google.android.apps.nexuslauncher:id/search_container_all_apps"
+            ]
+        ],
+        "dkj.ueju.fd.K.OP": [
+            [
+                "click a2dp.Vol:id/Button01",
+                "click (35, 84, 237, 337)"
+            ]
+        ]
+    },
+    "com.google.android.calendar.search.SearchActivity": {
+        "com.google.android.calendar.allinone.AllInOneCalendarActivity": [
+            [
+                "click a2dp.Vol:id/Button01",
+                "text com.google.android.calendar:id/search_text",
+                "click (11, 73, 158, 220)"
+            ],
+            [
+                "text com.google.android.calendar:id/search_text",
+                "click a2dp.Vol:id/Button01",
+                "click (11, 73, 158, 220)"
+            ]
+        ]
+    },
+    "com.android.settings.inputmethod.UserDictionaryAddWordActivity": {
+        "com.google.android.apps.nexuslauncher.NexusLauncherActivity": [
+            [
+                "click android:id/addToDictionaryButton"
+            ]
+        ]
+    },
+    "a2dp.Vol.main": {
+        "com.google.android.apps.nexuslauncher.NexusLauncherActivity": [
+            [
+                "click a2dp.Vol:id/ServButton",
+                "click a2dp.Vol:id/Locationbtn",
+                "click a2dp.Vol:id/ServButton",
+                "click (975, 73, 1080, 199)"
+            ],
+            [
+                "click a2dp.Vol:id/Locationbtn",
+                "click a2dp.Vol:id/ServButton",
+                "click a2dp.Vol:id/ServButton",
+                "click (975, 73, 1080, 199)"
+            ],
+            [
+                "click a2dp.Vol:id/ServButton",
+                "click a2dp.Vol:id/ServButton",
+                "click (975, 73, 1080, 199)",
+                "click a2dp.Vol:id/Button01"
+            ],
+            [
+                "click a2dp.Vol:id/Locationbtn",
+                "click a2dp.Vol:id/ServButton",
+                "click a2dp.Vol:id/ServButton",
+                "click (975, 73, 1080, 199)",
+                "click android:id/text1"
+            ]
+        ],
+        "com.google.android.calendar.search.SearchActivity": [
+            [
+                "click a2dp.Vol:id/Locationbtn",
+                "click a2dp.Vol:id/ServButton",
+                "click (975, 73, 1080, 199)",
+                "click a2dp.Vol:id/Button01"
+            ],
+            [
+                "click a2dp.Vol:id/ServButton",
+                "click a2dp.Vol:id/ServButton",
+                "click (975, 73, 1080, 199)",
+                "click a2dp.Vol:id/Button01"
+            ],
+            [
+                "click (975, 73, 1080, 199)",
+                "click a2dp.Vol:id/ServButton",
+                "click a2dp.Vol:id/ServButton",
+                "click a2dp.Vol:id/Button01"
+            ],
+            [
+                "click a2dp.Vol:id/Locationbtn",
+                "click (975, 73, 1080, 199)",
+                "click a2dp.Vol:id/ServButton",
+                "click a2dp.Vol:id/chooseAppButton",
+                "click a2dp.Vol:id/ServButton"
+            ]
+        ],
+        "a2dp.Vol.Preferences": [
+            [
+                "click a2dp.Vol:id/Locationbtn",
+                "click a2dp.Vol:id/ServButton",
+                "click a2dp.Vol:id/ServButton",
+                "click (975, 73, 1080, 199)"
+            ]
+        ],
+        "com.google.android.calendar.allinone.AllInOneCalendarActivity": [
+            [
+                "click a2dp.Vol:id/ServButton",
+                "click (975, 73, 1080, 199)",
+                "click a2dp.Vol:id/Button01",
+                "click a2dp.Vol:id/Locationbtn"
+            ],
+            [
+                "click a2dp.Vol:id/Locationbtn",
+                "click (975, 73, 1080, 199)",
+                "click a2dp.Vol:id/ServButton",
+                "click a2dp.Vol:id/ServButton"
+            ],
+            [
+                "click (975, 73, 1080, 199)",
+                "click a2dp.Vol:id/ServButton",
+                "click a2dp.Vol:id/ServButton",
+                "click a2dp.Vol:id/Button01"
+            ]
+        ],
+        "a2dp.Vol.EditDevice": [
+            [
+                "click a2dp.Vol:id/Button01"
+            ]
+        ]
+    },
+    "com.google.android.calendar.allinone.AllInOneCalendarActivity": {
+        "com.google.android.calendar.search.SearchActivity": [
+            [
+                "click com.google.android.calendar:id/action_search"
+            ],
+            [
+                "click a2dp.Vol:id/Button01",
+                "text com.google.android.calendar:id/title",
+                "click com.google.android.calendar:id/action_search"
+            ]
+        ],
+        "com.google.android.apps.nexuslauncher.NexusLauncherActivity": [
+            [
+                "click com.google.android.calendar:id/action_search"
+            ],
+            []
+        ],
+        "com.google.android.gms.auth.uiflows.minutemaid.MinuteMaidActivity": [
+            [
+                "click a2dp.Vol:id/Button01",
+                "text com.google.android.calendar:id/title",
+                "click (975, 73, 1080, 199)",
+                "click com.google.android.calendar:id/og_card"
+            ]
+        ]
+    },
+    "a2dp.Vol.Preferences": {
+        "com.google.android.apps.nexuslauncher.NexusLauncherActivity": [
+            [
+                "click (0, 63, 147, 210)"
+            ]
+        ]
+    },
+    "com.google.android.googlequicksearchbox.InternalGoogleAppActivityEntrypoint": {
+        "a2dp.Vol.main": [
+            [
+                "click (34, 234, 236, 446)"
+            ]
+        ]
+    },
+    "com.google.android.gms.auth.uiflows.minutemaid.MinuteMaidActivity": {
+        "com.google.android.calendar.allinone.AllInOneCalendarActivity": [
+            [
+                "click (796, 1636, 1027, 1762)"
+            ]
+        ]
+    },
+    "a2dp.Vol.CustomIntentMaker": {
+        "a2dp.Vol.main": [
+            [
+                "text a2dp.Vol:id/editBtConnect"
+            ]
+        ],
+        "a2dp.Vol.EditDevice": [
+            [
+                "click a2dp.Vol:id/ci_btn_test",
+                "click a2dp.Vol:id/ci_btn_cancel"
+            ]
+        ],
+        "a2dp.Vol.AppChooser": [
+            [
+                "click android:id/button1"
+            ]
+        ]
+    },
+    "a2dp.Vol.EditDevice": {
+        "a2dp.Vol.CustomIntentMaker": [
+            [
+                "click a2dp.Vol:id/chooseBTbutton",
+                "click a2dp.Vol:id/chooseAppButton"
+            ]
+        ]
+    }
+}

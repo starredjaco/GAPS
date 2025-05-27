@@ -1,0 +1,818 @@
+{
+    "Lorg/tomdroid/ui/ViewNote;->deleteNote()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/tomdroid/ui/ViewNote;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.VIEW",
+                    "start-activity -a"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.tomdroid.ui.ViewNote",
+                    "view_note_delete",
+                    "Delete"
+                ]
+            ]
+        }
+    },
+    "Lorg/tomdroid/ui/EditNote;->showNote(Z)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/tomdroid/ui/EditNote;->access$200(Lorg/tomdroid/ui/EditNote;Z)V <",
+                "> Lorg/tomdroid/ui/EditNote$2;->handleMessage(Landroid/os/Message;)V <",
+                "> Lorg/tomdroid/ui/EditNote;-><init>()V <",
+                "> Lorg/tomdroid/util/Receive;->useSendText(Ljava/lang/String;Ljava/lang/String;)V <",
+                "> Lorg/tomdroid/util/Receive;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.VIEW",
+                    "start-activity -a"
+                ]
+            ]
+        }
+    },
+    "Lorg/tomdroid/ui/actionbar/ActionBarHelperICS;-><init>(Landroid/app/Activity;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/tomdroid/ui/actionbar/ActionBarHelper;->createInstance(Landroid/app/Activity;)Lorg/tomdroid/ui/actionbar/ActionBarHelper; <",
+                "> Lorg/tomdroid/ui/actionbar/ActionBarActivity;-><init>()V <",
+                "> Lorg/tomdroid/util/Receive;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.SEND",
+                    "start-activity -a"
+                ]
+            ]
+        }
+    },
+    "Lorg/tomdroid/ui/FilePickerActivity;->refreshFilesList()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/tomdroid/ui/FilePickerActivity;->onListItemClick(Landroid/widget/ListView;Landroid/view/View;IJ)V <",
+                "> Lorg/tomdroid/ui/Tomdroid;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.tomdroid.ui.Tomdroid",
+                    "menuImport",
+                    "Import Note"
+                ]
+            ]
+        }
+    },
+    "Lorg/tomdroid/ui/ViewNote$4;-><init>(Lorg/tomdroid/ui/ViewNote;Landroid/app/Activity;Landroid/net/Uri;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/tomdroid/ui/ViewNote;->onPrepareDialog(ILandroid/app/Dialog;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.VIEW",
+                    "start-activity -a"
+                ]
+            ]
+        }
+    },
+    "Lorg/tomdroid/ui/ViewNote;->startEditNote()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/tomdroid/ui/ViewNote;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.VIEW",
+                    "start-activity -a"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.tomdroid.ui.ViewNote",
+                    "view_note_edit",
+                    "Edit"
+                ]
+            ]
+        }
+    },
+    "Lorg/tomdroid/ui/EditNote;->access$1400(Lorg/tomdroid/ui/EditNote;)I": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/tomdroid/ui/EditNote$15;->afterTextChanged(Landroid/text/Editable;)V <",
+                "> Lorg/tomdroid/ui/EditNote;->addFormatListeners()V <",
+                "> Lorg/tomdroid/ui/EditNote;->access$300(Lorg/tomdroid/ui/EditNote;)V <",
+                "> Lorg/tomdroid/ui/EditNote$2;->handleMessage(Landroid/os/Message;)V <",
+                "> Lorg/tomdroid/ui/EditNote;-><init>()V <",
+                "> Lorg/tomdroid/util/Receive;->useSendText(Ljava/lang/String;Ljava/lang/String;)V <",
+                "> Lorg/tomdroid/util/Receive;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.VIEW",
+                    "start-activity -a"
+                ]
+            ]
+        }
+    },
+    "Lorg/tomdroid/ui/PreferencesActivity;->access$900()Landroid/app/ProgressDialog;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/tomdroid/ui/PreferencesActivity$PreferencesMessageHandler;->handleMessage(Landroid/os/Message;)V <",
+                "> Lorg/tomdroid/ui/PreferencesActivity;-><init>()V <",
+                "> Lorg/tomdroid/ui/ViewNote;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.VIEW",
+                    "start-activity -a"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.tomdroid.ui.ViewNote",
+                    "menuPrefs",
+                    "Settings"
+                ]
+            ]
+        }
+    },
+    "Lorg/tomdroid/ui/actionbar/ActionBarActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/tomdroid/ui/ViewNote;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.VIEW",
+                    "start-activity -a"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.tomdroid.ui.ViewNote",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lorg/tomdroid/ui/Tomdroid;->setHomeButtonEnabled(Z)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/tomdroid/ui/Tomdroid;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/tomdroid/ui/CompareNotes$4;-><init>(Lorg/tomdroid/ui/CompareNotes;Landroid/widget/EditText;Landroid/widget/EditText;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/tomdroid/ui/CompareNotes;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/tomdroid/util/Receive;->useSendFile(Ljava/io/File;Ljava/lang/String;)V <",
+                "> Lorg/tomdroid/util/Receive;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.VIEW",
+                    "start-activity -a"
+                ]
+            ]
+        }
+    },
+    "Lorg/tomdroid/ui/PreferencesActivity$7;-><init>(Lorg/tomdroid/ui/PreferencesActivity;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/tomdroid/ui/PreferencesActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/tomdroid/ui/ViewNote;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.VIEW",
+                    "start-activity -a"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.tomdroid.ui.ViewNote",
+                    "menuPrefs",
+                    "Settings"
+                ]
+            ]
+        }
+    },
+    "Lorg/tomdroid/ui/CompareNotes;->copyNote()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/tomdroid/ui/CompareNotes$5;->onClick(Landroid/view/View;)V <",
+                "> Lorg/tomdroid/ui/CompareNotes;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/tomdroid/util/Receive;->useSendFile(Ljava/io/File;Ljava/lang/String;)V <",
+                "> Lorg/tomdroid/util/Receive;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.VIEW",
+                    "start-activity -a"
+                ],
+                [
+                    "org.tomdroid.ui.CompareNotes",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lorg/tomdroid/ui/EditNote;->access$200(Lorg/tomdroid/ui/EditNote;Z)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/tomdroid/ui/EditNote$2;->handleMessage(Landroid/os/Message;)V <",
+                "> Lorg/tomdroid/ui/EditNote;-><init>()V <",
+                "> Lorg/tomdroid/util/Receive;->useSendText(Ljava/lang/String;Ljava/lang/String;)V <",
+                "> Lorg/tomdroid/util/Receive;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.VIEW",
+                    "start-activity -a"
+                ]
+            ]
+        }
+    },
+    "Lorg/tomdroid/ui/EditNote;->updateNoteContent(Z)Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/tomdroid/ui/EditNote;->changeTextSize()V <",
+                "> Lorg/tomdroid/ui/EditNote;->access$1500(Lorg/tomdroid/ui/EditNote;)V <",
+                "> Lorg/tomdroid/ui/EditNote$17;->onClick(Landroid/content/DialogInterface;I)V <",
+                "> Lorg/tomdroid/ui/EditNote;->showSizeDialog()V <",
+                "> Lorg/tomdroid/ui/EditNote;->access$1000(Lorg/tomdroid/ui/EditNote;)V <",
+                "> Lorg/tomdroid/ui/EditNote$14;->onClick(Landroid/view/View;)V <",
+                "> Lorg/tomdroid/ui/EditNote;->addFormatListeners()V <",
+                "> Lorg/tomdroid/ui/EditNote;->access$300(Lorg/tomdroid/ui/EditNote;)V <",
+                "> Lorg/tomdroid/ui/EditNote$2;->handleMessage(Landroid/os/Message;)V <",
+                "> Lorg/tomdroid/ui/EditNote;-><init>()V <",
+                "> Lorg/tomdroid/util/Receive;->useSendText(Ljava/lang/String;Ljava/lang/String;)V <",
+                "> Lorg/tomdroid/util/Receive;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.VIEW",
+                    "start-activity -a"
+                ],
+                [
+                    "org.tomdroid.ui.EditNote",
+                    "size",
+                    "Sort by Date"
+                ]
+            ]
+        }
+    },
+    "Lorg/tomdroid/ui/Tomdroid$SyncMessageHandler;-><init>(Lorg/tomdroid/ui/Tomdroid;Landroid/app/Activity;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/tomdroid/ui/Tomdroid;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/tomdroid/ui/EditNote;->access$1202(Lorg/tomdroid/ui/EditNote;Z)Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/tomdroid/ui/EditNote$15;->afterTextChanged(Landroid/text/Editable;)V <",
+                "> Lorg/tomdroid/ui/EditNote;->addFormatListeners()V <",
+                "> Lorg/tomdroid/ui/EditNote;->access$300(Lorg/tomdroid/ui/EditNote;)V <",
+                "> Lorg/tomdroid/ui/EditNote$2;->handleMessage(Landroid/os/Message;)V <",
+                "> Lorg/tomdroid/ui/EditNote;-><init>()V <",
+                "> Lorg/tomdroid/util/Receive;->useSendText(Ljava/lang/String;Ljava/lang/String;)V <",
+                "> Lorg/tomdroid/util/Receive;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.VIEW",
+                    "start-activity -a"
+                ]
+            ]
+        }
+    },
+    "Lorg/tomdroid/ui/CompareNotes;->deleteNote(Lorg/tomdroid/Note;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/tomdroid/ui/CompareNotes;->onChooseNote(Ljava/lang/String;Ljava/lang/String;Z)V <",
+                "> Lorg/tomdroid/ui/CompareNotes$4;->onClick(Landroid/view/View;)V <",
+                "> Lorg/tomdroid/ui/CompareNotes;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/tomdroid/util/Receive;->useSendFile(Ljava/io/File;Ljava/lang/String;)V <",
+                "> Lorg/tomdroid/util/Receive;->onCreate(Landroid/os/Bundle;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/tomdroid/ui/CompareNotes;->onCreate(Landroid/os/Bundle;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/tomdroid/util/Receive;->useSendFile(Ljava/io/File;Ljava/lang/String;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/tomdroid/util/Receive;->onCreate(Landroid/os/Bundle;)V <",
+                "----- CONDITIONAL -----"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.VIEW",
+                    "start-activity -a"
+                ],
+                [
+                    "org.tomdroid.ui.CompareNotes",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lorg/tomdroid/ui/Tomdroid;->access$200(Lorg/tomdroid/ui/Tomdroid;Z)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/tomdroid/ui/Tomdroid$8;->onClick(Landroid/content/DialogInterface;I)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/tomdroid/ui/Tomdroid$11;-><init>(Lorg/tomdroid/ui/Tomdroid;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/tomdroid/ui/Tomdroid;->onCreateDialog(I)Landroid/app/Dialog; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/tomdroid/ui/Tomdroid;->finishSync()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/tomdroid/ui/Tomdroid$SyncMessageHandler;->handleMessage(Landroid/os/Message;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/tomdroid/ui/ViewNote;->getString(I)Ljava/lang/String;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/tomdroid/ui/ViewNote;->onCreateDialog(I)Landroid/app/Dialog; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.VIEW",
+                    "start-activity -a"
+                ]
+            ]
+        }
+    },
+    "Lorg/tomdroid/ui/EditNote;->changeTextSize()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/tomdroid/ui/EditNote;->access$1500(Lorg/tomdroid/ui/EditNote;)V <",
+                "> Lorg/tomdroid/ui/EditNote$17;->onClick(Landroid/content/DialogInterface;I)V <",
+                "> Lorg/tomdroid/ui/EditNote;->showSizeDialog()V <",
+                "> Lorg/tomdroid/ui/EditNote;->access$1000(Lorg/tomdroid/ui/EditNote;)V <",
+                "> Lorg/tomdroid/ui/EditNote$14;->onClick(Landroid/view/View;)V <",
+                "> Lorg/tomdroid/ui/EditNote;->addFormatListeners()V <",
+                "> Lorg/tomdroid/ui/EditNote;->access$300(Lorg/tomdroid/ui/EditNote;)V <",
+                "> Lorg/tomdroid/ui/EditNote$2;->handleMessage(Landroid/os/Message;)V <",
+                "> Lorg/tomdroid/ui/EditNote;-><init>()V <",
+                "> Lorg/tomdroid/util/Receive;->useSendText(Ljava/lang/String;Ljava/lang/String;)V <",
+                "> Lorg/tomdroid/util/Receive;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.VIEW",
+                    "start-activity -a"
+                ],
+                [
+                    "org.tomdroid.ui.EditNote",
+                    "size",
+                    "Sort by Date"
+                ]
+            ]
+        }
+    },
+    "Lorg/tomdroid/ui/EditNote$8;-><init>(Lorg/tomdroid/ui/EditNote;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/tomdroid/ui/EditNote;->discardNoteContent()V <",
+                "> Lorg/tomdroid/ui/EditNote;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lorg/tomdroid/util/Receive;->useSendText(Ljava/lang/String;Ljava/lang/String;)V <",
+                "> Lorg/tomdroid/util/Receive;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.VIEW",
+                    "start-activity -a"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.tomdroid.ui.EditNote",
+                    "edit_note_discard",
+                    "Discard"
+                ]
+            ]
+        }
+    },
+    "Lorg/tomdroid/ui/EditNote$10;-><init>(Lorg/tomdroid/ui/EditNote;Landroid/widget/ToggleButton;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/tomdroid/ui/EditNote;->addFormatListeners()V <",
+                "> Lorg/tomdroid/ui/EditNote;->access$300(Lorg/tomdroid/ui/EditNote;)V <",
+                "> Lorg/tomdroid/ui/EditNote$2;->handleMessage(Landroid/os/Message;)V <",
+                "> Lorg/tomdroid/ui/EditNote;-><init>()V <",
+                "> Lorg/tomdroid/util/Receive;->useSendText(Ljava/lang/String;Ljava/lang/String;)V <",
+                "> Lorg/tomdroid/util/Receive;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.VIEW",
+                    "start-activity -a"
+                ]
+            ]
+        }
+    },
+    "Lorg/tomdroid/ui/PreferencesActivity$14;-><init>(Lorg/tomdroid/ui/PreferencesActivity;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/tomdroid/ui/PreferencesActivity;->onCreateDialog(I)Landroid/app/Dialog; <",
+                "> Lorg/tomdroid/ui/ViewNote;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.VIEW",
+                    "start-activity -a"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.tomdroid.ui.ViewNote",
+                    "menuPrefs",
+                    "Settings"
+                ]
+            ]
+        }
+    },
+    "Lorg/tomdroid/ui/Tomdroid$16;-><init>(Lorg/tomdroid/ui/Tomdroid;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/tomdroid/ui/Tomdroid;->onPrepareDialog(ILandroid/app/Dialog;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/tomdroid/ui/PreferencesActivity;->noValidEntry(Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/tomdroid/ui/PreferencesActivity;->access$200(Lorg/tomdroid/ui/PreferencesActivity;Ljava/lang/String;)V <",
+                "> Lorg/tomdroid/ui/PreferencesActivity$3;->onPreferenceChange(Landroid/preference/Preference;Ljava/lang/Object;)Z <",
+                "> Lorg/tomdroid/ui/PreferencesActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/tomdroid/ui/ViewNote;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.VIEW",
+                    "start-activity -a"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.tomdroid.ui.ViewNote",
+                    "menuPrefs",
+                    "Settings"
+                ]
+            ]
+        }
+    },
+    "Lorg/tomdroid/ui/CompareNotes;->pushNote(Lorg/tomdroid/Note;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/tomdroid/ui/CompareNotes;->onChooseDelete()V <",
+                "> Lorg/tomdroid/ui/CompareNotes$2;->onClick(Landroid/view/View;)V <",
+                "> Lorg/tomdroid/ui/CompareNotes;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/tomdroid/util/Receive;->useSendFile(Ljava/io/File;Ljava/lang/String;)V <",
+                "> Lorg/tomdroid/util/Receive;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.VIEW",
+                    "start-activity -a"
+                ],
+                [
+                    "org.tomdroid.ui.CompareNotes",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lorg/tomdroid/ui/ViewNote$3;-><init>(Lorg/tomdroid/ui/ViewNote;Landroid/app/Activity;Landroid/net/Uri;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/tomdroid/ui/ViewNote;->onPrepareDialog(ILandroid/app/Dialog;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.VIEW",
+                    "start-activity -a"
+                ]
+            ]
+        }
+    },
+    "Lorg/tomdroid/ui/ViewNote;->startActivity(Landroid/content/Intent;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/tomdroid/ui/ViewNote;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.VIEW",
+                    "start-activity -a"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.tomdroid.ui.ViewNote",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lorg/tomdroid/ui/actionbar/ActionBarListActivity;->onListItemClick(Landroid/widget/ListView;Landroid/view/View;IJ)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/tomdroid/ui/FilePickerActivity;->onListItemClick(Landroid/widget/ListView;Landroid/view/View;IJ)V <",
+                "> Lorg/tomdroid/ui/Tomdroid;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.tomdroid.ui.Tomdroid",
+                    "menuImport",
+                    "Import Note"
+                ]
+            ]
+        }
+    },
+    "Lorg/tomdroid/ui/CompareNotes;->access$300(Lorg/tomdroid/ui/CompareNotes;Landroid/widget/TextView;Landroid/widget/TextView;Z)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/tomdroid/ui/CompareNotes$6;->onClick(Landroid/view/View;)V <",
+                "> Lorg/tomdroid/ui/CompareNotes;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/tomdroid/util/Receive;->useSendFile(Ljava/io/File;Ljava/lang/String;)V <",
+                "> Lorg/tomdroid/util/Receive;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.VIEW",
+                    "start-activity -a"
+                ],
+                [
+                    "org.tomdroid.ui.CompareNotes",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lorg/tomdroid/ui/Tomdroid;->resetSyncValues()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/tomdroid/ui/Tomdroid;->access$300(Lorg/tomdroid/ui/Tomdroid;)V <",
+                "> Lorg/tomdroid/ui/Tomdroid$15;->onClick(Landroid/content/DialogInterface;I)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/tomdroid/ui/PreferencesActivity;->getContentResolver()Landroid/content/ContentResolver;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/tomdroid/ui/PreferencesActivity;->resetLocalDatabase()V <",
+                "> Lorg/tomdroid/ui/PreferencesActivity;->access$1000(Lorg/tomdroid/ui/PreferencesActivity;)V <",
+                "> Lorg/tomdroid/ui/PreferencesActivity$12;->onClick(Landroid/content/DialogInterface;I)V <",
+                "> Lorg/tomdroid/ui/PreferencesActivity;->onCreateDialog(I)Landroid/app/Dialog; <",
+                "> Lorg/tomdroid/ui/ViewNote;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.VIEW",
+                    "start-activity -a"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.tomdroid.ui.ViewNote",
+                    "menuPrefs",
+                    "Settings"
+                ]
+            ]
+        }
+    },
+    "Lorg/tomdroid/ui/PreferencesActivity;->showDialog(I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/tomdroid/ui/PreferencesActivity;->resetRemoteService()V <",
+                "> Lorg/tomdroid/ui/PreferencesActivity;->access$1100(Lorg/tomdroid/ui/PreferencesActivity;)V <",
+                "> Lorg/tomdroid/ui/PreferencesActivity$13;->onClick(Landroid/content/DialogInterface;I)V <",
+                "> Lorg/tomdroid/ui/PreferencesActivity;->onCreateDialog(I)Landroid/app/Dialog; <",
+                "> Lorg/tomdroid/ui/ViewNote;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.VIEW",
+                    "start-activity -a"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.tomdroid.ui.ViewNote",
+                    "menuPrefs",
+                    "Settings"
+                ]
+            ]
+        }
+    },
+    "Lorg/tomdroid/ui/ViewNote;->handleNoteUri(Landroid/net/Uri;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/tomdroid/ui/ViewNote;->onResume()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.VIEW",
+                    "start-activity -a"
+                ]
+            ]
+        }
+    },
+    "Lorg/tomdroid/ui/Tomdroid;->showDialog(I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/tomdroid/ui/Tomdroid;->onContextItemSelected(Landroid/view/MenuItem;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.tomdroid.ui.Tomdroid",
+                    "menu_send",
+                    "Send"
+                ]
+            ]
+        }
+    },
+    "Lorg/tomdroid/ui/Tomdroid;->showNote(Z)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/tomdroid/ui/Tomdroid;->access$200(Lorg/tomdroid/ui/Tomdroid;Z)V <",
+                "> Lorg/tomdroid/ui/Tomdroid$8;->onClick(Landroid/content/DialogInterface;I)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/tomdroid/ui/Tomdroid;->access$000()Landroid/app/ProgressDialog;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/tomdroid/ui/Tomdroid$25;->handleMessage(Landroid/os/Message;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/tomdroid/ui/Tomdroid$20;-><init>(Lorg/tomdroid/ui/Tomdroid;Landroid/app/Activity;Landroid/net/Uri;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/tomdroid/ui/Tomdroid;->onPrepareDialog(ILandroid/app/Dialog;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/tomdroid/ui/Tomdroid;->access$600(Lorg/tomdroid/ui/Tomdroid;Ljava/lang/String;I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/tomdroid/ui/Tomdroid$16;->onClick(Landroid/content/DialogInterface;I)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lorg/tomdroid/ui/CompareNotes$2;-><init>(Lorg/tomdroid/ui/CompareNotes;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/tomdroid/ui/CompareNotes;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/tomdroid/util/Receive;->useSendFile(Ljava/io/File;Ljava/lang/String;)V <",
+                "> Lorg/tomdroid/util/Receive;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.VIEW",
+                    "start-activity -a"
+                ]
+            ]
+        }
+    },
+    "Lorg/tomdroid/ui/Tomdroid;->getIntent()Landroid/content/Intent;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/tomdroid/ui/Tomdroid;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    }
+}

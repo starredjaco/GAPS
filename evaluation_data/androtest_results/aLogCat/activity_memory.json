@@ -1,0 +1,220 @@
+{
+    "org.jtb.alogcat.PrefsActivity": {
+        "org.jtb.alogcat.LogActivity": [
+            []
+        ]
+    },
+    "org.jtb.alogcat.LogActivity": {
+        "com.google.android.googlequicksearchbox.InternalGoogleAppActivityEntrypoint": [
+            [
+                "click (932, 63, 1080, 189)",
+                "click (785, 63, 932, 189)"
+            ],
+            [
+                "click (932, 63, 1080, 189)",
+                "click (785, 63, 932, 189)",
+                "click (785, 63, 932, 189)",
+                "click (21, 63, 317, 189)"
+            ],
+            [
+                "click (932, 63, 1080, 189)"
+            ]
+        ],
+        "com.google.android.apps.nexuslauncher.NexusLauncherActivity": [
+            [
+                "click (932, 63, 1080, 189)"
+            ],
+            [
+                "click (785, 63, 932, 189)",
+                "click (785, 63, 932, 189)",
+                "click (932, 63, 1080, 189)",
+                "click (21, 63, 317, 189)"
+            ]
+        ],
+        "com.android.chromeorg.chromium.chrome.browser.ChromeTabbedActivity": [
+            [
+                "click (785, 63, 932, 189)",
+                "click (785, 63, 932, 189)",
+                "click (932, 63, 1080, 189)",
+                "click (21, 63, 317, 189)"
+            ],
+            [
+                "click (932, 63, 1080, 189)",
+                "click (785, 63, 932, 189)"
+            ]
+        ],
+        "com.google.android.inputmethod.latincom.google.android.apps.inputmethod.latin.preference.SettingsActivity": [
+            [
+                "click (932, 63, 1080, 189)",
+                "click (785, 63, 932, 189)"
+            ]
+        ],
+        "com.android.vendingcom.google.android.finsky.offlinegames.impl.OfflineGamesActivity": [
+            [
+                "click (932, 63, 1080, 189)",
+                "swipe android:id/list",
+                "click (785, 63, 932, 189)"
+            ],
+            [
+                "click (932, 63, 1080, 189)",
+                "click (785, 63, 932, 189)"
+            ],
+            [
+                "click (932, 63, 1080, 189)",
+                "click (785, 63, 932, 189)",
+                "click (21, 63, 317, 189)"
+            ],
+            [
+                "click (932, 63, 1080, 189)",
+                "click (638, 63, 785, 189)",
+                "click (638, 63, 785, 189)"
+            ]
+        ],
+        "com.android.vendingcom.google.android.finsky.activities.MainActivity": [
+            [
+                "click (932, 63, 1080, 189)",
+                "swipe android:id/list",
+                "click (785, 63, 932, 189)"
+            ],
+            [
+                "click (932, 63, 1080, 189)",
+                "click (785, 63, 932, 189)",
+                "click (21, 63, 317, 189)",
+                "swipe android:id/list"
+            ],
+            [
+                "click (932, 63, 1080, 189)",
+                "click (785, 63, 932, 189)",
+                "click (785, 63, 932, 189)",
+                "click (21, 63, 317, 189)"
+            ],
+            [
+                "click (785, 63, 932, 189)",
+                "click (785, 63, 932, 189)",
+                "click (21, 63, 317, 189)"
+            ],
+            [
+                "click (785, 63, 932, 189)",
+                "click (932, 63, 1080, 189)"
+            ],
+            [
+                "click (932, 63, 1080, 189)",
+                "click (785, 63, 932, 189)"
+            ],
+            [
+                "click (932, 63, 1080, 189)",
+                "click (785, 63, 932, 189)",
+                "click (21, 63, 317, 189)"
+            ]
+        ]
+    },
+    "com.google.android.googlequicksearchbox.InternalGoogleAppActivityEntrypoint": {
+        "com.google.android.apps.nexuslauncher.NexusLauncherActivity": [
+            [
+                "click (932, 63, 1080, 189)",
+                "click com.google.android.googlequicksearchbox:id/googleapp_search_box_back_button"
+            ],
+            []
+        ],
+        "com.google.android.googlequicksearchboxcom.google.android.apps.search.soundsearch.SoundSearchActivity": [
+            [
+                "click (785, 63, 932, 189)",
+                "click com.google.android.googlequicksearchbox:id/googleapp_search_a_song"
+            ]
+        ],
+        "com.google.android.deskclockcom.android.deskclock.DeskClock": [
+            [
+                "text com.google.android.googlequicksearchbox:id/googleapp_search_box",
+                "click (932, 63, 1080, 189)",
+                "click (34, 234, 236, 446)"
+            ]
+        ],
+        "com.google.android.permissioncontrollercom.android.permissioncontroller.permission.ui.GrantPermissionsActivity": [
+            [
+                "click (932, 63, 1080, 189)"
+            ]
+        ]
+    },
+    "com.google.android.apps.nexuslauncher.NexusLauncherActivity": {
+        "com.google.android.googlequicksearchbox.InternalGoogleAppActivityEntrypoint": [
+            [
+                "click (932, 63, 1080, 189)",
+                "click com.google.android.apps.nexuslauncher:id/search_container_all_apps"
+            ],
+            [
+                "click (785, 63, 932, 189)",
+                "click com.google.android.apps.nexuslauncher:id/search_container_all_apps"
+            ]
+        ],
+        "com.android.chromeorg.chromium.chrome.browser.ChromeTabbedActivity": [
+            [
+                "click (785, 63, 932, 189)",
+                "click (641, 1382, 843, 1592)"
+            ]
+        ]
+    },
+    "com.google.android.googlequicksearchboxcom.google.android.apps.search.soundsearch.SoundSearchActivity": {
+        "com.google.android.googlequicksearchbox.InternalGoogleAppActivityEntrypoint": [
+            []
+        ]
+    },
+    "com.google.android.deskclockcom.android.deskclock.DeskClock": {
+        "com.google.android.apps.nexuslauncher.NexusLauncherActivity": [
+            []
+        ]
+    },
+    "com.android.chromeorg.chromium.chrome.browser.ChromeTabbedActivity": {
+        "com.google.android.inputmethod.latincom.google.android.apps.inputmethod.latin.preference.SettingsActivity": [
+            [
+                "click (932, 63, 1080, 189)",
+                "click com.android.chrome:id/header_menu"
+            ]
+        ]
+    },
+    "com.google.android.inputmethod.latincom.google.android.apps.inputmethod.latin.preference.SettingsActivity": {
+        "com.android.chromeorg.chromium.chrome.browser.ChromeTabbedActivity": [
+            [
+                "click (932, 63, 1080, 189)",
+                "click (0, 73, 147, 220)"
+            ]
+        ]
+    },
+    "com.android.vendingcom.google.android.finsky.offlinegames.impl.OfflineGamesActivity": {
+        "com.android.vendingcom.google.android.finsky.activities.MainActivity": [
+            [
+                "click (932, 63, 1080, 189)",
+                "click com.android.vending:id/0_resource_name_obfuscated"
+            ],
+            [],
+            [
+                "click (932, 63, 1080, 189)"
+            ]
+        ]
+    },
+    "com.android.vendingcom.google.android.finsky.activities.MainActivity": {
+        "com.android.vendingcom.google.android.finsky.offlinegames.impl.OfflineGamesActivity": [
+            [
+                "click (932, 63, 1080, 189)",
+                "click com.android.vending:id/button"
+            ],
+            [
+                "click (785, 63, 932, 189)",
+                "click com.android.vending:id/button"
+            ],
+            [
+                "click com.android.vending:id/0_resource_name_obfuscated",
+                "click com.android.vending:id/button"
+            ]
+        ]
+    },
+    "com.google.android.permissioncontrollercom.android.permissioncontroller.permission.ui.GrantPermissionsActivity": {
+        "com.google.android.googlequicksearchboxcom.google.android.apps.search.lens.LensActivity": [
+            []
+        ]
+    },
+    "com.google.android.googlequicksearchboxcom.google.android.apps.search.lens.LensActivity": {
+        "com.google.android.googlequicksearchbox.InternalGoogleAppActivityEntrypoint": [
+            []
+        ]
+    }
+}

@@ -1,0 +1,107 @@
+{
+    "com.android.settings.applications.specialaccess.deviceadmin.DeviceAdminAdd": {
+        "cri.sanity.screen.AnonymActivity": [
+            [
+                "click android:id/button1"
+            ]
+        ]
+    },
+    "cri.sanity.screen.AnonymActivity": {
+        "cri.sanity.MainActivity": [
+            [],
+            [
+                "click (0, 396, 1080, 564)"
+            ]
+        ]
+    },
+    "cri.sanity.MainActivity": {
+        "cri.sanity.screen.GeneralActivity": [
+            [
+                "swipe android:id/list"
+            ]
+        ],
+        "com.android.vendingcom.google.android.finsky.activities.MainActivity": [
+            [
+                "swipe android:id/list",
+                "swipe android:id/list",
+                "click android:id/button1"
+            ],
+            [
+                "swipe android:id/list"
+            ]
+        ],
+        "cri.sanity.screen.VolumeActivity": [
+            [
+                "swipe android:id/list",
+                "click (0, 129, 1080, 333)"
+            ]
+        ],
+        "cri.sanity.screen.DateTimeActivity": [
+            [
+                "swipe android:id/list",
+                "click (0, 129, 1080, 333)",
+                "swipe android:id/list"
+            ]
+        ],
+        "com.google.android.apps.nexuslauncher.NexusLauncherActivity": [
+            [
+                "swipe android:id/list",
+                "swipe android:id/list"
+            ],
+            [
+                "swipe android:id/list",
+                "swipe android:id/list",
+                "swipe android:id/list",
+                "swipe android:id/list",
+                "swipe android:id/list",
+                "swipe android:id/list"
+            ],
+            [
+                "swipe android:id/list",
+                "swipe android:id/list",
+                "swipe android:id/list",
+                "swipe android:id/list"
+            ],
+            [
+                "swipe android:id/list"
+            ]
+        ],
+        "cri.sanity.screen.ProfileActivity": [
+            [
+                "swipe android:id/list",
+                "swipe android:id/list"
+            ]
+        ]
+    },
+    "cri.sanity.screen.GeneralActivity": {
+        "cri.sanity.MainActivity": [
+            []
+        ]
+    },
+    "cri.sanity.screen.FilterActivity": {
+        "cri.sanity.screen.GeneralActivity": [
+            []
+        ]
+    },
+    "cri.sanity.screen.ProfileActivity": {
+        "AtchDlg:cri.sanitycri.sanity.screen.GeneralActivity": [
+            [
+                "click com.android.settings:id/restricted_action"
+            ]
+        ]
+    },
+    "AtchDlg:cri.sanitycri.sanity.MainActivity": {
+        "cri.sanity.MainActivity": [
+            [
+                "click android:id/title"
+            ]
+        ]
+    },
+    "com.google.android.apps.nexuslauncher.NexusLauncherActivity": {
+        "cri.sanity.MainActivity": [
+            [
+                "swipe android:id/list"
+            ]
+        ]
+    }
+}

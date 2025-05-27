@@ -1,0 +1,22 @@
+{
+    "info.bpace.munchlife.MunchLifeActivity": {
+        "com.android.chromeorg.chromium.chrome.browser.settings.SettingsActivity": [
+            [
+                "click info.bpace.munchlife:id/up_gear_button"
+            ]
+        ],
+        "com.android.chromecom.google.android.apps.chrome.Main": [
+            [
+                "click info.bpace.munchlife:id/up_gear_button"
+            ]
+        ]
+    },
+    "com.android.chromeorg.chromium.chrome.browser.settings.SettingsActivity": {
+        "com.android.chromecom.google.android.apps.chrome.Main": [
+            [
+                "click info.bpace.munchlife:id/up_gear_button",
+                "click (0, 63, 147, 210)"
+            ]
+        ]
+    }
+}

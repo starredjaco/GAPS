@@ -5,6 +5,7 @@ import time
 import logging
 import gc
 import json
+import networkx as nx
 
 from threading import Thread
 from collections import deque
@@ -96,20 +97,19 @@ class GAPS:
         self.start_path_finding()
 
     def _init_data_structures(self):
+        self.graph = nx.DiGraph()
         self.icc = dict()
         self.icc_string_analysis = defaultdict(set)
         self.content_providers = {}
         self.exported_components = {}
 
         self.condition_visited = deque()
-        self.conditional_key = ""
         self.conditional_paths = defaultdict(list)
 
         self.reflection_paths = {}
 
         self.all_methods = defaultdict(set)
         self.search_list = {}
-        self.call_sequences = set()
 
         self.json_output = {}
 
@@ -138,7 +138,6 @@ class GAPS:
         # turn this self.method_index int to an atomic integer
         self.method_index = 0
         self.method_index_lock = Lock()
-        self.method_index = 0
         self.method_objs = defaultdict()
 
     def increment_method_index(self):
@@ -315,8 +314,8 @@ class GAPS:
                         self.custom_seeds[method_name] = deque()
                     self.custom_seeds[method_name].append(
                         {
-                            "class_name": class_name,
-                            "parent_class": parent_name,
+                            "class_name": class_name.strip(),
+                            "parent_class": parent_name.strip(),
                         }
                     )
 
@@ -380,7 +379,9 @@ class GAPS:
         Returns:
             None
         """
-        if not os.path.exists(self.seed_file):
+        if (
+            self.seed_file and (not os.path.exists(self.seed_file))
+        ) and not self.custom_seed_file:
             with open(self.seed_file, "w") as log_file:
                 log_file.write(self.testing_seeds)
 
@@ -477,13 +478,25 @@ class GAPS:
                 if partial_path[-1] in seen_parents:
                     continue
                 seen_parents.add(partial_path[-1])
+                """
+                from pyinstrument import Profiler
+
+                profiler = Profiler()
+                profiler.start()
+                """
                 path_generation.build_paths(
                     [partial_path],
                     self,
                     self.conditional,
                     max_paths=self.max_paths // len(partial_paths),
                 )
+                """
+                profiler.stop()
+                profiler.print()
+                """
+            return "done"
 
+        """
         for idx, instruction in enumerate(self.starting_points):
             process_instruction(idx, instruction)
 
@@ -495,7 +508,6 @@ class GAPS:
             ]
             for future in futures:
                 future.result()
-        """
 
         LOG.info("--- %s seconds ---" % (time.time() - self.start_time))
         self._save_stats()

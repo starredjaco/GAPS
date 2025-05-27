@@ -1,0 +1,81 @@
+{
+    "hu.vsza.adsdroid.SearchPanel": {
+        "hu.vsza.adsdroid.PartList": [
+            [
+                "text hu.vsza.adsdroid:id/part_name",
+                "click (0, 442, 1080, 568)"
+            ],
+            [
+                "click hu.vsza.adsdroid:id/search_mode",
+                "swipe hu.vsza.adsdroid:id/search_mode",
+                "text hu.vsza.adsdroid:id/part_name",
+                "click (0, 442, 1080, 568)"
+            ],
+            [
+                "text hu.vsza.adsdroid:id/part_name",
+                "click hu.vsza.adsdroid:id/search_mode",
+                "click (0, 442, 1080, 568)"
+            ]
+        ],
+        "com.google.android.apps.nexuslauncher.NexusLauncherActivity": [
+            [
+                "click (0, 442, 1080, 568)",
+                "click hu.vsza.adsdroid:id/search_mode",
+                "swipe hu.vsza.adsdroid:id/search_mode"
+            ]
+        ],
+        "com.google.android.googlequicksearchbox.InternalGoogleAppActivityEntrypoint": [
+            [
+                "click (0, 442, 1080, 568)",
+                "click hu.vsza.adsdroid:id/search_mode",
+                "swipe hu.vsza.adsdroid:id/search_mode"
+            ]
+        ],
+        "com.android.vendingcom.google.android.finsky.offlinegames.impl.OfflineGamesActivity": [
+            [
+                "click hu.vsza.adsdroid:id/search_mode",
+                "click (0, 442, 1080, 568)",
+                "swipe hu.vsza.adsdroid:id/search_mode"
+            ]
+        ]
+    },
+    "hu.vsza.adsdroid.PartList": {
+        "hu.vsza.adsdroid.SearchPanel": [
+            [],
+            [
+                "swipe android:id/list",
+                "swipe android:id/list",
+                "swipe android:id/list",
+                "swipe android:id/list",
+                "swipe android:id/list",
+                "swipe android:id/list",
+                "swipe android:id/list",
+                "swipe android:id/list",
+                "swipe android:id/list"
+            ],
+            [
+                "swipe android:id/list"
+            ],
+            [
+                "swipe android:id/list",
+                "swipe android:id/list",
+                "swipe android:id/list",
+                "swipe android:id/list"
+            ]
+        ]
+    },
+    "com.google.android.apps.nexuslauncher.NexusLauncherActivity": {
+        "com.google.android.googlequicksearchbox.InternalGoogleAppActivityEntrypoint": [
+            [
+                "text hu.vsza.adsdroid:id/part_name"
+            ]
+        ]
+    },
+    "com.android.vendingcom.google.android.finsky.activities.MainActivity": {
+        "com.android.vendingcom.google.android.finsky.offlinegames.impl.OfflineGamesActivity": [
+            [
+                "click com.android.vending:id/button"
+            ]
+        ]
+    }
+}

@@ -1,0 +1,766 @@
+{
+    "Lorg/totschnig/myexpenses/activity/MyPreferenceActivity;->showContribDialog(Lorg/totschnig/myexpenses/model/ContribFeature;Ljava/io/Serializable;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/totschnig/myexpenses/fragment/BaseSettingsFragment;->handleContrib(Lorg/totschnig/myexpenses/preference/PrefKey;Lorg/totschnig/myexpenses/model/ContribFeature;Landroidx/preference/Preference;)Z <",
+                "> Lorg/totschnig/myexpenses/fragment/BaseSettingsFragment;->onPreferenceClick(Landroidx/preference/Preference;)Z <",
+                "> Lorg/totschnig/myexpenses/fragment/SettingsFragment;-><init>()V <",
+                "> Lorg/totschnig/myexpenses/activity/MyPreferenceActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/totschnig/myexpenses/activity/BaseActivity;->dispatchCommand(ILjava/lang/Object;)Z <",
+                "> Lorg/totschnig/myexpenses/activity/BaseActivity;->onPositive(Landroid/os/Bundle;Z)V <",
+                "> Lorg/totschnig/myexpenses/activity/ExpenseEdit;->onPositive(Landroid/os/Bundle;Z)V <",
+                "> Lorg/totschnig/myexpenses/service/PlanExecutor;->doWork(Lkotlin/coroutines/Continuation;)Ljava/lang/Object; <",
+                "> Lorg/totschnig/myexpenses/service/PlanExecutor$Companion;->buildWorkRequest(Ljava/lang/Long;)Landroidx/work/OneTimeWorkRequest; <",
+                "> Lorg/totschnig/myexpenses/service/PlanExecutor$Companion;->enqueueSelf(Landroid/content/Context;Lorg/totschnig/myexpenses/preference/PrefHandler;Z)V <",
+                "> Lorg/totschnig/myexpenses/model/Template;->save(Ljava/lang/Long;)Landroid/net/Uri; <",
+                "> Lorg/totschnig/myexpenses/model/Transaction;->save(Z)Landroid/net/Uri; <",
+                "> Lorg/totschnig/myexpenses/task/QifImportTask;->insertTransactions(Lorg/totschnig/myexpenses/model2/Account;Ljava/util/List;)I <",
+                "> Lorg/totschnig/myexpenses/task/QifImportTask;->insertTransactions(Ljava/util/List;Landroid/content/Context;)V <",
+                "> Lorg/totschnig/myexpenses/task/QifImportTask;->doImport(Lorg/totschnig/myexpenses/export/qif/QifParser;Landroid/content/Context;)V <",
+                "> Lorg/totschnig/myexpenses/task/QifImportTask;->doInBackground([Ljava/lang/Void;)Ljava/lang/Void; <",
+                "> Lorg/totschnig/myexpenses/task/QifImportTask;->doInBackground([Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lorg/totschnig/myexpenses/task/TaskExecutionFragment;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/totschnig/myexpenses/task/TaskExecutionFragment;->newInstanceWithBundle(Landroid/os/Bundle;I)Lorg/totschnig/myexpenses/task/TaskExecutionFragment; <",
+                "> Lorg/totschnig/myexpenses/activity/ProtectedFragmentActivity;->startTaskExecution(ILandroid/os/Bundle;I)V <",
+                "> Lorg/totschnig/myexpenses/activity/SimpleToastActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.totschnig.myexpenses.debug/org.totschnig.myexpenses.activity.SimpleToastActivity",
+                    "start -n"
+                ]
+            ]
+        }
+    },
+    "Lorg/totschnig/myexpenses/activity/LiveLiterals$SortDelegateKt;->Boolean$fun-$anonymous$$arg-0$call-let$else$when$val-tmp1_elvis_lhs$fun-onOptionsItemSelected$class-SortDelegate()Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/totschnig/myexpenses/activity/SortDelegate;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lorg/totschnig/myexpenses/activity/ManageCategories;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lorg/totschnig/myexpenses/activity/ExpenseEdit;->startSelectCategory()V <",
+                "> Lorg/totschnig/myexpenses/delegate/CategoryDelegate;->bind$lambda$0(Lorg/totschnig/myexpenses/delegate/CategoryDelegate;Landroid/view/View;)V <",
+                "> Lorg/totschnig/myexpenses/delegate/CategoryDelegate;->$r8$lambda$YmPPHQ_tuosipoe6XbNSpirlk_U(Lorg/totschnig/myexpenses/delegate/CategoryDelegate;Landroid/view/View;)V <",
+                "> Lorg/totschnig/myexpenses/delegate/CategoryDelegate$$ExternalSyntheticLambda0;->onClick(Landroid/view/View;)V <",
+                "> Lorg/totschnig/myexpenses/delegate/CategoryDelegate;->bind(Lorg/totschnig/myexpenses/model/ITransaction;ZLandroid/os/Bundle;Lorg/totschnig/myexpenses/model/Plan$Recurrence;Z)V <",
+                "> Lorg/totschnig/myexpenses/delegate/TransactionDelegate$Companion;->create(IZLorg/totschnig/myexpenses/databinding/OneExpenseBinding;Lorg/totschnig/myexpenses/databinding/DateEditBinding;Lorg/totschnig/myexpenses/databinding/MethodRowBinding;Lorg/totschnig/myexpenses/di/AppComponent;)Lorg/totschnig/myexpenses/delegate/TransactionDelegate; <",
+                "> Lorg/totschnig/myexpenses/activity/ExpenseEdit;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/totschnig/myexpenses/service/PlanExecutor;->doWork(Lkotlin/coroutines/Continuation;)Ljava/lang/Object; <",
+                "> Lorg/totschnig/myexpenses/service/PlanExecutor$Companion;->buildWorkRequest(Ljava/lang/Long;)Landroidx/work/OneTimeWorkRequest; <",
+                "> Lorg/totschnig/myexpenses/service/PlanExecutor$Companion;->enqueueSelf(Landroid/content/Context;Lorg/totschnig/myexpenses/preference/PrefHandler;Z)V <",
+                "> Lorg/totschnig/myexpenses/model/Template;->save(Ljava/lang/Long;)Landroid/net/Uri; <",
+                "> Lorg/totschnig/myexpenses/model/Transaction;->save(Z)Landroid/net/Uri; <",
+                "> Lorg/totschnig/myexpenses/task/QifImportTask;->insertTransactions(Lorg/totschnig/myexpenses/model2/Account;Ljava/util/List;)I <",
+                "> Lorg/totschnig/myexpenses/task/QifImportTask;->insertTransactions(Ljava/util/List;Landroid/content/Context;)V <",
+                "> Lorg/totschnig/myexpenses/task/QifImportTask;->doImport(Lorg/totschnig/myexpenses/export/qif/QifParser;Landroid/content/Context;)V <",
+                "> Lorg/totschnig/myexpenses/task/QifImportTask;->doInBackground([Ljava/lang/Void;)Ljava/lang/Void; <",
+                "> Lorg/totschnig/myexpenses/task/QifImportTask;->doInBackground([Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lorg/totschnig/myexpenses/task/TaskExecutionFragment;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/totschnig/myexpenses/task/TaskExecutionFragment;->newInstanceWithBundle(Landroid/os/Bundle;I)Lorg/totschnig/myexpenses/task/TaskExecutionFragment; <",
+                "> Lorg/totschnig/myexpenses/activity/ProtectedFragmentActivity;->startTaskExecution(ILandroid/os/Bundle;I)V <",
+                "> Lorg/totschnig/myexpenses/activity/SimpleToastActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.totschnig.myexpenses.debug/org.totschnig.myexpenses.activity.SimpleToastActivity",
+                    "start -n"
+                ],
+                [
+                    "org.totschnig.myexpenses.activity.ExpenseEdit",
+                    "<unknown>"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.totschnig.myexpenses.activity.ManageCategories",
+                    "<unknown>"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.totschnig.myexpenses.activity.ManageCategories",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lorg/totschnig/myexpenses/activity/LiveLiterals$RoadmapVoteActivityKt;->Int$val-currentTotalWeight$fun-$get-currentTotalWeight$$get$val-currentTotalWeight$class-RoadmapVoteActivity()I": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/totschnig/myexpenses/activity/RoadmapVoteActivity;->getCurrentTotalWeight()I <",
+                "> Lorg/totschnig/myexpenses/activity/RoadmapVoteActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lorg/totschnig/myexpenses/activity/MyExpenses;->dispatchCommand(ILjava/lang/Object;)Z <",
+                "> Lorg/totschnig/myexpenses/activity/MyExpenses;->lambda$onCreate$0(Landroid/view/MenuItem;)Z <",
+                "> Lorg/totschnig/myexpenses/activity/MyExpenses;->$r8$lambda$PNWYgD6WriCCp8qz_zkFOEK1iFY(Lorg/totschnig/myexpenses/activity/MyExpenses;Landroid/view/MenuItem;)Z <",
+                "> Lorg/totschnig/myexpenses/activity/MyExpenses$$ExternalSyntheticLambda2;->onNavigationItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lorg/totschnig/myexpenses/activity/MyExpenses;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/totschnig/myexpenses/service/PlanExecutor;->doWork(Lkotlin/coroutines/Continuation;)Ljava/lang/Object; <",
+                "> Lorg/totschnig/myexpenses/service/PlanExecutor$Companion;->buildWorkRequest(Ljava/lang/Long;)Landroidx/work/OneTimeWorkRequest; <",
+                "> Lorg/totschnig/myexpenses/service/PlanExecutor$Companion;->enqueueSelf(Landroid/content/Context;Lorg/totschnig/myexpenses/preference/PrefHandler;Z)V <",
+                "> Lorg/totschnig/myexpenses/model/Template;->save(Ljava/lang/Long;)Landroid/net/Uri; <",
+                "> Lorg/totschnig/myexpenses/model/Transaction;->save(Z)Landroid/net/Uri; <",
+                "> Lorg/totschnig/myexpenses/task/QifImportTask;->insertTransactions(Lorg/totschnig/myexpenses/model2/Account;Ljava/util/List;)I <",
+                "> Lorg/totschnig/myexpenses/task/QifImportTask;->insertTransactions(Ljava/util/List;Landroid/content/Context;)V <",
+                "> Lorg/totschnig/myexpenses/task/QifImportTask;->doImport(Lorg/totschnig/myexpenses/export/qif/QifParser;Landroid/content/Context;)V <",
+                "> Lorg/totschnig/myexpenses/task/QifImportTask;->doInBackground([Ljava/lang/Void;)Ljava/lang/Void; <",
+                "> Lorg/totschnig/myexpenses/task/QifImportTask;->doInBackground([Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lorg/totschnig/myexpenses/task/TaskExecutionFragment;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/totschnig/myexpenses/task/TaskExecutionFragment;->newInstanceWithBundle(Landroid/os/Bundle;I)Lorg/totschnig/myexpenses/task/TaskExecutionFragment; <",
+                "> Lorg/totschnig/myexpenses/activity/ProtectedFragmentActivity;->startTaskExecution(ILandroid/os/Bundle;I)V <",
+                "> Lorg/totschnig/myexpenses/activity/SimpleToastActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.totschnig.myexpenses.debug/org.totschnig.myexpenses.activity.SimpleToastActivity",
+                    "start -n"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.totschnig.myexpenses.activity.RoadmapVoteActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lorg/totschnig/myexpenses/activity/DebtActivity;->getDebtViewModel()Lorg/totschnig/myexpenses/viewmodel/DebtViewModel;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/totschnig/myexpenses/activity/DebtActivity;->deleteDebtDo(J)V <",
+                "> Lorg/totschnig/myexpenses/activity/DebtActivity;->dispatchCommand(ILjava/lang/Object;)Z <",
+                "> Lorg/totschnig/myexpenses/activity/ManageParties;->dispatchCommand(ILjava/lang/Object;)Z <",
+                "> Lorg/totschnig/myexpenses/activity/MyExpenses;->dispatchCommand(ILjava/lang/Object;)Z <",
+                "> Lorg/totschnig/myexpenses/activity/MyExpenses;->lambda$onCreate$0(Landroid/view/MenuItem;)Z <",
+                "> Lorg/totschnig/myexpenses/activity/MyExpenses;->$r8$lambda$PNWYgD6WriCCp8qz_zkFOEK1iFY(Lorg/totschnig/myexpenses/activity/MyExpenses;Landroid/view/MenuItem;)Z <",
+                "> Lorg/totschnig/myexpenses/activity/MyExpenses$$ExternalSyntheticLambda2;->onNavigationItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lorg/totschnig/myexpenses/activity/MyExpenses;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/totschnig/myexpenses/service/PlanExecutor;->doWork(Lkotlin/coroutines/Continuation;)Ljava/lang/Object; <",
+                "> Lorg/totschnig/myexpenses/service/PlanExecutor$Companion;->buildWorkRequest(Ljava/lang/Long;)Landroidx/work/OneTimeWorkRequest; <",
+                "> Lorg/totschnig/myexpenses/service/PlanExecutor$Companion;->enqueueSelf(Landroid/content/Context;Lorg/totschnig/myexpenses/preference/PrefHandler;Z)V <",
+                "> Lorg/totschnig/myexpenses/model/Template;->save(Ljava/lang/Long;)Landroid/net/Uri; <",
+                "> Lorg/totschnig/myexpenses/model/Transaction;->save(Z)Landroid/net/Uri; <",
+                "> Lorg/totschnig/myexpenses/task/QifImportTask;->insertTransactions(Lorg/totschnig/myexpenses/model2/Account;Ljava/util/List;)I <",
+                "> Lorg/totschnig/myexpenses/task/QifImportTask;->insertTransactions(Ljava/util/List;Landroid/content/Context;)V <",
+                "> Lorg/totschnig/myexpenses/task/QifImportTask;->doImport(Lorg/totschnig/myexpenses/export/qif/QifParser;Landroid/content/Context;)V <",
+                "> Lorg/totschnig/myexpenses/task/QifImportTask;->doInBackground([Ljava/lang/Void;)Ljava/lang/Void; <",
+                "> Lorg/totschnig/myexpenses/task/QifImportTask;->doInBackground([Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lorg/totschnig/myexpenses/task/TaskExecutionFragment;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/totschnig/myexpenses/task/TaskExecutionFragment;->newInstanceWithBundle(Landroid/os/Bundle;I)Lorg/totschnig/myexpenses/task/TaskExecutionFragment; <",
+                "> Lorg/totschnig/myexpenses/activity/ProtectedFragmentActivity;->startTaskExecution(ILandroid/os/Bundle;I)V <",
+                "> Lorg/totschnig/myexpenses/activity/SimpleToastActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.totschnig.myexpenses.debug/org.totschnig.myexpenses.activity.SimpleToastActivity",
+                    "start -n"
+                ]
+            ]
+        }
+    },
+    "Lorg/totschnig/myexpenses/activity/LiveLiterals$CsvImportActivityKt;->Boolean$branch$if$fun-shouldGoBack$class-CsvImportActivity()Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/totschnig/myexpenses/activity/CsvImportActivity;->shouldGoBack()Z <",
+                "> Lorg/totschnig/myexpenses/activity/CsvImportActivity;->doHome()V <",
+                "> Lorg/totschnig/myexpenses/activity/MyPreferenceActivity;->contribFeatureCalled(Lorg/totschnig/myexpenses/model/ContribFeature;Ljava/io/Serializable;)V <",
+                "> Lorg/totschnig/myexpenses/fragment/BaseSettingsFragment;->handleContrib(Lorg/totschnig/myexpenses/preference/PrefKey;Lorg/totschnig/myexpenses/model/ContribFeature;Landroidx/preference/Preference;)Z <",
+                "> Lorg/totschnig/myexpenses/fragment/BaseSettingsFragment;->onPreferenceClick(Landroidx/preference/Preference;)Z <",
+                "> Lorg/totschnig/myexpenses/fragment/SettingsFragment;-><init>()V <",
+                "> Lorg/totschnig/myexpenses/activity/MyPreferenceActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/totschnig/myexpenses/activity/BaseActivity;->dispatchCommand(ILjava/lang/Object;)Z <",
+                "> Lorg/totschnig/myexpenses/activity/BaseActivity;->onPositive(Landroid/os/Bundle;Z)V <",
+                "> Lorg/totschnig/myexpenses/activity/ExpenseEdit;->onPositive(Landroid/os/Bundle;Z)V <",
+                "> Lorg/totschnig/myexpenses/service/PlanExecutor;->doWork(Lkotlin/coroutines/Continuation;)Ljava/lang/Object; <",
+                "> Lorg/totschnig/myexpenses/service/PlanExecutor$Companion;->buildWorkRequest(Ljava/lang/Long;)Landroidx/work/OneTimeWorkRequest; <",
+                "> Lorg/totschnig/myexpenses/service/PlanExecutor$Companion;->enqueueSelf(Landroid/content/Context;Lorg/totschnig/myexpenses/preference/PrefHandler;Z)V <",
+                "> Lorg/totschnig/myexpenses/model/Template;->save(Ljava/lang/Long;)Landroid/net/Uri; <",
+                "> Lorg/totschnig/myexpenses/model/Transaction;->save(Z)Landroid/net/Uri; <",
+                "> Lorg/totschnig/myexpenses/task/QifImportTask;->insertTransactions(Lorg/totschnig/myexpenses/model2/Account;Ljava/util/List;)I <",
+                "> Lorg/totschnig/myexpenses/task/QifImportTask;->insertTransactions(Ljava/util/List;Landroid/content/Context;)V <",
+                "> Lorg/totschnig/myexpenses/task/QifImportTask;->doImport(Lorg/totschnig/myexpenses/export/qif/QifParser;Landroid/content/Context;)V <",
+                "> Lorg/totschnig/myexpenses/task/QifImportTask;->doInBackground([Ljava/lang/Void;)Ljava/lang/Void; <",
+                "> Lorg/totschnig/myexpenses/task/QifImportTask;->doInBackground([Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lorg/totschnig/myexpenses/task/TaskExecutionFragment;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/totschnig/myexpenses/task/TaskExecutionFragment;->newInstanceWithBundle(Landroid/os/Bundle;I)Lorg/totschnig/myexpenses/task/TaskExecutionFragment; <",
+                "> Lorg/totschnig/myexpenses/activity/ProtectedFragmentActivity;->startTaskExecution(ILandroid/os/Bundle;I)V <",
+                "> Lorg/totschnig/myexpenses/activity/SimpleToastActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.totschnig.myexpenses.debug/org.totschnig.myexpenses.activity.SimpleToastActivity",
+                    "start -n"
+                ]
+            ]
+        }
+    },
+    "Lorg/totschnig/myexpenses/activity/EditActivity;->getSupportFragmentManager()Landroidx/fragment/app/FragmentManager;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/totschnig/myexpenses/activity/EditActivity;->showDiscardDialog()V <",
+                "> Lorg/totschnig/myexpenses/activity/EditActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lorg/totschnig/myexpenses/activity/ExpenseEdit;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lorg/totschnig/myexpenses/service/PlanExecutor;->doWork(Lkotlin/coroutines/Continuation;)Ljava/lang/Object; <",
+                "> Lorg/totschnig/myexpenses/service/PlanExecutor$Companion;->buildWorkRequest(Ljava/lang/Long;)Landroidx/work/OneTimeWorkRequest; <",
+                "> Lorg/totschnig/myexpenses/service/PlanExecutor$Companion;->enqueueSelf(Landroid/content/Context;Lorg/totschnig/myexpenses/preference/PrefHandler;Z)V <",
+                "> Lorg/totschnig/myexpenses/model/Template;->save(Ljava/lang/Long;)Landroid/net/Uri; <",
+                "> Lorg/totschnig/myexpenses/model/Transaction;->save(Z)Landroid/net/Uri; <",
+                "> Lorg/totschnig/myexpenses/task/QifImportTask;->insertTransactions(Lorg/totschnig/myexpenses/model2/Account;Ljava/util/List;)I <",
+                "> Lorg/totschnig/myexpenses/task/QifImportTask;->insertTransactions(Ljava/util/List;Landroid/content/Context;)V <",
+                "> Lorg/totschnig/myexpenses/task/QifImportTask;->doImport(Lorg/totschnig/myexpenses/export/qif/QifParser;Landroid/content/Context;)V <",
+                "> Lorg/totschnig/myexpenses/task/QifImportTask;->doInBackground([Ljava/lang/Void;)Ljava/lang/Void; <",
+                "> Lorg/totschnig/myexpenses/task/QifImportTask;->doInBackground([Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lorg/totschnig/myexpenses/task/TaskExecutionFragment;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/totschnig/myexpenses/task/TaskExecutionFragment;->newInstanceWithBundle(Landroid/os/Bundle;I)Lorg/totschnig/myexpenses/task/TaskExecutionFragment; <",
+                "> Lorg/totschnig/myexpenses/activity/ProtectedFragmentActivity;->startTaskExecution(ILandroid/os/Bundle;I)V <",
+                "> Lorg/totschnig/myexpenses/activity/SimpleToastActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/totschnig/myexpenses/activity/EditActivity;-><init>()V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/totschnig/myexpenses/activity/MethodEdit;-><init>()V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/totschnig/myexpenses/activity/ManageMethods;->dispatchCommand(ILjava/lang/Object;)Z <",
+                "----- CONDITIONAL -----",
+                "> Lorg/totschnig/myexpenses/activity/ManageTemplates;->dispatchCommand(ILjava/lang/Object;)Z <",
+                "----- CONDITIONAL -----"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.provider.calendar.action.HANDLE_CUSTOM_EVENT",
+                    "start-activity -a"
+                ],
+                [
+                    "intent",
+                    "org.totschnig.myexpenses.debug/org.totschnig.myexpenses.activity.SimpleToastActivity",
+                    "start -n"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.totschnig.myexpenses.activity.ExpenseEdit",
+                    "<unknown>"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "org.totschnig.myexpenses.activity.EditActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lorg/totschnig/myexpenses/activity/BaseActivity$special$$inlined$viewModels$default$2;-><init>(Landroidx/activity/ComponentActivity;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/totschnig/myexpenses/activity/BaseActivity;-><init>()V <",
+                "> Lorg/totschnig/myexpenses/activity/ProtectedFragmentActivity;-><init>()V <",
+                "> Lorg/totschnig/myexpenses/activity/SimpleToastActivity;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.totschnig.myexpenses.debug/org.totschnig.myexpenses.activity.SimpleToastActivity",
+                    "start -n"
+                ]
+            ]
+        }
+    },
+    "Lorg/totschnig/myexpenses/activity/LiveLiterals$BaseActivityKt;->Int$arg-0$call-rangeTo$$this$call-contains$branch$cond$if$fun-maybeRepairRequerySchema$class-BaseActivity()I": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/totschnig/myexpenses/activity/BaseActivity;->maybeRepairRequerySchema()V <",
+                "> Lorg/totschnig/myexpenses/activity/ExpenseEdit;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/totschnig/myexpenses/service/PlanExecutor;->doWork(Lkotlin/coroutines/Continuation;)Ljava/lang/Object; <",
+                "> Lorg/totschnig/myexpenses/service/PlanExecutor$Companion;->buildWorkRequest(Ljava/lang/Long;)Landroidx/work/OneTimeWorkRequest; <",
+                "> Lorg/totschnig/myexpenses/service/PlanExecutor$Companion;->enqueueSelf(Landroid/content/Context;Lorg/totschnig/myexpenses/preference/PrefHandler;Z)V <",
+                "> Lorg/totschnig/myexpenses/model/Template;->save(Ljava/lang/Long;)Landroid/net/Uri; <",
+                "> Lorg/totschnig/myexpenses/model/Transaction;->save(Z)Landroid/net/Uri; <",
+                "> Lorg/totschnig/myexpenses/task/QifImportTask;->insertTransactions(Lorg/totschnig/myexpenses/model2/Account;Ljava/util/List;)I <",
+                "> Lorg/totschnig/myexpenses/task/QifImportTask;->insertTransactions(Ljava/util/List;Landroid/content/Context;)V <",
+                "> Lorg/totschnig/myexpenses/task/QifImportTask;->doImport(Lorg/totschnig/myexpenses/export/qif/QifParser;Landroid/content/Context;)V <",
+                "> Lorg/totschnig/myexpenses/task/QifImportTask;->doInBackground([Ljava/lang/Void;)Ljava/lang/Void; <",
+                "> Lorg/totschnig/myexpenses/task/QifImportTask;->doInBackground([Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lorg/totschnig/myexpenses/task/TaskExecutionFragment;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/totschnig/myexpenses/task/TaskExecutionFragment;->newInstanceWithBundle(Landroid/os/Bundle;I)Lorg/totschnig/myexpenses/task/TaskExecutionFragment; <",
+                "> Lorg/totschnig/myexpenses/activity/ProtectedFragmentActivity;->startTaskExecution(ILandroid/os/Bundle;I)V <",
+                "> Lorg/totschnig/myexpenses/activity/SimpleToastActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.totschnig.myexpenses.debug/org.totschnig.myexpenses.activity.SimpleToastActivity",
+                    "start -n"
+                ]
+            ]
+        }
+    },
+    "Lorg/totschnig/myexpenses/activity/BackupRestoreActivity;->doRestore(Landroid/os/Bundle;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/totschnig/myexpenses/activity/BackupRestoreActivity;->onPositive(Landroid/os/Bundle;Z)V <",
+                "> Lorg/totschnig/myexpenses/activity/MyExpenses;->dispatchCommand(ILjava/lang/Object;)Z <",
+                "> Lorg/totschnig/myexpenses/activity/MyExpenses;->lambda$onCreate$0(Landroid/view/MenuItem;)Z <",
+                "> Lorg/totschnig/myexpenses/activity/MyExpenses;->$r8$lambda$PNWYgD6WriCCp8qz_zkFOEK1iFY(Lorg/totschnig/myexpenses/activity/MyExpenses;Landroid/view/MenuItem;)Z <",
+                "> Lorg/totschnig/myexpenses/activity/MyExpenses$$ExternalSyntheticLambda2;->onNavigationItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lorg/totschnig/myexpenses/activity/MyExpenses;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/totschnig/myexpenses/service/PlanExecutor;->doWork(Lkotlin/coroutines/Continuation;)Ljava/lang/Object; <",
+                "> Lorg/totschnig/myexpenses/service/PlanExecutor$Companion;->buildWorkRequest(Ljava/lang/Long;)Landroidx/work/OneTimeWorkRequest; <",
+                "> Lorg/totschnig/myexpenses/service/PlanExecutor$Companion;->enqueueSelf(Landroid/content/Context;Lorg/totschnig/myexpenses/preference/PrefHandler;Z)V <",
+                "> Lorg/totschnig/myexpenses/model/Template;->save(Ljava/lang/Long;)Landroid/net/Uri; <",
+                "> Lorg/totschnig/myexpenses/model/Transaction;->save(Z)Landroid/net/Uri; <",
+                "> Lorg/totschnig/myexpenses/task/QifImportTask;->insertTransactions(Lorg/totschnig/myexpenses/model2/Account;Ljava/util/List;)I <",
+                "> Lorg/totschnig/myexpenses/task/QifImportTask;->insertTransactions(Ljava/util/List;Landroid/content/Context;)V <",
+                "> Lorg/totschnig/myexpenses/task/QifImportTask;->doImport(Lorg/totschnig/myexpenses/export/qif/QifParser;Landroid/content/Context;)V <",
+                "> Lorg/totschnig/myexpenses/task/QifImportTask;->doInBackground([Ljava/lang/Void;)Ljava/lang/Void; <",
+                "> Lorg/totschnig/myexpenses/task/QifImportTask;->doInBackground([Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lorg/totschnig/myexpenses/task/TaskExecutionFragment;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/totschnig/myexpenses/task/TaskExecutionFragment;->newInstanceWithBundle(Landroid/os/Bundle;I)Lorg/totschnig/myexpenses/task/TaskExecutionFragment; <",
+                "> Lorg/totschnig/myexpenses/activity/ProtectedFragmentActivity;->startTaskExecution(ILandroid/os/Bundle;I)V <",
+                "> Lorg/totschnig/myexpenses/activity/SimpleToastActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.totschnig.myexpenses.debug/org.totschnig.myexpenses.activity.SimpleToastActivity",
+                    "start -n"
+                ]
+            ]
+        }
+    },
+    "Lorg/totschnig/myexpenses/activity/ManageTags;->getFloatingActionButton()Lcom/google/android/material/floatingactionbutton/FloatingActionButton;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/totschnig/myexpenses/activity/ManageTags;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/totschnig/myexpenses/activity/AmountActivity;->startTagSelection(Landroid/view/View;)V <",
+                "> Lorg/totschnig/myexpenses/activity/ExpenseEdit;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/totschnig/myexpenses/service/PlanExecutor;->doWork(Lkotlin/coroutines/Continuation;)Ljava/lang/Object; <",
+                "> Lorg/totschnig/myexpenses/service/PlanExecutor$Companion;->buildWorkRequest(Ljava/lang/Long;)Landroidx/work/OneTimeWorkRequest; <",
+                "> Lorg/totschnig/myexpenses/service/PlanExecutor$Companion;->enqueueSelf(Landroid/content/Context;Lorg/totschnig/myexpenses/preference/PrefHandler;Z)V <",
+                "> Lorg/totschnig/myexpenses/model/Template;->save(Ljava/lang/Long;)Landroid/net/Uri; <",
+                "> Lorg/totschnig/myexpenses/model/Transaction;->save(Z)Landroid/net/Uri; <",
+                "> Lorg/totschnig/myexpenses/task/QifImportTask;->insertTransactions(Lorg/totschnig/myexpenses/model2/Account;Ljava/util/List;)I <",
+                "> Lorg/totschnig/myexpenses/task/QifImportTask;->insertTransactions(Ljava/util/List;Landroid/content/Context;)V <",
+                "> Lorg/totschnig/myexpenses/task/QifImportTask;->doImport(Lorg/totschnig/myexpenses/export/qif/QifParser;Landroid/content/Context;)V <",
+                "> Lorg/totschnig/myexpenses/task/QifImportTask;->doInBackground([Ljava/lang/Void;)Ljava/lang/Void; <",
+                "> Lorg/totschnig/myexpenses/task/QifImportTask;->doInBackground([Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lorg/totschnig/myexpenses/task/TaskExecutionFragment;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/totschnig/myexpenses/task/TaskExecutionFragment;->newInstanceWithBundle(Landroid/os/Bundle;I)Lorg/totschnig/myexpenses/task/TaskExecutionFragment; <",
+                "> Lorg/totschnig/myexpenses/activity/ProtectedFragmentActivity;->startTaskExecution(ILandroid/os/Bundle;I)V <",
+                "> Lorg/totschnig/myexpenses/activity/SimpleToastActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.totschnig.myexpenses.debug/org.totschnig.myexpenses.activity.SimpleToastActivity",
+                    "start -n"
+                ]
+            ]
+        }
+    },
+    "Lorg/totschnig/myexpenses/activity/RestoreActivity;->onPermissionsDenied(ILjava/util/List;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/totschnig/myexpenses/activity/SyncBackendSetupActivity;->onPermissionsDenied(ILjava/util/List;)V <",
+                "> Lorg/totschnig/myexpenses/activity/MyPreferenceActivity;->onPermissionsDenied(ILjava/util/List;)V <",
+                "> Lorg/totschnig/myexpenses/activity/BaseActivity;->dispatchCommand(ILjava/lang/Object;)Z <",
+                "> Lorg/totschnig/myexpenses/activity/BaseActivity;->onPositive(Landroid/os/Bundle;Z)V <",
+                "> Lorg/totschnig/myexpenses/activity/ExpenseEdit;->onPositive(Landroid/os/Bundle;Z)V <",
+                "> Lorg/totschnig/myexpenses/service/PlanExecutor;->doWork(Lkotlin/coroutines/Continuation;)Ljava/lang/Object; <",
+                "> Lorg/totschnig/myexpenses/service/PlanExecutor$Companion;->buildWorkRequest(Ljava/lang/Long;)Landroidx/work/OneTimeWorkRequest; <",
+                "> Lorg/totschnig/myexpenses/service/PlanExecutor$Companion;->enqueueSelf(Landroid/content/Context;Lorg/totschnig/myexpenses/preference/PrefHandler;Z)V <",
+                "> Lorg/totschnig/myexpenses/model/Template;->save(Ljava/lang/Long;)Landroid/net/Uri; <",
+                "> Lorg/totschnig/myexpenses/model/Transaction;->save(Z)Landroid/net/Uri; <",
+                "> Lorg/totschnig/myexpenses/task/QifImportTask;->insertTransactions(Lorg/totschnig/myexpenses/model2/Account;Ljava/util/List;)I <",
+                "> Lorg/totschnig/myexpenses/task/QifImportTask;->insertTransactions(Ljava/util/List;Landroid/content/Context;)V <",
+                "> Lorg/totschnig/myexpenses/task/QifImportTask;->doImport(Lorg/totschnig/myexpenses/export/qif/QifParser;Landroid/content/Context;)V <",
+                "> Lorg/totschnig/myexpenses/task/QifImportTask;->doInBackground([Ljava/lang/Void;)Ljava/lang/Void; <",
+                "> Lorg/totschnig/myexpenses/task/QifImportTask;->doInBackground([Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lorg/totschnig/myexpenses/task/TaskExecutionFragment;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/totschnig/myexpenses/task/TaskExecutionFragment;->newInstanceWithBundle(Landroid/os/Bundle;I)Lorg/totschnig/myexpenses/task/TaskExecutionFragment; <",
+                "> Lorg/totschnig/myexpenses/activity/ProtectedFragmentActivity;->startTaskExecution(ILandroid/os/Bundle;I)V <",
+                "> Lorg/totschnig/myexpenses/activity/SimpleToastActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.totschnig.myexpenses.debug/org.totschnig.myexpenses.activity.SimpleToastActivity",
+                    "start -n"
+                ]
+            ]
+        }
+    },
+    "Lorg/totschnig/myexpenses/activity/CsvImportActivity;->getSupportActionBar()Landroidx/appcompat/app/ActionBar;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/totschnig/myexpenses/activity/CsvImportActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/totschnig/myexpenses/activity/MyPreferenceActivity;->contribFeatureCalled(Lorg/totschnig/myexpenses/model/ContribFeature;Ljava/io/Serializable;)V <",
+                "> Lorg/totschnig/myexpenses/fragment/BaseSettingsFragment;->handleContrib(Lorg/totschnig/myexpenses/preference/PrefKey;Lorg/totschnig/myexpenses/model/ContribFeature;Landroidx/preference/Preference;)Z <",
+                "> Lorg/totschnig/myexpenses/fragment/BaseSettingsFragment;->onPreferenceClick(Landroidx/preference/Preference;)Z <",
+                "> Lorg/totschnig/myexpenses/fragment/SettingsFragment;-><init>()V <",
+                "> Lorg/totschnig/myexpenses/activity/MyPreferenceActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/totschnig/myexpenses/activity/BaseActivity;->dispatchCommand(ILjava/lang/Object;)Z <",
+                "> Lorg/totschnig/myexpenses/activity/BaseActivity;->onPositive(Landroid/os/Bundle;Z)V <",
+                "> Lorg/totschnig/myexpenses/activity/ExpenseEdit;->onPositive(Landroid/os/Bundle;Z)V <",
+                "> Lorg/totschnig/myexpenses/service/PlanExecutor;->doWork(Lkotlin/coroutines/Continuation;)Ljava/lang/Object; <",
+                "> Lorg/totschnig/myexpenses/service/PlanExecutor$Companion;->buildWorkRequest(Ljava/lang/Long;)Landroidx/work/OneTimeWorkRequest; <",
+                "> Lorg/totschnig/myexpenses/service/PlanExecutor$Companion;->enqueueSelf(Landroid/content/Context;Lorg/totschnig/myexpenses/preference/PrefHandler;Z)V <",
+                "> Lorg/totschnig/myexpenses/model/Template;->save(Ljava/lang/Long;)Landroid/net/Uri; <",
+                "> Lorg/totschnig/myexpenses/model/Transaction;->save(Z)Landroid/net/Uri; <",
+                "> Lorg/totschnig/myexpenses/task/QifImportTask;->insertTransactions(Lorg/totschnig/myexpenses/model2/Account;Ljava/util/List;)I <",
+                "> Lorg/totschnig/myexpenses/task/QifImportTask;->insertTransactions(Ljava/util/List;Landroid/content/Context;)V <",
+                "> Lorg/totschnig/myexpenses/task/QifImportTask;->doImport(Lorg/totschnig/myexpenses/export/qif/QifParser;Landroid/content/Context;)V <",
+                "> Lorg/totschnig/myexpenses/task/QifImportTask;->doInBackground([Ljava/lang/Void;)Ljava/lang/Void; <",
+                "> Lorg/totschnig/myexpenses/task/QifImportTask;->doInBackground([Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lorg/totschnig/myexpenses/task/TaskExecutionFragment;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/totschnig/myexpenses/task/TaskExecutionFragment;->newInstanceWithBundle(Landroid/os/Bundle;I)Lorg/totschnig/myexpenses/task/TaskExecutionFragment; <",
+                "> Lorg/totschnig/myexpenses/activity/ProtectedFragmentActivity;->startTaskExecution(ILandroid/os/Bundle;I)V <",
+                "> Lorg/totschnig/myexpenses/activity/SimpleToastActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.totschnig.myexpenses.debug/org.totschnig.myexpenses.activity.SimpleToastActivity",
+                    "start -n"
+                ]
+            ]
+        }
+    },
+    "Lorg/totschnig/myexpenses/activity/ContribInfoDialogActivity;->getString(I)Ljava/lang/String;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/totschnig/myexpenses/activity/ContribInfoDialogActivity;->onLicenceStatusSet(Ljava/lang/String;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.totschnig.myexpenses.debug/org.totschnig.myexpenses.activity.ContribInfoDialogActivity",
+                    "start -n"
+                ]
+            ]
+        }
+    },
+    "Lorg/totschnig/myexpenses/activity/ExpenseEdit;->getIntent()Landroid/content/Intent;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/totschnig/myexpenses/activity/ExpenseEdit;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.INSERT",
+                    "start-activity -a"
+                ]
+            ]
+        }
+    },
+    "Lorg/totschnig/myexpenses/activity/AccountEdit;->setExchangeRateVisibility(Lorg/totschnig/myexpenses/model/CurrencyUnit;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/totschnig/myexpenses/activity/AccountEdit;->configureForCurrency(Lorg/totschnig/myexpenses/model/CurrencyUnit;)V <",
+                "> Lorg/totschnig/myexpenses/activity/AccountEdit;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/totschnig/myexpenses/activity/BaseMyExpenses;->dispatchCommand(ILjava/lang/Object;)Z <",
+                "> Lorg/totschnig/myexpenses/activity/MyExpenses;->dispatchCommand(ILjava/lang/Object;)Z <",
+                "> Lorg/totschnig/myexpenses/activity/MyExpenses;->lambda$onCreate$0(Landroid/view/MenuItem;)Z <",
+                "> Lorg/totschnig/myexpenses/activity/MyExpenses;->$r8$lambda$PNWYgD6WriCCp8qz_zkFOEK1iFY(Lorg/totschnig/myexpenses/activity/MyExpenses;Landroid/view/MenuItem;)Z <",
+                "> Lorg/totschnig/myexpenses/activity/MyExpenses$$ExternalSyntheticLambda2;->onNavigationItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lorg/totschnig/myexpenses/activity/MyExpenses;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/totschnig/myexpenses/service/PlanExecutor;->doWork(Lkotlin/coroutines/Continuation;)Ljava/lang/Object; <",
+                "> Lorg/totschnig/myexpenses/service/PlanExecutor$Companion;->buildWorkRequest(Ljava/lang/Long;)Landroidx/work/OneTimeWorkRequest; <",
+                "> Lorg/totschnig/myexpenses/service/PlanExecutor$Companion;->enqueueSelf(Landroid/content/Context;Lorg/totschnig/myexpenses/preference/PrefHandler;Z)V <",
+                "> Lorg/totschnig/myexpenses/model/Template;->save(Ljava/lang/Long;)Landroid/net/Uri; <",
+                "> Lorg/totschnig/myexpenses/model/Transaction;->save(Z)Landroid/net/Uri; <",
+                "> Lorg/totschnig/myexpenses/task/QifImportTask;->insertTransactions(Lorg/totschnig/myexpenses/model2/Account;Ljava/util/List;)I <",
+                "> Lorg/totschnig/myexpenses/task/QifImportTask;->insertTransactions(Ljava/util/List;Landroid/content/Context;)V <",
+                "> Lorg/totschnig/myexpenses/task/QifImportTask;->doImport(Lorg/totschnig/myexpenses/export/qif/QifParser;Landroid/content/Context;)V <",
+                "> Lorg/totschnig/myexpenses/task/QifImportTask;->doInBackground([Ljava/lang/Void;)Ljava/lang/Void; <",
+                "> Lorg/totschnig/myexpenses/task/QifImportTask;->doInBackground([Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lorg/totschnig/myexpenses/task/TaskExecutionFragment;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/totschnig/myexpenses/task/TaskExecutionFragment;->newInstanceWithBundle(Landroid/os/Bundle;I)Lorg/totschnig/myexpenses/task/TaskExecutionFragment; <",
+                "> Lorg/totschnig/myexpenses/activity/ProtectedFragmentActivity;->startTaskExecution(ILandroid/os/Bundle;I)V <",
+                "> Lorg/totschnig/myexpenses/activity/SimpleToastActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/totschnig/myexpenses/activity/AccountEdit;->onCreate(Landroid/os/Bundle;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/totschnig/myexpenses/activity/BaseMyExpenses;->dispatchCommand(ILjava/lang/Object;)Z <",
+                "----- CONDITIONAL -----",
+                "> Lorg/totschnig/myexpenses/activity/MyExpenses;->dispatchCommand(ILjava/lang/Object;)Z <",
+                "----- CONDITIONAL -----",
+                "> Lorg/totschnig/myexpenses/activity/MyExpenses;->lambda$onCreate$0(Landroid/view/MenuItem;)Z <",
+                "----- CONDITIONAL -----",
+                "> Lorg/totschnig/myexpenses/activity/MyExpenses;->$r8$lambda$PNWYgD6WriCCp8qz_zkFOEK1iFY(Lorg/totschnig/myexpenses/activity/MyExpenses;Landroid/view/MenuItem;)Z <",
+                "----- CONDITIONAL -----",
+                "> Lorg/totschnig/myexpenses/activity/MyExpenses$$ExternalSyntheticLambda2;->onNavigationItemSelected(Landroid/view/MenuItem;)Z <",
+                "----- CONDITIONAL -----",
+                "> Lorg/totschnig/myexpenses/activity/MyExpenses;->onCreate(Landroid/os/Bundle;)V <",
+                "----- CONDITIONAL -----",
+                "> Lorg/totschnig/myexpenses/widget/AccountWidget;->handleWidgetClick(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "----- CONDITIONAL -----"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.appwidget.action.APPWIDGET_UPDATE",
+                    "start -a"
+                ],
+                [
+                    "intent",
+                    "org.totschnig.myexpenses.debug/org.totschnig.myexpenses.activity.SimpleToastActivity",
+                    "start -n"
+                ]
+            ]
+        }
+    },
+    "Lorg/totschnig/myexpenses/activity/MyExpenses;->contribFeatureRequested(Lorg/totschnig/myexpenses/model/ContribFeature;Ljava/io/Serializable;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/totschnig/myexpenses/activity/MyExpenses;->dispatchCommand(ILjava/lang/Object;)Z <",
+                "> Lorg/totschnig/myexpenses/activity/MyExpenses;->lambda$onCreate$0(Landroid/view/MenuItem;)Z <",
+                "> Lorg/totschnig/myexpenses/activity/MyExpenses;->$r8$lambda$PNWYgD6WriCCp8qz_zkFOEK1iFY(Lorg/totschnig/myexpenses/activity/MyExpenses;Landroid/view/MenuItem;)Z <",
+                "> Lorg/totschnig/myexpenses/activity/MyExpenses$$ExternalSyntheticLambda2;->onNavigationItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lorg/totschnig/myexpenses/activity/MyExpenses;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/totschnig/myexpenses/service/PlanExecutor;->doWork(Lkotlin/coroutines/Continuation;)Ljava/lang/Object; <",
+                "> Lorg/totschnig/myexpenses/service/PlanExecutor$Companion;->buildWorkRequest(Ljava/lang/Long;)Landroidx/work/OneTimeWorkRequest; <",
+                "> Lorg/totschnig/myexpenses/service/PlanExecutor$Companion;->enqueueSelf(Landroid/content/Context;Lorg/totschnig/myexpenses/preference/PrefHandler;Z)V <",
+                "> Lorg/totschnig/myexpenses/model/Template;->save(Ljava/lang/Long;)Landroid/net/Uri; <",
+                "> Lorg/totschnig/myexpenses/model/Transaction;->save(Z)Landroid/net/Uri; <",
+                "> Lorg/totschnig/myexpenses/task/QifImportTask;->insertTransactions(Lorg/totschnig/myexpenses/model2/Account;Ljava/util/List;)I <",
+                "> Lorg/totschnig/myexpenses/task/QifImportTask;->insertTransactions(Ljava/util/List;Landroid/content/Context;)V <",
+                "> Lorg/totschnig/myexpenses/task/QifImportTask;->doImport(Lorg/totschnig/myexpenses/export/qif/QifParser;Landroid/content/Context;)V <",
+                "> Lorg/totschnig/myexpenses/task/QifImportTask;->doInBackground([Ljava/lang/Void;)Ljava/lang/Void; <",
+                "> Lorg/totschnig/myexpenses/task/QifImportTask;->doInBackground([Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lorg/totschnig/myexpenses/task/TaskExecutionFragment;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/totschnig/myexpenses/task/TaskExecutionFragment;->newInstanceWithBundle(Landroid/os/Bundle;I)Lorg/totschnig/myexpenses/task/TaskExecutionFragment; <",
+                "> Lorg/totschnig/myexpenses/activity/ProtectedFragmentActivity;->startTaskExecution(ILandroid/os/Bundle;I)V <",
+                "> Lorg/totschnig/myexpenses/activity/SimpleToastActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.totschnig.myexpenses.debug/org.totschnig.myexpenses.activity.SimpleToastActivity",
+                    "start -n"
+                ]
+            ]
+        }
+    },
+    "Lorg/totschnig/myexpenses/activity/LiveLiterals$BaseMyExpensesKt;->String$arg-1$call-show$branch$if$fun-$anonymous$$arg-1$call-with$branch-10$when$else$if$fun-dispatchCommand$class-BaseMyExpenses()Ljava/lang/String;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/totschnig/myexpenses/activity/BaseMyExpenses;->dispatchCommand(ILjava/lang/Object;)Z <",
+                "> Lorg/totschnig/myexpenses/activity/MyExpenses;->dispatchCommand(ILjava/lang/Object;)Z <",
+                "> Lorg/totschnig/myexpenses/activity/MyExpenses;->lambda$onCreate$0(Landroid/view/MenuItem;)Z <",
+                "> Lorg/totschnig/myexpenses/activity/MyExpenses;->$r8$lambda$PNWYgD6WriCCp8qz_zkFOEK1iFY(Lorg/totschnig/myexpenses/activity/MyExpenses;Landroid/view/MenuItem;)Z <",
+                "> Lorg/totschnig/myexpenses/activity/MyExpenses$$ExternalSyntheticLambda2;->onNavigationItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lorg/totschnig/myexpenses/activity/MyExpenses;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/totschnig/myexpenses/service/PlanExecutor;->doWork(Lkotlin/coroutines/Continuation;)Ljava/lang/Object; <",
+                "> Lorg/totschnig/myexpenses/service/PlanExecutor$Companion;->buildWorkRequest(Ljava/lang/Long;)Landroidx/work/OneTimeWorkRequest; <",
+                "> Lorg/totschnig/myexpenses/service/PlanExecutor$Companion;->enqueueSelf(Landroid/content/Context;Lorg/totschnig/myexpenses/preference/PrefHandler;Z)V <",
+                "> Lorg/totschnig/myexpenses/model/Template;->save(Ljava/lang/Long;)Landroid/net/Uri; <",
+                "> Lorg/totschnig/myexpenses/model/Transaction;->save(Z)Landroid/net/Uri; <",
+                "> Lorg/totschnig/myexpenses/task/QifImportTask;->insertTransactions(Lorg/totschnig/myexpenses/model2/Account;Ljava/util/List;)I <",
+                "> Lorg/totschnig/myexpenses/task/QifImportTask;->insertTransactions(Ljava/util/List;Landroid/content/Context;)V <",
+                "> Lorg/totschnig/myexpenses/task/QifImportTask;->doImport(Lorg/totschnig/myexpenses/export/qif/QifParser;Landroid/content/Context;)V <",
+                "> Lorg/totschnig/myexpenses/task/QifImportTask;->doInBackground([Ljava/lang/Void;)Ljava/lang/Void; <",
+                "> Lorg/totschnig/myexpenses/task/QifImportTask;->doInBackground([Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lorg/totschnig/myexpenses/task/TaskExecutionFragment;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/totschnig/myexpenses/task/TaskExecutionFragment;->newInstanceWithBundle(Landroid/os/Bundle;I)Lorg/totschnig/myexpenses/task/TaskExecutionFragment; <",
+                "> Lorg/totschnig/myexpenses/activity/ProtectedFragmentActivity;->startTaskExecution(ILandroid/os/Bundle;I)V <",
+                "> Lorg/totschnig/myexpenses/activity/SimpleToastActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.totschnig.myexpenses.debug/org.totschnig.myexpenses.activity.SimpleToastActivity",
+                    "start -n"
+                ]
+            ]
+        }
+    },
+    "Lorg/totschnig/myexpenses/activity/LiveLiterals$BaseActivityKt;->String$0$str$arg-0$call-append$fun-$anonymous$$arg-0$call-let$else$when$fun-$anonymous$$arg-0$call-buildString$$$this$call-takeIf$val-tmp1_safe_receiver$val-licenceInfo$branch-5$when$fun-dispatchCommand$class-BaseActivity()Ljava/lang/String;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/totschnig/myexpenses/activity/BaseActivity;->dispatchCommand(ILjava/lang/Object;)Z <",
+                "> Lorg/totschnig/myexpenses/activity/BaseActivity;->onPositive(Landroid/os/Bundle;Z)V <",
+                "> Lorg/totschnig/myexpenses/activity/ExpenseEdit;->onPositive(Landroid/os/Bundle;Z)V <",
+                "> Lorg/totschnig/myexpenses/service/PlanExecutor;->doWork(Lkotlin/coroutines/Continuation;)Ljava/lang/Object; <",
+                "> Lorg/totschnig/myexpenses/service/PlanExecutor$Companion;->buildWorkRequest(Ljava/lang/Long;)Landroidx/work/OneTimeWorkRequest; <",
+                "> Lorg/totschnig/myexpenses/service/PlanExecutor$Companion;->enqueueSelf(Landroid/content/Context;Lorg/totschnig/myexpenses/preference/PrefHandler;Z)V <",
+                "> Lorg/totschnig/myexpenses/model/Template;->save(Ljava/lang/Long;)Landroid/net/Uri; <",
+                "> Lorg/totschnig/myexpenses/model/Transaction;->save(Z)Landroid/net/Uri; <",
+                "> Lorg/totschnig/myexpenses/task/QifImportTask;->insertTransactions(Lorg/totschnig/myexpenses/model2/Account;Ljava/util/List;)I <",
+                "> Lorg/totschnig/myexpenses/task/QifImportTask;->insertTransactions(Ljava/util/List;Landroid/content/Context;)V <",
+                "> Lorg/totschnig/myexpenses/task/QifImportTask;->doImport(Lorg/totschnig/myexpenses/export/qif/QifParser;Landroid/content/Context;)V <",
+                "> Lorg/totschnig/myexpenses/task/QifImportTask;->doInBackground([Ljava/lang/Void;)Ljava/lang/Void; <",
+                "> Lorg/totschnig/myexpenses/task/QifImportTask;->doInBackground([Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lorg/totschnig/myexpenses/task/TaskExecutionFragment;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/totschnig/myexpenses/task/TaskExecutionFragment;->newInstanceWithBundle(Landroid/os/Bundle;I)Lorg/totschnig/myexpenses/task/TaskExecutionFragment; <",
+                "> Lorg/totschnig/myexpenses/activity/ProtectedFragmentActivity;->startTaskExecution(ILandroid/os/Bundle;I)V <",
+                "> Lorg/totschnig/myexpenses/activity/SimpleToastActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.totschnig.myexpenses.debug/org.totschnig.myexpenses.activity.SimpleToastActivity",
+                    "start -n"
+                ]
+            ]
+        }
+    },
+    "Lorg/totschnig/myexpenses/activity/BaseMyExpenses;->$r8$lambda$zgRFnGkmPpLV7uRJMsh0FX9XtU0(Lorg/totschnig/myexpenses/activity/BaseMyExpenses;Landroid/view/View;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/totschnig/myexpenses/activity/BaseMyExpenses$$ExternalSyntheticLambda4;->onClick(Landroid/view/View;)V <",
+                "> Lorg/totschnig/myexpenses/activity/BaseMyExpenses;->setupToolbarPopupMenu()V <",
+                "> Lorg/totschnig/myexpenses/activity/BaseMyExpenses;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/totschnig/myexpenses/activity/MyExpenses;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/totschnig/myexpenses/service/PlanExecutor;->doWork(Lkotlin/coroutines/Continuation;)Ljava/lang/Object; <",
+                "> Lorg/totschnig/myexpenses/service/PlanExecutor$Companion;->buildWorkRequest(Ljava/lang/Long;)Landroidx/work/OneTimeWorkRequest; <",
+                "> Lorg/totschnig/myexpenses/service/PlanExecutor$Companion;->enqueueSelf(Landroid/content/Context;Lorg/totschnig/myexpenses/preference/PrefHandler;Z)V <",
+                "> Lorg/totschnig/myexpenses/model/Template;->save(Ljava/lang/Long;)Landroid/net/Uri; <",
+                "> Lorg/totschnig/myexpenses/model/Transaction;->save(Z)Landroid/net/Uri; <",
+                "> Lorg/totschnig/myexpenses/task/QifImportTask;->insertTransactions(Lorg/totschnig/myexpenses/model2/Account;Ljava/util/List;)I <",
+                "> Lorg/totschnig/myexpenses/task/QifImportTask;->insertTransactions(Ljava/util/List;Landroid/content/Context;)V <",
+                "> Lorg/totschnig/myexpenses/task/QifImportTask;->doImport(Lorg/totschnig/myexpenses/export/qif/QifParser;Landroid/content/Context;)V <",
+                "> Lorg/totschnig/myexpenses/task/QifImportTask;->doInBackground([Ljava/lang/Void;)Ljava/lang/Void; <",
+                "> Lorg/totschnig/myexpenses/task/QifImportTask;->doInBackground([Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lorg/totschnig/myexpenses/task/TaskExecutionFragment;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/totschnig/myexpenses/task/TaskExecutionFragment;->newInstanceWithBundle(Landroid/os/Bundle;I)Lorg/totschnig/myexpenses/task/TaskExecutionFragment; <",
+                "> Lorg/totschnig/myexpenses/activity/ProtectedFragmentActivity;->startTaskExecution(ILandroid/os/Bundle;I)V <",
+                "> Lorg/totschnig/myexpenses/activity/SimpleToastActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.totschnig.myexpenses.debug/org.totschnig.myexpenses.activity.SimpleToastActivity",
+                    "start -n"
+                ],
+                [
+                    "org.totschnig.myexpenses.activity.BaseMyExpenses",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lorg/totschnig/myexpenses/activity/DebtActivity;-><init>()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/totschnig/myexpenses/activity/ManageParties;-><init>()V <",
+                "> Lorg/totschnig/myexpenses/activity/MyExpenses;->dispatchCommand(ILjava/lang/Object;)Z <",
+                "> Lorg/totschnig/myexpenses/activity/MyExpenses;->lambda$onCreate$0(Landroid/view/MenuItem;)Z <",
+                "> Lorg/totschnig/myexpenses/activity/MyExpenses;->$r8$lambda$PNWYgD6WriCCp8qz_zkFOEK1iFY(Lorg/totschnig/myexpenses/activity/MyExpenses;Landroid/view/MenuItem;)Z <",
+                "> Lorg/totschnig/myexpenses/activity/MyExpenses$$ExternalSyntheticLambda2;->onNavigationItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lorg/totschnig/myexpenses/activity/MyExpenses;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/totschnig/myexpenses/service/PlanExecutor;->doWork(Lkotlin/coroutines/Continuation;)Ljava/lang/Object; <",
+                "> Lorg/totschnig/myexpenses/service/PlanExecutor$Companion;->buildWorkRequest(Ljava/lang/Long;)Landroidx/work/OneTimeWorkRequest; <",
+                "> Lorg/totschnig/myexpenses/service/PlanExecutor$Companion;->enqueueSelf(Landroid/content/Context;Lorg/totschnig/myexpenses/preference/PrefHandler;Z)V <",
+                "> Lorg/totschnig/myexpenses/model/Template;->save(Ljava/lang/Long;)Landroid/net/Uri; <",
+                "> Lorg/totschnig/myexpenses/model/Transaction;->save(Z)Landroid/net/Uri; <",
+                "> Lorg/totschnig/myexpenses/task/QifImportTask;->insertTransactions(Lorg/totschnig/myexpenses/model2/Account;Ljava/util/List;)I <",
+                "> Lorg/totschnig/myexpenses/task/QifImportTask;->insertTransactions(Ljava/util/List;Landroid/content/Context;)V <",
+                "> Lorg/totschnig/myexpenses/task/QifImportTask;->doImport(Lorg/totschnig/myexpenses/export/qif/QifParser;Landroid/content/Context;)V <",
+                "> Lorg/totschnig/myexpenses/task/QifImportTask;->doInBackground([Ljava/lang/Void;)Ljava/lang/Void; <",
+                "> Lorg/totschnig/myexpenses/task/QifImportTask;->doInBackground([Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lorg/totschnig/myexpenses/task/TaskExecutionFragment;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/totschnig/myexpenses/task/TaskExecutionFragment;->newInstanceWithBundle(Landroid/os/Bundle;I)Lorg/totschnig/myexpenses/task/TaskExecutionFragment; <",
+                "> Lorg/totschnig/myexpenses/activity/ProtectedFragmentActivity;->startTaskExecution(ILandroid/os/Bundle;I)V <",
+                "> Lorg/totschnig/myexpenses/activity/SimpleToastActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.totschnig.myexpenses.debug/org.totschnig.myexpenses.activity.SimpleToastActivity",
+                    "start -n"
+                ]
+            ]
+        }
+    },
+    "Lorg/totschnig/myexpenses/activity/ContribInfoDialogActivity;->contribBuyDo(Lorg/totschnig/myexpenses/util/licence/Package;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/totschnig/myexpenses/activity/ContribInfoDialogActivity;->onBillingSetupFinished()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.totschnig.myexpenses.debug/org.totschnig.myexpenses.activity.ContribInfoDialogActivity",
+                    "start -n"
+                ]
+            ]
+        }
+    },
+    "Lorg/totschnig/myexpenses/activity/LiveLiterals$ExpenseEditKt;->Int$arg-0$call-add$fun-onCreateContextMenu$class-ExpenseEdit()I": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/totschnig/myexpenses/activity/ExpenseEdit;->onCreateContextMenu(Landroid/view/ContextMenu;Landroid/view/View;Landroid/view/ContextMenu$ContextMenuInfo;)V <",
+                "> Lorg/totschnig/myexpenses/service/PlanExecutor;->doWork(Lkotlin/coroutines/Continuation;)Ljava/lang/Object; <",
+                "> Lorg/totschnig/myexpenses/service/PlanExecutor$Companion;->buildWorkRequest(Ljava/lang/Long;)Landroidx/work/OneTimeWorkRequest; <",
+                "> Lorg/totschnig/myexpenses/service/PlanExecutor$Companion;->enqueueSelf(Landroid/content/Context;Lorg/totschnig/myexpenses/preference/PrefHandler;Z)V <",
+                "> Lorg/totschnig/myexpenses/model/Template;->save(Ljava/lang/Long;)Landroid/net/Uri; <",
+                "> Lorg/totschnig/myexpenses/model/Transaction;->save(Z)Landroid/net/Uri; <",
+                "> Lorg/totschnig/myexpenses/task/QifImportTask;->insertTransactions(Lorg/totschnig/myexpenses/model2/Account;Ljava/util/List;)I <",
+                "> Lorg/totschnig/myexpenses/task/QifImportTask;->insertTransactions(Ljava/util/List;Landroid/content/Context;)V <",
+                "> Lorg/totschnig/myexpenses/task/QifImportTask;->doImport(Lorg/totschnig/myexpenses/export/qif/QifParser;Landroid/content/Context;)V <",
+                "> Lorg/totschnig/myexpenses/task/QifImportTask;->doInBackground([Ljava/lang/Void;)Ljava/lang/Void; <",
+                "> Lorg/totschnig/myexpenses/task/QifImportTask;->doInBackground([Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lorg/totschnig/myexpenses/task/TaskExecutionFragment;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/totschnig/myexpenses/task/TaskExecutionFragment;->newInstanceWithBundle(Landroid/os/Bundle;I)Lorg/totschnig/myexpenses/task/TaskExecutionFragment; <",
+                "> Lorg/totschnig/myexpenses/activity/ProtectedFragmentActivity;->startTaskExecution(ILandroid/os/Bundle;I)V <",
+                "> Lorg/totschnig/myexpenses/activity/SimpleToastActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.totschnig.myexpenses.debug/org.totschnig.myexpenses.activity.SimpleToastActivity",
+                    "start -n"
+                ],
+                [
+                    "org.totschnig.myexpenses.activity.ExpenseEdit",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lorg/totschnig/myexpenses/activity/EditActivity;->setDirty()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/totschnig/myexpenses/activity/EditActivity;->afterTextChanged(Landroid/text/Editable;)V <",
+                "> Lorg/totschnig/myexpenses/activity/AccountEdit;->afterTextChanged(Landroid/text/Editable;)V <",
+                "> Lorg/totschnig/myexpenses/activity/BaseMyExpenses;->dispatchCommand(ILjava/lang/Object;)Z <",
+                "> Lorg/totschnig/myexpenses/activity/MyExpenses;->dispatchCommand(ILjava/lang/Object;)Z <",
+                "> Lorg/totschnig/myexpenses/activity/MyExpenses;->lambda$onCreate$0(Landroid/view/MenuItem;)Z <",
+                "> Lorg/totschnig/myexpenses/activity/MyExpenses;->$r8$lambda$PNWYgD6WriCCp8qz_zkFOEK1iFY(Lorg/totschnig/myexpenses/activity/MyExpenses;Landroid/view/MenuItem;)Z <",
+                "> Lorg/totschnig/myexpenses/activity/MyExpenses$$ExternalSyntheticLambda2;->onNavigationItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lorg/totschnig/myexpenses/activity/MyExpenses;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/totschnig/myexpenses/service/PlanExecutor;->doWork(Lkotlin/coroutines/Continuation;)Ljava/lang/Object; <",
+                "> Lorg/totschnig/myexpenses/service/PlanExecutor$Companion;->buildWorkRequest(Ljava/lang/Long;)Landroidx/work/OneTimeWorkRequest; <",
+                "> Lorg/totschnig/myexpenses/service/PlanExecutor$Companion;->enqueueSelf(Landroid/content/Context;Lorg/totschnig/myexpenses/preference/PrefHandler;Z)V <",
+                "> Lorg/totschnig/myexpenses/model/Template;->save(Ljava/lang/Long;)Landroid/net/Uri; <",
+                "> Lorg/totschnig/myexpenses/model/Transaction;->save(Z)Landroid/net/Uri; <",
+                "> Lorg/totschnig/myexpenses/task/QifImportTask;->insertTransactions(Lorg/totschnig/myexpenses/model2/Account;Ljava/util/List;)I <",
+                "> Lorg/totschnig/myexpenses/task/QifImportTask;->insertTransactions(Ljava/util/List;Landroid/content/Context;)V <",
+                "> Lorg/totschnig/myexpenses/task/QifImportTask;->doImport(Lorg/totschnig/myexpenses/export/qif/QifParser;Landroid/content/Context;)V <",
+                "> Lorg/totschnig/myexpenses/task/QifImportTask;->doInBackground([Ljava/lang/Void;)Ljava/lang/Void; <",
+                "> Lorg/totschnig/myexpenses/task/QifImportTask;->doInBackground([Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lorg/totschnig/myexpenses/task/TaskExecutionFragment;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lorg/totschnig/myexpenses/task/TaskExecutionFragment;->newInstanceWithBundle(Landroid/os/Bundle;I)Lorg/totschnig/myexpenses/task/TaskExecutionFragment; <",
+                "> Lorg/totschnig/myexpenses/activity/ProtectedFragmentActivity;->startTaskExecution(ILandroid/os/Bundle;I)V <",
+                "> Lorg/totschnig/myexpenses/activity/SimpleToastActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.totschnig.myexpenses.debug/org.totschnig.myexpenses.activity.SimpleToastActivity",
+                    "start -n"
+                ]
+            ]
+        }
+    }
+}

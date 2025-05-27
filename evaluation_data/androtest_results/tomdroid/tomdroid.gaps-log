@@ -1,0 +1,12 @@
+COMPONENT CONCAT > Lorg/tomdroid/ui/actionbar/ActionBarHelperBase;->onPostCreate(Landroid/os/Bundle;)V < extends Ljava/lang/Object, implements []
+COMPONENT CONCAT > Lorg/tomdroid/sync/sd/SdCardSyncService;->getNotesForSync(Z)V < extends Ljava/lang/Object, implements []
+COMPONENT CONCAT > Lorg/tomdroid/sync/web/SnowySyncService;->getNotesForSync(Z)V < extends Ljava/lang/Object, implements ['Lorg/tomdroid/sync/ServiceAuth']
+COMPONENT CONCAT > Lorg/tomdroid/sync/sd/SdCardSyncService;->pullNote(Ljava/lang/String;)V < extends Ljava/lang/Object, implements []
+MISSING ID > Lorg/tomdroid/ui/ViewNote;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <
+MISSING ID > Lorg/tomdroid/ui/CompareNotes$5;->onClick(Landroid/view/View;)V <
+MISSING ID > Lorg/tomdroid/ui/CompareNotes$4;->onClick(Landroid/view/View;)V <
+COMPONENT CONCAT > Lorg/tomdroid/ui/actionbar/ActionBarHelperBase;->getMenuInflater(Landroid/view/MenuInflater;)Landroid/view/MenuInflater; < extends Ljava/lang/Object, implements []
+MISSING ID > Lorg/tomdroid/ui/CompareNotes$2;->onClick(Landroid/view/View;)V <
+COMPONENT CONCAT > Lorg/tomdroid/ui/FilePickerActivity$FileComparator;->compare(Ljava/lang/Object;Ljava/lang/Object;)I < extends Ljava/lang/Object, implements ['Ljava/util/Comparator']
+MISSING ID > Lorg/tomdroid/ui/CompareNotes$6;->onClick(Landroid/view/View;)V <
+COMPONENT CONCAT > Lorg/tomdroid/ui/actionbar/ActionBarHelperHoneycomb;->setRefreshActionItemState(Z)V < extends Ljava/lang/Object, implements []

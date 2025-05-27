@@ -1,0 +1,58 @@
+{
+    "com.android.vending.AssetBrowserActivity": {
+        "com.google.android.apps.nexuslauncher.NexusLauncherActivity": [
+            [
+                "click com.android.vending:id/0_resource_name_obfuscated"
+            ]
+        ]
+    },
+    "com.google.android.apps.nexuslauncher.NexusLauncherActivity": {
+        "com.google.android.googlequicksearchbox.InternalGoogleAppActivityEntrypoint": [
+            [
+                "click com.android.vending:id/0_resource_name_obfuscated",
+                "click com.google.android.apps.nexuslauncher:id/search_container_all_apps"
+            ]
+        ]
+    },
+    "ch.blinkenlights.battery.BlinkenlightsBattery": {
+        "com.google.android.googlequicksearchbox.InternalGoogleAppActivityEntrypoint": [
+            []
+        ],
+        "com.google.android.apps.nexuslauncher.NexusLauncherActivity": [
+            []
+        ],
+        "com.google.android.calendar.allinone.AllInOneCalendarActivity": [
+            []
+        ],
+        "com.android.vendingcom.google.android.finsky.offlinegames.impl.OfflineGamesActivity": [
+            []
+        ]
+    },
+    "com.google.android.googlequicksearchbox.InternalGoogleAppActivityEntrypoint": {
+        "com.google.android.apps.nexuslauncher.NexusLauncherActivity": [
+            []
+        ]
+    },
+    "com.google.android.calendar.allinone.AllInOneCalendarActivity": {
+        "com.google.android.apps.nexuslauncher.NexusLauncherActivity": [
+            []
+        ]
+    },
+    "com.android.vendingcom.google.android.finsky.activities.MainActivity": {
+        "com.android.vendingcom.google.android.finsky.offlinegames.impl.OfflineGamesActivity": [
+            [
+                "click com.android.vending:id/button"
+            ]
+        ],
+        "com.google.android.apps.nexuslauncher.NexusLauncherActivity": [
+            []
+        ]
+    },
+    "com.android.vendingcom.google.android.finsky.offlinegames.impl.OfflineGamesActivity": {
+        "com.android.vendingcom.google.android.finsky.activities.MainActivity": [
+            [
+                "click com.android.vending:id/0_resource_name_obfuscated"
+            ]
+        ]
+    }
+}

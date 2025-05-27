@@ -1,0 +1,270 @@
+{
+    "Landroid/content/Intent;-><init>(Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lp/lg90;->i()V <",
+                "> Lp/iyp;->x()V <",
+                "> Lp/h13;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "androidx.car.app.connection.action.CAR_CONNECTION_UPDATED",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lp/xbg0;->S(Landroid/content/Context;Ljava/lang/String;Z)V <",
+                "> Lp/cj10;->onClick(Landroid/view/View;)V <",
+                "> Lp/pqc;->onClick(Landroid/view/View;)V <",
+                "> Lp/rha;->run()V <",
+                "> Lp/s2c;->b(Ljava/lang/Object;)V <",
+                "> Lp/ft5;->f(Landroid/content/Intent;)V <",
+                "> Lp/h13;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.DEVICE_STORAGE_OK",
+                    "broadcast -a"
+                ],
+                [
+                    "p.h13",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Intent;-><init>(Ljava/lang/String;Landroid/net/Uri;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lp/a5k0;->a(Landroid/net/Uri;)V <",
+                "> Lp/brj0;->accept(Ljava/lang/Object;)V <",
+                "> Lp/t9;->onClick(Landroid/view/View;)V <",
+                "> Lp/fc3;->render(Ljava/lang/Object;)V <",
+                "> Lp/fpi0;->accept(Ljava/lang/Object;)V <",
+                "> Lp/gct;->d()V <",
+                "> Lp/aff;->f()Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.BATTERY_CHANGED",
+                    "start -a"
+                ],
+                [
+                    "p.aff",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Intent;-><init>()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lp/u9;->onClick(Landroid/view/View;)V <",
+                "> Lp/yb6;->y0(Landroid/view/View;Landroid/os/Bundle;)V <",
+                "> Lp/z5f;->i()Ljava/lang/Object; <",
+                "> Lp/z5f;->get()Ljava/lang/Object; <",
+                "> Lp/udc0;->v(Ljava/lang/Object;)V <",
+                "> Lp/udc0;->l()Lp/udc0; <",
+                "> Lp/jf0;->call()Ljava/lang/Object; <",
+                "> Lp/aff;->j()Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.BATTERY_CHANGED",
+                    "start -a"
+                ],
+                [
+                    "p.aff",
+                    "artist_name"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Intent;->setData(Landroid/net/Uri;)Landroid/content/Intent;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lp/te0;->onClick(Landroid/content/DialogInterface;I)V <",
+                "> Lp/w100;->onClick(Landroid/view/View;)V <",
+                "> Lp/ac60;->y0(Landroid/view/View;Landroid/os/Bundle;)V <",
+                "> Lp/pcf;->get()Ljava/lang/Object; <",
+                "> Lp/bqg;->g(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lp/aff;->c()Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.BATTERY_CHANGED",
+                    "start -a"
+                ],
+                [
+                    "p.aff",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lp/tzh0;->onPrepareActionMode(Landroid/view/ActionMode;Landroid/view/Menu;)Z <",
+                "> Lp/u8u;->a0(Landroid/view/ActionMode$Callback;Landroid/widget/TextView;)Landroid/view/ActionMode$Callback; <",
+                "> Lp/p03;->setCustomSelectionActionModeCallback(Landroid/view/ActionMode$Callback;)V <",
+                "> Lp/kmx;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V <",
+                "> Lp/g23;->onItemClick(Landroid/widget/AdapterView;Landroid/view/View;IJ)V <",
+                "> Lp/jaj;-><init>(Landroid/content/Context;)V <",
+                "> Lp/pg;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lp/v30;->b(Ljava/lang/String;Ljava/lang/String;JLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lio/reactivex/rxjava3/core/Single; <",
+                "> Lp/n30;->a(JLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V <",
+                "> Lp/wqk0;->f(J)V <",
+                "> Lp/zhi0;->k(J)V <",
+                "> Lp/pwk0;->onSuccess(Ljava/lang/Object;)V <",
+                "> Lp/aff;->a()Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.BATTERY_CHANGED",
+                    "start -a"
+                ],
+                [
+                    "p.aff",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Intent;-><init>(Landroid/content/Intent;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lp/ytf0;->d()V <",
+                "> Lp/to00;->u(Lp/ro00;Landroid/os/Bundle;)V <",
+                "> Lp/lox;->invoke()Ljava/lang/Object; <",
+                "> Lp/rtz;->a(Lp/rtz;Lp/eqc;)V <",
+                "> Lp/rtz;-><init>(Ljava/lang/String;Lp/tio;Lp/e870;Ljava/util/Set;Ljava/util/concurrent/TimeUnit;Lp/ycb0;Lp/dli0;)V <",
+                "> Lp/qu7;->l(Ljava/lang/String;Ljava/util/concurrent/TimeUnit;Lp/tio;Ljava/util/Set;Lp/e870;Lp/ycb0;)Lp/rtz; <",
+                "> Lp/aff;->a()Ljava/lang/Object; <",
+                "> Lp/aff;->get()Ljava/lang/Object; <",
+                "> Lp/yke;->a(Landroid/view/ViewGroup;Lp/h2r;Lp/g2r;Lp/q8p;)Lp/l2r; <",
+                "> Lp/sbl;->u(Landroid/view/ViewGroup;Ljava/lang/Object;Lp/rg00;)Lp/yb90; <",
+                "> Lp/iyn;->b(Ljava/lang/String;Ljava/lang/String;Z)Z <",
+                "> Lp/x0i;->j(Ljava/lang/String;Ljava/lang/Double;Landroid/os/Bundle;ZLjava/util/UUID;)V <",
+                "> Lp/h13;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.AIRPLANE_MODE",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lp/dpm0;->run()V <",
+                "> Lp/apm0;->I0(ILandroid/os/Parcel;Landroid/os/Parcel;)Z <",
+                "> Lp/m7j0;->accept(Ljava/lang/Object;Ljava/lang/Object;)V <",
+                "> Lp/g5f;->get()Ljava/lang/Object; <",
+                "> Lp/wbf;->get()Ljava/lang/Object; <",
+                "> Lp/yke;->a(Landroid/view/ViewGroup;Lp/h2r;Lp/g2r;Lp/q8p;)Lp/l2r; <",
+                "> Lp/sbl;->u(Landroid/view/ViewGroup;Ljava/lang/Object;Lp/rg00;)Lp/yb90; <",
+                "> Lp/iyn;->b(Ljava/lang/String;Ljava/lang/String;Z)Z <",
+                "> Lp/x0i;->j(Ljava/lang/String;Ljava/lang/Double;Landroid/os/Bundle;ZLjava/util/UUID;)V <",
+                "> Lp/h13;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.AIRPLANE_MODE",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Intent;->setDataAndType(Landroid/net/Uri;Ljava/lang/String;)Landroid/content/Intent;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lp/us7;->f(Ljava/lang/String;Ljava/lang/String;Landroid/net/Uri;Lp/iyf0;Landroid/net/Uri;Lp/nwc0;Ljava/util/Map;Lp/k0d;)Ljava/lang/Object; <",
+                "> Lp/mx0;->onCreateViewHolder(Landroid/view/ViewGroup;I)Landroidx/recyclerview/widget/g; <",
+                "> Lp/jke;->d()Ljava/lang/Object; <",
+                "> Lp/jke;->get()Ljava/lang/Object; <",
+                "> Lp/yke;->a(Landroid/view/ViewGroup;Lp/h2r;Lp/g2r;Lp/q8p;)Lp/l2r; <",
+                "> Lp/sbl;->u(Landroid/view/ViewGroup;Ljava/lang/Object;Lp/rg00;)Lp/yb90; <",
+                "> Lp/iyn;->b(Ljava/lang/String;Ljava/lang/String;Z)Z <",
+                "> Lp/x0i;->j(Ljava/lang/String;Ljava/lang/Double;Landroid/os/Bundle;ZLjava/util/UUID;)V <",
+                "> Lp/h13;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.AIRPLANE_MODE",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Landroid/os/Environment;->getExternalStorageDirectory()Ljava/io/File;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lp/yf20;->apply(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lp/y9q;->n0(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View; <",
+                "> Lp/ynf;->a()Ljava/lang/Object; <",
+                "> Lp/ynf;->get()Ljava/lang/Object; <",
+                "> Lp/ubf;->a(Lp/mun;Lp/qsk0;Lp/dcl0;Lp/kge0;Lp/hde;)Lp/k40; <",
+                "> Lp/ask0;-><init>(Landroid/content/Context;Lp/u6k;Lp/dcl0;Lp/ubf;Lp/n8p;Lp/kge0;Lp/hde;Lp/uyk0;Lp/q8p;)V <",
+                "> Lp/xrk0;->A(Ljava/lang/Object;)V <",
+                "> Lp/b48;->run()V <",
+                "> Lp/a1f0;->k(Lp/cze0;)V <",
+                "> Lp/qak;->onNext(Ljava/lang/Object;)V <",
+                "> Lp/h13;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.AIRPLANE_MODE",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Landroid/webkit/WebView;-><init>(Landroid/content/Context;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lp/r6p;->invoke()Ljava/lang/Object; <",
+                "> Lp/g0j0;->s0(Landroid/content/Intent;)V <",
+                "> Lp/fw00;->a()V <",
+                "> Lp/yt00;->d()V <",
+                "> Lp/yt00;->a(Lcom/spotify/connectivity/sessionstate/SessionState;)V <",
+                "> Lp/xa10;->accept(Ljava/lang/Object;)V <",
+                "> Lp/t9;->onClick(Landroid/view/View;)V <",
+                "> Lp/fc3;->render(Ljava/lang/Object;)V <",
+                "> Lp/fpi0;->accept(Ljava/lang/Object;)V <",
+                "> Lp/g4o;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lp/trs;->D(Ljava/lang/String;JLp/lr60;)Lcom/spotify/mobius/Next; <",
+                "> Lp/trs;->N(Ljava/lang/String;)V <",
+                "> Lp/vxa0;->onNext(Ljava/lang/Object;)V <",
+                "> Lp/h13;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.AIRPLANE_MODE",
+                    "broadcast -a"
+                ],
+                [
+                    "p.h13",
+                    "<unknown>"
+                ]
+            ]
+        }
+    }
+}

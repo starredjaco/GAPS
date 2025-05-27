@@ -255,7 +255,7 @@ def to_java_signature(smali_sig):
     java_return_type = java_to_dalvik_type_reverse(return_type)
 
     # Format the final Java signature
-    return f"<{class_name}: {java_return_type} {method_name}({', '.join(java_params)})>"
+    return f"<{class_name}: {java_return_type} {method_name}({','.join(java_params)})>"
 
 
 def java_to_dalvik_type_reverse(dtype):

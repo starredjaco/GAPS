@@ -1,0 +1,68 @@
+{
+    "com.hectorone.multismssender.MultiSmsSender": {
+        "com.hectorone.multismssender.PhoneNumberSelection": [
+            [
+                "click com.hectorone.multismssender:id/contacts"
+            ],
+            [
+                "click com.hectorone.multismssender:id/groups",
+                "click com.hectorone.multismssender:id/send",
+                "click com.hectorone.multismssender:id/contacts"
+            ],
+            [
+                "click com.hectorone.multismssender:id/groups",
+                "click com.hectorone.multismssender:id/contacts"
+            ],
+            [
+                "click com.hectorone.multismssender:id/send",
+                "text com.hectorone.multismssender:id/numbers",
+                "text com.hectorone.multismssender:id/editor",
+                "click com.hectorone.multismssender:id/deliveryCheckBox",
+                "click com.hectorone.multismssender:id/contacts"
+            ]
+        ],
+        "com.hectorone.multismssender.SelectGroupActivity": [
+            [
+                "click com.hectorone.multismssender:id/contacts",
+                "text com.hectorone.multismssender:id/numbers",
+                "text com.hectorone.multismssender:id/editor",
+                "click com.hectorone.multismssender:id/groups"
+            ],
+            [
+                "click com.hectorone.multismssender:id/groups"
+            ],
+            [
+                "click com.hectorone.multismssender:id/send",
+                "text com.hectorone.multismssender:id/numbers",
+                "text com.hectorone.multismssender:id/editor",
+                "click com.hectorone.multismssender:id/deliveryCheckBox",
+                "click com.hectorone.multismssender:id/contacts",
+                "click com.hectorone.multismssender:id/groups"
+            ]
+        ]
+    },
+    "com.hectorone.multismssender.PhoneNumberSelection": {
+        "com.hectorone.multismssender.MultiSmsSender": [
+            [
+                "click com.hectorone.multismssender:id/okContacts"
+            ]
+        ]
+    },
+    "com.hectorone.multismssender.SelectGroupActivity": {
+        "com.hectorone.multismssender.MultiSmsSender": [
+            []
+        ]
+    },
+    "AtchDlg:com.hectorone.multismssendercom.hectorone.multismssender.MultiSmsSender": {
+        "com.hectorone.multismssender.SelectDeliveryActivity": [
+            [
+                "click android:id/title"
+            ]
+        ]
+    },
+    "com.hectorone.multismssender.SelectDeliveryActivity": {
+        "com.hectorone.multismssender.MultiSmsSender": [
+            []
+        ]
+    }
+}

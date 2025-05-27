@@ -1,0 +1,87 @@
+{
+    "com.android.vendingcom.google.android.finsky.activities.MainActivity": {
+        "net.sf.andbatdog.batterydog.BatteryDog": [
+            [
+                "swipe com.android.vending:id/0_resource_name_obfuscated"
+            ]
+        ]
+    },
+    "net.sf.andbatdog.batterydog.BatteryDog": {
+        "com.google.android.apps.nexuslauncher.NexusLauncherActivity": [
+            [
+                "click net.sf.andbatdog.batterydog:id/btStart",
+                "click net.sf.andbatdog.batterydog:id/btRawFormat",
+                "click net.sf.andbatdog.batterydog:id/btShowFormated",
+                "click net.sf.andbatdog.batterydog:id/btGraph",
+                "click net.sf.andbatdog.batterydog:id/btStop"
+            ]
+        ],
+        "net.sf.andbatdog.batterydog.BatteryGraph": [
+            [
+                "click net.sf.andbatdog.batterydog:id/btGraph"
+            ],
+            [
+                "click net.sf.andbatdog.batterydog:id/btStart",
+                "click net.sf.andbatdog.batterydog:id/btRawFormat",
+                "click net.sf.andbatdog.batterydog:id/btShowFormated",
+                "click net.sf.andbatdog.batterydog:id/btStop",
+                "text net.sf.andbatdog.batterydog:id/output",
+                "click net.sf.andbatdog.batterydog:id/btGraph"
+            ],
+            [
+                "click net.sf.andbatdog.batterydog:id/btStart",
+                "click net.sf.andbatdog.batterydog:id/btRawFormat",
+                "click net.sf.andbatdog.batterydog:id/btShowFormated",
+                "text net.sf.andbatdog.batterydog:id/output",
+                "click net.sf.andbatdog.batterydog:id/btStop",
+                "click net.sf.andbatdog.batterydog:id/btGraph"
+            ],
+            [
+                "click net.sf.andbatdog.batterydog:id/btRawFormat",
+                "click net.sf.andbatdog.batterydog:id/btShowFormated",
+                "click net.sf.andbatdog.batterydog:id/btStart",
+                "click net.sf.andbatdog.batterydog:id/btStop",
+                "text net.sf.andbatdog.batterydog:id/output",
+                "click net.sf.andbatdog.batterydog:id/btGraph"
+            ],
+            [
+                "click net.sf.andbatdog.batterydog:id/btStart",
+                "click net.sf.andbatdog.batterydog:id/btRawFormat",
+                "text net.sf.andbatdog.batterydog:id/output",
+                "click net.sf.andbatdog.batterydog:id/btShowFormated",
+                "click net.sf.andbatdog.batterydog:id/btStop",
+                "click net.sf.andbatdog.batterydog:id/btGraph"
+            ]
+        ],
+        "com.google.android.googlequicksearchbox.InternalGoogleAppActivityEntrypoint": [
+            [
+                "click net.sf.andbatdog.batterydog:id/btGraph",
+                "click net.sf.andbatdog.batterydog:id/btStart",
+                "click net.sf.andbatdog.batterydog:id/btRawFormat",
+                "click net.sf.andbatdog.batterydog:id/btShowFormated",
+                "click net.sf.andbatdog.batterydog:id/btStop"
+            ]
+        ]
+    },
+    "com.google.android.apps.nexuslauncher.NexusLauncherActivity": {
+        "com.google.android.googlequicksearchbox.InternalGoogleAppActivityEntrypoint": [
+            [
+                "click net.sf.andbatdog.batterydog:id/btStart",
+                "click com.google.android.apps.nexuslauncher:id/search_container_all_apps"
+            ]
+        ]
+    },
+    "net.sf.andbatdog.batterydog.BatteryGraph": {
+        "net.sf.andbatdog.batterydog.BatteryDog": [
+            []
+        ]
+    },
+    "AtchDlg:net.sf.andbatdog.batterydognet.sf.andbatdog.batterydog.BatteryGraph": {
+        "net.sf.andbatdog.batterydog.BatteryGraph": [
+            [],
+            [
+                "click android:id/title"
+            ]
+        ]
+    }
+}

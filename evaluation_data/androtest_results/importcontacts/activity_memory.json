@@ -1,0 +1,88 @@
+{
+    "com.android.vendingcom.google.android.finsky.activities.MainActivity": {
+        "com.android.vendingcom.google.android.finsky.offlinegames.impl.OfflineGamesActivity": [
+            [
+                "click com.android.vending:id/button"
+            ]
+        ]
+    },
+    "org.waxworlds.edam.importcontacts.Intro": {
+        "org.waxworlds.edam.importcontacts.ConfigureVCF": [
+            [
+                "click org.waxworlds.edam.importcontacts:id/next"
+            ],
+            [
+                "click org.waxworlds.edam.importcontacts:id/next",
+                "click org.waxworlds.edam.importcontacts:id/next"
+            ]
+        ]
+    },
+    "org.waxworlds.edam.importcontacts.ConfigureVCF": {
+        "org.waxworlds.edam.importcontacts.Merge": [
+            [
+                "click org.waxworlds.edam.importcontacts:id/next"
+            ],
+            [
+                "click android:id/aerr_wait",
+                "click org.waxworlds.edam.importcontacts:id/ok",
+                "swipe org.waxworlds.edam.importcontacts:id/list",
+                "click org.waxworlds.edam.importcontacts:id/next"
+            ]
+        ],
+        "com.google.android.apps.nexuslauncher.NexusLauncherActivity": [
+            [
+                "click org.waxworlds.edam.importcontacts:id/path",
+                "click android:id/aerr_close"
+            ]
+        ]
+    },
+    "org.waxworlds.edam.importcontacts.Merge": {
+        "org.waxworlds.edam.importcontacts.Doit": [
+            [
+                "click org.waxworlds.edam.importcontacts:id/next"
+            ],
+            [
+                "click org.waxworlds.edam.importcontacts:id/merge_keep",
+                "click org.waxworlds.edam.importcontacts:id/next"
+            ]
+        ]
+    },
+    "org.waxworlds.edam.importcontacts.Doit": {
+        "org.waxworlds.edam.importcontacts.Intro": [
+            [
+                "click org.waxworlds.edam.importcontacts:id/next",
+                "click android:id/button1",
+                "click org.waxworlds.edam.importcontacts:id/next"
+            ]
+        ],
+        "org.waxworlds.edam.importcontacts.Merge": [
+            [
+                "click org.waxworlds.edam.importcontacts:id/next",
+                "click android:id/button1"
+            ],
+            [
+                "click org.waxworlds.edam.importcontacts:id/next",
+                "click org.waxworlds.edam.importcontacts:id/next",
+                "click org.waxworlds.edam.importcontacts:id/back"
+            ],
+            [
+                "click org.waxworlds.edam.importcontacts:id/next",
+                "click org.waxworlds.edam.importcontacts:id/back"
+            ]
+        ],
+        "com.google.android.apps.nexuslauncher.NexusLauncherActivity": [
+            [
+                "click org.waxworlds.edam.importcontacts:id/next",
+                "click android:id/button1",
+                "click org.waxworlds.edam.importcontacts:id/next"
+            ]
+        ]
+    },
+    "com.google.android.apps.nexuslauncher.NexusLauncherActivity": {
+        "com.google.android.dialer.extensions.GoogleDialtactsActivity": [
+            [
+                "click (35, 1382, 237, 1592)"
+            ]
+        ]
+    }
+}

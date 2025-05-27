@@ -1,0 +1,367 @@
+{
+    "Landroid/content/Intent;->setData(Landroid/net/Uri;)Landroid/content/Intent;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lv7/h;->f(Landroid/content/Context;Ljava/lang/String;)Z <",
+                "> Lv7/h;->c()Ljava/lang/String; <",
+                "> LD7/n;-><init>()V <",
+                "> LD7/m;->c()LD7/n; <",
+                "> Lpf/e;->accept(Ljava/lang/Object;)V <",
+                "> Lll/a;->a()Lka/b; <",
+                "> Lcom/fork/android/app/application/LaFourchetteApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Intent;-><init>(Ljava/lang/String;Landroid/net/Uri;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/braze/ui/inappmessage/views/InAppMessageHtmlBaseView$messageWebView$7;->onCreateWindow(Landroid/webkit/WebView;ZZLandroid/os/Message;)Z <",
+                "> Lcom/braze/ui/inappmessage/views/InAppMessageHtmlBaseView;->getMessageWebView()Landroid/webkit/WebView; <",
+                "> Lcom/braze/ui/inappmessage/factories/DefaultInAppMessageHtmlFullViewFactory;->createInAppMessageView(Landroid/app/Activity;Lcom/braze/models/inappmessage/IInAppMessage;)Lcom/braze/ui/inappmessage/views/InAppMessageHtmlFullView; <",
+                "> Lcom/braze/ui/inappmessage/factories/DefaultInAppMessageHtmlFullViewFactory;->createInAppMessageView(Landroid/app/Activity;Lcom/braze/models/inappmessage/IInAppMessage;)Landroid/view/View; <",
+                "> Lcom/braze/ui/inappmessage/InAppMessageManagerBase;-><init>()V <",
+                "> Lcom/braze/ui/inappmessage/BrazeInAppMessageManager;-><init>()V <",
+                "> Lcom/braze/ui/inappmessage/BrazeInAppMessageManager$Companion;->getInstance()Lcom/braze/ui/inappmessage/BrazeInAppMessageManager; <",
+                "> LOc/b;->run()V <",
+                "> LMc/b;->run()V <",
+                "> Lcom/fork/android/app/application/LaFourchetteApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Intent;-><init>(Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Ltk/g;->a(Landroid/content/Context;Lcom/google/android/gms/auth/api/signin/GoogleSignInOptions;)Landroid/content/Intent; <",
+                "> Lsk/a;->c()Landroid/content/Intent; <",
+                "> LA9/a;->onClick(Landroid/view/View;)V <",
+                "> Lcf/b;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V <",
+                "> Lcom/fork/android/reservation/presentation/create/b;->c(Z)V <",
+                "> Lcom/fork/android/reservation/presentation/create/b;->g(Lcom/fork/android/reservation/presentation/create/CreateStep$DateStep;Ltf/b;)V <",
+                "> LRb/j;->accept(Ljava/lang/Object;)V <",
+                "> Lcom/fork/android/app/launch/LaunchActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.fork.android.app.launch.LaunchActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Intent;-><init>()V": {
+        "path_0": {
+            "call_sequence": [
+                "> LX1/g;->onPrepareActionMode(Landroid/view/ActionMode;Landroid/view/Menu;)Z <",
+                "> LFk/a;->P(Landroid/view/ActionMode$Callback;Landroid/widget/TextView;)Landroid/view/ActionMode$Callback; <",
+                "> LFk/a;->B(Landroid/content/Context;)Z <",
+                "> LFk/b;->d()Z <",
+                "> Lbl/Z;->g()Z <",
+                "> Lbl/r0;->Q2()V <",
+                "> Lbl/r0;->V2()V <",
+                "> Lbl/x0;->run()V <",
+                "> Lcom/fork/android/app/application/LaFourchetteApplication;->b(LZ7/a;Lk8/a;)V <",
+                "----- CONDITIONAL -----",
+                "> LX1/g;->onPrepareActionMode(Landroid/view/ActionMode;Landroid/view/Menu;)Z <",
+                "----- CONDITIONAL -----",
+                "> LFk/a;->P(Landroid/view/ActionMode$Callback;Landroid/widget/TextView;)Landroid/view/ActionMode$Callback; <",
+                "----- CONDITIONAL -----",
+                "> LFk/a;->B(Landroid/content/Context;)Z <",
+                "----- CONDITIONAL -----",
+                "> LFk/b;->d()Z <",
+                "----- CONDITIONAL -----",
+                "> Lbl/Z;->g()Z <",
+                "----- CONDITIONAL -----",
+                "> Lbl/r0;->Q2()V <",
+                "----- CONDITIONAL -----",
+                "> Lbl/r0;->V2()V <",
+                "----- CONDITIONAL -----",
+                "> Lbl/x0;->run()V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/fork/android/app/application/LaFourchetteApplication;->b(LZ7/a;Lk8/a;)V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/fork/android/app/deeplink/DeepLinkActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "----- CONDITIONAL -----",
+                "----- CONDITIONAL -----",
+                "> LX1/g;-><init>(Landroid/view/ActionMode$Callback;Landroid/widget/TextView;)V <",
+                "----- CONDITIONAL -----",
+                "> LYl/c;->d()V <",
+                "----- CONDITIONAL -----",
+                "> LYl/c;->run()V <",
+                "----- CONDITIONAL -----",
+                "> Lbl/r0;->D2(Lbl/j;Z)V <",
+                "----- CONDITIONAL -----",
+                "> Lbl/r0;->C2(Landroid/os/Bundle;IJ)V <",
+                "----- CONDITIONAL -----",
+                "> Lbl/u0;->run()V <",
+                "----- CONDITIONAL -----",
+                "> Lbl/B0;->onActivityPaused(Landroid/app/Activity;)V <",
+                "----- CONDITIONAL -----",
+                "> Lbl/Z;-><init>(Lbl/p0;)V <",
+                "----- CONDITIONAL -----",
+                "> Lbl/G;->y2(Ljava/lang/Object;Z)Ljava/lang/String; <",
+                "----- CONDITIONAL -----",
+                "> Lbl/G;->z2(ZLjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/String; <",
+                "----- CONDITIONAL -----",
+                "> Lbl/G;->A2(IZZLjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V <",
+                "----- CONDITIONAL -----",
+                "> LQt/b;->c(Ljava/lang/String;)V <",
+                "----- CONDITIONAL -----",
+                "> LPk/c1;->run()V <",
+                "----- CONDITIONAL -----",
+                "> Lll/a;->m(Lp/k;Lp/m;)V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/fork/android/app/deeplink/DeepLinkActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "----- CONDITIONAL -----",
+                "----- CONDITIONAL -----",
+                "> Lbl/r0;-><init>(Lbl/Z;)V <",
+                "----- CONDITIONAL -----",
+                "> Lbl/Z;-><init>(Lbl/p0;)V <",
+                "----- CONDITIONAL -----",
+                "> Lbl/x0;->run()V <",
+                "----- CONDITIONAL -----",
+                "----- CONDITIONAL -----",
+                "> Lcom/fork/android/app/application/LaFourchetteApplication;->b(LZ7/a;Lk8/a;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "intent",
+                    "com.lafourchette.lafourchette/com.fork.android.app.deeplink.DeepLinkActivity",
+                    "start -n"
+                ],
+                [
+                    "intent",
+                    "android.intent.action.VIEW",
+                    "start-activity -a"
+                ],
+                [
+                    "com.fork.android.app.deeplink.DeepLinkActivity",
+                    "<unknown>"
+                ],
+                [
+                    "main activity"
+                ],
+                [
+                    "com.fork.android.app.deeplink.DeepLinkActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Ljavax/crypto/KeyGenerator;->getInstance(Ljava/lang/String;Ljava/lang/String;)Ljavax/crypto/KeyGenerator;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lu8/g;->a()Landroidx/security/crypto/a; <",
+                "> Lu8/f;->get()Ljava/lang/Object; <",
+                "> Lhk/i;->get()Ljava/lang/Object; <",
+                "> Lcom/fork/android/navigation/MainActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lh7/e;->Q0(Lv8/a;)V <",
+                "> Lh7/e;->S0(Lcom/facebook/appevents/AccessTokenAppIdPair;Lh7/j;)V <",
+                "> LA5/c;->run()V <",
+                "> Lf2/c;->w(Lg7/u;Ljava/util/ArrayList;)V <",
+                "> Lf2/c;->l(Lg7/u;)Ljava/util/ArrayList; <",
+                "> Lg7/s;->c()Lg7/v; <",
+                "> Lg7/w;->run()V <",
+                "> Lg7/y;->d()V <",
+                "> Lg7/y;->c()Z <",
+                "> LA7/a;->a(Ljava/lang/Object;Ljava/lang/Throwable;)V <",
+                "> Lpf/e;->onInstallReferrerSetupFinished(I)V <",
+                "> Lll/a;->a()Lka/b; <",
+                "> Lcom/fork/android/app/application/LaFourchetteApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Landroid/webkit/WebView;->addJavascriptInterface(Ljava/lang/Object;Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/braze/ui/banners/BannerView;->configureWebView(Ljava/lang/String;)V <",
+                "> Lcom/braze/ui/banners/BannerView;->loadHtmlData(Ljava/lang/String;)V <",
+                "> Lcom/braze/ui/banners/BannerView;->initBanner$lambda$1(Lcom/braze/ui/banners/BannerView;Ljava/lang/String;)V <",
+                "> Lcom/braze/ui/banners/BannerView;->a(Lcom/braze/ui/banners/BannerView;Ljava/lang/String;)V <",
+                "> LA5/c;->run()V <",
+                "> Lf2/c;->w(Lg7/u;Ljava/util/ArrayList;)V <",
+                "> Lf2/c;->l(Lg7/u;)Ljava/util/ArrayList; <",
+                "> Lg7/s;->c()Lg7/v; <",
+                "> Lg7/w;->run()V <",
+                "> Lg7/y;->d()V <",
+                "> Lg7/y;->c()Z <",
+                "> LA7/a;->a(Ljava/lang/Object;Ljava/lang/Throwable;)V <",
+                "> Lpf/e;->onInstallReferrerSetupFinished(I)V <",
+                "> Lll/a;->a()Lka/b; <",
+                "> Lcom/fork/android/app/application/LaFourchetteApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lok/b;->run()V <",
+                "> Lok/a;->d(Lok/a$a;JLjava/lang/Throwable;)V <",
+                "> Lok/a;->a(Landroid/content/Context;)Lok/a$a; <",
+                "> LPk/s;->run()V <",
+                "> LX1/d;->onTouch(Landroid/view/View;Landroid/view/MotionEvent;)Z <",
+                "> Lk7/h;->onTouch(Landroid/view/View;Landroid/view/MotionEvent;)Z <",
+                "> Lk7/f;->c(Lk7/e;Landroid/view/View;Ll7/b;)V <",
+                "> Lk7/f;->d()V <",
+                "> Lk7/f;->run()V <",
+                "> Lk7/g;->b()V <",
+                "> Lk7/c;->a()Lk7/g; <",
+                "> LA5/c;->run()V <",
+                "> Lf2/c;->w(Lg7/u;Ljava/util/ArrayList;)V <",
+                "> Lf2/c;->l(Lg7/u;)Ljava/util/ArrayList; <",
+                "> Lg7/s;->c()Lg7/v; <",
+                "> Lg7/w;->run()V <",
+                "> Lg7/y;->d()V <",
+                "> Lg7/y;->c()Z <",
+                "> LA7/a;->a(Ljava/lang/Object;Ljava/lang/Throwable;)V <",
+                "> Lpf/e;->onInstallReferrerSetupFinished(I)V <",
+                "> Lll/a;->a()Lka/b; <",
+                "> Lcom/fork/android/app/application/LaFourchetteApplication;->onCreate()V <",
+                "----- CONDITIONAL -----",
+                "> Lok/a;->d(Lok/a$a;JLjava/lang/Throwable;)V <",
+                "----- CONDITIONAL -----",
+                "> Lok/a;->a(Landroid/content/Context;)Lok/a$a; <",
+                "----- CONDITIONAL -----",
+                "> LPk/s;->run()V <",
+                "----- CONDITIONAL -----",
+                "> LX1/d;->onTouch(Landroid/view/View;Landroid/view/MotionEvent;)Z <",
+                "----- CONDITIONAL -----",
+                "> Lk7/h;->onTouch(Landroid/view/View;Landroid/view/MotionEvent;)Z <",
+                "----- CONDITIONAL -----",
+                "> Lk7/f;->c(Lk7/e;Landroid/view/View;Ll7/b;)V <",
+                "----- CONDITIONAL -----",
+                "> Lk7/f;->d()V <",
+                "----- CONDITIONAL -----",
+                "> Lk7/f;->run()V <",
+                "----- CONDITIONAL -----",
+                "> Lk7/g;->b()V <",
+                "----- CONDITIONAL -----",
+                "> Lk7/c;->a()Lk7/g; <",
+                "----- CONDITIONAL -----",
+                "> LA5/c;->run()V <",
+                "----- CONDITIONAL -----",
+                "> Lf2/c;->w(Lg7/u;Ljava/util/ArrayList;)V <",
+                "----- CONDITIONAL -----",
+                "> Lf2/c;->l(Lg7/u;)Ljava/util/ArrayList; <",
+                "----- CONDITIONAL -----",
+                "> Lg7/s;->c()Lg7/v; <",
+                "----- CONDITIONAL -----",
+                "> Lg7/w;->run()V <",
+                "----- CONDITIONAL -----",
+                "> Lg7/y;->d()V <",
+                "----- CONDITIONAL -----",
+                "> Lg7/y;->c()Z <",
+                "----- CONDITIONAL -----",
+                "> LA7/a;->a(Ljava/lang/Object;Ljava/lang/Throwable;)V <",
+                "----- CONDITIONAL -----",
+                "> Lpf/e;->onInstallReferrerSetupFinished(I)V <",
+                "----- CONDITIONAL -----",
+                "> Lll/a;->a()Lka/b; <",
+                "----- CONDITIONAL -----",
+                "> Lcom/fork/android/app/deeplink/DeepLinkActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "----- CONDITIONAL -----",
+                "----- CONDITIONAL -----",
+                "> LPk/M;-><init>(Landroid/content/Context;)V <",
+                "----- CONDITIONAL -----",
+                "> LPk/M;->a(Landroid/content/Context;)LPk/M; <",
+                "----- CONDITIONAL -----",
+                "> LPk/L0;-><init>(Landroid/content/Context;I)V <",
+                "----- CONDITIONAL -----",
+                "> LPk/f0;-><init>(Landroid/content/Context;Ljava/lang/String;LNf/b;LG0/f;Lfl/n;Lfl/h;)V <",
+                "----- CONDITIONAL -----",
+                "> LYl/c;->run()V <",
+                "----- CONDITIONAL -----",
+                "> Lbl/r0;->D2(Lbl/j;Z)V <",
+                "----- CONDITIONAL -----",
+                "> Lbl/r0;->C2(Landroid/os/Bundle;IJ)V <",
+                "----- CONDITIONAL -----",
+                "> Lbl/u0;->run()V <",
+                "----- CONDITIONAL -----",
+                "> Lbl/B0;->onActivityPaused(Landroid/app/Activity;)V <",
+                "----- CONDITIONAL -----",
+                "> Lbl/Z;-><init>(Lbl/p0;)V <",
+                "----- CONDITIONAL -----",
+                "> Lbl/G;->y2(Ljava/lang/Object;Z)Ljava/lang/String; <",
+                "----- CONDITIONAL -----",
+                "> Lbl/G;->z2(ZLjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/String; <",
+                "----- CONDITIONAL -----",
+                "> Lbl/G;->A2(IZZLjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V <",
+                "----- CONDITIONAL -----",
+                "> LQt/b;->c(Ljava/lang/String;)V <",
+                "----- CONDITIONAL -----",
+                "> LPk/c1;->run()V <",
+                "----- CONDITIONAL -----",
+                "> Lll/a;->m(Lp/k;Lp/m;)V <",
+                "----- CONDITIONAL -----",
+                "> LPk/s;->run()V <",
+                "----- CONDITIONAL -----",
+                "> LX1/d;->onTouch(Landroid/view/View;Landroid/view/MotionEvent;)Z <",
+                "----- CONDITIONAL -----",
+                "> LPk/s;->run()V <",
+                "----- CONDITIONAL -----",
+                "----- CONDITIONAL -----",
+                "> LX1/d;->d()V <",
+                "----- CONDITIONAL -----",
+                "> LX1/d;->onTouch(Landroid/view/View;Landroid/view/MotionEvent;)Z <",
+                "----- CONDITIONAL -----",
+                "> LX1/d;->onTouch(Landroid/view/View;Landroid/view/MotionEvent;)Z <"
+            ],
+            "path": [
+                [
+                    "com.fork.android.app.deeplink.DeepLinkActivity",
+                    "<unknown>"
+                ],
+                [
+                    "intent",
+                    "com.lafourchette.lafourchette/com.fork.android.app.deeplink.DeepLinkActivity",
+                    "start -n"
+                ],
+                [
+                    "com.fork.android.app.deeplink.DeepLinkActivity",
+                    "<unknown>"
+                ],
+                [
+                    "intent",
+                    "android.intent.action.VIEW",
+                    "start-activity -a"
+                ],
+                [
+                    "com.fork.android.app.deeplink.DeepLinkActivity",
+                    "<unknown>"
+                ],
+                [
+                    "main activity"
+                ],
+                [
+                    "com.fork.android.app.deeplink.DeepLinkActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    }
+}

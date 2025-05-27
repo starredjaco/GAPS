@@ -1,0 +1,155 @@
+{
+    "Landroid/content/Intent;-><init>(Ljava/lang/String;Landroid/net/Uri;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lw8/M;->e0(Lcom/azura/featuremain/ui/MainActivity;Ljava/lang/String;)V <",
+                "> Lcom/azura/featuremain/ui/MainActivity;->W(Ld4/B;)V <",
+                "> Lcom/azura/featuremain/ui/MainActivity;->U()V <",
+                "> Ly4/c;->a(Landroid/app/Activity;Ljava/lang/String;)V <",
+                "> Lcom/azura/featurefirst/introductionv2/IntroductionV2Activity;->Z(Z)V <",
+                "> Lcom/azura/featurefirst/introductionv2/IntroductionV2Activity;->N()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.recoveryphotos.videos.allfiles/com.azura.featurefirst.introductionv2.IntroductionV2Activity",
+                    "start -n"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Intent;->createChooser(Landroid/content/Intent;Ljava/lang/CharSequence;)Landroid/content/Intent;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/azura/featuremain/ui/MainActivity;->W(Ld4/B;)V <",
+                "> Lcom/azura/featuremain/ui/MainActivity;->U()V <",
+                "> Ly4/c;->a(Landroid/app/Activity;Ljava/lang/String;)V <",
+                "> Lcom/azura/featurefirst/introductionv2/IntroductionV2Activity;->Z(Z)V <",
+                "> Lcom/azura/featurefirst/introductionv2/IntroductionV2Activity;->N()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.recoveryphotos.videos.allfiles/com.azura.featurefirst.introductionv2.IntroductionV2Activity",
+                    "start -n"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Intent;-><init>(Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/mbridge/msdk/foundation/tools/b;->a(Landroid/content/Context;)Lcom/mbridge/msdk/foundation/tools/b$b; <",
+                "> Lcom/mbridge/msdk/foundation/tools/f$a;->run()V <",
+                "> Lcom/mbridge/msdk/foundation/tools/f;->a(Landroid/content/Context;)V <",
+                "> Lcom/mbridge/msdk/foundation/tools/f;->d()Ljava/lang/String; <",
+                "> Lcom/mbridge/msdk/foundation/controller/d;->a(Ljava/lang/String;)V <",
+                "> Lcom/mbridge/msdk/foundation/controller/d;->a()Lcom/mbridge/msdk/foundation/controller/d; <",
+                "> Lcom/mbridge/msdk/setting/h;->a(Landroid/content/Context;Ljava/lang/String;)V <",
+                "> Lcom/mbridge/msdk/setting/h;->b()Lcom/mbridge/msdk/setting/h; <",
+                "> Lcom/mbridge/msdk/click/retry/a;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.net.conn.CONNECTIVITY_CHANGE",
+                    "start -a"
+                ]
+            ]
+        }
+    },
+    "Landroid/webkit/WebView;-><init>(Landroid/content/Context;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/mbridge/msdk/click/o;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V <",
+                "> Lcom/mbridge/msdk/click/o;->a(Ljava/lang/String;Ljava/lang/String;Landroid/content/Context;Ljava/lang/String;)V <",
+                "> Lcom/mbridge/msdk/click/o;->a(Ljava/lang/String;Ljava/lang/String;Landroid/content/Context;)V <",
+                "> Lcom/mbridge/msdk/click/o;->a(Ljava/lang/String;Ljava/lang/String;Landroid/content/Context;Ljava/lang/String;Lcom/mbridge/msdk/click/o$f;)V <",
+                "> Lcom/mbridge/msdk/click/m;->a(Lcom/mbridge/msdk/foundation/entity/CampaignEx;Lcom/mbridge/msdk/click/entity/JumpLoaderResult;Lcom/mbridge/msdk/click/entity/a;Ljava/lang/String;Ljava/lang/String;Landroid/content/Context;Lcom/mbridge/msdk/click/o$f;Lcom/mbridge/msdk/click/k;Ljava/util/concurrent/Semaphore;)V <",
+                "> Lcom/mbridge/msdk/click/l;->runTask()V <",
+                "> Lcom/mbridge/msdk/click/p;->a(Ljava/lang/String;Lcom/mbridge/msdk/click/g;ZLjava/lang/String;Ljava/lang/String;Lcom/mbridge/msdk/foundation/entity/CampaignEx;ZZI)V <",
+                "> Lcom/mbridge/msdk/click/e;->a(Ljava/lang/String;Lcom/mbridge/msdk/foundation/entity/CampaignEx;Lcom/mbridge/msdk/click/g;Ljava/lang/String;ZZI)V <",
+                "> Lcom/mbridge/msdk/click/a;->a(Landroid/content/Context;Lcom/mbridge/msdk/foundation/entity/CampaignEx;Ljava/lang/String;Ljava/lang/String;ZZI)V <",
+                "> Lcom/mbridge/msdk/click/retry/a;->a(Ljava/lang/String;I)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.net.conn.CONNECTIVITY_CHANGE",
+                    "start -a"
+                ]
+            ]
+        }
+    },
+    "Landroid/webkit/WebView;->evaluateJavascript(Ljava/lang/String;Landroid/webkit/ValueCallback;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/iab/omid/library/mmadbridge/internal/h;->c(Landroid/webkit/WebView;Ljava/lang/String;)Z <",
+                "> Lcom/iab/omid/library/mmadbridge/internal/h;->a(Landroid/webkit/WebView;Ljava/lang/StringBuilder;)V <",
+                "> Lcom/iab/omid/library/mmadbridge/internal/h;->a(Landroid/webkit/WebView;Ljava/lang/String;[Ljava/lang/Object;)V <",
+                "> Lcom/iab/omid/library/mmadbridge/internal/h;->a(Landroid/webkit/WebView;Ljava/lang/String;Ljava/lang/String;Lorg/json/JSONObject;)V <",
+                "> Lcom/iab/omid/library/mmadbridge/publisher/AdSessionStatePublisher;->a(Ljava/lang/String;Lorg/json/JSONObject;)V <",
+                "> Lcom/iab/omid/library/mmadbridge/adsession/media/MediaEvents;->start(FF)V <",
+                "> Lcom/mbridge/msdk/nativex/view/BaseMBMediaView;->onPlayStarted(I)V <",
+                "> Lcom/mbridge/msdk/nativex/view/MBMediaView;-><init>(Landroid/content/Context;)V <",
+                "> Lcom/mbridge/msdk/mbnative/controller/NativeController;->b(Lcom/mbridge/msdk/out/Campaign;Landroid/view/View;Ljava/util/List;)V <",
+                "> Lcom/mbridge/msdk/mbnative/service/a;->b(Landroid/view/View;Ljava/util/List;Lcom/mbridge/msdk/out/Campaign;)V <",
+                "> Lcom/mbridge/msdk/preload/a;->a(Ljava/util/Map;I)V <",
+                "> Lcom/mbridge/msdk/foundation/controller/d;->b(Ljava/lang/String;)V <",
+                "> Lcom/mbridge/msdk/foundation/controller/d;->a()Lcom/mbridge/msdk/foundation/controller/d; <",
+                "> Lcom/mbridge/msdk/setting/h;->a(Landroid/content/Context;Ljava/lang/String;)V <",
+                "> Lcom/mbridge/msdk/setting/h;->b()Lcom/mbridge/msdk/setting/h; <",
+                "> Lcom/mbridge/msdk/click/retry/a;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.net.conn.CONNECTIVITY_CHANGE",
+                    "start -a"
+                ]
+            ]
+        }
+    },
+    "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/mbridge/msdk/click/i;->a(Ljava/lang/String;ZZLcom/mbridge/msdk/foundation/entity/CampaignEx;)Lcom/mbridge/msdk/click/entity/a; <",
+                "> Lcom/mbridge/msdk/click/l;->c(Ljava/lang/String;)Lcom/mbridge/msdk/click/entity/JumpLoaderResult; <",
+                "> Lcom/mbridge/msdk/click/l;->runTask()V <",
+                "> Lcom/mbridge/msdk/click/p;->a(Ljava/lang/String;Lcom/mbridge/msdk/click/g;ZLjava/lang/String;Ljava/lang/String;Lcom/mbridge/msdk/foundation/entity/CampaignEx;ZZI)V <",
+                "> Lcom/mbridge/msdk/click/e;->a(Ljava/lang/String;Lcom/mbridge/msdk/foundation/entity/CampaignEx;Lcom/mbridge/msdk/click/g;Ljava/lang/String;ZZI)V <",
+                "> Lcom/mbridge/msdk/click/a;->a(Landroid/content/Context;Lcom/mbridge/msdk/foundation/entity/CampaignEx;Ljava/lang/String;Ljava/lang/String;ZZI)V <",
+                "> Lcom/mbridge/msdk/click/retry/a;->a(Ljava/lang/String;I)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.net.conn.CONNECTIVITY_CHANGE",
+                    "start -a"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lj2/a;->d(Landroid/content/Context;)Landroid/content/Intent; <",
+                "> Lc2/d;->h()V <",
+                "> Lc2/o;->g(Z)V <",
+                "> Lc2/o;->run()V <",
+                "> LD1/d;->execute(Ljava/lang/Runnable;)V <",
+                "> LI4/l;->j()V <",
+                "> LI4/l;->run()V <",
+                "> LC4/c;->d()Ljava/lang/Object; <",
+                "> Lcom/azura/featurefirst/introductionv2/IntroductionV2Activity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.recoveryphotos.videos.allfiles/com.azura.featurefirst.introductionv2.IntroductionV2Activity",
+                    "start -n"
+                ]
+            ]
+        }
+    }
+}

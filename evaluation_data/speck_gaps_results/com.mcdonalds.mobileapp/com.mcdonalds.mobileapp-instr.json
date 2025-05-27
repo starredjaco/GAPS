@@ -1,0 +1,176 @@
+{
+    "Landroid/webkit/WebView;->evaluateJavascript(Ljava/lang/String;Landroid/webkit/ValueCallback;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/mcdonalds/mds/deliverytracking/DeliveryTrackingFragment$initWebView$3;->onPageFinished(Landroid/webkit/WebView;Ljava/lang/String;)V <",
+                "> Lcom/jv2;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/le3;->onSuccess(Ljava/lang/Object;)V <",
+                "> Lcom/mcdonalds/mobileapp/MainActivity;->g(Landroid/content/Intent;)V <",
+                "> Lcom/mcdonalds/mobileapp/MainActivity;->onNewIntent(Landroid/content/Intent;)V <",
+                "> Lcom/mcdonalds/mobileapp/service/FirebaseMessagingServiceImpl;->onMessageReceived(Lcom/google/firebase/messaging/RemoteMessage;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.google.firebase.MESSAGING_EVENT",
+                    "start-service -a"
+                ]
+            ]
+        }
+    },
+    "Landroid/webkit/WebView;->addJavascriptInterface(Ljava/lang/Object;Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/jv2;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/le3;->onSuccess(Ljava/lang/Object;)V <",
+                "> Lcom/mcdonalds/mobileapp/MainActivity;->g(Landroid/content/Intent;)V <",
+                "> Lcom/mcdonalds/mobileapp/MainActivity;->onNewIntent(Landroid/content/Intent;)V <",
+                "> Lcom/mcdonalds/mobileapp/service/FirebaseMessagingServiceImpl;->onMessageReceived(Lcom/google/firebase/messaging/RemoteMessage;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.google.firebase.MESSAGING_EVENT",
+                    "start-service -a"
+                ]
+            ]
+        }
+    },
+    "Ljavax/crypto/KeyGenerator;->getInstance(Ljava/lang/String;)Ljavax/crypto/KeyGenerator;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/h77;->b(Landroid/content/Context;Ljava/lang/String;Z)Ljava/lang/String; <",
+                "> Lcom/asiapay/sdk/integration/PaySDKImplementation;->a()V <",
+                "> Lcom/asiapay/sdk/integration/PaySDKImplementation;->c()V <",
+                "> Lcom/asiapay/sdk/PaySDK;->setRequestData(Lcom/asiapay/sdk/model/PayData;)V <",
+                "> Lcom/mcdonalds/payment/domain/AsiaPayHelper;->startPayment(Landroid/content/Context;Ljava/lang/String;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function0;Lkotlin/coroutines/Continuation;)Ljava/lang/Object; <",
+                "> Lcom/hx6;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/wy6;->accept(Ljava/lang/Object;)V <",
+                "> Lcom/iw3;->a(Ljava/lang/Object;)V <",
+                "> Lcom/iw3;->request(J)V <",
+                "> Lcom/ng0;->next()Ljava/lang/Object; <",
+                "> Lkotlinx/coroutines/internal/CoroutineExceptionHandlerImpl_commonKt;->handleUncaughtCoroutineException(Lkotlin/coroutines/CoroutineContext;Ljava/lang/Throwable;)V <",
+                "> Lkotlinx/coroutines/CoroutineExceptionHandlerKt;->handleCoroutineException(Lkotlin/coroutines/CoroutineContext;Ljava/lang/Throwable;)V <",
+                "> Lkotlinx/coroutines/DispatchedTask;->handleFatalException$kotlinx_coroutines_core(Ljava/lang/Throwable;)V <",
+                "> Lkotlinx/coroutines/internal/DispatchedContinuationKt;->resumeCancellableWith(Lkotlin/coroutines/Continuation;Ljava/lang/Object;)V <",
+                "> Lkotlinx/coroutines/intrinsics/CancellableKt;->startCoroutineCancellable(Lkotlin/jvm/functions/Function2;Ljava/lang/Object;Lkotlin/coroutines/Continuation;)V <",
+                "> Lkotlinx/coroutines/CoroutineStart;->invoke(Lkotlin/jvm/functions/Function2;Ljava/lang/Object;Lkotlin/coroutines/Continuation;)V <",
+                "> Lkotlinx/coroutines/AbstractCoroutine;->start(Lkotlinx/coroutines/CoroutineStart;Ljava/lang/Object;Lkotlin/jvm/functions/Function2;)V <",
+                "> Lkotlinx/coroutines/BuildersKt;->launch(Lkotlinx/coroutines/CoroutineScope;Lkotlin/coroutines/CoroutineContext;Lkotlinx/coroutines/CoroutineStart;Lkotlin/jvm/functions/Function2;)Lkotlinx/coroutines/Job; <",
+                "> Lkotlinx/coroutines/BuildersKt;->launch$default(Lkotlinx/coroutines/CoroutineScope;Lkotlin/coroutines/CoroutineContext;Lkotlinx/coroutines/CoroutineStart;Lkotlin/jvm/functions/Function2;ILjava/lang/Object;)Lkotlinx/coroutines/Job; <",
+                "> Lcom/mcdonalds/compose/integration/MopSecondaryActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.mcdonalds.mobileapp/com.mcdonalds.compose.integration.MopSecondaryActivity",
+                    "start -n"
+                ]
+            ]
+        }
+    },
+    "Landroid/webkit/WebView;-><init>(Landroid/content/Context;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/k77;->onCreateWindow(Landroid/webkit/WebView;ZZLandroid/os/Message;)Z <",
+                "> Lcom/cp6;->run()V <",
+                "> Lcom/dp6;->dispose()V <",
+                "> Lcom/ev3;->cancel()V <",
+                "> Lcom/lu3;->a()V <",
+                "> Lcom/lu3;->request(J)V <",
+                "> Lcom/ng0;->next()Ljava/lang/Object; <",
+                "> Lkotlinx/coroutines/internal/CoroutineExceptionHandlerImpl_commonKt;->handleUncaughtCoroutineException(Lkotlin/coroutines/CoroutineContext;Ljava/lang/Throwable;)V <",
+                "> Lkotlinx/coroutines/CoroutineExceptionHandlerKt;->handleCoroutineException(Lkotlin/coroutines/CoroutineContext;Ljava/lang/Throwable;)V <",
+                "> Lkotlinx/coroutines/DispatchedTask;->handleFatalException$kotlinx_coroutines_core(Ljava/lang/Throwable;)V <",
+                "> Lkotlinx/coroutines/internal/DispatchedContinuationKt;->resumeCancellableWith(Lkotlin/coroutines/Continuation;Ljava/lang/Object;)V <",
+                "> Lkotlinx/coroutines/intrinsics/CancellableKt;->startCoroutineCancellable(Lkotlin/jvm/functions/Function2;Ljava/lang/Object;Lkotlin/coroutines/Continuation;)V <",
+                "> Lkotlinx/coroutines/CoroutineStart;->invoke(Lkotlin/jvm/functions/Function2;Ljava/lang/Object;Lkotlin/coroutines/Continuation;)V <",
+                "> Lkotlinx/coroutines/AbstractCoroutine;->start(Lkotlinx/coroutines/CoroutineStart;Ljava/lang/Object;Lkotlin/jvm/functions/Function2;)V <",
+                "> Lkotlinx/coroutines/BuildersKt;->launch(Lkotlinx/coroutines/CoroutineScope;Lkotlin/coroutines/CoroutineContext;Lkotlinx/coroutines/CoroutineStart;Lkotlin/jvm/functions/Function2;)Lkotlinx/coroutines/Job; <",
+                "> Lkotlinx/coroutines/BuildersKt;->launch$default(Lkotlinx/coroutines/CoroutineScope;Lkotlin/coroutines/CoroutineContext;Lkotlinx/coroutines/CoroutineStart;Lkotlin/jvm/functions/Function2;ILjava/lang/Object;)Lkotlinx/coroutines/Job; <",
+                "> Lcom/mcdonalds/compose/integration/MopSecondaryActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.mcdonalds.mobileapp/com.mcdonalds.compose.integration.MopSecondaryActivity",
+                    "start -n"
+                ]
+            ]
+        }
+    },
+    "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/an1;->then(Lcom/google/android/gms/tasks/Task;)Ljava/lang/Object; <",
+                "> Lcom/ou4;->run()V <",
+                "> Lcom/pm4;->schedule(Ljava/lang/Runnable;)Lio/reactivex/disposables/Disposable; <",
+                "> Lcom/uz3;->a(JLorg/reactivestreams/Subscription;)V <",
+                "> Lcom/uz3;->request(J)V <",
+                "> Lcom/ng0;->next()Ljava/lang/Object; <",
+                "> Lkotlinx/coroutines/internal/CoroutineExceptionHandlerImpl_commonKt;->handleUncaughtCoroutineException(Lkotlin/coroutines/CoroutineContext;Ljava/lang/Throwable;)V <",
+                "> Lkotlinx/coroutines/CoroutineExceptionHandlerKt;->handleCoroutineException(Lkotlin/coroutines/CoroutineContext;Ljava/lang/Throwable;)V <",
+                "> Lkotlinx/coroutines/DispatchedTask;->handleFatalException$kotlinx_coroutines_core(Ljava/lang/Throwable;)V <",
+                "> Lkotlinx/coroutines/internal/DispatchedContinuationKt;->resumeCancellableWith(Lkotlin/coroutines/Continuation;Ljava/lang/Object;)V <",
+                "> Lkotlinx/coroutines/intrinsics/CancellableKt;->startCoroutineCancellable(Lkotlin/jvm/functions/Function2;Ljava/lang/Object;Lkotlin/coroutines/Continuation;)V <",
+                "> Lkotlinx/coroutines/CoroutineStart;->invoke(Lkotlin/jvm/functions/Function2;Ljava/lang/Object;Lkotlin/coroutines/Continuation;)V <",
+                "> Lkotlinx/coroutines/AbstractCoroutine;->start(Lkotlinx/coroutines/CoroutineStart;Ljava/lang/Object;Lkotlin/jvm/functions/Function2;)V <",
+                "> Lkotlinx/coroutines/BuildersKt;->launch(Lkotlinx/coroutines/CoroutineScope;Lkotlin/coroutines/CoroutineContext;Lkotlinx/coroutines/CoroutineStart;Lkotlin/jvm/functions/Function2;)Lkotlinx/coroutines/Job; <",
+                "> Lkotlinx/coroutines/BuildersKt;->launch$default(Lkotlinx/coroutines/CoroutineScope;Lkotlin/coroutines/CoroutineContext;Lkotlinx/coroutines/CoroutineStart;Lkotlin/jvm/functions/Function2;ILjava/lang/Object;)Lkotlinx/coroutines/Job; <",
+                "> Lcom/mcdonalds/compose/integration/MopSecondaryActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.mcdonalds.mobileapp/com.mcdonalds.compose.integration.MopSecondaryActivity",
+                    "start -n"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/xw9;->doChallenge(Landroid/app/Activity;Lcom/asiapay/sdk/integration/xecure3ds/spec/ChallengeParameters;Lcom/asiapay/sdk/integration/xecure3ds/spec/ChallengeStatusReceiver;I)V <",
+                "> Lcom/vr9;->b(Landroid/content/Context;)V <",
+                "> Lcom/vr9;->initialize(Landroid/content/Context;Lcom/asiapay/sdk/integration/xecure3ds/spec/ConfigParameters;Ljava/lang/String;Lcom/asiapay/sdk/integration/xecure3ds/spec/UiCustomization;)V <",
+                "> Lcom/o9;->doInBackground([Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/p9;->a(Landroidx/appcompat/widget/ActivityChooserModel$HistoricalRecord;)V <",
+                "> Lcom/p9;->b(I)Landroid/content/Intent; <",
+                "> Lcom/u9;->onClick(Landroid/view/View;)V <",
+                "> Lcom/a8;->onClick(Landroid/view/View;)V <",
+                "> Lcom/cp6;->run()V <",
+                "> Lcom/dp6;->dispose()V <",
+                "> Lcom/ev3;->cancel()V <",
+                "> Lcom/lu3;->a()V <",
+                "> Lcom/lu3;->request(J)V <",
+                "> Lcom/ng0;->next()Ljava/lang/Object; <",
+                "> Lkotlinx/coroutines/internal/CoroutineExceptionHandlerImpl_commonKt;->handleUncaughtCoroutineException(Lkotlin/coroutines/CoroutineContext;Ljava/lang/Throwable;)V <",
+                "> Lkotlinx/coroutines/CoroutineExceptionHandlerKt;->handleCoroutineException(Lkotlin/coroutines/CoroutineContext;Ljava/lang/Throwable;)V <",
+                "> Lkotlinx/coroutines/DispatchedTask;->handleFatalException$kotlinx_coroutines_core(Ljava/lang/Throwable;)V <",
+                "> Lkotlinx/coroutines/internal/DispatchedContinuationKt;->resumeCancellableWith(Lkotlin/coroutines/Continuation;Ljava/lang/Object;)V <",
+                "> Lkotlinx/coroutines/intrinsics/CancellableKt;->startCoroutineCancellable(Lkotlin/jvm/functions/Function2;Ljava/lang/Object;Lkotlin/coroutines/Continuation;)V <",
+                "> Lkotlinx/coroutines/CoroutineStart;->invoke(Lkotlin/jvm/functions/Function2;Ljava/lang/Object;Lkotlin/coroutines/Continuation;)V <",
+                "> Lkotlinx/coroutines/AbstractCoroutine;->start(Lkotlinx/coroutines/CoroutineStart;Ljava/lang/Object;Lkotlin/jvm/functions/Function2;)V <",
+                "> Lkotlinx/coroutines/BuildersKt;->launch(Lkotlinx/coroutines/CoroutineScope;Lkotlin/coroutines/CoroutineContext;Lkotlinx/coroutines/CoroutineStart;Lkotlin/jvm/functions/Function2;)Lkotlinx/coroutines/Job; <",
+                "> Lkotlinx/coroutines/BuildersKt;->launch$default(Lkotlinx/coroutines/CoroutineScope;Lkotlin/coroutines/CoroutineContext;Lkotlinx/coroutines/CoroutineStart;Lkotlin/jvm/functions/Function2;ILjava/lang/Object;)Lkotlinx/coroutines/Job; <",
+                "> Lcom/mcdonalds/compose/integration/MopSecondaryActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.mcdonalds.mobileapp/com.mcdonalds.compose.integration.MopSecondaryActivity",
+                    "start -n"
+                ],
+                [
+                    "com.mcdonalds.compose.integration.MopSecondaryActivity",
+                    "btnCancel"
+                ],
+                [
+                    "com.mcdonalds.compose.integration.MopSecondaryActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    }
+}

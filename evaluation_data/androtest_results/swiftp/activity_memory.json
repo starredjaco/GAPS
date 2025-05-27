@@ -1,0 +1,110 @@
+{
+    "be.ppareit.swiftp_freebe.ppareit.swiftp.gui.MainActivity": {
+        "be.ppareit.swiftp_freebe.ppareit.swiftp.gui.ManageUsersActivity": [
+            [
+                "click (1689, 63, 1794, 189)",
+                "click (0, 718, 1794, 910)"
+            ],
+            [
+                "swipe android:id/list",
+                "click (0, 718, 1794, 910)"
+            ],
+            [
+                "click (0, 718, 1794, 910)"
+            ],
+            [
+                "click (975, 73, 1080, 199)",
+                "click (0, 782, 1080, 974)"
+            ],
+            [
+                "swipe android:id/list",
+                "click (0, 782, 1080, 974)"
+            ],
+            [
+                "swipe android:id/list"
+            ]
+        ],
+        "com.google.android.documentsuicom.android.documentsui.picker.PickActivity": [
+            [
+                "swipe android:id/list",
+                "click (0, 189, 1794, 381)"
+            ],
+            [
+                "swipe android:id/list"
+            ],
+            [
+                "click (1689, 63, 1794, 189)",
+                "click (0, 189, 1794, 381)"
+            ]
+        ],
+        "com.google.android.inputmethod.latincom.google.android.apps.inputmethod.latin.preference.SettingsActivity": [
+            [
+                "swipe android:id/list"
+            ]
+        ],
+        "com.ringdroid.RingdroidSelectActivity": [
+            [
+                "click (975, 73, 1080, 199)"
+            ]
+        ]
+    },
+    "be.ppareit.swiftp_freebe.ppareit.swiftp.gui.ManageUsersActivity": {
+        "com.google.android.inputmethod.latincom.google.android.apps.inputmethod.latin.preference.SettingsActivity": [
+            [
+                "click be.ppareit.swiftp_free:id/user_add_btn",
+                "text be.ppareit.swiftp_free:id/user_edit_name",
+                "text be.ppareit.swiftp_free:id/user_edit_password",
+                "click be.ppareit.swiftp_free:id/user_edit_chroot"
+            ],
+            [
+                "click be.ppareit.swiftp_free:id/user_edit_btn",
+                "text be.ppareit.swiftp_free:id/user_edit_name",
+                "text be.ppareit.swiftp_free:id/user_edit_password",
+                "click be.ppareit.swiftp_free:id/user_edit_chroot"
+            ],
+            [
+                "click be.ppareit.swiftp_free:id/user_add_btn",
+                "click be.ppareit.swiftp_free:id/user_save_btn",
+                "text be.ppareit.swiftp_free:id/user_edit_name",
+                "text be.ppareit.swiftp_free:id/user_edit_password",
+                "click be.ppareit.swiftp_free:id/user_edit_chroot"
+            ]
+        ]
+    },
+    "com.google.android.inputmethod.latincom.google.android.apps.inputmethod.latin.preference.SettingsActivity": {
+        "be.ppareit.swiftp_freebe.ppareit.swiftp.gui.ManageUsersActivity": [
+            [
+                "click (0, 84, 147, 210)"
+            ],
+            [
+                "click (0, 667, 1794, 816)",
+                "click (0, 84, 147, 210)"
+            ]
+        ],
+        "com.ringdroid.RingdroidEditActivity": [
+            []
+        ]
+    },
+    "com.google.android.documentsuicom.android.documentsui.picker.PickActivity": {
+        "com.google.android.inputmethod.latincom.google.android.apps.inputmethod.latin.preference.SettingsActivity": [
+            [
+                "click (1689, 63, 1794, 189)",
+                "click android:id/button1",
+                "click android:id/button1"
+            ],
+            []
+        ]
+    },
+    "com.ringdroid.RingdroidEditActivity": {
+        "com.ringdroid.RingdroidSelectActivity": [
+            []
+        ]
+    },
+    "com.google.android.gms.autofill.ui.AutofillTransparentActivity": {
+        "be.ppareit.swiftp_freebe.ppareit.swiftp.gui.MainActivity": [
+            [
+                "click android:id/button1"
+            ]
+        ]
+    }
+}

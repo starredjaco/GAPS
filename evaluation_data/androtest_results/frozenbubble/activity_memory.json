@@ -1,0 +1,69 @@
+{
+    "org.jfedor.frozenbubblecom.efortin.frozenbubble.HomeScreen": {
+        "org.jfedor.frozenbubblecom.efortin.frozenbubble.PreferencesActivity": [
+            [
+                "click (327, 990, 752, 1116)",
+                "click (327, 834, 752, 960)"
+            ]
+        ],
+        "org.jfedor.frozenbubble.FrozenBubble": [
+            [
+                "click (327, 522, 752, 648)"
+            ],
+            [
+                "click (327, 522, 752, 648)",
+                "click (327, 678, 752, 804)"
+            ],
+            [
+                "click (327, 522, 752, 648)",
+                "click (327, 834, 752, 960)",
+                "click (327, 522, 752, 648)"
+            ],
+            [
+                "click (327, 834, 752, 960)",
+                "click (327, 522, 752, 648)"
+            ]
+        ],
+        "com.google.android.apps.nexuslauncher.NexusLauncherActivity": [
+            [
+                "click (327, 834, 752, 960)",
+                "click (327, 522, 752, 648)"
+            ],
+            [
+                "click (327, 522, 752, 648)",
+                "click (924, 0, 1080, 156)"
+            ]
+        ]
+    },
+    "org.jfedor.frozenbubble.FrozenBubble": {
+        "org.jfedor.frozenbubblecom.efortin.frozenbubble.HomeScreen": [
+            [
+                "click android:id/button2",
+                "click android:id/button3"
+            ],
+            [
+                "click android:id/button3",
+                "click android:id/button2",
+                "click android:id/button1"
+            ],
+            [
+                "click android:id/button2",
+                "click android:id/button1"
+            ],
+            [
+                "click android:id/button1"
+            ],
+            [
+                "click android:id/button3"
+            ]
+        ]
+    },
+    "com.google.android.apps.nexuslauncher.NexusLauncherActivity": {
+        "com.google.android.apps.messaging.ui.ConversationListActivity": [
+            [
+                "click (327, 834, 752, 960)",
+                "click (237, 1382, 439, 1592)"
+            ]
+        ]
+    }
+}

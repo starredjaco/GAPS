@@ -1,0 +1,349 @@
+{
+    "Landroid/content/Intent;-><init>()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lc/a/p0/f1/e;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;)Z <",
+                "> Lc/a/o0/a/g/c;->m(Landroid/content/Context;Ljava/lang/String;)Z <",
+                "> Lc/a/p0/c1/c;->a()V <",
+                "> Lc/a/p0/c1/c;->run()V <",
+                "> Lc/a/p0/e1/d;->run()V <",
+                "> Lc/a/p0/z0/d;->b()V <",
+                "> Lc/a/p0/z0/d$a;->run()V <",
+                "> Lc/a/p0/z0/d;->a(Landroid/app/Application;)V <",
+                "> Lcom/ss/android/business/EhiApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Intent;->createChooser(Landroid/content/Intent;Ljava/lang/CharSequence;)Landroid/content/Intent;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lc/a/o0/a/g/c;->e1(Landroid/content/Context;Landroid/content/Intent;Ljava/lang/String;)V <",
+                "> Lc/a/p0/c1/c;->a()V <",
+                "> Lc/a/p0/c1/c;->run()V <",
+                "> Lc/a/p0/e1/d;->run()V <",
+                "> Lc/a/p0/z0/d;->b()V <",
+                "> Lc/a/p0/z0/d$a;->run()V <",
+                "> Lc/a/p0/z0/d;->a(Landroid/app/Application;)V <",
+                "> Lcom/ss/android/business/EhiApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/ss/android/socialbase/downloader/downloader/SqlDownloadCacheService;->a(Landroid/content/Context;Landroid/content/ServiceConnection;)V <",
+                "> Lc/b0/a/c0/a/e/g;-><init>()V <",
+                "> Lc/b0/a/c0/a/i/g;-><init>()V <",
+                "> Lc/b0/a/c0/a/g/d;->h()Lc/b0/a/c0/a/g/o; <",
+                "> Lc/b0/a/c0/a/g/d;->D(Ljava/lang/Runnable;JLjava/util/concurrent/TimeUnit;)Ljava/util/concurrent/Future; <",
+                "> Lc/b0/a/c0/a/g/h;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "----- CONDITIONAL -----",
+                "> Lc/b0/a/c0/a/e/e;-><clinit>()V <",
+                "----- CONDITIONAL -----",
+                "> Lc/b0/a/c0/a/e/e;->G2()V <",
+                "----- CONDITIONAL -----",
+                "> Lc/b0/a/c0/a/e/e$g;->run()V <",
+                "----- CONDITIONAL -----",
+                "> Lc/b0/a/c0/a/e/e;->d()V <",
+                "----- CONDITIONAL -----",
+                "> Lc/b0/a/c0/a/e/c$a;->onTransact(ILandroid/os/Parcel;Landroid/os/Parcel;I)Z <",
+                "----- CONDITIONAL -----",
+                "> Lc/b0/a/c0/a/e/e;-><init>()V <",
+                "----- CONDITIONAL -----",
+                "> Lc/b0/a/c0/a/i/g;-><init>()V <",
+                "----- CONDITIONAL -----",
+                "> Lc/b0/a/c0/a/g/d;->h()Lc/b0/a/c0/a/g/o; <",
+                "----- CONDITIONAL -----",
+                "> Lc/b0/a/c0/a/g/d;->D(Ljava/lang/Runnable;JLjava/util/concurrent/TimeUnit;)Ljava/util/concurrent/Future; <",
+                "----- CONDITIONAL -----",
+                "> Lc/b0/a/c0/a/g/h;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "----- CONDITIONAL -----"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.MEDIA_EJECT",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Intent;-><init>(Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lc/a/x0/f/b$b;->run()V <",
+                "> Lc/a/x0/f/b;->s()V <",
+                "> Lc/a/u/a/a/e/d;->b(Ljava/lang/String;Lc/a/u/a/a/e/b;)Ljava/lang/String; <",
+                "> Lc/a/u/a/a/e/i/a/m$b;-><init>(Lcom/bytedance/retrofit2/client/Request;)V <",
+                "> Lc/a/u/a/a/e/i/a/m;->a(Lcom/bytedance/retrofit2/client/Request;)Lc/a/r0/h0/d; <",
+                "> Lc/a/u/a/a/e/i/a/p/c;->a(Ljava/lang/String;)Ljava/lang/String; <",
+                "> Lc/a/u/a/a/e/i/a/p/c;->call()Ljava/lang/Object; <",
+                "> Lc/a/u/a/a/e/i/a/p/b;->j(Ljava/util/List;Lcom/bytedance/frameworks/baselib/network/http/ok3/impl/httpdns/DnsRecord$CacheStaleReason;Z)Ljava/util/concurrent/Future; <",
+                "> Lc/a/u/a/a/e/i/a/p/b;->f()Lc/a/u/a/a/e/i/a/p/b; <",
+                "> Lc/a/u/a/a/e/i/a/c$a;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.net.conn.CONNECTIVITY_CHANGE",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lc/g/c;->c(Lc/g/a;Z)V <",
+                "> Lc/g/l$j;->call()Ljava/lang/Object; <",
+                "> Lc/g/l;->n(Landroid/content/Context;Lc/g/l$b;)V <",
+                "> Lc/g/z/l;->d(Landroid/app/Application;Ljava/lang/String;)V <",
+                "> Lc/g/z/l;-><init>(Ljava/lang/String;Ljava/lang/String;Lc/g/a;)V <",
+                "> Lc/g/z/l;-><init>(Landroid/content/Context;Ljava/lang/String;Lc/g/a;)V <",
+                "> Lc/g/y;->g()V <",
+                "> Lc/g/y;->c()Z <",
+                "> Lc/g/l0/y0/l/a;->a(Ljava/lang/Throwable;Ljava/lang/Object;)V <",
+                "> Lc/g/l0/a0;->run()V <",
+                "> Lc/b0/a/v/f;->d(Ljava/lang/Runnable;J)V <",
+                "> Lcom/ss/android/message/NotifyService;->onBind(Landroid/content/Intent;)Landroid/os/IBinder; <",
+                "----- CONDITIONAL -----",
+                "> Lc/g/l;->n(Landroid/content/Context;Lc/g/l$b;)V <",
+                "----- CONDITIONAL -----",
+                "> Lc/g/z/l;->d(Landroid/app/Application;Ljava/lang/String;)V <",
+                "----- CONDITIONAL -----",
+                "> Lc/g/z/l;-><init>(Ljava/lang/String;Ljava/lang/String;Lc/g/a;)V <",
+                "----- CONDITIONAL -----",
+                "> Lc/g/z/l;-><init>(Landroid/content/Context;Ljava/lang/String;Lc/g/a;)V <",
+                "----- CONDITIONAL -----",
+                "> Lc/g/y;->g()V <",
+                "----- CONDITIONAL -----",
+                "> Lc/g/y;->c()Z <",
+                "----- CONDITIONAL -----",
+                "> Lc/g/l0/y0/l/a;->a(Ljava/lang/Throwable;Ljava/lang/Object;)V <",
+                "----- CONDITIONAL -----",
+                "> Lc/g/l0/a0;->run()V <",
+                "----- CONDITIONAL -----",
+                "> Lc/b0/a/c0/a/g/d;->A(Ljava/lang/Runnable;Z)V <",
+                "----- CONDITIONAL -----",
+                "> Lc/b0/a/c0/a/g/h;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "----- CONDITIONAL -----"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.MEDIA_EJECT",
+                    "broadcast -a"
+                ],
+                [
+                    "intent",
+                    "com.ss.android.message.action.PUSH_SERVICE",
+                    "start-service -a"
+                ]
+            ]
+        }
+    },
+    "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lc/a/g/a/f/a;->s(Ljava/lang/String;[BLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)Lc/a/o/n0/o; <",
+                "> Lc/a/g/a/f/a;->r(Ljava/lang/String;[BLcom/bytedance/crash/upload/CrashUploader$CompressType;Ljava/lang/String;Z)Lc/a/o/n0/o; <",
+                "> Lc/a/g/a/f/a;->u0(Ljava/lang/String;Ljava/lang/String;Z)Lc/a/o/n0/o; <",
+                "> Lc/a/g/a/f/a;->v0(Ljava/lang/String;Ljava/lang/String;)Lc/a/o/n0/o; <",
+                "> Lc/a/o/n0/f;->g(Lorg/json/JSONObject;)V <",
+                "> Lc/a/o/c0/a;->run()V <",
+                "> Lc/m/a/e/g/b/x9;->y(Ljava/lang/Runnable;)V <",
+                "> Lc/m/a/e/g/b/x7;->run()V <",
+                "> Lc/m/a/e/g/b/v7;->Q()V <",
+                "> Lc/m/a/e/g/b/uc;->run()V <",
+                "> Lc/m/a/e/g/b/tc;->run()V <",
+                "> Lc/m/a/e/g/b/rc;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.google.android.gms.measurement.TRIGGERS_AVAILABLE",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Landroid/webkit/WebView;->addJavascriptInterface(Ljava/lang/Object;Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lc/a/c/b/f/p/d;->run()V <",
+                "> Lc/m/a/e/g/b/x9;->y(Ljava/lang/Runnable;)V <",
+                "> Lc/m/a/e/g/b/x7;->run()V <",
+                "> Lc/m/a/e/g/b/v7;->Q()V <",
+                "> Lc/m/a/e/g/b/uc;->run()V <",
+                "> Lc/m/a/e/g/b/tc;->run()V <",
+                "> Lc/m/a/e/g/b/rc;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.google.android.gms.measurement.TRIGGERS_AVAILABLE",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Landroid/webkit/WebView;->evaluateJavascript(Ljava/lang/String;Landroid/webkit/ValueCallback;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lc/a/c/b/j/g;->run()V <",
+                "> Lc/m/a/e/g/b/x9;->y(Ljava/lang/Runnable;)V <",
+                "> Lc/m/a/e/g/b/x7;->run()V <",
+                "> Lc/m/a/e/g/b/v7;->Q()V <",
+                "> Lc/m/a/e/g/b/uc;->run()V <",
+                "> Lc/m/a/e/g/b/tc;->run()V <",
+                "> Lc/m/a/e/g/b/rc;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.google.android.gms.measurement.TRIGGERS_AVAILABLE",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Intent;->setData(Landroid/net/Uri;)Landroid/content/Intent;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lc/g/l0/p0;->B()Z <",
+                "> Lc/g/l$j;->call()Ljava/lang/Object; <",
+                "> Lc/g/l;->n(Landroid/content/Context;Lc/g/l$b;)V <",
+                "> Lc/g/z/l;->d(Landroid/app/Application;Ljava/lang/String;)V <",
+                "> Lc/g/z/l;-><init>(Ljava/lang/String;Ljava/lang/String;Lc/g/a;)V <",
+                "> Lc/g/z/l;-><init>(Landroid/content/Context;Ljava/lang/String;Lc/g/a;)V <",
+                "> Lc/g/y;->g()V <",
+                "> Lc/g/y;->c()Z <",
+                "> Lc/g/l0/y0/l/a;->a(Ljava/lang/Throwable;Ljava/lang/Object;)V <",
+                "> Lc/g/l0/a0;->run()V <",
+                "> Lc/m/a/e/g/b/x9;->y(Ljava/lang/Runnable;)V <",
+                "> Lc/m/a/e/g/b/x7;->run()V <",
+                "> Lc/m/a/e/g/b/v7;->Q()V <",
+                "> Lc/m/a/e/g/b/uc;->run()V <",
+                "> Lc/m/a/e/g/b/tc;->run()V <",
+                "> Lc/m/a/e/g/b/rc;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "----- CONDITIONAL -----",
+                "> Lc/g/t;->a(Lc/g/r;Z)V <",
+                "> Lc/g/l$j;->call()Ljava/lang/Object; <",
+                "----- CONDITIONAL -----",
+                "> Lc/g/l;->n(Landroid/content/Context;Lc/g/l$b;)V <",
+                "----- CONDITIONAL -----",
+                "> Lc/g/z/l;->d(Landroid/app/Application;Ljava/lang/String;)V <",
+                "----- CONDITIONAL -----",
+                "> Lc/g/z/l;-><init>(Ljava/lang/String;Ljava/lang/String;Lc/g/a;)V <",
+                "----- CONDITIONAL -----",
+                "> Lc/g/z/l;-><init>(Landroid/content/Context;Ljava/lang/String;Lc/g/a;)V <",
+                "----- CONDITIONAL -----",
+                "> Lc/g/y;->g()V <",
+                "----- CONDITIONAL -----",
+                "> Lc/g/y;->c()Z <",
+                "----- CONDITIONAL -----",
+                "> Lc/g/l0/y0/l/a;->a(Ljava/lang/Throwable;Ljava/lang/Object;)V <",
+                "----- CONDITIONAL -----",
+                "> Lc/g/l0/a0;->run()V <",
+                "----- CONDITIONAL -----",
+                "> Lc/m/a/e/g/b/zb;->H()V <",
+                "----- CONDITIONAL -----",
+                "----- CONDITIONAL -----",
+                "> Lc/g/t;->a(Lc/g/r;Z)V <",
+                "> Lc/g/l$j;->call()Ljava/lang/Object; <",
+                "----- CONDITIONAL -----",
+                "> Lc/b0/a/c0/a/g/d;->A(Ljava/lang/Runnable;Z)V <",
+                "----- CONDITIONAL -----",
+                "> Lc/b0/a/c0/a/g/h;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "----- CONDITIONAL -----",
+                "----- CONDITIONAL -----",
+                "> Lc/g/l;->n(Landroid/content/Context;Lc/g/l$b;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.MEDIA_EJECT",
+                    "broadcast -a"
+                ],
+                [
+                    "intent",
+                    "android.net.conn.CONNECTIVITY_CHANGE",
+                    "start -a"
+                ],
+                [
+                    "intent",
+                    "com.google.android.gms.measurement.TRIGGERS_AVAILABLE",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Context;->getExternalCacheDir()Ljava/io/File;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lc/a/e/j/a$a;->run()V <",
+                "> Lc/a/e/j/a;->a()V <",
+                "> Lc/a/e/j/a;->b(Lc/a/e/j/d/a;)V <",
+                "> Lc/a/e/m/o;->run()V <",
+                "> Lc/a/e/m/k;->run()V <",
+                "> Lc/m/a/e/g/b/x9;->y(Ljava/lang/Runnable;)V <",
+                "> Lc/m/a/e/g/b/x7;->run()V <",
+                "> Lc/m/a/e/g/b/v7;->Q()V <",
+                "> Lc/m/a/e/g/b/uc;->run()V <",
+                "> Lc/m/a/e/g/b/tc;->run()V <",
+                "> Lc/m/a/e/g/b/rc;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "----- CONDITIONAL -----",
+                "> Lc/a/e/j/a$a;->run()V <",
+                "----- CONDITIONAL -----",
+                "> Lc/a/e/j/a;->a()V <",
+                "----- CONDITIONAL -----",
+                "> Lc/a/e/j/a;->b(Lc/a/e/j/d/a;)V <",
+                "----- CONDITIONAL -----",
+                "> Lc/a/e/m/o;->run()V <",
+                "----- CONDITIONAL -----",
+                "> Lc/a/e/m/k;->run()V <",
+                "----- CONDITIONAL -----",
+                "> Lc/b0/a/c0/a/g/d;->A(Ljava/lang/Runnable;Z)V <",
+                "----- CONDITIONAL -----",
+                "> Lc/b0/a/c0/a/g/h;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "----- CONDITIONAL -----",
+                "----- CONDITIONAL -----",
+                "> Lc/a/e/j/a;->a()V <",
+                "----- CONDITIONAL -----",
+                "> Lc/a/e/m/o;->run()V <",
+                "----- CONDITIONAL -----",
+                "> Lc/m/a/e/g/b/zb;->H()V <",
+                "----- CONDITIONAL -----",
+                "----- CONDITIONAL -----",
+                "> Lc/a/e/m/o;->run()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.net.conn.CONNECTIVITY_CHANGE",
+                    "start -a"
+                ],
+                [
+                    "intent",
+                    "android.intent.action.MEDIA_EJECT",
+                    "broadcast -a"
+                ],
+                [
+                    "intent",
+                    "com.google.android.gms.measurement.TRIGGERS_AVAILABLE",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    }
+}

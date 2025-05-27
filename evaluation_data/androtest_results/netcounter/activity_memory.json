@@ -1,0 +1,63 @@
+{
+    "com.android.vendingcom.google.android.finsky.offlinegames.impl.OfflineGamesActivity": {
+        "com.android.vendingcom.google.android.finsky.activities.MainActivity": [
+            [
+                "click com.android.vending:id/0_resource_name_obfuscated",
+                "click com.android.vending:id/0_resource_name_obfuscated"
+            ]
+        ]
+    },
+    "net.jaqpot.netcounter.activity.NetCounterActivity": {
+        "com.android.vendingcom.google.android.finsky.activities.MainActivity": [
+            []
+        ],
+        "com.android.chromecom.google.android.apps.chrome.Main": [
+            [],
+            [
+                "click android:id/button1"
+            ]
+        ],
+        "com.google.android.apps.nexuslauncher.NexusLauncherActivity": [
+            []
+        ],
+        "net.jaqpot.netcounter.activity.NetCounterPreferences": [
+            [
+                "click android:id/title"
+            ]
+        ]
+    },
+    "com.android.vendingcom.google.android.finsky.activities.MainActivity": {
+        "com.android.chromecom.google.android.apps.chrome.Main": [
+            []
+        ]
+    },
+    "AtchDlg:net.jaqpot.netcounternet.jaqpot.netcounter.activity.NetCounterActivity": {
+        "net.jaqpot.netcounter.activity.NetCounterActivity": [
+            [
+                "click android:id/title"
+            ]
+        ],
+        "net.jaqpot.netcounter.activity.NetCounterPreferences": [
+            [
+                "click android:id/title"
+            ]
+        ]
+    },
+    "com.android.chromecom.google.android.apps.chrome.Main": {
+        "com.google.android.apps.nexuslauncher.NexusLauncherActivity": [
+            [],
+            [
+                "click (21, 210, 1794, 357)",
+                "click (0, 0, 0, 0)"
+            ]
+        ]
+    },
+    "net.jaqpot.netcounter.activity.NetCounterPreferences": {
+        "net.jaqpot.netcounter.activity.NetCounterActivity": [
+            []
+        ],
+        "AtchDlg:net.jaqpot.netcounternet.jaqpot.netcounter.activity.NetCounterActivity": [
+            []
+        ]
+    }
+}

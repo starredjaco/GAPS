@@ -1,0 +1,57 @@
+{
+    "de.freewarepoint.whohasmystuff.activities.MainActivity": {
+        "de.freewarepoint.whohasmystuff.activities.AddLentItem": [
+            [
+                "click de.freewarepoint.whohasmystuff:id/addButton"
+            ],
+            [
+                "click (975, 73, 1080, 199)",
+                "click de.freewarepoint.whohasmystuff:id/addButton"
+            ]
+        ],
+        "com.google.android.apps.nexuslauncher.NexusLauncherActivity": [
+            [
+                "click (975, 73, 1080, 199)"
+            ]
+        ],
+        "com.google.android.googlequicksearchbox.GoogleAppVoiceAssistEntrypoint": [
+            [
+                "click de.freewarepoint.whohasmystuff:id/addButton"
+            ]
+        ]
+    },
+    "de.freewarepoint.whohasmystuff.activities.AddLentItem": {
+        "com.google.android.contactscom.google.android.apps.contacts.activities.leaf.ui.picker.ContactPickerActivity": [
+            [
+                "text de.freewarepoint.whohasmystuff:id/personName John Smith",
+                "text de.freewarepoint.whohasmystuff:id/add_description Test Description",
+                "click de.freewarepoint.whohasmystuff:id/choosePerson"
+            ],
+            [
+                "text de.freewarepoint.whohasmystuff:id/personName John Doe",
+                "click de.freewarepoint.whohasmystuff:id/choosePerson"
+            ]
+        ],
+        "de.freewarepoint.whohasmystuff.activities.MainActivity": [
+            [
+                "text de.freewarepoint.whohasmystuff:id/personName John Doe",
+                "click de.freewarepoint.whohasmystuff:id/add_button"
+            ]
+        ]
+    },
+    "com.google.android.contactscom.google.android.apps.contacts.activities.leaf.ui.picker.ContactPickerActivity": {
+        "com.google.android.apps.nexuslauncher.NexusLauncherActivity": [
+            []
+        ]
+    },
+    "com.google.android.apps.nexuslauncher.NexusLauncherActivity": {
+        "de.freewarepoint.whohasmystuff.activities.MainActivity": [
+            []
+        ],
+        "com.google.android.googlequicksearchbox.GoogleAppVoiceAssistEntrypoint": [
+            [
+                "click de.freewarepoint.whohasmystuff:id/addButton"
+            ]
+        ]
+    }
+}

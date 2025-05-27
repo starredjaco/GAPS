@@ -1,0 +1,432 @@
+{
+    "Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/unity3d/services/ads/api/AdUnit;->open(Ljava/lang/Integer;Lorg/json/JSONArray;Ljava/lang/Integer;Lorg/json/JSONArray;Ljava/lang/Integer;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Integer;Lcom/unity3d/services/core/webview/bridge/WebViewCallback;)V <",
+                "> Lcom/unity3d/services/ads/configuration/AdsModuleConfiguration;->getWebAppApiClassList()[Ljava/lang/Class; <",
+                "> Lcom/unity3d/services/core/configuration/Configuration;-><init>()V <",
+                "> Lcom/unity3d/services/core/configuration/ConfigurationReader;->getCurrentConfiguration()Lcom/unity3d/services/core/configuration/Configuration; <",
+                "> Lcom/unity3d/services/ads/gmascar/managers/BiddingBaseManager;->lambda$uploadSignals$2(Lcom/unity3d/services/ads/gmascar/models/BiddingSignals;)V <",
+                "> Lcom/unity3d/services/ads/gmascar/managers/BiddingBaseManager;->a(Lcom/unity3d/services/ads/gmascar/managers/BiddingBaseManager;Lcom/unity3d/services/ads/gmascar/models/BiddingSignals;)V <",
+                "> Lcom/ironsource/H1;->run()V <",
+                "> LK3/q;->execute(Ljava/lang/Runnable;)V <",
+                "> LL3/a;->a(Ljava/lang/Runnable;)V <",
+                "> LB3/o;->h0()LA3/B; <",
+                "> LA3/H;->a(LA3/J;)LA3/B; <",
+                "> Lcom/duolingo/notifications/NotificationIntentService;->onHandleIntent(Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.duolingo.action.REMIND_LATER",
+                    "start-service -a"
+                ]
+            ]
+        }
+    },
+    "Landroid/webkit/WebView;-><init>(Landroid/content/Context;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/ironsource/i8;-><init>(Landroid/content/Context;Lcom/ironsource/s8;)V <",
+                "> Lcom/ironsource/sdk/controller/t;-><init>(Landroid/content/Context;Lcom/ironsource/k3;Lcom/ironsource/q2;LEi/i;Lcom/ironsource/q5;ILcom/ironsource/s3;Ljava/lang/String;Lcom/ironsource/sdk/controller/k$a;Lcom/ironsource/sdk/controller/k$b;Ljava/lang/String;Ljava/lang/String;)V <",
+                "> Lcom/ironsource/sdk/controller/e;->a(Lcom/ironsource/sdk/controller/e;Landroid/content/Context;Lcom/ironsource/q2;Lcom/ironsource/uc;Lcom/ironsource/k3;ILcom/ironsource/s3;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lcom/ironsource/sdk/controller/t; <",
+                "> LEi/A;->run()V <",
+                "> Lcom/ironsource/sdk/controller/e;-><init>(Landroid/content/Context;Lcom/ironsource/q2;Lcom/ironsource/uc;Lcom/ironsource/k3;Lcom/ironsource/q5;ILorg/json/JSONObject;Ljava/lang/String;Ljava/lang/String;Lcom/ironsource/r9;)V <",
+                "> Lcom/ironsource/u7;->d(Landroid/content/Context;)V <",
+                "> Lcom/ironsource/u7;->a(Ljava/lang/String;Ljava/lang/String;Landroid/content/Context;)Lcom/ironsource/a8; <",
+                "> Lcom/ironsource/u7;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Lcom/ironsource/a8; <",
+                "> Lcom/ironsource/sdk/IronSourceNetwork;->initSDK(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;)V <",
+                "> Lcom/ironsource/sdk/IronSourceNetwork;->getControllerManager()Lcom/ironsource/sdk/controller/e; <",
+                "> Lcom/ironsource/s6$a;->a()Lcom/ironsource/s6; <",
+                "> Lcom/ironsource/adapters/ironsource/nativeAd/IronSourceNativeAdAdapter;->loadNativeAdForBidding$lambda$0(Lcom/ironsource/adapters/ironsource/nativeAd/IronSourceNativeAdAdapter;Lorg/json/JSONObject;Lcom/ironsource/mediationsdk/ads/nativead/interfaces/NativeAdSmashListener;Ljava/lang/String;)V <",
+                "> Lcom/ironsource/adapters/ironsource/nativeAd/IronSourceNativeAdAdapter;->a(Lcom/ironsource/adapters/ironsource/nativeAd/IronSourceNativeAdAdapter;Lorg/json/JSONObject;Lcom/ironsource/mediationsdk/ads/nativead/interfaces/NativeAdSmashListener;Ljava/lang/String;)V <",
+                "> LB3/l;->run()V <",
+                "> Lcom/duolingo/leagues/K0;->run()V <",
+                "> LB3/e;->call()Ljava/lang/Object; <",
+                "> LB3/h;->i(LB3/n;Luj/c;)Z <",
+                "> LD3/e;->run()V <",
+                "> Lg0/b;->A(Landroid/content/Context;Ljava/util/List;IZILandroid/os/Handler;Lcom/duolingo/streak/streakSociety/m;)Landroid/graphics/Typeface; <",
+                "----- CONDITIONAL -----",
+                "> Lcom/ironsource/u7;->a(Landroid/app/Activity;)V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/ironsource/u7;->a(Ljava/lang/String;Ljava/lang/String;Landroid/content/Context;)Lcom/ironsource/a8; <",
+                "----- CONDITIONAL -----",
+                "> Lcom/ironsource/u7;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Lcom/ironsource/a8; <",
+                "----- CONDITIONAL -----",
+                "> Lcom/ironsource/sdk/IronSourceNetwork;->initSDK(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;)V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/ironsource/sdk/IronSourceNetwork;->getControllerManager()Lcom/ironsource/sdk/controller/e; <",
+                "----- CONDITIONAL -----",
+                "> Lcom/ironsource/s6$a;->a()Lcom/ironsource/s6; <",
+                "----- CONDITIONAL -----",
+                "> Lcom/ironsource/adapters/ironsource/nativeAd/IronSourceNativeAdAdapter;->loadNativeAdForBidding$lambda$0(Lcom/ironsource/adapters/ironsource/nativeAd/IronSourceNativeAdAdapter;Lorg/json/JSONObject;Lcom/ironsource/mediationsdk/ads/nativead/interfaces/NativeAdSmashListener;Ljava/lang/String;)V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/ironsource/adapters/ironsource/nativeAd/IronSourceNativeAdAdapter;->a(Lcom/ironsource/adapters/ironsource/nativeAd/IronSourceNativeAdAdapter;Lorg/json/JSONObject;Lcom/ironsource/mediationsdk/ads/nativead/interfaces/NativeAdSmashListener;Ljava/lang/String;)V <",
+                "----- CONDITIONAL -----",
+                "> LB3/l;->run()V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/duolingo/leagues/K0;->run()V <",
+                "----- CONDITIONAL -----",
+                "> LB3/e;->call()Ljava/lang/Object; <",
+                "----- CONDITIONAL -----",
+                "> LBe/d;->apply(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "----- CONDITIONAL -----",
+                "> LU4/g2;->get()Ljava/lang/Object; <",
+                "----- CONDITIONAL -----",
+                "> LU4/I9;->onCreate()V <",
+                "----- CONDITIONAL -----"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "intent",
+                    "com.google.android.gms.measurement.BATCHES_AVAILABLE",
+                    "start -a"
+                ]
+            ]
+        }
+    },
+    "Landroid/webkit/WebView;->addJavascriptInterface(Ljava/lang/Object;Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/unity3d/services/ads/webplayer/WebPlayerView;-><init>(Landroid/content/Context;Ljava/lang/String;Lorg/json/JSONObject;Lorg/json/JSONObject;)V <",
+                "> Lcom/unity3d/services/ads/adunit/WebPlayerHandler;->create(Lcom/unity3d/services/ads/adunit/IAdUnitActivity;)Z <",
+                "> Lcom/unity3d/services/ads/configuration/AdsModuleConfiguration;->getAdUnitViewHandlers()Ljava/util/Map; <",
+                "> Lcom/unity3d/services/core/configuration/Configuration;-><init>()V <",
+                "> Lcom/unity3d/services/core/configuration/ConfigurationReader;->getCurrentConfiguration()Lcom/unity3d/services/core/configuration/Configuration; <",
+                "> Lcom/unity3d/services/ads/gmascar/managers/BiddingBaseManager;->lambda$uploadSignals$2(Lcom/unity3d/services/ads/gmascar/models/BiddingSignals;)V <",
+                "> Lcom/unity3d/services/ads/gmascar/managers/BiddingBaseManager;->a(Lcom/unity3d/services/ads/gmascar/managers/BiddingBaseManager;Lcom/unity3d/services/ads/gmascar/models/BiddingSignals;)V <",
+                "> Lcom/ironsource/H1;->run()V <",
+                "> LK3/q;->execute(Ljava/lang/Runnable;)V <",
+                "> LB3/h;->i(LB3/n;Luj/c;)Z <",
+                "> LD3/e;->run()V <",
+                "> Lg0/b;->A(Landroid/content/Context;Ljava/util/List;IZILandroid/os/Handler;Lcom/duolingo/streak/streakSociety/m;)Landroid/graphics/Typeface; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.google.android.gms.measurement.BATCHES_AVAILABLE",
+                    "start -a"
+                ]
+            ]
+        }
+    },
+    "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/ironsource/mediationsdk/server/HttpFunctions;->getStringFromURL(Ljava/lang/String;Lcom/ironsource/mediationsdk/p$c;)Ljava/lang/String; <",
+                "> Lcom/ironsource/mediationsdk/p;->A(Landroid/content/Context;Ljava/lang/String;Lcom/ironsource/mediationsdk/O;)Lcom/ironsource/mediationsdk/utils/c; <",
+                "> Lcom/ironsource/mediationsdk/p;->U(Landroid/content/Context;Ljava/lang/String;Lcom/ironsource/mediationsdk/O;)Lcom/ironsource/mediationsdk/utils/c; <",
+                "> Lcom/ironsource/mediationsdk/K;->run()V <",
+                "> Lcom/ironsource/mediationsdk/Q;-><init>()V <",
+                "> Lcom/ironsource/mediationsdk/Q;->c()Lcom/ironsource/mediationsdk/Q; <",
+                "> Lcom/ironsource/mediationsdk/p;->a(Ljava/lang/String;Ljava/util/List;)V <",
+                "> Lcom/ironsource/mediationsdk/IronSource;->setMetaData(Ljava/lang/String;Ljava/lang/String;)V <",
+                "> Le8/d;->accept(Ljava/lang/Object;)V <",
+                "> LYj/g;->j(LTm/a;LTm/a;LTm/a;LTm/a;Lck/h;)LYj/g; <",
+                "> Lcom/duolingo/feed/O3;->e(Z)Lhk/c; <",
+                "> Lkotlin/reflect/jvm/internal/impl/protobuf/n;->apply(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lg0/b;->A(Landroid/content/Context;Ljava/util/List;IZILandroid/os/Handler;Lcom/duolingo/streak/streakSociety/m;)Landroid/graphics/Typeface; <",
+                "----- CONDITIONAL -----",
+                "> Lkotlin/reflect/jvm/internal/impl/protobuf/n;->apply(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "----- CONDITIONAL -----",
+                "> Lcom/duolingo/core/animation/lottie/LottieAnimationView;->u(Le8/I;)V <",
+                "----- CONDITIONAL -----",
+                "> LB3/f;->run()V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/duolingo/appicon/AppIconUpdateBroadcastReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "----- CONDITIONAL -----"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.BOOT_COMPLETED",
+                    "broadcast -a"
+                ],
+                [
+                    "intent",
+                    "com.google.android.gms.measurement.BATCHES_AVAILABLE",
+                    "start -a"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Intent;-><init>(Landroid/content/Intent;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Ll/m;->addIntentOptions(IIILandroid/content/ComponentName;[Landroid/content/Intent;Landroid/content/Intent;I[Landroid/view/MenuItem;)I <",
+                "> Ll/z;->addIntentOptions(IIILandroid/content/ComponentName;[Landroid/content/Intent;Landroid/content/Intent;I[Landroid/view/MenuItem;)I <",
+                "> LBe/d;->e(Landroidx/appcompat/view/b;Ll/m;)Z <",
+                "> LCh/T;->apply(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lkotlin/reflect/jvm/internal/impl/protobuf/n;->apply(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lg0/b;->A(Landroid/content/Context;Ljava/util/List;IZILandroid/os/Handler;Lcom/duolingo/streak/streakSociety/m;)Landroid/graphics/Typeface; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.google.android.gms.measurement.BATCHES_AVAILABLE",
+                    "start -a"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Intent;->setDataAndType(Landroid/net/Uri;Ljava/lang/String;)Landroid/content/Intent;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/unity3d/services/core/api/Intent;->launch(Lorg/json/JSONObject;Lcom/unity3d/services/core/webview/bridge/WebViewCallback;)V <",
+                "> Lcom/unity3d/services/core/configuration/CoreModuleConfiguration;->getWebAppApiClassList()[Ljava/lang/Class; <",
+                "> Lcom/unity3d/services/core/configuration/Configuration;-><init>()V <",
+                "> Lcom/unity3d/services/core/configuration/ConfigurationReader;->getCurrentConfiguration()Lcom/unity3d/services/core/configuration/Configuration; <",
+                "> Lcom/unity3d/services/ads/gmascar/managers/BiddingBaseManager;->lambda$uploadSignals$2(Lcom/unity3d/services/ads/gmascar/models/BiddingSignals;)V <",
+                "> Lcom/unity3d/services/ads/gmascar/managers/BiddingBaseManager;->a(Lcom/unity3d/services/ads/gmascar/managers/BiddingBaseManager;Lcom/unity3d/services/ads/gmascar/models/BiddingSignals;)V <",
+                "> Lcom/ironsource/H1;->run()V <",
+                "> LK3/q;->execute(Ljava/lang/Runnable;)V <",
+                "> LB3/h;->i(LB3/n;Luj/c;)Z <",
+                "> LD3/e;->run()V <",
+                "> Lg0/b;->A(Landroid/content/Context;Ljava/util/List;IZILandroid/os/Handler;Lcom/duolingo/streak/streakSociety/m;)Landroid/graphics/Typeface; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.google.android.gms.measurement.BATCHES_AVAILABLE",
+                    "start -a"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Context;->getExternalCacheDir()Ljava/io/File;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/unity3d/services/core/cache/CacheDirectory;->getCacheDirectory(Landroid/content/Context;)Ljava/io/File; <",
+                "> Lcom/unity3d/services/core/api/Cache;->getCacheDirectoryType(Lcom/unity3d/services/core/webview/bridge/WebViewCallback;)V <",
+                "> Lcom/unity3d/services/core/configuration/CoreModuleConfiguration;->getWebAppApiClassList()[Ljava/lang/Class; <",
+                "> Lcom/unity3d/services/core/configuration/Configuration;-><init>()V <",
+                "> Lcom/unity3d/services/core/configuration/ConfigurationReader;->getCurrentConfiguration()Lcom/unity3d/services/core/configuration/Configuration; <",
+                "> Lcom/unity3d/services/ads/gmascar/managers/BiddingBaseManager;->lambda$uploadSignals$2(Lcom/unity3d/services/ads/gmascar/models/BiddingSignals;)V <",
+                "> Lcom/unity3d/services/ads/gmascar/managers/BiddingBaseManager;->a(Lcom/unity3d/services/ads/gmascar/managers/BiddingBaseManager;Lcom/unity3d/services/ads/gmascar/models/BiddingSignals;)V <",
+                "> Lcom/ironsource/H1;->run()V <",
+                "> LK3/q;->execute(Ljava/lang/Runnable;)V <",
+                "> LB3/h;->i(LB3/n;Luj/c;)Z <",
+                "> LD3/e;->run()V <",
+                "> Lg0/b;->A(Landroid/content/Context;Ljava/util/List;IZILandroid/os/Handler;Lcom/duolingo/streak/streakSociety/m;)Landroid/graphics/Typeface; <",
+                "----- CONDITIONAL -----",
+                "> Lcom/unity3d/services/core/cache/CacheDirectory;->getCacheDirectory(Landroid/content/Context;)Ljava/io/File; <",
+                "----- CONDITIONAL -----",
+                "> Lcom/unity3d/services/core/api/Cache;->getCacheDirectoryType(Lcom/unity3d/services/core/webview/bridge/WebViewCallback;)V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/unity3d/services/core/configuration/CoreModuleConfiguration;->getWebAppApiClassList()[Ljava/lang/Class; <",
+                "----- CONDITIONAL -----",
+                "> Lcom/unity3d/services/core/configuration/Configuration;-><init>()V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/unity3d/services/core/configuration/ConfigurationReader;->getCurrentConfiguration()Lcom/unity3d/services/core/configuration/Configuration; <",
+                "----- CONDITIONAL -----",
+                "> Lcom/unity3d/services/ads/gmascar/managers/BiddingBaseManager;->lambda$uploadSignals$2(Lcom/unity3d/services/ads/gmascar/models/BiddingSignals;)V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/unity3d/services/ads/gmascar/managers/BiddingBaseManager;->a(Lcom/unity3d/services/ads/gmascar/managers/BiddingBaseManager;Lcom/unity3d/services/ads/gmascar/models/BiddingSignals;)V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/ironsource/H1;->run()V <",
+                "----- CONDITIONAL -----",
+                "> LK3/q;->execute(Ljava/lang/Runnable;)V <",
+                "----- CONDITIONAL -----",
+                "> LB3/h;->i(LB3/n;Luj/c;)Z <",
+                "----- CONDITIONAL -----",
+                "> LB3/f;->run()V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/duolingo/appicon/AppIconUpdateBroadcastReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "----- CONDITIONAL -----"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.BOOT_COMPLETED",
+                    "broadcast -a"
+                ],
+                [
+                    "intent",
+                    "com.google.android.gms.measurement.BATCHES_AVAILABLE",
+                    "start -a"
+                ]
+            ]
+        }
+    },
+    "Landroid/webkit/WebView;->evaluateJavascript(Ljava/lang/String;Landroid/webkit/ValueCallback;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/unity3d/services/core/webview/WebView;->evaluateJavascript$lambda$1(Lcom/unity3d/services/core/webview/WebView;Ljava/lang/String;Landroid/webkit/ValueCallback;)V <",
+                "> Lcom/unity3d/services/core/webview/WebView;->a(Lcom/unity3d/services/core/webview/WebView;Ljava/lang/String;Landroid/webkit/ValueCallback;)V <",
+                "> LZh/g;->run()V <",
+                "> Lcom/duolingo/session/challenges/hintabletext/p;->d(Lcom/duolingo/core/design/juicy/ui/JuicyTextView;Landroidx/constraintlayout/widget/ConstraintLayout;LNk/l;)V <",
+                "> Lcom/duolingo/ai/ema/ui/k;->onBindViewHolder(Landroidx/recyclerview/widget/E0;I)V <",
+                "> LS6/a2;->apply(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> LS6/r3;->apply(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> LD3/e;->run()V <",
+                "> Lg0/b;->A(Landroid/content/Context;Ljava/util/List;IZILandroid/os/Handler;Lcom/duolingo/streak/streakSociety/m;)Landroid/graphics/Typeface; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.google.android.gms.measurement.BATCHES_AVAILABLE",
+                    "start -a"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Intent;-><init>(Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/duolingo/streak/streakWidget/I0;->b(Lcom/duolingo/core/tracking/TrackingEvent;Ljava/util/Map;)V <",
+                "> Lcom/duolingo/streak/streakWidget/widgetPromo/WidgetValuePromoSessionEndViewModel;->n(Ljava/lang/String;)V <",
+                "> Lcom/duolingo/streak/streakWidget/widgetPromo/p;->onClick(Landroid/view/View;)V <",
+                "> Lcom/duolingo/streak/streakSociety/b;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/duolingo/streak/calendar/f;->d(Lhe/x;F)V <",
+                "> Lcom/duolingo/session/challenges/charactertrace/TraceableStrokeView;->onTouchEvent(Landroid/view/MotionEvent;)Z <",
+                "> Lcom/duolingo/session/challenges/charactertrace/BaseCharacterTraceFragment;->S(Lu3/a;Landroid/os/Bundle;)V <",
+                "> Lcom/duolingo/session/challenges/charactertrace/Hilt_CharacterTraceFreehandIntroFragment;-><init>()V <",
+                "> Lcom/duolingo/session/challenges/charactertrace/CharacterTraceFreehandIntroFragment;-><init>()V <",
+                "> Lcom/duolingo/session/challenges/R3;->a(Lcom/duolingo/session/X7;Lcom/duolingo/session/Session$Type;LA7/a;Lre/b;Lb7/d;Lb7/c;ZZ)Lcom/duolingo/session/challenges/ElementFragment; <",
+                "> Lcom/duolingo/session/k;->run()V <",
+                "> Lcom/duolingo/session/BaseSessionActivity;-><init>()V <",
+                "> Lcom/duolingo/session/Hilt_SessionActivity;-><init>()V <",
+                "> Lcom/duolingo/session/SessionActivity;-><init>()V <",
+                "> Lcom/duolingo/session/LandscapeSessionActivity;-><init>()V <",
+                "> LR6/b;->invoke()Ljava/lang/Object; <",
+                "> LV7/e;->uncaughtException(Ljava/lang/Thread;Ljava/lang/Throwable;)V <",
+                "> LB3/v;->z(Ljava/lang/Throwable;)V <",
+                "> LYj/g;->j0(LYj/i;)V <",
+                "> Lcom/duolingo/notifications/NotificationIntentService;->onHandleIntent(Landroid/content/Intent;)V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/duolingo/session/challenges/charactertrace/TraceableStrokeView;->onTouchEvent(Landroid/view/MotionEvent;)Z <",
+                "----- CONDITIONAL -----",
+                "> Lcom/duolingo/session/challenges/charactertrace/BaseCharacterTraceFragment;->S(Lu3/a;Landroid/os/Bundle;)V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/duolingo/session/challenges/charactertrace/Hilt_CharacterTraceFreehandIntroFragment;-><init>()V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/duolingo/session/challenges/charactertrace/CharacterTraceFreehandIntroFragment;-><init>()V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/duolingo/session/challenges/R3;->a(Lcom/duolingo/session/X7;Lcom/duolingo/session/Session$Type;LA7/a;Lre/b;Lb7/d;Lb7/c;ZZ)Lcom/duolingo/session/challenges/ElementFragment; <",
+                "----- CONDITIONAL -----",
+                "> Lcom/duolingo/session/k;->run()V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/duolingo/session/BaseSessionActivity;-><init>()V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/duolingo/session/Hilt_SessionActivity;-><init>()V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/duolingo/session/SessionActivity;-><init>()V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/duolingo/session/LandscapeSessionActivity;-><init>()V <",
+                "----- CONDITIONAL -----",
+                "> LR6/b;->invoke()Ljava/lang/Object; <",
+                "----- CONDITIONAL -----",
+                "> LJ3/f;->t()LU4/t9; <",
+                "----- CONDITIONAL -----",
+                "> Lcom/duolingo/splash/w;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "----- CONDITIONAL -----",
+                "> Lcom/duolingo/core/DuoApp;->onCreate()V <",
+                "----- CONDITIONAL -----",
+                "----- CONDITIONAL -----",
+                "> Lcom/duolingo/session/k;->run()V <",
+                "> Lnk/h;->run()V <",
+                "----- CONDITIONAL -----",
+                "> Lnk/j;->a(Ljava/lang/Runnable;)LZj/b; <",
+                "----- CONDITIONAL -----",
+                "> LD3/e;->run()V <",
+                "----- CONDITIONAL -----",
+                "> Lag/h;->run()V <",
+                "----- CONDITIONAL -----",
+                "> LAh/d;->then(Lcom/google/android/gms/tasks/Task;)Ljava/lang/Object; <",
+                "----- CONDITIONAL -----",
+                "> Lcom/duolingo/splash/LaunchActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/duolingo/session/k;->run()V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/duolingo/session/k;->run()V <",
+                "> Lzendesk/support/suas/Executors$AndroidExecutor;->execute(Ljava/lang/Runnable;)V <",
+                "----- CONDITIONAL -----",
+                "> LAh/c;->h(Lhk/j;)V <",
+                "----- CONDITIONAL -----",
+                "> LBh/r;->run()V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/duolingo/notifications/FcmIntentService;->d(Ljava/lang/String;)V <",
+                "----- CONDITIONAL -----"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.duolingo/com.duolingo.notifications.FcmIntentService",
+                    "start -n"
+                ],
+                [
+                    "main activity"
+                ],
+                [
+                    "intent",
+                    "com.duolingo.action.REMIND_LATER",
+                    "start-service -a"
+                ],
+                [
+                    "com.duolingo.session.BaseSessionActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Intent;-><init>()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/duolingo/explanations/I0;->onClick(Landroid/view/View;)V <",
+                "> Lcom/duolingo/explanations/SkillTipActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> LR6/b;->invoke()Ljava/lang/Object; <",
+                "> LV7/e;->uncaughtException(Ljava/lang/Thread;Ljava/lang/Throwable;)V <",
+                "> LB3/v;->z(Ljava/lang/Throwable;)V <",
+                "> Lnk/j;->a(Ljava/lang/Runnable;)LZj/b; <",
+                "> LD3/e;->run()V <",
+                "> Lg0/b;->A(Landroid/content/Context;Ljava/util/List;IZILandroid/os/Handler;Lcom/duolingo/streak/streakSociety/m;)Landroid/graphics/Typeface; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.google.android.gms.measurement.BATCHES_AVAILABLE",
+                    "start -a"
+                ],
+                [
+                    "com.duolingo.explanations.SkillTipActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;": {
+        "path_0": {
+            "call_sequence": [
+                "> LK3/i;->a()V <",
+                "> LK3/i;->run()V <",
+                "> LB3/t;-><init>(Landroid/content/Context;LA3/b;LL3/a;Landroidx/work/impl/WorkDatabase;Ljava/util/List;LB3/h;LH3/l;)V <",
+                "> LB3/v;->k(Landroid/content/Context;LA3/b;)LB3/t; <",
+                "> LB3/t;->e(Landroid/content/Context;LA3/b;)V <",
+                "> LB3/t;->d(Landroid/content/Context;)LB3/t; <",
+                "> Ln5/a;->a()LB3/t; <",
+                "> LB3/f;->run()V <",
+                "> Lcom/duolingo/appicon/AppIconUpdateBroadcastReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "----- CONDITIONAL -----",
+                "> LB3/f;->run()V <",
+                "----- CONDITIONAL -----",
+                "> Lcom/duolingo/appicon/AppIconUpdateBroadcastReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "----- CONDITIONAL -----"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.BOOT_COMPLETED",
+                    "broadcast -a"
+                ],
+                [
+                    "intent",
+                    "com.duolingo.action.STREAK_SAVER_APP_ICON_UPDATE",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    }
+}

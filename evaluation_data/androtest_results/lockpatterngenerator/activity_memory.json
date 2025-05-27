@@ -1,0 +1,59 @@
+{
+    "in.shick.lockpatterngenerator.GeneratorActivity": {
+        "com.android.settings.Settings$SecurityDashboardActivity": [
+            [
+                "click in.shick.lockpatterngenerator:id/practice_toggle",
+                "click in.shick.lockpatterngenerator:id/security_settings_button",
+                "click android:id/button1"
+            ],
+            [
+                "click in.shick.lockpatterngenerator:id/generate_button",
+                "click in.shick.lockpatterngenerator:id/menu_settings",
+                "click in.shick.lockpatterngenerator:id/security_settings_button",
+                "click android:id/button1"
+            ]
+        ],
+        "in.shick.lockpatterngenerator.PreferencesActivity": [
+            [
+                "click in.shick.lockpatterngenerator:id/generate_button",
+                "click in.shick.lockpatterngenerator:id/menu_settings"
+            ]
+        ]
+    },
+    "com.android.settings.Settings$SecurityDashboardActivity": {
+        "com.android.settings.SubSettings": [
+            [
+                "click (0, 1224, 1080, 1416)"
+            ]
+        ]
+    },
+    "com.android.settings.SubSettings": {
+        "com.android.settings.password.ChooseLockPattern": [
+            [
+                "click (0, 543, 1080, 684)"
+            ]
+        ],
+        "com.android.settings.Settings$SecurityDashboardActivity": [
+            [
+                "click (0, 543, 1080, 684)",
+                "click com.android.settings:id/lockPattern",
+                "click com.android.settings:id/lock_none"
+            ],
+            [
+                "click (0, 543, 1080, 684)"
+            ]
+        ]
+    },
+    "com.android.settings.password.ChooseLockPattern": {
+        "com.android.settings.SubSettings": [
+            [
+                "click com.android.settings:id/lockPattern"
+            ]
+        ]
+    },
+    "in.shick.lockpatterngenerator.PreferencesActivity": {
+        "in.shick.lockpatterngenerator.GeneratorActivity": [
+            []
+        ]
+    }
+}

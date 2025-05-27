@@ -1,0 +1,283 @@
+{
+    "com.android.vendingcom.google.android.finsky.activities.MainActivity": {
+        "com.android.vendingcom.google.android.finsky.offlinegames.impl.OfflineGamesActivity": [
+            [
+                "click com.android.vending:id/0_resource_name_obfuscated",
+                "click com.android.vending:id/button"
+            ]
+        ],
+        "com.nloko.android.syncmypix.MainActivity": [
+            [
+                "click com.android.vending:id/0_resource_name_obfuscated",
+                "click com.android.vending:id/button"
+            ]
+        ],
+        "com.google.android.apps.nexuslauncher.NexusLauncherActivity": [
+            [
+                "click com.android.vending:id/button"
+            ]
+        ]
+    },
+    "com.android.vendingcom.google.android.finsky.offlinegames.impl.OfflineGamesActivity": {
+        "com.android.vendingcom.google.android.finsky.activities.MainActivity": [
+            []
+        ]
+    },
+    "com.nloko.android.syncmypix.MainActivity": {
+        "com.nloko.android.syncmypix.DonateActivity": [
+            [
+                "click com.nloko.android.syncmypix:id/ok",
+                "click com.nloko.android.syncmypix:id/resultsButton",
+                "click com.nloko.android.syncmypix:id/do_not_show_about",
+                "click com.nloko.android.syncmypix:id/donate"
+            ],
+            [
+                "click com.nloko.android.syncmypix:id/aboutButton",
+                "click com.nloko.android.syncmypix:id/do_not_show_about",
+                "click com.nloko.android.syncmypix:id/ok",
+                "click com.nloko.android.syncmypix:id/help",
+                "click com.nloko.android.syncmypix:id/donate"
+            ]
+        ],
+        "com.nloko.android.syncmypix.SettingsActivity": [
+            [
+                "click com.nloko.android.syncmypix:id/settingsButton"
+            ],
+            [
+                "click com.nloko.android.syncmypix:id/resultsButton",
+                "click com.nloko.android.syncmypix:id/syncButton",
+                "click com.nloko.android.syncmypix:id/settingsButton"
+            ],
+            [
+                "click com.nloko.android.syncmypix:id/syncButton",
+                "click com.nloko.android.syncmypix:id/webview"
+            ],
+            [
+                "click com.nloko.android.syncmypix:id/syncButton",
+                "click com.nloko.android.syncmypix:id/webview",
+                "click com.nloko.android.syncmypix:id/resultsButton",
+                "click com.nloko.android.syncmypix:id/settingsButton"
+            ],
+            [
+                "click com.nloko.android.syncmypix:id/syncButton",
+                "click com.nloko.android.syncmypix:id/resultsButton",
+                "click com.nloko.android.syncmypix:id/settingsButton"
+            ],
+            [
+                "click com.nloko.android.syncmypix:id/syncButton",
+                "click com.nloko.android.syncmypix:id/settingsButton"
+            ],
+            [
+                "click (0, 1178, 1080, 1394)",
+                "click com.nloko.android.syncmypix:id/settingsButton"
+            ],
+            [
+                "click com.nloko.android.syncmypix:id/aboutButton",
+                "click com.nloko.android.syncmypix:id/do_not_show_about",
+                "click com.nloko.android.syncmypix:id/ok",
+                "click com.nloko.android.syncmypix:id/help",
+                "click com.nloko.android.syncmypix:id/donate",
+                "click com.nloko.android.syncmypix:id/settingsButton"
+            ],
+            [
+                "click com.nloko.android.syncmypix:id/resultsButton",
+                "click com.nloko.android.syncmypix:id/syncButton",
+                "click com.nloko.android.syncmypix:id/delete",
+                "click android:id/button1",
+                "click com.nloko.android.syncmypix:id/settingsButton"
+            ],
+            [
+                "click com.nloko.android.syncmypix:id/ok",
+                "click com.nloko.android.syncmypix:id/resultsButton",
+                "click com.nloko.android.syncmypix:id/syncButton",
+                "click com.nloko.android.syncmypix:id/settingsButton"
+            ]
+        ],
+        "com.nloko.android.syncmypix.facebook.FacebookLoginWebView": [
+            [
+                "click com.nloko.android.syncmypix:id/settingsButton",
+                "click com.nloko.android.syncmypix:id/syncButton"
+            ],
+            [
+                "click com.nloko.android.syncmypix:id/resultsButton",
+                "click com.nloko.android.syncmypix:id/syncButton"
+            ],
+            [
+                "click com.nloko.android.syncmypix:id/syncButton"
+            ],
+            [
+                "click com.nloko.android.syncmypix:id/ok",
+                "click com.nloko.android.syncmypix:id/resultsButton",
+                "click com.nloko.android.syncmypix:id/syncButton"
+            ],
+            [
+                "click com.nloko.android.syncmypix:id/settingsButton",
+                "click com.nloko.android.syncmypix:id/resultsButton",
+                "click com.nloko.android.syncmypix:id/syncButton"
+            ]
+        ],
+        "com.nloko.android.syncmypix.SyncResultsActivity": [
+            [
+                "click com.nloko.android.syncmypix:id/resultsButton"
+            ],
+            [
+                "click com.nloko.android.syncmypix:id/syncButton",
+                "click com.nloko.android.syncmypix:id/webview",
+                "click com.nloko.android.syncmypix:id/resultsButton"
+            ],
+            [
+                "click com.nloko.android.syncmypix:id/ok",
+                "click com.nloko.android.syncmypix:id/resultsButton"
+            ],
+            [
+                "click com.nloko.android.syncmypix:id/syncButton"
+            ],
+            [
+                "click com.nloko.android.syncmypix:id/syncButton",
+                "click com.nloko.android.syncmypix:id/resultsButton"
+            ],
+            [
+                "click com.nloko.android.syncmypix:id/settingsButton",
+                "click com.nloko.android.syncmypix:id/resultsButton"
+            ]
+        ],
+        "com.android.chromeorg.chromium.chrome.browser.ChromeTabbedActivity": [
+            [
+                "click com.nloko.android.syncmypix:id/syncButton",
+                "click com.nloko.android.syncmypix:id/resultsButton",
+                "click com.nloko.android.syncmypix:id/settingsButton",
+                "click com.nloko.android.syncmypix:id/aboutButton",
+                "click com.nloko.android.syncmypix:id/ok",
+                "click com.nloko.android.syncmypix:id/home",
+                "click com.nloko.android.syncmypix:id/help"
+            ],
+            [
+                "click (0, 1178, 1080, 1394)",
+                "click com.nloko.android.syncmypix:id/settingsButton",
+                "click com.nloko.android.syncmypix:id/aboutButton",
+                "click com.nloko.android.syncmypix:id/ok",
+                "click com.nloko.android.syncmypix:id/home",
+                "click com.nloko.android.syncmypix:id/help"
+            ],
+            [
+                "click com.nloko.android.syncmypix:id/aboutButton",
+                "click com.nloko.android.syncmypix:id/do_not_show_about",
+                "click com.nloko.android.syncmypix:id/ok",
+                "click com.nloko.android.syncmypix:id/help"
+            ]
+        ]
+    },
+    "AtchDlg:com.nloko.android.syncmypixcom.nloko.android.syncmypix.SyncResultsActivity": {
+        "com.nloko.android.syncmypix.SyncResultsActivity": [
+            []
+        ]
+    },
+    "com.nloko.android.syncmypix.SyncResultsActivity": {
+        "com.nloko.android.syncmypix.MainActivity": [
+            [
+                "click com.nloko.android.syncmypix:id/home"
+            ],
+            [
+                "click com.nloko.android.syncmypix:id/help",
+                "click com.nloko.android.syncmypix:id/home"
+            ],
+            [
+                "click com.nloko.android.syncmypix:id/delete",
+                "click android:id/button1"
+            ],
+            [],
+            [
+                "click (0, 868, 1080, 1084)"
+            ],
+            [
+                "click com.nloko.android.syncmypix:id/delete",
+                "click android:id/button1",
+                "click com.nloko.android.syncmypix:id/home"
+            ]
+        ],
+        "com.android.chromeorg.chromium.chrome.browser.ChromeTabbedActivity": [
+            [
+                "click com.nloko.android.syncmypix:id/help"
+            ],
+            [
+                "click com.nloko.android.syncmypix:id/delete",
+                "click android:id/button1",
+                "click com.nloko.android.syncmypix:id/help"
+            ],
+            [
+                "click com.nloko.android.syncmypix:id/home"
+            ],
+            [
+                "click com.nloko.android.syncmypix:id/home",
+                "click com.nloko.android.syncmypix:id/help"
+            ]
+        ]
+    },
+    "com.nloko.android.syncmypix.SettingsActivity": {
+        "com.nloko.android.syncmypix.MainActivity": [
+            [],
+            [
+                "swipe android:id/list"
+            ],
+            [
+                "swipe android:id/list",
+                "swipe android:id/list",
+                "swipe android:id/list"
+            ],
+            [
+                "swipe android:id/list",
+                "swipe android:id/list",
+                "swipe android:id/list",
+                "swipe android:id/list",
+                "swipe android:id/list"
+            ]
+        ],
+        "com.nloko.android.syncmypix.facebook.FacebookLoginWebView": [
+            [
+                "click com.nloko.android.syncmypix:id/home"
+            ]
+        ]
+    },
+    "com.nloko.android.syncmypix.facebook.FacebookLoginWebView": {
+        "com.nloko.android.syncmypix.MainActivity": [
+            [],
+            [
+                "click com.nloko.android.syncmypix:id/webview",
+                "click (0, 0, 0, 0)",
+                "click (0, 0, 0, 0)",
+                "swipe (0, 297, 1080, 1794)"
+            ]
+        ],
+        "com.google.android.apps.nexuslauncher.NexusLauncherActivity": [
+            [
+                "click com.nloko.android.syncmypix:id/webview",
+                "click (0, 0, 0, 0)",
+                "click (0, 0, 0, 0)",
+                "click (0, 0, 0, 0)",
+                "click u_0_p_pW",
+                "click allow_button",
+                "swipe (0, 297, 1080, 1794)",
+                "text m_login_email test@example.com",
+                "text m_login_password testuser@example.com"
+            ],
+            [
+                "click (0, 0, 0, 0)",
+                "click (0, 0, 0, 0)",
+                "text m_login_email testUser123",
+                "click (0, 0, 0, 0)"
+            ]
+        ]
+    },
+    "com.android.internal.app.ChooserActivity": {
+        "AtchDlg:com.nloko.android.syncmypixcom.nloko.android.syncmypix.SyncResultsActivity": [
+            [
+                "click com.nloko.android.syncmypix:id/resultsButton"
+            ]
+        ]
+    },
+    "com.nloko.android.syncmypix.DonateActivity": {
+        "com.nloko.android.syncmypix.MainActivity": [
+            []
+        ]
+    }
+}

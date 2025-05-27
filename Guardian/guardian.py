@@ -96,7 +96,7 @@ class Guardian:
 
         self.context_manager.init_context(self.controller)
 
-        MAX_ALLOW_OUTSIDE = 3
+        MAX_ALLOW_OUTSIDE = 0
 
         allow_outside = 0
 
@@ -120,6 +120,7 @@ class Guardian:
                 continue
             print("chosen event: ", event)
             event.act(self.controller)
+            self.attempt_cnt += 1
             self.context_manager.update_history(event, activity)
             time.sleep(1)
 
@@ -148,13 +149,20 @@ class Guardian:
                         self.context_manager.get_activity_history(activity)
                     )
 
-                    if (
-                        new_activity_history
-                        not in data[activity][new_activity]
-                    ):
-                        data[activity][new_activity].append(
-                            new_activity_history
-                        )
+                    events_list = []
+                    for event in new_activity_history:
+                        if event.widget:
+                            widget_info = event.widget.resourceId
+                            if not widget_info:
+                                widget_info = str(event.widget.pos)
+                            if event.action == "text":
+                                widget_info += " " + event.input
+                            events_list.append(
+                                event.action + " " + widget_info
+                            )
+
+                    if events_list not in data[activity][new_activity]:
+                        data[activity][new_activity].append(events_list)
 
                     with open(memory_file, "w") as f:
                         json.dump(data, f, indent=4)
@@ -165,14 +173,18 @@ class Guardian:
             if self.domain_knowledge["validator"]["out_of_app"](
                 self.pkg, self.controller
             ):
-                if allow_outside >= MAX_ALLOW_OUTSIDE:
+                explore_outside = True
+                if "back" == self.context_manager.last_event.action:
+                    explore_outside = False
+                    continue
+                if allow_outside >= MAX_ALLOW_OUTSIDE or not explore_outside:
                     self.domain_knowledge["optimizer"]["avoid_out_of_app"](
                         self.context_manager
                     )
                     util.restart_app(self.pkg)
                     time.sleep(2)
                     allow_outside = 0
-                else:
+                elif explore_outside:
                     allow_outside += 1
 
             currentContext = self.context_manager.PreUpdateContext(
@@ -202,8 +214,6 @@ class Guardian:
             """
 
             self.context_manager.PostUpdateContext(currentContext)
-
-            self.attempt_cnt += 1
 
             full_activity = self.controller.get_activity_name()
             if self.target_activity and full_activity == self.target_activity:

@@ -1,0 +1,24 @@
+{
+    "org.beide.bomber.BomberActivity": {
+        "com.willianveiga.countdowntimer.MainActivity": [
+            [
+                "click android:id/button1"
+            ]
+        ]
+    },
+    "com.willianveiga.countdowntimer.MainActivity": {
+        "com.android.vendingcom.google.android.finsky.activities.MainActivity": [
+            [
+                "click com.willianveiga.countdowntimer:id/startPauseResumeButton",
+                "click android:id/button1"
+            ]
+        ]
+    },
+    "com.android.vendingcom.google.android.finsky.activities.MainActivity": {
+        "com.google.android.apps.nexuslauncher.NexusLauncherActivity": [
+            [
+                "click com.willianveiga.countdowntimer:id/startPauseResumeButton"
+            ]
+        ]
+    }
+}

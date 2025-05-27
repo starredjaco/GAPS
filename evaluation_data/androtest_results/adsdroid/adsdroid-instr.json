@@ -1,0 +1,312 @@
+{
+    "La/a/d/ad;->a(La/a/b/l;I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> La/a/d/ac;->a(La/a/b/l;)V <",
+                "> La/a/d/a;->a(La/a/d/g;La/a/b/i;)La/a/d/f; <",
+                "> La/a/b/i;->b(Ljava/lang/String;)La/a/d/f; <",
+                "> Lhu/vsza/a/b;->searchByPartName(Ljava/lang/String;Lhu/vsza/a/c;)Ljava/util/ArrayList; <",
+                "> Lhu/vsza/adsdroid/c;->a([Ljava/lang/Void;)Ljava/util/ArrayList; <",
+                "> Lhu/vsza/adsdroid/c;->doInBackground([Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lhu/vsza/adsdroid/SearchPanel;->searchByPartName(Landroid/view/View;)V <",
+                "> Lhu/vsza/adsdroid/SearchPanel;->onEditorAction(Landroid/widget/TextView;ILandroid/view/KeyEvent;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "hu.vsza.adsdroid.SearchPanel",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "La/a/d/c;-><init>()V": {
+        "path_0": {
+            "call_sequence": [
+                "> La/a/d/c;-><init>(Ljava/util/Collection;)V <",
+                "> La/a/d/d;-><init>(Ljava/util/Collection;)V <",
+                "> La/a/d/ae;->a()La/a/d/g; <",
+                "> La/a/d/ae;->a(Ljava/lang/String;)La/a/d/g; <",
+                "> La/a/d/af;-><init>(Ljava/lang/String;La/a/b/i;)V <",
+                "> La/a/d/af;->a(Ljava/lang/String;La/a/b/i;)La/a/d/f; <",
+                "> La/a/b/i;->a(Ljava/lang/String;)La/a/d/f; <",
+                "> Lhu/vsza/a/a;->a(La/a/b/i;)La/a/b/i; <",
+                "> Lhu/vsza/a/a;->a()Ljava/net/URLConnection; <",
+                "> Lhu/vsza/adsdroid/b;->a([Lhu/vsza/a/a;)Ljava/io/File; <",
+                "> Lhu/vsza/adsdroid/b;->doInBackground([Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lhu/vsza/adsdroid/PartList;->onListItemClick(Landroid/widget/ListView;Landroid/view/View;IJ)V <",
+                "> Lhu/vsza/adsdroid/c;->a(Ljava/util/ArrayList;)V <",
+                "> Lhu/vsza/adsdroid/c;->onPostExecute(Ljava/lang/Object;)V <",
+                "> Lhu/vsza/adsdroid/SearchPanel;->searchByPartName(Landroid/view/View;)V <",
+                "> Lhu/vsza/adsdroid/SearchPanel;->onEditorAction(Landroid/widget/TextView;ILandroid/view/KeyEvent;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "hu.vsza.adsdroid.SearchPanel",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "La/a/d/r;-><init>(Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> La/a/d/ae;->e()V <",
+                "> La/a/d/ae;->c()V <",
+                "> La/a/d/ae;->a()La/a/d/g; <",
+                "> La/a/d/ae;->a(Ljava/lang/String;)La/a/d/g; <",
+                "> La/a/d/af;-><init>(Ljava/lang/String;La/a/b/i;)V <",
+                "> La/a/d/af;->a(Ljava/lang/String;La/a/b/i;)La/a/d/f; <",
+                "> La/a/b/i;->a(Ljava/lang/String;)La/a/d/f; <",
+                "> Lhu/vsza/a/a;->a(La/a/b/i;)La/a/b/i; <",
+                "> Lhu/vsza/a/a;->a()Ljava/net/URLConnection; <",
+                "> Lhu/vsza/adsdroid/b;->a([Lhu/vsza/a/a;)Ljava/io/File; <",
+                "> Lhu/vsza/adsdroid/b;->doInBackground([Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lhu/vsza/adsdroid/PartList;->onListItemClick(Landroid/widget/ListView;Landroid/view/View;IJ)V <",
+                "> Lhu/vsza/adsdroid/c;->a(Ljava/util/ArrayList;)V <",
+                "> Lhu/vsza/adsdroid/c;->onPostExecute(Ljava/lang/Object;)V <",
+                "> Lhu/vsza/adsdroid/SearchPanel;->searchByPartName(Landroid/view/View;)V <",
+                "> Lhu/vsza/adsdroid/SearchPanel;->onEditorAction(Landroid/widget/TextView;ILandroid/view/KeyEvent;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "hu.vsza.adsdroid.SearchPanel",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "La/a/d/ae;->l()I": {
+        "path_0": {
+            "call_sequence": [
+                "> La/a/d/ae;->k()V <",
+                "> La/a/d/ae;->c()V <",
+                "> La/a/d/ae;->a()La/a/d/g; <",
+                "> La/a/d/ae;->a(Ljava/lang/String;)La/a/d/g; <",
+                "> La/a/d/af;-><init>(Ljava/lang/String;La/a/b/i;)V <",
+                "> La/a/d/af;->a(Ljava/lang/String;La/a/b/i;)La/a/d/f; <",
+                "> La/a/b/i;->a(Ljava/lang/String;)La/a/d/f; <",
+                "> Lhu/vsza/a/a;->a(La/a/b/i;)La/a/b/i; <",
+                "> Lhu/vsza/a/a;->a()Ljava/net/URLConnection; <",
+                "> Lhu/vsza/adsdroid/b;->a([Lhu/vsza/a/a;)Ljava/io/File; <",
+                "> Lhu/vsza/adsdroid/b;->doInBackground([Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lhu/vsza/adsdroid/PartList;->onListItemClick(Landroid/widget/ListView;Landroid/view/View;IJ)V <",
+                "> Lhu/vsza/adsdroid/c;->a(Ljava/util/ArrayList;)V <",
+                "> Lhu/vsza/adsdroid/c;->onPostExecute(Ljava/lang/Object;)V <",
+                "> Lhu/vsza/adsdroid/SearchPanel;->searchByPartName(Landroid/view/View;)V <",
+                "> Lhu/vsza/adsdroid/SearchPanel;->onEditorAction(Landroid/widget/TextView;ILandroid/view/KeyEvent;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "hu.vsza.adsdroid.SearchPanel",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "La/a/d/n;-><init>(Ljava/lang/String;Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> La/a/d/ae;->g()V <",
+                "> La/a/d/ae;->c()V <",
+                "> La/a/d/ae;->a()La/a/d/g; <",
+                "> La/a/d/ae;->a(Ljava/lang/String;)La/a/d/g; <",
+                "> La/a/d/af;-><init>(Ljava/lang/String;La/a/b/i;)V <",
+                "> La/a/d/af;->a(Ljava/lang/String;La/a/b/i;)La/a/d/f; <",
+                "> La/a/b/i;->a(Ljava/lang/String;)La/a/d/f; <",
+                "> Lhu/vsza/a/a;->a(La/a/b/i;)La/a/b/i; <",
+                "> Lhu/vsza/a/a;->a()Ljava/net/URLConnection; <",
+                "> Lhu/vsza/adsdroid/b;->a([Lhu/vsza/a/a;)Ljava/io/File; <",
+                "> Lhu/vsza/adsdroid/b;->doInBackground([Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lhu/vsza/adsdroid/PartList;->onListItemClick(Landroid/widget/ListView;Landroid/view/View;IJ)V <",
+                "> Lhu/vsza/adsdroid/c;->a(Ljava/util/ArrayList;)V <",
+                "> Lhu/vsza/adsdroid/c;->onPostExecute(Ljava/lang/Object;)V <",
+                "> Lhu/vsza/adsdroid/SearchPanel;->searchByPartName(Landroid/view/View;)V <",
+                "> Lhu/vsza/adsdroid/SearchPanel;->onEditorAction(Landroid/widget/TextView;ILandroid/view/KeyEvent;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "hu.vsza.adsdroid.SearchPanel",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "La/a/b/l;->y()Ljava/util/List;": {
+        "path_0": {
+            "call_sequence": [
+                "> La/a/d/ac;->a(La/a/b/l;)V <",
+                "> La/a/d/a;->a(La/a/d/g;La/a/b/i;)La/a/d/f; <",
+                "> La/a/b/i;->b(Ljava/lang/String;)La/a/d/f; <",
+                "> Lhu/vsza/a/b;->searchByPartName(Ljava/lang/String;Lhu/vsza/a/c;)Ljava/util/ArrayList; <",
+                "> Lhu/vsza/adsdroid/c;->a([Ljava/lang/Void;)Ljava/util/ArrayList; <",
+                "> Lhu/vsza/adsdroid/c;->doInBackground([Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lhu/vsza/adsdroid/SearchPanel;->searchByPartName(Landroid/view/View;)V <",
+                "> Lhu/vsza/adsdroid/SearchPanel;->onEditorAction(Landroid/widget/TextView;ILandroid/view/KeyEvent;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "hu.vsza.adsdroid.SearchPanel",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lhu/vsza/adsdroid/c;->a(Ljava/util/ArrayList;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lhu/vsza/adsdroid/c;->onPostExecute(Ljava/lang/Object;)V <",
+                "> Lhu/vsza/adsdroid/SearchPanel;->searchByPartName(Landroid/view/View;)V <",
+                "> Lhu/vsza/adsdroid/SearchPanel;->onEditorAction(Landroid/widget/TextView;ILandroid/view/KeyEvent;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "hu.vsza.adsdroid.SearchPanel",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lhu/vsza/adsdroid/b;->execute([Ljava/lang/Object;)Landroid/os/AsyncTask;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lhu/vsza/adsdroid/PartList;->onListItemClick(Landroid/widget/ListView;Landroid/view/View;IJ)V <",
+                "> Lhu/vsza/adsdroid/c;->a(Ljava/util/ArrayList;)V <",
+                "> Lhu/vsza/adsdroid/c;->onPostExecute(Ljava/lang/Object;)V <",
+                "> Lhu/vsza/adsdroid/SearchPanel;->searchByPartName(Landroid/view/View;)V <",
+                "> Lhu/vsza/adsdroid/SearchPanel;->onEditorAction(Landroid/widget/TextView;ILandroid/view/KeyEvent;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "hu.vsza.adsdroid.SearchPanel",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "La/a/b/l;->B()La/a/b/l;": {
+        "path_0": {
+            "call_sequence": [
+                "> La/a/d/ac;->a(La/a/b/l;)V <",
+                "> La/a/d/a;->a(La/a/d/g;La/a/b/i;)La/a/d/f; <",
+                "> La/a/b/i;->b(Ljava/lang/String;)La/a/d/f; <",
+                "> Lhu/vsza/a/b;->searchByPartName(Ljava/lang/String;Lhu/vsza/a/c;)Ljava/util/ArrayList; <",
+                "> Lhu/vsza/adsdroid/c;->a([Ljava/lang/Void;)Ljava/util/ArrayList; <",
+                "> Lhu/vsza/adsdroid/c;->doInBackground([Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lhu/vsza/adsdroid/SearchPanel;->searchByPartName(Landroid/view/View;)V <",
+                "> Lhu/vsza/adsdroid/SearchPanel;->onEditorAction(Landroid/widget/TextView;ILandroid/view/KeyEvent;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "hu.vsza.adsdroid.SearchPanel",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "La/a/d/ae;->c()V": {
+        "path_0": {
+            "call_sequence": [
+                "> La/a/d/ae;->a()La/a/d/g; <",
+                "> La/a/d/ae;->a(Ljava/lang/String;)La/a/d/g; <",
+                "> La/a/d/af;-><init>(Ljava/lang/String;La/a/b/i;)V <",
+                "> La/a/d/af;->a(Ljava/lang/String;La/a/b/i;)La/a/d/f; <",
+                "> La/a/b/i;->a(Ljava/lang/String;)La/a/d/f; <",
+                "> Lhu/vsza/a/a;->a(La/a/b/i;)La/a/b/i; <",
+                "> Lhu/vsza/a/a;->a()Ljava/net/URLConnection; <",
+                "> Lhu/vsza/adsdroid/b;->a([Lhu/vsza/a/a;)Ljava/io/File; <",
+                "> Lhu/vsza/adsdroid/b;->doInBackground([Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lhu/vsza/adsdroid/PartList;->onListItemClick(Landroid/widget/ListView;Landroid/view/View;IJ)V <",
+                "> Lhu/vsza/adsdroid/c;->a(Ljava/util/ArrayList;)V <",
+                "> Lhu/vsza/adsdroid/c;->onPostExecute(Ljava/lang/Object;)V <",
+                "> Lhu/vsza/adsdroid/SearchPanel;->searchByPartName(Landroid/view/View;)V <",
+                "> Lhu/vsza/adsdroid/SearchPanel;->onEditorAction(Landroid/widget/TextView;ILandroid/view/KeyEvent;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "hu.vsza.adsdroid.SearchPanel",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lhu/vsza/adsdroid/SearchPanel;->getBaseContext()Landroid/content/Context;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lhu/vsza/adsdroid/c;->a(Ljava/util/ArrayList;)V <",
+                "> Lhu/vsza/adsdroid/c;->onPostExecute(Ljava/lang/Object;)V <",
+                "> Lhu/vsza/adsdroid/SearchPanel;->searchByPartName(Landroid/view/View;)V <",
+                "> Lhu/vsza/adsdroid/SearchPanel;->onEditorAction(Landroid/widget/TextView;ILandroid/view/KeyEvent;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "hu.vsza.adsdroid.SearchPanel",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "La/a/d/q;-><init>(Ljava/lang/String;Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> La/a/d/ae;->g()V <",
+                "> La/a/d/ae;->c()V <",
+                "> La/a/d/ae;->a()La/a/d/g; <",
+                "> La/a/d/ae;->a(Ljava/lang/String;)La/a/d/g; <",
+                "> La/a/d/af;-><init>(Ljava/lang/String;La/a/b/i;)V <",
+                "> La/a/d/af;->a(Ljava/lang/String;La/a/b/i;)La/a/d/f; <",
+                "> La/a/b/i;->a(Ljava/lang/String;)La/a/d/f; <",
+                "> Lhu/vsza/a/a;->a(La/a/b/i;)La/a/b/i; <",
+                "> Lhu/vsza/a/a;->a()Ljava/net/URLConnection; <",
+                "> Lhu/vsza/adsdroid/b;->a([Lhu/vsza/a/a;)Ljava/io/File; <",
+                "> Lhu/vsza/adsdroid/b;->doInBackground([Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lhu/vsza/adsdroid/PartList;->onListItemClick(Landroid/widget/ListView;Landroid/view/View;IJ)V <",
+                "> Lhu/vsza/adsdroid/c;->a(Ljava/util/ArrayList;)V <",
+                "> Lhu/vsza/adsdroid/c;->onPostExecute(Ljava/lang/Object;)V <",
+                "> Lhu/vsza/adsdroid/SearchPanel;->searchByPartName(Landroid/view/View;)V <",
+                "> Lhu/vsza/adsdroid/SearchPanel;->onEditorAction(Landroid/widget/TextView;ILandroid/view/KeyEvent;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "hu.vsza.adsdroid.SearchPanel",
+                    "<unknown>"
+                ]
+            ]
+        }
+    }
+}

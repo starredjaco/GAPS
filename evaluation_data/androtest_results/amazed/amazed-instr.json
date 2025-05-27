@@ -1,0 +1,559 @@
+{
+    "Lcom/unity3d/player/WWW;->doneCallback(I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/unity3d/player/WWW;->runSafe()V <",
+                "> Lcom/unity3d/player/UnityPlayer;-><init>(Landroid/content/ContextWrapper;)V <",
+                "> Lcom/unity3d/player/UnityPlayerActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/unity3d/player/UnityPlayer;->nativeVideoFrameCallback(I[BII)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/unity3d/player/UnityPlayer;->a(Lcom/unity3d/player/UnityPlayer;I[BII)V <",
+                "> Lcom/unity3d/player/UnityPlayer$11;->a()V <",
+                "> Lcom/unity3d/player/UnityPlayer;->onCameraFrame(Lcom/unity3d/player/a;[B)V <",
+                "> Lcom/unity3d/player/UnityPlayerActivity;->dispatchKeyEvent(Landroid/view/KeyEvent;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/unity3d/player/UnityPlayer;->nativeActivityIndicatorStyle()I": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/unity3d/player/UnityPlayer;->k(Lcom/unity3d/player/UnityPlayer;)I <",
+                "> Lcom/unity3d/player/UnityPlayer$2;->run()V <",
+                "> Lcom/unity3d/player/UnityPlayer;-><init>(Landroid/content/ContextWrapper;)V <",
+                "> Lcom/unity3d/player/UnityPlayerActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/unity3d/player/WWW;->headerCallback(ILjava/lang/String;)Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/unity3d/player/WWW;->headerCallback(Ljava/lang/String;Ljava/lang/String;)Z <",
+                "> Lcom/unity3d/player/UnityPlayer;-><init>(Landroid/content/ContextWrapper;)V <",
+                "> Lcom/unity3d/player/UnityPlayerActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/unity3d/player/a;->e()[I": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/unity3d/player/a;->b(Lcom/unity3d/player/a$a;)V <",
+                "> Lcom/unity3d/player/a;->a(Lcom/unity3d/player/a$a;)V <",
+                "> Lcom/unity3d/player/UnityPlayer;->initCamera(IIII)[I <",
+                "> Lcom/unity3d/player/UnityPlayerActivity;->dispatchKeyEvent(Landroid/view/KeyEvent;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/unity3d/player/UnityPlayer;->a(Landroid/content/pm/ApplicationInfo;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/unity3d/player/UnityPlayer;-><init>(Landroid/content/ContextWrapper;)V <",
+                "> Lcom/unity3d/player/UnityPlayerActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/unity3d/player/UnityPlayer$1$1;-><init>(Lcom/unity3d/player/UnityPlayer$1;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/unity3d/player/UnityPlayer$1;->run()V <",
+                "> Lcom/unity3d/player/UnityPlayer;-><init>(Landroid/content/ContextWrapper;)V <",
+                "> Lcom/unity3d/player/UnityPlayerActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/unity3d/player/l;->c(Z)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/unity3d/player/UnityPlayer;->e()V <",
+                "> Lcom/unity3d/player/UnityPlayer;->pause()V <",
+                "> Lcom/unity3d/player/UnityPlayerActivity;->onPause()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/unity3d/player/e;->a(Landroid/app/Activity;Ljava/lang/Runnable;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/unity3d/player/UnityPlayer;-><init>(Landroid/content/ContextWrapper;)V <",
+                "> Lcom/unity3d/player/UnityPlayerActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/unity3d/player/UnityPlayer$c;-><init>(Lcom/unity3d/player/UnityPlayer;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/unity3d/player/UnityPlayer$c;-><init>(Lcom/unity3d/player/UnityPlayer;B)V <",
+                "> Lcom/unity3d/player/UnityPlayer$11;-><init>(Lcom/unity3d/player/UnityPlayer;I[BLandroid/hardware/Camera$Size;Lcom/unity3d/player/a;)V <",
+                "> Lcom/unity3d/player/UnityPlayer;->onCameraFrame(Lcom/unity3d/player/a;[B)V <",
+                "> Lcom/unity3d/player/UnityPlayerActivity;->dispatchKeyEvent(Landroid/view/KeyEvent;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/unity3d/player/UnityPlayer$c;-><init>(Lcom/unity3d/player/UnityPlayer;B)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/unity3d/player/UnityPlayer$10;-><init>(Lcom/unity3d/player/UnityPlayer;ZLjava/lang/String;I)V <",
+                "> Lcom/unity3d/player/UnityPlayer;->reportSoftInputStr(Ljava/lang/String;IZ)V <",
+                "> Lcom/unity3d/player/UnityPlayer;->windowFocusChanged(Z)V <",
+                "> Lcom/unity3d/player/UnityPlayerActivity;->onWindowFocusChanged(Z)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/unity3d/player/UnityPlayer$20;-><init>(Lcom/unity3d/player/UnityPlayer;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/unity3d/player/UnityPlayer;->g()V <",
+                "> Lcom/unity3d/player/UnityPlayer;->resume()V <",
+                "> Lcom/unity3d/player/UnityPlayerActivity;->onResume()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/unity3d/player/UnityWebRequest;->contentLengthCallback(I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/unity3d/player/UnityWebRequest;->run()V <",
+                "> Lcom/unity3d/player/UnityPlayer;-><init>(Landroid/content/ContextWrapper;)V <",
+                "> Lcom/unity3d/player/UnityPlayerActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/unity3d/player/UnityPlayer;->k()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/unity3d/player/UnityPlayer;-><init>(Landroid/content/ContextWrapper;)V <",
+                "> Lcom/unity3d/player/UnityPlayerActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/unity3d/player/a;->a(Lcom/unity3d/player/a$a;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/unity3d/player/UnityPlayer;->initCamera(IIII)[I <",
+                "> Lcom/unity3d/player/UnityPlayerActivity;->dispatchKeyEvent(Landroid/view/KeyEvent;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/unity3d/player/UnityPlayer$10;-><init>(Lcom/unity3d/player/UnityPlayer;ZLjava/lang/String;I)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/unity3d/player/UnityPlayer;->reportSoftInputStr(Ljava/lang/String;IZ)V <",
+                "> Lcom/unity3d/player/UnityPlayer;->windowFocusChanged(Z)V <",
+                "> Lcom/unity3d/player/UnityPlayerActivity;->onWindowFocusChanged(Z)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/unity3d/player/m;->a()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/unity3d/player/m;->surfaceCreated(Landroid/view/SurfaceHolder;)V <",
+                "> Lcom/unity3d/player/UnityPlayer$12;->run()V <",
+                "> Lcom/unity3d/player/UnityPlayer;->showVideoPlayer(Ljava/lang/String;IIIZII)Z <",
+                "> Lcom/unity3d/player/UnityPlayerActivity;->dispatchKeyEvent(Landroid/view/KeyEvent;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/unity3d/player/m;->getResources()Landroid/content/res/Resources;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/unity3d/player/m;->a()V <",
+                "> Lcom/unity3d/player/m;->surfaceCreated(Landroid/view/SurfaceHolder;)V <",
+                "> Lcom/unity3d/player/UnityPlayer$12;->run()V <",
+                "> Lcom/unity3d/player/UnityPlayer;->showVideoPlayer(Ljava/lang/String;IIIZII)Z <",
+                "> Lcom/unity3d/player/UnityPlayerActivity;->dispatchKeyEvent(Landroid/view/KeyEvent;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/unity3d/player/UnityPlayer;->nativeSetInputCanceled(Z)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/unity3d/player/UnityPlayer;->n(Lcom/unity3d/player/UnityPlayer;)V <",
+                "> Lcom/unity3d/player/UnityPlayer$10;->a()V <",
+                "> Lcom/unity3d/player/UnityPlayer;->reportSoftInputStr(Ljava/lang/String;IZ)V <",
+                "> Lcom/unity3d/player/UnityPlayer;->windowFocusChanged(Z)V <",
+                "> Lcom/unity3d/player/UnityPlayerActivity;->onWindowFocusChanged(Z)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/unity3d/player/UnityPlayer$19;-><init>(Lcom/unity3d/player/UnityPlayer;Ljava/util/concurrent/Semaphore;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/unity3d/player/UnityPlayer;->e()V <",
+                "> Lcom/unity3d/player/UnityPlayer;->pause()V <",
+                "> Lcom/unity3d/player/UnityPlayerActivity;->onPause()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/unity3d/player/UnityPlayer;->f(Lcom/unity3d/player/UnityPlayer;)Landroid/view/SurfaceView;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/unity3d/player/UnityPlayer$15;->run()V <",
+                "> Lcom/unity3d/player/UnityPlayer;->hideVideoPlayer()V <",
+                "> Lcom/unity3d/player/m$1;->run()V <",
+                "> Lcom/unity3d/player/m;->onDestroy()V <",
+                "> Lcom/unity3d/player/m;->onKeyDown(ILandroid/view/KeyEvent;)Z <",
+                "> Lcom/unity3d/player/UnityPlayer$12;->run()V <",
+                "> Lcom/unity3d/player/UnityPlayer;->showVideoPlayer(Ljava/lang/String;IIIZII)Z <",
+                "> Lcom/unity3d/player/UnityPlayerActivity;->dispatchKeyEvent(Landroid/view/KeyEvent;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.unity3d.player.UnityPlayerActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/unity3d/player/UnityPlayerActivity;->getWindow()Landroid/view/Window;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/unity3d/player/UnityPlayerActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/unity3d/player/UnityWebRequest;->errorCallback(JILjava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/unity3d/player/UnityWebRequest;->sslCannotConnectCallback(Ljava/lang/String;)V <",
+                "> Lcom/unity3d/player/UnityPlayer;-><init>(Landroid/content/ContextWrapper;)V <",
+                "> Lcom/unity3d/player/UnityPlayerActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/unity3d/player/UnityPlayer$b;->b()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/unity3d/player/UnityPlayer;->g()V <",
+                "> Lcom/unity3d/player/UnityPlayer;->resume()V <",
+                "> Lcom/unity3d/player/UnityPlayerActivity;->onResume()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/unity3d/player/UnityWebRequest;->headerCallback(JLjava/lang/String;Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/unity3d/player/UnityWebRequest;->headerCallback(Ljava/lang/String;Ljava/lang/String;)V <",
+                "> Lcom/unity3d/player/UnityPlayer;-><init>(Landroid/content/ContextWrapper;)V <",
+                "> Lcom/unity3d/player/UnityPlayerActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/unity3d/player/UnityPlayer;->j()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/unity3d/player/UnityPlayer;-><init>(Landroid/content/ContextWrapper;)V <",
+                "> Lcom/unity3d/player/UnityPlayerActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/unity3d/player/UnityWebRequest;->downloadCallback(Ljava/nio/ByteBuffer;I)Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/unity3d/player/UnityWebRequest;->run()V <",
+                "> Lcom/unity3d/player/UnityPlayer;-><init>(Landroid/content/ContextWrapper;)V <",
+                "> Lcom/unity3d/player/UnityPlayerActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/unity3d/player/UnityPlayer$b;-><init>(Lcom/unity3d/player/UnityPlayer;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/unity3d/player/UnityPlayer$b;-><init>(Lcom/unity3d/player/UnityPlayer;B)V <",
+                "> Lcom/unity3d/player/UnityPlayer;-><init>(Landroid/content/ContextWrapper;)V <",
+                "> Lcom/unity3d/player/UnityPlayerActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/unity3d/player/j;->setContentView(Landroid/view/View;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/unity3d/player/j;-><init>(Landroid/content/Context;Lcom/unity3d/player/UnityPlayer;Ljava/lang/String;IZZZLjava/lang/String;)V <",
+                "> Lcom/unity3d/player/UnityPlayer$6;->run()V <",
+                "> Lcom/unity3d/player/UnityPlayer;->showSoftInput(Ljava/lang/String;IZZZZLjava/lang/String;)V <",
+                "> Lcom/unity3d/player/UnityPlayerActivity;->dispatchKeyEvent(Landroid/view/KeyEvent;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/unity3d/player/NativeLoader;->load(Ljava/lang/String;)Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/unity3d/player/UnityPlayer;->a(Landroid/content/pm/ApplicationInfo;)V <",
+                "> Lcom/unity3d/player/UnityPlayer;-><init>(Landroid/content/ContextWrapper;)V <",
+                "> Lcom/unity3d/player/UnityPlayerActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/unity3d/player/UnityPlayer;->hideVideoPlayer()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/unity3d/player/m$1;->run()V <",
+                "> Lcom/unity3d/player/m;->onDestroy()V <",
+                "> Lcom/unity3d/player/m;->onKeyDown(ILandroid/view/KeyEvent;)Z <",
+                "> Lcom/unity3d/player/UnityPlayer$12;->run()V <",
+                "> Lcom/unity3d/player/UnityPlayer;->showVideoPlayer(Ljava/lang/String;IIIZII)Z <",
+                "> Lcom/unity3d/player/UnityPlayerActivity;->dispatchKeyEvent(Landroid/view/KeyEvent;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.unity3d.player.UnityPlayerActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/unity3d/player/l;-><init>()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/unity3d/player/UnityPlayer;-><init>(Landroid/content/ContextWrapper;)V <",
+                "> Lcom/unity3d/player/UnityPlayerActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/unity3d/player/UnityWebRequest;->badProtocolCallback(Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/unity3d/player/UnityWebRequest;->run()V <",
+                "> Lcom/unity3d/player/UnityPlayer;-><init>(Landroid/content/ContextWrapper;)V <",
+                "> Lcom/unity3d/player/UnityPlayerActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/unity3d/player/UnityPlayer;->injectEvent(Landroid/view/InputEvent;)Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/unity3d/player/UnityPlayer;->onGenericMotionEvent(Landroid/view/MotionEvent;)Z <",
+                "> Lcom/unity3d/player/UnityPlayerActivity;->dispatchKeyEvent(Landroid/view/KeyEvent;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.unity3d.player.UnityPlayerActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Lcom/unity3d/player/UnityWebRequest;->unknownHostCallback(Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/unity3d/player/UnityWebRequest;->run()V <",
+                "> Lcom/unity3d/player/UnityPlayer;-><init>(Landroid/content/ContextWrapper;)V <",
+                "> Lcom/unity3d/player/UnityPlayerActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/unity3d/player/m;->isPlaying()Z": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/unity3d/player/m;->b()V <",
+                "> Lcom/unity3d/player/m;->onVideoSizeChanged(Landroid/media/MediaPlayer;II)V <",
+                "> Lcom/unity3d/player/UnityPlayer$12;->run()V <",
+                "> Lcom/unity3d/player/UnityPlayer;->showVideoPlayer(Ljava/lang/String;IIIZII)Z <",
+                "> Lcom/unity3d/player/UnityPlayerActivity;->dispatchKeyEvent(Landroid/view/KeyEvent;)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/unity3d/player/UnityPlayer;->b(Lcom/unity3d/player/UnityPlayer;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/unity3d/player/UnityPlayer$b$1;->handleMessage(Landroid/os/Message;)Z <",
+                "> Lcom/unity3d/player/UnityPlayer$b;->run()V <",
+                "> Lcom/unity3d/player/UnityPlayer;-><init>(Landroid/content/ContextWrapper;)V <",
+                "> Lcom/unity3d/player/UnityPlayerActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Lcom/unity3d/player/m;->pause()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/unity3d/player/m;->onPause()V <",
+                "> Lcom/unity3d/player/UnityPlayer;->pause()V <",
+                "> Lcom/unity3d/player/UnityPlayerActivity;->onPause()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    }
+}

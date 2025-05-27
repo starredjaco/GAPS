@@ -1,0 +1,55 @@
+{
+    "org.beide.bomber.BomberActivity": {
+        "org.jessies.dalvikexplorer.DalvikExplorerActivity": [
+            [
+                "click android:id/button1"
+            ]
+        ]
+    },
+    "org.jessies.dalvikexplorer.DalvikExplorerActivity": {
+        "com.google.android.apps.nexuslauncher.NexusLauncherActivity": [
+            []
+        ],
+        "com.android.vendingcom.google.android.finsky.offlinegames.impl.OfflineGamesActivity": [
+            []
+        ],
+        "com.android.vendingcom.google.android.finsky.activities.MainActivity": [
+            []
+        ],
+        "org.jessies.dalvikexplorer.FileSystemsActivity": [
+            []
+        ]
+    },
+    "com.android.vendingcom.google.android.finsky.activities.MainActivity": {
+        "com.android.vendingcom.google.android.finsky.offlinegames.impl.OfflineGamesActivity": [
+            [
+                "click com.android.vending:id/0_resource_name_obfuscated",
+                "click com.android.vending:id/button"
+            ]
+        ],
+        "com.google.android.apps.nexuslauncher.NexusLauncherActivity": [
+            []
+        ]
+    },
+    "com.android.vendingcom.google.android.finsky.offlinegames.impl.OfflineGamesActivity": {
+        "org.jessies.dalvikexplorer.DalvikExplorerActivity": [
+            []
+        ]
+    },
+    "org.jessies.dalvikexplorer.LocalesActivity": {
+        "org.jessies.dalvikexplorer.SensorsActivity": [
+            [
+                "click (21, 63, 444, 189)"
+            ],
+            []
+        ]
+    },
+    "com.google.android.apps.nexuslauncher.NexusLauncherActivity": {
+        "org.jessies.dalvikexplorer.DalvikExplorerActivity": [
+            []
+        ],
+        "org.jessies.dalvikexplorer.CharsetsActivity": [
+            []
+        ]
+    }
+}

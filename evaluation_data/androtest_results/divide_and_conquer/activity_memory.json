@@ -1,0 +1,31 @@
+{
+    "org.beide.bomber.BomberActivity": {
+        "com.khurana.apps.divideandconquercom.google.android.divideandconquer.DivideAndConquerActivity": [
+            [
+                "click android:id/button1",
+                "click com.khurana.apps.divideandconquer:id/newGame"
+            ],
+            [
+                "click com.khurana.apps.divideandconquer:id/newGame"
+            ]
+        ],
+        "com.google.android.dialer.extensions.GoogleDialtactsActivity": [
+            [
+                "click com.khurana.apps.divideandconquer:id/newGame"
+            ]
+        ],
+        "com.google.android.apps.nexuslauncher.NexusLauncherActivity": [
+            []
+        ]
+    },
+    "com.khurana.apps.divideandconquercom.google.android.divideandconquer.DivideAndConquerActivity": {
+        "org.beide.bomber.BomberActivity": [
+            []
+        ]
+    },
+    "com.google.android.dialer.extensions.GoogleDialtactsActivity": {
+        "com.google.android.apps.nexuslauncher.NexusLauncherActivity": [
+            []
+        ]
+    }
+}

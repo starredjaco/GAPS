@@ -1,0 +1,83 @@
+{
+    "org.beide.bomber.BomberActivity": {
+        "com.android.vendingcom.google.android.finsky.activities.MainActivity": [
+            [
+                "click android:id/button3"
+            ]
+        ],
+        "com.eleybourn.bookcatalogue.filechooser.BackupChooser": [
+            [
+                "click android:id/button3",
+                "click android:id/button1",
+                "click android:id/button2"
+            ]
+        ],
+        "com.eleybourn.bookcatalogue.BooksOnBookshelf": [
+            [
+                "click com.eleybourn.bookcatalogue:id/confirm"
+            ],
+            []
+        ]
+    },
+    "com.eleybourn.bookcatalogue.filechooser.BackupChooser": {
+        "org.beide.bomber.BomberActivity": [
+            [
+                "click com.eleybourn.bookcatalogue:id/confirm",
+                "click com.eleybourn.bookcatalogue:id/advanced_row",
+                "click com.eleybourn.bookcatalogue:id/ok"
+            ]
+        ]
+    },
+    "com.eleybourn.bookcatalogue.MainMenu": {
+        "org.beide.bomber.BomberActivity": [
+            [
+                "click com.eleybourn.bookcatalogue:id/my_books_label"
+            ]
+        ],
+        "com.eleybourn.bookcatalogue.AdministrationFunctions": [
+            [
+                "click com.eleybourn.bookcatalogue:id/my_books_label",
+                "click com.eleybourn.bookcatalogue:id/add_book_label",
+                "click com.eleybourn.bookcatalogue:id/administration_label"
+            ]
+        ]
+    },
+    "com.eleybourn.bookcatalogue.BooksOnBookshelf": {
+        "org.beide.bomber.BomberActivity": [
+            [
+                "click com.eleybourn.bookcatalogue:id/bookshelf_name"
+            ],
+            [
+                "click com.eleybourn.bookcatalogue:id/bookshelf_name",
+                "click (932, 63, 1080, 189)"
+            ]
+        ]
+    },
+    "com.eleybourn.bookcatalogue.AdministrationFunctions": {
+        "com.eleybourn.bookcatalogue.Bookshelf": [
+            [
+                "click com.eleybourn.bookcatalogue:id/bookshelf_label"
+            ]
+        ]
+    },
+    "com.eleybourn.bookcatalogue.Bookshelf": {
+        "com.eleybourn.bookcatalogue.BookshelfEdit": [
+            [
+                "click (933, 63, 1080, 189)"
+            ]
+        ],
+        "com.eleybourn.bookcatalogue.AdministrationFunctions": [
+            [
+                "click (933, 63, 1080, 189)",
+                "click (0, 63, 933, 189)"
+            ]
+        ]
+    },
+    "com.eleybourn.bookcatalogue.BookshelfEdit": {
+        "com.eleybourn.bookcatalogue.Bookshelf": [
+            [
+                "click com.eleybourn.bookcatalogue:id/confirm"
+            ]
+        ]
+    }
+}

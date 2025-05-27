@@ -1,0 +1,230 @@
+{
+    "com.github.bmx666.appcachecleaner.debugcom.github.bmx666.appcachecleaner.ui.activity.AppCacheCleanerActivity": {
+        "com.android.settings.Settings$AccessibilitySettingsActivity": [
+            [
+                "click com.github.bmx666.appcachecleaner.debug:id/btnCleanAllAppCache",
+                "click android:id/button1"
+            ],
+            [
+                "click com.github.bmx666.appcachecleaner.debug:id/btnCleanUserAppCache",
+                "click android:id/button1"
+            ],
+            [
+                "click com.github.bmx666.appcachecleaner.debug:id/menu_help",
+                "click com.github.bmx666.appcachecleaner.debug:id/menu_settings",
+                "click (0, 345, 1080, 537)",
+                "text android:id/edit",
+                "click android:id/button2",
+                "click (0, 63, 147, 210)",
+                "click com.github.bmx666.appcachecleaner.debug:id/btnCleanUserAppCache",
+                "click android:id/button1"
+            ],
+            [
+                "click com.github.bmx666.appcachecleaner.debug:id/btnCleanUserAppCache",
+                "click android:id/button2",
+                "click com.github.bmx666.appcachecleaner.debug:id/btnCleanAllAppCache",
+                "click android:id/button1"
+            ],
+            [
+                "click com.github.bmx666.appcachecleaner.debug:id/btnCleanAllAppCache",
+                "click android:id/button2",
+                "click com.github.bmx666.appcachecleaner.debug:id/btnCleanUserAppCache",
+                "click android:id/button1"
+            ],
+            [
+                "click com.github.bmx666.appcachecleaner.debug:id/btnCleanUserAppCache",
+                "click android:id/button2",
+                "click com.github.bmx666.appcachecleaner.debug:id/btnCleanSystemAppCache",
+                "click android:id/button1"
+            ],
+            [
+                "click com.github.bmx666.appcachecleaner.debug:id/btnStartStopService",
+                "click android:id/button2",
+                "click com.github.bmx666.appcachecleaner.debug:id/btnCleanAllAppCache",
+                "click android:id/button1"
+            ]
+        ],
+        "com.android.settings.SubSettings": [
+            [
+                "click com.github.bmx666.appcachecleaner.debug:id/btnCleanUserAppCache",
+                "click android:id/button1",
+                "click com.github.bmx666.appcachecleaner.debug:id/btnCleanSystemAppCache"
+            ]
+        ]
+    },
+    "com.android.settings.Settings$AccessibilitySettingsActivity": {
+        "com.github.bmx666.appcachecleaner.debugcom.github.bmx666.appcachecleaner.ui.activity.AppCacheCleanerActivity": [
+            [
+                "click (0, 63, 147, 210)"
+            ],
+            [
+                "click (0, 63, 147, 189)"
+            ],
+            []
+        ],
+        "com.android.settings.SubSettings": [
+            [
+                "click (0, 333, 1080, 525)"
+            ],
+            [
+                "click (0, 312, 1794, 504)"
+            ]
+        ]
+    },
+    "com.android.settings.SubSettings": {
+        "com.android.vendingcom.google.android.finsky.offlinegames.impl.OfflineGamesActivity": [
+            [
+                "click com.android.settings:id/main_frame",
+                "click com.android.settings:id/permission_enable_allow_button",
+                "click android:id/button1",
+                "click (0, 63, 147, 210)"
+            ],
+            [
+                "click com.android.settings:id/main_frame",
+                "click com.android.settings:id/permission_enable_allow_button",
+                "click com.android.settings:id/container",
+                "click android:id/button1",
+                "click (0, 63, 147, 210)"
+            ],
+            [
+                "click (0, 210, 1080, 351)",
+                "click com.android.settings:id/main_frame",
+                "click android:id/button1",
+                "click (0, 63, 147, 210)"
+            ]
+        ],
+        "com.google.android.apps.nexuslauncher.NexusLauncherActivity": [
+            [
+                "click (0, 210, 1080, 351)",
+                "click com.android.settings:id/permission_enable_deny_button",
+                "click com.android.settings:id/main_frame",
+                "click com.android.settings:id/permission_enable_allow_button",
+                "click android:id/button2",
+                "click (0, 63, 147, 210)"
+            ],
+            [
+                "click (0, 210, 1080, 351)",
+                "click com.android.settings:id/permission_enable_allow_button",
+                "click com.android.settings:id/main_frame",
+                "click com.android.settings:id/permission_enable_deny_button",
+                "click (0, 63, 147, 210)"
+            ],
+            [
+                "click com.android.settings:id/main_frame",
+                "click android:id/button1",
+                "click (0, 63, 147, 210)"
+            ],
+            [
+                "click (0, 210, 1080, 351)",
+                "click com.android.settings:id/main_frame",
+                "click android:id/button1",
+                "swipe com.android.settings:id/recycler_view",
+                "click com.android.settings:id/switchWidget"
+            ]
+        ],
+        "com.android.vending.AssetBrowserActivity": [
+            [
+                "click (0, 210, 1080, 351)",
+                "click com.android.settings:id/permission_enable_allow_button",
+                "click com.android.settings:id/main_frame"
+            ],
+            [
+                "click com.android.settings:id/main_frame",
+                "click com.android.settings:id/permission_enable_allow_button",
+                "click android:id/button1",
+                "click (0, 63, 147, 210)"
+            ],
+            [
+                "click (0, 189, 1794, 330)",
+                "swipe (356, 105, 1437, 1037)",
+                "click com.android.settings:id/main_frame",
+                "swipe (356, 105, 1437, 1037)"
+            ],
+            [
+                "click com.android.settings:id/main_frame",
+                "swipe (356, 105, 1437, 1037)",
+                "swipe (356, 105, 1437, 1037)",
+                "swipe (356, 105, 1437, 1037)",
+                "swipe (356, 105, 1437, 1037)",
+                "swipe (356, 105, 1437, 1037)",
+                "click (0, 63, 147, 189)"
+            ]
+        ],
+        "com.android.vendingcom.google.android.finsky.activities.MainActivity": [
+            [
+                "click (0, 210, 1080, 351)",
+                "click com.android.settings:id/main_frame",
+                "click android:id/button1",
+                "click (0, 63, 147, 210)"
+            ]
+        ],
+        "com.github.bmx666.appcachecleaner.debugcom.github.bmx666.appcachecleaner.ui.activity.AppCacheCleanerActivity": [
+            [
+                "click com.android.settings:id/main_frame"
+            ]
+        ],
+        "com.google.android.calendar.allinone.AllInOneCalendarActivity": [
+            [
+                "click com.android.settings:id/main_frame",
+                "click com.android.settings:id/permission_enable_allow_button",
+                "click android:id/button1",
+                "click (0, 63, 147, 210)"
+            ],
+            [
+                "click com.android.settings:id/main_frame",
+                "click com.android.settings:id/permission_enable_deny_button",
+                "click com.android.settings:id/switchWidget"
+            ],
+            [
+                "click (0, 210, 1080, 351)",
+                "click com.android.settings:id/permission_enable_allow_button",
+                "click com.android.settings:id/main_frame",
+                "click com.android.settings:id/permission_enable_deny_button",
+                "click (0, 63, 147, 210)"
+            ],
+            [
+                "click com.android.settings:id/main_frame",
+                "click com.android.settings:id/permission_enable_deny_button",
+                "click (0, 63, 147, 210)"
+            ]
+        ]
+    },
+    "com.android.vendingcom.google.android.finsky.offlinegames.impl.OfflineGamesActivity": {
+        "com.android.vendingcom.google.android.finsky.activities.MainActivity": [
+            [
+                "click com.android.vending:id/0_resource_name_obfuscated"
+            ],
+            []
+        ]
+    },
+    "com.android.vendingcom.google.android.finsky.activities.MainActivity": {
+        "com.android.vendingcom.google.android.finsky.offlinegames.impl.OfflineGamesActivity": [
+            [
+                "click com.android.vending:id/button"
+            ]
+        ],
+        "com.google.android.calendar.allinone.AllInOneCalendarActivity": [
+            []
+        ],
+        "com.google.android.apps.nexuslauncher.NexusLauncherActivity": [
+            []
+        ]
+    },
+    "com.google.android.calendar.allinone.AllInOneCalendarActivity": {
+        "com.google.android.apps.nexuslauncher.NexusLauncherActivity": [
+            []
+        ]
+    },
+    "com.google.android.apps.nexuslauncher.NexusLauncherActivity": {
+        "com.android.vending.AssetBrowserActivity": [
+            [
+                "click (439, 1382, 641, 1592)"
+            ]
+        ],
+        "com.google.android.calendar.allinone.AllInOneCalendarActivity": [
+            [
+                "click (0, 210, 1080, 351)"
+            ]
+        ]
+    }
+}

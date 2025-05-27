@@ -1,0 +1,57 @@
+{
+    "org.wikipedia.onboarding.InitialOnboardingActivity": {
+        "org.wikipedia.main.MainActivity": [
+            [
+                "click org.wikipedia:id/fragment_onboarding_forward_button",
+                "click org.wikipedia:id/fragment_onboarding_skip_button"
+            ]
+        ]
+    },
+    "org.wikipedia.main.MainActivity": {
+        "org.wikipedia.search.SearchActivity": [
+            [
+                "click org.wikipedia:id/search_container"
+            ],
+            [
+                "click org.wikipedia:id/search_container",
+                "click org.wikipedia:id/nav_tab_search",
+                "click org.wikipedia:id/search_card"
+            ]
+        ]
+    },
+    "org.wikipedia.search.SearchActivity": {
+        "org.wikipedia.page.PageActivity": [
+            [
+                "text org.wikipedia:id/search_src_text Android Development",
+                "click (0, 231, 1080, 428)"
+            ],
+            [
+                "text org.wikipedia:id/search_src_text Android Development",
+                "click (0, 231, 1080, 428)",
+                "click (0, 378, 1080, 504)",
+                "click org.wikipedia:id/search_container"
+            ],
+            [
+                "text org.wikipedia:id/search_src_text Android Development",
+                "click org.wikipedia:id/search_container",
+                "click org.wikipedia:id/search_close_btn",
+                "click org.wikipedia:id/search_container",
+                "click (0, 231, 1080, 428)"
+            ]
+        ]
+    },
+    "org.wikipedia.page.PageActivity": {
+        "org.wikipedia.search.SearchActivity": [
+            [
+                "click org.wikipedia:id/page_toolbar_button_search"
+            ]
+        ],
+        "org.wikipedia.main.MainActivity": [
+            [
+                "click org.wikipedia:id/page_toolbar_button_search",
+                "click org.wikipedia:id/page_toolbar_button_show_overflow_menu",
+                "click (0, 73, 147, 220)"
+            ]
+        ]
+    }
+}

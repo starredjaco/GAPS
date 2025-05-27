@@ -1,0 +1,34 @@
+{
+    "org.passwordmaker.android.ImportExportRdf": {
+        "org.passwordmaker.android.MainActivity": [
+            [
+                "click org.passwordmaker.android:id/chkConvertBadAlgo",
+                "click org.passwordmaker.android:id/btnExport"
+            ],
+            [
+                "click org.passwordmaker.android:id/btnExport",
+                "click org.passwordmaker.android:id/chkConvertBadAlgo"
+            ],
+            [
+                "click org.passwordmaker.android:id/btnImport",
+                "click org.passwordmaker.android:id/btnExport"
+            ]
+        ]
+    },
+    "org.passwordmaker.android.AccountListActivity": {
+        "org.passwordmaker.android.AccountDetailActivity": [
+            [
+                "click org.passwordmaker.android:id/action_account_add",
+                "click android:id/button1"
+            ]
+        ]
+    },
+    "org.passwordmaker.android.AccountDetailActivity": {
+        "com.google.android.inputmethod.latincom.google.android.apps.inputmethod.latin.preference.SettingsActivity": [
+            [
+                "text org.passwordmaker.android:id/txtPswordLen",
+                "text org.passwordmaker.android:id/txtUseUrl"
+            ]
+        ]
+    }
+}

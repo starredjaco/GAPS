@@ -1,0 +1,4 @@
+COMPONENT CONCAT > Li4nc4mp/myLock/DummyPrompt;->onStop()V < extends Landroid/app/Activity, implements []
+MISSING ID > Li4nc4mp/myLock/TouchGuard;->onKeyLongPress(ILandroid/view/KeyEvent;)Z <
+COMPONENT CONCAT > Li4nc4mp/myLock/MediatorService$3;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V < extends Landroid/content/BroadcastReceiver, implements []
+COMPONENT CONCAT > Li4nc4mp/myLock/MediatorService$4;-><init>(Li4nc4mp/myLock/MediatorService;)V < extends Landroid/os/Binder, implements ['Li4nc4mp/myLock/IsActive']

@@ -1,0 +1,60 @@
+{
+    "Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/duckduckgo/app/systemsearch/SystemSearchActivity$Companion;->fromWidget(Landroid/content/Context;Z)Landroid/content/Intent; <",
+                "> Lcom/duckduckgo/app/systemsearch/SystemSearchActivity$Companion;->fromWidget$default(Lcom/duckduckgo/app/systemsearch/SystemSearchActivity$Companion;Landroid/content/Context;ZILjava/lang/Object;)Landroid/content/Intent; <",
+                "> Lcom/duckduckgo/widget/SearchWidget;->buildPendingIntent(Landroid/content/Context;)Landroid/app/PendingIntent; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.appwidget.action.APPWIDGET_UPDATE",
+                    "start -a"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Intent;-><init>()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/duckduckgo/widget/FavoritesWidgetService$FavoritesWidgetItemFactory;->configureClickListener(Landroid/widget/RemoteViews;Ljava/lang/String;)V <",
+                "> Lcom/duckduckgo/widget/FavoritesWidgetService$FavoritesWidgetItemFactory;->getViewAt(I)Landroid/widget/RemoteViews; <",
+                "> Lcom/duckduckgo/widget/FavoritesWidgetService;->onGetViewFactory(Landroid/content/Intent;)Landroid/widget/RemoteViewsService$RemoteViewsFactory; <",
+                "> Lcom/duckduckgo/widget/SearchAndFavoritesWidget;->configureFavoritesGridView(Landroid/content/Context;ILandroid/widget/RemoteViews;Lcom/duckduckgo/widget/WidgetTheme;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.appwidget.action.APPWIDGET_UPDATE",
+                    "start -a"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Intent;-><init>(Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/duckduckgo/app/WidgetThemeConfiguration;->storeAndSubmitConfiguration(ILcom/duckduckgo/widget/WidgetTheme;)V <",
+                "> Lcom/duckduckgo/app/WidgetThemeConfiguration;->onCreate$lambda$2(Lcom/duckduckgo/app/browser/databinding/ActivityWidgetConfigurationBinding;Lcom/duckduckgo/app/WidgetThemeConfiguration;Landroid/view/View;)V <",
+                "> Lcom/duckduckgo/app/WidgetThemeConfiguration;->$r8$lambda$F8u7fs7WcfIEXfgb-AxbZrrXGNY(Lcom/duckduckgo/app/browser/databinding/ActivityWidgetConfigurationBinding;Lcom/duckduckgo/app/WidgetThemeConfiguration;Landroid/view/View;)V <",
+                "> Lcom/duckduckgo/app/WidgetThemeConfiguration$$ExternalSyntheticLambda1;->onClick(Landroid/view/View;)V <",
+                "> Lcom/duckduckgo/app/WidgetThemeConfiguration;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/duckduckgo/common/ui/DuckDuckGoActivity;->onCreate(Landroid/os/Bundle;Z)V <",
+                "> Lcom/duckduckgo/common/ui/DuckDuckGoActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/duckduckgo/app/dispatchers/IntentDispatcherActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.duckduckgo.mobile.android/com.duckduckgo.app.dispatchers.IntentDispatcherActivity",
+                    "start -n"
+                ],
+                [
+                    "com.duckduckgo.app.WidgetThemeConfiguration",
+                    "<unknown>"
+                ]
+            ]
+        }
+    }
+}

@@ -8,12 +8,15 @@ import frida
 import threading
 import csv
 
+from pathlib import Path
 from com.dtmilano.android.viewclient import ViewClient
 from collections import defaultdict
 
 from . import utils
 
 event = threading.Event()
+
+GUARDIAN_DIR = Path(__file__).parent.parent.parent.parent / "Guardian"
 
 
 class LLMThread(threading.Thread):
@@ -25,21 +28,32 @@ class LLMThread(threading.Thread):
         self._id = _id
         self.instructions_dir = instructions_dir
         self.target_method = target_method
+        self._stop_event = threading.Event()
         threading.Thread.__init__(self)
 
     def run(self):
         class_name, method_name = self.target_method.split(";->")
         class_name = class_name[1:].replace("/", ".")
         method_name = method_name.split("(")[0]
-        cmd = f'python Guardian/run.py -a "{self.apk_path}" -t "interact with the application to reach class "{class_name}" and method "{method_name}"" -m 15 -o {self.instructions_dir} -c {self.activity} -id "{self._id}"'
+        if "<init>" == method_name:
+            method_name = "init"
+        cmd = f'python {GUARDIAN_DIR}/run.py -a "{self.apk_path}" -t "interact with the application to reach class "{class_name}" and method "{method_name}"" -m 10 -o {self.instructions_dir} -c {self.activity} -id "{self._id}"'
         print(cmd)
         p = subp.Popen(
             cmd,
             shell=True,
-            # stdout=subp.PIPE,
             stderr=subp.PIPE,
         )
+        while p.poll() is None:
+            if self._stop_event.is_set():
+                p.terminate()
+                print("Subprocess terminated due to stop event.")
+                break
+            time.sleep(0.1)
         print(p.communicate()[1].decode().strip())
+
+    def stop(self):
+        self._stop_event.set()
 
 
 class GAPSRUN:
@@ -87,44 +101,51 @@ class GAPSRUN:
                 print(comm)
             self.method_reached = True
 
-    def check_method_in_logcat(self, methods):
+    def check_method_in_logcat(self, json_paths):
         """
         Continuously monitors adb logcat output in a separate thread to check if the method is reached.
 
         :param method_name: The name of the method to check.
         """
+        methods = list(json_paths.keys())
         java_methods = {}
         for method in methods:
             java_method = utils.to_java_signature(method)
             java_methods[java_method] = method
 
         def monitor_logcat():
-            # clear initally
-            subp.Popen(
-                ["adb", "logcat", "-c"],
-                stdout=subp.DEVNULL,
-                stderr=subp.DEVNULL,
-                text=True,
-            )
             process = subp.Popen(
                 ["adb", "logcat", "-s", "GAPS"],
                 stdout=subp.PIPE,
                 stderr=subp.DEVNULL,
                 text=True,
             )
-            try:
-                for line in process.stdout:
-                    if "METHOD" in line:
-                        for method_name in java_methods:
-                            if method_name in line:
-                                print(
-                                    f"[+] Method '{java_methods[method_name]}' found in logcat."
+            for line in process.stdout:
+                if "METHOD" in line:
+                    for method_name in java_methods:
+                        if method_name in line:
+                            print(
+                                f"[+] Method '{java_methods[method_name]}' found in logcat."
+                            )
+                            self.methods_por[java_methods[method_name]] += 1
+                        else:
+                            smali_key = java_methods[method_name]
+                            for path in json_paths[smali_key]:
+                                alternative_target = json_paths[smali_key][
+                                    path
+                                ]["call_sequence"][0]
+                                java_alternative_target = (
+                                    utils.to_java_signature(
+                                        alternative_target.split()[1]
+                                    )
                                 )
-                                self.methods_por[
-                                    java_methods[method_name]
-                                ] += 1
-            finally:
-                process.terminate()
+                                if java_alternative_target in line:
+                                    print(
+                                        f"[+] Alternative target '{smali_key}' found in logcat."
+                                    )
+                                    self.methods_por[
+                                        java_methods[method_name]
+                                    ] += 1
 
         logcat_thread = threading.Thread(target=monitor_logcat, daemon=True)
         logcat_thread.start()
@@ -351,9 +372,11 @@ class GAPSRUN:
 
     def uninstall_app(self, package_name):
         print("[+] UNINSTALLING APP")
-        subp.Popen(
-            ["adb", "shell", "pm", "uninstall", package_name], stdout=subp.PIPE
-        )
+        if package_name != "com.fsck.k9":
+            subp.Popen(
+                ["adb", "shell", "pm", "uninstall", package_name],
+                stdout=subp.PIPE,
+            )
 
     def start_app(self, package_name):
         print("[+] APP STARTING")
@@ -373,11 +396,19 @@ class GAPSRUN:
             stderr=subp.DEVNULL,
         )
 
+    def restart_app(self, package_name):
+        self.stop_app(self.package_name)
+        time.sleep(2)
+        self.start_app(self.package_name)
+
     def use_llms(self, instruction):
         if len(instruction) == 2:
             activity, _id = instruction
         else:
             activity, _id = instruction[0], None
+
+        if len(activity.split()) > 1:
+            activity = "_".join(activity.split())
 
         llmThread = LLMThread(
             self.apk_path,
@@ -387,13 +418,17 @@ class GAPSRUN:
             _id,
         )
         llmThread.start()
+        old_val = self.methods_por[self.target_method]
+        while llmThread.is_alive():
+            if self.methods_por[self.target_method] > old_val:
+                print("[+] Target method reached, killing thread.")
+                llmThread.stop()  # Forcefully stop the thread
+                break
         llmThread.join()
-
-        self.llm_used[activity] = True
 
     def input_text(self, text):
         try:
-            text = text.replace(" ", "\ ")
+            text = text.replace(" ", r"\ ")
 
             subp.Popen(
                 'adb shell input keycombination 113 29 && adb shell input keyevent 67 && adb shell input text "{}"'.format(
@@ -404,7 +439,7 @@ class GAPSRUN:
                 stderr=subp.PIPE,
             )
             time.sleep(0.2)
-        except:
+        except Exception:
             return False
         return True
 
@@ -425,17 +460,23 @@ class GAPSRUN:
                 for actions in activity_memory[curr_activity][target_activity]:
                     for action in actions:
                         splits = action.split()
-                        if splits[0] == "click":
-                            operation = [curr_activity, splits[1]]
+                        if splits[0] == "click" and "/" in splits[1]:
+                            operation = [
+                                curr_activity,
+                                splits[1].split("/")[1],
+                            ]
                             self.perform_action(
                                 self.vc, operation, self.package_name
                             )
-                        elif splits[0] == "text":
-                            operation = [curr_activity, splits[1]]
+                        elif splits[0] == "text" and "/" in splits[1]:
+                            operation = [
+                                curr_activity,
+                                splits[1].split("/")[1],
+                            ]
                             self.perform_action(
                                 self.vc, operation, self.package_name
                             )
-                            self.input_text(splits[2].replace("input:", ""))
+                            self.input_text(splits[2])
                     if self.get_current_activity() == target_activity:
                         found = True
                         return found
@@ -443,7 +484,6 @@ class GAPSRUN:
 
     def _process_method(self, class_method, json_paths):
         print(f"[+] LOOKING FOR {class_method}")
-        self.llm_used = defaultdict(bool)
         if self.frida_bool:
             self.save("")
             frida_script = utils.create_javascript(class_method)
@@ -558,13 +598,19 @@ class GAPSRUN:
                     curr_activity = self.get_current_activity()
                     target_activity = path[i][0]
                     if (status == -1 or status == -2) and not self.llm_used[
-                        curr_activity
+                        target_activity
                     ]:
                         if not self.perform_action_from_memory(
                             curr_activity, target_activity
                         ):
                             print("[+] USING LLMs")
                             self.use_llms(path[i])
+                            self.llm_used[target_activity] = True
+                    elif self.perform_action_from_memory(
+                        curr_activity, target_activity
+                    ):
+                        i += 1
+                        print("[+] USING MEMORY")
                     else:
                         i += 1
                     self.vc.sleep(0.2)
@@ -605,11 +651,10 @@ class GAPSRUN:
             header = next(reader)
             if header[-1] != "PoR":
                 header.append("PoR")
-            """
             for row in reader:
-                if row[0] == app_name and len(row) == 8:
+                if row[0] == app_name and len(row) >= 8 and not row[8].strip():
+                    print("[*] ALREADY ANALYZED")
                     sys.exit(1)
-            """
         self.avc_device, serialno = ViewClient.connectToDeviceOrExit(
             serialno=self.get_serialno()
         )
@@ -665,12 +710,14 @@ class GAPSRUN:
 
         self.target_method = target
         if target:
-            self.check_method_in_logcat([target])
+            self.check_method_in_logcat(json_paths)
+            self.restart_app(self.package_name)
             self._process_method(target, json_paths)
             tot_methods += 1
         else:
             tot_methods = len(json_paths)
-            self.check_method_in_logcat(list(json_paths.keys()))
+            self.check_method_in_logcat(json_paths)
+            self.restart_app(self.package_name)
             for i, class_method in enumerate(json_paths):
                 print(f"[+] METHOD {str(i)}/{str(tot_methods)}")
                 if class_method in self.methods_por:

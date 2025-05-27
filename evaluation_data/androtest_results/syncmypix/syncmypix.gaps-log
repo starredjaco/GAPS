@@ -1,0 +1,8 @@
+MISSING ID > Lcom/nloko/android/syncmypix/SyncResultsActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z <
+COMPONENT CONCAT > Lcom/nloko/android/syncmypix/SyncResultsActivity$11$1;->onUpdateComplete()V < extends Ljava/lang/Object, implements ['Lcom/nloko/android/syncmypix/DbHelperNotifier']
+COMPONENT CONCAT > Lcom/nloko/android/syncmypix/contactutils/ContactProxy2;->isContactUpdatable(Landroid/content/ContentResolver;Ljava/lang/String;)Z < extends Ljava/lang/Object, implements ['Lcom/nloko/android/syncmypix/contactutils/IContactProxy']
+COMPONENT CONCAT > Lcom/nloko/android/syncmypix/contactutils/ContactProxy2;->updatePhoto(Landroid/content/ContentResolver;[BLjava/lang/String;Z)V < extends Ljava/lang/Object, implements ['Lcom/nloko/android/syncmypix/contactutils/IContactProxy']
+MISSING ID > Lcom/nloko/android/syncmypix/SyncResultsActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <
+COMPONENT CONCAT > Lcom/nloko/android/syncmypix/SyncService;->onLowMemory()V < extends Landroid/app/Service, implements []
+COMPONENT CONCAT > Lcom/nloko/android/syncmypix/SyncMyPixDbHelper;->deleteAllPictures()V < extends Ljava/lang/Object, implements []
+COMPONENT CONCAT > Lcom/nloko/android/syncmypix/facebook/FacebookApi;->getUserInfo(Ljava/lang/String;)Ljava/util/List; < extends Ljava/lang/Object, implements []

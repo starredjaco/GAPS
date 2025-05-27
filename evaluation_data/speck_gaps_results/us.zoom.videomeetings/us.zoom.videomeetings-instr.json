@@ -1,0 +1,286 @@
+{
+    "Landroid/content/Intent;->setData(Landroid/net/Uri;)Landroid/content/Intent;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/zipow/videobox/widget/MeetingsWidget;->h(Landroid/content/Context;Landroid/appwidget/AppWidgetManager;I)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.appwidget.action.APPWIDGET_UPDATE",
+                    "start -a"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/zipow/videobox/LoginActivity;->show(Landroid/content/Context;ZLcom/zipow/videobox/login/model/AutoLogoffInfo;ZIZZLandroid/os/Bundle;)Z <",
+                "> Lcom/zipow/videobox/LoginActivity;->show(Landroid/content/Context;ZLcom/zipow/videobox/login/model/AutoLogoffInfo;)Z <",
+                "> Lcom/zipow/videobox/login/model/i;->k(Lcom/zipow/videobox/ptapp/PTAppProtos$WebLaunchedToLoginParam;)V <",
+                "> Lcom/zipow/videobox/ptapp/PTUI;->onWebLaunchedToLogin([B)V <",
+                "> Lcom/zipow/videobox/ptapp/PTUI;->getInstance()Lcom/zipow/videobox/ptapp/PTUI; <",
+                "> Lcom/zipow/videobox/widget/MeetingsWidget;->onPTAppEvent(IJ)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.appwidget.action.APPWIDGET_UPDATE",
+                    "start -a"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/zipow/videobox/util/NotificationMgr;->O0(Landroid/content/Context;Ljava/lang/String;Lus/zoom/business/utils/e$a;)V <",
+                "> Lcom/zipow/videobox/util/NotificationMgr;->v0(Landroid/content/Context;Z)V <",
+                "> Lcom/zipow/videobox/ptapp/PTUI;->sinkIMReceivedImpl([B)V <",
+                "> Lcom/zipow/videobox/ptapp/PTUI;->getInstance()Lcom/zipow/videobox/ptapp/PTUI; <",
+                "> Lcom/zipow/videobox/JoinByURLActivity;->onDestroy()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "us.zoom.videomeetings/com.zipow.videobox.JoinByURLActivity",
+                    "start -n"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Intent;-><init>()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/zipow/videobox/fragment/tablet/schedule/a;->Ie(Lcom/zipow/videobox/view/ScheduledMeetingItem;)V <",
+                "> Lcom/zipow/videobox/fragment/tablet/schedule/a;->Lf(Landroidx/fragment/app/FragmentManager;Lcom/zipow/videobox/view/ScheduledMeetingItem;Z)V <",
+                "> Lcom/zipow/videobox/fragment/tablet/home/l;->df(Lcom/zipow/videobox/view/ScheduledMeetingItem;Z)V <",
+                "> Lcom/zipow/videobox/fragment/tablet/home/l;->mf(Landroidx/fragment/app/FragmentManager;)Lcom/zipow/videobox/fragment/tablet/home/l; <",
+                "> Lcom/zipow/videobox/IMActivity;->pmcNotifyOpenTeamChat(Lus/zoom/zmsg/model/PMCOpenTeamChatInfo;)V <",
+                "> Lcom/zipow/videobox/IMActivity;->onResume()V <",
+                "> Lus/zoom/libtools/utils/e;->h(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "> Lcom/zipow/videobox/ptapp/PTUI;->sinkIPCWebStartNeedForceUpdateImpl()V <",
+                "> Lcom/zipow/videobox/ptapp/PTUI;->getInstance()Lcom/zipow/videobox/ptapp/PTUI; <",
+                "> Lcom/zipow/videobox/LauncherActivity$h;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Intent;-><init>(Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/zipow/videobox/util/NotificationMgr;->u0(Landroid/content/Context;Landroidx/work/WorkerParameters;)V <",
+                "> Lcom/zipow/videobox/util/NotificationMgr;->v0(Landroid/content/Context;Z)V <",
+                "> Lcom/zipow/videobox/ptapp/PTUI;->sinkIMReceivedImpl([B)V <",
+                "> Lcom/zipow/videobox/ptapp/PTUI;->getInstance()Lcom/zipow/videobox/ptapp/PTUI; <",
+                "> Lcom/zipow/videobox/LauncherActivity$h;->run()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/blueparrott/blueparrottsdk/BPHeadsetImpl;->x0(Ljava/lang/String;)V <",
+                "> Lcom/blueparrott/blueparrottsdk/BPHeadsetImpl;->G(Landroid/content/Context;)Lcom/blueparrott/blueparrottsdk/s; <",
+                "> Lcom/blueparrott/blueparrottsdk/v;->a(Landroid/content/Context;)Lcom/blueparrott/blueparrottsdk/a; <",
+                "> Lcom/zipow/videobox/sip/ptt/CmmPttManager;->O0()V <",
+                "> Lcom/zipow/videobox/sip/ptt/CmmPttManager;->N0()V <",
+                "> Lcom/zipow/videobox/sip/server/CmmSIPCallManager;->W8()V <",
+                "> Lcom/zipow/videobox/sip/server/CmmSIPCallManager;->e9(Z)V <",
+                "> Lcom/zipow/videobox/sip/server/CmmSIPNosManager;->p1()V <",
+                "> Lcom/zipow/videobox/sip/server/CmmSIPNosManager;->N()Lcom/zipow/videobox/sip/server/CmmSIPNosManager; <",
+                "> Lcom/zipow/videobox/sip/server/f1;->k1()V <",
+                "> Lcom/zipow/videobox/sip/server/CmmSIPCallManager;->R5()Lcom/zipow/videobox/sip/server/CmmSIPCallManager; <",
+                "> Lcom/zipow/videobox/sip/syscall/d$a;->run()V <",
+                "> Lcom/zipow/videobox/billing/google/e;->l(Ljava/lang/Runnable;)V <",
+                "> Lcom/zipow/videobox/billing/google/e;->D(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/zipow/videobox/billing/b;)V <",
+                "> Lcom/zipow/videobox/billing/t;->j3(Lcom/zipow/videobox/billing/google/e;Lcom/zipow/videobox/billing/b;)V <",
+                "> Lcom/zipow/videobox/billing/SubscriptionAlertDialogActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "us.zoom.videomeetings/com.zipow.videobox.billing.SubscriptionAlertDialogActivity",
+                    "start -n"
+                ]
+            ]
+        }
+    },
+    "Landroid/webkit/WebView;-><init>(Landroid/content/Context;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/zipow/videobox/utils/n;->k0(Landroid/content/Context;)V <",
+                "> Lcom/zipow/videobox/utils/n;->a(Landroid/content/Context;)V <",
+                "> Lcom/zipow/videobox/utils/n$a;->run()V <",
+                "> Lcom/zipow/videobox/utils/n;->z(Landroid/content/Context;)V <",
+                "> Lcom/zipow/videobox/conference/viewmodel/model/o;->h(I)Z <",
+                "> Lcom/zipow/videobox/conference/viewmodel/model/m;->askToLeave(Lcom/zipow/videobox/confapp/meeting/premeeting/confIntent/ZMAskToLeaveIntentWrapper;)V <",
+                "> Lcom/zipow/videobox/conference/ui/ZmConfActivity;->onResume()V <",
+                "> Lcom/zipow/videobox/ConfService;->u(Landroid/content/ComponentName;)Z <",
+                "> Lcom/zipow/videobox/VideoBoxApplication;->connectConfService()V <",
+                "> Lcom/zipow/videobox/VideoBoxApplication;->getGlobalContext()Landroid/content/Context; <",
+                "> Lcom/zipow/videobox/sip/server/f1;->Q1(Lcom/zipow/videobox/sip/server/CmmSIPLineCallItem;)V <",
+                "> Lcom/zipow/videobox/sip/server/CmmSIPCallManager;->R5()Lcom/zipow/videobox/sip/server/CmmSIPCallManager; <",
+                "> Lcom/zipow/videobox/sip/syscall/d$a;->run()V <",
+                "> Lcom/zipow/videobox/billing/google/e;->l(Ljava/lang/Runnable;)V <",
+                "> Lcom/zipow/videobox/billing/google/e;->D(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/zipow/videobox/billing/b;)V <",
+                "> Lcom/zipow/videobox/billing/t;->j3(Lcom/zipow/videobox/billing/google/e;Lcom/zipow/videobox/billing/b;)V <",
+                "> Lcom/zipow/videobox/billing/SubscriptionAlertDialogActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "us.zoom.videomeetings/com.zipow.videobox.billing.SubscriptionAlertDialogActivity",
+                    "start -n"
+                ]
+            ]
+        }
+    },
+    "Ljavax/crypto/KeyGenerator;->getInstance(Ljava/lang/String;Ljava/lang/String;)Ljavax/crypto/KeyGenerator;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lus/zoom/libtools/helper/a;->c()V <",
+                "> Lus/zoom/libtools/helper/a;->d()Ljavax/crypto/SecretKey; <",
+                "> Lus/zoom/libtools/helper/a;->e()Z <",
+                "> Lus/zoom/libtools/helper/d$a;->onAuthenticationSucceeded(Landroid/hardware/fingerprint/FingerprintManager$AuthenticationResult;)V <",
+                "> Lus/zoom/libtools/helper/d;->d(Lus/zoom/libtools/helper/d$d;)V <",
+                "> Lus/zoom/libtools/helper/d;->f()Lus/zoom/libtools/helper/d; <",
+                "> Lcom/zipow/videobox/IMActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lus/zoom/libtools/utils/e;->h(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "> Lcom/zipow/videobox/ptapp/PTUI;->sinkIPCWebStartNeedForceUpdateImpl()V <",
+                "> Lcom/zipow/videobox/ptapp/PTUI;->getInstance()Lcom/zipow/videobox/ptapp/PTUI; <",
+                "> Lcom/zipow/videobox/sip/server/CmmSIPNosManager;->e2()V <",
+                "> Lcom/zipow/videobox/sip/server/CmmSIPNosManager;->N()Lcom/zipow/videobox/sip/server/CmmSIPNosManager; <",
+                "> Lcom/zipow/videobox/sip/server/f1;->k1()V <",
+                "> Lcom/zipow/videobox/sip/server/CmmSIPCallManager;->R5()Lcom/zipow/videobox/sip/server/CmmSIPCallManager; <",
+                "> Lcom/zipow/videobox/sip/syscall/d$a;->run()V <",
+                "> Lcom/zipow/videobox/billing/google/e;->l(Ljava/lang/Runnable;)V <",
+                "> Lcom/zipow/videobox/billing/google/e;->D(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/zipow/videobox/billing/b;)V <",
+                "> Lcom/zipow/videobox/billing/t;->j3(Lcom/zipow/videobox/billing/google/e;Lcom/zipow/videobox/billing/b;)V <",
+                "> Lcom/zipow/videobox/billing/SubscriptionAlertDialogActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "us.zoom.videomeetings/com.zipow.videobox.billing.SubscriptionAlertDialogActivity",
+                    "start -n"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Intent;->setDataAndType(Landroid/net/Uri;Ljava/lang/String;)Landroid/content/Intent;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lus/zoom/libtools/utils/ZmMimeTypeUtils;->k(Landroid/content/Context;Ljava/io/File;Lus/zoom/libtools/utils/ZmMimeTypeUtils$b;)Landroid/content/Intent; <",
+                "> Lus/zoom/libtools/utils/ZmMimeTypeUtils;->S(Landroid/content/Context;Ljava/io/File;)Z <",
+                "> Lcom/zipow/videobox/view/sip/sms/PbxSmsFragment;->Vh(Lcom/zipow/videobox/view/sip/sms/u;IZ)V <",
+                "> Lcom/zipow/videobox/PBXSMSActivity;->showAsNewSession(Lus/zoom/uicommon/activity/ZMActivity;Lcom/zipow/videobox/view/sip/sms/t0;)V <",
+                "> Lcom/zipow/videobox/IntegrationActivity;->handleActionPBXNewSMSFromSchema(Landroid/content/Intent;)Z <",
+                "> Lcom/zipow/videobox/IntegrationActivity;->onNewIntent(Landroid/content/Intent;)V <",
+                "> Lus/zoom/libtools/utils/e;->h(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "> Lcom/zipow/videobox/IntegrationActivity;->promptErrorConfirmMsg(Lcom/zipow/videobox/VideoBoxApplication;Ljava/lang/String;Ljava/lang/String;IJZ)V <",
+                "> Lcom/zipow/videobox/sip/server/CmmSIPCallManager;->Bh(Ljava/lang/String;Ljava/lang/String;IJ)V <",
+                "> Lcom/zipow/videobox/sip/server/CmmSIPCallManager;->Ch(Ljava/lang/String;Ljava/lang/String;)V <",
+                "> Lcom/zipow/videobox/sip/server/f1;->m1(Ljava/lang/String;)Z <",
+                "> Lcom/zipow/videobox/sip/server/CmmSIPCallManager;->R5()Lcom/zipow/videobox/sip/server/CmmSIPCallManager; <",
+                "> Lcom/zipow/videobox/sip/syscall/d$a;->run()V <",
+                "> Lcom/zipow/videobox/billing/google/e;->l(Ljava/lang/Runnable;)V <",
+                "> Lcom/zipow/videobox/billing/google/e;->D(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/zipow/videobox/billing/b;)V <",
+                "> Lcom/zipow/videobox/billing/t;->j3(Lcom/zipow/videobox/billing/google/e;Lcom/zipow/videobox/billing/b;)V <",
+                "> Lcom/zipow/videobox/billing/SubscriptionAlertDialogActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "us.zoom.videomeetings/com.zipow.videobox.billing.SubscriptionAlertDialogActivity",
+                    "start -n"
+                ]
+            ]
+        }
+    },
+    "Landroid/webkit/WebView;->evaluateJavascript(Ljava/lang/String;Landroid/webkit/ValueCallback;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lus/zoom/hybrid/safeweb/core/t;->a(Landroid/webkit/WebView;)V <",
+                "> Lus/zoom/hybrid/safeweb/core/t;->onPageStarted(Landroid/webkit/WebView;Ljava/lang/String;Landroid/graphics/Bitmap;)V <",
+                "> Lus/zoom/hybrid/safeweb/core/ZmSafeWebView$e;->onPageStarted(Landroid/webkit/WebView;Ljava/lang/String;Landroid/graphics/Bitmap;)V <",
+                "> Lus/zoom/hybrid/safeweb/core/ZmSafeWebView;->i()V <",
+                "> Lus/zoom/hybrid/safeweb/core/ZmSafeWebView;-><init>(Landroid/content/Context;)V <",
+                "> Lus/zoom/unite/wrapper/e;->k(Landroid/content/Context;)Lus/zoom/hybrid/safeweb/core/ZmSafeWebView; <",
+                "> Lus/zoom/unite/wrapper/e;->j(Landroid/content/Context;Z)V <",
+                "> Lus/zoom/unite/logic/b$c;->c()V <",
+                "> Lus/zoom/unite/logic/b;->createAndInitWebViewLayout()V <",
+                "> Lus/zoom/zmsg/webapp/channelapp/c;->executeBusinessForNavigate()V <",
+                "> Lus/zoom/zmsg/webapp/channelapp/ZmChannelAppFragment;->lazyLoadData()V <",
+                "> Lus/zoom/zmsg/webapp/channelapp/ZmChannelAppFragment;->showAsActivity(Lus/zoom/uicommon/activity/ZMActivity;Lus/zoom/zmsg/webapp/channelapp/b;)V <",
+                "> Lus/zoom/zimmsg/chats/IMThreadsFragment$p;->d(Ljava/lang/String;Ljava/lang/String;)V <",
+                "> Lus/zoom/zimmsg/chats/IMThreadsFragment;->Sp(Ljava/util/List;)V <",
+                "> Luk/a;->c(Landroidx/fragment/app/FragmentManager;)Lus/zoom/zmsg/fragment/e2; <",
+                "> Lus/zoom/zimmsg/MMChatActivity;->onBackPressed()V <",
+                "> Lcom/zipow/videobox/VideoBoxApplication;->initAsyncView()V <",
+                "> Lcom/zipow/videobox/VideoBoxApplication;->getGlobalContext()Landroid/content/Context; <",
+                "> Lcom/zipow/videobox/sip/server/f1;->Q1(Lcom/zipow/videobox/sip/server/CmmSIPLineCallItem;)V <",
+                "> Lcom/zipow/videobox/sip/server/CmmSIPCallManager;->R5()Lcom/zipow/videobox/sip/server/CmmSIPCallManager; <",
+                "> Lcom/zipow/videobox/sip/syscall/d$a;->run()V <",
+                "> Lcom/zipow/videobox/billing/google/e;->l(Ljava/lang/Runnable;)V <",
+                "> Lcom/zipow/videobox/billing/google/e;->D(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/zipow/videobox/billing/b;)V <",
+                "> Lcom/zipow/videobox/billing/t;->j3(Lcom/zipow/videobox/billing/google/e;Lcom/zipow/videobox/billing/b;)V <",
+                "> Lcom/zipow/videobox/billing/SubscriptionAlertDialogActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "us.zoom.videomeetings/com.zipow.videobox.billing.SubscriptionAlertDialogActivity",
+                    "start -n"
+                ]
+            ]
+        }
+    },
+    "Landroid/webkit/WebView;->addJavascriptInterface(Ljava/lang/Object;Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lus/zoom/hybrid/safeweb/core/ZmSafeWebView;->setJsInterface(Lus/zoom/hybrid/safeweb/core/e;)V <",
+                "> Lus/zoom/zapp/web/h;->j()V <",
+                "> Lus/zoom/zapp/view/ZappContainerLayout;->onFinishInflate()V <",
+                "> Lus/zoom/zapp/view/h;->n()Lus/zoom/zapp/web/h; <",
+                "> Lus/zoom/zapp/view/d;->onbackpressed()Z <",
+                "> Lhj/b;->onClick(Landroid/view/View;)V <",
+                "> Lus/zoom/zmsg/msgapp/model/AtNotInChannelSpan;->onClick(Landroid/view/View;)V <",
+                "> Lus/zoom/zimmsg/fragment/x0;->V9()V <",
+                "> Lus/zoom/zimmsg/chats/IMThreadsFragment;->Hf(Ljava/lang/String;Z)V <",
+                "> Luk/a;->c(Landroidx/fragment/app/FragmentManager;)Lus/zoom/zmsg/fragment/e2; <",
+                "> Lus/zoom/zimmsg/MMChatActivity;->onBackPressed()V <",
+                "> Lcom/zipow/videobox/VideoBoxApplication;->initAsyncView()V <",
+                "> Lcom/zipow/videobox/VideoBoxApplication;->getGlobalContext()Landroid/content/Context; <",
+                "> Lcom/zipow/videobox/sip/server/f1;->Q1(Lcom/zipow/videobox/sip/server/CmmSIPLineCallItem;)V <",
+                "> Lcom/zipow/videobox/sip/server/CmmSIPCallManager;->R5()Lcom/zipow/videobox/sip/server/CmmSIPCallManager; <",
+                "> Lcom/zipow/videobox/sip/syscall/d$a;->run()V <",
+                "> Lcom/zipow/videobox/billing/google/e;->l(Ljava/lang/Runnable;)V <",
+                "> Lcom/zipow/videobox/billing/google/e;->D(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/zipow/videobox/billing/b;)V <",
+                "> Lcom/zipow/videobox/billing/t;->j3(Lcom/zipow/videobox/billing/google/e;Lcom/zipow/videobox/billing/b;)V <",
+                "> Lcom/zipow/videobox/billing/SubscriptionAlertDialogActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "us.zoom.videomeetings/com.zipow.videobox.billing.SubscriptionAlertDialogActivity",
+                    "start -n"
+                ],
+                [
+                    "us.zoom.zimmsg.MMChatActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    }
+}

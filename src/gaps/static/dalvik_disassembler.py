@@ -288,7 +288,11 @@ def process_instr(
     elif gaps.custom_seeds and method_name in gaps.custom_seeds:
         for custom_seed in gaps.custom_seeds[method_name]:
             if (
-                custom_seed["class_name"].strip() == class_name
+                (
+                    custom_seed["class_name"]
+                    and custom_seed["class_name"] == class_name
+                )
+                or not custom_seed["class_name"]
                 and custom_seed["parent_class"] == class_name_parent
             ):
                 gaps.starting_points[instr_sig].add(entry)

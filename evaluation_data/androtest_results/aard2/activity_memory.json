@@ -1,0 +1,43 @@
+{
+    "itkach.aard2.MainActivity": {
+        "com.google.android.documentsuicom.android.documentsui.picker.PickActivity": [
+            [
+                "click itkach.aard2:id/action_add_dictionaries"
+            ]
+        ]
+    },
+    "com.google.android.documentsuicom.android.documentsui.picker.PickActivity": {
+        "com.google.android.apps.nexuslauncher.NexusLauncherActivity": [
+            [
+                "click com.google.android.documentsui:id/sub_menu_grid",
+                "click com.google.android.documentsui:id/sub_menu_list",
+                "click com.google.android.documentsui:id/search_close_btn",
+                "click (21, 84, 168, 210)",
+                "click (21, 84, 168, 210)",
+                "click (302, 231, 537, 357)",
+                "click (933, 84, 1059, 210)"
+            ],
+            [
+                "click (21, 84, 168, 210)",
+                "click (933, 84, 1059, 210)",
+                "click (0, 483, 360, 668)",
+                "click com.google.android.documentsui:id/sub_menu_list",
+                "click com.google.android.documentsui:id/dismiss_button",
+                "click com.google.android.documentsui:id/sub_menu_grid"
+            ],
+            [
+                "click com.google.android.documentsui:id/searchbar_title",
+                "click com.google.android.documentsui:id/sub_menu_grid",
+                "click (933, 84, 1059, 210)"
+            ],
+            [
+                "click (0, 483, 360, 668)",
+                "click (21, 84, 168, 210)",
+                "click com.google.android.documentsui:id/dismiss_button",
+                "click com.google.android.documentsui:id/sub_menu_list",
+                "click com.google.android.documentsui:id/sub_menu_grid",
+                "click (933, 84, 1059, 210)"
+            ]
+        ]
+    }
+}

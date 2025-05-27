@@ -1,0 +1,150 @@
+{
+    "Landroid/content/Intent;-><init>(Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/braze/push/BrazeNotificationUtils;->cancelNotification(Landroid/content/Context;I)V <",
+                "> Lcom/braze/push/BrazeNotificationActionUtils;->handleNotificationActionClicked(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "> Lcom/braze/push/BrazePushReceiver$Companion;->handlePush$performWork(Ljava/lang/String;Landroid/content/Context;Landroid/content/Intent;Landroid/content/Context;)V <",
+                "> Lcom/braze/push/BrazePushReceiver$Companion;->handlePush(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "> Lcom/braze/push/BrazePushReceiver$Companion;->handleReceivedIntent(Landroid/content/Context;Landroid/content/Intent;Z)V <",
+                "> Lcom/braze/push/BrazePushReceiver$Companion;->handleReceivedIntent$default(Lcom/braze/push/BrazePushReceiver$Companion;Landroid/content/Context;Landroid/content/Intent;ZILjava/lang/Object;)V <",
+                "> Lcom/braze/push/BrazeFirebaseMessagingService$Companion;->handleBrazeRemoteMessage(Landroid/content/Context;Lcom/google/firebase/messaging/t;)Z <",
+                "> Lcom/app/tgtg/services/notifications/TGTGMessagingService;->onMessageReceived(Lcom/google/firebase/messaging/t;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.google.firebase.MESSAGING_EVENT",
+                    "start-service -a"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> LG2/H;-><init>(LG2/y;)V <",
+                "> LG2/y;->s()Z <",
+                "> Li8/a;->b()V <",
+                "> Lcom/app/tgtg/feature/itemview/ItemViewActivity;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.VIEW",
+                    "start -a"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Intent;-><init>(Landroid/content/Intent;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/braze/support/IntentUtils;->addComponentAndSendBroadcast(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "> Lcom/braze/push/BrazeNotificationUtils;->cancelNotification(Landroid/content/Context;I)V <",
+                "> Lcom/braze/push/BrazeNotificationActionUtils;->handleNotificationActionClicked(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "> Lcom/braze/push/BrazePushReceiver$Companion;->handlePush$performWork(Ljava/lang/String;Landroid/content/Context;Landroid/content/Intent;Landroid/content/Context;)V <",
+                "> Lcom/braze/push/BrazePushReceiver$Companion;->handlePush(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "> Lcom/braze/push/BrazePushReceiver$Companion;->handleReceivedIntent(Landroid/content/Context;Landroid/content/Intent;Z)V <",
+                "> Lcom/braze/push/BrazePushReceiver$Companion;->handleReceivedIntent$default(Lcom/braze/push/BrazePushReceiver$Companion;Landroid/content/Context;Landroid/content/Intent;ZILjava/lang/Object;)V <",
+                "> Lcom/braze/push/BrazeFirebaseMessagingService$Companion;->handleBrazeRemoteMessage(Landroid/content/Context;Lcom/google/firebase/messaging/t;)Z <",
+                "> Lcom/app/tgtg/services/notifications/TGTGMessagingService;->onMessageReceived(Lcom/google/firebase/messaging/t;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.google.firebase.MESSAGING_EVENT",
+                    "start-service -a"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Intent;-><init>()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lu3/b;->c(Landroid/content/Context;)V <",
+                "> Lu3/b;->a()V <",
+                "> Lu3/b;->run()V <",
+                "> Ll3/r;-><init>(Landroid/content/Context;Lk3/c;Lv3/a;Landroidx/work/impl/WorkDatabase;Ljava/util/List;Ll3/d;Lr3/l;)V <",
+                "> Ll3/t;->w(Landroid/content/Context;Lk3/c;)Ll3/r; <",
+                "> Ll3/r;->Y(Landroid/content/Context;Lk3/c;)V <",
+                "> Ll3/r;->X(Landroid/content/Context;)Ll3/r; <",
+                "> LA6/d;->b()V <",
+                "> Lcom/app/tgtg/feature/main/fragments/delivery/basket/ui/ParcelBasketActivity;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.app.tgtg/com.app.tgtg.feature.main.fragments.delivery.basket.ui.ParcelBasketActivity",
+                    "start -n"
+                ]
+            ]
+        }
+    },
+    "Landroid/webkit/WebView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/app/tgtg/customview/TGTGWebView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V <",
+                "> LA6/d;->b()V <",
+                "> Lcom/app/tgtg/feature/donations/DonationActivity;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.VIEW",
+                    "start -a"
+                ]
+            ]
+        }
+    },
+    "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;": {
+        "path_0": {
+            "call_sequence": [
+                "> LAa/d;->run()V <",
+                "> LB4/c;->A()V <",
+                "> Lq4/d;->a(Landroid/content/Context;)LB4/c; <",
+                "> Lq4/l;->call()Ljava/lang/Object; <",
+                "> Lq4/o;->b(Landroid/content/Context;Ljava/lang/String;)Lq4/G; <",
+                "> Lcom/app/tgtg/feature/main/MainActivity;->Q(Z)V <",
+                "> Lx6/u;->j()V <",
+                "> Lcom/app/tgtg/feature/deeplink/DeepLinkActivity;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.VIEW",
+                    "start -a"
+                ]
+            ]
+        }
+    },
+    "Landroid/webkit/WebView;->addJavascriptInterface(Ljava/lang/Object;Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/braze/ui/inappmessage/factories/DefaultInAppMessageHtmlViewFactory;->createInAppMessageView(Landroid/app/Activity;Lcom/braze/models/inappmessage/IInAppMessage;)Lcom/braze/ui/inappmessage/views/InAppMessageHtmlView; <",
+                "> Lcom/braze/ui/inappmessage/factories/DefaultInAppMessageHtmlViewFactory;->createInAppMessageView(Landroid/app/Activity;Lcom/braze/models/inappmessage/IInAppMessage;)Landroid/view/View; <",
+                "> Lcom/braze/ui/inappmessage/InAppMessageManagerBase;-><init>()V <",
+                "> Lcom/braze/ui/inappmessage/BrazeInAppMessageManager;-><init>()V <",
+                "> Lcom/braze/ui/inappmessage/BrazeInAppMessageManager$Companion;->getInstance()Lcom/braze/ui/inappmessage/BrazeInAppMessageManager; <",
+                "> Lcom/braze/ui/inappmessage/DefaultInAppMessageViewWrapper;->createCloseInAppMessageClickListener$lambda$15(Landroid/view/View;)V <",
+                "> Lcom/braze/ui/inappmessage/DefaultInAppMessageViewWrapper;->c(Landroid/view/View;)V <",
+                "> Lc7/k;->onClick(Landroid/view/View;)V <",
+                "> Lc7/w;->onResume()V <",
+                "> Lcom/app/tgtg/feature/main/MainActivity;->J(Landroid/view/MenuItem;)V <",
+                "> Lx6/u;->j()V <",
+                "> Lcom/app/tgtg/feature/deeplink/DeepLinkActivity;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.VIEW",
+                    "start -a"
+                ],
+                [
+                    "com.app.tgtg.feature.deeplink.DeepLinkActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    }
+}

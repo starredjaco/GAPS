@@ -1,0 +1,113 @@
+{
+    "com.angrydoughnuts.android.alarmclock.AlarmClockActivity": {
+        "com.angrydoughnuts.android.alarmclock.AlarmNotificationActivity": [
+            [
+                "click android:id/button1",
+                "click com.angrydoughnuts.android.alarmclock:id/test_alarm"
+            ],
+            [
+                "click com.angrydoughnuts.android.alarmclock:id/new_alarm",
+                "click android:id/button2",
+                "click (975, 73, 1080, 199)",
+                "click com.angrydoughnuts.android.alarmclock:id/test_alarm"
+            ],
+            [
+                "click com.angrydoughnuts.android.alarmclock:id/range_bar_min",
+                "click com.angrydoughnuts.android.alarmclock:id/range_bar_max",
+                "click android:id/button1",
+                "click com.angrydoughnuts.android.alarmclock:id/test_alarm"
+            ],
+            [
+                "click android:id/button1",
+                "click com.angrydoughnuts.android.alarmclock:id/new_alarm",
+                "click android:id/button1",
+                "click com.angrydoughnuts.android.alarmclock:id/test_alarm"
+            ],
+            [
+                "click android:id/button1",
+                "click com.angrydoughnuts.android.alarmclock:id/new_alarm",
+                "click android:id/button2",
+                "click com.angrydoughnuts.android.alarmclock:id/test_alarm"
+            ]
+        ],
+        "com.google.android.googlequicksearchbox.InternalGoogleAppActivityEntrypoint": [
+            [
+                "click com.angrydoughnuts.android.alarmclock:id/new_alarm",
+                "click android:id/button2",
+                "click (975, 73, 1080, 199)"
+            ],
+            [
+                "click android:id/button1",
+                "click com.angrydoughnuts.android.alarmclock:id/test_alarm",
+                "click com.angrydoughnuts.android.alarmclock:id/new_alarm",
+                "click android:id/button1",
+                "click (975, 73, 1080, 199)"
+            ],
+            [
+                "click com.angrydoughnuts.android.alarmclock:id/test_alarm",
+                "click com.angrydoughnuts.android.alarmclock:id/new_alarm",
+                "click android:id/button1",
+                "click (975, 73, 1080, 199)"
+            ],
+            [
+                "click android:id/button1",
+                "click com.angrydoughnuts.android.alarmclock:id/test_alarm",
+                "click (975, 73, 1080, 199)"
+            ],
+            [
+                "click com.angrydoughnuts.android.alarmclock:id/test_alarm",
+                "click (975, 73, 1080, 199)",
+                "click com.angrydoughnuts.android.alarmclock:id/new_alarm",
+                "click android:id/button2"
+            ]
+        ],
+        "com.android.vendingcom.google.android.finsky.offlinegames.impl.OfflineGamesActivity": [
+            [
+                "click com.angrydoughnuts.android.alarmclock:id/test_alarm",
+                "click com.angrydoughnuts.android.alarmclock:id/new_alarm",
+                "click android:id/button2",
+                "click (975, 73, 1080, 199)"
+            ],
+            [
+                "click android:id/button2",
+                "click com.angrydoughnuts.android.alarmclock:id/test_alarm",
+                "click (975, 73, 1080, 199)"
+            ],
+            [
+                "click com.angrydoughnuts.android.alarmclock:id/new_alarm",
+                "click android:id/button2",
+                "click (975, 73, 1080, 199)"
+            ]
+        ],
+        "com.google.android.apps.nexuslauncher.NexusLauncherActivity": [
+            [
+                "click android:id/button1",
+                "click com.angrydoughnuts.android.alarmclock:id/new_alarm",
+                "click android:id/button2",
+                "click com.angrydoughnuts.android.alarmclock:id/test_alarm"
+            ]
+        ]
+    },
+    "com.angrydoughnuts.android.alarmclock.AlarmNotificationActivity": {
+        "com.angrydoughnuts.android.alarmclock.AlarmClockActivity": [
+            [
+                "click com.angrydoughnuts.android.alarmclock:id/snooze_alarm"
+            ],
+            []
+        ]
+    },
+    "com.android.settings.panel.SettingsPanelActivity": {
+        "com.angrydoughnuts.android.alarmclock.AlarmClockActivity": [
+            [
+                "click com.angrydoughnuts.android.alarmclock:id/test_alarm"
+            ]
+        ]
+    },
+    "com.google.android.apps.nexuslauncher.NexusLauncherActivity": {
+        "com.google.android.googlequicksearchbox.InternalGoogleAppActivityEntrypoint": [
+            [
+                "click com.angrydoughnuts.android.alarmclock:id/test_alarm"
+            ]
+        ]
+    }
+}

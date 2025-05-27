@@ -75,7 +75,7 @@ def update_csv(file_path, app_directory):
                     app_name = row["APP"]
                     len_seed = len(
                         open(
-                            f"../testing_seeds/{app_name}.seed", "r"
+                            f"../../testing_seeds/{app_name}.seed", "r"
                         ).readlines()
                     )
                     tot_seeds += len_seed

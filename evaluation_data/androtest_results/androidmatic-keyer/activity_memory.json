@@ -1,0 +1,405 @@
+{
+    "com.android.vendingcom.google.android.finsky.activities.MainActivity": {
+        "com.android.vendingcom.google.android.finsky.offlinegames.impl.OfflineGamesActivity": [
+            [
+                "click com.android.vending:id/0_resource_name_obfuscated",
+                "click com.android.vending:id/button"
+            ]
+        ],
+        "com.android.chromeorg.chromium.chrome.browser.ChromeTabbedActivity": [
+            [
+                "click com.android.vending:id/button"
+            ]
+        ],
+        "com.google.android.apps.nexuslauncher.NexusLauncherActivity": [
+            []
+        ]
+    },
+    "com.android.settings.applications.InstalledAppDetails": {
+        "com.google.android.permissioncontrollercom.android.permissioncontroller.permission.ui.ManagePermissionsActivity": [
+            [
+                "click (0, 1532, 1080, 1718)",
+                "click (0, 956, 1080, 1148)"
+            ]
+        ],
+        "com.android.vendingcom.google.android.finsky.offlinegames.impl.OfflineGamesActivity": [
+            [
+                "click (0, 956, 1080, 1148)"
+            ]
+        ],
+        "com.google.android.apps.wellbeing.appdetails.AppDetailsActivity": [
+            [
+                "click (0, 1532, 1080, 1718)",
+                "click (0, 956, 1080, 1148)",
+                "click (0, 1532, 1080, 1724)"
+            ]
+        ],
+        "com.android.chromeorg.chromium.chrome.browser.ChromeTabbedActivity": [
+            [
+                "click (0, 1532, 1080, 1718)",
+                "click (0, 956, 1080, 1148)",
+                "click (0, 1532, 1080, 1724)",
+                "click (0, 63, 147, 210)"
+            ],
+            [
+                "click (0, 63, 147, 210)"
+            ],
+            [
+                "click com.android.settings:id/button3",
+                "click android:id/button1",
+                "click (0, 63, 147, 210)"
+            ]
+        ],
+        "com.google.android.apps.nexuslauncher.NexusLauncherActivity": [
+            [
+                "click com.android.settings:id/button1",
+                "click (0, 63, 147, 210)"
+            ],
+            [
+                "click (0, 1532, 1080, 1718)",
+                "swipe com.android.settings:id/recycler_view",
+                "click (0, 63, 147, 210)"
+            ],
+            [
+                "click (0, 63, 147, 210)"
+            ],
+            [
+                "click com.android.settings:id/button3",
+                "click android:id/button1",
+                "click (0, 63, 147, 210)"
+            ],
+            [
+                "click com.android.settings:id/button1",
+                "click com.android.settings:id/button2"
+            ]
+        ],
+        "com.google.android.apps.messaging.ui.ConversationListActivity": [
+            [],
+            [
+                "click (0, 63, 147, 210)"
+            ],
+            [
+                "click com.android.settings:id/button1"
+            ]
+        ],
+        "com.google.android.googlequicksearchbox.InternalGoogleAppActivityEntrypoint": [
+            [
+                "click (0, 1532, 1080, 1718)",
+                "click (0, 956, 1080, 1148)",
+                "swipe com.android.settings:id/recycler_view",
+                "click com.android.settings:id/button3",
+                "click android:id/button1",
+                "click (0, 63, 147, 210)"
+            ],
+            [
+                "click (0, 63, 147, 210)"
+            ],
+            [],
+            [
+                "click com.android.settings:id/button1",
+                "click (0, 63, 147, 210)"
+            ]
+        ],
+        "com.google.android.googlequicksearchboxcom.google.android.apps.search.soundsearch.SoundSearchActivity": [
+            []
+        ],
+        "com.google.android.dialer.extensions.GoogleDialtactsActivity": [
+            [
+                "click com.android.settings:id/button1",
+                "click com.android.settings:id/button3",
+                "click android:id/button1",
+                "click (0, 63, 147, 210)"
+            ]
+        ],
+        "com.google.android.GoogleCameracom.android.camera.CameraLauncher": [
+            [],
+            [
+                "click com.android.settings:id/button1",
+                "click (0, 63, 147, 210)"
+            ]
+        ],
+        "com.google.android.calendar.search.SearchActivity": [
+            [
+                "click (0, 63, 147, 210)"
+            ]
+        ],
+        "com.google.android.calendar.allinone.AllInOneCalendarActivity": [
+            [
+                "click (0, 63, 147, 210)"
+            ]
+        ],
+        "com.google.android.packageinstallercom.android.packageinstaller.UninstallerActivity": [
+            [
+                "click com.android.settings:id/button1",
+                "click (0, 1532, 1080, 1718)",
+                "click com.android.settings:id/button2"
+            ]
+        ]
+    },
+    "com.google.android.permissioncontrollercom.android.permissioncontroller.permission.ui.ManagePermissionsActivity": {
+        "com.android.settings.applications.InstalledAppDetails": [
+            [],
+            [
+                "click (0, 1419, 1080, 1640)",
+                "click (0, 63, 147, 210)"
+            ],
+            [
+                "click (0, 63, 147, 210)"
+            ]
+        ]
+    },
+    "com.android.vendingcom.google.android.finsky.offlinegames.impl.OfflineGamesActivity": {
+        "com.android.vendingcom.google.android.finsky.activities.MainActivity": [
+            []
+        ]
+    },
+    "com.android.chromeorg.chromium.chrome.browser.ChromeTabbedActivity": {
+        "com.android.chromeorg.chromium.chrome.browser.settings.SettingsActivity": [
+            [
+                "text com.android.chrome:id/search_box_text",
+                "click (21, 210, 1059, 368)",
+                "text (168, 399, 784, 467)",
+                "text com.android.chrome:id/url_bar",
+                "click com.android.chrome:id/location_bar_status",
+                "click (21, 210, 1059, 357)",
+                "click com.android.chrome:id/home_button",
+                "click com.android.chrome:id/header_menu",
+                "click (21, 217, 147, 349)",
+                "click com.android.chrome:id/optional_toolbar_button",
+                "click com.android.chrome:id/optional_toolbar_button"
+            ]
+        ]
+    },
+    "com.android.chromeorg.chromium.chrome.browser.settings.SettingsActivity": {
+        "com.android.chromeorg.chromium.chrome.browser.ChromeTabbedActivity": [
+            []
+        ]
+    },
+    "com.google.android.apps.wellbeing.appdetails.AppDetailsActivity": {
+        "com.android.settings.applications.InstalledAppDetails": [
+            [
+                "click (0, 63, 147, 210)"
+            ]
+        ]
+    },
+    "com.google.android.apps.nexuslauncher.NexusLauncherActivity": {
+        "com.google.android.apps.messaging.ui.ConversationListActivity": [
+            [
+                "click (237, 1382, 439, 1592)"
+            ]
+        ],
+        "com.google.android.googlequicksearchbox.InternalGoogleAppActivityEntrypoint": [
+            [
+                "click com.google.android.apps.nexuslauncher:id/search_container_all_apps"
+            ],
+            [
+                "click com.google.android.googlequicksearchbox:id/googleapp_facade_search_box",
+                "click com.google.android.apps.nexuslauncher:id/search_container_all_apps"
+            ],
+            [
+                "click com.android.vending:id/0_resource_name_obfuscated",
+                "click com.google.android.apps.nexuslauncher:id/search_container_all_apps"
+            ],
+            [
+                "click com.google.android.apps.nexuslauncher:id/icon",
+                "click com.google.android.apps.nexuslauncher:id/icon",
+                "click com.google.android.apps.nexuslauncher:id/icon",
+                "click com.google.android.apps.nexuslauncher:id/search_container_all_apps"
+            ]
+        ],
+        "com.google.android.dialer.extensions.GoogleDialtactsActivity": [
+            [
+                "click (35, 1382, 237, 1592)"
+            ],
+            [
+                "click android:id/button2",
+                "click (35, 1382, 237, 1592)"
+            ],
+            [
+                "click com.google.android.apps.nexuslauncher:id/icon",
+                "click com.google.android.apps.nexuslauncher:id/icon",
+                "click com.google.android.apps.nexuslauncher:id/icon",
+                "click com.google.android.apps.nexuslauncher:id/icon",
+                "click com.google.android.apps.nexuslauncher:id/icon"
+            ]
+        ],
+        "com.google.android.calendar.allinone.AllInOneCalendarActivity": [
+            [
+                "text ContactSearchField"
+            ],
+            [
+                "text ContactSearchField",
+                "click com.google.android.calendar:id/action_search"
+            ],
+            [
+                "click com.google.android.apps.nexuslauncher:id/search_container_all_apps",
+                "click com.google.android.apps.nexuslauncher:id/universal_smartspace_container"
+            ],
+            [
+                "click com.google.android.calendar:id/action_search"
+            ]
+        ],
+        "com.google.android.permissioncontrollercom.android.permissioncontroller.permission.ui.GrantPermissionsActivity": [
+            [
+                "click com.android.settings:id/button1",
+                "click (843, 1382, 1045, 1592)"
+            ]
+        ],
+        "com.google.android.googlequicksearchboxcom.google.android.apps.search.assistant.surfaces.voice.ui.voicesearchblocker.VoiceSearchInterstitialActivity": [
+            [
+                "click com.google.android.calendar:id/action_search",
+                "click com.google.android.calendar:id/floating_action_button"
+            ]
+        ],
+        "com.google.android.googlequicksearchbox.GoogleAppVoiceAssistEntrypoint": [
+            [
+                "click com.google.android.apps.nexuslauncher:id/icon",
+                "click com.google.android.apps.nexuslauncher:id/icon",
+                "click com.google.android.apps.nexuslauncher:id/icon",
+                "click com.google.android.apps.nexuslauncher:id/search_container_all_apps",
+                "swipe com.google.android.apps.nexuslauncher:id/apps_list_view",
+                "click com.google.android.apps.nexuslauncher:id/mic_icon"
+            ]
+        ],
+        "com.google.android.calculatorcom.android.calculator2.Calculator": [
+            [
+                "click com.android.settings:id/entity_header_content"
+            ]
+        ]
+    },
+    "com.google.android.apps.messaging.ui.ConversationListActivity": {
+        "com.google.android.apps.nexuslauncher.NexusLauncherActivity": [
+            [],
+            [
+                "click com.android.settings:id/button1"
+            ]
+        ]
+    },
+    "com.google.android.googlequicksearchbox.InternalGoogleAppActivityEntrypoint": {
+        "com.google.android.apps.nexuslauncher.NexusLauncherActivity": [
+            [],
+            [
+                "click (640, 234, 843, 446)"
+            ],
+            [
+                "click com.google.android.googlequicksearchbox:id/googleapp_doodle"
+            ],
+            [
+                "text com.google.android.googlequicksearchbox:id/googleapp_search_box"
+            ],
+            [
+                "text com.google.android.googlequicksearchbox:id/googleapp_search_box",
+                "click (640, 260, 843, 472)"
+            ]
+        ],
+        "com.google.android.googlequicksearchboxcom.google.android.apps.search.soundsearch.SoundSearchActivity": [
+            [
+                "text com.google.android.googlequicksearchbox:id/googleapp_search_box",
+                "click com.google.android.googlequicksearchbox:id/googleapp_suggestions_fragment",
+                "click android:id/aerr_app_info",
+                "click com.google.android.googlequicksearchbox:id/googleapp_primary_action_icon",
+                "click com.google.android.googlequicksearchbox:id/googleapp_suggestions_fragment",
+                "click com.google.android.googlequicksearchbox:id/googleapp_search_box_back_button",
+                "click com.google.android.googlequicksearchbox:id/googleapp_facade_search_box",
+                "click com.google.android.googlequicksearchbox:id/googleapp_suggestions_fragment",
+                "click com.google.android.googlequicksearchbox:id/googleapp_mic_icon",
+                "click com.google.android.googlequicksearchbox:id/googleapp_search_a_song"
+            ]
+        ]
+    },
+    "com.google.android.googlequicksearchboxcom.google.android.apps.search.soundsearch.SoundSearchActivity": {
+        "com.google.android.googlequicksearchbox.InternalGoogleAppActivityEntrypoint": [
+            [
+                "click com.google.android.googlequicksearchbox:id/soundsearch_try_again_button"
+            ]
+        ]
+    },
+    "com.google.android.dialer.extensions.GoogleDialtactsActivity": {
+        "com.google.android.dialercom.android.dialer.incall.activity.ui.InCallActivity": [
+            [
+                "click com.google.android.dialer:id/dialpad_voice_call_button"
+            ]
+        ],
+        "com.google.android.apps.nexuslauncher.NexusLauncherActivity": [
+            [
+                "click com.google.android.dialer:id/dialpad_voice_call_button"
+            ]
+        ]
+    },
+    "com.google.android.dialercom.android.dialer.incall.activity.ui.InCallActivity": {
+        "com.google.android.dialer.extensions.GoogleDialtactsActivity": [
+            []
+        ]
+    },
+    "com.google.android.calendar.allinone.AllInOneCalendarActivity": {
+        "com.google.android.apps.nexuslauncher.NexusLauncherActivity": [
+            [
+                "click (0, 1230, 840, 1356)",
+                "click com.google.android.calendar:id/floating_action_button"
+            ],
+            [
+                "click com.google.android.calendar:id/button",
+                "click com.google.android.calendar:id/floating_action_button"
+            ]
+        ],
+        "com.google.android.calendar.search.SearchActivity": [
+            [
+                "click com.google.android.calendar:id/action_search"
+            ]
+        ]
+    },
+    "com.google.android.permissioncontrollercom.android.permissioncontroller.permission.ui.GrantPermissionsActivity": {
+        "com.google.android.GoogleCameracom.android.camera.CameraLauncher": [
+            [
+                "click com.android.permissioncontroller:id/grant_singleton"
+            ]
+        ]
+    },
+    "com.google.android.GoogleCameracom.android.camera.CameraLauncher": {
+        "com.google.android.GoogleCameracom.google.android.apps.camera.legacy.app.settings.CameraSettingsActivity": [
+            [
+                "click (0, 63, 147, 210)",
+                "click android:id/button1",
+                "click (880, 1005, 1006, 1131)"
+            ],
+            [
+                "click (880, 1005, 1006, 1131)"
+            ]
+        ],
+        "com.google.android.apps.nexuslauncher.NexusLauncherActivity": [
+            [
+                "click (880, 1005, 1006, 1131)",
+                "click (891, 1668, 1080, 1794)",
+                "click com.google.android.GoogleCamera:id/options_menu_closed",
+                "click com.google.android.GoogleCamera:id/options_menu_setting_bar",
+                "click (420, 1668, 660, 1794)"
+            ]
+        ]
+    },
+    "com.google.android.GoogleCameracom.google.android.apps.camera.legacy.app.settings.CameraSettingsActivity": {
+        "com.google.android.GoogleCameracom.android.camera.CameraLauncher": [
+            [
+                "click android:id/aerr_close",
+                "click (0, 0, 147, 147)"
+            ],
+            [
+                "click (0, 0, 147, 147)"
+            ]
+        ]
+    },
+    "com.google.android.calendar.search.SearchActivity": {
+        "com.google.android.calendar.allinone.AllInOneCalendarActivity": [
+            [
+                "text com.google.android.calendar:id/search_text",
+                "click (11, 73, 158, 220)"
+            ]
+        ]
+    },
+    "com.google.android.packageinstallercom.android.packageinstaller.UninstallerActivity": {
+        "com.google.android.apps.nexuslauncher.NexusLauncherActivity": [
+            [
+                "click android:id/button1"
+            ]
+        ]
+    }
+}

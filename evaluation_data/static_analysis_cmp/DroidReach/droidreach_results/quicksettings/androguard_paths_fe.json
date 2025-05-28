@@ -1,0 +1,23 @@
+{
+    "md5": "c275e8f67344733234c68217ae0202c7",
+    "paths": {
+        "Lcom/bwx/bequick/preferences/BrightnessPrefs;->hasLightSensor(Landroid/content/Context;)Z": [
+            [
+                "Lcom/bwx/bequick/preferences/BrightnessPrefs;->onPreferenceClick(Landroid/preference/Preference;)Z",
+                "Lcom/bwx/bequick/preferences/BrightnessPrefs;->hasLightSensor(Landroid/content/Context;)Z"
+            ]
+        ],
+        "Lcom/bwx/bequick/preferences/MobileDataPrefs;->detectMobileDataMode(Landroid/content/SharedPreferences;)Z": [
+            [
+                "Lcom/bwx/bequick/preferences/MobileDataPrefs;->onCreate(Landroid/os/Bundle;)V",
+                "Lcom/bwx/bequick/preferences/MobileDataPrefs;->detectMobileDataMode(Landroid/content/SharedPreferences;)Z"
+            ]
+        ],
+        "Lcom/bwx/bequick/SettingsApplication;->persistSettings()V": [
+            [
+                "Lcom/bwx/bequick/LayoutSettingsActivity;->onStop()V",
+                "Lcom/bwx/bequick/SettingsApplication;->persistSettings()V"
+            ]
+        ]
+    }
+}

@@ -1,0 +1,77 @@
+{
+    "md5": "ff3fd6665f7c09fec7e74e9ed7fe965a",
+    "paths": {
+        "Lcom/nloko/android/syncmypix/contactutils/ContactUtils;->getContentUri()Landroid/net/Uri;": [
+            [
+                "Lcom/nloko/android/syncmypix/SyncResultsActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z",
+                "Lcom/nloko/android/syncmypix/contactutils/ContactUtils;->getContentUri()Landroid/net/Uri;"
+            ]
+        ],
+        "Lcom/nloko/android/syncmypix/SyncMyPixPreferences;->getCache()Z": [
+            [
+                "Lcom/nloko/android/syncmypix/SyncResultsActivity$DownloadImageHandler;->handleMessage(Landroid/os/Message;)V",
+                "Lcom/nloko/android/syncmypix/SyncMyPixPreferences;->getCache()Z"
+            ]
+        ],
+        "Lcom/nloko/android/syncmypix/SettingsActivity;->setLoginStatus(I)V": [
+            [
+                "Lcom/nloko/android/syncmypix/SettingsActivity;->onConfigurationChanged(Landroid/content/res/Configuration;)V",
+                "Lcom/nloko/android/syncmypix/SettingsActivity;->setupViews(Landroid/os/Bundle;)V",
+                "Lcom/nloko/android/syncmypix/SettingsActivity;->setLoginStatus(I)V"
+            ],
+            [
+                "Lcom/nloko/android/syncmypix/SettingsActivity;->onCreate(Landroid/os/Bundle;)V",
+                "Lcom/nloko/android/syncmypix/SettingsActivity;->setupViews(Landroid/os/Bundle;)V",
+                "Lcom/nloko/android/syncmypix/SettingsActivity;->setLoginStatus(I)V"
+            ],
+            [
+                "Lcom/nloko/android/syncmypix/SettingsActivity;->setupViews(Landroid/os/Bundle;)V",
+                "Lcom/nloko/android/syncmypix/SettingsActivity;->setLoginStatus(I)V"
+            ]
+        ],
+        "Lcom/nloko/android/syncmypix/SettingsActivity;->setupViews(Landroid/os/Bundle;)V": [
+            [
+                "Lcom/nloko/android/syncmypix/SettingsActivity;->onConfigurationChanged(Landroid/content/res/Configuration;)V",
+                "Lcom/nloko/android/syncmypix/SettingsActivity;->setupViews(Landroid/os/Bundle;)V"
+            ],
+            [
+                "Lcom/nloko/android/syncmypix/SettingsActivity;->onCreate(Landroid/os/Bundle;)V",
+                "Lcom/nloko/android/syncmypix/SettingsActivity;->setupViews(Landroid/os/Bundle;)V"
+            ]
+        ],
+        "Lcom/nloko/android/syncmypix/SyncMyPixPreferences;-><init>(Landroid/content/Context;)V": [
+            [
+                "Lcom/nloko/android/syncmypix/SyncResultsActivity$DownloadImageHandler;->handleMessage(Landroid/os/Message;)V",
+                "Lcom/nloko/android/syncmypix/SyncMyPixPreferences;-><init>(Landroid/content/Context;)V"
+            ]
+        ],
+        "Lcom/nloko/android/syncmypix/facebook/FacebookLoginWebView$ChromeClient;-><init>(Landroid/app/Activity;)V": [
+            [
+                "Lcom/nloko/android/syncmypix/facebook/FacebookLoginWebView;->onCreate(Landroid/os/Bundle;)V",
+                "Lcom/nloko/android/syncmypix/facebook/FacebookLoginWebView$ChromeClient;-><init>(Landroid/app/Activity;)V"
+            ]
+        ],
+        "Lcom/nloko/android/syncmypix/SettingsActivity$3;-><init>(Lcom/nloko/android/syncmypix/SettingsActivity;)V": [
+            [
+                "Lcom/nloko/android/syncmypix/SettingsActivity;->onConfigurationChanged(Landroid/content/res/Configuration;)V",
+                "Lcom/nloko/android/syncmypix/SettingsActivity;->setupViews(Landroid/os/Bundle;)V",
+                "Lcom/nloko/android/syncmypix/SettingsActivity$3;-><init>(Lcom/nloko/android/syncmypix/SettingsActivity;)V"
+            ],
+            [
+                "Lcom/nloko/android/syncmypix/SettingsActivity;->onCreate(Landroid/os/Bundle;)V",
+                "Lcom/nloko/android/syncmypix/SettingsActivity;->setupViews(Landroid/os/Bundle;)V",
+                "Lcom/nloko/android/syncmypix/SettingsActivity$3;-><init>(Lcom/nloko/android/syncmypix/SettingsActivity;)V"
+            ],
+            [
+                "Lcom/nloko/android/syncmypix/SettingsActivity;->setupViews(Landroid/os/Bundle;)V",
+                "Lcom/nloko/android/syncmypix/SettingsActivity$3;-><init>(Lcom/nloko/android/syncmypix/SettingsActivity;)V"
+            ]
+        ],
+        "Lcom/nloko/android/syncmypix/SyncMyPixBroadcastReceiver;->rescheduleAlarm(Landroid/content/Context;)V": [
+            [
+                "Lcom/nloko/android/syncmypix/SyncMyPixBroadcastReceiver;->onReceive(Landroid/content/Context;",
+                "Lcom/nloko/android/syncmypix/SyncMyPixBroadcastReceiver;->rescheduleAlarm(Landroid/content/Context;)V"
+            ]
+        ]
+    }
+}

@@ -1,0 +1,87 @@
+{
+    "md5": "49fd305b03d4775fe7807b3c53215c43",
+    "paths": {
+        "Lcom/beust/android/translate/History;->getHistoryRecordsMostRecentFirst()Ljava/util/List;": [
+            [
+                "Lcom/beust/android/translate/HistoryActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z",
+                "Lcom/beust/android/translate/History;->getHistoryRecordsMostRecentFirst()Ljava/util/List;"
+            ],
+            [
+                "Lcom/beust/android/translate/HistoryActivity;->onCreate(Landroid/os/Bundle;)V",
+                "Lcom/beust/android/translate/History;->getHistoryRecordsMostRecentFirst()Ljava/util/List;"
+            ]
+        ],
+        "Lcom/beust/android/translate/History;->getHistoryRecordsByLanguages()Ljava/util/List;": [
+            [
+                "Lcom/beust/android/translate/HistoryActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z",
+                "Lcom/beust/android/translate/History;->getHistoryRecordsByLanguages()Ljava/util/List;"
+            ]
+        ],
+        "Lcom/beust/android/translate/Languages$Language;->values()[Lcom/beust/android/translate/Languages$Language;": [
+            [
+                "Lcom/beust/android/translate/Languages$Language;-><clinit>()V",
+                "Lcom/beust/android/translate/Languages$Language;->values()[Lcom/beust/android/translate/Languages$Language;"
+            ]
+        ],
+        "Lcom/beust/android/translate/TranslateActivity;->getPrefs(Landroid/content/Context;)Landroid/content/SharedPreferences;": [
+            [
+                "Lcom/beust/android/translate/HistoryActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z",
+                "Lcom/beust/android/translate/History;->clear(Landroid/content/Context;)V",
+                "Lcom/beust/android/translate/TranslateActivity;->getPrefs(Landroid/content/Context;)Landroid/content/SharedPreferences;"
+            ],
+            [
+                "Lcom/beust/android/translate/HistoryActivity;->onCreate(Landroid/os/Bundle;)V",
+                "Lcom/beust/android/translate/TranslateActivity;->getPrefs(Landroid/content/Context;)Landroid/content/SharedPreferences;"
+            ],
+            [
+                "Lcom/beust/android/translate/HistoryActivity;->onItemClick(Landroid/widget/AdapterView;",
+                "Lcom/beust/android/translate/TranslateActivity;->getPrefs(Landroid/content/Context;)Landroid/content/SharedPreferences;"
+            ]
+        ],
+        "Lcom/beust/android/translate/History;-><init>(Landroid/content/SharedPreferences;)V": [
+            [
+                "Lcom/beust/android/translate/HistoryActivity;->onCreate(Landroid/os/Bundle;)V",
+                "Lcom/beust/android/translate/History;-><init>(Landroid/content/SharedPreferences;)V"
+            ]
+        ],
+        "Lcom/beust/android/translate/History;->clear(Landroid/content/Context;)V": [
+            [
+                "Lcom/beust/android/translate/HistoryActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z",
+                "Lcom/beust/android/translate/History;->clear(Landroid/content/Context;)V"
+            ]
+        ],
+        "Lcom/beust/android/translate/Maps;->newHashMap()Ljava/util/HashMap;": [
+            [
+                "Lcom/beust/android/translate/HistoryActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z",
+                "Lcom/beust/android/translate/HistoryActivity;->initializeAdapter(Ljava/util/List;)V",
+                "Lcom/beust/android/translate/Maps;->newHashMap()Ljava/util/HashMap;"
+            ],
+            [
+                "Lcom/beust/android/translate/HistoryActivity;->onCreate(Landroid/os/Bundle;)V",
+                "Lcom/beust/android/translate/HistoryActivity;->initializeAdapter(Ljava/util/List;)V",
+                "Lcom/beust/android/translate/Maps;->newHashMap()Ljava/util/HashMap;"
+            ],
+            [
+                "Lcom/beust/android/translate/HistoryActivity;->initializeAdapter(Ljava/util/List;)V",
+                "Lcom/beust/android/translate/Maps;->newHashMap()Ljava/util/HashMap;"
+            ],
+            [
+                "Lcom/beust/android/translate/Languages$Language;-><clinit>()V",
+                "Lcom/beust/android/translate/Maps;->newHashMap()Ljava/util/HashMap;"
+            ]
+        ],
+        "Lcom/beust/android/translate/History$1;-><init>()V": [
+            [
+                "Lcom/beust/android/translate/History;-><clinit>()V",
+                "Lcom/beust/android/translate/History$1;-><init>()V"
+            ]
+        ],
+        "Lcom/beust/android/translate/TranslateActivity;->log(Ljava/lang/String;)V": [
+            [
+                "Lcom/beust/android/translate/HistoryActivity;->onItemClick(Landroid/widget/AdapterView;",
+                "Lcom/beust/android/translate/TranslateActivity;->savePreferences(Landroid/content/SharedPreferences$Editor;",
+                "Lcom/beust/android/translate/TranslateActivity;->log(Ljava/lang/String;)V"
+            ]
+        ]
+    }
+}

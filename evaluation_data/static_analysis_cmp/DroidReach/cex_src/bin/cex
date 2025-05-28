@@ -1,0 +1,236 @@
+#!/usr/bin/env python3
+
+import networkx as nx
+import argparse
+import sys
+import os
+
+sys.path.append(os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
+from cex import CEXProject
+from cex.utils import to_dot, to_json
+
+def get_plugins():
+    return "Plugins: " + " ".join(CEXProject.pm.get_plugin_names())
+
+def to_dot_depgraph(proj, graph, include_edges=False):
+    bins = proj.get_bins()
+    hash_dict = dict()
+    for binfo in bins:
+        hash_dict[binfo.hash] = binfo
+
+    header  = "digraph {\n\tnode [shape=box];\n"
+    header += "\tgraph [fontname = \"monospace\"];\n"
+    header += "\tnode  [fontname = \"monospace\"];\n"
+    header += "\tedge  [fontname = \"monospace\"];\n"
+    footer  = "}\n"
+
+    body = ""
+    for node_id in graph.nodes:
+        body += "\tnode_%s [label=\"%s\"];\n" % (node_id, hash_dict[node_id].name)
+
+    for src_id, dst_id, i in graph.edges:
+        if not include_edges and i != 0:
+            continue
+
+        e = graph.edges[src_id, dst_id, i]
+        label = "" if not include_edges else e["fun"]
+        body += "\tnode_%s -> node_%s [label=\"%s\"];\n" % (src_id, dst_id, label)
+
+    return header + body + footer
+
+def dump_dot_depgraph(proj, graph, outdir=None):
+    dot = to_dot_depgraph(proj, graph)
+    if outdir is None:
+        print(dot)
+        return
+
+    with open(os.path.join(outdir, "depgraph.dot"), "w") as fout:
+        fout.write(dot)
+
+def dump_dot_cg(addr, graph, outdir=None):
+    dot = to_dot(graph)
+    if outdir is None:
+        print(dot)
+        return
+
+    if addr is None:
+        addr = "complete"
+    with open(os.path.join(outdir, "cg-%s.dot" % addr), "w") as fout:
+        fout.write(dot)
+
+def dump_json_cg(addr, graph, outdir=None):
+    g_json = to_json(graph)
+    if outdir is None:
+        print(g_json)
+        return
+
+    if addr is None:
+        addr = "complete"
+    with open(os.path.join(outdir, "cg-%s.json" % addr), "w") as fout:
+        fout.write(g_json)
+
+def dump_dot_cfg(addr, graph, outdir=None):
+    dot = to_dot(graph)
+    if outdir is None:
+        print(dot)
+        return
+
+    with open(os.path.join(outdir, "cfg-%s.dot" % addr), "w") as fout:
+        fout.write(dot)
+
+def dump_json_cfg(addr, graph, outdir=None):
+    g_json = to_json(graph)
+    if outdir is None:
+        print(g_json)
+        return
+
+    with open(os.path.join(outdir, "cfg-%s.json" % addr), "w") as fout:
+        fout.write(g_json)
+
+def dump_dot_path(graph, outdir=None):
+    dot = to_dot(graph)
+    if outdir is None:
+        print(dot)
+        return
+
+    with open(os.path.join(outdir, "pat.dot"), "w") as fout:
+        fout.write(dot)
+
+def to_num(addr):
+    if addr[:2] == "0x":
+        return int(addr, 16)
+    return int(addr)
+
+def pair_type(arg):
+    try:
+        v1, v2 = arg.split(',')
+        v1 = int(v1, 16) if v1[:2] == "0x" else int(v1)
+        v2 = int(v2, 16) if v2[:2] == "0x" else int(v2)
+    except:
+        raise argparse.ArgumentError("Expected a pair of integers")
+    return (v1, v2)
+
+def constructor(vtable):
+    import claripy
+    vtable = to_num(vtable)
+    def f(proj):
+        s   = proj.factory.blank_state()
+        obj = s.heap._malloc(4)
+        s.memory.store(obj, claripy.BVV(vtable, 4*8), endness=proj.arch.memory_endness)
+        s.regs.r2 = obj
+        # print("built state:", s, s.regs.r2, s.mem[obj].uint32_t)
+        return s
+    return f
+
+def main(args):
+    plugins = None
+    if args.use_plugins is not None:
+        plugins = args.use_plugins
+
+    binary = args.binary
+    libs   = args.libs
+    proj   = CEXProject(binary, libs=libs, plugins=plugins)
+
+    if args.dump_dot_depgraph:
+        depgraph = proj.get_depgraph()
+        dump_dot_depgraph(proj, depgraph, args.output)
+
+    additional_cg_edges_arg = args.additional_cg_edges or []
+    cgs_dot    = args.dump_dot_cg or []
+    icfgs_dot  = args.dump_dot_icfg or []
+    cfgs_dot   = args.dump_dot_cfg or []
+    cgs_json   = args.dump_json_cg or []
+    icfgs_json = args.dump_json_icfg or []
+    cfgs_json  = args.dump_json_cfg or []
+
+    additional_cg_edges = list()
+    for e in additional_cg_edges_arg:
+        src, dst, callsite = e.split(":")
+        src      = to_num(src)
+        dst      = to_num(dst)
+        callsite = to_num(callsite)
+        additional_cg_edges.append((src, dst, callsite))
+
+    if len(additional_cg_edges) == 0:
+        additional_cg_edges = None
+
+    for cg_addr in cgs_dot:
+        if cg_addr == "-":
+            cg_addr = None
+        else:
+            cg_addr = to_num(cg_addr)
+
+        if cg_addr is not None and args.set_vtable is not None:
+            angr_plugin = CEXProject.pm.get_plugin_by_name("AngrEmulated")
+            angr_plugin.set_state_constructor(cg_addr, constructor(args.set_vtable))
+
+        graph = proj.get_callgraph(cg_addr, additional_cg_edges=additional_cg_edges)
+        dump_dot_cg(cg_addr, graph, args.output)
+
+    for cg_addr in cgs_json:
+        if cg_addr == "-":
+            cg_addr = None
+        else:
+            cg_addr = to_num(cg_addr)
+
+        if args.set_vtable is not None:
+            angr_plugin = CEXProject.pm.get_plugin_by_name("AngrEmulated")
+            angr_plugin.set_state_constructor(cg_addr, constructor(args.set_vtable))
+
+        graph = proj.get_callgraph(cg_addr, additional_cg_edges=additional_cg_edges)
+        dump_json_cg(cg_addr, graph, args.output)
+
+    for icfg_addr in icfgs_dot:
+        if args.set_vtable is not None:
+            angr_plugin = CEXProject.pm.get_plugin_by_name("AngrEmulated")
+            angr_plugin.set_state_constructor(to_num(icfg_addr), constructor(args.set_vtable))
+
+        graph = proj.get_icfg(to_num(icfg_addr), additional_cg_edges=additional_cg_edges)
+        dump_dot_cfg(icfg_addr, graph, args.output)
+
+    for icfg_addr in icfgs_json:
+        if args.set_vtable is not None:
+            angr_plugin = CEXProject.pm.get_plugin_by_name("AngrEmulated")
+            angr_plugin.set_state_constructor(to_num(icfg_addr), constructor(args.set_vtable))
+
+        graph = proj.get_icfg(to_num(icfg_addr), additional_cg_edges=additional_cg_edges)
+        dump_json_cfg(icfg_addr, graph, args.output)
+
+    for cfg_addr in cfgs_dot:
+        if args.set_vtable is not None:
+            angr_plugin = CEXProject.pm.get_plugin_by_name("AngrEmulated")
+            angr_plugin.set_state_constructor(to_num(cfg_addr), constructor(args.set_vtable))
+
+        graph = proj.get_cfg(to_num(cfg_addr))
+        dump_dot_cfg(cfg_addr, graph, args.output)
+
+    for cfg_addr in cfgs_json:
+        if args.set_vtable is not None:
+            angr_plugin = CEXProject.pm.get_plugin_by_name("AngrEmulated")
+            angr_plugin.set_state_constructor(to_num(cfg_addr), constructor(args.set_vtable))
+
+        graph = proj.get_cfg(to_num(cfg_addr))
+        dump_json_cfg(cfg_addr, graph, args.output)
+
+    return 0
+
+if __name__=="__main__":
+    parser = argparse.ArgumentParser(description='Cfg EXtractor')
+    parser.add_argument("--list-plugins", help="Print the installed plugins", action="version", version=get_plugins())
+    parser.add_argument("--use-plugins", metavar="PLUGIN", help="List of plugins to use. If omitted, use %s." % CEXProject.default_plugin, nargs="*")
+    parser.add_argument("--output", metavar="DIRECTORY", help="Output directory. If omitted, stdout")
+    parser.add_argument("--dump-dot-cg", metavar="ADDR", help="Dump the callgraph in dot from ADDR entrypoint. If '-', program entrypoint.", nargs="*")
+    parser.add_argument("--dump-json-cg", metavar="ADDR", help="Dump the callgraph in json from ADDR entrypoint. If '-', program entrypoint.", nargs="*")
+    parser.add_argument("--dump-dot-icfg", metavar="ADDR", help="Dump the interprocedural CFG in dot from ADDR entrypoint. If '-', program entrypoint.", nargs="*")
+    parser.add_argument("--dump-json-icfg", metavar="ADDR", help="Dump the interprocedural CFG in json from ADDR entrypoint. If '-', program entrypoint.", nargs="*")
+    parser.add_argument("--dump-dot-cfg", metavar="ADDR", help="Dump the control flow graph of the function in dot at address ADDR", nargs="*")
+    parser.add_argument("--dump-json-cfg", metavar="ADDR", help="Dump the control flow graph of the function in json at address ADDR", nargs="*")
+    parser.add_argument("--dump-dot-depgraph", help="Dump the library dependency graph", action="store_true")
+    parser.add_argument("--set-vtable", help="Set first argument as C++ obj with vtable (only armv7)", nargs="?")
+    parser.add_argument("--additional-cg-edges", metavar="src:dst:callsite", help="Additional callgraph edge", nargs="*")
+    parser.add_argument("binary", help="The binary to analyze")
+    parser.add_argument("libs", help="Other libraries", nargs="*")
+
+    args = parser.parse_args()
+
+    exit(main(args))

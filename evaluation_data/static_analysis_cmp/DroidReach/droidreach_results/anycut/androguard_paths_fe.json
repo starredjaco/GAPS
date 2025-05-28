@@ -1,0 +1,36 @@
+{
+    "md5": "df6b1fa5476b1c58a1d4397b64ce222e",
+    "paths": {
+        "Lcom/example/anycut/CustomShortcutCreatorActivity;->createShortcutIntent()Landroid/content/Intent;": [
+            [
+                "Lcom/example/anycut/CustomShortcutCreatorActivity;->onClick(Landroid/view/View;)V",
+                "Lcom/example/anycut/CustomShortcutCreatorActivity;->createShortcutIntent()Landroid/content/Intent;"
+            ]
+        ],
+        "Lcom/example/anycut/ShortcutEditorDialog;->setIntent(Landroid/content/Intent;)V": [
+            [
+                "Lcom/example/anycut/CreateShortcutActivity;->onPrepareDialog(I",
+                "Lcom/example/anycut/ShortcutEditorDialog;->setIntent(Landroid/content/Intent;)V"
+            ]
+        ],
+        "Lcom/example/anycut/CreateShortcutActivity;->startShortcutEditor(Landroid/content/Intent;)V": [
+            [
+                "Lcom/example/anycut/CreateShortcutActivity;->onActivityResult(I",
+                "Lcom/example/anycut/CreateShortcutActivity;->startShortcutEditor(Landroid/content/Intent;)V"
+            ]
+        ],
+        "Lcom/example/anycut/ShortcutEditorDialog;->getIntent()Landroid/content/Intent;": [
+            [
+                "Lcom/example/anycut/CreateShortcutActivity;->onClick(Landroid/content/DialogInterface;",
+                "Lcom/example/anycut/ShortcutEditorDialog;->getIntent()Landroid/content/Intent;"
+            ]
+        ],
+        "Lcom/example/anycut/ShortcutEditorDialog;->loadIntent(Landroid/content/Intent;)V": [
+            [
+                "Lcom/example/anycut/CreateShortcutActivity;->onPrepareDialog(I",
+                "Lcom/example/anycut/ShortcutEditorDialog;->setIntent(Landroid/content/Intent;)V",
+                "Lcom/example/anycut/ShortcutEditorDialog;->loadIntent(Landroid/content/Intent;)V"
+            ]
+        ]
+    }
+}

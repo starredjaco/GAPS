@@ -1,0 +1,120 @@
+{
+    "md5": "dbfaa2a01b9d22dd7b1feef19dacebd5",
+    "paths": {
+        "Lorg/passwordmaker/android/AccountListActivity;->addNewFolder(Ljava/lang/String;)V": [
+            [
+                "Lorg/passwordmaker/android/AccountListActivity$3;->onClick(Landroid/content/DialogInterface;",
+                "Lorg/passwordmaker/android/AccountListActivity;->access$100(Lorg/passwordmaker/android/AccountListActivity;",
+                "Lorg/passwordmaker/android/AccountListActivity;->addNewFolder(Ljava/lang/String;)V"
+            ],
+            [
+                "Lorg/passwordmaker/android/AccountListActivity;->access$100(Lorg/passwordmaker/android/AccountListActivity;",
+                "Lorg/passwordmaker/android/AccountListActivity;->addNewFolder(Ljava/lang/String;)V"
+            ]
+        ],
+        "Lorg/passwordmaker/android/AccountListFragment;->createNewFolder(Ljava/lang/String;)V": [
+            [
+                "Lorg/passwordmaker/android/AccountListActivity$3;->onClick(Landroid/content/DialogInterface;",
+                "Lorg/passwordmaker/android/AccountListActivity;->access$100(Lorg/passwordmaker/android/AccountListActivity;",
+                "Lorg/passwordmaker/android/AccountListActivity;->addNewFolder(Ljava/lang/String;)V",
+                "Lorg/passwordmaker/android/AccountListFragment;->createNewFolder(Ljava/lang/String;)V"
+            ],
+            [
+                "Lorg/passwordmaker/android/AccountListActivity;->addNewFolder(Ljava/lang/String;)V",
+                "Lorg/passwordmaker/android/AccountListFragment;->createNewFolder(Ljava/lang/String;)V"
+            ],
+            [
+                "Lorg/passwordmaker/android/AccountListActivity;->access$100(Lorg/passwordmaker/android/AccountListActivity;",
+                "Lorg/passwordmaker/android/AccountListActivity;->addNewFolder(Ljava/lang/String;)V",
+                "Lorg/passwordmaker/android/AccountListFragment;->createNewFolder(Ljava/lang/String;)V"
+            ]
+        ],
+        "Lorg/passwordmaker/android/AccountListActivity;->addNewFolder()V": [
+            [
+                "Lorg/passwordmaker/android/AccountListActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z",
+                "Lorg/passwordmaker/android/AccountListActivity;->addNewFolder()V"
+            ]
+        ],
+        "Lorg/passwordmaker/android/AccountListFragment;->access$200(Lorg/passwordmaker/android/AccountListFragment;)Lorg/daveware/passwordmaker/AccountManager;": [
+            [
+                "Lorg/passwordmaker/android/AccountListActivity$3;->onClick(Landroid/content/DialogInterface;",
+                "Lorg/passwordmaker/android/AccountListActivity;->access$100(Lorg/passwordmaker/android/AccountListActivity;",
+                "Lorg/passwordmaker/android/AccountListActivity;->addNewFolder(Ljava/lang/String;)V",
+                "Lorg/passwordmaker/android/AccountListFragment;->createNewFolder(Ljava/lang/String;)V",
+                "Lorg/passwordmaker/android/AccountListFragment$AccountStack;->getCurrentAccount()Lorg/daveware/passwordmaker/Account;",
+                "Lorg/passwordmaker/android/AccountListFragment;->access$200(Lorg/passwordmaker/android/AccountListFragment;)Lorg/daveware/passwordmaker/AccountManager;"
+            ],
+            [
+                "Lorg/passwordmaker/android/AccountListActivity;->access$000(Lorg/passwordmaker/android/AccountListActivity;",
+                "Lorg/passwordmaker/android/AccountListActivity;->addNewAccount(Ljava/lang/String;)V",
+                "Lorg/passwordmaker/android/AccountListFragment;->createNewAccount(Ljava/lang/String;)V",
+                "Lorg/passwordmaker/android/AccountListFragment$AccountStack;->getCurrentAccount()Lorg/daveware/passwordmaker/Account;",
+                "Lorg/passwordmaker/android/AccountListFragment;->access$200(Lorg/passwordmaker/android/AccountListFragment;)Lorg/daveware/passwordmaker/AccountManager;"
+            ],
+            [
+                "Lorg/passwordmaker/android/AccountListActivity;->addNewAccount(Ljava/lang/String;)V",
+                "Lorg/passwordmaker/android/AccountListFragment;->createNewAccount(Ljava/lang/String;)V",
+                "Lorg/passwordmaker/android/AccountListFragment$AccountStack;->getCurrentAccount()Lorg/daveware/passwordmaker/Account;",
+                "Lorg/passwordmaker/android/AccountListFragment;->access$200(Lorg/passwordmaker/android/AccountListFragment;)Lorg/daveware/passwordmaker/AccountManager;"
+            ],
+            [
+                "Lorg/passwordmaker/android/AccountListActivity;->addNewFolder(Ljava/lang/String;)V",
+                "Lorg/passwordmaker/android/AccountListFragment;->createNewFolder(Ljava/lang/String;)V",
+                "Lorg/passwordmaker/android/AccountListFragment$AccountStack;->getCurrentAccount()Lorg/daveware/passwordmaker/Account;",
+                "Lorg/passwordmaker/android/AccountListFragment;->access$200(Lorg/passwordmaker/android/AccountListFragment;)Lorg/daveware/passwordmaker/AccountManager;"
+            ],
+            [
+                "Lorg/passwordmaker/android/AccountListActivity$1;->onClick(Landroid/content/DialogInterface;",
+                "Lorg/passwordmaker/android/AccountListActivity;->access$000(Lorg/passwordmaker/android/AccountListActivity;",
+                "Lorg/passwordmaker/android/AccountListActivity;->addNewAccount(Ljava/lang/String;)V",
+                "Lorg/passwordmaker/android/AccountListFragment;->createNewAccount(Ljava/lang/String;)V",
+                "Lorg/passwordmaker/android/AccountListFragment$AccountStack;->getCurrentAccount()Lorg/daveware/passwordmaker/Account;",
+                "Lorg/passwordmaker/android/AccountListFragment;->access$200(Lorg/passwordmaker/android/AccountListFragment;)Lorg/daveware/passwordmaker/AccountManager;"
+            ],
+            [
+                "Lorg/passwordmaker/android/AccountListActivity;->access$100(Lorg/passwordmaker/android/AccountListActivity;",
+                "Lorg/passwordmaker/android/AccountListActivity;->addNewFolder(Ljava/lang/String;)V",
+                "Lorg/passwordmaker/android/AccountListFragment;->createNewFolder(Ljava/lang/String;)V",
+                "Lorg/passwordmaker/android/AccountListFragment$AccountStack;->getCurrentAccount()Lorg/daveware/passwordmaker/Account;",
+                "Lorg/passwordmaker/android/AccountListFragment;->access$200(Lorg/passwordmaker/android/AccountListFragment;)Lorg/daveware/passwordmaker/AccountManager;"
+            ]
+        ],
+        "Lorg/passwordmaker/android/EditFavoritesFragment;->addItem(Ljava/lang/String;)V": [
+            [
+                "Lorg/passwordmaker/android/EditFavoritesActivity;->addItem(Ljava/lang/String;)V",
+                "Lorg/passwordmaker/android/EditFavoritesFragment;->addItem(Ljava/lang/String;)V"
+            ],
+            [
+                "Lorg/passwordmaker/android/EditFavoritesActivity$1;->onClick(Landroid/content/DialogInterface;",
+                "Lorg/passwordmaker/android/EditFavoritesActivity;->addItem(Ljava/lang/String;)V",
+                "Lorg/passwordmaker/android/EditFavoritesFragment;->addItem(Ljava/lang/String;)V"
+            ]
+        ],
+        "Lorg/passwordmaker/android/AccountListActivity;->setDisplayHomeAsUpEnabled()V": [
+            [
+                "Lorg/passwordmaker/android/AccountListActivity;->onCreate(Landroid/os/Bundle;)V",
+                "Lorg/passwordmaker/android/AccountListActivity;->setDisplayHomeAsUpEnabled()V"
+            ]
+        ],
+        "Lorg/passwordmaker/android/AccountListFragment$Callbacks;->onItemView(Lorg/daveware/passwordmaker/Account;)V": [
+            [
+                "Lorg/passwordmaker/android/AccountListActivity;->access$000(Lorg/passwordmaker/android/AccountListActivity;",
+                "Lorg/passwordmaker/android/AccountListActivity;->addNewAccount(Ljava/lang/String;)V",
+                "Lorg/passwordmaker/android/AccountListFragment;->createNewAccount(Ljava/lang/String;)V",
+                "Lorg/passwordmaker/android/AccountListFragment$Callbacks;->onItemView(Lorg/daveware/passwordmaker/Account;)V"
+            ],
+            [
+                "Lorg/passwordmaker/android/AccountListActivity;->addNewAccount(Ljava/lang/String;)V",
+                "Lorg/passwordmaker/android/AccountListFragment;->createNewAccount(Ljava/lang/String;)V",
+                "Lorg/passwordmaker/android/AccountListFragment$Callbacks;->onItemView(Lorg/daveware/passwordmaker/Account;)V"
+            ],
+            [
+                "Lorg/passwordmaker/android/AccountListActivity$1;->onClick(Landroid/content/DialogInterface;",
+                "Lorg/passwordmaker/android/AccountListActivity;->access$000(Lorg/passwordmaker/android/AccountListActivity;",
+                "Lorg/passwordmaker/android/AccountListActivity;->addNewAccount(Ljava/lang/String;)V",
+                "Lorg/passwordmaker/android/AccountListFragment;->createNewAccount(Ljava/lang/String;)V",
+                "Lorg/passwordmaker/android/AccountListFragment$Callbacks;->onItemView(Lorg/daveware/passwordmaker/Account;)V"
+            ]
+        ]
+    }
+}

@@ -1,0 +1,61 @@
+{
+    "md5": "249064d9ebd473ea3c6a5426f1a9c53d",
+    "paths": {
+        "Les/senselesssolutions/gpl/weightchart/Database;->close()V": [
+            [
+                "Les/senselesssolutions/gpl/weightchart/EntryActivity;->access$0(Les/senselesssolutions/gpl/weightchart/EntryActivity;)V",
+                "Les/senselesssolutions/gpl/weightchart/EntryActivity;->saveAndFinish()V",
+                "Les/senselesssolutions/gpl/weightchart/Database;->close()V"
+            ],
+            [
+                "Les/senselesssolutions/gpl/weightchart/EntryActivity;->onCreate(Landroid/os/Bundle;)V",
+                "Les/senselesssolutions/gpl/weightchart/Database;->close()V"
+            ],
+            [
+                "Les/senselesssolutions/gpl/weightchart/EntryActivity;->saveAndFinish()V",
+                "Les/senselesssolutions/gpl/weightchart/Database;->close()V"
+            ],
+            [
+                "Les/senselesssolutions/gpl/weightchart/EntryActivity$3;->onClick(Landroid/view/View;)V",
+                "Les/senselesssolutions/gpl/weightchart/EntryActivity;->access$0(Les/senselesssolutions/gpl/weightchart/EntryActivity;)V",
+                "Les/senselesssolutions/gpl/weightchart/EntryActivity;->saveAndFinish()V",
+                "Les/senselesssolutions/gpl/weightchart/Database;->close()V"
+            ]
+        ],
+        "Les/senselesssolutions/gpl/weightchart/EntryActivity;->access$0(Les/senselesssolutions/gpl/weightchart/EntryActivity;)V": [
+            [
+                "Les/senselesssolutions/gpl/weightchart/EntryActivity$3;->onClick(Landroid/view/View;)V",
+                "Les/senselesssolutions/gpl/weightchart/EntryActivity;->access$0(Les/senselesssolutions/gpl/weightchart/EntryActivity;)V"
+            ]
+        ],
+        "Les/senselesssolutions/gpl/weightchart/EntryActivity$3;-><init>(Les/senselesssolutions/gpl/weightchart/EntryActivity;)V": [
+            [
+                "Les/senselesssolutions/gpl/weightchart/EntryActivity;->onCreate(Landroid/os/Bundle;)V",
+                "Les/senselesssolutions/gpl/weightchart/EntryActivity$3;-><init>(Les/senselesssolutions/gpl/weightchart/EntryActivity;)V"
+            ]
+        ],
+        "Les/senselesssolutions/gpl/weightchart/EntryActivity;->saveAndFinish()V": [
+            [
+                "Les/senselesssolutions/gpl/weightchart/EntryActivity;->access$0(Les/senselesssolutions/gpl/weightchart/EntryActivity;)V",
+                "Les/senselesssolutions/gpl/weightchart/EntryActivity;->saveAndFinish()V"
+            ],
+            [
+                "Les/senselesssolutions/gpl/weightchart/EntryActivity$3;->onClick(Landroid/view/View;)V",
+                "Les/senselesssolutions/gpl/weightchart/EntryActivity;->access$0(Les/senselesssolutions/gpl/weightchart/EntryActivity;)V",
+                "Les/senselesssolutions/gpl/weightchart/EntryActivity;->saveAndFinish()V"
+            ]
+        ],
+        "Les/senselesssolutions/gpl/weightchart/Database;->query(Ljava/lang/String;)Landroid/database/Cursor;": [
+            [
+                "Les/senselesssolutions/gpl/weightchart/EntryActivity;->onCreate(Landroid/os/Bundle;)V",
+                "Les/senselesssolutions/gpl/weightchart/Database;->query(Ljava/lang/String;)Landroid/database/Cursor;"
+            ]
+        ],
+        "Les/senselesssolutions/gpl/weightchart/EntryActivity;->initDateTime()V": [
+            [
+                "Les/senselesssolutions/gpl/weightchart/EntryActivity;->onCreate(Landroid/os/Bundle;)V",
+                "Les/senselesssolutions/gpl/weightchart/EntryActivity;->initDateTime()V"
+            ]
+        ]
+    }
+}

@@ -1,0 +1,168 @@
+{
+    "md5": "a131119fc7e54d2d65e78509d7a6a725",
+    "paths": {
+        "Lorg/jtb/alogcat/Level;->getHexColor()Ljava/lang/String;": [
+            [
+                "Lorg/jtb/alogcat/ShareService;->onHandleIntent(Landroid/content/Intent;)V",
+                "Lorg/jtb/alogcat/LogDumper;->dump(Z)Ljava/lang/String;",
+                "Lorg/jtb/alogcat/Level;->getHexColor()Ljava/lang/String;"
+            ]
+        ],
+        "Lorg/jtb/alogcat/Prefs;->getTextsize()Lorg/jtb/alogcat/Textsize;": [
+            [
+                "Lorg/jtb/alogcat/PrefsActivity;->onResume()V",
+                "Lorg/jtb/alogcat/PrefsActivity;->setTextsizeTitle()V",
+                "Lorg/jtb/alogcat/Prefs;->getTextsize()Lorg/jtb/alogcat/Textsize;"
+            ],
+            [
+                "Lorg/jtb/alogcat/PrefsActivity;->setTextsizeTitle()V",
+                "Lorg/jtb/alogcat/Prefs;->getTextsize()Lorg/jtb/alogcat/Textsize;"
+            ],
+            [
+                "Lorg/jtb/alogcat/PrefsActivity;->onSharedPreferenceChanged(Landroid/content/SharedPreferences;",
+                "Lorg/jtb/alogcat/PrefsActivity;->setTextsizeTitle()V",
+                "Lorg/jtb/alogcat/Prefs;->getTextsize()Lorg/jtb/alogcat/Textsize;"
+            ]
+        ],
+        "Lorg/jtb/alogcat/BackgroundColor;->valueOfHexColor(Ljava/lang/String;)Lorg/jtb/alogcat/BackgroundColor;": [
+            [
+                "Lorg/jtb/alogcat/PrefsActivity;->setBackgroundColorTitle()V",
+                "Lorg/jtb/alogcat/Prefs;->getBackgroundColor()Lorg/jtb/alogcat/BackgroundColor;",
+                "Lorg/jtb/alogcat/BackgroundColor;->valueOfHexColor(Ljava/lang/String;)Lorg/jtb/alogcat/BackgroundColor;"
+            ],
+            [
+                "Lorg/jtb/alogcat/PrefsActivity;->onResume()V",
+                "Lorg/jtb/alogcat/PrefsActivity;->setBackgroundColorTitle()V",
+                "Lorg/jtb/alogcat/Prefs;->getBackgroundColor()Lorg/jtb/alogcat/BackgroundColor;",
+                "Lorg/jtb/alogcat/BackgroundColor;->valueOfHexColor(Ljava/lang/String;)Lorg/jtb/alogcat/BackgroundColor;"
+            ],
+            [
+                "Lorg/jtb/alogcat/PrefsActivity;->onSharedPreferenceChanged(Landroid/content/SharedPreferences;",
+                "Lorg/jtb/alogcat/PrefsActivity;->setBackgroundColorTitle()V",
+                "Lorg/jtb/alogcat/Prefs;->getBackgroundColor()Lorg/jtb/alogcat/BackgroundColor;",
+                "Lorg/jtb/alogcat/BackgroundColor;->valueOfHexColor(Ljava/lang/String;)Lorg/jtb/alogcat/BackgroundColor;"
+            ]
+        ],
+        "Lorg/jtb/alogcat/PrefsActivity;->setBufferTitle()V": [
+            [
+                "Lorg/jtb/alogcat/PrefsActivity;->onResume()V",
+                "Lorg/jtb/alogcat/PrefsActivity;->setBufferTitle()V"
+            ],
+            [
+                "Lorg/jtb/alogcat/PrefsActivity;->onSharedPreferenceChanged(Landroid/content/SharedPreferences;",
+                "Lorg/jtb/alogcat/PrefsActivity;->setBufferTitle()V"
+            ]
+        ],
+        "Lorg/jtb/alogcat/Prefs;->setLevel(Lorg/jtb/alogcat/Level;)V": [
+            [
+                "Lorg/jtb/alogcat/ShareReceiver;->onReceive(Landroid/content/Context;",
+                "Lorg/jtb/alogcat/Intent;->handleExtras(Landroid/content/Context;",
+                "Lorg/jtb/alogcat/Prefs;->setLevel(Lorg/jtb/alogcat/Level;)V"
+            ]
+        ],
+        "Lorg/jtb/alogcat/Textsize;->getTitle(Landroid/content/Context;)Ljava/lang/String;": [
+            [
+                "Lorg/jtb/alogcat/PrefsActivity;->onResume()V",
+                "Lorg/jtb/alogcat/PrefsActivity;->setTextsizeTitle()V",
+                "Lorg/jtb/alogcat/Textsize;->getTitle(Landroid/content/Context;)Ljava/lang/String;"
+            ],
+            [
+                "Lorg/jtb/alogcat/PrefsActivity;->setTextsizeTitle()V",
+                "Lorg/jtb/alogcat/Textsize;->getTitle(Landroid/content/Context;)Ljava/lang/String;"
+            ],
+            [
+                "Lorg/jtb/alogcat/PrefsActivity;->onSharedPreferenceChanged(Landroid/content/SharedPreferences;",
+                "Lorg/jtb/alogcat/PrefsActivity;->setTextsizeTitle()V",
+                "Lorg/jtb/alogcat/Textsize;->getTitle(Landroid/content/Context;)Ljava/lang/String;"
+            ]
+        ],
+        "Lorg/jtb/alogcat/BackgroundColor;->valueOf(Ljava/lang/String;)Lorg/jtb/alogcat/BackgroundColor;": [
+            [
+                "Lorg/jtb/alogcat/PrefsActivity;->setBackgroundColorTitle()V",
+                "Lorg/jtb/alogcat/Prefs;->getBackgroundColor()Lorg/jtb/alogcat/BackgroundColor;",
+                "Lorg/jtb/alogcat/BackgroundColor;->valueOf(Ljava/lang/String;)Lorg/jtb/alogcat/BackgroundColor;"
+            ],
+            [
+                "Lorg/jtb/alogcat/PrefsActivity;->onResume()V",
+                "Lorg/jtb/alogcat/PrefsActivity;->setBackgroundColorTitle()V",
+                "Lorg/jtb/alogcat/Prefs;->getBackgroundColor()Lorg/jtb/alogcat/BackgroundColor;",
+                "Lorg/jtb/alogcat/BackgroundColor;->valueOf(Ljava/lang/String;)Lorg/jtb/alogcat/BackgroundColor;"
+            ],
+            [
+                "Lorg/jtb/alogcat/PrefsActivity;->onSharedPreferenceChanged(Landroid/content/SharedPreferences;",
+                "Lorg/jtb/alogcat/PrefsActivity;->setBackgroundColorTitle()V",
+                "Lorg/jtb/alogcat/Prefs;->getBackgroundColor()Lorg/jtb/alogcat/BackgroundColor;",
+                "Lorg/jtb/alogcat/BackgroundColor;->valueOf(Ljava/lang/String;)Lorg/jtb/alogcat/BackgroundColor;"
+            ]
+        ],
+        "Lorg/jtb/alogcat/Format;->getValue()Ljava/lang/String;": [
+            [
+                "Lorg/jtb/alogcat/ShareService;->onHandleIntent(Landroid/content/Intent;)V",
+                "Lorg/jtb/alogcat/LogDumper;->dump(Z)Ljava/lang/String;",
+                "Lorg/jtb/alogcat/Format;->getValue()Ljava/lang/String;"
+            ]
+        ],
+        "Lorg/jtb/alogcat/LogDumper;->dump(Z)Ljava/lang/String;": [
+            [
+                "Lorg/jtb/alogcat/ShareService;->onHandleIntent(Landroid/content/Intent;)V",
+                "Lorg/jtb/alogcat/LogDumper;->dump(Z)Ljava/lang/String;"
+            ]
+        ],
+        "Lorg/jtb/alogcat/Format;->getTitle(Landroid/content/Context;)Ljava/lang/String;": [
+            [
+                "Lorg/jtb/alogcat/PrefsActivity;->setFormatTitle()V",
+                "Lorg/jtb/alogcat/Format;->getTitle(Landroid/content/Context;)Ljava/lang/String;"
+            ],
+            [
+                "Lorg/jtb/alogcat/PrefsActivity;->onResume()V",
+                "Lorg/jtb/alogcat/PrefsActivity;->setFormatTitle()V",
+                "Lorg/jtb/alogcat/Format;->getTitle(Landroid/content/Context;)Ljava/lang/String;"
+            ],
+            [
+                "Lorg/jtb/alogcat/PrefsActivity;->onSharedPreferenceChanged(Landroid/content/SharedPreferences;",
+                "Lorg/jtb/alogcat/PrefsActivity;->setFormatTitle()V",
+                "Lorg/jtb/alogcat/Format;->getTitle(Landroid/content/Context;)Ljava/lang/String;"
+            ]
+        ],
+        "Lorg/jtb/alogcat/Lock;->acquire(Landroid/content/Context;)V": [
+            [
+                "Lorg/jtb/alogcat/ShareReceiver;->onReceive(Landroid/content/Context;",
+                "Lorg/jtb/alogcat/Lock;->acquire(Landroid/content/Context;)V"
+            ]
+        ],
+        "Lorg/jtb/alogcat/Prefs;->getFilterPattern()Ljava/util/regex/Pattern;": [
+            [
+                "Lorg/jtb/alogcat/ShareService;->onHandleIntent(Landroid/content/Intent;)V",
+                "Lorg/jtb/alogcat/LogDumper;->dump(Z)Ljava/lang/String;",
+                "Lorg/jtb/alogcat/Prefs;->getFilterPattern()Ljava/util/regex/Pattern;"
+            ]
+        ],
+        "Lorg/jtb/alogcat/PrefsActivity;->setLevelTitle()V": [
+            [
+                "Lorg/jtb/alogcat/PrefsActivity;->onResume()V",
+                "Lorg/jtb/alogcat/PrefsActivity;->setLevelTitle()V"
+            ],
+            [
+                "Lorg/jtb/alogcat/PrefsActivity;->onSharedPreferenceChanged(Landroid/content/SharedPreferences;",
+                "Lorg/jtb/alogcat/PrefsActivity;->setLevelTitle()V"
+            ]
+        ],
+        "Lorg/jtb/alogcat/PrefsActivity;->setFormatTitle()V": [
+            [
+                "Lorg/jtb/alogcat/PrefsActivity;->onResume()V",
+                "Lorg/jtb/alogcat/PrefsActivity;->setFormatTitle()V"
+            ],
+            [
+                "Lorg/jtb/alogcat/PrefsActivity;->onSharedPreferenceChanged(Landroid/content/SharedPreferences;",
+                "Lorg/jtb/alogcat/PrefsActivity;->setFormatTitle()V"
+            ]
+        ],
+        "Lorg/jtb/alogcat/Format;->getLevel(Ljava/lang/String;)Lorg/jtb/alogcat/Level;": [
+            [
+                "Lorg/jtb/alogcat/ShareService;->onHandleIntent(Landroid/content/Intent;)V",
+                "Lorg/jtb/alogcat/LogDumper;->dump(Z)Ljava/lang/String;",
+                "Lorg/jtb/alogcat/Format;->getLevel(Ljava/lang/String;)Lorg/jtb/alogcat/Level;"
+            ]
+        ]
+    }
+}

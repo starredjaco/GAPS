@@ -1,0 +1,63 @@
+{
+    "md5": "3dee9358f97b90ae8b9d6be99c412ac5",
+    "paths": {
+        "Lcom/everysoft/autoanswer/AutoAnswerNotifier;-><init>(Landroid/content/Context;)V": [
+            [
+                "Lcom/everysoft/autoanswer/AutoAnswerPreferenceActivity;->onCreate(Landroid/os/Bundle;)V",
+                "Lcom/everysoft/autoanswer/AutoAnswerNotifier;-><init>(Landroid/content/Context;)V"
+            ],
+            [
+                "Lcom/everysoft/autoanswer/AutoAnswerBootReceiver;->onReceive(Landroid/content/Context;",
+                "Lcom/everysoft/autoanswer/AutoAnswerNotifier;-><init>(Landroid/content/Context;)V"
+            ]
+        ],
+        "Lcom/everysoft/autoanswer/AutoAnswerNotifier;->updateNotification()V": [
+            [
+                "Lcom/everysoft/autoanswer/AutoAnswerPreferenceActivity;->onCreate(Landroid/os/Bundle;)V",
+                "Lcom/everysoft/autoanswer/AutoAnswerNotifier;->updateNotification()V"
+            ],
+            [
+                "Lcom/everysoft/autoanswer/AutoAnswerPreferenceActivity;->onSharedPreferenceChanged(Landroid/content/SharedPreferences;",
+                "Lcom/everysoft/autoanswer/AutoAnswerNotifier;->updateNotification()V"
+            ],
+            [
+                "Lcom/everysoft/autoanswer/AutoAnswerBootReceiver;->onReceive(Landroid/content/Context;",
+                "Lcom/everysoft/autoanswer/AutoAnswerNotifier;->updateNotification()V"
+            ]
+        ],
+        "Lcom/everysoft/autoanswer/AutoAnswerNotifier;->disableNotification()V": [
+            [
+                "Lcom/everysoft/autoanswer/AutoAnswerPreferenceActivity;->onCreate(Landroid/os/Bundle;)V",
+                "Lcom/everysoft/autoanswer/AutoAnswerNotifier;->updateNotification()V",
+                "Lcom/everysoft/autoanswer/AutoAnswerNotifier;->disableNotification()V"
+            ],
+            [
+                "Lcom/everysoft/autoanswer/AutoAnswerPreferenceActivity;->onSharedPreferenceChanged(Landroid/content/SharedPreferences;",
+                "Lcom/everysoft/autoanswer/AutoAnswerNotifier;->updateNotification()V",
+                "Lcom/everysoft/autoanswer/AutoAnswerNotifier;->disableNotification()V"
+            ],
+            [
+                "Lcom/everysoft/autoanswer/AutoAnswerBootReceiver;->onReceive(Landroid/content/Context;",
+                "Lcom/everysoft/autoanswer/AutoAnswerNotifier;->updateNotification()V",
+                "Lcom/everysoft/autoanswer/AutoAnswerNotifier;->disableNotification()V"
+            ]
+        ],
+        "Lcom/everysoft/autoanswer/AutoAnswerNotifier;->enableNotification()V": [
+            [
+                "Lcom/everysoft/autoanswer/AutoAnswerPreferenceActivity;->onCreate(Landroid/os/Bundle;)V",
+                "Lcom/everysoft/autoanswer/AutoAnswerNotifier;->updateNotification()V",
+                "Lcom/everysoft/autoanswer/AutoAnswerNotifier;->enableNotification()V"
+            ],
+            [
+                "Lcom/everysoft/autoanswer/AutoAnswerPreferenceActivity;->onSharedPreferenceChanged(Landroid/content/SharedPreferences;",
+                "Lcom/everysoft/autoanswer/AutoAnswerNotifier;->updateNotification()V",
+                "Lcom/everysoft/autoanswer/AutoAnswerNotifier;->enableNotification()V"
+            ],
+            [
+                "Lcom/everysoft/autoanswer/AutoAnswerBootReceiver;->onReceive(Landroid/content/Context;",
+                "Lcom/everysoft/autoanswer/AutoAnswerNotifier;->updateNotification()V",
+                "Lcom/everysoft/autoanswer/AutoAnswerNotifier;->enableNotification()V"
+            ]
+        ]
+    }
+}

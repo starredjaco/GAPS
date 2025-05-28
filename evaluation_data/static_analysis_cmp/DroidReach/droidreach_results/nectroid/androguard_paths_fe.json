@@ -1,0 +1,85 @@
+{
+    "md5": "cd764cb370098ecea32a0475ebb1dea6",
+    "paths": {
+        "Lcom/kvance/Nectroid/SiteActivity;->getSiteForUri(Landroid/net/Uri;)Lcom/kvance/Nectroid/Site;": [
+            [
+                "Lcom/kvance/Nectroid/SiteActivity;->onCreate(Landroid/os/Bundle;)V",
+                "Lcom/kvance/Nectroid/SiteActivity;->getSiteForUri(Landroid/net/Uri;)Lcom/kvance/Nectroid/Site;"
+            ]
+        ],
+        "Lcom/kvance/Nectroid/BackgroundColorizer;->shiftBackgroundColorTo(I)V": [
+            [
+                "Lcom/kvance/Nectroid/SiteActivity;->updateBackgroundColor(Ljava/lang/String;)V",
+                "Lcom/kvance/Nectroid/SiteActivity;->updateBackgroundColor(Ljava/lang/Integer;)V",
+                "Lcom/kvance/Nectroid/BackgroundColorizer;->shiftBackgroundColorTo(I)V"
+            ],
+            [
+                "Lcom/kvance/Nectroid/SiteActivity;->access$100(Lcom/kvance/Nectroid/SiteActivity;",
+                "Lcom/kvance/Nectroid/SiteActivity;->updateBackgroundColor(Ljava/lang/String;)V",
+                "Lcom/kvance/Nectroid/SiteActivity;->updateBackgroundColor(Ljava/lang/Integer;)V",
+                "Lcom/kvance/Nectroid/BackgroundColorizer;->shiftBackgroundColorTo(I)V"
+            ],
+            [
+                "Lcom/kvance/Nectroid/SiteActivity;->updateBackgroundColor(Ljava/lang/Integer;)V",
+                "Lcom/kvance/Nectroid/BackgroundColorizer;->shiftBackgroundColorTo(I)V"
+            ],
+            [
+                "Lcom/kvance/Nectroid/SiteActivity$3;->afterTextChanged(Landroid/text/Editable;)V",
+                "Lcom/kvance/Nectroid/SiteActivity;->access$100(Lcom/kvance/Nectroid/SiteActivity;",
+                "Lcom/kvance/Nectroid/SiteActivity;->updateBackgroundColor(Ljava/lang/String;)V",
+                "Lcom/kvance/Nectroid/SiteActivity;->updateBackgroundColor(Ljava/lang/Integer;)V",
+                "Lcom/kvance/Nectroid/BackgroundColorizer;->shiftBackgroundColorTo(I)V"
+            ],
+            [
+                "Lcom/kvance/Nectroid/SiteActivity;->onCreate(Landroid/os/Bundle;)V",
+                "Lcom/kvance/Nectroid/SiteActivity;->updateBackgroundColor(Ljava/lang/Integer;)V",
+                "Lcom/kvance/Nectroid/BackgroundColorizer;->shiftBackgroundColorTo(I)V"
+            ]
+        ],
+        "Lcom/kvance/Nectroid/SettingsActivity;->access$200(Lcom/kvance/Nectroid/SettingsActivity;)Landroid/database/sqlite/SQLiteDatabase;": [
+            [
+                "Lcom/kvance/Nectroid/SettingsActivity$2;->onMenuItemClick(Landroid/view/MenuItem;)Z",
+                "Lcom/kvance/Nectroid/SettingsActivity;->access$200(Lcom/kvance/Nectroid/SettingsActivity;)Landroid/database/sqlite/SQLiteDatabase;"
+            ]
+        ],
+        "Lcom/kvance/Nectroid/DbDataHelper;->updateSite(Lcom/kvance/Nectroid/Site;)V": [
+            [
+                "Lcom/kvance/Nectroid/SiteActivity$1;->onClick(Landroid/view/View;)V",
+                "Lcom/kvance/Nectroid/SiteActivity;->access$000(Lcom/kvance/Nectroid/SiteActivity;)V",
+                "Lcom/kvance/Nectroid/SiteActivity;->saveAndFinish()V",
+                "Lcom/kvance/Nectroid/DbDataHelper;->updateSite(Lcom/kvance/Nectroid/Site;)V"
+            ],
+            [
+                "Lcom/kvance/Nectroid/SiteActivity$4;->onEditorAction(Landroid/widget/TextView;",
+                "Lcom/kvance/Nectroid/SiteActivity;->access$000(Lcom/kvance/Nectroid/SiteActivity;)V",
+                "Lcom/kvance/Nectroid/SiteActivity;->saveAndFinish()V",
+                "Lcom/kvance/Nectroid/DbDataHelper;->updateSite(Lcom/kvance/Nectroid/Site;)V"
+            ],
+            [
+                "Lcom/kvance/Nectroid/SiteActivity;->saveAndFinish()V",
+                "Lcom/kvance/Nectroid/DbDataHelper;->updateSite(Lcom/kvance/Nectroid/Site;)V"
+            ],
+            [
+                "Lcom/kvance/Nectroid/SiteActivity;->access$000(Lcom/kvance/Nectroid/SiteActivity;)V",
+                "Lcom/kvance/Nectroid/SiteActivity;->saveAndFinish()V",
+                "Lcom/kvance/Nectroid/DbDataHelper;->updateSite(Lcom/kvance/Nectroid/Site;)V"
+            ]
+        ],
+        "Lcom/kvance/Nectroid/SitePreference;->setOnNewSiteClickListener(Landroid/content/DialogInterface$OnClickListener;)V": [
+            [
+                "Lcom/kvance/Nectroid/SettingsActivity;->onCreate(Landroid/os/Bundle;)V",
+                "Lcom/kvance/Nectroid/SitePreference;->setOnNewSiteClickListener(Landroid/content/DialogInterface$OnClickListener;)V"
+            ]
+        ],
+        "Lcom/kvance/Nectroid/SettingsActivity;->access$400(Lcom/kvance/Nectroid/SettingsActivity;)I": [
+            [
+                "Lcom/kvance/Nectroid/SettingsActivity$2;->onMenuItemClick(Landroid/view/MenuItem;)Z",
+                "Lcom/kvance/Nectroid/SettingsActivity;->access$400(Lcom/kvance/Nectroid/SettingsActivity;)I"
+            ],
+            [
+                "Lcom/kvance/Nectroid/SettingsActivity$3;->onClick(Landroid/content/DialogInterface;",
+                "Lcom/kvance/Nectroid/SettingsActivity;->access$400(Lcom/kvance/Nectroid/SettingsActivity;)I"
+            ]
+        ]
+    }
+}

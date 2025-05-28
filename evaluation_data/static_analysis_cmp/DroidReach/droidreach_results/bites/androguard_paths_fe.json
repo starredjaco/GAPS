@@ -1,0 +1,103 @@
+{
+    "md5": "4038b9b3cc1331ea9763ce2dd7626194",
+    "paths": {
+        "Lcaldwell/ben/bites/RecipeList$1;-><init>(Lcaldwell/ben/bites/RecipeList;)V": [
+            [
+                "Lcaldwell/ben/bites/RecipeList;->onCreateDialog(I)Landroid/app/Dialog;",
+                "Lcaldwell/ben/bites/RecipeList$1;-><init>(Lcaldwell/ben/bites/RecipeList;)V"
+            ]
+        ],
+        "Lcaldwell/ben/bites/RecipeList;->access$700(Lcaldwell/ben/bites/RecipeList;)Landroid/widget/TextView;": [
+            [
+                "Lcaldwell/ben/bites/RecipeList$6;->onClick(Landroid/content/DialogInterface;",
+                "Lcaldwell/ben/bites/RecipeList;->access$700(Lcaldwell/ben/bites/RecipeList;)Landroid/widget/TextView;"
+            ]
+        ],
+        "Lcaldwell/ben/bites/RecipeList;->sendEmailRecipe()V": [
+            [
+                "Lcaldwell/ben/bites/RecipeList;->onContextItemSelected(Landroid/view/MenuItem;)Z",
+                "Lcaldwell/ben/bites/RecipeList;->sendEmailRecipe()V"
+            ]
+        ],
+        "Lcaldwell/ben/bites/MethodList;->access$200(Lcaldwell/ben/bites/MethodList;)Landroid/net/Uri;": [
+            [
+                "Lcaldwell/ben/bites/MethodList$4;->onClick(Landroid/content/DialogInterface;",
+                "Lcaldwell/ben/bites/MethodList;->access$200(Lcaldwell/ben/bites/MethodList;)Landroid/net/Uri;"
+            ],
+            [
+                "Lcaldwell/ben/bites/MethodList$2;->onClick(Landroid/content/DialogInterface;",
+                "Lcaldwell/ben/bites/MethodList;->access$200(Lcaldwell/ben/bites/MethodList;)Landroid/net/Uri;"
+            ]
+        ],
+        "Lcaldwell/ben/bites/RecipeList;->access$100(Lcaldwell/ben/bites/RecipeList;)Landroid/widget/EditText;": [
+            [
+                "Lcaldwell/ben/bites/RecipeList$2;->onClick(Landroid/content/DialogInterface;",
+                "Lcaldwell/ben/bites/RecipeList;->access$100(Lcaldwell/ben/bites/RecipeList;)Landroid/widget/EditText;"
+            ],
+            [
+                "Lcaldwell/ben/bites/RecipeList$4;->onClick(Landroid/content/DialogInterface;",
+                "Lcaldwell/ben/bites/RecipeList;->access$100(Lcaldwell/ben/bites/RecipeList;)Landroid/widget/EditText;"
+            ]
+        ],
+        "Lcaldwell/ben/bites/RecipeList;->access$400(Lcaldwell/ben/bites/RecipeList;)Landroid/net/Uri;": [
+            [
+                "Lcaldwell/ben/bites/RecipeList$2;->onClick(Landroid/content/DialogInterface;",
+                "Lcaldwell/ben/bites/RecipeList;->access$400(Lcaldwell/ben/bites/RecipeList;)Landroid/net/Uri;"
+            ],
+            [
+                "Lcaldwell/ben/bites/RecipeList$4;->onClick(Landroid/content/DialogInterface;",
+                "Lcaldwell/ben/bites/RecipeList;->access$400(Lcaldwell/ben/bites/RecipeList;)Landroid/net/Uri;"
+            ],
+            [
+                "Lcaldwell/ben/bites/RecipeList$6;->onClick(Landroid/content/DialogInterface;",
+                "Lcaldwell/ben/bites/RecipeList;->access$400(Lcaldwell/ben/bites/RecipeList;)Landroid/net/Uri;"
+            ]
+        ],
+        "Lcaldwell/ben/bites/MethodList$3;-><init>(Lcaldwell/ben/bites/MethodList;)V": [
+            [
+                "Lcaldwell/ben/bites/MethodList;->onCreateDialog(I)Landroid/app/Dialog;",
+                "Lcaldwell/ben/bites/MethodList$3;-><init>(Lcaldwell/ben/bites/MethodList;)V"
+            ]
+        ],
+        "Lcaldwell/ben/bites/RecipeList;->access$000()[Ljava/lang/String;": [
+            [
+                "Lcaldwell/ben/bites/RecipeList$RecipeAdapter;->runQueryOnBackgroundThread(Ljava/lang/CharSequence;)Landroid/database/Cursor;",
+                "Lcaldwell/ben/bites/RecipeList;->access$000()[Ljava/lang/String;"
+            ]
+        ],
+        "Lcaldwell/ben/bites/RecipeList;->access$300(Lcaldwell/ben/bites/RecipeList;)Landroid/widget/EditText;": [
+            [
+                "Lcaldwell/ben/bites/RecipeList$2;->onClick(Landroid/content/DialogInterface;",
+                "Lcaldwell/ben/bites/RecipeList;->access$300(Lcaldwell/ben/bites/RecipeList;)Landroid/widget/EditText;"
+            ],
+            [
+                "Lcaldwell/ben/bites/RecipeList$4;->onClick(Landroid/content/DialogInterface;",
+                "Lcaldwell/ben/bites/RecipeList;->access$300(Lcaldwell/ben/bites/RecipeList;)Landroid/widget/EditText;"
+            ]
+        ],
+        "Lcaldwell/ben/bites/MethodList$2;-><init>(Lcaldwell/ben/bites/MethodList;)V": [
+            [
+                "Lcaldwell/ben/bites/MethodList;->onCreateDialog(I)Landroid/app/Dialog;",
+                "Lcaldwell/ben/bites/MethodList$2;-><init>(Lcaldwell/ben/bites/MethodList;)V"
+            ]
+        ],
+        "Lcaldwell/ben/bites/RecipeList$2;-><init>(Lcaldwell/ben/bites/RecipeList;)V": [
+            [
+                "Lcaldwell/ben/bites/RecipeList;->onCreateDialog(I)Landroid/app/Dialog;",
+                "Lcaldwell/ben/bites/RecipeList$2;-><init>(Lcaldwell/ben/bites/RecipeList;)V"
+            ]
+        ],
+        "Lcaldwell/ben/bites/RecipeList;->sendSMSRecipe()V": [
+            [
+                "Lcaldwell/ben/bites/RecipeList;->onContextItemSelected(Landroid/view/MenuItem;)Z",
+                "Lcaldwell/ben/bites/RecipeList;->sendSMSRecipe()V"
+            ]
+        ],
+        "Lcaldwell/ben/bites/RecipeList$4;-><init>(Lcaldwell/ben/bites/RecipeList;)V": [
+            [
+                "Lcaldwell/ben/bites/RecipeList;->onCreateDialog(I)Landroid/app/Dialog;",
+                "Lcaldwell/ben/bites/RecipeList$4;-><init>(Lcaldwell/ben/bites/RecipeList;)V"
+            ]
+        ]
+    }
+}

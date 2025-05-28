@@ -1,0 +1,34 @@
+{
+    "md5": "abdd0ea4f87b8cb4e469c32274ea03e3",
+    "paths": {
+        "Lcom/chmod0/manpages/ManualActivity;->checkPageFilesOnExternalStorage(Ljava/lang/String;)Z": [
+            [
+                "Lcom/chmod0/manpages/BrowserActivity;->onCreate(Landroid/os/Bundle;)V",
+                "Lcom/chmod0/manpages/ManualActivity;->checkPageFilesOnExternalStorage(Ljava/lang/String;)Z"
+            ]
+        ],
+        "Lcom/chmod0/manpages/Page;->getName()Ljava/lang/String;": [
+            [
+                "Lcom/chmod0/manpages/BrowserActivity;->onCreate(Landroid/os/Bundle;)V",
+                "Lcom/chmod0/manpages/Page;->getName()Ljava/lang/String;"
+            ]
+        ],
+        "Lcom/chmod0/manpages/BrowserActivity$MyWebViewClient;-><init>(Lcom/chmod0/manpages/BrowserActivity;)V": [
+            [
+                "Lcom/chmod0/manpages/BrowserActivity;->onCreate(Landroid/os/Bundle;)V",
+                "Lcom/chmod0/manpages/BrowserActivity$MyWebViewClient;-><init>(Lcom/chmod0/manpages/BrowserActivity;",
+                "Lcom/chmod0/manpages/BrowserActivity$MyWebViewClient;-><init>(Lcom/chmod0/manpages/BrowserActivity;)V"
+            ],
+            [
+                "Lcom/chmod0/manpages/BrowserActivity$MyWebViewClient;-><init>(Lcom/chmod0/manpages/BrowserActivity;",
+                "Lcom/chmod0/manpages/BrowserActivity$MyWebViewClient;-><init>(Lcom/chmod0/manpages/BrowserActivity;)V"
+            ]
+        ],
+        "Lcom/chmod0/manpages/Page;->getSection()I": [
+            [
+                "Lcom/chmod0/manpages/BrowserActivity;->onCreate(Landroid/os/Bundle;)V",
+                "Lcom/chmod0/manpages/Page;->getSection()I"
+            ]
+        ]
+    }
+}

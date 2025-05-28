@@ -1,0 +1,110 @@
+{
+    "md5": "960d5c3572ca30db1e7af1e94ad64819",
+    "paths": {
+        "Lorg/jessies/dalvikexplorer/Utils;->prettySize(J)Ljava/lang/String;": [
+            [
+                "Lorg/jessies/dalvikexplorer/FileSystemActivity$FileListItem;->toSubtitle()Ljava/lang/String;",
+                "Lorg/jessies/dalvikexplorer/Utils;->prettySize(J)Ljava/lang/String;"
+            ]
+        ],
+        "Lorg/jessies/dalvikexplorer/LocaleActivity;->localeDataClass()Ljava/lang/Class;": [
+            [
+                "Lorg/jessies/dalvikexplorer/LocaleActivity;->describeLocale(Ljava/lang/String;)Ljava/lang/String;",
+                "Lorg/jessies/dalvikexplorer/LocaleActivity;->hasLocaleData()Z",
+                "Lorg/jessies/dalvikexplorer/LocaleActivity;->localeDataClass()Ljava/lang/Class;"
+            ],
+            [
+                "Lorg/jessies/dalvikexplorer/LocaleActivity;->getLocaleDataInstance(Ljava/util/Locale;)Ljava/lang/Object;",
+                "Lorg/jessies/dalvikexplorer/LocaleActivity;->localeDataClass()Ljava/lang/Class;"
+            ],
+            [
+                "Lorg/jessies/dalvikexplorer/LocaleActivity;->content(Ljava/lang/String;)Ljava/lang/String;",
+                "Lorg/jessies/dalvikexplorer/LocaleActivity;->describeLocale(Ljava/lang/String;)Ljava/lang/String;",
+                "Lorg/jessies/dalvikexplorer/LocaleActivity;->hasLocaleData()Z",
+                "Lorg/jessies/dalvikexplorer/LocaleActivity;->localeDataClass()Ljava/lang/Class;"
+            ],
+            [
+                "Lorg/jessies/dalvikexplorer/LocaleActivity;->hasLocaleData()Z",
+                "Lorg/jessies/dalvikexplorer/LocaleActivity;->localeDataClass()Ljava/lang/Class;"
+            ]
+        ],
+        "Lorg/jessies/dalvikexplorer/FileSystemActivity$FileListItem;-><init>(Ljava/io/File;)V": [
+            [
+                "Lorg/jessies/dalvikexplorer/FileSystemActivity;->onCreate(Landroid/os/Bundle;)V",
+                "Lorg/jessies/dalvikexplorer/FileSystemActivity;->directoryItems(Ljava/lang/String;)Ljava/util/List;",
+                "Lorg/jessies/dalvikexplorer/FileSystemActivity$FileListItem;-><init>(Ljava/io/File;",
+                "Lorg/jessies/dalvikexplorer/FileSystemActivity$FileListItem;-><init>(Ljava/io/File;)V"
+            ],
+            [
+                "Lorg/jessies/dalvikexplorer/FileSystemActivity;->directoryItems(Ljava/lang/String;)Ljava/util/List;",
+                "Lorg/jessies/dalvikexplorer/FileSystemActivity$FileListItem;-><init>(Ljava/io/File;",
+                "Lorg/jessies/dalvikexplorer/FileSystemActivity$FileListItem;-><init>(Ljava/io/File;)V"
+            ],
+            [
+                "Lorg/jessies/dalvikexplorer/FileSystemActivity$FileListItem;-><init>(Ljava/io/File;",
+                "Lorg/jessies/dalvikexplorer/FileSystemActivity$FileListItem;-><init>(Ljava/io/File;)V"
+            ]
+        ],
+        "Lorg/jessies/dalvikexplorer/LocaleActivity;->unicodeString(Ljava/lang/String;)Ljava/lang/String;": [
+            [
+                "Lorg/jessies/dalvikexplorer/LocaleActivity;->describeChar(Ljava/lang/StringBuilder;",
+                "Lorg/jessies/dalvikexplorer/LocaleActivity;->unicodeString(C)Ljava/lang/String;",
+                "Lorg/jessies/dalvikexplorer/LocaleActivity;->unicodeString(Ljava/lang/String;)Ljava/lang/String;"
+            ],
+            [
+                "Lorg/jessies/dalvikexplorer/LocaleActivity;->describeLocale(Ljava/lang/String;)Ljava/lang/String;",
+                "Lorg/jessies/dalvikexplorer/LocaleActivity;->unicodeString(Ljava/lang/String;)Ljava/lang/String;"
+            ],
+            [
+                "Lorg/jessies/dalvikexplorer/LocaleActivity;->unicodeString(C)Ljava/lang/String;",
+                "Lorg/jessies/dalvikexplorer/LocaleActivity;->unicodeString(Ljava/lang/String;)Ljava/lang/String;"
+            ],
+            [
+                "Lorg/jessies/dalvikexplorer/LocaleActivity;->describeDecimalFormatSymbols(Ljava/lang/StringBuilder;",
+                "Lorg/jessies/dalvikexplorer/LocaleActivity;->unicodeString(C)Ljava/lang/String;",
+                "Lorg/jessies/dalvikexplorer/LocaleActivity;->unicodeString(Ljava/lang/String;)Ljava/lang/String;"
+            ],
+            [
+                "Lorg/jessies/dalvikexplorer/LocaleActivity;->content(Ljava/lang/String;)Ljava/lang/String;",
+                "Lorg/jessies/dalvikexplorer/LocaleActivity;->describeLocale(Ljava/lang/String;)Ljava/lang/String;",
+                "Lorg/jessies/dalvikexplorer/LocaleActivity;->unicodeString(Ljava/lang/String;)Ljava/lang/String;"
+            ],
+            [
+                "Lorg/jessies/dalvikexplorer/LocaleActivity;->describeString(Ljava/lang/StringBuilder;",
+                "Lorg/jessies/dalvikexplorer/LocaleActivity;->unicodeString(Ljava/lang/String;)Ljava/lang/String;"
+            ]
+        ],
+        "Lorg/jessies/dalvikexplorer/EnvironmentVariablesActivity;->getEnvironmentAsString()Ljava/lang/String;": [
+            [
+                "Lorg/jessies/dalvikexplorer/EnvironmentVariablesActivity;->content(Ljava/lang/String;)Ljava/lang/String;",
+                "Lorg/jessies/dalvikexplorer/EnvironmentVariablesActivity;->getEnvironmentAsString()Ljava/lang/String;"
+            ]
+        ],
+        "Lorg/jessies/dalvikexplorer/TimeZoneActivity;->describeTimeZone(Ljava/lang/String;)Ljava/lang/String;": [
+            [
+                "Lorg/jessies/dalvikexplorer/TimeZoneActivity;->content(Ljava/lang/String;)Ljava/lang/String;",
+                "Lorg/jessies/dalvikexplorer/TimeZoneActivity;->describeTimeZone(Ljava/lang/String;)Ljava/lang/String;"
+            ]
+        ],
+        "Lorg/jessies/dalvikexplorer/FileSystemActivity;->directoryItems(Ljava/lang/String;)Ljava/util/List;": [
+            [
+                "Lorg/jessies/dalvikexplorer/FileSystemActivity;->onCreate(Landroid/os/Bundle;)V",
+                "Lorg/jessies/dalvikexplorer/FileSystemActivity;->directoryItems(Ljava/lang/String;)Ljava/util/List;"
+            ]
+        ],
+        "Lorg/jessies/dalvikexplorer/Compatibility$PreGingerbreadCompatibility;-><init>()V": [
+            [
+                "Lorg/jessies/dalvikexplorer/LocalesActivity;->onCreate(Landroid/os/Bundle;)V",
+                "Lorg/jessies/dalvikexplorer/BetterListActivity;->onCreate(Landroid/os/Bundle;)V",
+                "Lorg/jessies/dalvikexplorer/Compatibility;->get()Lorg/jessies/dalvikexplorer/Compatibility;",
+                "Lorg/jessies/dalvikexplorer/Compatibility$PreGingerbreadCompatibility;-><init>()V"
+            ],
+            [
+                "Lorg/jessies/dalvikexplorer/FileSystemActivity;->onCreate(Landroid/os/Bundle;)V",
+                "Lorg/jessies/dalvikexplorer/BetterListActivity;->onCreate(Landroid/os/Bundle;)V",
+                "Lorg/jessies/dalvikexplorer/Compatibility;->get()Lorg/jessies/dalvikexplorer/Compatibility;",
+                "Lorg/jessies/dalvikexplorer/Compatibility$PreGingerbreadCompatibility;-><init>()V"
+            ]
+        ]
+    }
+}

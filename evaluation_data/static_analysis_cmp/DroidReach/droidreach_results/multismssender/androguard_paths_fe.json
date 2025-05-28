@@ -1,0 +1,98 @@
+{
+    "md5": "74643d9b5d342a721a430fe62d3ade43",
+    "paths": {
+        "Lcom/hectorone/multismssender/GroupEditActivity;->reNameGroup()V": [
+            [
+                "Lcom/hectorone/multismssender/GroupEditActivity$1;->onClick(Landroid/view/View;)V",
+                "Lcom/hectorone/multismssender/GroupEditActivity;->access$100(Lcom/hectorone/multismssender/GroupEditActivity;)V",
+                "Lcom/hectorone/multismssender/GroupEditActivity;->reNameGroup()V"
+            ],
+            [
+                "Lcom/hectorone/multismssender/GroupEditActivity;->access$100(Lcom/hectorone/multismssender/GroupEditActivity;)V",
+                "Lcom/hectorone/multismssender/GroupEditActivity;->reNameGroup()V"
+            ]
+        ],
+        "Lcom/hectorone/multismssender/GroupsDbAdapter;->close()V": [
+            [
+                "Lcom/hectorone/multismssender/GroupEditActivity;->onStop()V",
+                "Lcom/hectorone/multismssender/GroupsDbAdapter;->close()V"
+            ]
+        ],
+        "Lcom/hectorone/multismssender/GroupsDbAdapter;-><init>(Landroid/content/Context;)V": [
+            [
+                "Lcom/hectorone/multismssender/GroupEditActivity;->onCreate(Landroid/os/Bundle;)V",
+                "Lcom/hectorone/multismssender/GroupsDbAdapter;-><init>(Landroid/content/Context;)V"
+            ]
+        ],
+        "Lcom/hectorone/multismssender/PhoneNumberSelection$PhoneDataListAdapter$1;-><init>(Lcom/hectorone/multismssender/PhoneNumberSelection$PhoneDataListAdapter;)V": [
+            [
+                "Lcom/hectorone/multismssender/PhoneNumberSelection$PhoneDataListAdapter;->getView(I",
+                "Lcom/hectorone/multismssender/PhoneNumberSelection$PhoneDataListAdapter$1;-><init>(Lcom/hectorone/multismssender/PhoneNumberSelection$PhoneDataListAdapter;)V"
+            ]
+        ],
+        "Lcom/hectorone/multismssender/GroupEditActivity;->access$000(Lcom/hectorone/multismssender/GroupEditActivity;)V": [
+            [
+                "Lcom/hectorone/multismssender/GroupEditActivity$1;->onClick(Landroid/view/View;)V",
+                "Lcom/hectorone/multismssender/GroupEditActivity;->access$000(Lcom/hectorone/multismssender/GroupEditActivity;)V"
+            ],
+            [
+                "Lcom/hectorone/multismssender/GroupEditActivity$addNumberToGroupClickListener;->onClick(Landroid/view/View;)V",
+                "Lcom/hectorone/multismssender/GroupEditActivity;->access$000(Lcom/hectorone/multismssender/GroupEditActivity;)V"
+            ]
+        ],
+        "Lcom/hectorone/multismssender/GroupEditActivity$GroupDataListAdapter$1;-><init>(Lcom/hectorone/multismssender/GroupEditActivity$GroupDataListAdapter;)V": [
+            [
+                "Lcom/hectorone/multismssender/GroupEditActivity$GroupDataListAdapter;->getView(I",
+                "Lcom/hectorone/multismssender/GroupEditActivity$GroupDataListAdapter$1;-><init>(Lcom/hectorone/multismssender/GroupEditActivity$GroupDataListAdapter;)V"
+            ]
+        ],
+        "Lcom/hectorone/multismssender/GroupEditActivity;->createGroup()V": [
+            [
+                "Lcom/hectorone/multismssender/GroupEditActivity$1;->onClick(Landroid/view/View;)V",
+                "Lcom/hectorone/multismssender/GroupEditActivity;->access$000(Lcom/hectorone/multismssender/GroupEditActivity;)V",
+                "Lcom/hectorone/multismssender/GroupEditActivity;->createGroup()V"
+            ],
+            [
+                "Lcom/hectorone/multismssender/GroupEditActivity;->access$000(Lcom/hectorone/multismssender/GroupEditActivity;)V",
+                "Lcom/hectorone/multismssender/GroupEditActivity;->createGroup()V"
+            ],
+            [
+                "Lcom/hectorone/multismssender/GroupEditActivity$addNumberToGroupClickListener;->onClick(Landroid/view/View;)V",
+                "Lcom/hectorone/multismssender/GroupEditActivity;->access$000(Lcom/hectorone/multismssender/GroupEditActivity;)V",
+                "Lcom/hectorone/multismssender/GroupEditActivity;->createGroup()V"
+            ]
+        ],
+        "Lcom/hectorone/multismssender/PhoneNumberSelection;->fillData()V": [
+            [
+                "Lcom/hectorone/multismssender/PhoneNumberSelection;->onCreate(Landroid/os/Bundle;)V",
+                "Lcom/hectorone/multismssender/PhoneNumberSelection;->fillData()V"
+            ],
+            [
+                "Lcom/hectorone/multismssender/PhoneNumberSelection;->onActivityResult(I",
+                "Lcom/hectorone/multismssender/PhoneNumberSelection;->fillData()V"
+            ],
+            [
+                "Lcom/hectorone/multismssender/PhoneNumberSelection;->onMenuItemSelected(I",
+                "Lcom/hectorone/multismssender/PhoneNumberSelection;->fillData()V"
+            ]
+        ],
+        "Lcom/hectorone/multismssender/PhoneNumberSelection;->display_group_list()V": [
+            [
+                "Lcom/hectorone/multismssender/PhoneNumberSelection;->onMenuItemSelected(I",
+                "Lcom/hectorone/multismssender/PhoneNumberSelection;->display_group_list()V"
+            ]
+        ],
+        "Lcom/hectorone/multismssender/GroupsDbAdapter;->fetchPhonesFromGroup(J)Landroid/database/Cursor;": [
+            [
+                "Lcom/hectorone/multismssender/GroupEditActivity;->onCreate(Landroid/os/Bundle;)V",
+                "Lcom/hectorone/multismssender/GroupsDbAdapter;->fetchPhonesFromGroup(J)Landroid/database/Cursor;"
+            ]
+        ],
+        "Lcom/hectorone/multismssender/GroupEditActivity;->access$100(Lcom/hectorone/multismssender/GroupEditActivity;)V": [
+            [
+                "Lcom/hectorone/multismssender/GroupEditActivity$1;->onClick(Landroid/view/View;)V",
+                "Lcom/hectorone/multismssender/GroupEditActivity;->access$100(Lcom/hectorone/multismssender/GroupEditActivity;)V"
+            ]
+        ]
+    }
+}

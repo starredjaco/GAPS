@@ -1,0 +1,29 @@
+{
+    "md5": "99461ac2133f4bfeda1004e208af6199",
+    "paths": {
+        "Lnet/jaqpot/netcounter/activity/NetCounterPreferences;->access$000(Lnet/jaqpot/netcounter/activity/NetCounterPreferences;)V": [
+            [
+                "Lnet/jaqpot/netcounter/activity/NetCounterPreferences$1;->onPreferenceClick(Landroid/preference/Preference;)Z",
+                "Lnet/jaqpot/netcounter/activity/NetCounterPreferences;->access$000(Lnet/jaqpot/netcounter/activity/NetCounterPreferences;)V"
+            ]
+        ],
+        "Lnet/jaqpot/netcounter/activity/NetCounterPreferences$2;-><init>(Lnet/jaqpot/netcounter/activity/NetCounterPreferences;)V": [
+            [
+                "Lnet/jaqpot/netcounter/activity/NetCounterPreferences;->onCreate(Landroid/os/Bundle;)V",
+                "Lnet/jaqpot/netcounter/activity/NetCounterPreferences$2;-><init>(Lnet/jaqpot/netcounter/activity/NetCounterPreferences;)V"
+            ]
+        ],
+        "Lnet/jaqpot/netcounter/activity/NetCounterPreferences;->access$100(Lnet/jaqpot/netcounter/activity/NetCounterPreferences;)V": [
+            [
+                "Lnet/jaqpot/netcounter/activity/NetCounterPreferences$2$1;->onClick(Landroid/content/DialogInterface;",
+                "Lnet/jaqpot/netcounter/activity/NetCounterPreferences;->access$100(Lnet/jaqpot/netcounter/activity/NetCounterPreferences;)V"
+            ]
+        ],
+        "Lnet/jaqpot/netcounter/activity/NetCounterPreferences$2$1;-><init>(Lnet/jaqpot/netcounter/activity/NetCounterPreferences$2;)V": [
+            [
+                "Lnet/jaqpot/netcounter/activity/NetCounterPreferences$2;->onPreferenceClick(Landroid/preference/Preference;)Z",
+                "Lnet/jaqpot/netcounter/activity/NetCounterPreferences$2$1;-><init>(Lnet/jaqpot/netcounter/activity/NetCounterPreferences$2;)V"
+            ]
+        ]
+    }
+}

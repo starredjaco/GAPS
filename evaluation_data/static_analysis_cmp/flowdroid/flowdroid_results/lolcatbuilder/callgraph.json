@@ -1,0 +1,21 @@
+{ "edges" : [
+    { "src": "<dummyMainClass: dummyMainMethod([Ljava/lang/String;)V>", "dst": "<dummyMainClass: dummyMainMethod_com_android_lolcat_LolcatActivity(Landroid/content/Intent;)Lcom/android/lolcat/LolcatActivity;>" },
+    { "src": "<dummyMainClass: dummyMainMethod_com_android_lolcat_LolcatActivity(Landroid/content/Intent;)Lcom/android/lolcat/LolcatActivity;>", "dst": "<com.android.lolcat.LolcatActivity: <clinit>()V>" },
+    { "src": "<dummyMainClass: dummyMainMethod_com_android_lolcat_LolcatActivity(Landroid/content/Intent;)Lcom/android/lolcat/LolcatActivity;>", "dst": "<android.app.Activity: <clinit>()V>" },
+    { "src": "<com.android.lolcat.LolcatActivity: <clinit>()V>", "dst": "<android.graphics.Bitmap$CompressFormat: <clinit>()V>" },
+    { "src": "<com.android.lolcat.LolcatActivity: <clinit>()V>", "dst": "<android.app.Activity: <clinit>()V>" },
+    { "src": "<dummyMainClass: dummyMainMethod_com_android_lolcat_LolcatActivity(Landroid/content/Intent;)Lcom/android/lolcat/LolcatActivity;>", "dst": "<com.android.lolcat.LolcatActivity: <init>()V>" },
+    { "src": "<com.android.lolcat.LolcatActivity: <init>()V>", "dst": "<android.app.Activity: <init>()V>" },
+    { "src": "<com.android.lolcat.LolcatActivity: <init>()V>", "dst": "<com.android.lolcat.LolcatActivity$7: <init>(Lcom/android/lolcat/LolcatActivity;)V>" },
+    { "src": "<com.android.lolcat.LolcatActivity$7: <init>(Lcom/android/lolcat/LolcatActivity;)V>", "dst": "<java.lang.Object: <init>()V>" },
+    { "src": "<java.lang.Object: <init>()V>", "dst": "<java.lang.Object: finalize()V>" },
+    { "src": "<java.lang.Object: <init>()V>", "dst": "<java.lang.RuntimeException: <init>(Ljava/lang/String;)V>" },
+    { "src": "<java.lang.Object: finalize()V>", "dst": "<java.lang.RuntimeException: <init>(Ljava/lang/String;)V>" },
+    { "src": "<java.lang.RuntimeException: <init>(Ljava/lang/String;)V>", "dst": "<java.lang.Exception: <init>()V>" },
+    { "src": "<java.lang.RuntimeException: <init>(Ljava/lang/String;)V>", "dst": "<java.lang.RuntimeException: <init>(Ljava/lang/String;)V>" },
+    { "src": "<java.lang.Exception: <init>()V>", "dst": "<java.lang.Throwable: <init>()V>" },
+    { "src": "<java.lang.Exception: <init>()V>", "dst": "<java.lang.RuntimeException: <init>(Ljava/lang/String;)V>" },
+    { "src": "<java.lang.Throwable: <init>()V>", "dst": "<java.lang.Object: <init>()V>" },
+    { "src": "<java.lang.Throwable: <init>()V>", "dst": "<java.lang.RuntimeException: <init>(Ljava/lang/String;)V>" }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+    "md5": "a669b28b182ac67374640c962131c2cf",
+    "paths": {
+        "Lcom/angrydoughnuts/android/alarmclock/Slider;->setListener(Lcom/angrydoughnuts/android/alarmclock/Slider$Listener;)V": [
+            [
+                "Lcom/angrydoughnuts/android/alarmclock/AlarmNotificationActivity;->onCreate(Landroid/os/Bundle;)V",
+                "Lcom/angrydoughnuts/android/alarmclock/Slider;->setListener(Lcom/angrydoughnuts/android/alarmclock/Slider$Listener;)V"
+            ]
+        ],
+        "Lcom/angrydoughnuts/android/alarmclock/SystemMessageReceiver;->scheduleAll(Landroid/content/Context;)V": [
+            [
+                "Lcom/angrydoughnuts/android/alarmclock/SystemMessageReceiver;->onReceive(Landroid/content/Context;",
+                "Lcom/angrydoughnuts/android/alarmclock/SystemMessageReceiver;->scheduleAll(Landroid/content/Context;)V"
+            ]
+        ],
+        "Lcom/angrydoughnuts/android/alarmclock/TimeUtil;->nextMinute()Ljava/util/Calendar;": [
+            [
+                "Lcom/angrydoughnuts/android/alarmclock/AlarmNotificationActivity$4;->onComplete()V",
+                "Lcom/angrydoughnuts/android/alarmclock/AlarmNotificationService;->dismissAllAlarms(Landroid/content/Context;)V",
+                "Lcom/angrydoughnuts/android/alarmclock/AlarmNotificationService;->scheduleAlarmTrigger(Landroid/content/Context;",
+                "Lcom/angrydoughnuts/android/alarmclock/CountdownRefresh;->start(Landroid/content/Context;)V",
+                "Lcom/angrydoughnuts/android/alarmclock/CountdownRefresh;->scheduleRefresh(Landroid/content/Context;)V",
+                "Lcom/angrydoughnuts/android/alarmclock/TimeUtil;->nextMinute()Ljava/util/Calendar;"
+            ],
+            [
+                "Lcom/angrydoughnuts/android/alarmclock/AlarmNotificationActivity$3;->onClick(Landroid/view/View;)V",
+                "Lcom/angrydoughnuts/android/alarmclock/AlarmNotificationService;->snoozeAllAlarms(Landroid/content/Context;",
+                "Lcom/angrydoughnuts/android/alarmclock/AlarmNotificationService;->scheduleAlarmTrigger(Landroid/content/Context;",
+                "Lcom/angrydoughnuts/android/alarmclock/CountdownRefresh;->start(Landroid/content/Context;)V",
+                "Lcom/angrydoughnuts/android/alarmclock/CountdownRefresh;->scheduleRefresh(Landroid/content/Context;)V",
+                "Lcom/angrydoughnuts/android/alarmclock/TimeUtil;->nextMinute()Ljava/util/Calendar;"
+            ],
+            [
+                "Lcom/angrydoughnuts/android/alarmclock/SystemMessageReceiver;->scheduleAll(Landroid/content/Context;)V",
+                "Lcom/angrydoughnuts/android/alarmclock/AlarmNotificationService;->scheduleAlarmTrigger(Landroid/content/Context;",
+                "Lcom/angrydoughnuts/android/alarmclock/CountdownRefresh;->start(Landroid/content/Context;)V",
+                "Lcom/angrydoughnuts/android/alarmclock/CountdownRefresh;->scheduleRefresh(Landroid/content/Context;)V",
+                "Lcom/angrydoughnuts/android/alarmclock/TimeUtil;->nextMinute()Ljava/util/Calendar;"
+            ],
+            [
+                "Lcom/angrydoughnuts/android/alarmclock/SystemMessageReceiver;->onReceive(Landroid/content/Context;",
+                "Lcom/angrydoughnuts/android/alarmclock/SystemMessageReceiver;->rescheduleAll(Landroid/content/Context;)V",
+                "Lcom/angrydoughnuts/android/alarmclock/AlarmNotificationService;->removeAlarmTrigger(Landroid/content/Context;",
+                "Lcom/angrydoughnuts/android/alarmclock/CountdownRefresh;->start(Landroid/content/Context;)V",
+                "Lcom/angrydoughnuts/android/alarmclock/CountdownRefresh;->scheduleRefresh(Landroid/content/Context;)V",
+                "Lcom/angrydoughnuts/android/alarmclock/TimeUtil;->nextMinute()Ljava/util/Calendar;"
+            ],
+            [
+                "Lcom/angrydoughnuts/android/alarmclock/CountdownRefresh;->onReceive(Landroid/content/Context;",
+                "Lcom/angrydoughnuts/android/alarmclock/CountdownRefresh;->start(Landroid/content/Context;)V",
+                "Lcom/angrydoughnuts/android/alarmclock/CountdownRefresh;->scheduleRefresh(Landroid/content/Context;)V",
+                "Lcom/angrydoughnuts/android/alarmclock/TimeUtil;->nextMinute()Ljava/util/Calendar;"
+            ],
+            [
+                "Lcom/angrydoughnuts/android/alarmclock/CountdownRefresh;->start(Landroid/content/Context;)V",
+                "Lcom/angrydoughnuts/android/alarmclock/CountdownRefresh;->scheduleRefresh(Landroid/content/Context;)V",
+                "Lcom/angrydoughnuts/android/alarmclock/TimeUtil;->nextMinute()Ljava/util/Calendar;"
+            ],
+            [
+                "Lcom/angrydoughnuts/android/alarmclock/CountdownRefresh;->scheduleRefresh(Landroid/content/Context;)V",
+                "Lcom/angrydoughnuts/android/alarmclock/TimeUtil;->nextMinute()Ljava/util/Calendar;"
+            ],
+            [
+                "Lcom/angrydoughnuts/android/alarmclock/SystemMessageReceiver;->rescheduleAll(Landroid/content/Context;)V",
+                "Lcom/angrydoughnuts/android/alarmclock/AlarmNotificationService;->removeAlarmTrigger(Landroid/content/Context;",
+                "Lcom/angrydoughnuts/android/alarmclock/CountdownRefresh;->start(Landroid/content/Context;)V",
+                "Lcom/angrydoughnuts/android/alarmclock/CountdownRefresh;->scheduleRefresh(Landroid/content/Context;)V",
+                "Lcom/angrydoughnuts/android/alarmclock/TimeUtil;->nextMinute()Ljava/util/Calendar;"
+            ]
+        ],
+        "Lcom/angrydoughnuts/android/alarmclock/DbUtil$Settings;-><init>(Landroid/database/Cursor;)V": [
+            [
+                "Lcom/angrydoughnuts/android/alarmclock/AlarmNotificationActivity;->onResume()V",
+                "Lcom/angrydoughnuts/android/alarmclock/DbUtil$Settings;->get(Landroid/content/Context;",
+                "Lcom/angrydoughnuts/android/alarmclock/DbUtil$Settings;-><init>(Landroid/database/Cursor;)V"
+            ]
+        ]
+    }
+}

@@ -1,0 +1,239 @@
+{
+    "md5": "28eeb2c90cbb04d2496431569654b3da",
+    "paths": {
+        "Lorg/wikipedia/main/MainFragment;->getBinding()Lorg/wikipedia/databinding/FragmentMainBinding;": [
+            [
+                "Lorg/wikipedia/main/MainActivity;->onGoOnline()V",
+                "Lorg/wikipedia/main/MainFragment;->onGoOnline()V",
+                "Lorg/wikipedia/main/MainFragment;->getCurrentFragment()Landroidx/fragment/app/Fragment;",
+                "Lorg/wikipedia/main/MainFragment;->getBinding()Lorg/wikipedia/databinding/FragmentMainBinding;"
+            ],
+            [
+                "Lorg/wikipedia/main/MainActivity;->onTabChanged(Lorg/wikipedia/navtab/NavTab;)V",
+                "Lorg/wikipedia/main/MainFragment;->requestUpdateToolbarElevation()V",
+                "Lorg/wikipedia/main/MainFragment;->getCurrentFragment()Landroidx/fragment/app/Fragment;",
+                "Lorg/wikipedia/main/MainFragment;->getBinding()Lorg/wikipedia/databinding/FragmentMainBinding;"
+            ],
+            [
+                "Lorg/wikipedia/main/MainActivity;->onNewIntent(Landroid/content/Intent;)V",
+                "Lorg/wikipedia/main/MainFragment;->handleIntent(Landroid/content/Intent;)V",
+                "Lorg/wikipedia/main/MainFragment;->goToTab(Lorg/wikipedia/navtab/NavTab;)V",
+                "Lorg/wikipedia/main/MainFragment;->getBinding()Lorg/wikipedia/databinding/FragmentMainBinding;"
+            ],
+            [
+                "Lorg/wikipedia/main/MainActivity;->isCurrentFragmentSelected(Landroidx/fragment/app/Fragment;)Z",
+                "Lorg/wikipedia/main/MainFragment;->getCurrentFragment()Landroidx/fragment/app/Fragment;",
+                "Lorg/wikipedia/main/MainFragment;->getBinding()Lorg/wikipedia/databinding/FragmentMainBinding;"
+            ],
+            [
+                "Lorg/wikipedia/main/MainActivity;->onSupportActionModeFinished(Landroidx/appcompat/view/ActionMode;)V",
+                "Lorg/wikipedia/main/MainFragment;->setBottomNavVisible(Z)V",
+                "Lorg/wikipedia/main/MainFragment;->getBinding()Lorg/wikipedia/databinding/FragmentMainBinding;"
+            ],
+            [
+                "Lorg/wikipedia/main/MainActivity;->onSupportActionModeStarted(Landroidx/appcompat/view/ActionMode;)V",
+                "Lorg/wikipedia/main/MainFragment;->setBottomNavVisible(Z)V",
+                "Lorg/wikipedia/main/MainFragment;->getBinding()Lorg/wikipedia/databinding/FragmentMainBinding;"
+            ],
+            [
+                "Lorg/wikipedia/main/MainActivity;->onBackPressed()V",
+                "Lorg/wikipedia/main/MainFragment;->onBackPressed()Z",
+                "Lorg/wikipedia/main/MainFragment;->getCurrentFragment()Landroidx/fragment/app/Fragment;",
+                "Lorg/wikipedia/main/MainFragment;->getBinding()Lorg/wikipedia/databinding/FragmentMainBinding;"
+            ],
+            [
+                "Lorg/wikipedia/main/MainActivity;->onGoOffline()V",
+                "Lorg/wikipedia/main/MainFragment;->onGoOffline()V",
+                "Lorg/wikipedia/main/MainFragment;->getCurrentFragment()Landroidx/fragment/app/Fragment;",
+                "Lorg/wikipedia/main/MainFragment;->getBinding()Lorg/wikipedia/databinding/FragmentMainBinding;"
+            ]
+        ],
+        "Lorg/wikipedia/main/MainFragment;->handleIntent(Landroid/content/Intent;)V": [
+            [
+                "Lorg/wikipedia/main/MainActivity;->onNewIntent(Landroid/content/Intent;)V",
+                "Lorg/wikipedia/main/MainFragment;->handleIntent(Landroid/content/Intent;)V"
+            ]
+        ],
+        "Lorg/wikipedia/main/MainFragment$Companion;->newInstance()Lorg/wikipedia/main/MainFragment;": [
+            [
+                "Lorg/wikipedia/main/MainActivity;->createFragment()Landroidx/fragment/app/Fragment;",
+                "Lorg/wikipedia/main/MainActivity;->createFragment()Lorg/wikipedia/main/MainFragment;",
+                "Lorg/wikipedia/main/MainFragment$Companion;->newInstance()Lorg/wikipedia/main/MainFragment;"
+            ],
+            [
+                "Lorg/wikipedia/main/MainActivity;->createFragment()Lorg/wikipedia/main/MainFragment;",
+                "Lorg/wikipedia/main/MainFragment$Companion;->newInstance()Lorg/wikipedia/main/MainFragment;"
+            ]
+        ],
+        "Lorg/wikipedia/main/MainFragment;->requestUpdateToolbarElevation()V": [
+            [
+                "Lorg/wikipedia/main/MainActivity;->onTabChanged(Lorg/wikipedia/navtab/NavTab;)V",
+                "Lorg/wikipedia/main/MainFragment;->requestUpdateToolbarElevation()V"
+            ]
+        ],
+        "Lorg/wikipedia/main/MainFragment;->onGoOnline()V": [
+            [
+                "Lorg/wikipedia/main/MainActivity;->onGoOnline()V",
+                "Lorg/wikipedia/main/MainFragment;->onGoOnline()V"
+            ]
+        ],
+        "Lorg/wikipedia/main/MainFragment;->onBackPressed()Z": [
+            [
+                "Lorg/wikipedia/main/MainActivity;->onBackPressed()V",
+                "Lorg/wikipedia/main/MainFragment;->onBackPressed()Z"
+            ]
+        ],
+        "Lorg/wikipedia/main/MainFragment;->lastPageViewedWithin(I)Z": [
+            [
+                "Lorg/wikipedia/main/MainActivity;->onNewIntent(Landroid/content/Intent;)V",
+                "Lorg/wikipedia/main/MainFragment;->handleIntent(Landroid/content/Intent;)V",
+                "Lorg/wikipedia/main/MainFragment;->lastPageViewedWithin(I)Z"
+            ]
+        ],
+        "Lorg/wikipedia/main/MainFragment;->goToTab(Lorg/wikipedia/navtab/NavTab;)V": [
+            [
+                "Lorg/wikipedia/main/MainActivity;->onNewIntent(Landroid/content/Intent;)V",
+                "Lorg/wikipedia/main/MainFragment;->handleIntent(Landroid/content/Intent;)V",
+                "Lorg/wikipedia/main/MainFragment;->goToTab(Lorg/wikipedia/navtab/NavTab;)V"
+            ]
+        ],
+        "Lorg/wikipedia/main/MainActivity;->$r8$lambda$ijrfitzVYrGXpCE-66AoietyDHM(Landroidx/activity/result/ActivityResult;)V": [
+            [
+                "Lorg/wikipedia/main/MainActivity$$ExternalSyntheticLambda0;->onActivityResult(Ljava/lang/Object;)V",
+                "Lorg/wikipedia/main/MainActivity;->$r8$lambda$ijrfitzVYrGXpCE-66AoietyDHM(Landroidx/activity/result/ActivityResult;)V"
+            ]
+        ],
+        "Lorg/wikipedia/main/MainFragment;->updateToolbarElevation(Z)V": [
+            [
+                "Lorg/wikipedia/main/MainActivity;->onTabChanged(Lorg/wikipedia/navtab/NavTab;)V",
+                "Lorg/wikipedia/main/MainFragment;->requestUpdateToolbarElevation()V",
+                "Lorg/wikipedia/main/MainFragment;->updateToolbarElevation(Z)V"
+            ]
+        ],
+        "Lorg/wikipedia/main/MainFragment;->getCurrentFragment()Landroidx/fragment/app/Fragment;": [
+            [
+                "Lorg/wikipedia/main/MainActivity;->onGoOnline()V",
+                "Lorg/wikipedia/main/MainFragment;->onGoOnline()V",
+                "Lorg/wikipedia/main/MainFragment;->getCurrentFragment()Landroidx/fragment/app/Fragment;"
+            ],
+            [
+                "Lorg/wikipedia/main/MainActivity;->onTabChanged(Lorg/wikipedia/navtab/NavTab;)V",
+                "Lorg/wikipedia/main/MainFragment;->requestUpdateToolbarElevation()V",
+                "Lorg/wikipedia/main/MainFragment;->getCurrentFragment()Landroidx/fragment/app/Fragment;"
+            ],
+            [
+                "Lorg/wikipedia/main/MainActivity;->isCurrentFragmentSelected(Landroidx/fragment/app/Fragment;)Z",
+                "Lorg/wikipedia/main/MainFragment;->getCurrentFragment()Landroidx/fragment/app/Fragment;"
+            ],
+            [
+                "Lorg/wikipedia/main/MainActivity;->onBackPressed()V",
+                "Lorg/wikipedia/main/MainFragment;->onBackPressed()Z",
+                "Lorg/wikipedia/main/MainFragment;->getCurrentFragment()Landroidx/fragment/app/Fragment;"
+            ],
+            [
+                "Lorg/wikipedia/main/MainActivity;->onGoOffline()V",
+                "Lorg/wikipedia/main/MainFragment;->onGoOffline()V",
+                "Lorg/wikipedia/main/MainFragment;->getCurrentFragment()Landroidx/fragment/app/Fragment;"
+            ]
+        ],
+        "Lorg/wikipedia/main/MainActivity$Companion;-><init>(Lkotlin/jvm/internal/DefaultConstructorMarker;)V": [
+            [
+                "Lorg/wikipedia/main/MainActivity;-><clinit>()V",
+                "Lorg/wikipedia/main/MainActivity$Companion;-><init>(Lkotlin/jvm/internal/DefaultConstructorMarker;)V"
+            ],
+            [
+                "Lorg/wikipedia/main/MainActivity;-><clinit>()V",
+                "Lorg/wikipedia/main/MainActivity$Companion;-><init>(Lkotlin/jvm/internal/DefaultConstructorMarker;)V"
+            ]
+        ],
+        "Lorg/wikipedia/main/MainFragment$Companion;-><init>()V": [
+            [
+                "Lorg/wikipedia/main/MainFragment;-><clinit>()V",
+                "Lorg/wikipedia/main/MainFragment$Companion;-><init>(Lkotlin/jvm/internal/DefaultConstructorMarker;)V",
+                "Lorg/wikipedia/main/MainFragment$Companion;-><init>()V"
+            ]
+        ],
+        "Lorg/wikipedia/main/MainActivity;->handleIntent(Landroid/content/Intent;)V": [
+            [
+                "Lorg/wikipedia/main/MainActivity;->onCreate(Landroid/os/Bundle;)V",
+                "Lorg/wikipedia/main/MainActivity;->handleIntent(Landroid/content/Intent;)V"
+            ]
+        ],
+        "Lorg/wikipedia/main/MainFragment$Companion;-><init>(Lkotlin/jvm/internal/DefaultConstructorMarker;)V": [
+            [
+                "Lorg/wikipedia/main/MainFragment;-><clinit>()V",
+                "Lorg/wikipedia/main/MainFragment$Companion;-><init>(Lkotlin/jvm/internal/DefaultConstructorMarker;)V"
+            ]
+        ],
+        "Lorg/wikipedia/main/MainActivity$Companion;->newIntent(Landroid/content/Context;)Landroid/content/Intent;": [
+            [
+                "Lorg/wikipedia/page/PageActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z",
+                "Lorg/wikipedia/page/PageFragment;->goToMainTab()V",
+                "Lorg/wikipedia/main/MainActivity$Companion;->newIntent(Landroid/content/Context;)Landroid/content/Intent;"
+            ],
+            [
+                "Lorg/wikipedia/notifications/NotificationPollBroadcastReceiver$Companion;->showSuggestedEditsLocalNotification(Landroid/content/Context;",
+                "Lorg/wikipedia/main/MainActivity$Companion;->newIntent(Landroid/content/Context;)Landroid/content/Intent;"
+            ],
+            [
+                "Lorg/wikipedia/notifications/NotificationPollBroadcastReceiver;->onReceive(Landroid/content/Context;",
+                "Lorg/wikipedia/notifications/NotificationPollBroadcastReceiver$Companion;->access$maybeShowLocalNotificationForEditorReactivation(Lorg/wikipedia/notifications/NotificationPollBroadcastReceiver$Companion;",
+                "Lorg/wikipedia/notifications/NotificationPollBroadcastReceiver$Companion;->maybeShowLocalNotificationForEditorReactivation(Landroid/content/Context;)V",
+                "Lorg/wikipedia/notifications/NotificationPollBroadcastReceiver$Companion;->showSuggestedEditsLocalNotification(Landroid/content/Context;",
+                "Lorg/wikipedia/main/MainActivity$Companion;->newIntent(Landroid/content/Context;)Landroid/content/Intent;"
+            ],
+            [
+                "Lorg/wikipedia/notifications/NotificationPollBroadcastReceiver$Companion;->maybeShowLocalNotificationForEditorReactivation(Landroid/content/Context;)V",
+                "Lorg/wikipedia/notifications/NotificationPollBroadcastReceiver$Companion;->showSuggestedEditsLocalNotification(Landroid/content/Context;",
+                "Lorg/wikipedia/main/MainActivity$Companion;->newIntent(Landroid/content/Context;)Landroid/content/Intent;"
+            ],
+            [
+                "Lorg/wikipedia/notifications/NotificationPollBroadcastReceiver$Companion;->access$maybeShowLocalNotificationForEditorReactivation(Lorg/wikipedia/notifications/NotificationPollBroadcastReceiver$Companion;",
+                "Lorg/wikipedia/notifications/NotificationPollBroadcastReceiver$Companion;->maybeShowLocalNotificationForEditorReactivation(Landroid/content/Context;)V",
+                "Lorg/wikipedia/notifications/NotificationPollBroadcastReceiver$Companion;->showSuggestedEditsLocalNotification(Landroid/content/Context;",
+                "Lorg/wikipedia/main/MainActivity$Companion;->newIntent(Landroid/content/Context;)Landroid/content/Intent;"
+            ]
+        ],
+        "Lorg/wikipedia/main/MainActivity;->setToolbarElevationDefault()V": [
+            [
+                "Lorg/wikipedia/main/MainActivity;->updateToolbarElevation(Z)V",
+                "Lorg/wikipedia/main/MainActivity;->setToolbarElevationDefault()V"
+            ]
+        ],
+        "Lorg/wikipedia/main/MainFragment$Callback;->updateToolbarElevation(Z)V": [
+            [
+                "Lorg/wikipedia/main/MainActivity;->onTabChanged(Lorg/wikipedia/navtab/NavTab;)V",
+                "Lorg/wikipedia/main/MainFragment;->requestUpdateToolbarElevation()V",
+                "Lorg/wikipedia/main/MainFragment;->updateToolbarElevation(Z)V",
+                "Lorg/wikipedia/main/MainFragment$Callback;->updateToolbarElevation(Z)V"
+            ]
+        ],
+        "Lorg/wikipedia/main/MainFragment$PageChangeCallback;-><init>(Lorg/wikipedia/main/MainFragment;)V": [
+            [
+                "Lorg/wikipedia/main/MainActivity;->createFragment()Landroidx/fragment/app/Fragment;",
+                "Lorg/wikipedia/main/MainActivity;->createFragment()Lorg/wikipedia/main/MainFragment;",
+                "Lorg/wikipedia/main/MainFragment$Companion;->newInstance()Lorg/wikipedia/main/MainFragment;",
+                "Lorg/wikipedia/main/MainFragment;-><init>()V",
+                "Lorg/wikipedia/main/MainFragment$PageChangeCallback;-><init>(Lorg/wikipedia/main/MainFragment;)V"
+            ],
+            [
+                "Lorg/wikipedia/main/MainActivity;->createFragment()Lorg/wikipedia/main/MainFragment;",
+                "Lorg/wikipedia/main/MainFragment$Companion;->newInstance()Lorg/wikipedia/main/MainFragment;",
+                "Lorg/wikipedia/main/MainFragment;-><init>()V",
+                "Lorg/wikipedia/main/MainFragment$PageChangeCallback;-><init>(Lorg/wikipedia/main/MainFragment;)V"
+            ]
+        ],
+        "Lorg/wikipedia/main/MainActivity;->createFragment()Lorg/wikipedia/main/MainFragment;": [
+            [
+                "Lorg/wikipedia/main/MainActivity;->createFragment()Landroidx/fragment/app/Fragment;",
+                "Lorg/wikipedia/main/MainActivity;->createFragment()Lorg/wikipedia/main/MainFragment;"
+            ]
+        ],
+        "Lorg/wikipedia/main/MainActivity;->clearToolbarElevation()V": [
+            [
+                "Lorg/wikipedia/main/MainActivity;->updateToolbarElevation(Z)V",
+                "Lorg/wikipedia/main/MainActivity;->clearToolbarElevation()V"
+            ]
+        ]
+    }
+}

@@ -496,7 +496,6 @@ class GAPS:
                 """
             return "done"
 
-        """
         for idx, instruction in enumerate(self.starting_points):
             process_instruction(idx, instruction)
 
@@ -508,6 +507,7 @@ class GAPS:
             ]
             for future in futures:
                 future.result()
+        """
 
         LOG.info("--- %s seconds ---" % (time.time() - self.start_time))
         self._save_stats()

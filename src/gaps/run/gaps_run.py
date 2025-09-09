@@ -726,7 +726,7 @@ class GAPSRUN:
                 self.target_method = class_method
                 self._process_method(class_method, json_paths)
 
-        self.uninstall_app(self.package_name)
+        # self.uninstall_app(self.package_name)
         self.update_csv(app_name, tot_methods, self.methods_por)
 
         with open(

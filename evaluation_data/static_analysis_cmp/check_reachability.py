@@ -3,8 +3,6 @@ import json
 import csv
 import sys
 
-testing_seeds_dir = "/home/same/code/gaps/GAPS/testing_seeds"
-
 
 def process_stats_file(results_directory):
     stats_file = os.path.join(results_directory, "stats.csv")
@@ -92,7 +90,7 @@ def check_reachability_in_callgraph(callgraph_file, methods):
     return reached
 
 
-def main(results_directory, testing_seeds_dir, output_csv):
+def main(results_directory, testing_seeds_dir, dataset_dir, output_csv):
     results = []
 
     subdirectories = [
@@ -103,9 +101,7 @@ def main(results_directory, testing_seeds_dir, output_csv):
 
     for subdir in subdirectories:
         app_name = os.path.basename(subdir)
-        androtest_path = os.path.join(
-            "/home/same/code/gaps/AndroLog/androtest", f"{app_name}.apk"
-        )
+        androtest_path = os.path.join(dataset_dir, f"{app_name}.apk")
         callgraph_file = os.path.join(subdir, "callgraph.json")
         seed_file = os.path.join(testing_seeds_dir, f"{app_name}.seed")
 
@@ -165,14 +161,18 @@ def main(results_directory, testing_seeds_dir, output_csv):
 # Example usage
 if __name__ == "__main__":
 
-    if len(sys.argv) != 2:
-        print("Usage: python check_reachability.py <results_directory>")
+    if len(sys.argv) != 4:
+        print(
+            "Usage: python check_reachability.py <results_directory> <testing_seeds_dir> <dataset_dir>"
+        )
         sys.exit(1)
 
     results_directory = sys.argv[1]
+    testing_seeds_dir = sys.argv[2]
+    dataset_dir = sys.argv[3]
     output_csv = os.path.join(
         results_directory, "final_reachability_stats.csv"
     )
-    main(results_directory, testing_seeds_dir, output_csv)
+    main(results_directory, testing_seeds_dir, dataset_dir, output_csv)
 
     process_stats_file(results_directory)

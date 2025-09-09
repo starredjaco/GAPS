@@ -4,14 +4,14 @@ import os
 import json
 import subprocess
 
-if len(sys.argv) != 3:
-    print(f"Usage: {sys.argv[0]} csv_file app_directory")
+if len(sys.argv) != 4:
+    print(f"Usage: {sys.argv[0]} csv_file app_directory seeds_directory")
     sys.exit(1)
 
 TIMEOUT = 5 * 60 * 60
 
 
-def update_csv(file_path, app_directory):
+def update_csv(file_path, app_directory, seeds_directory):
     tot_apps = 0
     tot_time = 0
     tot_paths = 0
@@ -21,7 +21,6 @@ def update_csv(file_path, app_directory):
     tot_seeds = 0
     tot_por = 0
     overall_path_recon_cond = 0
-    path_recon_cond_avg_perc = 0
     paper_table_fields = [
         "App name",
         # "# DEX(s)",
@@ -43,13 +42,12 @@ def update_csv(file_path, app_directory):
     ]
 
     containing_dir = os.path.dirname(file_path)
-    paper_table_path = os.path.join(containing_dir, "paper_table.csv")
+    paper_table_path = os.path.join(containing_dir, "final_stats.csv")
     with open(file_path, "r") as csvfile:
         reader = csv.DictReader(csvfile, fieldnames=fields)
         paper_table_writer = csv.DictWriter(
             open(paper_table_path, "w"), fieldnames=paper_table_fields
         )
-        tot_dex = 0
         for i, row in enumerate(reader):
             paper_table_row = {}
             if i == 0:
@@ -60,29 +58,38 @@ def update_csv(file_path, app_directory):
             if i != 0:
                 for field in paper_table_fields:
                     paper_table_row[field] = ""
-                if float(row["TIME"]) < 18000:
-                    tot_apps += 1
-                    tot_time += float(row["TIME"])
-                    tot_paths += int(row["TOT. REACHABLE PATHS"])
+                tot_apps += 1
+                tot_time += float(row["TIME"])
+                tot_paths += int(row["TOT. REACHABLE PATHS"])
+                if "/" not in row["REACHED METHODS"]:
                     tot_reached_methods += int(row["REACHED METHODS"])
-                    tot_unique_paths += int(row["UNIQUE PATHS"])
-                    tot_avg_paths_x_method += float(
-                        row["AVG. REACHABLE PATHS"]
+                else:
+                    tot_reached_methods += int(
+                        row["REACHED METHODS"].split("/")[0]
                     )
-                    overall_path_recon_cond += int(
-                        row["REACHABLE CONDITIONAL PATHS"]
-                    )
-                    app_name = row["APP"]
+                tot_unique_paths += int(row["UNIQUE PATHS"])
+                tot_avg_paths_x_method += float(row["AVG. REACHABLE PATHS"])
+                overall_path_recon_cond += int(
+                    row["REACHABLE CONDITIONAL PATHS"]
+                )
+                app_name = row["APP"]
+                paper_table_row["Analysis Time"] = "{:.2f}".format(
+                    float(row["TIME"])
+                )
+                if "/" not in row["REACHED METHODS"]:
                     len_seed = len(
                         open(
-                            f"../../testing_seeds/{app_name}.seed", "r"
+                            os.path.join(seeds_directory, f"{app_name}.seed"),
+                            "r",
                         ).readlines()
                     )
-                    tot_seeds += len_seed
-                    paper_table_row["Analysis Time"] = "{:.2f}".format(
-                        float(row["TIME"])
-                    )
-
+                else:
+                    len_seed = int(row["REACHED METHODS"].split("/")[1])
+                    row["REACHED METHODS"] = row["REACHED METHODS"].split("/")[
+                        0
+                    ]
+                tot_seeds += len_seed
+                if len_seed > 0:
                     paper_table_row["SR"] = (
                         "{:.2f}".format(
                             float(int(row["REACHED METHODS"]) / (len_seed))
@@ -90,23 +97,23 @@ def update_csv(file_path, app_directory):
                         )
                         + "%"
                     )
-                    paper_table_row["Average paths per method"] = float(
-                        row["AVG. REACHABLE PATHS"]
-                    )
-                    if not row["RR"]:
-                        row["RR"] = "0"
-                    tot_por += float(row["RR"])
-                    paper_table_row["RR"] = row["RR"] + "%"
                 else:
-                    paper_table_row["Analysis Time"] = "TIMEOUT"
-
-                    paper_table_row["SR"] = "TIMEOUT"
-
-                    paper_table_row["Average paths per method"] = "TIMEOUT"
-                    paper_table_row["RR"] = "TIMEOUT"
+                    paper_table_row["SR"] = "0%"
+                paper_table_row["Average paths per method"] = float(
+                    row["AVG. REACHABLE PATHS"]
+                )
+                if not row["RR"]:
+                    row["RR"] = "0"
+                tot_por += float(row["RR"])
+                paper_table_row["RR"] = row["RR"] + "%"
                 # paper table
+                apk_path = os.path.join(app_directory, row["APP"] + ".apk")
+                if not os.path.exists(apk_path):
+                    apk_path = os.path.join(
+                        app_directory, row["APP"], row["APP"] + ".apk"
+                    )
                 app_name_command = subprocess.Popen(
-                    f'aapt dump badging {os.path.join(app_directory, row["APP"]+".apk")} | grep "application-label-en:"',
+                    f'aapt dump badging {apk_path} | grep "application-label-en:"',
                     shell=True,
                     stdout=subprocess.PIPE,
                 )
@@ -126,7 +133,7 @@ def update_csv(file_path, app_directory):
 
                 if not app_name_set:
                     app_name_command = subprocess.Popen(
-                        f'aapt dump badging {os.path.join(app_directory, row["APP"]+".apk")} | grep "application-label:"',
+                        f'aapt dump badging {apk_path} | grep "application-label:"',
                         shell=True,
                         stdout=subprocess.PIPE,
                     )
@@ -190,4 +197,4 @@ def update_csv(file_path, app_directory):
         paper_table_writer.writerow(paper_table_row)
 
 
-update_csv(sys.argv[1], sys.argv[2])
+update_csv(sys.argv[1], sys.argv[2], sys.argv[3])

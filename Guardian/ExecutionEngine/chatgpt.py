@@ -35,7 +35,7 @@ def chat_completion_with_backoff(**kwargs):
     return response
 
 
-openai.api_key_path = Path("/home/same/code/speck/gpt_api.key").absolute()
+openai.api_key_path = Path("./gpt_api.key").absolute()
 model = "gpt-3.5-turbo"
 expensive_model = "gpt-4"
 temp = 0.2

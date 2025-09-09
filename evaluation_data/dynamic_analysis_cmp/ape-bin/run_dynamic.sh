@@ -1,14 +1,19 @@
 #!/bin/bash
 
-apps_path="/home/same/code/gaps/AndroLog/androtest"
-apps=$(ls $apps_path | grep ".apk")
-#apps=$(cat missing.txt)
+# Command-line arguments (both mandatory)
+if [ $# -ne 2 ]; then
+    echo "Usage: $0 <output_logs_dir> <apps_path>"
+    exit 1
+fi
 
-# Command-line arguments
-output_logs_dir=${1:-"./output_logs_dir"}  # Default to "./output_logs_dir" if not provided
+output_logs_dir="$1"
+apps_path="$2"
+
 if [ ! -d "$output_logs_dir" ]; then
     mkdir -p "$output_logs_dir"
 fi
+
+apps=$(ls "$apps_path" | grep ".apk")
 
 for app in $apps; do
     echo $app 

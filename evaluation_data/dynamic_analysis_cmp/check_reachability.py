@@ -2,8 +2,6 @@ import os
 import csv
 import sys
 
-testing_seeds_dir = "/home/same/code/gaps/GAPS/testing_seeds"
-
 
 def to_java_signature(smali_sig):
     # Split the smali signature into class, method, and parameters
@@ -76,21 +74,19 @@ def check_reachability(log_file, methods):
         print(f"Log file {log_file} is empty.")
         with open("missing.txt", "a") as missing_file:
             missing_file.write(
-                f"{log_file.split("/")[-1].replace('.log', '')}\n"
+                f"{log_file.split('/')[-1].replace('.log', '')}\n"
             )
         return []
     reached = [method for method in methods if method in log_content]
     return reached
 
 
-def main(logs_dir, testing_seeds_dir, output_csv):
+def main(logs_dir, testing_seeds_dir, dataset_dir, output_csv):
     results = []
 
     for log_file in os.listdir(logs_dir):
         app_name = log_file.replace(".apk.log", "")
-        androtest_path = os.path.join(
-            "/home/same/code/gaps/AndroLog/androtest", f"{app_name}.apk"
-        )
+        androtest_path = os.path.join(dataset_dir, f"{app_name}.apk")
         if log_file.endswith(".apk.log") and os.path.exists(androtest_path):
             seed_file = os.path.join(testing_seeds_dir, f"{app_name}.seed")
             if os.path.exists(seed_file):
@@ -106,6 +102,8 @@ def main(logs_dir, testing_seeds_dir, output_csv):
                         "reached_methods": len(reached_methods),
                     }
                 )
+            else:
+                print("no seed")
 
     # Add percentage of reached methods to each result
     for result in results:
@@ -115,9 +113,11 @@ def main(logs_dir, testing_seeds_dir, output_csv):
             else 0
         )
 
-    average_percentage = sum(
-        result["percentage_reached"] for result in results
-    ) / len(results)
+    average_percentage = (
+        sum(result["percentage_reached"] for result in results) / len(results)
+        if len(results) > 0
+        else 0
+    )
     results.append(
         {
             "app_name": "Average",
@@ -137,12 +137,16 @@ def main(logs_dir, testing_seeds_dir, output_csv):
 
 # Example usage
 if __name__ == "__main__":
-
-    if len(sys.argv) != 2:
-        print("Usage: python check_reachability.py <results_directory>")
+    if len(sys.argv) != 4:
+        print(
+            "Usage: python check_reachability.py <results_directory> <testing_seeds_dir> <dataset_dir>"
+        )
         sys.exit(1)
 
     results_directory = sys.argv[1]
+    testing_seeds_dir = sys.argv[2]
+    dataset_dir = sys.argv[3]
+
     subdirectories = [
         os.path.join(results_directory, d)
         for d in os.listdir(results_directory)
@@ -151,7 +155,7 @@ if __name__ == "__main__":
 
     for subdir in subdirectories:
         output_csv = subdir + "_reachability_stats.csv"
-        main(subdir, testing_seeds_dir, output_csv)
+        main(subdir, testing_seeds_dir, dataset_dir, output_csv)
 
     # Combine all reachability stats into a final CSV
     final_csv = os.path.join(results_directory, "final_reachability_stats.csv")

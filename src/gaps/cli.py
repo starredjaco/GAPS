@@ -64,7 +64,7 @@ def cli(ctx):
 @click.option(
     "-seed",
     "--seed_file",
-    type=click.Path(exists=True),
+    type=click.Path(),
     help="Path to the file containing seed signatures",
 )
 @click.option(

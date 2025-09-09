@@ -1588,7 +1588,7 @@ def build_paths(
             if len(entry_points) > max_paths:
                 # clean_graph_copy = clean_graph(gaps.graph.copy(), entry_points)
                 n_paths += _get_paths(
-                    gaps.graph.copy(),
+                    gaps.graph,
                     source_node,
                     entry_points,
                     max_paths,
@@ -1603,7 +1603,7 @@ def build_paths(
         if len(entry_points) > 0:
             # clean_graph_copy = clean_graph(gaps.graph.copy(), entry_points)
             n_paths += _get_paths(
-                gaps.graph.copy(),
+                gaps.graph,
                 source_node,
                 entry_points,
                 max_paths,
@@ -1656,9 +1656,10 @@ def _get_paths(
             )
 
             if n_paths > max_paths:
+                LOG.debug(f"\t[+] {n_paths} PATHS FOUND")
                 return n_paths
 
-            LOG.debug(f"\t[+] {n_paths} PATHS FOUND")
+    LOG.debug(f"\t[+] {n_paths} PATHS FOUND")
     return n_paths
 
 
@@ -1895,15 +1896,15 @@ def predecessor(G, source, target=None, cutoff=None, return_seen=None):
     if target is not None:
         if return_seen:
             if target not in pred:
-                return (deque(), -1)  # No predecessor
-            return (pred, seen[target])
+                return defaultdict(set)  # No predecessor
+            return pred
         else:
             if target not in pred:
-                return deque()  # No predecessor
+                return defaultdict(set)  # No predecessor
             return pred
     else:
         if return_seen:
-            return (pred, seen)
+            return pred
         else:
             return pred
 

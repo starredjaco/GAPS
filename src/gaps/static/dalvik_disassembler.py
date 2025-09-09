@@ -179,7 +179,7 @@ def process_method(gaps, method, method_index: int, all_methods: list) -> str:
 
 def process_instr(
     gaps,
-    str_inst: str,
+    instruction,
     method,
     entry: int,
     parent_method: str,
@@ -199,62 +199,98 @@ def process_instr(
     Returns:
         None
     """
+    instr_type = instruction.get_name()
+    if "invoke" in instr_type:
+        process_invoke(
+            gaps,
+            instruction,
+            method,
+            entry,
+            parent_method,
+            class_name_parent,
+            all_methods,
+        )
+    elif any(op in instr_type for op in ("put", "get")):
+        process_put_get(
+            gaps,
+            instruction,
+            method,
+            entry,
+            parent_method,
+            class_name_parent,
+            all_methods,
+        )
+    else:
+        process_other(
+            gaps,
+            instruction,
+            method,
+            entry,
+            parent_method,
+            class_name_parent,
+            all_methods,
+        )
+
+
+def process_put_get(
+    gaps,
+    instruction,
+    method,
+    entry: int,
+    parent_method: str,
+    class_name_parent: str,
+    all_methods: list,
+):
+
+    inst_out = instruction.get_output()
+
+    # Use f-string instead of format()
+    instr_type = instruction.get_name()
+    str_inst = f"{instr_type} {inst_out}"
     class_name, method_name = method_utils.get_class_and_method(str_inst, True)
-    instr_type = str_inst.split()[0]
 
     instr_sig = str_inst.split()[-1]
 
-    if (
-        any(op in instr_type for op in ("put", "get"))
-        and ";->" in str_inst
-        and "this$0" not in str_inst
-    ):
-        rest_of_signature = str_inst.split("->", 1)[1].split()[0]
-        gaps.signature_to_address[method_name][rest_of_signature][
-            class_name
-        ].add(entry)
+    if any(op in instr_type for op in ("put", "get")) and ";->" in str_inst:
+        gaps.signature_to_address[method_name][method_name][class_name].add(
+            entry
+        )
 
         object_type = instr_sig
         if ";" in object_type:
             gaps.object_instantiated[object_type.split(";")[0]].add(entry)
-        return
 
-    elif "check-cast" in instr_type:
-        object_type = instr_sig
-        if ";" in object_type:
-            gaps.object_instantiated[object_type.split(";")[0]].add(entry)
-        return
 
-    elif "const-class" == instr_type:
-        string_class = instr_sig.replace(";", "")
-        gaps.icc_string_analysis[string_class].add(entry)
-        return
+def process_invoke(
+    gaps,
+    instruction,
+    method,
+    entry,
+    parent_method,
+    class_name_parent,
+    all_methods,
+):
+    inst_out = instruction.get_output()
 
-    elif "sparse-switch" in str_inst or "packed-switch" in str_inst:
-        if parent_method not in gaps.methods_with_switches:
-            method_body = myAndroguard.get_whole_method(
-                method.basic_blocks.get()
-            )
-            gaps.methods_with_switches[parent_method.split()[1]] = method_body
-        return
+    # Optimize string manipulation
+    if "(" in inst_out:
+        inst_out = inst_out.replace(" ", "").replace(",", ", ")
 
-    elif "return" in instr_type and "return-void" not in instr_type:
-        gaps.return_by[parent_method].add(entry)
-        return
+    # Use f-string instead of format()
+    instr_type = instruction.get_name()
+    str_inst = f"{instr_type} {inst_out}"
+    class_name, method_name = method_utils.get_class_and_method(str_inst, True)
 
-    # Optimize "invoke" processing
-    if "invoke" in instr_type and "this$0" not in str_inst:
-        rest_of_signature = str_inst.split("->", 1)[1]
-        gaps.signature_to_address[method_name][rest_of_signature][
-            class_name
-        ].add(entry)
+    instr_sig = str_inst.split()[-1]
 
-        if (
-            not (gaps.target_method or gaps.signature)
-            and gaps.save_testing_seeds
-        ):
-            index = 0 if gaps.package_name in class_name else 1
-            all_methods[index][instr_sig].add(entry)
+    rest_of_signature = str_inst.split("->", 1)[1]
+    gaps.signature_to_address[method_name][rest_of_signature][class_name].add(
+        entry
+    )
+
+    if not (gaps.target_method or gaps.signature) and gaps.save_testing_seeds:
+        index = 0 if gaps.package_name in class_name else 1
+        all_methods[index][instr_sig].add(entry)
 
     if method_name in icc_methods or "Landroid/app/PendingIntent;" in str_inst:
         gaps.icc_method_addresses[instr_sig].add(entry)
@@ -265,7 +301,6 @@ def process_instr(
     if gaps.target_method:
         if (
             method_name == gaps.target_method
-            and "invoke" in instr_type
             and (not gaps.class_name or gaps.class_name == class_name)
             and (
                 not gaps.parent_class or gaps.parent_class in class_name_parent
@@ -279,10 +314,8 @@ def process_instr(
         gaps.starting_points[instr_sig].add(entry)
 
     elif (
-        (gaps.seed_file or gaps.signature)
-        and instr_sig in gaps.starting_points
-        and "invoke" in instr_type
-    ):
+        gaps.seed_file or gaps.signature
+    ) and instr_sig in gaps.starting_points:
         gaps.starting_points[instr_sig].add(entry)
 
     elif gaps.custom_seeds and method_name in gaps.custom_seeds:
@@ -296,6 +329,39 @@ def process_instr(
                 and custom_seed["parent_class"] == class_name_parent
             ):
                 gaps.starting_points[instr_sig].add(entry)
+
+
+def process_other(
+    gaps,
+    instruction,
+    method,
+    entry,
+    parent_method,
+    class_name_parent,
+    all_methods,
+):
+    instr_type = instruction.get_name()
+    inst_out = instruction.get_output()
+    str_inst = f"{instr_type} {inst_out}"
+    instr_sig = str_inst.split()[-1]
+    if "check-cast" in instr_type:
+        object_type = instr_sig
+        if ";" in object_type:
+            gaps.object_instantiated[object_type.replace(";", "")].add(entry)
+
+    elif "const-class" == instr_type:
+        string_class = instr_sig.replace(";", "")
+        gaps.icc_string_analysis[string_class].add(entry)
+
+    elif "sparse-switch" in str_inst or "packed-switch" in str_inst:
+        if parent_method not in gaps.methods_with_switches:
+            method_body = myAndroguard.get_whole_method(
+                method.basic_blocks.get()
+            )
+            gaps.methods_with_switches[parent_method.split()[1]] = method_body
+
+    elif "return" in instr_type and "return-void" not in instr_type:
+        gaps.return_by[parent_method].add(entry)
 
 
 def _get_method_name(method):
@@ -370,7 +436,7 @@ def basic_blocks_2_graph(
     return graph, translate
 
 
-def save_testing_seeds(gaps, all_methods: list):
+def save_testing_seeds(gaps, dalvik, all_methods: list):
     """
     Saves testing seeds.
 
@@ -388,6 +454,7 @@ def save_testing_seeds(gaps, all_methods: list):
     methods_list = list(all_methods[0].keys())
     meth_dict = all_methods[0]
     step = 0
+    activities = dalvik.get_activities()
     while random_method < max_random_methods:
         if len(methods_list) == 0:
             methods_list = list(all_methods[1].keys())
@@ -399,10 +466,13 @@ def save_testing_seeds(gaps, all_methods: list):
                 break
         random_index = random.randint(0, len(methods_list) - 1)
         picked_method = methods_list[random_index]
-        gaps.starting_points[picked_method] = meth_dict[picked_method]
-        random_method += 1
-        gaps.testing_seeds += picked_method + "\n"
-        methods_list.pop(random_index)
+        class_name, _ = method_utils.get_class_and_method(picked_method)
+        java_class_name = class_name[1:].replace("/", ".")
+        if java_class_name in activities:
+            gaps.starting_points[picked_method] = meth_dict[picked_method]
+            random_method += 1
+            gaps.testing_seeds += picked_method + "\n"
+            methods_list.pop(random_index)
 
 
 def resolve_access_method(access_signature: str, gaps) -> str:

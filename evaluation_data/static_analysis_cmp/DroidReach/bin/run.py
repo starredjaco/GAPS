@@ -4,6 +4,7 @@ import os
 import threading
 import csv
 import sys
+import argparse
 
 TIMEOUT = 5 * 60 * 60
 
@@ -23,19 +24,31 @@ class RunCmd(threading.Thread):
         self.join(self.timeout)
 
         if self.is_alive():
-            self.p.terminate()  # use self.p.kill() if process needs a kill -9
+            self.p.terminate()
             self.join()
 
 
 if not os.path.exists("../results"):
     os.mkdir("../results")
 
-#apps_dir = "/home/same/code/speck/speck_extension/SPECK+/Interpreter/exploit/CFG/app_examples/"
-#seeds_dir = "/home/same/code/speck/speck_extension/SPECK+/Interpreter/exploit/CFG/gaps/testing_seeds/"
-apps_dir = "/users/same/app_examples/"
-seeds_dir = "/users/same/testing_seeds/"
+parser = argparse.ArgumentParser(description="Run DroidReach comparison")
+parser.add_argument(
+    "--apps_dir",
+    type=str,
+    required=True,
+    help="Directory containing app examples",
+)
+parser.add_argument(
+    "--seeds_dir",
+    type=str,
+    required=True,
+    help="Directory containing seed files",
+)
+args = parser.parse_args()
 
-#apps = os.listdir(apps_dir)
+apps_dir = args.apps_dir
+seeds_dir = args.seeds_dir
+
 apps = []
 with open("missing.txt") as missing_file:
     lines = missing_file.readlines()

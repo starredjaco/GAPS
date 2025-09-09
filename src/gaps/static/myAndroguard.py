@@ -10,6 +10,7 @@ from . import dalvik_disassembler
 from . import method_utils
 
 from loguru import logger
+import os
 
 logger.remove()
 
@@ -80,13 +81,13 @@ def AnalyzeAPK(_file, gaps, raw=False):
         df = dex.DEX(dex_bytes, using_api=a.get_target_sdk_version())
         dx.add(df)
 
-    dx.create_xref(gaps)
+    dx.create_xref(gaps, a)
 
     return a, dx
 
 
 class myAnalysis(Analysis):
-    def create_xref(self, gaps) -> None:
+    def create_xref(self, gaps, a) -> None:
         """
         Create Method crossreferences
         for all classes in the Analysis.
@@ -109,31 +110,31 @@ class myAnalysis(Analysis):
                 ):
                     analysis_blacklist.add(pkg)
 
-        with ThreadPoolExecutor() as e:
+        max_workers = os.cpu_count() or 1
+        with ThreadPoolExecutor(max_workers=max_workers) as e:
 
             futures = deque()
 
             for vm in self.vms:
                 for current_class in vm.get_classes():
-                    class_name = str(current_class).split("->")[-1]
-                    if any(
-                        class_name.startswith(pkg)
-                        for pkg in analysis_blacklist
-                    ):
-                        continue
-
                     futures.append(
                         e.submit(
-                            self._create_xref, current_class, all_methods, gaps
+                            self._create_xref,
+                            current_class,
+                            all_methods,
+                            analysis_blacklist,
+                            gaps,
                         )
                     )
 
         for _ in as_completed(futures):
             pass
 
-        dalvik_disassembler.save_testing_seeds(gaps, all_methods)
+        dalvik_disassembler.save_testing_seeds(gaps, a, all_methods)
 
-    def _create_xref(self, current_class, all_methods, gaps):
+    def _create_xref(
+        self, current_class, all_methods, analysis_blacklist, gaps
+    ):
         """
         Create the xref for `current_class`
 
@@ -149,6 +150,9 @@ class myAnalysis(Analysis):
 
         :param androguard.core.bytecodes.dvm.ClassDefItem current_class: The class to create xrefs for
         """
+        class_name = str(current_class).split("->")[-1]
+        if any(class_name.startswith(pkg) for pkg in analysis_blacklist):
+            return
         for current_method in current_class.get_methods():
             method_obj = self.get_method(current_method)
             if method_obj.is_android_api():
@@ -163,18 +167,24 @@ class myAnalysis(Analysis):
                 gaps.all_methods[rest_signature_parent].add(cur_meth)
 
             for off, instruction in current_method.get_instructions_idx():
-                inst_out = instruction.get_output()
-
-                # Optimize string manipulation
-                if "(" in inst_out:
-                    inst_out = inst_out.replace(" ", "").replace(",", ", ")
-
-                # Use f-string instead of format()
-                str_inst = f"{instruction.get_name()} {inst_out}"
+                if not any(
+                    op in instruction.get_name()
+                    for op in (
+                        "invoke",
+                        "put",
+                        "get",
+                        "check-cast",
+                        "const-class",
+                        "sparse-switch",
+                        "packed-switch",
+                        "return",
+                    )
+                ):
+                    continue
                 gaps.method_objs[gaps.method_index] = method_obj
                 dalvik_disassembler.process_instr(
                     gaps,
-                    str_inst,
+                    instruction,
                     method_obj,
                     gaps.method_index,
                     cur_meth,

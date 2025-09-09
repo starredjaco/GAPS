@@ -23,6 +23,8 @@ Then, GAPS can be installed from the current directory by running:
 
 Make sure that you also have `apktool` (and `baksmali` if also interested in DEX-only analysis) in your PATH.
 
+You can get `apktool` from [here](https://apktool.org/).
+
 
 GAPS has two running modes:
 
@@ -75,3 +77,28 @@ poetry run gaps run -i <app_path> -instr <path_to_json> -frida
 ## Paper evaluation data
 
 In `evaluation_data` the results of the experiments described in the paper can be found, as well as the target methods considered.
+The AndroTest benchmark dataset instrumented by AndroLogs can be downloaded from [here](https://drive.google.com/file/d/16RnqK_L0I90e2OzqjDM9YMK5PKvnILHo/view?usp=sharing). 
+
+Download it and unzip it in a directory.
+
+Then:
+```bash
+cd scripts
+./run_all_static.sh <androtest_directory_path> ../evaluation_data/androtest_seeds <output_directory>
+```
+
+After this step, you should have generated in <output_directory> a directory for each app analyzed containing the high-level instructions and logs. Additionally, statistics are saved in a csv file.
+
+Finally, plug an Android device or an emulator and run:
+```bash
+./run_all_dynamic.sh <androtest_directory_path> <output_directory>
+```
+
+Finally, you can get some more refined statistics by running the get_stats.py file
+
+```bash
+cd stats # while in scripts
+python get_stats.py <output_directory>/stats.csv <androtest_directory_path> ../../evaluation_data/androtest_seeds
+```
+
+A `final_stats.csv` file will be generated in <output_directory>.

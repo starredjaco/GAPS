@@ -1,0 +1,115 @@
+{
+    "Landroid/content/Intent;-><init>()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/waze/carpool/GoogleSignInActivity;->t1(Ly0/b;)V <",
+                "> Lcom/waze/carpool/GoogleSignInActivity;->onActivityResult(IILandroid/content/Intent;)V <",
+                "> Lcom/waze/settings/SettingsPaymentMegabloxActivity;->X1()V <",
+                "> Lcom/waze/settings/SettingsPaymentMegabloxActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/waze/settings/SettingsCarpoolPaymentsActivity;->D1(Landroid/view/View;)V <",
+                "> Lcom/waze/settings/SettingsCarpoolPaymentsActivity;->o1(Lcom/waze/settings/SettingsCarpoolPaymentsActivity;Landroid/view/View;)V <",
+                "> Lcom/waze/settings/r0;->onClick(Landroid/view/View;)V <",
+                "> Lcom/waze/settings/SettingsCarpoolPaymentsActivity;->G1()Landroid/view/View$OnClickListener; <",
+                "> Lcom/waze/settings/SettingsCarpoolPaymentsActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/waze/MainActivity;->onActivityResult(IILandroid/content/Intent;)V <",
+                "> Lcom/waze/FreeMapAppActivity;->q1()Ljava/lang/Class; <",
+                "> Lcom/waze/FreeMapAppActivity;->v1()V <",
+                "> Lcom/waze/FreeMapAppActivity;->r1()V <",
+                "> Lcom/waze/FreeMapAppActivity;->t1(Ljava/lang/Boolean;)V <",
+                "> Lcom/waze/FreeMapAppActivity;->p1(Lcom/waze/FreeMapAppActivity;Ljava/lang/Boolean;)V <",
+                "> Lcom/waze/q0;->onChanged(Ljava/lang/Object;)V <",
+                "> Lcom/waze/FreeMapAppActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.waze.settings.SettingsCarpoolPaymentsActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;": {
+        "path_0": {
+            "call_sequence": [
+                "> LC8/d;->d(Ljava/lang/String;)Landroid/content/ComponentName; <",
+                "> LC8/d;->c(Ljava/lang/String;)Lcom/waze/sdk/K; <",
+                "> Lcom/waze/sdk/T;->j(Ljava/lang/String;Landroid/content/Intent;)Lcom/waze/sdk/K; <",
+                "> Lcom/waze/sdk/T;->l(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Runnable;)Z <",
+                "> Lcom/waze/sdk/T;->k(Ljava/lang/String;Ljava/lang/String;)Z <",
+                "> Lcom/waze/sdk/p0;->z0()V <",
+                "> Lcom/waze/sdk/p0;->e(Lcom/waze/sdk/p0;)V <",
+                "> Lcom/waze/sdk/Z;->run()V <",
+                "> Lcom/waze/sdk/p0;->H()V <",
+                "> Lcom/waze/Y6;->r()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Intent;->setData(Landroid/net/Uri;)Landroid/content/Intent;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/waze/FreeMapAppActivity;->v1()V <",
+                "> Lcom/waze/FreeMapAppActivity;->r1()V <",
+                "> Lcom/waze/FreeMapAppActivity;->t1(Ljava/lang/Boolean;)V <",
+                "> Lcom/waze/FreeMapAppActivity;->p1(Lcom/waze/FreeMapAppActivity;Ljava/lang/Boolean;)V <",
+                "> Lcom/waze/q0;->onChanged(Ljava/lang/Object;)V <",
+                "> Lcom/waze/FreeMapAppActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Landroid/webkit/WebView;->addJavascriptInterface(Ljava/lang/Object;Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/waze/sharedui/web/WazeWebView;->r(Ljava/lang/String;)V <",
+                "> Lcom/waze/sharedui/web/WazeWebView;->Q(Ljava/lang/String;)Z <",
+                "> Lcom/waze/sharedui/web/WazeWebView;->I(Ljava/lang/String;)V <",
+                "> Lcom/waze/web/SimpleWebActivity;->B1(Ljava/lang/String;)V <",
+                "> Lcom/waze/settings/SettingsNotificationActivity;->n(Ljava/lang/String;)V <",
+                "> Lcom/waze/NativeManager$f;->run()V <",
+                "> Lcom/waze/NativeManager;->OpenSettingsNotificationActivity()V <",
+                "> Lcom/waze/NativeManager;->createAndSetInstance()Lcom/waze/NativeManager; <",
+                "> Lcom/waze/NativeManager;->getInstance()Lcom/waze/NativeManager; <",
+                "> Lcom/waze/b0;->uncaughtException(Ljava/lang/Thread;Ljava/lang/Throwable;)V <",
+                "> LYd/h;->b(Ljava/lang/Throwable;)V <",
+                "> LYd/i;->a(Lnc/i;Ljava/lang/Throwable;)V <",
+                "> LTd/H;->a(Lnc/i;Ljava/lang/Throwable;)V <",
+                "> LTd/W;->f(Ljava/lang/Throwable;Ljava/lang/Throwable;)V <",
+                "> LYd/l;->b(Lnc/e;Ljava/lang/Object;Lwc/l;)V <",
+                "> LZd/a;->c(Lwc/p;Ljava/lang/Object;Lnc/e;Lwc/l;)V <",
+                "> LZd/a;->d(Lwc/p;Ljava/lang/Object;Lnc/e;Lwc/l;ILjava/lang/Object;)V <",
+                "> LTd/L;->e(Lwc/p;Ljava/lang/Object;Lnc/e;)V <",
+                "> LTd/a;->N0(LTd/L;Ljava/lang/Object;Lwc/p;)V <",
+                "> LTd/j;->a(Lnc/i;Lwc/p;)Ljava/lang/Object; <",
+                "> LTd/i;->e(Lnc/i;Lwc/p;)Ljava/lang/Object; <",
+                "> LTd/j;->b(Lnc/i;Lwc/p;ILjava/lang/Object;)Ljava/lang/Object; <",
+                "> LTd/i;->f(Lnc/i;Lwc/p;ILjava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/waze/y5;->waitForAtLeastBlocking(Ld5/a$a;)V <",
+                "> Lcom/waze/OfflineNativeManager;->minimalNativeInitialization()V <",
+                "> Lcom/waze/OfflineNativeManager;->getInstance()Lcom/waze/OfflineNativeManager; <",
+                "> Lcom/waze/push/f;->E()Lcom/waze/push/m; <",
+                "> Lcom/waze/push/f;-><init>(Lcom/google/firebase/messaging/RemoteMessage;Z)V <",
+                "> Lcom/waze/push/f;-><init>(Lcom/google/firebase/messaging/RemoteMessage;)V <",
+                "> Lcom/waze/push/WazeFirebaseMessagingService;->onMessageReceived(Lcom/google/firebase/messaging/RemoteMessage;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.google.firebase.MESSAGING_EVENT",
+                    "start-service -a"
+                ]
+            ]
+        }
+    }
+}

@@ -1,0 +1,85 @@
+{
+    "Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/glority/android/common/manager/ReminderWorkManager;->cancelAll(Landroid/content/Context;)V <",
+                "> Lcom/glority/android/modules/launch/MainActivity;->initReminderWorker$lambda$3(Lcom/glority/android/modules/launch/MainActivity;Ljava/util/List;)Lkotlin/Unit; <",
+                "> Lcom/glority/android/modules/launch/MainActivity;->$r8$lambda$ASGk-O7blqHKkKWXs0lJUUchGMg(Lcom/glority/android/modules/launch/MainActivity;Ljava/util/List;)Lkotlin/Unit; <",
+                "> Lcom/glority/android/modules/launch/MainActivity$$ExternalSyntheticLambda1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/glority/android/modules/launch/MainActivity;->initReminderWorker()V <",
+                "> Lcom/glority/android/modules/launch/MainActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/glority/android/modules/launch/SplashActivity;->toFeedback()V <",
+                "> Lcom/glority/android/modules/launch/SplashActivity;->onActivityResult(IILandroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Landroid/webkit/WebView;-><init>(Landroid/content/Context;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/glority/android/ui/base/FixedWebView;-><init>(Landroid/content/Context;)V <",
+                "> Lcom/glority/android/base/agreement/view/PrivacyPolicyFragment;->initWebView()V <",
+                "> Lcom/glority/android/base/agreement/view/PrivacyPolicyFragment$Companion;->open(Landroid/app/Activity;Z)V <",
+                "> Lcom/glority/android/base/agreement/view/PrivacyPolicyFragment$Companion;->open$default(Lcom/glority/android/base/agreement/view/PrivacyPolicyFragment$Companion;Landroid/app/Activity;ZILjava/lang/Object;)V <",
+                "> Lcom/glority/android/modules/launch/SplashActivity;->onPrivacyPolicyClick()V <",
+                "> Lcom/glority/android/modules/launch/SplashActivity;->access$onPrivacyPolicyClick(Lcom/glority/android/modules/launch/SplashActivity;)V <",
+                "> Lcom/glority/android/modules/launch/SplashActivity$ContentUI$1$1$2$1;->invoke()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Intent;->setData(Landroid/net/Uri;)Landroid/content/Intent;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/glority/android/features/premium/ui/fragment/ManageMembershipFragment;->toGoogleSubscriptionsPage(Landroid/content/Context;)V <",
+                "> Lcom/glority/android/deeplink/MainGraph;->createGraph()Landroidx/navigation/NavGraph; <",
+                "> Lcom/glority/android/modules/launch/MainActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/glority/android/modules/launch/SplashActivity;->toFeedback()V <",
+                "> Lcom/glority/android/modules/launch/SplashActivity;->onActivityResult(IILandroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Intent;->setDataAndType(Landroid/net/Uri;Ljava/lang/String;)Landroid/content/Intent;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/glority/android/modules/launch/SplashActivity;->toMain()V <",
+                "> Lcom/glority/android/modules/launch/SplashActivity;->onActivityResult(IILandroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Landroid/webkit/WebView;->evaluateJavascript(Ljava/lang/String;Landroid/webkit/ValueCallback;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/glority/android/features/tools/ui/fragment/ToolsSpeciesIdentifyResultFragment$onCreate$1;->onPageFinished(Landroid/webkit/WebView;Ljava/lang/String;)V <",
+                "> Lcom/glority/android/features/tools/ui/fragment/ToolsSpeciesIdentifyResultFragment;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/glority/android/deeplink/SpeciesIdentifyGraph;->createGraph()Landroidx/navigation/NavGraph; <",
+                "> Lcom/glority/android/modules/launch/MainActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/glority/android/modules/launch/SplashActivity;->toFeedback()V <",
+                "> Lcom/glority/android/modules/launch/SplashActivity;->onActivityResult(IILandroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    }
+}

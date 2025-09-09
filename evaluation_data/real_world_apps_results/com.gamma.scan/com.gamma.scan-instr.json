@@ -1,0 +1,85 @@
+{
+    "Landroid/content/Intent;-><init>(Ljava/lang/String;Landroid/net/Uri;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lu/d$a;->onClick(Landroid/view/View;)V <",
+                "> Lu/d;->a(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)V <",
+                "> Lu/f;->e()V <",
+                "> Lu/d;->d(Landroid/widget/TextView;LJ/s;Lq/b;Landroid/content/Context;ZLu/d$b;)V <",
+                "> Lx/w;->p(LH/b;Lr/j;Landroid/graphics/Bitmap;)V <",
+                "> Lx/w;->l()V <",
+                "> Lx/w;->onRequestPermissionsResult(I[Ljava/lang/String;[I)V <",
+                "> Lx/w;->t(LH/b;Landroid/graphics/Bitmap;ZZJI)Lx/w; <",
+                "> Lcom/gamma/barcodeapp/ui/BarcodeCaptureActivity$m;->a(LN0/a;Landroid/graphics/Bitmap;J)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.gamma.barcodeapp.ui.BarcodeCaptureActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Intent;->setData(Landroid/net/Uri;)Landroid/content/Intent;": {
+        "path_0": {
+            "call_sequence": [
+                "> La/c;->D(Landroid/app/Activity;)V <",
+                "> Lcom/gamma/barcodeapp/ui/BarcodeCaptureActivity;->a0()V <",
+                "> LA/b$a;->onClick(Landroid/view/View;)V <",
+                "> LA/b;->d(LA/a;Landroidx/appcompat/app/AppCompatActivity;)V <",
+                "> LA/b;->c(Lcom/gamma/barcodeapp/ui/BarcodeCaptureActivity;Landroid/content/SharedPreferences;)LA/a; <",
+                "> Lcom/gamma/barcodeapp/ui/BarcodeCaptureActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.gamma.barcodeapp.ui.BarcodeCaptureActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lq/b;->E(Landroid/app/Activity;)V <",
+                "> Lq/b;->k(Landroid/app/Activity;ILjava/lang/String;ZZJJLandroid/database/Cursor;Ljava/util/ArrayList;I)Z <",
+                "> Lq/b;->j(Landroid/app/Activity;ZLjava/lang/String;IZIZJJZLandroid/database/Cursor;Ljava/util/ArrayList;)V <",
+                "> Lx/w;->q(I[I)V <",
+                "> Lw/c;->j(I[I)V <",
+                "> Lw/c;->n(Landroid/app/Activity;I[I)Z <",
+                "> Lcom/gamma/barcodeapp/ui/BarcodeCaptureActivity;->onRequestPermissionsResult(I[Ljava/lang/String;[I)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;": {
+        "path_0": {
+            "call_sequence": [
+                "> Ln/c;->g(Ljava/net/URL;)Ljava/net/HttpURLConnection; <",
+                "> Ln/c;->h(Ljava/net/URI;)Ljava/net/URI; <",
+                "> Lu/f;->e()V <",
+                "> Lu/d;->d(Landroid/widget/TextView;LJ/s;Lq/b;Landroid/content/Context;ZLu/d$b;)V <",
+                "> Lx/w;->p(LH/b;Lr/j;Landroid/graphics/Bitmap;)V <",
+                "> Lx/w;->l()V <",
+                "> Lx/w;->onRequestPermissionsResult(I[Ljava/lang/String;[I)V <",
+                "> Lx/w;->t(LH/b;Landroid/graphics/Bitmap;ZZJI)Lx/w; <",
+                "> Lcom/gamma/barcodeapp/ui/BarcodeCaptureActivity$m;->a(LN0/a;Landroid/graphics/Bitmap;J)Z <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    }
+}

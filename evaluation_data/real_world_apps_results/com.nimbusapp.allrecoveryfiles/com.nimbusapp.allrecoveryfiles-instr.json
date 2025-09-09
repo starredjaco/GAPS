@@ -1,0 +1,92 @@
+{
+    "Landroid/content/Intent;-><init>(Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> LO3/c;->a(Landroid/content/Context;)Landroid/content/Intent; <",
+                "> LH3/a;->run()V <",
+                "> LK3/t;->f([Ljava/lang/Object;[Ljava/lang/Object;)V <",
+                "> LK3/i;->b(ILandroid/content/Context;)V <",
+                "> LK3/x;->d()V <",
+                "> LA5/b;->g(Z)V <",
+                "> Lcom/roosterx/featurefirst/splash/SplashActivity;->z()V <",
+                "> Lcom/roosterx/featurefirst/splash/SplashActivity;->onResume()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/roosterx/featuremain/ui/BaseMainActivity;->P(Lcom/roosterx/featuremain/ui/b;)V <",
+                "> Lcom/roosterx/featuremain/ui/MainActivity;->Q(Ljava/lang/String;)V <",
+                "> Lf8/b;->a(Landroid/app/Activity;Ljava/lang/String;)V <",
+                "> Lcom/roosterx/featurefirst/intro/IntroActivity;->R(Z)V <",
+                "> LH9/T;->a(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> LL9/Z;->b(Ljava/util/concurrent/ConcurrentHashMap;Ljava/lang/String;LH9/T;)I <",
+                "> LZ4/a;->W(LL9/a0;LX8/g;)LL9/a0; <",
+                "> LZ4/b;->Y(LL9/F;LX8/g;)LL9/F; <",
+                "> LL9/r0;->k(LL9/l0;LW8/f0;I)LL9/l0; <",
+                "> LL9/r0;->h(LL9/F;LL9/x0;)LL9/F; <",
+                "> LL9/k0;->c(LL9/r0;Ljava/util/List;Lk9/a;)Lv8/n; <",
+                "> LH9/b;->a(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lj2/h;->e(Lu9/d;)LH9/i; <",
+                "> LB4/c;->e(Lu9/d;)LH9/i; <",
+                "> Lcom/roosterx/base/glide/MyAppGlideModule;->b(Landroid/content/Context;Lcom/bumptech/glide/e;)V <",
+                "> Lcom/bumptech/glide/GeneratedAppGlideModuleImpl;->b(Landroid/content/Context;Lcom/bumptech/glide/e;)V <",
+                "> Lcom/bumptech/glide/d;->a(Landroid/content/Context;)Lcom/bumptech/glide/d; <",
+                "> Lcom/roosterx/base/BaseApp;->onTrimMemory(I)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lw5/e;->c(Ljava/net/URL;Ljava/lang/String;)Ljava/net/HttpURLConnection; <",
+                "> Lu5/e;->g(Lv5/f;)Lv5/f; <",
+                "> Lu5/c;->run()V <",
+                "> Lu5/e;->c()Lcom/google/android/gms/tasks/Task; <",
+                "> LL5/e;->d(LN5/q$a;LN5/f;)V <",
+                "> LJ5/b;->run()V <",
+                "> LK3/t;->a(LK3/A;Ljava/lang/Runnable;)V <",
+                "> LK3/i;->b(ILandroid/content/Context;)V <",
+                "> LK3/x;->d()V <",
+                "> LA5/b;->g(Z)V <",
+                "> Lcom/roosterx/featurefirst/splash/SplashActivity;->z()V <",
+                "> Lcom/roosterx/featurefirst/splash/SplashActivity;->onResume()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Landroid/webkit/WebView;->evaluateJavascript(Ljava/lang/String;Landroid/webkit/ValueCallback;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> LQ4/K;->run()V <",
+                "> Ld2/q;->run()V <",
+                "> LK3/t;->f([Ljava/lang/Object;[Ljava/lang/Object;)V <",
+                "> LK3/i;->b(ILandroid/content/Context;)V <",
+                "> LK3/x;->d()V <",
+                "> LA5/b;->g(Z)V <",
+                "> Lcom/roosterx/featurefirst/splash/SplashActivity;->z()V <",
+                "> Lcom/roosterx/featurefirst/splash/SplashActivity;->onResume()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    }
+}

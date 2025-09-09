@@ -1,0 +1,94 @@
+{
+    "Landroid/content/Intent;-><init>(Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/whatnot/feed/FeedKt$$ExternalSyntheticLambda19;->invoke()Ljava/lang/Object; <",
+                "> Lcom/whatnot/livestream/activityhub/LiveStatsKt;->BoostActivity(Lcom/whatnot/livestream/activityhub/Activity$BoostSellerActivity;ILandroidx/compose/runtime/Composer;I)V <",
+                "> Lcom/whatnot/livestream/activityhub/LiveStatsKt;->AuctionActivity(Lcom/whatnot/livestream/activityhub/Activity;Landroidx/compose/runtime/Composer;I)V <",
+                "> Lcom/whatnot/live/grading/GradingKt$$ExternalSyntheticLambda1;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcoil3/compose/AsyncImageKt;->LiveBuyerBannersContent(Lcom/whatnot/live/buyer/banners/LiveBuyerBannersState;Lcom/whatnot/live/buyer/banners/LiveBuyerBannersActionHandler;Landroidx/compose/ui/Modifier;Landroidx/compose/runtime/Composer;I)V <",
+                "> Lcom/whatnot/feed/FeedKt$$ExternalSyntheticLambda18;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcoil3/util/DrawableUtils;->UtilityBar(Lkotlinx/collections/immutable/ImmutableList;Lcom/whatnot/livestream/buyer/utility/BuyerUtilityMenuActionHandler;Landroidx/compose/ui/Modifier;Landroidx/compose/runtime/Composer;I)V <",
+                "> Lcoil3/util/DrawableUtils;->BuyerUtilityMenu(Lcom/whatnot/livestream/buyer/utility/BuyerUtilityMenuState;Lcom/whatnot/livestream/buyer/utility/BuyerUtilityMenuActionHandler;Landroidx/compose/ui/Modifier;Landroidx/compose/runtime/Composer;II)V <",
+                "> Lcom/whatnot/ui/edge/SystemBarsThemeObserverKt$$ExternalSyntheticLambda3;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/whatnot/ui/edge/SystemBarsThemeObserverKt;->InstallSystemBarsThemeObserver(Landroidx/navigation/NavController;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function1;Landroidx/compose/runtime/Composer;II)V <",
+                "> Lcom/whatnot/ui/edge/SystemBarsThemeObserverKt;->InstallSystemBarsThemeObserver(Landroidx/navigation/NavController;Landroidx/compose/runtime/Composer;I)V <",
+                "> Lorg/h/s/v;->LoggedInFlow(Landroidx/compose/ui/Modifier;Landroidx/compose/runtime/Composer;I)V <",
+                "> Lcom/whatnot/livestream/StoreButtonKt$$ExternalSyntheticLambda9;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/whatnot/ui/SpaceKt;->SplashScreen(Landroidx/compose/ui/Modifier;Landroidx/compose/runtime/Composer;I)V <",
+                "> Lcom/whatnot/MainActivity$$ExternalSyntheticLambda4;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/whatnot/sharing/ShareScreenKt$$ExternalSyntheticLambda4;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/whatnot/sharing/ShareScreenKt$$ExternalSyntheticLambda2;->invoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lorg/orbitmvi/orbit/ContainerHostExtKt;->BottomBar(Lcom/whatnot/navigation/bottombar/BottomBarState;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function1;Landroidx/compose/runtime/Composer;I)V <",
+                "> Lcom/whatnot/app/AppContentKt$$ExternalSyntheticLambda1;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lorg/h/s/v;->LoggedInFlow(Landroidx/compose/ui/Modifier;Landroidx/compose/runtime/Composer;I)V <",
+                "> Lcom/whatnot/livestream/StoreButtonKt$$ExternalSyntheticLambda9;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/whatnot/ui/SpaceKt;->SplashScreen(Landroidx/compose/ui/Modifier;Landroidx/compose/runtime/Composer;I)V <",
+                "> Lcom/whatnot/MainActivity$$ExternalSyntheticLambda4;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/builtins/BuiltInsResourceLoader;->loadResource(Ljava/lang/String;)Ljava/io/InputStream; <",
+                "> Lcom/whatnot/ui/WithPermissionsKt$WithPermissions$1$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/ValueClassUtilKt;->loadValueClassRepresentation(Lkotlin/reflect/jvm/internal/impl/metadata/ProtoBuf$Class;Lkotlin/reflect/jvm/internal/impl/metadata/deserialization/NameResolver;Lkotlin/reflect/jvm/internal/impl/metadata/deserialization/TypeTable;Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedClassDescriptor$computeValueClassRepresentation$1;Lcom/whatnot/ui/WithPermissionsKt$WithPermissions$1$1;)Lkotlin/reflect/jvm/internal/impl/descriptors/ValueClassRepresentation; <",
+                "> Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedClassDescriptor$$Lambda$0;->invoke()Ljava/lang/Object; <",
+                "> Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/DeserializedClassDescriptor;-><init>(Lkotlin/reflect/jvm/internal/impl/serialization/deserialization/DeserializationContext;Lkotlin/reflect/jvm/internal/impl/metadata/ProtoBuf$Class;Lkotlin/reflect/jvm/internal/impl/metadata/deserialization/NameResolver;Lkotlin/reflect/jvm/internal/impl/metadata/deserialization/BinaryVersion;Lkotlin/reflect/jvm/internal/impl/descriptors/SourceElement;)V <",
+                "> Lcom/whatnot/phoenix/RealPhoenixChannel$pushImpl$3$4;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lkotlin/reflect/jvm/internal/impl/load/java/JavaTypeEnhancementState;-><init>(Lkotlin/reflect/jvm/internal/impl/load/java/Jsr305Settings;Lcom/whatnot/phoenix/RealPhoenixChannel$pushImpl$3$4;)V <",
+                "> Lkotlin/reflect/jvm/internal/ModuleByClassLoaderKt;->getOrCreateModule(Ljava/lang/Class;)Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/components/RuntimeModuleData; <",
+                "> Lkotlin/reflect/jvm/internal/KTypeImpl$$Lambda$0;->invoke()Ljava/lang/Object; <",
+                "> Lcom/whatnot/MainActivity;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Landroid/webkit/WebView;->addJavascriptInterface(Ljava/lang/Object;Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/arkoselabs/sdk/private/a/c;->b(Ljava/lang/String;)V <",
+                "> Lcom/arkoselabs/sdk/private/a/c;->a()V <",
+                "> Lcom/arkoselabs/sdk/private/a/c;->onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View; <",
+                "> Lcom/arkoselabs/sdk/ArkoseChallenge;->a(Lcom/arkoselabs/sdk/ArkoseConfig;Landroidx/fragment/app/FragmentActivity;Ljava/lang/Boolean;)V <",
+                "> Lcom/arkoselabs/sdk/ArkoseManager;->a(Lcom/arkoselabs/sdk/ArkoseConfig;Landroidx/fragment/app/FragmentActivity;Ljava/lang/Boolean;)Lcom/arkoselabs/sdk/ArkoseChallenge; <",
+                "> Lcom/arkoselabs/sdk/ArkoseManager;->showEnforcementChallenge(Landroidx/fragment/app/FragmentActivity;)Lcom/arkoselabs/sdk/ArkoseChallenge; <",
+                "> Lcom/whatnot/entry/welcome/WelcomePageKt;->ShowChallenge(Lcom/whatnot/entry/welcome/WelcomeState$DisplayChallengeRequest;Lcom/whatnot/entry/welcome/WelcomeActionHandler;Landroidx/compose/runtime/Composer;I)V <",
+                "> Lcom/whatnot/entry/welcome/WelcomePageKt$$ExternalSyntheticLambda10;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/whatnot/directmessaging/ui/cs/RequestItemImageKt;->SupportRequestListItemUserProvidedImages(Ljava/util/List;Lkotlin/jvm/functions/Function1;Landroidx/compose/runtime/Composer;I)V <",
+                "> Lcom/whatnot/directmessaging/ui/cs/RequestItemImageKt;->SupportRequestListItem(Lcom/whatnot/directmessaging/ui/cs/SupportRequestItem;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function1;Landroidx/compose/ui/Modifier;Landroidx/compose/runtime/Composer;I)V <",
+                "> Lcom/whatnot/directmessaging/ui/cs/RequestItemImageKt;->ItemList(Lkotlinx/collections/immutable/ImmutableList;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;I)V <",
+                "> Lcom/whatnot/address/AddressBookKt$$ExternalSyntheticLambda1;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/whatnot/mondial/RelayPointKt;->SignUpBody(Lcom/stripe/android/uicore/elements/TextFieldController;Lcom/stripe/android/uicore/elements/PhoneNumberController;Lcom/stripe/android/uicore/elements/TextFieldController;Lcom/stripe/android/link/ui/signup/SignUpScreenState;Lkotlin/jvm/functions/Function0;Landroidx/compose/runtime/Composer;I)V <",
+                "> Lcom/whatnot/mondial/RelayPointKt;->SignUpScreen(Lcom/stripe/android/link/ui/signup/SignUpViewModel;Landroidx/compose/runtime/Composer;I)V <",
+                "> Lcom/whatnot/MainActivity$$ExternalSyntheticLambda4;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    }
+}

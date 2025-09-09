@@ -1,0 +1,72 @@
+{
+    "Landroid/content/Intent;-><init>(Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> LH2/w;->a(LH2/v;)V <",
+                "> LH2/w;->handleMessage(Landroid/os/Message;)Z <",
+                "> LUj/a;->a(Lcom/openai/feature/notification/impl/NotificationService;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;)Z <",
+                "> Lcom/openai/feature/notification/impl/NotificationService;->c(LGd/x;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.google.firebase.MESSAGING_EVENT",
+                    "start-service -a"
+                ]
+            ]
+        }
+    },
+    "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;": {
+        "path_0": {
+            "call_sequence": [
+                "> LAc/e;->L(Ljava/lang/String;)LQ6/a; <",
+                "> LG6/k;->call()Ljava/lang/Object; <",
+                "> LL5/k;->run()V <",
+                "> LYa/k;->a()V <",
+                "> LYa/k;->run()V <",
+                "> LYa/m;->d(LYa/n;)Z <",
+                "> LYa/o;->c(LYa/n;)LTb/t; <",
+                "> LGd/p;->run()V <",
+                "> LB5/t;->run()V <",
+                "> Ln/A;->t(ZZ)Z <",
+                "> Ln/l;->onConfigurationChanged(Landroid/content/res/Configuration;)V <",
+                "> Lcom/openai/voice/assistant/AssistantActivity;-><init>()V <",
+                "> Lcom/openai/feature/voice/impl/quicktile/QuickTileService;->onClick()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.service.quicksettings.action.QS_TILE",
+                    "start-service -a"
+                ]
+            ]
+        }
+    },
+    "Landroid/webkit/WebView;-><init>(Landroid/content/Context;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> LIb/S2;->d(Ljava/lang/String;Ljava/lang/String;ZLjava/lang/Integer;Le1/q;II)Lfn/c; <",
+                "> LIb/R4;->a(Ltd/a;)V <",
+                "> LIb/R4;->b()V <",
+                "> LIb/N4;-><init>(Landroid/content/Context;LXd/j;LIb/M4;)V <",
+                "> LE5/d;->run()V <",
+                "> LYa/j;->run()V <",
+                "> LB5/t;->run()V <",
+                "> LJ/g0;->F(LL/m0;LL/j;)V <",
+                "> LJu/a;->compare(Ljava/lang/Object;Ljava/lang/Object;)I <",
+                "> LDb/C;->compare(Ljava/lang/Object;Ljava/lang/Object;)I <",
+                "> LDb/B;->equals(Ljava/lang/Object;)Z <",
+                "> LH2/w;->handleMessage(Landroid/os/Message;)Z <",
+                "> LUj/a;->a(Lcom/openai/feature/notification/impl/NotificationService;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;)Z <",
+                "> Lcom/openai/feature/notification/impl/NotificationService;->c(LGd/x;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.google.firebase.MESSAGING_EVENT",
+                    "start-service -a"
+                ]
+            ]
+        }
+    }
+}

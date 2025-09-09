@@ -1,0 +1,62 @@
+{
+    "Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/recovery/filerecovery/service/RecoveryFirebaseNotificationMsgService;->onMessageReceived(Lcom/google/firebase/messaging/RemoteMessage;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.google.firebase.MESSAGING_EVENT",
+                    "start-service -a"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;": {
+        "path_0": {
+            "call_sequence": [
+                "> LZ/c;->h()V <",
+                "> LZ/c;->g(Ljava/lang/String;LA2/b;)Z <",
+                "> LZ/b;->run()V <",
+                "> Lcom/recovery/filerecovery/activity/RecoverySplashAppActivity;->onResume()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;": {
+        "path_0": {
+            "call_sequence": [
+                "> LN0/l;->a([Ljava/lang/String;)Ljava/lang/Boolean; <",
+                "> LN0/l;->doInBackground([Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> LA1/l;->a(Ljava/io/File;)V <",
+                "> Ln0/i;->d(Landroidx/appcompat/app/AppCompatActivity;La1/b;)V <",
+                "> LZ/b;->run()V <",
+                "> Lcom/recovery/filerecovery/activity/RecoverySplashAppActivity;->onResume()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Landroid/webkit/WebView;->evaluateJavascript(Ljava/lang/String;Landroid/webkit/ValueCallback;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Ll2/i;->b(Landroid/webkit/WebView;Ljava/lang/String;)V <",
+                "> LZ/b;->run()V <",
+                "> Lcom/recovery/filerecovery/activity/RecoverySplashAppActivity;->onResume()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    }
+}

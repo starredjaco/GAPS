@@ -1,0 +1,63 @@
+{
+    "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lpcccppc/cvpvcppc;->pcpp(Lcom/google/android/gms/internal/ads/ppvcpcvccc;)Lcpccv/pcvc; <",
+                "> Lvcvcppc/vccpc;->run()V <",
+                "> Lcom/deep/video/view/VideoStartActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/deep/video/local/notification/VideoLocalWorkers;->doWork()Lcccvppppc/ccpvcp; <",
+                "> Lvccp/ccpcv;->cppccvv()V <",
+                "> Lcom/deep/video/view/VideoMainActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/deep/video/view/VideoStartActivity;->cvpvcppc()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Landroid/webkit/WebView;-><init>(Landroid/content/Context;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lpcccppc/vppvcccp;-><init>(Lpcccppc/pcvcpcpvc;Landroid/os/Handler;Lpcccppc/vcvpc;)V <",
+                "> Lpcccppc/vppcpcvvc;->pcpp(Lcpcc/pccccvcc;Lcpcc/ppvpp;)V <",
+                "> Lpcccppc/cccc;->run()V <",
+                "> Lpvpccvcpc/pcpp;->run()V <",
+                "> Lvcvcppc/vccpc;->run()V <",
+                "> Lcom/deep/video/view/VideoStartActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Landroid/webkit/WebView;->evaluateJavascript(Ljava/lang/String;Landroid/webkit/ValueCallback;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lvppccccpp/pvcccc;->run()V <",
+                "> Lpvpccvcpc/pcpp;->run()V <",
+                "> Lvcvcppc/vccpc;->run()V <",
+                "> Lcom/deep/video/view/VideoStartActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    }
+}

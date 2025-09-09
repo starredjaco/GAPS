@@ -1,0 +1,191 @@
+{
+    "Landroid/webkit/WebView;->evaluateJavascript(Ljava/lang/String;Landroid/webkit/ValueCallback;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/safedk/android/internal/SafeDKWebAppInterface$3;->run()V <",
+                "> Lcom/safedk/android/internal/SafeDKWebAppInterface;->b(Ljava/lang/String;Landroid/webkit/WebView;Ljava/lang/String;)V <",
+                "> Lcom/safedk/android/analytics/brandsafety/InterstitialFinder$b;->a(Lcom/safedk/android/analytics/brandsafety/InterstitialInfo;ZZ)V <",
+                "> Lcom/safedk/android/analytics/brandsafety/InterstitialFinder$b;->run()V <",
+                "> Lcom/safedk/android/analytics/brandsafety/InterstitialFinder;->f(Landroid/app/Activity;)V <",
+                "> Lcom/safedk/android/analytics/brandsafety/InterstitialFinder;->a(Lcom/safedk/android/analytics/brandsafety/InterstitialFinder;Landroid/app/Activity;)V <",
+                "> Lcom/safedk/android/analytics/brandsafety/InterstitialFinder$1;->run()V <",
+                "> Lcom/safedk/android/analytics/brandsafety/InterstitialFinder;->c(Landroid/app/Activity;)V <",
+                "> Lcom/safedk/android/SafeDK;->a(Landroid/app/Activity;)V <",
+                "> Lcom/safedk/android/internal/b;->onActivityResumed(Landroid/app/Activity;)V <",
+                "> Lcom/safedk/android/internal/b;->getInstance()Lcom/safedk/android/internal/b; <",
+                "> Lcom/safedk/android/SafeDK;->a(ZZ)V <",
+                "> Lcom/safedk/android/SafeDK$2;->run()V <",
+                "> Lcom/safedk/android/SafeDK;->a(Z)V <",
+                "> Lcom/safedk/android/SafeDK$1;->run()V <",
+                "> Lcom/safedk/android/SafeDK;->a(Landroid/content/Context;Landroid/app/Application;)V <",
+                "> Lcom/safedk/android/SafeDKApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/tapjoy/TJAdUnitJSBridge;->displayFullscreenWebview(Lorg/json/JSONObject;Ljava/lang/String;)V <",
+                "> Lcom/tapjoy/TJIntegrationCheck;->integrationCheck()V <",
+                "> Lcom/tapjoy/TapjoyConnectCore;->a(Landroid/content/Context;Ljava/lang/String;)V <",
+                "> Lcom/tapjoy/TapjoyConnectCore;->requestTapjoyConnect(Landroid/content/Context;Ljava/lang/String;Ljava/util/Hashtable;Lcom/tapjoy/TJConnectListener;)V <",
+                "> Lcom/tapjoy/internal/s1;->a(Landroid/content/Context;Ljava/lang/String;Ljava/util/Hashtable;Lcom/tapjoy/TJConnectListener;)Z <",
+                "> Lcom/tapjoy/internal/u1;->a(Lcom/tapjoy/internal/u1;Landroid/content/Context;Ljava/lang/String;Ljava/util/Hashtable;Lcom/tapjoy/internal/x1;)Z <",
+                "> Lcom/tapjoy/internal/c2;->a(Landroid/content/Context;Ljava/lang/String;Ljava/util/Hashtable;Lcom/tapjoy/TJConnectListener;)Z <",
+                "> Lcom/tapjoy/Tapjoy;->connect(Landroid/content/Context;Ljava/lang/String;Ljava/util/Hashtable;Lcom/tapjoy/TJConnectListener;)Z <",
+                "> Lcom/storymatrix/drama/utils/ad/tapjoy/TapjoyHelper;->ll(Z)V <",
+                "> Lcom/storymatrix/drama/utils/ad/tapjoy/TapjoyHelper;->pos()V <",
+                "> Lcom/storymatrix/drama/utils/ActivityLifeManager;->ll(Landroid/app/Activity;)V <",
+                "> Lcom/storymatrix/drama/utils/ActivityLifeManager$dramabox;->dramabox()Lcom/storymatrix/drama/utils/ActivityLifeManager; <",
+                "> Lcom/storymatrix/drama/AppContext;->safedk_AppContext_onCreate_83b8eb07f829b5663cf3152bf05bae03(Lcom/storymatrix/drama/AppContext;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/safedk/android/analytics/brandsafety/BrandSafetyUtils;->b(Landroid/net/Uri;Ljava/lang/String;)V <",
+                "> Lcom/safedk/android/analytics/brandsafety/BrandSafetyUtils;->d(Ljava/lang/String;)V <",
+                "> Lcom/safedk/android/analytics/brandsafety/BannerFinder;->m(Ljava/lang/String;)V <",
+                "> Lcom/safedk/android/analytics/brandsafety/creatives/CreativeInfoManager;->a(Lcom/safedk/android/analytics/brandsafety/BrandSafetyUtils$AdType;Ljava/lang/String;)V <",
+                "> Lcom/safedk/android/analytics/brandsafety/creatives/CreativeInfoManager;->c()V <",
+                "> Lcom/safedk/android/SafeDK;->a(ZZ)V <",
+                "> Lcom/safedk/android/SafeDK$2;->run()V <",
+                "> Lcom/safedk/android/SafeDK;->a(Z)V <",
+                "> Lcom/safedk/android/SafeDK$1;->run()V <",
+                "> Lcom/safedk/android/SafeDK;->a(Landroid/content/Context;Landroid/app/Application;)V <",
+                "> Lcom/safedk/android/SafeDKApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/safedk/android/a/b;->run()V <",
+                "> Lcom/ironsource/xm$a;->a()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "0",
+                    "start -a"
+                ]
+            ]
+        }
+    },
+    "Landroid/webkit/WebView;-><init>(Landroid/content/Context;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/tapjoy/TJWebView;-><init>(Landroid/content/Context;)V <",
+                "> Lcom/tapjoy/TJSplitWebView;-><init>(Landroid/content/Context;Lorg/json/JSONObject;ILcom/tapjoy/TJAdUnitJSBridge;)V <",
+                "> Lcom/tapjoy/TJAdUnitJSBridge;->a(Lorg/json/JSONObject;Lorg/json/JSONArray;Lorg/json/JSONObject;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V <",
+                "> Lcom/tapjoy/TJIntegrationCheck;->integrationCheck()V <",
+                "> Lcom/tapjoy/TapjoyConnectCore;->a(Landroid/content/Context;Ljava/lang/String;)V <",
+                "> Lcom/tapjoy/TapjoyConnectCore;->requestTapjoyConnect(Landroid/content/Context;Ljava/lang/String;Ljava/util/Hashtable;Lcom/tapjoy/TJConnectListener;)V <",
+                "> Lcom/tapjoy/internal/s1;->a(Landroid/content/Context;Ljava/lang/String;Ljava/util/Hashtable;Lcom/tapjoy/TJConnectListener;)Z <",
+                "> Lcom/tapjoy/internal/u1;->a(Lcom/tapjoy/internal/u1;Landroid/content/Context;Ljava/lang/String;Ljava/util/Hashtable;Lcom/tapjoy/internal/x1;)Z <",
+                "> Lcom/tapjoy/internal/c2;->a(Landroid/content/Context;Ljava/lang/String;Ljava/util/Hashtable;Lcom/tapjoy/TJConnectListener;)Z <",
+                "> Lcom/tapjoy/Tapjoy;->connect(Landroid/content/Context;Ljava/lang/String;Ljava/util/Hashtable;Lcom/tapjoy/TJConnectListener;)Z <",
+                "> Lcom/storymatrix/drama/utils/ad/tapjoy/TapjoyHelper;->ll(Z)V <",
+                "> Lcom/storymatrix/drama/utils/ad/tapjoy/TapjoyHelper;->pos()V <",
+                "> Lcom/storymatrix/drama/utils/ActivityLifeManager;->ll(Landroid/app/Activity;)V <",
+                "> Lcom/storymatrix/drama/utils/ActivityLifeManager$dramabox;->dramabox()Lcom/storymatrix/drama/utils/ActivityLifeManager; <",
+                "> Lcom/storymatrix/drama/AppContext;->safedk_AppContext_onCreate_83b8eb07f829b5663cf3152bf05bae03(Lcom/storymatrix/drama/AppContext;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Landroid/webkit/WebView;->addJavascriptInterface(Ljava/lang/Object;Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/safedk/android/internal/SafeDKWebAppInterface;->b(Ljava/lang/String;Landroid/webkit/WebView;Ljava/lang/String;Ljava/lang/String;)V <",
+                "> Lcom/safedk/android/internal/SafeDKWebAppInterface;->a(Ljava/lang/String;Landroid/webkit/WebView;Ljava/lang/String;Ljava/lang/String;)V <",
+                "> Lcom/safedk/android/internal/SafeDKWebAppInterface$1;->run()V <",
+                "> Lcom/safedk/android/internal/SafeDKWebAppInterface;->a(Ljava/lang/String;Landroid/webkit/WebView;Ljava/lang/String;)V <",
+                "> Lcom/safedk/android/internal/partials/MintegralNetworkBridge;->webviewLoadUrl(Landroid/webkit/WebView;Ljava/lang/String;)V <",
+                "> Lcom/mbridge/msdk/mbsignalcommon/windvane/f;->a(Ljava/lang/Object;Ljava/lang/String;)V <",
+                "> Lcom/mbridge/msdk/nativex/view/BaseMBMediaView;->toggleCloseBtn(Ljava/lang/Object;Ljava/lang/String;)V <",
+                "> Lcom/mbridge/msdk/nativex/view/MBMediaView;-><init>(Landroid/content/Context;)V <",
+                "> Lcom/mbridge/msdk/mbnative/controller/NativeController;->b(Lcom/mbridge/msdk/out/Campaign;Landroid/view/View;Ljava/util/List;)V <",
+                "> Lcom/mbridge/msdk/mbnative/service/a;->b(Landroid/view/View;Ljava/util/List;Lcom/mbridge/msdk/out/Campaign;)V <",
+                "> Lcom/mbridge/msdk/preload/a;->a(Ljava/util/Map;I)V <",
+                "> Lcom/mbridge/msdk/foundation/controller/d;->b(Ljava/lang/String;)V <",
+                "> Lcom/mbridge/msdk/foundation/controller/d;->a()Lcom/mbridge/msdk/foundation/controller/d; <",
+                "> Lcom/mbridge/msdk/foundation/tools/w0;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/mbridge/msdk/foundation/controller/a$d;->run()V <",
+                "> Lcom/mbridge/msdk/foundation/controller/a;->c()Ljava/lang/String; <",
+                "> Lcom/mbridge/msdk/foundation/tools/e0;->d()V <",
+                "> Lcom/mbridge/msdk/foundation/same/broadcast/NetWorkChangeReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.net.conn.CONNECTIVITY_CHANGE",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Intent;->setData(Landroid/net/Uri;)Landroid/content/Intent;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/tapjoy/TJAdUnitJSBridge;->openSettingsByAction(Lorg/json/JSONObject;Ljava/lang/String;)V <",
+                "> Lcom/tapjoy/TJIntegrationCheck;->integrationCheck()V <",
+                "> Lcom/tapjoy/TapjoyConnectCore;->a(Landroid/content/Context;Ljava/lang/String;)V <",
+                "> Lcom/tapjoy/TapjoyConnectCore;->requestTapjoyConnect(Landroid/content/Context;Ljava/lang/String;Ljava/util/Hashtable;Lcom/tapjoy/TJConnectListener;)V <",
+                "> Lcom/tapjoy/internal/s1;->a(Landroid/content/Context;Ljava/lang/String;Ljava/util/Hashtable;Lcom/tapjoy/TJConnectListener;)Z <",
+                "> Lcom/tapjoy/internal/u1;->a(Lcom/tapjoy/internal/u1;Landroid/content/Context;Ljava/lang/String;Ljava/util/Hashtable;Lcom/tapjoy/internal/x1;)Z <",
+                "> Lcom/tapjoy/internal/c2;->a(Landroid/content/Context;Ljava/lang/String;Ljava/util/Hashtable;Lcom/tapjoy/TJConnectListener;)Z <",
+                "> Lcom/tapjoy/Tapjoy;->connect(Landroid/content/Context;Ljava/lang/String;Ljava/util/Hashtable;Lcom/tapjoy/TJConnectListener;)Z <",
+                "> Lcom/storymatrix/drama/utils/ad/tapjoy/TapjoyHelper;->ll(Z)V <",
+                "> Lcom/storymatrix/drama/utils/ad/tapjoy/TapjoyHelper;->pos()V <",
+                "> Lcom/storymatrix/drama/utils/ActivityLifeManager;->ll(Landroid/app/Activity;)V <",
+                "> Lcom/storymatrix/drama/utils/ActivityLifeManager$dramabox;->dramabox()Lcom/storymatrix/drama/utils/ActivityLifeManager; <",
+                "> Lcom/storymatrix/drama/AppContext;->safedk_AppContext_onCreate_83b8eb07f829b5663cf3152bf05bae03(Lcom/storymatrix/drama/AppContext;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Context;->getExternalCacheDir()Ljava/io/File;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/lib/video/AliPlayerManager;->tyu()V <",
+                "> Lcom/lib/video/AliPlayerManager;-><init>(Landroid/content/Context;Lu7/jkk;)V <",
+                "> Lcom/storymatrix/drama/view/store/StoreForYouView;-><init>(Landroid/content/Context;Lcom/storymatrix/drama/fragment/StoreForYouFragment;Lw8/l1;)V <",
+                "> Lcom/storymatrix/drama/adapter/store/StoreForYouAdapter;->lo(Landroid/view/ViewGroup;I)Lcom/storymatrix/drama/adapter/store/StoreForYouAdapter$RecyclerViewHolder; <",
+                "> Lcom/storymatrix/drama/adapter/store/StoreForYouAdapter;->onCreateViewHolder(Landroid/view/ViewGroup;I)Landroidx/recyclerview/widget/RecyclerView$ViewHolder; <",
+                "> Lcom/storymatrix/drama/fragment/StoreForYouFragment;->dealWithAction(Lcom/storymatrix/framework/rxbus/BusEvent;)V <",
+                "> Lcom/storymatrix/drama/adapter/MainPageAdapter;->createFragment(I)Landroidx/fragment/app/Fragment; <",
+                "> Lcom/storymatrix/drama/activity/MainActivity;->initData()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    }
+}

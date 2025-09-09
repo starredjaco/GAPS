@@ -1,0 +1,235 @@
+{
+    "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;": {
+        "path_0": {
+            "call_sequence": [
+                "> LVi/i;->a(LVi/g;)I <",
+                "> LVi/h;->run()V <",
+                "> LVi/i;-><init>(Landroid/content/Context;)V <",
+                "> LVi/a;->run()V <",
+                "> LV8/a;->run()V <",
+                "> LV8/b;->a(Lcom/duolingo/core/tracking/conversion/AdWordsConversionEvent;Z)V <",
+                "> Lcom/duolingo/home/P;->onResume(Landroidx/lifecycle/u;)V <",
+                "> Lcom/duolingo/home/HomeFragment;->onViewCreated(LD3/a;Landroid/os/Bundle;)V <",
+                "> Lcom/duolingo/session/challenges/Y2;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/duolingo/core/DuoApp;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Intent;-><init>()V": {
+        "path_0": {
+            "call_sequence": [
+                "> LT3/h;->a()V <",
+                "> LT3/h;->run()V <",
+                "> LK3/s;-><init>(Landroid/content/Context;LJ3/b;LU3/a;Landroidx/work/impl/WorkDatabase;Ljava/util/List;LK3/g;LQ3/l;)V <",
+                "> LK3/u;->t(Landroid/content/Context;LJ3/b;)LK3/s; <",
+                "> LK3/s;->e(Landroid/content/Context;LJ3/b;)V <",
+                "> LK3/s;->d(Landroid/content/Context;)LK3/s; <",
+                "> LM5/a;->a()LK3/s; <",
+                "> Lcom/duolingo/notifications/m0;->i(Landroid/content/Context;ZLjava/util/Map;)V <",
+                "> Lcom/duolingo/notifications/FcmIntentService;->c(Lcom/google/firebase/messaging/RemoteMessage;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.google.firebase.MESSAGING_EVENT",
+                    "start-service -a"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/unity3d/services/core/api/Intent;->intentFromMetadata(Lorg/json/JSONObject;)Landroid/content/Intent; <",
+                "> Lcom/unity3d/services/core/configuration/CoreModuleConfiguration;->getWebAppApiClassList()[Ljava/lang/Class; <",
+                "> Lcom/unity3d/services/core/configuration/Configuration;-><init>(Lorg/json/JSONObject;)V <",
+                "> Lcom/unity3d/services/core/configuration/ConfigurationReader;->getLocalConfiguration()Lcom/unity3d/services/core/configuration/Configuration; <",
+                "> Lcom/unity3d/services/core/configuration/ConfigurationReader;->getCurrentConfiguration()Lcom/unity3d/services/core/configuration/Configuration; <",
+                "> Lcom/unity3d/services/ads/gmascar/managers/BiddingBaseManager;->lambda$uploadSignals$2(Lcom/unity3d/services/ads/gmascar/models/BiddingSignals;)V <",
+                "> Lcom/unity3d/services/ads/gmascar/managers/BiddingBaseManager;->a(Lcom/unity3d/services/ads/gmascar/managers/BiddingBaseManager;Lcom/unity3d/services/ads/gmascar/models/BiddingSignals;)V <",
+                "> Lcom/ironsource/X5;->run()V <",
+                "> Li1/j;->c(Landroid/content/Context;ILandroid/util/TypedValue;ILal/b;ZZ)Landroid/graphics/Typeface; <",
+                "> Li1/j;->b(ILandroid/content/Context;)Landroid/graphics/Typeface; <",
+                "> Lu9/v;->b(Landroid/content/Context;Ljava/lang/CharSequence;ZZ)Landroid/text/Spanned; <",
+                "> Lu9/v;->c(Lu9/v;Landroid/content/Context;Ljava/lang/CharSequence;ZI)Landroid/text/Spanned; <",
+                "> LZg/q;->a(Landroid/content/Context;Landroid/widget/RemoteViews;I)V <",
+                "> LZg/n;->d(Landroid/content/Context;Lcom/squareup/picasso/C;Lh7/c;)Landroid/widget/RemoteViews; <",
+                "> Lcom/duolingo/notifications/m0;->e(Lcom/duolingo/notifications/m0;Landroid/content/Context;Lcom/duolingo/notifications/Y;Landroid/os/Bundle;Ljava/lang/String;Ljava/lang/String;ZLA/d0;Ljava/util/LinkedHashMap;I)Lf1/m; <",
+                "> Lcom/duolingo/notifications/DelayedPracticeReminderWorker;->doWork()LJ3/q; <",
+                "> Lcom/duolingo/notifications/NotificationIntentService;->onHandleIntent(Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.duolingo.action.FOLLOW_BACK",
+                    "start-service -a"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Context;->getExternalCacheDir()Ljava/io/File;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/unity3d/services/core/api/DeviceInfo;->getFileForStorageType(Lcom/unity3d/services/core/api/DeviceInfo$StorageType;)Ljava/io/File; <",
+                "> Lcom/unity3d/services/core/configuration/CoreModuleConfiguration;->getWebAppApiClassList()[Ljava/lang/Class; <",
+                "> Lcom/unity3d/services/core/configuration/Configuration;-><init>()V <",
+                "> Lcom/unity3d/services/core/configuration/ConfigurationReader;->getCurrentConfiguration()Lcom/unity3d/services/core/configuration/Configuration; <",
+                "> Lcom/unity3d/services/ads/gmascar/managers/BiddingBaseManager;->lambda$uploadSignals$2(Lcom/unity3d/services/ads/gmascar/models/BiddingSignals;)V <",
+                "> Lcom/unity3d/services/ads/gmascar/managers/BiddingBaseManager;->a(Lcom/unity3d/services/ads/gmascar/managers/BiddingBaseManager;Lcom/unity3d/services/ads/gmascar/models/BiddingSignals;)V <",
+                "> Lcom/ironsource/X5;->run()V <",
+                "> Li1/j;->c(Landroid/content/Context;ILandroid/util/TypedValue;ILal/b;ZZ)Landroid/graphics/Typeface; <",
+                "> Li1/j;->b(ILandroid/content/Context;)Landroid/graphics/Typeface; <",
+                "> Lcom/duolingo/core/design/juicy/components/inputs/Checkbox;->setTypeface(Landroid/graphics/Typeface;)V <",
+                "> LEg/E;->onLayoutChange(Landroid/view/View;IIIIIIII)V <",
+                "> Lcom/duolingo/session/challenges/TapCompleteChallengeTableView;->g([I)V <",
+                "> Lcom/duolingo/plus/management/C;->b(Ljava/lang/String;)V <",
+                "> LS3/l;->apply(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> LHd/b;->a()LS3/l; <",
+                "> LAl/d;->call()Ljava/lang/Object; <",
+                "> Lcom/duolingo/core/DuoApp;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.duolingo.core.DuoApp",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Landroid/webkit/WebView;-><init>(Landroid/content/Context;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/ironsource/sdk/controller/OpenUrlActivity;->onResume()V <",
+                "> Lrm/y0;->shouldOverrideUrlLoading(Landroid/webkit/WebView;Ljava/lang/String;)Z <",
+                "> Lrm/x0;->onCreateWindow(Landroid/webkit/WebView;ZZLandroid/os/Message;)Z <",
+                "> Lcom/ironsource/sdk/controller/t;-><init>(Landroid/content/Context;Lcom/ironsource/k3;Lcom/ironsource/q2;Lrm/i;Lcom/ironsource/q5;ILcom/ironsource/s3;Ljava/lang/String;Lcom/ironsource/sdk/controller/k$a;Lcom/ironsource/sdk/controller/k$b;Ljava/lang/String;Ljava/lang/String;)V <",
+                "> Lcom/ironsource/sdk/controller/e;->a(Lcom/ironsource/sdk/controller/e;Landroid/content/Context;Lcom/ironsource/q2;Lcom/ironsource/uc;Lcom/ironsource/k3;ILcom/ironsource/s3;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lcom/ironsource/sdk/controller/t; <",
+                "> Lrm/A;->run()V <",
+                "> Lcom/ironsource/sdk/controller/e;-><init>(Landroid/content/Context;Lcom/ironsource/q2;Lcom/ironsource/uc;Lcom/ironsource/k3;Lcom/ironsource/q5;ILorg/json/JSONObject;Ljava/lang/String;Ljava/lang/String;Lcom/ironsource/r9;)V <",
+                "> Lcom/ironsource/u7;->d(Landroid/content/Context;)V <",
+                "> Lcom/ironsource/u7;->a(Ljava/lang/String;Ljava/lang/String;Landroid/content/Context;)Lcom/ironsource/a8; <",
+                "> Lcom/ironsource/u7;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Lcom/ironsource/a8; <",
+                "> Lcom/ironsource/sdk/IronSourceNetwork;->initSDK(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;)V <",
+                "> Lcom/ironsource/sdk/IronSourceNetwork;->setInitListener(Lcom/ironsource/ca;)V <",
+                "> Lcom/ironsource/sdk/IronSourceNetwork;->getControllerManager()Lcom/ironsource/sdk/controller/e; <",
+                "> Lcom/ironsource/s6$a;->a()Lcom/ironsource/s6; <",
+                "> Lcom/ironsource/adapters/ironsource/nativeAd/IronSourceNativeAdAdapter;->loadNativeAdForBidding$lambda$0(Lcom/ironsource/adapters/ironsource/nativeAd/IronSourceNativeAdAdapter;Lorg/json/JSONObject;Lcom/ironsource/mediationsdk/ads/nativead/interfaces/NativeAdSmashListener;Ljava/lang/String;)V <",
+                "> Lcom/ironsource/adapters/ironsource/nativeAd/IronSourceNativeAdAdapter;->a(Lcom/ironsource/adapters/ironsource/nativeAd/IronSourceNativeAdAdapter;Lorg/json/JSONObject;Lcom/ironsource/mediationsdk/ads/nativead/interfaces/NativeAdSmashListener;Ljava/lang/String;)V <",
+                "> LBi/b;->run()V <",
+                "> Lcom/duolingo/leagues/O1;->run()V <",
+                "> LUc/n;->call()Ljava/lang/Object; <",
+                "> LA3/M;->apply(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> LS7/k1;->apply(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/duolingo/plus/management/C;->apply(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> LS3/l;->apply(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> LHd/b;->a()LS3/l; <",
+                "> LAl/d;->call()Ljava/lang/Object; <",
+                "> Lcom/duolingo/core/DuoApp;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Landroid/webkit/WebView;->addJavascriptInterface(Ljava/lang/Object;Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/ironsource/sdk/controller/t;-><init>(Landroid/content/Context;Lcom/ironsource/k3;Lcom/ironsource/q2;Lrm/i;Lcom/ironsource/q5;ILcom/ironsource/s3;Ljava/lang/String;Lcom/ironsource/sdk/controller/k$a;Lcom/ironsource/sdk/controller/k$b;Ljava/lang/String;Ljava/lang/String;)V <",
+                "> Lcom/ironsource/sdk/controller/e;->a(Lcom/ironsource/sdk/controller/e;Landroid/content/Context;Lcom/ironsource/q2;Lcom/ironsource/uc;Lcom/ironsource/k3;ILcom/ironsource/s3;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lcom/ironsource/sdk/controller/t; <",
+                "> Lrm/A;->run()V <",
+                "> Lcom/ironsource/sdk/controller/e;-><init>(Landroid/content/Context;Lcom/ironsource/q2;Lcom/ironsource/uc;Lcom/ironsource/k3;Lcom/ironsource/q5;ILorg/json/JSONObject;Ljava/lang/String;Ljava/lang/String;Lcom/ironsource/r9;)V <",
+                "> Lcom/ironsource/u7;->d(Landroid/content/Context;)V <",
+                "> Lcom/ironsource/u7;->a(Ljava/lang/String;Ljava/lang/String;Landroid/content/Context;)Lcom/ironsource/a8; <",
+                "> Lcom/ironsource/u7;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Lcom/ironsource/a8; <",
+                "> Lcom/ironsource/sdk/IronSourceNetwork;->initSDK(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;)V <",
+                "> Lcom/ironsource/sdk/IronSourceNetwork;->setInitListener(Lcom/ironsource/ca;)V <",
+                "> Lcom/ironsource/sdk/IronSourceNetwork;->getControllerManager()Lcom/ironsource/sdk/controller/e; <",
+                "> Lcom/ironsource/s6$a;->a()Lcom/ironsource/s6; <",
+                "> Lcom/ironsource/adapters/ironsource/nativeAd/IronSourceNativeAdAdapter;->loadNativeAdForBidding$lambda$0(Lcom/ironsource/adapters/ironsource/nativeAd/IronSourceNativeAdAdapter;Lorg/json/JSONObject;Lcom/ironsource/mediationsdk/ads/nativead/interfaces/NativeAdSmashListener;Ljava/lang/String;)V <",
+                "> Lcom/ironsource/adapters/ironsource/nativeAd/IronSourceNativeAdAdapter;->a(Lcom/ironsource/adapters/ironsource/nativeAd/IronSourceNativeAdAdapter;Lorg/json/JSONObject;Lcom/ironsource/mediationsdk/ads/nativead/interfaces/NativeAdSmashListener;Ljava/lang/String;)V <",
+                "> LBi/b;->run()V <",
+                "> Lcom/duolingo/leagues/O1;->run()V <",
+                "> LUc/n;->call()Ljava/lang/Object; <",
+                "> LA3/M;->apply(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> LS7/k1;->apply(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/duolingo/plus/management/C;->apply(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> LS3/l;->apply(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> LHd/b;->a()LS3/l; <",
+                "> LAl/d;->call()Ljava/lang/Object; <",
+                "> Lcom/duolingo/core/DuoApp;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Landroid/webkit/WebView;->evaluateJavascript(Ljava/lang/String;Landroid/webkit/ValueCallback;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/unity3d/services/core/webview/WebView;->evaluateJavascript$lambda$1(Lcom/unity3d/services/core/webview/WebView;Ljava/lang/String;Landroid/webkit/ValueCallback;)V <",
+                "> Lcom/unity3d/services/core/webview/WebView;->a(Lcom/unity3d/services/core/webview/WebView;Ljava/lang/String;Landroid/webkit/ValueCallback;)V <",
+                "> Lcom/unity3d/services/core/webview/b;->run()V <",
+                "> Lcom/unity3d/services/core/webview/WebView;->evaluateJavascript(Ljava/lang/String;Landroid/webkit/ValueCallback;)V <",
+                "> Lcom/unity3d/services/core/webview/WebViewApp;->invokeJavascriptMethod(Ljava/lang/String;Ljava/lang/String;Lorg/json/JSONArray;)V <",
+                "> Lcom/unity3d/services/core/webview/WebViewApp;->invokeCallback(Lcom/unity3d/services/core/webview/bridge/Invocation;)Z <",
+                "> Lcom/unity3d/services/core/webview/bridge/SharedInstances;->webViewAppInvocationCallbackInvoker$lambda$0(Lcom/unity3d/services/core/webview/bridge/Invocation;)V <",
+                "> Lcom/unity3d/services/core/webview/bridge/SharedInstances;->a(Lcom/unity3d/services/core/webview/bridge/Invocation;)V <",
+                "> Lcom/duolingo/billing/m;->invokeCallback(Lcom/unity3d/services/core/webview/bridge/Invocation;)V <",
+                "> Lcom/duolingo/share/ImageShareBottomSheetV2;->onViewCreated(LD3/a;Landroid/os/Bundle;)V <",
+                "> Lcom/duolingo/core/ui/O;->z(Lcom/duolingo/share/w;)Lcom/duolingo/share/ImageShareBottomSheetV2; <",
+                "> Lcom/duolingo/share/N;->f(Landroidx/fragment/app/FragmentActivity;Lcom/duolingo/share/c;)V <",
+                "> Lcom/duolingo/plus/management/C;->accept(Ljava/lang/Object;)V <",
+                "> LS3/l;->apply(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> LHd/b;->a()LS3/l; <",
+                "> LAl/d;->call()Ljava/lang/Object; <",
+                "> Lcom/duolingo/core/DuoApp;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Intent;->setDataAndType(Landroid/net/Uri;Ljava/lang/String;)Landroid/content/Intent;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/unity3d/services/core/api/Intent;->launch(Lorg/json/JSONObject;Lcom/unity3d/services/core/webview/bridge/WebViewCallback;)V <",
+                "> Lcom/unity3d/services/core/configuration/CoreModuleConfiguration;->getWebAppApiClassList()[Ljava/lang/Class; <",
+                "> Lcom/unity3d/services/core/configuration/Configuration;-><init>()V <",
+                "> Lcom/unity3d/services/core/configuration/ConfigurationReader;->getCurrentConfiguration()Lcom/unity3d/services/core/configuration/Configuration; <",
+                "> Lcom/unity3d/services/banners/bridge/BannerBridge;->load(Ljava/lang/String;Ljava/lang/String;Lcom/unity3d/services/banners/UnityBannerSize;Lcom/unity3d/ads/UnityAdsLoadOptions;)V <",
+                "> Lcom/unity3d/services/banners/BannerView;->bridgeLoad(Lcom/unity3d/ads/UnityAdsLoadOptions;)V <",
+                "> Lcom/unity3d/services/banners/BannerView;->load(Lcom/unity3d/ads/UnityAdsLoadOptions;)V <",
+                "> Lcom/duolingo/streak/friendsStreak/O;->run()V <",
+                "> Lcom/duolingo/shop/iaps/f;->invoke()Ljava/lang/Object; <",
+                "> Lcom/duolingo/signuplogin/e;->onClick(Landroid/view/View;)V <",
+                "> Lcom/duolingo/streak/earnback/StreakEarnbackProgressActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/duolingo/streak/earnback/q;->a(Landroid/content/Context;ILcom/duolingo/streak/earnback/StreakEarnbackProgressViewModel$Origin;)Landroid/content/Intent; <",
+                "> Lcom/duolingo/session/challenges/Y2;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/duolingo/core/DuoApp;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.duolingo.streak.earnback.StreakEarnbackProgressActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    }
+}

@@ -1,0 +1,122 @@
+{
+    "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/yk/e/net/NetRequest;->postData(I)Ljava/lang/String; <",
+                "> Lcom/yk/e/net/NetRequest$2;->run()V <",
+                "> Lcom/yk/e/net/NetRequest;->execute()V <",
+                "> Lcom/yk/e/net/TaskThreadPool;->connect(Ljava/lang/String;Lorg/json/JSONObject;Lcom/yk/e/net/NetRequest$NetCallBack;)V <",
+                "> Lsj/j;->p(Li/d;Lsj/j$f;)V <",
+                "> Lcom/yk/e/MainSDK;->statAd(Li/d;Lsj/j$f;)V <",
+                "> Lcom/yk/e/MainSDK;->getInstance()Lcom/yk/e/MainSDK; <",
+                "> Lcom/wangxiong/sdk/WxSDK;->initAdCache(Landroid/app/Activity;)V <",
+                "> Lcom/tiny/tinyfun/qr/DkvInitialUser;->A()V <",
+                "> Lcom/tiny/tinyfun/qr/DkvInitialUser;->applyImage()V <",
+                "> Ltb/a;->a(Landroid/app/Activity;)V <",
+                "> Lcom/tiny/tinyfun/qr/login/splash/DKReceiveTask;->setAdInfo(Lcom/tiny/tinyfun/an/DKZeroThread;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Landroid/webkit/WebView;-><init>(Landroid/content/Context;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/safedk/android/analytics/brandsafety/i;->c(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V <",
+                "> Lcom/safedk/android/analytics/brandsafety/i;->b(Lcom/safedk/android/analytics/brandsafety/i;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V <",
+                "> Lcom/safedk/android/analytics/brandsafety/i$1;->run()V <",
+                "> Lcom/safedk/android/analytics/brandsafety/i;->a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V <",
+                "> Lcom/safedk/android/analytics/brandsafety/k;->a(Landroid/os/Bundle;)V <",
+                "> Lcom/safedk/android/analytics/brandsafety/k;->a()Lcom/safedk/android/analytics/brandsafety/k; <",
+                "> Lcom/safedk/android/SafeDK;->i()V <",
+                "> Lcom/safedk/android/SafeDK;->a(Landroid/content/Context;)Lcom/safedk/android/SafeDK; <",
+                "> Lcom/safedk/android/SafeDKApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Landroid/webkit/WebView;->addJavascriptInterface(Ljava/lang/Object;Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/tiny/tinyfun/qr/web/DKDiscardProtocol;->handleRotationFloat()V <",
+                "> Lcom/tiny/tinyfun/qr/web/DKDiscardProtocol;->applyImage(Landroid/content/Intent;)V <",
+                "> Lcom/tiny/tinyfun/qr/web/DKDiscardProtocol;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/tiny/tinyfun/nano/DkvFindProtocol;->lambda$applyImage$2(Landroid/view/View;)V <",
+                "> Lcom/tiny/tinyfun/nano/DkvFindProtocol;->f(Lcom/tiny/tinyfun/nano/DkvFindProtocol;Landroid/view/View;)V <",
+                "> Lva/q;->onClick(Landroid/view/View;)V <",
+                "> Lcom/tiny/tinyfun/nano/DkvFindProtocol;->applyImage()V <",
+                "> Lcom/tiny/tinyfun/nano/DKFlightJsonSession;->p(Landroid/view/MenuItem;)Z <",
+                "> Lcom/tiny/tinyfun/nano/DKFlightJsonSession;->m(Lcom/tiny/tinyfun/nano/DKFlightJsonSession;Landroid/view/MenuItem;)Z <",
+                "> Lva/d;->onNavigationItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/tiny/tinyfun/nano/DKFlightJsonSession;->onCreate(Landroid/os/Bundle;)V <",
+                "> Ltb/a;->a(Landroid/app/Activity;)V <",
+                "> Lcom/tiny/tinyfun/qr/login/splash/DKReceiveTask;->setAdInfo(Lcom/tiny/tinyfun/an/DKZeroThread;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.tiny.tinyfun.nano.DKFlightJsonSession",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lme/goldze/mvvmhabit/base/BaseFragment;->startActivity(Ljava/lang/Class;Landroid/os/Bundle;)V <",
+                "> Lcom/tiny/tinyfun/qr/homecontent/DKTaskClass;->lambda$initViewObservable$2(Ljava/lang/Void;)V <",
+                "> Lcom/tiny/tinyfun/qr/DkvInitialUser;->applyImage()V <",
+                "> Ltb/a;->a(Landroid/app/Activity;)V <",
+                "> Lcom/tiny/tinyfun/qr/login/splash/DKReceiveTask;->setAdInfo(Lcom/tiny/tinyfun/an/DKZeroThread;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;": {
+        "path_0": {
+            "call_sequence": [
+                "> Ltb/y;->a(Landroid/content/Context;Ljava/lang/String;)V <",
+                "> Lcom/tiny/tinyfun/qr/mine/DKCreateContext;->lambda$initViewObservable$8(Ljava/lang/Void;)V <",
+                "> Lcom/tiny/tinyfun/qr/DkvInitialUser;->applyImage()V <",
+                "> Ltb/a;->a(Landroid/app/Activity;)V <",
+                "> Lcom/tiny/tinyfun/qr/login/splash/DKReceiveTask;->setAdInfo(Lcom/tiny/tinyfun/an/DKZeroThread;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Context;->getExternalCacheDir()Ljava/io/File;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lzb/a;->d(Landroid/content/Context;)Ljava/lang/String; <",
+                "> Ltb/q;->d(Ljava/lang/String;Ljava/lang/Class;)Ljava/util/List; <",
+                "> Lcom/tiny/tinyfun/qr/homecontent/DKTaskClass;->applyImage()V <",
+                "> Lcom/tiny/tinyfun/qr/DkvInitialUser;->applyImage()V <",
+                "> Ltb/a;->a(Landroid/app/Activity;)V <",
+                "> Lcom/tiny/tinyfun/qr/login/splash/DKReceiveTask;->setAdInfo(Lcom/tiny/tinyfun/an/DKZeroThread;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    }
+}

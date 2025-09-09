@@ -1,0 +1,187 @@
+{
+    "Landroid/webkit/WebView;->addJavascriptInterface(Ljava/lang/Object;Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/newleaf/app/android/victor/webReward/BaseRewardWebView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V <",
+                "> Lcom/newleaf/app/android/victor/webReward/EarnRewardWebView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V <",
+                "> Lcom/newleaf/app/android/victor/webReward/EarnRewardWebView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;II)V <",
+                "> Lcom/newleaf/app/android/victor/webReward/s0;->a(Landroid/content/MutableContextWrapper;)Lcom/newleaf/app/android/victor/webReward/EarnRewardWebView; <",
+                "> Lcom/newleaf/app/android/victor/webReward/s0;->b(Landroid/content/Context;)Lcom/newleaf/app/android/victor/webReward/EarnRewardWebView; <",
+                "> Lcom/newleaf/app/android/victor/webReward/RewardWebActivity;->C()V <",
+                "> Lcom/newleaf/app/android/victor/view/l1;->B(Landroid/content/Context;Lkotlin/jvm/functions/Function1;)V <",
+                "> Lcom/newleaf/app/android/victor/deeplink/j;->k(Llg/a;)V <",
+                "> Lcom/newleaf/app/android/victor/deeplink/j;->c()Z <",
+                "> Lcom/newleaf/app/android/victor/deeplink/j;->j()Z <",
+                "> Lcom/newleaf/app/android/victor/deeplink/j;->b(Landroid/net/Uri;)Z <",
+                "> Lcom/newleaf/app/android/victor/SplashActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.VIEW",
+                    "start-activity -a"
+                ]
+            ]
+        }
+    },
+    "Landroid/webkit/WebView;->evaluateJavascript(Ljava/lang/String;Landroid/webkit/ValueCallback;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/tapjoy/TJWebViewActivity;->a(Ljava/lang/String;)Z <",
+                "> Lcom/tapjoy/q0;->shouldOverrideUrlLoading(Landroid/webkit/WebView;Ljava/lang/String;)Z <",
+                "> Lcom/tapjoy/TJWebViewActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/tapjoy/TJAdUnitJSBridge;->displayFullscreenWebview(Lorg/json/JSONObject;Ljava/lang/String;)V <",
+                "> Lcom/tapjoy/TJAdUnitJSBridge;->onDispatchMethod(Ljava/lang/String;Lorg/json/JSONObject;)V <",
+                "> Lcom/tapjoy/TJAdUnitJSBridge;->flushBacklogMessageQueue()V <",
+                "> Lcom/tapjoy/TJAdUnitJSBridge;->setEnabled(Z)V <",
+                "> Lcom/tapjoy/TJAdUnitJSBridge;-><init>(Lcom/tapjoy/TJJSBridgeDelegate;)V <",
+                "> Lcom/tapjoy/c;->run()V <",
+                "> Lcom/tapjoy/TJAdUnit;->load(Lcom/tapjoy/TJPlacementData;ZLandroid/content/Context;)V <",
+                "> Lcom/tapjoy/TJAdUnit;->preload(Lcom/tapjoy/TJPlacementData;Landroid/content/Context;)Z <",
+                "> Lcom/tapjoy/a0;->onCachingCompleted()V <",
+                "> Lcom/tapjoy/internal/g1;->a(Ljava/lang/String;Ljava/lang/String;ZLjava/lang/String;Ljava/util/HashMap;Lcom/tapjoy/a0;)V <",
+                "> Lcom/tapjoy/TJCorePlacement;->b(Lcom/tapjoy/TJPlacement;)V <",
+                "> Lcom/newleaf/app/android/victor/player/view/k0;->run()V <",
+                "> Lcom/newleaf/app/android/victor/report/kissreport/k;->a(Ljava/lang/String;Ljava/util/LinkedHashMap;)V <",
+                "> Lcom/newleaf/app/android/victor/common/n;->onFragmentStarted(Landroidx/fragment/app/FragmentManager;Landroidx/fragment/app/Fragment;)V <",
+                "> Lv1/a;->onActivityResumed(Landroid/app/Activity;)V <",
+                "> Lcom/newleaf/app/android/victor/VictorApplication;->attachBaseContext(Landroid/content/Context;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Intent;-><init>(Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/newleaf/app/android/victor/paylib/iap/f;->k(Lcom/newleaf/app/android/victor/paylib/iap/a;)V <",
+                "> Lcom/newleaf/app/android/victor/paylib/iap/f;->b(Lcom/newleaf/app/android/victor/base/BaseApplication;ZLcom/newleaf/app/android/victor/paylib/iap/a;)V <",
+                "> Lcom/newleaf/app/android/victor/MainActivity;->w()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/apm/insight/n/m;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;Z)V <",
+                "> Lcom/apm/insight/g;->a(Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;Z)Lcom/apm/insight/n/j; <",
+                "> Lcom/apm/insight/n/f;->a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;)Z <",
+                "> Lcom/apm/insight/n/c;->i()V <",
+                "> Lcom/apm/insight/n/c;->a(Z)V <",
+                "> Lcom/apm/insight/n/l;->run()V <",
+                "> Lcom/apm/insight/n/l;->a(Landroid/content/Context;I)V <",
+                "> Lcom/apm/insight/n/l;->a(Landroid/content/Context;)V <",
+                "> Lcom/apm/insight/runtime/p;->h(Z)V <",
+                "> Lcom/apm/insight/runtime/p;->a(Landroid/content/Context;ZZZZJ)V <",
+                "> Lcom/apm/insight/MonitorCrash;->initSDKWithConfig(Landroid/content/Context;Lcom/apm/insight/MonitorCrash$Config;Ljava/lang/String;JLjava/lang/String;Ljava/lang/String;[Ljava/lang/String;)Lcom/apm/insight/MonitorCrash; <",
+                "> Lcom/apm/insight/MonitorCrash;->init(Landroid/content/Context;Lcom/apm/insight/MonitorCrash$Config;)Lcom/apm/insight/MonitorCrash; <",
+                "> Lcom/newleaf/app/android/victor/base/BaseApplication;->b()V <",
+                "> Lcom/newleaf/app/android/victor/VictorApplication;->b()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/tapjoy/TJWebViewActivity;->a(Ljava/lang/String;)Z <",
+                "> Lcom/tapjoy/q0;->shouldOverrideUrlLoading(Landroid/webkit/WebView;Ljava/lang/String;)Z <",
+                "> Lcom/tapjoy/TJWebViewActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/tapjoy/TJAdUnitJSBridge;->displayFullscreenWebview(Lorg/json/JSONObject;Ljava/lang/String;)V <",
+                "> Lcom/tapjoy/TJAdUnitJSBridge;->onDispatchMethod(Ljava/lang/String;Lorg/json/JSONObject;)V <",
+                "> Lcom/tapjoy/TJAdUnitJSBridge;->flushBacklogMessageQueue()V <",
+                "> Lcom/tapjoy/TJAdUnitJSBridge;->setEnabled(Z)V <",
+                "> Lcom/tapjoy/TJAdUnitJSBridge;-><init>(Lcom/tapjoy/TJJSBridgeDelegate;)V <",
+                "> Lcom/tapjoy/c;->run()V <",
+                "> Lcom/tapjoy/TJAdUnit;->load(Lcom/tapjoy/TJPlacementData;ZLandroid/content/Context;)V <",
+                "> Lcom/tapjoy/TJAdUnit;->preload(Lcom/tapjoy/TJPlacementData;Landroid/content/Context;)Z <",
+                "> Lcom/tapjoy/a0;->onCachingCompleted()V <",
+                "> Lcom/tapjoy/internal/g1;->a(Ljava/lang/String;Ljava/lang/String;ZLjava/lang/String;Ljava/util/HashMap;Lcom/tapjoy/a0;)V <",
+                "> Lcom/tapjoy/TJCorePlacement;->b(Lcom/tapjoy/TJPlacement;)V <",
+                "> Lcom/newleaf/app/android/victor/player/view/k0;->run()V <",
+                "> Lcom/newleaf/app/android/victor/report/kissreport/k;->a(Ljava/lang/String;Ljava/util/LinkedHashMap;)V <",
+                "> Lcom/newleaf/app/android/victor/common/n;->onFragmentStarted(Landroidx/fragment/app/FragmentManager;Landroidx/fragment/app/Fragment;)V <",
+                "> Lv1/a;->onActivityResumed(Landroid/app/Activity;)V <",
+                "> Lcom/newleaf/app/android/victor/VictorApplication;->attachBaseContext(Landroid/content/Context;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Context;->getExternalCacheDir()Ljava/io/File;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/unity3d/services/core/cache/CacheDirectory;->getCacheDirectory(Landroid/content/Context;)Ljava/io/File; <",
+                "> Lcom/unity3d/services/core/api/Cache;->getCacheDirectoryType(Lcom/unity3d/services/core/webview/bridge/WebViewCallback;)V <",
+                "> Lcom/unity3d/services/core/configuration/CoreModuleConfiguration;->getWebAppApiClassList()[Ljava/lang/Class; <",
+                "> Lcom/unity3d/services/core/configuration/Configuration;-><init>()V <",
+                "> Lcom/unity3d/services/core/configuration/ConfigurationReader;->getCurrentConfiguration()Lcom/unity3d/services/core/configuration/Configuration; <",
+                "> Lcom/unity3d/services/ads/gmascar/managers/BiddingBaseManager;->lambda$uploadSignals$2(Lcom/unity3d/services/ads/gmascar/models/BiddingSignals;)V <",
+                "> Lcom/unity3d/services/ads/gmascar/managers/BiddingBaseManager;->c(Lcom/unity3d/services/ads/gmascar/managers/BiddingBaseManager;Lcom/unity3d/services/ads/gmascar/models/BiddingSignals;)V <",
+                "> Lcom/newleaf/app/android/victor/player/view/k0;->run()V <",
+                "> Lcom/newleaf/app/android/victor/report/kissreport/k;->a(Ljava/lang/String;Ljava/util/LinkedHashMap;)V <",
+                "> Lcom/newleaf/app/android/victor/MainActivity;->onResume()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Landroid/webkit/WebView;-><init>(Landroid/content/Context;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/mbridge/msdk/foundation/webview/BrowserView;->getWebView()Landroid/webkit/WebView; <",
+                "> Lcom/mbridge/msdk/foundation/webview/BrowserView;->a()V <",
+                "> Lcom/mbridge/msdk/foundation/webview/BrowserView;->init()V <",
+                "> Lcom/mbridge/msdk/foundation/webview/BrowserView;-><init>(Landroid/content/Context;Lcom/mbridge/msdk/foundation/entity/CampaignEx;)V <",
+                "> Lcom/mbridge/msdk/activity/DomainMBCommonActivity;->a()V <",
+                "> Lcom/mbridge/msdk/activity/DomainMBCommonActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/mbridge/msdk/activity/MBCommonActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/mbridge/msdk/click/c;->e(Landroid/content/Context;Ljava/lang/String;)V <",
+                "> Lcom/mbridge/msdk/foundation/feedback/bean/a;->a(Landroid/content/Context;)V <",
+                "> Lcom/mbridge/msdk/foundation/feedback/bean/a;->p()V <",
+                "> Lcom/mbridge/msdk/foundation/tools/t0;->a(Lcom/mbridge/msdk/foundation/entity/CampaignEx;Lcom/mbridge/msdk/foundation/feedback/a;ILjava/lang/String;)V <",
+                "> Lcom/mbridge/msdk/foundation/tools/t0;->b(Ljava/lang/String;Ljava/lang/String;)V <",
+                "> Lcom/mbridge/msdk/interstitialvideo/out/MBInterstitialVideoHandler;->a(Ljava/lang/String;Ljava/lang/String;)V <",
+                "> Lcom/mbridge/msdk/foundation/controller/d;->d()V <",
+                "> Lcom/mbridge/msdk/foundation/controller/d;->a()Lcom/mbridge/msdk/foundation/controller/d; <",
+                "> Lcom/mbridge/msdk/foundation/tools/w0;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/mbridge/msdk/foundation/db/middle/a;->c()V <",
+                "> Lcom/mbridge/msdk/foundation/db/middle/a;->b()Lcom/mbridge/msdk/foundation/db/middle/a; <",
+                "> Lcom/mbridge/msdk/foundation/db/j;->b(Ljava/lang/String;)V <",
+                "> Lcom/mbridge/msdk/mbbanner/common/manager/d$b;->run()V <",
+                "> Lcom/mbridge/msdk/mbbanner/common/manager/d;->a(Lcom/mbridge/msdk/foundation/entity/CampaignEx;Landroid/content/Context;Ljava/lang/String;)V <",
+                "> Lcom/mbridge/msdk/mbbanner/common/manager/d;->p()V <",
+                "> Lcom/mbridge/msdk/mbbanner/common/manager/d;->n(Lcom/mbridge/msdk/mbbanner/common/manager/d;)V <",
+                "> Lcom/mbridge/msdk/mbbanner/common/manager/d$m;->run()V <",
+                "> Lia/a;->then(Lcom/google/android/gms/tasks/Task;)Ljava/lang/Object; <",
+                "> Lyd/b;->a(Ljava/lang/Runnable;)Lcom/google/android/gms/tasks/Task; <",
+                "> Ltd/c;->b(Ljava/lang/Throwable;)V <",
+                "> Lcom/newleaf/app/android/victor/base/BaseApplication;->a(ILandroid/content/Context;)Ljava/lang/String; <",
+                "> Lcom/newleaf/app/android/victor/VictorApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    }
+}

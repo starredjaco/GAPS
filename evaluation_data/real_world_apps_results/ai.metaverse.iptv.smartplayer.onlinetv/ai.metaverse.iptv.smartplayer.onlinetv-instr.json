@@ -1,0 +1,145 @@
+{
+    "Landroid/content/Intent;-><init>(Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lco/vulcanlabs/library/service/MyFirebaseMessagingService;->onMessageReceived(Lcom/google/firebase/messaging/RemoteMessage;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.google.firebase.MESSAGING_EVENT",
+                    "start-service -a"
+                ]
+            ]
+        }
+    },
+    "Landroid/webkit/WebView;->evaluateJavascript(Ljava/lang/String;Landroid/webkit/ValueCallback;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lbi/h8;->d(Landroid/webkit/WebView;Ljava/lang/String;)V <",
+                "> Lbi/g8;->run()V <",
+                "> Lj6/j;->a(Landroid/content/Context;Li6/e;Landroid/content/res/Resources;ILjava/lang/String;IILi6/n;Z)Landroid/graphics/Typeface; <",
+                "> Li6/p;->b(Landroid/content/Context;ILandroid/util/TypedValue;ILi6/n;ZZ)Landroid/graphics/Typeface; <",
+                "> Li6/p;->a(ILandroid/content/Context;)Landroid/graphics/Typeface; <",
+                "> Lcom/moloco/sdk/xenoss/sdkdevkit/android/adrenderer/internal/media/g;->g(Ll5/f0;)Landroid/graphics/Typeface; <",
+                "> Li3/g6;->a(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Li3/g6;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Ll5/p;->a(Ll5/j0;)Ll5/m0; <",
+                "> Ll5/p;->b(Ll5/o;Ll5/y;II)Ll5/m0; <",
+                "> Ld3/d0;->invoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lmf/f;->c(Liq/l;Z)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Landroid/webkit/WebView;->addJavascriptInterface(Ljava/lang/Object;Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/ironsource/sdk/controller/A;-><init>(Landroid/content/Context;Lcom/ironsource/sdk/controller/k;Lcom/ironsource/sdk/controller/c;Lal/i0;Lcom/ironsource/environment/thread/a;ILcom/ironsource/sdk/l/d;Ljava/lang/String;Lcom/ironsource/sdk/controller/n$a;Lcom/ironsource/sdk/controller/n$b;Ljava/lang/String;Ljava/lang/String;)V <",
+                "> Lcom/ironsource/sdk/controller/g;->a(Lcom/ironsource/sdk/controller/g;Landroid/content/Context;Lcom/ironsource/sdk/controller/c;Lcom/ironsource/sdk/service/d;Lcom/ironsource/sdk/controller/k;ILcom/ironsource/sdk/l/d;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lcom/ironsource/sdk/controller/A; <",
+                "> Lal/r0;->run()V <",
+                "> Lc2/a;->execute(Ljava/lang/Runnable;)V <",
+                "> Lkb/v;->j()V <",
+                "> Lkc/j;->E(ILjava/lang/String;)V <",
+                "> Lcc/t;->e(Z)V <",
+                "> Lcc/t;->h()Z <",
+                "> Lcc/e;->d(Ljava/lang/String;Lcc/t;I)Z <",
+                "> Llc/m;->run()V <",
+                "> Lkf/a;->s(Lcc/j;I)V <",
+                "> Lkf/a;-><init>(Ljava/lang/String;)V <",
+                "> Lif/q0;->t(Lif/q0;)V <",
+                "> Lmf/f;->e()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Ljava/net/URL;->openConnection(Ljava/net/Proxy;)Ljava/net/URLConnection;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lb/b;->e(Lb/b;)Z <",
+                "> Lb/a;->handleMessage(Landroid/os/Message;)Z <",
+                "> Lbi/g8;->run()V <",
+                "> Ljn/r2;->c(Ljava/util/concurrent/ScheduledExecutorService;Ljava/lang/Runnable;JLjava/util/concurrent/TimeUnit;)Lkc/c; <",
+                "> Lln/o0;->run()V <",
+                "> Lug/c;->f(Lef/a;Lfa/g;)V <",
+                "> Lif/q0;->k(Ljava/util/List;Z)V <",
+                "> Lps/a;->N(Liq/a;Liq/a;Liq/a;Liq/a;Lb0/t;Lb0/o;Lb0/c;Lf1/e2;Ls0/z;Lif/q0;Lh1/k1;Ln/d;Ll3/l;II)V <",
+                "> Lps/a;->V(Ljava/lang/Class;Ljava/lang/reflect/InvocationHandler;)Ljava/lang/Object; <",
+                "> Lac/q;->onPostMessage(Landroid/webkit/WebView;Ljava/lang/reflect/InvocationHandler;Landroid/net/Uri;ZLjava/lang/reflect/InvocationHandler;)V <",
+                "> Ln8/x;->P0()V <",
+                "> Ln8/x;->R0(Ln8/t0;IZIJIZ)V <",
+                "> Ln8/x;->Q0(ZII)V <",
+                "> Ln8/a;->run()V <",
+                "> Lc2/a;->execute(Ljava/lang/Runnable;)V <",
+                "> Lcom/freshchat/consumer/sdk/receiver/FreshchatReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.LOCALE_CHANGED",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Ljavax/crypto/KeyGenerator;->getInstance(Ljava/lang/String;)Ljavax/crypto/KeyGenerator;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lbi/s0;-><init>(I)V <",
+                "> Lxe/b;->c(Lwe/a;)V <",
+                "> Lye/c;->d(I)V <",
+                "> Lye/a;->run()V <",
+                "> Lye/c;->e()V <",
+                "> La8/a;->handleMessage(Landroid/os/Message;)V <",
+                "> La8/c;-><init>(Landroid/content/Context;)V <",
+                "> La8/c;->a(Landroid/content/Context;)La8/c; <",
+                "> Lcom/freshchat/consumer/sdk/b/a;->e(Landroid/content/Context;)La8/c; <",
+                "> Lcom/freshchat/consumer/sdk/b/a;->b(Landroid/content/Context;Ljava/lang/String;Landroid/os/Bundle;)V <",
+                "> Lcom/freshchat/consumer/sdk/b/a;->e(Landroid/content/Context;Ljava/lang/String;)V <",
+                "> Lcom/freshchat/consumer/sdk/receiver/FreshchatReceiver;->d(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.LOCALE_CHANGED",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Context;->getExternalCacheDir()Ljava/io/File;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/freshchat/consumer/sdk/util/as;->bs(Landroid/content/Context;)Ljava/io/File; <",
+                "> Lcom/freshchat/consumer/sdk/util/as;->bu(Landroid/content/Context;)Ljava/io/File; <",
+                "> Lcom/freshchat/consumer/sdk/util/as;->i(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Ljava/io/File; <",
+                "> Lcom/freshchat/consumer/sdk/util/as;->bt(Landroid/content/Context;)Ljava/io/File; <",
+                "> Lcom/freshchat/consumer/sdk/activity/ConversationDetailActivity;->bb()V <",
+                "> Lcom/freshchat/consumer/sdk/activity/ConversationDetailActivity;->onRequestPermissionsResult(I[Ljava/lang/String;[I)V <",
+                "> Lcom/freshchat/consumer/sdk/i/b;->c(Landroid/content/Context;Lcom/freshchat/consumer/sdk/i/a;)V <",
+                "> Lcom/freshchat/consumer/sdk/i/b;->b(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "> Lcom/freshchat/consumer/sdk/Freshchat;->handleFcmMessage(Landroid/content/Context;Ljava/lang/Object;)V <",
+                "> Lcom/freshchat/consumer/sdk/Freshchat;->getInstance(Landroid/content/Context;)Lcom/freshchat/consumer/sdk/Freshchat; <",
+                "> Lcom/freshchat/consumer/sdk/b/f;->fy()V <",
+                "> Lcom/freshchat/consumer/sdk/b/f;->t(Landroid/content/Context;)Lcom/freshchat/consumer/sdk/b/f; <",
+                "> Lcom/freshchat/consumer/sdk/receiver/a;->run()V <",
+                "> Lcom/freshchat/consumer/sdk/receiver/FreshchatReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.LOCALE_CHANGED",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    }
+}

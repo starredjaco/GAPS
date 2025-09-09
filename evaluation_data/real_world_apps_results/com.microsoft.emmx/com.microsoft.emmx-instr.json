@@ -1,0 +1,84 @@
+{
+    "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lb65;->b()Ljava/lang/Integer; <",
+                "> Lb65;->call()Ljava/lang/Object; <",
+                "> Lss9;->run()V <",
+                "> Lws9;->c(Ljava/util/concurrent/Callable;Lorg/chromium/base/Callback;)V <",
+                "> Lws9;->a(Landroid/content/Context;Ljava/lang/String;Lvs9;)V <",
+                "> LRW;->j3(IZ)V <",
+                "> Lws1;->b(I)V <",
+                "> Lws1;->m()V <",
+                "> Lorg/chromium/chrome/browser/webapps/WebappActivity;->B(IZLta5;)Z <",
+                "> Lorg/chromium/chrome/browser/webapps/WebappLauncherActivity;->onMAMCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.google.android.apps.chrome.webapps.WebappManager.ACTION_START_WEBAPP",
+                    "start-activity -a"
+                ]
+            ]
+        }
+    },
+    "Landroid/webkit/WebView;->addJavascriptInterface(Ljava/lang/Object;Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/braze/ui/inappmessage/factories/DefaultInAppMessageHtmlFullViewFactory;->createInAppMessageView(Landroid/app/Activity;Lcom/braze/models/inappmessage/IInAppMessage;)Lcom/braze/ui/inappmessage/views/InAppMessageHtmlFullView; <",
+                "> Lcom/braze/ui/inappmessage/factories/DefaultInAppMessageHtmlFullViewFactory;->createInAppMessageView(Landroid/app/Activity;Lcom/braze/models/inappmessage/IInAppMessage;)Landroid/view/View; <",
+                "> Lcom/braze/ui/inappmessage/InAppMessageManagerBase;-><init>()V <",
+                "> Lcom/braze/ui/inappmessage/BrazeInAppMessageManager;-><init>()V <",
+                "> Lcom/braze/ui/inappmessage/BrazeInAppMessageManager$Companion;->getInstance()Lcom/braze/ui/inappmessage/BrazeInAppMessageManager; <",
+                "> Lcom/braze/ui/inappmessage/factories/DefaultInAppMessageModalViewFactory;->createInAppMessageView$lambda$1(Lcom/braze/ui/inappmessage/factories/DefaultInAppMessageModalViewFactory;Landroid/view/View;)V <",
+                "> Lcom/braze/ui/inappmessage/factories/DefaultInAppMessageModalViewFactory;->a(Lcom/braze/ui/inappmessage/factories/DefaultInAppMessageModalViewFactory;Landroid/view/View;)V <",
+                "> LzI1;->onClick(Landroid/view/View;)V <",
+                "> Lorg/chromium/content/browser/selection/SelectionPopupControllerImpl;->H(ILandroid/view/View$OnClickListener;)V <",
+                "> Lorg/chromium/chrome/browser/edge_copilot/discover/EdgeDiscoverDialog;->B1(Lorg/chromium/chrome/browser/edge_copilot/discover/EdgeDiscoverDialogParams;)V <",
+                "> LGj2;->run()V <",
+                "> LYY4;->run()V <",
+                "> Lk9a;->execute(Ljava/lang/Runnable;)V <",
+                "> LhD;->l(Ljava/lang/String;Ljava/lang/Runnable;)V <",
+                "> LhY;->a()LgY; <",
+                "> Lorg/chromium/chrome/browser/notifications/NotificationServiceImpl$Receiver;->onMAMReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.chromium.chrome.browser.notifications.UNDO_UNSUBSCRIBE",
+                    "broadcast -a"
+                ],
+                [
+                    "org.chromium.chrome.browser.notifications.NotificationServiceImpl",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Landroid/webkit/WebView;->evaluateJavascript(Ljava/lang/String;Landroid/webkit/ValueCallback;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/shopify/checkoutsheetkit/CheckoutBridge;->sendMessage(Landroid/webkit/WebView;Lcom/shopify/checkoutsheetkit/CheckoutBridge$SDKOperation;)V <",
+                "> Lcom/shopify/checkoutsheetkit/CheckoutWebView$CheckoutWebViewClient;->onPageFinished(Landroid/webkit/WebView;Ljava/lang/String;)V <",
+                "> Lcom/shopify/checkoutsheetkit/CheckoutWebView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V <",
+                "> Lcom/shopify/checkoutsheetkit/CheckoutWebView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;ILtH1;)V <",
+                "> Lcom/shopify/checkoutsheetkit/CheckoutWebView$Companion;->fetchView(Ljava/lang/String;LuX0;Z)Lcom/shopify/checkoutsheetkit/CheckoutWebView; <",
+                "> Lcom/shopify/checkoutsheetkit/CheckoutWebView$Companion;->cacheableCheckoutView$lambda$2(Lkotlin/jvm/internal/Ref$ObjectRef;Ljava/lang/String;LuX0;ZLjava/util/concurrent/CountDownLatch;)V <",
+                "> Lcom/shopify/checkoutsheetkit/CheckoutWebView$Companion;->a(Lkotlin/jvm/internal/Ref$ObjectRef;Ljava/lang/String;LuX0;ZLjava/util/concurrent/CountDownLatch;)V <",
+                "> LOD0;->run()V <",
+                "> LPV9;->execute(Ljava/lang/Runnable;)V <",
+                "> Lr74;->execute(Ljava/lang/Runnable;)V <",
+                "> LxD;->executeOnExecutor(Ljava/util/concurrent/Executor;)LxD; <",
+                "> LOq9;->g(Ljava/lang/String;)V <",
+                "> Lorg/chromium/chrome/browser/webapps/WebappLauncherActivity;->onMAMCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.google.android.apps.chrome.webapps.WebappManager.ACTION_START_WEBAPP",
+                    "start-activity -a"
+                ]
+            ]
+        }
+    }
+}

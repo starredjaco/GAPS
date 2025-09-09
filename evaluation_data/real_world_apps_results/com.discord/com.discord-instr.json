@@ -1,0 +1,16 @@
+{
+    "Landroid/content/Intent;-><init>(Ljava/lang/String;Landroid/net/Uri;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/discord/deep_link/DeepLinks$init$1;->onDeepLinking(Lcom/appsflyer/deeplink/DeepLinkResult;)V <",
+                "> Lcom/discord/deep_link/DeepLinks;->init(Landroid/content/Context;)V <",
+                "> Lcom/discord/MainApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    }
+}

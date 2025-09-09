@@ -1,0 +1,161 @@
+{
+    "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;": {
+        "path_0": {
+            "call_sequence": [
+                "> LX/0NI;->getConnection(Ljava/net/URL;)Ljava/net/HttpURLConnection; <",
+                "> LX/0NG;->A00(LX/0NB;Ljava/util/Map;I)Z <",
+                "> LX/0ri;->run()V <",
+                "> LX/0rj;->A06(Ljava/lang/String;Ljava/util/Map;)V <",
+                "> LX/0k9;->A00(LX/0k1;LX/0k9;)V <",
+                "> LX/0k0;->run()V <",
+                "> LX/0k9;->A02(LX/0k5;Ljava/lang/String;[I[IIZ)V <",
+                "> LX/0hZ;->A0C()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Context;->getExternalCacheDir()Ljava/io/File;": {
+        "path_0": {
+            "call_sequence": [
+                "> LX/1Cf;->A02(I)Ljava/io/File; <",
+                "> LX/1LG;->A00()LX/1Cf; <",
+                "> LX/8RO;->run()V <",
+                "> LX/Ju3;->run()V <",
+                "> LX/Z4m;->run()V <",
+                "> LX/Ju7;->run()V <",
+                "> LX/K08;->execute(Ljava/lang/Runnable;)V <",
+                "> LX/0q5;->A02(Ljava/lang/String;)V <",
+                "> LX/0q5;->A00()LX/0q5; <",
+                "> LX/0mK;->A00(LX/0hZ;Z)V <",
+                "> LX/0hZ;->A08(LX/0hZ;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Landroid/webkit/WebView;->addJavascriptInterface(Ljava/lang/Object;Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> LX/VdE;-><init>(LX/UBs;)V <",
+                "> LX/U7v;->A00(LX/UOT;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V <",
+                "> LX/U7v;->A0A(LX/UOT;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V <",
+                "> LX/TG4;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> LX/PpZ;->run()V <",
+                "> LX/PC4;->A01(Landroid/content/Context;I)V <",
+                "> LX/9rd;->A00(LX/9OH;Lcom/facebook/auth/usersession/FbUserSession;Lcom/google/common/collect/ImmutableList;)V <",
+                "> LX/9gD;->A02(LX/9OH;Lcom/facebook/auth/usersession/FbUserSession;Lcom/google/common/collect/ImmutableList;)V <",
+                "> LX/9gA;->A00(LX/9OH;LX/9gA;Lcom/facebook/auth/usersession/FbUserSession;Ljava/lang/String;Z)V <",
+                "> LX/9gE;->A0M(LX/3PK;Lcom/facebook/auth/usersession/FbUserSession;)V <",
+                "> LX/MpV;->run()V <",
+                "> LX/9hv;->A05(LX/9Nz;Lcom/facebook/audience/snacks/model/AdStory;LX/9df;Ljava/lang/String;)V <",
+                "> LX/9hv;->A07(LX/9Nz;Lcom/facebook/audience/snacks/model/AdStory;LX/9df;Ljava/lang/String;)V <",
+                "> LX/KNs;->A07(LX/9Nz;Lcom/facebook/audience/snacks/model/AdStory;LX/KNs;)V <",
+                "> LX/KNs;->A0A(Landroid/view/View;LX/2o5;LX/9Nz;LX/KSC;Lcom/facebook/stories/model/StoryCard;Ljava/lang/String;Ljava/lang/String;)V <",
+                "> LX/MNE;->A00(LX/2o5;LX/9Nz;LX/1v6;LX/KSC;Lcom/facebook/stories/model/StoryCard;LX/9df;Ljava/lang/String;)V <",
+                "> LX/MNE;->A03(LX/2o5;LX/1v6;LX/KSC;Lcom/facebook/stories/model/StoryBucket;Lcom/facebook/stories/model/StoryCard;LX/9df;Ljava/lang/String;)V <",
+                "> LX/NNt;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> LX/NFL;->A02(LX/BT0;LX/NFL;LX/A6H;)V <",
+                "> LX/NFL;->A04(Lcom/facebook/search/api/GraphSearchQuery;LX/A6H;)V <",
+                "> LX/NFJ;->DyC(Lcom/facebook/search/api/GraphSearchQuery;)V <",
+                "> LX/NFJ;-><init>(Landroid/content/Context;Lcom/facebook/auth/usersession/FbUserSession;LX/29X;Lcom/facebook/search/api/GraphSearchQuery;LX/NHG;Z)V <",
+                "> LX/NEG;->onFragmentCreate(Landroid/os/Bundle;)V <",
+                "> LX/NEy;->A00(Landroid/os/Bundle;LX/NEy;Ljava/lang/Integer;)LX/Q9y; <",
+                "> LX/NF4;->A07(Lcom/facebook/auth/usersession/FbUserSession;LX/NF4;Lcom/facebook/search/logging/api/SearchEntryPoint;Lcom/facebook/search/logging/api/SearchTypeaheadSession;Lcom/facebook/search/model/GraphSearchQuerySpec;Ljava/lang/String;Z)V <",
+                "> LX/NF4;->A0F(Lcom/facebook/auth/usersession/FbUserSession;Lcom/facebook/search/model/KeywordTypeaheadUnit;Ljava/lang/String;Z)V <",
+                "> LX/NHG;->A00(Lcom/facebook/search/model/KeywordTypeaheadUnit;Ljava/lang/String;)V <",
+                "> LX/NCr;->apply(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> LX/CaB;->run()V <",
+                "> LX/Vzl;->execute(Ljava/lang/Runnable;)V <",
+                "> LX/0q5;->A02(Ljava/lang/String;)V <",
+                "> LX/0q5;->A00()LX/0q5; <",
+                "> LX/0mK;->A00(LX/0hZ;Z)V <",
+                "> LX/0hZ;->A08(LX/0hZ;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Landroid/webkit/WebView;->evaluateJavascript(Ljava/lang/String;Landroid/webkit/ValueCallback;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> LX/GQA;->A0G(Ljava/lang/String;Landroid/webkit/ValueCallback;)V <",
+                "> LX/F12;->A0Y(LX/HKq;Ljava/lang/String;Z)V <",
+                "> LX/F12;->A0b(Ljava/lang/String;)V <",
+                "> LX/F7k;->run()V <",
+                "> LX/Z5y;->run()V <",
+                "> LX/Ju3;->run()V <",
+                "> LX/Z4m;->run()V <",
+                "> LX/Vzl;->execute(Ljava/lang/Runnable;)V <",
+                "> LX/0q5;->A02(Ljava/lang/String;)V <",
+                "> LX/0q5;->A00()LX/0q5; <",
+                "> LX/0mK;->A00(LX/0hZ;Z)V <",
+                "> LX/0hZ;->A08(LX/0hZ;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Ljavax/crypto/KeyGenerator;->getInstance(Ljava/lang/String;Ljava/lang/String;)Ljavax/crypto/KeyGenerator;": {
+        "path_0": {
+            "call_sequence": [
+                "> LX/WeJ;->A02(IILX/3SW;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> LX/WeJ;->A03(IILX/3SW;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> LX/WeJ;->A05(Ljava/lang/Object;LX/3SW;II)Ljava/lang/Object; <",
+                "> LX/WeJ;->A01(IILX/3SW;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> LX/WeJ;->A04(ILX/3SW;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> LX/15R;->A04(ILX/3SW;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> LX/1NJ;->A02(Landroid/content/Context;I)Ljava/lang/Object; <",
+                "> LX/6lw;->A02()LX/6mQ; <",
+                "> LX/1Fh;->A03(LX/6lu;LX/29d;)LX/0Pz; <",
+                "> LX/PrC;->run()V <",
+                "> LX/Sw1;->execute(Ljava/lang/Runnable;)V <",
+                "> LX/0q5;->A02(Ljava/lang/String;)V <",
+                "> LX/0q5;->A00()LX/0q5; <",
+                "> LX/0mK;->A00(LX/0hZ;Z)V <",
+                "> LX/0hZ;->A08(LX/0hZ;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Landroid/webkit/WebView;-><init>(Landroid/content/Context;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> LX/FEn;-><init>(Landroid/content/Context;)V <",
+                "> LX/F55;->onClick(Landroid/view/View;)V <",
+                "> LX/F55;->A00(Ljava/lang/Object;I)LX/F55; <",
+                "> LX/H5A;->run()V <",
+                "> LX/Sw1;->execute(Ljava/lang/Runnable;)V <",
+                "> LX/0q5;->A02(Ljava/lang/String;)V <",
+                "> LX/0q5;->A00()LX/0q5; <",
+                "> LX/0mK;->A00(LX/0hZ;Z)V <",
+                "> LX/0hZ;->A08(LX/0hZ;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "X.0hZ",
+                    "<unknown>"
+                ]
+            ]
+        }
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;": {
+        "path_0": {
+            "call_sequence": [
+                "> LMa/l;->a([Ljava/lang/String;)Ljava/lang/Boolean; <",
+                "> LMa/l;->doInBackground([Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Ld4/g;->w(LNa/e;Ljava/util/ArrayList;)V <",
+                "> LNa/g;->b()V <",
+                "> LAa/y;->c(Z)V <",
+                "> Lcom/app/tgtg/feature/main/MainActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lx6/u;->i(LD/N0;Ljava/lang/String;)V <",
+                "> LE6/f;->a(Ljava/lang/Object;)V <",
+                "> LQ5/Z;-><init>()V <",
+                "> Lt5/o;->x(Lcom/app/tgtg/model/local/payment/ResumePaymentData;)V <",
+                "> Lcom/app/tgtg/feature/main/fragments/delivery/parcelitemdetails/ManufacturerItemDetailsActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.app.tgtg/com.app.tgtg.feature.main.fragments.delivery.parcelitemdetails.ManufacturerItemDetailsActivity",
+                    "start -n"
+                ]
+            ]
+        }
+    },
+    "Landroid/webkit/WebView;->addJavascriptInterface(Ljava/lang/Object;Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/app/tgtg/feature/webview/WebViewActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Le5/q;->l(Landroid/app/Activity;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Integer;ZLjava/lang/String;)V <",
+                "> Le5/q;->m(Landroid/app/Activity;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Integer;I)V <",
+                "> Lkotlin/collections/a;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> LA6/g;->a(Ljava/lang/Object;)V <",
+                "> Lcom/app/tgtg/feature/deeplink/DeepLinkActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.app.tgtg/com.app.tgtg.feature.deeplink.DeepLinkActivity",
+                    "start -n"
+                ]
+            ]
+        }
+    }
+}

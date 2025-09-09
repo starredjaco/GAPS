@@ -1,0 +1,43 @@
+{
+    "Landroid/content/Intent;-><init>(Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lnet/qrbot/ui/detail/TxtShareActionProvider;->getShareIntent(Lnet/qrbot/ui/detail/c;)Landroid/content/Intent; <",
+                "> Lnet/qrbot/ui/detail/TxtShareActionProvider;->setup(Landroid/view/MenuItem;Lnet/qrbot/ui/detail/c;)V <",
+                "> Lnet/qrbot/ui/detail/g;->onCreateOptionsMenu(Landroid/view/Menu;Landroid/view/MenuInflater;)V <",
+                "> Lnet/qrbot/ui/detail/g;->U(Landroid/net/Uri;Z)Lnet/qrbot/ui/detail/g; <",
+                "> Lnet/qrbot/ui/detail/DetailActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lnet/qrbot/ui/detail/DetailActivity;->e0(Lnet/qrbot/ui/detail/DetailActivity$c;Landroid/net/Uri;ZI)V <",
+                "> Lnet/qrbot/ui/detail/DetailActivity;->c0(Landroidx/appcompat/app/d;Landroid/net/Uri;ZI)V <",
+                "> Lnet/qrbot/ui/photo/PhotoActivityImpl;->a0(Lnet/qrbot/ui/photo/PhotoActivityImpl;ZLandroid/net/Uri;)V <",
+                "> Lnet/qrbot/ui/photo/PhotoActivity;->c()Ljava/lang/Class; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.teacapps.barcodescanner/net.qrbot.ui.photo.PhotoActivity",
+                    "start -n"
+                ],
+                [
+                    "net.qrbot.ui.photo.PhotoActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lnet/qrbot/ui/photo/PhotoActivityImpl;->l0()V <",
+                "> Lnet/qrbot/ui/photo/PhotoActivity;->c()Ljava/lang/Class; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.teacapps.barcodescanner/net.qrbot.ui.photo.PhotoActivity",
+                    "start -n"
+                ]
+            ]
+        }
+    }
+}

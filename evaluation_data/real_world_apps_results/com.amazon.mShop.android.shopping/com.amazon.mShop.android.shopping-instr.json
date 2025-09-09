@@ -1,0 +1,147 @@
+{
+    "Landroid/content/Context;->getExternalCacheDir()Ljava/io/File;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/amazon/appunique/appwidget/DiscoverWidgetCache;->getLocalCache(Landroid/content/Context;Ljava/lang/String;)Ljava/io/File; <",
+                "> Lcom/amazon/appunique/appwidget/WidgetTranslationsProvider;->writeTranslations(Landroid/content/Context;Z)V <",
+                "> Lcom/amazon/appunique/appwidget/YourOrdersWidgetTranslations;->writeTranslations(Landroid/content/Context;Z)V <",
+                "> Lcom/amazon/appunique/appwidget/YourOrdersWidgetBridgeReceiver;->lambda$writeTranslations$0(Landroid/content/Context;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.amazon.mshop.widget.action.HOME_CTA",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/amazon/mShop/push/registration/MShopNotificationGenerator;->updateDealContentIntent(Landroid/content/Intent;Lcom/amazon/mShop/push/rendering/api/NotificationParams$DealNotificationParams;)V <",
+                "> Lcom/amazon/mShop/push/registration/MShopNotificationGenerator;->generateNotification(Landroid/content/Context;Lcom/amazon/mShop/push/rendering/api/NotificationParams;)V <",
+                "> Lcom/amazon/mShop/push/registration/PushNotificationManager;->handlePushMessage(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "> Lcom/amazon/mShop/pushnotification/PushReceivedOrchestrator;->performHandlePush(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "> Lcom/amazon/mShop/pushnotification/PushReceivedOrchestrator;->lambda$handlePush$0(Landroid/content/Intent;Landroid/content/Context;)V <",
+                "> Lcom/amazon/mShop/pushnotification/PushReceivedOrchestrator;->$r8$lambda$8VAJafQog3dMqFNSrOfV5AwwFV4(Landroid/content/Intent;Landroid/content/Context;)V <",
+                "> Lcom/amazon/mShop/pushnotification/PushReceivedOrchestrator$$ExternalSyntheticLambda0;->run()V <",
+                "> Lcom/amazon/mShop/pushnotification/PushReceivedOrchestrator;->handlePush(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "> Lcom/amazon/mShop/pushnotification/fcm/FCMMessagingService;->onMessageReceived(Lcom/google/firebase/messaging/RemoteMessage;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.google.firebase.MESSAGING_EVENT",
+                    "start-service -a"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Intent;->setData(Landroid/net/Uri;)Landroid/content/Intent;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/amazon/mShop/push/registration/MShopNotificationGenerator;->updateDealContentIntent(Landroid/content/Intent;Lcom/amazon/mShop/push/rendering/api/NotificationParams$DealNotificationParams;)V <",
+                "> Lcom/amazon/mShop/push/registration/MShopNotificationGenerator;->generateNotification(Landroid/content/Context;Lcom/amazon/mShop/push/rendering/api/NotificationParams;)V <",
+                "> Lcom/amazon/mShop/push/registration/PushNotificationManager;->handlePushMessage(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "> Lcom/amazon/mShop/pushnotification/PushReceivedOrchestrator;->performHandlePush(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "> Lcom/amazon/mShop/pushnotification/PushReceivedOrchestrator;->lambda$handlePush$0(Landroid/content/Intent;Landroid/content/Context;)V <",
+                "> Lcom/amazon/mShop/pushnotification/PushReceivedOrchestrator;->$r8$lambda$8VAJafQog3dMqFNSrOfV5AwwFV4(Landroid/content/Intent;Landroid/content/Context;)V <",
+                "> Lcom/amazon/mShop/pushnotification/PushReceivedOrchestrator$$ExternalSyntheticLambda0;->run()V <",
+                "> Lcom/amazon/mShop/pushnotification/PushReceivedOrchestrator;->handlePush(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "> Lcom/amazon/mShop/pushnotification/fcm/FCMMessagingService;->onMessageReceived(Lcom/google/firebase/messaging/RemoteMessage;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.google.firebase.MESSAGING_EVENT",
+                    "start-service -a"
+                ]
+            ]
+        }
+    },
+    "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/amazon/mshop/kubersmartintent/client/HttpsClient;->buildPostConnection(Ljava/lang/String;Ljava/lang/String;)Ljavax/net/ssl/HttpsURLConnection; <",
+                "> Lcom/amazon/mshop/kubersmartintent/client/HttpsClient;-><init>(Lcom/amazon/mshop/kubersmartintent/metrics/NexusEventManager;)V <",
+                "> Lcom/amazon/mshop/kubersmartintent/di/SmartIntentComponent;->initHttpsClient()Lcom/amazon/mshop/kubersmartintent/client/HttpsClient; <",
+                "> Lcom/amazon/mshop/kubersmartintent/di/SmartIntentComponent;-><init>(Landroid/content/Context;)V <",
+                "> Lcom/amazon/mshop/kubersmartintent/di/SmartIntentComponentProvider;->create(Landroid/content/Context;)Lcom/amazon/mshop/kubersmartintent/di/SmartIntentComponent; <",
+                "> Lcom/amazon/mshop/kubersmartintent/receivers/CustomEventReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "amazon.intent.action.MSHOP_LOGIN",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Landroid/webkit/WebView;-><init>(Landroid/content/Context;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/amazon/mobile/mash/util/WebViewSuspensionPolicy$WebViewTimerController$WebViewGetter;->get()Landroid/webkit/WebView; <",
+                "> Lcom/amazon/mobile/mash/util/WebViewSuspensionPolicy$WebViewTimerController;->onActivityPaused(Landroid/app/Activity;)V <",
+                "> Lcom/amazon/mobile/mash/util/WebViewSuspensionPolicy;->establish(Landroid/app/Application;)V <",
+                "> Lcom/amazon/mobile/mash/MASHApplicationFactory;->setInstance(Lcom/amazon/mobile/mash/MASHApplication;)V <",
+                "> Lcom/amazon/mobile/mash/MASHApplicationFactory;->getInstance()Lcom/amazon/mobile/mash/MASHApplication; <",
+                "> Lcom/amazon/mobile/mash/weblab/WeblabClientFactory;->getWeblabClient()Lcom/amazon/mobile/mash/weblab/WeblabClient; <",
+                "> Lcom/amazon/mobile/mash/weblab/WebLabUtil;->getTreatmentWithTrigger(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; <",
+                "> Lcom/amazon/mobile/mash/MASHWebView;->setRealClickTime(J)V <",
+                "> Lcom/amazon/mobile/mash/api/JumpStartNavigationParameters;->loadInto(Landroid/webkit/WebView;)V <",
+                "> Lcom/amazon/mobile/mash/api/NavigationParameters$Builder;->build()Lcom/amazon/mobile/mash/api/NavigationParameters; <",
+                "> Lcom/amazon/mShop/payment/upi/UPIIntentHandler;->createNavigationParametersForUPIMandate(Ljava/lang/String;Ljava/lang/String;)Lcom/amazon/mobile/mash/api/NavigationParameters; <",
+                "> Lcom/amazon/mShop/payment/upi/UPIIntentHandler;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.chromium.intent.action.PAY",
+                    "start-activity -a"
+                ]
+            ]
+        }
+    },
+    "Landroid/webkit/WebView;->addJavascriptInterface(Ljava/lang/Object;Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/amazon/mobile/mash/SmashBootstrapper;-><init>(Landroid/webkit/WebView;Ljava/lang/String;)V <",
+                "> Lcom/amazon/mobile/mash/SmashBootstrapper;->register(Landroid/webkit/WebView;Ljava/lang/String;)Lcom/amazon/mobile/mash/SmashBootstrapper; <",
+                "> Lcom/amazon/mobile/mash/MASHWebView;->enableCoreBridge(Ljava/lang/String;)V <",
+                "> Lcom/amazon/mobile/mash/api/JumpStartNavigationParameters;->loadInto(Landroid/webkit/WebView;)V <",
+                "> Lcom/amazon/mobile/mash/api/NavigationParameters$Builder;->build()Lcom/amazon/mobile/mash/api/NavigationParameters; <",
+                "> Lcom/amazon/mShop/payment/upi/UPIIntentHandler;->createNavigationParametersForUPIMandate(Ljava/lang/String;Ljava/lang/String;)Lcom/amazon/mobile/mash/api/NavigationParameters; <",
+                "> Lcom/amazon/mShop/payment/upi/UPIIntentHandler;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "org.chromium.intent.action.PAY",
+                    "start-activity -a"
+                ]
+            ]
+        }
+    },
+    "Ljavax/crypto/KeyGenerator;->getInstance(Ljava/lang/String;)Ljavax/crypto/KeyGenerator;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/amazon/mshop/kubersmartintent/encryptor/SessionKeyProvider;->getKey()Ljavax/crypto/SecretKey; <",
+                "> Lcom/amazon/mshop/kubersmartintent/manager/DeviceDetailsFor2FAManager;->getEncryptedDeviceAndSimDetails()Ljava/lang/String; <",
+                "> Lcom/amazon/mshop/kubersmartintent/manager/DeviceDetailsFor2FAManager;-><init>(Lcom/amazon/mshop/kubersmartintent/utils/DeviceDetailsUtil;Lcom/amazon/mshop/kubersmartintent/utils/SimDetailsUtil;Lcom/amazon/mshop/kubersmartintent/encryptor/AESEncryptor;Lcom/amazon/mshop/kubersmartintent/encryptor/SessionKeyProvider;Lcom/amazon/mshop/kubersmartintent/storage/SecureStorageManager;Ljava/util/concurrent/ExecutorService;Lcom/amazon/mshop/kubersmartintent/metrics/NexusEventManager;Lcom/amazon/mshop/kubersmartintent/config/DynamicConfigManager;)V <",
+                "> Lcom/amazon/mshop/kubersmartintent/di/SmartIntentComponent;->initDeviceDetailsFor2FAManager()Lcom/amazon/mshop/kubersmartintent/manager/DeviceDetailsFor2FAManager; <",
+                "> Lcom/amazon/mshop/kubersmartintent/di/SmartIntentComponent;-><init>(Landroid/content/Context;)V <",
+                "> Lcom/amazon/mshop/kubersmartintent/di/SmartIntentComponentProvider;->create(Landroid/content/Context;)Lcom/amazon/mshop/kubersmartintent/di/SmartIntentComponent; <",
+                "> Lcom/amazon/mshop/kubersmartintent/receivers/SystemEventReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.amazon.mShop.android.shopping/com.amazon.mshop.kubersmartintent.receivers.SystemEventReceiver",
+                    "start -n"
+                ]
+            ]
+        }
+    }
+}

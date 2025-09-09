@@ -1,0 +1,87 @@
+{
+    "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lug/h;->a(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;Ljava/util/Map;)Lug/g; <",
+                "> Lr0/x0;->then(Lcom/google/android/gms/tasks/Task;)Ljava/lang/Object; <",
+                "> Lqf/m;->onComplete(Lcom/google/android/gms/tasks/Task;)V <",
+                "> Lhf/l1;->b(Lhf/q;)Lcom/google/android/gms/tasks/Task; <",
+                "> Lhf/l1;->a(Lhf/q;)Lhf/s; <",
+                "> Lr0/p0;->run()V <",
+                "> Lr0/v0;->K(Ls0/a;Ld0/k;)Ld0/k2; <",
+                "> Lb0/m0;-><init>(Ld0/s1;I)V <",
+                "> Lb0/s1;->m(Ld0/t0;)Ld0/y2; <",
+                "> Lj0/a;->compare(Ljava/lang/Object;Ljava/lang/Object;)I <",
+                "> Lnf/j;->compare(Ljava/lang/Object;Ljava/lang/Object;)I <",
+                "> Lze/d;-><init>(Lze/h;Ljava/lang/Object;Ljava/util/Comparator;)V <",
+                "> Lze/n;->iterator()Ljava/util/Iterator; <",
+                "> Li7/r;->addAll(Ljava/util/Collection;)Z <",
+                "> Ll0/k;->i(Ljava/util/List;)Z <",
+                "> Lpe/l;->b(ZLy0/d;Z)V <",
+                "> Lpe/j;->call()Ljava/lang/Object; <",
+                "> Lpe/l;->g(Ly0/d;Ljava/lang/Thread;Ljava/lang/Throwable;Z)V <",
+                "> Lpe/s;->uncaughtException(Ljava/lang/Thread;Ljava/lang/Throwable;)V <",
+                "> Lb0/w;->run()V <",
+                "> Laj/i;->b(IJLaj/e;Ljava/lang/String;Ljava/nio/ByteBuffer;)V <",
+                "> Laj/i;->d(Ljava/lang/String;Lhj/d;Loh/b;)V <",
+                "> Lq6/p0;-><init>(Lio/flutter/embedding/engine/FlutterJNI;Landroid/content/res/AssetManager;)V <",
+                "> Lzi/b;-><init>(Landroid/content/Context;Lio/flutter/embedding/engine/FlutterJNI;Lio/flutter/plugin/platform/h;[Ljava/lang/String;ZZI)V <",
+                "> Lzi/f;->a(Lzi/e;)Lzi/b; <",
+                "> Lcom/codeway/aitutor/MainActivity;->l(Landroid/os/Bundle;)V <",
+                "> Lcom/codeway/aitutor/MainActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Ljavax/crypto/KeyGenerator;->getInstance(Ljava/lang/String;Ljava/lang/String;)Ljavax/crypto/KeyGenerator;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lf7/a;->a(Ljava/lang/String;)Ljavax/crypto/SecretKey; <",
+                "> Lm9/a;->e(Landroid/content/Context;Ljava/lang/String;)Lg7/b; <",
+                "> Lr0/p0;->run()V <",
+                "> Lr0/v0;->K(Ls0/a;Ld0/k;)Ld0/k2; <",
+                "> Lb0/m0;-><init>(Ld0/s1;I)V <",
+                "> Lb0/s1;->m(Ld0/t0;)Ld0/y2; <",
+                "> Lj0/a;->compare(Ljava/lang/Object;Ljava/lang/Object;)I <",
+                "> Lze/d;-><init>(Lze/h;Ljava/lang/Object;Ljava/util/Comparator;)V <",
+                "> Lze/n;->iterator()Ljava/util/Iterator; <",
+                "> Lje/h;-><init>(Ljava/util/concurrent/Executor;Ljava/util/List;Ljava/util/List;Lje/f;)V <",
+                "> Lqd/h;-><init>(Landroid/content/Context;Lqd/m;Ljava/lang/String;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "[DEFAULT]",
+                    "start -a"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Intent;-><init>()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Ltb/n3;->u()V <",
+                "> Ltb/n3;->H(Ljava/lang/Runnable;)V <",
+                "> Ltb/c3;->v(Ltb/z2;Ltb/z2;JZLandroid/os/Bundle;)V <",
+                "> Ltb/s1;->run()V <",
+                "> Ltb/q2;->A(Ljava/lang/String;Ljava/lang/String;Landroid/os/Bundle;ZZJ)V <",
+                "> Lp3/i;->n(Ljava/lang/String;Ljava/lang/String;Landroid/os/Bundle;)V <",
+                "> Ltb/j4;->Z(Ltb/u;Ltb/r4;)V <",
+                "> Ltb/j4;->o(Ltb/u;Ltb/r4;)V <",
+                "> Lv1/a;->run()V <",
+                "> Ltb/t1;->run()V <",
+                "> Le/x;->onBackInvoked()V <",
+                "> Lcom/codeway/aitutor/MainActivity;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    }
+}

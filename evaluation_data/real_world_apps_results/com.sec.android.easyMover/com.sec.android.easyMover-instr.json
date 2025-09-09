@@ -1,0 +1,43 @@
+{
+    "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;": {
+        "path_0": {
+            "call_sequence": [
+                "> LQ2/r;->g(LQ2/q;)LQ2/o; <",
+                "> LQ2/r;->b(LQ2/l;LQ2/m;LJ5/x;LJ5/w;)Z <",
+                "> LQ2/n;->h(LQ2/l;LQ2/m;)LY5/B; <",
+                "> LQ2/n;->c(Lcom/sec/android/easyMover/host/ManagerHost;)LQ2/n; <",
+                "> Lcom/sec/android/easyMover/ui/PCConnectionActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/sec/android/easyMover/ui/launch/DistributionActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/sec/android/easyMover/host/ActivityBase;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/sec/android/easyMover/ui/WirelessConnectingActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/sec/android/easyMover/ui/launch/LaunchIntentActivity;->c(Landroid/content/Intent;)Landroid/content/Intent; <",
+                "> Lcom/sec/android/easyMover/ui/launch/LaunchIntentActivity;->b(Landroid/content/Intent;)Landroid/content/Intent; <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.sec.android.easyMover.LAUNCH_SMART_SWITCH",
+                    "start-activity -a"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Context;->getExternalCacheDir()Ljava/io/File;": {
+        "path_0": {
+            "call_sequence": [
+                "> LI5/y;->c(Landroid/content/Context;)Ljava/io/File; <",
+                "> LD1/g;->run()V <",
+                "> Lcom/sec/android/easyMover/wireless/ble/QuickSetupService;-><init>()V <",
+                "> Lcom/sec/android/easyMover/host/ManagerHost;->finishApplication()V <",
+                "> Lcom/sec/android/easyMover/service/RemoteCloudService;->onDestroy()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.sec.android.easyMover.action.SCLOUD_BIND_SERVICE",
+                    "start-service -a"
+                ]
+            ]
+        }
+    }
+}

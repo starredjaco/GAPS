@@ -1,0 +1,164 @@
+{
+    "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/anythink/basead/e/e/a/a;->a(Lcom/anythink/core/common/g/p;Lcom/anythink/core/common/g/o;Ljava/lang/String;)Lcom/anythink/basead/d/e; <",
+                "> Lcom/anythink/basead/b/c;->a(ILcom/anythink/basead/d/j;)V <",
+                "> Lcom/anythink/basead/b/c;-><init>(Landroid/content/Context;Lcom/anythink/core/common/g/p;Lcom/anythink/core/common/g/o;)V <",
+                "> Lcom/anythink/expressad/a/a;-><init>(Landroid/content/Context;Lcom/anythink/core/common/g/p;Lcom/anythink/core/common/g/o;Lcom/anythink/basead/e/c/c;)V <",
+                "> Lcom/anythink/expressad/a/b;->a(Landroid/content/Context;Lcom/anythink/core/common/g/p;Lcom/anythink/core/common/g/o;Lcom/anythink/basead/e/c/c;)Lcom/anythink/basead/e/c/d; <",
+                "> Lcom/anythink/expressad/a/b;->a()Lcom/anythink/expressad/a/b; <",
+                "> Lcom/anythink/network/adx/AdxATInitManager;-><init>()V <",
+                "> Lcom/anythink/core/common/c/s;->a(Lcom/anythink/core/common/c/s;Landroid/content/Context;)V <",
+                "> Lcom/anythink/core/common/c/s$10;->run()V <",
+                "> Lcom/anythink/core/common/c/s;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Lcom/anythink/core/api/ATNetworkConfig;)V <",
+                "> Lcom/anythink/core/api/ATSDK;->init(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Lcom/anythink/core/api/ATNetworkConfig;Lcom/anythink/core/api/ATSDKInitListener;)V <",
+                "> Lcom/anythink/core/api/ATSDK;->init(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Lcom/anythink/core/api/ATNetworkConfig;)V <",
+                "> Lcom/anythink/core/api/ATSDK;->init(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V <",
+                "> Lmeltedict/Keystorank/Finackle/b;->x0(Ljava/lang/String;Ljava/lang/String;Z)V <",
+                "> Lmeltedict/Keystorank/Finackle/b;->D(Landroid/app/Application;ZLjava/lang/String;ZLmeltedict/Keystorank/Finackle/b$l;Lmeltedict/Keystorank/Finackle/b$a;)V <",
+                "> Lmeltedict/ascendcement/Availtereo/Protable/a;->e(Landroid/app/Application;ZLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V <",
+                "> Lmeltedict/ascendcement/Availtereo/Protable/a;->c(Landroid/app/Application;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZLjava/lang/String;Z)V <",
+                "> Lcom/base/app/op/BaseAppLifecycleObserver;->onCreate()V <",
+                "> Lcom/pvoercase/recover/ui/base/BaseConfig;-><init>(Landroid/app/Application;)V <",
+                "> Lcom/pvoercase/recover/App;->e()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/anythink/core/activity/component/PrivacyPolicyView;->b(Landroid/content/Context;Ljava/lang/String;)V <",
+                "> Lcom/anythink/core/activity/AnyThinkGdprAuthActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/anythink/core/common/c/t$1;->run()V <",
+                "> Lcom/anythink/core/common/c/t;->a(Landroid/content/Context;Lcom/anythink/core/api/ATGDPRAuthCallback;)V <",
+                "> Lcom/anythink/core/common/c/t;->a(Landroid/content/Context;)Lcom/anythink/core/common/c/t; <",
+                "> Lcom/anythink/core/common/i/a;->c(Landroid/content/Context;)V <",
+                "> Lcom/anythink/core/common/i/a;->a(Landroid/content/Context;)V <",
+                "> Lcom/anythink/core/common/c/s$11;->run()V <",
+                "> Lcom/anythink/core/common/c/s;->b(Landroid/content/Context;)V <",
+                "> Lcom/anythink/core/common/c/s;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Lcom/anythink/core/api/ATNetworkConfig;)V <",
+                "> Lcom/anythink/core/api/ATSDK;->init(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Lcom/anythink/core/api/ATNetworkConfig;Lcom/anythink/core/api/ATSDKInitListener;)V <",
+                "> Lcom/anythink/core/api/ATSDK;->init(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Lcom/anythink/core/api/ATNetworkConfig;)V <",
+                "> Lcom/anythink/core/api/ATSDK;->init(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V <",
+                "> Lmeltedict/Keystorank/Finackle/b;->x0(Ljava/lang/String;Ljava/lang/String;Z)V <",
+                "> Lmeltedict/Keystorank/Finackle/b;->D(Landroid/app/Application;ZLjava/lang/String;ZLmeltedict/Keystorank/Finackle/b$l;Lmeltedict/Keystorank/Finackle/b$a;)V <",
+                "> Lmeltedict/ascendcement/Availtereo/Protable/a;->e(Landroid/app/Application;ZLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V <",
+                "> Lmeltedict/ascendcement/Availtereo/Protable/a;->c(Landroid/app/Application;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZLjava/lang/String;Z)V <",
+                "> Lcom/base/app/op/BaseAppLifecycleObserver;->onCreate()V <",
+                "> Lcom/pvoercase/recover/ui/base/BaseConfig;-><init>(Landroid/app/Application;)V <",
+                "> Lcom/pvoercase/recover/App;->e()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Intent;->createChooser(Landroid/content/Intent;Ljava/lang/CharSequence;)Landroid/content/Intent;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/anythink/core/basead/ui/web/WebLandPageActivity$5;->onShowFileChooser(Landroid/webkit/WebView;Landroid/webkit/ValueCallback;Landroid/webkit/WebChromeClient$FileChooserParams;)Z <",
+                "> Lcom/anythink/core/basead/ui/web/WebLandPageActivity;->onResume()V <",
+                "> Lcom/anythink/core/basead/ui/web/WebLandPageActivity;->a(Landroid/content/Context;Lcom/anythink/core/basead/b/c;)V <",
+                "> Lcom/anythink/basead/b/c;->a(Ljava/lang/String;ILcom/anythink/basead/d/j;)V <",
+                "> Lcom/anythink/basead/b/c;-><init>(Landroid/content/Context;Lcom/anythink/core/common/g/p;Lcom/anythink/core/common/g/o;)V <",
+                "> Lcom/anythink/expressad/a/b;->a(Lcom/anythink/basead/b/c;Lcom/anythink/expressad/foundation/d/d;)Lcom/anythink/basead/b/c; <",
+                "> Lcom/anythink/expressad/a/b;->a()Lcom/anythink/expressad/a/b; <",
+                "> Lcom/anythink/network/adx/AdxATInitManager;-><init>()V <",
+                "> Lcom/anythink/core/common/c/s;->a(Lcom/anythink/core/common/c/s;Landroid/content/Context;)V <",
+                "> Lcom/anythink/core/common/c/s$10;->run()V <",
+                "> Lcom/anythink/core/common/c/s;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Lcom/anythink/core/api/ATNetworkConfig;)V <",
+                "> Lcom/anythink/core/api/ATSDK;->init(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Lcom/anythink/core/api/ATNetworkConfig;Lcom/anythink/core/api/ATSDKInitListener;)V <",
+                "> Lcom/anythink/core/api/ATSDK;->init(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Lcom/anythink/core/api/ATNetworkConfig;)V <",
+                "> Lcom/anythink/core/api/ATSDK;->init(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V <",
+                "> Lmeltedict/Keystorank/Finackle/b;->x0(Ljava/lang/String;Ljava/lang/String;Z)V <",
+                "> Lmeltedict/Keystorank/Finackle/b;->D(Landroid/app/Application;ZLjava/lang/String;ZLmeltedict/Keystorank/Finackle/b$l;Lmeltedict/Keystorank/Finackle/b$a;)V <",
+                "> Lmeltedict/ascendcement/Availtereo/Protable/a;->e(Landroid/app/Application;ZLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V <",
+                "> Lmeltedict/ascendcement/Availtereo/Protable/a;->c(Landroid/app/Application;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZLjava/lang/String;Z)V <",
+                "> Lcom/base/app/op/BaseAppLifecycleObserver;->onCreate()V <",
+                "> Lcom/pvoercase/recover/ui/base/BaseConfig;-><init>(Landroid/app/Application;)V <",
+                "> Lcom/pvoercase/recover/App;->e()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Landroid/webkit/WebView;-><init>(Landroid/content/Context;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/anythink/core/express/web/BaseWebView;-><init>(Landroid/content/Context;)V <",
+                "> Lcom/anythink/expressad/atsignalcommon/windvane/WindVaneWebView;-><init>(Landroid/content/Context;)V <",
+                "> Lcom/anythink/expressad/mbbanner/view/ATBannerWebView;-><init>(Landroid/content/Context;)V <",
+                "> Lcom/anythink/expressad/mbbanner/a/d/c;->b()Z <",
+                "> Lcom/anythink/expressad/mbbanner/a/d/c;->a(Lcom/anythink/expressad/foundation/d/e;)V <",
+                "> Lcom/anythink/expressad/mbbanner/b/a;->i()V <",
+                "> Lcom/anythink/expressad/mbbanner/b/a;->b(Z)V <",
+                "> Lcom/anythink/expressad/out/TemplateBannerView;->init(Lcom/anythink/expressad/out/i;Ljava/lang/String;Ljava/lang/String;)V <",
+                "> Lcom/anythink/expressad/a/b;->a(Lcom/anythink/core/common/g/m;Lcom/anythink/core/common/g/p;Lcom/anythink/basead/e/c/e;)V <",
+                "> Lcom/anythink/expressad/a/b;->a()Lcom/anythink/expressad/a/b; <",
+                "> Lcom/anythink/network/adx/AdxATInitManager;-><init>()V <",
+                "> Lcom/anythink/core/common/c/s;->a(Lcom/anythink/core/common/c/s;Landroid/content/Context;)V <",
+                "> Lcom/anythink/core/common/c/s$10;->run()V <",
+                "> Lcom/anythink/core/common/c/s;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Lcom/anythink/core/api/ATNetworkConfig;)V <",
+                "> Lcom/anythink/core/api/ATSDK;->init(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Lcom/anythink/core/api/ATNetworkConfig;Lcom/anythink/core/api/ATSDKInitListener;)V <",
+                "> Lcom/anythink/core/api/ATSDK;->init(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Lcom/anythink/core/api/ATNetworkConfig;)V <",
+                "> Lcom/anythink/core/api/ATSDK;->init(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V <",
+                "> Lmeltedict/Keystorank/Finackle/b;->x0(Ljava/lang/String;Ljava/lang/String;Z)V <",
+                "> Lmeltedict/Keystorank/Finackle/b;->D(Landroid/app/Application;ZLjava/lang/String;ZLmeltedict/Keystorank/Finackle/b$l;Lmeltedict/Keystorank/Finackle/b$a;)V <",
+                "> Lmeltedict/ascendcement/Availtereo/Protable/a;->e(Landroid/app/Application;ZLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V <",
+                "> Lmeltedict/ascendcement/Availtereo/Protable/a;->c(Landroid/app/Application;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZLjava/lang/String;Z)V <",
+                "> Lcom/base/app/op/BaseAppLifecycleObserver;->onCreate()V <",
+                "> Lcom/pvoercase/recover/ui/base/BaseConfig;-><init>(Landroid/app/Application;)V <",
+                "> Lcom/pvoercase/recover/App;->e()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Landroid/webkit/WebView;->evaluateJavascript(Ljava/lang/String;Landroid/webkit/ValueCallback;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/anythink/expressad/mbbanner/a/d/c$8;->run()V <",
+                "> Lcom/anythink/expressad/mbbanner/a/d/c;->b()Z <",
+                "> Lcom/anythink/expressad/mbbanner/a/d/c;->a(Lcom/anythink/expressad/foundation/d/e;)V <",
+                "> Lcom/anythink/expressad/mbbanner/b/a;->i()V <",
+                "> Lcom/anythink/expressad/mbbanner/b/a;->b(Z)V <",
+                "> Lcom/anythink/expressad/out/TemplateBannerView;->init(Lcom/anythink/expressad/out/i;Ljava/lang/String;Ljava/lang/String;)V <",
+                "> Lcom/anythink/expressad/a/b;->a(Lcom/anythink/core/common/g/m;Lcom/anythink/core/common/g/p;Lcom/anythink/basead/e/c/e;)V <",
+                "> Lcom/anythink/expressad/a/b;->a()Lcom/anythink/expressad/a/b; <",
+                "> Lcom/anythink/network/adx/AdxATInitManager;-><init>()V <",
+                "> Lcom/anythink/core/common/c/s;->a(Lcom/anythink/core/common/c/s;Landroid/content/Context;)V <",
+                "> Lcom/anythink/core/common/c/s$10;->run()V <",
+                "> Lcom/anythink/core/common/c/s;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Lcom/anythink/core/api/ATNetworkConfig;)V <",
+                "> Lcom/anythink/core/api/ATSDK;->init(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Lcom/anythink/core/api/ATNetworkConfig;Lcom/anythink/core/api/ATSDKInitListener;)V <",
+                "> Lcom/anythink/core/api/ATSDK;->init(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Lcom/anythink/core/api/ATNetworkConfig;)V <",
+                "> Lcom/anythink/core/api/ATSDK;->init(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V <",
+                "> Lmeltedict/Keystorank/Finackle/b;->x0(Ljava/lang/String;Ljava/lang/String;Z)V <",
+                "> Lmeltedict/Keystorank/Finackle/b;->D(Landroid/app/Application;ZLjava/lang/String;ZLmeltedict/Keystorank/Finackle/b$l;Lmeltedict/Keystorank/Finackle/b$a;)V <",
+                "> Lmeltedict/ascendcement/Availtereo/Protable/a;->e(Landroid/app/Application;ZLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V <",
+                "> Lmeltedict/ascendcement/Availtereo/Protable/a;->c(Landroid/app/Application;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZLjava/lang/String;Z)V <",
+                "> Lcom/base/app/op/BaseAppLifecycleObserver;->onCreate()V <",
+                "> Lcom/pvoercase/recover/ui/base/BaseConfig;-><init>(Landroid/app/Application;)V <",
+                "> Lcom/pvoercase/recover/App;->e()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    }
+}

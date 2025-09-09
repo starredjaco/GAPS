@@ -1,0 +1,32 @@
+{
+    "Landroid/content/Intent;-><init>(Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/bloodsugar/diabetes/tracker/pro/BP5c2af7ab431f891d032954bec3de2f2bTT;->a()V <",
+                "> Lcom/bloodsugar/diabetes/tracker/pro/BP2265d4e30cd6f4d10826d97fbba1785cTT;->onConfigurationChanged(Landroid/content/res/Configuration;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Landroid/webkit/WebView;-><init>(Landroid/content/Context;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/bloodsugar/diabetes/tracker/pro/function/news/widgets/BPf76727ab0e392ca1fa;-><init>(Landroid/content/Context;)V <",
+                "> Lcom/bloodsugar/diabetes/tracker/pro/function/news/article/BP542c113c813aebf893c844a01a0b2586TT;->onPause()V <",
+                "> Lcom/bloodsugar/diabetes/tracker/pro/function/news/article/BP542c113c813aebf893c844a01a0b2586TT;->F(Landroid/content/Context;Lcom/bloodsugar/diabetes/tracker/pro/function/news/repository/model/News;Ljava/lang/String;)V <",
+                "> Lcom/bloodsugar/diabetes/tracker/pro/function/news/article/BP92c2e74d1b7586519f67a369b75e63c1TT;->G(Landroid/content/Context;Lcom/bloodsugar/diabetes/tracker/pro/function/news/repository/model/NewsWrapper;Ljava/lang/String;Ljava/lang/String;)V <",
+                "> Lcom/bloodsugar/diabetes/tracker/pro/function/news/article/BP92c2e74d1b7586519f67a369b75e63c1TT;->k(Lcom/bloodsugar/diabetes/tracker/pro/function/news/repository/model/NewsWrapper;)V <",
+                "> Lcom/bloodsugar/diabetes/tracker/pro/BP2265d4e30cd6f4d10826d97fbba1785cTT;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    }
+}

@@ -1,0 +1,225 @@
+{
+    "Landroid/content/Intent;->setDataAndType(Landroid/net/Uri;Ljava/lang/String;)Landroid/content/Intent;": {
+        "path_0": {
+            "call_sequence": [
+                "> LX/0V3E;->LJIIJ(Landroid/net/Uri;)V <",
+                "> LX/0V3E;->LJ(ZLandroid/net/Uri;)V <",
+                "> LX/0V3E;->LJI(IILandroid/content/Intent;)Z <",
+                "> LX/0GIn;->onActivityResult(IILandroid/content/Intent;)V <",
+                "> LX/0GIs;-><init>(LX/0GIn;)V <",
+                "> LY/ARunnableS68S0100000_6;->LIZ$63()V <",
+                "> LY/ARunnableS68S0100000_6;->run$295(LY/ARunnableS68S0100000_6;)V <",
+                "> LY/ARunnableS68S0100000_6;->run()V <",
+                "> LY/ACListenerS98S0100000_6;->onClick$129(LY/ACListenerS98S0100000_6;Landroid/view/View;)V <",
+                "> LY/ACListenerS98S0100000_6;->onClick(Landroid/view/View;)V <",
+                "> LX/0FtX;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V <",
+                "> Lcg5/AbS33S0100000_6;->LIZ$32(Lcg5/AbS33S0100000_6;Landroid/view/View;)V <",
+                "> Lcg5/AbS33S0100000_6;->LIZ(Landroid/view/View;)V <",
+                "> Lcom/ss/android/ugc/tiktok/addyours/ui/fragment/PadAdaptionFragment;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V <",
+                "> Lkotlin/jvm/internal/ApS173S0300000_5;->invoke$13(Lkotlin/jvm/internal/ApS173S0300000_5;)Ljava/lang/Object; <",
+                "> Lkotlin/jvm/internal/ApS173S0300000_5;->invoke()Ljava/lang/Object; <",
+                "> Lcom/ss/android/ugc/aweme/im/sdk/chat/ui/base/assems/skeleton/content/AwemeCardAssem;->th(LX/0ELe;Ljava/util/List;)V <",
+                "> Lcom/ss/android/ugc/aweme/im/sdk/chat/ui/base/assems/skeleton/protocols/AwemeCardSendPowerCell;->q5()Lcom/bytedance/assem/arch/reused/ReusedUISlotAssem; <",
+                "> Lcom/ss/android/ugc/aweme/im/sdk/chat/ui/base/assems/skeleton/protocols/AwemeCardProtocol;-><init>()V <",
+                "> LX/0jUQ;->LIZIZ(Ljava/lang/String;)Ljava/util/List; <",
+                "> LX/0xBl;->LIZIZ(LX/0MLz;Ljava/lang/Class;)Ljava/util/List; <",
+                "> Lkotlin/jvm/internal/ApS420S0100000_21;->invoke$1214(Lkotlin/jvm/internal/ApS420S0100000_21;)Ljava/lang/Object; <",
+                "> Lkotlin/jvm/internal/ApS420S0100000_21;->invoke()Ljava/lang/Object; <",
+                "> LY/ARunnableS83S0100000_21;->run$6(LY/ARunnableS83S0100000_21;)V <",
+                "> LY/ARunnableS83S0100000_21;->run()V <",
+                "> LX/0hcF;->LJI(Ljava/lang/String;)V <",
+                "> Lcom/ss/android/ugc/aweme/deeplink/DeepLinkActivityV2;->onNewIntent(Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.VIEW",
+                    "start-activity -a"
+                ],
+                [
+                    "com.ss.android.ugc.aweme.deeplink.DeepLinkActivityV2",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Ljavax/crypto/KeyGenerator;->getInstance(Ljava/lang/String;)Ljavax/crypto/KeyGenerator;": {
+        "path_0": {
+            "call_sequence": [
+                "> LX/0rGC;->LJFF([B)[B <",
+                "> LX/0rGM;->LJIILJJIL()Ljava/lang/String; <",
+                "> LX/0rGM;->LJIILL(Lcom/ss/android/ugc/aweme/autofill/api/AdAutofillPipoFillInfo;)V <",
+                "> LX/0rGM;->LIZJ(ZLjava/lang/Integer;Lorg/json/JSONObject;ZILjava/lang/String;Ljava/util/List;)V <",
+                "> LY/ACListenerS117S0100000_26;->onClick$218(LY/ACListenerS117S0100000_26;Landroid/view/View;)V <",
+                "> LY/ACListenerS117S0100000_26;->onClick(Landroid/view/View;)V <",
+                "> Lcom/ss/android/ugc/aweme/wiki/AddWikiActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/ss/android/ugc/aweme/voiceconversion/ui/VoiceConversionDetailsActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/ss/android/ugc/aweme/utils/AppWidgetLinkProxyActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> LX/0rno;->LIZ(Landroid/content/Context;Ljava/lang/String;)Landroid/content/Intent; <",
+                "> LX/0rnu;->call()Ljava/lang/Object; <",
+                "> LX/0rnt;->LJ(Landroid/content/Context;Ljava/lang/Integer;Ljava/lang/Integer;[ILjava/lang/Float;[ILjava/lang/String;[I[ILkotlin/jvm/functions/Function1;)Z <",
+                "> LX/0Umr;->LJIIJJI(Landroid/content/Context;[I)V <",
+                "> LY/ARunnableS34S0300000_14;->run$7(LY/ARunnableS34S0300000_14;)V <",
+                "> LY/ARunnableS34S0300000_14;->run()V <",
+                "> LX/0UZv;->LJ(Landroid/content/Context;ILcom/bytedance/push/PushBody;)V <",
+                "> LX/0URP;->LJ(ILjava/lang/String;)V <",
+                "> Lcom/fcm/service/SSGcmListenerService;->onMessageReceived(Lcom/google/firebase/messaging/RemoteMessage;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.google.firebase.MESSAGING_EVENT",
+                    "start-service -a"
+                ],
+                [
+                    "com.ss.android.ugc.aweme.wiki.AddWikiActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Landroid/webkit/WebView;-><init>(Landroid/content/Context;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> LX/0KjE;-><init>(Landroid/content/Context;)V <",
+                "> LX/0z0j;-><init>(Landroid/content/Context;)V <",
+                "> LX/0KSF;->LIZLLL(Landroid/content/Context;)LX/0KLR; <",
+                "> LX/0KTR;->LIZLLL(Landroid/content/Context;)LX/0KLR; <",
+                "> LX/0KHY;->LIZ(LX/0KHK;)V <",
+                "> LX/0KHT;->LJI()V <",
+                "> LX/0KHT;->LJFF()V <",
+                "> LX/0KKA;->LJIJI(Lcom/bytedance/hybrid/spark/SparkContext;)V <",
+                "> LX/0KKA;->LJIJ(Lcom/bytedance/hybrid/spark/SparkContext;)V <",
+                "> LX/0KOB;->l(Lcom/bytedance/hybrid/spark/SparkContext;)V <",
+                "> LX/0qd4;->LIZIZ(Ljava/lang/String;)V <",
+                "> LX/0qcS;->LJIILL(Ljava/lang/String;ILX/0qa0;)V <",
+                "> LY/ACListenerS117S0100000_26;->onClick$146(LY/ACListenerS117S0100000_26;Landroid/view/View;)V <",
+                "> LY/ACListenerS117S0100000_26;->onClick(Landroid/view/View;)V <",
+                "> Lcom/ss/android/ugc/aweme/wiki/AddWikiActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/ss/android/ugc/aweme/share/linkshare/OpenLinkShareMainActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.tiktok.opensdk.share.PROXY_LINK_SHARE",
+                    "start-activity -a"
+                ],
+                [
+                    "com.ss.android.ugc.aweme.wiki.AddWikiActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;": {
+        "path_0": {
+            "call_sequence": [
+                "> LX/0q5j;->K(Ljava/net/URL;LX/01x3;)Ljava/net/URLConnection; <",
+                "> LX/0U3Y;->LIZIZ(Ljava/lang/String;)Ljava/lang/String; <",
+                "> LY/ARunnableS14S1100000_14;->run$2(LY/ARunnableS14S1100000_14;)V <",
+                "> LY/ARunnableS14S1100000_14;->run()V <",
+                "> LX/0Tmp;->LJ(Ljava/lang/String;Lorg/json/JSONObject;)V <",
+                "> LX/0gil;->LJ(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Exception;)V <",
+                "> LX/0giw;->LJ(LX/0gj1;)LX/0gj1; <",
+                "> Lcom/ss/android/common/applog/AppLog;->com_ss_android_common_applog_AppLog_com_ss_android_ugc_aweme_net_lancet_AppLogLancet_onEvent(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;JJZLorg/json/JSONObject;)V <",
+                "> Lcom/ss/android/common/applog/AppLog;->onEvent(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;JJZLorg/json/JSONObject;)V <",
+                "> LX/0jYB;->LIZIZ(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;JJZLorg/json/JSONObject;)V <",
+                "> Lcom/ss/android/common/applog/AppLog;->onEvent(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;JJLorg/json/JSONObject;)V <",
+                "> Lcom/ss/android/common/lib/AppLogNewUtils;->LIZJ(Ljava/lang/String;Lorg/json/JSONObject;)V <",
+                "> Lcom/ss/android/common/lib/AppLogNewUtils;->onEventV3(Ljava/lang/String;Lorg/json/JSONObject;)V <",
+                "> LX/0TgH;->LIZ(Landroid/net/Uri;Ljava/lang/String;)V <",
+                "> Lcom/ss/android/common/util/MultiProcessSharedProvider;->delete(Landroid/net/Uri;Ljava/lang/String;[Ljava/lang/String;)I <",
+                "> Lcom/ss/android/common/util/MultiProcessSharedProvider;->LIZJ(Landroid/content/Context;)LX/0Jv0; <",
+                "> LX/0IuY;-><init>(Landroid/content/Context;)V <",
+                "> LX/0Iub;->LIZ()LX/0IuZ; <",
+                "> Lcom/ss/android/push/window/oppo/ScreenReceiver;->LIZ(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.USER_PRESENT",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Landroid/webkit/WebView;->evaluateJavascript(Ljava/lang/String;Landroid/webkit/ValueCallback;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> LX/0qfY;->LJI(Ljava/lang/ref/WeakReference;)V <",
+                "> LY/ARunnableS72S0200000_26;->run$29(LY/ARunnableS72S0200000_26;)V <",
+                "> LY/ARunnableS72S0200000_26;->run()V <",
+                "> LX/0s4v;->openLoginPage()V <",
+                "> LX/0s4v;->handleLoginStatusCheck()V <",
+                "> LX/0s4v;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/ss/android/ugc/aweme/openauthorize/ScanQrcodeAuthorizedActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/ss/android/ugc/aweme/share/linkshare/OpenLinkShareMainActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.tiktok.opensdk.share.PROXY_LINK_SHARE",
+                    "start-activity -a"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Context;->getExternalCacheDir()Ljava/io/File;": {
+        "path_0": {
+            "call_sequence": [
+                "> LX/0jYB;->LLLLZ(Landroid/content/Context;)Ljava/io/File; <",
+                "> LX/0U9S;->LJIILLIIL(Landroid/content/Context;)LX/0U9T; <",
+                "> Lkotlin/jvm/internal/AFpS159S0000000_4;->invoke$7285(Lkotlin/jvm/internal/AFpS159S0000000_4;)Ljava/lang/Object; <",
+                "> Lkotlin/jvm/internal/AFpS159S0000000_4;->invoke$2(Lkotlin/jvm/internal/AFpS159S0000000_4;)Ljava/lang/Object; <",
+                "> Lkotlin/jvm/internal/AFpS159S0000000_4;->invoke()Ljava/lang/Object; <",
+                "> LX/0Bs3;->LIZ()V <",
+                "> LX/0qEy;->LIZLLL(LX/0q54;)I <",
+                "> LX/0qEQ;->LIZ(LX/0pxk;LX/0qCE;LX/0qEy;LX/0q53;)LX/0pzn; <",
+                "> LX/0qE8;->LIZIZ()LX/0pzn; <",
+                "> LX/0qE8;->LJIILLIIL()LX/0qBm; <",
+                "> LX/0qE8;->LJIIJ()LX/0q4k; <",
+                "> LX/0qDv;->LIZ()LX/0q4k; <",
+                "> LX/0OZm;->LIZ(Ljava/lang/String;)V <",
+                "> LX/0WOd;->queueIdle()Z <",
+                "> LX/0Twl;->queueIdle()Z <",
+                "> LX/0jYB;->LJJLIIIIJ(Landroid/os/MessageQueue;Landroid/os/MessageQueue$IdleHandler;)V <",
+                "> Lcom/ss/android/common/lib/AppLogNewUtils;->LIZJ(Ljava/lang/String;Lorg/json/JSONObject;)V <",
+                "> Lcom/ss/android/common/lib/AppLogNewUtils;->onEventV3(Ljava/lang/String;Lorg/json/JSONObject;)V <",
+                "> LX/0TgH;->LIZ(Landroid/net/Uri;Ljava/lang/String;)V <",
+                "> Lcom/ss/android/common/util/MultiProcessSharedProvider;->delete(Landroid/net/Uri;Ljava/lang/String;[Ljava/lang/String;)I <",
+                "> Lcom/ss/android/common/util/MultiProcessSharedProvider;->LIZJ(Landroid/content/Context;)LX/0Jv0; <",
+                "> LX/0IuY;-><init>(Landroid/content/Context;)V <",
+                "> LX/0Iub;->LIZ()LX/0IuZ; <",
+                "> Lcom/ss/android/push/window/oppo/ScreenReceiver;->LIZ(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.USER_PRESENT",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Landroid/webkit/WebView;->addJavascriptInterface(Ljava/lang/Object;Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> LX/0uY2;->run()V <",
+                "> LX/0jf3;->execute(Ljava/lang/Runnable;)V <",
+                "> LX/0i1m;->LIZIZ(Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)V <",
+                "> LX/0U6Z;->execute(Ljava/lang/Runnable;)V <",
+                "> LX/0uJQ;->LIZJ()V <",
+                "> LX/0uJq;->getString(I[Ljava/lang/Object;)Ljava/lang/String; <",
+                "> LX/0jZC;-><init>(Landroid/content/Context;Z)V <",
+                "> Lcom/ss/android/ugc/awemepushlib/di/ies/MessageHandler;->attachBaseContext(Landroid/content/Context;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.ss.android.newmedia.message.notify.delete.action",
+                    "start-service -a"
+                ]
+            ]
+        }
+    }
+}

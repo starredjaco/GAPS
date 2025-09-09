@@ -1,0 +1,69 @@
+{
+    "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;": {
+        "path_0": {
+            "call_sequence": [
+                "> LX/0Jv;->getConnection(Ljava/net/URL;)Ljava/net/HttpURLConnection; <",
+                "> LX/0Jt;->A00(LX/0Jp;Ljava/util/Map;I)Z <",
+                "> LX/0qG;->run()V <",
+                "> LX/0qH;->A06(Ljava/lang/String;Ljava/util/Map;)V <",
+                "> LX/0hY;->run()V <",
+                "> LX/0hh;->A01(LX/0hd;Ljava/lang/String;[I[IIZ)V <",
+                "> LX/0eg;->A06(LX/0hd;LX/0hh;[I)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Context;->getExternalCacheDir()Ljava/io/File;": {
+        "path_0": {
+            "call_sequence": [
+                "> LX/0fG;->A00(Landroid/content/Context;)Ljava/io/File; <",
+                "> LX/0ft;->A03(LX/0ft;LX/0fG;II)LX/0Sp; <",
+                "> LX/0Sz;->A0A()LX/0TC; <",
+                "> LX/NEY;->call()Ljava/lang/Object; <",
+                "> LX/0qH;->A01()V <",
+                "> LX/0qH;->A03(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;)V <",
+                "> LX/0hY;->run()V <",
+                "> LX/0hh;->A01(LX/0hd;Ljava/lang/String;[I[IIZ)V <",
+                "> LX/0eg;->A06(LX/0hd;LX/0hh;[I)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Ljavax/crypto/KeyGenerator;->getInstance(Ljava/lang/String;)Ljavax/crypto/KeyGenerator;": {
+        "path_0": {
+            "call_sequence": [
+                "> LX/IwX;-><init>()V <",
+                "> LX/HUm;->A03(IILX/17C;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> LX/HUm;->A02(IILX/17C;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> LX/HUm;->A04(IILX/17C;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> LX/HUm;->A06(Ljava/lang/Object;LX/17C;II)Ljava/lang/Object; <",
+                "> LX/HUm;->A00(IILX/17C;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> LX/HUm;->A07(Ljava/lang/Object;LX/17C;II)Ljava/lang/Object; <",
+                "> LX/HUm;->A01(IILX/17C;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> LX/HUm;->A08(Ljava/lang/Object;LX/17C;II)Ljava/lang/Object; <",
+                "> LX/HUm;->A05(ILX/17C;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> LX/163;->A03(ILX/17C;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> LX/17W;->A03(I)Ljava/lang/Object; <",
+                "> LX/1Pw;->A09()V <",
+                "> LX/6Ou;->run()V <",
+                "> LX/039;->execute(Ljava/lang/Runnable;)V <",
+                "> LX/0hZ;->run()V <",
+                "> LX/0hh;->A01(LX/0hd;Ljava/lang/String;[I[IIZ)V <",
+                "> LX/0eg;->A06(LX/0hd;LX/0hh;[I)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    }
+}

@@ -1,0 +1,100 @@
+{
+    "Landroid/content/Intent;-><init>(Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> L\u02e1\u02bc\u02cc/\u02cc\u02cb\u05d9;->\u02cb\u02c9\u1427(Landroid/content/Context;)V <",
+                "> L\u02e1\u02bc\u02cc/\u02b2\u02cc\u02b9;->run()V <",
+                "> L\u02e1\u02bc\u02cc/\u02cc\u02cb\u05d9;->\u02cf\u02c6\u02c9(Landroid/content/Context;L\u1427\u02c6\u02b9/\u02b2\u02cc\u02b9;Ljava/lang/String;Ljava/lang/Boolean;ZZZ)V <",
+                "> L\u02e1\u02bc\u02cc/\u02b4\u02b3\u02c1;->isLimitTracking(Ljava/lang/String;)Z <",
+                "> L\u02e1\u02bc\u02cc/\u02b4\u02b3\u02c1;->getOpenAnonymousID(Ljava/lang/String;)Ljava/lang/String; <",
+                "> L\u02e1\u02bc\u02cc/\u02bc\u1427;->\u02be\u02c1\u02b4(Landroid/content/Context;)Ljava/lang/String; <",
+                "> L\u02e1\u02bc\u02cc/\u02ca\u02cf\u02be;->run()V <",
+                "> Lcom/mbridge/msdk/thrid/okhttp/l;->a(Ljava/util/Deque;Ljava/lang/Object;)V <",
+                "> Lcom/mbridge/msdk/thrid/okhttp/l;->a(Lcom/mbridge/msdk/thrid/okhttp/v$b;)V <",
+                "> Lcom/mbridge/msdk/thrid/okhttp/v$b;->a(Ljava/util/concurrent/ExecutorService;)V <",
+                "> Lcom/mbridge/msdk/thrid/okhttp/l;->b()Z <",
+                "> Lcom/mbridge/msdk/thrid/okhttp/l;->a(I)V <",
+                "> Lcom/mbridge/msdk/tracker/network/toolbox/m;->a()Lcom/mbridge/msdk/thrid/okhttp/t; <",
+                "> Lcom/mbridge/msdk/tracker/network/toolbox/m;-><init>()V <",
+                "> Lcom/mbridge/msdk/tracker/network/l;->b()Lcom/mbridge/msdk/tracker/network/u; <",
+                "> Lcom/mbridge/msdk/foundation/same/net/wrapper/c;->get(ILjava/lang/String;Lcom/mbridge/msdk/foundation/same/net/wrapper/e;Lcom/mbridge/msdk/foundation/same/net/b;ZZLjava/lang/String;J)V <",
+                "> Lcom/mbridge/msdk/foundation/same/net/wrapper/c;->get(ILjava/lang/String;Lcom/mbridge/msdk/foundation/same/net/wrapper/e;Lcom/mbridge/msdk/foundation/same/net/b;Ljava/lang/String;J)V <",
+                "> Lcom/mbridge/msdk/setting/j;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/mbridge/msdk/foundation/same/net/wrapper/d;)V <",
+                "> Lcom/mbridge/msdk/setting/j;->c(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V <",
+                "> Lcom/mbridge/msdk/foundation/tools/e0;->d()V <",
+                "> Lcom/mbridge/msdk/foundation/same/broadcast/NetWorkChangeReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.ottplay.ottplay/com.mbridge.msdk.foundation.same.broadcast.NetWorkChangeReceiver",
+                    "start -n"
+                ]
+            ]
+        }
+    },
+    "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/mbridge/msdk/foundation/download/download/DownLoadUtils$1;->runTask()V <",
+                "> Lcom/mbridge/msdk/foundation/download/download/DownLoadUtils;->getSourceCodeFromNetUrl(Ljava/lang/String;Lcom/mbridge/msdk/foundation/download/download/H5DownLoadManager$IOnDownLoadH5Source;Z)V <",
+                "> Lcom/mbridge/msdk/foundation/download/download/H5DownLoadManager;->downloadZipByOldDownloadModule(Lcom/mbridge/msdk/foundation/same/report/metrics/c;Ljava/lang/String;Lcom/mbridge/msdk/foundation/download/download/H5DownLoadManager$ZipDownloadListener;)V <",
+                "> Lcom/mbridge/msdk/foundation/download/download/H5DownLoadManager;->getInstance()Lcom/mbridge/msdk/foundation/download/download/H5DownLoadManager; <",
+                "> Lcom/mbridge/msdk/videocommon/setting/b;->b(Ljava/lang/String;)V <",
+                "> Lcom/mbridge/msdk/reward/controller/c;->run()V <",
+                "> Lcom/mbridge/msdk/reward/controller/a;->c(Ljava/lang/String;Ljava/lang/String;)V <",
+                "> Lcom/mbridge/msdk/out/MBRewardVideoHandler;->initMBRewardVideoHandler(Ljava/lang/String;Ljava/lang/String;)V <",
+                "> Lcom/mbridge/msdk/foundation/controller/d;->d()V <",
+                "> Lcom/mbridge/msdk/foundation/controller/d;->a()Lcom/mbridge/msdk/foundation/controller/d; <",
+                "> Lcom/mbridge/msdk/foundation/tools/w0;->b(Landroid/content/Context;Ljava/lang/String;Ljava/lang/Object;)V <",
+                "> Lcom/mbridge/msdk/setting/h;->a(Ljava/lang/String;ILjava/lang/String;)Z <",
+                "> Lcom/mbridge/msdk/setting/h;->b()Lcom/mbridge/msdk/setting/h; <",
+                "> Lcom/mbridge/msdk/foundation/same/net/wrapper/c;->post(ILjava/lang/String;Lcom/mbridge/msdk/foundation/same/net/wrapper/e;Lcom/mbridge/msdk/foundation/same/net/b;ZZLjava/lang/String;J)V <",
+                "> Lcom/mbridge/msdk/foundation/same/net/wrapper/c;->get(ILjava/lang/String;Lcom/mbridge/msdk/foundation/same/net/wrapper/e;Lcom/mbridge/msdk/foundation/same/net/b;ZZLjava/lang/String;J)V <",
+                "> Lcom/mbridge/msdk/foundation/same/net/wrapper/c;->get(ILjava/lang/String;Lcom/mbridge/msdk/foundation/same/net/wrapper/e;Lcom/mbridge/msdk/foundation/same/net/b;Ljava/lang/String;J)V <",
+                "> Lcom/mbridge/msdk/setting/j;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/mbridge/msdk/foundation/same/net/wrapper/d;)V <",
+                "> Lcom/mbridge/msdk/setting/j;->c(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V <",
+                "> Lcom/mbridge/msdk/foundation/tools/e0;->d()V <",
+                "> Lcom/mbridge/msdk/foundation/same/broadcast/NetWorkChangeReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.ottplay.ottplay/com.mbridge.msdk.foundation.same.broadcast.NetWorkChangeReceiver",
+                    "start -n"
+                ]
+            ]
+        }
+    },
+    "Landroid/webkit/WebView;-><init>(Landroid/content/Context;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/mbridge/msdk/mbsignalcommon/base/BaseWebView;-><init>(Landroid/content/Context;)V <",
+                "> Lcom/mbridge/msdk/mbsignalcommon/windvane/WindVaneWebView;-><init>(Landroid/content/Context;)V <",
+                "> Lcom/mbridge/msdk/mbsignalcommon/webEnvCheck/WebEnvCheckEntry;->check(Landroid/content/Context;)V <",
+                "> Lcom/mbridge/msdk/foundation/tools/f;->c(Landroid/content/Context;)V <",
+                "> Lcom/mbridge/msdk/foundation/tools/k0;->h(Landroid/content/Context;)V <",
+                "> Lcom/mbridge/msdk/foundation/controller/d$a;->run()V <",
+                "> Lcom/mbridge/msdk/foundation/controller/d;->a(Ljava/util/Map;Landroid/content/Context;)V <",
+                "> Lcom/mbridge/msdk/foundation/controller/d;->a()Lcom/mbridge/msdk/foundation/controller/d; <",
+                "> Lcom/mbridge/msdk/foundation/tools/w0;->b(Landroid/content/Context;Ljava/lang/String;Ljava/lang/Object;)V <",
+                "> Lcom/mbridge/msdk/setting/h;->a(Ljava/lang/String;ILjava/lang/String;)Z <",
+                "> Lcom/mbridge/msdk/setting/h;->b()Lcom/mbridge/msdk/setting/h; <",
+                "> Lcom/mbridge/msdk/foundation/same/net/wrapper/c;->post(ILjava/lang/String;Lcom/mbridge/msdk/foundation/same/net/wrapper/e;Lcom/mbridge/msdk/foundation/same/net/b;ZZLjava/lang/String;J)V <",
+                "> Lcom/mbridge/msdk/foundation/same/net/wrapper/c;->get(ILjava/lang/String;Lcom/mbridge/msdk/foundation/same/net/wrapper/e;Lcom/mbridge/msdk/foundation/same/net/b;ZZLjava/lang/String;J)V <",
+                "> Lcom/mbridge/msdk/foundation/same/net/wrapper/c;->get(ILjava/lang/String;Lcom/mbridge/msdk/foundation/same/net/wrapper/e;Lcom/mbridge/msdk/foundation/same/net/b;Ljava/lang/String;J)V <",
+                "> Lcom/mbridge/msdk/setting/j;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/mbridge/msdk/foundation/same/net/wrapper/d;)V <",
+                "> Lcom/mbridge/msdk/setting/j;->c(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V <",
+                "> Lcom/mbridge/msdk/foundation/tools/e0;->d()V <",
+                "> Lcom/mbridge/msdk/foundation/same/broadcast/NetWorkChangeReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.ottplay.ottplay/com.mbridge.msdk.foundation.same.broadcast.NetWorkChangeReceiver",
+                    "start -n"
+                ]
+            ]
+        }
+    }
+}

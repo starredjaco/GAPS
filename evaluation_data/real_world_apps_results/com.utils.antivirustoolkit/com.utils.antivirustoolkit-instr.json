@@ -1,0 +1,116 @@
+{
+    "Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/utils/antivirustoolkit/widgets/WifiWidget;->onUpdate(Landroid/content/Context;Landroid/appwidget/AppWidgetManager;[I)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.appwidget.action.APPWIDGET_UPDATE",
+                    "start -a"
+                ]
+            ]
+        }
+    },
+    "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lm/b;->a(Ljava/lang/String;)Lm/a; <",
+                "> Ld/j;->call()Ljava/lang/Object; <",
+                "> Lk3/b0;->a()V <",
+                "> Lk3/c0;->run()V <",
+                "> Lk3/z;->schedule(Ljava/lang/Runnable;JLjava/util/concurrent/TimeUnit;)Ljava/util/concurrent/ScheduledFuture; <",
+                "> Lcom/tiktok/appevents/TTAppEventLogger;->addToLater(Ljava/lang/Runnable;I)V <",
+                "> Lcom/tiktok/appevents/TTAppEventLogger;->fetchGlobalConfig(I)V <",
+                "> Lcom/tiktok/appevents/TTAppEventLogger;->initConfig(JLcom/tiktok/TikTokBusinessSdk$TTInitCallback;Ljava/util/concurrent/atomic/AtomicBoolean;)V <",
+                "> Lcom/tiktok/TikTokBusinessSdk;->initializeSdk(Lcom/tiktok/TikTokBusinessSdk$TTConfig;Lcom/tiktok/TikTokBusinessSdk$TTInitCallback;)V <",
+                "> Lcom/tiktok/TikTokBusinessSdk;->initializeSdk(Lcom/tiktok/TikTokBusinessSdk$TTConfig;)V <",
+                "> Lcom/utils/antivirustoolkit/ui/MainActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Landroid/webkit/WebView;->evaluateJavascript(Ljava/lang/String;Landroid/webkit/ValueCallback;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lg1/b;->e(Landroid/webkit/WebView;Ljava/lang/String;)V <",
+                "> Lg1/b;->a(Landroid/webkit/WebView;Ljava/lang/String;[Ljava/lang/Object;)V <",
+                "> Li4/b;->r(Z)V <",
+                "> Lg4/h;->a(ZZ)V <",
+                "> Lk3/t;->run()V <",
+                "> Lk3/t;-><init>()V <",
+                "> Lk3/b0;-><clinit>()V <",
+                "> Lk3/c0;-><init>(Ljava/util/concurrent/Callable;)V <",
+                "> Lk3/z;->schedule(Ljava/lang/Runnable;JLjava/util/concurrent/TimeUnit;)Ljava/util/concurrent/ScheduledFuture; <",
+                "> Lcom/tiktok/appevents/TTAppEventLogger;->addToLater(Ljava/lang/Runnable;I)V <",
+                "> Lcom/tiktok/appevents/TTAppEventLogger;->fetchGlobalConfig(I)V <",
+                "> Lcom/tiktok/appevents/TTAppEventLogger;->initConfig(JLcom/tiktok/TikTokBusinessSdk$TTInitCallback;Ljava/util/concurrent/atomic/AtomicBoolean;)V <",
+                "> Lcom/tiktok/TikTokBusinessSdk;->initializeSdk(Lcom/tiktok/TikTokBusinessSdk$TTConfig;Lcom/tiktok/TikTokBusinessSdk$TTInitCallback;)V <",
+                "> Lcom/tiktok/TikTokBusinessSdk;->initializeSdk(Lcom/tiktok/TikTokBusinessSdk$TTConfig;)V <",
+                "> Lcom/utils/antivirustoolkit/ui/MainActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Ljavax/crypto/KeyGenerator;->getInstance(Ljava/lang/String;Ljava/lang/String;)Ljavax/crypto/KeyGenerator;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lj/d;->d()V <",
+                "> Lj/d;->g(Ll4/b;)V <",
+                "> La7/o;->o()V <",
+                "> Lcom/bumptech/glide/m;->run()V <",
+                "> Ln2/q;->execute(Ljava/lang/Runnable;)V <",
+                "> Lcom/tiktok/appevents/TTAppEventLogger;->addToQ(Ljava/lang/Runnable;)V <",
+                "> Lcom/tiktok/appevents/TTAppEventLogger;->initConfig(JLcom/tiktok/TikTokBusinessSdk$TTInitCallback;Ljava/util/concurrent/atomic/AtomicBoolean;)V <",
+                "> Lcom/tiktok/TikTokBusinessSdk;->initializeSdk(Lcom/tiktok/TikTokBusinessSdk$TTConfig;Lcom/tiktok/TikTokBusinessSdk$TTInitCallback;)V <",
+                "> Lcom/tiktok/TikTokBusinessSdk;->initializeSdk(Lcom/tiktok/TikTokBusinessSdk$TTConfig;)V <",
+                "> Lcom/utils/antivirustoolkit/ui/MainActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Landroid/webkit/WebView;-><init>(Landroid/content/Context;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/mbridge/msdk/foundation/webview/BrowserView;->getWebView()Landroid/webkit/WebView; <",
+                "> Lcom/mbridge/msdk/foundation/webview/BrowserView;->a()V <",
+                "> Lcom/mbridge/msdk/foundation/webview/BrowserView;->init()V <",
+                "> Lcom/mbridge/msdk/foundation/webview/BrowserView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V <",
+                "> Lcom/mbridge/msdk/activity/MBCommonActivity;->finish()V <",
+                "> Lcom/mbridge/msdk/click/c;->e(Landroid/content/Context;Ljava/lang/String;)V <",
+                "> Lcom/mbridge/msdk/nativex/view/BaseMBMediaView;->openURL(Ljava/lang/Object;Ljava/lang/String;)V <",
+                "> Lcom/mbridge/msdk/nativex/view/MBMediaView;-><init>(Landroid/content/Context;)V <",
+                "> Lcom/mbridge/msdk/mbnative/controller/NativeController;->a(Lcom/mbridge/msdk/out/Campaign;Landroid/view/View;)V <",
+                "> Lcom/mbridge/msdk/mbnative/service/a;->a(Landroid/view/View;Lcom/mbridge/msdk/out/Campaign;)V <",
+                "> Lcom/mbridge/msdk/preload/a;->a(Ljava/util/Map;I)V <",
+                "> Lcom/mbridge/msdk/foundation/controller/d;->b(Ljava/lang/String;)V <",
+                "> Lcom/mbridge/msdk/foundation/controller/d;->a()Lcom/mbridge/msdk/foundation/controller/d; <",
+                "> Lcom/mbridge/msdk/foundation/tools/w0;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/mbridge/msdk/foundation/controller/a$c;->run()V <",
+                "> Lcom/mbridge/msdk/foundation/controller/a;->b()Ljava/lang/String; <",
+                "> Lcom/mbridge/msdk/foundation/tools/e0;->d()V <",
+                "> Lcom/mbridge/msdk/foundation/same/broadcast/NetWorkChangeReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.net.conn.CONNECTIVITY_CHANGE",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    }
+}

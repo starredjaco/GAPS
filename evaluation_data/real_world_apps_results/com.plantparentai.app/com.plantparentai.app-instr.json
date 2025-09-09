@@ -1,0 +1,95 @@
+{
+    "Landroid/content/Intent;->setData(Landroid/net/Uri;)Landroid/content/Intent;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/anythink/core/activity/component/PrivacyPolicyView;->b(Landroid/content/Context;Ljava/lang/String;)V <",
+                "> Lcom/anythink/core/activity/AnyThinkGdprAuthActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/anythink/core/common/b/r$1;->run()V <",
+                "> Lcom/anythink/core/common/b/r;->a(Landroid/content/Context;Lcom/anythink/core/api/ATGDPRAuthCallback;)V <",
+                "> Lcom/anythink/core/common/b/r;->a(Landroid/content/Context;)Lcom/anythink/core/common/b/r; <",
+                "> Lcom/anythink/core/common/b/o$6;->run()V <",
+                "> Lcom/anythink/core/common/b/o;->a(Lcom/anythink/core/common/b/o;Landroid/content/Context;Lcom/anythink/core/api/ATNetworkConfig;)V <",
+                "> Lcom/anythink/core/common/b/o$11;->run()V <",
+                "> Lcom/anythink/core/common/b/o;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Lcom/anythink/core/api/ATNetworkConfig;)V <",
+                "> Lcom/anythink/core/api/ATSDK;->init(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Lcom/anythink/core/api/ATNetworkConfig;Lcom/anythink/core/api/ATSDKInitListener;)V <",
+                "> Lcom/anythink/core/api/ATSDK;->init(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Lcom/anythink/core/api/ATNetworkConfig;)V <",
+                "> Lcom/anythink/core/api/ATSDK;->init(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V <",
+                "> Lcom/glority/android/topon/InitTopon;->run()V <",
+                "> Lcom/glority/android/core/app/GlApplication;->executeTask(Lcom/glority/android/core/init/InitTask;)V <",
+                "> Lcom/glority/android/core/app/GlApplication;->executeInit(Ljava/util/ArrayList;)V <",
+                "> Lcom/glority/android/core/app/GlApplication;->onCreate()V <",
+                "> Lcom/glority/base/BaseApplication;->onCreate()V <",
+                "> Lcom/glority/app/MyApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/glority/android/ui/base/FragmentHelper$Builder;->getLaunchIntent()Landroid/content/Intent; <",
+                "> Lcom/glority/android/ui/base/FragmentHelper$Builder;->launch(Landroid/app/Activity;Ljava/lang/Integer;Landroidx/core/app/ActivityOptionsCompat;)V <",
+                "> Lcom/glority/android/ui/base/FragmentHelper$Builder;->launch$default(Lcom/glority/android/ui/base/FragmentHelper$Builder;Landroid/app/Activity;Ljava/lang/Integer;Landroidx/core/app/ActivityOptionsCompat;ILjava/lang/Object;)V <",
+                "> Lcom/glority/android/picturexx/splash/autorestore/AutoRestoreFragment$Companion;->open(Landroidx/appcompat/app/AppCompatActivity;Ljava/lang/String;Ljava/lang/String;)V <",
+                "> Lcom/glority/android/picturexx/splash/util/AutoRestoreUtil;->openAutoRestoreIfNeed$lambda$1(Lkotlin/jvm/functions/Function1;Ljava/lang/Boolean;)Lkotlin/Unit; <",
+                "> Lcom/glority/android/picturexx/splash/util/AutoRestoreUtil;->$r8$lambda$1lvF3rMn0IqGP0bzKgX6mdHi_i8(Lkotlin/jvm/functions/Function1;Ljava/lang/Boolean;)Lkotlin/Unit; <",
+                "> Lcom/glority/android/picturexx/splash/util/AutoRestoreUtil$$ExternalSyntheticLambda2;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/glority/android/picturexx/splash/util/AutoRestoreUtil;->openAutoRestoreIfNeed(Lkotlin/jvm/functions/Function1;)Z <",
+                "> Lcom/glority/android/picturexx/splash/MainActivity;->init()V <",
+                "> Lcom/glority/android/picturexx/splash/MainActivity;->doCreateView(Landroid/os/Bundle;)V <",
+                "> Lcom/glority/android/picturexx/splash/SplashActivity$Companion;->startMainActivity(Landroid/content/Context;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Landroid/webkit/WebView;-><init>(Landroid/content/Context;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/anythink/core/activity/component/PrivacyPolicyView;-><init>(Landroid/content/Context;)V <",
+                "> Lcom/anythink/core/activity/AnyThinkGdprAuthActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/anythink/core/common/b/r$1;->run()V <",
+                "> Lcom/anythink/core/common/b/r;->a(Landroid/content/Context;Lcom/anythink/core/api/ATGDPRAuthCallback;)V <",
+                "> Lcom/anythink/core/common/b/r;->a(Landroid/content/Context;)Lcom/anythink/core/common/b/r; <",
+                "> Lcom/anythink/core/common/b/o$6;->run()V <",
+                "> Lcom/anythink/core/common/b/o;->a(Lcom/anythink/core/common/b/o;Landroid/content/Context;Lcom/anythink/core/api/ATNetworkConfig;)V <",
+                "> Lcom/anythink/core/common/b/o$11;->run()V <",
+                "> Lcom/anythink/core/common/b/o;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Lcom/anythink/core/api/ATNetworkConfig;)V <",
+                "> Lcom/anythink/core/api/ATSDK;->init(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Lcom/anythink/core/api/ATNetworkConfig;Lcom/anythink/core/api/ATSDKInitListener;)V <",
+                "> Lcom/anythink/core/api/ATSDK;->init(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Lcom/anythink/core/api/ATNetworkConfig;)V <",
+                "> Lcom/anythink/core/api/ATSDK;->init(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V <",
+                "> Lcom/glority/android/topon/InitTopon;->run()V <",
+                "> Lcom/glority/android/core/app/GlApplication;->executeTask(Lcom/glority/android/core/init/InitTask;)V <",
+                "> Lcom/glority/android/core/app/GlApplication;->executeInit(Ljava/util/ArrayList;)V <",
+                "> Lcom/glority/android/core/app/GlApplication;->onCreate()V <",
+                "> Lcom/glority/base/BaseApplication;->onCreate()V <",
+                "> Lcom/glority/app/MyApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/glority/android/picturexx/splash/SplashActivity$Companion;->startMainActivity(Landroid/content/Context;)V <",
+                "> Lcom/glority/android/picturexx/splash/SplashActivity;->startMainActivity(Landroid/content/Context;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    }
+}

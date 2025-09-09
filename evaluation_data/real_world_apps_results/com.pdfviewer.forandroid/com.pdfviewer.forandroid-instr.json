@@ -1,0 +1,27 @@
+{
+    "Landroid/webkit/WebView;-><init>(Landroid/content/Context;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/pdfviewer/forandroid/PrivacyActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/pdfviewer/forandroid/PDFListActivity;->z(Landroid/view/View;)V <",
+                "> Lcom/pdfviewer/forandroid/PDFListActivity;->s(Lcom/pdfviewer/forandroid/PDFListActivity;Landroid/view/View;)V <",
+                "> Lh8/c0;->onClick(Landroid/view/View;)V <",
+                "> Lcom/pdfviewer/forandroid/PDFListActivity;->G()V <",
+                "> Lcom/pdfviewer/forandroid/PDFListActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/pdfviewer/forandroid/PDFDocActivity;->z()V <",
+                "> Lcom/pdfviewer/forandroid/PDFDocActivity;->onBackPressed()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.VIEW",
+                    "start-activity -a"
+                ],
+                [
+                    "com.pdfviewer.forandroid.PDFListActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    }
+}

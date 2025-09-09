@@ -1,0 +1,129 @@
+{
+    "Ljava/net/URL;->openConnection(Ljava/net/Proxy;)Ljava/net/URLConnection;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lanet/channel/session/e;->e(Lr2/c;Z)Ljava/net/HttpURLConnection; <",
+                "> Lanet/channel/session/e;->d(Lr2/c;Lanet/channel/j;Z)Lanet/channel/session/e$b; <",
+                "> Lanet/channel/session/e;->a(Lr2/c;)Lanet/channel/session/e$b; <",
+                "> Lanet/channel/session/f$a;->run()V <",
+                "> Lanet/channel/session/f;->connect()V <",
+                "> Lj2/f$a;->run()V <",
+                "> Lj2/f;->f()V <",
+                "> Lj2/f;->e()V <",
+                "> Lanet/channel/f;->a()V <",
+                "> Lanetwork/channel/http/NetworkSdkSetting;->init(Landroid/content/Context;)V <",
+                "> Lcom/aliexpress/app/optimize/startup/tasks/InitTbNetworkSdk;->onExcute(Landroid/app/Application;Ljava/util/HashMap;)V <",
+                "> Lz00/b;-><init>()V <",
+                "> Lcom/aliexpress/app/init/launcherImpl/AELauncherController;->x(Landroid/app/Application;JLcom/taobao/android/launcher/config/Generator;)V <",
+                "> Lcom/aliexpress/app/init/launcherImpl/AELauncherController;->w(Landroid/app/Application;J)V <",
+                "> Lcom/aliexpress/app/launch/a;->d(Lcom/aliexpress/module/launcher/BaseInitApplication;Landroid/os/Message;)V <",
+                "> Lcom/aliexpress/app/AEApp;->onAttachBaseContext()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Context;->getExternalCacheDir()Ljava/io/File;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lvb1/d;->h(Landroid/content/Context;Ljava/lang/String;)Landroid/graphics/Bitmap; <",
+                "> Lpb1/d;->n(Ljava/lang/String;Landroid/net/Uri;)I <",
+                "> Lpb1/d;->A(I)I <",
+                "> Lpb1/d;->a(Lpb1/d;I)I <",
+                "> Lpb1/d$a;->b()V <",
+                "> Lpb1/d;->G()V <",
+                "> Lcom/etao/feimagesearch/result/IrpPresenter;->V()V <",
+                "> Lcom/aliexpress/module/imagesearch/irp/IrpActivity$g;->V()V <",
+                "> Lcom/aliexpress/module/imagesearch/irp/IrpActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.VIEW",
+                    "start-activity -a"
+                ]
+            ]
+        }
+    },
+    "Landroid/webkit/WebView;-><init>(Landroid/content/Context;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/aliexpress/component/enhance_webview/UnifiedSystemWebView;-><init>(Landroid/content/Context;)V <",
+                "> Lcom/aliexpress/module/payment/PayWebViewActivity$b;-><init>(Lcom/aliexpress/module/payment/PayWebViewActivity;Landroid/content/Context;)V <",
+                "> Lcom/aliexpress/module/payment/PayWebViewActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.VIEW",
+                    "start-activity -a"
+                ]
+            ]
+        }
+    },
+    "Ldalvik/system/DexClassLoader;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/ClassLoader;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Ljp/c;->e(I)Z <",
+                "> Ljp/c;->a(I)Z <",
+                "> Lia1/b$a;->run()V <",
+                "> Lia1/b;->b(Lia1/b$b;)V <",
+                "> La10/s;->init(Landroid/app/Application;)V <",
+                "> Lcom/aliexpress/app/launch/a;->d(Lcom/aliexpress/module/launcher/BaseInitApplication;Landroid/os/Message;)V <",
+                "> Lcom/aliexpress/app/AEApp;->onAttachBaseContext()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Landroid/webkit/WebView;->evaluateJavascript(Ljava/lang/String;Landroid/webkit/ValueCallback;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lwu/m;->evaluateJavascript(Ljava/lang/String;)V <",
+                "> Lcom/aliexpress/adc/webview/impl/system/BaseSystemWebview;-><init>(Landroid/content/Context;)V <",
+                "> Lcom/aliexpress/adc/adapter/webview/AdcSystemWebview;-><init>(Landroid/content/Context;)V <",
+                "> Lps/a;->a(Landroid/content/Context;Z)Lsu/g; <",
+                "> Lis/b;->j(Landroid/content/Context;Z)Lsu/g; <",
+                "> Lis/b;->l(Lis/b;Landroid/content/Context;ZILjava/lang/Object;)Lsu/g; <",
+                "> Lis/b;->k()V <",
+                "> Lis/b;->e(Lis/b;)V <",
+                "> Lis/b$b;->run()V <",
+                "> Lis/b;->m(ZJ)V <",
+                "> Lis/b;->y(Z)V <",
+                "> Lis/b;->r()V <",
+                "> Lpt/a;->d(Landroid/content/Context;Z)V <",
+                "> Lcom/aliexpress/app/optimize/startup/tasks/InitWindVaneComplete;->onExcute(Landroid/app/Application;Ljava/util/HashMap;)V <",
+                "> Lz00/b;-><init>()V <",
+                "> Lcom/aliexpress/app/init/launcherImpl/AELauncherController;->x(Landroid/app/Application;JLcom/taobao/android/launcher/config/Generator;)V <",
+                "> Lcom/aliexpress/app/init/launcherImpl/AELauncherController;->w(Landroid/app/Application;J)V <",
+                "> Lcom/aliexpress/app/launch/a;->d(Lcom/aliexpress/module/launcher/BaseInitApplication;Landroid/os/Message;)V <",
+                "> Lcom/aliexpress/app/AEApp;->onAttachBaseContext()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Intent;->setDataAndType(Landroid/net/Uri;Ljava/lang/String;)Landroid/content/Intent;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/aliexpress/module/new_leave_feedback/NewLeaveFeedbackActivity;->onActivityResult(IILandroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.VIEW",
+                    "start-activity -a"
+                ]
+            ]
+        }
+    }
+}

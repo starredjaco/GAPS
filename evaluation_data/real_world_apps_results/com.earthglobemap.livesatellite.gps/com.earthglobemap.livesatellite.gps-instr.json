@@ -1,0 +1,30 @@
+{
+    "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;": {
+        "path_0": {
+            "call_sequence": [
+                "> Ladmost/sdk/base/request/AdMostGenericRequest;->requestAndParse(Ladmost/sdk/base/request/AdmostResponseCacheItem;ZZZ)Ladmost/sdk/model/AdMostBannerResponseBase; <",
+                "> Ladmost/sdk/base/request/AdMostGenericRequest;->processZoneRequest([Ljava/lang/String;)Ladmost/sdk/model/AdMostBannerResponseBase; <",
+                "> Ladmost/sdk/base/request/AdMostGenericRequest;->doInBackground([Ljava/lang/String;)Ljava/lang/Object; <",
+                "> Ladmost/sdk/base/request/AdMostGenericRequest;->doInBackground([Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Ladmost/sdk/base/AdMostIAPManager;->requestPostSendIAPDataToServer(Ljava/lang/String;Ladmost/sdk/listener/AdmostResponseListener;)V <",
+                "> Ladmost/sdk/base/AdMostIAPManager;->sendInAppPurchasesToServer()V <",
+                "> Ladmost/sdk/base/AdMostImpressionManager;->periodicChecks()V <",
+                "> Ladmost/sdk/base/AdMostImpressionManager;->access$300(Ladmost/sdk/base/AdMostImpressionManager;)V <",
+                "> Ladmost/sdk/base/AdMostImpressionManager$1;->run()V <",
+                "> Ladmost/sdk/base/AdMostImpressionManager;->start(Landroid/content/Context;)V <",
+                "> Ladmost/sdk/base/AdMost;->init(Ladmost/sdk/base/AdMostConfiguration;)V <",
+                "> Ladmost/sdk/base/AdMost;->init(Ladmost/sdk/base/AdMostConfiguration;Ladmost/sdk/listener/AdMostInitListener;)V <",
+                "> LDb/f;->h(Landroid/app/Activity;)V <",
+                "> LDb/f;->e(Landroid/app/Activity;)V <",
+                "> LDb/f$b;->onActivityCreated(Landroid/app/Activity;Landroid/os/Bundle;)V <",
+                "> LDb/f;->g(Landroid/app/Application;Ljava/lang/String;)V <",
+                "> Lcom/earthglobemap/livesatellite/gps/MyApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "Landroid/content/Intent;-><init>(Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> LA/j;->invoke()Ljava/lang/Object; <",
+                "> LI2/a;->run()V <",
+                "> LV7/n;->b(Ljava/util/List;)Lcom/google/android/gms/tasks/Task; <",
+                "> LT7/f;->b(Ljava/lang/Object;LT7/v;)Lcom/google/android/gms/tasks/Task; <",
+                "> LP/e;->b(Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function0;)V <",
+                "> LP/c;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> LL/p;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Ln0/b0;->onFailure(Ljava/lang/Exception;)V <",
+                "> LA7/a;->onComplete(Lcom/google/android/gms/tasks/Task;)V <",
+                "> LA7/b;->a(Lcom/google/android/gms/tasks/Task;Lcom/google/android/gms/tasks/Task;)Lcom/google/android/gms/tasks/Task; <",
+                "> Ld5/t;->b(Lt7/r;)Ljava/lang/Object; <",
+                "> Ll9/f;->p(Lp8/d;LAb/f;)V <",
+                "> Lai/cleaner/app/MyApp;->b(Lai/cleaner/app/MyApp;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;": {
+        "path_0": {
+            "call_sequence": [
+                "> LA7/a;->then(Lcom/google/android/gms/tasks/Task;)Ljava/lang/Object; <",
+                "> LA7/b;->a(Lcom/google/android/gms/tasks/Task;Lcom/google/android/gms/tasks/Task;)Lcom/google/android/gms/tasks/Task; <",
+                "> Ld5/t;->b(Lt7/r;)Ljava/lang/Object; <",
+                "> LP/e;->b(Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function0;)V <",
+                "> LP/c;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> LL/p;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Ld5/t;->onSuccess(Ljava/lang/Object;)V <",
+                "> Lz2/s;->h(Landroid/content/Context;Ly2/c;)Lz2/q; <",
+                "> Lz2/q;->L(Landroid/content/Context;Ly2/c;)V <",
+                "> Lz2/q;->K(Landroid/content/Context;)Lz2/q; <",
+                "> Lai/cleaner/app/broadcast/MediaChangeReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "ai.storage.cleaner.app/ai.cleaner.app.broadcast.MediaChangeReceiver",
+                    "start -n"
+                ]
+            ]
+        }
+    },
+    "Ljavax/crypto/KeyGenerator;->getInstance(Ljava/lang/String;Ljava/lang/String;)Ljavax/crypto/KeyGenerator;": {
+        "path_0": {
+            "call_sequence": [
+                "> LZ6/c;->b(Ljava/lang/String;)V <",
+                "> LZ6/c;->a(Ljava/lang/String;)Z <",
+                "> LF7/d;->x()LZ6/b; <",
+                "> LF7/d;->t(Ljava/io/File;)V <",
+                "> LF7/d;-><init>(Landroid/content/Context;)V <",
+                "> Ld5/t;->b(Lt7/r;)Ljava/lang/Object; <",
+                "> Lz2/s;->h(Landroid/content/Context;Ly2/c;)Lz2/q; <",
+                "> Lz2/q;->L(Landroid/content/Context;Ly2/c;)V <",
+                "> Lz2/q;->K(Landroid/content/Context;)Lz2/q; <",
+                "> Lai/cleaner/app/broadcast/MediaChangeReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.MEDIA_UNMOUNTED",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    }
+}

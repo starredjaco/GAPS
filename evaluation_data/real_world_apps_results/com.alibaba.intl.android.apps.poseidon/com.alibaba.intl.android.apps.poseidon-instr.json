@@ -1,0 +1,97 @@
+{
+    "Landroid/content/Intent;-><init>(Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/android/agoo/control/AgooFactory$g;->run()V <",
+                "> Lorg/android/agoo/control/AgooFactory;->sendMsgByBindService(Ljava/lang/String;Landroid/content/Intent;)V <",
+                "> Lorg/android/agoo/control/AgooFactory;->sendMsgToBussiness(Landroid/content/Context;Ljava/lang/String;Landroid/os/Bundle;ZLjava/lang/String;Lcom/taobao/accs/base/TaoBaseService$ExtraInfo;)V <",
+                "> Lorg/android/agoo/control/AgooFactory;->msgReceiverPreHandler([BLjava/lang/String;Lcom/taobao/accs/base/TaoBaseService$ExtraInfo;Z)Landroid/os/Bundle; <",
+                "> Lorg/android/agoo/control/AgooFactory$b;->run()V <",
+                "> Lorg/android/agoo/control/AgooFactory;->msgRecevie([BLjava/lang/String;Lcom/taobao/accs/base/TaoBaseService$ExtraInfo;)V <",
+                "> Lorg/android/agoo/gcm/AgooFirebaseMessagingService;->onMessageReceived(Lcom/google/firebase/messaging/RemoteMessage;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.google.firebase.MESSAGING_EVENT",
+                    "start-service -a"
+                ]
+            ]
+        }
+    },
+    "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/aidc/netdetect/PolicyMgr;->k(Ljava/lang/String;)V <",
+                "> Lcom/aidc/netdetect/PolicyMgr$a;->run()V <",
+                "> Lcom/aidc/netdetect/PolicyMgr;->j(Ljava/lang/String;)V <",
+                "> Lcom/aidc/netdetect/a;->o(Ljava/lang/String;)V <",
+                "> Lcom/aidc/netdetect/a;->e()Lcom/aidc/netdetect/a; <",
+                "> Lcom/aidc/netdetect/accs/AmdcPushHandlerService;->processAmdcPush(Lcom/alibaba/fastjson/JSONObject;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.taobao.accs.intent.action.RECEIVE",
+                    "start-service -a"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lorg/android/agoo/control/AgooFactory;->sendMsgToBussiness(Landroid/content/Context;Ljava/lang/String;Landroid/os/Bundle;ZLjava/lang/String;Lcom/taobao/accs/base/TaoBaseService$ExtraInfo;)V <",
+                "> Lorg/android/agoo/control/AgooFactory;->msgReceiverPreHandler([BLjava/lang/String;Lcom/taobao/accs/base/TaoBaseService$ExtraInfo;Z)Landroid/os/Bundle; <",
+                "> Lorg/android/agoo/control/AgooFactory$b;->run()V <",
+                "> Lorg/android/agoo/control/AgooFactory;->msgRecevie([BLjava/lang/String;Lcom/taobao/accs/base/TaoBaseService$ExtraInfo;)V <",
+                "> Lorg/android/agoo/gcm/AgooFirebaseMessagingService;->onMessageReceived(Lcom/google/firebase/messaging/RemoteMessage;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.google.firebase.MESSAGING_EVENT",
+                    "start-service -a"
+                ]
+            ]
+        }
+    },
+    "Landroid/webkit/WebView;-><init>(Landroid/content/Context;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/alipay/ams/component/y1/a;-><init>(Landroid/content/Context;)V <",
+                "> Lcom/alipay/ams/component/u1/c;->a(Landroid/app/Activity;Ljava/lang/String;)Lcom/alipay/ams/component/m0/d; <",
+                "> Lcom/alipay/ams/component/u1/d;->c()Lcom/alipay/ams/component/m0/d; <",
+                "> Lcom/alipay/plus/webview/render/page/StandardWebActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/alipay/plus/webview/card/view/H5TransparentBaseActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/alipay/plus/webview/card/view/H5TransparentActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.alibaba.intl.android.apps.poseidon/com.alipay.plus.webview.card.view.H5TransparentActivity",
+                    "start -n"
+                ]
+            ]
+        }
+    },
+    "Landroid/webkit/WebView;->evaluateJavascript(Ljava/lang/String;Landroid/webkit/ValueCallback;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/alipay/ams/component/h1/a$a;->run()V <",
+                "> Lcom/alipay/ams/component/h1/a;->a(Lcom/alipay/ams/component/z0/b;Landroid/webkit/WebView;)Z <",
+                "> Lcom/alipay/ams/component/h1/a;->a(Landroid/webkit/WebView;Ljava/lang/String;Ljava/lang/String;Lcom/alipay/ams/component/z0/c;)Z <",
+                "> Lcom/alipay/plus/webview/render/page/StandardWebActivity;->onPause()V <",
+                "> Lcom/alipay/plus/webview/card/view/H5TransparentBaseActivity;->onPause()V <",
+                "> Lcom/alipay/plus/webview/card/view/H5TransparentActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.alibaba.intl.android.apps.poseidon/com.alipay.plus.webview.card.view.H5TransparentActivity",
+                    "start -n"
+                ]
+            ]
+        }
+    }
+}

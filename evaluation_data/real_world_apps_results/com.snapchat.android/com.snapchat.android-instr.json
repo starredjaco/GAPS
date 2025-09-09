@@ -1,0 +1,181 @@
+{
+    "Landroid/content/Intent;-><init>()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lv6h;->v(Lcom/snap/mushroom/MainActivity;)Z <",
+                "> Lcom/snap/mushroom/MainActivity;->Z(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;": {
+        "path_0": {
+            "call_sequence": [
+                "> LIK0;->run()V <",
+                "> LJK0;->a()V <",
+                "> Lcom/snap/core/application/BaseApplication;->onCreate()V <",
+                "> Lcom/snap/mushroom/app/MushroomApplication;-><init>(LgHf;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;": {
+        "path_0": {
+            "call_sequence": [
+                "> LgT8;->b(Ljava/lang/String;)Ljava/net/HttpURLConnection; <",
+                "> LkX5;->run()V <",
+                "> Lbx7;->g(Lgx7;Lkotlin/jvm/functions/Function0;)V <",
+                "> Lbe7;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lt4i;->g(Landroid/graphics/Bitmap;)V <",
+                "> LzI7;->call()Ljava/lang/Object; <",
+                "> LsH7;->apply(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Ltsc;->f(FLjava/lang/Float;Ljava/lang/Float;ZILhrc;)V <",
+                "> LZ06;->q(LKm9;FILandroid/view/MotionEvent;Landroid/view/MotionEvent;)V <",
+                "> LGpd;->onScale(Landroid/view/ScaleGestureDetector;)Z <",
+                "> LZ06;-><init>(Lcom/snapchat/deck/views/DeckView;Ltsc;LjA3;Lv10;Landroid/os/Handler;)V <",
+                "> Lcom/snapchat/deck/views/DeckView;->h(Ltsc;LjA3;Lv10;)V <",
+                "> Lksc;->C(Lcom/snapchat/deck/views/DeckView;)V <",
+                "> LiTa;->q(Z)V <",
+                "> Lcom/snap/mushroom/MainActivity;->onPostCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Ljavax/crypto/KeyGenerator;->getInstance(Ljava/lang/String;)Ljavax/crypto/KeyGenerator;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/snap/composer/store/KeychainUtils;->b(LcM1;)[B <",
+                "> Lcom/snap/composer/store/KeychainUtils;->a()[B <",
+                "> LrV6;->invoke()Ljava/lang/Object; <",
+                "> LPd;->invoke()Ljava/lang/Object; <",
+                "> Lh3g;->o(Lh3g;Lkte;)LMy7; <",
+                "> Lh3g;->k()Lh3g; <",
+                "> Le42;->run()V <",
+                "> LX1d;->accept(Ljava/lang/Object;)V <",
+                "> Li4;->onClick(Landroid/view/View;)V <",
+                "> LH91;-><init>(Ldm5;LVI9;LVI9;LVI9;)V <",
+                "> LmF4;->e()Ljava/lang/Object; <",
+                "> LmF4;->get()Ljava/lang/Object; <",
+                "> LQui;->k(Landroid/content/Context;Lcom/snap/widgets/core/BestFriendsWidgetProvider;I)LXU0; <",
+                "> Lcom/snap/widgets/core/BestFriendsWidgetProvider;->onUpdate(Landroid/content/Context;Landroid/appwidget/AppWidgetManager;[I)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.appwidget.action.APPWIDGET_UPDATE",
+                    "start -a"
+                ],
+                [
+                    "com.snap.widgets.core.BestFriendsWidgetProvider",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Landroid/webkit/WebView;->evaluateJavascript(Ljava/lang/String;Landroid/webkit/ValueCallback;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> LGx2;->onPageFinished(Landroid/webkit/WebView;Ljava/lang/String;)V <",
+                "> LQdk;-><init>(Landroid/content/Context;LJd8;)V <",
+                "> LwW7;->invoke()Ljava/lang/Object; <",
+                "> Lrd8;->l()Z <",
+                "> LAf7;->onClick(Landroid/view/View;)V <",
+                "> LOMa;->accept(Ljava/lang/Object;)V <",
+                "> LoX5;->run()V <",
+                "> Ly36;->dispose()V <",
+                "> Lcom/snap/identity/loginsignup/ui/LoginSignupActivity;->i0()V <",
+                "> LdA6;->e(Lcom/snap/mushroom/MainActivity;)Z <",
+                "> Lcom/snap/mushroom/MainActivity;->Z(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.snap.identity.loginsignup.ui.LoginSignupActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Landroid/webkit/WebView;-><init>(Landroid/content/Context;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> LtP0;-><init>(Landroid/content/Context;LpB8;)V <",
+                "> Lh75;->z()Ljava/lang/Object; <",
+                "> Lh75;->get()Ljava/lang/Object; <",
+                "> LB75;->A0()LuZi; <",
+                "> LbEk;->d(LOs3;LbZ4;)LPui; <",
+                "> LIY4;->y()Ljava/lang/Object; <",
+                "> LIY4;->p()Ljava/lang/Object; <",
+                "> LIY4;->get()Ljava/lang/Object; <",
+                "> LTz4;->get()Ljava/lang/Object; <",
+                "> Lhq4;->a(LUn0;)LRa3; <",
+                "> LRRb;->call()Ljava/lang/Object; <",
+                "> Lcom/snap/mushroom/app/MushroomApplication;->warmupCamera()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Landroid/webkit/WebView;->addJavascriptInterface(Ljava/lang/Object;Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> LrEj;->f3(Ljava/lang/String;)V <",
+                "> Lcom/snap/compliance/lib/core/ui/verificationWeb/VerificationWebFragment;->K1(Landroid/view/View;Landroid/os/Bundle;)V <",
+                "> LdW4;->p()Ljava/lang/Object; <",
+                "> LdW4;->c()Ljava/lang/Object; <",
+                "> LdW4;->get()Ljava/lang/Object; <",
+                "> LoX4;->k2()LEyj; <",
+                "> Lj25;->xa()LuCa; <",
+                "> LbZ4;->b()Ljava/lang/Object; <",
+                "> LbZ4;->get()Ljava/lang/Object; <",
+                "> Lumc;->run()V <",
+                "> Lcom/snap/mushroom/app/MushroomApplication;->onPostInjection()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Ldalvik/system/DexClassLoader;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/ClassLoader;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> LUc7;->b(Ljava/lang/String;)LSta; <",
+                "> LUc7;->c(Ljava/lang/String;)Ljava/lang/ClassLoader; <",
+                "> LUc7;->a(Ljava/lang/String;)Ljava/lang/ClassLoader; <",
+                "> Lb92;->call()Ljava/lang/Object; <",
+                "> LlH4;->n()Ljava/lang/Object; <",
+                "> LlH4;->get()Ljava/lang/Object; <",
+                "> LKZ7;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> LiI8;->dispose()V <",
+                "> Lmdb;->g(Ljava/util/Set;)V <",
+                "> Lcom/snap/widgets/core/mapwidget/MapWidgetProvider;->onUpdate(Landroid/content/Context;Landroid/appwidget/AppWidgetManager;[I)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.appwidget.action.APPWIDGET_UPDATE",
+                    "start -a"
+                ]
+            ]
+        }
+    }
+}

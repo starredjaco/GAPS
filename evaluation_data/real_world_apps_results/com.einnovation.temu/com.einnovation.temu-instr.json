@@ -1,0 +1,68 @@
+{
+    "Landroid/content/Intent;-><init>(Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> LT40/j;->a(ILjava/lang/String;Lorg/json/JSONObject;)LT40/j; <",
+                "> Lcom/whaleco/widget/logistics/LogisticsWidgetProvider;->k(Lcom/whaleco/widget/logistics/LogisticsWidgetProvider;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.appwidget.action.APPWIDGET_UPDATE",
+                    "start -a"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Intent;->setData(Landroid/net/Uri;)Landroid/content/Intent;": {
+        "path_0": {
+            "call_sequence": [
+                "> LZK/h;->b(Landroid/content/Context;ILjava/lang/String;)Landroid/content/Intent; <",
+                "> LZK/g;->b(Landroid/content/Context;ILjava/lang/String;)Landroid/content/Intent; <",
+                "> LZK/g;->w(Landroid/app/Activity;LbL/i;IILandroid/content/DialogInterface$OnCancelListener;)Z <",
+                "> LbL/d0;->run()V <",
+                "> LbL/e0;->s(Lcom/google/android/gms/common/ConnectionResult;I)V <",
+                "> LbL/D;->n(Lcom/google/android/gms/common/ConnectionResult;)Z <",
+                "> LbL/D;->H(Lcom/google/android/gms/common/ConnectionResult;Ljava/lang/Exception;)V <",
+                "> LbL/D;->F(LbL/a0;)V <",
+                "> LbL/f;->handleMessage(Landroid/os/Message;)Z <",
+                "> LbL/f;->u(Landroid/content/Context;)LbL/f; <",
+                "> LaL/e;-><init>(Landroid/content/Context;Landroid/app/Activity;LaL/a;LaL/a$d;LaL/e$a;)V <",
+                "> LaL/e;-><init>(Landroid/content/Context;LaL/a;LaL/a$d;LaL/e$a;)V <",
+                "> LLL/q;-><init>(Landroid/content/Context;LLL/t$a;)V <",
+                "> LLL/t;->b(Landroid/content/Context;LLL/t$a;)LLL/q; <",
+                "> LVH/d;->a(Landroid/content/Context;)LLL/q; <",
+                "> Lcom/einnovation/whaleco/pay/auth/google/GPaySdkApi;-><init>(Landroidx/fragment/app/r;LlD/b;)V <",
+                "> Lcom/einnovation/whaleco/pay/auth/base/PaymentSdkApi;->j(Landroidx/fragment/app/r;Lcom/einnovation/whaleco/pay/auth/base/c;LlD/b;)Lcom/einnovation/whaleco/pay/auth/base/PaymentSdkApi; <",
+                "> Lcom/einnovation/whaleco/pay/auth/base/PaymentSdkActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/einnovation/whaleco/pay/auth/braintree/BraintreeCallbackActivity;->i1(Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.einnovation.temu/com.einnovation.whaleco.pay.auth.braintree.BraintreeCallbackActivity",
+                    "start -n"
+                ]
+            ]
+        }
+    },
+    "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;": {
+        "path_0": {
+            "call_sequence": [
+                "> LnY/d;->a(Lorg/json/JSONObject;LlY/a;Ljava/lang/String;Ljava/util/Map;I)Z <",
+                "> LkY/c;->o(Ljava/lang/String;Lorg/json/JSONObject;Ljava/util/HashMap;)Z <",
+                "> LkY/c;->e()V <",
+                "> LkY/f;->a(LkY/f;Landroid/app/Application;)V <",
+                "> LkY/e;->run()V <",
+                "> LkY/f;->f(Landroid/app/Application;LlY/c;)V <",
+                "> LoY/d;->b(Landroid/app/Application;Ljava/lang/String;)V <",
+                "> Lcom/baogong/WhaleCoApplication;->attachBaseContext(Landroid/content/Context;)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lr9/e;->a(Ljava/lang/String;)Ljava/io/InputStream; <",
+                "> LS8/r;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lu9/H0;->e(Lu9/I0;Lu9/I0;LS8/r;)Lu9/I0; <",
+                "> Lv9/g;->a(Ly9/e;)Lu9/I0; <",
+                "> Lu9/l0;->c(Ly9/e;)Ly9/e; <",
+                "> Lu9/f;->j(Lu9/f;Lu9/l0;Ly9/e;Ly9/e;)Z <",
+                "> Lv9/q;->b(Lu9/H;Lu9/H;)Z <",
+                "> LT8/j;-><init>(Lu9/M;Lu9/M;)V <",
+                "> Li2/h;->j(LU8/m;LT8/a;)Lu9/H; <",
+                "> Li2/h;->e(LL8/w;LT8/a;Lu9/M;)Lu9/M; <",
+                "> Li2/h;->g(Landroid/content/Context;Ln2/a;)Li2/h; <",
+                "> Lg2/c;-><init>(Landroid/content/Context;Ln2/a;Lg2/b;)V <",
+                "> LN0/n;->run()V <",
+                "> Lr7/n;->e(J)V <",
+                "> Lr7/n;->h()V <",
+                "> LC0/c;->then(Lcom/google/android/gms/tasks/Task;)Ljava/lang/Object; <",
+                "> Lr7/i;->c(I)Lcom/google/android/gms/tasks/Task; <",
+                "> Lr7/b;->run()V <",
+                "> LI4/x;->run()V <",
+                "> LI4/l;->f()V <",
+                "> LI4/l;->n()V <",
+                "> LI4/l;->run()V <",
+                "> LC4/c;->d()Ljava/lang/Object; <",
+                "> Lcom/azura/base/glide/MyAppGlideModule;->b(Landroid/content/Context;Lcom/bumptech/glide/g;)V <",
+                "> Lcom/bumptech/glide/GeneratedAppGlideModuleImpl;->b(Landroid/content/Context;Lcom/bumptech/glide/g;)V <",
+                "> Lcom/bumptech/glide/d;->a(Landroid/content/Context;)Lcom/bumptech/glide/d; <",
+                "> LV4/r;->e(Landroidx/fragment/app/FragmentActivity;)Lcom/bumptech/glide/r; <",
+                "> LV4/r;->c(Landroid/content/Context;)Lcom/bumptech/glide/r; <",
+                "> Lcom/azura/base/BaseApp;->onTrimMemory(I)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    }
+}

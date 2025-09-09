@@ -1,0 +1,221 @@
+{
+    "Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;": {
+        "path_0": {
+            "call_sequence": [
+                "> Ld0/h$e;->onPrepareActionMode(Landroid/view/ActionMode;Landroid/view/Menu;)Z <",
+                "> Ld0/h;->g(Landroid/view/ActionMode$Callback;Landroid/widget/TextView;)Landroid/view/ActionMode$Callback; <",
+                "> Lm/e;->setCustomSelectionActionModeCallback(Landroid/view/ActionMode$Callback;)V <",
+                "> Lg/n;->b(Landroid/content/Context;Landroid/util/AttributeSet;)Lm/e; <",
+                "> Lg/h;->onCreateView(Landroid/view/View;Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Lg/h;->onCreateView(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; <",
+                "> Lg/e;->z()Lg/g; <",
+                "> Lg/e;->onTitleChanged(Ljava/lang/CharSequence;I)V <",
+                "> Lz5/a;-><init>()V <",
+                "> LI5/a;-><init>()V <",
+                "> Lcom/musicplayer/mp3/mymusic/activity/ad/NativeOpenActivity;-><init>()V <",
+                "> Li6/d;->f(Landroid/app/Activity;Ljava/lang/String;Li6/f;ZZZ)V <",
+                "> Lcom/musicplayer/mp3/mymusic/activity/SplashActivity;->Z()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.musicplayer.mp3.mymusic.activity.SplashActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lz2/f;->e(IJ)Ljava/net/HttpURLConnection; <",
+                "> Lz2/f;->b()V <",
+                "> Lz2/c;->d(Lz2/b;Ljava/net/Socket;)V <",
+                "> Lz2/e;->c(Lz2/b;Ljava/net/Socket;)V <",
+                "> Lz2/d$a;->run()V <",
+                "> Lz2/d$b;->run()V <",
+                "> Lz2/d;-><init>(Lj5/f;)V <",
+                "> Lcom/musicplayer/mp3/mymusic/activity/mine/SoundSpaceDetailActivity;->L()V <",
+                "> Lcom/musicplayer/mp3/mymusic/service/MusicService;->b(ZZ)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.media.browse.MediaBrowserService",
+                    "start-service -a"
+                ]
+            ]
+        }
+    },
+    "Landroid/webkit/WebView;-><init>(Landroid/content/Context;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/anythink/core/common/u/m$3;->run()V <",
+                "> Lcom/anythink/core/common/d/t;->a(Ljava/lang/Runnable;J)V <",
+                "> Lcom/anythink/expressad/splash/c/b;->a(Lcom/anythink/expressad/foundation/d/d;Lcom/anythink/expressad/splash/view/ATSplashView;)V <",
+                "> Lcom/anythink/expressad/splash/d/c;->a(Lcom/anythink/expressad/foundation/d/d;IZ)V <",
+                "> Lcom/anythink/expressad/splash/d/c;->a(Lcom/anythink/expressad/foundation/d/d;Z)V <",
+                "> Lcom/anythink/expressad/splash/d/b;->a(Lcom/anythink/expressad/foundation/d/d;I)V <",
+                "> Lcom/anythink/expressad/splash/c/e;->b(Lcom/anythink/expressad/foundation/d/d;I)V <",
+                "> Lcom/anythink/expressad/splash/c/e;->a(Lcom/anythink/expressad/foundation/d/e;)V <",
+                "> Lcom/anythink/expressad/splash/d/c;->a(Lcom/anythink/expressad/foundation/d/e;)V <",
+                "> Lcom/anythink/expressad/a/b$1;->run()V <",
+                "> Lcom/anythink/expressad/a/b;->a(Lcom/anythink/core/common/h/p;Lcom/anythink/core/common/h/v;Lcom/anythink/basead/f/c/e;)V <",
+                "> Lcom/anythink/expressad/a/b;->a()Lcom/anythink/expressad/a/b; <",
+                "> Lcom/anythink/network/adx/AdxATInitManager;-><init>()V <",
+                "> Lcom/anythink/core/common/d/t;->a(Lcom/anythink/core/common/d/t;Landroid/content/Context;)V <",
+                "> Lcom/anythink/core/common/d/t;->b()Lcom/anythink/core/common/d/t; <",
+                "> Lcom/anythink/core/common/f;->a(ZZLcom/anythink/core/common/h/ac;)Z <",
+                "> Lcom/anythink/core/common/f;->a(Landroid/content/Context;ZZLcom/anythink/core/common/h/ac;)Lcom/anythink/core/common/h/c; <",
+                "> Lcom/anythink/core/common/f;->b(Landroid/content/Context;ZZLcom/anythink/core/common/h/ac;)Lcom/anythink/core/common/h/c; <",
+                "> Lcom/anythink/nativead/a/a;->a(Lcom/anythink/core/api/ATShowConfig;Ljava/util/Map;)Lcom/anythink/core/common/h/c; <",
+                "> Lcom/anythink/nativead/api/ATNative;->getNativeAd(Lcom/anythink/core/api/ATShowConfig;)Lcom/anythink/nativead/api/NativeAd; <",
+                "> Lcom/anythink/nativead/api/ATNative;->getNativeAd()Lcom/anythink/nativead/api/NativeAd; <",
+                "> LJ7/A0;->onNativeAdLoaded()V <",
+                "> Le3/k$a;->a()Le3/k; <",
+                "> Le3/u;->b(Landroid/content/Context;)V <",
+                "> Lv4/F;->c(Landroid/content/Context;Lv4/D;LA4/f;Lv4/a;Lw4/e;Lw4/m;LD4/a;Lcom/google/firebase/crashlytics/internal/settings/a;Lv4/m;Lv4/h;)Lv4/F; <",
+                "> LJ7/W0;->e(Lp4/n;)Ljava/lang/Object; <",
+                "> LF1/b;->onClick(Landroid/view/View;)V <",
+                "> Lcom/musicplayer/mp3/mymusic/activity/MainActivity;->X(Lcom/musicplayer/mp3/mymusic/activity/MainActivity;I)V <",
+                "> Lcom/musicplayer/mp3/mymusic/activity/course/EraStyleActivity;->R()V <",
+                "> Lcom/musicplayer/mp3/mymusic/activity/course/MusicStyleActivity;->R()V <",
+                "> Lcom/musicplayer/mp3/mymusic/activity/SplashActivity;->Q(Lcom/musicplayer/mp3/mymusic/activity/SplashActivity;Landroid/os/Bundle;Landroid/net/Uri;Ljava/lang/String;I)V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "com.musicplayer.mp3.mymusic.activity.SplashActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Landroid/webkit/WebView;->evaluateJavascript(Ljava/lang/String;Landroid/webkit/ValueCallback;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/anythink/expressad/mbbanner/view/a;->onPageStarted(Landroid/webkit/WebView;Ljava/lang/String;Landroid/graphics/Bitmap;)V <",
+                "> Lcom/anythink/expressad/mbbanner/a/d/c;->b()Z <",
+                "> Lcom/anythink/expressad/mbbanner/a/d/c;->a(Lcom/anythink/expressad/foundation/d/e;)V <",
+                "> Lcom/anythink/expressad/mbbanner/b/a;->i()V <",
+                "> Lcom/anythink/expressad/mbbanner/b/a;->b(Z)V <",
+                "> Lcom/anythink/expressad/out/TemplateBannerView;->init(Lcom/anythink/expressad/out/i;Ljava/lang/String;Ljava/lang/String;)V <",
+                "> Lcom/anythink/expressad/a/b;->a(Lcom/anythink/core/common/h/p;Lcom/anythink/core/common/h/v;Lcom/anythink/basead/f/c/e;)V <",
+                "> Lcom/anythink/expressad/a/b;->a()Lcom/anythink/expressad/a/b; <",
+                "> Lcom/anythink/network/adx/AdxATInitManager;-><init>()V <",
+                "> Lcom/anythink/core/common/d/t;->a(Lcom/anythink/core/common/d/t;Landroid/content/Context;)V <",
+                "> Lcom/anythink/core/common/d/t;->b()Lcom/anythink/core/common/d/t; <",
+                "> Lcom/anythink/core/common/f;->a(ZZLcom/anythink/core/common/h/ac;)Z <",
+                "> Lcom/anythink/core/common/f;->a(Landroid/content/Context;ZZLcom/anythink/core/common/h/ac;)Lcom/anythink/core/common/h/c; <",
+                "> Lcom/anythink/core/common/f;->b(Landroid/content/Context;ZZLcom/anythink/core/common/h/ac;)Lcom/anythink/core/common/h/c; <",
+                "> Lcom/anythink/nativead/a/a;->a(Lcom/anythink/core/api/ATShowConfig;Ljava/util/Map;)Lcom/anythink/core/common/h/c; <",
+                "> Lcom/anythink/nativead/api/ATNative;->getNativeAd(Lcom/anythink/core/api/ATShowConfig;)Lcom/anythink/nativead/api/NativeAd; <",
+                "> Lcom/anythink/nativead/api/ATNative;->getNativeAd()Lcom/anythink/nativead/api/NativeAd; <",
+                "> LJ7/A0;->onNativeAdLoaded()V <",
+                "> LC4/c;-><init>(LC4/c;)V <",
+                "> LS3/c;->a(Lcom/musicplayer/mp3/mymusic/App;)LS3/b; <",
+                "> Lg7/w;->invoke()Ljava/lang/Object; <",
+                "> LG6/m;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> LJ8/c;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> LV6/c;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> LD7/y;->onSuccess(Ljava/lang/Object;)V <",
+                "> LH6/o;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/musicplayer/mp3/mymusic/App;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Intent;->createChooser(Landroid/content/Intent;Ljava/lang/CharSequence;)Landroid/content/Intent;": {
+        "path_0": {
+            "call_sequence": [
+                "> LJ8/c;->a(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> LJ8/c;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> LV6/c;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> LD7/y;->onSuccess(Ljava/lang/Object;)V <",
+                "> Lk3/f;->a(Le3/j;I)V <",
+                "> Lk3/b;->run()V <",
+                "> Lcom/mbridge/msdk/foundation/tools/c0$a;->run()V <",
+                "> Lcom/mbridge/msdk/foundation/tools/c0;->a(Ljava/lang/Runnable;)Ljava/lang/Runnable; <",
+                "> Lcom/mbridge/msdk/foundation/tools/c0;->execute(Ljava/lang/Runnable;)V <",
+                "> LN1/c;-><init>()V <",
+                "> Lcom/bumptech/glide/load/engine/c;-><init>(LP1/e;LC4/a;LQ1/a;LQ1/a;LQ1/a;LQ1/a;)V <",
+                "> Lcom/bumptech/glide/b;->d(Landroid/content/Context;Lcom/bumptech/glide/GeneratedAppGlideModule;)V <",
+                "> Lcom/bumptech/glide/b;->b(Landroid/content/Context;)Lcom/bumptech/glide/b; <",
+                "> La2/m;->c(Landroid/content/Context;)Lcom/bumptech/glide/j; <",
+                "> Lcom/musicplayer/mp3/mymusic/widgets/AppWidgetRecordPlayer;->j(Lcom/musicplayer/player/model/Song;Landroid/content/Context;Landroid/widget/RemoteViews;[I)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.appwidget.action.APPWIDGET_UPDATE",
+                    "start -a"
+                ]
+            ]
+        }
+    },
+    "Landroid/webkit/WebView;->addJavascriptInterface(Ljava/lang/Object;Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/musicplayer/mp3/mymusic/activity/web/WebViewActivity;->L()V <",
+                "> Lcom/musicplayer/mp3/mymusic/activity/web/WebViewMinActivity;->L()V <",
+                "> LD7/y;->f(I)V <",
+                "> Lk3/f;->a(Le3/j;I)V <",
+                "> Lk3/b;->run()V <",
+                "> Lm4/c;->execute(Ljava/lang/Runnable;)V <",
+                "> LN1/c;-><init>()V <",
+                "> Lcom/bumptech/glide/load/engine/c;-><init>(LP1/e;LC4/a;LQ1/a;LQ1/a;LQ1/a;LQ1/a;)V <",
+                "> Lcom/bumptech/glide/b;->d(Landroid/content/Context;Lcom/bumptech/glide/GeneratedAppGlideModule;)V <",
+                "> Lcom/bumptech/glide/b;->b(Landroid/content/Context;)Lcom/bumptech/glide/b; <",
+                "> La2/m;->c(Landroid/content/Context;)Lcom/bumptech/glide/j; <",
+                "> Lcom/musicplayer/mp3/mymusic/widgets/AppWidgetRecordPlayer;->j(Lcom/musicplayer/player/model/Song;Landroid/content/Context;Landroid/widget/RemoteViews;[I)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.appwidget.action.APPWIDGET_UPDATE",
+                    "start -a"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Context;->getExternalCacheDir()Ljava/io/File;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/musicplayer/mp3/mymusic/activity/mine/SoundSpaceDetailActivity;->L()V <",
+                "> Lcom/musicplayer/mp3/mymusic/activity/mine/SoundSpaceActivity;->S(Lcom/musicplayer/mp3/mymusic/model/bean/SoundSpaceBean;)V <",
+                "> LG6/S;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> LQ6/a$a;->b(Ljava/lang/Object;)V <",
+                "> LQ6/a;->e(Landroidx/lifecycle/s;Landroidx/lifecycle/B;)V <",
+                "> Lcom/musicplayer/mp3/mymusic/activity/gene/MusicLabelActivity;->H()V <",
+                "> LG6/m;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> LJ8/c;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> LV6/c;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> LD7/y;->onSuccess(Ljava/lang/Object;)V <",
+                "> Lk3/f;->a(Le3/j;I)V <",
+                "> Lk3/b;->run()V <",
+                "> Lm4/c;->execute(Ljava/lang/Runnable;)V <",
+                "> LN1/c;-><init>()V <",
+                "> Lcom/bumptech/glide/load/engine/c;-><init>(LP1/e;LC4/a;LQ1/a;LQ1/a;LQ1/a;LQ1/a;)V <",
+                "> Lcom/bumptech/glide/b;->d(Landroid/content/Context;Lcom/bumptech/glide/GeneratedAppGlideModule;)V <",
+                "> Lcom/bumptech/glide/b;->b(Landroid/content/Context;)Lcom/bumptech/glide/b; <",
+                "> La2/m;->c(Landroid/content/Context;)Lcom/bumptech/glide/j; <",
+                "> Lcom/musicplayer/mp3/mymusic/widgets/AppWidgetRecordPlayer;->j(Lcom/musicplayer/player/model/Song;Landroid/content/Context;Landroid/widget/RemoteViews;[I)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.appwidget.action.APPWIDGET_UPDATE",
+                    "start -a"
+                ]
+            ]
+        }
+    }
+}

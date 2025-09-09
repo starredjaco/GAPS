@@ -1,0 +1,266 @@
+{
+    "Landroid/content/Context;->getExternalCacheDir()Ljava/io/File;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/shein/gals/share/ui/TakePhotoActivity;->h2()V <",
+                "> Lcom/shein/gals/share/ui/TakePhotoActivity;->d2(I)V <",
+                "> Lh5/a;->g([Ljava/lang/String;[I)V <",
+                "> Lcom/zzkko/bussiness/selectimage/SelectImageActivity;->l2(I)V <",
+                "> Lsh/a;->onClick(Landroid/view/View;)V <",
+                "> Lcom/zzkko/si_goods_detail/GoodsDetailActivity;->initPopupStyleUIIfNecessary()V <",
+                "> Lcom/zzkko/si_goods_detail/GoodsDetailActivity;->initView()V <",
+                "> Lcom/zzkko/si_goods_detail/GoodsDetailActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/zzkko/push/PushUtil;->g(Landroid/content/Context;Ljava/util/Map;)Lcom/zzkko/push/PushEvent; <",
+                "> Lcom/zzkko/si_main/MainTabsActivity;->dealPush(Lcom/zzkko/bussiness/firebase/domain/PushBean;)V <",
+                "> Lcom/zzkko/si_main/MainTabsActivity;->initPush(Z)V <",
+                "> Lcom/zzkko/si_main/MainTabsActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/zzkko/base/ui/BaseActivity;->onBackPressed()V <",
+                "> Lcom/zzkko/bussiness/lookbook/ui/OutfitFilterchildActivity$3;->accept(Ljava/lang/Object;)V <",
+                "> Lcom/shein/http/application/wrapper/rx/ObservableParser$SyncParserObserver;->onNext(Ljava/lang/Object;)V <",
+                "> Lretrofit2/adapter/rxjava2/BodyObservable$BodyObserver;->onNext(Ljava/lang/Object;)V <",
+                "> Lcom/zzkko/si_goods_detail_platform/mvi/rx/DataParserDelayPriorityObservable$DelayPriorityObserver;->onNext(Ljava/lang/Object;)V <",
+                "> Lcom/zzkko/base/bus/RxBus;->b(Ljava/lang/Object;)V <",
+                "> Lcom/zzkko/bussiness/lookbook/ui/BaseCommentsListActivity$itemOnClick$1$1;->a(ILjava/lang/String;)V <",
+                "> Lcom/zzkko/bussiness/lookbook/ui/BaseCommentsListActivity;->onClick(Landroid/view/View;)V <",
+                "> Lbf/h;->onEditorAction(Landroid/widget/TextView;ILandroid/view/KeyEvent;)Z <",
+                "> Lcom/zzkko/bussiness/payment/util/PaymentCreditFlowHelper;->f()V <",
+                "> Lcom/zzkko/bussiness/payment/PaymentCreditActivity;->t2(Lcom/zzkko/bussiness/databinding/PaymentCreditLayoutBinding;)V <",
+                "> Lcom/zzkko/bussiness/payment/PaymentCreditActivity;->f3(Landroid/os/Bundle;)V <",
+                "> Lcom/zzkko/bussiness/payment/PaymentCreditActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.zzkko/com.zzkko.bussiness.payment.PaymentCreditActivity",
+                    "start -n"
+                ],
+                [
+                    "com.zzkko.bussiness.payment.PaymentCreditActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.zzkko.bussiness.lookbook.ui.BaseCommentsListActivity",
+                    "<unknown>"
+                ],
+                [
+                    "com.zzkko.si_goods_detail.GoodsDetailActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/ishumei/l1111l111111Il/l11l1111Il;->run()V <",
+                "> Lcom/ishumei/l1111l111111Il/l11l1111Il;->l1111l111111Il(Ljava/lang/String;Ljava/lang/String;Lcom/ishumei/l1111l111111Il/l111l11111Il;)V <",
+                "> Lcom/ishumei/l1111l111111Il/l111l1111llIl;->l1111l111111Il(Lcom/ishumei/l1111l111111Il/l111l1111llIl;Lcom/ishumei/l111l1111l1Il/l1111l111111Il/l11l1111I1ll;Ljava/lang/String;)V <",
+                "> Lcom/ishumei/l1111l111111Il/l111l1111llIl;->l1111l111111Il()Lcom/ishumei/l1111l111111Il/l111l1111llIl; <",
+                "> Lcom/ishumei/smantifraud/SmAntiFraud;->create(Landroid/content/Context;Lcom/ishumei/smantifraud/SmAntiFraud$SmOption;)Z <",
+                "> Lcom/zzkko/base/util/SmUtil;->a(Landroid/app/Application;Ljava/lang/String;Lcom/zzkko/base/util/IServerSmidCallback;)V <",
+                "> Lcom/zzkko/util/SmInitManager;->b()V <",
+                "> Lcom/zzkko/util/SmInitManager;->d()V <",
+                "> Lcom/zzkko/app/startup/SmStartupTask;->createTask()Ljava/lang/Object; <",
+                "> Lcom/zzkko/app/ZzkkoApplication;->i()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Landroid/webkit/WebView;->addJavascriptInterface(Ljava/lang/Object;Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/shein/wing/webview/WingWebView;->addJavascriptInterface(Ljava/lang/Object;Ljava/lang/String;)V <",
+                "> Lcom/shein/consent/core/ui/h5/ConsentUIManager;->a(Landroid/app/Activity;)Lcom/shein/consent/core/ui/h5/ConsentBannerController; <",
+                "> Lcom/shein/consent/SIConsentManager;->a(Lcom/zzkko/base/ui/BaseActivity;Z)V <",
+                "> Lcom/zzkko/si_main/MainTabsActivity;->checkConsentBanner(Ljava/lang/String;)V <",
+                "> Lcom/zzkko/si_main/MainTabsActivity;->checkConsentBanner$default(Lcom/zzkko/si_main/MainTabsActivity;Ljava/lang/String;ILjava/lang/Object;)V <",
+                "> Lcom/zzkko/uicomponent/WebViewActivity;->finish()V <",
+                "> Lcom/zzkko/uicomponent/WebViewActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z <",
+                "> Lcom/zzkko/app/ZzkkoApplication$2;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "press menu"
+                ],
+                [
+                    "com.zzkko.uicomponent.WebViewActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Landroid/webkit/WebView;-><init>(Landroid/content/Context;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/zzkko/bussiness/payment/model/GooglePayWorkHelper;->u(Ljava/lang/Runnable;Z)V <",
+                "> Lcom/zzkko/bussiness/checkout/refactoring/pay_method/component/PayMethodComPayEnv;->c(Lcom/zzkko/bussiness/checkout/refactoring/pay_method/component/PayMethodComPayEnv;Ljava/util/List;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Landroid/view/ViewGroup;ZZZLjava/lang/String;Ljava/lang/String;Ljava/lang/String;I)V <",
+                "> Lcom/zzkko/util/NewPayMethodUtils;->c(Ljava/util/ArrayList;Ljava/lang/String;Ljava/lang/String;Landroid/view/ViewGroup;Lcom/zzkko/view/PayBtnStyleableView;)V <",
+                "> Lyg/f;->run()V <",
+                "> Lcom/zzkko/bussiness/payresult/PayResultViewModel;->U4(Lcom/zzkko/bussiness/payresult/PayResultViewModel;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/zzkko/si_goods_detail_platform/engine/Delegate;)V <",
+                "> Lcom/shein/cart/screenoptimize/view/i;->onClick(Landroid/view/View;)V <",
+                "> Lcom/zzkko/bussiness/lookbook/adapter/GalsRunwayHolder;->bindTo(Ljava/lang/Object;ILcom/zzkko/base/statistics/bi/PageHelper;)V <",
+                "> Lcom/zzkko/bussiness/lookbook/adapter/GalsRunwayHolder;->bindTo$default(Lcom/zzkko/bussiness/lookbook/adapter/GalsRunwayHolder;Ljava/lang/Object;ILcom/zzkko/base/statistics/bi/PageHelper;ILjava/lang/Object;)V <",
+                "> Lob/b;->onCompletion(Landroid/media/MediaPlayer;)V <",
+                "> Lcom/zzkko/si_goods_platform/business/video/GLVideoView;->b(Lcom/zzkko/si_goods_platform/business/video/GLVideoView;Ljava/lang/String;Lcom/zzkko/si_goods_platform/business/video/GLVideoView$VideoConfig;)V <",
+                "> Lcom/zzkko/si_goods_platform/widget/imagecarousel/GLImageCarouselView;->h(Lcom/zzkko/si_goods_platform/widget/imagecarousel/domain/ImageInfo;Lcom/zzkko/si_goods_platform/components/imagedrawee/GLCardImageDraweeView;Lcom/zzkko/si_goods_platform/business/video/GLVideoView;Ljava/lang/Boolean;)V <",
+                "> Lcom/zzkko/si_goods_detail_platform/widget/o;->onClick(Landroid/view/View;)V <",
+                "> Lcom/zzkko/si_goods_platform/components/search/bar/ISearchBarManager$Companion;->a(Lcom/zzkko/si_goods_platform/components/search/bar/CommonSearchBarLayout;Lcom/zzkko/si_goods_platform/components/search/bar/CommonSearchBarConfigProtocol;Lcom/zzkko/si_goods_platform/components/search/bar/IGLSearchBarViewListener;)Lcom/zzkko/si_goods_platform/components/search/bar/CommonSearchBarManager; <",
+                "> Lcom/zzkko/si_goods_platform/components/HeadToolbarLWLayout;->J(ZZZZLjava/lang/String;Ljava/lang/String;)V <",
+                "> Lcom/zzkko/si_goods/business/list/cache/BaseListViewCache;->m()V <",
+                "> Le5/b;->queueIdle()Z <",
+                "> Le5/a;->run()V <",
+                "> Lp0/b;->run()V <",
+                "> Lcom/zzkko/bi/subprocess/work/PushPeriodicWorker$Companion;->start(Landroid/content/Context;)V <",
+                "> Lcom/zzkko/bi/BIUtils$7;->lambda$run$1(ZLorg/json/JSONObject;Lorg/json/JSONObject;Lcom/zzkko/bi/BaseEvent;Ljava/util/List;Lcom/zzkko/bi/Message;I)V <",
+                "> Lcom/zzkko/bi/BIUtils$7;->a(Lcom/zzkko/bi/BIUtils$7;ZLorg/json/JSONObject;Lorg/json/JSONObject;Lcom/zzkko/bi/BaseEvent;Ljava/util/List;Lcom/zzkko/bi/Message;I)V <",
+                "> Lcom/zzkko/bi/i;->run()V <",
+                "> Lcom/zzkko/bi/BIUtils$7;->run()V <",
+                "> Lcom/zzkko/bi/BIUtils;->saveEvents2(Lcom/zzkko/bi/BaseEventBuilder;Z)V <",
+                "> Lcom/zzkko/bi/BaseEventBuilder;->sendSubprocess()V <",
+                "> Lcom/zzkko/base/statistics/bi/OriginBiStatisticsUser;->e(Lcom/zzkko/base/statistics/bi/PageHelper;Ljava/lang/String;Ljava/util/Map;ZLjava/util/Map;Z)V <",
+                "> Lcom/zzkko/base/statistics/bi/BiStatisticsUser;->g(Lcom/zzkko/base/statistics/bi/PageHelper;Ljava/lang/String;Ljava/util/HashMap;)V <",
+                "> Lcom/zzkko/appwidget/base/BaseAppWidgetProvider;->onDisabled(Landroid/content/Context;)V <",
+                "> Lcom/zzkko/appwidget/games/provider/AppWidgetGamesProvider;->onDisabled(Landroid/content/Context;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.zzkko.appwidget.CLICK.games",
+                    "start -a"
+                ],
+                [
+                    "com.zzkko.appwidget.games.provider.AppWidgetGamesProvider",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Intent;->setData(Landroid/net/Uri;)Landroid/content/Intent;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/zzkko/appwidget/logistics/provider/AppWidgetBaseLogisticsProvider;->b(Landroid/content/Context;ILandroid/content/Intent;)V <",
+                "> Lcom/zzkko/appwidget/logistics/provider/x2/AppWidget2x2LogisticsProvider;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.appwidget.action.APPWIDGET_UPDATE",
+                    "start -a"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/zzkko/appwidget/searchtool/SearchToolRemoteViewsCreator;->a(Landroid/content/Context;Lcom/zzkko/appwidget/searchtool/data/domain/SearchToolModel;Landroid/widget/RemoteViews;Ljava/lang/String;)V <",
+                "> Lcom/zzkko/appwidget/searchtool/AppWidgetSearchToolStateManager;->g(Landroid/content/Context;Lcom/zzkko/appwidget/searchtool/data/domain/SearchToolModel;Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object; <",
+                "> Lcom/zzkko/appwidget/searchtool/AppWidgetSearchToolStateManager;->d(ILandroid/content/Context;Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object; <",
+                "> Lcom/zzkko/appwidget/searchtool/AppWidgetSearchToolWorker;->a(Lkotlin/coroutines/Continuation;)Ljava/lang/Object; <",
+                "> Lcom/zzkko/appwidget/searchtool/AppWidgetSearchToolProvider;->onEnabled(Landroid/content/Context;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.appwidget.action.APPWIDGET_UPDATE",
+                    "start -a"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Intent;->setDataAndType(Landroid/net/Uri;Ljava/lang/String;)Landroid/content/Intent;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/shein/si_customer_service/tickets/ui/PDFViewerActivity$Companion;->a(Landroidx/fragment/app/FragmentActivity;Landroid/net/Uri;Ljava/lang/String;)V <",
+                "> Lcom/shein/si_customer_service/tickets/ui/PDFViewerActivity$Companion;->c(Landroidx/fragment/app/FragmentActivity;Ljava/lang/String;)V <",
+                "> Lcom/zzkko/util/webview/WebJsEventCommonListener;->E(Lorg/json/JSONObject;Ljava/lang/String;Lcom/zzkko/util/webview/WebJsEventCommonListener;Landroidx/fragment/app/FragmentActivity;Landroid/content/Context;Lcom/zzkko/base/ui/BaseV4Fragment;Lkotlin/jvm/internal/Ref$BooleanRef;)V <",
+                "> Lb9/a;->run()V <",
+                "> Lcom/shein/ultron/cep/CEPRunnerManager;->process$lambda$4([Ljava/lang/String;Ljava/lang/String;Lcom/shein/ultron/service/cep/EventProxyImpl;Lcom/shein/ultron/cep/CEPRunnerManager;Ljava/util/List;Lcom/shein/ultron/service/cep/protocal/CEPCheckResult;)V <",
+                "> Lcom/shein/ultron/cep/CEPRunnerManager;->a([Ljava/lang/String;Ljava/lang/String;Lcom/shein/ultron/service/cep/EventProxyImpl;Lcom/shein/ultron/cep/CEPRunnerManager;Ljava/util/List;Lcom/shein/ultron/service/cep/protocal/CEPCheckResult;)V <",
+                "> Lcom/shein/operate/si_cart_api_android/widget/luretag/a;->run()V <",
+                "> Lcom/zzkko/base/router/Router;->_navigation(Landroidx/fragment/app/FragmentActivity;Lcom/alibaba/android/arouter/facade/Postcard;Lcom/alibaba/android/arouter/facade/callback/NavigationCallback;Lkotlin/jvm/functions/Function2;)V <",
+                "> Lcom/zzkko/base/router/Router;->pushInternal(Landroidx/fragment/app/FragmentActivity;Lkotlin/jvm/functions/Function2;)V <",
+                "> Lcom/zzkko/base/router/Router;->push(Landroidx/fragment/app/FragmentActivity;Lkotlin/jvm/functions/Function2;)V <",
+                "> Lcom/zzkko/si_router/router/jumper/SiGoodsDetailJumper;->a(Lcom/zzkko/si_router/router/jumper/SiGoodsDetailJumper;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Landroid/view/View;ZLjava/lang/String;Ljava/lang/String;Ljava/util/HashMap;Landroid/app/Activity;Ljava/lang/Integer;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/HashMap;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/zzkko/si_goods_bean/domain/list/ShopListBean;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/zzkko/si_router/router/jumper/PopupStyleConfig;Ljava/lang/String;Ljava/lang/Boolean;Ljava/lang/String;Lcom/zzkko/si_router/router/goods/PromotionInfo;Lkotlin/jvm/functions/Function2;II)V <",
+                "> Lcom/zzkko/util/PayRouteUtil;->w(Lcom/zzkko/util/PayRouteUtil;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)V <",
+                "> Lv3/a;->onClick(Landroid/view/View;)V <",
+                "> Lcom/shein/si_sales/trend/adapter/HKTrendCardListAdapter;->onBindViewHolder(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;I)V <",
+                "> Lcom/shein/si_sales/trend/widget/HKTrendChannelHeaderViewWrapperImpl$initCardArea$1$3;->onPageSelected(I)V <",
+                "> Li3/c;->run()V <",
+                "> Lcom/zzkko/base/util/OnImageLoadListenerProxy;->e(Ljava/lang/String;Z)V <",
+                "> Lcom/zzkko/base/util/imageloader/SImageLoader;->c(Ljava/lang/String;Landroid/view/View;Lcom/zzkko/base/util/imageloader/SImageLoader$LoadConfig;)V <",
+                "> Lcom/zzkko/business/new_checkout/biz/price_list/v3/PriceListSubV3Delegate;->e(Lcom/zzkko/business/new_checkout/biz/price_list/v3/PriceListSubV3Delegate$ItemPriceListSubV3ViewHolder;Lcom/zzkko/bussiness/checkout/domain/SubDiscountDetailBean;Z)V <",
+                "> Lcom/appshperf/perf/a;->run()V <",
+                "> Lcom/shein/monitor/core/MonitorReport;->reportMetricAction(Ljava/lang/String;Ljava/util/concurrent/ConcurrentHashMap;Ljava/util/concurrent/ConcurrentHashMap;Lkotlin/jvm/functions/Function3;)V <",
+                "> Lcom/shein/monitor/core/MonitorReport;->metricCount(Ljava/lang/String;Ljava/util/concurrent/ConcurrentHashMap;Ljava/util/concurrent/ConcurrentHashMap;I)V <",
+                "> Lcom/shein/monitor/core/MonitorReport;->metricCount(Ljava/lang/String;Ljava/util/concurrent/ConcurrentHashMap;Ljava/util/concurrent/ConcurrentHashMap;)V <",
+                "> Lcom/zzkko/base/bytechange/hook/StartServiceMonitor;->a(Landroid/content/Intent;)V <",
+                "> Lcom/shein/work/impl/Processor;->i()V <",
+                "> Lcom/shein/work/impl/utils/CancelWorkRunnable;->a(Lcom/shein/work/impl/WorkManagerImpl;Ljava/lang/String;)V <",
+                "> Lcom/shein/work/impl/utils/CancelWorkRunnable$3;->e()V <",
+                "> Lcom/shein/work/impl/utils/EnqueueRunnable;->a(Lcom/shein/work/impl/WorkContinuationImpl;)Z <",
+                "> Lcom/shein/work/impl/utils/EnqueueRunnable;->run()V <",
+                "> Lcom/shein/work/impl/WorkContinuationImpl;->a()Lcom/shein/work/Operation; <",
+                "> Lcom/shein/work/SiWorkManager;->a(Lcom/shein/work/WorkRequest;)Lcom/shein/work/Operation; <",
+                "> Lcom/shein/work/impl/diagnostics/DiagnosticsReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    ".diagnostics.REQUEST_DIAGNOSTICS",
+                    "broadcast -a"
+                ],
+                [
+                    "com.shein.work.impl.diagnostics.DiagnosticsReceiver",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Intent;->createChooser(Landroid/content/Intent;Ljava/lang/CharSequence;)Landroid/content/Intent;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/shein/linesdk/auth/internal/BrowserAuthenticationApi;->a(Lcom/shein/linesdk/auth/internal/LineAuthenticationActivity;Lcom/shein/linesdk/auth/LineAuthenticationConfig;Lcom/shein/linesdk/internal/pkce/PKCECode;Lcom/shein/linesdk/auth/LineAuthenticationParams;)Lcom/shein/linesdk/auth/internal/BrowserAuthenticationApi$Request; <",
+                "> Lcom/shein/linesdk/auth/internal/LineAuthenticationActivity;->onResume()V <",
+                "> Lcom/shein/linesdk/auth/internal/LineAuthenticationCallbackActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.zzkko/com.shein.linesdk.auth.internal.LineAuthenticationCallbackActivity",
+                    "start -n"
+                ]
+            ]
+        }
+    },
+    "Landroid/webkit/WebView;->evaluateJavascript(Ljava/lang/String;Landroid/webkit/ValueCallback;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/zzkko/si_goods_detail_platform/sizefit/FITAWebWidget;->a(Ljava/lang/String;Lorg/json/JSONArray;)V <",
+                "> Lcom/zzkko/si_goods_detail_platform/ui/size/ShopSizeGuideFragment;->w6()V <",
+                "> Lcom/zzkko/si_goods_detail/GoodsDetailActivity;->showThirdPartRecommendSizeFragment()V <",
+                "> Lcom/zzkko/si_goods_detail/GoodsDetailActivity;->initObserver$lambda$57(Lcom/zzkko/si_goods_detail/GoodsDetailActivity;Ljava/lang/Boolean;)V <",
+                "> Lcom/zzkko/si_goods_detail/GoodsDetailActivity;->A2(Lcom/zzkko/si_goods_detail/GoodsDetailActivity;Ljava/lang/Boolean;)V <",
+                "> Lni/m;->d(Ljava/lang/Object;)V <",
+                "> Lcom/zzkko/si_goods_detail/GoodsDetailActivity;->initObserver()V <",
+                "> Lcom/zzkko/si_goods_detail/GoodsDetailActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/zzkko/push/PushUtil;->g(Landroid/content/Context;Ljava/util/Map;)Lcom/zzkko/push/PushEvent; <",
+                "> Lcom/zzkko/bussiness/login/ui/DummyActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.zzkko/com.zzkko.bussiness.login.ui.DummyActivity",
+                    "start -n"
+                ]
+            ]
+        }
+    }
+}

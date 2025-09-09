@@ -1,0 +1,128 @@
+{
+    "Landroid/content/Intent;-><init>()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lp5/l;->I(Z)Landroid/app/Notification; <",
+                "> Lcom/pdfviewer/scanner/core/PDFApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lu2/c;->a(Landroid/content/Context;Ljava/lang/String;Landroidx/work/j;)Landroid/content/Intent; <",
+                "> Lq0/o1;->run()V <",
+                "> Lq0/p1;->onApplyWindowInsets(Landroid/view/View;Landroid/view/WindowInsets;)Landroid/view/WindowInsets; <",
+                "> Lq0/o0;->a(Landroid/view/WindowInsets;Landroid/view/View;)V <",
+                "> Lq0/n0;->onApplyWindowInsets(Landroid/view/View;Landroid/view/WindowInsets;)Landroid/view/WindowInsets; <",
+                "> Lq0/o0;->u(Landroid/view/View;Lq0/v;)V <",
+                "> Luc/b;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V <",
+                "> Lue/s;-><init>()V <",
+                "> Lq8/a;->b(Ljava/lang/Object;)V <",
+                "> Lcom/pdfviewer/scanner/ui/welcome/AppWelcomePageActivity;->y()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lng/h0;->c(Ljava/lang/String;Ljava/util/Map;)Ljavax/net/ssl/HttpsURLConnection; <",
+                "> Lng/h0;-><init>()V <",
+                "> Lng/o;->run()V <",
+                "> Lng/y0;->f(J)V <",
+                "> Lng/y0;->a(Landroid/content/Context;Lmg/c;)Lng/y0; <",
+                "> Lcom/pdfviewer/scanner/core/PDFApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Landroid/webkit/WebView;-><init>(Landroid/content/Context;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/thinkup/core/basead/ui/web/BaseWebView;-><init>(Landroid/content/Context;)V <",
+                "> Lcom/thinkup/core/basead/ui/web/WebLandPageActivity;->om()Landroid/widget/RelativeLayout; <",
+                "> Lcom/thinkup/core/basead/ui/web/WebLandPageActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/thinkup/core/basead/ui/web/WebLandPageActivity;->o(Landroid/content/Context;Lcom/thinkup/core/basead/m/o;)V <",
+                "> Lcom/thinkup/core/basead/ui/web/WebLandPageActivity;->o(Landroid/content/Context;Ljava/lang/String;)V <",
+                "> Lcom/thinkup/core/common/ooo/omo;->o(Landroid/content/Context;Ljava/lang/String;)V <",
+                "> Lcom/thinkup/expressad/widget/TUAdChoice;->n()V <",
+                "> Lcom/thinkup/expressad/widget/TUAdChoice$1;-><init>(Lcom/thinkup/expressad/widget/TUAdChoice;)V <",
+                "> Lcom/thinkup/expressad/widget/TUAdChoice;->setCampaign(Lcom/thinkup/expressad/out/oo;)V <",
+                "> Lcom/thinkup/expressad/mbbanner/o/o0/n;->mn()V <",
+                "> Lcom/thinkup/expressad/mbbanner/o/o0/n;->m()Z <",
+                "> Lcom/thinkup/expressad/mbbanner/o/o0/n;->o(Lcom/thinkup/expressad/foundation/o0/oo;)V <",
+                "> Lcom/thinkup/expressad/mbbanner/m/o;->mo()V <",
+                "> Lcom/thinkup/expressad/mbbanner/m/o;->m(Z)V <",
+                "> Lcom/thinkup/expressad/out/TemplateBannerView;->load(Lcom/thinkup/expressad/foundation/o0/oo;)V <",
+                "> Lcom/thinkup/expressad/o/m;->o(Lcom/thinkup/core/common/m0/nm;Lcom/thinkup/core/common/m0/oo0;Lcom/thinkup/basead/om/n/oo;)V <",
+                "> Lcom/thinkup/expressad/o/m;->o()Lcom/thinkup/expressad/o/m; <",
+                "> Lcom/thinkup/network/adx/AdxTUInitManager;-><init>()V <",
+                "> Lcom/thinkup/core/common/o0/o0n;->on(Landroid/content/Context;)V <",
+                "> Lcom/thinkup/core/common/o0/o0n;->m()Lcom/thinkup/core/common/o0/o0n; <",
+                "> Lcom/thinkup/core/common/ooo/no;->mo(Landroid/content/Context;)Ljava/lang/String; <",
+                "> Lcom/thinkup/core/common/no/oo;->o(I)Lorg/json/JSONObject; <",
+                "> Lcom/thinkup/core/debugger/CoreDebuggerManager;->setDeviceInfoGetter(Landroid/content/Context;Lcom/thinkup/core/debugger/api/IDeviceInfoGetter;)V <",
+                "> Lcom/thinkup/debug/manager/DebugSdkBridge;->a(Lcom/thinkup/core/debugger/api/IDeviceInfoGetter;)V <",
+                "> Lcom/thinkup/debug/manager/DebugModeManager$saveDeviceInfoInSp$1;->run()V <",
+                "> Lcom/thinkup/debug/manager/DebugModeManager;->e()V <",
+                "> Lcom/thinkup/debug/activity/MainActivity;->b()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.thinkup.debug.action.MainPage",
+                    "start-activity -a"
+                ]
+            ]
+        }
+    },
+    "Landroid/webkit/WebView;->evaluateJavascript(Ljava/lang/String;Landroid/webkit/ValueCallback;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lk5/b;->c(Landroid/webkit/WebView;Ljava/lang/String;)V <",
+                "> Ln0/a;->run()V <",
+                "> Ln0/a;-><init>(Lc9/d;Lw8/a;Lcom/google/android/gms/tasks/TaskCompletionSource;)V <",
+                "> Lb9/b;->s(Ljava/lang/String;Ljava/util/concurrent/Executor;)Lcom/google/android/gms/tasks/Task; <",
+                "> Lb9/b;->p(Ljava/io/File;)V <",
+                "> Lb9/b;-><init>(Landroid/content/Context;)V <",
+                "> Lq8/a;->f(Landroidx/appcompat/widget/c4;)Ljava/lang/Object; <",
+                "> Ly6/i;->a(Lt6/i;I)V <",
+                "> Ly6/e;->run()V <",
+                "> Ly6/e;->run()V <",
+                "> Lt6/n;->run()V <",
+                "> Lm0/j;->execute(Ljava/lang/Runnable;)V <",
+                "> Lt9/v;->c(Ljava/lang/String;)Z <",
+                "> Lt9/z;->c(Lt9/y;)V <",
+                "> Lt9/a0;->call()Ljava/lang/Object; <",
+                "> Lz2/f;->call()Ljava/lang/Object; <",
+                "> Lx9/d;->d(Lx9/e;)Lcom/google/android/gms/tasks/Task; <",
+                "> Lx9/d;->c(Ljava/util/concurrent/ScheduledExecutorService;Lx9/n;)Lx9/d; <",
+                "> Lw9/i;->c(Ljava/lang/String;)Lx9/d; <",
+                "> Lmj/a;->l()Lw9/b; <",
+                "> Loc/d;->b(Z)V <",
+                "> Lcom/pdfviewer/scanner/sdk/receiver/UserPresentReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.BOOT_COMPLETED",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    }
+}

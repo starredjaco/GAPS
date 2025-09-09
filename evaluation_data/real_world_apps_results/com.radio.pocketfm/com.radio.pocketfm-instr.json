@@ -1,0 +1,151 @@
+{
+    "Ljavax/crypto/KeyGenerator;->getInstance(Ljava/lang/String;)Ljavax/crypto/KeyGenerator;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/freshchat/consumer/sdk/b/m;->fI()Ljava/lang/String; <",
+                "> Lcom/freshchat/consumer/sdk/b/m;-><init>(Landroid/content/Context;Ljava/lang/String;)V <",
+                "> Lcom/freshchat/consumer/sdk/util/n;->aQ(Landroid/content/Context;)V <",
+                "> Lcom/freshchat/consumer/sdk/b/f;->fy()V <",
+                "> Lcom/freshchat/consumer/sdk/b/f;->t(Landroid/content/Context;)Lcom/freshchat/consumer/sdk/b/f; <",
+                "> Lcom/freshchat/consumer/sdk/util/cn;->ci(Landroid/content/Context;)V <",
+                "> Lcom/freshchat/consumer/sdk/receiver/FreshchatReceiver;->H(Landroid/content/Context;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.BOOT_COMPLETED",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lzr/r3;->c(Ljava/net/URL;)Ljava/net/HttpURLConnection; <",
+                "> Lzr/r3;->d(Ljava/lang/String;Ljava/util/TreeMap;)Lzr/p3; <",
+                "> Lcom/xiaomi/push/service/a2;->b(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lcom/xiaomi/push/service/z1; <",
+                "> Lcom/xiaomi/push/service/v1;->b(Landroid/content/Context;Lcom/xiaomi/push/service/f0$b;ZILjava/lang/String;)V <",
+                "> Lcom/xiaomi/push/service/XMPushService;->d(Landroid/content/Intent;)V <",
+                "> Lcom/xiaomi/push/service/receivers/PingReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.xiaomi.push.PING_TIMER",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Landroid/webkit/WebView;-><init>(Landroid/content/Context;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/freshchat/consumer/sdk/activity/ds;-><init>(Landroid/content/Context;)V <",
+                "> Lcom/freshchat/consumer/sdk/activity/FAQDetailsActivity;->w()V <",
+                "> Lcom/freshchat/consumer/sdk/activity/FAQDetailsActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/freshchat/consumer/sdk/util/ae;->b(Landroid/content/Context;Landroid/net/Uri;)Landroid/content/Intent; <",
+                "> Lcom/freshchat/consumer/sdk/util/ae;->c(Landroid/content/Context;Landroid/net/Uri;Landroid/os/Bundle;)V <",
+                "> Lcom/freshchat/consumer/sdk/util/ae;->b(Landroid/content/Context;Landroid/net/Uri;Landroid/os/Bundle;)V <",
+                "> Lcom/freshchat/consumer/sdk/Freshchat;->openFreshchatDeeplink(Landroid/content/Context;Ljava/lang/String;)V <",
+                "> Lcom/freshchat/consumer/sdk/Freshchat;->getInstance(Landroid/content/Context;)Lcom/freshchat/consumer/sdk/Freshchat; <",
+                "> Lcom/radio/pocketfm/FeedActivity;->openFreshChatFaqEvent(Lcom/radio/pocketfm/app/mobile/events/OpenFreshChatFaqEvent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.media.action.MEDIA_PLAY_FROM_SEARCH",
+                    "start-activity -a"
+                ]
+            ]
+        }
+    },
+    "Landroid/webkit/WebView;->evaluateJavascript(Ljava/lang/String;Landroid/webkit/ValueCallback;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/tapjoy/q0;->shouldOverrideUrlLoading(Landroid/webkit/WebView;Landroid/webkit/WebResourceRequest;)Z <",
+                "> Lcom/tapjoy/TJWebViewActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/tapjoy/TJAdUnitJSBridge;->displayFullscreenWebview(Lorg/json/JSONObject;Ljava/lang/String;)V <",
+                "> Lcom/tapjoy/TJAdUnitJSBridge;->onDispatchMethod(Ljava/lang/String;Lorg/json/JSONObject;)V <",
+                "> Lcom/tapjoy/TJAdUnitJSBridge;->flushBacklogMessageQueue()V <",
+                "> Lcom/tapjoy/TJAdUnitJSBridge;->setEnabled(Z)V <",
+                "> Lcom/tapjoy/TJAdUnit;->pause()V <",
+                "> Lcom/tapjoy/TJAdUnitActivity;->onPause()V <",
+                "> Lcom/tapjoy/TJCorePlacement;->c(Lcom/tapjoy/TJPlacement;)V <",
+                "> Lcom/tapjoy/TJPlacement;->showContent()V <",
+                "> Lcom/radio/pocketfm/app/mobile/ui/WebViewActivity;->onContentReady(Lcom/tapjoy/TJPlacement;)V <",
+                "> Lcom/radio/pocketfm/app/mobile/ui/WebViewActivity$a;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;ZZLjava/lang/String;)V <",
+                "> Lcom/radio/pocketfm/FeedActivity;->handleOpenWebViewEvent(Lcom/radio/pocketfm/app/wallet/event/OpenWebViewEvent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.media.action.MEDIA_PLAY_FROM_SEARCH",
+                    "start-activity -a"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Intent;->createChooser(Landroid/content/Intent;Ljava/lang/CharSequence;)Landroid/content/Intent;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/radio/pocketfm/flutter/MyFlutterActivity;->nativeShare(Ljava/lang/String;)V <",
+                "> Lcom/radio/pocketfm/flutter/MyFlutterActivity;->withNewEngine(Ljava/lang/String;)Lio/flutter/embedding/android/FlutterActivity$NewEngineIntentBuilder; <",
+                "> Lcom/radio/pocketfm/FeedActivity;->M3()V <",
+                "> Lcom/radio/pocketfm/FeedActivity;->onResume()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.media.action.MEDIA_PLAY_FROM_SEARCH",
+                    "start-activity -a"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Context;->getExternalCacheDir()Ljava/io/File;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/freshchat/consumer/sdk/util/as;->bs(Landroid/content/Context;)Ljava/io/File; <",
+                "> Lcom/freshchat/consumer/sdk/util/as;->bu(Landroid/content/Context;)Ljava/io/File; <",
+                "> Lcom/freshchat/consumer/sdk/util/as;->i(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Ljava/io/File; <",
+                "> Lcom/freshchat/consumer/sdk/util/as;->bt(Landroid/content/Context;)Ljava/io/File; <",
+                "> Lcom/freshchat/consumer/sdk/activity/ConversationDetailActivity;->bb()V <",
+                "> Lcom/freshchat/consumer/sdk/activity/ConversationDetailActivity;->onRequestPermissionsResult(I[Ljava/lang/String;[I)V <",
+                "> Lcom/freshchat/consumer/sdk/i/b;->c(Landroid/content/Context;Lcom/freshchat/consumer/sdk/i/a;)V <",
+                "> Lcom/freshchat/consumer/sdk/i/b;->b(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "> Lcom/freshchat/consumer/sdk/Freshchat;->handleFcmMessage(Landroid/content/Context;Ljava/lang/Object;)V <",
+                "> Lcom/freshchat/consumer/sdk/Freshchat;->getInstance(Landroid/content/Context;)Lcom/freshchat/consumer/sdk/Freshchat; <",
+                "> Lcom/freshchat/consumer/sdk/b/f;->fy()V <",
+                "> Lcom/freshchat/consumer/sdk/b/f;->t(Landroid/content/Context;)Lcom/freshchat/consumer/sdk/b/f; <",
+                "> Lcom/freshchat/consumer/sdk/util/cn;->ci(Landroid/content/Context;)V <",
+                "> Lcom/freshchat/consumer/sdk/receiver/FreshchatReceiver;->H(Landroid/content/Context;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.BOOT_COMPLETED",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Landroid/webkit/WebView;->addJavascriptInterface(Ljava/lang/Object;Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lbc/c;->run()V <",
+                "> Lnq/m6;->run()V <",
+                "> Lnq/g;->b(Landroid/app/Activity;Z)V <",
+                "> Lnq/w6;->d(Landroid/app/Activity;Z)V <",
+                "> Lnq/w6;->f(Llq/a;)V <",
+                "> Lcom/uxcam/UXCam;->startWithConfiguration(Llq/a;)V <",
+                "> Lcom/radio/pocketfm/app/mobile/ui/routing/RoutingActivity;->onResume()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    }
+}

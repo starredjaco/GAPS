@@ -1,0 +1,287 @@
+{
+    "Landroid/content/Intent;-><init>(Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/braze/push/BrazeNotificationUtils;->cancelNotification(Landroid/content/Context;I)V <",
+                "> Lcom/braze/push/BrazeNotificationUtils;->handlePushStoryPageClicked(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "> Lcom/braze/push/BrazePushReceiver$Companion;->handlePush$performWork(Ljava/lang/String;Landroid/content/Context;Landroid/content/Intent;Landroid/content/Context;)V <",
+                "> Lcom/braze/push/BrazePushReceiver$Companion;->handlePush(Landroid/content/Context;Landroid/content/Intent;)V <",
+                "> Lcom/braze/push/BrazePushReceiver$Companion;->handleReceivedIntent(Landroid/content/Context;Landroid/content/Intent;Z)V <",
+                "> Lcom/braze/push/BrazePushReceiver$Companion;->handleReceivedIntent$default(Lcom/braze/push/BrazePushReceiver$Companion;Landroid/content/Context;Landroid/content/Intent;ZILjava/lang/Object;)V <",
+                "> Lcom/braze/push/BrazeFirebaseMessagingService$Companion;->handleBrazeRemoteMessage(Landroid/content/Context;Lcom/google/firebase/messaging/RemoteMessage;)Z <",
+                "> Lcom/vinted/feature/pushnotifications/CloudMessagingIntentService;->onMessageReceived(Lcom/google/firebase/messaging/RemoteMessage;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.google.firebase.MESSAGING_EVENT",
+                    "start-service -a"
+                ]
+            ]
+        }
+    },
+    "Landroid/webkit/WebView;->addJavascriptInterface(Ljava/lang/Object;Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/braze/ui/inappmessage/factories/DefaultInAppMessageHtmlViewFactory;->createInAppMessageView(Landroid/app/Activity;Lcom/braze/models/inappmessage/IInAppMessage;)Lcom/braze/ui/inappmessage/views/InAppMessageHtmlView; <",
+                "> Lcom/braze/ui/inappmessage/factories/DefaultInAppMessageHtmlViewFactory;->createInAppMessageView(Landroid/app/Activity;Lcom/braze/models/inappmessage/IInAppMessage;)Landroid/view/View; <",
+                "> Lcom/braze/ui/inappmessage/InAppMessageManagerBase;-><init>()V <",
+                "> Lcom/braze/ui/inappmessage/BrazeInAppMessageManager;-><init>()V <",
+                "> Lcom/braze/ui/inappmessage/BrazeInAppMessageManager$Companion;->getInstance()Lcom/braze/ui/inappmessage/BrazeInAppMessageManager; <",
+                "> Lcom/braze/ui/inappmessage/factories/DefaultInAppMessageModalViewFactory;->createInAppMessageView$lambda$2(Lcom/braze/ui/inappmessage/factories/DefaultInAppMessageModalViewFactory;Landroid/view/View;)V <",
+                "> Lcom/braze/ui/inappmessage/factories/DefaultInAppMessageModalViewFactory;->$r8$lambda$ttzFVsL09E7h8eq14UzkmJ04FpI(Lcom/braze/ui/inappmessage/factories/DefaultInAppMessageModalViewFactory;Landroid/view/View;)V <",
+                "> Lcom/ondato/sdk/O/j$$ExternalSyntheticLambda3;->onClick(Landroid/view/View;)V <",
+                "> Lcom/inmobi/media/k2;->b()Lkotlin/Pair; <",
+                "> Lcom/inmobi/media/k2;->a(Lcom/inmobi/media/k2;Landroid/view/ViewGroup;)V <",
+                "> Lcom/inmobi/media/A7$$ExternalSyntheticLambda1;->run()V <",
+                "> Lcom/inmobi/media/A7;->destroyItem(Landroid/view/ViewGroup;ILjava/lang/Object;)V <",
+                "> Lcom/inmobi/media/N7;->b(Landroid/view/ViewGroup;Lcom/inmobi/media/r7;)Landroid/view/ViewGroup; <",
+                "> Lcom/inmobi/media/N7;->a(Lcom/inmobi/media/N7;Lcom/inmobi/media/T7;Landroid/view/ViewGroup;)V <",
+                "> Lcom/inmobi/media/E0$$ExternalSyntheticLambda2;->run()V <",
+                "> Lca/mimic/oauth2library/OAuth2Client$2;->doRun()Lio/opentelemetry/sdk/common/CompletableResultCode; <",
+                "> Lca/mimic/oauth2library/OAuth2Client$2;->run()V <",
+                "> Lcom/bumptech/glide/load/engine/DecodeJob;->decodeFromRetrievedData()V <",
+                "> Lcom/bumptech/glide/load/engine/DecodeJob;->runWrapped()V <",
+                "> Lcom/bumptech/glide/load/engine/DecodeJob;->run()V <",
+                "> Lcom/bumptech/glide/GlideBuilder$2;->create()Ljava/lang/Object; <",
+                "> Lcom/bumptech/glide/load/engine/cache/MemorySizeCalculator$Builder;-><init>(Landroid/content/Context;)V <",
+                "> Lcom/bumptech/glide/Glide;->initializeGlide(Landroid/content/Context;Lcom/bumptech/glide/GeneratedAppGlideModule;)V <",
+                "> Lcom/bumptech/glide/Glide;->get(Landroid/content/Context;)Lcom/bumptech/glide/Glide; <",
+                "> Lcom/bumptech/glide/Glide;->with(Landroid/content/Context;)Lcom/bumptech/glide/RequestManager; <",
+                "> Lcom/braze/Braze$$ExternalSyntheticLambda1;->invoke()Ljava/lang/Object; <",
+                "> Lkotlinx/coroutines/CoroutineContextKt$$ExternalSyntheticLambda0;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lkotlinx/coroutines/CoroutineContextKt;->foldCopies(Lkotlin/coroutines/CoroutineContext;Lkotlin/coroutines/CoroutineContext;Z)Lkotlin/coroutines/CoroutineContext; <",
+                "> Lkotlinx/coroutines/CoroutineContextKt;->newCoroutineContext(Lkotlinx/coroutines/CoroutineScope;Lkotlin/coroutines/CoroutineContext;)Lkotlin/coroutines/CoroutineContext; <",
+                "> Lokio/Okio;->runBlocking(Lkotlin/coroutines/CoroutineContext;Lkotlin/jvm/functions/Function2;)Ljava/lang/Object; <",
+                "> Lcom/vinted/core/preferences/v2/internal/PreferenceProviderWrapperImpl;->getBlocking()Ljava/lang/Object; <",
+                "> Lcom/vinted/shared/i18n/localization/PhrasesImpl;->getPhrase(Ljava/lang/String;Lkotlin/jvm/functions/Function1;)Ljava/lang/String; <",
+                "> Lcom/vinted/shared/i18n/localization/PhrasesImpl;->get(I)Ljava/lang/String; <",
+                "> Lcom/vinted/feature/pushnotifications/NotificationBroadcastReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.vinted.notification.DISMISS",
+                    "broadcast -a"
+                ],
+                [
+                    "com.vinted.feature.pushnotifications.NotificationBroadcastReceiver",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Intent;->createChooser(Landroid/content/Intent;Ljava/lang/CharSequence;)Landroid/content/Intent;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/vinted/core/implicitintents/ExternalNavigationImpl;->safeOpenIntent(Landroid/content/Intent;Lkotlin/jvm/functions/Function1;)V <",
+                "> Lcom/vinted/core/implicitintents/ExternalNavigationImpl;->openUrl(Ljava/lang/String;Lkotlin/jvm/functions/Function1;)V <",
+                "> Lcom/vinted/offers/buyer/BuyerOfferScreenKt$BuyerOfferScreen$5$1;->invoke()Ljava/lang/Object; <",
+                "> Lcom/vinted/shared/photopicker/camera/CameraFragment;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V <",
+                "> Lcom/inmobi/media/v3$$ExternalSyntheticLambda3;->run()V <",
+                "> Lcom/inmobi/media/ya;->b(Ljava/lang/String;)V <",
+                "> Lcom/inmobi/media/za;->onPageFinished(Landroid/webkit/WebView;Ljava/lang/String;)V <",
+                "> Lcom/inmobi/media/ya;->a(Lcom/inmobi/media/Aa;Lcom/inmobi/commons/core/configs/AdConfig;)V <",
+                "> Lcom/inmobi/ads/rendering/InMobiAdActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/inmobi/media/w5;->b(Landroid/content/Context;)S <",
+                "> Lcom/inmobi/media/w5;->a(Lcom/inmobi/media/w5;Lcom/inmobi/media/ya;Landroid/content/Context;)V <",
+                "> Lcom/inmobi/media/E0$$ExternalSyntheticLambda2;->run()V <",
+                "> Lca/mimic/oauth2library/OAuth2Client$2;->doRun()Lio/opentelemetry/sdk/common/CompletableResultCode; <",
+                "> Lca/mimic/oauth2library/OAuth2Client$2;->run()V <",
+                "> Lcom/bumptech/glide/load/engine/DecodeJob;->decodeFromRetrievedData()V <",
+                "> Lcom/bumptech/glide/load/engine/DecodeJob;->runWrapped()V <",
+                "> Lcom/bumptech/glide/load/engine/DecodeJob;->run()V <",
+                "> Lcom/bumptech/glide/GlideBuilder$2;->create()Ljava/lang/Object; <",
+                "> Lcom/bumptech/glide/load/engine/cache/MemorySizeCalculator$Builder;-><init>(Landroid/content/Context;)V <",
+                "> Lcom/bumptech/glide/Glide;->initializeGlide(Landroid/content/Context;Lcom/bumptech/glide/GeneratedAppGlideModule;)V <",
+                "> Lcom/bumptech/glide/Glide;->get(Landroid/content/Context;)Lcom/bumptech/glide/Glide; <",
+                "> Lcom/bumptech/glide/Glide;->with(Landroid/content/Context;)Lcom/bumptech/glide/RequestManager; <",
+                "> Lcom/braze/Braze$$ExternalSyntheticLambda1;->invoke()Ljava/lang/Object; <",
+                "> Lkotlinx/coroutines/CoroutineContextKt$$ExternalSyntheticLambda0;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lkotlinx/coroutines/CoroutineContextKt;->foldCopies(Lkotlin/coroutines/CoroutineContext;Lkotlin/coroutines/CoroutineContext;Z)Lkotlin/coroutines/CoroutineContext; <",
+                "> Lkotlinx/coroutines/CoroutineContextKt;->newCoroutineContext(Lkotlinx/coroutines/CoroutineScope;Lkotlin/coroutines/CoroutineContext;)Lkotlin/coroutines/CoroutineContext; <",
+                "> Lokio/Okio;->runBlocking(Lkotlin/coroutines/CoroutineContext;Lkotlin/jvm/functions/Function2;)Ljava/lang/Object; <",
+                "> Lcom/vinted/core/preferences/v2/internal/PreferenceProviderWrapperImpl;->getBlocking()Ljava/lang/Object; <",
+                "> Lcom/vinted/shared/i18n/localization/PhrasesImpl;->getPhrase(Ljava/lang/String;Lkotlin/jvm/functions/Function1;)Ljava/lang/String; <",
+                "> Lcom/vinted/shared/i18n/localization/PhrasesImpl;->get(I)Ljava/lang/String; <",
+                "> Lcom/vinted/feature/pushnotifications/NotificationBroadcastReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.vinted.notification.DISMISS",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/facetec/sdk/bu;->m()V <",
+                "> Lcom/facetec/sdk/bu;->b(Lcom/facetec/sdk/bg$d;Z)Lcom/facetec/sdk/bu; <",
+                "> Lcom/facetec/sdk/be;->P()V <",
+                "> Lcom/facetec/sdk/be;->H()V <",
+                "> Lcom/facetec/sdk/be;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/facetec/sdk/FaceTecSessionActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/facetec/sdk/FaceTecSessionActivity;->createAndLaunchSession(Landroid/content/Context;Lcom/facetec/sdk/FaceTecFaceScanProcessor;Lcom/facetec/sdk/FaceTecIDScanProcessor;Ljava/lang/String;)V <",
+                "> Lcom/facetec/sdk/FaceTecSessionActivity;->createAndLaunchSession(Landroid/content/Context;Lcom/facetec/sdk/FaceTecFaceScanProcessor;Ljava/lang/String;)V <",
+                "> Lcom/ondato/sdk/L/d;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/ondato/sdk/L/k;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/ondato/sdk/L/b;-><init>(Ljava/lang/Object;)V <",
+                "> Lcom/ondato/sdk/L/k$$ExternalSyntheticLambda0;->invoke()Ljava/lang/Object; <",
+                "> Lcom/ondato/sdk/L/k;-><init>()V <",
+                "> Lcom/ondato/sdk/ui/main/MainActivity;->a(Lcom/ondato/sdk/ui/main/Step;)V <",
+                "> Lcom/ondato/sdk/O/m;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/ondato/sdk/ui/main/MainActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/ondato/sdk/ui/launcher/LauncherActivity;->a()V <",
+                "> Lbo/app/x4$$ExternalSyntheticLambda0;->invoke()Ljava/lang/Object; <",
+                "> Lcom/vinted/helpers/StringFormatterBuilder;-><init>(Landroidx/compose/ui/text/SpanStyle;Landroidx/compose/ui/text/TextMeasurer;Landroidx/compose/ui/unit/Density;Landroidx/compose/ui/text/TextStyle;Lcom/vinted/shared/formatter/FormatterConfig;)V <",
+                "> Lcom/vinted/helpers/StringFormatterBuilderKt;->buildDecoratedAnnotatedString(Lkotlin/jvm/functions/Function1;Landroidx/compose/ui/text/SpanStyle;Lcom/vinted/bloom/compose/generated/theme/base/BloomTypographies$Typography;Landroidx/compose/runtime/Composer;I)Landroidx/compose/ui/text/AnnotatedString; <",
+                "> Lcom/vinted/bloom/compose/organism/BloomDialogKt;->BloomDialog(Lkotlin/jvm/functions/Function1;Landroidx/compose/ui/Modifier$Companion;Ljava/lang/String;Lcom/vinted/bloom/compose/organism/ButtonInfo;Lcom/vinted/bloom/compose/organism/ButtonInfo;Lcom/vinted/bloom/compose/theme/organism/dialog/DialogStyle;Lkotlin/jvm/functions/Function0;ZLandroidx/compose/runtime/Composer;I)V <",
+                "> Lcom/vinted/feature/shippinglabel/label/ShippingLabelScreenKt;->ConfirmationDialog(Lcom/vinted/feature/shippinglabel/api/entity/ShipmentDropOffType$DropOffTypeMeta;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Landroidx/compose/runtime/Composer;I)V <",
+                "> Lcom/vinted/feature/shippinglabel/label/ShippingLabelScreenKt;->ShippingLabelContent(Lcom/vinted/feature/shippinglabel/label/ShippingLabelState;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Landroidx/compose/runtime/Composer;I)V <",
+                "> Lcom/vinted/feature/shippinglabel/label/ShippingLabelScreenKt;->ShippingLabelScreen(Lcom/vinted/feature/shippinglabel/label/ShippingLabelViewModel;Landroidx/compose/runtime/Composer;I)V <",
+                "> Lcom/vinted/feature/shippinglabel/label/ShippingLabelProJetFragment;->OnCreateProJetView(Landroidx/compose/runtime/Composer;I)V <",
+                "> Lcom/vinted/feature/shippinglabel/navigator/ShippingLabelNavigatorImpl;->goToShippingLabel(Ljava/lang/String;Lcom/vinted/feature/shippinglabel/LabelType;Lcom/vinted/feature/shippinglabel/api/entity/ShipmentDropOffTypeKey;Ljava/lang/String;ILcom/vinted/feature/shippinglabel/api/entity/DropOff$Type;)V <",
+                "> Lcom/vinted/feature/system/projetui/WebViewV2ScreenKt$WebViewV2Screen$1$1;->invoke()Ljava/lang/Object; <",
+                "> Lcom/vinted/feature/system/projetui/WebViewV2ScreenKt;->WebViewV2Screen(Lcom/vinted/feature/system/projetui/WebViewV2ProJetUIViewModel;Lcom/vinted/shared/webview/FileChooseHandler;Landroidx/compose/runtime/Composer;I)V <",
+                "> Lcom/vinted/feature/system/projetui/WebViewV2ProJetUIFragment;->OnCreateProJetView(Landroidx/compose/runtime/Composer;I)V <",
+                "> Lcom/vinted/feature/system/navigator/SystemNavigatorImpl;->goToWebView(Ljava/lang/String;Z)V <",
+                "> Lcom/vinted/feature/sdd/analytics/SddAnalytics$DefaultImpls;->goToWebView$default(Lcom/vinted/feature/system/navigator/SystemNavigator;Ljava/lang/String;I)V <",
+                "> Lcom/vinted/feature/shell/MDActivity$resolveVintedUri$1;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object; <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Ljavax/crypto/KeyGenerator;->getInstance(Ljava/lang/String;)Ljavax/crypto/KeyGenerator;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/facetec/sdk/ak;->c()[B <",
+                "> Lcom/facetec/sdk/ai;->d([B)[B <",
+                "> Lcom/facetec/sdk/bk;->e(Ljava/io/File;[B[B)V <",
+                "> Lcom/facetec/sdk/p;->c(Landroid/content/Context;Lcom/facetec/sdk/o;)V <",
+                "> Lcom/facetec/sdk/p;->$r8$lambda$bn4E8vxPmzJ38RLin9zSyoY12-c(Landroid/content/Context;Lcom/facetec/sdk/o;)V <",
+                "> Lcom/facetec/sdk/p$$ExternalSyntheticLambda2;->run()V <",
+                "> Lcom/facetec/sdk/ec;->cC_(Landroid/content/Intent;Lcom/facetec/sdk/ec$a;)Z <",
+                "> Lcom/facetec/sdk/be;->onNewIntent(Landroid/content/Intent;)V <",
+                "> Lcom/facetec/sdk/FaceTecSessionActivity;->onNewIntent(Landroid/content/Intent;)V <",
+                "> Lcom/facetec/sdk/FaceTecSessionActivity;->createAndLaunchSession(Landroid/content/Context;Lcom/facetec/sdk/FaceTecFaceScanProcessor;Lcom/facetec/sdk/FaceTecIDScanProcessor;Ljava/lang/String;)V <",
+                "> Lcom/facetec/sdk/FaceTecSessionActivity;->createAndLaunchSession(Landroid/content/Context;Lcom/facetec/sdk/FaceTecFaceScanProcessor;Ljava/lang/String;)V <",
+                "> Lcom/ondato/sdk/L/d;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/ondato/sdk/L/k;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/ondato/sdk/L/b;-><init>(Ljava/lang/Object;)V <",
+                "> Lcom/ondato/sdk/L/k$$ExternalSyntheticLambda0;->invoke()Ljava/lang/Object; <",
+                "> Lcom/ondato/sdk/L/k;-><init>()V <",
+                "> Lcom/ondato/sdk/ui/main/MainActivity;->a(Lcom/ondato/sdk/ui/main/Step;)V <",
+                "> Lcom/ondato/sdk/O/m;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/ondato/sdk/ui/main/MainActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/ondato/sdk/ui/launcher/LauncherActivity;->a()V <",
+                "> Lbo/app/x4$$ExternalSyntheticLambda0;->invoke()Ljava/lang/Object; <",
+                "> Lbo/app/z5;->a()V <",
+                "> Lbo/app/z5;-><init>(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V <",
+                "> Lbo/app/l1;-><init>(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Lbo/app/w1;Lbo/app/d6;Lcom/braze/configuration/BrazeConfigurationProvider;Lbo/app/rc;Lbo/app/g6;Lbo/app/m1;Lbo/app/dc;Lbo/app/oa;Lbo/app/ka;Lbo/app/ma;)V <",
+                "> Lbo/app/pe;-><init>(Landroid/content/Context;Lbo/app/q9;Lcom/braze/configuration/BrazeConfigurationProvider;Lbo/app/s7;Lbo/app/n7;Lbo/app/w7;Lbo/app/ka;ZZLbo/app/m7;Z)V <",
+                "> Lcom/braze/Braze;->_init_$lambda$16(Lcom/braze/Braze;Landroid/content/Context;)Lkotlin/Unit; <",
+                "> Lcom/braze/Braze;->$r8$lambda$BfuD4CuxXvJNCRnV1ZrCMEbRX4g(Lcom/braze/Braze;Landroid/content/Context;)Lkotlin/Unit; <",
+                "> Lcom/braze/Braze$$ExternalSyntheticLambda3;->invoke()Ljava/lang/Object; <",
+                "> Lkotlinx/serialization/internal/EnumSerializer;-><init>(Ljava/lang/String;[Ljava/lang/Enum;)V <",
+                "> Lkotlinx/serialization/internal/PlatformKt;->constructSerializerForGivenTypeArgs(Ljava/lang/Class;[Lkotlinx/serialization/KSerializer;)Lkotlinx/serialization/KSerializer; <",
+                "> Lokio/Okio;->parametrizedSerializerOrNull(Lkotlin/reflect/KClass;Ljava/util/ArrayList;Lkotlin/jvm/functions/Function0;)Lkotlinx/serialization/KSerializer; <",
+                "> Lkotlinx/coroutines/CoroutineContextKt$$ExternalSyntheticLambda0;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lkotlinx/coroutines/CoroutineContextKt;->foldCopies(Lkotlin/coroutines/CoroutineContext;Lkotlin/coroutines/CoroutineContext;Z)Lkotlin/coroutines/CoroutineContext; <",
+                "> Lkotlinx/coroutines/CoroutineContextKt;->newCoroutineContext(Lkotlinx/coroutines/CoroutineScope;Lkotlin/coroutines/CoroutineContext;)Lkotlin/coroutines/CoroutineContext; <",
+                "> Lokio/Okio;->runBlocking(Lkotlin/coroutines/CoroutineContext;Lkotlin/jvm/functions/Function2;)Ljava/lang/Object; <",
+                "> Lcom/vinted/core/preferences/v2/internal/PreferenceProviderWrapperImpl;->getBlocking()Ljava/lang/Object; <",
+                "> Lcom/vinted/shared/i18n/localization/PhrasesImpl;->getPhrase(Ljava/lang/String;Lkotlin/jvm/functions/Function1;)Ljava/lang/String; <",
+                "> Lcom/vinted/shared/i18n/localization/PhrasesImpl;->get(I)Ljava/lang/String; <",
+                "> Lcom/vinted/feature/pushnotifications/NotificationBroadcastReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.vinted.notification.DISMISS",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/inmobi/media/f1;->a(Lcom/inmobi/media/j;Lcom/inmobi/media/Z0;)Z <",
+                "> Lcom/inmobi/media/f1;->b(Ljava/lang/String;)V <",
+                "> Lcom/inmobi/media/f1$$ExternalSyntheticLambda1;->run()V <",
+                "> Lcom/inmobi/media/f1;->a(Ljava/lang/String;)V <",
+                "> Lcom/inmobi/media/f1;->b(Lcom/inmobi/media/k;)V <",
+                "> Lcom/inmobi/media/cd$$ExternalSyntheticLambda0;->run()V <",
+                "> Lcom/vinted/feature/help/report/report/ReportFragment$onViewCreated$1$2;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/vinted/feature/help/report/report/ReportProJetFragment;->OnCreateProJetView(Landroidx/compose/runtime/Composer;I)V <",
+                "> Lcom/vinted/feature/help/navigator/HelpNavigatorImpl;->goToReport(Lcom/vinted/shared/userdto/api/entity/User;Lcom/vinted/feature/help/api/entity/ReportReason;Lcom/vinted/feature/help/api/entity/AdminAlertType;)V <",
+                "> Lcom/vinted/feature/wallet/history/InvoiceFragment$handleState$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/vinted/shared/session/UserServiceImpl$$ExternalSyntheticLambda0;->apply(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/vinted/shared/session/UserServiceImpl;->refreshUser()Lio/reactivex/internal/operators/observable/ObservableSingleSingle; <",
+                "> Lcom/vinted/feature/authentication/sociallink/UserSocialLinkInteractorImpl$linkSocialAccount$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/ondato/sdk/P/l$$ExternalSyntheticLambda2;->apply(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/ondato/sdk/Q/s;-><init>()V <",
+                "> Lcom/ondato/sdk/ui/main/MainActivity;->a(Lcom/ondato/sdk/ui/main/Step;)V <",
+                "> Lcom/ondato/sdk/O/m;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/ondato/sdk/ui/main/MainActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/ondato/sdk/ui/launcher/LauncherActivity;->a()V <",
+                "> Lbo/app/x4$$ExternalSyntheticLambda0;->invoke()Ljava/lang/Object; <",
+                "> Lbo/app/z5;->a()V <",
+                "> Lbo/app/z5;->a(Lbo/app/d7;)Z <",
+                "> Lbo/app/l1;->a(Lbo/app/d7;)Z <",
+                "> Lcom/braze/Braze;->logFeedDisplayed$lambda$60(Lcom/braze/Braze;)Lkotlin/Unit; <",
+                "> Lcom/braze/Braze;->$r8$lambda$AfmRtU6kMkHFgMbEJLgC9g6dHeg(Lcom/braze/Braze;)Lkotlin/Unit; <",
+                "> Lcom/braze/Braze$$ExternalSyntheticLambda7;->invoke()Ljava/lang/Object; <",
+                "> Lcom/braze/Braze;->performPushDeliveryFlush$android_sdk_base_release()V <",
+                "> Lcom/braze/BrazeInternal;->performPushDeliveryFlush(Landroid/content/Context;)V <",
+                "> Lcom/braze/BrazeFlushPushDeliveryReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.braze.FLUSH_EVENTS",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Landroid/webkit/WebView;->evaluateJavascript(Ljava/lang/String;Landroid/webkit/ValueCallback;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/inmobi/media/ya;->a(Lcom/inmobi/media/ya;Ljava/lang/String;)V <",
+                "> Lcom/inmobi/media/v3$$ExternalSyntheticLambda3;->run()V <",
+                "> Llt/neworld/spanner/Spans$8;->barcodeResult(Lcom/journeyapps/barcodescanner/BarcodeResult;)V <",
+                "> Lcom/ondato/sdk/P/l$$ExternalSyntheticLambda2;->subscribe(Lio/reactivex/CompletableEmitter;)V <",
+                "> Lcom/ondato/sdk/Q/s;-><init>()V <",
+                "> Lcom/ondato/sdk/ui/main/MainActivity;->a(Lcom/ondato/sdk/ui/main/Step;)V <",
+                "> Lcom/ondato/sdk/O/m;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lcom/ondato/sdk/ui/main/MainActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lcom/ondato/sdk/ui/launcher/LauncherActivity;->a()V <",
+                "> Lbo/app/x4$$ExternalSyntheticLambda0;->invoke()Ljava/lang/Object; <",
+                "> Lbo/app/z5;->a()V <",
+                "> Lbo/app/z5;->a(Lbo/app/d7;)Z <",
+                "> Lbo/app/l1;->a(Lbo/app/d7;)Z <",
+                "> Lcom/braze/Braze;->logFeedDisplayed$lambda$60(Lcom/braze/Braze;)Lkotlin/Unit; <",
+                "> Lcom/braze/Braze;->$r8$lambda$AfmRtU6kMkHFgMbEJLgC9g6dHeg(Lcom/braze/Braze;)Lkotlin/Unit; <",
+                "> Lcom/braze/Braze$$ExternalSyntheticLambda7;->invoke()Ljava/lang/Object; <",
+                "> Lcom/braze/Braze;->performPushDeliveryFlush$android_sdk_base_release()V <",
+                "> Lcom/braze/BrazeInternal;->performPushDeliveryFlush(Landroid/content/Context;)V <",
+                "> Lcom/braze/BrazeFlushPushDeliveryReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.braze.FLUSH_EVENTS",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    }
+}

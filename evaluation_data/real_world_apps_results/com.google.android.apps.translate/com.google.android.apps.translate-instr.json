@@ -1,0 +1,28 @@
+{
+    "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lhjv;->doInBackground([Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Lgnd;->onClick(Landroid/content/DialogInterface;I)V <",
+                "> Lmli;->k()V <",
+                "> Lfpw;->onTouchEvent(Landroid/view/MotionEvent;)Z <",
+                "> Ldpc;->run()V <",
+                "> Leag;->execute(Ljava/lang/Runnable;)V <",
+                "> Lpdq;->execute(Ljava/lang/Runnable;)V <",
+                "> Lnce;->m(Ljava/util/concurrent/Executor;Loxl;Ljava/lang/Runnable;)V <",
+                "> Lpad;->execute(Ljava/lang/Runnable;)V <",
+                "> Lrwr;->execute(Ljava/lang/Runnable;)V <",
+                "> Ldbt;->execute(Ljava/lang/Runnable;)V <",
+                "> Ltqb;->execute(Ljava/lang/Runnable;)V <",
+                "> Ljux;->h(Ljup;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "4",
+                    "start -a"
+                ]
+            ]
+        }
+    }
+}

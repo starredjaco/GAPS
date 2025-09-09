@@ -1,0 +1,83 @@
+{
+    "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lq7/a;->l(Ljava/net/URL;)Ljava/net/HttpURLConnection; <",
+                "> Lq7/a;->G(LM7/v;)Ljava/net/HttpURLConnection; <",
+                "> Lq7/a;->n(LM7/v;)Ljava/util/ArrayList; <",
+                "> LM7/t;->c()LM7/w; <",
+                "> LW7/d;->c()Lorg/json/JSONObject; <",
+                "> LRA/g;->u(Lorg/json/JSONObject;)LW7/c; <",
+                "> LOp/x;-><init>(I)V <",
+                "> Lcom/fork/android/app/application/LaFourchetteApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Intent;->setData(Landroid/net/Uri;)Landroid/content/Intent;": {
+        "path_0": {
+            "call_sequence": [
+                "> LYu/s;->h(Landroid/content/Context;Landroid/net/Uri;)V <",
+                "> LP9/c;->a(Ljava/net/URI;)V <",
+                "> LW8/d;->accept(Ljava/lang/Object;)V <",
+                "> Lcg/h;-><init>(Lag/h;Lav/f;Lag/p;Lx8/b;)V <",
+                "> Lcg/a;->f(Lk0/h;I)V <",
+                "> LXu/D;->invoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Ldi/u;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> LQf/F;->onSuccess(Ljava/lang/Object;)V <",
+                "> LRA/g;->z(LW7/c;Ljava/util/ArrayList;)V <",
+                "> LOp/x;-><init>(I)V <",
+                "> Lcom/fork/android/app/application/LaFourchetteApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Landroid/webkit/WebView;->addJavascriptInterface(Ljava/lang/Object;Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/braze/ui/banners/BannerView;->configureWebView(Ljava/lang/String;)V <",
+                "> Lcom/braze/ui/banners/BannerView;->loadHtmlData(Ljava/lang/String;)V <",
+                "> Lcom/braze/ui/banners/BannerView;->initBanner$lambda$1(Lcom/braze/ui/banners/BannerView;Ljava/lang/String;)V <",
+                "> Lcom/braze/ui/banners/BannerView;->a(Lcom/braze/ui/banners/BannerView;Ljava/lang/String;)V <",
+                "> LC3/e;->run()V <",
+                "> LO7/d;->a(Landroid/view/View;)V <",
+                "> LO7/a;->b(Landroid/app/Activity;)V <",
+                "> LN7/a;->run()V <",
+                "> LW7/d;->b()V <",
+                "> LRA/g;->u(Lorg/json/JSONObject;)LW7/c; <",
+                "> LOp/x;-><init>(I)V <",
+                "> Lcom/fork/android/app/application/LaFourchetteApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Intent;->createChooser(Landroid/content/Intent;Ljava/lang/CharSequence;)Landroid/content/Intent;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lf9/a;->a(Landroid/content/Context;LK3/f;)Landroid/content/Intent; <",
+                "> Ldi/u;->invoke(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> LQf/F;->onSuccess(Ljava/lang/Object;)V <",
+                "> LRA/g;->z(LW7/c;Ljava/util/ArrayList;)V <",
+                "> LOp/x;-><init>(I)V <",
+                "> Lcom/fork/android/app/application/LaFourchetteApplication;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    }
+}

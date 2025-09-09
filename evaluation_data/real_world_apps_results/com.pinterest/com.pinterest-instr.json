@@ -1,0 +1,128 @@
+{
+    "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lre/k;->a([Ljava/lang/String;)Ljava/lang/Boolean; <",
+                "> Lre/k;->doInBackground([Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> Luc/b;->p(Ljava/lang/String;Ljava/lang/String;Lre/j;)V <",
+                "> Luc/b;->q(Lse/e;Ljava/util/ArrayList;)V <",
+                "> Lse/g;->b()V <",
+                "> Lse/g;->g(Lse/d;[[F[Ljava/lang/String;)[Ljava/lang/String; <",
+                "> Lqe/a;->b(Ljava/lang/String;)Z <",
+                "> Lje/f;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Double;Landroid/os/Bundle;ZZLjava/util/UUID;)V <",
+                "> Lje/m;->e(Ljava/lang/String;Ljava/lang/Double;Landroid/os/Bundle;ZLjava/util/UUID;)V <",
+                "> Lje/m;->f(Ljava/lang/String;Landroid/os/Bundle;)V <",
+                "> Lie/r0;->f()V <",
+                "> Lie/r0;->d()V <",
+                "> Lie/p0;->run()V <",
+                "> Lx60/n0;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Landroid/webkit/WebView;->evaluateJavascript(Ljava/lang/String;Landroid/webkit/ValueCallback;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lads_mobile_sdk/fr1;->a(Landroid/webkit/WebView;Ljava/lang/String;)V <",
+                "> Lads_mobile_sdk/fr1;->a(Landroid/webkit/WebView;Ljava/lang/String;[Ljava/lang/Object;)V <",
+                "> Lb/u;->onPostExecute(Ljava/lang/String;)V <",
+                "> Lb/u;->onPostExecute(Ljava/lang/Object;)V <",
+                "> Lb/cf;->run()V <",
+                "> Lh5/k;->run()V <",
+                "> Ltc/l;->G(Lie/g0;Ljava/util/ArrayList;)V <",
+                "> Ltc/l;->o(Lie/g0;)Ljava/util/ArrayList; <",
+                "> Lie/d0;->d()Lie/h0; <",
+                "> Lie/p0;->run()V <",
+                "> Lx60/n0;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Landroid/webkit/WebView;-><init>(Landroid/content/Context;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lpt1/a;->a()V <",
+                "> Lpt0/g;->run()V <",
+                "> Lh5/k;->run()V <",
+                "> Ltc/l;->G(Lie/g0;Ljava/util/ArrayList;)V <",
+                "> Ltc/l;->o(Lie/g0;)Ljava/util/ArrayList; <",
+                "> Lie/d0;->d()Lie/h0; <",
+                "> Lie/p0;->run()V <",
+                "> Lx60/n0;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Ldalvik/system/DexClassLoader;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/ClassLoader;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lads_mobile_sdk/bb1;->c()V <",
+                "> Lads_mobile_sdk/qc0;->c()Ljava/lang/Void; <",
+                "> Lb/l1;->call()Ljava/lang/Object; <",
+                "> Lw5/f;->onPostMessage(Landroid/webkit/WebView;Ljava/lang/reflect/InvocationHandler;Landroid/net/Uri;ZLjava/lang/reflect/InvocationHandler;)V <",
+                "> Lpt1/a;->a()V <",
+                "> Lpt0/g;->run()V <",
+                "> Lrl/c;->execute(Ljava/lang/Runnable;)V <",
+                "> Lx60/n0;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Intent;->setDataAndType(Landroid/net/Uri;Ljava/lang/String;)Landroid/content/Intent;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lt/f;->run()V <",
+                "> Laf/b;->onServiceConnected(Landroid/content/ComponentName;Landroid/os/IBinder;)V <",
+                "> Ltc/l;->q(Landroid/content/Context;)Laf/c; <",
+                "> Lie/p0;->run()V <",
+                "> Lx60/n0;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Context;->getExternalCacheDir()Ljava/io/File;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lg11/a;->a(Landroid/content/Context;Landroid/graphics/Bitmap;)Ljava/lang/String; <",
+                "> Lq5/h;->onLayoutChange(Landroid/view/View;IIIIIIII)V <",
+                "> Lhe/o;->run()V <",
+                "> Lte/a;->b(Ljava/lang/String;)V <",
+                "> Luc/b;->l(Luc/b;Lje/f;Lje/b;)V <",
+                "> Lje/m;->e(Ljava/lang/String;Ljava/lang/Double;Landroid/os/Bundle;ZLjava/util/UUID;)V <",
+                "> Lje/m;->f(Ljava/lang/String;Landroid/os/Bundle;)V <",
+                "> Lie/r0;->f()V <",
+                "> Lie/p0;->run()V <",
+                "> Lx60/n0;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ],
+                [
+                    "x60.n0",
+                    "<unknown>"
+                ]
+            ]
+        }
+    }
+}

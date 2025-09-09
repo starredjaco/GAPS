@@ -1,0 +1,165 @@
+{
+    "Landroid/content/Intent;-><init>(Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> LwxlLHTZRy/XdzFYQaBOhSNtdCAdNRbhVksHnL;->XdzFYQaBOhSNtdCAdNRbhVksHnL(Lcom/android/installreferrer/api/InstallReferrerStateListener;)V <",
+                "> Lcom/cleanertool/box/event/attr/AobZYgwIQvCqoayj;->XdzFYQaBOhSNtdCAdNRbhVksHnL(Landroid/content/Context;)V <",
+                "> Lcom/cleanertool/box/event/XdzFYQaBOhSNtdCAdNRbhVksHnL;->AobZYgwIQvCqoayj(Landroid/app/Application;Ljava/lang/String;)V <",
+                "> Lcom/cleanertool/box/CleanerToolboxManagerPro;->onCreate()V <"
+            ],
+            "path": [
+                [
+                    "main activity"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;": {
+        "path_0": {
+            "call_sequence": [
+                "> LxLxTfMDKyUCptPnEkEPFmNDKtujpQJmEatoCFYWnXDC/XdzFYQaBOhSNtdCAdNRbhVksHnL;->tlwoTvapSYTFBXYhICFnLzYlWmNQiwhEsIGt()V <",
+                "> LxLxTfMDKyUCptPnEkEPFmNDKtujpQJmEatoCFYWnXDC/ErCTwcJOeJGNfgsPwlnEVJgjTZkxsDkVCxU;->xSwLaWBYjkPSypE(Z)V <",
+                "> LxLxTfMDKyUCptPnEkEPFmNDKtujpQJmEatoCFYWnXDC/ErCTwcJOeJGNfgsPwlnEVJgjTZkxsDkVCxU;->run()V <",
+                "> LsbReiPtQZmAYvXuMtojgqCoWVWHCUcySzKPM/OuQZVmUuS;->execute(Ljava/lang/Runnable;)V <",
+                "> LZDdovPlJB/lqyDuXhHWfn;->call()Ljava/lang/Object; <",
+                "> LGZMDQrHTxUPmIckeDdXrwcwzMQJEetjnzmtoCADxrveih/AobZYgwIQvCqoayj;->RhxuBPGxYykmPgqvlHVDkVOkMxhxTLzdnjwfnIGDETOKJbsS(LlhGNKCUiRflmkwDCaKfVrTe/TnoGYblkoUVTPmFdQbHrinNtBGnPyfmDhjdaElgXQpRklrmPv;)Ljava/lang/Object; <",
+                "> LAtbHWwmKZPpbXTBTwPAQzUeW/sbReiPtQZmAYvXuMtojgqCoWVWHCUcySzKPM;->AobZYgwIQvCqoayj(LNmwrjGaRcRNOREDOqmAuqjFCDXvGLvH/tlwoTvapSYTFBXYhICFnLzYlWmNQiwhEsIGt;I)V <",
+                "> LAtbHWwmKZPpbXTBTwPAQzUeW/lqyDuXhHWfn;->run()V <",
+                "> LysYfQeboLSoelFWzibabsmAZWIu/RhxuBPGxYykmPgqvlHVDkVOkMxhxTLzdnjwfnIGDETOKJbsS;->run()V <",
+                "> LBYnkmBMWsLxcFpBVaMoi/AobZYgwIQvCqoayj;->lqyDuXhHWfn(Ljava/io/File;)V <",
+                "> LOHJWjrcS/RhxuBPGxYykmPgqvlHVDkVOkMxhxTLzdnjwfnIGDETOKJbsS;->AobZYgwIQvCqoayj(Landroid/app/Activity;LYuQzHVskGHqCWBkAHRWqoFCbcRhAEAybVCkHqVZo/AobZYgwIQvCqoayj;)V <",
+                "> Lcom/cleanertool/box/ui/splash/UmpControlActivity;->NIiHaFtaeOTxLxqxQBokKsMD()V <",
+                "> LLuYjVPQNoWYwRwevzyCdZKveqwTvUpTyKvIjIHjvygSdhl/AobZYgwIQvCqoayj;->AobZYgwIQvCqoayj(Ljava/lang/Class;Lcom/cleanertool/box/data/enums/ActionType;)Landroid/app/PendingIntent; <",
+                "> LLuYjVPQNoWYwRwevzyCdZKveqwTvUpTyKvIjIHjvygSdhl/AobZYgwIQvCqoayj;-><init>(Z)V <",
+                "> LwDLpRwgHI/XdzFYQaBOhSNtdCAdNRbhVksHnL;->XdzFYQaBOhSNtdCAdNRbhVksHnL()V <",
+                "> Lcom/cleanertool/box/remote/notify/receiver/FlashLightReception;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.cleanertool.box.WIZ_RESIDENT_LIGHT",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;": {
+        "path_0": {
+            "call_sequence": [
+                "> LGZMDQrHTxUPmIckeDdXrwcwzMQJEetjnzmtoCADxrveih/AobZYgwIQvCqoayj;->apply(Ljava/lang/Object;)Ljava/lang/Object; <",
+                "> LAtbHWwmKZPpbXTBTwPAQzUeW/sbReiPtQZmAYvXuMtojgqCoWVWHCUcySzKPM;->AobZYgwIQvCqoayj(LNmwrjGaRcRNOREDOqmAuqjFCDXvGLvH/tlwoTvapSYTFBXYhICFnLzYlWmNQiwhEsIGt;I)V <",
+                "> LAtbHWwmKZPpbXTBTwPAQzUeW/lqyDuXhHWfn;->run()V <",
+                "> LysYfQeboLSoelFWzibabsmAZWIu/RhxuBPGxYykmPgqvlHVDkVOkMxhxTLzdnjwfnIGDETOKJbsS;->run()V <",
+                "> LBYnkmBMWsLxcFpBVaMoi/AobZYgwIQvCqoayj;->lqyDuXhHWfn(Ljava/io/File;)V <",
+                "> LOHJWjrcS/RhxuBPGxYykmPgqvlHVDkVOkMxhxTLzdnjwfnIGDETOKJbsS;->AobZYgwIQvCqoayj(Landroid/app/Activity;LYuQzHVskGHqCWBkAHRWqoFCbcRhAEAybVCkHqVZo/AobZYgwIQvCqoayj;)V <",
+                "> Lcom/cleanertool/box/ui/splash/UmpControlActivity;->NIiHaFtaeOTxLxqxQBokKsMD()V <",
+                "> LLuYjVPQNoWYwRwevzyCdZKveqwTvUpTyKvIjIHjvygSdhl/AobZYgwIQvCqoayj;->AobZYgwIQvCqoayj(Ljava/lang/Class;Lcom/cleanertool/box/data/enums/ActionType;)Landroid/app/PendingIntent; <",
+                "> LLuYjVPQNoWYwRwevzyCdZKveqwTvUpTyKvIjIHjvygSdhl/AobZYgwIQvCqoayj;-><init>(Z)V <",
+                "> LwDLpRwgHI/XdzFYQaBOhSNtdCAdNRbhVksHnL;->XdzFYQaBOhSNtdCAdNRbhVksHnL()V <",
+                "> Lcom/cleanertool/box/remote/notify/receiver/FlashLightReception;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.cleanertool.box.WIZ_RESIDENT_LIGHT",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Landroid/webkit/WebView;-><init>(Landroid/content/Context;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/thinkup/expressad/m/n0;->o(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V <",
+                "> Lcom/thinkup/expressad/m/n0;->o(Ljava/lang/String;Ljava/lang/String;Landroid/content/Context;Ljava/lang/String;)V <",
+                "> Lcom/thinkup/expressad/m/n0;->o(Ljava/lang/String;Ljava/lang/String;Landroid/content/Context;)V <",
+                "> Lcom/thinkup/expressad/m/n0;->o(Ljava/lang/String;Ljava/lang/String;Landroid/content/Context;Ljava/lang/String;Lcom/thinkup/expressad/m/n0$o;)V <",
+                "> Lcom/thinkup/expressad/m/mm;->o(Lcom/thinkup/expressad/m/o/m;Lcom/thinkup/expressad/m/o/o;Ljava/lang/String;Ljava/lang/String;Landroid/content/Context;Lcom/thinkup/expressad/m/n0$o;Lcom/thinkup/expressad/m/m0;Ljava/util/concurrent/Semaphore;)V <",
+                "> Lcom/thinkup/expressad/m/mo;->o()V <",
+                "> Lcom/thinkup/expressad/m/no;->o(Ljava/lang/String;Lcom/thinkup/expressad/m/oo;ZLjava/lang/String;Ljava/lang/String;Lcom/thinkup/expressad/foundation/o0/o0;ZZI)V <",
+                "> Lcom/thinkup/expressad/m/n;->o(Ljava/lang/String;Lcom/thinkup/expressad/foundation/o0/o0;Lcom/thinkup/expressad/m/oo;Ljava/lang/String;ZZI)V <",
+                "> Lcom/thinkup/expressad/m/o;->o(Landroid/content/Context;Lcom/thinkup/expressad/foundation/o0/o0;Ljava/lang/String;Ljava/lang/String;ZZI)V <",
+                "> Lcom/thinkup/expressad/mbbanner/o/o0/n;->m(Lcom/thinkup/expressad/foundation/o0/o0;Landroid/content/Context;Ljava/lang/String;)V <",
+                "> Lcom/thinkup/expressad/mbbanner/o/o0/n;->om()V <",
+                "> Lcom/thinkup/expressad/mbbanner/o/o0/n;->m(Z)V <",
+                "> Lcom/thinkup/expressad/mbbanner/m/o;->mo()V <",
+                "> Lcom/thinkup/expressad/mbbanner/m/o;->m(Z)V <",
+                "> Lcom/thinkup/expressad/out/TemplateBannerView;->init(Lcom/thinkup/expressad/out/n;Ljava/lang/String;Ljava/lang/String;)V <",
+                "> Lcom/thinkup/expressad/o/m;->o(Lcom/thinkup/core/common/on/nm;Lcom/thinkup/core/common/on/o0o;Lcom/thinkup/basead/om/n/oo;)V <",
+                "> Lcom/thinkup/expressad/o/m;->o()Lcom/thinkup/expressad/o/m; <",
+                "> Lcom/thinkup/network/adx/AdxTUInitManager;-><init>()V <",
+                "> Lcom/thinkup/core/common/n/o0n;->on(Landroid/content/Context;)V <",
+                "> Lcom/thinkup/core/common/n/o0n;->m()Lcom/thinkup/core/common/n/o0n; <",
+                "> Lcom/thinkup/core/common/oo0/mn;->o0(Landroid/content/Context;)Ljava/lang/String; <",
+                "> Lcom/thinkup/core/common/n/o0n;->o(Landroid/content/Context;Ljava/lang/String;Lcom/thinkup/core/api/TUDebuggerConfig;)V <",
+                "> Lcom/thinkup/core/api/TUSDK;->setDebuggerConfig(Landroid/content/Context;Ljava/lang/String;Lcom/thinkup/core/api/TUDebuggerConfig;)V <",
+                "> Lcom/thinkup/debug/manager/DebugModeManager;->a(Landroid/content/Context;Lcom/thinkup/core/api/TUDebuggerConfig;)V <",
+                "> Lcom/thinkup/debug/contract/sourcetest/SourceTestPresenter;->a(ILcom/thinkup/debug/bean/AdFormat;I)V <",
+                "> Lcom/thinkup/debug/fragment/NetworkSourceTestFragment;->e()V <",
+                "> Lcom/thinkup/debug/fragment/NetworkSourceTestFragment$Companion;->a()Lcom/thinkup/debug/fragment/base/BaseIntegrateStatusFragment; <",
+                "> Lcom/thinkup/debug/activity/IntegrateStatusActivity;->a(ILcom/thinkup/debug/bean/FoldItem;Z)V <",
+                "> Lcom/thinkup/debug/activity/IntegrateStatusActivity;->a(Lcom/thinkup/debug/activity/IntegrateStatusActivity;ILcom/thinkup/debug/bean/FoldItem;ZILjava/lang/Object;)V <",
+                "> Lcom/thinkup/debug/fragment/base/BaseIntegrateStatusFragment;->a(ILcom/thinkup/debug/bean/FoldItem;)V <",
+                "> Lcom/thinkup/debug/fragment/NetworkDebuggerFragment;->a(Lcom/thinkup/debug/fragment/NetworkDebuggerFragment;Landroid/view/View;)V <",
+                "> Lcom/thinkup/debug/fragment/NetworkDebuggerFragment;->AobZYgwIQvCqoayj(Lcom/thinkup/debug/fragment/NetworkDebuggerFragment;Landroid/view/View;)V <",
+                "> LrRgzyRwbKPCriOVsMsPovzB/AobZYgwIQvCqoayj;->onClick(Landroid/view/View;)V <",
+                "> Lcom/cleanertool/box/ui/home/about/AboutFunPageActivity;->NIiHaFtaeOTxLxqxQBokKsMD()V <",
+                "> LSGnFzhbOgGdqGzKE/XdzFYQaBOhSNtdCAdNRbhVksHnL;->onClick(Landroid/view/View;)V <",
+                "> Lcom/cleanertool/box/ui/home/HomePageActivity;->NIiHaFtaeOTxLxqxQBokKsMD()V <",
+                "> Lcom/cleanertool/box/ui/home/main/newjunk/NewJunkCleanerAct;->onBackPressed()V <",
+                "> LsmiJecaSCfqfiTYKcaKNQlwfroKsBYoxGSFsEAks/lqyDuXhHWfn;->invoke()Ljava/lang/Object; <",
+                "> LLuYjVPQNoWYwRwevzyCdZKveqwTvUpTyKvIjIHjvygSdhl/AobZYgwIQvCqoayj;-><init>(Z)V <",
+                "> LwDLpRwgHI/XdzFYQaBOhSNtdCAdNRbhVksHnL;->XdzFYQaBOhSNtdCAdNRbhVksHnL()V <",
+                "> Lcom/cleanertool/box/remote/notify/receiver/FlashLightReception;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.cleanertool.box.WIZ_RESIDENT_LIGHT",
+                    "broadcast -a"
+                ],
+                [
+                    "com.cleanertool.box.remote.notify.receiver.FlashLightReception",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Landroid/webkit/WebView;->evaluateJavascript(Ljava/lang/String;Landroid/webkit/ValueCallback;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/thinkup/basead/mraid/mn;->onPageStarted(Landroid/webkit/WebView;Ljava/lang/String;Landroid/graphics/Bitmap;)V <",
+                "> Lcom/thinkup/basead/mraid/mo$1;->run()V <",
+                "> Lcom/thinkup/basead/mraid/mo;->o(Ljava/lang/String;Ljava/lang/String;Lcom/thinkup/basead/mraid/MraidWebView;Lcom/thinkup/basead/mraid/mo$o;Lcom/thinkup/core/common/on/o00;Lcom/thinkup/core/common/on/o0o;I)V <",
+                "> Lcom/thinkup/basead/m/n/n$4;->run()V <",
+                "> Lcom/thinkup/basead/m/n/n;->o(Lcom/thinkup/basead/m/n/n$m;)V <",
+                "> Lcom/thinkup/basead/m/om;->o(Ljava/lang/String;ZLcom/thinkup/core/common/on/o00;Lcom/thinkup/core/common/on/o0o;Lcom/thinkup/basead/m/n/n$m;)V <",
+                "> Lcom/thinkup/basead/m0/o/o;->o(Lcom/thinkup/core/common/on/mno;)V <",
+                "> Lcom/thinkup/network/myoffer/MyOfferAPI;->preloadTopOnOffer(Landroid/content/Context;Lcom/thinkup/core/common/on/mno;)V <",
+                "> Lcom/thinkup/core/common/o0o;-><init>()V <",
+                "> Lcom/thinkup/core/common/o0o;->o()Lcom/thinkup/core/common/o0o; <",
+                "> Lcom/thinkup/core/o0/n0$2;->run()V <",
+                "> Lcom/thinkup/core/o0/n0;->o(Ljava/lang/Object;Lcom/thinkup/core/common/on/nmm;Lcom/thinkup/core/o0/n0$m;[ZLcom/thinkup/core/o0/mm;)V <",
+                "> Lcom/thinkup/core/o0/n0;->o(Landroid/content/Context;)Lcom/thinkup/core/o0/n0; <",
+                "> Lcom/thinkup/core/common/n/o0n;->o(Landroid/content/Context;Ljava/lang/String;)V <",
+                "> Lcom/thinkup/core/common/n/o0n;->m()Lcom/thinkup/core/common/n/o0n; <",
+                "> Lcom/thinkup/core/common/oo0/mn;->o0(Landroid/content/Context;)Ljava/lang/String; <",
+                "> Lcom/thinkup/core/common/oo0/mn;->oo(Landroid/content/Context;)Ljava/lang/String; <",
+                "> Lcom/thinkup/core/common/oo0/mn;->m0()Ljava/lang/String; <",
+                "> Lcom/thinkup/core/common/n0/o0;->o(I)Lorg/json/JSONObject; <",
+                "> Lcom/thinkup/core/debugger/CoreDebuggerManager;->setDeviceInfoGetter(Landroid/content/Context;Lcom/thinkup/core/debugger/api/IDeviceInfoGetter;)V <",
+                "> Lcom/thinkup/debug/manager/DebugSdkBridge;->a(Lcom/thinkup/core/debugger/api/IDeviceInfoGetter;)V <",
+                "> Lcom/thinkup/debug/manager/DebugModeManager$saveDeviceInfoInSp$1;->run()V <",
+                "> Lcom/thinkup/debug/manager/DebugModeManager;->e()V <",
+                "> Lcom/thinkup/debug/activity/MainActivity;->b()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.cleanertool.box/com.thinkup.debug.activity.MainActivity",
+                    "start -n"
+                ]
+            ]
+        }
+    }
+}

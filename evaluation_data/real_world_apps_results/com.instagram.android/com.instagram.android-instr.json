@@ -1,0 +1,96 @@
+{
+    "Ldalvik/system/DexClassLoader;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/ClassLoader;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> LX/0xf;-><init>(Landroid/content/Context;Z)V <",
+                "> LX/0xj;->A00(Landroid/content/Context;Ljava/lang/String;Z)Ljava/lang/String; <",
+                "> LX/0xi;->run()V <",
+                "> LX/4uk;->A00(Landroid/content/Context;)V <",
+                "> LX/4ax;->A00()V <",
+                "> LX/4fi;->run()V <",
+                "> LX/0ax;->A09(ZLjava/lang/Runnable;)V <",
+                "> LX/0ax;->A02(Ljava/lang/Runnable;)V <",
+                "> LX/MVJ;->run()V <",
+                "> LX/9vP;->doFrame(J)V <",
+                "> LX/8m9;->execute(Ljava/lang/Runnable;)V <",
+                "> LX/0TG;-><init>(Landroid/content/Context;)V <",
+                "> LX/0SW;->A0B(Landroid/content/Context;)LX/0TP; <",
+                "> Lcom/meta/trusteddevice/service/TrustedDeviceFoundationServiceImpl$binder$1;->C83(Lcom/trusteddevice/TdfCrossAppDeviceKeyCallback;)V <",
+                "> Lcom/meta/trusteddevice/service/TrustedDeviceFoundationServiceImpl$binder$1;->onTransact(ILandroid/os/Parcel;Landroid/os/Parcel;I)Z <",
+                "> Lcom/meta/trusteddevice/service/TrustedDeviceFoundationServiceImpl;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.instagram.android/com.meta.trusteddevice.service.TrustedDeviceFoundationServiceImpl",
+                    "start -n"
+                ]
+            ]
+        }
+    },
+    "Ljavax/crypto/KeyGenerator;->getInstance(Ljava/lang/String;Ljava/lang/String;)Ljavax/crypto/KeyGenerator;": {
+        "path_0": {
+            "call_sequence": [
+                "> LX/2Bn;->A00(LX/2Bm;)LX/2Bp; <",
+                "> LX/2BX;->A00(Landroid/content/Context;)LX/2BZ; <",
+                "> LX/2BV;-><init>(Landroid/content/Context;)V <",
+                "> Lcom/meta/wearable/warp/core/api/transport/acdc/Transport;->A02(Lcom/meta/wearable/warp/core/api/transport/acdc/Transport;LX/6av;)Ljava/lang/Object; <",
+                "> LX/E7X;-><init>(Ljava/lang/Object;I)V <",
+                "> LX/Qx9;->A0X(Lcom/facebook/common/callercontext/CallerContext;LX/A6C;Ljava/lang/String;)V <",
+                "> LX/SNB;->A00(LX/0US;)LX/Qx9; <",
+                "> LX/4lH;-><init>(Lcom/instagram/common/session/UserSession;)V <",
+                "> LX/4lG;->A00(Lcom/instagram/common/session/UserSession;)LX/4lH; <",
+                "> LX/MtC;->run()V <",
+                "> LX/mwa;->execute(Ljava/lang/Runnable;)V <",
+                "> LX/0TG;-><init>(Landroid/content/Context;)V <",
+                "> LX/0SW;->A0B(Landroid/content/Context;)LX/0TP; <",
+                "> Lcom/meta/trusteddevice/service/TrustedDeviceFoundationServiceImpl$binder$1;->C83(Lcom/trusteddevice/TdfCrossAppDeviceKeyCallback;)V <",
+                "> Lcom/meta/trusteddevice/service/TrustedDeviceFoundationServiceImpl$binder$1;->onTransact(ILandroid/os/Parcel;Landroid/os/Parcel;I)Z <",
+                "> Lcom/meta/trusteddevice/service/TrustedDeviceFoundationServiceImpl;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.instagram.android/com.meta.trusteddevice.service.TrustedDeviceFoundationServiceImpl",
+                    "start -n"
+                ]
+            ]
+        }
+    },
+    "Landroid/webkit/WebView;-><init>(Landroid/content/Context;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> LX/CK4;-><init>(Landroid/content/Context;)V <",
+                "> LX/CFB;->onCreateWindow(Landroid/webkit/WebView;ZZLandroid/os/Message;)Z <",
+                "> Lnet/trustly/android/sdk/views/TrustlyView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;ILjava/lang/String;)V <",
+                "> Lnet/trustly/android/sdk/views/TrustlyView;-><init>(Landroid/content/Context;)V <",
+                "> LX/JO5;->onResume()V <",
+                "> LX/0SW;->A06(Landroid/os/Bundle;Landroidx/fragment/app/FragmentActivity;LX/0qa;Ljava/lang/String;)Landroidx/fragment/app/Fragment; <",
+                "> LX/4B8;->A00(Landroid/os/Bundle;Landroidx/fragment/app/FragmentActivity;LX/0qa;Ljava/lang/String;)Landroidx/fragment/app/Fragment; <",
+                "> Linstagram/features/creation/activity/MediaCaptureActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> LX/0SW;->A31(Landroid/content/Context;Landroid/content/Intent;)Z <",
+                "> LX/2V8;->Fvz(Landroid/content/Intent;I)V <",
+                "> LX/KZq;->onClick(Landroid/view/View;)V <",
+                "> LX/GiL;->run()V <",
+                "> LX/9vP;->doFrame(J)V <",
+                "> LX/8m9;->execute(Ljava/lang/Runnable;)V <",
+                "> LX/0TG;-><init>(Landroid/content/Context;)V <",
+                "> LX/0SW;->A0B(Landroid/content/Context;)LX/0TP; <",
+                "> Lcom/meta/trusteddevice/service/TrustedDeviceFoundationServiceImpl$binder$1;->C83(Lcom/trusteddevice/TdfCrossAppDeviceKeyCallback;)V <",
+                "> Lcom/meta/trusteddevice/service/TrustedDeviceFoundationServiceImpl$binder$1;->onTransact(ILandroid/os/Parcel;Landroid/os/Parcel;I)Z <",
+                "> Lcom/meta/trusteddevice/service/TrustedDeviceFoundationServiceImpl;-><init>()V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "com.instagram.android/com.meta.trusteddevice.service.TrustedDeviceFoundationServiceImpl",
+                    "start -n"
+                ],
+                [
+                    "com.meta.trusteddevice.service.TrustedDeviceFoundationServiceImpl",
+                    "<unknown>"
+                ]
+            ]
+        }
+    }
+}

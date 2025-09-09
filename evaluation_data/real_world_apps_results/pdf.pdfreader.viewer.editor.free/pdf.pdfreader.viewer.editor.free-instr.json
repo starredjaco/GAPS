@@ -1,0 +1,148 @@
+{
+    "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lindustries/deepthought/core/service/DownloadService;->d(Ljava/io/File;Ljava/lang/String;)Ljava/lang/String; <",
+                "> Lud/a;->a(Landroid/app/Activity;Lud/a$a;)V <",
+                "> Lpdf/pdfreader/viewer/editor/free/ReaderSplashActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lpdf/pdfreader/viewer/editor/free/feature/app_widget/ui/activity/WidgetLandingActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lpdf/pdfreader/viewer/editor/free/feature/app_widget/ui/BaseAPPWidget;->f(Landroid/content/Context;ILjava/lang/String;)Landroid/app/PendingIntent; <",
+                "> Lpdf/pdfreader/viewer/editor/free/feature/app_widget/ui/APPWidgetPDFTools2;->d(Landroid/content/Context;Landroid/widget/RemoteViews;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.appwidget.action.APPWIDGET_DISABLED",
+                    "start -a"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Intent;-><init>()V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lpdf/pdfreader/viewer/editor/free/ui/dialog/PdfReaderOpenDefaultDialog$a;->e(I)Landroid/content/Intent; <",
+                "> Lpdf/pdfreader/viewer/editor/free/ui/dialog/PdfReaderOpenDefaultDialog$a;->b(Landroid/content/Context;)Z <",
+                "> Lpdf/pdfreader/viewer/editor/free/ui/dialog/PdfReaderOpenDefaultDialog$a;->a(Landroidx/fragment/app/u;IZ)I <",
+                "> Lpdf/pdfreader/viewer/editor/free/pdfview/ReaderPreviewActivity;->h3(Z)V <",
+                "> Lpdf/pdfreader/viewer/editor/free/utils/n0;->b(Landroid/app/Activity;Landroid/content/Intent;Lpdf/pdfreader/viewer/editor/free/bean/ThirdOpenBean;Ljava/lang/String;Z)V <",
+                "> Lpdf/pdfreader/viewer/editor/free/ReaderSplashActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lpdf/pdfreader/viewer/editor/free/ReaderDeepLinkActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.VIEW",
+                    "start -a"
+                ]
+            ]
+        }
+    },
+    "Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;": {
+        "path_0": {
+            "call_sequence": [
+                "> Lf5/d;->onClick(Landroid/view/View;)V <",
+                "> Lpdf/pdfreader/viewer/editor/free/office/OfficeReaderActivity$c;->l(Ljava/lang/Object;)V <",
+                "> Lpdf/pdfreader/viewer/editor/free/office/OfficeReaderActivity;->x2(Landroid/os/Bundle;)Z <",
+                "> Lpdf/pdfreader/viewer/editor/free/utils/n0;->a(Landroid/app/Activity;Landroid/content/Intent;Lpdf/pdfreader/viewer/editor/free/bean/ThirdOpenBean;Ljava/lang/String;)V <",
+                "> Lpdf/pdfreader/viewer/editor/free/ReaderSplashActivity;->onCreate(Landroid/os/Bundle;)V <",
+                "> Lpdf/pdfreader/viewer/editor/free/ReaderDeepLinkActivity;->onCreate(Landroid/os/Bundle;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.intent.action.VIEW",
+                    "start -a"
+                ],
+                [
+                    "pdf.pdfreader.viewer.editor.free.ReaderDeepLinkActivity",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Landroid/webkit/WebView;->evaluateJavascript(Ljava/lang/String;Landroid/webkit/ValueCallback;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/iab/omid/library/inmobi/internal/h;->c(Landroid/webkit/WebView;Ljava/lang/String;)Z <",
+                "> Lcom/iab/omid/library/inmobi/internal/h;->a(Landroid/webkit/WebView;Ljava/lang/StringBuilder;)V <",
+                "> Lcom/iab/omid/library/inmobi/internal/h;->a(Landroid/webkit/WebView;Ljava/lang/String;[Ljava/lang/Object;)V <",
+                "> Lcom/iab/omid/library/inmobi/internal/h;->a(Landroid/webkit/WebView;Lorg/json/JSONObject;)V <",
+                "> Lcom/iab/omid/library/inmobi/publisher/AdSessionStatePublisher;->a(Ljava/util/Date;)V <",
+                "> Lcom/iab/omid/library/inmobi/internal/a;->c()V <",
+                "> Lcom/iab/omid/library/inmobi/internal/a;->d()V <",
+                "> Lcom/iab/omid/library/inmobi/b;->c()V <",
+                "> Lcom/iab/omid/library/inmobi/Omid;->updateLastActivity()V <",
+                "> Lcom/inmobi/media/Rb;->c()Z <",
+                "> Lcom/inmobi/sdk/InMobiSdk;->a(Landroid/content/Context;Lcom/inmobi/sdk/SdkInitializationListener;Ljava/lang/String;Lorg/json/JSONObject;)V <",
+                "> La6/g;->run()V <",
+                "> Lcom/inmobi/sdk/InMobiSdk;->a(Landroid/content/Context;Ljava/lang/String;Lorg/json/JSONObject;Lcom/inmobi/sdk/SdkInitializationListener;)V <",
+                "> Lcom/inmobi/sdk/InMobiSdk;->init(Landroid/content/Context;Ljava/lang/String;Lorg/json/JSONObject;Lcom/inmobi/sdk/SdkInitializationListener;)V <",
+                "> Lu4/a;->run()V <",
+                "> Lpdf/pdfreader/viewer/editor/free/ui/act/t0;->run()V <",
+                "> Lpdf/pdfreader/viewer/editor/free/ui/act/ReaderSearchActivity;->onClick(Landroid/view/View;)V <",
+                "> Lfo/d;->a(Landroid/content/Context;IIZ)Landroid/app/PendingIntent; <",
+                "> Lfo/d;->b(Landroid/content/Context;)Landroid/app/Notification; <",
+                "> Lfo/d;->c(Landroid/content/Context;)V <",
+                "> Lpdf/pdfreader/viewer/editor/free/broadcast/BootCompletedReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.net.wifi.STATE_CHANGE",
+                    "broadcast -a"
+                ],
+                [
+                    "pdf.pdfreader.viewer.editor.free.broadcast.BootCompletedReceiver",
+                    "<unknown>"
+                ]
+            ]
+        }
+    },
+    "Landroid/webkit/WebView;-><init>(Landroid/content/Context;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Lcom/inmobi/media/B1;-><init>(Landroid/content/Context;)V <",
+                "> Lcom/inmobi/media/S9;-><init>(Landroid/content/Context;BLjava/util/Set;Ljava/lang/String;ZLjava/lang/String;JLcom/inmobi/media/V9;Lcom/inmobi/media/L5;Lcom/inmobi/media/A4;I)V <",
+                "> Lcom/inmobi/media/o0;->a(Lcom/inmobi/media/j7;Lcom/inmobi/media/w0;)V <",
+                "> Ll1/a;->run()V <",
+                "> Lem/c;->h(Lpdf/pdfreader/viewer/editor/free/db/PdfPreviewEntity;)V <",
+                "> Lpdf/pdfreader/viewer/editor/free/ui/act/ReaderSearchActivity$a;->a()V <",
+                "> Lpdf/pdfreader/viewer/editor/free/ui/act/ReaderSearchActivity;->P(Landroid/os/Message;)V <",
+                "> Lfo/d;->a(Landroid/content/Context;IIZ)Landroid/app/PendingIntent; <",
+                "> Lfo/d;->b(Landroid/content/Context;)Landroid/app/Notification; <",
+                "> Lfo/d;->c(Landroid/content/Context;)V <",
+                "> Lpdf/pdfreader/viewer/editor/free/broadcast/BootCompletedReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.net.wifi.STATE_CHANGE",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    },
+    "Landroid/webkit/WebView;->addJavascriptInterface(Ljava/lang/Object;Ljava/lang/String;)V": {
+        "path_0": {
+            "call_sequence": [
+                "> Llib/zj/pdfeditor/PDFReflowView;-><init>(Landroid/content/Context;Llib/zj/pdfeditor/ReaderPDFCore;Landroid/graphics/Point;)V <",
+                "> Llib/zj/pdfeditor/PDFReflowAdapter;->getView(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View; <",
+                "> Lpdf/pdfreader/viewer/editor/free/pdfview/ReaderPreviewActivity;->y3(Landroid/os/Bundle;)V <",
+                "> Lpdf/pdfreader/viewer/editor/free/utils/n0;->l(Landroid/content/Context;Ljava/lang/String;Lpdf/pdfreader/viewer/editor/free/db/PdfPreviewEntity;ZILjava/lang/String;)V <",
+                "> Lpdf/pdfreader/viewer/editor/free/ui/act/ReaderSearchActivity;->P(Landroid/os/Message;)V <",
+                "> Lfo/d;->a(Landroid/content/Context;IIZ)Landroid/app/PendingIntent; <",
+                "> Lfo/d;->b(Landroid/content/Context;)Landroid/app/Notification; <",
+                "> Lfo/d;->c(Landroid/content/Context;)V <",
+                "> Lpdf/pdfreader/viewer/editor/free/broadcast/BootCompletedReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V <"
+            ],
+            "path": [
+                [
+                    "intent",
+                    "android.net.wifi.STATE_CHANGE",
+                    "broadcast -a"
+                ]
+            ]
+        }
+    }
+}

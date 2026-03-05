@@ -111,7 +111,15 @@ class InternalLLMThread(threading.Thread):
                 element_idx += 1
         return elements
 
-    def query_llm(self, class_name, method_name, elements, curr_activity, past_actions, error_feedback=""):
+    def query_llm(
+        self,
+        class_name,
+        method_name,
+        elements,
+        curr_activity,
+        past_actions,
+        error_feedback="",
+    ):
         import openai
 
         # Initialize OpenAI client
@@ -120,8 +128,16 @@ class InternalLLMThread(threading.Thread):
         )
 
         elements_text = "\n".join([e["info"] for e in elements])
-        history_text = "\n".join([f"- {act}" for act in past_actions]) if past_actions else "None"
-        path_text = "\n".join([str(p) for p in self.target_path]) if self.target_path else "Not provided"
+        history_text = (
+            "\n".join([f"- {act}" for act in past_actions])
+            if past_actions
+            else "None"
+        )
+        path_text = (
+            "\n".join([str(p) for p in self.target_path])
+            if self.target_path
+            else "Not provided"
+        )
 
         prompt = f"""You are an Android UI testing agent navigating an app to find a specific target.
 Your objective is to reach class "{class_name}" and method "{method_name}".
@@ -150,7 +166,7 @@ Output nothing but the JSON object. Do not wrap it in markdown block quotes.
         for _ in range(max_retries):
             try:
                 response = client.chat.completions.create(
-                    model="gpt-3.5-turbo",
+                    model="gpt-5.2",
                     messages=[
                         {
                             "role": "system",
@@ -173,7 +189,7 @@ Output nothing but the JSON object. Do not wrap it in markdown block quotes.
 
     def execute_action(self, action_json, elements, curr_activity):
         cmd = action_json.get("action", "").upper()
-        
+
         if cmd == "BACK":
             subp.run("adb shell input keyevent 4", shell=True)
             return "BACK", ""
@@ -184,7 +200,10 @@ Output nothing but the JSON object. Do not wrap it in markdown block quotes.
 
         element = next((e for e in elements if e["index"] == index), None)
         if not element:
-            return "INVALID", f"Element with index {index} not found on screen."
+            return (
+                "INVALID",
+                f"Element with index {index} not found on screen.",
+            )
 
         resource_id = element["resource_id"]
         if resource_id and "/" in resource_id:
@@ -231,7 +250,10 @@ Output nothing but the JSON object. Do not wrap it in markdown block quotes.
                 if m:
                     x = (int(m.group(1)) + int(m.group(3))) // 2
                     y = (int(m.group(2)) + int(m.group(4))) // 2
-                    subp.run(f"adb shell input swipe {x} {y} {x} {max(10, y - 400)}", shell=True)
+                    subp.run(
+                        f"adb shell input swipe {x} {y} {x} {max(10, y - 400)}",
+                        shell=True,
+                    )
             else:
                 subp.run("adb shell input swipe 500 1000 500 300", shell=True)
             action_log = f"swipe {self.package_name}:id/{res_id_short}"
@@ -240,7 +262,7 @@ Output nothing but the JSON object. Do not wrap it in markdown block quotes.
         if action_log:
             self.save_memory(curr_activity, action_log)
             return "SUCCESS", action_summary
-            
+
         return "UNKNOWN", "Unknown action command"
 
     def save_memory(self, curr_activity, action_log):
@@ -295,7 +317,7 @@ Output nothing but the JSON object. Do not wrap it in markdown block quotes.
         attempts = 0
         past_actions = []
         error_feedback = ""
-        
+
         while not self._stop_event.is_set() and attempts < 15:
             get_current_focus = subp.Popen(
                 "adb shell dumpsys window | grep mCurrentFocus",
@@ -317,10 +339,19 @@ Output nothing but the JSON object. Do not wrap it in markdown block quotes.
                 attempts += 1
                 continue
 
-            action_json = self.query_llm(class_name, method_name, elements, curr_activity, past_actions, error_feedback)
+            action_json = self.query_llm(
+                class_name,
+                method_name,
+                elements,
+                curr_activity,
+                past_actions,
+                error_feedback,
+            )
             print(f"[{curr_activity}] LLM Action JSON: {action_json}")
-            status, msg = self.execute_action(action_json, elements, curr_activity)
-            
+            status, msg = self.execute_action(
+                action_json, elements, curr_activity
+            )
+
             if status == "INVALID":
                 error_feedback = f"Error from last action: {msg}. Please select a valid index from the list."
                 print(f"[!] {error_feedback}")

@@ -1,5 +1,6 @@
-import re
 import argparse
+import json
+import re
 from pathlib import Path
 
 import numpy as np
@@ -9,6 +10,21 @@ import matplotlib.pyplot as plt
 # 03-13 20:22:37.523  7424  7424 D GAPS    : METHOD=<a2dp.Vol.main: void onCreate(android.os.Bundle)>
 TS_PATTERN = re.compile(r"(\d{2}-\d{2} \d{2}:\d{2}:\d{2}\.\d+)")
 METHOD_PATTERN = re.compile(r"METHOD=(.+)")
+
+TOOL_CONFIG = {
+    "ape": {
+        "runs": ["output_run1", "output_run2", "output_run3"],
+        "title": "APE",
+    },
+    "goalexplorer": {
+        "runs": ["output_run1", "output_run2", "output_run3"],
+        "title": "GoalExplorer",
+    },
+    "guardian": {
+        "runs": ["output_run1", "output_run2", "output_run3"],
+        "title": "Guardian",
+    },
+}
 
 
 def parse_time(ts: str) -> float:
@@ -49,7 +65,56 @@ def extract_methods(log_path: Path):
     return events
 
 
-def build_curve(events, denominator_set, times):
+def infer_package_from_events(events, max_samples=200):
+    counts = {}
+    for _, method_id in events[:max_samples]:
+        class_part = method_id.split(":", 1)[0].strip("<>")
+        if "." not in class_part:
+            continue
+        pkg = ".".join(class_part.split(".")[:-1])
+        if pkg:
+            counts[pkg] = counts.get(pkg, 0) + 1
+
+    if not counts:
+        return ""
+
+    return max(counts, key=counts.get)
+
+
+def load_stats(stats_path: Path):
+    with stats_path.open("r", encoding="utf-8") as f:
+        data = json.load(f)
+
+    by_apk = {}
+    by_pkg = {}
+    for app in data.get("apps", []):
+        apk_path = app.get("apk", "")
+        if apk_path:
+            by_apk[Path(apk_path).name] = app
+        pkg = app.get("package")
+        if pkg:
+            by_pkg[pkg] = app
+
+    return by_apk, by_pkg
+
+
+def resolve_denominator(log_name, events, by_apk, by_pkg):
+    apk_name = log_name
+    if apk_name.endswith(".log"):
+        apk_name = apk_name[:-4]
+
+    app = by_apk.get(apk_name)
+    if app:
+        return app, app.get("methods_total", 0)
+
+    pkg = infer_package_from_events(events)
+    if pkg in by_pkg:
+        return by_pkg[pkg], by_pkg[pkg].get("methods_total", 0)
+
+    return None, 0
+
+
+def build_curve(events, denominator, times):
     """
     Coverage(t) = unique methods seen up to t / denominator
     """
@@ -57,33 +122,48 @@ def build_curve(events, denominator_set, times):
     seen = set()
     curve = []
     idx = 0
-    denom = len(denominator_set)
 
     for t in times:
         while idx < len(events) and events[idx][0] <= t:
             seen.add(events[idx][1])
             idx += 1
 
-        curve.append(100.0 * len(seen) / denom if denom else 0.0)
+        if denominator:
+            cov = 100.0 * len(seen) / denominator
+            curve.append(min(100.0, cov))
+        else:
+            curve.append(0.0)
 
     return np.array(curve, dtype=float)
 
 
-def main():
+def parse_args():
     parser = argparse.ArgumentParser(
-        description="Compute final average time-vs-coverage curve from your own run results."
+        description="Compute average time-vs-coverage curves using androtest_stats.json denominators."
     )
     parser.add_argument(
         "--root",
         type=str,
         default=".",
-        help="Folder containing output_run1, output_run2, output_run3",
+        help="Tool directory containing output_run folders",
+    )
+    parser.add_argument(
+        "--tool",
+        type=str,
+        choices=sorted(TOOL_CONFIG.keys()),
+        help="Tool name (ape, goalexplorer, guardian)",
     )
     parser.add_argument(
         "--runs",
         nargs="+",
-        default=["output_run1", "output_run2", "output_run3"],
-        help="Run folders",
+        default=None,
+        help="Run folders (overrides tool defaults)",
+    )
+    parser.add_argument(
+        "--stats",
+        type=str,
+        default="",
+        help="Path to androtest_stats.json (default: ../androtest_stats.json)",
     )
     parser.add_argument(
         "--max-time",
@@ -102,17 +182,40 @@ def main():
         action="store_true",
         help="Also save the 3 average run curves in a secondary plot",
     )
-    args = parser.parse_args()
+    return parser.parse_args()
 
+
+def main():
+    args = parse_args()
     root = Path(args.root)
-    run_folders = args.runs
+
+    tool = args.tool
+    if tool is None:
+        if root.name in TOOL_CONFIG:
+            tool = root.name
+        else:
+            raise SystemExit(
+                "--tool is required when root folder name is not a known tool."
+            )
+
+    tool_cfg = TOOL_CONFIG[tool]
+    run_folders = args.runs or tool_cfg["runs"]
+    title = tool_cfg["title"]
+
+    stats_path = (
+        Path(args.stats)
+        if args.stats
+        else root.parent / "androtest_stats.json"
+    )
+    if not stats_path.is_file():
+        raise SystemExit(f"Stats file not found: {stats_path}")
+
+    by_apk, by_pkg = load_stats(stats_path)
     times = np.arange(0, args.max_time + 1, args.step)
 
     # 1) Read all logs, grouped by app and run
-    # run_events[run_folder][app_name] = [(t, method), ...]
     run_events = {}
-    # app_universe[app_name] = union of methods seen for that app across all runs
-    app_universe = {}
+    missing_stats = set()
 
     for run_folder in run_folders:
         folder = root / run_folder
@@ -121,14 +224,19 @@ def main():
         run_events[run_folder] = {}
 
         for log_path in logs:
-            app_name = log_path.name
             events = extract_methods(log_path)
-            run_events[run_folder][app_name] = events
+            app, denom = resolve_denominator(
+                log_path.name, events, by_apk, by_pkg
+            )
+            if not denom:
+                missing_stats.add(log_path.name)
+                continue
 
-            if app_name not in app_universe:
-                app_universe[app_name] = set()
-            for _, method_id in events:
-                app_universe[app_name].add(method_id)
+            run_events[run_folder][log_path.name] = {
+                "events": events,
+                "denom": denom,
+                "app": app,
+            }
 
     # 2) Average over apps, separately for each run
     run_avg_curves = []
@@ -136,27 +244,31 @@ def main():
 
     for run_folder in run_folders:
         app_curves = []
-        for app_name, events in run_events[run_folder].items():
-            denom_set = app_universe.get(app_name, set())
-            curve = build_curve(events, denom_set, times)
+        for data in run_events[run_folder].values():
+            curve = build_curve(data["events"], data["denom"], times)
             app_curves.append(curve)
 
         if app_curves:
             avg_curve = np.mean(app_curves, axis=0)
             run_avg_curves.append(avg_curve)
             run_avg_map[run_folder] = avg_curve
-            print(f"Processed {run_folder}: averaged {len(app_curves)} app curves")
+            print(
+                f"Processed {run_folder}: averaged {len(app_curves)} app curves"
+            )
         else:
             print(f"Warning: no valid app curves in {run_folder}")
 
     if not run_avg_curves:
         raise RuntimeError("No valid data found.")
 
+    if missing_stats:
+        print(f"Warning: {len(missing_stats)} apps missing stats (skipped).")
+
     # 3) Final average over runs
     final_avg = np.mean(run_avg_curves, axis=0)
 
     # 4) Save CSV
-    csv_path = root / f"{args.root}_runs.csv"
+    csv_path = root / f"{tool}_runs.csv"
     with csv_path.open("w", encoding="utf-8") as f:
         header = ["time_seconds", "time_minutes"]
         for run_folder in run_folders:
@@ -173,18 +285,18 @@ def main():
             row.append(f"{final_avg[i]:.6f}")
             f.write(",".join(row) + "\n")
 
-    # 5) Final plot: exactly one final curve, coherent with the user's interpretation
-    final_pdf = root / f"{args.root}_runs.pdf"
+    # 5) Final plot
+    final_pdf = root / f"{tool}_runs.pdf"
     plt.figure(figsize=(10, 6))
     plt.plot(times / 60.0, final_avg, linewidth=3, label="Final average")
     plt.axvline(x=5, linestyle="--", label="5 min")
-    # horizontal line at highest reached value and label on y-axis
     max_val = float(np.max(final_avg))
-    plt.axhline(y=max_val, linestyle=":", color="gray",
-                label=f"Max {max_val:.2f}%")
+    plt.axhline(
+        y=max_val, linestyle=":", color="gray", label=f"Max {max_val:.2f}%"
+    )
     plt.xlabel("Time (minutes)")
     plt.ylabel(f"Coverage (%) — max {max_val:.2f}%")
-    plt.title("Average Coverage from My Run Results")
+    plt.title(f"Average Coverage from {title} ({len(run_folders)} runs)")
     plt.xlim(0, args.max_time / 60.0)
     plt.ylim(0, 100)
     plt.grid(True, alpha=0.3)
@@ -192,17 +304,19 @@ def main():
     plt.tight_layout()
     plt.savefig(final_pdf, dpi=200)
 
-    # 6) Optional debug plot with the 3 run-average curves
+    # 6) Optional debug plot with the run-average curves
     if args.save_run_curves:
-        debug_pdf = root / f"{args.root}_run_average_curves_from_my_runs.pdf"
+        debug_pdf = root / f"{tool}_run_average_curves_from_my_runs.pdf"
         plt.figure(figsize=(10, 6))
         for run_folder, curve in run_avg_map.items():
             plt.plot(times / 60.0, curve, label=run_folder)
-        plt.axvline(x=5, linestyle="--", label="5 min")
-        # add horizontal line for highest reached among run averages
         max_debug = float(np.max(list(run_avg_map.values())))
-        plt.axhline(y=max_debug, linestyle=":", color="gray",
-                    label=f"Max {max_debug:.2f}%")
+        plt.axhline(
+            y=max_debug,
+            linestyle=":",
+            color="gray",
+            label=f"Max {max_debug:.2f}%",
+        )
         plt.xlabel("Time (minutes)")
         plt.ylabel(f"Coverage (%) — max {max_debug:.2f}%")
         plt.title("Average Coverage per Run (debug)")

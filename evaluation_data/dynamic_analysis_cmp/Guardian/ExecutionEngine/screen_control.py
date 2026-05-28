@@ -9,13 +9,15 @@ import random
 import base64
 import subprocess as subp
 
+DEVICE = "emulator-5554"
 
 class AndroidController:
     """
     安卓手机控制
     """
 
-    def __init__(self):
+    def __init__(self, device=DEVICE):
+        self.device = device
         self.upperbar = 0
         self.subbar = 0
         self.sleep_time = 0.1
@@ -29,7 +31,7 @@ class AndroidController:
         # 每次打开前先关闭，同时保证处在消息界面
         self.stop_app(app_pkg_name)
         subp.Popen(
-            f"adb shell monkey -p {app_pkg_name} -c android.intent.category.LAUNCHER 1",
+            f"adb -s {self.device} shell monkey -p {app_pkg_name} -c android.intent.category.LAUNCHER 1",
             shell=True,
             stdout=subp.DEVNULL,
             stderr=subp.DEVNULL,
@@ -45,7 +47,7 @@ class AndroidController:
         :return:
         """
         subp.call(
-            f"adb shell am force-stop {app_pkg_name}",
+            f"adb -s {self.device} shell am force-stop {app_pkg_name}",
             shell=True,
             stdout=subp.DEVNULL,
             stderr=subp.DEVNULL,
@@ -62,7 +64,7 @@ class AndroidController:
             self.back()
             return
         subp.call(
-            f"adb shell input tap {int(x)} {int(y) + self.upperbar}",
+            f"adb -s {self.device} shell input tap {int(x)} {int(y) + self.upperbar}",
             shell=True,
             stdout=subp.DEVNULL,
             stderr=subp.DEVNULL,
@@ -75,7 +77,7 @@ class AndroidController:
         :return:
         """
         subp.call(
-            "adb shell input keyevent KEYCODE_HOME",
+            f"adb -s {self.device} shell input keyevent KEYCODE_HOME",
             shell=True,
             stdout=subp.DEVNULL,
             stderr=subp.DEVNULL,
@@ -87,7 +89,7 @@ class AndroidController:
         :return:
         """
         subp.call(
-            "adb shell input keyevent KEYCODE_BACK",
+            f"adb -s {self.device} shell input keyevent KEYCODE_BACK",
             shell=True,
             stdout=subp.DEVNULL,
             stderr=subp.DEVNULL,
@@ -96,7 +98,7 @@ class AndroidController:
 
     def swipe(self, fx, fy, tx, ty, steps=40):
         subp.call(
-            f"adb shell input switpe {int(fx)} {int(fy)} {int(tx)} {int(ty)}",
+            f"adb -s {self.device} shell input swipe {int(fx)} {int(fy)} {int(tx)} {int(ty)}",
             shell=True,
             stdout=subp.DEVNULL,
             stderr=subp.DEVNULL,
@@ -107,26 +109,30 @@ class AndroidController:
         try:
             # TODO: deal with clear here
             print(text)
-            text = text.replace(" ", "\ ")
-            os.system('adb shell input text "{}"'.format(text))
+            text = text.replace(" ", "\\ ")
+            os.system(f'adb -s {self.device} shell input text "{text}"')
             time.sleep(0.2)
         except:
             return False
         return True
 
     def dump(self):
-        uiautomator = subp.Popen(
-            "adb exec-out uiautomator dump /dev/tty",
+        dump = ""
+
+        subp.call(
+            f"adb -s {self.device} shell uiautomator dump /sdcard/dump.xml",
+            shell=True,
+            stdout=subp.DEVNULL,
+            stderr=subp.DEVNULL,
+        )
+
+        pull = subp.Popen(
+            f"adb -s {self.device} shell cat /sdcard/dump.xml",
             shell=True,
             stdout=subp.PIPE,
         )
 
-        real_dump = (
-            uiautomator.communicate()[0]
-            .decode()
-            .strip()
-            .replace("UI hierchary dumped to: /dev/tty", "")
-        )
+        real_dump = pull.communicate()[0].decode().strip()
         if real_dump and real_dump.strip():
             dump = real_dump
 
@@ -135,7 +141,7 @@ class AndroidController:
     def app_info(self):
         pkg, activity = "", ""
         get_current_focus = subp.Popen(
-            "adb shell dumpsys window | grep mCurrentFocus",
+            f"adb -s {self.device} shell dumpsys window | grep mCurrentFocus",
             shell=True,
             stdout=subp.PIPE,
         )

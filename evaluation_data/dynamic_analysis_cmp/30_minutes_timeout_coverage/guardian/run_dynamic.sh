@@ -59,7 +59,7 @@ for app in $apps; do
     		methods="- no targets available"
 	fi
 
-        PROMPT="You are an automated Android UI testing agent. Your objective is to explore the application and try to reach the following target methods: $methods . Focus on meaningful UI interactions, navigation flows and triggering app logic. Reach target methods efficiently."
+        PROMPT="You are an automated Android UI testing agent. Your objective is to explore the application and try to reach the following target methods: $methods . Focus on meaningful UI interactions, navigation flows and interpreting app logic."
 
 
 	# lancia APE e lascialo girare al massimo per il tempo rimanente

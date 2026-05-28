@@ -20,24 +20,30 @@ import os
 @retry(
     retry=retry_if_exception_type(
         (
-            openai.error.APIError,
-            openai.error.APIConnectionError,
-            openai.error.RateLimitError,
-            openai.error.ServiceUnavailableError,
-            openai.error.Timeout,
+            openai.APIError,
+            openai.APIConnectionError,
+            openai.RateLimitError,
+            openai.APIStatusError,
+            openai.APITimeoutError,
         )
     ),
-    wait=wait_random_exponential(multiplier=1, max=60),
-    stop=stop_after_attempt(10),
+    wait=wait_random_exponential(multiplier=1, max=10),
+    stop=stop_after_attempt(2),
 )
 def chat_completion_with_backoff(**kwargs):
-    response = openai.ChatCompletion.create(**kwargs)
+    client = openai.OpenAI()
+    response = client.chat.completions.create(**kwargs, timeout=30)
+    print(response)
     return response
 
 
-openai.api_key_path = Path("./gpt_api.key").absolute()
-model = "gpt-3.5-turbo"
-expensive_model = "gpt-4"
+with open(Path("./gpt_api.key")) as f:
+    api_key = f.read().strip()
+
+# Then in chat_completion_with_backoff:
+client = openai.OpenAI(api_key=api_key)
+model = "gpt-5.2"
+expensive_model = "gpt-5.4"
 temp = 0.2
 system_message: str
 
@@ -92,13 +98,20 @@ class Session:
         # print(self.history)
         self.history.append(("user", message))
         print(message)
+        if len(self.history) > 10:
+            self.history = self.history[-10:]
         resp = chat_completion_with_backoff(
             model=model,
             messages=self.transformMessage(self.history),
             temperature=temp,
         )
-        self.updateTokensUsed(resp["usage"])
-        response = resp["choices"][0]["message"]["content"]
+        self.updateTokensUsed(
+            {
+                "completion_tokens": resp.usage.completion_tokens,
+                "prompt_tokens": resp.usage.prompt_tokens,
+            }
+        )
+        response = resp.choices[0].message.content
         print("=" * 20)
         self.history.append(("assistant", response))
         print(response)

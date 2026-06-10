@@ -237,7 +237,7 @@ def _get_conditional_key(
                 caller_obj = None
                 caller_arg = data_flow_analysis.points_to_analysis(
                     path,
-                    parameters[path_dfa][reg]["instruction_index"],
+                    path_dfa.index(first_param),
                     gaps,
                     only_caller=True,
                 )
@@ -308,7 +308,7 @@ def _get_argument_if(
                 # get caller
                 caller_arg = data_flow_analysis.points_to_analysis(
                     path,
-                    parameters[path_dfa][reg]["instruction_index"],
+                    path_dfa.index(first_param),
                     gaps,
                     only_caller=True,
                 )

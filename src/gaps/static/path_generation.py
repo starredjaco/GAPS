@@ -449,9 +449,7 @@ def get_reflection_calls(gaps):
                                         )
                                     ).replace('"', "")
                                 else:
-                                    instruction_index_2 = method_args[
-                                        path_pta_2
-                                    ][method_regs[i]]["instruction_index"]
+                                    instruction_index_2 = path_pta_2.index(instruction_2)
                                     propagated_args = data_flow_analysis.constant_propagation_through_invocations(
                                         path_pta_2, instruction_index_2, gaps
                                     )
@@ -910,9 +908,7 @@ def _get_content_provider_paths(
             for reg in caller_args[path]:
                 if "instruction" in caller_args[path][reg]:
                     instruction = caller_args[path][reg]["instruction"]
-                    instruction_index = caller_args[path][reg][
-                        "instruction_index"
-                    ]
+                    instruction_index = path.index(instruction)
                     if "invoke" in instruction.split()[0]:
                         path_queue = [path]
                         path_inst_index = instruction_index
@@ -940,11 +936,7 @@ def _get_content_provider_paths(
                                                 new_path
                                             ][reg]["instruction"]
                                         )
-                                        new_instruction_index = (
-                                            provider_construction_args[
-                                                new_path
-                                            ][reg]["instruction_index"]
-                                        )
+                                        new_instruction_index = new_path.index(new_instruction)
                                         if (
                                             "const"
                                             in new_instruction.split()[0]
@@ -1173,9 +1165,7 @@ def _get_alert_dialog_text(parameter: str, array_index: int, gaps) -> str:
                             "instruction"
                         ]
                         if "fill" in var_parameter.split()[0]:
-                            fill_index = var_parameters[path_dfa][var_reg][
-                                "instruction_index"
-                            ]
+                            fill_index = path_dfa.index(var_parameter)
                             array_arguments = (
                                 data_flow_analysis.points_to_analysis(
                                     variable_path,

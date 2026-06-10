@@ -14,6 +14,7 @@ from collections import defaultdict
 from androguard.misc import AnalyzeDex
 from concurrent.futures import ThreadPoolExecutor
 from multiprocessing import Lock
+from importlib import resources
 
 from . import dalvik_disassembler
 from . import method_utils
@@ -32,7 +33,9 @@ LOG = logging.getLogger("gaps")
 # CONSTANTS
 ###############################################################################
 
-ARTIFACTS_DIR = Path(__file__).parent.parent.parent.parent / "artifacts"
+package_path = resources.files("gaps")
+
+ARTIFACTS_DIR = package_path / "artifacts"
 
 IMPLICIT_EDGES = ARTIFACTS_DIR / "implicit_edges.json"
 

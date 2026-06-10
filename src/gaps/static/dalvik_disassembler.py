@@ -7,6 +7,7 @@ import logging
 from collections import deque, defaultdict
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
+from importlib import resources
 
 from . import method_utils
 from . import myAndroguard
@@ -47,7 +48,8 @@ icc_methods = [
     "setIntent",
 ]
 
-ARTIFACTS_DIR = Path(__file__).parent.parent.parent.parent / "artifacts"
+package_path = resources.files("gaps")
+ARTIFACTS_DIR = package_path / "artifacts"
 
 ANDROLIBZOO = ARTIFACTS_DIR / "smaliAndroLibZoo.lst"
 

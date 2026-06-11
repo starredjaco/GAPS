@@ -1,76 +1,153 @@
 #!/bin/bash
 
-# Check if apps_path is provided as a CLI argument
-if [ $# -lt 1 ]; then
-    echo "Usage: $0 <apps_path>"
+# Check existence of exactly 2 command-line arguments
+if [ "$#" -ne 3 ]; then
+    echo "Usage: $0 <output_logs_dir> <apps_path> <device>"
     exit 1
 fi
 
-apps_path="$1"
+output_logs_dir="$1"
+apps_path="$2"
+device="$3"
+
+reset_environment() {
+	echo "[*] FULL RESET"
+        
+	#adb -s "$device" emu kill 2>/dev/null
+	#sleep 5
+	#emulator -avd android23 -wipe-data -no-snapshot-load &
+	#sleep 20
+	#adb wait-for-device
+
+	#while [[  "$(adb shell getprop sys.boot_completed 2>/dev/null)" != "1"  ]]; do
+	#    sleep 2
+	#done
+
+	#sleep 5
+	pkill -f run_stoat_testing.rb 2>/dev/null
+	pkill -f stoat 2>/dev/null
+
+	rm -rf Stoat/tmp/*
+	rm -rf Stoat/output/*
+	rm -rf Stoat/logs/*
+	rm -rf Stoat/workspace/*
+	rm -rf ~/.stoat 2>/dev/null
+
+	find . -name "*.stg" -delete 2>/dev/null
+	find . -name "*.xml" -delete 2>/dev/null
+	find . -name "*.json" -delete 2>/dev/null
+
+	rm -rf /tmp/stoat* 2>/dev/null
+        rm -rf /tmp/ge* 2>/dev/null
+
+	adb -s "$device" shell rm  -fr /data/local/tmp/* 2>/dev/null
+	adb -s "$device" shell rm  -fr /sdcard/* 2>/dev/null
+
+	echo "[*] RESET DONE"
+}
+
 apps=$(ls "$apps_path" | grep ".apk")
 #apps=$(cat missing.txt)
 
-emulator_name="emulator-5554"
+if [ ! -d "$output_logs_dir" ]; then
+    mkdir -p "$output_logs_dir"
+fi
 
-# Function to check if emulator is running
-is_emulator_running() {
-    pgrep -f "emulator.*-avd $emulator_name" > /dev/null
-}
+#cleanup
+fuser -k 2000/tcp 2>/dev/null
+pkill -f SocketServer 2>/dev/null
+#pkill -f rec.rb 2>/dev/null
+#pkill -f analyzeAndroidApk.sh 2>/dev/null
+sleep 2
 
-# Function to launch emulator if not running
-ensure_emulator_running() {
-    if ! is_emulator_running; then
-        echo "Emulator not running. Launching emulator..."
-        nohup emulator -avd "$emulator_name" -no-snapshot-save -no-snapshot-load > /dev/null 2>&1 &
-        # Wait for emulator to boot
-        echo "Waiting for emulator to boot..."
-        adb wait-for-device
-        boot_completed=""
-        while [ "$boot_completed" != "1" ]; do
-            boot_completed=$(adb shell getprop sys.boot_completed 2>/dev/null | tr -d '\r')
+for app in $apps; do
+    echo "====================================="
+    echo "[*] START APP: $app"
+    echo "====================================="
+    reset_environment
+    adb -s "$device" uninstall "$package_name" 2>/dev/null 
+
+    appname=$(echo "$app" | sed 's/\.apk$//')
+    adb -s "$device" install -r -g "$apps_path/$app" 
+    package_name=$(aapt dump badging "$apps_path/$app" | grep "package: name=" | awk -F"'" '{print $2}')
+    echo "[*] Extracted package $package_name"
+
+    if [ -z "$package_name" ]; then
+        echo "Failed to extract package name for $app"
+        continue
+    fi
+
+    start_time=$(date +%s)
+    end_time=$((start_time + 30*60))
+    run_count=0
+
+    while [ "$(date +%s)" -lt "$end_time" ]; do
+        now=$(date +%s)
+        remaining=$((end_time - now))
+        run_count=$((run_count + 1))
+
+	adb -s "$device" logcat -c
+
+        adb -s "$device" logcat -s GAPS >> "$output_logs_dir/$app.log" &
+        logcat_pid=$!
+
+
+        echo "[*] Restart #$run_count for $app"
+        echo "[*] Remaining seconds: $remaining"
+        echo "====== RESTART #$run_count $(date '+%F %T') ======" >> "$output_logs_dir/$app.log"
+
+	touch "$output_logs_dir/other/${appname}_stg.xml"
+
+	# lancia GE e lascialo girare al massimo per il tempo rimanente
+        timeout "${remaining}s" ruby Stoat/bin/run_stoat_testing.rb --avd_name="$device" --apk_path="$apps_path/$app" --stg="$output_logs_dir/other/${appname}_stg.xml" >> "$output_logs_dir/other/$app.stoat.log" 2>&1 &
+        ge_pid=$!
+
+
+	while kill -0 "$ge_pid" 2>/dev/null; do
+            now=$(date +%s)
+
+            if ! kill -0 "$ge_pid" 2>/dev/null; then
+                echo "[*] GE dead, restart loop..."
+                break 
+            fi
+
+            if [ "$now" -ge "$end_time" ]; then
+                echo "[*] 30 minutes reached, stopping GoalExplorer"
+                kill -9 "$ge_pid" 2>/dev/null
+                wait "$ge_pid" 2>/dev/null
+                break 2
+            fi
+
+            # controlla se app è viva
+            pid=$(adb -s "$device" shell pidof "$package_name" 2>/dev/null | tr -d '\r')
+
+            if [ -z "$pid" ]; then
+                echo "[!] App crashed/stopped: $package_name"
+                adb -s "$device"  logcat -d AndroidRuntime:E *:S >> "$output_logs_dir/other/$app.crash.txt"
+
+                echo "[*] Killing GoalExplorer because app is dead"
+                kill -9 "$ge_pid" 2>/dev/null
+                wait "$ge_pid" 2>/dev/null
+                break
+            fi
+
             sleep 2
         done
-        echo "Emulator booted."
-    else
-        echo "Emulator is already running."
-    fi
-}
 
-# Run the process three times with different output_logs_dirs
-for i in 1 2 3; do
-    output_logs_dir="./output_logs_dir_run_$i"
-    if [ ! -d "$output_logs_dir" ]; then
-        mkdir -p "$output_logs_dir"
-    fi
+	kill "$logcat_pid" 2>/dev/null
+        wait "$logcat_pid" 2>/dev/null
 
-    for app in $apps; do
-        appname=$(echo $app | sed 's/.apk//g')
-        log_file="$output_logs_dir/$app.log"
-
-        # Skip if log file already exists
-        if [ -f "$log_file" ]; then
-            echo "Log file for $app already exists in $output_logs_dir. Skipping."
-            continue
-        fi
-
-        echo $app
-
-        sleep 5
-
-        # Ensure emulator is running
-        ensure_emulator_running
-
-        # Extract package name using aapt
-        package_name=$(aapt dump badging "$apps_path/$app" | grep "package: name=" | awk -F"'" '{print $2}')
-        
-        # Run the provided command with timeout and kill the process after timeout
-        timeout --kill-after=5m 5m ruby Stoat/bin/run_stoat_testing.rb --avd_name=$emulator_name --apk_path="$apps_path/$app" --stg=./GoalExplorer/goalexplorer_results/$appname/${appname}_stg.xml
-
-        echo "Command done"
-        
-        # Save logs and clear logcat
-        adb logcat -d -s GAPS > "$log_file"
-        adb logcat -c
-        
+	echo "[*] Restarting because app crashed"
+	sleep 2
     done
+
+    echo "[*] Command done for $app"
+
+
+    if [ -n "$package_name" ]; then
+        echo "[*] Package name : $package_name"
+	adb -s "$device" shell am force-stop "$package_name" || echo "force-stop failed"
+    else
+        echo "Failed to extract package name for $app"
+    fi
 done

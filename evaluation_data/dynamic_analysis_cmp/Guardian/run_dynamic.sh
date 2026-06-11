@@ -1,39 +1,134 @@
 #!/bin/bash
 
-# Check for mandatory apps_path argument
-if [ -z "$1" ]; then
-    echo "Usage: $0 <apps_path> [output_logs_dir]"
+# Check existence of exactly 2 command-line arguments
+if [ "$#" -ne 3 ]; then
+    echo "Usage: $0 <output_logs_dir> <apps_path> <device>"
     exit 1
 fi
 
-apps_path="$1"
+output_logs_dir="$1"
+apps_path="$2"
+device="$3"
+
+SEEDS_DIR="/home/stefano/Desktop/seeds"
+
 apps=$(ls "$apps_path" | grep ".apk")
 
-# Optional output_logs_dir argument
-output_logs_dir=${2:-"./output_logs_dir"}
 if [ ! -d "$output_logs_dir" ]; then
     mkdir -p "$output_logs_dir"
 fi
 
 for app in $apps; do
-    echo $app 
-    adb install -g "$apps_path/$app"
-
-    # Extract package name using aapt
+    echo "====================================="
+    echo "[*] START APP: $app"
+    echo "====================================="
+ 
+    adb -s "$device" install -g "$apps_path/$app" 
+        
     package_name=$(aapt dump badging "$apps_path/$app" | grep "package: name=" | awk -F"'" '{print $2}')
     
-    # Run the provided command with timeout and kill the process after timeout
-    timeout --kill-after=5m 5m python run.py -a "$apps_path/$app" -t "interact with the application to maximize exploration" 
+    if [ -z "$package_name" ]; then
+        echo "Failed to extract package name for $app"
+        continue
+    fi
 
-    echo "Command done"
+    adb -s "$device" logcat -c
+    adb -s "$device"  logcat -s GAPS >> "$output_logs_dir/$app.log" &
+    logcat_pid=$!
+
+    start_time=$(date +%s)
+    end_time=$((start_time + 30*60))
+
+    run_count=0
+
+
+    while [ "$(date +%s)" -lt "$end_time" ]; do
+        now=$(date +%s)
+        remaining=$((end_time - now))
+        run_count=$((run_count + 1))
+
+        echo "[*] Restart #$run_count for $app"
+        echo "[*] Remaining seconds: $remaining"
+        echo "====== RESTART #$run_count $(date '+%F %T') ======" >> "$output_logs_dir/$app.log"
+
+	txt_file="$SEEDS_DIR/${app%.apk}.txt"
+
+	if [ -f "$txt_file" ]; then
+    		methods=$(shuf "$txt_file" | head -n 10 | sed 's/^/- /')
+	else
+    		methods="- no targets available"
+	fi
+
+    PROMPT="""You are an automated Android UI testing and exploration agent.
+
+Your primary objective is to drive the application through its graphical user interface and maximize the likelihood of reaching the following target methods:
+
+$methods
+
+While exploring, reason about how the current UI state may relate to the application's underlying functionality and navigation structure.
+
+Guidelines:
+
+- Prioritize interactions that are likely to reveal new functionality, screens, or execution paths.
+- Infer the purpose of UI elements (buttons, menus, dialogs, forms, tabs, settings, etc.) from their labels, context, and previous observations.
+- Favor actions that appear related to the target methods or the features they may implement.
+- Systematically explore unexplored screens and widgets before repeating previously visited interactions.
+- When a navigation path appears unproductive, backtrack and explore alternative paths.
+- Complete required user flows such as login, onboarding, permissions, or form submission when necessary to unlock additional functionality.
+- Use information gathered from previous states to build a mental model of the application and guide future decisions.
+- Avoid random interaction sequences; every action should be justified by a hypothesis about the functionality it may expose.
+
+At each step:
+
+- Analyze the current UI state.
+- Identify the most promising interaction.
+    """
+
+
+	# lancia APE e lascialo girare al massimo per il tempo rimanente
+        timeout "$remaining" python run.py -a "$apps_path/$app" -t "$PROMPT"  -m 200 >> "$output_logs_dir/$app.log" 2>&1 &
+        gu_pid=$!
+
+        echo "[*] GUARDIAN PID: $gu_pid"
+
+        while kill -0 "$gu_pid" 2>/dev/null; do
+            now=$(date +%s)
+
+            if [ "$now" -ge "$end_time" ]; then
+                echo "[*] 30 minutes reached, stopping GUARDIAN"
+                kill -9 "$gu_pid" 2>/dev/null	
+                wait "$gu_pid" 2>/dev/null
+                break 2
+            fi
+
+            # controlla se app è viva
+            pid=$(adb -s "$device" shell pidof "$package_name" 2>/dev/null | tr -d '\r')
+
+            if [ -z "$pid" ]; then
+                echo "[!] App crashed/stopped: $package_name"
+                adb -s "$device"  logcat -d | grep -i "FATAL EXCEPTION\|AndroidRuntime\|Exception\|CRASH" >> "$output_logs_dir/$app.crash.txt"
+
+                echo "[*] Killing GUARDIAN because app is dead"
+                kill -9 "$gu_pid" 2>/dev/null
+                wait "$gu_pid" 2>/dev/null
+                break
+            fi
+
+            sleep 2
+        done
+
+        echo "[*] GUARDIAN terminated, relaunching if time remains..."
+        sleep 2
+    done
+
+    echo "[*] Command done for $app"
+
+
+    kill "$logcat_pid" 2>/dev/null
+    wait "$logcat_pid" 2>/dev/null
     
-    # Save logs and clear logcat
-    adb logcat -d -s GAPS > "$output_logs_dir/$app.log"
-    adb logcat -c
-    
-    # Uninstall the app
     if [ -n "$package_name" ]; then
-        adb uninstall "$package_name"
+        adb -s "$device" uninstall "$package_name"
     else
         echo "Failed to extract package name for $app"
     fi

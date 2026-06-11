@@ -289,7 +289,6 @@ def main():
     final_pdf = root / f"{tool}_runs.pdf"
     plt.figure(figsize=(10, 6))
     plt.plot(times / 60.0, final_avg, linewidth=3, label="Final average")
-    plt.axvline(x=5, linestyle="--", label="5 min")
     max_val = float(np.max(final_avg))
     plt.axhline(
         y=max_val, linestyle=":", color="gray", label=f"Max {max_val:.2f}%"

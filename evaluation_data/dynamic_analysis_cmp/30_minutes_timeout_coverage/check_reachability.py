@@ -154,7 +154,7 @@ if __name__ == "__main__":
 
     for subdir in subdirectories:
         subdir_path = os.path.join(results_directory, subdir)
-        output_csv = subdir + "_reachability_stats.csv"
+        output_csv = os.path.join(results_directory, subdir + "_reachability_stats.csv")
         main(subdir_path, testing_seeds_dir, output_csv)
 
     # Combine all reachability stats into a final CSV

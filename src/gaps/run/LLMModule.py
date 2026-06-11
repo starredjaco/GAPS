@@ -152,7 +152,7 @@ Output nothing but the JSON object. Do not wrap it in markdown block quotes.
         for _ in range(max_retries):
             try:
                 response = client.chat.completions.create(
-                    model="gpt-5.2",
+                    model="gpt-5.4",
                     messages=[
                         {
                             "role": "system",
@@ -160,7 +160,7 @@ Output nothing but the JSON object. Do not wrap it in markdown block quotes.
                         },
                         {"role": "user", "content": prompt},
                     ],
-                    temperature=0.2,
+                    temperature=0.7,
                 )
                 content = response.choices[0].message.content.strip()
                 if content.startswith("```json"):

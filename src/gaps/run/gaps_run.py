@@ -13,7 +13,7 @@ from com.dtmilano.android.viewclient import ViewClient
 from collections import defaultdict
 
 from . import utils
-from .LLMModule import LLMThread
+from .phil import PHIL
 from .LogcatChecker import LogcatChecker
 
 event = threading.Event()
@@ -324,7 +324,7 @@ class GAPSRUN:
         if len(activity.split()) > 1:
             activity = "_".join(activity.split())
 
-        llmThread = LLMThread(
+        llmThread = PHIL(
             self.apk_path,
             self.instructions_dir,
             self.target_method,
@@ -364,45 +364,6 @@ class GAPSRUN:
         except Exception:
             return False
         return True
-
-    def perform_action_from_memory(self, curr_activity, target_activity):
-        activity_memory_path = os.path.join(
-            self.instructions_dir, "activity_memory.json"
-        )
-        found = False
-        if os.path.exists(activity_memory_path):
-            with open(activity_memory_path, "r") as f:
-                activity_memory = json.load(f)
-            print(curr_activity, target_activity)
-            if (
-                curr_activity in activity_memory
-                and target_activity in activity_memory[curr_activity]
-            ):
-                print("[+] FOUND ACTIVITY MEMORY, PERFORMING ACTIONS")
-                for actions in activity_memory[curr_activity][target_activity]:
-                    for action in actions:
-                        splits = action.split()
-                        if splits[0] == "click" and "/" in splits[1]:
-                            operation = [
-                                curr_activity,
-                                splits[1].split("/")[1],
-                            ]
-                            self.perform_action(
-                                self.vc, operation, self.package_name
-                            )
-                        elif splits[0] == "text" and "/" in splits[1]:
-                            operation = [
-                                curr_activity,
-                                splits[1].split("/")[1],
-                            ]
-                            self.perform_action(
-                                self.vc, operation, self.package_name
-                            )
-                            self.input_text(splits[2])
-                    if self.get_current_activity() == target_activity:
-                        found = True
-                        return found
-        return found
 
     def _process_method(self, class_method, json_paths):
         print(f"[+] LOOKING FOR {class_method}")
@@ -518,22 +479,13 @@ class GAPSRUN:
                     status = self.perform_action(
                         self.vc, path[i], self.package_name
                     )
-                    curr_activity = self.get_current_activity()
                     target_activity = path[i][0]
                     if (status == -1 or status == -2) and not self.llm_used[
                         target_activity
                     ]:
-                        if not self.perform_action_from_memory(
-                            curr_activity, target_activity
-                        ):
-                            print("[+] USING LLMs")
-                            self.use_llms(path[i], target_path=path)
-                            self.llm_used[target_activity] = True
-                    elif self.perform_action_from_memory(
-                        curr_activity, target_activity
-                    ):
-                        i += 1
-                        print("[+] USING MEMORY")
+                        print("[+] USING LLMs")
+                        self.use_llms(path[i], target_path=path)
+                        self.llm_used[target_activity] = True
                     else:
                         i += 1
                     self.vc.sleep(0.2)

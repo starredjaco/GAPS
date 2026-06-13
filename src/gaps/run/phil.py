@@ -7,7 +7,7 @@ import os
 import re
 
 
-class LLMThread(threading.Thread):
+class PHIL(threading.Thread):
     def __init__(
         self,
         apk_path,
@@ -144,7 +144,8 @@ You MUST respond with a strictly valid JSON object using this schema:
 {{
     "action": "CLICK" | "TYPE" | "SWIPE" | "BACK",
     "index": <integer reference to the element index, or -1 if BACK>,
-    "text": "<only required if action is TYPE, otherwise empty string>"
+    "text": "<only required if action is TYPE, otherwise empty string>",
+    "justification": "<A 1-sentence explanation of why this action is a progress in the static path>",
 }}
 Output nothing but the JSON object. Do not wrap it in markdown block quotes.
 """
@@ -197,7 +198,7 @@ Output nothing but the JSON object. Do not wrap it in markdown block quotes.
         else:
             res_id_short = str(element["bounds"])
 
-        action_log = ""
+        action_log = None
         action_summary = ""
 
         if cmd == "CLICK":
@@ -246,52 +247,9 @@ Output nothing but the JSON object. Do not wrap it in markdown block quotes.
             action_summary = f"SWIPED on index {index}"
 
         if action_log:
-            self.save_memory(curr_activity, action_log)
             return "SUCCESS", action_summary
 
         return "UNKNOWN", "Unknown action command"
-
-    def save_memory(self, curr_activity, action_log):
-        memory_file = os.path.join(
-            self.instructions_dir, "activity_memory.json"
-        )
-        try:
-            time.sleep(1)
-            get_current_focus = subp.Popen(
-                "adb shell dumpsys window | grep mCurrentFocus",
-                shell=True,
-                stdout=subp.PIPE,
-            )
-            communicate = get_current_focus.communicate()
-            if not communicate[0]:
-                return
-            new_activity = (
-                communicate[0].decode().strip().split("/")[-1].replace("}", "")
-            )
-
-            if (
-                curr_activity != new_activity
-                and curr_activity
-                and new_activity
-            ):
-                data = {}
-                if os.path.exists(memory_file):
-                    with open(memory_file, "r") as f:
-                        data = json.load(f)
-
-                if curr_activity not in data:
-                    data[curr_activity] = {}
-                if new_activity not in data[curr_activity]:
-                    data[curr_activity][new_activity] = []
-
-                events_list = [action_log]
-                if events_list not in data[curr_activity][new_activity]:
-                    data[curr_activity][new_activity].append(events_list)
-
-                with open(memory_file, "w") as f:
-                    json.dump(data, f, indent=4)
-        except Exception as e:
-            print(f"Error saving memory: {e}")
 
     def run(self):
         class_name, method_name = self.target_method.split(";->")

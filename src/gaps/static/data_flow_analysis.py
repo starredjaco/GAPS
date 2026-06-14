@@ -83,9 +83,6 @@ def points_to_analysis(
             if "put" in instr.split()[0]:
                 ignore_caller = False
                 only_caller = True
-            else:
-                ignore_caller = False
-                only_caller = False
         layers += 1
         if not registers:
             registers = list(
@@ -361,6 +358,10 @@ def constant_propagation(
                 or "invoke" in var_path[0].split()[0]
             ):
                 continue
+            else:
+                print(f"unexpected instruction type for constant propagation: {var_path[0]}") 
+                ignore_caller = False
+                only_caller = False
             layers += 1
             res = points_to_analysis(
                 var_path,

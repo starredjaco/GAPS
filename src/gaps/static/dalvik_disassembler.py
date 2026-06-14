@@ -384,57 +384,107 @@ def _get_method_name(method):
     return f"> {method_name} <"
 
 
-def basic_blocks_2_graph(
-    gaps,
-    method,
-) -> defaultdict:
+def basic_blocks_2_graph(gaps, method):
     """
-    Converts basic blocks to a graph representation.
-
-    Args:
-        gaps (object): Instance of GAPS.
-        method: Method object.
+    Fixed CFG builder (instruction-level, backward compatible output).
 
     Returns:
-        defaultdict: Graph representation of basic blocks.
+        graph: defaultdict(set)  -> SUCCESSOR CFG (IMPORTANT FIX)
+        translate: dict[offset] -> instruction string
     """
-    graph = defaultdict(set)
+
     m = method.get_method()
     method_name = _get_method_name(method)
+
     if method_name in gaps.search_list:
         return gaps.search_list[method_name]
+
     offset_method = m.get_address()
-    translate = dict()
-    translate[-1] = method_name
+
+    graph = defaultdict(set)   # SUCCESSOR graph (FIXED SEMANTICS)
+    translate = {}
+
     basic_blocks = method.get_basic_blocks()
+
+    # ---------------------------------------------------
+    # 1. FIRST PASS: create instruction nodes
+    # ---------------------------------------------------
+    bb_to_insts = {}
+
     for bb in basic_blocks:
-        instructions = list(bb.get_instructions())
-        offset_inst = bb.get_start() + offset_method
-        for inst in instructions[:-1]:
-            inst_out = inst.get_output()
-            if "(" in inst_out:
-                inst_out = inst_out.replace(" ", "").replace(",", ", ")
-            str_inst = "{} {}".format(inst.get_name(), inst_out)
-            translate[offset_inst] = str_inst
+        insts = list(bb.get_instructions())
 
-            next_inst_offset = offset_inst + inst.get_length()
+        offset = bb.get_start() + offset_method
+        bb_to_insts[bb] = []
 
-            graph[next_inst_offset].add(offset_inst)
+        for inst in insts:
+            inst_off = offset
 
-            offset_inst = next_inst_offset
-        # multiple destinations ?
-        last_inst = instructions[-1]
-        # node
-        inst_out = last_inst.get_output()
-        if "(" in inst_out:
-            inst_out = inst_out.replace(" ", "").replace(",", ", ")
-        str_inst = "{} {}".format(last_inst.get_name(), inst_out)
-        translate[offset_inst] = str_inst
-        # edges
+            out = inst.get_output()
+            if "(" in out:
+                out = out.replace(" ", "").replace(",", ", ")
+
+            translate[inst_off] = f"{inst.get_name()} {out}"
+
+            graph[inst_off]  # ensure node exists (IMPORTANT FIX)
+
+            bb_to_insts[bb].append(inst_off)
+
+            offset += inst.get_length()
+
+    # ---------------------------------------------------
+    # 2. INTRA-BLOCK EDGES (fall-through)
+    # ---------------------------------------------------
+    for bb, insts in bb_to_insts.items():
+        for i in range(len(insts) - 1):
+            src = insts[i]
+            dst = insts[i + 1]
+            #graph[dst].add(src)
+            graph[src].add(dst)
+
+    # ---------------------------------------------------
+    # 3. INTER-BLOCK EDGES (control flow / goto / branch)
+    # ---------------------------------------------------
+    for bb in basic_blocks:
+        insts = bb_to_insts.get(bb, [])
+        if not insts:
+            continue
+
+        last_inst = insts[-1]
+
         for child in bb.childs:
             child_offset = child[1] + offset_method
-            graph[child_offset].add(offset_inst)
-    gaps.search_list[method_name] = graph, translate
+
+            # find FIRST instruction of target BB
+            # (safe: BB start maps to first inst in our mapping)
+            target_bb = None
+            for b in basic_blocks:
+                if b.get_start() + offset_method == child_offset:
+                    target_bb = b
+                    break
+
+            if target_bb is None:
+                continue
+
+            target_insts = bb_to_insts.get(target_bb, [])
+            if not target_insts:
+                continue
+
+            first_inst = target_insts[0]
+
+            #graph[first_inst].add(last_inst)
+            graph[last_inst].add(first_inst)
+
+    # ---------------------------------------------------
+    # 4. ENTRY NODE (keeps your old convention)
+    # ---------------------------------------------------
+    translate[-1] = method_name
+
+    # ---------------------------------------------------
+    # 5. CACHE + RETURN (BACKWARD COMPATIBLE)
+    # ---------------------------------------------------
+    gaps.search_list[method_name] = (graph, translate)
+
     return graph, translate
 
 

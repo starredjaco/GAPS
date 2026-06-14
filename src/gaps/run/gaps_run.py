@@ -311,9 +311,9 @@ class GAPSRUN:
         )
 
     def restart_app(self, package_name):
-        self.stop_app(self.package_name)
+        self.stop_app(package_name)
         time.sleep(2)
-        self.start_app(self.package_name)
+        self.start_app(package_name)
 
     def use_llms(self, instruction, target_path=None):
         if len(instruction) == 2:

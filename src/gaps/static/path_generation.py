@@ -325,57 +325,62 @@ def _breadth_first_search_graph(
     return list_paths
 
 
-def _graph_visit(
-    graph: nx.DiGraph,
-    translate: dict,
-    source_node: int,
-):
+def _graph_visit(graph, translate, source_node, k=50):
     """
-    Traverse an nx.DiGraph from source_node to the uppermost successor(s),
-    building instruction sequences using `translate` for literal instructions.
+    Bounded CFG traversal (k shortest simple paths)
 
-    Returns a list of instruction-sequence tuples. If `explore` is False a single
-    "deepest" sequence (minimum terminal node id) is returned; otherwise all
-    sequences that reach that same deepest terminal node are returned.
+    Guarantees:
+    - no cycles within a path
+    - bounded exploration (prevents explosion)
+    - returns up to k shortest paths
     """
-    # queue entries: (current_node, node_path_list, code_path_list)
+
     q = deque()
     start_instr = translate.get(source_node, "<unk>")
-    q.append((source_node, [source_node], [start_instr]))
+    print(start_instr)
 
-    set_paths = set()
+    # (node, visited_set, path_nodes, path_code)
+    q.append((source_node, {source_node}, [source_node], [start_instr]))
+
+    results = []
 
     while q:
-        node, node_path, code_path = q.popleft()
 
-        # get successors (nodes that current node leads into)
-        try:
-            preds = list(graph.successors(node))
-        except Exception:
-            # fallback for non-nx graphs (preserve some compatibility)
-            preds = list(graph.get(node, [])) if hasattr(graph, "get") else []
+        # stop early if we already have enough paths
+        if len(results) >= 2*k:
+            break
 
-        # if no successors -> we've reached an uppermost instruction, record path
-        if not preds:
-            tail = code_path + [translate.get(-1, "<tail>")]
-            set_paths.add(tuple(tail))
+        node, visited, node_path, code_path = q.popleft()
+
+        successors = graph.get(node, set())
+
+        # terminal node
+        if not successors:
+            results.append(
+                tuple(code_path + [translate.get(-1, "<tail>")])
+            )
             continue
 
-        # iterate predecessors; keep one as "main" and limit alternatives globally
-        main_taken = False
-        for p in preds:
-            if p in node_path:
-                # avoid cycles
-                continue
-            if not main_taken:
-                # extend current path in-place (main path)
-                new_node_path = node_path + [p]
-                new_code_path = code_path + [translate.get(p, "<unk>")]
-                q.appendleft((p, new_node_path, new_code_path))
-                main_taken = True
+        for succ in successors:
 
-    # return all collected paths for that deepest terminal
-    return list(set_paths)
+            # cycle prevention (simple path constraint)
+            if succ in visited:
+                continue
+
+            q.append(
+                (
+                    succ,
+                    visited | {succ},
+                    node_path + [succ],
+                    code_path + [translate.get(succ, "<unk>")]
+                )
+            )
+
+    # sort by path length (shortest paths first)
+    results.sort(key=len)
+
+    print(f"Found {len(results)} paths (bounded to k={k})")
+    return results[:k]
 
 
 def get_reflection_calls(gaps):

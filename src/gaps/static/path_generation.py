@@ -7,6 +7,8 @@ import matplotlib.pyplot as plt
 from collections import deque, defaultdict
 from itertools import groupby
 
+from networkx.algorithms.simple_paths import shortest_simple_paths
+
 from . import method_utils
 from . import conditional_path_generation
 from . import icc_analysis
@@ -325,62 +327,59 @@ def _breadth_first_search_graph(
     return list_paths
 
 
-def _graph_visit(graph, translate, source_node, k=50):
+def _graph_visit(graph, translate, source_node, k=10):
     """
-    Bounded CFG traversal (k shortest simple paths)
+    NetworkX-based bounded path extraction (entry → target).
 
-    Guarantees:
-    - no cycles within a path
-    - bounded exploration (prevents explosion)
-    - returns up to k shortest paths
+    Args:
+        graph: dict or nx.DiGraph (SUCCESSOR CFG)
+        translate: node -> instruction string
+        source_node: TARGET node (sink you want to reach)
+        k: number of paths to return
+
+    Returns:
+        list of instruction paths (root → target order)
     """
 
-    q = deque()
-    start_instr = translate.get(source_node, "<unk>")
-    print(start_instr)
+    #root node is the smallest address
+    root_node = min(graph.keys())
 
-    # (node, visited_set, path_nodes, path_code)
-    q.append((source_node, {source_node}, [source_node], [start_instr]))
+    # ---------------------------------------------------
+    # 1. Build NetworkX graph if needed
+    # ---------------------------------------------------
+    if not isinstance(graph, nx.DiGraph):
+        G = nx.DiGraph()
+        for src, succs in graph.items():
+            for dst in succs:
+                G.add_edge(src, dst)
+    else:
+        G = graph
 
-    results = []
+    # ---------------------------------------------------
+    # 2. Extract k shortest paths (ROOT → TARGET)
+    # ---------------------------------------------------
+    try:
+        path_iter = shortest_simple_paths(G, root_node, source_node)
 
-    while q:
+        results = []
+        for i, path in enumerate(path_iter):
+            if i >= k:
+                break
 
-        # stop early if we already have enough paths
-        if len(results) >= 2*k:
-            break
+            # convert node path → instruction path
+            inst_path = [
+                translate.get(n, "<unk>")
+                for n in path
+            ]
 
-        node, visited, node_path, code_path = q.popleft()
+            inst_path = inst_path[::-1] + [translate.get(-1, "< tail >")]
 
-        successors = graph.get(node, set())
+            results.append(tuple(inst_path))
 
-        # terminal node
-        if not successors:
-            results.append(
-                tuple(code_path + [translate.get(-1, "<tail>")])
-            )
-            continue
+        return results
 
-        for succ in successors:
-
-            # cycle prevention (simple path constraint)
-            if succ in visited:
-                continue
-
-            q.append(
-                (
-                    succ,
-                    visited | {succ},
-                    node_path + [succ],
-                    code_path + [translate.get(succ, "<unk>")]
-                )
-            )
-
-    # sort by path length (shortest paths first)
-    results.sort(key=len)
-
-    print(f"Found {len(results)} paths (bounded to k={k})")
-    return results[:k]
+    except nx.NetworkXNoPath:
+        return []
 
 
 def get_reflection_calls(gaps):

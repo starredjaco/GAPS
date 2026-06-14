@@ -147,7 +147,6 @@ def find_ui_id(last_path: list, gaps) -> [str, str]:
         if element_id and not element_text:
             element_text = _grep_element_text(element_id, gaps)
         if not element_id and not element_text:
-            print(last_instr)
             log = f"MISSING ID {last_instr}\n"
             if log not in gaps.logs:
                 gaps.logs += log
@@ -456,19 +455,14 @@ def _get_variable_or_int_id(
         [str, str, str]: Object class, object name, and resource integer ID.
     """
     object_class, object_name, resource_int_id = None, None, None
-    print(class_name_callback)
     for path in paths:
         parameters = data_flow_analysis.points_to_analysis(
             path, 0, gaps, ignore_caller=True
         )
         for path_dfa in parameters:
-            if "La2dp/Vol/main;" in path_dfa[-1] and class_name_callback == "La2dp/Vol/main$3":
-                print(path_dfa)
             for reg in parameters[path_dfa]:
                 if "instruction" in parameters[path_dfa][reg]:
                     parameter = parameters[path_dfa][reg]["instruction"]
-                    if "La2dp/Vol/main;" in path_dfa[-1] and class_name_callback == "La2dp/Vol/main$3":
-                        print(parameter)
                     check_path_for_id = False
                     if (
                         class_name_callback in parameter
